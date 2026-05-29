@@ -1,0 +1,16 @@
+# Feed Registry -- single source of truth for all feed generators.
+# run_all_feeds.py reads this file.
+#
+# To add a new feed:
+#   1. Create feed_generators/<name>.py exposing main(full: bool)
+#   2. Add an entry here
+#   3. (Optional) add a Make target
+#   4. Update README.md
+#
+# To disable a feed temporarily, add `enabled: false` to its entry.
+
+feeds:
+  reuters:
+    script: reuters_news.py
+    type: requests
+    blog_url: https://www.reuters.com/

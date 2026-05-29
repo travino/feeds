@@ -1,0 +1,159 @@
+"""Validate all RSS feeds for empty content and stale items."""
+
+import sys
+import xml.etree.ElementTree as ET
+from datetime import UTC, datetime
+from email.utils import parsedate_to_datetime
+from pathlib import Path
+
+STALE_THRESHOLD_DAYS = 60
+FEEDS_DIR = Path(__file__).parent.parent / "feeds"
+
+
+def _local(tag):
+    """Return an element tag without its XML namespace prefix."""
+    return tag.split("}")[-1] if "}" in tag else tag
+
+
+def _find_entries(root):
+    """Return feed entries for both RSS (<item>) and Atom (<entry>)."""
+    return [el for el in root.iter() if _local(el.tag) in ("item", "entry")]
+
+
+def _entry_date(entry):
+    """Parse an entry's date from RSS pubDate or Atom updated/published."""
+    for child in entry:
+        tag = _local(child.tag)
+        text = (child.text or "").strip()
+        if not text:
+            continue
+        if tag == "pubDate":
+            try:
+                return parsedate_to_datetime(text)
+            except (ValueError, TypeError):
+                return None
+        if tag in ("updated", "published"):
+            try:
+                return datetime.fromisoformat(text.replace("Z", "+00:00"))
+            except ValueError:
+                return None
+    return None
+
+
+def validate_feed(feed_path):
+    """Validate a single feed file.
+
+    Returns:
+        dict with keys: name, item_count, newest_date, status, message
+    """
+    name = feed_path.name
+    try:
+        tree = ET.parse(feed_path)
+    except ET.ParseError as e:
+        return {
+            "name": name,
+            "item_count": 0,
+            "newest_date": None,
+            "status": "ERROR",
+            "message": f"XML parse error: {e}",
+        }
+
+    root = tree.getroot()
+    items = _find_entries(root)
+    item_count = len(items)
+
+    if item_count == 0:
+        return {
+            "name": name,
+            "item_count": 0,
+            "newest_date": None,
+            "status": "EMPTY",
+            "message": "0 items",
+        }
+
+    # Find newest entry date (RSS pubDate or Atom updated/published)
+    newest = None
+    for item in items:
+        dt = _entry_date(item)
+        if dt is not None:
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=UTC)
+            if newest is None or dt > newest:
+                newest = dt
+
+    if newest is None:
+        return {
+            "name": name,
+            "item_count": item_count,
+            "newest_date": None,
+            "status": "OK",
+            "message": f"{item_count} items, no parseable dates",
+        }
+
+    days_ago = (datetime.now(UTC) - newest).days
+
+    if days_ago > STALE_THRESHOLD_DAYS:
+        return {
+            "name": name,
+            "item_count": item_count,
+            "newest_date": newest,
+            "status": "STALE",
+            "message": f"{item_count} items, newest: {newest.strftime('%Y-%m-%d')} ({days_ago} days ago)",
+        }
+
+    return {
+        "name": name,
+        "item_count": item_count,
+        "newest_date": newest,
+        "status": "OK",
+        "message": f"{item_count} items, newest: {newest.strftime('%Y-%m-%d')}",
+    }
+
+
+def main():
+    feeds = sorted(FEEDS_DIR.glob("feed_*.xml"))
+
+    if not feeds:
+        print("No feed files found in feeds/")
+        sys.exit(1)
+
+    results = [validate_feed(f) for f in feeds]
+
+    # Print summary
+    print(f"\nFeed Validation Summary ({len(results)} feeds):")
+    print(f"{'=' * 70}")
+
+    for r in results:
+        print(f"  {r['name']:50s} {r['status']:5s}  {r['message']}")
+
+    empty = [r for r in results if r["status"] == "EMPTY"]
+    stale = [r for r in results if r["status"] == "STALE"]
+    errors = [r for r in results if r["status"] == "ERROR"]
+
+    print(f"{'=' * 70}")
+
+    if errors:
+        print(f"\nERRORS: {len(errors)} feed(s) with XML parse errors")
+        for r in errors:
+            print(f"  {r['name']}: {r['message']}")
+
+    if empty:
+        print(f"\nERRORS: {len(empty)} empty feed(s)")
+        for r in empty:
+            print(f"  {r['name']}")
+
+    if stale:
+        print(f"\nWARNINGS: {len(stale)} stale feed(s) (>{STALE_THRESHOLD_DAYS} days)")
+        for r in stale:
+            print(f"  {r['name']}: {r['message']}")
+
+    if not empty and not errors:
+        print("\nAll feeds have content.")
+
+    # Exit 1 only for empty or parse-error feeds
+    if empty or errors:
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
