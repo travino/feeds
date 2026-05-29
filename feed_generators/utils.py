@@ -31,7 +31,7 @@ DEFAULT_HEADERS = {"User-Agent": DEFAULT_USER_AGENT}
 # Used to build the rel="self" link in each feed. In GitHub Actions,
 # GITHUB_REPOSITORY ("owner/repo") is set automatically, so the self link is
 # correct out of the box. Override locally with RSS_REPO_SLUG if needed.
-REPO_SLUG = os.getenv("RSS_REPO_SLUG") or os.getenv("GITHUB_REPOSITORY") or "OWNER/rss-feeds"
+REPO_SLUG = os.getenv("RSS_REPO_SLUG") or os.getenv("GITHUB_REPOSITORY") or "travino/feeds"
 
 # ---------------------------------------------------------------------------
 # Logging
