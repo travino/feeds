@@ -39,10 +39,14 @@ jobs:
           python-version: "3.11"
 
       - name: Generate feeds
+        env:
+          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
+          # OPENWEATHER_LOCATION: "Chrzanów,PL"   # optional override
+          # OPENWEATHER_UNITS: "metric"            # metric | imperial | standard
         run: |
           set -e
           uv sync
-          uv run feed_generators/run_all_feeds.py
+          uv run feed_generators/run_all_feeds.py     
 
       - name: Validate feeds
         run: uv run feed_generators/validate_feeds.py
