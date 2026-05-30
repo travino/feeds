@@ -12,6 +12,7 @@ can be added later.
 | Source | Feed |
 | ------ | ---- |
 | [Beatport Top 100](https://www.beatport.com/top-100) | [feed_beatport_top100.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_beatport_top100.xml) |
+| [Daily Digest](https://api.viewbits.com/) | [feed_daily_digest.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_daily_digest.xml) |
 | [Reuters](https://www.reuters.com/) | [feed_reuters.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_reuters.xml) |
 
 > In CI the `rel="self"` link inside each feed is filled in automatically from
@@ -32,6 +33,25 @@ Beatport is behind Cloudflare, which fingerprints the TLS handshake and returns
 HTTP 403 to plain `requests`. The generator uses `curl_cffi` (Chrome
 impersonation) to fetch the page; if a run is blocked it skips writing so the
 last good feed is preserved.
+
+### About the Daily Digest feed
+
+A single Atom feed that combines five small JSON APIs into one stream: the
+ZenQuotes [quote of the day](https://zenquotes.io/api/today), and ViewBits'
+[useless fact](https://api.viewbits.com/v1/uselessfacts?mode=today),
+[life hack](https://api.viewbits.com/v1/lifehacks?mode=today),
+[fortune cookie](https://api.viewbits.com/v1/fortunecookie?mode=today), and
+[news headlines](https://api.viewbits.com/v1/headlines). Each source is fetched
+independently, so one being down never sinks the run.
+
+A JSON cache (`cache/daily_digest_posts.json`) accumulates history across hourly
+runs and dedupes entries by `guid`. Headlines are keyed by article URL. The four
+"today" endpoints expose only a single URL each (no per-day permalink), so they
+are keyed by a synthetic `{kind}:{date}` guid dated to that day, while their
+clickable link still points at the original source — re-runs within a day don't
+churn the feed, but each new day's quote/fact/hack/fortune is added as a fresh
+entry. The merged feed is capped at the newest 100 entries; if every source
+fails, the run skips writing so the last good feed is preserved.
 
 ### About the Reuters feed
 
