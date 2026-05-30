@@ -72,18 +72,3 @@ feeds automatically.
 
 `run_all_feeds.py` reads `feeds.yaml`, so the hourly workflow picks up new
 feeds automatically.
-
-## Layout
-
-```
-.
-├── .github/workflows/update-feeds.yml   # hourly generate + validate + commit
-├── feeds.yaml                           # feed registry
-├── feed_generators/
-│   ├── reuters_news.py                  # Reuters -> Atom (via Google News proxy)
-│   ├── run_all_feeds.py                 # runs every generator in feeds.yaml
-│   ├── utils.py                         # shared helpers (HTTP, cache, feedgen)
-│   └── validate_feeds.py                # RSS + Atom validation
-├── feeds/                               # generated output
-└── cache/                               # incremental dedupe state (committed)
-```
