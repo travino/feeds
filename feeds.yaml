@@ -22,3 +22,6 @@ feeds:
     script: reuters_news.py
     type: requests
     blog_url: https://www.reuters.com/
+  openweather:
+    script: openweather.py
+    enabled: true
