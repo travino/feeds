@@ -63,3 +63,15 @@ feeds_czworka: ## Generate RSS feed for Czwórka (incremental)
 feeds_czworka_full: ## Generate RSS feed for Czwórka (full reset)
 	$(call check_venv)
 	$(Q)uv run feed_generators/czworka_blog.py --full
+
+.PHONY: feeds_nexusmods_news
+feeds_nexusmods_news: ## Generate RSS feed for Nexus Mods News (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Nexus Mods News feed)
+	$(Q)uv run feed_generators/nexusmods_news_blog.py
+	$(call print_success,Nexus Mods News feed generated)
+
+.PHONY: feeds_nexusmods_news_full
+feeds_nexusmods_news_full: ## Generate RSS feed for Nexus Mods News (full reset)
+	$(call check_venv)
+	$(Q)uv run feed_generators/nexusmods_news_blog.py --full
