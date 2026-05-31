@@ -39,3 +39,27 @@ validate: ## Validate all generated feeds
 .PHONY: clean
 clean: ## Remove generated feeds and cache
 	rm -f feeds/feed_*.xml cache/*_posts.json
+
+.PHONY: feeds_trojka
+feeds_trojka: ## Generate RSS feed for Trójka (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Trójka feed)
+	$(Q)uv run feed_generators/trojka_blog.py
+	$(call print_success,Trójka feed generated)
+
+.PHONY: feeds_trojka_full
+feeds_trojka_full: ## Generate RSS feed for Trójka (full reset)
+	$(call check_venv)
+	$(Q)uv run feed_generators/trojka_blog.py --full
+
+.PHONY: feeds_czworka
+feeds_czworka: ## Generate RSS feed for Czwórka (incremental)
+	$(call check_venv)
+	$(call print_info,Generating Czwórka feed)
+	$(Q)uv run feed_generators/czworka_blog.py
+	$(call print_success,Czwórka feed generated)
+
+.PHONY: feeds_czworka_full
+feeds_czworka_full: ## Generate RSS feed for Czwórka (full reset)
+	$(call check_venv)
+	$(Q)uv run feed_generators/czworka_blog.py --full
