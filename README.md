@@ -4,9 +4,6 @@ Self-updating feeds for news sites that don't offer a usable native feed.
 A GitHub Actions workflow regenerates every feed hourly and commits the result,
 so the raw file URLs below always serve fresh content.
 
-This repo starts with a single feed — **Reuters** — and is structured so more
-can be added later.
-
 ## Feeds
 
 | Source | Feed |
