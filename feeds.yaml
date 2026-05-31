@@ -25,3 +25,6 @@ feeds:
   openweather:
     script: openweather.py
     enabled: true
+  visualcrossing:
+    script: visualcrossing.py
+    enabled: true
