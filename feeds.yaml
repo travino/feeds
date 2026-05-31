@@ -28,3 +28,11 @@ feeds:
   visualcrossing:
     script: visualcrossing.py
     enabled: true
+  trojka:
+    script: trojka_blog.py
+    type: requests
+    blog_url: https://trojka.polskieradio.pl/czytaj-wiecej
+  czworka:
+    script: czworka_blog.py
+    type: requests
+    blog_url: https://www.polskieradio.pl/10,czworka
