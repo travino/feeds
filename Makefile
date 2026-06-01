@@ -99,3 +99,7 @@ feeds_foobar2000_news: ## Generate Atom feed for foobar2000 News (incremental)
 feeds_foobar2000_news_full: ## Generate Atom feed for foobar2000 News (full reset)
 	$(call check_venv)
 	$(Q)uv run feed_generators/foobar2000_news_blog.py --full
+
+.PHONY: feeds_anthropic_claude
+feeds_anthropic_claude: ## Generate only the combined Anthropic/Claude feed
+	$(PY) feed_generators/anthropic_claude.py
