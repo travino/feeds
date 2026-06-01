@@ -1,168 +1,80 @@
-# RSS / Atom Feeds
+# travino/feeds
 
-Self-updating feeds for news sites that don't offer a usable native feed.
-A GitHub Actions workflow regenerates every feed hourly and commits the result,
-so the raw file URLs below always serve fresh content.
+Generated syndication feeds for sites that don't publish their own.
 
 ## Feeds
 
-| Source | Feed |
-| ------ | ---- |
-| <img src="https://www.google.com/s2/favicons?domain=beatport.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Beatport Top 100](https://www.beatport.com/top-100) | [feed_beatport_top100.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_beatport_top100.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=polskieradio.pl&sz=32" width="16" height="16" align="absmiddle" alt=""> [Czwórka – Polskie Radio](https://www.polskieradio.pl/10,czworka) | [feed_czworka.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_czworka.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=viewbits.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Daily Digest](https://api.viewbits.com/) | [feed_daily_digest.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_daily_digest.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=nexusmods.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Nexus Mods News](https://www.nexusmods.com/news) | [feed_nexusmods_news.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_nexusmods_news.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=openweathermap.org&sz=32" width="16" height="16" align="absmiddle" alt=""> [OpenWeather — Chrzanów](https://openweathermap.org/city/3093133) | [feed_openweather.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_openweather.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=reuters.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Reuters](https://www.reuters.com/) | [feed_reuters.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_reuters.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=trojka.polskieradio.pl&sz=32" width="16" height="16" align="absmiddle" alt=""> [Trójka – Polskie Radio](https://trojka.polskieradio.pl/) | [feed_trojka.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_trojka.xml) |
-| <img src="https://www.google.com/s2/favicons?domain=visualcrossing.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Visual Crossing — Chrzanów](https://www.visualcrossing.com/) | [feed_visualcrossing.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_visualcrossing.xml) |
+| Source | Format | Feed |
+| --- | --- | --- |
+| [Jbzd.com.pl](https://jbzd.com.pl/) | Atom 1.0 | [feeds/feed_jbzd.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_jbzd.xml) |
 
-> Favicons are pulled live from Google's favicon service
-> (`https://www.google.com/s2/favicons?domain=<host>`); no images are committed
-> to the repo.
+## How it works
 
-> In CI the `rel="self"` link inside each feed is filled in automatically from
-> `GITHUB_REPOSITORY`, so it tracks the repo name without any manual edits.
+Jbzd.com.pl exposes no native RSS/Atom feed, so `feed_generators/jbzd_blog.py`
+scrapes the homepage (a static, `requests` + BeautifulSoup site) and emits a
+valid Atom 1.0 feed. Each entry carries the post title, permalink, publish time
+(from each item's `data-date` attribute), categories, and an embedded preview
+image.
 
-### About the Beatport feed
+The homepage only shows ~8 posts at a time. To retain more than one page of
+history, each run merges newly scraped posts into a rolling JSON cache
+(`feeds/.cache/jbzd.json`), deduped by post id, sorted newest-first, and capped
+at 300 entries. The Atom feed is rebuilt from the full cache, so it accumulates
+history across runs instead of being overwritten.
 
-Beatport's [Top 100](https://www.beatport.com/top-100) page is a Next.js app
-with no native feed, but the full chart is embedded in the page's
-`__NEXT_DATA__` JSON, so it can be read with a plain request (no browser
-automation). Because the chart is a *ranking* rather than a stream, this feed
-is framed as **tracks as they enter the Top 100**: each track is an entry keyed
-by its Beatport URL and dated when first seen, with its debut rank kept in the
-summary. A JSON cache (`cache/beatport_top100_posts.json`) accumulates history
-across hourly runs and dedupes by track URL.
-
-Beatport is behind Cloudflare, which fingerprints the TLS handshake and returns
-HTTP 403 to plain `requests`. The generator uses `curl_cffi` (Chrome
-impersonation) to fetch the page; if a run is blocked it skips writing so the
-last good feed is preserved.
-
-### About the Nexus Mods News feed
-
-Nexus Mods has no native feed for its [news section](https://www.nexusmods.com/news)
-and, like Beatport, sits behind Cloudflare (HTTP 403 to plain `requests`). The
-listing is server-rendered, though, so no browser automation is needed: the
-generator uses `curl_cffi` (Chrome impersonation) to clear the bot check and
-parses the `div.tile-content` article cards for title, link, date, author,
-category, and summary.
-
-A JSON cache (`cache/nexusmods_news_posts.json`) accumulates history across
-hourly runs and dedupes by article URL. Incremental runs fetch only page 1 and
-merge; `make feeds_nexusmods_news_full` (or `--full`) walks several `?page=N`
-pages to backfill the archive. If a run returns no articles it skips writing so
-the last good feed is preserved.
-
-### About the Daily Digest feed
-
-A single Atom feed that combines five small JSON APIs into one stream: the
-ZenQuotes [quote of the day](https://zenquotes.io/api/today), and ViewBits'
-[useless fact](https://api.viewbits.com/v1/uselessfacts?mode=today),
-[life hack](https://api.viewbits.com/v1/lifehacks?mode=today),
-[fortune cookie](https://api.viewbits.com/v1/fortunecookie?mode=today), and
-[news headlines](https://api.viewbits.com/v1/headlines). Each source is fetched
-independently, so one being down never sinks the run.
-
-A JSON cache (`cache/daily_digest_posts.json`) accumulates history across hourly
-runs and dedupes entries by `guid`. Headlines are keyed by article URL. The four
-"today" endpoints expose only a single URL each (no per-day permalink), so they
-are keyed by a synthetic `{kind}:{date}` guid dated to that day, while their
-clickable link still points at the original source — re-runs within a day don't
-churn the feed, but each new day's quote/fact/hack/fortune is added as a fresh
-entry. The merged feed is capped at the newest 100 entries; if every source
-fails, the run skips writing so the last good feed is preserved.
-
-### About the OpenWeather feed
-
-A daily forecast feed for Chrzanów built from OpenWeather's free
-[5 day / 3 hour forecast](https://openweathermap.org/forecast5) endpoint (works
-with a standard API key — no One Call subscription needed). The 3-hour slots are
-aggregated into one entry per calendar day in the city's own timezone: daytime
-headline condition, high/low, chance of precipitation, wind, humidity, and
-rain/snow totals.
-
-A JSON cache (`cache/openweather_posts.json`) accumulates history across hourly
-runs: past days are preserved as a record, while upcoming days are refreshed in
-place as the forecast is revised. An entry's `updated` timestamp only changes
-when its summary actually changes, so unchanged days don't churn the feed. The
-API key is read from the `OPENWEATHER_API_KEY` environment variable (a GitHub
-Actions secret in CI) and is never committed; `OPENWEATHER_LOCATION` and
-`OPENWEATHER_UNITS` override the default location and units.
-
-### About the Visual Crossing feed
-
-A daily forecast feed for Chrzanów built from the
-[Visual Crossing Timeline API](https://www.visualcrossing.com/resources/documentation/weather-api/timeline-weather-api/).
-Unlike raw 3-hourly sources, this endpoint returns ready-made **daily**
-aggregates (high/low, precip probability, wind, humidity, UV, sunrise/sunset),
-and with `lang=pl` the `conditions` and `description` text comes back already
-localized to Polish — so each entry reads naturally with no rollup on our side.
-Weather **alerts** returned by the API are emitted as their own entries.
-
-A JSON cache (`cache/visualcrossing_posts.json`) accumulates history across
-hourly runs: past days are preserved, upcoming days are refreshed in place, and
-an entry's `updated` timestamp only changes when its summary changes, so
-unchanged days don't churn the feed. The API key is read from the
-`VISUALCROSSING_API_KEY` environment variable (a GitHub Actions secret in CI)
-and is never committed; `VISUALCROSSING_LOCATION`, `VISUALCROSSING_UNITS`, and
-`VISUALCROSSING_LANG` (default `pl`) override the defaults.
-
-Note: Visual Crossing's free tier allows 1000 records/day. A forecast call here
-costs ~1 record, so an hourly run (~24/day) stays well within budget — but
-adding `include=hours` raises the per-call cost.
-
-### About the Reuters feed
-
-Reuters discontinued its public RSS feeds in 2020, and `reuters.com` blocks
-automated requests, so it can't be scraped directly. This feed instead pulls
-recent Reuters articles from the Google News RSS proxy and republishes them as
-a clean **Atom 1.0** feed. A small JSON cache (`cache/reuters_posts.json`) is
-committed alongside the feed so article history accumulates across hourly runs
-rather than being limited to the latest fetch window.
-
-Note: article links point to `news.google.com` redirect URLs (which resolve to
-the original Reuters article) — an inherent trade-off of using the proxy.
-
-## Local usage
-
-Requires [uv](https://docs.astral.sh/uv/) (or plain Python + the deps in
-`pyproject.toml`).
+## Setup
 
 ```bash
-make install        # install dependencies
-make feeds          # generate all feeds (incremental)
-make feeds-full     # rebuild from scratch, ignoring the cache
-make validate       # check every feed for content and freshness
+pip install -r requirements.txt
 ```
 
-Generated feeds are written to `feeds/feed_<name>.xml`.
+## Regenerate
 
-## Adding another feed
+```bash
+make feeds_jbzd            # incremental: merge new posts into the archive
+make feeds_jbzd_full       # full reset: rebuild from the current page only
+```
 
-1. Create `feed_generators/<name>.py` exposing `main(full: bool)` and writing
-   to `feeds/feed_<name>.xml` (use `reuters_news.py` as a template).
-2. Add an entry to `feeds.yaml`.
-3. Optionally add a `feeds_<name>` Make target.
-4. Add a row to the table above (with a favicon, as shown).
+Equivalent direct calls:
 
-`run_all_feeds.py` reads `feeds.yaml`, so the hourly workflow picks up new
-feeds automatically.
+```bash
+python3 feed_generators/jbzd_blog.py          # incremental
+python3 feed_generators/jbzd_blog.py --full   # reset cache
+python3 feed_generators/jbzd_blog.py page.html  # build from a saved HTML file
+```
 
-## Layout
+Output is written to `feeds/feed_jbzd.xml`; history lives in
+`feeds/.cache/jbzd.json`.
+
+## Project layout
 
 ```
-.
-├── .github/workflows/update-feeds.yml   # hourly generate + validate + commit
-├── feeds.yaml                           # feed registry
+travino/
 ├── feed_generators/
-│   ├── reuters_news.py                  # Reuters -> Atom (via Google News proxy)
-│   ├── openweather.py                   # OpenWeather -> Atom (daily forecast)
-│   ├── visualcrossing.py                # Visual Crossing -> Atom (daily forecast, PL)
-│   ├── run_all_feeds.py                 # runs every generator in feeds.yaml
-│   ├── utils.py                         # shared helpers (HTTP, cache, feedgen)
-│   └── validate_feeds.py                # RSS + Atom validation
-├── feeds/                               # generated output
-└── cache/                               # incremental dedupe state (committed)
+│   └── jbzd_blog.py        # scraper + Atom builder + cache merge
+├── feeds/
+│   ├── feed_jbzd.xml       # generated Atom feed (rolling archive)
+│   └── .cache/
+│       └── jbzd.json       # entry cache — source of truth for history
+├── feeds.yaml              # feed registry
+├── Makefile                # make feeds_jbzd / feeds_jbzd_full
+└── requirements.txt
 ```
+
+## Scheduling
+
+Run on a schedule to keep the archive growing — e.g. an hourly cron job or a
+GitHub Actions workflow that runs `make feeds_jbzd` and commits the results.
+
+> **Important for CI:** commit `feeds/.cache/jbzd.json` along with the feed.
+> The cache is what carries history between runs; if it isn't persisted, each
+> run starts from only the current homepage and the archive can't grow.
+
+## Notes
+
+- Entries are deduplicated by post id and sorted newest-first.
+- A failure parsing any single post is logged and skipped — it never aborts the
+  whole run.
+- Re-running on an unchanged homepage is a no-op (0 new entries).
+- Adjust `MAX_ENTRIES` in `jbzd_blog.py` (and `max_entries` in `feeds.yaml`) to
+  change how much history is retained.
