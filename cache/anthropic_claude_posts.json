@@ -1,0 +1,600 @@
+{
+  "last_updated": "2026-06-01T17:53:54.384280+00:00",
+  "entries": [
+    {
+      "title": "Contextual Retrieval in AI Systems",
+      "link": "https://www.anthropic.com/engineering/contextual-retrieval",
+      "date": "2024-09-19T00:00:00+00:00",
+      "description": "Explore how Anthropic enhances AI systems through advanced contextual retrieval methods. Learn about our approach to improving information access and relevance in large language models.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Building Effective AI Agents",
+      "link": "https://www.anthropic.com/engineering/building-effective-agents",
+      "date": "2024-12-19T00:00:00+00:00",
+      "description": "Discover how Anthropic approaches the development of reliable AI agents. Learn about our research on agent capabilities, safety considerations, and technical framework for building trustworthy AI.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Claude SWE-Bench Performance",
+      "link": "https://www.anthropic.com/engineering/swe-bench-sonnet",
+      "date": "2025-01-06T00:00:00+00:00",
+      "description": "Explore Claude's breakthrough performance on SWE-Bench, demonstrating advanced software engineering capabilities and code generation accuracy. Learn about our technical evaluation methods.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "The \"think\" tool: Enabling Claude to stop and think",
+      "link": "https://www.anthropic.com/engineering/claude-think-tool",
+      "date": "2025-03-20T00:00:00+00:00",
+      "description": "A blog post for developers, describing a new method for complex tool-use situations",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Best practices for Claude Code - Claude Code Docs",
+      "link": "https://www.anthropic.com/engineering/claude-code-best-practices",
+      "date": "2025-04-18T00:00:00+00:00",
+      "description": "Tips and patterns for getting the most out of Claude Code, from configuring your environment to scaling across parallel sessions.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "How we built our multi-agent research system",
+      "link": "https://www.anthropic.com/engineering/multi-agent-research-system",
+      "date": "2025-06-13T00:00:00+00:00",
+      "description": "On the the engineering challenges and lessons learned from building Claude's Research system",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Claude Desktop Extensions: One-click MCP server installation for Claude Desktop",
+      "link": "https://www.anthropic.com/engineering/desktop-extensions",
+      "date": "2025-06-26T00:00:00+00:00",
+      "description": "Claude Desktop Extensions: One-click MCP server installation for Claude Desktop",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Writing effective tools for AI agents—using AI agents",
+      "link": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+      "date": "2025-09-11T00:00:00+00:00",
+      "description": "Writing effective tools for AI agents—using AI agents",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "A postmortem of three recent issues",
+      "link": "https://www.anthropic.com/engineering/a-postmortem-of-three-recent-issues",
+      "date": "2025-09-17T00:00:00+00:00",
+      "description": "This is a technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Effective context engineering for AI agents",
+      "link": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "date": "2025-09-29T00:00:00+00:00",
+      "description": "Effective context engineering for AI agents",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Equipping agents for the real world with Agent Skills",
+      "link": "https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills",
+      "date": "2025-10-16T00:00:00+00:00",
+      "description": "Discover how Anthropic builds AI agents with practical capabilities through modular skills, enabling them to handle complex real-world tasks more effectively and reliably.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Making Claude Code more secure and autonomous with sandboxing",
+      "link": "https://www.anthropic.com/engineering/claude-code-sandboxing",
+      "date": "2025-10-20T00:00:00+00:00",
+      "description": "Learn how Claude Code's new sandboxing feature protects developers with filesystem and network isolation, reducing permission prompts and increasing user safety.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Code execution with MCP: building more efficient AI agents",
+      "link": "https://www.anthropic.com/engineering/code-execution-with-mcp",
+      "date": "2025-11-04T00:00:00+00:00",
+      "description": "Learn how code execution with the Model Context Protocol enables agents to handle more tools while using fewer tokens, reducing context overhead by up to 98.7%.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Introducing advanced tool use on the Claude Developer Platform",
+      "link": "https://www.anthropic.com/engineering/advanced-tool-use",
+      "date": "2025-11-24T00:00:00+00:00",
+      "description": "Claude can now discover, learn, and execute tools dynamically to enable agents that take action in the real world. Here’s how.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Effective harnesses for long-running agents",
+      "link": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "date": "2025-11-26T00:00:00+00:00",
+      "description": "Effective harnesses for long-running agents",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "How enterprises are building AI agents in 2026",
+      "link": "https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026",
+      "date": "2025-12-09T00:00:00+00:00",
+      "description": "How enterprises are building AI agents in 2026",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Project Vend: Phase two",
+      "link": "https://www.anthropic.com/research/project-vend-2",
+      "date": "2025-12-18T00:00:00+00:00",
+      "description": "How Claude turned around its failing vending machine business",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "Demystifying evals for AI agents",
+      "link": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "date": "2026-01-09T00:00:00+00:00",
+      "description": "Demystifying evals for AI agents",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Designing AI resistant technical evaluations",
+      "link": "https://www.anthropic.com/engineering/AI-resistant-technical-evaluations",
+      "date": "2026-01-21T00:00:00+00:00",
+      "description": "What we learned from three iterations of a performance engineering take-home that Claude keeps beating.",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Claude is a space to think",
+      "link": "https://www.anthropic.com/news/claude-is-a-space-to-think",
+      "date": "2026-02-04T00:00:00+00:00",
+      "description": "We’ve made a choice: Claude will remain ad-free. We explain why advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust.",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Quantifying infrastructure noise in agentic coding evals",
+      "link": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "date": "2026-02-05T00:00:00+00:00",
+      "description": "Quantifying infrastructure noise in agentic coding evals",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Building a C compiler with a team of parallel Claudes",
+      "link": "https://www.anthropic.com/engineering/building-c-compiler",
+      "date": "2026-02-05T00:00:00+00:00",
+      "description": "Building a C compiler with a team of parallel Claudes",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "link": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "date": "2026-03-06T00:00:00+00:00",
+      "description": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Claude now creates interactive charts, diagrams and visualizations",
+      "link": "https://claude.com/blog/claude-builds-visuals",
+      "date": "2026-03-12T00:00:00+00:00",
+      "description": "Claude now creates interactive charts, diagrams and visualizations",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Harness design for long-running application development",
+      "link": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "date": "2026-03-24T00:00:00+00:00",
+      "description": "Harness design for long-running application development",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+      "link": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "date": "2026-03-25T00:00:00+00:00",
+      "description": "How we built Claude Code auto mode: a safer way to skip permissions",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Harnessing Claude’s intelligence",
+      "link": "https://claude.com/blog/harnessing-claudes-intelligence",
+      "date": "2026-04-02T00:00:00+00:00",
+      "description": "Harnessing Claude’s intelligence",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "link": "https://www.anthropic.com/engineering/managed-agents",
+      "date": "2026-04-08T00:00:00+00:00",
+      "description": "Scaling Managed Agents: Decoupling the brain from the hands",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "Claude Managed Agents: get to production 10x faster",
+      "link": "https://claude.com/blog/claude-managed-agents",
+      "date": "2026-04-08T00:00:00+00:00",
+      "description": "Claude Managed Agents: get to production 10x faster",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Preparing your security program for AI-accelerated offense",
+      "link": "https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense",
+      "date": "2026-04-10T00:00:00+00:00",
+      "description": "Preparing your security program for AI-accelerated offense",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Redesigning Claude Code on desktop for parallel agents",
+      "link": "https://claude.com/blog/claude-code-desktop-redesign",
+      "date": "2026-04-14T00:00:00+00:00",
+      "description": "Redesigning Claude Code on desktop for parallel agents",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "link": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+      "date": "2026-04-17T00:00:00+00:00",
+      "description": "Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Announcing the Anthropic Economic Index Survey",
+      "link": "https://www.anthropic.com/research/economic-index-survey-announcement",
+      "date": "2026-04-22T00:00:00+00:00",
+      "description": "Announcing the Anthropic Economic Index Survey",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "An update on recent Claude Code quality reports",
+      "link": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "date": "2026-04-23T00:00:00+00:00",
+      "description": "An update on recent Claude Code quality reports",
+      "source": "Anthropic Engineering"
+    },
+    {
+      "title": "New connectors in Claude for everyday life",
+      "link": "https://claude.com/blog/connectors-for-everyday-life",
+      "date": "2026-04-23T00:00:00+00:00",
+      "description": "New connectors in Claude for everyday life",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Built-in memory for Claude Managed Agents",
+      "link": "https://claude.com/blog/claude-managed-agents-memory",
+      "date": "2026-04-23T00:00:00+00:00",
+      "description": "Built-in memory for Claude Managed Agents",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench",
+      "link": "https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench",
+      "date": "2026-04-29T00:00:00+00:00",
+      "description": "Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "How people ask Claude for personal guidance",
+      "link": "https://www.anthropic.com/research/claude-personal-guidance",
+      "date": "2026-04-30T00:00:00+00:00",
+      "description": "How people ask Claude for personal guidance",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "link": "https://claude.com/blog/new-in-claude-managed-agents",
+      "date": "2026-05-06T00:00:00+00:00",
+      "description": "New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Natural Language Autoencoders",
+      "link": "https://www.anthropic.com/research/natural-language-autoencoders",
+      "date": "2026-05-07T00:00:00+00:00",
+      "description": "Turning Claude's thoughts into text",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "Donating our open-source alignment tool",
+      "link": "https://www.anthropic.com/research/donating-open-source-petri",
+      "date": "2026-05-07T00:00:00+00:00",
+      "description": "Updating Petri to version 3.0 and donating it to Meridian Labs",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "Focus areas for The Anthropic Institute",
+      "link": "https://www.anthropic.com/research/anthropic-institute-agenda",
+      "date": "2026-05-07T00:00:00+00:00",
+      "description": "At The Anthropic Institute (TAI), we’ll be using the information we can access from within a frontier lab to investigate AI’s impact on the world, and sharing our learnings with the public. Here, we’re sharing the questions that drive our research agenda.",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "Teaching Claude why",
+      "link": "https://www.anthropic.com/research/teaching-claude-why",
+      "date": "2026-05-08T00:00:00+00:00",
+      "description": "New research on how we've reduced agentic misalignment",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "Best practices for computer and browser use with claude",
+      "link": "https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude",
+      "date": "2026-05-13T00:00:00+00:00",
+      "description": "Best practices for computer and browser use with claude",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2028: Two scenarios for global AI leadership",
+      "link": "https://www.anthropic.com/research/2028-ai-leadership",
+      "date": "2026-05-14T00:00:00+00:00",
+      "description": "Our views on the AI competition between the US and China.",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "The founders playbook",
+      "link": "https://claude.com/blog/the-founders-playbook",
+      "date": "2026-05-14T00:00:00+00:00",
+      "description": "The founders playbook",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "How claude code works in large codebases best practices and where to start",
+      "link": "https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start",
+      "date": "2026-05-14T00:00:00+00:00",
+      "description": "How claude code works in large codebases best practices and where to start",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.142",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-142",
+      "date": "2026-05-14T22:59:30+00:00",
+      "description": "2.1.142",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Deploying claude across the legal industry",
+      "link": "https://claude.com/blog/deploying-claude-across-the-legal-industry",
+      "date": "2026-05-15T00:00:00+00:00",
+      "description": "Deploying claude across the legal industry",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.143",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-143",
+      "date": "2026-05-15T22:33:19+00:00",
+      "description": "2.1.143",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Anthropic acquires Stainless",
+      "link": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+      "date": "2026-05-18T00:00:00+00:00",
+      "description": "Anthropic acquires Stainless",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Widening the conversation on frontier AI",
+      "link": "https://www.anthropic.com/news/widening-conversation-ai",
+      "date": "2026-05-19T00:00:00+00:00",
+      "description": "Widening the conversation on frontier AI",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+      "link": "https://www.anthropic.com/news/anthropic-kpmg",
+      "date": "2026-05-19T00:00:00+00:00",
+      "description": "KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "link": "https://claude.com/blog/claude-managed-agents-updates",
+      "date": "2026-05-19T00:00:00+00:00",
+      "description": "New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.144",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-144",
+      "date": "2026-05-19T00:53:57+00:00",
+      "description": "2.1.144",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.145",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-145",
+      "date": "2026-05-19T21:40:46+00:00",
+      "description": "2.1.145",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Using claude code the unreasonable effectiveness of html",
+      "link": "https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html",
+      "date": "2026-05-20T00:00:00+00:00",
+      "description": "Using claude code the unreasonable effectiveness of html",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "How an anthropic sales leader uses claude cowork to run a 4 000 account book",
+      "link": "https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book",
+      "date": "2026-05-20T00:00:00+00:00",
+      "description": "How an anthropic sales leader uses claude cowork to run a 4 000 account book",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Compliance api security partners",
+      "link": "https://claude.com/blog/compliance-api-security-partners",
+      "date": "2026-05-21T00:00:00+00:00",
+      "description": "Compliance api security partners",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "How our partners are putting opus to work for cybersecurity",
+      "link": "https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity",
+      "date": "2026-05-21T00:00:00+00:00",
+      "description": "How our partners are putting opus to work for cybersecurity",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.147",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-147",
+      "date": "2026-05-21T20:46:43+00:00",
+      "description": "2.1.147",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Project Glasswing: An initial update",
+      "link": "https://www.anthropic.com/research/glasswing-initial-update",
+      "date": "2026-05-22T00:00:00+00:00",
+      "description": "An early update on what we've learned from Project Glasswing.",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "How anthropics finance team uses claude to shape the narrative behind the numbers",
+      "link": "https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers",
+      "date": "2026-05-22T00:00:00+00:00",
+      "description": "How anthropics finance team uses claude to shape the narrative behind the numbers",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.148",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-148",
+      "date": "2026-05-22T01:21:48+00:00",
+      "description": "2.1.148",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.149",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-149",
+      "date": "2026-05-22T22:25:09+00:00",
+      "description": "2.1.149",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.150",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-150",
+      "date": "2026-05-23T04:12:26+00:00",
+      "description": "2.1.150",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Anthropic co-founder Chris Olah's remarks on Pope Leo XIV's encyclical \"Magnifica humanitas\"",
+      "link": "https://www.anthropic.com/news/chris-olah-pope-leo-encyclical",
+      "date": "2026-05-25T00:00:00+00:00",
+      "description": "The full text of Chris Olah's remarks on the Pope's encyclical on AI",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea",
+      "link": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+      "date": "2026-05-26T00:00:00+00:00",
+      "description": "KiYoung Choi is joining Anthropic as Representative Director of Korea, ahead of the opening of our Seoul office.",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Code w claude london 2026 rethinking how we build",
+      "link": "https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build",
+      "date": "2026-05-26T00:00:00+00:00",
+      "description": "Code w claude london 2026 rethinking how we build",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Anthropic opens Milan office to support Italian enterprise, research, and developers",
+      "link": "https://www.anthropic.com/news/milan-office-opening",
+      "date": "2026-05-27T00:00:00+00:00",
+      "description": "We're opening a new office in Milan, our sixth in Europe.",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Coding agents in the social sciences",
+      "link": "https://www.anthropic.com/research/coding-agents-social-sciences",
+      "date": "2026-05-27T00:00:00+00:00",
+      "description": "Results from a survey of 1,260 social scientists about AI and coding agent use.",
+      "source": "Anthropic Research"
+    },
+    {
+      "title": "Using llms to secure source code",
+      "link": "https://claude.com/blog/using-llms-to-secure-source-code",
+      "date": "2026-05-27T00:00:00+00:00",
+      "description": "Using llms to secure source code",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "How coderabbit used claude to build an agent orchestration system",
+      "link": "https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system",
+      "date": "2026-05-27T00:00:00+00:00",
+      "description": "How coderabbit used claude to build an agent orchestration system",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "Zero trust for ai agents",
+      "link": "https://claude.com/blog/zero-trust-for-ai-agents",
+      "date": "2026-05-27T00:00:00+00:00",
+      "description": "Zero trust for ai agents",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.152",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-152",
+      "date": "2026-05-27T01:35:39+00:00",
+      "description": "2.1.152",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Introducing Claude Opus 4.8",
+      "link": "https://www.anthropic.com/news/claude-opus-4-8",
+      "date": "2026-05-28T00:00:00+00:00",
+      "description": "Our latest model, Claude Opus 4.8, is an upgrade to our Opus class of models, with stronger performance across coding, agentic tasks, and professional work, and the consistency to handle long-running work.",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "link": "https://www.anthropic.com/news/series-h",
+      "date": "2026-05-28T00:00:00+00:00",
+      "description": "Anthropic has raised $65 billion in Series H funding led by Altimeter Capital, Dragoneer, Greenoaks, and Sequoia Capital.",
+      "source": "Anthropic Newsroom"
+    },
+    {
+      "title": "Introducing dynamic workflows in claude code",
+      "link": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "date": "2026-05-28T00:00:00+00:00",
+      "description": "Introducing dynamic workflows in claude code",
+      "source": "Claude Blog"
+    },
+    {
+      "title": "2.1.153",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-153",
+      "date": "2026-05-28T01:00:17+00:00",
+      "description": "2.1.153",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.154",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-154",
+      "date": "2026-05-28T18:53:03+00:00",
+      "description": "2.1.154",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.156",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-156",
+      "date": "2026-05-29T01:51:54+00:00",
+      "description": "2.1.156",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.157",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-157",
+      "date": "2026-05-29T20:27:29+00:00",
+      "description": "2.1.157",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.158",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-158",
+      "date": "2026-05-30T06:59:44+00:00",
+      "description": "2.1.158",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "2.1.159",
+      "link": "https://code.claude.com/docs/en/changelog#2-1-159",
+      "date": "2026-05-31T19:47:03+00:00",
+      "description": "2.1.159",
+      "source": "Claude Code Changelog"
+    },
+    {
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "link": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "date": "2026-06-01T00:00:00+00:00",
+      "description": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission",
+      "source": "Anthropic Newsroom"
+    }
+  ]
+}
