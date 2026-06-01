@@ -37,3 +37,7 @@ feeds:
     script: jbzd_blog.py
     type: requests
     blog_url: https://jbzd.com.pl/
+  foobar2000_news:
+    script: foobar2000_news_blog.py
+    type: requests
+    blog_url: https://www.foobar2000.org/news
