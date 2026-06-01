@@ -1,12 +1,35 @@
-# Feed registry — single source of truth for the travino/feeds project.
-# Each entry maps a key to its generator script, fetch type, and source URL.
-
 feeds:
-  jbzd:
-    script: jbzd_blog.py
+  beatport_top100:
+    script: beatport_top100.py
     type: requests
-    blog_url: https://jbzd.com.pl/
-    format: atom
-    output: feeds/feed_jbzd.xml
-    cache: feeds/.cache/jbzd.json   # rolling archive; commit this to persist history
-    max_entries: 300
+    blog_url: https://www.beatport.com/top-100
+  daily_digest:
+    script: daily_digest.py
+    type: requests
+    blog_url: https://api.viewbits.com/
+  reuters:
+    script: reuters_news.py
+    type: requests
+    blog_url: https://www.reuters.com/
+  openweather:
+    script: openweather.py
+    type: requests
+    blog_url: https://openweathermap.org/
+    enabled: true
+  visualcrossing:
+    script: visualcrossing.py
+    type: requests
+    blog_url: https://www.visualcrossing.com/
+    enabled: true
+  trojka:
+    script: trojka_blog.py
+    type: requests
+    blog_url: https://trojka.polskieradio.pl/czytaj-wiecej
+  czworka:
+    script: czworka_blog.py
+    type: requests
+    blog_url: https://www.polskieradio.pl/10,czworka
+  nexusmods_news:
+    script: nexusmods_news_blog.py
+    type: requests
+    blog_url: https://www.nexusmods.com/news
