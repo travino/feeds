@@ -122,7 +122,9 @@ def extract_category(card) -> str:
 
 def parse_posts(html_pages) -> list[dict]:
     """Parse rendered HTML page(s) and extract article dicts."""
-    if isinstance(html_pages, str):
+    if html_pages is None:
+        html_pages = []
+    elif isinstance(html_pages, str):
         html_pages = [html_pages]
 
     posts = []

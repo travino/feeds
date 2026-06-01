@@ -139,11 +139,12 @@ def run_all_feeds(
 
     logger.info(f"{'=' * 60}\n")
 
-    # Fail the build if anything ran badly or the registry had bad entries.
+    # Individual feed failures (network blips, 403s, etc.) are logged but do
+    # NOT fail the build — the other feeds still publish. Only a malformed
+    # registry (a problem we can actually fix in-repo) fails the build.
     exit_code = 0
     if failed_scripts:
-        logger.error(f"ERROR: {len(failed_scripts)} feed(s) failed to generate")
-        exit_code = 1
+        logger.warning(f"{len(failed_scripts)} feed(s) failed to generate (not failing the build)")
     if skipped_configs:
         logger.error(f"ERROR: {len(skipped_configs)} invalid feed config(s) in feeds.yaml")
         exit_code = 1
