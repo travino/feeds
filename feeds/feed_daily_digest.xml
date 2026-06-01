@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://api.viewbits.com/daily_digest</id>
   <title>Daily Digest</title>
-  <updated>2026-05-31T22:07:50.355397+00:00</updated>
+  <updated>2026-06-01T00:12:48.568423+00:00</updated>
   <author>
     <name>Daily Digest</name>
   </author>
@@ -10,6 +10,80 @@
   <link href="https://api.viewbits.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Quote, fact, life hack, fortune cookie, and headlines of the day</subtitle>
+  <entry>
+    <id>fortune:2026-06-01</id>
+    <title>Fortune Cookie of the Day</title>
+    <updated>2026-06-01T00:00:00+00:00</updated>
+    <author>
+      <name>ViewBits</name>
+    </author>
+    <content>The easiest way to find a lost object is to buy a replacement.
+
+Lucky Numbers: 44, 24, 10, 9, 7, 19</content>
+    <link href="https://kitchenauthority.net/fortune-cookie-sayings/"/>
+    <category term="fortune"/>
+    <published>2026-06-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>lifehack:2026-06-01</id>
+    <title>Life Hack of the Day</title>
+    <updated>2026-06-01T00:00:00+00:00</updated>
+    <author>
+      <name>ViewBits</name>
+    </author>
+    <content>Use bread clips to organize your power cables.</content>
+    <link href="https://www.wea.org.uk/news-views/blog/life-skills/budgeting/20-life-hacks-simplify-your-day"/>
+    <category term="lifehack"/>
+    <published>2026-06-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>fact:2026-06-01</id>
+    <title>Useless Fact of the Day</title>
+    <updated>2026-06-01T00:00:00+00:00</updated>
+    <author>
+      <name>ViewBits</name>
+    </author>
+    <content>MTV first aired at 12:01 AM on August 1, 1981.</content>
+    <link href="https://www.brainofbrian.com/facts-tv.html"/>
+    <category term="fact"/>
+    <published>2026-06-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>quote:2026-06-01</id>
+    <title>Quote of the Day — Winston Churchill</title>
+    <updated>2026-06-01T00:00:00+00:00</updated>
+    <author>
+      <name>Winston Churchill</name>
+    </author>
+    <content>“Continuous effort - not strength or intelligence - is the key to unlocking our potential.” — Winston Churchill</content>
+    <link href="https://zenquotes.io/"/>
+    <category term="quote"/>
+    <published>2026-06-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nbcnews.com/news/us-news/weekend-rundown-may-31-rcna347615</id>
+    <title>Here’s the biggest news you missed this weekend</title>
+    <updated>2026-05-31T22:00:00+00:00</updated>
+    <author>
+      <name>nbcnews.com</name>
+    </author>
+    <content>Family visitation at a New Jersey immigration detention center is set to resume after being suspended amid days of protests, arrests and clashes outside the facility, Gov.</content>
+    <link href="https://www.nbcnews.com/news/us-news/weekend-rundown-may-31-rcna347615"/>
+    <category term="top"/>
+    <published>2026-05-31T22:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.wsj.com/business/deals/berkshire-hathaway-to-buy-homebuilder-taylor-morrison-for-6-8-billion-33a59be6</id>
+    <title>Berkshire Hathaway to Buy Homebuilder Taylor Morrison for $6.8 Billion</title>
+    <updated>2026-05-31T21:54:00+00:00</updated>
+    <author>
+      <name>wsj.com</name>
+    </author>
+    <content>The deal is one of the first big moves by Greg Abel, who succeeded Warren Buffett as chief executive officer in January.</content>
+    <link href="https://www.wsj.com/business/deals/berkshire-hathaway-to-buy-homebuilder-taylor-morrison-for-6-8-billion-33a59be6"/>
+    <category term="money"/>
+    <published>2026-05-31T21:54:00+00:00</published>
+  </entry>
   <entry>
     <id>https://sports.yahoo.com/articles/players-require-rest-gavaskar-questions-202200927.html</id>
     <title>‘Players require rest’: Gavaskar questions IPL 2026 final schedule, says GT deserved a fairer deal</title>
@@ -93,6 +167,18 @@
     <link href="https://sports.yahoo.com/articles/video-shows-more-texas-tech-201459825.html"/>
     <category term="sports"/>
     <published>2026-05-31T20:14:59+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.washingtontimes.com/news/2026/may/31/mayor-orders-curfew-ice-facility-seen-violent-protests-arrests/</id>
+    <title>Mayor orders curfew at ICE facility that has seen violent protests, arrests</title>
+    <updated>2026-05-31T19:38:56+00:00</updated>
+    <author>
+      <name>washingtontimes.com</name>
+    </author>
+    <content>Newark Mayor Ras Baraka ordered a curfew Sunday at the federal immigration-detention facility in his New Jersey city where several protesters have been arrested in violent scrums with police.</content>
+    <link href="https://www.washingtontimes.com/news/2026/may/31/mayor-orders-curfew-ice-facility-seen-violent-protests-arrests/"/>
+    <category term="us"/>
+    <published>2026-05-31T19:38:56+00:00</published>
   </entry>
   <entry>
     <id>https://finance.yahoo.com/markets/stocks/articles/trump-praised-ibms-legend-ceo-191000655.html</id>
@@ -1127,89 +1213,5 @@ Lucky Numbers: 88, 50, 24, 20, 24, 6</content>
     <link href="https://sports.yahoo.com/articles/shankland-bags-brace-scotland-hit-144045270.html"/>
     <category term="sports"/>
     <published>2026-05-30T14:40:45+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sports.yahoo.com/articles/mlb-had-4-walk-off-143659476.html</id>
-    <title>MLB had 4 walk-off home runs in one night, thanks to the Mets, Pirates, White Sox and Rockies</title>
-    <updated>2026-05-30T14:36:59+00:00</updated>
-    <author>
-      <name>sports.yahoo.com</name>
-    </author>
-    <content>It's hard to have more exciting finishes than these ones.</content>
-    <link href="https://sports.yahoo.com/articles/mlb-had-4-walk-off-143659476.html"/>
-    <category term="sports"/>
-    <published>2026-05-30T14:36:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sports.yahoo.com/articles/saracens-beat-harlequins-boost-play-140947431.html</id>
-    <title>Saracens beat Harlequins to boost play-off hopes</title>
-    <updated>2026-05-30T14:35:57+00:00</updated>
-    <author>
-      <name>sports.yahoo.com</name>
-    </author>
-    <content>Saracens beat Harlequins to boost their Prem play-off hopes and give departing director of rugby Mark McCall a winning farewell at the StoneX Stadium.</content>
-    <link href="https://sports.yahoo.com/articles/saracens-beat-harlequins-boost-play-140947431.html"/>
-    <category term="sports"/>
-    <published>2026-05-30T14:35:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sports.yahoo.com/articles/roland-garros-change-controversial-injury-143406233.html</id>
-    <title>Roland Garros to make change after controversial injury trend at French Open</title>
-    <updated>2026-05-30T14:34:06+00:00</updated>
-    <author>
-      <name>sports.yahoo.com</name>
-    </author>
-    <content>French Open to make changes to court advertising following complaints from Britain’s Katie Boulter and Iga Swiatek</content>
-    <link href="https://sports.yahoo.com/articles/roland-garros-change-controversial-injury-143406233.html"/>
-    <category term="sports"/>
-    <published>2026-05-30T14:34:06+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sports.yahoo.com/articles/florida-vying-coveted-edge-cahron-143345933.html</id>
-    <title>Florida vying for coveted EDGE Cahron Wheeler as OV season underway</title>
-    <updated>2026-05-30T14:33:45+00:00</updated>
-    <author>
-      <name>sports.yahoo.com</name>
-    </author>
-    <content>Florida football continues pursuing four-star EDGE Cahron Wheeler as official visit season ramps up.</content>
-    <link href="https://sports.yahoo.com/articles/florida-vying-coveted-edge-cahron-143345933.html"/>
-    <category term="sports"/>
-    <published>2026-05-30T14:33:45+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sports.yahoo.com/articles/brian-flores-claims-dolphins-trying-143316202.html</id>
-    <title>Brian Flores claims Dolphins are trying to force him to repay earned income</title>
-    <updated>2026-05-30T14:33:16+00:00</updated>
-    <author>
-      <name>sports.yahoo.com</name>
-    </author>
-    <content>The recent amendment to the Brian Flores civil complaint adds new allegations regarding a "culture of retaliation," based on his decision to assert his legal rights in court.</content>
-    <link href="https://sports.yahoo.com/articles/brian-flores-claims-dolphins-trying-143316202.html"/>
-    <category term="sports"/>
-    <published>2026-05-30T14:33:16+00:00</published>
-  </entry>
-  <entry>
-    <id>https://sports.yahoo.com/articles/bloom-carroll-liberty-union-punch-143310572.html</id>
-    <title>Bloom-Carroll and Liberty Union punch ticket to state tournament</title>
-    <updated>2026-05-30T14:33:10+00:00</updated>
-    <author>
-      <name>sports.yahoo.com</name>
-    </author>
-    <content>Bloom Carroll and Liberty Union softball teams won regional titles and are heading to the state tournament in Akron.</content>
-    <link href="https://sports.yahoo.com/articles/bloom-carroll-liberty-union-punch-143310572.html"/>
-    <category term="sports"/>
-    <published>2026-05-30T14:33:10+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.wsj.com/us-news/education/goucher-college-edenwald-bd9c7ab6</id>
-    <title>The New Students at This Liberal Arts College Are in Their 80s</title>
-    <updated>2026-05-30T14:00:00+00:00</updated>
-    <author>
-      <name>wsj.com</name>
-    </author>
-    <content>Baby boomers and the silent generation are attending classes at Goucher, part of a partnership meant to offset a steep decline in enrollment</content>
-    <link href="https://www.wsj.com/us-news/education/goucher-college-edenwald-bd9c7ab6"/>
-    <category term="us"/>
-    <published>2026-05-30T14:00:00+00:00</published>
   </entry>
 </feed>
