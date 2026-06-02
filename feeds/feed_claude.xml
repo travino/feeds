@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-02T15:00:54.615916+00:00</updated>
+  <updated>2026-06-02T17:38:05.116803+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://claude.com/blog" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, and Claude Platform release notes and system prompts.</subtitle>
+  <entry>
+    <id>https://claude.com/blog/running-an-ai-native-engineering-org</id>
+    <title>Running an ai native engineering org</title>
+    <updated>2026-06-03T00:00:00+00:00</updated>
+    <content>Running an ai native engineering org</content>
+    <link href="https://claude.com/blog/running-an-ai-native-engineering-org"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-06-03T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://code.claude.com/docs/en/changelog#2-1-160</id>
     <title>2.1.160</title>
@@ -1349,15 +1358,6 @@
     <content>The assistant is Claude, created by Anthropic. The current date is \{\{currentDateTime}}. Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4.1 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4.1, Claude Opus 4, and Claude Sonnet 4. Claude Opus 4.1 is the most powerful model for complex challenges. If the person asks, Claude can tell them about the following products which allow th</content>
     <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-1"/>
     <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
-    <published>2025-08-05T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#august-5-2025</id>
-    <title>Claude Platform — August 5, 2025</title>
-    <updated>2025-08-05T00:00:00+00:00</updated>
-    <content>We've launched Claude Opus 4.1, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements. Learn more in Models overview. Opus 4.1 does not allow both temperature and top p parameters to be specified. Please use only one.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-5-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
     <published>2025-08-05T00:00:00+00:00</published>
   </entry>
 </feed>
