@@ -41,7 +41,3 @@ feeds:
     script: foobar2000_news_blog.py
     type: requests
     blog_url: https://www.foobar2000.org/news
-  anthropic_claude:
-    script: anthropic_claude.py
-    type: requests
-    blog_url: https://www.anthropic.com/
