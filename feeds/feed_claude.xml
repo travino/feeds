@@ -1,0 +1,1363 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://claude.com/claude</id>
+  <title>Claude</title>
+  <updated>2026-06-02T12:12:57.326816+00:00</updated>
+  <author>
+    <name>Anthropic</name>
+  </author>
+  <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_claude.xml" rel="self"/>
+  <link href="https://claude.com/blog" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, and Claude Platform release notes and system prompts.</subtitle>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-160</id>
+    <title>2.1.160</title>
+    <updated>2026-06-02T02:18:10+00:00</updated>
+    <content>2.1.160</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-160"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-06-02T02:18:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-159</id>
+    <title>2.1.159</title>
+    <updated>2026-05-31T19:47:03+00:00</updated>
+    <content>2.1.159</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-159"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-31T19:47:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-21</id>
+    <title>Week 21</title>
+    <updated>2026-05-30T18:06:14+00:00</updated>
+    <content>Week 21</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-21"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-30T18:06:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-22</id>
+    <title>Week 22</title>
+    <updated>2026-05-30T18:06:14+00:00</updated>
+    <content>Week 22</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-22"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-30T18:06:14+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-158</id>
+    <title>2.1.158</title>
+    <updated>2026-05-30T06:59:44+00:00</updated>
+    <content>2.1.158</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-158"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-30T06:59:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-157</id>
+    <title>2.1.157</title>
+    <updated>2026-05-29T20:27:29+00:00</updated>
+    <content>2.1.157</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-157"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-29T20:27:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-156</id>
+    <title>2.1.156</title>
+    <updated>2026-05-29T01:51:54+00:00</updated>
+    <content>2.1.156</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-156"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-29T01:51:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-29-2026</id>
+    <title>Claude Platform — May 29, 2026</title>
+    <updated>2026-05-29T00:00:00+00:00</updated>
+    <content>Claude Managed Agents webhooks, multiagent orchestration, and self-hosted sandboxes are now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the new IAM actions and the AnthropicSelfHostedEnvironmentAccess managed policy.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-29-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-154</id>
+    <title>2.1.154</title>
+    <updated>2026-05-28T18:53:03+00:00</updated>
+    <content>2.1.154</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-154"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-28T18:53:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-153</id>
+    <title>2.1.153</title>
+    <updated>2026-05-28T01:00:17+00:00</updated>
+    <content>2.1.153</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-153"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-28T01:00:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-28-2026</id>
+    <title>Claude Platform — May 28, 2026</title>
+    <updated>2026-05-28T00:00:00+00:00</updated>
+    <content>We've launched ( ), our most capable generally available model. supports a 1M token context window by default, 128k max output tokens, and the same set of tools and platform features as Claude Opus 4.7. See What's new in for capability improvements, new features, and migration guidance. We've launched mid-conversation system messages. On , you can send role: "system" messages at non-first positions in the messages array, preserving prompt cache hits when instructions change during a long-running</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-28-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_a467350ea5</id>
+    <title>Claude Opus 4.8 launch We’ve upgraded Claude Opus to a new version — May 28, 2026</title>
+    <updated>2026-05-28T00:00:00+00:00</updated>
+    <content>Claude Opus 4.8 launch We’ve upgraded Claude Opus to a new version. Claude Opus 4.8 shows improvements over Opus 4.7 in coding, agentic skills, reasoning, and practical knowledge work tasks.  For more information, see our blog post: Introducing Claude Opus 4.8 . Enterprise plans can manage connector access with custom roles We added connector permissions to extend the existing custom roles framework and allow administrators to control which connectors, and which individual tools on those connect</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_a467350ea5"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-05-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/introducing-dynamic-workflows-in-claude-code</id>
+    <title>Introducing dynamic workflows in claude code</title>
+    <updated>2026-05-28T00:00:00+00:00</updated>
+    <content>Introducing dynamic workflows in claude code</content>
+    <link href="https://claude.com/blog/introducing-dynamic-workflows-in-claude-code"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-152</id>
+    <title>2.1.152</title>
+    <updated>2026-05-27T01:35:39+00:00</updated>
+    <content>2.1.152</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-152"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-27T01:35:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/zero-trust-for-ai-agents</id>
+    <title>Zero trust for ai agents</title>
+    <updated>2026-05-27T00:00:00+00:00</updated>
+    <content>Zero trust for ai agents</content>
+    <link href="https://claude.com/blog/zero-trust-for-ai-agents"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system</id>
+    <title>How coderabbit used claude to build an agent orchestration system</title>
+    <updated>2026-05-27T00:00:00+00:00</updated>
+    <content>How coderabbit used claude to build an agent orchestration system</content>
+    <link href="https://claude.com/blog/how-coderabbit-used-claude-to-build-an-agent-orchestration-system"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/using-llms-to-secure-source-code</id>
+    <title>Using llms to secure source code</title>
+    <updated>2026-05-27T00:00:00+00:00</updated>
+    <content>Using llms to secure source code</content>
+    <link href="https://claude.com/blog/using-llms-to-secure-source-code"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build</id>
+    <title>Code w claude london 2026 rethinking how we build</title>
+    <updated>2026-05-26T00:00:00+00:00</updated>
+    <content>Code w claude london 2026 rethinking how we build</content>
+    <link href="https://claude.com/blog/code-w-claude-london-2026-rethinking-how-we-build"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-150</id>
+    <title>2.1.150</title>
+    <updated>2026-05-23T04:12:26+00:00</updated>
+    <content>2.1.150</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-150"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-23T04:12:26+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-149</id>
+    <title>2.1.149</title>
+    <updated>2026-05-22T22:25:09+00:00</updated>
+    <content>2.1.149</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-149"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-22T22:25:09+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-148</id>
+    <title>2.1.148</title>
+    <updated>2026-05-22T01:21:48+00:00</updated>
+    <content>2.1.148</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-148"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-22T01:21:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers</id>
+    <title>How anthropics finance team uses claude to shape the narrative behind the numbers</title>
+    <updated>2026-05-22T00:00:00+00:00</updated>
+    <content>How anthropics finance team uses claude to shape the narrative behind the numbers</content>
+    <link href="https://claude.com/blog/how-anthropics-finance-team-uses-claude-to-shape-the-narrative-behind-the-numbers"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-22T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-147</id>
+    <title>2.1.147</title>
+    <updated>2026-05-21T20:46:43+00:00</updated>
+    <content>2.1.147</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-147"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-21T20:46:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_1dae2a0c65</id>
+    <title>Claude now works with more security and compliance tools We introduced Claude Compliance A — May 21, 2026</title>
+    <updated>2026-05-21T00:00:00+00:00</updated>
+    <content>Claude now works with more security and compliance tools We introduced Claude Compliance API integrations with notable security and compliance tools. Now IT and security teams can govern Claude across our platform and suite of products, the same way they govern other applications in their stack. Learn how to get started with Claude Compliance API integrations .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_1dae2a0c65"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-05-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity</id>
+    <title>How our partners are putting opus to work for cybersecurity</title>
+    <updated>2026-05-21T00:00:00+00:00</updated>
+    <content>How our partners are putting opus to work for cybersecurity</content>
+    <link href="https://claude.com/blog/how-our-partners-are-putting-opus-to-work-for-cybersecurity"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/compliance-api-security-partners</id>
+    <title>Compliance api security partners</title>
+    <updated>2026-05-21T00:00:00+00:00</updated>
+    <content>Compliance api security partners</content>
+    <link href="https://claude.com/blog/compliance-api-security-partners"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book</id>
+    <title>How an anthropic sales leader uses claude cowork to run a 4 000 account book</title>
+    <updated>2026-05-20T00:00:00+00:00</updated>
+    <content>How an anthropic sales leader uses claude cowork to run a 4 000 account book</content>
+    <link href="https://claude.com/blog/how-an-anthropic-sales-leader-uses-claude-cowork-to-run-a-4-000-account-book"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html</id>
+    <title>Using claude code the unreasonable effectiveness of html</title>
+    <updated>2026-05-20T00:00:00+00:00</updated>
+    <content>Using claude code the unreasonable effectiveness of html</content>
+    <link href="https://claude.com/blog/using-claude-code-the-unreasonable-effectiveness-of-html"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-145</id>
+    <title>2.1.145</title>
+    <updated>2026-05-19T21:40:46+00:00</updated>
+    <content>2.1.145</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-145"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-19T21:40:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-20</id>
+    <title>Week 20</title>
+    <updated>2026-05-19T14:08:42+00:00</updated>
+    <content>Week 20</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-20"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-19T14:08:42+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-144</id>
+    <title>2.1.144</title>
+    <updated>2026-05-19T00:53:57+00:00</updated>
+    <content>2.1.144</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-144"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-19T00:53:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-19-2026</id>
+    <title>Claude Platform — May 19, 2026</title>
+    <updated>2026-05-19T00:00:00+00:00</updated>
+    <content>MCP tunnels is now available as a Research Preview, so you can connect to MCP servers in your private network. Self-hosted sandboxes are now available for Claude Managed Agents, as an alternative to running tool execution in Anthropic's infrastructure. See Self-hosted sandboxes. With Claude Managed Agents, you can now update the agent's MCP server and tool configurations associated with an active session. With Claude Managed Agents, large outputs from agent toolset and MCP tools exceeding 100K t</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-19-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/claude-managed-agents-updates</id>
+    <title>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</title>
+    <updated>2026-05-19T00:00:00+00:00</updated>
+    <content>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</content>
+    <link href="https://claude.com/blog/claude-managed-agents-updates"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-18-2026</id>
+    <title>Claude Platform — May 18, 2026</title>
+    <updated>2026-05-18T00:00:00+00:00</updated>
+    <content>The web search tool now returns richer SEC filing data, making it easier to ground financial research agents, earnings analysis, and due-diligence workflows in primary sources with citations.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-18-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-143</id>
+    <title>2.1.143</title>
+    <updated>2026-05-15T22:33:19+00:00</updated>
+    <content>2.1.143</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-143"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-15T22:33:19+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/deploying-claude-across-the-legal-industry</id>
+    <title>Deploying claude across the legal industry</title>
+    <updated>2026-05-15T00:00:00+00:00</updated>
+    <content>Deploying claude across the legal industry</content>
+    <link href="https://claude.com/blog/deploying-claude-across-the-legal-industry"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start</id>
+    <title>How claude code works in large codebases best practices and where to start</title>
+    <updated>2026-05-14T00:00:00+00:00</updated>
+    <content>How claude code works in large codebases best practices and where to start</content>
+    <link href="https://claude.com/blog/how-claude-code-works-in-large-codebases-best-practices-and-where-to-start"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/the-founders-playbook</id>
+    <title>The founders playbook</title>
+    <updated>2026-05-14T00:00:00+00:00</updated>
+    <content>The founders playbook</content>
+    <link href="https://claude.com/blog/the-founders-playbook"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-13-2026</id>
+    <title>Claude Platform — May 13, 2026</title>
+    <updated>2026-05-13T00:00:00+00:00</updated>
+    <content>We've launched cache diagnostics in public beta. Pass diagnostics.previous message id on a Messages request and the API reports a cache miss reason explaining where the prompt cache prefix diverged from the previous turn. Include the cache-diagnosis-2026-04-07 beta header in your requests.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-13-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude</id>
+    <title>Best practices for computer and browser use with claude</title>
+    <updated>2026-05-13T00:00:00+00:00</updated>
+    <content>Best practices for computer and browser use with claude</content>
+    <link href="https://claude.com/blog/best-practices-for-computer-and-browser-use-with-claude"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-12-2026</id>
+    <title>Claude Platform — May 12, 2026</title>
+    <updated>2026-05-12T00:00:00+00:00</updated>
+    <content>Fast mode (research preview) now supports Claude Opus 4.7. Set speed: "fast" with model: "claude-opus-4-7" and the fast-mode-2026-02-01 beta header for significantly faster output token generation at premium pricing. Pricing, rate limits, and access are the same as for Opus 4.6 fast mode; interested customers should join the waitlist.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-12-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-11-2026</id>
+    <title>Claude Platform — May 11, 2026</title>
+    <updated>2026-05-11T00:00:00+00:00</updated>
+    <content>We've launched Claude Platform on AWS , bringing the Claude API to Anthropic-managed infrastructure accessible through AWS, with AWS billing and IAM authentication. Access the full Messages API, Files API, Message Batches API, Claude Managed Agents, Agent Skills, code execution, and tool use through native AWS endpoints. Learn more in Claude Platform on AWS.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-11-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-18</id>
+    <title>Week 18</title>
+    <updated>2026-05-09T02:56:31+00:00</updated>
+    <content>Week 18</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-18"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-09T02:56:31+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-19</id>
+    <title>Week 19</title>
+    <updated>2026-05-09T02:56:31+00:00</updated>
+    <content>Week 19</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-19"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-05-09T02:56:31+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-6-2026</id>
+    <title>Claude Platform — May 6, 2026</title>
+    <updated>2026-05-06T00:00:00+00:00</updated>
+    <content>Multiagent sessions and Outcomes are now in public beta under the standard managed-agents-2026-04-01 beta header. Claude Managed Agents vault credential background refresh is now supported for mcp oauth credentials. See Authenticate with vaults. Webhooks for Claude Managed Agents are now supported. Webhook event types include session and vault lifecycle events. See Subscribe to webhooks. Additional filtering and sorting options are now supported for Claude Managed Agents. Sessions can be filtere</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-6-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-06T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/new-in-claude-managed-agents</id>
+    <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
+    <updated>2026-05-06T00:00:00+00:00</updated>
+    <content>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</content>
+    <link href="https://claude.com/blog/new-in-claude-managed-agents"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-05-06T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-30-2026</id>
+    <title>Claude Platform — April 30, 2026</title>
+    <updated>2026-04-30T00:00:00+00:00</updated>
+    <content>We've retired the 1M token context window beta ( context-1m-2025-08-07 ) for Claude Sonnet 4.5 and Claude Sonnet 4. The beta header now has no effect on these models, and requests exceeding the standard 200k-token context window return an error. To use the 1M context window, migrate to Claude Sonnet 4.6 or Claude Opus 4.6, where it's generally available at standard pricing with no beta header required.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-30-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-30T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-16</id>
+    <title>Week 16</title>
+    <updated>2026-04-27T20:26:40+00:00</updated>
+    <content>Week 16</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-16"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-04-27T20:26:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-17</id>
+    <title>Week 17</title>
+    <updated>2026-04-27T20:26:40+00:00</updated>
+    <content>Week 17</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-17"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-04-27T20:26:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-24-2026</id>
+    <title>Claude Platform — April 24, 2026</title>
+    <updated>2026-04-24T00:00:00+00:00</updated>
+    <content>We've released the Rate Limits API, allowing administrators to programmatically query the rate limits configured for their organization and workspaces.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-24-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-23-2026</id>
+    <title>Claude Platform — April 23, 2026</title>
+    <updated>2026-04-23T00:00:00+00:00</updated>
+    <content>Memory for Claude Managed Agents is now in public beta under the standard managed-agents-2026-04-01 header. See Using agent memory for the full integration guide.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-23-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/claude-managed-agents-memory</id>
+    <title>Built-in memory for Claude Managed Agents</title>
+    <updated>2026-04-23T00:00:00+00:00</updated>
+    <content>Built-in memory for Claude Managed Agents</content>
+    <link href="https://claude.com/blog/claude-managed-agents-memory"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-04-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/connectors-for-everyday-life</id>
+    <title>New connectors in Claude for everyday life</title>
+    <updated>2026-04-23T00:00:00+00:00</updated>
+    <content>New connectors in Claude for everyday life</content>
+    <link href="https://claude.com/blog/connectors-for-everyday-life"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-04-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-20-2026</id>
+    <title>Claude Platform — April 20, 2026</title>
+    <updated>2026-04-20T00:00:00+00:00</updated>
+    <content>We've retired the Claude Haiku 3 model ( claude-3-haiku-20240307 ). All requests to this model will now return an error. We recommend upgrading to Claude Haiku 4.5.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-20-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_63ecf85ba7</id>
+    <title>Claude Design by Anthropic Labs With Opus 4.7, we also launched Claude Design, a new Anthr — April 17, 2026</title>
+    <updated>2026-04-17T00:00:00+00:00</updated>
+    <content>Claude Design by Anthropic Labs With Opus 4.7, we also launched Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create visual outputs like designs, prototypes, slides, and one-pagers. For more information, see Get started with Claude Design .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_63ecf85ba7"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-04-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-7</id>
+    <title>System prompt — Claude Opus 4.7</title>
+    <updated>2026-04-16T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4.7 from the Claude 4.7 model family. The Claude 4.7 family currently consists of Claude Opus 4.7. Claude Opus 4.7 is the most advanced and intelligent model. Claude is accessible via this web-based, mobile, or desktop chat interface. If the person asks, Claude can tell them about the following products which also allow them to access Claude. Claude is accessible vi</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-7"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-04-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-16-2026</id>
+    <title>Claude Platform — April 16, 2026</title>
+    <updated>2026-04-16T00:00:00+00:00</updated>
+    <content>We've launched Claude Opus 4.7, our most capable generally available model for complex reasoning and agentic coding, at the same $5 / $25 per MTok pricing as Opus 4.6. See What's new in Claude Opus 4.7 for capability improvements, new features, and the updated tokenizer. Opus 4.7 includes API breaking changes versus Opus 4.6; see Migrating to Claude Opus 4.7 before upgrading. Claude in Amazon Bedrock is now open to all Amazon Bedrock customers. Claude Opus 4.7 and Claude Haiku 4.5 are available </content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-16-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_5415f092c2</id>
+    <title>Claude Opus 4.7 launch Our latest model, Claude Opus 4.7, is now generally available — April 16, 2026</title>
+    <updated>2026-04-16T00:00:00+00:00</updated>
+    <content>Claude Opus 4.7 launch Our latest model, Claude Opus 4.7, is now generally available. Opus 4.7 shows improvements in software engineering and complex, long-running coding tasks, as well as better vision, allowing it to see images in higher resolution. For more information, see our blog post: Introducing Claude Opus 4.7 .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_5415f092c2"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-04-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-14-2026</id>
+    <title>Claude Platform — April 14, 2026</title>
+    <updated>2026-04-14T00:00:00+00:00</updated>
+    <content>We announced the deprecation of the Claude Sonnet 4 model ( claude-sonnet-4-20250514 ) and the Claude Opus 4 model ( claude-opus-4-20250514 ), with retirement on the Claude API scheduled for June 15, 2026. We recommend migrating to Claude Sonnet 4.6 and Claude Opus 4.7 respectively. Read more in model deprecations.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-14-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/claude-code-desktop-redesign</id>
+    <title>Redesigning Claude Code on desktop for parallel agents</title>
+    <updated>2026-04-14T00:00:00+00:00</updated>
+    <content>Redesigning Claude Code on desktop for parallel agents</content>
+    <link href="https://claude.com/blog/claude-code-desktop-redesign"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-04-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-15</id>
+    <title>Week 15</title>
+    <updated>2026-04-13T20:07:55+00:00</updated>
+    <content>Week 15</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-15"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-04-13T20:07:55+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</id>
+    <title>Preparing your security program for AI-accelerated offense</title>
+    <updated>2026-04-10T00:00:00+00:00</updated>
+    <content>Preparing your security program for AI-accelerated offense</content>
+    <link href="https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-04-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-9-2026</id>
+    <title>Claude Platform — April 9, 2026</title>
+    <updated>2026-04-09T00:00:00+00:00</updated>
+    <content>We've launched the advisor tool in public beta. Pair a faster executor model with a higher-intelligence advisor model that provides strategic guidance mid-generation, so long-horizon agentic workloads get close to advisor-solo quality while the bulk of token generation happens at executor-model rates. Include the beta header advisor-tool-2026-03-01 in your requests.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-9-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_088bbb47b1</id>
+    <title>Claude Cowork generally available Claude Cowork is now generally available on macOS and Wi — April 9, 2026</title>
+    <updated>2026-04-09T00:00:00+00:00</updated>
+    <content>Claude Cowork generally available Claude Cowork is now generally available on macOS and Windows through the Claude Desktop app. With this, we’re expanding Claude Cowork with new capabilities: Claude Cowork in the Analytics API. For more information, see Claude Enterprise Analytics API: Access engagement and adoption data . Usage analytics for Claude Cowork. For more information, see View usage analytics for Team and Enterprise plans . Claude Cowork OpenTelemetry support. For more information, se</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_088bbb47b1"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-04-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-8-2026</id>
+    <title>Claude Platform — April 8, 2026</title>
+    <updated>2026-04-08T00:00:00+00:00</updated>
+    <content>We've launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming. Create agents, configure containers, and run sessions through the API. All endpoints require the managed-agents-2026-04-01 beta header. Learn more in Claude Managed Agents overview. We've launched the ant CLI , a command-line client for the Claude API that enables faster interaction with the Claude AP</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-8-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/claude-managed-agents</id>
+    <title>Claude Managed Agents: get to production 10x faster</title>
+    <updated>2026-04-08T00:00:00+00:00</updated>
+    <content>Claude Managed Agents: get to production 10x faster</content>
+    <link href="https://claude.com/blog/claude-managed-agents"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-04-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#april-7-2026</id>
+    <title>Claude Platform — April 7, 2026</title>
+    <updated>2026-04-07T00:00:00+00:00</updated>
+    <content>We announced Claude Mythos Preview is available as a gated research preview for defensive cybersecurity work as part of Project Glasswing. Access is invitation-only. The Messages API is now available on Amazon Bedrock as a research preview. The new Claude in Amazon Bedrock endpoint at /anthropic/v1/messages uses the same request shape as the first-party Claude API and runs on AWS-managed infrastructure with zero operator access. Available in us-east-1 ; contact your Anthropic account executive t</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#april-7-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-04-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-13</id>
+    <title>Week 13</title>
+    <updated>2026-04-04T03:22:37+00:00</updated>
+    <content>Week 13</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-13"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-04-04T03:22:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/whats-new#week-14</id>
+    <title>Week 14</title>
+    <updated>2026-04-04T03:22:37+00:00</updated>
+    <content>Week 14</content>
+    <link href="https://code.claude.com/docs/en/whats-new#week-14"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-04-04T03:22:37+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/harnessing-claudes-intelligence</id>
+    <title>Harnessing Claude’s intelligence</title>
+    <updated>2026-04-02T00:00:00+00:00</updated>
+    <content>Harnessing Claude’s intelligence</content>
+    <link href="https://claude.com/blog/harnessing-claudes-intelligence"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-04-02T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#march-30-2026</id>
+    <title>Claude Platform — March 30, 2026</title>
+    <updated>2026-03-30T00:00:00+00:00</updated>
+    <content>We've raised the max tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6. Include the output-300k-2026-03-24 beta header to generate longer single-turn outputs for long-form content, structured data, and large code generation tasks. We're retiring the 1M token context window beta for Claude Sonnet 4.5 and Claude Sonnet 4 on April 30, 2026 . After that date, the context-1m-2025-08-07 beta header will have no effect on these models, and requests that exceed the standar</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#march-30-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-03-30T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_cf2f800398</id>
+    <title>Interactive apps in Claude for iOS and Android The Claude mobile app can now connect to fu — March 25, 2026</title>
+    <updated>2026-03-25T00:00:00+00:00</updated>
+    <content>Interactive apps in Claude for iOS and Android The Claude mobile app can now connect to fully interactive apps. Pull up live charts, sketch diagrams, and build shareable assets, all rendered visually right in your conversation. For more information, see Use interactive connectors in Claude .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_cf2f800398"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-03-25T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_f8e4032efd</id>
+    <title>Computer use research preview in Cowork and Claude Code + Dispatch improvements Users on P — March 23, 2026</title>
+    <updated>2026-03-23T00:00:00+00:00</updated>
+    <content>Computer use research preview in Cowork and Claude Code + Dispatch improvements Users on Pro and Max plans can give Claude access to computer use. Claude can open files, run dev tools, point, click, and navigate to what’s on your screen to perform tasks itself—with no setup required. Claude’s new computer use capability makes Dispatch even more helpful by allowing it to use your computer on your behalf while you’re away. For more information, see Let Claude use your computer in Cowork or our blo</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_f8e4032efd"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-03-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#march-18-2026</id>
+    <title>Claude Platform — March 18, 2026</title>
+    <updated>2026-03-18T00:00:00+00:00</updated>
+    <content>We've added model capability fields to the Models API. GET /v1/models and GET /v1/models/{model id} now return max input tokens , max tokens , and a capabilities object. Query the API to discover what each model supports.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#march-18-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-03-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_6dc0f7cd1b</id>
+    <title>Control Cowork from your phone with a persistent thread (research preview for Pro/Max) Use — March 17, 2026</title>
+    <updated>2026-03-17T00:00:00+00:00</updated>
+    <content>Control Cowork from your phone with a persistent thread (research preview for Pro/Max) Users on Pro and Max plans can access a persistent agent thread via Claude Desktop or Claude for iOS/Android to manage tasks in Cowork. We're rolling this out to Max plans starting today, and Pro plans over the next two days. For more information, see Assign tasks to Claude from anywhere in Cowork .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_6dc0f7cd1b"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-03-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#march-16-2026</id>
+    <title>Claude Platform — March 16, 2026</title>
+    <updated>2026-03-16T00:00:00+00:00</updated>
+    <content>We've launched the display field for extended thinking, letting you omit thinking content from responses for faster streaming. Set thinking.display: "omitted" to receive thinking blocks with an empty thinking field and the signature preserved for multi-turn continuity. Billing is unchanged. Learn more in Controlling thinking display.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#march-16-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-03-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#march-13-2026</id>
+    <title>Claude Platform — March 13, 2026</title>
+    <updated>2026-03-13T00:00:00+00:00</updated>
+    <content>The 1M token context window is now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing. Requests over 200k tokens work automatically for these models with no beta header required. The 1M token context window remains in beta for Claude Sonnet 4.5 and Sonnet 4. We've removed the dedicated 1M rate limits for all supported models. Your standard account limits now apply across every context length. We've raised the media limit from 100 to 600 images or PDF pages per request whe</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#march-13-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-03-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_33121cff9d</id>
+    <title>Claude creates interactive charts, diagrams and visualizations Claude can now create custo — March 12, 2026</title>
+    <updated>2026-03-12T00:00:00+00:00</updated>
+    <content>Claude creates interactive charts, diagrams and visualizations Claude can now create custom charts, diagrams and other visualizations in-line in its responses. For more information, see Custom visuals in chat .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_33121cff9d"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-03-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/claude-builds-visuals</id>
+    <title>Claude now creates interactive charts, diagrams and visualizations</title>
+    <updated>2026-03-12T00:00:00+00:00</updated>
+    <content>Claude now creates interactive charts, diagrams and visualizations</content>
+    <link href="https://claude.com/blog/claude-builds-visuals"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-03-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_e67bacbb67</id>
+    <title>Work across Excel and PowerPoint We’ve improved our Claude for Excel and Claude for PowerP — March 11, 2026</title>
+    <updated>2026-03-11T00:00:00+00:00</updated>
+    <content>Work across Excel and PowerPoint We’ve improved our Claude for Excel and Claude for PowerPoint add-ins. They can now share the full context of your conversation, so every action Claude takes in one application is informed by everything that’s happened in the other. We also added support for skills in the add-ins, and the ability for Amazon Bedrock, Google Cloud’s Vertex AI, or Microsoft Foundry users to connect to them via an LLM gateway. For more information, refer to the following articles: Us</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_e67bacbb67"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-03-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_9ec0154553</id>
+    <title>Memory for free users Memory from chat history is now available for all Claude users, incl — March 2, 2026</title>
+    <updated>2026-03-02T00:00:00+00:00</updated>
+    <content>Memory for free users Memory from chat history is now available for all Claude users, including free users. For more information, refer to the following articles: Use Claude’s chat search and memory to build on previous context Import and export your memory from Claude</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_9ec0154553"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-03-02T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_964c1d788c</id>
+    <title>Scheduled tasks in Cowork We introduced the ability to create and schedule both recurring  — February 25, 2026</title>
+    <updated>2026-02-25T00:00:00+00:00</updated>
+    <content>Scheduled tasks in Cowork We introduced the ability to create and schedule both recurring and on-demand tasks in Cowork, as well as a new Customize section in Claude Desktop that groups skills, plugins, and connectors in one place. For more information, see Schedule recurring tasks in Cowork .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_964c1d788c"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-02-25T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_7d608ca8a1</id>
+    <title>Cowork plugins and admin controls We launched a new plugin marketplace and admin controls  — February 24, 2026</title>
+    <updated>2026-02-24T00:00:00+00:00</updated>
+    <content>Cowork plugins and admin controls We launched a new plugin marketplace and admin controls for Team and Enterprise plans. For more information, refer to these articles: Manage Cowork plugins for your organization Use plugins in Cowork</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_7d608ca8a1"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-02-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#february-19-2026</id>
+    <title>Claude Platform — February 19, 2026</title>
+    <updated>2026-02-19T00:00:00+00:00</updated>
+    <content>We've launched automatic caching for the Messages API. Add a single cache control field to your request body and the system automatically caches the last cacheable block, moving the cache point forward as conversations grow. No manual breakpoint management required. Works alongside existing block-level cache control for fine-grained optimization. Available on the Claude API and Microsoft Foundry (preview). Learn more in Prompt caching. We've retired the Claude Sonnet 3.7 model ( claude-3-7-sonne</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#february-19-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-02-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4-6</id>
+    <title>System prompt — Claude Sonnet 4.6</title>
+    <updated>2026-02-17T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Sonnet 4.6 from the Claude 4.6 model family. The Claude 4.6 family currently consists of Claude Opus 4.6 and Claude Sonnet 4.6. Claude Sonnet 4.6 is a smart, efficient model for everyday use. Claude is accessible via an API and developer platform. The most recent Claude models are Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5, the exact model strings for which</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4-6"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-02-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#february-17-2026</id>
+    <title>Claude Platform — February 17, 2026</title>
+    <updated>2026-02-17T00:00:00+00:00</updated>
+    <content>We've launched Claude Sonnet 4.6, our latest balanced model combining speed and intelligence for everyday tasks. Sonnet 4.6 delivers improved agentic search performance while consuming fewer tokens. Sonnet 4.6 supports extended thinking and a 1M token context window (beta). See Models &amp; Pricing for details. API code execution is now free when used with web search or web fetch . Sandboxed code execution improves model capability and token efficiency. See the pricing details for standalone usage. </content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#february-17-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-02-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_dc20f106c8</id>
+    <title>Claude Sonnet 4.6 launch We launched our most capable Sonnet model yet, with a full upgrad — February 17, 2026</title>
+    <updated>2026-02-17T00:00:00+00:00</updated>
+    <content>Claude Sonnet 4.6 launch We launched our most capable Sonnet model yet, with a full upgrade of the model’s skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. Sonnet 4.6 also features a 1M token context window in beta. Read our blog post for more information: Introducing Claude Sonnet 4.6 .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_dc20f106c8"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-02-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_5837ae80ba</id>
+    <title>Analytics API for Enterprise plans The Enterprise Analytics API provides programmatic acce — February 13, 2026</title>
+    <updated>2026-02-13T00:00:00+00:00</updated>
+    <content>Analytics API for Enterprise plans The Enterprise Analytics API provides programmatic access to usage and engagement data for Claude and Claude Code Remote usage within your organization. Data is aggregated per organization, per day, and each endpoint returns a snapshot for a single date that you specify. For more information, see Access usage data with the Analytics API .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_5837ae80ba"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-02-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_53b5a11518</id>
+    <title>Self-serve Enterprise plans Previously, Enterprise plans were only available to customers  — February 12, 2026</title>
+    <updated>2026-02-12T00:00:00+00:00</updated>
+    <content>Self-serve Enterprise plans Previously, Enterprise plans were only available to customers working with our Sales team. Now, any organization can purchase an Enterprise plan directly on our website with no Sales conversation required. Self-serve Enterprise plans have a single seat type that includes access to Claude, Claude Code, and Cowork. For more information, refer to our blog post or What is the Enterprise plan?</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_53b5a11518"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-02-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#february-7-2026</id>
+    <title>Claude Platform — February 7, 2026</title>
+    <updated>2026-02-07T00:00:00+00:00</updated>
+    <content>We've launched fast mode in research preview for Opus 4.6, providing significantly faster output token generation via the speed parameter. Fast mode is up to 2.5x as fast at premium pricing. Interested customers should join the waitlist.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#february-7-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-02-07T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-6</id>
+    <title>System prompt — Claude Opus 4.6</title>
+    <updated>2026-02-05T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4.6 from the Claude 4.5 model family. The Claude 4.5 family currently consists of Claude Opus 4.6, 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5. Claude Opus 4.6 is the most advanced and intelligent model. If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or deskto</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-6"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-02-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#february-5-2026</id>
+    <title>Claude Platform — February 5, 2026</title>
+    <updated>2026-02-05T00:00:00+00:00</updated>
+    <content>We've launched Claude Opus 4.6, our most intelligent model for complex agentic tasks and long-horizon work. Opus 4.6 recommends adaptive thinking ( thinking: {type: "adaptive"} ); manual thinking ( type: "enabled" with budget tokens ) is deprecated. Opus 4.6 does not support prefilling assistant messages. Learn more in What's new in Claude 4.6. The effort parameter is now generally available (no beta header required) and supports Claude Opus 4.6. Effort replaces budget tokens for controlling thi</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#february-5-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-02-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_1376eb5946</id>
+    <title>Claude Opus 4.6 launch We’ve upgraded our smartest model and improved its coding skills — February 5, 2026</title>
+    <updated>2026-02-05T00:00:00+00:00</updated>
+    <content>Claude Opus 4.6 launch We’ve upgraded our smartest model and improved its coding skills. Read our blog post for more information: Introducing Claude Opus 4.6 . Introducing Claude for PowerPoint Claude is now available as an add-in for PowerPoint. Read more here: Use Claude for PowerPoint . Claude for Excel improvements We’ve updated Claude for Excel so it uses Opus 4.6 and supports native Excel operations such as pivot table editing and conditional formatting. See our updated article for more in</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_1376eb5946"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-02-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#january-29-2026</id>
+    <title>Claude Platform — January 29, 2026</title>
+    <updated>2026-01-29T00:00:00+00:00</updated>
+    <content>Structured outputs are now generally available on the Claude API for Claude Sonnet 4.5, Claude Opus 4.5, and Claude Haiku 4.5. GA includes expanded schema support, improved grammar compilation latency, and a simplified integration path with no beta header required. The output format parameter has moved to output config.format . Existing beta users can continue using the beta header during the transition period. Structured outputs remain in public beta on Amazon Bedrock and Microsoft Foundry.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#january-29-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-01-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4-5</id>
+    <title>System prompt — Claude Sonnet 4.5</title>
+    <updated>2026-01-18T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Sonnet 4.5 from the Claude 4.5 model family. The Claude 4.5 family currently consists of Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 . Claude Sonnet 4.5 is a smart, efficient model for everyday use . If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or des</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4-5"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-01-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-haiku-4-5</id>
+    <title>System prompt — Claude Haiku 4.5</title>
+    <updated>2026-01-18T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Haiku 4.5 from the Claude 4.5 model family. The Claude 4.5 family currently consists of Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5 . Claude Haiku 4.5 is the fastest model for quick questions. If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or desktop ch</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-haiku-4-5"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-01-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-5</id>
+    <title>System prompt — Claude Opus 4.5</title>
+    <updated>2026-01-18T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4.5 from the Claude 4.5 model family. The Claude 4.5 family currently consists of Claude Opus 4.5, Claude Sonnet 4.5, and Claude Haiku 4.5. Claude Opus 4.5 is the most advanced and intelligent model. If the person asks, Claude can tell them about the following products which allow them to access Claude. Claude is accessible via this web-based, mobile, or desktop cha</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-5"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-01-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_f2dfe03b6d</id>
+    <title>Cowork research preview expanded to Pro plans Cowork is now available to Pro plan users on — January 16, 2026</title>
+    <updated>2026-01-16T00:00:00+00:00</updated>
+    <content>Cowork research preview expanded to Pro plans Cowork is now available to Pro plan users on Claude Desktop (macOS only). Claude Code access added to Team plan Standard seats We’re now including Claude Code access with every Team plan standard seat. Refer to this article for more information: Purchasing and managing seats on Team plans . Opus 4 and 4.1 deprecated from Claude and Claude Code We’ve removed Claude Opus 4 and 4.1 from the Claude model selector and Claude Code. Refer to this article fo</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_f2dfe03b6d"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-01-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#january-12-2026</id>
+    <title>Claude Platform — January 12, 2026</title>
+    <updated>2026-01-12T00:00:00+00:00</updated>
+    <content>console.anthropic.com now redirects to platform.claude.com . The Claude Console has moved to its new home as part of our Claude brand consolidation. Existing bookmarks and links will continue working via automatic redirect. For more details, see the September 16, 2025 announcement.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#january-12-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-01-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_8ada72e390</id>
+    <title>Cowork research preview on Claude Desktop (macOS only) for Max plans Cowork brings Claude  — January 12, 2026</title>
+    <updated>2026-01-12T00:00:00+00:00</updated>
+    <content>Cowork research preview on Claude Desktop (macOS only) for Max plans Cowork brings Claude Code's agentic capabilities to the Claude desktop app for knowledge work beyond coding. It runs locally on your computer in an isolated VM, enabling direct access to local files and MCP integrations. Refer to this article to learn more: Getting started with Cowork . Health and fitness data on Claude Mobile Claude can now read and analyze your health and fitness data on iOS and Android. Ask Claude about your</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_8ada72e390"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-01-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#january-5-2026</id>
+    <title>Claude Platform — January 5, 2026</title>
+    <updated>2026-01-05T00:00:00+00:00</updated>
+    <content>We've retired the Claude Opus 3 model ( claude-3-opus-20240229 ). All requests to this model will now return an error. We recommend upgrading to Claude Opus 4.5, which offers significantly improved intelligence at a third of the cost. Researchers can request ongoing access to Claude Opus 3 on the API through the External Researcher Access Program.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#january-5-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-01-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#december-19-2025</id>
+    <title>Claude Platform — December 19, 2025</title>
+    <updated>2025-12-19T00:00:00+00:00</updated>
+    <content>We announced the deprecation of the Claude Haiku 3.5 model. Read more in Model deprecations.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#december-19-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-12-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_7556dc943a</id>
+    <title>Skills for organizations, partners, and the ecosystem In October, we introduced skills—a w — December 18, 2025</title>
+    <updated>2025-12-18T00:00:00+00:00</updated>
+    <content>Skills for organizations, partners, and the ecosystem In October, we introduced skills—a way to teach Claude repeatable workflows tailored to how you work. Skills are now easier to deploy, discover, and build with organization-wide management for Team and Enterprise plans , a directory of partner-built skills, and an open standard ( Agent Skills ) so skills work across AI platforms. Claude in Chrome updates Claude in Chrome is now available in beta to all paid plan subscribers, including Pro, Te</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_7556dc943a"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-12-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</id>
+    <title>How enterprises are building AI agents in 2026</title>
+    <updated>2025-12-09T00:00:00+00:00</updated>
+    <content>How enterprises are building AI agents in 2026</content>
+    <link href="https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2025-12-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#december-4-2025</id>
+    <title>Claude Platform — December 4, 2025</title>
+    <updated>2025-12-04T00:00:00+00:00</updated>
+    <content>Structured outputs now supports Claude Haiku 4.5.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#december-4-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-12-04T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#november-24-2025</id>
+    <title>Claude Platform — November 24, 2025</title>
+    <updated>2025-11-24T00:00:00+00:00</updated>
+    <content>We've launched Claude Opus 4.5, our most intelligent model combining maximum capability with practical performance. Ideal for complex specialized tasks, professional software engineering, and advanced agents. Features step-change improvements in vision, coding, and computer use at a more accessible price point than previous Opus models. Learn more in Models overview. We've launched programmatic tool calling in public beta, allowing Claude to call tools from within code execution to reduce latenc</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#november-24-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-11-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_39421a1c59</id>
+    <title>Claude Opus 4.5 launch We released our most powerful frontier model to date — November 24, 2025</title>
+    <updated>2025-11-24T00:00:00+00:00</updated>
+    <content>Claude Opus 4.5 launch We released our most powerful frontier model to date. Read our blog post for more information: Introducing Claude Opus 4.5 . Claude for Excel beta release Claude for Excel is now available in beta to all Max, Team, and Enterprise users. We’ve added some additional capabilities, such as support for pivot tables, charts and file uploads, plus a shortcut to quickly open the full Claude app from Excel (ctrl+option+c). We've also made overall improvements to performance, speed,</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_39421a1c59"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-11-24T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#november-21-2025</id>
+    <title>Claude Platform — November 21, 2025</title>
+    <updated>2025-11-21T00:00:00+00:00</updated>
+    <content>Search result content blocks are now generally available on Amazon Bedrock. Learn more in Search results.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#november-21-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-11-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#november-19-2025</id>
+    <title>Claude Platform — November 19, 2025</title>
+    <updated>2025-11-19T00:00:00+00:00</updated>
+    <content>We've launched a new documentation platform at platform.claude.com/docs. Our documentation now lives side by side with the Claude Console, providing a unified developer experience. The previous docs site at docs.claude.com will redirect to the new location.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#november-19-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-11-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#november-18-2025</id>
+    <title>Claude Platform — November 18, 2025</title>
+    <updated>2025-11-18T00:00:00+00:00</updated>
+    <content>We've launched Claude in Microsoft Foundry , bringing Claude models to Azure customers with Azure billing and OAuth authentication. Access the full Messages API including extended thinking, prompt caching (5-minute and 1-hour), PDF support, Files API, Agent Skills, and tool use. Learn more in Claude in Microsoft Foundry.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#november-18-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-11-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#november-14-2025</id>
+    <title>Claude Platform — November 14, 2025</title>
+    <updated>2025-11-14T00:00:00+00:00</updated>
+    <content>We've launched structured outputs in public beta, providing guaranteed schema conformance for Claude's responses. Use JSON outputs for structured data responses or strict tool use for validated tool inputs. Available for Claude Sonnet 4.5 and Claude Opus 4.1. To enable, use the beta header structured-outputs-2025-11-13 .</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#november-14-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-11-14T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#october-28-2025</id>
+    <title>Claude Platform — October 28, 2025</title>
+    <updated>2025-10-28T00:00:00+00:00</updated>
+    <content>We announced the deprecation of the Claude Sonnet 3.7 model. Read more in Model deprecations. We've retired the Claude Sonnet 3.5 models. All requests to these models will now return an error. We've expanded context editing with thinking block clearing ( clear thinking 20251015 ), enabling automatic management of thinking blocks. Learn more in Context editing.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#october-28-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-10-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_7cb25ceb17</id>
+    <title>Claude’s memory on Max and Pro plans Max plan users can now access Claude’s memory capabil — October 23, 2025</title>
+    <updated>2025-10-23T00:00:00+00:00</updated>
+    <content>Claude’s memory on Max and Pro plans Max plan users can now access Claude’s memory capabilities. This feature will roll out to Pro plans gradually over the next two weeks.</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_7cb25ceb17"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-10-23T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#october-16-2025</id>
+    <title>Claude Platform — October 16, 2025</title>
+    <updated>2025-10-16T00:00:00+00:00</updated>
+    <content>We've launched Agent Skills ( skills-2025-10-02 beta), a new way to extend Claude's capabilities. Skills are organized folders of instructions, scripts, and resources that Claude loads dynamically to perform specialized tasks. The initial release includes: Anthropic-managed Skills : Pre-built Skills for working with PowerPoint (.pptx), Excel (.xlsx), Word (.docx), and PDF files Custom Skills : Upload your own Skills via the Skills API ( /v1/skills endpoints) to package domain expertise and organ</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#october-16-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-10-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#october-15-2025</id>
+    <title>Claude Platform — October 15, 2025</title>
+    <updated>2025-10-15T00:00:00+00:00</updated>
+    <content>We've launched Claude Haiku 4.5, our fastest and most intelligent Haiku model with near-frontier performance. Ideal for real-time applications, high-volume processing, and cost-sensitive deployments requiring strong reasoning. Learn more in Models overview.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#october-15-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-10-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_0a1ae9effc</id>
+    <title>Claude Haiku 4.5 launch We released our fastest, most cost-efficient model – Claude Haiku  — October 15, 2025</title>
+    <updated>2025-10-15T00:00:00+00:00</updated>
+    <content>Claude Haiku 4.5 launch We released our fastest, most cost-efficient model – Claude Haiku 4.5. Our latest small model matches Sonnet 4’s performance on coding, computer use, and agent tasks. Claude in Chrome updates Powered by Haiku 4.5: Claude in Chrome now defaults to Haiku 4.5 so it’s a faster, more responsive experience. You can always switch back to Sonnet 4.5. Claude handles image uploads for you: Give Claude an image and tell it where to upload, whether it’s an expense report, form attach</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_0a1ae9effc"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-10-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-29-2025</id>
+    <title>Claude Platform — September 29, 2025</title>
+    <updated>2025-09-29T00:00:00+00:00</updated>
+    <content>We've launched Claude Sonnet 4.5, our best model for complex agents and coding, with the highest intelligence across most tasks. Learn more in the models overview. We've introduced global endpoint pricing for Amazon Bedrock and Vertex AI. The Claude API (1P) pricing is unaffected. We've introduced a new stop reason model context window exceeded that allows you to request the maximum possible tokens without calculating input size. Learn more in Handling stop reasons. We've launched the memory too</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-29-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_a9f162d5e0</id>
+    <title>Claude Sonnet 4.5 launch We released our newest model, Sonnet 4.5 — September 29, 2025</title>
+    <updated>2025-09-29T00:00:00+00:00</updated>
+    <content>Claude Sonnet 4.5 launch We released our newest model, Sonnet 4.5. This is the best model in the world for real-world agents, coding, and computer use. Read our blog post here: Claude Sonnet 4.5 . Creating and editing files with Claude for Pro plans and mobile Pro users can now leverage Claude’s file creation and editing capabilities, and users on all paid plans can access these features on Claude for iOS or Android. See this updated article for more information: Create and edit files with Claud</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_a9f162d5e0"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-09-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_a9aa5ab189</id>
+    <title>Claude’s memory on Enterprise plans Users on Enterprise plans can leverage memory; Claude  — September 18, 2025</title>
+    <updated>2025-09-18T00:00:00+00:00</updated>
+    <content>Claude’s memory on Enterprise plans Users on Enterprise plans can leverage memory; Claude can now remember relevant context from your chats and generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following articles for more information: Using Claude’s chat search and memory to build on previous context Importing and exporting your memory from Claude Using incognito chats</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_a9aa5ab189"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-09-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-17-2025</id>
+    <title>Claude Platform — September 17, 2025</title>
+    <updated>2025-09-17T00:00:00+00:00</updated>
+    <content>We've launched tool helpers in beta for the Python and TypeScript SDKs, simplifying tool creation and execution with type-safe input validation and a tool runner for automated tool handling in conversations. For details, see the documentation for the Python SDK and the TypeScript SDK.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-17-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-17T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-16-2025</id>
+    <title>Claude Platform — September 16, 2025</title>
+    <updated>2025-09-16T00:00:00+00:00</updated>
+    <content>We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, but our developer interfaces will remain the same . Here are some notable changes: Claude Console (console.anthropic.com) → Claude Console (platform.claude.com). The console will be available at both URLs until January 12, 2026. After that date, console.anthropic.com will automatically redirect to platform.claude.com. Anthropic Docs (docs.anthropic.com) → Cl</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-16-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_3b83c8bd3c</id>
+    <title>Claude in Chrome expansion Claude in Chrome expanded to 10,000 Max plan users with the rel — September 16, 2025</title>
+    <updated>2025-09-16T00:00:00+00:00</updated>
+    <content>Claude in Chrome expansion Claude in Chrome expanded to 10,000 Max plan users with the release of new capabilities: Long-running workflows: Claude in Chrome can handle more complex, multi-step workflows, and continue working even when you switch tabs (as long as Chrome is open). /slash commands: Save your best-working prompts as shortcuts (/slash commands) and reuse these proven workflows instantly without retyping instructions to Claude. Contextual prompt suggestions: Claude in Chrome gives con</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_3b83c8bd3c"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-09-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_15c9fdd1b5</id>
+    <title>Claude’s memory on Team plans and incognito chats for free, Pro, Max, and Team plans Claud — September 11, 2025</title>
+    <updated>2025-09-11T00:00:00+00:00</updated>
+    <content>Claude’s memory on Team plans and incognito chats for free, Pro, Max, and Team plans Claude can now remember relevant context from your chats and will generate a memory summary. Incognito chats give you a way to exclude conversations from Claude’s memory. Refer to the following new articles for more information: Using Claude’s chat search and memory to build on previous context Importing and exporting your memory from Claude Using incognito chats</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_15c9fdd1b5"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-09-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-10-2025</id>
+    <title>Claude Platform — September 10, 2025</title>
+    <updated>2025-09-10T00:00:00+00:00</updated>
+    <content>We've launched the web fetch tool in beta, allowing Claude to retrieve full content from specified web pages and PDF documents. Learn more in Web fetch tool. We've launched the Claude Code Analytics API, enabling organizations to programmatically access daily aggregated usage metrics for Claude Code, including productivity metrics, tool usage statistics, and cost data.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-10-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_31fa5f1a25</id>
+    <title>Creating and editing files with Claude Claude can now create and edit Excel spreadsheets,  — September 9, 2025</title>
+    <updated>2025-09-09T00:00:00+00:00</updated>
+    <content>Creating and editing files with Claude Claude can now create and edit Excel spreadsheets, PowerPoint slide decks, documents, and PDFs directly in the Claude app. Refer to the following two articles for more information: Create and edit files with Claude Create and edit files with Claude to eliminate hours of busy work</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_31fa5f1a25"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-09-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-8-2025</id>
+    <title>Claude Platform — September 8, 2025</title>
+    <updated>2025-09-08T00:00:00+00:00</updated>
+    <content>We launched a beta version of the C SDK.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-8-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-5-2025</id>
+    <title>Claude Platform — September 5, 2025</title>
+    <updated>2025-09-05T00:00:00+00:00</updated>
+    <content>We've launched rate limit charts in the Console Usage page, allowing you to monitor your API rate limit usage and caching rates over time.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-5-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-3-2025</id>
+    <title>Claude Platform — September 3, 2025</title>
+    <updated>2025-09-03T00:00:00+00:00</updated>
+    <content>We've launched support for citable documents in client-side tool results. Learn more in Handle tool calls.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-3-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_08862df576</id>
+    <title>Location, maps, and calendar access on Claude for iOS and Android Claude can now connect w — September 3, 2025</title>
+    <updated>2025-09-03T00:00:00+00:00</updated>
+    <content>Location, maps, and calendar access on Claude for iOS and Android Claude can now connect with iOS and Android apps to draft calendar events, help you find locations, and manage reminders (iOS only). See updates to the following two articles for more information: Using Claude with iOS Apps Using Claude with Android Apps</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_08862df576"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-09-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#september-2-2025</id>
+    <title>Claude Platform — September 2, 2025</title>
+    <updated>2025-09-02T00:00:00+00:00</updated>
+    <content>We've launched v2 of the Code Execution Tool in public beta, replacing the original Python-only tool with Bash command execution and direct file manipulation capabilities, including writing code in other languages.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-2-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-09-02T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-27-2025</id>
+    <title>Claude Platform — August 27, 2025</title>
+    <updated>2025-08-27T00:00:00+00:00</updated>
+    <content>We launched a beta version of the PHP SDK.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-27-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_d84fb4eda0</id>
+    <title>Code Execution Tool A new API tool that allows Claude to execute Python code in a secure,  — August 27, 2025</title>
+    <updated>2025-08-27T00:00:00+00:00</updated>
+    <content>Code Execution Tool A new API tool that allows Claude to execute Python code in a secure, sandboxed environment. Refer to our docs for more information: Code execution tool .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_d84fb4eda0"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-27T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-26-2025</id>
+    <title>Claude Platform — August 26, 2025</title>
+    <updated>2025-08-26T00:00:00+00:00</updated>
+    <content>We've increased rate limits on the 1M token context window for Claude Sonnet 4 on the Claude API. The 1M token context window is now available on Vertex AI. For more information, see Claude on Vertex AI.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-26-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_8946025878</id>
+    <title>Claude in Chrome An experimental browser extension that allows Claude to read, click, and  — August 26, 2025</title>
+    <updated>2025-08-26T00:00:00+00:00</updated>
+    <content>Claude in Chrome An experimental browser extension that allows Claude to read, click, and navigate websites alongside you. See Getting Started with Claude in Chrome .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_8946025878"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_264622cca3</id>
+    <title>Admin controls for desktop extensions Allows Team and Enterprise plans to enable/disable p — August 21, 2025</title>
+    <updated>2025-08-21T00:00:00+00:00</updated>
+    <content>Admin controls for desktop extensions Allows Team and Enterprise plans to enable/disable public desktop extensions and upload custom extensions. See Admin Controls for Desktop Extensions . Making shared artifacts embeddable Claude users with free, Pro, or Max plans can generate an embed code for any published artifacts.</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_264622cca3"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-21T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_ecf9770e2f</id>
+    <title>Premium seats with Claude Code for Team and Enterprise plans Introduced a premium seat tie — August 20, 2025</title>
+    <updated>2025-08-20T00:00:00+00:00</updated>
+    <content>Premium seats with Claude Code for Team and Enterprise plans Introduced a premium seat tier for Team and Enterprise plans offering more usage and access to Claude Code. Refer to the following articles for more information: Purchasing and managing seats Using Claude Code with your Team or Enterprise plan Extra usage for Team and Enterprise plans A new setting allows Team and Enterprise plan users to purchase more usage to continue chatting with Claude or using Claude Code after hitting their usag</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_ecf9770e2f"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-19-2025</id>
+    <title>Claude Platform — August 19, 2025</title>
+    <updated>2025-08-19T00:00:00+00:00</updated>
+    <content>Request IDs are now included directly in error response bodies alongside the existing request-id header. Learn more in Errors.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-19-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-19T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-18-2025</id>
+    <title>Claude Platform — August 18, 2025</title>
+    <updated>2025-08-18T00:00:00+00:00</updated>
+    <content>We've released the Usage &amp; Cost API, allowing administrators to programmatically monitor their organization's usage and cost data. We've added a new endpoint to the Admin API for retrieving organization information. For details, see the Organization Info Admin API reference.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-18-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-18T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_b4a02f3a2c</id>
+    <title>Ability to change monthly Team plan billing to annual Allowing Team plan organizations wit — August 15, 2025</title>
+    <updated>2025-08-15T00:00:00+00:00</updated>
+    <content>Ability to change monthly Team plan billing to annual Allowing Team plan organizations with monthly billing to upgrade to annual billing. See How to change your Team plan from monthly to annual billing .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_b4a02f3a2c"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-13-2025</id>
+    <title>Claude Platform — August 13, 2025</title>
+    <updated>2025-08-13T00:00:00+00:00</updated>
+    <content>We announced the deprecation of the Claude Sonnet 3.5 models ( claude-3-5-sonnet-20240620 and claude-3-5-sonnet-20241022 ). These models will be retired on October 28, 2025. We recommend migrating to Claude Sonnet 4.5 ( claude-sonnet-4-5-20250929 ) for improved performance and capabilities. Read more in Model deprecations. The 1-hour cache duration for prompt caching is now generally available. You can now use the extended cache TTL without a beta header. Learn more in Prompt caching.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-13-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-12-2025</id>
+    <title>Claude Platform — August 12, 2025</title>
+    <updated>2025-08-12T00:00:00+00:00</updated>
+    <content>We've launched beta support for a 1M token context window in Claude Sonnet 4 on the Claude API and Amazon Bedrock.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-12-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_004d90b693</id>
+    <title>1M token context window The 1M token context window for Claude Sonnet 4 is currently in be — August 12, 2025</title>
+    <updated>2025-08-12T00:00:00+00:00</updated>
+    <content>1M token context window The 1M token context window for Claude Sonnet 4 is currently in beta for API organizations in usage tier 4, or with custom rate limits. See 1M token context window in our docs for more information.</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_004d90b693"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-12T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-11-2025</id>
+    <title>Claude Platform — August 11, 2025</title>
+    <updated>2025-08-11T00:00:00+00:00</updated>
+    <content>Some customers might encounter 429 ( rate limit error ) errors following a sharp increase in API usage due to acceleration limits on the API. Previously, 529 ( overloaded error ) errors would occur in similar scenarios.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-11-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_c1c4a54f72</id>
+    <title>Ability to search past conversations Users on Max, Team, Enterprise plans can prompt Claud — August 11, 2025</title>
+    <updated>2025-08-11T00:00:00+00:00</updated>
+    <content>Ability to search past conversations Users on Max, Team, Enterprise plans can prompt Claude to search over past chats, allowing finer-grained context continuation and synthesizing across topics. See Searching past chats .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_c1c4a54f72"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-8-2025</id>
+    <title>Claude Platform — August 8, 2025</title>
+    <updated>2025-08-08T00:00:00+00:00</updated>
+    <content>Search result content blocks are now generally available on the Claude API and Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header search-results-2025-06-09 is no longer required. Learn more in Search results.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-8-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_62941e7319</id>
+    <title>Claude Code Security Reviews Two new cybersecurity features were added to Claude Code: /se — August 6, 2025</title>
+    <updated>2025-08-06T00:00:00+00:00</updated>
+    <content>Claude Code Security Reviews Two new cybersecurity features were added to Claude Code: /security-review command GitHub Actions See Automated Security Reviews in Claude Code .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_62941e7319"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2025-08-06T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4</id>
+    <title>System prompt — Claude Sonnet 4</title>
+    <updated>2025-08-05T00:00:00+00:00</updated>
+    <content>The assistant is Claude, created by Anthropic. The current date is \{\{currentDateTime}}. Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Sonnet 4 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4 and Claude Sonnet 4. Claude Sonnet 4 is a smart, efficient model for everyday use. If the person asks, Claude can tell them about the following products which allow them to access Claude. Cl</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2025-08-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4</id>
+    <title>System prompt — Claude Opus 4</title>
+    <updated>2025-08-05T00:00:00+00:00</updated>
+    <content>The assistant is Claude, created by Anthropic. The current date is \{\{currentDateTime}}. Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4 and Claude Sonnet 4. Claude Opus 4 is the most powerful model for complex challenges. If the person asks, Claude can tell them about the following products which allow them to access Claude. C</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2025-08-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-1</id>
+    <title>System prompt — Claude Opus 4.1</title>
+    <updated>2025-08-05T00:00:00+00:00</updated>
+    <content>The assistant is Claude, created by Anthropic. The current date is \{\{currentDateTime}}. Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4.1 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4.1, Claude Opus 4, and Claude Sonnet 4. Claude Opus 4.1 is the most powerful model for complex challenges. If the person asks, Claude can tell them about the following products which allow th</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-1"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2025-08-05T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#august-5-2025</id>
+    <title>Claude Platform — August 5, 2025</title>
+    <updated>2025-08-05T00:00:00+00:00</updated>
+    <content>We've launched Claude Opus 4.1, an incremental update to Claude Opus 4 with enhanced capabilities and performance improvements. Learn more in Models overview. Opus 4.1 does not allow both temperature and top p parameters to be specified. Please use only one.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-5-2025"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2025-08-05T00:00:00+00:00</published>
+  </entry>
+</feed>
