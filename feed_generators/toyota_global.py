@@ -5,14 +5,13 @@ Aggregates Toyota's public article streams into one **Atom** feed written to
 
     - Toyota USA Newsroom        https://pressroom.toyota.com/   (native RSS feed)
     - Newsroom Toyota Europe     https://newsroom.toyota.eu/     (native presspage RSS feed)
-    - Toyota Global Newsroom      https://global.toyota/en/       (server-rendered news cards)
+    - Toyota Global Newsroom      https://global.toyota/en/       (native all-news RSS feed)
     - Toyota Connected            https://www.toyotaconnected.com/ (HTML "Insights" listing)
     - Toyota Research Institute   https://www.tri.global/         (via Google News RSS proxy)
 
-The two newsrooms publish usable native feeds and are consumed directly. The
-Global Newsroom renders dated article cards in static HTML, and Toyota Connected
-exposes an "Insights" listing whose article pages carry a JSON-LD date. The
-Toyota Research Institute site sits behind a TLS-level block that refuses
+The three newsrooms publish usable native feeds and are consumed directly.
+Toyota Connected exposes an "Insights" listing whose article pages carry a
+JSON-LD date. The Toyota Research Institute site sits behind a TLS-level block that refuses
 automated clients outright, so — as with the Reuters feed — its recent coverage
 is pulled from the Google News RSS proxy instead. Each source is fetched
 independently and wrapped so one failing source is skipped, never fatal. History
@@ -54,19 +53,8 @@ BLOG_URL = "https://pressroom.toyota.com/"
 NATIVE_FEEDS = [
     ("Toyota USA Newsroom", "https://pressroom.toyota.com/feed/"),
     ("Newsroom Toyota Europe", "https://newsroom.toyota.eu/feed/"),
+    ("Toyota Global Newsroom", "https://global.toyota/export/en/allnews_rss.xml"),
 ]
-
-# Toyota Global Newsroom: server-rendered listing pages whose cards carry a
-# human date and headline. Article links look like /en/newsroom/<sec>/<id>.html.
-GLOBAL_TOYOTA_LISTINGS = [
-    "https://global.toyota/en/newsroom/",
-    "https://global.toyota/en/newsroom/corporate/",
-    "https://global.toyota/en/newsroom/toyota/",
-]
-GLOBAL_TOYOTA_BASE = "https://global.toyota"
-GLOBAL_TOYOTA_LINK_RE = re.compile(r"^/en/newsroom/[a-z]+/\d+\.html")
-# Card date such as "May 28, 2026" or "Apr. 07, 2023".
-GLOBAL_DATE_RE = re.compile(r"([A-Z][a-z]{2,8}\.?\s+\d{1,2},\s+\d{4})")
 
 # Toyota Connected: HTML "Insights" listing. Article URLs are /insights/<slug>;
 # category and pagination pages are excluded.
@@ -218,50 +206,6 @@ def collect_native_feed(label, url):
 
 
 # ---------------------------------------------------------------------------
-# Source: Toyota Global Newsroom (HTML cards)
-# ---------------------------------------------------------------------------
-
-
-def collect_global_toyota():
-    """Scrape dated article cards from the Toyota Global Newsroom listing pages.
-    Title and date come straight from the card text — no per-article fetch."""
-    label = "Toyota Global Newsroom"
-    entries = []
-    seen = set()
-    for listing in GLOBAL_TOYOTA_LISTINGS:
-        html = fetch_text(listing)
-        if not html:
-            continue
-        soup = BeautifulSoup(html, "html.parser")
-        for a in soup.find_all("a", href=True):
-            href = a["href"]
-            if not GLOBAL_TOYOTA_LINK_RE.match(href):
-                continue
-            link = GLOBAL_TOYOTA_BASE + href.split("?")[0]
-            if link in seen:
-                continue
-
-            text = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
-            m = GLOBAL_DATE_RE.search(text)
-            if not m:
-                continue  # undated card (e.g. "Popular" rail) — not a dated article
-            seen.add(link)
-
-            date_obj = parse_date(m.group(1))
-            title = text[m.end():].strip(" -–|")
-            title = sanitize_xml(title or title_from_slug(href))
-            entries.append({
-                "title": title,
-                "link": link,
-                "date": date_obj,
-                "description": title,
-                "source": label,
-            })
-    logger.info(f"[{label}] collected {len(entries)} entries")
-    return entries
-
-
-# ---------------------------------------------------------------------------
 # Source: Toyota Connected (Insights listing)
 # ---------------------------------------------------------------------------
 
@@ -401,12 +345,6 @@ def collect_all(known_links):
             entries += collect_native_feed(label, url)
         except Exception as e:
             logger.warning(f"[{label}] unexpected error: {e}")
-
-    logger.info("Scraping Toyota Global Newsroom ...")
-    try:
-        entries += collect_global_toyota()
-    except Exception as e:
-        logger.warning(f"[Toyota Global Newsroom] unexpected error: {e}")
 
     logger.info("Scraping Toyota Connected ...")
     try:
