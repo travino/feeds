@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-02T19:50:04.649752+00:00</updated>
+  <updated>2026-06-02T22:26:20.782799+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -20,6 +20,15 @@
     <published>2026-06-03T00:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-161</id>
+    <title>2.1.161</title>
+    <updated>2026-06-02T22:08:49+00:00</updated>
+    <content>2.1.161</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-161"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-06-02T22:08:49+00:00</published>
+  </entry>
+  <entry>
     <id>https://code.claude.com/docs/en/changelog#2-1-160</id>
     <title>2.1.160</title>
     <updated>2026-06-02T02:18:10+00:00</updated>
@@ -27,6 +36,15 @@
     <link href="https://code.claude.com/docs/en/changelog#2-1-160"/>
     <category term="Claude Code" label="Claude Code"/>
     <published>2026-06-02T02:18:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code</id>
+    <title>A harness for every task dynamic workflows in claude code</title>
+    <updated>2026-06-02T00:00:00+00:00</updated>
+    <content>A harness for every task dynamic workflows in claude code</content>
+    <link href="https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-06-02T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://platform.claude.com/docs/en/release-notes/overview#june-2-2026</id>
@@ -1341,23 +1359,5 @@
     <link href="https://support.claude.com/en/articles/12138966-release-notes#h_62941e7319"/>
     <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
     <published>2025-08-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4</id>
-    <title>System prompt — Claude Sonnet 4</title>
-    <updated>2025-08-05T00:00:00+00:00</updated>
-    <content>The assistant is Claude, created by Anthropic. The current date is \{\{currentDateTime}}. Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Sonnet 4 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4 and Claude Sonnet 4. Claude Sonnet 4 is a smart, efficient model for everyday use. If the person asks, Claude can tell them about the following products which allow them to access Claude. Cl</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-sonnet-4"/>
-    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
-    <published>2025-08-05T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4</id>
-    <title>System prompt — Claude Opus 4</title>
-    <updated>2025-08-05T00:00:00+00:00</updated>
-    <content>The assistant is Claude, created by Anthropic. The current date is \{\{currentDateTime}}. Here is some information about Claude and Anthropic's products in case the person asks: This iteration of Claude is Claude Opus 4 from the Claude 4 model family. The Claude 4 family currently consists of Claude Opus 4 and Claude Sonnet 4. Claude Opus 4 is the most powerful model for complex challenges. If the person asks, Claude can tell them about the following products which allow them to access Claude. C</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4"/>
-    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
-    <published>2025-08-05T00:00:00+00:00</published>
   </entry>
 </feed>
