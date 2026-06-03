@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-03T12:48:47.371665+00:00</updated>
+  <updated>2026-06-03T18:03:25.441992+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -10,6 +10,33 @@
   <link href="https://claude.com/blog" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, and Claude Platform release notes and system prompts.</subtitle>
+  <entry>
+    <id>https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork</id>
+    <title>Best practices for getting started with claude cowork</title>
+    <updated>2026-06-03T00:00:00+00:00</updated>
+    <content>Best practices for getting started with claude cowork</content>
+    <link href="https://claude.com/blog/best-practices-for-getting-started-with-claude-cowork"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-06-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills</id>
+    <title>Lessons from building claude code how we use skills</title>
+    <updated>2026-06-03T00:00:00+00:00</updated>
+    <content>Lessons from building claude code how we use skills</content>
+    <link href="https://claude.com/blog/lessons-from-building-claude-code-how-we-use-skills"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-06-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude</id>
+    <title>How anthropic enables self service data analytics with claude</title>
+    <updated>2026-06-03T00:00:00+00:00</updated>
+    <content>How anthropic enables self service data analytics with claude</content>
+    <link href="https://claude.com/blog/how-anthropic-enables-self-service-data-analytics-with-claude"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-06-03T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://claude.com/blog/running-an-ai-native-engineering-org</id>
     <title>Running an ai native engineering org</title>
@@ -1332,32 +1359,5 @@
     <link href="https://platform.claude.com/docs/en/release-notes/overview#august-11-2025"/>
     <category term="Claude Platform release notes" label="Claude Platform release notes"/>
     <published>2025-08-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://support.claude.com/en/articles/12138966-release-notes#h_c1c4a54f72</id>
-    <title>Ability to search past conversations Users on Max, Team, Enterprise plans can prompt Claud — August 11, 2025</title>
-    <updated>2025-08-11T00:00:00+00:00</updated>
-    <content>Ability to search past conversations Users on Max, Team, Enterprise plans can prompt Claude to search over past chats, allowing finer-grained context continuation and synthesizing across topics. See Searching past chats .</content>
-    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_c1c4a54f72"/>
-    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
-    <published>2025-08-11T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#august-8-2025</id>
-    <title>Claude Platform — August 8, 2025</title>
-    <updated>2025-08-08T00:00:00+00:00</updated>
-    <content>Search result content blocks are now generally available on the Claude API and Vertex AI. This feature enables natural citations for RAG applications with proper source attribution. The beta header search-results-2025-06-09 is no longer required. Learn more in Search results.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-8-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-08-08T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://support.claude.com/en/articles/12138966-release-notes#h_62941e7319</id>
-    <title>Claude Code Security Reviews Two new cybersecurity features were added to Claude Code: /se — August 6, 2025</title>
-    <updated>2025-08-06T00:00:00+00:00</updated>
-    <content>Claude Code Security Reviews Two new cybersecurity features were added to Claude Code: /security-review command GitHub Actions See Automated Security Reviews in Claude Code .</content>
-    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_62941e7319"/>
-    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
-    <published>2025-08-06T00:00:00+00:00</published>
   </entry>
 </feed>
