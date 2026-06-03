@@ -1,0 +1,42 @@
+# Feeds shown on the public landing page (https://travino.github.io/feeds/).
+#
+# One feed per line, in the order you want them displayed.
+# The name is the short name: the part between "feed_" and ".xml"
+# (e.g. feeds/feed_reuters.xml  ->  reuters).
+#
+# - Lines starting with "#" and blank lines are ignored.
+# - Comment out or delete a line to HIDE that feed from the page.
+# - Add a line to show a feed. New feeds are hidden until listed here.
+# - Optional custom title:   reuters | Reuters — World News
+# - Delete this whole file to fall back to showing every feed.
+
+# --- News ---
+reuters
+daily_digest
+
+# --- Polish radio ---
+# trojka
+# czworka
+
+# --- Music & audio ---
+beatport_top100
+foobar2000
+
+# --- Gaming & entertainment ---
+# nexusmods_news
+jbzd
+
+# --- AI ---
+anthropic
+claude
+
+# --- Automotive ---
+lexus_newsroom
+toyota_global
+
+# --- Tech & system ---
+# windows11_release_notes
+
+# --- Weather ---
+# openweather
+# visualcrossing

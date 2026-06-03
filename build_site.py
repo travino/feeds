@@ -32,6 +32,7 @@ ATOM = "{http://www.w3.org/2005/Atom}"
 ROOT = Path(__file__).resolve().parent
 FEEDS_DIR = ROOT / "feeds"
 OUT_DIR = ROOT / "public"
+SELECTION_FILE = ROOT / "published_feeds.txt"
 
 
 def site_base_url() -> str:
@@ -115,9 +116,54 @@ def relative_time(dt: datetime | None) -> str:
     return "1 day ago" if days == 1 else f"{days} days ago"
 
 
+def short_name(path: Path) -> str:
+    """feeds/feed_reuters.xml -> 'reuters' (the editable key in the allowlist)."""
+    stem = path.stem
+    return stem[len("feed_"):] if stem.startswith("feed_") else stem
+
+
+def load_selection() -> list[tuple[str, str]] | None:
+    """Read published_feeds.txt -> ordered [(name, title_override)].
+
+    Returns None when the file is absent, meaning "publish every feed".
+    Each line is a feed short name, optionally with a custom title after a '|':
+
+        reuters
+        beatport_top100 | Beatport — Top 100
+
+    Blank lines and lines starting with '#' are ignored.
+    """
+    if not SELECTION_FILE.exists():
+        return None
+    selection: list[tuple[str, str]] = []
+    for raw in SELECTION_FILE.read_text(encoding="utf-8").splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        name, _, override = line.partition("|")
+        selection.append((name.strip(), override.strip()))
+    return selection
+
+
 def collect_feeds() -> list[dict]:
-    feeds = [parse_feed(p) for p in sorted(FEEDS_DIR.glob("feed_*.xml"))]
-    feeds.sort(key=lambda f: f["title"].lower())
+    available = {short_name(p): p for p in FEEDS_DIR.glob("feed_*.xml")}
+    selection = load_selection()
+
+    if selection is None:
+        feeds = [parse_feed(p) for p in available.values()]
+        feeds.sort(key=lambda f: f["title"].lower())
+        return feeds
+
+    feeds = []
+    for name, override in selection:
+        path = available.get(name)
+        if path is None:
+            print(f"  ! published_feeds.txt lists '{name}' but feeds/feed_{name}.xml is missing — skipping")
+            continue
+        info = parse_feed(path)
+        if override:
+            info["title"] = override
+        feeds.append(info)
     return feeds
 
 
