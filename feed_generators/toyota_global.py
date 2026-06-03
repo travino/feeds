@@ -6,10 +6,11 @@ Aggregates Toyota's public article streams into one **Atom** feed written to
     - Toyota USA Newsroom        https://pressroom.toyota.com/   (native RSS feed)
     - Newsroom Toyota Europe     https://newsroom.toyota.eu/     (native presspage RSS feed)
     - Toyota Global Newsroom      https://global.toyota/en/       (native all-news RSS feed)
+    - Toyota Times                https://toyotatimes.jp/en/      (native RSS feed)
     - Toyota Connected            https://www.toyotaconnected.com/ (HTML "Insights" listing)
     - Toyota Research Institute   https://www.tri.global/         (via Google News RSS proxy)
 
-The three newsrooms publish usable native feeds and are consumed directly.
+The four newsrooms publish usable native feeds and are consumed directly.
 Toyota Connected exposes an "Insights" listing whose article pages carry a
 JSON-LD date. The Toyota Research Institute site sits behind a TLS-level block that refuses
 automated clients outright, so — as with the Reuters feed — its recent coverage
@@ -49,11 +50,15 @@ logger = setup_logging()
 FEED_NAME = "toyota_global"
 BLOG_URL = "https://pressroom.toyota.com/"
 
-# Native RSS / Atom feeds — parsed directly, no scraping needed.
+# Native RSS / Atom feeds — parsed directly, no scraping needed. The optional
+# third element caps how many of the newest items a feed contributes; it keeps
+# a high-volume archive (Toyota Times exposes its full multi-year backlog) from
+# flooding the hourly-committed cache. None = take everything the feed returns.
 NATIVE_FEEDS = [
-    ("Toyota USA Newsroom", "https://pressroom.toyota.com/feed/"),
-    ("Newsroom Toyota Europe", "https://newsroom.toyota.eu/feed/"),
-    ("Toyota Global Newsroom", "https://global.toyota/export/en/allnews_rss.xml"),
+    ("Toyota USA Newsroom", "https://pressroom.toyota.com/feed/", None),
+    ("Newsroom Toyota Europe", "https://newsroom.toyota.eu/feed/", None),
+    ("Toyota Global Newsroom", "https://global.toyota/export/en/allnews_rss.xml", None),
+    ("Toyota Times", "https://toyotatimes.jp/en/feed.xml", 60),
 ]
 
 # Toyota Connected: HTML "Insights" listing. Article URLs are /insights/<slug>;
@@ -197,12 +202,18 @@ def parse_native_feed(xml, label):
     return entries
 
 
-def collect_native_feed(label, url):
+def collect_native_feed(label, url, limit=None):
     xml = fetch_text(url, headers={**DEFAULT_HEADERS, "Accept": "application/rss+xml,application/xml;q=0.9,*/*;q=0.8"})
     if not xml:
         logger.warning(f"[{label}] fetch failed — skipping this source")
         return []
-    return parse_native_feed(xml, label)
+    entries = parse_native_feed(xml, label)
+    if limit is not None and len(entries) > limit:
+        # Keep the newest `limit` items (dated first, descending; undated last).
+        entries.sort(key=lambda e: (e.get("date") is not None, e.get("date")), reverse=True)
+        entries = entries[:limit]
+        logger.info(f"[{label}] capped to newest {limit} of its items")
+    return entries
 
 
 # ---------------------------------------------------------------------------
@@ -339,10 +350,10 @@ def collect_all(known_links):
     """Collect entries from every source. A failure in one source is logged and
     skipped so the others still contribute."""
     entries = []
-    for label, url in NATIVE_FEEDS:
+    for label, url, limit in NATIVE_FEEDS:
         logger.info(f"Fetching native feed: {label}")
         try:
-            entries += collect_native_feed(label, url)
+            entries += collect_native_feed(label, url, limit)
         except Exception as e:
             logger.warning(f"[{label}] unexpected error: {e}")
 
