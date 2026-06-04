@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-04T12:10:24.286472+00:00</updated>
+  <updated>2026-06-04T16:26:18.548472+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -173,6 +173,15 @@
     <published>2026-05-28T01:00:17+00:00</published>
   </entry>
   <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-8</id>
+    <title>System prompt — Claude Opus 4.8</title>
+    <updated>2026-05-28T00:00:00+00:00</updated>
+    <content>\ \ Here is some information about Claude and Anthropic's products in case the person asks: The currently selected version of Claude is Claude Opus 4.8. Claude Opus 4.8 is the newest Claude model, and the most advanced model publicly available. Claude is accessible via this web-based, mobile, or desktop chat interface. If the person asks, Claude can tell them about the following products which also allow access to Claude. Claude is accessible via an API and Claude Platform. The most recent publi</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/system-prompts#claude-opus-4-8"/>
+    <category term="Claude Platform system prompts" label="Claude Platform system prompts"/>
+    <published>2026-05-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://platform.claude.com/docs/en/release-notes/overview#may-28-2026</id>
     <title>Claude Platform — May 28, 2026</title>
     <updated>2026-05-28T00:00:00+00:00</updated>
@@ -207,6 +216,15 @@
     <link href="https://code.claude.com/docs/en/changelog#2-1-152"/>
     <category term="Claude Code" label="Claude Code"/>
     <published>2026-05-27T01:35:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#may-27-2026</id>
+    <title>Claude Platform — May 27, 2026</title>
+    <updated>2026-05-27T00:00:00+00:00</updated>
+    <content>The Messages API response now includes usage.output tokens details.thinking tokens , reporting how many of the billed output tokens were extended thinking. When streaming, the breakdown appears only on the final message delta event. No beta header is required.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#may-27-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-05-27T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://claude.com/blog/zero-trust-for-ai-agents</id>
@@ -1341,23 +1359,5 @@
     <link href="https://platform.claude.com/docs/en/release-notes/overview#august-13-2025"/>
     <category term="Claude Platform release notes" label="Claude Platform release notes"/>
     <published>2025-08-13T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#august-12-2025</id>
-    <title>Claude Platform — August 12, 2025</title>
-    <updated>2025-08-12T00:00:00+00:00</updated>
-    <content>We've launched beta support for a 1M token context window in Claude Sonnet 4 on the Claude API and Amazon Bedrock.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-12-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-08-12T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://support.claude.com/en/articles/12138966-release-notes#h_004d90b693</id>
-    <title>1M token context window The 1M token context window for Claude Sonnet 4 is currently in be — August 12, 2025</title>
-    <updated>2025-08-12T00:00:00+00:00</updated>
-    <content>1M token context window The 1M token context window for Claude Sonnet 4 is currently in beta for API organizations in usage tier 4, or with custom rate limits. See 1M token context window in our docs for more information.</content>
-    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_004d90b693"/>
-    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
-    <published>2025-08-12T00:00:00+00:00</published>
   </entry>
 </feed>

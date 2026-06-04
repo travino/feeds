@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-06-04T12:10:56.317556+00:00</updated>
+  <updated>2026-06-04T16:27:32.788565+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://about.fb.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Meta news, engineering, and AI blogs -- Meta.com, About Meta, Engineering at Meta, and AI at Meta -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/06/creator-assistant-more-languages-for-ai-translations-on-facebook/</id>
+    <title>Introducing Creator Assistant, Plus More Languages For AI Translations on Facebook</title>
+    <updated>2026-06-04T15:00:34+00:00</updated>
+    <content>Creator assistant understands each creator's unique presence and helps them take action to grow. The post Introducing Creator Assistant, Plus More Languages For AI Translations on Facebook appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/06/creator-assistant-more-languages-for-ai-translations-on-facebook/"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-06-04T15:00:34+00:00</published>
+  </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/reels-is-shaping-indias-video-first-future-across-gen-z-women-bharat/</id>
     <title>Reels Is Shaping India’s Video-First Future Across Gen Z, Women &amp; Bharat</title>
@@ -27,6 +36,15 @@
     <link href="https://about.fb.com/news/2026/06/leading-tech-companies-law-enforcement-disrupt-criminal-scam-networks-in-southeast-asia/"/>
     <category term="Meta Newsroom" label="Meta Newsroom"/>
     <published>2026-06-03T20:15:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://engineering.fb.com/2026/06/03/data-center-engineering/lights-out-systems-on-validating-instant-power-loss-readiness/</id>
+    <title>Lights Out, Systems On: Validating Instant Power Loss Readiness</title>
+    <updated>2026-06-03T17:00:44+00:00</updated>
+    <content>We’re introducing Instantaneous PowerLoss Storm, a new testing paradigm within Meta’s infrastructure for handling and mitigating instant or zero-notice power loss in our data centers. We’re sharing: how we built readiness to tolerate instant failures into our existing systems with defense-in-depth strategies; tradeoffs made in implementing it, and how we validated our readiness. Disaster preparedness [...] Read More... The post Lights Out, Systems On: Validating Instant Power Loss Readiness a...</content>
+    <link href="https://engineering.fb.com/2026/06/03/data-center-engineering/lights-out-systems-on-validating-instant-power-loss-readiness/"/>
+    <category term="Engineering at Meta" label="Engineering at Meta"/>
+    <published>2026-06-03T17:00:44+00:00</published>
   </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/meta-business-agent/</id>
@@ -891,23 +909,5 @@
     <link href="https://ai.meta.com/blog/spotify-personalized-recommendations-built-with-llama/"/>
     <category term="AI at Meta" label="AI at Meta"/>
     <published>2024-12-18T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/</id>
-    <title>Sharing new research, models, and datasets from Meta FAIR</title>
-    <updated>2024-12-12T00:00:00+00:00</updated>
-    <content>Meta FAIR is releasing new research artifacts that highlight our recent innovations in developing agents, robustness and safety, and architectures that facilitate machine learning.</content>
-    <link href="https://ai.meta.com/blog/meta-fair-updates-agents-robustness-safety-architecture/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2024-12-12T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/</id>
-    <title>How Inarix is using DINOv2 to revolutionize the agricultural supply chain</title>
-    <updated>2024-12-06T00:00:00+00:00</updated>
-    <content>Inarix is transforming the agricultural industry by turning smartphones into pocket laboratories using Meta FAIR’s DinoV2.</content>
-    <link href="https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2024-12-06T00:00:00+00:00</published>
   </entry>
 </feed>
