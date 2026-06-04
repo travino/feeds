@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-06-03T23:53:47.516263+00:00</updated>
+  <updated>2026-06-04T12:10:56.317556+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://about.fb.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Meta news, engineering, and AI blogs -- Meta.com, About Meta, Engineering at Meta, and AI at Meta -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/06/reels-is-shaping-indias-video-first-future-across-gen-z-women-bharat/</id>
+    <title>Reels Is Shaping India’s Video-First Future Across Gen Z, Women &amp; Bharat</title>
+    <updated>2026-06-04T06:56:43+00:00</updated>
+    <content>Findings from new Meta-commissioned studies by IPSOS show that India’s video economy has become truly nationwide, with Reels emerging as the defining short-form video platform driving discovery, culture, creator engagement and commerce across Gen Z, women and Bharat audiences. The post Reels Is Shaping India’s Video-First Future Across Gen Z, Women &amp; Bharat appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/06/reels-is-shaping-indias-video-first-future-across-gen-z-women-bharat/"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-06-04T06:56:43+00:00</published>
+  </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/leading-tech-companies-law-enforcement-disrupt-criminal-scam-networks-in-southeast-asia/</id>
     <title>Leading Tech Companies and Law Enforcement Join Forces to Disrupt Criminal Scam Networks in Southeast Asia</title>
@@ -900,14 +909,5 @@
     <link href="https://ai.meta.com/blog/inarix-agricultural-supply-chain-meta-dino-v2/"/>
     <category term="AI at Meta" label="AI at Meta"/>
     <published>2024-12-06T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/open-sourcing-surface-electromyography-datasets-neurips-2024/</id>
-    <title>Advancing Neuromotor Interfaces by Open Sourcing Surface Electromyography (sEMG) Datasets for Pose Estimation and Surface Typing</title>
-    <updated>2024-12-05T00:00:00+00:00</updated>
-    <content>We’re releasing emg2qwerty and emg2pose—two large datasets and benchmarks for sEMG-based typing and pose estimation, as part of the NeurIPS 2024 Datasets and Benchmarks track.</content>
-    <link href="https://ai.meta.com/blog/open-sourcing-surface-electromyography-datasets-neurips-2024/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2024-12-05T00:00:00+00:00</published>
   </entry>
 </feed>
