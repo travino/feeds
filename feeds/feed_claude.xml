@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-05T16:06:39.143361+00:00</updated>
+  <updated>2026-06-05T19:01:57.127277+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -18,6 +18,15 @@
     <link href="https://code.claude.com/docs/en/changelog#2-1-165"/>
     <category term="Claude Code" label="Claude Code"/>
     <published>2026-06-05T05:54:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering</id>
+    <title>How anthropic uses claude gtm engineering</title>
+    <updated>2026-06-05T00:00:00+00:00</updated>
+    <content>How anthropic uses claude gtm engineering</content>
+    <link href="https://claude.com/blog/how-anthropic-uses-claude-gtm-engineering"/>
+    <category term="Claude Blog" label="Claude Blog"/>
+    <published>2026-06-05T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://code.claude.com/docs/en/changelog#2-1-163</id>
@@ -1350,14 +1359,5 @@
     <link href="https://support.claude.com/en/articles/12138966-release-notes#h_ecf9770e2f"/>
     <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
     <published>2025-08-20T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#august-19-2025</id>
-    <title>Claude Platform — August 19, 2025</title>
-    <updated>2025-08-19T00:00:00+00:00</updated>
-    <content>Request IDs are now included directly in error response bodies alongside the existing request-id header. Learn more in Errors.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-19-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-08-19T00:00:00+00:00</published>
   </entry>
 </feed>
