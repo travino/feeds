@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-05T23:18:01.383658+00:00</updated>
+  <updated>2026-06-06T04:12:33.053320+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -10,6 +10,24 @@
   <link href="https://claude.com/blog" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, and Claude Platform release notes and system prompts.</subtitle>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-166</id>
+    <title>2.1.166</title>
+    <updated>2026-06-06T01:43:25+00:00</updated>
+    <content>2.1.166</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-166"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-06-06T01:43:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-167</id>
+    <title>2.1.167</title>
+    <updated>2026-06-06T01:43:25+00:00</updated>
+    <content>2.1.167</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-167"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-06-06T01:43:25+00:00</published>
+  </entry>
   <entry>
     <id>https://code.claude.com/docs/en/changelog#2-1-165</id>
     <title>2.1.165</title>
@@ -1341,23 +1359,5 @@
     <link href="https://support.claude.com/en/articles/12138966-release-notes#h_d84fb4eda0"/>
     <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
     <published>2025-08-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#august-26-2025</id>
-    <title>Claude Platform — August 26, 2025</title>
-    <updated>2025-08-26T00:00:00+00:00</updated>
-    <content>We've increased rate limits on the 1M token context window for Claude Sonnet 4 on the Claude API. The 1M token context window is now available on Vertex AI. For more information, see Claude on Vertex AI.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#august-26-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-08-26T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://support.claude.com/en/articles/12138966-release-notes#h_8946025878</id>
-    <title>Claude in Chrome An experimental browser extension that allows Claude to read, click, and  — August 26, 2025</title>
-    <updated>2025-08-26T00:00:00+00:00</updated>
-    <content>Claude in Chrome An experimental browser extension that allows Claude to read, click, and navigate websites alongside you. See Getting Started with Claude in Chrome .</content>
-    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_8946025878"/>
-    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
-    <published>2025-08-26T00:00:00+00:00</published>
   </entry>
 </feed>
