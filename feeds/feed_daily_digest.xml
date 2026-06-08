@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://api.viewbits.com/daily_digest</id>
   <title>Daily Digest</title>
-  <updated>2026-06-07T22:12:52.595480+00:00</updated>
+  <updated>2026-06-08T00:18:40.165430+00:00</updated>
   <author>
     <name>Daily Digest</name>
   </author>
@@ -10,6 +10,68 @@
   <link href="https://api.viewbits.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Quote, fact, life hack, fortune cookie, and headlines of the day</subtitle>
+  <entry>
+    <id>fortune:2026-06-08</id>
+    <title>Fortune Cookie of the Day</title>
+    <updated>2026-06-08T00:00:00+00:00</updated>
+    <author>
+      <name>ViewBits</name>
+    </author>
+    <content>The usefulness of a cup is in its emptiness.
+
+Lucky Numbers: 76, 52, 51, 3, 8, 95</content>
+    <link href="https://www.geckoandfly.com/16647/20-wise-chinese-fortune-cookie-sayings/"/>
+    <category term="fortune"/>
+    <published>2026-06-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>lifehack:2026-06-08</id>
+    <title>Life Hack of the Day</title>
+    <updated>2026-06-08T00:00:00+00:00</updated>
+    <author>
+      <name>ViewBits</name>
+    </author>
+    <content>Take the last sliver of a soap bar and stick in the new bar.</content>
+    <link href="https://www.wea.org.uk/news-views/blog/life-skills/budgeting/20-life-hacks-simplify-your-day"/>
+    <category term="lifehack"/>
+    <published>2026-06-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>fact:2026-06-08</id>
+    <title>Useless Fact of the Day</title>
+    <updated>2026-06-08T00:00:00+00:00</updated>
+    <author>
+      <name>ViewBits</name>
+    </author>
+    <content>In every episode of Seinfeld there is a Superman somewhere.</content>
+    <link href="https://www.djtech.net/humor/shorty_useless_facts.htm"/>
+    <category term="fact"/>
+    <published>2026-06-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>quote:2026-06-08</id>
+    <title>Quote of the Day — Thomas Jefferson</title>
+    <updated>2026-06-08T00:00:00+00:00</updated>
+    <author>
+      <name>Thomas Jefferson</name>
+    </author>
+    <content>“I like the dreams of the future better than the history of the past.” — Thomas Jefferson</content>
+    <link href="https://zenquotes.io/"/>
+    <category term="quote"/>
+    <published>2026-06-08T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nbcnews.com/news/us-news/weekend-rundown-june-7-rcna348569</id>
+    <title>Here’s the biggest news you missed this weekend</title>
+    <updated>2026-06-07T22:00:00+00:00</updated>
+    <author>
+      <name>nbcnews.com</name>
+    </author>
+    <content>President Donald Trump did not rule out the government paying people who were charged with assaulting police officers during the Jan. 6 attack on the U.S.</content>
+    <link href="https://www.nbcnews.com/news/us-news/weekend-rundown-june-7-rcna348569"/>
+    <category term="top"/>
+    <published>2026-06-07T22:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://www.latimes.com/california/story/2026-06-07/tribeca-condemns-elon-gold-lizzy-savetsky-for-palestine-dog-rape-joke</id>
     <title>Tribeca Festival condemns Actor Elon Gold and influencer Lizzy Savetsky's 'offensive' dog rape joke</title>
@@ -1151,65 +1213,5 @@ Lucky Numbers: 92, 99, 62, 46, 25, 66</content>
     <link href="https://finance.yahoo.com/markets/commodities/articles/forget-gld-gldm-tracks-exact-181804719.html"/>
     <category term="money"/>
     <published>2026-06-06T18:18:04+00:00</published>
-  </entry>
-  <entry>
-    <id>https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/</id>
-    <title>What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates</title>
-    <updated>2026-06-06T18:13:36+00:00</updated>
-    <author>
-      <name>techcrunch.com</name>
-    </author>
-    <content>Apple's WWDC nears: Here's what you can look forward to.</content>
-    <link href="https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/"/>
-    <category term="tech"/>
-    <published>2026-06-06T18:13:36+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.sportingnews.com/us/college/news/west-virginia-vs-cal-poly-baseball-box-score-live-stats-ncaa-baseball-championship-game/cc17d400e80b06661d534b3f</id>
-    <title>West Virginia vs. Cal Poly baseball box score: Live stats from NCAA Baseball Championship Game</title>
-    <updated>2026-06-06T18:12:00+00:00</updated>
-    <author>
-      <name>sportingnews.com</name>
-    </author>
-    <content>The Mountaineers are halfway there to the CWS.</content>
-    <link href="https://www.sportingnews.com/us/college/news/west-virginia-vs-cal-poly-baseball-box-score-live-stats-ncaa-baseball-championship-game/cc17d400e80b06661d534b3f"/>
-    <category term="sports"/>
-    <published>2026-06-06T18:12:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.sportingnews.com/us/college/news/north-carolina-vs-usc-baseball-box-score-live-stats-ncaa-baseball-championship-game/9b2cb1930032ada760bebf09</id>
-    <title>North Carolina vs. USC baseball box score: Live stats from NCAA Baseball Championship Game</title>
-    <updated>2026-06-06T18:10:45+00:00</updated>
-    <author>
-      <name>sportingnews.com</name>
-    </author>
-    <content>The Tar Heels are in a must-win situation at home.</content>
-    <link href="https://www.sportingnews.com/us/college/news/north-carolina-vs-usc-baseball-box-score-live-stats-ncaa-baseball-championship-game/9b2cb1930032ada760bebf09"/>
-    <category term="sports"/>
-    <published>2026-06-06T18:10:45+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.sportingnews.com/us/college/news/mississippi-state-vs-georgia-baseball-box-score-live-stats-ncaa-baseball-championship-game/814c82d84216c960c62e7232</id>
-    <title>Mississippi State vs. Georgia baseball box score: Live stats from NCAA Baseball Championship Game</title>
-    <updated>2026-06-06T18:10:00+00:00</updated>
-    <author>
-      <name>sportingnews.com</name>
-    </author>
-    <content>The dog fight will put an SEC team in the CWS.</content>
-    <link href="https://www.sportingnews.com/us/college/news/mississippi-state-vs-georgia-baseball-box-score-live-stats-ncaa-baseball-championship-game/814c82d84216c960c62e7232"/>
-    <category term="sports"/>
-    <published>2026-06-06T18:10:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.sportingnews.com/us/nhl/buffalo-sabres/news/sabres-44-year-old-1st-round-pick-could-still-join-forces/41da00abf73eb430b608a8ec</id>
-    <title>Sabres and 44-year old 1st-round pick could still join forces</title>
-    <updated>2026-06-06T18:02:32+00:00</updated>
-    <author>
-      <name>sportingnews.com</name>
-    </author>
-    <content>This is a fascinating quirk of contracts in the NHL.</content>
-    <link href="https://www.sportingnews.com/us/nhl/buffalo-sabres/news/sabres-44-year-old-1st-round-pick-could-still-join-forces/41da00abf73eb430b608a8ec"/>
-    <category term="sports"/>
-    <published>2026-06-06T18:02:32+00:00</published>
   </entry>
 </feed>
