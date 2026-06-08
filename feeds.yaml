@@ -73,3 +73,11 @@ feeds:
     script: ra_magazine.py
     type: requests
     blog_url: https://ra.co/magazine
+  olx:
+    script: olx_group.py
+    type: requests
+    blog_url: https://www.olx.pl/
+  skillsllm:
+    script: skillsllm.py
+    type: requests
+    blog_url: https://skillsllm.com/
