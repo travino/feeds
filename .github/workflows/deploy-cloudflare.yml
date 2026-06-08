@@ -1,0 +1,59 @@
+name: Deploy Cloudflare Pages
+
+# -------------------------------------------------------------------------
+# DORMANT BY DESIGN. This is the "spare tire" — GitHub Pages stays the live
+# deploy until you decide to switch. Nothing here runs automatically and
+# nothing is created until you act, so no bridge is burned yet.
+#
+# To go live on Cloudflare:
+#   1. Create a Cloudflare Pages project using DIRECT UPLOAD (not Git):
+#        npx wrangler pages project create feeds --production-branch main
+#      ^ One-way door: a Direct Upload project CANNOT later be converted to
+#        Git integration. Reuses build_site.py and ignores the 500 builds/mo
+#        cap entirely, which is why we picked it.
+#   2. Add two repo secrets (Settings -> Secrets and variables -> Actions):
+#        CLOUDFLARE_API_TOKEN    (token with "Cloudflare Pages: Edit")
+#        CLOUDFLARE_ACCOUNT_ID
+#   3. Adjust PROJECT_NAME / SITE_URL below if your project name differs.
+#   4. Run it once: Actions -> Deploy Cloudflare Pages -> Run workflow.
+#   5. (Optional) Uncomment the `workflow_run` block to auto-deploy after
+#      each "Update Feeds" run, and disable the GitHub Pages workflow.
+# -------------------------------------------------------------------------
+
+on:
+  workflow_dispatch:
+  # Activate auto-deploy later by uncommenting:
+  # workflow_run:
+  #   workflows: ["Update Feeds"]
+  #   types: [completed]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloudflare-pages
+  cancel-in-progress: true
+
+env:
+  PROJECT_NAME: feeds
+  SITE_URL: https://feeds.pages.dev/   # your public URL; used in canonical/feed links
+
+jobs:
+  build-deploy:
+    # When triggered manually this always runs; the workflow_run guard only
+    # matters once that trigger is uncommented above.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Build site
+        run: python3 build_site.py
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=${{ env.PROJECT_NAME }} --branch=main
