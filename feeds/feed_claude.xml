@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-09T14:55:40.949428+00:00</updated>
+  <updated>2026-06-09T18:08:12.655147+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -10,6 +10,24 @@
   <link href="https://claude.com/blog" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, and Claude Platform release notes and system prompts.</subtitle>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#june-9-2026</id>
+    <title>Claude Platform — June 9, 2026</title>
+    <updated>2026-06-09T00:00:00+00:00</updated>
+    <content>We've launched Claude Fable 5 ( claude-fable-5 ), our most capable widely released model, alongside Claude Mythos 5 ( claude-mythos-5 ) for Project Glasswing participants. Both models support a 1M token context window by default, 128k max output tokens, and always-on adaptive thinking. See Introducing Claude Fable 5 and Claude Mythos 5 for capabilities, API changes, and availability. Claude Fable 5 and Claude Mythos 5 use the tokenizer introduced with Claude Opus 4.7. Compared to models before C</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#june-9-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-06-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://support.claude.com/en/articles/12138966-release-notes#h_1ffae8aad0</id>
+    <title>Claude Fable 5 launch We launched Claude Fable 5, a Mythos-class model that we’ve made saf — June 9, 2026</title>
+    <updated>2026-06-09T00:00:00+00:00</updated>
+    <content>Claude Fable 5 launch We launched Claude Fable 5, a Mythos-class model that we’ve made safe for general use. For more information, see our blog post: Claude Fable 5 and Claude Mythos 5 .</content>
+    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_1ffae8aad0"/>
+    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
+    <published>2026-06-09T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://code.claude.com/docs/en/changelog#2-1-169</id>
     <title>2.1.169</title>
@@ -1341,23 +1359,5 @@
     <link href="https://platform.claude.com/docs/en/release-notes/overview#september-8-2025"/>
     <category term="Claude Platform release notes" label="Claude Platform release notes"/>
     <published>2025-09-08T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#september-5-2025</id>
-    <title>Claude Platform — September 5, 2025</title>
-    <updated>2025-09-05T00:00:00+00:00</updated>
-    <content>We've launched rate limit charts in the Console Usage page, allowing you to monitor your API rate limit usage and caching rates over time.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-5-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-09-05T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#september-3-2025</id>
-    <title>Claude Platform — September 3, 2025</title>
-    <updated>2025-09-03T00:00:00+00:00</updated>
-    <content>We've launched support for citable documents in client-side tool results. Learn more in Handle tool calls.</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-3-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-09-03T00:00:00+00:00</published>
   </entry>
 </feed>

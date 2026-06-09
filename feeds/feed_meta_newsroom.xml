@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-06-09T14:57:35.296536+00:00</updated>
+  <updated>2026-06-09T18:09:16.570538+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://about.fb.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Meta news, engineering, and AI blogs -- Meta.com, About Meta, Engineering at Meta, and AI at Meta -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/06/better-personalization-and-changes-to-controls-for-your-activity-from-other-businesses/</id>
+    <title>Better Personalization and Changes to Controls for Your Activity From Other Businesses</title>
+    <updated>2026-06-09T15:00:52+00:00</updated>
+    <content>We're updating how we use information that other businesses already share with Meta. The post Better Personalization and Changes to Controls for Your Activity From Other Businesses appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/06/better-personalization-and-changes-to-controls-for-your-activity-from-other-businesses/"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-06-09T15:00:52+00:00</published>
+  </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/americas-workforce-academy-free-skilled-trade-training/</id>
     <title>America’s Workforce Academy: The Future Is for Everyone</title>
@@ -900,14 +909,5 @@
     <link href="https://ai.meta.com/blog/dresden-advancing-precision-oncology-built-with-llama/"/>
     <category term="AI at Meta" label="AI at Meta"/>
     <published>2025-01-08T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/scribd-everand-llama/</id>
-    <title>Finding the perfect book to read next with a Llama-based assistant</title>
-    <updated>2024-12-20T00:00:00+00:00</updated>
-    <content>Scribd, Inc.’s Everand reading service is home to a global library of millions of ebooks, audiobooks and more.</content>
-    <link href="https://ai.meta.com/blog/scribd-everand-llama/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2024-12-20T00:00:00+00:00</published>
   </entry>
 </feed>

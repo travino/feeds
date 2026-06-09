@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.anthropic.com/anthropic</id>
   <title>Anthropic</title>
-  <updated>2026-06-09T14:55:35.544954+00:00</updated>
+  <updated>2026-06-09T18:08:07.457721+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://www.anthropic.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Anthropic Newsroom, Research, and Engineering posts in one feed.</subtitle>
+  <entry>
+    <id>https://www.anthropic.com/news/claude-fable-5-mythos-5</id>
+    <title>Claude Fable 5 and Claude Mythos 5</title>
+    <updated>2026-06-09T00:00:00+00:00</updated>
+    <content>Today we’re launching Claude Fable 5: a Mythos-class model that we’ve made safe for general use.</content>
+    <link href="https://www.anthropic.com/news/claude-fable-5-mythos-5"/>
+    <category term="Anthropic Newsroom" label="Anthropic Newsroom"/>
+    <published>2026-06-09T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://www.anthropic.com/research/agents-in-biology</id>
     <title>Paving the way for agents in biology</title>
