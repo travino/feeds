@@ -31,6 +31,8 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds)
 | <img src="https://www.google.com/s2/favicons?domain=olx.pl&sz=32" width="16" height="16" align="absmiddle" alt=""> [OLX Group (OLX / OTOMOTO / Otodom)](https://www.olx.pl/) | [feed_olx.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_olx.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=skillsllm.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [SkillsLLM](https://skillsllm.com/) | [feed_skillsllm.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_skillsllm.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=blog.google&sz=32" width="16" height="16" align="absmiddle" alt=""> [Google Blogs (combined)](https://blog.google/) | [feed_google.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_google.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=hashicorp.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [HashiCorp / HCP](https://www.hashicorp.com/blog) | [feed_hcp.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_hcp.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=opencode.ai&sz=32" width="16" height="16" align="absmiddle" alt=""> [OpenCode](https://opencode.ai/changelog) | [feed_opencode.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_opencode.xml) |
 
 > Favicons are pulled live from Google's favicon service
 > (`https://www.google.com/s2/favicons?domain=<host>`); no images are committed
