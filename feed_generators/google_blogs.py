@@ -6,7 +6,7 @@ merges them into a single Atom feed, deduplicated by canonical article URL so
 the same post surfacing in more than one source feed (e.g. The Keyword and the
 Search Central / Feedburner mirror) appears only once.
 
-Sources (all native feeds, aggregated here into one):
+Sources (each a native feed unless marked scraped, aggregated here into one):
 
 * The Keyword                 https://blog.google/rss/
 * Google Poland (PL)          https://blog.google/intl/pl-pl/rss/
@@ -21,9 +21,12 @@ Sources (all native feeds, aggregated here into one):
 * Google DeepMind             https://deepmind.google/blog/rss.xml
 * Google Cloud                https://cloudblog.withgoogle.com/rss/
 * Google Antigravity          https://antigravity.google/blog  (scraped; no native feed)
+* Gemini CLI                   https://geminicli.com/docs/changelogs/  (scraped; no native feed)
 
-Each entry is tagged with its source via an Atom <category>. A rolling JSON
-cache keeps history across hourly runs even when an upstream feed truncates.
+Entries are deduplicated across sources by canonical URL *or* normalized title,
+so the same post arriving from more than one feed appears only once. Each entry
+is tagged with its source via an Atom <category>. A rolling JSON cache keeps
+history across hourly runs even when an upstream feed truncates.
 
 Usage:
     python google_blogs.py          # fetch all sources, merge into cache
@@ -46,6 +49,7 @@ from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 import feedparser
 import requests
 import yaml
+from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 
 from utils import (
@@ -80,6 +84,13 @@ ANTIGRAVITY_BASE = "https://antigravity.google"
 ANTIGRAVITY_BLOG = f"{ANTIGRAVITY_BASE}/blog"
 ANTIGRAVITY_LABEL = "Antigravity"
 ANTIGRAVITY_EXCERPT = 600  # chars of body kept as the entry summary
+
+# Gemini CLI release notes are a static Astro docs page: one <h2> per release,
+# its text/id carrying the version and date ("Announcements: v0.45.0 - 2026-06-03").
+GEMINICLI_URL = "https://geminicli.com/docs/changelogs/"
+GEMINICLI_LABEL = "Gemini CLI"
+GEMINICLI_EXCERPT = 600
+_GEMINICLI_RE = re.compile(r"v(\d+\.\d+\.\d+)\s*[-\u2013]\s*(\d{4}-\d{2}-\d{2})")
 
 # Query params that are pure tracking and should be stripped so the same
 # article from different source feeds collapses to one canonical URL.
@@ -119,8 +130,9 @@ SOURCES: list[Source] = [
 
 
 def canonical_link(url: str) -> str:
-    """Normalize a URL so equivalent links dedupe: drop fragment and tracking
-    query params (utm_*, gclid, ...). Everything else is preserved."""
+    """Normalize a URL so equivalent links dedupe: drop tracking query params
+    (utm_*, gclid, ...). The fragment is preserved, since some sources (e.g. the
+    Gemini CLI changelog) use per-entry #anchors on a single page."""
     if not url:
         return url
     parts = urlsplit(url.strip())
@@ -129,7 +141,12 @@ def canonical_link(url: str) -> str:
         for k, v in parse_qsl(parts.query, keep_blank_values=True)
         if not k.lower().startswith("utm_") and k.lower() not in _TRACKING_KEYS
     ]
-    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(kept), ""))
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(kept), parts.fragment))
+
+
+def normalize_title(title: str) -> str:
+    """Lowercased, whitespace-collapsed title for cross-source dedupe."""
+    return re.sub(r"\s+", " ", (title or "").strip().lower())
 
 
 def entry_date(entry) -> datetime | None:
@@ -240,26 +257,73 @@ def collect_antigravity() -> list[dict]:
     return entries
 
 
+def collect_geminicli() -> list[dict]:
+    """Scrape the Gemini CLI release-notes page (no native feed) into entries."""
+    entries: list[dict] = []
+    try:
+        resp = requests.get(GEMINICLI_URL, headers=DEFAULT_HEADERS, timeout=30)
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "html.parser")
+    except Exception as exc:
+        logger.warning("[geminicli] fetch failed (%s); skipping source", exc)
+        return []
+
+    for h2 in soup.find_all("h2"):
+        try:
+            m = _GEMINICLI_RE.search(h2.get_text(" ", strip=True))
+            if not m:
+                continue
+            version, date_str = m.group(1), m.group(2)
+            body_parts = []
+            for sib in h2.find_next_siblings():
+                if sib.name == "h2":
+                    break
+                body_parts.append(sib.get_text(" ", strip=True))
+            body = re.sub(r"Section titled \u201c.*?\u201d", " ", " ".join(p for p in body_parts if p))
+            body = re.sub(r"\s+", " ", body).strip()
+            if len(body) > GEMINICLI_EXCERPT:
+                body = body[: GEMINICLI_EXCERPT - 1].rstrip() + "\u2026"
+            entries.append(
+                {
+                    "title": f"Gemini CLI v{version}",
+                    "link": f"{GEMINICLI_URL}#{h2.get('id', '')}",
+                    "date": datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc),
+                    "description": sanitize_xml(body),
+                    "content_type": "text",
+                    "source": GEMINICLI_LABEL,
+                }
+            )
+        except Exception as exc:  # one bad release never kills the source
+            logger.warning("[geminicli] skipping a release due to error: %s", exc)
+    logger.info("[geminicli] parsed %d entries", len(entries))
+    return entries
+
+
 def collect() -> list[dict]:
-    """Fetch every source and dedupe by canonical link (first source wins)."""
-    seen: set[str] = set()
+    """Fetch every source and dedupe across sources by canonical URL *or*
+    normalized title (first occurrence wins; feed sources before scraped ones)."""
+    seen_links: set[str] = set()
+    seen_titles: set[str] = set()
     out: list[dict] = []
+
+    def add(items):
+        for item in items:
+            ntitle = normalize_title(item["title"])
+            if item["link"] in seen_links or ntitle in seen_titles:
+                continue
+            seen_links.add(item["link"])
+            seen_titles.add(ntitle)
+            out.append(item)
+
     for src in SOURCES:
         parsed = fetch_feed(src)
-        if not parsed:
-            continue
-        for item in parse_source(src, parsed):
-            if item["link"] in seen:
-                continue
-            seen.add(item["link"])
-            out.append(item)
-    # Non-feed sources (scraped) go through the same dedupe.
-    for item in collect_antigravity():
-        if item["link"] in seen:
-            continue
-        seen.add(item["link"])
-        out.append(item)
-    logger.info("Collected %d unique entries across %d sources", len(out), len(SOURCES) + 1)
+        if parsed:
+            add(parse_source(src, parsed))
+    # Non-feed (scraped) sources go through the same dedupe.
+    add(collect_antigravity())
+    add(collect_geminicli())
+
+    logger.info("Collected %d unique entries across %d sources", len(out), len(SOURCES) + 2)
     return out
 
 
