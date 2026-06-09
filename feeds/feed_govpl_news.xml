@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>https://www.gov.pl/#govpl_news</id>
   <title>Gov.pl</title>
-  <updated>2026-06-09T07:54:26.905585+00:00</updated>
+  <updated>2026-06-09T11:19:01.095421+00:00</updated>
   <author>
     <name>gov.pl</name>
   </author>
@@ -10,6 +10,24 @@
   <link href="https://www.gov.pl/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Wiadomosci i komunikaty z gov.pl -- KPRM, Cyfryzacja, Zdrowie, MON, MSZ, RCB, Profil Zaufany, Baza wiedzy -- w jednym feedzie.</subtitle>
+  <entry>
+    <id>https://www.gov.pl/web/rcb/alert-rcb---burze-z-silnymi-opadami-i-porywami-wiatru-906</id>
+    <title>Alert RCB - burze z silnymi opadami i porywami wiatru (9.06)</title>
+    <updated>2026-06-09T00:00:00+00:00</updated>
+    <content>„Uwaga! Dziś (09.06) prawdopodobne burze z silnymi opadami deszczu i porywami wiatru. Lokalnie grad. W trakcie burzy znajdź bezpieczne schronienie.”</content>
+    <link href="https://www.gov.pl/web/rcb/alert-rcb---burze-z-silnymi-opadami-i-porywami-wiatru-906"/>
+    <category term="RCB" label="RCB"/>
+    <published>2026-06-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.gov.pl/web/cyfryzacja/ezd-rp-napedza-cyfrowa-transformacje-administracji</id>
+    <title>EZD RP napędza cyfrową transformację administracji</title>
+    <updated>2026-06-09T00:00:00+00:00</updated>
+    <content>Ćwierć miliona użytkowników i ponad 3,5 tys. jednostek administracji publicznej korzysta już z systemu EZD RP. Rozwiązanie stworzone przez NASK stało się jednym z największych projektów cyfryzacyjnych polskiej administracji. Projekt osiągnął już wskaźniki przewidziane w Krajowym Planie Odbudowy, a zainteresowanie wdrożeniem systemu zgłosiło kolejne 3,7 tys. podmiotów.</content>
+    <link href="https://www.gov.pl/web/cyfryzacja/ezd-rp-napedza-cyfrowa-transformacje-administracji"/>
+    <category term="Min. Cyfryzacji" label="Min. Cyfryzacji"/>
+    <published>2026-06-09T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://www.gov.pl/web/zdrowie/centralna-e-rejestracja-placowki-medyczne-maja-niespelna-miesiac-na-spelnienie-kluczowych-obowiazkow</id>
     <title>Centralna e-rejestracja: placówki medyczne mają niespełna miesiąc na spełnienie kluczowych obowiązków</title>
