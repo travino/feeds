@@ -81,3 +81,7 @@ feeds:
     script: skillsllm.py
     type: requests
     blog_url: https://skillsllm.com/
+  google:
+    script: google_blogs.py
+    type: requests
+    blog_url: https://blog.google/

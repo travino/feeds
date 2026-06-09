@@ -8,6 +8,7 @@ dependencies = [
     "beautifulsoup4>=4.12",
     "curl-cffi>=0.7",
     "feedgen>=1.0",
+    "feedparser>=6.0",
     "lxml>=5.0",
     "pydantic>=2",
     "python-dateutil>=2.8",
