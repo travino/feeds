@@ -33,6 +33,9 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds)
 | <img src="https://www.google.com/s2/favicons?domain=blog.google&sz=32" width="16" height="16" align="absmiddle" alt=""> [Google Blogs (combined)](https://blog.google/) | [feed_google.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_google.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=hashicorp.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [HashiCorp / HCP](https://www.hashicorp.com/blog) | [feed_hcp.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_hcp.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=opencode.ai&sz=32" width="16" height="16" align="absmiddle" alt=""> [OpenCode](https://opencode.ai/changelog) | [feed_opencode.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_opencode.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=commoninja.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Common Ninja Blog](https://www.commoninja.com/blog) | [feed_commoninja.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_commoninja.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Canva Newsroom](https://www.canva.com/newsroom/news/) | [feed_canva_newsroom.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_canva_newsroom.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Canva Learn](https://www.canva.com/learn/) | [feed_canva_learn.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_canva_learn.xml) |
 
 > Favicons are pulled live from Google's favicon service
 > (`https://www.google.com/s2/favicons?domain=<host>`); no images are committed
