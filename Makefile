@@ -131,3 +131,14 @@ feeds_meta_newsroom: ## Generate only the Meta Newsroom feed (Meta.com/About/Eng
 feeds_govpl_news: ## Generate only the Gov.pl feed (KPRM/Cyfryzacja/Zdrowie/MON/MSZ/RCB/PZ/Baza wiedzy)
 	$(PY) feed_generators/govpl_news.py
 
+.PHONY: feeds_commoninja
+feeds_commoninja: ## Generate only the Common Ninja blog feed
+	$(PY) feed_generators/commoninja_blog.py
+
+.PHONY: feeds_canva_newsroom
+feeds_canva_newsroom: ## Generate only the Canva Newsroom feed
+	$(PY) feed_generators/canva_newsroom.py
+
+.PHONY: feeds_canva_learn
+feeds_canva_learn: ## Generate only the Canva Learn feed
+	$(PY) feed_generators/canva_learn.py
