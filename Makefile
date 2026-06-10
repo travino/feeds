@@ -182,3 +182,11 @@ feeds_canva_newsroom: ## Generate only the Canva Newsroom feed
 .PHONY: feeds_canva_learn
 feeds_canva_learn: ## Generate only the Canva Learn feed
 	$(PY) feed_generators/canva_learn.py
+
+.PHONY: feeds_olx
+feeds_olx: ## Generate only the OLX Group feed (OLX/OTOMOTO/Otodom, combined)
+	$(PY) feed_generators/olx_group.py
+
+.PHONY: feeds_skillsllm
+feeds_skillsllm: ## Generate only the SkillsLLM + Desktop Commander feed
+	$(PY) feed_generators/skillsllm.py
