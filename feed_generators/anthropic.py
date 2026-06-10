@@ -316,7 +316,7 @@ def save_atom_feed(fg, feed_name=FEED_NAME):
 def main(full=False):
     """Scrape every source, merge with cache, and write the Atom feed."""
     if full:
-        logger.info("Full reset requested \u2014 ignoring existing cache")
+        logger.info("Full reset requested — ignoring existing cache")
         cached = []
     else:
         cache = load_cache(FEED_NAME)
@@ -326,7 +326,7 @@ def main(full=False):
     new_articles = scrape_all(known_links)
 
     if not new_articles and not cached:
-        logger.warning("No articles collected \u2014 skipping write to avoid an empty feed")
+        logger.warning("No articles collected — skipping write to avoid an empty feed")
         return False
 
     merged = merge_entries(new_articles, cached, id_field="link", date_field="date")

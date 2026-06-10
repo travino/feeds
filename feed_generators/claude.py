@@ -11,11 +11,11 @@ written to ``feeds/feed_claude.xml``:
     - Claude Platform system prompts https://platform.claude.com/docs/en/release-notes/system-prompts  (Mintlify .md)
 
 Source handling:
-  * Blog          \u2014 listing card title + date (static HTML).
-  * RSS feeds     \u2014 parsed natively; each item already has title/link/date.
-  * Support page  \u2014 each dated ``<h3>`` (with a stable ``id``) becomes an entry;
+  * Blog          — listing card title + date (static HTML).
+  * RSS feeds     — parsed natively; each item already has title/link/date.
+  * Support page  — each dated ``<h3>`` (with a stable ``id``) becomes an entry;
                     the body text up to the next heading is the summary.
-  * Platform pages \u2014 fetched as Mintlify raw markdown (``<path>.md``). The
+  * Platform pages — fetched as Mintlify raw markdown (``<path>.md``). The
                     overview is keyed by ``### <date>`` sections; the system
                     prompts page is keyed by ``## <model>`` sections (dated from
                     the first date inside each section).
@@ -214,7 +214,7 @@ def scrape_claude_blog(known_links):
         if m:
             date_obj = parse_date(m.group(1))
             head = re.sub(r"\bRead more\b", " ", card_text[: m.start()])
-            head = re.sub(r"\s{2,}", " ", head).strip(" |\u00b7-\u2014\u2022")
+            head = re.sub(r"\s{2,}", " ", head).strip(" |·-—•")
             title = head or None
         if not title:
             title = title_from_slug(href)
@@ -309,7 +309,7 @@ def scrape_support_release_notes(known_links):
         body = " ".join(parts).strip()
         # Lead phrase makes a better title than the bare date.
         lead = body.split(". ")[0][:90] if body else ""
-        title = sanitize_xml(f"{lead} \u2014 {head_text}" if lead else f"Claude Apps \u2014 {head_text}")
+        title = sanitize_xml(f"{lead} — {head_text}" if lead else f"Claude Apps — {head_text}")
         entries.append({
             "title": title,
             "link": link,
@@ -364,7 +364,7 @@ def scrape_platform_overview(known_links):
         link = f"{page_url}#{slugify(heading)}"
         if link in known_links:
             continue
-        title = sanitize_xml(f"Claude Platform \u2014 {heading}")
+        title = sanitize_xml(f"Claude Platform — {heading}")
         entries.append({
             "title": title,
             "link": link,
@@ -389,7 +389,7 @@ def scrape_platform_sysprompts(known_links):
         link = f"{page_url}#{slugify(heading)}"
         if link in known_links:
             continue
-        title = sanitize_xml(f"System prompt \u2014 {heading}")
+        title = sanitize_xml(f"System prompt — {heading}")
         summary = clean_markdown(body)
         entries.append({
             "title": title,
@@ -462,7 +462,7 @@ def save_atom_feed(fg, feed_name=FEED_NAME):
 
 def main(full=False):
     if full:
-        logger.info("Full reset requested \u2014 ignoring existing cache")
+        logger.info("Full reset requested — ignoring existing cache")
         cached = []
     else:
         cache = load_cache(FEED_NAME)
@@ -472,7 +472,7 @@ def main(full=False):
     new_articles = scrape_all(known_links)
 
     if not new_articles and not cached:
-        logger.warning("No articles collected \u2014 skipping write to avoid an empty feed")
+        logger.warning("No articles collected — skipping write to avoid an empty feed")
         return False
 
     merged = merge_entries(new_articles, cached, id_field="link", date_field="date")
