@@ -153,3 +153,11 @@ feeds:
     script: aibridge.py
     type: requests
     blog_url: https://thinkingmachines.ai/blog/
+  imgw:
+    script: imgw.py
+    type: requests
+    blog_url: https://danepubliczne.imgw.pl/
+  open_meteo:
+    script: open_meteo.py
+    type: requests
+    blog_url: https://open-meteo.com/

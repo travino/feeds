@@ -22,6 +22,8 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds)
 | <img src="https://www.google.com/s2/favicons?domain=nexusmods.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Nexus Mods News](https://www.nexusmods.com/news) | [feed_nexusmods_news.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_nexusmods_news.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=openweathermap.org&sz=32" width="16" height="16" align="absmiddle" alt=""> [OpenWeather](https://openweathermap.org/city/3093133) | [feed_openweather.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_openweather.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=visualcrossing.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Visual Crossing](https://www.visualcrossing.com/) | [feed_visualcrossing.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_visualcrossing.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=imgw.pl&sz=32" width="16" height="16" align="absmiddle" alt=""> [IMGW](https://danepubliczne.imgw.pl/) | [feed_imgw.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_imgw.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=open-meteo.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Open-Meteo](https://open-meteo.com/) | [feed_open_meteo.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_open_meteo.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=reuters.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Reuters](https://www.reuters.com/) | [feed_reuters.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_reuters.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=euronews.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Euronews](https://www.euronews.com/) | [feed_euronews.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_euronews.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=pap.pl&sz=32" width="16" height="16" align="absmiddle" alt=""> [PAP](https://www.pap.pl/) | [feed_pap.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_pap.xml) |
@@ -164,6 +166,46 @@ Note: Visual Crossing's free tier allows 1000 records/day. A forecast call here
 costs ~1 record, so a run every 2 hours (~12/day) stays well within budget — but
 adding `include=hours` raises the per-call cost.
 
+### About the IMGW feed
+
+A combined observations-and-warnings feed built from IMGW-PIB's open API
+([danepubliczne.imgw.pl](https://danepubliczne.imgw.pl/)) — no API key needed.
+Five sources go into one Atom feed: **synop** observations for one station
+(default Kraków, `12566`) as one entry per day that accumulates the day's
+hourly readings into a table; **hydro** water levels for nearby gauges
+(default Smolice/Wisła and Jeleń/Przemsza); **meteo** telemetry for nearby
+stations (default Chrzanów); and **meteo/hydro warnings** filtered to the
+relevant area (meteo by TERYT powiat prefix, default `1203` — chrzanowski;
+hydro by voivodeship, default małopolskie + śląskie).
+
+Each source is fetched in isolation — one failing endpoint never blocks the
+others — and the run only skips writing when *every* source comes back empty,
+preserving the last good feed. A JSON cache (`cache/imgw_posts.json`)
+accumulates history; an entry's `updated` timestamp only changes when its
+content actually changes, so unchanged days don't churn the feed. Defaults are
+overridable via `IMGW_SYNOP_ID`, `IMGW_HYDRO_IDS`, `IMGW_METEO_IDS`,
+`IMGW_TERYT_PREFIXES`, and `IMGW_WOJEWODZTWA`.
+
+### About the Open-Meteo feed
+
+A keyless weather feed for one location (default Trzebinia) built from three
+free [Open-Meteo](https://open-meteo.com/) APIs: the **forecast API** yields
+one Polish-language entry per day (WMO condition, real and apparent
+temperatures, precipitation, wind, UV, sunshine/daylight, sunrise/sunset,
+CAPE), refreshed in place as the forecast is revised; the forecast `current`
+block plus the **air-quality API** form one per-day "current conditions" entry
+(European AQI, PM2.5/PM10, gases, pollen) refreshed with the latest reading;
+and the **satellite radiation archive** adds one entry per completed past day
+with the measured shortwave radiation sum and sunshine duration (the archive's
+daily aggregates come back null for the satellite models, so hourly values are
+aggregated per day in the generator; data lags ~1–2 days).
+
+Each endpoint is fetched in isolation and the run only skips writing when
+everything fails, preserving the last good feed. A JSON cache
+(`cache/open_meteo_posts.json`) accumulates history; `updated` timestamps are
+hash-gated so unchanged days don't churn. Location is overridable via
+`OPEN_METEO_LAT`, `OPEN_METEO_LON`, `OPEN_METEO_PLACE`, and `OPEN_METEO_DAYS`.
+
 ### About the Reuters feed
 
 Reuters discontinued its public RSS feeds in 2020, and `reuters.com` blocks
@@ -211,6 +253,8 @@ feeds automatically.
 │   ├── reuters_news.py                  # Reuters -> Atom (via Google News proxy)
 │   ├── openweather.py                   # OpenWeather -> Atom (daily forecast)
 │   ├── visualcrossing.py                # Visual Crossing -> Atom (daily forecast, PL)
+│   ├── imgw.py                          # IMGW -> Atom (obs + warnings, PL)
+│   ├── open_meteo.py                    # Open-Meteo -> Atom (forecast/AQI/solar, PL)
 │   ├── run_all_feeds.py                 # runs every generator in feeds.yaml
 │   ├── utils.py                         # shared helpers (HTTP, cache, feedgen)
 │   └── validate_feeds.py                # RSS + Atom validation
