@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-06-10T20:34:03.019310+00:00</updated>
+  <updated>2026-06-10T23:27:43.672385+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -259,6 +259,199 @@
     <link href="https://blog.google/products-and-platforms/products/education/helping-students-and-parents-prepare-for-the-final-exams-period/"/>
     <category term="The Keyword"/>
     <published>2026-06-10T08:45:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://cloud.google.com/blog/topics/developers-practitioners/choosing-your-surface-antigravity-20-antigravity-cli-antigravity-ide-or-antigravity-sdk/</id>
+    <title>Choosing your surface: Antigravity 2.0, Antigravity CLI, Antigravity IDE, or Antigravity SDK</title>
+    <updated>2026-06-10T07:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity 2.0:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; A desktop app to orchestrate multiple autonomous agents working in parallel across independent projects.&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity CLI:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; A terminal interface designed for command-line workflows and headless execution.&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity IDE:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; An editor for developers who want to write code directly alongside an agent.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;span style="vertical-align: baseline;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity SDK:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; A Python library for building and deploying your own custom agents that use the Antigravity Harness.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h4&gt;Quick Comparison&lt;/h4&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;
+&lt;div style="color: #5f6368; width: 100%;"&gt;&lt;table border="1" style="border-collapse: collapse; width: 100%; height: 67.1952px;"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 22.3984px;"&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Feature&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity 2.0&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity CLI&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity IDE&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Antigravity SDK&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 22.3984px;"&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Interface&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Desktop App&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Terminal (TUI)&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Desktop App&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Python Code&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: 22.3984px;"&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;strong style="vertical-align: baseline;"&gt;Best For&lt;/strong&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Multiple simultaneous tasks&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Command-line / Headless&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Directly editing code&lt;/span&gt;&lt;/td&gt;
+&lt;td style="width: 18.1727%; height: 22.3984px;"&gt;&lt;span style="vertical-align: baseline;"&gt;Building custom agents&lt;/span&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h2&gt;The Four Surfaces of Antigravity&lt;/h2&gt;
+&lt;h3&gt;1. Antigravity 2.0&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The default recommendation. Manages tasks across multiple projects at the same time.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="antigravity-new-chat" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/antigravity-new-chat.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;Antigravity 2.0 is a standalone desktop application. It is designed to let you run multiple tasks without blocking your main workspace. You can easily switch between and monitor different projects from one screen. You can also schedule tasks to run on a regular schedule to check code quality or find outdated packages.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;2. Antigravity CLI&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For terminal workflows and headless execution.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="antigravity-cli" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/antigravity-cli.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;Built in Go for speed, the Antigravity CLI is for those who prefer to work in the terminal with fast, keyboard-driven navigation and simple shortcuts. You can start background agents using terminal commands without locking up your active command-line window. Choose the CLI if you need headless execution (such as working over SSH or inside remote containers).&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;3. Antigravity IDE&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For developers who want to see and edit the code directly.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="antigravity-ide" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/antigravity-ide.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;The IDE surface puts agents directly inside your current workspace. This is the best choice if you want to see exactly what code the agent is editing and accept or reject changes line-by-line. With built-in debugging, the agent can see runtime errors and offer a one-click fix right in your editor.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;4. Antigravity SDK (Python)&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Best for: Writing custom agent logic and automated pipelines.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;import asyncio\r\nfrom google.antigravity import Agent, LocalAgentConfig\r\n\r\nasync def main():\r\n    config = LocalAgentConfig(\r\n        system_instructions=&amp;quot;You are an expert assistant for codebase navigation.&amp;quot;,\r\n        # api_key=&amp;quot;your_api_key_here&amp;quot;,\r\n    )\r\n    async with Agent(config) as agent:\r\n        response = await agent.chat(&amp;quot;What files are in the current directory?&amp;quot;)\r\n        print(await response.text())\r\n\r\nasync def run():\r\n    await main()\r\n\r\nif __name__ == &amp;quot;__main__&amp;quot;:\r\n    asyncio.run(run())&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;lang-py&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f2f546b2610&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The &lt;/span&gt;&lt;a href="https://antigravity.google/docs/sdk-overview" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Antigravity SDK&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is a Python library that lets you build your own custom agents from scratch. Because it runs on the same shared harness, you get direct access to the exact same tools and rules that power Google’s official Antigravity tools. You can write an agent locally and deploy it to Google Cloud with zero code changes.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;While each interface looks different, they all run on the same underlying agent harness. No matter which of the Antigravity surfaces you choose, you get support for &lt;/span&gt;&lt;a href="https://antigravity.google/docs/plugins" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;plugins&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://antigravity.google/docs/skills" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;skills&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, and more. Your agents have access to the same core logic, so pick the one that works best for your project.&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;For guides and documentation, visit &lt;/span&gt;&lt;a href="https://antigravity.google" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;antigravity.google&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, and when you’re ready to get started, visit the &lt;/span&gt;&lt;a href="https://antigravity.google/download" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Antigravity Download Page&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/topics/developers-practitioners/choosing-your-surface-antigravity-20-antigravity-cli-antigravity-ide-or-antigravity-sdk/"/>
+    <category term="Google Cloud"/>
+    <published>2026-06-10T07:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://cloud.google.com/blog/products/ai-machine-learning/cloud-fable-5-on-google-cloud/</id>

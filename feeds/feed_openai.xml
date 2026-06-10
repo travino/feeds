@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-06-10T20:34:37.578325+00:00</updated>
+  <updated>2026-06-10T23:28:34.248613+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -10,6 +10,24 @@
   <link href="https://openai.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>OpenAI product updates: News (incl. Research), Engineering, Release notes, Developers, and the Codex / Apps SDK / API changelogs.</subtitle>
+  <entry>
+    <id>https://openai.com/index/using-codex-to-simulate-black-holes</id>
+    <title>How an astrophysicist uses Codex to help simulate black holes</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.</content>
+    <link href="https://openai.com/index/using-codex-to-simulate-black-holes"/>
+    <category term="OpenAI News" label="OpenAI News"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://openai.com/index/openai-on-oracle-cloud</id>
+    <title>Access OpenAI models and Codex through your Oracle cloud commitment</title>
+    <updated>2026-06-10T20:00:00+00:00</updated>
+    <content>Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.</content>
+    <link href="https://openai.com/index/openai-on-oracle-cloud"/>
+    <category term="OpenAI News" label="OpenAI News"/>
+    <published>2026-06-10T20:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://openai.com/index/prc-linked-influence-operations-ai-debates</id>
     <title>PRC-linked influence operations are targeting AI debates in the US</title>
@@ -1839,24 +1857,6 @@ CI runners with their ChatGPT workspace identity. Learn more in Access tokens .<
     <content>Released GPT-5.5 , a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: Reasoning effort now defaults to medium . When ima</content>
     <link href="https://developers.openai.com/api/docs/changelog#api-2026-04-24-released-gpt-5-5-a-new-frontier"/>
     <category term="API changelog" label="API changelog"/>
-    <published>2026-04-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://developers.openai.com/codex/changelog#github-release-313349252</id>
-    <title>Codex CLI 0.125.0</title>
-    <updated>2026-04-24T00:00:00+00:00</updated>
-    <content>$ npm install -g @openai/codex@0.125.0 View details New Features App-server integrations now support Unix socket transport, pagination-friendly resume/fork, sticky environments, and remote thread config/store plumbing. ( #18255 , #18892 , #18897 , #18908 , #19008 , #19014 ) App-server plugin management can install remote plugins and upgrade configured marketplaces. ( #18917 , #19074 ) Permission profiles now round-trip across TUI sessions, user turns, MCP sandbox state, shell escalation, and app</content>
-    <link href="https://developers.openai.com/codex/changelog#github-release-313349252"/>
-    <category term="Codex changelog" label="Codex changelog"/>
-    <published>2026-04-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://developers.openai.com/codex/changelog#codex-2026-04-24-app</id>
-    <title>Codex app 26.423</title>
-    <updated>2026-04-24T00:00:00+00:00</updated>
-    <content>New features Added a tooltip on realtime delegation messages to clarify that Codex uses the surrounding voice conversation as context. Performance improvements and bug fixes Fixed search in long review files so next and previous results reliably jump to off-screen matches. Kept embedded MCP app panels from restarting or losing state during fullscreen changes and thread reloads. Fixed several desktop regressions, including tray crashes when the local connection is missing, duplicate macOS fullscr</content>
-    <link href="https://developers.openai.com/codex/changelog#codex-2026-04-24-app"/>
-    <category term="Codex changelog" label="Codex changelog"/>
     <published>2026-04-24T00:00:00+00:00</published>
   </entry>
 </feed>
