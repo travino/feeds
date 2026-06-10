@@ -13,6 +13,7 @@ SOURCES = [
     ("Official Microsoft Blog", "https://blogs.microsoft.com/feed/", 40),
     ("Microsoft Source", "https://news.microsoft.com/source/feed/", 40),
     ("Microsoft Signal", "https://news.microsoft.com/signal/feed", 40),
+    ("Microsoft 365 Blog", "https://www.microsoft.com/en-us/microsoft-365/blog/feed/", 40),
     ("Tech Community",
      "https://techcommunity.microsoft.com/t5/s/gxcuf89792/rss/Community"
      "?interaction.style=blog&feeds.replies=false", 40),
@@ -24,7 +25,7 @@ def main(full=False):
         feed_name=FEED_NAME,
         title="Microsoft",
         subtitle="Combined Microsoft feed: Official Microsoft Blog, Source, "
-                 "Signal, and the Tech Community blogs.",
+                 "Signal, the Microsoft 365 Blog, and the Tech Community blogs.",
         blog_url="https://blogs.microsoft.com/",
         author="Microsoft",
         sources=SOURCES,

@@ -49,10 +49,10 @@ feeds:
     script: claude.py
     type: requests
     blog_url: https://claude.com/blog
-  windows11_release_notes:
-    script: windows11_release_notes.py
+  microsoft_updates:
+    script: microsoft_updates.py
     type: requests
-    blog_url: https://aka.ms/Windows11/25H2/UpdateHistory
+    blog_url: https://support.microsoft.com/en-us/windows
   lexus_newsroom:
     script: lexus_newsroom.py
     type: requests
@@ -149,3 +149,7 @@ feeds:
     script: thebatch.py
     type: requests
     blog_url: https://www.deeplearning.ai/the-batch
+  aibridge:
+    script: aibridge.py
+    type: requests
+    blog_url: https://thinkingmachines.ai/blog/
