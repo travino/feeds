@@ -105,3 +105,11 @@ feeds:
     script: openai.py
     type: requests
     blog_url: https://openai.com/news/
+  xai:
+    script: xai.py
+    type: requests
+    blog_url: https://x.ai/news
+  groq:
+    script: groq.py
+    type: requests
+    blog_url: https://groq.com/
