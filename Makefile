@@ -116,6 +116,42 @@ feeds_claude: ## Generate only the Claude feed (blog/changelog/release notes)
 feeds_openai: ## Generate only the OpenAI feed (news/release notes/changelogs)
 	$(PY) feed_generators/openai.py
 
+.PHONY: feeds_xai
+feeds_xai: ## Generate only the xAI feed (news/Grok Build/API release notes)
+	$(PY) feed_generators/xai.py
+
+.PHONY: feeds_groq
+feeds_groq: ## Generate only the Groq feed (blog/newsroom/changelog)
+	$(PY) feed_generators/groq.py
+
+.PHONY: feeds_bitly
+feeds_bitly: ## Generate only the Bitly feed (blog/press/MCP changelog)
+	$(PY) feed_generators/bitly.py
+
+.PHONY: feeds_cheezburger
+feeds_cheezburger: ## Generate only the Cheezburger network feed
+	$(PY) feed_generators/cheezburger.py
+
+.PHONY: feeds_euronews
+feeds_euronews: ## Generate only the Euronews combined feed
+	$(PY) feed_generators/euronews.py
+
+.PHONY: feeds_memedroid
+feeds_memedroid: ## Generate only the Memedroid feed
+	$(PY) feed_generators/memedroid.py
+
+.PHONY: feeds_9gag
+feeds_9gag: ## Generate only the 9GAG feed
+	$(PY) feed_generators/ninegag.py
+
+.PHONY: feeds_pap
+feeds_pap: ## Generate only the PAP combined feed
+	$(PY) feed_generators/pap.py
+
+.PHONY: feeds_microsoft
+feeds_microsoft: ## Generate only the Microsoft combined feed
+	$(PY) feed_generators/microsoft.py
+
 .PHONY: feeds_lexus_newsroom
 feeds_lexus_newsroom: ## Generate only the Lexus Newsroom feed (USA/Europe/Poland/Discover Lexus)
 	$(PY) feed_generators/lexus_newsroom.py
