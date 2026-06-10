@@ -112,6 +112,10 @@ feeds_anthropic: ## Generate only the Anthropic feed (news/research/engineering)
 feeds_claude: ## Generate only the Claude feed (blog/changelog/release notes)
 	$(PY) feed_generators/claude.py
 
+.PHONY: feeds_openai
+feeds_openai: ## Generate only the OpenAI feed (news/release notes/changelogs)
+	$(PY) feed_generators/openai.py
+
 .PHONY: feeds_lexus_newsroom
 feeds_lexus_newsroom: ## Generate only the Lexus Newsroom feed (USA/Europe/Poland/Discover Lexus)
 	$(PY) feed_generators/lexus_newsroom.py
