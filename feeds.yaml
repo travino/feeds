@@ -113,3 +113,7 @@ feeds:
     script: groq.py
     type: requests
     blog_url: https://groq.com/
+  bitly:
+    script: bitly.py
+    type: requests
+    blog_url: https://bitly.com/blog/
