@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-06-10T17:22:23.512954+00:00</updated>
+  <updated>2026-06-10T20:34:03.019310+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -10,6 +10,175 @@
   <link href="https://blog.google/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>http://workspaceupdates.googleblog.com/2026/06/google-meet-now-supports-sending-1080p-HD-video-from-ChromeOS-meeting-room-hardware.html</id>
+    <title>Google Meet now supports sending 1080p HD video from ChromeOS meeting room hardware</title>
+    <updated>2026-06-10T18:34:44+00:00</updated>
+    <content type="html">We previously launched &lt;a href="https://workspaceupdates.googleblog.com/2024/06/google-meet-full-hd-meeting-recordings-and-more-devices.html" target="_blank"&gt;support for sending full HD video (1080p) in Meet on the web&lt;/a&gt;, and we’re now extending that capability to Google Meet room hardware based on ChromeOS.&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;Google Meet will use full HD when the additional bandwidth is needed for sharp video from the room, such as:&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;On large screens: &lt;/b&gt;When others in the call are viewing the room on large monitors or TVs with a layout that makes 1080p necessary, such as full-screen views in Spotlight mode, 1:1 calls or dual-screen rooms. 
+​&lt;/li&gt;&lt;li&gt;&lt;b&gt;When someone pins your video: &lt;/b&gt;If a person in the meeting "pins" the room, Meet will send the highest available quality.&lt;/li&gt;&lt;li&gt;&lt;b&gt;​When the meeting is being recorded:&lt;/b&gt; Recorded meetings use full HD from the room for the saved meeting video.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;​Full HD is available from devices that use a high-resolution camera and can handle the additional processing over a fast, stable internet connection. Meet will continue to automatically adjust video quality downwards if network constraints are detected to ensure a smooth meeting experience.&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins:&lt;/b&gt; There is no admin control for this feature.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users:&lt;/b&gt; There is no end user setting for this feature; the upgrade happens seamlessly in the background when conditions are met.&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release and Scheduled Release domains:&lt;/a&gt; Available now&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Available to all Google Workspace customers with Google Meet hardware devices&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Meet Help: &lt;a href="https://support.google.com/meet/answer/9292748" target="_blank"&gt;Learn how to view people in Google Meet&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Meet Help: &lt;a href="https://support.google.com/meet/answer/7501121" target="_blank"&gt;Pin or mute Google Meet participants&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Meet hardware Help: &lt;a href="https://support.google.com/meethardware/answer/9295022" target="_blank"&gt;Adjust your view of meeting participants in a Meet hardware room&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Meet hardware Help: &lt;a href="https://support.google.com/meethardware/answer/14806229" target="_blank"&gt;Google Meet hardware certification program for ChromeOS peripherals &amp;amp; devices&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Workspace Admin Help: &lt;a href="https://knowledge.workspace.google.com/admin/meet/prepare-your-network-for-meet-meetings-and-live-streams" target="_blank"&gt;Prepare your network for Meet meetings &amp;amp; live streams&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Workspace Updates Blog: &lt;a href="https://workspaceupdates.googleblog.com/2024/06/google-meet-full-hd-meeting-recordings-and-more-devices.html" target="_blank"&gt;Google Meet now supports high definition video for meeting recording and devices&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</content>
+    <link href="http://workspaceupdates.googleblog.com/2026/06/google-meet-now-supports-sending-1080p-HD-video-from-ChromeOS-meeting-room-hardware.html"/>
+    <category term="Workspace Updates"/>
+    <published>2026-06-10T18:34:44+00:00</published>
+  </entry>
+  <entry>
+    <id>https://research.google/blog/new-framework-for-auditing-machine-unlearning/</id>
+    <title>New framework for auditing machine unlearning</title>
+    <updated>2026-06-10T17:34:55+00:00</updated>
+    <content type="html">Algorithms &amp; Theory</content>
+    <link href="https://research.google/blog/new-framework-for-auditing-machine-unlearning/"/>
+    <category term="Google Research"/>
+    <published>2026-06-10T17:34:55+00:00</published>
+  </entry>
+  <entry>
+    <id>https://cloud.google.com/blog/products/data-analytics/lighting-engine-for-apache-spark-performance-deep-dive/</id>
+    <title>Deep dive: How Lightning Engine delivers 4.9x faster Apache Spark performance</title>
+    <updated>2026-06-10T17:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;From foundational ETL and analytics to the frontier of generative AI, Apache Spark serves as the architectural backbone for global data processing. However, as data volumes scale, the trade-off between performance and infrastructure costs can be a limiting factor for growth. In the agentic era, where autonomous agents can trigger thousands of concurrent, multi-hop queries, this performance bottleneck directly dictates your unit economics.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We are excited to announce the general availability of &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Lightning Engine&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; for &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Managed Service for Apache Spark&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;, available across both our &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/serverless-managed-service-for-apache-spark-runtime-3-0-features?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;serverless&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/enhancements-to-managed-service-for-apache-spark-clusters?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;managed clusters&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; deployment modes. Designed to address these scaling challenges directly, it is fully compatible with modern Spark workloads and requires zero changes to your existing data pipelines.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Whether you choose the zero-ops simplicity of our serverless deployment mode or the fine-grained infrastructure control of our managed clusters deployment mode, Lightning Engine serves as the unified performance engine to supercharge your job execution. By validating Lightning Engine across more than one million real-world workloads, we have fine-tuned it for industrial-grade stability as well as reliable performance gains.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With this general availability release, Lightning Engine delivers:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Up to 4.9x faster performance&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; than standard open-source Spark&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;2x the price-performance&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; over the leading high-speed Spark alternative&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Let’s take a closer look at how Manager Service for Apache Spark achieves these great results.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="1" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_6snIfkF.max-1000x1000.jpg" /&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Under the hood: Vectorized native execution&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Traditional Spark execution is often bottlenecked by JVM execution overhead and garbage collection pauses. Lightning Engine bypasses these limitations by compiling Spark physical query plans into native C++ instructions optimized for Single Instruction, Multiple Data (SIMD) vectorization.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Built on the open-source Gluten and Velox runtimes with specialized Google-engineered enhancements, this native execution layer accelerates your most demanding data processing tasks with:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Vectorized sort&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Accelerates sorting operations by processing data columnarly in native memory, significantly reducing CPU cycle overhead.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Accelerated window functions&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Speeds up calculations performed across sets of rows (such as moving averages, aggregations, and deduplication) by executing them directly within the native C++ layer.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Smart fallback&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: If a query contains an operator or custom Java UDF that is not natively supported, the engine's intelligent push-down layer automatically and gracefully transitions that specific sub-tree back to the JVM, avoiding unnecessary data format conversions and preserving overall execution stability.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Optimized Cloud Storage and BigQuery connectors&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;High-performance compute is useless if the engine is starved for data. With Lightning Engine, we’ve optimized our storage connectors to ensure that reading data from Cloud Storage and BigQuery isn’t the bottleneck. Optimizations include:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Direct path connection&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Bypasses multiple node hops and uses bi-directional streaming with Cloud Storage. This allows seek operations and vectorized &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;readV&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; APIs to run without reopening streams, accelerating scan times for complex, deeply nested Parquet or ORC files.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Metadata call reduction&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Managing large-scale partitioned tables often comes with a hidden performance tax: the time spent simply listing files. Lightning Engine utilizes lexicographic listing in the driver to collect metadata and transmit it directly to executors, eliminating redundant Cloud Storage API calls and dramatically reducing Cloud Storage metadata costs.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Native BigQuery connector&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Directly consumes BigQuery data in Arrow format. By avoiding the expensive conversion from Arrow to JVM &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;UnsafeRow&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt;, the engine eliminates serialization overhead to accelerate scan times.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Broadcast joins and advanced query optimization&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Lightning Engine incorporates an advanced, cost-based query optimizer inspired by Google's F1 and Spanner query engines, and introduces several custom optimization rules. Examples include:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Single HashTable caching&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: In standard broadcast joins, Spark builds join hash tables repeatedly across tasks. Lightning Engine builds the hash table once per executor and caches it, eliminating redundant CPU cycles and reducing the executor's memory footprint.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Aggregation pushdown&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Automatically pushes partial aggregations below join shuffles. This minimizes the volume of data that must be transferred across the network, drastically reducing expensive shuffle stages.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Auto shuffle partitioning&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Dynamically and adaptively determines the optimal number of shuffle partitions for each individual query stage based on runtime statistics, preventing out-of-memory (OOM) spills without over-partitioning.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+&lt;div class="block-video"&gt;
+
+
+
+&lt;div class="article-module article-video "&gt;
+  &lt;figure&gt;
+    &lt;a class="h-c-video h-c-video--marquee" href="https://youtube.com/watch?v=2uYC821jtEk"&gt;
+
+      
+        
+
+        &lt;div class="article-video__aspect-image"&gt;
+          &lt;span class="h-u-visually-hidden"&gt;The new way to use Spark: Intelligent, automated, and lightning fast&lt;/span&gt;
+        &lt;/div&gt;
+      
+      &lt;svg class="h-c-video__play h-c-icon h-c-icon--color-white" xmlns="http://www.w3.org/2000/svg"&gt;
+        &lt;use xlink:href="#mi-youtube-icon" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/use&gt;
+      &lt;/svg&gt;
+    &lt;/a&gt;
+
+    
+      &lt;figcaption class="article-video__caption h-c-page"&gt;
+        
+          &lt;h4 class="h-c-headline h-c-headline--four h-u-font-weight-medium h-u-mt-std"&gt;Learn more technical details and hear Lowe’s experience with Lightning Engine from Google Cloud Next ‘26&lt;/h4&gt;
+        
+        
+      &lt;/figcaption&gt;
+    
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;div class="h-c-modal--video"&gt;
+   &lt;a class="glue-yt-video" href="https://youtube.com/watch?v=2uYC821jtEk"&gt;
+   &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Getting started&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;These updates are live and ready to use today! You can enable Lightning Engine directly through the Google Cloud console or via the &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;gcloud&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; CLI.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To submit a &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;serverless&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; batch job with Lightning Engine enabled, specify the premium tier in your Spark properties:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gcloud dataproc batches submit pyspark my_script.py \\\r\n    --region=us-central1 \\\r\n    --properties=dataproc:dataproc.tier=premium \\\r\n    --properties=spark:spark.dataproc.lightningEngine.runtime=native&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f82e02884f0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To spin up a new &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;managed cluster&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; with Lightning Engine and Native Query Execution (NQE) enabled, run the following command in your terminal:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;gcloud dataproc clusters create my-optimized-cluster \\\r\n    --region=us-central1 \\\r\n    --image-version=2.3 \\\r\n    --engine=lightning \\\r\n    --enable-component-gateway \\\r\n--properties=spark:spark.dataproc.lightningEngine.runtime=native&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f82e0288730&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Alternatively, navigate to the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Managed Service for Apache Spark&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; page in the &lt;/span&gt;&lt;a href="https://console.cloud.google.com/dataproc"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud console&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, click &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Create Cluster&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;, select &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Cluster on Compute Engine&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;, and choose &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Lightning Engine&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; under the cluster configuration settings to automatically activate query acceleration for your workloads.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/data-analytics/lighting-engine-for-apache-spark-performance-deep-dive/"/>
+    <category term="Google Cloud"/>
+    <published>2026-06-10T17:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/</id>
     <title>DiffusionGemma: 4x faster text generation</title>

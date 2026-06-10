@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T17:22:49.322923+00:00",
+  "last_updated": "2026-06-10T20:34:37.574209+00:00",
   "entries": [
     {
       "title": "Update: Added function calling support to the Fine-tuning API",
@@ -3663,6 +3663,13 @@
       "source": "API changelog"
     },
     {
+      "title": "Codex app 26.608",
+      "link": "https://developers.openai.com/codex/changelog#codex-2026-06-09-app",
+      "date": "2026-06-09T00:00:00+00:00",
+      "description": "New features Added Migrate to Codex flows for importing supported setup\nfrom Claude Code and Claude Cowork, including during onboarding. Revamped plugins screen with separate tabs, marketplace and\ncategory filters, keyboard navigation, and clearer install actions. Expanded Settings search to find options from more panels, including Git and\npets. Performance improvements and bug fixes Fixed goal timer overlap in narrow layouts. Reduced unread notifications while an active goal continues running. ",
+      "source": "Codex changelog"
+    },
+    {
       "title": "What Codex unlocks for Notion",
       "link": "https://openai.com/index/notion",
       "date": "2026-06-09T10:00:00+00:00",
@@ -3681,6 +3688,13 @@
       "link": "https://openai.com/index/lseg",
       "date": "2026-06-10T00:00:00+00:00",
       "description": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "PRC-linked influence operations are targeting AI debates in the US",
+      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
+      "date": "2026-06-10T12:00:00+00:00",
+      "description": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims  about ChatGPT.",
       "source": "OpenAI News"
     }
   ]

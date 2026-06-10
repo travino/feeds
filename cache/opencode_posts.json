@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T17:22:50.269214+00:00",
+  "last_updated": "2026-06-10T20:34:38.451597+00:00",
   "entries": [
     {
       "id": "opencode.cafe:opensession",
@@ -623,6 +623,14 @@
       "link": "https://github.com/anomalyco/opencode/releases/tag/v1.17.2",
       "summary": "<h4>Core</h4><ul><li>Recover from expired remote config auth by prompting you to log in again instead of failing to load config</li><li>Let subagents use their own configured permissions again</li></ul><h4>Desktop</h4><ul><li>Restore Linux launcher and icon identity so pinned apps keep opening correctly</li><li>Restore the device attachment picker</li></ul>",
       "date": "2026-06-10T16:42:56+00:00",
+      "source": "Release"
+    },
+    {
+      "id": "https://github.com/anomalyco/opencode/releases/tag/v1.17.3",
+      "title": "[Release] v1.17.3",
+      "link": "https://github.com/anomalyco/opencode/releases/tag/v1.17.3",
+      "summary": "v1.17.3 10 cze 2026",
+      "date": "2026-06-10T18:00:28+00:00",
       "source": "Release"
     }
   ]

@@ -2,14 +2,149 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-10T17:22:39.279724+00:00</updated>
+  <updated>2026-06-10T20:34:20.750563+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
   <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_microsoft.xml" rel="self"/>
   <link href="https://blogs.microsoft.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <subtitle>Combined Microsoft feed: Official Microsoft Blog, Source, Signal, and the Tech Community blogs.</subtitle>
+  <subtitle>Combined Microsoft feed: Official Microsoft Blog, Source, Signal, the Microsoft 365 Blog, and the Tech Community blogs.</subtitle>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285</id>
+    <title>Deploying Foundry Hosted Agents from Source Code</title>
+    <updated>2026-06-10T20:27:17+00:00</updated>
+    <content>Introduction At Microsoft Build, it was announced that Foundry Hosted Agents now support source-code deployments. Previously, Hosted Agents required application code to be packaged in a container for deployment. This new functionality allows you to deploy the agent from a `.zip` file instead of from a container image. This post walks through the process of deploying a source-code Hosted Agent, briefly compares that approach to container-based Hosted Agent deployment, and provides a reusable GitH</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T20:27:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/2026/06/10/microsoft-announces-quarterly-dividend-29/</id>
+    <title>Microsoft announces quarterly dividend</title>
+    <updated>2026-06-10T20:07:58+00:00</updated>
+    <content>The post Microsoft announces quarterly dividend appeared first on Source .</content>
+    <link href="https://news.microsoft.com/source/2026/06/10/microsoft-announces-quarterly-dividend-29/"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-06-10T20:07:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296</id>
+    <title>PUBLIC PREVIEW - Azure Monitor - Collect Azure Resource Platform Logs at Scale with DCRs</title>
+    <updated>2026-06-10T19:34:21+00:00</updated>
+    <content>The Challenge of Platform Log Collection at Scale For many platform teams, Azure resource platform log collection starts simple—but becomes difficult to manage at enterprise scale. Imagine a team responsible for more than 8,000 Azure resources across 14 subscriptions. Every new resource needs a diagnostic setting that must be: Configured consistently Audited continuously Monitored for configuration drift Re-enabled when settings are changed or disabled That complexity grows quickly when the same</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-observability-blog/public-preview-azure-monitor-collect-azure-resource-platform/ba-p/4525296"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T19:34:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/what-s-new-with-postgres-at-microsoft-2026-edition/ba-p/4526963</id>
+    <title>What's new with Postgres at Microsoft, 2026 edition</title>
+    <updated>2026-06-10T19:22:08+00:00</updated>
+    <content>A lot has happened with Postgres at Microsoft over the past year. This is the 2026 edition of our annual “what’s new” blog post, with highlights from the past 12–13 months—across both our managed services on Azure and our work in the upstream open source project. The infographic below pulls it all together—feature updates, new capabilities, and ongoing investments across our Postgres workstreams. You might notice it looks a bit different compared to last year : we redesigned the infographic to m</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/what-s-new-with-postgres-at-microsoft-2026-edition/ba-p/4526963"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T19:22:08+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/worklab/podcast/allie-k-miller-find-your-weirdos-and-let-them-lead</id>
+    <title>Allie K. Miller: Find your “weirdos”—and let them lead</title>
+    <updated>2026-06-10T19:12:51+00:00</updated>
+    <content>The post Allie K. Miller: Find your “weirdos”—and let them lead appeared first on Source .</content>
+    <link href="https://www.microsoft.com/en-us/worklab/podcast/allie-k-miller-find-your-weirdos-and-let-them-lead"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-06-10T19:12:51+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.windows.com/devices/2026/06/10/computex-2026-empowering-a-billion-users-with-windows-across-the-ecosystem/</id>
+    <title>Computex 2026: Empowering a billion users with Windows across the ecosystem</title>
+    <updated>2026-06-10T19:05:29+00:00</updated>
+    <content>The post Computex 2026: Empowering a billion users with Windows across the ecosystem appeared first on Source .</content>
+    <link href="https://blogs.windows.com/devices/2026/06/10/computex-2026-empowering-a-billion-users-with-windows-across-the-ecosystem/"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-06-10T19:05:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/signal/articles/how-ai-is-reshaping-not-replacing-creativity/</id>
+    <title>How AI is reshaping, not replacing, creativity</title>
+    <updated>2026-06-10T18:59:34+00:00</updated>
+    <content>The post How AI is reshaping, not replacing, creativity appeared first on Microsoft Signal Blog .</content>
+    <link href="https://news.microsoft.com/signal/articles/how-ai-is-reshaping-not-replacing-creativity/"/>
+    <category term="Microsoft Signal" label="Microsoft Signal"/>
+    <published>2026-06-10T18:59:34+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/</id>
+    <title>Reconstructing AI activity in investigations</title>
+    <updated>2026-06-10T18:53:15+00:00</updated>
+    <content>The post Reconstructing AI activity in investigations appeared first on Source .</content>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-06-10T18:53:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/sql-server-blog/introducing-execution-context-for-github-copilot-in-ssms/ba-p/4527272</id>
+    <title>Introducing Execution Context for GitHub Copilot in SSMS</title>
+    <updated>2026-06-10T17:45:47+00:00</updated>
+    <content>The GA release of GitHub Copilot in SSMS in March included Ask mode support for the chat window, interaction with the results pane, and code completions. Yesterday’s release of SSMS 22.7 introduced Agent mode (preview) for the chat window, backed by skills to complete complex, multi-step tasks on your behalf.  You've been able to ask questions in natural language, get help writing T-SQL, and interact with your database right from SSMS. Now you can leverage built-in skills to get help troubleshoo</content>
+    <link href="https://techcommunity.microsoft.com/t5/sql-server-blog/introducing-execution-context-for-github-copilot-in-ssms/ba-p/4527272"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T17:45:47+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/partner-news/partner-blog-building-ai-ready-applications-on-open-enterprise/ba-p/4526901</id>
+    <title>Partner Blog | Building AI-ready applications on open, enterprise-grade Azure platforms</title>
+    <updated>2026-06-10T17:15:00+00:00</updated>
+    <content>Microsoft Build 2026 reinforced a practical reality for organizations moving from AI experimentation to production: AI is only as strong as the foundation it runs on. Customers need modern databases, governed data, secure infrastructure, and developer experiences that can carry performing AI-enabled applications at scale into production with confidence. The public preview announcements of Azure HorizonDB and Azure Linux , along with the general availability of Azure Container Linux , show how Mi</content>
+    <link href="https://techcommunity.microsoft.com/t5/partner-news/partner-blog-building-ai-ready-applications-on-open-enterprise/ba-p/4526901"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T17:15:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092</id>
+    <title>Transitioning from Azure Language Features to Foundry Models</title>
+    <updated>2026-06-10T16:43:54+00:00</updated>
+    <content>Azure AI Language in Foundry Tools will begin deprecating eight features: Key Phrase Extraction, Entity Linking, Sentiment Analysis &amp; Opinion Mining, Summarization (document &amp; conversation), Conversational Language Understanding (CLU), Custom Question Answering (CQA), Orchestration Workflow, and Custom Text Classification, to be ultimately retired by March 2029 (Entity Linking even sooner, by September 20, 2028 ). Microsoft’s guidance is to implement these functionalities using Microsoft Foundry</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T16:43:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-scheduled-antivirus-scans-on-microsoft-defender/ba-p/4524578</id>
+    <title>Introducing scheduled antivirus scans on Microsoft Defender Linux</title>
+    <updated>2026-06-10T16:00:00+00:00</updated>
+    <content>Security teams rely on scheduled scans to ensure consistent coverage across devices, detect dormant or missed threats, and meet compliance requirements. However, managing scans on Linux has traditionally required custom scripts and cron-based setups, which can be hard to scale and maintain. That’s why we’re excited to introduce centrally managed scheduled antivirus scans for Linux in Microsoft Defender , now available in public preview . With this release, we are bringing built-in, flexible sche</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-scheduled-antivirus-scans-on-microsoft-defender/ba-p/4524578"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/making-mac-onedrive-faster-and-more-reliable/ba-p/4516506</id>
+    <title>Making Mac OneDrive Faster and More Reliable</title>
+    <updated>2026-06-10T15:35:08+00:00</updated>
+    <content>OneDrive on macOS is getting a major update to how it syncs! The Native Sync Engine is rolling out to Insiders today with version 26.098 . It's up to 2x faster on initial sync and on-disk state changes, uses less CPU, memory, and battery, and removes the hidden cache folder that's been the source of most reliability issues since 2022. It's the latest in an ongoing effort to make OneDrive feel native on Mac . Earlier this year we shipped a redesigned Activity Center with Liquid Glass and native d</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/making-mac-onedrive-faster-and-more-reliable/ba-p/4516506"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T15:35:08+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-security-community/new-exchange-online-mailbox-auditing-signal-visibility-into-ipm/ba-p/4526914</id>
+    <title>New Exchange Online Mailbox Auditing Signal: Visibility into IPM to Non-IPM Copy Activity</title>
+    <updated>2026-06-10T15:00:00+00:00</updated>
+    <content>Background: IPM vs. Non-IPM Subtree Every Exchange Online mailbox is organized into two parts: IPM subtree (Interpersonal Message subtree) — the visible, user-facing part of a mailbox, designed for messages exchanged between human recipients. This includes Inbox, Sent Items, Deleted Items, Calendar, Contacts, Tasks, Notes, and any custom folders a user creates. Exchange mailbox auditing has always focused on activity within this area. Non-IPM subtree — a hidden folder structure used by Exchange </content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-security-community/new-exchange-online-mailbox-auditing-signal-visibility-into-ipm/ba-p/4526914"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T15:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-teams-blog/making-microsoft-teams-more-responsive-reliable-and-ready-for/ba-p/4526527</id>
+    <title>Making Microsoft Teams more responsive, reliable, and ready for work</title>
+    <updated>2026-06-10T15:00:00+00:00</updated>
+    <content>By: Ihor Lukyanenko, Sachin Jain, Kappa Ramlal, Abdul Rahim Charif, and Shangwei Fang Every day, hundreds of millions of people depend on Microsoft Teams to connect with colleagues, share ideas, make decisions, and move work forward. Whether they are jumping into a quick chat between meetings, joining a customer call that cannot be missed, or using Copilot to accomplish more, people rely on Teams to be ready the moment they need it. That trust is what drives our continued investment in performan</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-teams-blog/making-microsoft-teams-more-responsive-reliable-and-ready-for/ba-p/4526527"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T15:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://blogs.microsoft.com/on-the-issues/2026/06/10/ai-jobs-and-the-next-generation/</id>
     <title>AI, jobs, and the next generation</title>
@@ -18,6 +153,42 @@
     <link href="https://blogs.microsoft.com/on-the-issues/2026/06/10/ai-jobs-and-the-next-generation/"/>
     <category term="Microsoft Source" label="Microsoft Source"/>
     <published>2026-06-10T14:07:56+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/a-new-chapter-of-efficient-foundation-models-for-medical-imaging/ba-p/4526964</id>
+    <title>A new chapter of efficient foundation models for medical imaging</title>
+    <updated>2026-06-10T13:26:55+00:00</updated>
+    <content>Authors : Ivan Tarapov, Mu Wei, Noel Codella, Mert Oez and Naveen Valluri, Microsoft Healthcare and Life Sciences At HLTH 2024, we introduced three open-source healthcare AI foundation models on Microsoft Foundry : MedImageInsight (MI2) , CxrReportGen (CXRRG) , and MedImageParse (MIP) . They quickly became the most popular healthcare industry models in the Foundry catalog, with consistent, growing usage by researchers, ISVs, and clinical teams over more than 15 months. Customer momentum has been</content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/a-new-chapter-of-efficient-foundation-models-for-medical-imaging/ba-p/4526964"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T13:26:55+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/marketplace-blog/cast-and-cloudforce-offer-transactable-partner-solutions-in/ba-p/4508155</id>
+    <title>CAST and Cloudforce offer transactable partner solutions in Microsoft Marketplace</title>
+    <updated>2026-06-10T13:00:00+00:00</updated>
+    <content>Microsoft partners like CAST and Cloudforce deliver transact-capable offers, which allow you to purchase directly from Microsoft Marketplace. Learn about these offers below: CAST Highlight : Build your Microsoft Azure migration roadmap and modernize complex software systems faster with CAST’s intelligence technology that delivers rapid, fact-based insights across your entire application portfolio. CAST Highlight helps your organization prioritize migration and modernization decisions at scale by</content>
+    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/cast-and-cloudforce-offer-transactable-partner-solutions-in/ba-p/4508155"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/educator-developer-blog/compliance-academy-a-multi-agent-cyber-mystery-built-on/ba-p/4526526</id>
+    <title>Compliance Academy: A Multi-Agent Cyber Mystery Built on Microsoft Foundry Agent Service</title>
+    <updated>2026-06-10T07:39:39+00:00</updated>
+    <content>The Challenge Microsoft Reactor invited three individuals to compete in a live coding battle: build something that shows what reasoning agents can do, in front of a streaming audience, in roughly twelve minutes of airtime each. Watch live at 9am PT 10th June https://developer.microsoft.com/en-us/reactor/events/26942/ The temptation is always to default to a clean Q&amp;A demo or a document summarizer. I wanted to try something harder. The solution I will be building is Compliance Academy : a multi-a</content>
+    <link href="https://techcommunity.microsoft.com/t5/educator-developer-blog/compliance-academy-a-multi-agent-cyber-mystery-built-on/ba-p/4526526"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T07:39:39+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/we-gave-ourselves-20-minutes-to-build-an-ai-agent-for-a-lumber/ba-p/4523428</id>
+    <title>We Gave Ourselves 20 Minutes to Build an AI Agent for a Lumber Company. The Timer's Still on Screen.</title>
+    <updated>2026-06-10T07:00:00+00:00</updated>
+    <content>Here's a confession: most "build with AI" webinars are 60 minutes of slides, 5 minutes of a polished demo someone rehearsed for a week, and a closing CTA. You leave inspired but not really sure what you saw. So we tried something different. We put a visible countdown timer on the screen and gave ourselves 20 minutes to do two things, live: Build an AI agent that solves a real business problem Deploy a working AI application to Azure No edits to hide the awkward parts. No "and here's one I prepar</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-developer-community/we-gave-ourselves-20-minutes-to-build-an-ai-agent-for-a-lumber/ba-p/4523428"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T07:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/azure-integration-services-blog/productize-observe-version-and-automate-mcp-servers-in-azure-api/ba-p/4526931</id>
@@ -551,6 +722,51 @@
     <published>2026-06-02T18:17:49+00:00</published>
   </entry>
   <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/</id>
+    <title>Introducing Microsoft Scout: Your always-on personal agent</title>
+    <updated>2026-06-02T18:00:00+00:00</updated>
+    <content>Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-06-02T18:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/</id>
+    <title>Announcing the new Work IQ APIs</title>
+    <updated>2026-06-02T17:00:15+00:00</updated>
+    <content>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-06-02T17:00:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/</id>
+    <title>Introducing Microsoft 365 Business with Copilot: The new standard for small business</title>
+    <updated>2026-05-28T19:00:00+00:00</updated>
+    <content>On July 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work. The post Introducing Microsoft 365 Business with Copilot: The new standard for small business appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-28T19:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/</id>
+    <title>Introducing a new design for Microsoft 365 Copilot</title>
+    <updated>2026-05-28T15:00:00+00:00</updated>
+    <content>We’ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work. The post Introducing a new design for Microsoft 365 Copilot appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-28T15:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/</id>
+    <title>New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences</title>
+    <updated>2026-05-26T16:00:00+00:00</updated>
+    <content>Learn what’s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility. The post New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-26T16:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://blogs.microsoft.com/blog/2026/05/21/from-ai-pilots-to-enterprise-impact-why-execution-is-the-new-differentiator/</id>
     <title>From AI pilots to enterprise impact: Why execution is the new differentiator</title>
     <updated>2026-05-21T11:02:33+00:00</updated>
@@ -560,6 +776,15 @@
     <published>2026-05-21T11:02:33+00:00</published>
   </entry>
   <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/</id>
+    <title>New and improved: Agent governance, intelligent workflows, and connected app experiences</title>
+    <updated>2026-05-11T17:25:12+00:00</updated>
+    <content>See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-11T17:25:12+00:00</published>
+  </entry>
+  <entry>
     <id>https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/</id>
     <title>How Frontier Firms are rebuilding the operating model for the age of AI</title>
     <updated>2026-05-05T10:00:01+00:00</updated>
@@ -567,6 +792,33 @@
     <link href="https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/"/>
     <category term="Official Microsoft Blog" label="Official Microsoft Blog"/>
     <published>2026-05-05T10:00:01+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/</id>
+    <title>Microsoft 365 Copilot, human agency, and the opportunity for every organization</title>
+    <updated>2026-05-05T10:00:00+00:00</updated>
+    <content>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-05T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/</id>
+    <title>Copilot Cowork: From conversation to action across skills, integrations, and devices</title>
+    <updated>2026-05-05T10:00:00+00:00</updated>
+    <content>Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-05T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/</id>
+    <title>Microsoft Agent 365, now generally available, expands capabilities and integrations</title>
+    <updated>2026-05-01T15:00:00+00:00</updated>
+    <content>Microsoft Agent 365 helps you take control of agent sprawl as your control plane to observe, govern, and secure agents and their interactions. The post Microsoft Agent 365, now generally available, expands capabilities and integrations appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-01T15:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://blogs.microsoft.com/blog/2026/04/28/unlocking-human-ambition-to-drive-business-growth-with-ai/</id>
@@ -594,6 +846,15 @@
     <link href="https://blogs.microsoft.com/blog/2026/04/27/the-next-phase-of-the-microsoft-openai-partnership/"/>
     <category term="Official Microsoft Blog" label="Official Microsoft Blog"/>
     <published>2026-04-27T13:00:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/</id>
+    <title>Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available</title>
+    <updated>2026-04-23T00:00:00+00:00</updated>
+    <content>From first draft to final polish, Copilot acts as a true collaborator, taking action while you stay in control. The post Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-04-23T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://blogs.microsoft.com/blog/2026/04/21/accelerating-frontier-transformation-with-microsoft-partners/</id>

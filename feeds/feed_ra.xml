@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-06-10T17:23:57.914601+00:00</updated>
+  <updated>2026-06-10T20:34:49.072126+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://ra.co/magazine" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85394</id>
+    <title>Mexico City club M.N.Roy unveils World Cup programming</title>
+    <updated>2026-06-10T19:30:55+00:00</updated>
+    <content>Acts such as Omar Latigo, Theus Mago and Musumeci will play from June 11th through 27th.</content>
+    <link href="https://ra.co/news/85394"/>
+    <category term="News"/>
+    <published>2026-06-10T19:30:55+00:00</published>
+  </entry>
   <entry>
     <id>https://ra.co/news/85391</id>
     <title>Scott Anderson, public records cofounder, dies</title>
@@ -1800,14 +1809,5 @@
     <link href="https://ra.co/features/3203"/>
     <category term="Feature"/>
     <published>2025-11-23T12:00:46+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ra.co/features/4221</id>
-    <title>Moodymann: The Spirit of Detroit (2023)</title>
-    <updated>2025-11-22T11:00:31+00:00</updated>
-    <content>"I like to keep it Black and strong around here." Three decades into his career, the effortlessly cool artist is still repping the D and its people whenever he can. He granted us rare access into his world to unpack his love of music and the community that made him.</content>
-    <link href="https://ra.co/features/4221"/>
-    <category term="Feature"/>
-    <published>2025-11-22T11:00:31+00:00</published>
   </entry>
 </feed>
