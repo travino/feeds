@@ -25,6 +25,7 @@ import os
 import shutil
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
 ATOM = "{http://www.w3.org/2005/Atom}"
@@ -54,7 +55,7 @@ def _text(elem: ET.Element | None) -> str:
 
 
 def parse_feed(path: Path) -> dict:
-    """Extract display metadata from an Atom feed file."""
+    """Extract display metadata from an Atom or RSS 2.0 feed file."""
     info = {
         "filename": path.name,
         "title": path.stem.replace("feed_", "").replace("_", " ").title(),
@@ -63,10 +64,38 @@ def parse_feed(path: Path) -> dict:
         "author": "",
         "updated": None,
         "entries": 0,
+        "format": "atom",
     }
     try:
         root = ET.parse(path).getroot()
     except ET.ParseError:
+        return info
+
+    if root.tag == "rss":
+        info["format"] = "rss"
+        ch = root.find("channel")
+        if ch is None:
+            return info
+        if _text(ch.find("title")):
+            info["title"] = _text(ch.find("title"))
+        info["subtitle"] = _text(ch.find("description"))
+        info["source"] = _text(ch.find("link"))
+        items = ch.findall("item")
+        info["entries"] = len(items)
+        dates = []
+        for el in [ch.find("lastBuildDate"), ch.find("pubDate")] + [
+            it.find("pubDate") for it in items
+        ]:
+            if el is not None and _text(el):
+                try:
+                    dates.append(parsedate_to_datetime(_text(el)))
+                except (TypeError, ValueError):
+                    pass
+        if dates:
+            dt = max(dates)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            info["updated"] = dt.astimezone(timezone.utc)
         return info
 
     if _text(root.find(f"{ATOM}title")):
@@ -214,8 +243,9 @@ def render_autodiscovery(feeds: list[dict], base: str) -> str:
     for f in feeds:
         href = html.escape(base + f["filename"], quote=True)
         title = html.escape(f["title"], quote=True)
+        mime = "application/rss+xml" if f.get("format") == "rss" else "application/atom+xml"
         lines.append(
-            f'  <link rel="alternate" type="application/atom+xml" '
+            f'  <link rel="alternate" type="{mime}" '
             f'title="{title}" href="{href}">'
         )
     return "\n".join(lines)
