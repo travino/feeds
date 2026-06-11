@@ -220,6 +220,14 @@ def sort_posts_for_feed(posts: list[dict[str, Any]], date_field: str = "date") -
     return with_date + without_date
 
 
+def save_atom_feed(fg: FeedGenerator, feed_name: str) -> Path:
+    """Write an Atom feed to feeds/feed_<name>.xml (project default format)."""
+    output_file = get_feeds_dir() / f"feed_{feed_name}.xml"
+    fg.atom_file(str(output_file), pretty=True)
+    logger.info(f"Saved Atom feed to {output_file}")
+    return output_file
+
+
 def save_rss_feed(fg: FeedGenerator, feed_name: str) -> Path:
     """Write an RSS 2.0 feed to feeds/feed_<name>.xml (for future RSS feeds)."""
     output_file = get_feeds_dir() / f"feed_{feed_name}.xml"
