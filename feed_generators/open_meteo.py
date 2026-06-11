@@ -1,7 +1,7 @@
 """Open-Meteo feed generator.
 
 Turns three free, keyless Open-Meteo APIs (https://open-meteo.com/) into one
-Atom feed for a single location (default 50.1298, 19.4243 — Trzebinia):
+Atom feed for a single location (default 50.13133, 19.41654 — Kościelec, Chrzanów):
 
 - **Daily forecast** (`api.open-meteo.com/v1/forecast`, ``daily`` block):
   one entry per day — WMO condition (in Polish), temperatures (real and
@@ -56,9 +56,9 @@ logger = setup_logging()
 FEED_NAME = "open_meteo"
 SITE_URL = "https://open-meteo.com/"
 
-LAT = os.getenv("OPEN_METEO_LAT", "50.1298").strip()
-LON = os.getenv("OPEN_METEO_LON", "19.4243").strip()
-PLACE = os.getenv("OPEN_METEO_PLACE", "Trzebinia").strip()
+LAT = os.getenv("OPEN_METEO_LAT", "50.13133").strip()
+LON = os.getenv("OPEN_METEO_LON", "19.41654").strip()
+PLACE = os.getenv("OPEN_METEO_PLACE", "Kościelec (Chrzanów)").strip()
 FORECAST_DAYS = int(os.getenv("OPEN_METEO_DAYS", "7"))
 
 PL_TZ = pytz.timezone("Europe/Warsaw")
