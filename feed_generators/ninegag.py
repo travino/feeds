@@ -3,7 +3,7 @@
 9GAG has no native feed; the Hot page ships its post list in a
 ``window._config = JSON.parse("...")`` blob (``data.posts``), so one
 curl_cffi fetch yields ~10 posts with id, title, type, timestamps, and image
-renditions. NSFW posts are skipped; each entry embeds the post image
+renditions. NSFW posts are included and tagged [NSFW]; each entry embeds the post image
 (``images.image700``) in its description. History accumulates run over run,
 so the feed grows past the per-fetch window.
 """
@@ -50,12 +50,12 @@ def scrape_hot(known_links):
 
     for post in posts:
         try:
-            if post.get("nsfw"):
-                continue
             link = (post.get("url") or "").replace("http://", "https://")
             if not link or link in known_links:
                 continue
             title = sanitize_xml(post.get("title") or post.get("id") or "9GAG post")
+            if post.get("nsfw"):
+                title = f"[NSFW] {title}"
             ts = post.get("creationTs")
             date_obj = (
                 datetime.datetime.fromtimestamp(int(ts), tz=pytz.UTC) if ts else None
@@ -86,7 +86,7 @@ def main(full=False):
         feed_name=FEED_NAME,
         title="9GAG",
         subtitle="Hot posts from 9gag.com (no native feed; parsed from the page's "
-                 "window._config JSON). NSFW posts are skipped.",
+                 "window._config JSON). NSFW posts are tagged [NSFW].",
         blog_url=HOT_URL,
         author="9GAG",
         extra_scrapers=[scrape_hot],
