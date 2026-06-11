@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T20:26:47.818599+00:00",
+  "last_updated": "2026-06-11T23:25:35.415857+00:00",
   "entries": [
     {
       "title": "Announcing Copilot leadership update",
@@ -1402,11 +1402,25 @@
       "source": "Tech Community"
     },
     {
+      "title": "Agentic workflows no longer need a personal access token",
+      "link": "https://github.blog/changelog/2026-06-11-agentic-workflows-no-longer-need-a-personal-access-token",
+      "date": "2026-06-11T15:55:49+00:00",
+      "description": "You can now use GitHub Agentic Workflows with GitHub Actions’s built-in GITHUB_TOKEN. This means that you no longer need to create and store a personal access token (PAT), eliminating the… The post Agentic workflows no longer need a personal access token appeared first on The GitHub Blog...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
       "title": "Reduce unnecessary internet exposure with Microsoft Defender",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/reduce-unnecessary-internet-exposure-with-microsoft-defender/ba-p/4525654",
       "date": "2026-06-11T16:00:00+00:00",
       "description": "In today’s threat landscape, internet exposure , i.e. devices that allow inbound connectivity from the public internet, continues to be a major vector for initial access and compromise. Devices that are exposed to the public internet can significantly increase an organization’s attack surface, making them prime targets for initial access, exploitation, and lateral movement. However, not all internet-facing devices represent a security issue. Many are intentionally exposed to support business-cri",
       "source": "Tech Community"
+    },
+    {
+      "title": "GitHub Agentic Workflows is now in public preview",
+      "link": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview",
+      "date": "2026-06-11T16:00:35+00:00",
+      "description": "GitHub Agentic Workflows is now in public preview. With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, and documentation updates by leveraging coding agents inside… The post GitHub Agentic Workflows is now in public preview appeared first on The...",
+      "source": "Microsoft 365 Developer Changelog"
     },
     {
       "title": "Copilot Notebooks and Study guide now available to Copilot Chat users",
@@ -1416,11 +1430,130 @@
       "source": "Tech Community"
     },
     {
+      "title": "Retirement: Azure Load Balancer Inbound NAT rule version 1 for Azure VMSS (aka Inbound NAT Pools)",
+      "link": "https://azure.microsoft.com/updates?id=565482",
+      "date": "2026-06-11T16:15:07+00:00",
+      "description": "Update to our previous communication: We previously\nannounced the retirement of all Inbound NAT rules version 1 resources, which\nincluded both single-VM NAT rules and NAT pools for Virtual Machine Scale\nSets. We have narrowed the scope of this retirement...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "New runner images in public preview",
+      "link": "https://github.blog/changelog/2026-06-11-new-runner-images-in-public-preview",
+      "date": "2026-06-11T16:18:07+00:00",
+      "description": "Two new GitHub-hosted runner images for GitHub Actions are now available in public preview for all users, giving you early access to test your workflows on the latest platforms before… The post New runner images in public preview appeared first on The GitHub Blog...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Copilot CLI: Configure everything from one place with /settings",
+      "link": "https://github.blog/changelog/2026-06-11-copilot-cli-configure-everything-from-one-place-with-settings",
+      "date": "2026-06-11T16:44:55+00:00",
+      "description": "GitHub Copilot CLI now has a unified, schema-driven home for configuration. The new /settings slash command combines the scattered commands like /theme, /streamer-mode, and /experimental with options that previously required… The post Copilot CLI: Configure everything from one place with /settings...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Azure Monitor Metrics Export Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-metrics-export-generally-available/ba-p/4523712",
+      "date": "2026-06-11T17:17:35+00:00",
+      "description": "Today, we’re excited to announce the general availability of Azure Monitor Metrics Export using data collection rules (DCRs). A scalable, flexible way to continuously export platform metrics with dimensional fidelity, lower latency, and more control over what you send downstream. Azure Monitor Metrics Export is configured through data collection rules and can route platform metrics to Azure Storage accounts, Azure Event Hubs, or Azure Log Analytics workspaces. Compared to diagnostic settings, DC",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Azure Monitor SLIs now Generally Available",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/azure-monitor-slis-now-generally-available/ba-p/4523689",
+      "date": "2026-06-11T17:18:29+00:00",
+      "description": "Azure Monitor SLIs are now generally available Service Level Indicators (SLIs) and Service Level Objectives (SLOs) in Azure Monitor are now generally available. Teams can now measure reliability based on customer experience, not just infrastructure signals. SLI : A quantitative measure of how well an application or service is performing from the customer’s point of view. SLO: A defined target for an SLI that represents how good or bad the SLI is over a given time-period. This is also referred to",
+      "source": "Tech Community"
+    },
+    {
+      "title": "DoH is now generally available on Windows DNS Server",
+      "link": "https://techcommunity.microsoft.com/t5/networking-blog/doh-is-now-generally-available-on-windows-dns-server/ba-p/4526839",
+      "date": "2026-06-11T17:27:51+00:00",
+      "description": "Today, we’re excited to announce that DoH support for Windows DNS Server is generally available on Windows Server 2025 for client-to-server DNS traffic. When we first introduced DNS over HTTPS (DoH) for Windows DNS Server in public preview, we described it as a Zero Trust upgrade to the foundation of enterprise networking. With general availability, organizations can now deploy encrypted and authenticated client-to-resolver DNS traffic directly within their existing on-premises DNS infrastructur",
+      "source": "Tech Community"
+    },
+    {
+      "title": "A deep dive into Azure Bastion session recording",
+      "link": "https://techcommunity.microsoft.com/t5/azure-network-security-blog/a-deep-dive-into-azure-bastion-session-recording/ba-p/4527583",
+      "date": "2026-06-11T17:36:01+00:00",
+      "description": "If you’ve worked with Azure Bastion’s Premium SKU, you’ve likely encountered one of its most powerful security features: graphical session recording. Capturing RDP and SSH sessions end to end strengthens compliance, supports forensic investigations, and improves operational accountability. How you configure session recording can make a significant difference. It determines whether you must manage manual tokens and expiry settings or benefit from a low-maintenance experience. With the recently an",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Build a Knowledge Graph in Azure HorizonDB with AI Functions and Apache AGE",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/build-a-knowledge-graph-in-azure-horizondb-with-ai-functions-and/ba-p/4523394",
+      "date": "2026-06-11T17:42:46+00:00",
+      "description": "Knowledge graphs appear in every AI architecture diagram, every conference keynote and every AI strategy deck. Yet the most common question we hear from customers and engineers alike is: \" What does a knowledge graph actually do for me?\" That is a fair question, and one worth answering clearly, because most teams already have a knowledge graph problem and do not realize it. The connections your relational tables cannot surface Picture this: five incident tickets land over a week. One says the au",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Putting file-level archiving into practice with Microsoft 365 Archive and Syskit Point",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/putting-file-level-archiving-into-practice-with-microsoft-365/ba-p/4526459",
+      "date": "2026-06-11T17:50:00+00:00",
+      "description": "Most Microsoft SharePoint sites don't go quiet all at once. They stay active, new files added, documents edited, teams collaborating, while years of completed projects, superseded drafts, and old reports accumulate quietly in the background. The site looks healthy. But when Microsoft 365 Copilot draws on that content to generate responses, it can surface outdated, redundant, and inactive files alongside current materials. This can result in noise. Organizations that keep their active content cle",
+      "source": "Tech Community"
+    },
+    {
       "title": "Your agent just scaffolded a project from 2020",
       "link": "https://devblogs.microsoft.com/blog/your-agent-just-scaffolded-a-project-from-2020",
       "date": "2026-06-11T17:54:29+00:00",
       "description": "Your agent ran a scaffold command. Project generated, dependencies resolved, no errors. Everything looks fine. Except it’s based on the project structure from 2020, and neither you nor the agent noticed. How npx picks the right-but-wrong version When an agent scaffolds a project or runs a CLI tool, it often reaches for npx without specifying […] The post Your agent just scaffolded a project from 2020 appeared first on Microsoft for Developers .",
       "source": "Microsoft DevBlogs"
+    },
+    {
+      "title": "Tech, Community, and a Movie: MVPs Help Bring Stir Trek to Life",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-mvp-program-blog/tech-community-and-a-movie-mvps-help-bring-stir-trek-to-life/ba-p/4527597",
+      "date": "2026-06-11T18:01:24+00:00",
+      "description": "What happens when you combine a full day of technical learning with a movie theater full of developers, designers, and tech leaders - and a shared commitment to giving back? You get Stir Trek : Tech & a Flick, a one-day community conference in Columbus, Ohio, that ends not with closing slides, but with popcorn and a blockbuster movie. Since its first event in 2009, Stir Trek has built a reputation for being practical, welcoming, and unmistakably different. The format is simple: 50+ sessions of t",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Customer spotlight: Less inbox, more connection at Nuveen",
+      "link": "https://techcommunity.microsoft.com/t5/viva-engage-blog/customer-spotlight-less-inbox-more-connection-at-nuveen/ba-p/4527588",
+      "date": "2026-06-11T18:12:22+00:00",
+      "description": "H elping leaders reach employees in new ways At the Microsoft 365 Community Conference, we explored a challenge many communicators are dealing with right now: employees are surrounded by nonstop signals—email, chats, meetings, and posts—and important messages get lost in the noise. Dan Mulcahey, VP, Internal Comms at Nuveen, a TIAA company, joined us to share how he and his team are evolving their communications approach using Viva Engage to make messages more relevant, visible, and engaging ove",
+      "source": "Tech Community"
+    },
+    {
+      "title": "AI usage report updates",
+      "link": "https://github.blog/changelog/2026-06-11-ai-usage-report-updates",
+      "date": "2026-06-11T18:27:05+00:00",
+      "description": "Your AI usage reports now reflect GitHub AI Credits usage in the standard report fields. To monitor AI credit usage going forward, use quantity for AI credit quantity and gross_amount… The post AI usage report updates appeared first on The GitHub Blog...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "[Launched] Generally Available: SQL MCP Server",
+      "link": "https://azure.microsoft.com/updates?id=564734",
+      "date": "2026-06-11T18:45:02+00:00",
+      "description": "SQL MCP Server is now generally available, giving customers\na secure, high-performance way to build agentic solutions with controlled\naccess to production data. Built for SQL and compatible with PostgreSQL and\nAzure Cosmos DB, SQL MCP Server is a dynamic...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564774",
+      "date": "2026-06-11T19:00:41+00:00",
+      "description": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series, Gs-seriesLsv2-seriesAfter this date:New Batch pools using these VM serie...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564772",
+      "date": "2026-06-11T19:00:41+00:00",
+      "description": "Azure Compute will retire the following Virtual Machine series on May 1, 2028, impacting Azure Batch pools that rely on them:D-series, Ds-seriesDv2-series, Dsv2-seriesLs-seriesAfter this date:New Batch pools using these VM series cannot be createdExisting...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Retirement: GPv1 and Legacy Blob storage account creation",
+      "link": "https://azure.microsoft.com/updates?id=564441",
+      "date": "2026-06-11T19:00:41+00:00",
+      "description": "As part of our ongoing efforts to streamline the Azure\nStorage portfolio and deliver enhanced performance, scalability, and cost\nefficiency, we are announcing the retirement of all General purpose v1 (GPv1)\nstorage accounts. This includes legacy blob stor...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Bot-created pull requests can run workflows if approved",
+      "link": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved",
+      "date": "2026-06-11T19:00:56+00:00",
+      "description": "Pull requests created by the github-actions[bot] are now able to run your CI/CD workflows with user approval. Requiring approval is a security measure to ensure generated code does not automatically… The post Bot-created pull requests can run workflows if approved appeared first on The GitHub Blog...",
+      "source": "Microsoft 365 Developer Changelog"
     },
     {
       "title": "Visual Studio Code 1.125",
