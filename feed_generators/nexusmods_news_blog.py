@@ -8,7 +8,7 @@ fingerprint clears the bot check and returns the same HTML a browser would.
 
 This generator fetches the listing page(s), parses the ``div.tile-content``
 article cards (title, link, date, author, category, summary), merges them with a
-local cache so history accumulates across hourly runs, and writes an RSS feed to
+local cache so history accumulates across hourly runs, and writes an Atom feed to
 ``feeds/feed_nexusmods_news.xml``.
 
 The page paginates with ``?page=N``; incremental runs fetch only page 1 and
@@ -29,7 +29,7 @@ from utils import (
     merge_entries,
     sanitize_xml,
     save_cache,
-    save_rss_feed,
+    save_atom_feed,
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
@@ -180,6 +180,7 @@ def parse_posts(html_pages) -> list[dict]:
 
 def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
     fg = FeedGenerator()
+    fg.id("https://www.nexusmods.com/news")
     fg.title("Nexus Mods News")
     fg.description("Latest news and updates from Nexus Mods and the modding community")
     fg.language("en")
@@ -200,7 +201,7 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
         if post.get("date"):
             fe.published(post["date"])
 
-    logger.info("Generated RSS feed with %d entries", len(posts))
+    logger.info("Generated Atom feed with %d entries", len(posts))
     return fg
 
 
@@ -232,13 +233,13 @@ def main(full_reset: bool = False, full_pages: int = 15) -> bool:
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
-    save_rss_feed(feed, FEED_NAME)
+    save_atom_feed(feed, FEED_NAME)
     logger.info("Done!")
     return True
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate Nexus Mods News RSS feed")
+    parser = argparse.ArgumentParser(description="Generate Nexus Mods News Atom feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (paginate the archive)")
     parser.add_argument("--pages", type=int, default=15, help="Max pages to fetch on a full reset")
     args = parser.parse_args()
