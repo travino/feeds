@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
+  <id>urn:imgw:danepubliczne</id>
+  <title>IMGW — pogoda, hydrologia i ostrzeżenia</title>
+  <updated>2026-06-11T04:08:30.630771+00:00</updated>
+  <author>
+    <name>IMGW-PIB</name>
+    <uri>https://danepubliczne.imgw.pl/</uri>
+  </author>
+  <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_imgw.xml" rel="self"/>
+  <link href="https://danepubliczne.imgw.pl/" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Obserwacje synoptyczne, stany wód, telemetria oraz ostrzeżenia meteo i hydro z danepubliczne.imgw.pl</subtitle>
+  <entry>
+    <id>urn:imgw:warnhydro:3ee232de48638ee013af8f67a4386cc8f8681e33</id>
+    <title>💧 Ostrzeżenie hydro: Wezbranie z przekroczeniem stanów ostrzegawczych (małopolskie)</title>
+    <updated>2026-06-11T04:08:30.629636+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Wezbranie z przekroczeniem stanów ostrzegawczych&lt;/strong&gt; — nr 107, prawdopodobieństwo 90%&lt;/p&gt;&lt;p&gt;Od 2026-06-11 04:12:03 do 2026-06-11 09:00:00&lt;/p&gt;&lt;p&gt;Na Białym Dunajcu prognozuje się wzrosty powyżej progu ostrzegawczego w związku ze spływem wody opadowej. Istnieje możliwość krótkotrwałego przekroczenia stanu alarmowego.&lt;/p&gt;&lt;p&gt;Obszar: małopolskie, Dunajec wraz ze zb. Sromowce Wyżne, wezbranie z przekroczeniem stanów ostrzegawczych&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-11T04:11:05+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:c977bd0b3449c05d9c75f2b0417b5251a622bc6e</id>
+    <title>💧 Ostrzeżenie hydro: Wezbranie z przekroczeniem stanów ostrzegawczych (małopolskie)</title>
+    <updated>2026-06-11T04:08:30.629837+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Wezbranie z przekroczeniem stanów ostrzegawczych&lt;/strong&gt; — nr 106, prawdopodobieństwo 90%&lt;/p&gt;&lt;p&gt;Od 2026-06-11 02:21:39 do 2026-06-12 02:19:39&lt;/p&gt;&lt;p&gt;Na stacji Gorlice na rzece Sękówka obserwowane są dalsze szybkie wzrosty stanu wody powyżej progu ostrzegawczego. Istnieje możliwość krótkotrwałego osiągnięcia stanu alarmowego.&lt;/p&gt;&lt;p&gt;Obszar: małopolskie, Ropa, wezbranie z przekroczeniem stanów ostrzegawczych&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-11T02:20:40+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:meteo:250190790:2026-06-11</id>
+    <title>Chrzanów — telemetria 11.06: opad (10 min) 0 mm (03:40)</title>
+    <updated>2026-06-11T04:08:28.614057+00:00</updated>
+    <content type="html">&lt;p&gt;Telemetria IMGW — stacja &lt;strong&gt;Chrzanów&lt;/strong&gt; (250190790)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opad (10 min): 0 mm (03:40)&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/meteo"/>
+    <category term="meteo"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:hydro:150190180:2026-06-11</id>
+    <title>Jeleń (Przemsza) — stan wody 174 cm (11.06 03:30)</title>
+    <updated>2026-06-11T04:08:27.692967+00:00</updated>
+    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Jeleń&lt;/strong&gt;, rzeka Przemsza, woj. śląskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 174 cm (11.06 03:30)&lt;/li&gt;&lt;li&gt;Przepływ: 17.5 m³/s (11.06 03:30)&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/hydro"/>
+    <category term="hydro"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:hydro:150190260:2026-06-11</id>
+    <title>Smolice (Wisła) — stan wody 141 cm (11.06 03:30)</title>
+    <updated>2026-06-11T04:08:27.692865+00:00</updated>
+    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Smolice&lt;/strong&gt;, rzeka Wisła, woj. małopolskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 141 cm (11.06 03:30)&lt;/li&gt;&lt;li&gt;Przepływ: 247 m³/s (29.07 23:30)&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/hydro"/>
+    <category term="hydro"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:synop:12566:2026-06-11</id>
+    <title>Kraków — obserwacje 11.06: 11.5°C, opad 15.2 mm (godz. 03)</title>
+    <updated>2026-06-11T04:08:26.673170+00:00</updated>
+    <content type="html">&lt;p&gt;Obserwacje synoptyczne IMGW — stacja &lt;strong&gt;Kraków&lt;/strong&gt; (12566)&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Godz.&lt;/th&gt;&lt;th&gt;Temp.&lt;/th&gt;&lt;th&gt;Wiatr&lt;/th&gt;&lt;th&gt;Wilg.&lt;/th&gt;&lt;th&gt;Opad&lt;/th&gt;&lt;th&gt;Ciśn.&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;03:00&lt;/td&gt;&lt;td&gt;11.5°C&lt;/td&gt;&lt;td&gt;4 m/s / 250°&lt;/td&gt;&lt;td&gt;96.7%&lt;/td&gt;&lt;td&gt;15.2 mm&lt;/td&gt;&lt;td&gt;1012.1 hPa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/synop/id/12566"/>
+    <category term="synop"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:d9fa7abb4587717e9a5e83b7108beeb2c96a4077</id>
+    <title>💧 Ostrzeżenie hydro: Wezbranie z przekroczeniem stanów ostrzegawczych (małopolskie)</title>
+    <updated>2026-06-11T04:08:30.629808+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Wezbranie z przekroczeniem stanów ostrzegawczych&lt;/strong&gt; — nr 105, prawdopodobieństwo 90%&lt;/p&gt;&lt;p&gt;Od 2026-06-10 23:57:00 do 2026-06-11 09:00:00&lt;/p&gt;&lt;p&gt;Obserwuje się tendencję wzrostową przy przekroczonym stanie ostrzegawczym na stacji Uście Gorlickie na rzece Ropa. Punktowo i krótkotrwale nie wyklucza się osiągnięcia stanu alarmowego.&lt;/p&gt;&lt;p&gt;Obszar: małopolskie, Ropa, wezbranie z przekroczeniem stanów ostrzegawczych&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-10T23:56:03+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:dd5a19a1d9c399b122abb5c825abe73a4ee3a07c</id>
+    <title>💧 Ostrzeżenie hydro: Gwałtowne wzrosty stanów wody (opolskie, śląskie)</title>
+    <updated>2026-06-11T04:08:30.629704+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Gwałtowne wzrosty stanów wody&lt;/strong&gt; — nr 38, prawdopodobieństwo 75%&lt;/p&gt;&lt;p&gt;Od 2026-06-10 22:18:34 do 2026-06-11 10:00:00&lt;/p&gt;&lt;p&gt;Prognozowane na noc opady deszczu mogą spowodować ponowny wzrost stanów wody, przejściowo gwałtowny z osiągnięciem stanu wody wysokiej, zwłaszcza w zlewni rzeki Olzy i lokalnie w zlewniach Wyżyny Śląskiej.&lt;/p&gt;&lt;p&gt;Obszar: opolskie, Olza, Kłodnica, Odra od Chałupek do Koźla, Bierawka, Czadeczka, Ruda, Olza, gwałtowne wzrosty stanów wody; śląskie, Olza, Kłodnica, Odra od Chałupek do Koźla, Bierawka, Czadeczka, Ruda, Olza, gwałtowne wzrosty stanów wody&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych we Wrocławiu, Wydział Prognoz i Opracowań Hydrologicznych we Wrocławiu&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-10T22:17:35+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:ba76a79dbedc1745df90b73eda172b1351885101</id>
+    <title>💧 Ostrzeżenie hydro: Gwałtowne wzrosty stanów wody (śląskie)</title>
+    <updated>2026-06-11T04:08:30.629668+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Gwałtowne wzrosty stanów wody&lt;/strong&gt; — nr 100, prawdopodobieństwo 75%&lt;/p&gt;&lt;p&gt;Od 2026-06-10 15:19:27 do 2026-06-11 10:00:00&lt;/p&gt;&lt;p&gt;W związku z występującymi intensywnymi opadami deszczu oraz spływem wód opadowych spodziewane są wzrosty poziomu wody, lokalnie gwałtowne. Punktowo istnieje możliwość przekroczenia stanu ostrzegawczego.&lt;/p&gt;&lt;p&gt;Obszar: śląskie, zlewnie Małej Wisły oraz Soły, gwałtowne wzrosty stanów wody&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-10T15:18:35+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:93df11c89475e763fa99c2ebd916aca91a5ab0f5</id>
+    <title>💧 Ostrzeżenie hydro: Gwałtowne wzrosty stanów wody (małopolskie)</title>
+    <updated>2026-06-11T04:08:30.629777+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Gwałtowne wzrosty stanów wody&lt;/strong&gt; — nr 101, prawdopodobieństwo 70%&lt;/p&gt;&lt;p&gt;Od 2026-06-10 14:05:00 do 2026-06-11 10:00:00&lt;/p&gt;&lt;p&gt;W związku z prognozowanymi silnymi opadami deszczu, którym towarzyszyć będą burze, na rzekach spodziewane są wzrosty poziomu wody. Lokalnie w miejscu wystąpienia szczególnie intensywnego opadu wzrosty mogą mieć charakter gwałtowny do strefy stanów wysokich. Punktowo istnieje możliwość przekroczenia stanów ostrzegawczych.&lt;/p&gt;&lt;p&gt;Obszar: małopolskie, zlewnie dopływów Wisły oraz Czarnej Orawy, gwałtowne wzrosty stanów wody&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-10T14:04:08+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnmeteo:Sk20260610103550753</id>
+    <title>⚠️ Ostrzeżenie meteo 1. stopnia: Silny deszcz z burzami</title>
+    <updated>2026-06-11T04:08:29.695840+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Silny deszcz z burzami&lt;/strong&gt; — ostrzeżenie 1. stopnia, prawdopodobieństwo 80%&lt;/p&gt;&lt;p&gt;Obowiązuje od 2026-06-10 14:00:00 do 2026-06-11 08:00:00&lt;/p&gt;&lt;p&gt;Prognozowane są opady deszczu o natężeniu umiarkowanym, okresami silnym. Wysokość opadu miejscami od 20 mm do 35 mm. Opadom towarzyszyć będą burze z porywami wiatru do 70 km/h. Możliwy grad.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Brak.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Centralne Biuro Prognoz Meteorologicznych w Warszawie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningsmeteo"/>
+    <category term="warning"/>
+    <published>2026-06-10T12:35:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:f0517065528fa236ce0d480edbe5bf9568879400</id>
+    <title>💧 Ostrzeżenie hydro: Susza hydrologiczna (opolskie, śląskie)</title>
+    <updated>2026-06-11T04:08:30.629741+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Susza hydrologiczna&lt;/strong&gt; — nr 28, prawdopodobieństwo 90%&lt;/p&gt;&lt;p&gt;Od 2026-06-03 14:20:52 do 9999-12-31 23:59:59&lt;/p&gt;&lt;p&gt;Na obszarze objętym ostrzeżeniem hydrologicznym przepływy układają się poniżej wartości granicznej SNQ. W okresie ważności ostrzeżenia przewiduje się dalszy rozwój niżówki hydrologicznej z okresowymi wahaniami przepływu (przejściowo powyżej SNQ), związanymi z działaniem urządzeń hydrotechnicznych lub z możliwymi opadami deszczu.&lt;/p&gt;&lt;p&gt;Obszar: opolskie, Mała Panew od Krupskiego Młyna do Zb. Turawa, Mała Panew, susza hydrologiczna; śląskie, Mała Panew od Krupskiego Młyna do Zb. Turawa, Mała Panew, susza hydrologiczna&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych we Wrocławiu, Wydział Prognoz i Opracowań Hydrologicznych we Wrocławiu&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-03T14:19:54+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:d82d3860944f619d5954fe2b4d1a4c4d06eabc5d</id>
+    <title>💧 Ostrzeżenie hydro: Susza hydrologiczna (małopolskie)</title>
+    <updated>2026-06-11T04:08:30.629603+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Susza hydrologiczna&lt;/strong&gt; — nr 80, prawdopodobieństwo 100%&lt;/p&gt;&lt;p&gt;Od 2026-06-01 09:35:14 do 9999-12-31 23:59:59&lt;/p&gt;&lt;p&gt;W związku z występującymi niskimi przepływami wody na obszarze zlewni Rudawy, Prądnika i przyrzecza Wisły spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.&lt;/p&gt;&lt;p&gt;Obszar: małopolskie, zlewnie Rudawy, Prądnika i przyrzecze Wisły, susza hydrologiczna&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-01T09:34:28+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:804b03d200b6ab34caf994596529f8a45148af04</id>
+    <title>💧 Ostrzeżenie hydro: Susza hydrologiczna (małopolskie, śląskie)</title>
+    <updated>2026-06-11T04:08:30.629569+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Susza hydrologiczna&lt;/strong&gt; — nr 79, prawdopodobieństwo 100%&lt;/p&gt;&lt;p&gt;Od 2026-06-01 09:31:56 do 9999-12-31 23:59:59&lt;/p&gt;&lt;p&gt;W związku z występującymi niskimi przepływami wody na obszarze zlewni Przemszy i przyrzecza Wisły spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.&lt;/p&gt;&lt;p&gt;Obszar: małopolskie, zlewnia Przemszy i przyrzecze Wisły, susza hydrologiczna; śląskie, zlewnia Przemszy i przyrzecze Wisły, susza hydrologiczna&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-06-01T09:31:05+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:d52b19f90b27aebfa05880c7caa7f1feebd36c47</id>
+    <title>💧 Ostrzeżenie hydro: Susza hydrologiczna (łódzkie, śląskie, świętokrzyskie)</title>
+    <updated>2026-06-11T04:08:30.629506+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Susza hydrologiczna&lt;/strong&gt; — nr 83, prawdopodobieństwo 100%&lt;/p&gt;&lt;p&gt;Od 2026-05-26 09:30:50 do 9999-12-31 23:59:59&lt;/p&gt;&lt;p&gt;W związku z występującymi niskimi przepływami wody, w kolejnych dniach w zlewni górnej Pilicy spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.&lt;/p&gt;&lt;p&gt;Obszar: łódzkie, Pilica do Zb. Sulejów, susza hydrologiczna; śląskie, Pilica do Zb. Sulejów, susza hydrologiczna; świętokrzyskie, Pilica do Zb. Sulejów, susza hydrologiczna&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Warszawie&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-05-26T09:23:49+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:c7b0e5a3e8300e96320592e8b586ade506723f26</id>
+    <title>💧 Ostrzeżenie hydro: Susza hydrologiczna (opolskie, wielkopolskie, łódzkie, śląskie)</title>
+    <updated>2026-06-11T04:08:30.629463+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Susza hydrologiczna&lt;/strong&gt; — nr 28, prawdopodobieństwo 90%&lt;/p&gt;&lt;p&gt;Od 2026-05-08 08:47:41 do 9999-12-31 23:59:59&lt;/p&gt;&lt;p&gt;W związku z występującymi niskimi przepływami wody, w kolejnych dniach w zlewni górnej Warty od Liswarty do Zbiornika Jeziorsko, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.&lt;/p&gt;&lt;p&gt;Obszar: łódzkie, Warta górna od Liswarty do Zb. Jeziorsko, susza hydrologiczna; opolskie, Warta górna od Liswarty do Zb. Jeziorsko, susza hydrologiczna; śląskie, Warta górna od Liswarty do Zb. Jeziorsko, susza hydrologiczna; wielkopolskie, Warta górna od Liswarty do Zb. Jeziorsko, susza hydrologiczna&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych we Wrocławiu, Wydział Prognoz i Opracowań Hydrologicznych w Poznaniu&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-05-08T08:46:51+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:imgw:warnhydro:4f4a8c7066cfc8f8799b34924c9d079c227100d2</id>
+    <title>💧 Ostrzeżenie hydro: Susza hydrologiczna (opolskie, łódzkie, śląskie)</title>
+    <updated>2026-06-11T04:08:30.629392+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Susza hydrologiczna&lt;/strong&gt; — nr 21, prawdopodobieństwo 90%&lt;/p&gt;&lt;p&gt;Od 2026-04-17 08:46:51 do 9999-12-31 23:59:59&lt;/p&gt;&lt;p&gt;W związku z występującymi niskimi przepływami wody, w kolejnych dniach w zlewni górnej Warty z Liswartą, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.&lt;/p&gt;&lt;p&gt;Obszar: łódzkie, Warta górna z Liswartą, susza hydrologiczna; opolskie, Warta górna z Liswartą, susza hydrologiczna; śląskie, Warta górna z Liswartą, susza hydrologiczna&lt;/p&gt;&lt;p&gt;Biuro Prognoz Hydrologicznych we Wrocławiu, Wydział Prognoz i Opracowań Hydrologicznych w Poznaniu&lt;/p&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/warningshydro"/>
+    <category term="warning"/>
+    <published>2026-04-17T08:45:56+02:00</published>
+  </entry>
+</feed>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
+  <id>urn:open-meteo:50.1298,19.4243</id>
+  <title>Open-Meteo — prognoza i warunki (Trzebinia)</title>
+  <updated>2026-06-11T04:08:54.659654+00:00</updated>
+  <author>
+    <name>Open-Meteo</name>
+    <uri>https://open-meteo.com/</uri>
+  </author>
+  <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_open_meteo.xml" rel="self"/>
+  <link href="https://open-meteo.com/" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <subtitle>Prognoza dzienna, bieżące warunki z jakością powietrza oraz satelitarne pomiary nasłonecznienia z open-meteo.com</subtitle>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-17</id>
+    <title>Trzebinia: śr. 17.06 — słaba mżawka, 12°C do 23°C</title>
+    <updated>2026-06-11T04:08:54.250007+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Słaba mżawka&lt;/strong&gt; · maks. 23°C · min. 12°C (odczuwalna 11°C do 21°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 1.2 mm (prawdopodobieństwo 8%, 12.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 17.0 km/h, porywy do 40.7 km/h, kierunek WSW&lt;/li&gt;&lt;li&gt;Indeks UV: 6.45&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 16 h 07 min (dzień trwa 16 h 23 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:54&lt;/li&gt;&lt;li&gt;CAPE (śr.): 59 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-17T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-16</id>
+    <title>Trzebinia: wt. 16.06 — pochmurno, 8°C do 19°C</title>
+    <updated>2026-06-11T04:08:54.249970+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Pochmurno&lt;/strong&gt; · maks. 19°C · min. 8°C (odczuwalna 6°C do 17°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 0.0 mm (prawdopodobieństwo 12%, 0.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 13.9 km/h, porywy do 36.0 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 5.7&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 15 h 13 min (dzień trwa 16 h 22 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:54&lt;/li&gt;&lt;li&gt;CAPE (śr.): 9 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-16T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-15</id>
+    <title>Trzebinia: pon. 15.06 — umiarkowana mżawka, 10°C do 17°C</title>
+    <updated>2026-06-11T04:08:54.249926+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Umiarkowana mżawka&lt;/strong&gt; · maks. 17°C · min. 10°C (odczuwalna 8°C do 14°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 4.5 mm (prawdopodobieństwo 37%, 9.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 19.1 km/h, porywy do 42.1 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 3.65&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 15 h 59 min (dzień trwa 16 h 22 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:53&lt;/li&gt;&lt;li&gt;CAPE (śr.): 93 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-15T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-14</id>
+    <title>Trzebinia: niedz. 14.06 — umiarkowana mżawka, 11°C do 17°C</title>
+    <updated>2026-06-11T04:08:54.249883+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Umiarkowana mżawka&lt;/strong&gt; · maks. 17°C · min. 11°C (odczuwalna 9°C do 13°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 5.1 mm (prawdopodobieństwo 64%, 15.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 21.3 km/h, porywy do 49.0 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 5.7&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 15 h 51 min (dzień trwa 16 h 21 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:53&lt;/li&gt;&lt;li&gt;CAPE (śr.): 80 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-14T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-13</id>
+    <title>Trzebinia: sob. 13.06 — słaby deszcz, 13°C do 21°C</title>
+    <updated>2026-06-11T04:08:54.249829+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Słaby deszcz&lt;/strong&gt; · maks. 21°C · min. 13°C (odczuwalna 12°C do 20°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 6.1 mm (prawdopodobieństwo 85%, 13.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 21.1 km/h, porywy do 51.5 km/h, kierunek WSW&lt;/li&gt;&lt;li&gt;Indeks UV: 6.65&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 13 h 48 min (dzień trwa 16 h 20 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:52&lt;/li&gt;&lt;li&gt;CAPE (śr.): 126 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-13T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-12</id>
+    <title>Trzebinia: pt. 12.06 — słaba mżawka, 8°C do 20°C</title>
+    <updated>2026-06-11T04:08:54.249777+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Słaba mżawka&lt;/strong&gt; · maks. 20°C · min. 8°C (odczuwalna 7°C do 19°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 0.2 mm (prawdopodobieństwo 34%, 1.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 6.1 km/h, porywy do 18.7 km/h, kierunek WSW&lt;/li&gt;&lt;li&gt;Indeks UV: 6.8&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 6 h 15 min (dzień trwa 16 h 20 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:52&lt;/li&gt;&lt;li&gt;CAPE (śr.): 15 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-12T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:current:2026-06-11</id>
+    <title>Trzebinia teraz (06:00): pochmurno, 12°C · AQI 22 (dobra)</title>
+    <updated>2026-06-11T04:08:54.250064+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Pochmurno&lt;/strong&gt; · 12°C (odczuwalna 10°C) · stan z 06:00&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wiatr: 14.8 km/h (W), porywy 31.3 km/h&lt;/li&gt;&lt;li&gt;Wilgotność: 94% · zachmurzenie 100%&lt;/li&gt;&lt;li&gt;Ciśnienie: 1011.9 hPa (na poziomie morza)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Jakość powietrza:&lt;/strong&gt; europejski AQI 22 — dobra&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PM2.5: 3.9 µg/m³ · PM10: 5.4 µg/m³&lt;/li&gt;&lt;li&gt;NO₂: 7.8 · O₃: 56.0 · SO₂: 2.5 · CO: 141.0 µg/m³&lt;/li&gt;&lt;li&gt;Pyłki (ziarna/m³): trawy 4.6&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="current"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:day:2026-06-11</id>
+    <title>Trzebinia: czw. 11.06 — umiarkowany deszcz, 11°C do 15°C</title>
+    <updated>2026-06-11T04:08:54.249691+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Umiarkowany deszcz&lt;/strong&gt; · maks. 15°C · min. 11°C (odczuwalna 9°C do 14°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 14.7 mm (prawdopodobieństwo 100%, 10.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 16.6 km/h, porywy do 37.1 km/h, kierunek WNW&lt;/li&gt;&lt;li&gt;Indeks UV: 4.75&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 1 h 18 min (dzień trwa 16 h 19 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:51&lt;/li&gt;&lt;li&gt;CAPE (śr.): 38 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-10</id>
+    <title>Trzebinia — nasłonecznienie 10.06: 8.25 MJ/m², słońce 0 h 00 min</title>
+    <updated>2026-06-11T04:08:54.658891+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 8.25 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 0 h 00 min (dzień trwał 16 h 18 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:50&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-10T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-09</id>
+    <title>Trzebinia — nasłonecznienie 09.06: 21.84 MJ/m², słońce 8 h 25 min</title>
+    <updated>2026-06-11T04:08:54.658859+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 21.84 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 8 h 25 min (dzień trwał 16 h 17 min)&lt;/li&gt;&lt;li&gt;Wschód 04:33 · zachód 20:50&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-09T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-08</id>
+    <title>Trzebinia — nasłonecznienie 08.06: 23.43 MJ/m², słońce 12 h 22 min</title>
+    <updated>2026-06-11T04:08:54.658829+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 23.43 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 12 h 22 min (dzień trwał 16 h 16 min)&lt;/li&gt;&lt;li&gt;Wschód 04:33 · zachód 20:49&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-08T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-07</id>
+    <title>Trzebinia — nasłonecznienie 07.06: 24.00 MJ/m², słońce 13 h 35 min</title>
+    <updated>2026-06-11T04:08:54.658800+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 24.00 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 13 h 35 min (dzień trwał 16 h 14 min)&lt;/li&gt;&lt;li&gt;Wschód 04:33 · zachód 20:48&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-07T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-06</id>
+    <title>Trzebinia — nasłonecznienie 06.06: 29.15 MJ/m², słońce 15 h 07 min</title>
+    <updated>2026-06-11T04:08:54.658767+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 29.15 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 15 h 07 min (dzień trwał 16 h 13 min)&lt;/li&gt;&lt;li&gt;Wschód 04:34 · zachód 20:47&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-06T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-05</id>
+    <title>Trzebinia — nasłonecznienie 05.06: 13.26 MJ/m², słońce 0 h 50 min</title>
+    <updated>2026-06-11T04:08:54.658710+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 13.26 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 0 h 50 min (dzień trwał 16 h 12 min)&lt;/li&gt;&lt;li&gt;Wschód 04:34 · zachód 20:46&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-05T00:00:00+02:00</published>
+  </entry>
+</feed>

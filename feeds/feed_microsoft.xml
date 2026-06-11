@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-10T23:28:00.509173+00:00</updated>
+  <updated>2026-06-11T04:08:39.123057+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -11,6 +11,51 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined Microsoft feed: Official Microsoft Blog, Source, Signal, the Microsoft 365 Blog, and the Tech Community blogs.</subtitle>
   <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832</id>
+    <title>Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot</title>
+    <updated>2026-06-10T23:45:46+00:00</updated>
+    <content>We’re expanding model choice in Microsoft 365 Copilot with Anthropic’s latest model, Claude Fable 5 as a preview model—designed to support longer, multi-step workflows. As organizations move beyond simple prompts to more complex work, Copilot helps users plan, draft, and iterate across tasks with relevant work context from Work IQ. As organizations move beyond simple prompts to more complex work, customers are using Copilot to help plan, draft, and iterate across tasks. With Work IQ, Copilot can</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T23:45:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/sysinternals-blog/process-monitor-v4-03/ba-p/4527319</id>
+    <title>Process Monitor v4.03</title>
+    <updated>2026-06-10T23:16:27+00:00</updated>
+    <content>Process Monitor v4.03 This update to Process Monitor, a utility for observing real-time file system, Registry, and process or thread activity, adds some bug fixes.</content>
+    <link href="https://techcommunity.microsoft.com/t5/sysinternals-blog/process-monitor-v4-03/ba-p/4527319"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T23:16:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-command-a-w4a4-chandra-ocr-2-and-glm-ocr/ba-p/4526875</id>
+    <title>Now in Foundry: Command A+ (W4A4), Chandra OCR 2, and GLM-OCR</title>
+    <updated>2026-06-10T22:59:40+00:00</updated>
+    <content>We are seeing two distinct trends this week. The first is around how low-bit quantization has developed to the point where large reasoning models can fit on a single accelerator with less quality loss. Second, a new wave of OCR-specialized vision-language models are redefining the accuracy-throughput frontier for document understanding. This week we are highlighting three Hugging Face models in Microsoft Foundry: Cohere Labs' Command A+ (W4A4 ), a 218B-parameter Sparse Mixture-of-Experts (MoE) r</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/now-in-foundry-command-a-w4a4-chandra-ocr-2-and-glm-ocr/ba-p/4526875"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T22:59:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/what-we-took-away-from-build-2026-as-microsoft-field-and/ba-p/4527308</id>
+    <title>What We Took Away from Build 2026 as Microsoft Field and Solution Engineers</title>
+    <updated>2026-06-10T22:10:54+00:00</updated>
+    <content>I pulled together four Microsoft Solution Engineers for a candid conversation about Build 2026, and I want to be upfront about what this is. No keynote recap, no announcement list. Four people who work with healthcare and enterprise customers every day, talking about what caught our attention and why. I was joined by Arlie Hartman , a former CISO and now Principal SE with deep expertise in Purview and security; Thor Draper Jr. , Senior Security SE covering security and identity; and Adam Hallbec</content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/what-we-took-away-from-build-2026-as-microsoft-field-and/ba-p/4527308"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T22:10:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/windows-admin-center-blog/the-windows-admin-center-virtualization-mode-public-preview/ba-p/4527304</id>
+    <title>The Windows Admin Center: Virtualization Mode public preview build has been updated!</title>
+    <updated>2026-06-10T21:47:03+00:00</updated>
+    <content>Thank you for your continued support and engagement with the Virtualization Mode (vMode) public preview! Your testing and feedback are integral to making a better product. Missed our recent public preview 2 announcement? Check it out here. The public preview build has been updated to build number 2.7.1.8 . The following issues have been addressed in this build: Fixed an issue where users trying to install vMode on non-English systems with a compatible OS were receiving an error message about not</content>
+    <link href="https://techcommunity.microsoft.com/t5/windows-admin-center-blog/the-windows-admin-center-virtualization-mode-public-preview/ba-p/4527304"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T21:47:03+00:00</published>
+  </entry>
+  <entry>
     <id>https://news.microsoft.com/signal/articles/a-new-playbook-for-investigating-ai-incidents/</id>
     <title>A new playbook for investigating AI incidents</title>
     <updated>2026-06-10T21:35:21+00:00</updated>
@@ -18,6 +63,15 @@
     <link href="https://news.microsoft.com/signal/articles/a-new-playbook-for-investigating-ai-incidents/"/>
     <category term="Microsoft Signal" label="Microsoft Signal"/>
     <published>2026-06-10T21:35:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/nonprofit-techies/building-nonprofit-culture-with-microsoft-viva-engage/ba-p/4527261</id>
+    <title>Building Nonprofit Culture with Microsoft Viva Engage: Architecture and Step‑by‑Step Setup</title>
+    <updated>2026-06-10T21:31:46+00:00</updated>
+    <content>Nonprofits often operate with hybrid teams, part‑time staff, and volunteers spread across multiple locations. Creating a unified culture in this environment is challenging — but Microsoft Viva Engage , part of the Microsoft Viva suite and built on Microsoft 365, provides a secure, social, and integrated platform for connection and knowledge sharing. This guide explains how nonprofits can use Viva Engage to strengthen culture, improve communication, and drive engagement across distributed teams. </content>
+    <link href="https://techcommunity.microsoft.com/t5/nonprofit-techies/building-nonprofit-culture-with-microsoft-viva-engage/ba-p/4527261"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-10T21:31:46+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285</id>
