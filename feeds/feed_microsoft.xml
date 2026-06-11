@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-11T15:17:50.284425+00:00</updated>
+  <updated>2026-06-11T16:07:21.203605+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -18,6 +18,87 @@
     <link href="https://code.visualstudio.com/updates/v1_125"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-06-17T17:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/education-blog/copilot-notebooks-and-study-guide-now-available-to-copilot-chat/ba-p/4527320</id>
+    <title>Copilot Notebooks and Study guide now available to Copilot Chat users</title>
+    <updated>2026-06-11T16:05:12+00:00</updated>
+    <content>Every student knows the feeling: the test is coming, the materials are everywhere— and the hardest part is not finding information, it is knowing where to start. There is a PDF from the teacher. Slides from last week. A Word document with notes. Each piece has value. But studying means turning all of it into something usable: what to review first, what connects together, what still feels fuzzy, and what to practice learning. That is why we are excited to share two updates for education. First, C</content>
+    <link href="https://techcommunity.microsoft.com/t5/education-blog/copilot-notebooks-and-study-guide-now-available-to-copilot-chat/ba-p/4527320"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T16:05:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/reduce-unnecessary-internet-exposure-with-microsoft-defender/ba-p/4525654</id>
+    <title>Reduce unnecessary internet exposure with Microsoft Defender</title>
+    <updated>2026-06-11T16:00:00+00:00</updated>
+    <content>In today’s threat landscape, internet exposure , i.e. devices that allow inbound connectivity from the public internet, continues to be a major vector for initial access and compromise. Devices that are exposed to the public internet can significantly increase an organization’s attack surface, making them prime targets for initial access, exploitation, and lateral movement. However, not all internet-facing devices represent a security issue. Many are intentionally exposed to support business-cri</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/reduce-unnecessary-internet-exposure-with-microsoft-defender/ba-p/4525654"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625</id>
+    <title>What’s New in Notebooks | June 2026</title>
+    <updated>2026-06-11T15:03:45+00:00</updated>
+    <content>Today, Copilot Notebooks is rolling out to more people across your team, making shared notebook collaboration broadly accessible in the Microsoft 365 Copilot app and OneNote . Copilot Notebooks are available to Copilot Chat users Previously only available to Microsoft 365 Copilot users, Copilot Notebooks is now rolling out to Copilot Chat users , giving more people across the team a shared place to gather project context, work from reference sources, and turn that information into helpful mind m</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/what-s-new-in-notebooks-june-2026/ba-p/4525625"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T15:03:45+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/azure-high-performance-computing/real-time-simulation-with-ansys-discovery-on-azure-amd-radeon/ba-p/4527323</id>
+    <title>Real-Time Simulation with Ansys Discovery on Azure AMD Radeon V710 GPUs</title>
+    <updated>2026-06-11T14:09:17+00:00</updated>
+    <content>Overview of Synopsys-Ansys Discovery Ansys Discovery is an interactive engineering application that unifies 3D geometry modeling, real‑time simulation, and visual analysis into a single, immersive workspace. It is purpose‑built to accelerate early‑stage engineering exploration while maintaining continuity into high‑fidelity validation workflows. Discovery enables engineers and designers to create, modify, simulate, and iterate on designs in real time, dramatically reducing the time required to a</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-high-performance-computing/real-time-simulation-with-ansys-discovery-on-azure-amd-radeon/ba-p/4527323"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T14:09:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876</id>
+    <title>What to Do When You Hit Capacity in Azure Databricks: Engage, Mitigate, Plan!</title>
+    <updated>2026-06-11T13:41:20+00:00</updated>
+    <content>Microsoft's Cloud Architects : Paul Singh PaulSingh​ , Eduardo Dos Santos eduardomdossantos​ , Chris Walk cwalk​ , Peter Lo PeterLo​ , Tim Orentlikher, Ajmal Hossain ajmalhossain​ , Chris Haynes Chris_Haynes​ , and Rafia Aqil Rafia_Aqil​ Start Here: Engage Microsoft Capacity constraints in Azure Databricks are not an Azure Databricks product issue. Azure Databricks does not own or reserve compute, it dynamically provisions VMs from Azure when clusters are created or scaled. This means cluster cr</content>
+    <link href="https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/what-to-do-when-you-hit-capacity-in-azure-databricks-engage/ba-p/4526876"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T13:41:20+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525</id>
+    <title>Dynamic Connection Properties in Azure Logic Apps Standard</title>
+    <updated>2026-06-11T13:20:10+00:00</updated>
+    <content>Switching Built-in Connections at Runtime The Problem Imagine your organization has a single Logic App workflow used by multiple teams. Each team has its own SFTP server, database, or service bus namespace. Traditionally, you'd need separate workflows or hardcode a single connection — neither scales well. The Solution Logic Apps Standard supports dynamic connection names for built-in (service provider) connectors. Instead of hardcoding a connection name, you can use any workflow expression — tri</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-integration-services-blog/dynamic-connection-properties-in-azure-logic-apps-standard/ba-p/4527525"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T13:20:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-11-2026/ba-p/4522357</id>
+    <title>New in Microsoft Marketplace: June 11, 2026</title>
+    <updated>2026-06-11T13:00:00+00:00</updated>
+    <content>Learn about 367 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Acumens Deductions, Disputes &amp; Billbacks : Acumens Deductions, Disputes &amp; Billbacks for Microsoft Dynamics 365 Business Central automates deduction, dispute, and billback invoice management. It offers rule-based rate setup, accurate charge application, and full traceability, enhancing cost re</content>
+    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-11-2026/ba-p/4522357"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debug-app-startup-faster-on-azure-app-service-for-linux-with/ba-p/4527521</id>
+    <title>Debug App Startup Faster on Azure App Service for Linux with Startup Logs</title>
+    <updated>2026-06-11T12:34:17+00:00</updated>
+    <content>When an app fails to start on Azure App Service for Linux, one of the first things you need is visibility into what happened during startup. This can include container initialization, runtime setup, startup command execution, application output, and warmup probe results. To make this easier, we have added new Azure CLI commands that let you list and view App Service startup logs directly from the command line. List available startup logs You can list startup logs for an app using: az webapp log </content>
+    <link href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/debug-app-startup-faster-on-azure-app-service-for-linux-with/ba-p/4527521"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T12:34:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/analyse-intune-diagnostics-logs-with-github-copilot/ba-p/4527500</id>
+    <title>Analyse Intune Diagnostics Logs with GitHub Copilot</title>
+    <updated>2026-06-11T12:15:59+00:00</updated>
+    <content>Hello everyone! I’m Stefan Röll, Cloud Solution Architect at Microsoft Germany for Cloud Endpoints. I work closely with IT Admins to improve their experience with everything around Intune, W365 and Windows. I know that troubleshooting an issue can be time consuming and challenging. In this blog I would like to show you how your troubleshooting skills can be supercharged with AI. TL;DR The way I troubleshoot issues has completely changed with GitHub Copilot. I just provide it with Intune Diagnost</content>
+    <link href="https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/analyse-intune-diagnostics-logs-with-github-copilot/ba-p/4527500"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T12:15:59+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/last-call-join-live-the-postgresql-community-at-posette-an-event/ba-p/4527424</id>
@@ -1739,23 +1820,5 @@ declaratively in SQL, and run it as a fault-tolerant pipeline insid...</content>
     <link href="https://news.microsoft.com/source/emea/2026/04/agenty-ai-pod-lupa-innowacja-wyprzedza-ochrone/?lang=pl"/>
     <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
     <published>2026-04-09T08:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/</id>
-    <title>Open to Work: How to Get Ahead in the Age of AI</title>
-    <updated>2026-03-31T15:08:49+00:00</updated>
-    <content>Today is the day. Open to Work: How to Get Ahead in the Age of AI is officially available! At a time when technology dominates the headlines, the conversation I see most often on LinkedIn is deeply human: what does AI mean for my job and my career? And that makes sense. Careers once felt... The post Open to Work: How to Get Ahead in the Age of AI appeared first on The Official Microsoft Blog .</content>
-    <link href="https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/"/>
-    <category term="Official Microsoft Blog" label="Official Microsoft Blog"/>
-    <published>2026-03-31T15:08:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/</id>
-    <title>Announcing Copilot leadership update</title>
-    <updated>2026-03-17T15:04:10+00:00</updated>
-    <content>Satya Nadella, Chairman and CEO, and Mustafa Suleyman, Executive Vice President and CEO of Microsoft AI, shared the below communications with Microsoft employees this morning. SATYA NADELLA MESSAGE I want to share two org changes we’re making to our Copilot org and superintelligence effort. It’s clear a new era of productivity is emerging as AI experiences... The post Announcing Copilot leadership update appeared first on The Official Microsoft Blog .</content>
-    <link href="https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/"/>
-    <category term="Official Microsoft Blog" label="Official Microsoft Blog"/>
-    <published>2026-03-17T15:04:10+00:00</published>
   </entry>
 </feed>

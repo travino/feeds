@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-06-11T15:18:09.321014+00:00</updated>
+  <updated>2026-06-11T16:07:42.611170+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -10,6 +10,24 @@
   <link href="https://ra.co/magazine" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85400</id>
+    <title>New course teaches production concepts with cat illustrations</title>
+    <updated>2026-06-11T16:00:58+00:00</updated>
+    <content>The course targets producers who may struggle with foundational concepts.</content>
+    <link href="https://ra.co/news/85400"/>
+    <category term="News"/>
+    <published>2026-06-11T16:00:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ra.co/news/85401</id>
+    <title>L'Rain announces new album fata morgana</title>
+    <updated>2026-06-11T15:45:03+00:00</updated>
+    <content>The Brooklyn artist's fourth LP arrives via Mexican Summer on August 14th.</content>
+    <link href="https://ra.co/news/85401"/>
+    <category term="News"/>
+    <published>2026-06-11T15:45:03+00:00</published>
+  </entry>
   <entry>
     <id>https://ra.co/news/85397</id>
     <title>DJ Steven, cofounder of Metropolis Music and Bulgarian scene architect, dies aged 64</title>
@@ -1791,23 +1809,5 @@
     <link href="https://ra.co/features/4485"/>
     <category term="Feature"/>
     <published>2026-01-22T10:00:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ra.co/features/4483</id>
-    <title>The Best Electronic Mixes of 2000-25</title>
-    <updated>2025-12-12T13:15:05+00:00</updated>
-    <content>Alongside Records and Tracks, here are RA's favourite DJ Mixes, Radio Shows and Live Sets of the 21st century so far.</content>
-    <link href="https://ra.co/features/4483"/>
-    <category term="Feature"/>
-    <published>2025-12-12T13:15:05+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ra.co/features/4482</id>
-    <title>The Best Electronic Records of 2000-25</title>
-    <updated>2025-12-11T16:20:49+00:00</updated>
-    <content>Alongside Tracks and Mixes, here are RA's favourite Albums, EPs, Compilations and Club Releases of the 21st century so far.</content>
-    <link href="https://ra.co/features/4482"/>
-    <category term="Feature"/>
-    <published>2025-12-11T16:20:49+00:00</published>
   </entry>
 </feed>
