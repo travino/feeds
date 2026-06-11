@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-06-11T10:35:33.060821+00:00</updated>
+  <updated>2026-06-11T15:17:47.923274+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://about.fb.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Meta news, engineering, and AI blogs -- Meta.com, About Meta, Engineering at Meta, and AI at Meta -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/06/going-all-in-for-global-football-fans-across-meta-apps/</id>
+    <title>Going All in for Global Football Fans Across Meta Apps</title>
+    <updated>2026-06-11T12:00:40+00:00</updated>
+    <content>We’re bringing new football features and experiences to Threads, Instagram, Facebook, and WhatsApp, including athlete content, match content, and in-product activations. The post Going All in for Global Football Fans Across Meta Apps appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/06/going-all-in-for-global-football-fans-across-meta-apps/"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-06-11T12:00:40+00:00</published>
+  </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/how-to-verify-age-online/</id>
     <title>Why Social Media Bans Alone Can’t Solve the Age Verification Dilemma</title>
@@ -900,14 +909,5 @@
     <link href="https://ai.meta.com/blog/brightheart-transforms-fetal-heart-screenings-dinov2/"/>
     <category term="AI at Meta" label="AI at Meta"/>
     <published>2025-01-23T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/</id>
-    <title>Scaling an AI coding assistant built with Llama to hundreds of thousands of users</title>
-    <updated>2025-01-22T00:00:00+00:00</updated>
-    <content>Codeium’s AI-enabled coding assistant leverages Llama for its free and premiere offerings.</content>
-    <link href="https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2025-01-22T00:00:00+00:00</published>
   </entry>
 </feed>

@@ -1,515 +1,759 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
-  <channel>
-    <title>Nexus Mods News</title>
-    <link>https://www.nexusmods.com/news</link>
-    <description>Site news, competitions, and interviews from Nexus Mods</description>
-    <atom:link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_nexusmods_news.xml" rel="self"/>
-    <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>python-feedgen</generator>
-    <image>
-      <url>https://www.nexusmods.com/assets/images/default/avatar.png</url>
-      <title>Nexus Mods News</title>
-      <link>https://www.nexusmods.com/news</link>
-    </image>
-    <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 10:35:44 +0000</lastBuildDate>
-    <item>
-      <title>Stardew Valley Modfest - Winners</title>
-      <link>https://www.nexusmods.com/news/15512</link>
-      <description>Celebrating Stardew Valley’s 10th anniversary with the Modfest has been an absolute highlight for me. This was our first event specifically for the Stardew Valley community, and you all completely blew it out of the water. I spent every day scrolling through submissions, just floored by the creativity, the art, and the heart put into every single project. It’s a massive reminder of why this community is so special. Now, before we get into it, we owe a massive thank you to our ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15512</guid>
-      <category>Competition</category>
-      <pubDate>Thu, 04 Jun 2026 10:19:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - May 2026</title>
-      <link>https://www.nexusmods.com/news/15509</link>
-      <description>I can't believe we're already halfway through the year. The months seem to be flying by, and we’ve finally had some nice weather here in the UK. Although, looking out the window right now, there's some grey clouds and it's threatening to rain again, which reminds me of a poem someone told me when I moved to Devon to work at Nexus Mods: Devon, Devon, Devon. Where it rains six days out of seven. Anyway, let’s crack on, shall we? Creator Friction
-...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15509</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 02 Jun 2026 13:24:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fallout Collectionathon - Winners</title>
-      <link>https://www.nexusmods.com/news/15506</link>
-      <description>The Fallout Collectionathon has officially come to a close! I know you’ve all been eagerly waiting to see who took the top spots across our different categories, and it was certainly a close competition. Before we dive into the results, I want to take a moment to say a massive thank you to everyone who fired up Vortex and got involved. We've never run a Collection curation competition before and seeing the incredible ways you have reimagined the Wasteland, whether you were doing s...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15506</guid>
-      <category>Competition</category>
-      <pubDate>Thu, 21 May 2026 12:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - April 2026</title>
-      <link>https://www.nexusmods.com/news/15494</link>
-      <description>Another roundup, the months just continue to fly by. It’s a little late, I know, but we had a bank holiday here in the UK, and surprisingly, some nice weather for once too, so a bonus. We’ve got some big updates this month, so have a look at what we’ve been up to in April. Creator Friction The New Mod Upload Form: Now Out Of Open Beta We took a big step towards making modding easier this month, and we’re really excited to share t...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15494</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 06 May 2026 12:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The New Upload Form is Here</title>
-      <link>https://www.nexusmods.com/news/15491</link>
-      <description>From day one, the upload form has been the bridge between your hard work and the players who love it. It’s one of the most important tools on the site, so we knew when we began this project, it needed to be great. Back in March, we launched the Open Beta for a totally redesigned upload flow - rebuilt from scratch to be faster, more reliable, and way less of a headache. Today, after loads of successful uploads and a ton of great feedback from all of you, we’re excite...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15491</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 23 Apr 2026 09:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Mods to Vegas: Celebrating Our Modathon Winners</title>
-      <link>https://www.nexusmods.com/news/15488</link>
-      <description>As I’m sure a lot of you will remember, at the end of last year, we ran the Fallout Modathon. The idea was to bring Fallout Mod Authors together to create and have some fun, sharing their incredible work. The response we had was, honestly, unbelievable. There were hundreds of submissions, which led to millions of downloads, and we’re still touched by it all. It went as well as we could’ve hoped for, better in fact, and whilst there’s a lot we can do to continue to improve on...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15488</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 16 Apr 2026 13:33:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - March 2026</title>
-      <link>https://www.nexusmods.com/news/15476</link>
-      <description>I’m back again. How are we all? We’re not slowing down on the work here, I’ll tell you that. Last month was a big Roundup, and so is this one. So I hope you’re sat, you’re comfy, and let’s get into it! Creator Friction This month, we’ve taken a big step forward with our Creator Friction work, moving some of these projects out of closed testing and into Open Beta. That means more of you can get hands-on with them and help shape how the...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15476</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 01 Apr 2026 14:43:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Skyblivion Needs You!</title>
-      <link>https://www.nexusmods.com/news/15469</link>
-      <description>Calling all experienced modders and developers! Skyblivion is undoubtedly one of the most anticipated community projects in the history of Bethesda modding, and the dream of experiencing Cyrodiil fully remade in the Skyrim engine is getting extremely close to becoming a reality. However, to get this monumental project completely over the finish line, the Skyblivion team needs just a little extra firepower. They are currently on the hunt for the final, vital members of ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15469</guid>
-      <category>Mod News</category>
-      <pubDate>Mon, 30 Mar 2026 11:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SkyUI Update: SkyUI 6</title>
-      <link>https://www.nexusmods.com/news/15472</link>
-      <description>We've got a really cool update to share with you all today; in fact, you may already have seen it or read about it elsewhere! In case you missed it, though, we’ve been working alongside doodlum to bring you all a new SkyUI 6 community update, which combines years of community fixes and improvements while staying faithful to its original design philosophy. The goal was to make SkyUI work seamlessly with newer versions of Skyrim Special Edition and its modding in general, witho...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15472</guid>
-      <category>Game News</category>
-      <pubDate>Thu, 26 Mar 2026 16:24:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The New Upload Form is Now in Open Beta</title>
-      <link>https://www.nexusmods.com/news/15463</link>
-      <description>We’ve got another exciting update to share today as we continue our mission to make life easier for Mod Authors. Following on from our recent API news, we’re delighted to announce that the brand-new Upload Form has officially entered Open Beta! After a successful closed testing phase where we gathered invaluable feedback from our early testers, we’re ready to invite the wider community to try out this full refresh of the mod submission journey. Let’s have a look...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15463</guid>
-      <category>Site News</category>
-      <pubDate>Mon, 23 Mar 2026 12:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Upload API Open Beta Now Live!</title>
-      <link>https://www.nexusmods.com/news/15454</link>
-      <description>We’ve got an exciting update to share today: the next step in how Mod Authors can share content on Nexus Mods is finally here! We’re delighted to announce the Open Beta launch of the Upload API. This first beta is focused on updating your mods, and, after a very successful closed testing phase with Verified Mod Authors, we’re now ready to open it up to the wider community. We’re incredibly excited about all the possibilities it will unlock for you. Now, before we take a clos...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15454</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 17 Mar 2026 11:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Brazil Age Verification</title>
-      <link>https://www.nexusmods.com/news/15451</link>
-      <description>Hi everyone. We wanted to share an important update about how adult content will be handled for our community in Brazil. In September last year, the Brazilian government passed the Digital ECA (Digital Child and Adolescent Statute), a law that requires digital platforms that minors can access to use reliable and auditable age-verification systems for adult content. To make sure Nexus Mods stays available and compliant in Brazil before the law comes into force tomorrow (17th March 20...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15451</guid>
-      <category>Site News</category>
-      <pubDate>Mon, 16 Mar 2026 14:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>C3: Community Creations Con 2026</title>
-      <link>https://www.nexusmods.com/news/15445</link>
-      <description>It’s that time of year again: C3: Community Creations Con returns this March 14th and 15th! This annual, community-driven, virtual convention is a chance to celebrate incredible talent within our modding community and to showcase a diverse range of creations across Fallout, Elder Scrolls, and Starfield. Organised this year by Kate Aces and Elianora, the event has always been something we here at Nexus Mods are incredibly proud to support and help promote. The M...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15445</guid>
-      <category>Mod News</category>
-      <pubDate>Wed, 11 Mar 2026 09:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - February 2026</title>
-      <link>https://www.nexusmods.com/news/15439</link>
-      <description>Helloooo everyone, I’m back, as promised, with another Monthly Roundup. I did say there’d be a wait for this one due to time off over the holiday period in December, catching up on work and setting things up for the year in January. So, thank you for your patience. There’s a LOT to cover in this one! Vortex So, what’s new? Well, we’ve had this one cooking for a while. The team are really excited to bring you speed and reliability improvements across the ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15439</guid>
-      <category>Site News</category>
-      <pubDate>Mon, 02 Mar 2026 12:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Decade in the Valley - Modfest 2026</title>
-      <link>https://www.nexusmods.com/news/15436</link>
-      <description>Next week, we’ll be wishing Stardew Valley a very happy 10th anniversary! We can’t believe it’s been a whole decade already. But it’s true - on the 26th of February 2016, ConcernedApe first blessed us. And wow, we could never have guessed we’d be where we are today. Stardew’s modding scene is something truly special. It’s full of creativity, generosity, and people who genuinely love this game. So this year, to celebrate ten incredible years of Stardew Vall...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15436</guid>
-      <category>Competition</category>
-      <pubDate>Thu, 19 Feb 2026 11:56:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fallout Modathon Winners</title>
-      <link>https://www.nexusmods.com/news/15427</link>
-      <description>I know you've all been waiting to find out, but before I share who the winners are, I want to take a moment to thank every single person who participated in the Fallout Modathon. I’ll be honest, I was nervous before we launched it. What if we’d put all this together and no one entered? I can't tell you how many times I refreshed the page until the first mod was submitted. But all that worry was for nothing, we had so many entries, 610 in fact! It’s been overwhelming, in the ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15427</guid>
-      <category>Competition</category>
-      <pubDate>Mon, 26 Jan 2026 14:12:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Our Focus For 2026</title>
-      <link>https://www.nexusmods.com/news/15433</link>
-      <description>Hi everyone, Iluviel here. I want to give you a heads-up on what we’re going to be working on at Nexus Mods in 2026 and some of the changes we’ve made to make that possible. Organisation Some boring, but important, stuff first. We’ve changed how we work pretty dramatically over the last year. Some things weren’t working for us as well as they could, causing small friction points. Nothing dramatic or groundbreaking, just small problems that added up over t...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15433</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 22 Jan 2026 14:31:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Fallout Collectionathon</title>
-      <link>https://www.nexusmods.com/news/15430</link>
-      <description>Over the past month, Fallout has returned to our screens with Season 2 of the award-winning TV show and to celebrate we held our very own Modathon. You all responded in style with a wave of incredible new mods celebrating the series, from Long 15 to QUIP - Quick Use Inventory Panel. You have made it all! To keep the fun going, we’re excited to announce a brand new event: our very first Collectionathon! You’ll find everything on our dedicated event landing page, including the fu...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15430</guid>
-      <category>Competition</category>
-      <pubDate>Wed, 21 Jan 2026 15:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why We’re Focusing on Vortex Going Forward</title>
-      <link>https://www.nexusmods.com/news/15424</link>
-      <description>Over the last year, we've talked a lot about our mission: making modding easier. Not just for the people who've been doing this for decades, but for everyone. The new modder installing their first texture pack. The collection curator trying to share their vision. The veteran who just wants things to work without fighting through ten different tools. We've spent that time listening. Testing ideas. Watching how people actually use what we build. And one thing became reall...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15424</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 14 Jan 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Las Vegas Modathon Trip</title>
-      <link>https://www.nexusmods.com/news/15421</link>
-      <description>This is not a drill; there are only two weeks left of the Fallout Modathon. But don't panic, there's still time to get your submissions in and put yourself in the running to win our trip of a lifetime to Las Vegas! And on that note, you've probably seen me talk about the trip quite a lot already, but I've been pretty vague beyond saying, “this is roughly what we’re planning”. So, if you've been dying to know what the trip itself will actually look like, or you have been trying...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15421</guid>
-      <category>Competition</category>
-      <pubDate>Wed, 17 Dec 2025 11:29:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We're hiring</title>
-      <link>https://www.nexusmods.com/news/15415</link>
-      <description>Good news, everyone! We have a bunch of new roles open across Product, Design, Engineering, and Business Services, and we’ve also launched a brand new careers page to go with them. It’s now much easier to find our current vacancies and see all the benefits we offer when working here at Nexus Mods. Below is a quick rundown of all the roles we’re hiring for right now, and you can find the full details, requirements, and application links on the new careers page.</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15415</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 03 Dec 2025 12:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - November 2025</title>
-      <link>https://www.nexusmods.com/news/15412</link>
-      <description>Another month, another roundup for you all. This will be our last one for the year, as the team will be taking some well-earned time off over the holiday season later this month. We’ll pick things back up again in February with a double-roundup covering everything from December and January. Collection Improvements We continued polishing collection badges, including expanding the Top Pick badge to more standout collections across popular games. The look and clarity of ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15412</guid>
-      <category>Site News</category>
-      <pubDate>Mon, 01 Dec 2025 12:59:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fallout Modathon - Important Updates</title>
-      <link>https://www.nexusmods.com/news/15409</link>
-      <description>Hey gang! We’ve got some important updates and info we wanted to make sure weren’t missed. Tagging Your Mod Correctly To make sure your mod appears on the Modathon hub and is eligible for prizes, please make sure to add the “Fallout Modathon 2025” tag. You can do this by either: Selecting this option in the classification section when you upload your mod. Manually adding the tag on your mod page after uploading. As long as the t...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15409</guid>
-      <category>Competition</category>
-      <pubDate>Mon, 24 Nov 2025 12:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing: The Fallout 4 Anniversary Collection</title>
-      <link>https://www.nexusmods.com/news/15406</link>
-      <description>Last week Fallout 4 turned ten! A whole decade since we stepped out into the Commonwealth for the first time and while Bethesda marked the occasion with an Anniversary Update, let’s be honest, it didn’t quite land with the impact many hoped for. So we've decided to mark the milestone our own way! Today, we’re excited to reveal the Fallout 4: Anniversary Collection; a fully curated, fully compatible, and completely free celebration of ten years of modding creativi...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15406</guid>
-      <category>Mod News</category>
-      <pubDate>Thu, 20 Nov 2025 14:34:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Donation Points Survey 2025 - Follow Up</title>
-      <link>https://www.nexusmods.com/news/15403</link>
-      <description>At the end of September, we asked you for your thoughts on the Donation Points (DP) store. Hundreds of you shared feedback - what’s working, what’s not, and what you’d like to see in the future. This post sums up what we learned and what we’re doing next. We shared the survey across the site, Discord, and email, and got 802 responses in total - a solid slice of the author community. Huge thanks to everyone who took the time to share their opinions and ideas. I’ve also pull...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15403</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 18 Nov 2025 16:07:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fallout 4 Anniversary Update: What You Need to Know</title>
-      <link>https://www.nexusmods.com/news/15400</link>
-      <description>To celebrate the 10th anniversary of Fallout 4, Bethesda is releasing the Fallout 4 Anniversary Edition on November 10th, bundling together all the game’s DLCs, over 150 pieces of Creation Club content, and some new and exciting features for modders and creators. But before you dust off your Pip-Boy and start a new playthrough, it’s important to remember that, as with any update, this is likely to break a few core mods. What’s more, unfortunately the Fallout 4 Script Extender...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15400</guid>
-      <category>Game News</category>
-      <pubDate>Thu, 06 Nov 2025 12:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We're Hiring</title>
-      <link>https://www.nexusmods.com/news/15397</link>
-      <description>We’ve got two new roles open at Nexus Mods, and we’re looking for people who are passionate about gaming, community, and helping others get the most out of modding. Senior Community Manager Salary: £35,000–£45,000 (depending on experience) Location: Remote (UK only) or at our Exeter office Shift: Sunday to Wednesday We’re on the lookout for a Senior Community Manager to help keep our community safe, welcoming, and creator-friend...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15397</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 04 Nov 2025 09:59:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - October 2025</title>
-      <link>https://www.nexusmods.com/news/15394</link>
-      <description>Here we go, big update for you all this month! We’ve been working hard on a bunch of stuff, and of course, one of our biggest community launches ever. The Fallout Modathon is Live In case you missed it, we’ve kicked off the Fallout Modathon 2025, our biggest community event to date. Running from 23 October to 31 December, anyone can take part by creating Fallout-themed mods. Please note that the Las Vegas travel prize is only open to new mods uploaded f...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15394</guid>
-      <category>Site News</category>
-      <pubDate>Mon, 03 Nov 2025 14:25:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fallout Modathon 2025</title>
-      <link>https://www.nexusmods.com/news/15391</link>
-      <description>So this is a big one, gang. I cannot tell you how excited I am to announce the Fallout Modathon, our biggest community event yet, with a prize that’s Wild Wasteland levels of wild. Badges, Nexus Mods merch, and game keys are all up for grabs, but we’re also giving a few lucky winners the chance to pack their bags and join us on an unforgettable trip of a lifetime to Las Vegas. Yes, really. As I’m sure a lot of you will remember, the Fallout TV show was huge for bo...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15391</guid>
-      <category>Competition</category>
-      <pubDate>Thu, 23 Oct 2025 13:59:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lord of the Land - LordboundTeam</title>
-      <link>https://www.nexusmods.com/news/15388</link>
-      <description>Skyrim has no shortage of tales to tell; from dragon-slaying epics to quiet stories whispered between the peaks of the Throat of the World. But every so often, a mod comes along that feels less like an add-on and more like a true continuation of the Elder Scrolls saga. Enter Lordbound, a colossal story expansion that whisks players away to the valley of Druadach: A land divided by war, bound by history, and teeming with depth and lore. With over 60 hours of original content, three d...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15388</guid>
-      <category>Interviews</category>
-      <pubDate>Tue, 14 Oct 2025 12:17:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - September 2025</title>
-      <link>https://www.nexusmods.com/news/15385</link>
-      <description>Before you say anything, I know we missed a couple of months. There's just been so much we've been working on. Going forward, though, we will be doing monthly roundups again. I know there’s been a few of you who have missed them. So, let’s get into what we’ve been working on in August and September! More Mod Starter Packs Following the positive reception of our first mod starter pack for Stardew Valley, we’ve created three more landing pages. These ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15385</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 01 Oct 2025 12:07:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Free Premium Trial</title>
-      <link>https://www.nexusmods.com/news/15373</link>
-      <description>We’re excited to announce that for the very first time, we’re introducing a 3-day free trial for Premium for new Premium subscribers! You’ll be able to enjoy all the benefits of Premium without paying upfront and see firsthand how it can transform your modding experience. We’ll be the first to admit we’ve not always done the best job of showing everything Premium has to offer. So, what better way to fix that than by letting you try it for yourself? How ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15373</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 24 Sep 2025 12:02:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Calling Mod Authors: DP Store Feedback Wanted</title>
-      <link>https://www.nexusmods.com/news/15382</link>
-      <description>We're looking to improve the Donation Points store, and we'd love to hear your thoughts. Whether you've used the store often or only once, your feedback will help shape future offerings and enable everyone to get more out of their Donation Points. Recently, I've been given the responsibility of managing the Mod Author Rewards program. One area I think has huge potential is the DP Store. Currently, we keep it stocked with game keys and process PayPal payouts twice a month, but I beli...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15382</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 24 Sep 2025 08:21:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Merry Modding Days 2025 - Submissions Now Open</title>
-      <link>https://www.nexusmods.com/news/15379</link>
-      <description>We’re excited to share that Merry Modding Days will be back once again this December! Look, I know it’s September, please don’t come for me on this. We just really wanted to help the MMD team gather submissions for the event. If you want to see the Advent calendar in action, see below for the 2023 calendar. For anyone new to the event, Merry Modding Days is a community-driven advent calendar of mods, with new creations revealed every day from the 1st - 25th of De...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15379</guid>
-      <category>Mod News</category>
-      <pubDate>Tue, 23 Sep 2025 11:09:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Immersive &amp; Adult Is Back</title>
-      <link>https://www.nexusmods.com/news/15376</link>
-      <description>That’s right, you read that correctly. The Immersive &amp; Adult collection by Canliberk for Skyrim Special Edition is back after two years, updated for 1.6.1170, and better than ever! It now includes over 500 mods while still sitting under 25GB. It’s our most endorsed collection on the site for a reason (looking at you, CBBE fans), as it completely overhauls Skyrim into something new without losing the heart of the game. JW8oNFWtw_Q﻿ If you’re new to the collec...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15376</guid>
-      <category>Mod News</category>
-      <pubDate>Mon, 22 Sep 2025 11:52:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We’re Hiring: Senior DevOps Engineer</title>
-      <link>https://www.nexusmods.com/news/15370</link>
-      <description>We’re looking for a Senior DevOps Engineer to join our Platform and Operations team. You’ll help us manage globally distributed infrastructure, build automation and deployment pipelines, and work closely with our developers to deliver secure, high-performance features for millions of Nexus Mods users worldwide. This role offers: A fully remote or Exeter-based position A 4-day working week (32 hours) at full pay High-spec hardware and a monthly gam...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15370</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 10 Sep 2025 14:59:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Creation Mod Con 2025</title>
-      <link>https://www.nexusmods.com/news/15349</link>
-      <description>The Elder Scrolls modding community is gearing up for a major celebration as Creation Mod Con returns for its fifth year. This digital event shines a spotlight on some of the biggest and most ambitious modding projects in the works, giving a behind-the-scenes look at entirely new provinces, quests, and worlds coming to life. The event will be streamed live on Twitch and YouTube over two days, August 30th and 31st, kicking off at 16:00 UTC. Plus as a thank you, viewers who tune into...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15349</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 26 Aug 2025 12:42:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Age Verification for UK Users</title>
-      <link>https://www.nexusmods.com/news/15346</link>
-      <description>Back at the start of July, we let you know we’d be making changes to how adult content works on Nexus Mods to comply with the UK’s Online Safety Act and the EU’s Digital Services Act. The next step is age verification, which will begin rolling out for UK users only from next week. EU users will follow once the law requires it, and users outside the UK and EU are not affected. Why is This Happening? As a UK-based company, we’re legally require...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15346</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 20 Aug 2025 11:54:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Baldur’s Gate 3 July Modathon 2025 Has Officially Closed</title>
-      <link>https://www.nexusmods.com/news/15334</link>
-      <description>July has wrapped up, meaning so has the Baldur’s Gate 3 Modathon that ran throughout the whole of last month. The 2025 Baldur’s Gate 3 July Modathon saw modders from all across the world of Faerûn create new and exciting mods for the community to enjoy. Hosted on both the Nexus Mods Forums and by the wider Baldur’s Gate 3 community, this is the second year that the Baldur’s Gate 3 Modathon has been run and, once again, it saw great success with over 150 mods created here ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15334</guid>
-      <category>Mod News</category>
-      <pubDate>Mon, 11 Aug 2025 08:53:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - July 2025</title>
-      <link>https://www.nexusmods.com/news/15340</link>
-      <description>I’m back with the monthly roundup! I know, I know, I missed it last month, but there’s been a lot happening here, along with some annual leave. So, we thought it’d be better to combine June and July into one big roundup for you all. 24-Hour Stream Recap &amp; Make-A-Wish Donations We wrapped up our 24-hour Twitch stream last weekend, and we’re thrilled to announce that we surpassed our goal, raising a total of $3,296.11 for Make-A-Wish International! Thanks to t...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15340</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 06 Aug 2025 08:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>App Roundup - July 2025</title>
-      <link>https://www.nexusmods.com/news/15337</link>
-      <description>We’re back once again with more updates to the Nexus Mods app. Halgari talked us through even more new features and improvements based on your feedback. So here’s a rundown of it all: aoQjAA1B-ZQ﻿ Key Features Change Mod Storage Location One of the most requested features is now available: the ability to change where your mods are stored. You can now specify your preferred storage location within the settings. However, there is an importa...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15337</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 31 Jul 2025 12:32:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Let’s Celebrate 24 Years of Modding: 24-Hour Charity Stream</title>
-      <link>https://www.nexusmods.com/news/15331</link>
-      <description>This year, Nexus Mods turns 24, and there’s no better way to celebrate than by bringing the community together for a good cause. From 12PM BST on August 1st to 12PM BST on August 2nd, we’re hosting a 24-hour charity live stream in support of Make-A-Wish. Creators from all corners of the modding world will be going live as part of a Twitch raid train. You’ll see your favourite mods in action, pick up new tips and tricks, and get a behind-the-scenes look at how mods come togethe...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15331</guid>
-      <category>Site News</category>
-      <pubDate>Wed, 23 Jul 2025 14:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Already Half Xehanort - Aproydtix</title>
-      <link>https://www.nexusmods.com/news/15114</link>
-      <description>As a massive Kingdom Hearts fan myself, I’m as excited to speak with today’s guest as you will be to read about it! Whether you just want to improve Sora’s movement or you’ve been desperately missing Phil and the Olympus Coliseum, Aproydtix has you covered as they’ve been hard at work modding both Kingdom Hearts III and Kingdom Hearts 0.2: Birth by Sleep -A fragmentary passage-. Hey there Aproydtix, thanks for joining me today! Why don’t you introduce yours...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15114</guid>
-      <category>Interviews</category>
-      <pubDate>Mon, 14 Jul 2025 09:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Baldur's Gate 3 Winners' Interview</title>
-      <link>https://www.nexusmods.com/news/15328</link>
-      <description>It’s time to hear from our Baldur’s Gate 3 competition winners! As always, everyone received the same set of questions, giving each winner the opportunity to share their unique perspective. They were free to answer as many or as few as they liked, in whatever way suited them best, and could include any images they felt were relevant to their answers, or simply ones they were proud of and wanted to showcase. So, without further ado, let’s meet the winners! &lt;...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15328</guid>
-      <category>Interviews</category>
-      <pubDate>Wed, 09 Jul 2025 09:46:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Law and Adult Content</title>
-      <link>https://www.nexusmods.com/news/15319</link>
-      <description>We wanted to give you all a heads-up that over the coming weeks and months, we’ll be making some changes to how things work on Nexus Mods in regards to Adult content, child safety online and our ongoing commitment to remove illegal content. These updates are part of our legal obligation to comply with the UK government’s new Online Safety Act and the EU’s Digital Services Act, along with the guidance being issued by Ofcom (the UK’s regulator). While we’re requ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15319</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 01 Jul 2025 10:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Baldur's Gate 3 July Modathon</title>
-      <link>https://www.nexusmods.com/news/15310</link>
-      <description>It’s that time of year again! July 1st marks the beginning of the Baldur’s Gate 3 July Modathon. Returning for its second year in a row, this time it comes with new themes, a larger support staff and brand new achievements to collect! This widely anticipated, cross-community event is sure to bring some incredible talent and ideas to the Baldur’s Gate 3 modding community. The Modathon will run throughout the whole month of July and they’ll be keeping the same open, free-for...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15310</guid>
-      <category>Mod News</category>
-      <pubDate>Sat, 28 Jun 2025 15:21:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>App Roundup - June 2025</title>
-      <link>https://www.nexusmods.com/news/15313</link>
-      <description>We’re back again with this month’s app roundup! This month, Halgari went into more detail on the ins and outs of how our release process works. So, if you’ve ever wondered why it takes a few weeks for features to make it into the app, this one’s for you. ﻿jahXprPx4D8 How We Release New Features Our app team works in three-week development sprints. As Halgari explains, this is a little unusual in software development, where two-week sprints ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15313</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 26 Jun 2025 11:02:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wake Up Samurai - Welcome to Night City</title>
-      <link>https://www.nexusmods.com/news/15282</link>
-      <description>Welcome to Night City is the most popular modlist for Cyberpunk 2077 on our site, and it’s not hard to see why. Behind the scenes, a massive team have been pouring tonnes of heart, soul and serious skill into it. In this interview, I had the chance to spotlight the group keeping the chrome polished and city running: z9r, b and TimTA, the core trio behind this project. And as a bonus, we also heard from a few mod creators about their experiences being part of this incredible Cyberp...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15282</guid>
-      <category>Interviews</category>
-      <pubDate>Mon, 23 Jun 2025 10:42:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tav in Technicolour - astralities</title>
-      <link>https://www.nexusmods.com/news/15215</link>
-      <description>One of the major reasons I adore modding is the endless character customisation possibilities. Sure, I appreciate a good 8K wood texture as much as the next person, but if I can make my character look even slightly funkier? You’ve got me hook, line, and sinker. And who’s out here making my Gok Wan fantasy a reality? None other than astralities, a beloved and incredibly talented modder for Baldur’s Gate 3. Astra first stepped onto the scene as Faerûn’s resident hairdresser, ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15215</guid>
-      <category>Interviews</category>
-      <pubDate>Thu, 19 Jun 2025 08:12:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>An Update From Dark0ne</title>
-      <link>https://www.nexusmods.com/news/15301</link>
-      <description>After almost 24 years of running Nexus Mods, the time has come for me to step back from the day-to-day management of the site. This isn't a decision I've made lightly - far from it - but one I think is in both my and the community's best interests. I started this project back in 2001, in my bedroom, with a 56k modem, an excitement for the upcoming release of Morrowind and with no grand ambitions or intentions. I didn’t set out to build a business, I just wanted to make a place whe...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15301</guid>
-      <category>Site News</category>
-      <pubDate>Mon, 16 Jun 2025 11:26:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hidden Gems - Ramping to Greatness</title>
-      <link>https://www.nexusmods.com/news/15261</link>
-      <description>We’ve all been there. It’s 2am and instead of being asleep you’ve found yourself on page 423 of the All Mods page looking for something, anything that will whet your appetite. That’s when you find it: Tucked away between a mod that increases your weight limit by 5 and another that adds a new companion to Skyrim, it’s the mod of your dreams! Hidden all the way back here on a site of over 600,000 mods with only a handful of downloads to its name. Welcome to Hidden Gems, a s...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15261</guid>
-      <category>Feature</category>
-      <pubDate>Mon, 09 Jun 2025 10:52:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Morrowind May Modathon 2025 Has Officially Closed</title>
-      <link>https://www.nexusmods.com/news/15295</link>
-      <description>Another May has come and gone, and with it, another incredible chapter in the modding legacy of The Elder Scrolls III: Morrowind. The 2025 Morrowind May Modathon brought together modders new and old to honour 23 years of adventures across Vvardenfell with an explosion of creativity, collaboration, and community spirit. Organised by long-time community icons darkelfguy and Danae123, and hosted on both the Nexus Mods Forums and Morrowind Modding Community platforms, this year’s Moda...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15295</guid>
-      <category>Mod News</category>
-      <pubDate>Thu, 05 Jun 2025 09:49:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - May 2025</title>
-      <link>https://www.nexusmods.com/news/15292</link>
-      <description>It’s roundup time! We are almost halfway through the year and things aren’t slowing down here. Today I have more updates on site changes for you. They’ll all be explained below in a lot more detail, so let’s just get cracking with it. Game Artwork You told us that you missed seeing the timeless artwork of Skyrim on the site, a game that’s synonymous with the growth of Nexus Mods. It has returned. We also wanted to celebrate the huge variety...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15292</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 03 Jun 2025 08:46:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>App Roundup - May 2025</title>
-      <link>https://www.nexusmods.com/news/15289</link>
-      <description>We wanted to keep you all in the loop with what’s happening on the new Nexus Mods app and bring you along on the development journey. As part of this, we’ve started a new series on our YouTube channel, where we share development updates from Halgari, our Team Lead of Application Development. Each month, he’ll talk through what the team has been working on behind the scenes and what you can expect in the near future. ﻿GV2ckH9SfC8 I definitely recommend wat...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15289</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 29 May 2025 15:09:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Baldur's Gate 3 Competition - Winners</title>
-      <link>https://www.nexusmods.com/news/15286</link>
-      <description>It’s time for the results of our Baldur’s Gate 3 screen archery competition! A huge thank you to everyone who took part. It’s been another tough competition, with the final results being really close. As always, we know everyone will have their personal favourites, but let’s keep comments positive and light-hearted. This competition was all about having some fun with the new photomode, and we want to make sure our winners feel respected and celebrated. Please ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15286</guid>
-      <category>Competition</category>
-      <pubDate>Tue, 27 May 2025 15:03:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nexus Mods App: Cyberpunk 2077 Preview</title>
-      <link>https://www.nexusmods.com/news/15279</link>
-      <description>Good news, everyone! Today, I’m bringing you another exciting update about our Nexus Mods app, as we’re launching the preview release version that supports Cyberpunk 2077. So if you’ve been looking for a reason to start modding the game, now’s a great time. This is the next step in the app’s development, with Cyberpunk 2077 joining our growing list of supported games, including Stardew Valley,  and bringing us closer to our goal of supporting even more of your favourite g...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15279</guid>
-      <category>Site News</category>
-      <pubDate>Thu, 22 May 2025 08:42:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Heavy is the Cowl - mannygt</title>
-      <link>https://www.nexusmods.com/news/15270</link>
-      <description>Ten years ago, The Cowl of Nocturnal dropped players into the sun-bleached sands of the Alik'r Desert in search of a legendary relic - and quickly became one of the most celebrated quest mods in the Skyrim scene. Now, a full decade later, modder mannygt is back with a freshly overhauled 10th Anniversary Edition, giving both longtime fans and new players a chance to experience the adventure all over again. I sat down with mannygt to talk about their modding journey...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15270</guid>
-      <category>Interviews</category>
-      <pubDate>Mon, 19 May 2025 10:47:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Saber Releases Toolkit for Space Marine 2</title>
-      <link>https://www.nexusmods.com/news/15273</link>
-      <description>We love it when studios embrace modding fully, so we are thrilled to let you know that Saber Interactive, developers of Warhammer 40,000: Space Marine 2, have officially released a fully-fledged modding toolkit into the wild. Game Director shares Modding Toolkit Speaking in the Space Marine 2 Modding Hub Discord server last Saturday, Game Director Dmitry Grigorenko said, "As of today, we're releasing the official Integration Studio for public use. This is the exa...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15273</guid>
-      <category>Mod News</category>
-      <pubDate>Thu, 15 May 2025 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Baldur's Gate 3 Screen Archery Competition</title>
-      <link>https://www.nexusmods.com/news/15264</link>
-      <description>Patch 8 for Baldur’s Gate 3 landed last month, and with it came photomode. Since then, we’ve seen a flood of new images shared in the media section, and I’ve been obsessively checking it and throwing out endorsements like there’s no tomorrow! So, to celebrate, we wanted to host a screen archery competition. There’ll be no categories or themes, just a fun free-for-all! Supported Games This competition is open to Baldur’s Gate 3 only...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15264</guid>
-      <category>Competition</category>
-      <pubDate>Mon, 12 May 2025 10:49:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kingdom Come: Deliverance II Patch 1.3</title>
-      <link>https://www.nexusmods.com/news/15267</link>
-      <description>We have some exciting news about Kingdom Come: Deliverance II. Warhorse has shared early details of the upcoming 1.3 patch with us and asked if we could help spread the word about its impact on modding. The update includes important improvements, particularly related to inventory presets and localization support. Just a heads up though, this does mean that modders, you’ll need to update your mods if you touch these systems, otherwise your mods won’t work with the updated version...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15267</guid>
-      <category>Mod News</category>
-      <pubDate>Fri, 09 May 2025 12:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Monthly Roundup - April 2025</title>
-      <link>https://www.nexusmods.com/news/15258</link>
-      <description>Helloooo once again! I’m not sure about you all, but the months are flying by for me, and I can’t believe we’re in May already. We’ve been experiencing (and enjoying) some incredibly out-of-character good weather lately for England, and in a couple of weeks, I will have been here at Nexus Mods for a year. Where does the time go? Anyway, I have some big updates for you, the main one being the logged-in homepage, which will be explained in more detail below. We wanted to give ...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15258</guid>
-      <category>Site News</category>
-      <pubDate>Tue, 06 May 2025 08:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Morrowind May Modathon</title>
-      <link>https://www.nexusmods.com/news/15255</link>
-      <description>That time of year has rolled around once again, and I’m happy to announce that today marks the start of the Morrowind May Modathon. The Modathon will run from today until Monday, 2nd June, and they’ll be keeping the same open, free-for-all format used in previous competitions. Morrowind May Modathon 2025 For anyone new to the Modathon, the May Modathon is an annual event hosted by the Morrowind modding community that celebrates creativity and sharing among modders o...</description>
-      <guid isPermaLink="false">https://www.nexusmods.com/news/15255</guid>
-      <category>Mod News</category>
-      <pubDate>Thu, 01 May 2025 08:54:00 +0000</pubDate>
-    </item>
-  </channel>
-</rss>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://www.nexusmods.com/news</id>
+  <title>Nexus Mods News</title>
+  <updated>2026-06-11T15:17:54.459647+00:00</updated>
+  <author>
+    <name>Nexus Mods</name>
+  </author>
+  <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_nexusmods_news.xml" rel="self"/>
+  <link href="https://www.nexusmods.com/news" rel="alternate"/>
+  <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
+  <logo>https://www.nexusmods.com/assets/images/default/avatar.png</logo>
+  <subtitle>Site news, competitions, and interviews from Nexus Mods</subtitle>
+  <entry>
+    <id>https://www.nexusmods.com/news/15512</id>
+    <title>Stardew Valley Modfest - Winners</title>
+    <updated>2026-06-11T15:17:54.460276+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>Celebrating Stardew Valley’s 10th anniversary with the Modfest has been an absolute highlight for me. This was our first event specifically for the Stardew Valley community, and you all completely blew it out of the water. I spent every day scrolling through submissions, just floored by the creativity, the art, and the heart put into every single project. It’s a massive reminder of why this community is so special. Now, before we get into it, we owe a massive thank you to our ...</content>
+    <link href="https://www.nexusmods.com/news/15512"/>
+    <category term="Competition"/>
+    <published>2026-06-04T10:19:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15509</id>
+    <title>Monthly Roundup - May 2026</title>
+    <updated>2026-06-11T15:17:54.460269+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>I can't believe we're already halfway through the year. The months seem to be flying by, and we’ve finally had some nice weather here in the UK. Although, looking out the window right now, there's some grey clouds and it's threatening to rain again, which reminds me of a poem someone told me when I moved to Devon to work at Nexus Mods: Devon, Devon, Devon. Where it rains six days out of seven. Anyway, let’s crack on, shall we? Creator Friction
+...</content>
+    <link href="https://www.nexusmods.com/news/15509"/>
+    <category term="Site News"/>
+    <published>2026-06-02T13:24:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15506</id>
+    <title>Fallout Collectionathon - Winners</title>
+    <updated>2026-06-11T15:17:54.460245+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>The Fallout Collectionathon has officially come to a close! I know you’ve all been eagerly waiting to see who took the top spots across our different categories, and it was certainly a close competition. Before we dive into the results, I want to take a moment to say a massive thank you to everyone who fired up Vortex and got involved. We've never run a Collection curation competition before and seeing the incredible ways you have reimagined the Wasteland, whether you were doing s...</content>
+    <link href="https://www.nexusmods.com/news/15506"/>
+    <category term="Competition"/>
+    <published>2026-05-21T12:33:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15494</id>
+    <title>Monthly Roundup - April 2026</title>
+    <updated>2026-06-11T15:17:54.460239+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Another roundup, the months just continue to fly by. It’s a little late, I know, but we had a bank holiday here in the UK, and surprisingly, some nice weather for once too, so a bonus. We’ve got some big updates this month, so have a look at what we’ve been up to in April. Creator Friction The New Mod Upload Form: Now Out Of Open Beta We took a big step towards making modding easier this month, and we’re really excited to share t...</content>
+    <link href="https://www.nexusmods.com/news/15494"/>
+    <category term="Site News"/>
+    <published>2026-05-06T12:40:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15491</id>
+    <title>The New Upload Form is Here</title>
+    <updated>2026-06-11T15:17:54.460233+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>From day one, the upload form has been the bridge between your hard work and the players who love it. It’s one of the most important tools on the site, so we knew when we began this project, it needed to be great. Back in March, we launched the Open Beta for a totally redesigned upload flow - rebuilt from scratch to be faster, more reliable, and way less of a headache. Today, after loads of successful uploads and a ton of great feedback from all of you, we’re excite...</content>
+    <link href="https://www.nexusmods.com/news/15491"/>
+    <category term="Site News"/>
+    <published>2026-04-23T09:44:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15488</id>
+    <title>From Mods to Vegas: Celebrating Our Modathon Winners</title>
+    <updated>2026-06-11T15:17:54.460227+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>As I’m sure a lot of you will remember, at the end of last year, we ran the Fallout Modathon. The idea was to bring Fallout Mod Authors together to create and have some fun, sharing their incredible work. The response we had was, honestly, unbelievable. There were hundreds of submissions, which led to millions of downloads, and we’re still touched by it all. It went as well as we could’ve hoped for, better in fact, and whilst there’s a lot we can do to continue to improve on...</content>
+    <link href="https://www.nexusmods.com/news/15488"/>
+    <category term="Site News"/>
+    <published>2026-04-16T13:33:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15476</id>
+    <title>Monthly Roundup - March 2026</title>
+    <updated>2026-06-11T15:17:54.460221+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>I’m back again. How are we all? We’re not slowing down on the work here, I’ll tell you that. Last month was a big Roundup, and so is this one. So I hope you’re sat, you’re comfy, and let’s get into it! Creator Friction This month, we’ve taken a big step forward with our Creator Friction work, moving some of these projects out of closed testing and into Open Beta. That means more of you can get hands-on with them and help shape how the...</content>
+    <link href="https://www.nexusmods.com/news/15476"/>
+    <category term="Site News"/>
+    <published>2026-04-01T14:43:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15469</id>
+    <title>Skyblivion Needs You!</title>
+    <updated>2026-06-11T15:17:54.460212+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>Calling all experienced modders and developers! Skyblivion is undoubtedly one of the most anticipated community projects in the history of Bethesda modding, and the dream of experiencing Cyrodiil fully remade in the Skyrim engine is getting extremely close to becoming a reality. However, to get this monumental project completely over the finish line, the Skyblivion team needs just a little extra firepower. They are currently on the hunt for the final, vital members of ...</content>
+    <link href="https://www.nexusmods.com/news/15469"/>
+    <category term="Mod News"/>
+    <published>2026-03-30T11:04:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15472</id>
+    <title>SkyUI Update: SkyUI 6</title>
+    <updated>2026-06-11T15:17:54.460206+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We've got a really cool update to share with you all today; in fact, you may already have seen it or read about it elsewhere! In case you missed it, though, we’ve been working alongside doodlum to bring you all a new SkyUI 6 community update, which combines years of community fixes and improvements while staying faithful to its original design philosophy. The goal was to make SkyUI work seamlessly with newer versions of Skyrim Special Edition and its modding in general, witho...</content>
+    <link href="https://www.nexusmods.com/news/15472"/>
+    <category term="Game News"/>
+    <published>2026-03-26T16:24:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15463</id>
+    <title>The New Upload Form is Now in Open Beta</title>
+    <updated>2026-06-11T15:17:54.460198+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>We’ve got another exciting update to share today as we continue our mission to make life easier for Mod Authors. Following on from our recent API news, we’re delighted to announce that the brand-new Upload Form has officially entered Open Beta! After a successful closed testing phase where we gathered invaluable feedback from our early testers, we’re ready to invite the wider community to try out this full refresh of the mod submission journey. Let’s have a look...</content>
+    <link href="https://www.nexusmods.com/news/15463"/>
+    <category term="Site News"/>
+    <published>2026-03-23T12:37:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15454</id>
+    <title>Upload API Open Beta Now Live!</title>
+    <updated>2026-06-11T15:17:54.460160+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>We’ve got an exciting update to share today: the next step in how Mod Authors can share content on Nexus Mods is finally here! We’re delighted to announce the Open Beta launch of the Upload API. This first beta is focused on updating your mods, and, after a very successful closed testing phase with Verified Mod Authors, we’re now ready to open it up to the wider community. We’re incredibly excited about all the possibilities it will unlock for you. Now, before we take a clos...</content>
+    <link href="https://www.nexusmods.com/news/15454"/>
+    <category term="Site News"/>
+    <published>2026-03-17T11:28:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15451</id>
+    <title>Brazil Age Verification</title>
+    <updated>2026-06-11T15:17:54.460152+00:00</updated>
+    <author>
+      <name>JustThatKing</name>
+    </author>
+    <content>Hi everyone. We wanted to share an important update about how adult content will be handled for our community in Brazil. In September last year, the Brazilian government passed the Digital ECA (Digital Child and Adolescent Statute), a law that requires digital platforms that minors can access to use reliable and auditable age-verification systems for adult content. To make sure Nexus Mods stays available and compliant in Brazil before the law comes into force tomorrow (17th March 20...</content>
+    <link href="https://www.nexusmods.com/news/15451"/>
+    <category term="Site News"/>
+    <published>2026-03-16T14:51:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15445</id>
+    <title>C3: Community Creations Con 2026</title>
+    <updated>2026-06-11T15:17:54.460145+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>It’s that time of year again: C3: Community Creations Con returns this March 14th and 15th! This annual, community-driven, virtual convention is a chance to celebrate incredible talent within our modding community and to showcase a diverse range of creations across Fallout, Elder Scrolls, and Starfield. Organised this year by Kate Aces and Elianora, the event has always been something we here at Nexus Mods are incredibly proud to support and help promote. The M...</content>
+    <link href="https://www.nexusmods.com/news/15445"/>
+    <category term="Mod News"/>
+    <published>2026-03-11T09:41:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15439</id>
+    <title>Monthly Roundup - February 2026</title>
+    <updated>2026-06-11T15:17:54.460137+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Helloooo everyone, I’m back, as promised, with another Monthly Roundup. I did say there’d be a wait for this one due to time off over the holiday period in December, catching up on work and setting things up for the year in January. So, thank you for your patience. There’s a LOT to cover in this one! Vortex So, what’s new? Well, we’ve had this one cooking for a while. The team are really excited to bring you speed and reliability improvements across the ...</content>
+    <link href="https://www.nexusmods.com/news/15439"/>
+    <category term="Site News"/>
+    <published>2026-03-02T12:05:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15436</id>
+    <title>A Decade in the Valley - Modfest 2026</title>
+    <updated>2026-06-11T15:17:54.460131+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>Next week, we’ll be wishing Stardew Valley a very happy 10th anniversary! We can’t believe it’s been a whole decade already. But it’s true - on the 26th of February 2016, ConcernedApe first blessed us. And wow, we could never have guessed we’d be where we are today. Stardew’s modding scene is something truly special. It’s full of creativity, generosity, and people who genuinely love this game. So this year, to celebrate ten incredible years of Stardew Vall...</content>
+    <link href="https://www.nexusmods.com/news/15436"/>
+    <category term="Competition"/>
+    <published>2026-02-19T11:56:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15427</id>
+    <title>Fallout Modathon Winners</title>
+    <updated>2026-06-11T15:17:54.460125+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>I know you've all been waiting to find out, but before I share who the winners are, I want to take a moment to thank every single person who participated in the Fallout Modathon. I’ll be honest, I was nervous before we launched it. What if we’d put all this together and no one entered? I can't tell you how many times I refreshed the page until the first mod was submitted. But all that worry was for nothing, we had so many entries, 610 in fact! It’s been overwhelming, in the ...</content>
+    <link href="https://www.nexusmods.com/news/15427"/>
+    <category term="Competition"/>
+    <published>2026-01-26T14:12:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15433</id>
+    <title>Our Focus For 2026</title>
+    <updated>2026-06-11T15:17:54.460114+00:00</updated>
+    <author>
+      <name>Iluviel</name>
+    </author>
+    <content>Hi everyone, Iluviel here. I want to give you a heads-up on what we’re going to be working on at Nexus Mods in 2026 and some of the changes we’ve made to make that possible. Organisation Some boring, but important, stuff first. We’ve changed how we work pretty dramatically over the last year. Some things weren’t working for us as well as they could, causing small friction points. Nothing dramatic or groundbreaking, just small problems that added up over t...</content>
+    <link href="https://www.nexusmods.com/news/15433"/>
+    <category term="Site News"/>
+    <published>2026-01-22T14:31:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15430</id>
+    <title>Introducing the Fallout Collectionathon</title>
+    <updated>2026-06-11T15:17:54.460106+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>Over the past month, Fallout has returned to our screens with Season 2 of the award-winning TV show and to celebrate we held our very own Modathon. You all responded in style with a wave of incredible new mods celebrating the series, from Long 15 to QUIP - Quick Use Inventory Panel. You have made it all! To keep the fun going, we’re excited to announce a brand new event: our very first Collectionathon! You’ll find everything on our dedicated event landing page, including the fu...</content>
+    <link href="https://www.nexusmods.com/news/15430"/>
+    <category term="Competition"/>
+    <published>2026-01-21T15:11:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15424</id>
+    <title>Why We’re Focusing on Vortex Going Forward</title>
+    <updated>2026-06-11T15:17:54.460097+00:00</updated>
+    <author>
+      <name>Foledinho</name>
+    </author>
+    <content>Over the last year, we've talked a lot about our mission: making modding easier. Not just for the people who've been doing this for decades, but for everyone. The new modder installing their first texture pack. The collection curator trying to share their vision. The veteran who just wants things to work without fighting through ten different tools. We've spent that time listening. Testing ideas. Watching how people actually use what we build. And one thing became reall...</content>
+    <link href="https://www.nexusmods.com/news/15424"/>
+    <category term="Site News"/>
+    <published>2026-01-14T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15421</id>
+    <title>The Las Vegas Modathon Trip</title>
+    <updated>2026-06-11T15:17:54.460091+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>This is not a drill; there are only two weeks left of the Fallout Modathon. But don't panic, there's still time to get your submissions in and put yourself in the running to win our trip of a lifetime to Las Vegas! And on that note, you've probably seen me talk about the trip quite a lot already, but I've been pretty vague beyond saying, “this is roughly what we’re planning”. So, if you've been dying to know what the trip itself will actually look like, or you have been trying...</content>
+    <link href="https://www.nexusmods.com/news/15421"/>
+    <category term="Competition"/>
+    <published>2025-12-17T11:29:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15415</id>
+    <title>We're hiring</title>
+    <updated>2026-06-11T15:17:54.460082+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Good news, everyone! We have a bunch of new roles open across Product, Design, Engineering, and Business Services, and we’ve also launched a brand new careers page to go with them. It’s now much easier to find our current vacancies and see all the benefits we offer when working here at Nexus Mods. Below is a quick rundown of all the roles we’re hiring for right now, and you can find the full details, requirements, and application links on the new careers page.</content>
+    <link href="https://www.nexusmods.com/news/15415"/>
+    <category term="Site News"/>
+    <published>2025-12-03T12:04:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15412</id>
+    <title>Monthly Roundup - November 2025</title>
+    <updated>2026-06-11T15:17:54.460076+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Another month, another roundup for you all. This will be our last one for the year, as the team will be taking some well-earned time off over the holiday season later this month. We’ll pick things back up again in February with a double-roundup covering everything from December and January. Collection Improvements We continued polishing collection badges, including expanding the Top Pick badge to more standout collections across popular games. The look and clarity of ...</content>
+    <link href="https://www.nexusmods.com/news/15412"/>
+    <category term="Site News"/>
+    <published>2025-12-01T12:59:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15409</id>
+    <title>Fallout Modathon - Important Updates</title>
+    <updated>2026-06-11T15:17:54.460070+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Hey gang! We’ve got some important updates and info we wanted to make sure weren’t missed. Tagging Your Mod Correctly To make sure your mod appears on the Modathon hub and is eligible for prizes, please make sure to add the “Fallout Modathon 2025” tag. You can do this by either: Selecting this option in the classification section when you upload your mod. Manually adding the tag on your mod page after uploading. As long as the t...</content>
+    <link href="https://www.nexusmods.com/news/15409"/>
+    <category term="Competition"/>
+    <published>2025-11-24T12:28:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15406</id>
+    <title>Introducing: The Fallout 4 Anniversary Collection</title>
+    <updated>2026-06-11T15:17:54.460063+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>Last week Fallout 4 turned ten! A whole decade since we stepped out into the Commonwealth for the first time and while Bethesda marked the occasion with an Anniversary Update, let’s be honest, it didn’t quite land with the impact many hoped for. So we've decided to mark the milestone our own way! Today, we’re excited to reveal the Fallout 4: Anniversary Collection; a fully curated, fully compatible, and completely free celebration of ten years of modding creativi...</content>
+    <link href="https://www.nexusmods.com/news/15406"/>
+    <category term="Mod News"/>
+    <published>2025-11-20T14:34:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15403</id>
+    <title>Donation Points Survey 2025 - Follow Up</title>
+    <updated>2026-06-11T15:17:54.460055+00:00</updated>
+    <author>
+      <name>Pickysaurus</name>
+    </author>
+    <content>At the end of September, we asked you for your thoughts on the Donation Points (DP) store. Hundreds of you shared feedback - what’s working, what’s not, and what you’d like to see in the future. This post sums up what we learned and what we’re doing next. We shared the survey across the site, Discord, and email, and got 802 responses in total - a solid slice of the author community. Huge thanks to everyone who took the time to share their opinions and ideas. I’ve also pull...</content>
+    <link href="https://www.nexusmods.com/news/15403"/>
+    <category term="Site News"/>
+    <published>2025-11-18T16:07:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15400</id>
+    <title>Fallout 4 Anniversary Update: What You Need to Know</title>
+    <updated>2026-06-11T15:17:54.460046+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>To celebrate the 10th anniversary of Fallout 4, Bethesda is releasing the Fallout 4 Anniversary Edition on November 10th, bundling together all the game’s DLCs, over 150 pieces of Creation Club content, and some new and exciting features for modders and creators. But before you dust off your Pip-Boy and start a new playthrough, it’s important to remember that, as with any update, this is likely to break a few core mods. What’s more, unfortunately the Fallout 4 Script Extender...</content>
+    <link href="https://www.nexusmods.com/news/15400"/>
+    <category term="Game News"/>
+    <published>2025-11-06T12:11:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15397</id>
+    <title>We're Hiring</title>
+    <updated>2026-06-11T15:17:54.460039+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We’ve got two new roles open at Nexus Mods, and we’re looking for people who are passionate about gaming, community, and helping others get the most out of modding. Senior Community Manager Salary: £35,000–£45,000 (depending on experience) Location: Remote (UK only) or at our Exeter office Shift: Sunday to Wednesday We’re on the lookout for a Senior Community Manager to help keep our community safe, welcoming, and creator-friend...</content>
+    <link href="https://www.nexusmods.com/news/15397"/>
+    <category term="Site News"/>
+    <published>2025-11-04T09:59:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15394</id>
+    <title>Monthly Roundup - October 2025</title>
+    <updated>2026-06-11T15:17:54.460033+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Here we go, big update for you all this month! We’ve been working hard on a bunch of stuff, and of course, one of our biggest community launches ever. The Fallout Modathon is Live In case you missed it, we’ve kicked off the Fallout Modathon 2025, our biggest community event to date. Running from 23 October to 31 December, anyone can take part by creating Fallout-themed mods. Please note that the Las Vegas travel prize is only open to new mods uploaded f...</content>
+    <link href="https://www.nexusmods.com/news/15394"/>
+    <category term="Site News"/>
+    <published>2025-11-03T14:25:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15391</id>
+    <title>Fallout Modathon 2025</title>
+    <updated>2026-06-11T15:17:54.460027+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>So this is a big one, gang. I cannot tell you how excited I am to announce the Fallout Modathon, our biggest community event yet, with a prize that’s Wild Wasteland levels of wild. Badges, Nexus Mods merch, and game keys are all up for grabs, but we’re also giving a few lucky winners the chance to pack their bags and join us on an unforgettable trip of a lifetime to Las Vegas. Yes, really. As I’m sure a lot of you will remember, the Fallout TV show was huge for bo...</content>
+    <link href="https://www.nexusmods.com/news/15391"/>
+    <category term="Competition"/>
+    <published>2025-10-23T13:59:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15388</id>
+    <title>Lord of the Land - LordboundTeam</title>
+    <updated>2026-06-11T15:17:54.460018+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>Skyrim has no shortage of tales to tell; from dragon-slaying epics to quiet stories whispered between the peaks of the Throat of the World. But every so often, a mod comes along that feels less like an add-on and more like a true continuation of the Elder Scrolls saga. Enter Lordbound, a colossal story expansion that whisks players away to the valley of Druadach: A land divided by war, bound by history, and teeming with depth and lore. With over 60 hours of original content, three d...</content>
+    <link href="https://www.nexusmods.com/news/15388"/>
+    <category term="Interviews"/>
+    <published>2025-10-14T12:17:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15385</id>
+    <title>Monthly Roundup - September 2025</title>
+    <updated>2026-06-11T15:17:54.460009+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Before you say anything, I know we missed a couple of months. There's just been so much we've been working on. Going forward, though, we will be doing monthly roundups again. I know there’s been a few of you who have missed them. So, let’s get into what we’ve been working on in August and September! More Mod Starter Packs Following the positive reception of our first mod starter pack for Stardew Valley, we’ve created three more landing pages. These ...</content>
+    <link href="https://www.nexusmods.com/news/15385"/>
+    <category term="Site News"/>
+    <published>2025-10-01T12:07:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15373</id>
+    <title>Free Premium Trial</title>
+    <updated>2026-06-11T15:17:54.460002+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We’re excited to announce that for the very first time, we’re introducing a 3-day free trial for Premium for new Premium subscribers! You’ll be able to enjoy all the benefits of Premium without paying upfront and see firsthand how it can transform your modding experience. We’ll be the first to admit we’ve not always done the best job of showing everything Premium has to offer. So, what better way to fix that than by letting you try it for yourself? How ...</content>
+    <link href="https://www.nexusmods.com/news/15373"/>
+    <category term="Site News"/>
+    <published>2025-09-24T12:02:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15382</id>
+    <title>Calling Mod Authors: DP Store Feedback Wanted</title>
+    <updated>2026-06-11T15:17:54.459996+00:00</updated>
+    <author>
+      <name>Pickysaurus</name>
+    </author>
+    <content>We're looking to improve the Donation Points store, and we'd love to hear your thoughts. Whether you've used the store often or only once, your feedback will help shape future offerings and enable everyone to get more out of their Donation Points. Recently, I've been given the responsibility of managing the Mod Author Rewards program. One area I think has huge potential is the DP Store. Currently, we keep it stocked with game keys and process PayPal payouts twice a month, but I beli...</content>
+    <link href="https://www.nexusmods.com/news/15382"/>
+    <category term="Site News"/>
+    <published>2025-09-24T08:21:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15379</id>
+    <title>Merry Modding Days 2025 - Submissions Now Open</title>
+    <updated>2026-06-11T15:17:54.459990+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We’re excited to share that Merry Modding Days will be back once again this December! Look, I know it’s September, please don’t come for me on this. We just really wanted to help the MMD team gather submissions for the event. If you want to see the Advent calendar in action, see below for the 2023 calendar. For anyone new to the event, Merry Modding Days is a community-driven advent calendar of mods, with new creations revealed every day from the 1st - 25th of De...</content>
+    <link href="https://www.nexusmods.com/news/15379"/>
+    <category term="Mod News"/>
+    <published>2025-09-23T11:09:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15376</id>
+    <title>Immersive &amp; Adult Is Back</title>
+    <updated>2026-06-11T15:17:54.459977+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>That’s right, you read that correctly. The Immersive &amp; Adult collection by Canliberk for Skyrim Special Edition is back after two years, updated for 1.6.1170, and better than ever! It now includes over 500 mods while still sitting under 25GB. It’s our most endorsed collection on the site for a reason (looking at you, CBBE fans), as it completely overhauls Skyrim into something new without losing the heart of the game. JW8oNFWtw_Q﻿ If you’re new to the collec...</content>
+    <link href="https://www.nexusmods.com/news/15376"/>
+    <category term="Mod News"/>
+    <published>2025-09-22T11:52:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15370</id>
+    <title>We’re Hiring: Senior DevOps Engineer</title>
+    <updated>2026-06-11T15:17:54.459971+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We’re looking for a Senior DevOps Engineer to join our Platform and Operations team. You’ll help us manage globally distributed infrastructure, build automation and deployment pipelines, and work closely with our developers to deliver secure, high-performance features for millions of Nexus Mods users worldwide. This role offers: A fully remote or Exeter-based position A 4-day working week (32 hours) at full pay High-spec hardware and a monthly gam...</content>
+    <link href="https://www.nexusmods.com/news/15370"/>
+    <category term="Site News"/>
+    <published>2025-09-10T14:59:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15349</id>
+    <title>Creation Mod Con 2025</title>
+    <updated>2026-06-11T15:17:54.459965+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>The Elder Scrolls modding community is gearing up for a major celebration as Creation Mod Con returns for its fifth year. This digital event shines a spotlight on some of the biggest and most ambitious modding projects in the works, giving a behind-the-scenes look at entirely new provinces, quests, and worlds coming to life. The event will be streamed live on Twitch and YouTube over two days, August 30th and 31st, kicking off at 16:00 UTC. Plus as a thank you, viewers who tune into...</content>
+    <link href="https://www.nexusmods.com/news/15349"/>
+    <category term="Site News"/>
+    <published>2025-08-26T12:42:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15346</id>
+    <title>Age Verification for UK Users</title>
+    <updated>2026-06-11T15:17:54.459958+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Back at the start of July, we let you know we’d be making changes to how adult content works on Nexus Mods to comply with the UK’s Online Safety Act and the EU’s Digital Services Act. The next step is age verification, which will begin rolling out for UK users only from next week. EU users will follow once the law requires it, and users outside the UK and EU are not affected. Why is This Happening? As a UK-based company, we’re legally require...</content>
+    <link href="https://www.nexusmods.com/news/15346"/>
+    <category term="Site News"/>
+    <published>2025-08-20T11:54:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15334</id>
+    <title>Baldur’s Gate 3 July Modathon 2025 Has Officially Closed</title>
+    <updated>2026-06-11T15:17:54.459952+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>July has wrapped up, meaning so has the Baldur’s Gate 3 Modathon that ran throughout the whole of last month. The 2025 Baldur’s Gate 3 July Modathon saw modders from all across the world of Faerûn create new and exciting mods for the community to enjoy. Hosted on both the Nexus Mods Forums and by the wider Baldur’s Gate 3 community, this is the second year that the Baldur’s Gate 3 Modathon has been run and, once again, it saw great success with over 150 mods created here ...</content>
+    <link href="https://www.nexusmods.com/news/15334"/>
+    <category term="Mod News"/>
+    <published>2025-08-11T08:53:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15340</id>
+    <title>Monthly Roundup - July 2025</title>
+    <updated>2026-06-11T15:17:54.459943+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>I’m back with the monthly roundup! I know, I know, I missed it last month, but there’s been a lot happening here, along with some annual leave. So, we thought it’d be better to combine June and July into one big roundup for you all. 24-Hour Stream Recap &amp; Make-A-Wish Donations We wrapped up our 24-hour Twitch stream last weekend, and we’re thrilled to announce that we surpassed our goal, raising a total of $3,296.11 for Make-A-Wish International! Thanks to t...</content>
+    <link href="https://www.nexusmods.com/news/15340"/>
+    <category term="Site News"/>
+    <published>2025-08-06T08:51:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15337</id>
+    <title>App Roundup - July 2025</title>
+    <updated>2026-06-11T15:17:54.459933+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We’re back once again with more updates to the Nexus Mods app. Halgari talked us through even more new features and improvements based on your feedback. So here’s a rundown of it all: aoQjAA1B-ZQ﻿ Key Features Change Mod Storage Location One of the most requested features is now available: the ability to change where your mods are stored. You can now specify your preferred storage location within the settings. However, there is an importa...</content>
+    <link href="https://www.nexusmods.com/news/15337"/>
+    <category term="Site News"/>
+    <published>2025-07-31T12:32:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15331</id>
+    <title>Let’s Celebrate 24 Years of Modding: 24-Hour Charity Stream</title>
+    <updated>2026-06-11T15:17:54.459926+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>This year, Nexus Mods turns 24, and there’s no better way to celebrate than by bringing the community together for a good cause. From 12PM BST on August 1st to 12PM BST on August 2nd, we’re hosting a 24-hour charity live stream in support of Make-A-Wish. Creators from all corners of the modding world will be going live as part of a Twitch raid train. You’ll see your favourite mods in action, pick up new tips and tricks, and get a behind-the-scenes look at how mods come togethe...</content>
+    <link href="https://www.nexusmods.com/news/15331"/>
+    <category term="Site News"/>
+    <published>2025-07-23T14:16:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15114</id>
+    <title>Already Half Xehanort - Aproydtix</title>
+    <updated>2026-06-11T15:17:54.459919+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>As a massive Kingdom Hearts fan myself, I’m as excited to speak with today’s guest as you will be to read about it! Whether you just want to improve Sora’s movement or you’ve been desperately missing Phil and the Olympus Coliseum, Aproydtix has you covered as they’ve been hard at work modding both Kingdom Hearts III and Kingdom Hearts 0.2: Birth by Sleep -A fragmentary passage-. Hey there Aproydtix, thanks for joining me today! Why don’t you introduce yours...</content>
+    <link href="https://www.nexusmods.com/news/15114"/>
+    <category term="Interviews"/>
+    <published>2025-07-14T09:48:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15328</id>
+    <title>Baldur's Gate 3 Winners' Interview</title>
+    <updated>2026-06-11T15:17:54.459912+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>It’s time to hear from our Baldur’s Gate 3 competition winners! As always, everyone received the same set of questions, giving each winner the opportunity to share their unique perspective. They were free to answer as many or as few as they liked, in whatever way suited them best, and could include any images they felt were relevant to their answers, or simply ones they were proud of and wanted to showcase. So, without further ado, let’s meet the winners! &lt;...</content>
+    <link href="https://www.nexusmods.com/news/15328"/>
+    <category term="Interviews"/>
+    <published>2025-07-09T09:46:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15319</id>
+    <title>The Law and Adult Content</title>
+    <updated>2026-06-11T15:17:54.459904+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We wanted to give you all a heads-up that over the coming weeks and months, we’ll be making some changes to how things work on Nexus Mods in regards to Adult content, child safety online and our ongoing commitment to remove illegal content. These updates are part of our legal obligation to comply with the UK government’s new Online Safety Act and the EU’s Digital Services Act, along with the guidance being issued by Ofcom (the UK’s regulator). While we’re requ...</content>
+    <link href="https://www.nexusmods.com/news/15319"/>
+    <category term="Site News"/>
+    <published>2025-07-01T10:41:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15310</id>
+    <title>Baldur's Gate 3 July Modathon</title>
+    <updated>2026-06-11T15:17:54.459893+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>It’s that time of year again! July 1st marks the beginning of the Baldur’s Gate 3 July Modathon. Returning for its second year in a row, this time it comes with new themes, a larger support staff and brand new achievements to collect! This widely anticipated, cross-community event is sure to bring some incredible talent and ideas to the Baldur’s Gate 3 modding community. The Modathon will run throughout the whole month of July and they’ll be keeping the same open, free-for...</content>
+    <link href="https://www.nexusmods.com/news/15310"/>
+    <category term="Mod News"/>
+    <published>2025-06-28T15:21:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15313</id>
+    <title>App Roundup - June 2025</title>
+    <updated>2026-06-11T15:17:54.459883+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We’re back again with this month’s app roundup! This month, Halgari went into more detail on the ins and outs of how our release process works. So, if you’ve ever wondered why it takes a few weeks for features to make it into the app, this one’s for you. ﻿jahXprPx4D8 How We Release New Features Our app team works in three-week development sprints. As Halgari explains, this is a little unusual in software development, where two-week sprints ...</content>
+    <link href="https://www.nexusmods.com/news/15313"/>
+    <category term="Site News"/>
+    <published>2025-06-26T11:02:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15282</id>
+    <title>Wake Up Samurai - Welcome to Night City</title>
+    <updated>2026-06-11T15:17:54.459876+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>Welcome to Night City is the most popular modlist for Cyberpunk 2077 on our site, and it’s not hard to see why. Behind the scenes, a massive team have been pouring tonnes of heart, soul and serious skill into it. In this interview, I had the chance to spotlight the group keeping the chrome polished and city running: z9r, b and TimTA, the core trio behind this project. And as a bonus, we also heard from a few mod creators about their experiences being part of this incredible Cyberp...</content>
+    <link href="https://www.nexusmods.com/news/15282"/>
+    <category term="Interviews"/>
+    <published>2025-06-23T10:42:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15215</id>
+    <title>Tav in Technicolour - astralities</title>
+    <updated>2026-06-11T15:17:54.459868+00:00</updated>
+    <author>
+      <name>Modsetti</name>
+    </author>
+    <content>One of the major reasons I adore modding is the endless character customisation possibilities. Sure, I appreciate a good 8K wood texture as much as the next person, but if I can make my character look even slightly funkier? You’ve got me hook, line, and sinker. And who’s out here making my Gok Wan fantasy a reality? None other than astralities, a beloved and incredibly talented modder for Baldur’s Gate 3. Astra first stepped onto the scene as Faerûn’s resident hairdresser, ...</content>
+    <link href="https://www.nexusmods.com/news/15215"/>
+    <category term="Interviews"/>
+    <published>2025-06-19T08:12:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15301</id>
+    <title>An Update From Dark0ne</title>
+    <updated>2026-06-11T15:17:54.459862+00:00</updated>
+    <author>
+      <name>Dark0ne</name>
+    </author>
+    <content>After almost 24 years of running Nexus Mods, the time has come for me to step back from the day-to-day management of the site. This isn't a decision I've made lightly - far from it - but one I think is in both my and the community's best interests. I started this project back in 2001, in my bedroom, with a 56k modem, an excitement for the upcoming release of Morrowind and with no grand ambitions or intentions. I didn’t set out to build a business, I just wanted to make a place whe...</content>
+    <link href="https://www.nexusmods.com/news/15301"/>
+    <category term="Site News"/>
+    <published>2025-06-16T11:26:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15261</id>
+    <title>Hidden Gems - Ramping to Greatness</title>
+    <updated>2026-06-11T15:17:54.459852+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>We’ve all been there. It’s 2am and instead of being asleep you’ve found yourself on page 423 of the All Mods page looking for something, anything that will whet your appetite. That’s when you find it: Tucked away between a mod that increases your weight limit by 5 and another that adds a new companion to Skyrim, it’s the mod of your dreams! Hidden all the way back here on a site of over 600,000 mods with only a handful of downloads to its name. Welcome to Hidden Gems, a s...</content>
+    <link href="https://www.nexusmods.com/news/15261"/>
+    <category term="Feature"/>
+    <published>2025-06-09T10:52:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15295</id>
+    <title>Morrowind May Modathon 2025 Has Officially Closed</title>
+    <updated>2026-06-11T15:17:54.459842+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>Another May has come and gone, and with it, another incredible chapter in the modding legacy of The Elder Scrolls III: Morrowind. The 2025 Morrowind May Modathon brought together modders new and old to honour 23 years of adventures across Vvardenfell with an explosion of creativity, collaboration, and community spirit. Organised by long-time community icons darkelfguy and Danae123, and hosted on both the Nexus Mods Forums and Morrowind Modding Community platforms, this year’s Moda...</content>
+    <link href="https://www.nexusmods.com/news/15295"/>
+    <category term="Mod News"/>
+    <published>2025-06-05T09:49:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15292</id>
+    <title>Monthly Roundup - May 2025</title>
+    <updated>2026-06-11T15:17:54.459832+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>It’s roundup time! We are almost halfway through the year and things aren’t slowing down here. Today I have more updates on site changes for you. They’ll all be explained below in a lot more detail, so let’s just get cracking with it. Game Artwork You told us that you missed seeing the timeless artwork of Skyrim on the site, a game that’s synonymous with the growth of Nexus Mods. It has returned. We also wanted to celebrate the huge variety...</content>
+    <link href="https://www.nexusmods.com/news/15292"/>
+    <category term="Site News"/>
+    <published>2025-06-03T08:46:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15289</id>
+    <title>App Roundup - May 2025</title>
+    <updated>2026-06-11T15:17:54.459819+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We wanted to keep you all in the loop with what’s happening on the new Nexus Mods app and bring you along on the development journey. As part of this, we’ve started a new series on our YouTube channel, where we share development updates from Halgari, our Team Lead of Application Development. Each month, he’ll talk through what the team has been working on behind the scenes and what you can expect in the near future. ﻿GV2ckH9SfC8 I definitely recommend wat...</content>
+    <link href="https://www.nexusmods.com/news/15289"/>
+    <category term="Site News"/>
+    <published>2025-05-29T15:09:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15286</id>
+    <title>Baldur's Gate 3 Competition - Winners</title>
+    <updated>2026-06-11T15:17:54.459803+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>It’s time for the results of our Baldur’s Gate 3 screen archery competition! A huge thank you to everyone who took part. It’s been another tough competition, with the final results being really close. As always, we know everyone will have their personal favourites, but let’s keep comments positive and light-hearted. This competition was all about having some fun with the new photomode, and we want to make sure our winners feel respected and celebrated. Please ...</content>
+    <link href="https://www.nexusmods.com/news/15286"/>
+    <category term="Competition"/>
+    <published>2025-05-27T15:03:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15279</id>
+    <title>Nexus Mods App: Cyberpunk 2077 Preview</title>
+    <updated>2026-06-11T15:17:54.459780+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Good news, everyone! Today, I’m bringing you another exciting update about our Nexus Mods app, as we’re launching the preview release version that supports Cyberpunk 2077. So if you’ve been looking for a reason to start modding the game, now’s a great time. This is the next step in the app’s development, with Cyberpunk 2077 joining our growing list of supported games, including Stardew Valley,  and bringing us closer to our goal of supporting even more of your favourite g...</content>
+    <link href="https://www.nexusmods.com/news/15279"/>
+    <category term="Site News"/>
+    <published>2025-05-22T08:42:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15270</id>
+    <title>Heavy is the Cowl - mannygt</title>
+    <updated>2026-06-11T15:17:54.459770+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>Ten years ago, The Cowl of Nocturnal dropped players into the sun-bleached sands of the Alik'r Desert in search of a legendary relic - and quickly became one of the most celebrated quest mods in the Skyrim scene. Now, a full decade later, modder mannygt is back with a freshly overhauled 10th Anniversary Edition, giving both longtime fans and new players a chance to experience the adventure all over again. I sat down with mannygt to talk about their modding journey...</content>
+    <link href="https://www.nexusmods.com/news/15270"/>
+    <category term="Interviews"/>
+    <published>2025-05-19T10:47:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15273</id>
+    <title>Saber Releases Toolkit for Space Marine 2</title>
+    <updated>2026-06-11T15:17:54.459759+00:00</updated>
+    <author>
+      <name>ModularCocoon</name>
+    </author>
+    <content>We love it when studios embrace modding fully, so we are thrilled to let you know that Saber Interactive, developers of Warhammer 40,000: Space Marine 2, have officially released a fully-fledged modding toolkit into the wild. Game Director shares Modding Toolkit Speaking in the Space Marine 2 Modding Hub Discord server last Saturday, Game Director Dmitry Grigorenko said, "As of today, we're releasing the official Integration Studio for public use. This is the exa...</content>
+    <link href="https://www.nexusmods.com/news/15273"/>
+    <category term="Mod News"/>
+    <published>2025-05-15T11:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15264</id>
+    <title>Baldur's Gate 3 Screen Archery Competition</title>
+    <updated>2026-06-11T15:17:54.459748+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Patch 8 for Baldur’s Gate 3 landed last month, and with it came photomode. Since then, we’ve seen a flood of new images shared in the media section, and I’ve been obsessively checking it and throwing out endorsements like there’s no tomorrow! So, to celebrate, we wanted to host a screen archery competition. There’ll be no categories or themes, just a fun free-for-all! Supported Games This competition is open to Baldur’s Gate 3 only...</content>
+    <link href="https://www.nexusmods.com/news/15264"/>
+    <category term="Competition"/>
+    <published>2025-05-12T10:49:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15267</id>
+    <title>Kingdom Come: Deliverance II Patch 1.3</title>
+    <updated>2026-06-11T15:17:54.459740+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>We have some exciting news about Kingdom Come: Deliverance II. Warhorse has shared early details of the upcoming 1.3 patch with us and asked if we could help spread the word about its impact on modding. The update includes important improvements, particularly related to inventory presets and localization support. Just a heads up though, this does mean that modders, you’ll need to update your mods if you touch these systems, otherwise your mods won’t work with the updated version...</content>
+    <link href="https://www.nexusmods.com/news/15267"/>
+    <category term="Mod News"/>
+    <published>2025-05-09T12:05:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15258</id>
+    <title>Monthly Roundup - April 2025</title>
+    <updated>2026-06-11T15:17:54.459729+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>Helloooo once again! I’m not sure about you all, but the months are flying by for me, and I can’t believe we’re in May already. We’ve been experiencing (and enjoying) some incredibly out-of-character good weather lately for England, and in a couple of weeks, I will have been here at Nexus Mods for a year. Where does the time go? Anyway, I have some big updates for you, the main one being the logged-in homepage, which will be explained in more detail below. We wanted to give ...</content>
+    <link href="https://www.nexusmods.com/news/15258"/>
+    <category term="Site News"/>
+    <published>2025-05-06T08:44:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.nexusmods.com/news/15255</id>
+    <title>Morrowind May Modathon</title>
+    <updated>2026-06-11T15:17:54.459697+00:00</updated>
+    <author>
+      <name>SlugGirl</name>
+    </author>
+    <content>That time of year has rolled around once again, and I’m happy to announce that today marks the start of the Morrowind May Modathon. The Modathon will run from today until Monday, 2nd June, and they’ll be keeping the same open, free-for-all format used in previous competitions. Morrowind May Modathon 2025 For anyone new to the Modathon, the May Modathon is an annual event hosted by the Morrowind modding community that celebrates creativity and sharing among modders o...</content>
+    <link href="https://www.nexusmods.com/news/15255"/>
+    <category term="Mod News"/>
+    <published>2025-05-01T08:54:00+00:00</published>
+  </entry>
+</feed>

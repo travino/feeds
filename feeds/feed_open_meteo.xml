@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
-  <id>urn:open-meteo:50.1298,19.4243</id>
-  <title>Open-Meteo — prognoza i warunki (Trzebinia)</title>
-  <updated>2026-06-11T10:36:56.851810+00:00</updated>
+  <id>urn:open-meteo:50.13133,19.41654</id>
+  <title>Open-Meteo — prognoza i warunki (Kościelec (Chrzanów))</title>
+  <updated>2026-06-11T15:17:59.474545+00:00</updated>
   <author>
     <name>Open-Meteo</name>
     <uri>https://open-meteo.com/</uri>
@@ -12,6 +12,15 @@
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Prognoza dzienna, bieżące warunki z jakością powietrza oraz satelitarne pomiary nasłonecznienia z open-meteo.com</subtitle>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-17</id>
+    <title>Kościelec (Chrzanów): śr. 17.06 — pochmurno, 11°C do 23°C</title>
+    <updated>2026-06-11T15:17:59.068154+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Pochmurno&lt;/strong&gt; · maks. 23°C · min. 11°C (odczuwalna 10°C do 21°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 0.0 mm (prawdopodobieństwo 14%, 0.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 17.0 km/h, porywy do 31.7 km/h, kierunek WSW&lt;/li&gt;&lt;li&gt;Indeks UV: 6.55&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 14 h 28 min (dzień trwa 16 h 23 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:54&lt;/li&gt;&lt;li&gt;CAPE (śr.): 0 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-17T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:day:2026-06-17</id>
     <title>Trzebinia: śr. 17.06 — słaba mżawka, 12°C do 23°C</title>
     <updated>2026-06-11T04:08:54.250007+00:00</updated>
@@ -19,6 +28,15 @@
     <link href="https://open-meteo.com/"/>
     <category term="forecast"/>
     <published>2026-06-17T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-16</id>
+    <title>Kościelec (Chrzanów): wt. 16.06 — pochmurno, 8°C do 19°C</title>
+    <updated>2026-06-11T15:17:59.068118+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Pochmurno&lt;/strong&gt; · maks. 19°C · min. 8°C (odczuwalna 6°C do 16°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 0.0 mm (prawdopodobieństwo 10%, 0.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 13.9 km/h, porywy do 42.1 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 6.75&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 16 h 09 min (dzień trwa 16 h 22 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:54&lt;/li&gt;&lt;li&gt;CAPE (śr.): 4 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-16T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:open-meteo:50.1298,19.4243:day:2026-06-16</id>
@@ -30,6 +48,15 @@
     <published>2026-06-16T00:00:00+02:00</published>
   </entry>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-15</id>
+    <title>Kościelec (Chrzanów): pon. 15.06 — słaba mżawka, 10°C do 18°C</title>
+    <updated>2026-06-11T15:17:59.068071+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Słaba mżawka&lt;/strong&gt; · maks. 18°C · min. 10°C (odczuwalna 7°C do 15°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 2.4 mm (prawdopodobieństwo 59%, 15.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 19.1 km/h, porywy do 45.0 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 6.5&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 15 h 59 min (dzień trwa 16 h 22 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:53&lt;/li&gt;&lt;li&gt;CAPE (śr.): 20 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-15T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:day:2026-06-15</id>
     <title>Trzebinia: pon. 15.06 — umiarkowana mżawka, 10°C do 17°C</title>
     <updated>2026-06-11T04:08:54.249926+00:00</updated>
@@ -37,6 +64,15 @@
     <link href="https://open-meteo.com/"/>
     <category term="forecast"/>
     <published>2026-06-15T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-14</id>
+    <title>Kościelec (Chrzanów): niedz. 14.06 — umiarkowana mżawka, 12°C do 18°C</title>
+    <updated>2026-06-11T15:17:59.068028+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Umiarkowana mżawka&lt;/strong&gt; · maks. 18°C · min. 12°C (odczuwalna 10°C do 15°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 1.4 mm (prawdopodobieństwo 61%, 9.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 21.3 km/h, porywy do 42.8 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 6.65&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 15 h 40 min (dzień trwa 16 h 21 min)&lt;/li&gt;&lt;li&gt;Wschód 04:31 · zachód 20:53&lt;/li&gt;&lt;li&gt;CAPE (śr.): 70 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-14T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:open-meteo:50.1298,19.4243:day:2026-06-14</id>
@@ -48,6 +84,15 @@
     <published>2026-06-14T00:00:00+02:00</published>
   </entry>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-13</id>
+    <title>Kościelec (Chrzanów): sob. 13.06 — umiarkowany deszcz, 13°C do 20°C</title>
+    <updated>2026-06-11T15:17:59.067979+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Umiarkowany deszcz&lt;/strong&gt; · maks. 20°C · min. 13°C (odczuwalna 12°C do 19°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 4.08 mm (prawdopodobieństwo 84%, 8.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 16.9 km/h, porywy do 39.6 km/h, kierunek WSW&lt;/li&gt;&lt;li&gt;Indeks UV: 5.6&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 3 h 28 min (dzień trwa 16 h 20 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:52&lt;/li&gt;&lt;li&gt;CAPE (śr.): 56 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-13T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:day:2026-06-13</id>
     <title>Trzebinia: sob. 13.06 — słaby deszcz, 13°C do 21°C</title>
     <updated>2026-06-11T04:08:54.249829+00:00</updated>
@@ -57,6 +102,15 @@
     <published>2026-06-13T00:00:00+02:00</published>
   </entry>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-12</id>
+    <title>Kościelec (Chrzanów): pt. 12.06 — pochmurno, 9°C do 20°C</title>
+    <updated>2026-06-11T15:17:59.067925+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Pochmurno&lt;/strong&gt; · maks. 20°C · min. 9°C (odczuwalna 8°C do 19°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 0.0 mm (prawdopodobieństwo 33%, 0.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 13.7 km/h, porywy do 29.2 km/h, kierunek W&lt;/li&gt;&lt;li&gt;Indeks UV: 6.7&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 2 h 42 min (dzień trwa 16 h 20 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:52&lt;/li&gt;&lt;li&gt;CAPE (śr.): 18 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-12T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:day:2026-06-12</id>
     <title>Trzebinia: pt. 12.06 — słaba mżawka, 8°C do 20°C</title>
     <updated>2026-06-11T04:08:54.249777+00:00</updated>
@@ -64,6 +118,24 @@
     <link href="https://open-meteo.com/"/>
     <category term="forecast"/>
     <published>2026-06-12T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:current:2026-06-11</id>
+    <title>Kościelec (Chrzanów) teraz (17:15): pochmurno, 16°C · AQI 37 (dobra)</title>
+    <updated>2026-06-11T15:17:59.068209+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Pochmurno&lt;/strong&gt; · 16°C (odczuwalna 15°C) · stan z 17:15&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Wiatr: 5.8 km/h (NW), porywy 18.4 km/h&lt;/li&gt;&lt;li&gt;Wilgotność: 68% · zachmurzenie 93%&lt;/li&gt;&lt;li&gt;Ciśnienie: 1017.4 hPa (na poziomie morza)&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Jakość powietrza:&lt;/strong&gt; europejski AQI 37 — dobra&lt;/p&gt;&lt;ul&gt;&lt;li&gt;PM2.5: 5.1 µg/m³ · PM10: 6.6 µg/m³&lt;/li&gt;&lt;li&gt;NO₂: 6.3 · O₃: 92.0 · SO₂: 2.8 · CO: 133.0 µg/m³&lt;/li&gt;&lt;li&gt;Pyłki (ziarna/m³): trawy 37.2&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="current"/>
+    <published>2026-06-11T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:day:2026-06-11</id>
+    <title>Kościelec (Chrzanów): czw. 11.06 — umiarkowany deszcz, 11°C do 16°C</title>
+    <updated>2026-06-11T15:17:59.067833+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Umiarkowany deszcz&lt;/strong&gt; · maks. 16°C · min. 11°C (odczuwalna 9°C do 15°C)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opady: 13.7 mm (prawdopodobieństwo 100%, 8.0 godz.)&lt;/li&gt;&lt;li&gt;Wiatr: do 16.2 km/h, porywy do 33.8 km/h, kierunek WNW&lt;/li&gt;&lt;li&gt;Indeks UV: 5.7&lt;/li&gt;&lt;li&gt;Nasłonecznienie: 0 h 00 min (dzień trwa 16 h 19 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:51&lt;/li&gt;&lt;li&gt;CAPE (śr.): 30 J/kg&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="forecast"/>
+    <published>2026-06-11T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:open-meteo:50.1298,19.4243:current:2026-06-11</id>
@@ -84,6 +156,15 @@
     <published>2026-06-11T00:00:00+02:00</published>
   </entry>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:solar:2026-06-10</id>
+    <title>Kościelec (Chrzanów) — nasłonecznienie 10.06: 8.25 MJ/m², słońce 0 h 00 min</title>
+    <updated>2026-06-11T15:17:59.473402+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 8.25 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 0 h 00 min (dzień trwał 16 h 18 min)&lt;/li&gt;&lt;li&gt;Wschód 04:32 · zachód 20:50&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-10T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-10</id>
     <title>Trzebinia — nasłonecznienie 10.06: 8.25 MJ/m², słońce 0 h 00 min</title>
     <updated>2026-06-11T04:08:54.658891+00:00</updated>
@@ -91,6 +172,15 @@
     <link href="https://open-meteo.com/"/>
     <category term="solar"/>
     <published>2026-06-10T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:solar:2026-06-09</id>
+    <title>Kościelec (Chrzanów) — nasłonecznienie 09.06: 21.84 MJ/m², słońce 8 h 25 min</title>
+    <updated>2026-06-11T15:17:59.473373+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 21.84 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 8 h 25 min (dzień trwał 16 h 17 min)&lt;/li&gt;&lt;li&gt;Wschód 04:33 · zachód 20:50&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-09T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-09</id>
@@ -102,6 +192,15 @@
     <published>2026-06-09T00:00:00+02:00</published>
   </entry>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:solar:2026-06-08</id>
+    <title>Kościelec (Chrzanów) — nasłonecznienie 08.06: 23.43 MJ/m², słońce 12 h 22 min</title>
+    <updated>2026-06-11T15:17:59.473343+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 23.43 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 12 h 22 min (dzień trwał 16 h 16 min)&lt;/li&gt;&lt;li&gt;Wschód 04:33 · zachód 20:49&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-08T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-08</id>
     <title>Trzebinia — nasłonecznienie 08.06: 23.43 MJ/m², słońce 12 h 22 min</title>
     <updated>2026-06-11T04:08:54.658829+00:00</updated>
@@ -109,6 +208,15 @@
     <link href="https://open-meteo.com/"/>
     <category term="solar"/>
     <published>2026-06-08T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:solar:2026-06-07</id>
+    <title>Kościelec (Chrzanów) — nasłonecznienie 07.06: 24.00 MJ/m², słońce 13 h 35 min</title>
+    <updated>2026-06-11T15:17:59.473313+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 24.00 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 13 h 35 min (dzień trwał 16 h 14 min)&lt;/li&gt;&lt;li&gt;Wschód 04:33 · zachód 20:48&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-07T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-07</id>
@@ -120,6 +228,15 @@
     <published>2026-06-07T00:00:00+02:00</published>
   </entry>
   <entry>
+    <id>urn:open-meteo:50.13133,19.41654:solar:2026-06-06</id>
+    <title>Kościelec (Chrzanów) — nasłonecznienie 06.06: 29.15 MJ/m², słońce 15 h 07 min</title>
+    <updated>2026-06-11T15:17:59.473262+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 29.15 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 15 h 07 min (dzień trwał 16 h 13 min)&lt;/li&gt;&lt;li&gt;Wschód 04:34 · zachód 20:47&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-06T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-06</id>
     <title>Trzebinia — nasłonecznienie 06.06: 29.15 MJ/m², słońce 15 h 07 min</title>
     <updated>2026-06-11T04:08:54.658767+00:00</updated>
@@ -127,6 +244,15 @@
     <link href="https://open-meteo.com/"/>
     <category term="solar"/>
     <published>2026-06-06T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:open-meteo:50.13133,19.41654:solar:2026-06-05</id>
+    <title>Kościelec (Chrzanów) — nasłonecznienie 05.06: 13.26 MJ/m², słońce 0 h 50 min</title>
+    <updated>2026-06-11T15:17:59.473205+00:00</updated>
+    <content type="html">&lt;p&gt;Pomiar satelitarny promieniowania słonecznego (Open-Meteo)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Suma promieniowania krótkofalowego: 13.26 MJ/m²&lt;/li&gt;&lt;li&gt;Czas nasłonecznienia: 0 h 50 min (dzień trwał 16 h 12 min)&lt;/li&gt;&lt;li&gt;Wschód 04:34 · zachód 20:46&lt;/li&gt;&lt;/ul&gt;</content>
+    <link href="https://open-meteo.com/"/>
+    <category term="solar"/>
+    <published>2026-06-05T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:open-meteo:50.1298,19.4243:solar:2026-06-05</id>

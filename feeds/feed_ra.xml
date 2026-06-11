@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-06-11T10:37:08.862517+00:00</updated>
+  <updated>2026-06-11T15:18:09.321014+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://ra.co/magazine" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85397</id>
+    <title>DJ Steven, cofounder of Metropolis Music and Bulgarian scene architect, dies aged 64</title>
+    <updated>2026-06-11T10:45:52+00:00</updated>
+    <content>"We can't find the words to describe the emptiness in our hearts," the promoter shared.</content>
+    <link href="https://ra.co/news/85397"/>
+    <category term="News"/>
+    <published>2026-06-11T10:45:52+00:00</published>
+  </entry>
   <entry>
     <id>https://ra.co/news/85396</id>
     <title>London festival Margins United unveils 2026 lineup</title>
@@ -1800,14 +1809,5 @@
     <link href="https://ra.co/features/4482"/>
     <category term="Feature"/>
     <published>2025-12-11T16:20:49+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ra.co/features/4481</id>
-    <title>The Best Electronic Tracks of 2000-25</title>
-    <updated>2025-12-10T16:20:43+00:00</updated>
-    <content>Alongside Records and Mixes, here are RA's favourite 550 Tracks of the 21st century so far.</content>
-    <link href="https://ra.co/features/4481"/>
-    <category term="Feature"/>
-    <published>2025-12-10T16:20:43+00:00</published>
   </entry>
 </feed>

@@ -2,14 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-11T10:35:33.951808+00:00</updated>
+  <updated>2026-06-11T15:17:50.284425+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
   <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_microsoft.xml" rel="self"/>
   <link href="https://blogs.microsoft.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <subtitle>Combined Microsoft feed: Official Microsoft Blog, Source, Signal, the Microsoft 365 Blog, and the Tech Community blogs.</subtitle>
+  <subtitle>Combined Microsoft feed: Official Microsoft Blog, On the Issues, Research, Source (global + EMEA PL), Signal, Unlocked (PL), the Microsoft 365 Blog, DevBlogs, the Microsoft 365 Developer changelog, and the Tech Community blogs.</subtitle>
+  <entry>
+    <id>https://code.visualstudio.com/updates/v1_125</id>
+    <title>Visual Studio Code 1.125</title>
+    <updated>2026-06-17T17:00:00+00:00</updated>
+    <content>Learn what's new in Visual Studio Code 1.125 (Insiders)...</content>
+    <link href="https://code.visualstudio.com/updates/v1_125"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-17T17:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/last-call-join-live-the-postgresql-community-at-posette-an-event/ba-p/4527424</id>
     <title>Last Call: Join Live the PostgreSQL Community at POSETTE: An Event for Postgres 2026 (T‑1 week)</title>
@@ -65,6 +74,24 @@
     <published>2026-06-10T22:59:40+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-10-list-view-and-create-discussions-in-github-cli</id>
+    <title>List, view, and create discussions in GitHub CLI</title>
+    <updated>2026-06-10T22:22:07+00:00</updated>
+    <content>GitHub Discussions now has a first-class home in GitHub CLI through the new gh discussion command group. This means you can browse, create, and update discussions right where you already… The post List, view, and create discussions in GitHub CLI appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-10-list-view-and-create-discussions-in-github-cli"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T22:22:07+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli</id>
+    <title>Manage sub-issues, types, and dependencies from GitHub CLI</title>
+    <updated>2026-06-10T22:20:55+00:00</updated>
+    <content>GitHub CLI now exposes issue types, parent and sub-issue relationships, and issue dependencies directly from the terminal. This means you can structure and track work without dropping into the browser… The post Manage sub-issues, types, and dependencies from GitHub CLI appeared first on The GitHub...</content>
+    <link href="https://github.blog/changelog/2026-06-10-manage-sub-issues-types-and-dependencies-from-github-cli"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T22:20:55+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/what-we-took-away-from-build-2026-as-microsoft-field-and/ba-p/4527308</id>
     <title>What We Took Away from Build 2026 as Microsoft Field and Solution Engineers</title>
     <updated>2026-06-10T22:10:54+00:00</updated>
@@ -99,6 +126,24 @@
     <link href="https://techcommunity.microsoft.com/t5/nonprofit-techies/building-nonprofit-culture-with-microsoft-viva-engage/ba-p/4527261"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-10T21:31:46+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions</id>
+    <title>Copilot Chat now sees your agent sessions</title>
+    <updated>2026-06-10T20:46:17+00:00</updated>
+    <content>We’ve improved the handoff experience between Copilot Chat and Copilot cloud agent on the web. We’ve also enabled new functionality which allows you to search and query past agent sessions… The post Copilot Chat now sees your agent sessions appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-10-copilot-chat-now-sees-your-agent-sessions"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T20:46:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565154</id>
+    <title>[Launched] Generally Available: Microsoft Entra server principals on Azure SQL Database</title>
+    <updated>2026-06-10T20:45:26+00:00</updated>
+    <content>Microsoft Entra server principals (logins) for Azure SQL Database is now generally available. You can now use CREATE LOGIN ... FROM EXTERNAL PROVIDER in the virtual master database, bringing parity with SQL logins for your Microsoft Entra identities.With...</content>
+    <link href="https://azure.microsoft.com/updates?id=565154"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T20:45:26+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/deploying-foundry-hosted-agents-from-source-code/ba-p/4527285</id>
@@ -146,6 +191,15 @@
     <published>2026-06-10T19:12:51+00:00</published>
   </entry>
   <entry>
+    <id>https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working</id>
+    <title>Is your agent extension actually working?</title>
+    <updated>2026-06-10T19:06:17+00:00</updated>
+    <content>This is the third article in a series about Agent Experience (AX): the practice of making AI coding agents work correctly with your technology. The series covers what you can and can’t control in the agent stack, how to measure whether your extensions are helping or hurting, and how to iterate toward better outcomes. You […] The post Is your agent extension actually working? appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/is-your-agent-extension-actually-working"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-06-10T19:06:17+00:00</published>
+  </entry>
+  <entry>
     <id>https://blogs.windows.com/devices/2026/06/10/computex-2026-empowering-a-billion-users-with-windows-across-the-ecosystem/</id>
     <title>Computex 2026: Empowering a billion users with Windows across the ecosystem</title>
     <updated>2026-06-10T19:05:29+00:00</updated>
@@ -191,6 +245,24 @@
     <published>2026-06-10T17:15:00+00:00</published>
   </entry>
   <entry>
+    <id>https://azure.microsoft.com/updates?id=558560</id>
+    <title>Retirement: Azure Synapse Link for Azure Cosmos DB NoSQL</title>
+    <updated>2026-06-10T17:00:06+00:00</updated>
+    <content>As of March 31, 2026, new Azure Cosmos DB NoSQL accounts can no longer enable Azure Synapse Link. Existing customers will remain fully supported until March 31, 2029, when Azure Synapse Link will reach end of life.We encourage all customers to begin migra...</content>
+    <link href="https://azure.microsoft.com/updates?id=558560"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T17:00:06+00:00</published>
+  </entry>
+  <entry>
+    <id>https://code.visualstudio.com/updates/v1_124</id>
+    <title>Visual Studio Code 1.124</title>
+    <updated>2026-06-10T17:00:00+00:00</updated>
+    <content>Learn what is new in Visual Studio Code 1.124...</content>
+    <link href="https://code.visualstudio.com/updates/v1_124"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T17:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092</id>
     <title>Transitioning from Azure Language Features to Foundry Models</title>
     <updated>2026-06-10T16:43:54+00:00</updated>
@@ -198,6 +270,24 @@
     <link href="https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/transitioning-from-azure-language-features-to-foundry-models/ba-p/4524092"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-10T16:43:54+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565393</id>
+    <title>Retirement: Azure VPN Client for Linux (Preview) will be retired on August 31, 2026</title>
+    <updated>2026-06-10T16:15:16+00:00</updated>
+    <content>The Azure VPN Client for Linux (Preview) has remained in public preview and does not have a path to general availability (GA). As part of our ongoing efforts to align Azure networking services with current security and reliability standards, this preview...</content>
+    <link href="https://azure.microsoft.com/updates?id=565393"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T16:15:16+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering</id>
+    <title>Spec-Driven Development: A Spec-First Approach to AI-Native Engineering</title>
+    <updated>2026-06-10T16:15:09+00:00</updated>
+    <content>AI has made software delivery faster, but speed alone does not guarantee better outcomes. As teams adopt AI-native development, the real challenge is keeping requirements, design, implementation, and validation aligned so the final result still reflects the original intent. Spec-Driven Development (SDD) addresses this by making structured specs the shared source of truth for both humans […] The post Spec-Driven Development: A Spec-First Approach to AI-Native Engineering appeared first on Microso</content>
+    <link href="https://devblogs.microsoft.com/blog/spec-driven-development-ai-native-engineering"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-06-10T16:15:09+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/introducing-scheduled-antivirus-scans-on-microsoft-defender/ba-p/4524578</id>
@@ -245,6 +335,15 @@
     <published>2026-06-10T14:07:56+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-10-enterprises-can-now-create-up-to-500-cost-centers</id>
+    <title>Enterprises can now create up to 500 cost centers</title>
+    <updated>2026-06-10T14:01:19+00:00</updated>
+    <content>The maximum number of cost centers you can create per enterprise has doubled from 250 to 500. If your enterprise spans hundreds or thousands of business units, departments, or product… The post Enterprises can now create up to 500 cost centers appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-10-enterprises-can-now-create-up-to-500-cost-centers"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T14:01:19+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/a-new-chapter-of-efficient-foundation-models-for-medical-imaging/ba-p/4526964</id>
     <title>A new chapter of efficient foundation models for medical imaging</title>
     <updated>2026-06-10T13:26:55+00:00</updated>
@@ -261,6 +360,24 @@
     <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/cast-and-cloudforce-offer-transactable-partner-solutions-in/ba-p/4508155"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-10T13:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-10-incremental-analysis-for-go-c-c-and-codeql-cli</id>
+    <title>Incremental analysis for Go, C/C++, and CodeQL CLI</title>
+    <updated>2026-06-10T12:02:12+00:00</updated>
+    <content>CodeQL scans on pull requests for C/C++ and Go now run incrementally, making them faster. Earlier this year, we released improved incremental analysis for CodeQL analysis of C#, Java, JavaScript/TypeScript,… The post Incremental analysis for Go, C/C++, and CodeQL CLI appeared first on The GitHub...</content>
+    <link href="https://github.blog/changelog/2026-06-10-incremental-analysis-for-go-c-c-and-codeql-cli"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T12:02:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli</id>
+    <title>Dedicated security review command now available in Copilot CLI</title>
+    <updated>2026-06-10T11:44:41+00:00</updated>
+    <content>You can now run a security review on your code changes directly from GitHub Copilot CLI. The new /security-review slash command is shipping as an experimental feature in public preview,… The post Dedicated security review command now available in Copilot CLI appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-10-dedicated-security-review-command-now-available-in-copilot-cli"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T11:44:41+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/educator-developer-blog/compliance-academy-a-multi-agent-cyber-mystery-built-on/ba-p/4526526</id>
@@ -308,6 +425,24 @@
     <published>2026-06-10T00:56:34+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-09-dependabot-version-updates-now-support-the-deno-ecosystem</id>
+    <title>Dependabot version updates now support the Deno ecosystem</title>
+    <updated>2026-06-10T00:24:41+00:00</updated>
+    <content>Dependabot now supports Deno. This applies to version updates, not security updates. Get started Add a Deno entry to your .github/dependabot.yml file, and Dependabot will start opening pull requests on… The post Dependabot version updates now support the Deno ecosystem appeared first on The GitHub...</content>
+    <link href="https://github.blog/changelog/2026-06-09-dependabot-version-updates-now-support-the-deno-ecosystem"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-10T00:24:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=562637</id>
+    <title>[In preview] Public Preview: Agent mode for GitHub Copilot in SQL Server Management Studio (SSMS)</title>
+    <updated>2026-06-09T23:45:10+00:00</updated>
+    <content>You can now use Agent mode for GitHub Copilot in SSMS to work with your database: investigating performance problems, tuning queries, reviewing maintenance and configuration, identifying security concerns, troubleshooting errors, and assisting with operat...</content>
+    <link href="https://azure.microsoft.com/updates?id=562637"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-09T23:45:10+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/marketplace-blog/multi-currency-private-offers-in-microsoft-marketplace-what/ba-p/4526868</id>
     <title>Multi-currency private offers in Microsoft Marketplace: What partners need to know</title>
     <updated>2026-06-09T22:32:09+00:00</updated>
@@ -344,6 +479,15 @@
     <published>2026-06-09T21:10:05+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12</id>
+    <title>Upcoming breaking changes for npm v12</title>
+    <updated>2026-06-09T20:04:10+00:00</updated>
+    <content>Our next npm major version, v12, introduces security-related default changes to npm install. All these changes are available behind warnings in npm today on 11.16.0 or newer, so you can… The post Upcoming breaking changes for npm v12 appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-09-upcoming-breaking-changes-for-npm-v12"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-09T20:04:10+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ginkgo-bioworks-and-microsoft-discovery-bringing-agentic-ai-to/ba-p/4526550</id>
     <title>Ginkgo Bioworks and Microsoft Discovery: Bringing agentic AI to biological discovery</title>
     <updated>2026-06-09T19:00:00+00:00</updated>
@@ -351,6 +495,24 @@
     <link href="https://techcommunity.microsoft.com/t5/azure-infrastructure-blog/ginkgo-bioworks-and-microsoft-discovery-bringing-agentic-ai-to/ba-p/4526550"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-09T19:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166</id>
+    <title>Streaming and Batch Data Architectures with Microsoft Fabric to Azure Databricks</title>
+    <updated>2026-06-09T18:48:03+00:00</updated>
+    <content>Author's: Oscar Alvarado oscaralvarado​ and Rafia Aqil Rafia_Aqil​ Note: This article describes a solution idea. Your cloud architect can use this guidance to help visualize the major components for a typical implementation. Use this article as a starting point to design a well-architected solution that aligns with your workload’s specific requirements. As organizations adopt Microsoft Fabric as their unified analytics platform, it has become a leading path for ingesting both streaming and batch</content>
+    <link href="https://techcommunity.microsoft.com/t5/analytics-on-azure-blog/streaming-and-batch-data-architectures-with-microsoft-fabric-to/ba-p/4526166"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-09T18:48:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=562084</id>
+    <title>[Launched] Generally Available: PostgreSQL Hub for Azure Developers</title>
+    <updated>2026-06-09T18:45:07+00:00</updated>
+    <content>PostgreSQL Hub for Azure Developers brings together key AI and application development resources for PostgreSQL on Azure. It includes curated sample apps and solution accelerators, tutorials, and structured learning pathways to help you build everything f...</content>
+    <link href="https://azure.microsoft.com/updates?id=562084"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-09T18:45:07+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/introducing-azure-horizondb-postgresql/ba-p/4525228</id>
@@ -369,6 +531,24 @@
     <link href="https://news.microsoft.com/signal/articles/microsoft-discovery-bhp-copper/"/>
     <category term="Microsoft Source" label="Microsoft Source"/>
     <published>2026-06-09T18:02:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488</id>
+    <title>Meet the new Copilot Studio: rebuilt for more complex, multi-step work</title>
+    <updated>2026-06-09T18:01:19+00:00</updated>
+    <content>We consistently hear feedback from our customers. You want to build more capable agents and workflows that work together naturally. You need agents that can handle multi-step tasks reliably, without breaking down midway. You need more intuitive ways to build agents so you can scale your maker workforce. That feedback helped shape the exciting improvements we’re sharing today. Starting now, customers can dive into the rebuilt, revamped Microsoft Copilot Studio. The new streamlined authoring exper</content>
+    <link href="https://techcommunity.microsoft.com/t5/copilot-studio-blog/meet-the-new-copilot-studio-rebuilt-for-more-complex-multi-step/ba-p/4526488"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-09T18:01:19+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot</id>
+    <title>Claude Fable 5 is generally available for GitHub Copilot</title>
+    <updated>2026-06-09T17:39:26+00:00</updated>
+    <content>Claude Fable 5 from Anthropic is now available in GitHub Copilot, the first model in Anthropic’s Mythos class, designed for long-horizon, autonomous coding and knowledge-work tasks. Unlike other Claude models… The post Claude Fable 5 is generally available for GitHub Copilot appeared first on The...</content>
+    <link href="https://github.blog/changelog/2026-06-09-claude-fable-5-is-generally-available-for-github-copilot"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-09T17:39:26+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/introducing-durable-functions-in-postgresql/ba-p/4526821</id>
@@ -479,6 +659,33 @@
     <published>2026-06-09T16:10:53+00:00</published>
   </entry>
   <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/agent-365-security-operations-in-defender/ba-p/4524029</id>
+    <title>Agent 365 | Security Operations in Defender</title>
+    <updated>2026-06-09T16:01:58+00:00</updated>
+    <content>Triage high-severity alerts as IT in the Microsoft 365 admin center, then pivot into the full incident graph as a SOC analyst in Microsoft Defender. Block malicious tool invocations the instant they fire and catch jailbreak attempts on Copilot Studio agents before they take hold. Trace a compromised user back to suspicious agent activity, then trigger Microsoft Entra conditional access to revoke the session and force a password reset straight from the incident. Hunt overpermissioned agents with </content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/agent-365-security-operations-in-defender/ba-p/4524029"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-09T16:01:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/modernizing-radiology-reporting-without-disrupting-care-a/ba-p/4526795</id>
+    <title>Modernizing radiology reporting—without disrupting care: A practical path to PowerScribe One</title>
+    <updated>2026-06-09T16:00:00+00:00</updated>
+    <content>With growing imaging volumes, increasing complexity, and the rapid emergence of AI, healthcare organizations are reevaluating how their reporting environments support clinicians and strengthen operational performance. They are faced with how to modernize without interrupting the work that matters most . We developed our PowerScribe One solution and implementation approach with that reality in mind. In active production across a wide range of healthcare environments (including large integrated de</content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/modernizing-radiology-reporting-without-disrupting-care-a/ba-p/4526795"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-09T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/elevate-your-telemetry-using-custom-data-collection-in-microsoft/ba-p/4512530</id>
+    <title>Elevate your telemetry using custom data collection in Microsoft Defender</title>
+    <updated>2026-06-09T16:00:00+00:00</updated>
+    <content>At Ignite in November, we announced that Microsoft Defender is now the only endpoint protection solution that allows data-hungry security teams to meet specific telemetry needs by optimizing their data collection right within the Defender portal, without the need to rely on fragmented and siloed solutions. Since then, we've heard from customers that this tool has been a game changer, enabling them to hunt through new data types as well as richer data on events already reported. The release of cu</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/elevate-your-telemetry-using-custom-data-collection-in-microsoft/ba-p/4512530"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-09T16:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://news.microsoft.com/signal/articles/why-dont-cancer-medicines-work-the-same-for-everyone-ex-vivo/</id>
     <title>Why don’t cancer medicines work the same for everyone?</title>
     <updated>2026-06-09T15:05:35+00:00</updated>
@@ -486,6 +693,15 @@
     <link href="https://news.microsoft.com/signal/articles/why-dont-cancer-medicines-work-the-same-for-everyone-ex-vivo/"/>
     <category term="Microsoft Source" label="Microsoft Source"/>
     <published>2026-06-09T15:05:35+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-office-hours-june-2026/ba-p/4526529</id>
+    <title>OneDrive Office Hours | June 2026</title>
+    <updated>2026-06-09T15:00:00+00:00</updated>
+    <content>Get ready for the June OneDrive Customer Office Hours! This session creates space for open conversation around the latest updates and how they support the way you use your files every day. In this month’s session, we’ll walk through what’s new and open the floor for questions, feedback, and shared experiences. Join us for our next call Date: June 17, 2026 Time: 8:00 AM-9:00 AM Pacific Time (US &amp; Canada) Special Topic: OneDrive. Cloud. Microsoft.  with Stephen Rice &amp; Lauren Bell Register Today: a</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-onedrive-blog/onedrive-office-hours-june-2026/ba-p/4526529"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-09T15:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/</id>
@@ -524,6 +740,15 @@
     <published>2026-06-09T12:00:10+00:00</published>
   </entry>
   <entry>
+    <id>https://news.microsoft.com/source/emea/2026/06/najwiekszy-blad-traktowac-cyberbezpieczenstwo-jako-problem-it/?lang=pl</id>
+    <title>Największy błąd? Traktować cyberbezpieczeństwo jako problem IT</title>
+    <updated>2026-06-09T10:10:16+00:00</updated>
+    <content>The post Największy błąd? Traktować cyberbezpieczeństwo jako problem IT appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/06/najwiekszy-blad-traktowac-cyberbezpieczenstwo-jako-problem-it/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-06-09T10:10:16+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-azure-container-apps-and-jobs-for-net-and-django/ba-p/4518303</id>
     <title>Troubleshooting Azure Container Apps and Jobs for .NET and Django Workloads</title>
     <updated>2026-06-09T07:58:44+00:00</updated>
@@ -542,6 +767,24 @@
     <published>2026-06-09T07:40:42+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories</id>
+    <title>Periodic code scanning of inactive repositories</title>
+    <updated>2026-06-09T07:21:22+00:00</updated>
+    <content>GitHub code scanning now supports scheduled security scans of repositories that have had no pushes or pull requests for six months or more. Organizations can use this to maintain continuous… The post Periodic code scanning of inactive repositories appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-09-periodic-code-scanning-of-inactive-repositories"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-09T07:21:22+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents</id>
+    <title>Security validation for third-party coding agents</title>
+    <updated>2026-06-09T07:12:54+00:00</updated>
+    <content>Security validation for third-party coding agents is now generally available. GitHub supports third-party coding agents (including Claude and OpenAI Codex) that work directly within your repositories to implement features, fix… The post Security validation for third-party coding agents appeared...</content>
+    <link href="https://github.blog/changelog/2026-06-09-security-validation-for-third-party-coding-agents"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-09T07:12:54+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569</id>
     <title>What's new in Azure App Service at #MSBuild 2026</title>
     <updated>2026-06-08T22:30:40+00:00</updated>
@@ -549,6 +792,15 @@
     <link href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/what-s-new-in-azure-app-service-at-msbuild-2026/ba-p/4526569"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-08T22:30:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/build-recap</id>
+    <title>Microsoft Build 2026 recap: vision, launches, and top sessions</title>
+    <updated>2026-06-08T22:15:00+00:00</updated>
+    <content>Catch up on Microsoft Build 2026 with the vision lead-off, top developer announcements, and must-watch sessions across the Microsoft developer ecosystem. The post Microsoft Build 2026 recap: vision, launches, and top sessions appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/build-recap"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-06-08T22:15:00+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-entra-blog/tools-for-azure-ad-b2c-migration-now-available/ba-p/4525678</id>
@@ -668,6 +920,15 @@
     <published>2026-06-08T18:16:45+00:00</published>
   </entry>
   <entry>
+    <id>https://azure.microsoft.com/updates?id=565271</id>
+    <title>[Launched] Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines</title>
+    <updated>2026-06-08T18:15:14+00:00</updated>
+    <content>Azure NCv6-series virtual machines (VMs) are now generally available in the Azure Southeast Asia and West US 2 regions. NCv6 VMs are powered by NVIDIA RTX PRO 6000 Blackwell Server Edition graphics processing units (GPUs) with each GPU featuring 96 GB of...</content>
+    <link href="https://azure.microsoft.com/updates?id=565271"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T18:15:14+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/apps-on-azure-blog/designing-for-high-availability-the-operational-reference-for/ba-p/4526465</id>
     <title>Designing for High Availability: The Operational Reference for Running a Geo-Replicated ACR</title>
     <updated>2026-06-08T18:07:21+00:00</updated>
@@ -677,6 +938,15 @@
     <published>2026-06-08T18:07:21+00:00</published>
   </entry>
   <entry>
+    <id>https://azure.microsoft.com/updates?id=565359</id>
+    <title>[Launched] Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines</title>
+    <updated>2026-06-08T18:00:23+00:00</updated>
+    <content>Azure Premium SSD v2 disks now support non-zonal, single-instance Azure virtual machines in select Azure regions with Availability Zones (AZs). Customers can now deploy Premium SSD v2 with non-zonal virtual machines without selecting an Availability Zone...</content>
+    <link href="https://azure.microsoft.com/updates?id=565359"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T18:00:23+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714</id>
     <title>Connect Metrics to Traces with Exemplars in Azure Monitor</title>
     <updated>2026-06-08T17:21:43+00:00</updated>
@@ -684,6 +954,37 @@
     <link href="https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-08T17:21:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565171</id>
+    <title>[In preview] Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license</title>
+    <updated>2026-06-08T17:15:43+00:00</updated>
+    <content>Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in Defender will be powered by Agent 365 observability logs a...</content>
+    <link href="https://azure.microsoft.com/updates?id=565171"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T17:15:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=563756</id>
+    <title>[Launched] Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand, view and download</title>
+    <updated>2026-06-08T17:15:43+00:00</updated>
+    <content>Enhanced maintenance control capabilities are now generally available for Azure Database for PostgreSQL Flexible Server. These new capabilities give you greater visibility and flexibility in managing platform maintenance events, helping reduce disruption...</content>
+    <link href="https://azure.microsoft.com/updates?id=563756"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T17:15:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565103</id>
+    <title>[In preview] Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.</title>
+    <updated>2026-06-08T17:15:43+00:00</updated>
+    <content>Azure Site Recovery
+now supports replication and disaster recovery for Linux Azure Virtual Machines
+running on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa
+v6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is
+limited t...</content>
+    <link href="https://azure.microsoft.com/updates?id=565103"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T17:15:43+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/intune-customer-success/mdop-is-out-of-support-what-to-do-next-with-microsoft-intune/ba-p/4526024</id>
@@ -713,6 +1014,24 @@
     <published>2026-06-08T16:30:00+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-08-ip-allow-list-coverage-for-emu-namespaces-in-general-availability</id>
+    <title>IP allow list coverage for EMU namespaces in general availability</title>
+    <updated>2026-06-08T16:26:25+00:00</updated>
+    <content>GitHub Enterprise Cloud with Enterprise Managed Users (EMUs) can now enforce GitHub’s native IP allow list configuration across user namespaces. This feature is now generally available. EMUs allow the enterprise… The post IP allow list coverage for EMU namespaces in general availability appeared...</content>
+    <link href="https://github.blog/changelog/2026-06-08-ip-allow-list-coverage-for-emu-namespaces-in-general-availability"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T16:26:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=564873</id>
+    <title>[In preview] Public Preview: Azure Managed Redis now supports Entra ID based RBAC for data management</title>
+    <updated>2026-06-08T16:15:40+00:00</updated>
+    <content>With role-based access control (RBAC) for Azure Managed Redis data access, you can precisely control who can read, write, or administer your Redis data using Microsoft Entra ID—without relying on shared keys. Built on top of Redis Access Control Lists (AC...</content>
+    <link href="https://azure.microsoft.com/updates?id=564873"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-08T16:15:40+00:00</published>
+  </entry>
+  <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/make-upgrades-predictable-with-pre-upgrade-validation-checks/ba-p/4522593</id>
     <title>Make upgrades predictable with Pre-Upgrade Validation Checks</title>
     <updated>2026-06-08T15:55:19+00:00</updated>
@@ -740,6 +1059,51 @@
     <published>2026-06-07T16:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated</id>
+    <title>GPT-5.2 and GPT-5.2-Codex deprecated</title>
+    <updated>2026-06-05T22:32:00+00:00</updated>
+    <content>As of today, June 5, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post GPT-5.2 and GPT-5.2-Codex deprecated appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-05-gpt-5-2-and-gpt-5-2-codex-deprecated"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-05T22:32:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-05-codeql-2-25-6-adds-swift-6-3-2-support-and-improves-c-coverage</id>
+    <title>CodeQL 2.25.6 adds Swift 6.3.2 support and improves C# coverage</title>
+    <updated>2026-06-05T21:30:57+00:00</updated>
+    <content>CodeQL is the static analysis engine behind GitHub code scanning, which finds and remediates security issues in your code. We’ve recently released CodeQL 2.25.6, which adds Swift 6.3.2 support, completes… The post CodeQL 2.25.6 adds Swift 6.3.2 support and improves C# coverage appeared first on The...</content>
+    <link href="https://github.blog/changelog/2026-06-05-codeql-2-25-6-adds-swift-6-3-2-support-and-improves-c-coverage"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-05T21:30:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview</id>
+    <title>Enterprise-managed plugins in VS Code in public preview</title>
+    <updated>2026-06-05T21:01:48+00:00</updated>
+    <content>Last month we launched a public preview with Copilot CLI that allows enterprise administrators the ability to configure and distribute plugins to GitHub Copilot CLI users across their enterprise. VS… The post Enterprise-managed plugins in VS Code in public preview appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-05-enterprise-managed-plugins-in-vs-code-in-public-preview"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-05T21:01:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565286</id>
+    <title>[In preview] Public Preview: Ingestion Volume Change dashboard in Metrics Usage Insights</title>
+    <updated>2026-06-05T20:45:48+00:00</updated>
+    <content>Metrics Usage Insights now includes an Ingestion Volume Change dashboard to help you compare ingestion volume over time. Quickly detect spikes or drops in time series counts and event ingestion rates, enabling faster investigation of cost changes and more...</content>
+    <link href="https://azure.microsoft.com/updates?id=565286"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-05T20:45:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=564981</id>
+    <title>[In development] Private Preview: Guest RDMA on Azure Boost</title>
+    <updated>2026-06-05T20:30:12+00:00</updated>
+    <content>Guest RDMA is now in preview on Azure, starting in the UK South region, bringing high-throughput, ultra-low latency networking directly into guest VMs within the same region. By using Azure Boost to enable RDMA in the guest OS, applications can bypass the...</content>
+    <link href="https://azure.microsoft.com/updates?id=564981"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-05T20:30:12+00:00</published>
+  </entry>
+  <entry>
     <id>https://news.microsoft.com/signal/articles/imagine-cup-2026-student-ai-competition/</id>
     <title>Imagine Cup 2026: Global tech competitions help students prepare for an AI future</title>
     <updated>2026-06-05T19:23:58+00:00</updated>
@@ -747,6 +1111,28 @@
     <link href="https://news.microsoft.com/signal/articles/imagine-cup-2026-student-ai-competition/"/>
     <category term="Microsoft Source" label="Microsoft Source"/>
     <published>2026-06-05T19:23:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=564176</id>
+    <title>[In preview] Public Preview: Voice sync for avatar support in Voice Live API in Microsoft Foundry</title>
+    <updated>2026-06-04T22:15:50+00:00</updated>
+    <content>In public preview, Microsoft Foundry now supports avatar voice sync with custom voices in the Voice Live API, allowing developers to pair branded or persona-specific text-to-speech voices with real-time avatar experiences. This update helps teams building...</content>
+    <link href="https://azure.microsoft.com/updates?id=564176"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T22:15:50+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=564563</id>
+    <title>[Launched] Generally Available: Azure Files assessments are now available worldwide using Azure Migrate</title>
+    <updated>2026-06-04T21:45:11+00:00</updated>
+    <content>We’re pleased to
+announce that Azure Migrate now generally supports discovery and assessment
+of SMB and NFS file shares hosted on Windows and Linux servers. This gives
+customers a complete, data-driven view of their file share environment and a
+clear path...</content>
+    <link href="https://azure.microsoft.com/updates?id=564563"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T21:45:11+00:00</published>
   </entry>
   <entry>
     <id>https://news.microsoft.com/signal/articles/5-lessons-from-the-front-lines-of-workplace-ai/</id>
@@ -758,6 +1144,54 @@
     <published>2026-06-04T21:38:07+00:00</published>
   </entry>
   <entry>
+    <id>https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max</id>
+    <title>Fix with Copilot for failing Actions now in Pro, Pro+, and Max</title>
+    <updated>2026-06-04T20:46:11+00:00</updated>
+    <content>When a GitHub Actions job fails, Copilot Pro, Pro+, and Max subscribers can now ask Copilot cloud agent to fix it in one click. Click the Fix with Copilot button… The post Fix with Copilot for failing Actions now in Pro, Pro+, and Max appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-04-fix-with-copilot-for-failing-actions-now-in-pro-pro-and-max"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T20:46:11+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max</id>
+    <title>Agent tasks REST API now available for Copilot Pro, Pro+, and Max</title>
+    <updated>2026-06-04T20:42:10+00:00</updated>
+    <content>Copilot Pro, Pro+, and Max users can now programmatically start and track Copilot cloud agent tasks with the Agent tasks REST API, available in public preview. Copilot cloud agent works… The post Agent tasks REST API now available for Copilot Pro, Pro+, and Max appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-04-agent-tasks-rest-api-now-available-for-copilot-pro-pro-and-max"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T20:42:10+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-04-budget-and-usage-management-apis-now-generally-available</id>
+    <title>Budget and usage management APIs now generally available</title>
+    <updated>2026-06-04T19:46:34+00:00</updated>
+    <content>GitHub’s expanded billing APIs to programmatically manage budgets, track usage, and access cost center data are now generally available. Manage budgets via APIs You can now manage the full lifecycle… The post Budget and usage management APIs now generally available appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-06-04-budget-and-usage-management-apis-now-generally-available"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T19:46:34+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565090</id>
+    <title>[Launched] Generally Available: Ingest OTLP signals into Azure Monitor with the OpenTelemetry Collector</title>
+    <updated>2026-06-04T19:45:40+00:00</updated>
+    <content>Azure Monitor's support for native ingestion of OpenTelemetry Protocol (OTLP) signals is now generally available. This enables you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure Monitor. You can configu...</content>
+    <link href="https://azure.microsoft.com/updates?id=565090"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T19:45:40+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=565182</id>
+    <title>[In preview] Public Preview: AI pipelines in Azure HorizonDB</title>
+    <updated>2026-06-04T19:45:40+00:00</updated>
+    <content>AI pipelines for Azure HorizonDB is now
+available in public preview. AI pipelines let you describe an AI data ingestion
+workflow, chunking, embedding, extraction, generation, and ranking,
+declaratively in SQL, and run it as a fault-tolerant pipeline insid...</content>
+    <link href="https://azure.microsoft.com/updates?id=565182"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T19:45:40+00:00</published>
+  </entry>
+  <entry>
     <id>https://news.microsoft.com/signal/articles/as-ai-meets-biology-both-promise-and-potential-peril-grow/</id>
     <title>As AI meets biology, both promise and potential peril grow</title>
     <updated>2026-06-04T19:32:34+00:00</updated>
@@ -767,6 +1201,33 @@
     <published>2026-06-04T19:32:34+00:00</published>
   </entry>
   <entry>
+    <id>https://azure.microsoft.com/updates?id=563446</id>
+    <title>[In preview] Public Preview: Azure SQL as a knowledge source in Foundry IQ</title>
+    <updated>2026-06-04T19:30:58+00:00</updated>
+    <content>Microsoft Foundry adds Azure SQL Database as a first-class Knowledge Source in Azure AI Search, available in public preview. Enterprise developers and solution architects building Copilot, RAG, and agentic experiences can now expose authoritative tables a...</content>
+    <link href="https://azure.microsoft.com/updates?id=563446"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T19:30:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=563451</id>
+    <title>[In preview] Public Preview: APIM Support for Foundry Models in Azure AI Search</title>
+    <updated>2026-06-04T19:30:58+00:00</updated>
+    <content>Microsoft Foundry brings Azure API Management support to all Foundry model integrations in Azure AI Search, now in public preview. Enterprise platform engineers and AI solution teams running large-scale RAG pipelines can place Foundry and Azure OpenAI mod...</content>
+    <link href="https://azure.microsoft.com/updates?id=563451"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T19:30:58+00:00</published>
+  </entry>
+  <entry>
+    <id>https://azure.microsoft.com/updates?id=563506</id>
+    <title>[In preview] Public Preview: Tool search in Microsoft Foundry toolboxes</title>
+    <updated>2026-06-04T19:30:58+00:00</updated>
+    <content>Microsoft Foundry adds tool search to Foundry toolboxes in public preview, giving developers and admins a fast way to find the right tool inside large, multi-team catalogs. As your toolbox grows, sending every tool definition on every turn gets expensive...</content>
+    <link href="https://azure.microsoft.com/updates?id=563506"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-04T19:30:58+00:00</published>
+  </entry>
+  <entry>
     <id>https://news.microsoft.com/signal/articles/microsoft-7-new-ai-models-build/</id>
     <title>Microsoft launches 7 new AI models at Build conference</title>
     <updated>2026-06-04T19:22:17+00:00</updated>
@@ -774,6 +1235,15 @@
     <link href="https://news.microsoft.com/signal/articles/microsoft-7-new-ai-models-build/"/>
     <category term="Microsoft Signal" label="Microsoft Signal"/>
     <published>2026-06-04T19:22:17+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/06/04/strengthening-biosecurity-in-the-era-of-ai/</id>
+    <title>Strengthening biosecurity in the era of AI</title>
+    <updated>2026-06-04T09:00:02+00:00</updated>
+    <content>Artificial intelligence is accelerating discovery across the life sciences. From drug development to materials science, AI is helping researchers move faster and solve problems once thought intractable. This convergence of AI and biology holds extraordinary promise for human health, economic growth, and scientific leadership. At the same time, advances in AI technologies are introducing new risks, like re-engineered toxins and pathogens. As... The post Strengthening biosecurity in the era of AI </content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/06/04/strengthening-biosecurity-in-the-era-of-ai/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-06-04T09:00:02+00:00</published>
   </entry>
   <entry>
     <id>https://news.microsoft.com/signal/articles/microsoft-build-2026-2/</id>
@@ -830,6 +1300,24 @@
     <published>2026-06-02T17:00:15+00:00</published>
   </entry>
   <entry>
+    <id>https://news.microsoft.com/source/emea/2026/06/polska-na-rozdrozu-ai-od-adopcji-do-przewagi-konkurencyjnej/?lang=pl</id>
+    <title>Polska na rozdrożu AI: od adopcji do przewagi konkurencyjnej</title>
+    <updated>2026-06-02T10:22:21+00:00</updated>
+    <content>The post Polska na rozdrożu AI: od adopcji do przewagi konkurencyjnej appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/06/polska-na-rozdrozu-ai-od-adopcji-do-przewagi-konkurencyjnej/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-06-02T10:22:21+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/06/ma-17-lat-i-uczy-innych-ai-historia-borysa-ktory-jest-gotowy-na-jutro/?lang=pl</id>
+    <title>Ma 17 lat i uczy innych AI. Historia Borysa, który jest „Gotowy na Jutro”</title>
+    <updated>2026-06-01T07:53:02+00:00</updated>
+    <content>The post Ma 17 lat i uczy innych AI. Historia Borysa, który jest „Gotowy na Jutro” appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/06/ma-17-lat-i-uczy-innych-ai-historia-borysa-ktory-jest-gotowy-na-jutro/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-06-01T07:53:02+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/</id>
     <title>Introducing Microsoft 365 Business with Copilot: The new standard for small business</title>
     <updated>2026-05-28T19:00:00+00:00</updated>
@@ -837,6 +1325,24 @@
     <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/"/>
     <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
     <published>2026-05-28T19:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/improve-your-agentic-developer-tools-by-grounding-in-microsoft-learn</id>
+    <title>Improve your agentic developer tools by grounding in Microsoft Learn</title>
+    <updated>2026-05-28T17:00:52+00:00</updated>
+    <content>Development workflows span terminals, IDEs, background agents, and custom assistants. What matters is whether they draw from the same current source. Learn MCP Server gives any MCP-compatible agent direct access to current Microsoft documentation – one endpoint, nothing to install, no authentication required. What does that look like in practice? You give your coding agent […] The post Improve your agentic developer tools by grounding in Microsoft Learn appeared first on Microsoft for Developers</content>
+    <link href="https://devblogs.microsoft.com/blog/improve-your-agentic-developer-tools-by-grounding-in-microsoft-learn"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-05-28T17:00:52+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/</id>
+    <title>Data Formulator 0.7: AI-powered data analytics for enterprise data</title>
+    <updated>2026-05-28T16:00:00+00:00</updated>
+    <content>Data Formulator introduces AI-powered analytics for enterprise data workflows. Data teams can easily bring enterprise data into an AI-ready workspace where users can explore, analyze, and visualize data with AI agents to turn raw data into actionable insights. The post Data Formulator 0.7: AI-powered data analytics for enterprise data appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/data-formulator-0-7-ai-powered-data-analytics-for-enterprise-data/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-28T16:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/</id>
@@ -848,6 +1354,42 @@
     <published>2026-05-28T15:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/28/united-states-ai-adoption-shows-steady-growth-but-distribution-remains-uneven/</id>
+    <title>United States AI adoption shows steady growth, but distribution remains uneven</title>
+    <updated>2026-05-28T13:01:01+00:00</updated>
+    <content>More than 30 percent of the US working-age population is using AI, an increase of three percentage points from the end of 2025. But what does that number mean, and what lessons should we take from it? Today Microsoft released a new report that offers an in-depth look at AI adoption across the United States,... The post United States AI adoption shows steady growth, but distribution remains uneven appeared first on Microsoft On the Issues .</content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/28/united-states-ai-adoption-shows-steady-growth-but-distribution-remains-uneven/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-28T13:01:01+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology</id>
+    <title>How AI coding agents actually use your technology</title>
+    <updated>2026-05-27T18:30:38+00:00</updated>
+    <content>You ship an SDK, a CLI, an API, and developers use it. Now AI coding agents use it too, except they use it differently than humans do. Most of the time you have no idea what’s actually happening between “developer types a prompt” and “agent generates code with your technology.” Is the agent reading your […] The post How AI coding agents actually use your technology appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/how-ai-coding-agents-actually-use-your-technology"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-05-27T18:30:38+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/27/strengthening-our-approach-to-tackling-non-consensual-intimate-imagery/</id>
+    <title>Strengthening our approach to tackling non-consensual intimate imagery</title>
+    <updated>2026-05-27T16:04:15+00:00</updated>
+    <content>When intimate images are shared without consent—whether real or AI-generated—the harm is immediate, deeply personal, and often long-lasting. It can affect someone’s sense of safety, dignity, and control, both online and offline. Protecting people from harms like non-consensual intimate imagery (NCII) has long been a priority for Microsoft. And as technology advances, our response continues... The post Strengthening our approach to tackling non-consensual intimate imagery appeared first on Micros</content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/27/strengthening-our-approach-to-tackling-non-consensual-intimate-imagery/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-27T16:04:15+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/</id>
+    <title>Extending Human Intelligence Through AI</title>
+    <updated>2026-05-27T16:00:00+00:00</updated>
+    <content>Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-27T16:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/</id>
     <title>New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences</title>
     <updated>2026-05-26T16:00:00+00:00</updated>
@@ -855,6 +1397,42 @@
     <link href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/"/>
     <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
     <published>2026-05-26T16:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/05/z-ciszy-na-scene-tedx-jak-ai-wspiera-dominike-kazdego-dnia/?lang=pl</id>
+    <title>Z ciszy na scenę TEDx. Jak AI wspiera Dominikę każdego dnia</title>
+    <updated>2026-05-26T10:29:33+00:00</updated>
+    <content>The post Z ciszy na scenę TEDx. Jak AI wspiera Dominikę każdego dnia appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/05/z-ciszy-na-scene-tedx-jak-ai-wspiera-dominike-kazdego-dnia/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-05-26T10:29:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win</id>
+    <title>The AX stack: what’s fixed, where you can win</title>
+    <updated>2026-05-21T17:39:59+00:00</updated>
+    <content>AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t configured […] The post The AX stack: what’s fixed, where you can win appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-05-21T17:39:59+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/</id>
+    <title>MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models</title>
+    <updated>2026-05-21T17:00:00+00:00</updated>
+    <content>MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-21T17:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/</id>
+    <title>Vega: Zero-knowledge proofs for digital identity in the age of AI</title>
+    <updated>2026-05-21T13:48:40+00:00</updated>
+    <content>Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-21T13:48:40+00:00</published>
   </entry>
   <entry>
     <id>https://blogs.microsoft.com/blog/2026/05/21/from-ai-pilots-to-enterprise-impact-why-execution-is-the-new-differentiator/</id>
@@ -866,6 +1444,87 @@
     <published>2026-05-21T11:02:33+00:00</published>
   </entry>
   <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service/</id>
+    <title>Disrupting Fox Tempest: A cybercrime service that turned “verified” software into a pathway for ransomware</title>
+    <updated>2026-05-19T15:03:18+00:00</updated>
+    <content>Every day, we decide what software to trust in seconds guided by simple labels such as “verified,” “secure,” and “safe to install.” The problem is that those signs can be manipulated. Today, Microsoft unsealed a legal case in the US District Court for the Southern District of New York targeting a cybercrime service known as Fox Tempest,... The post Disrupting Fox Tempest: A cybercrime service that turned “verified” software into a pathway for ransomware appeared first on Microsoft On the Issues </content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/19/disrupting-fox-tempest-a-cybercrime-service/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-19T15:03:18+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts</id>
+    <title>Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts)</title>
+    <updated>2026-05-19T15:00:09+00:00</updated>
+    <content>“A bad system will beat a good person [or agent] every time” ~Dr. William Edwards Deming (with apologies) I started vibe coding by writing prompts (often dictated into my phone), refining them with an agent in M365 Copilot, and creating handoff files to use with GitHub Copilot CLI. The results were predictably non-deterministic. Prompt-driven development […] The post Agentic-Agile: Why Agent Development Needs Agile (Not Just Prompts) appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/agentic-agile-why-agent-development-needs-agile-not-just-prompts"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-05-19T15:00:09+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/05/polska-inzynierka-ai-rozwija-technologie-autonomicznej-jazdy-w-brytyjskim-wayve/?lang=pl</id>
+    <title>Polska inżynierka AI rozwija technologię autonomicznej jazdy w brytyjskim Wayve</title>
+    <updated>2026-05-19T08:03:13+00:00</updated>
+    <content>The post Polska inżynierka AI rozwija technologię autonomicznej jazdy w brytyjskim Wayve appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/05/polska-inzynierka-ai-rozwija-technologie-autonomicznej-jazdy-w-brytyjskim-wayve/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-05-19T08:03:13+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/</id>
+    <title>Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability</title>
+    <updated>2026-05-15T18:06:57+00:00</updated>
+    <content>Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. The research aims to develop robust evaluation methods for long-horizon delegated and […] The post Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability appeared first on Microsoft Researc</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-15T18:06:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/05/jak-liderzy-innowacji-przebudowuja-modele-operacyjne-na-potrzeby-ery-ai/?lang=pl</id>
+    <title>Jak liderzy innowacji przebudowują modele operacyjne na potrzeby ery AI</title>
+    <updated>2026-05-14T08:29:57+00:00</updated>
+    <content>The post Jak liderzy innowacji przebudowują modele operacyjne na potrzeby ery AI appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/05/jak-liderzy-innowacji-przebudowuja-modele-operacyjne-na-potrzeby-ery-ai/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-05-14T08:29:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/</id>
+    <title>mimalloc: A new, high-performance, scalable memory allocator for the modern era</title>
+    <updated>2026-05-13T17:19:59+00:00</updated>
+    <content>mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projects. It provides bounded worst-case allocation times (up to OS primitives), bounded space overhead, low internal fragmentation, and minimal contention by relying almost exclusively on atomic operations. The post mimalloc: A new, high-performance, scalable memory</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-13T17:19:59+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/</id>
+    <title>GridSFM: A new, small foundation model for the electric grid</title>
+    <updated>2026-05-13T16:00:20+00:00</updated>
+    <content>Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and system health. The post GridSFM: A new, small foundation model for the electric grid appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-13T16:00:20+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/05/polska-na-mapie-rewolucji-ai-bez-dlugu-technologicznego-z-szansa-na-pozycje-lidera/?lang=pl</id>
+    <title>Polska na mapie rewolucji AI: bez długu technologicznego, z szansą na pozycję lidera</title>
+    <updated>2026-05-13T08:46:25+00:00</updated>
+    <content>The post Polska na mapie rewolucji AI: bez długu technologicznego, z szansą na pozycję lidera appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/05/polska-na-mapie-rewolucji-ai-bez-dlugu-technologicznego-z-szansa-na-pozycje-lidera/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-05-13T08:46:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/</id>
+    <title>Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models</title>
+    <updated>2026-05-12T13:00:00+00:00</updated>
+    <content>MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-12T13:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/</id>
     <title>New and improved: Agent governance, intelligent workflows, and connected app experiences</title>
     <updated>2026-05-11T17:25:12+00:00</updated>
@@ -873,6 +1532,69 @@
     <link href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/"/>
     <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
     <published>2026-05-11T17:25:12+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/</id>
+    <title>SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests</title>
+    <updated>2026-05-11T17:19:28+00:00</updated>
+    <content>Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-11T17:19:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/</id>
+    <title>Building realistic electric transmission grid dataset at scale: a pipeline from open dataset</title>
+    <updated>2026-05-08T19:53:56+00:00</updated>
+    <content>Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic […] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset ap</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-05-08T19:53:56+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/05/juz-co-trzeci-polak-korzysta-z-generatywnej-ai-nowy-etap-dojrzalosci-rynku-wedlug-raportu-global-ai-diffusion/?lang=pl</id>
+    <title>Już co trzeci Polak korzysta z generatywnej AI. Nowy etap dojrzałości rynku według raportu Global AI Diffusion</title>
+    <updated>2026-05-08T08:57:27+00:00</updated>
+    <content>The post Już co trzeci Polak korzysta z generatywnej AI. Nowy etap dojrzałości rynku według raportu Global AI Diffusion appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/05/juz-co-trzeci-polak-korzysta-z-generatywnej-ai-nowy-etap-dojrzalosci-rynku-wedlug-raportu-global-ai-diffusion/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-05-08T08:57:27+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/</id>
+    <title>The state of global AI diffusion in 2026</title>
+    <updated>2026-05-07T13:14:51+00:00</updated>
+    <content>Today we published our latest Global AI Diffusion Report. The global adoption of artificial intelligence continued to rise in the first quarter of 2026. During the quarter, AI usage increased by 1.5 percentage points from 16.3% to 17.8% of the world’s working age population. Intensity of use among economies with the highest rates of AI... The post The state of global AI diffusion in 2026 appeared first on Microsoft On the Issues .</content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/07/the-state-of-global-ai-diffusion-in-2026/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-07T13:14:51+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/05/czy-matura-wystarczy-w-erze-ai-wedlug-najnowszego-raportu-work-trend-index-80-zaawansowanych-uzytkownikow-ai-przekracza-swoje-mozliwosci-sprzed-roku/?lang=pl</id>
+    <title>Czy matura wystarczy w erze AI? Według najnowszego raportu Work Trend Index 80% zaawansowanych użytkowników AI przekracza swoje możliwości sprzed roku</title>
+    <updated>2026-05-06T09:11:28+00:00</updated>
+    <content>The post Czy matura wystarczy w erze AI? Według najnowszego raportu Work Trend Index 80% zaawansowanych użytkowników AI przekracza swoje możliwości sprzed roku appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/05/czy-matura-wystarczy-w-erze-ai-wedlug-najnowszego-raportu-work-trend-index-80-zaawansowanych-uzytkownikow-ai-przekracza-swoje-mozliwosci-sprzed-roku/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-05-06T09:11:28+00:00</published>
+  </entry>
+  <entry>
+    <id>https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production</id>
+    <title>Azure Cosmos DB Conf 2026 Recap: Lessons from Production</title>
+    <updated>2026-05-05T19:30:25+00:00</updated>
+    <content>A team was running at 100% RU utilization. Throttles were compounding into retries. P99 latency was degrading. The assumption was obvious: provision more throughput. They didn’t. Instead, they found a single logical partition absorbing more than 80% of traffic. After fixing the data model—without scaling the database—RU utilization dropped to 20–35%, throttling vanished, and latency […] The post Azure Cosmos DB Conf 2026 Recap: Lessons from Production appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/azure-cosmos-db-conf-2026-recap-lessons-from-production"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-05-05T19:30:25+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk/</id>
+    <title>Advancing AI evaluation with the Center for AI Standards (US) and Innovation and the AI Security Institute (UK)</title>
+    <updated>2026-05-05T15:02:06+00:00</updated>
+    <content>Today, Microsoft is announcing new agreements with the Center for AI Standards and Innovation (CAISI) in the US and the AI Security Institute (AISI) in the UK to advance the science of AI testing and evaluation, including through collaborative work to test Microsoft’s frontier models, assess safeguards, and help mitigate national security and large-scale public safety risks. These agreements matter because ongoing, rigorous testing is essential to building... The post Advancing AI evaluation wit</content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/05/advancing-ai-evaluation-with-the-center-for-ai-standards-us-and-innovation-and-the-ai-security-institute-uk/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-05T15:02:06+00:00</published>
   </entry>
   <entry>
     <id>https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/</id>
@@ -902,6 +1624,15 @@
     <published>2026-05-05T10:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/04/strengthening-cyber-capacity-in-kenya-a-new-toolkit-with-lessons-for-the-region/</id>
+    <title>Strengthening cyber capacity in Kenya: A new toolkit with lessons for the region</title>
+    <updated>2026-05-04T14:00:03+00:00</updated>
+    <content>When a major cyber incident hits, the first decisions aren’t technical—they’re human. Who takes the lead? How quickly can information be shared? When should governments step in, and how do you protect public trust while keeping essential services running?  These questions are at the heart of Microsoft’s Advancing Regional Cybersecurity (ARC) initiative, launched in 2025 to help governments strengthen cyber preparedness through... The post Strengthening cyber capacity in Kenya: A new toolkit with</content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/04/strengthening-cyber-capacity-in-kenya-a-new-toolkit-with-lessons-for-the-region/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-04T14:00:03+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/</id>
     <title>Microsoft Agent 365, now generally available, expands capabilities and integrations</title>
     <updated>2026-05-01T15:00:00+00:00</updated>
@@ -909,6 +1640,33 @@
     <link href="https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/"/>
     <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
     <published>2026-05-01T15:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/05/01/from-capability-to-responsibility-securing-our-global-digital-ecosystem-with-next-generation-ai/</id>
+    <title>From capability to responsibility: Securing our global digital ecosystem with next‑generation AI</title>
+    <updated>2026-05-01T14:00:34+00:00</updated>
+    <content>Cybersecurity is at a turning point. Advanced AI models are dramatically accelerating vulnerability discovery and creating conditions ripe for exploitation, underscored by the announcement of Claude Mythos Preview. This marks a shift, and whether this technology will favor defenders or attackers will depend on the choices we make now.  With the right safeguards, these capabilities can help trusted defenders identify and fix vulnerabilities across critical systems in hospitals, power grids, water</content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/05/01/from-capability-to-responsibility-securing-our-global-digital-ecosystem-with-next-generation-ai/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-05-01T14:00:34+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/04/europejskie-zobowiazania-cyfrowe-rok-realnych-postepow/?lang=pl</id>
+    <title>Europejskie zobowiązania cyfrowe – rok realnych postępów</title>
+    <updated>2026-04-30T09:22:05+00:00</updated>
+    <content>The post Europejskie zobowiązania cyfrowe – rok realnych postępów appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/04/europejskie-zobowiazania-cyfrowe-rok-realnych-postepow/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-04-30T09:22:05+00:00</published>
+  </entry>
+  <entry>
+    <id>https://blogs.microsoft.com/on-the-issues/2026/04/29/one-year-on-progress-on-our-european-digital-commitments/</id>
+    <title>One year on: Progress on our European digital commitments</title>
+    <updated>2026-04-30T06:00:10+00:00</updated>
+    <content>Europe is moving fast to capture the benefits of artificial intelligence, recognizing its potential to raise productivity, strengthen competitiveness, and help modernize public services. At the same time, organizations across Europe are focused on digital sovereignty and resilience: retaining control over their data and critical operations in a period of geopolitical volatility. These priorities go... The post One year on: Progress on our European digital commitments appeared first on Microsoft </content>
+    <link href="https://blogs.microsoft.com/on-the-issues/2026/04/29/one-year-on-progress-on-our-european-digital-commitments/"/>
+    <category term="Microsoft On the Issues" label="Microsoft On the Issues"/>
+    <published>2026-04-30T06:00:10+00:00</published>
   </entry>
   <entry>
     <id>https://blogs.microsoft.com/blog/2026/04/28/unlocking-human-ambition-to-drive-business-growth-with-ai/</id>
@@ -938,6 +1696,15 @@
     <published>2026-04-27T13:00:02+00:00</published>
   </entry>
   <entry>
+    <id>https://devblogs.microsoft.com/blog/langchainjs-for-beginners</id>
+    <title>LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript</title>
+    <updated>2026-04-23T17:00:14+00:00</updated>
+    <content>Want to build AI agents with JavaScript that go beyond basic chat completions? Agents that reason, call tools, and pull from knowledge bases on their own? We put together a free, open source course to help you get there. LangChain.js for Beginners is 8 chapters and 70+ runnable TypeScript examples. Clone the repo, add your […] The post LangChain.js for Beginners: A Free Course to Build Agentic AI Apps with JavaScript appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/langchainjs-for-beginners"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-04-23T17:00:14+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/</id>
     <title>Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available</title>
     <updated>2026-04-23T00:00:00+00:00</updated>
@@ -947,6 +1714,15 @@
     <published>2026-04-23T00:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution</id>
+    <title>Securing MCP: A Control Plane for Agent Tool Execution</title>
+    <updated>2026-04-22T17:00:09+00:00</updated>
+    <content>The Model Context Protocol (MCP) is quickly becoming a common way for AI agents to discover and use tools. It provides a consistent interface to databases, APIs, file systems, and third-party services, which makes it easier to plug capabilities into agent workflows. However, MCP standardizes the execution surface without defining how that surface should be […] The post Securing MCP: A Control Plane for Agent Tool Execution appeared first on Microsoft for Developers .</content>
+    <link href="https://devblogs.microsoft.com/blog/securing-mcp-a-control-plane-for-agent-tool-execution"/>
+    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
+    <published>2026-04-22T17:00:09+00:00</published>
+  </entry>
+  <entry>
     <id>https://blogs.microsoft.com/blog/2026/04/21/accelerating-frontier-transformation-with-microsoft-partners/</id>
     <title>Accelerating Frontier Transformation with Microsoft partners</title>
     <updated>2026-04-21T17:00:03+00:00</updated>
@@ -954,6 +1730,15 @@
     <link href="https://blogs.microsoft.com/blog/2026/04/21/accelerating-frontier-transformation-with-microsoft-partners/"/>
     <category term="Official Microsoft Blog" label="Official Microsoft Blog"/>
     <published>2026-04-21T17:00:03+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/source/emea/2026/04/agenty-ai-pod-lupa-innowacja-wyprzedza-ochrone/?lang=pl</id>
+    <title>Agenty AI pod lupą: innowacja wyprzedza ochronę</title>
+    <updated>2026-04-09T08:00:00+00:00</updated>
+    <content>The post Agenty AI pod lupą: innowacja wyprzedza ochronę appeared first on Source EMEA .</content>
+    <link href="https://news.microsoft.com/source/emea/2026/04/agenty-ai-pod-lupa-innowacja-wyprzedza-ochrone/?lang=pl"/>
+    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
+    <published>2026-04-09T08:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://blogs.microsoft.com/blog/2026/03/31/open-to-work-how-to-get-ahead-in-the-age-of-ai/</id>
