@@ -1,4 +1,4 @@
-"""Generate RSS feed for Czwórka — Polskie Radio
+"""Generate Atom feed for Czwórka — Polskie Radio
 (https://www.polskieradio.pl/10,czworka).
 
 Czwórka runs on Polskie Radio's classic server-rendered ASP.NET CMS. The
@@ -19,7 +19,7 @@ The homepage embeds cross-promo boxes for other Polskie Radio stations
 A JSON cache (``cache/czworka_posts.json``) accumulates history across hourly
 runs and dedupes by canonical article id. Because already-cached articles are
 skipped, the per-article fetch only happens once per article — a full run pays
-for all of them, incremental runs only for genuinely new ones. Writes an RSS
+for all of them, incremental runs only for genuinely new ones. Writes an Atom
 feed to ``feeds/feed_czworka.xml``.
 """
 
@@ -39,7 +39,7 @@ from utils import (
     merge_entries,
     sanitize_xml,
     save_cache,
-    save_rss_feed,
+    save_atom_feed,
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
@@ -160,6 +160,7 @@ def fetch_new_articles(links: list[str], known: set[str]) -> list[dict]:
 
 def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
     fg = FeedGenerator()
+    fg.id("https://www.polskieradio.pl/10,czworka")
     fg.title("Czwórka – Polskie Radio")
     fg.description(
         "Najnowsze artykuły Czwórki Polskiego Radia: muzyka, życie, kultura "
@@ -179,7 +180,7 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
         if post.get("date"):
             fe.published(post["date"])
 
-    logger.info("Generated RSS feed with %d entries", len(posts))
+    logger.info("Generated Atom feed with %d entries", len(posts))
     return fg
 
 
@@ -206,13 +207,13 @@ def main(full_reset: bool = False) -> bool:
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
-    save_rss_feed(feed, FEED_NAME)
+    save_atom_feed(feed, FEED_NAME)
     logger.info("Done!")
     return True
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate Czwórka (Polskie Radio) RSS feed")
+    parser = argparse.ArgumentParser(description="Generate Czwórka (Polskie Radio) Atom feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (ignore cache)")
     args = parser.parse_args()
     main(full_reset=args.full)
