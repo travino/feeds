@@ -1,4 +1,4 @@
-"""Generate RSS feed for Trójka — Program Trzeci Polskiego Radia
+"""Generate Atom feed for Trójka — Program Trzeci Polskiego Radia
 (https://trojka.polskieradio.pl/czytaj-wiecej).
 
 Trójka's site is a Next.js app. The article listing is server-side rendered into
@@ -9,7 +9,7 @@ objects with ``url``, ``title``, ``lead``, ``datePublic`` (ISO 8601), and
 
 A JSON cache (``cache/trojka_posts.json``) accumulates history across hourly
 runs and dedupes by article URL, so older articles persist after they scroll off
-the listing page. Writes an RSS feed to ``feeds/feed_trojka.xml``.
+the listing page. Writes an Atom feed to ``feeds/feed_trojka.xml``.
 """
 
 import argparse
@@ -27,7 +27,7 @@ from utils import (
     merge_entries,
     sanitize_xml,
     save_cache,
-    save_rss_feed,
+    save_atom_feed,
     setup_feed_links,
     setup_logging,
     sort_posts_for_feed,
@@ -108,6 +108,7 @@ def parse_posts(html: str) -> list[dict]:
 
 def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
     fg = FeedGenerator()
+    fg.id("https://trojka.polskieradio.pl")
     fg.title("Trójka – Program Trzeci Polskiego Radia")
     fg.description(
         "Najnowsze artykuły radiowej Trójki: muzyka, kultura, koncerty, "
@@ -130,7 +131,7 @@ def generate_rss_feed(posts: list[dict]) -> FeedGenerator:
         if post.get("date"):
             fe.published(post["date"])
 
-    logger.info("Generated RSS feed with %d entries", len(posts))
+    logger.info("Generated Atom feed with %d entries", len(posts))
     return fg
 
 
@@ -155,13 +156,13 @@ def main(full_reset: bool = False) -> bool:
 
     save_cache(FEED_NAME, posts)
     feed = generate_rss_feed(posts)
-    save_rss_feed(feed, FEED_NAME)
+    save_atom_feed(feed, FEED_NAME)
     logger.info("Done!")
     return True
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate Trójka (Polskie Radio) RSS feed")
+    parser = argparse.ArgumentParser(description="Generate Trójka (Polskie Radio) Atom feed")
     parser.add_argument("--full", action="store_true", help="Force full reset (ignore cache)")
     args = parser.parse_args()
     main(full_reset=args.full)
