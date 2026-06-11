@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-11T04:08:02.534599+00:00</updated>
+  <updated>2026-06-11T10:29:15.697146+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://claude.com/blog" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, and Claude Platform release notes and system prompts.</subtitle>
+  <entry>
+    <id>https://code.claude.com/docs/en/changelog#2-1-173</id>
+    <title>2.1.173</title>
+    <updated>2026-06-11T07:39:31+00:00</updated>
+    <content>2.1.173</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-173"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-06-11T07:39:31+00:00</published>
+  </entry>
   <entry>
     <id>https://code.claude.com/docs/en/changelog#2-1-172</id>
     <title>2.1.172</title>
@@ -1349,15 +1358,6 @@
     <content>We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, but our developer interfaces will remain the same . Here are some notable changes: Claude Console (console.anthropic.com) → Claude Console (platform.claude.com). The console will be available at both URLs until January 12, 2026. After that date, console.anthropic.com will automatically redirect to platform.claude.com. Anthropic Docs (docs.anthropic.com) → Cl</content>
     <link href="https://platform.claude.com/docs/en/release-notes/overview#september-16-2025"/>
     <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-09-16T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://support.claude.com/en/articles/12138966-release-notes#h_3b83c8bd3c</id>
-    <title>Claude in Chrome expansion Claude in Chrome expanded to 10,000 Max plan users with the rel — September 16, 2025</title>
-    <updated>2025-09-16T00:00:00+00:00</updated>
-    <content>Claude in Chrome expansion Claude in Chrome expanded to 10,000 Max plan users with the release of new capabilities: Long-running workflows: Claude in Chrome can handle more complex, multi-step workflows, and continue working even when you switch tabs (as long as Chrome is open). /slash commands: Save your best-working prompts as shortcuts (/slash commands) and reuse these proven workflows instantly without retyping instructions to Claude. Contextual prompt suggestions: Claude in Chrome gives con</content>
-    <link href="https://support.claude.com/en/articles/12138966-release-notes#h_3b83c8bd3c"/>
-    <category term="Claude Apps Release notes" label="Claude Apps Release notes"/>
     <published>2025-09-16T00:00:00+00:00</published>
   </entry>
 </feed>

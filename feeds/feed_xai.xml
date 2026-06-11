@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://x.ai/xai</id>
   <title>xAI</title>
-  <updated>2026-06-11T04:09:22.000794+00:00</updated>
+  <updated>2026-06-11T10:31:57.343706+00:00</updated>
   <author>
     <name>xAI</name>
   </author>
@@ -54,6 +54,15 @@
     <link href="https://x.ai/news/grok-imagine-1-5"/>
     <category term="xAI News" label="xAI News"/>
     <published>2026-06-03T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://docs.x.ai/developers/release-notes#public-urls-and-files-api-imagine-integration</id>
+    <title>Public URLs and Files API ↔ Imagine integration</title>
+    <updated>2026-06-01T00:00:00+00:00</updated>
+    <content>Public URLs for Files — turn any file in your Files API storage into a permanent, unauthenticated URL that anyone can open, embed, or share. Revocable at any time, or set an auto-expiry between 1 hour and 30 days. See the Public URLs docs. Reference stored files as Imagine inputs — substitute image file id , video file id , or reference image file ids for URL inputs across every Imagine endpoint, with no need to re-upload bytes or make the file public. See Imagine → Files API Integration. Persis</content>
+    <link href="https://docs.x.ai/developers/release-notes#public-urls-and-files-api-imagine-integration"/>
+    <category term="xAI API release notes" label="xAI API release notes"/>
+    <published>2026-06-01T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://x.ai/news/composer-2-5</id>

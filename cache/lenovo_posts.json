@@ -1,0 +1,705 @@
+{
+  "last_updated": "2026-06-11T10:29:53.913182+00:00",
+  "entries": [
+    {
+      "title": "Introducing Lenovo Odometer",
+      "link": "https://blog.lenovocdrt.com/introducing-lenovo-odometer",
+      "date": "2020-12-10T13:33:01+00:00",
+      "description": "This article show how to collect the Odometer metrics using Configuration Manager and a PowerShell script.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Configure BIOS Settings Through Intune using the Think BIOS Config Tool",
+      "link": "https://blog.lenovocdrt.com/configure-bios-settings-through-intune-using-the-think-bios-config-tool",
+      "date": "2021-12-08T14:12:01+00:00",
+      "description": "This post will provide an alternate method for configuring BIOS settings using our official Think BIOS Config Tool",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "ThinkShield secure wipe using Microsoft Endpoint Manager",
+      "link": "https://blog.lenovocdrt.com/thinkshield-secure-wipe",
+      "date": "2021-12-08T14:12:01+00:00",
+      "description": "How to envoke ThinkShield secure wipe using Configuration Manager",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Collecting and Storing Lenovo Warranty Information to Azure Monitor",
+      "link": "https://blog.lenovocdrt.com/collecting-and-storing-lenovo-warranty--information-to-azure-monitor",
+      "date": "2021-12-08T15:37:01+00:00",
+      "description": "In this post, we're going to walk through how Lenovo Warranty data can be collected from Intune managed devices and ingested into a Log Analytics Workspace in Azure Monitor.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Automatically Create Device Collections for Lenovo Products",
+      "link": "https://blog.lenovocdrt.com/automatically-create-configmgr-device-collections-for-lenovo-products",
+      "date": "2022-01-05T17:48:02+00:00",
+      "description": "This is a PowerShell based solution that will query the ConfigMgr database for Lenovo branded products and create a Device Collection based off the friendly name, i.e. ThinkPad T14 Gen 2.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Update Retriever and Azure Blob Storage Redux",
+      "link": "https://blog.lenovocdrt.com/revisiting-update-retriever-and-azure-blob-storage",
+      "date": "2022-01-05T17:48:02+00:00",
+      "description": "Revisiting Update Retriever and Azure Blob Storage. This will focus on altering XML package descriptors to allow a completely silent installation of Bios updates.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "ConfigMgr OSD: Installing Lenovo Updates",
+      "link": "https://blog.lenovocdrt.com/installing-updates-from-the-lenovo-3rd-party-catalog-in-a-configmgr-operating-system-deployment",
+      "date": "2022-03-15T10:00:00+00:00",
+      "description": "Installing Updates from the Lenovo 3rd Party Catalog in a ConfigMgr Operating System Deployment",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Winget and ConfigMgr Configuration Baselines",
+      "link": "https://blog.lenovocdrt.com/using-winget-to-install-applications-as-part-of-a-configuration-manager-configuration-baseline",
+      "date": "2022-03-16T10:30:00+00:00",
+      "description": "Using Winget to Install Applications as Part of a Configuration Manager Configuration Baseline",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Using Proactive Remediations to Set Asset Tags on ThinkPad",
+      "link": "https://blog.lenovocdrt.com/setting-an-asset-tag-on-thinkpads-using-intune-proactive-remediations",
+      "date": "2022-06-15T16:00:00+00:00",
+      "description": "An example scenario on how to deploy a Proactive Remediation script package to set Asset Tags on ThinkPad",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Remediation Scripts to the Rescue",
+      "link": "https://blog.lenovocdrt.com/correcting-the-qualcomm-x55-wwan-excessive-logging-issue",
+      "date": "2022-08-12T12:30:00+00:00",
+      "description": "Fixing Qualcomm X55 WWAN Excessive Logging with a ConfigMgr Baseline",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Lenovo Device Health and Log Analytics",
+      "link": "https://blog.lenovocdrt.com/reporting-on-update-status-bios-level-cves-and-more",
+      "date": "2022-09-27T10:00:00+00:00",
+      "description": "Reporting on Lenovo Updates, Warranty, and Battery Health in Intune",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Graph API and Intune Device Notes",
+      "link": "https://blog.lenovocdrt.com/adding-model-friendly-name-to-intune-device-notes",
+      "date": "2023-02-07T16:00:00+00:00",
+      "description": "Adding Model Friendly Name to an Intune Device Note using Graph API",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Creating Local Repository Using PowerShell",
+      "link": "https://blog.lenovocdrt.com/creating-local-repository-using-powershell",
+      "date": "2023-03-13T11:37:00+00:00",
+      "description": "Create local repositories of updates using PowerShell that can be used by Thin Installer",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Updating Thin Installer With Proactive Remediations",
+      "link": "https://blog.lenovocdrt.com/updating-lenovo-thin-installer-with-proactive-remediations",
+      "date": "2023-04-12T14:30:00+00:00",
+      "description": "Updating Thin Installer with Intune Proactive Remediations",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Certifice-based BIOS Authentication",
+      "link": "https://blog.lenovocdrt.com/certificate-based-bios-authentication",
+      "date": "2023-07-24T16:13:00+00:00",
+      "description": "How to leverage certificates instead of passwords with Lenovo WMI BIOS interface.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Updating Intel ME Firmware with Intune",
+      "link": "https://blog.lenovocdrt.com/deploying-intel-me-firmware--updates-with-intune",
+      "date": "2023-07-26T13:00:00+00:00",
+      "description": "Deploying Intel ME firmware updates as Win32 apps with Intune",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Autopilot + Thin Installer = Current Drivers/BIOS/Firmware",
+      "link": "https://blog.lenovocdrt.com/autopilot--thin-installer--current-driversbiosfirmware",
+      "date": "2023-10-10T13:00:00+00:00",
+      "description": "Update drivers/BIOS/Firmware during Autopilot",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "The Windows 365 Experience on Lenovo ThinkPhone",
+      "link": "https://blog.lenovocdrt.com/windows-365-and-thinkphone",
+      "date": "2023-10-25T10:30:00+00:00",
+      "description": "Enrolling ThinkPhone in Intune to connect to your Windows 365 Cloud PC",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Introducing: Lenovo Device Management Module",
+      "link": "https://blog.lenovocdrt.com/introducing-lenovo-device-management-module",
+      "date": "2024-01-15T10:30:00+00:00",
+      "description": "The Lenovo Device Management Module (PowerShell) simplifies automation of tasks for Lenovo PCs.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Configuration Manager - Driver Import Error: \"Some packages cannot be updated\"",
+      "link": "https://blog.lenovocdrt.com/configuration-manager---driver-import-error-some-packages-cannot-be-updated",
+      "date": "2024-01-17T10:30:00+00:00",
+      "description": "How to address this error when importing driver packs.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Changing the BIOS Password with Intune and Think BIOS Config Tool",
+      "link": "https://blog.lenovocdrt.com/changing-the-bios-supervisor-password-with-intune-and-the-think-bios-config-tool",
+      "date": "2024-07-16T10:00:00+00:00",
+      "description": "Changing the BIOS supervisor password with Intune and Think BIOS config tool",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Introducing: SU Helper",
+      "link": "https://blog.lenovocdrt.com/introducing-su-helper-utility",
+      "date": "2024-08-19T10:00:00+00:00",
+      "description": "The SU Helper Utility provides a command-line interface for triggering the System Update process of Commercial Vantage.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Remediate Fibocom FwSwitchService on Devices Without WWAN Card",
+      "link": "https://blog.lenovocdrt.com/remediate-fibocom-fwswitchservice-on-devices-without-wwan-card",
+      "date": "2025-01-17T13:44:00+00:00",
+      "description": "Remediating Fibocom FwSwitchService on Devices Without WWAN Card using a Configuration Manager Configuration Baseline",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Automate Partition Sizes When Using Windows 11 ISO",
+      "link": "https://blog.lenovocdrt.com/automate-partition-sizes-when-using-windows-11-iso/",
+      "date": "2025-09-15T09:00:00+00:00",
+      "description": "Updating the Windows 11 ISO file to automate partition sizes to accomodate OEM Tooling requirements.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Autopilot Certificate-based BIOS Authentication",
+      "link": "https://blog.lenovocdrt.com/deep-dive---certificate-based-authentication-in-an-autopilot-pre-provisioning-deployment/",
+      "date": "2025-11-24T10:00:00+00:00",
+      "description": "A deep-dive on converting to certificate-based BIOS authentication in an Autopilot pre-provisioning deployment",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "HSA Best Practices Guide",
+      "link": "https://blog.lenovocdrt.com/hsa-best-practices-guide/",
+      "date": "2026-02-26T15:43:35+00:00",
+      "description": "A quick look at the easiest way to deploy and manage Hardware Support Apps",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Using the new Lenovo.Client.Update PowerShell Module in a Configuration Manager Task Sequence",
+      "link": "https://blog.lenovocdrt.com/updating-lenovo-bios-drivers-and-firmware-in-a-configuration-manager-task-sequence-using-the-lenovo-client-update-module/",
+      "date": "2026-04-09T11:00:00+00:00",
+      "description": "An example of how to use the Lenovo.Client.Update PowerShell module in a Configuration Manager task sequence to install the latest drivers, BIOS, and firmware",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Changing the BIOS Supervisor Password with Intune and the new Think BIOS Config Tool v2",
+      "link": "https://blog.lenovocdrt.com/changing-the-bios-supervisor-password-with-intune-and-the-think-bios-config-tool-v2/",
+      "date": "2026-04-20T13:00:00+00:00",
+      "description": "A guide to changing the BIOS supervisor password using Intune and the new Think BIOS Config Tool v2",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Lenovo CFO Winston Cheng on Bloomberg: Balancing AI Growth and Global Challenges (April 21, 2025)",
+      "link": "https://news.lenovo.com/lenovo-cfo-winston-cheng-on-bloomberg-balancing-ai-growth-and-global-challenges-april-21-2025/",
+      "date": "2026-04-22T09:25:45+00:00",
+      "description": "Lenovo CFO Winston Cheng shared his perspectives on the current stage of AI growth in a recent Bloomberg discussion.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Recenzja gry Pragmata. Lepsze niż Resident Evil?",
+      "link": "https://lenovogaming.pl/recenzja-gry-pragmata-lepsze-niz-resident-evil/",
+      "date": "2026-04-22T11:57:03+00:00",
+      "description": "Capcom jest w niezwykle dobrej formie. Tegoroczna część serii Resident Evil okazała się świetna, a nowa marka science fiction, czyli wyczekiwana od paru lat Pragmata, wcale nie jest gorsza. Artykuł Recenzja gry Pragmata. Lepsze niż Resident Evil? pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Beyond Earth Day: turning sustainability into growth across the partner ecosystem",
+      "link": "https://news.lenovo.com/earth-day-sustainability-growth-partner-ecosystem/",
+      "date": "2026-04-22T20:27:52+00:00",
+      "description": "The sustainability discussion is now practical: how to implement, how to measure credibly, and how to build it into go-to-market motions.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Recenzja Vampire Crawlers. To jest po prostu niesamowite",
+      "link": "https://lenovogaming.pl/recenzja-vampire-crawlers-to-jest-po-prostu-niesamowite/",
+      "date": "2026-04-23T15:41:43+00:00",
+      "description": "Twórcy Vampire Survivors zaskoczyli jakiś czas temu wszystkich, zapowiadając Vampire Crawlers - grę pod każdym względem inną od niezależnego hitu. Okazuje się jednak, że ta produkcja wciąga równie mocno i jest po prostu świetna. Artykuł Recenzja Vampire Crawlers. To jest po prostu niesamowite pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Imperial partners with Lenovo on new London AI Technology Centre",
+      "link": "https://news.lenovo.com/pressroom/press-releases/imperial-partners-with-lenovo-on-new-london-ai-technology-centre/",
+      "date": "2026-04-23T16:55:36+00:00",
+      "description": "Lenovo will join Imperial's White City Deep Tech Campus to create a new hub for AI innovation, as the global technology company further expands its research and development presence in the UK.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Chcesz podszlifować angielski, japoński czy hiszpański? Oto najlepsze gry do nauki języków",
+      "link": "https://lenovogaming.pl/chcesz-podszlifowac-angielski-japonski-czy-hiszpanski-oto-najlepsze-gry-do-nauki-jezykow/",
+      "date": "2026-04-24T12:36:46+00:00",
+      "description": "W tym artykule przyjrzymy się produkcjom, które wybitnie wspierają proces przyswajania nowej mowy. Artykuł Chcesz podszlifować angielski, japoński czy hiszpański? Oto najlepsze gry do nauki języków pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Accelerating the future of urban transportation: How Lenovo and WeRide are scaling autonomous mobility",
+      "link": "https://news.lenovo.com/accelerating-the-future-of-urban-transportation-how-lenovo-and-weride-are-scaling-autonomous-mobility/",
+      "date": "2026-04-26T05:23:21+00:00",
+      "description": "The partnership aims to scale to 200,000 vehicles over the next five years, paving the way for smarter, more efficient urban transportation.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "70% of Enterprise AI is Uncontrolled, Driving Hidden Risk, Cost and Slower ROI",
+      "link": "https://news.lenovo.com/pressroom/press-releases/70-enterprise-ai-uncontrolled-driving-hidden-risk-cost-slower-roi/",
+      "date": "2026-04-27T08:00:54+00:00",
+      "description": "Lenovo research highlights a growing AI execution gap as organizations struggle to control and operate AI across their environments.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Completes Acquisition of Phoenix Technologies’ Firmware Business",
+      "link": "https://news.lenovo.com/pressroom/press-releases/lenovo-completes-acquisition-of-phoenix-technologies-firmware-business/",
+      "date": "2026-04-27T12:44:15+00:00",
+      "description": "Lenovo announced it has completed the acquisition of Phoenix Technologies’ firmware (BIOS) technology business registered in Dublin, Ireland, including its related intellectual property and expertise.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Appoints Salman Faqeeh to lead Saudi Arabia Organization",
+      "link": "https://news.lenovo.com/pressroom/press-releases/reinforcing-the-companys-long-term-commitment-to-the-kingdom-as-a-strategic-priority-market-and-regional-technology-hub/",
+      "date": "2026-04-27T22:00:06+00:00",
+      "description": "Reinforcing the company’s long‑term commitment to the Kingdom as a strategic priority market and regional technology hub.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Community Tool Spotlight: PowerBios",
+      "link": "https://blog.lenovocdrt.com/community-tool-spotlight-powerbios--wmi-bios-utility-for-lenovo/",
+      "date": "2026-04-28T08:48:00+00:00",
+      "description": "PowerBios is a free, community-developed Windows utility by Claude Boucher (SomeTools) that lets you read, modify, and export BIOS settings on Lenovo ThinkPad, ThinkCentre, and ThinkStation devices using the WMI interface - locally or remotely.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "How Khon Kaen University Broadened Device Access With Lenovo CO₂ Offset Services",
+      "link": "https://news.lenovo.com/how-khon-kaen-university-broadened-device-access-with-lenovo-co%e2%82%82-offset-services/",
+      "date": "2026-04-28T19:26:26+00:00",
+      "description": "Lenovo’s CO₂ Offset Services have helped Khon Kaen University offset more than 1,000 tons of CO₂ associated with its new device deployments, supporting the university’s broader sustainability goals.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo and Becky G Invite Creatives to Take Control of Community Football Clubs with “Your Club Your Canvas”",
+      "link": "https://news.lenovo.com/pressroom/press-releases/becky-g-invite-creatives-community-football-clubs-canvas/",
+      "date": "2026-04-30T12:00:48+00:00",
+      "description": "Designers, artists, and filmmakers will be official Creative Directors of grassroots football clubs across Brazil, China, Italy and the United States.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Introducing Commercial Vantage Policy Manager for Intune",
+      "link": "https://blog.lenovocdrt.com/introducing-commercial-vantage-policy-manager-for-intune",
+      "date": "2026-05-02T12:00:00+00:00",
+      "description": "Commercial Vantage Policy Manager for Intune is a new solution that helps you deploy policies for your Lenovo commercial devices.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Lenovo UXD and the rollable PC: turning bold concepts into better experiences",
+      "link": "https://news.lenovo.com/uxd-rollable-pc-turning-bold-concepts-into-better-experiences/",
+      "date": "2026-05-04T17:10:14+00:00",
+      "description": "Through User Experience Design (UXD), Lenovo teams use concepts to learn, refine, and deliver better customer experiences.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Najciekawsze premiery gier – maj 2026",
+      "link": "https://lenovogaming.pl/najciekawsze-premiery-gier-maj-2026/",
+      "date": "2026-05-04T18:38:23+00:00",
+      "description": "Maj 2026 roku zapowiada się w branży gier naprawdę ciekawie. Artykuł Najciekawsze premiery gier – maj 2026 pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "ServiceNow and Lenovo help organizations reduce costs, accelerate productivity, and improve governance with AI-native operations",
+      "link": "https://news.lenovo.com/pressroom/press-releases/servicenow-reduce-costs-accelerate-productivity-improve-governance-ai/",
+      "date": "2026-05-05T17:00:05+00:00",
+      "description": "Expanded agreement enables more efficient operations, stronger control and visibility, and faster time to value through connected device intelligence and workflow automation.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "How Lenovo is building 3D player avatars for FIFA for FIFA World Cup 2026™",
+      "link": "https://news.lenovo.com/building-3d-player-avatars-fifa-world-cup-2026/",
+      "date": "2026-05-05T19:42:18+00:00",
+      "description": "The technology behind the 3D player avatars you'll see this summer during the game-changing FIFA World Cup™.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Reimagining First Steps: How Lenovo and Sodateage Net Are Supporting Young Adults to Reconnect with Society",
+      "link": "https://news.lenovo.com/sodateage-net-supporting-young-adults/",
+      "date": "2026-05-07T15:06:39+00:00",
+      "description": "Through its partnership with NPO Sodateage Net, Lenovo is helping reimagine how underserved young adults reconnect with society, using technology as a bridge to confidence, participation, and possibility.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo’s Evolve Small shifts into new global era pairing funding with AI and mentorship to accelerate small business success around the world",
+      "link": "https://news.lenovo.com/evolve-small-globa-ai-mentorship-accelerate-business/",
+      "date": "2026-05-11T12:00:34+00:00",
+      "description": "Since launch, Lenovo has helped more than 5,000 small businesses across North America through the Evolve Small initiative.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo marks 20 years in North Carolina, reinforcing its future in the Triangle and beyond",
+      "link": "https://news.lenovo.com/20-years-north-carolina-future-in-the-triangle/",
+      "date": "2026-05-11T15:51:09+00:00",
+      "description": "Lenovo hosted a series of events and partnered with local businesses to commemorate the milestone.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Enables One-Week Deployment of Production-Ready Agentic AI to Transform Enterprise Workflows",
+      "link": "https://news.lenovo.com/pressroom/press-releases/lenovo-ai-library-agentic-ai-solutions/",
+      "date": "2026-05-12T13:00:48+00:00",
+      "description": "The Lenovo AI Library enables rapid deployment of prebuilt, industry-specific AI agents and use cases, aligned to enterprise workflows.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Announces the ThinkStation P4, a Flagship Combination of Power and Value for Modern Professionals",
+      "link": "https://news.lenovo.com/pressroom/press-releases/thinkstation-p4-flagship-power-value-professionals/",
+      "date": "2026-05-12T23:01:57+00:00",
+      "description": "New desktop workstation provides high-end performance for engineers, designers and content creators without a premium price tag.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Completes 2026 ThinkPad Portfolio with Expanded AI PCs for Mainstream Enterprise Computing",
+      "link": "https://news.lenovo.com/pressroom/press-releases/lenovo-completes-2026-thinkpad-portfolio-with-expanded-ai-pcs-for-mainstream-enterprise-computing/",
+      "date": "2026-05-12T23:01:59+00:00",
+      "description": "Extending performance, mobility, and enterprise flexibility across the ThinkPad lineup with the latest X13 and L Series AI-enabled laptops",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Named a Leader and Star Performer in Mid-Market Digital Workplace Solutions Assessment by Everest Group",
+      "link": "https://news.lenovo.com/pressroom/press-releases/mid-market-dws-leadership-everest-group/",
+      "date": "2026-05-13T13:00:30+00:00",
+      "description": "Lenovo recognized for helping mid-market CIOs with cost reduction, faster onboarding, productivity gains.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Launches Global Campaign with David Beckham",
+      "link": "https://news.lenovo.com/pressroom/press-releases/launches-global-campaign-with-david-beckham/",
+      "date": "2026-05-14T10:00:58+00:00",
+      "description": "The new campaign brings Lenovo’s end-to-end AI portfolio to life with one of the world’s most recognized figures in sport, business, and culture, launching just weeks before FIFA World Cup 2026™.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Beyond the tournament: Lenovo Foundation helps build a lasting STEM legacy for students through soccer",
+      "link": "https://news.lenovo.com/foundation-stem-legacy-students-soccer/",
+      "date": "2026-05-14T18:11:07+00:00",
+      "description": "The U.S. Soccer Foundation and Discovery Education announced a new partnership to bring soccer-based learning experiences into middle school classrooms.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Diablo IV: Lord of Hatred – recenzja. Powrót Pana Nienawiści w nowej formie",
+      "link": "https://lenovogaming.pl/diablo-iv-lord-of-hatred-recenzja-powrot-pana-nienawisci-w-nowej-formie/",
+      "date": "2026-05-18T18:37:02+00:00",
+      "description": "Po obiecującym, choć momentami nierównym Vessel of Hatred, nadszedł czas na ostateczne starcie z Panem Nienawiści – Mephisto. Artykuł Diablo IV: Lord of Hatred – recenzja. Powrót Pana Nienawiści w nowej formie pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "The promise of personal AI: like another you, only less stressed",
+      "link": "https://news.lenovo.com/promise-of-personal-ai-another-you-only-less-stressed/",
+      "date": "2026-05-19T12:00:05+00:00",
+      "description": "Ambient AI could be the tool that gives creators power to juggle multiple projects while finding space for the creativity that fuels them, thanks to digital doppelgangers.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo powers Formula 1®’s modernized telemetry platform",
+      "link": "https://news.lenovo.com/powers-formula-1s-modernized-telemetry-platform/",
+      "date": "2026-05-21T19:00:23+00:00",
+      "description": "Lenovo’s high-performing technology cuts telemetry processing latency by up to 0.3 seconds each race weekend, enabling faster team decisions.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Delivers Exceptional Fourth Quarter Results – Maintaining Growth and Concluding Strongest Year in the Group’s History",
+      "link": "https://news.lenovo.com/pressroom/press-releases/fy-2025-26/",
+      "date": "2026-05-21T23:36:22+00:00",
+      "description": "AI-related revenue stood out as a leading growth engine, growing 84% year-on-year to account for 38% of total Group revenue in Q4.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "FY2025/26 Key Achievements and Milestones (Infographic)",
+      "link": "https://news.lenovo.com/fy2025-26-key-achievements-and-milestones-infographic/",
+      "date": "2026-05-21T23:37:24+00:00",
+      "description": "Lenovo reported fourth quarter and full year results for fiscal year 25/26, marking an exceptional Q4 and the strongest year in the Group's history.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Beyond the Numbers of FY2025/26 with Lenovo’s CEO",
+      "link": "https://news.lenovo.com/beyond-the-numbers-of-fy2025-26-with-lenovos-ceo/",
+      "date": "2026-05-21T23:53:02+00:00",
+      "description": "Lenovo's Chairman & CEO, Yuanqing Yang, talks through our exceptional Q4 results and the strongest year in the Group's history.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Heroes of Might and Magic: Olden Era – 5 błędów, których powinieneś się wystrzegać",
+      "link": "https://lenovogaming.pl/heroes-of-might-and-magic-olden-era-5-bledow-ktorych-powinienes-sie-wystrzegac/",
+      "date": "2026-05-22T14:49:18+00:00",
+      "description": "Jeśli Twoje pierwsze kroki na mapie Enroth kończą się szybką kapitulacją przed armią wroga lub neutralnymi potworami, prawdopodobnie popełniasz jeden z kardynalnych błędów. Artykuł Heroes of Might and Magic: Olden Era – 5 błędów, których powinieneś się wystrzegać pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Championing accessibility through inclusive design at Lenovo",
+      "link": "https://news.lenovo.com/championing-accessibility-through-inclusive-design-at-lenovo/",
+      "date": "2026-05-26T07:57:25+00:00",
+      "description": "On Global Accessibility Awareness Day, Lenovo is spotlighting how its Inclusive Product Design Office (IPDO) is partnering with teams across the company to champion accessibility through both hardware and software innovation, helping create experiences that are more inclusive by design.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo CFO Winston Cheng on Bloomberg: Weighs in on Strong AI Growth (May 22, 2026)",
+      "link": "https://news.lenovo.com/lenovo-cfo-winston-cheng-on-bloomberg-weighs-in-on-strong-ai-growth-may-22-2026/",
+      "date": "2026-05-26T07:58:00+00:00",
+      "description": "In a recent Bloomberg Tech interview, Lenovo CFO Winston Cheng discussed the company’s strong AI-driven performance following its report of an exceptional Q4 and the strongest year in Lenovo history.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Supports Football for All Connecting Hub, empowering people with disabilities through access to sport and education",
+      "link": "https://news.lenovo.com/football-for-all-connecting-hub-empowering-people-disabilities-through-access-sport-education/",
+      "date": "2026-05-26T15:53:38+00:00",
+      "description": "Lenovo is supporting the advancement of the Integrated Dreams mission through the Football for All Leadership Programme, the first international programme specifically designed to promote employability, entrepreneurship and networking of people with disabilities in the sports world.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo Accelerates AI-Driven Broadcast and Fan Experiences for Formula E",
+      "link": "https://news.lenovo.com/pressroom/press-releases/ai-driven-broadcast-fan-experiences-formula-e/",
+      "date": "2026-05-27T13:00:57+00:00",
+      "description": "Lenovo’s AI and advanced computing technology will streamline broadcast processes, bolster live event operations, and deliver more immersive fan experiences.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Lenovo na CD-Action Expo 2026. Konkurs cosplay z nagrodami Lenovo Legion",
+      "link": "https://lenovogaming.pl/cdactionexpo-cosplay/",
+      "date": "2026-05-29T00:51:01+00:00",
+      "description": "W ostatni weekend maja Łódź stanie się jednym z najważniejszych miejsc na gamingowej mapie Polski. Lenovo pojawi się na CD-Action Expo 2026, czyli wydarzeniu dla fanów gier, nowych technologii, popkultury i społeczności skupionej wokół świata gamingu. Artykuł Lenovo na CD-Action Expo 2026. Konkurs cosplay z nagrodami Lenovo Legion pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Lenovo clinches Gold and Silver at 2026 Globee Awards for AI",
+      "link": "https://news.lenovo.com/lenovo-gold-and-silver-at-2026-globee-awards-for-ai/",
+      "date": "2026-05-29T09:23:38+00:00",
+      "description": "Lenovo has been recognized for two AI-powered manufacturing innovations that are helping businesses move from isolated automation to more orchestrated operations",
+      "source": "StoryHub"
+    },
+    {
+      "title": "If we can deploy end-to-end tech for the FIFA World Cup, we can do it for anyone",
+      "link": "https://news.lenovo.com/deploy-end-to-end-tech-fifa-world-cup-dws/",
+      "date": "2026-05-29T16:41:22+00:00",
+      "description": "Lenovo Digital Workplace Solutions are the bedrock of FIFA’s technology operations driving the upcoming FIFA World Cup 2026™.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Wrażenia z Heroes of Might and Magic: Olden Era. Na takie “hirołsy” czekałam",
+      "link": "https://lenovogaming.pl/wrazenia-z-heroes-of-might-and-magic-olden-era-na-takie-hirolsy-czekalam/",
+      "date": "2026-05-30T10:15:19+00:00",
+      "description": "Czy nowa odsłona kultowej serii to strzał w dziesiątkę, czy jedynie żerowanie na nostalgii? Zapraszam do recenzji. Artykuł Wrażenia z Heroes of Might and Magic: Olden Era. Na takie “hirołsy” czekałam pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Najciekawsze premiery gier – czerwiec 2026",
+      "link": "https://lenovogaming.pl/najciekawsze-premiery-gier-czerwiec-2026/",
+      "date": "2026-06-01T08:42:19+00:00",
+      "description": "Przed nami czerwiec, a to oznacza, że w branży gier wideo zaczyna się gorący okres letnich zapowiedzi i pokazów. Artykuł Najciekawsze premiery gier – czerwiec 2026 pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Lenovo Technology Powers FIFA World Cup 2026™ Operations and Strengthens AI-Driven Broadcast",
+      "link": "https://news.lenovo.com/pressroom/press-releases/lenovo-technology-powers-fifa-world-cup-2026-operations-and-strengthens-ai-driven-broadcast/",
+      "date": "2026-06-02T13:00:08+00:00",
+      "description": "As FIFA’s Official Technology Partner, Lenovo will deploy servers at the International Broadcast Center in Dallas, Texas, to help deliver the computing power, devices, and AI-driven solutions needed to bring every moment of every match to global audiences and support the most expansive broadcast operation in FIFA World Cup™ history.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Tech that wins: How AI PCs help FIFA and global organizations change the game",
+      "link": "https://news.lenovo.com/ai-pcs-help-fifa-global-organizations-change-the-game/",
+      "date": "2026-06-02T13:00:29+00:00",
+      "description": "Through Lenovo Digital Workplace Solutions, including Lenovo AI PCs with Intel Inside®, FIFA is bringing intelligence directly onto the device.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Introducing ThinkVantage Repository Manager",
+      "link": "https://blog.lenovocdrt.com/introducing-thinkvantage-repository-manager",
+      "date": "2026-06-02T13:21:00+00:00",
+      "description": "An alternative to Update Retriever for managing local repositories with better automation capabilities.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Lenovo and Invisionary Media, in collaboration with Intel, Launch AI-Powered Fan Experience with Newcastle United, Built on Flagship LUX-75 Displays",
+      "link": "https://news.lenovo.com/pressroom/press-releases/lenovo-invisionary-media-intel-newcastle-united/",
+      "date": "2026-06-03T08:00:35+00:00",
+      "description": "Lenovo and Invisionary Media, in collaboration with Intel, Launch AI-Powered Fan Experience with Newcastle United, Built on Flagship LUX-75 Displays",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Głębiny wciągnęły mnie bez reszty. Subnautica 2 – recenzja Wczesnego Dostępu",
+      "link": "https://lenovogaming.pl/glebiny-wciagnely-mnie-bez-reszty-subnautica-2-recenzja-wczesnego-dostepu/",
+      "date": "2026-06-08T08:29:10+00:00",
+      "description": "Subnautica 2 we Wczesnym Dostępie okazała się dla mnie ogromnym, niezwykle pozytywnym zaskoczeniem. Oto dlaczego. Artykuł Głębiny wciągnęły mnie bez reszty. Subnautica 2 – recenzja Wczesnego Dostępu pochodzi z serwisu Lenovo Gaming .",
+      "source": "Lenovo Gaming PL"
+    },
+    {
+      "title": "Lenovo CFO Winston Cheng on CNBC: AI PCs will be mainstream by 2027, heavy spending will continue (June 8, 2026)",
+      "link": "https://news.lenovo.com/lenovo-cfo-winston-cheng-on-cnbc-ai-pcs-will-be-mainstream-by-2027-heavy-spending-will-continue-june-8-2026/",
+      "date": "2026-06-08T11:33:46+00:00",
+      "description": "Winston Cheng, CFO of Lenovo, says he expects continued heavy spending from companies and countries across the world, giving the AI cycle further room to run.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Current Drivers, Firmware, and BIOS During Autopilot Pre-Provisioning With Intune and LCU",
+      "link": "https://blog.lenovocdrt.com/autopilot-pre-provisioning-current-drivers-firmware-bios-lcu/",
+      "date": "2026-06-08T13:00:00+00:00",
+      "description": "Replacing the Thin Installer method with an Intune Win32 app built around the Lenovo.Client.Update module to install drivers, firmware, and BIOS during Autopilot pre-provisioning.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Lenovo is building an Intelligent Command Center for FIFA World Cup 2026™",
+      "link": "https://news.lenovo.com/building-an-intelligent-command-center-for-fifa-world-cup-2026/",
+      "date": "2026-06-08T15:24:48+00:00",
+      "description": "An inside look at the technology giving FIFA a real-time operational picture of the most complex FIFA World Cup™ in history.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "AI at the speed of sport: real-time decisions and actions powered by Lenovo",
+      "link": "https://news.lenovo.com/ai-at-the-speed-of-sport-real-time-decisions-and-actions-powered-by-lenovo/",
+      "date": "2026-06-08T18:58:44+00:00",
+      "description": "Lenovo Hybrid AI solutions help turn massive volumes of live data into faster decisions, smarter operations, enhanced broadcasts, and unforgettable fan experiences.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "AI Is Redefining Retail, Now It’s Time to Operationalize It",
+      "link": "https://news.lenovo.com/operationalize-ai-in-retail/",
+      "date": "2026-06-09T07:00:22+00:00",
+      "description": "AI Is Redefining Retail, Now It’s Time to Operationalize It",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Dr. Muhammad Nasser A Aldawood Joins Lenovo Board of Directors",
+      "link": "https://news.lenovo.com/pressroom/press-releases/dr-muhammad-nasser-a-aldawood-joins-lenovo-board-of-directors/",
+      "date": "2026-06-11T07:22:14+00:00",
+      "description": "Lenovo announced the appointment of Dr. Muhammad Nasser A Aldawood as a non-executive director of the company.",
+      "source": "StoryHub"
+    },
+    {
+      "title": "Norton- Zaawansowana technologia przeciwko zaawansowanym zagrożeniom",
+      "link": "http://lenovo24.pl/247-news-Norton-Zaawansowana-technologia-przeciwko-zaawansowanym-zagro-eniom",
+      "date": null,
+      "description": "W dzisiejszych czasach jeden nieostrożny klik może skończyć się utratą danych, dostępów do kont bankowych albo ważnych plików firmowych. Cyberzagrożenia są coraz bardziej zaawansowane, dlatego warto postawić na rozwiązanie, które dotrzyma im kroku.\n \nZaawansow...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Lenovo ThinkPad E14 G7 i E16 G3 – rozsądny wybór wśród laptopów biurowych",
+      "link": "http://lenovo24.pl/246-news-Lenovo-ThinkPad-E14-G7-i-E16-G3-rozs-dny-wyb-r-w-r-d-laptop-w-biurowych",
+      "date": null,
+      "description": "Nowa generacja laptopów biurowych Lenovo ThinkPad E14 G7 oraz ThinkPad E16 G3 to udane połączenie rozsądnej ceny i  solidnej, wydajnej konstrukcji, która odpowiada na realne potrzeby użytkowników biznesowych. Seria ThinkPad E od lat uchodzi za jedną z najlepszych propo...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Przyszłość zaczyna się dziś – wybierz Lenovo Copilot+ PC z Windows 11 Pro",
+      "link": "http://lenovo24.pl/245-news-Przysz-o-zaczyna-si-dzi-wybierz-Lenovo-Copilot-PC-z-Windows-11-Pro",
+      "date": null,
+      "description": "Koniec wsparcia dla Windows 10 stał się faktem. 14 października 2025 r. Microsoft zakończył dostarczanie aktualizacji zabezpieczeń dla tego systemu, dlatego coraz więcej firm przechodzi na Windows 11 Pro oraz nową generację komputerów Copilot+ PC. To dobry moment, żeby zadbać o bez...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Black Friday – Lenovo ThinkBook 16 G8 z torbą i myszką GRATIS!",
+      "link": "http://lenovo24.pl/244-news-Black-Friday-Lenovo-ThinkBook-16-G8-z-torb-i-myszk-GRATIS",
+      "date": null,
+      "description": "Niektórzy na Black Friday czekają cały rok... i wcale się nie dziwimy! Black Friday to ten moment w roku, kiedy naprawdę złapać okazję i działać szybko. W tym roku w Lenovo24.pl przygotowaliśmy specjalną promocję - coś, co łączy praktyczność i wydajność. Tylko teraz - kupuj...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Lenovo ThinkPad P1 Gen 7 – mobilna stacja robocza dla profesjonalistów",
+      "link": "http://lenovo24.pl/243-news-Lenovo-ThinkPad-P1-Gen-7-mobilna-stacja-robocza-dla-profesjonalist-w",
+      "date": null,
+      "description": "Jeśli szukasz sprzętu, który połączy niezawodność, mobilność i ogromną moc obliczeniową – Lenovo ThinkPad P1 Gen 7 jest odpowiedzią. To flagowa stacja robocza Lenovo, zaprojektowana z myślą o specjalistach z branży kreatywnej, inżynierskiej i IT. Teraz dostępna w ofercie...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "PROMOCJA ZAKOŃCZONA: 200 zł rabatu na ThinkPad P i ThinkStation P",
+      "link": "http://lenovo24.pl/242-news-PROMOCJA-ZAKO-CZONA-200-z-rabatu-na-ThinkPad-P-i-ThinkStation-P",
+      "date": null,
+      "description": "Chcesz pracować szybciej i jeszcze wydajniej? Teraz to idealny moment, aby zainwestować w profesjonalną stację roboczą Lenovo! Tylko teraz otrzymasz 200 zł rabatu na mobilne ThinkPady P oraz stacjonarne ThinkStation P. Wystarczy, że w koszyku wpiszesz kod: 200LenovoP, a cena zostanie obniżon...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "PROMOCJA: Odbierz Nortona w Megacenie 1 lub 29 zł",
+      "link": "http://lenovo24.pl/241-news-PROMOCJA-Odbierz-Nortona-w-Megacenie-1-lub-29-z",
+      "date": null,
+      "description": "W dzisiejszych czasach jeden nieostrożny klik myszki może skończyć się... utratą danych, hasła do banku albo zdjęć z ostatnich wakacji. Dlatego warto mieć dobrą ochronę antywirusową – a teraz można ją mieć za jedyne 1 zł albo 29 zł! \n \nTo nie żart! Skorzystaj z n...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Koniec wsparcia dla Microsoft Office 2016 i 2019. Przygotuj się teraz",
+      "link": "http://lenovo24.pl/240-news-Koniec-wsparcia-dla-Microsoft-Office-2016-i-2019-Przygotuj-si-teraz",
+      "date": null,
+      "description": "Od 14 października 2025 roku Microsoft zakończy wsparcie techniczne dla pakietów Office 2016 i Office 2019. Co to oznacza dla użytkowników domowych i firm? Jakie zagrożenia wiążą się z dalszym korzystaniem z niewspieranych wersji? I przede wszystkim – na co warto się prz...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Nauczycielu, zrób sobie prezent na zakończenie roku szkolnego!",
+      "link": "http://lenovo24.pl/239-news-Nauczycielu-zr-b-sobie-prezent-na-zako-czenie-roku-szkolnego",
+      "date": null,
+      "description": "Zakończyłeś naukę na ten rok szkolny? Czas na coś tylko dla siebie. W ramach rządowego programu „Laptop dla nauczyciela” możesz zrealizować swój bon i odebrać nowoczesnego i wydajnego Lenovo ThinkBook 16 G7 w wersji EDU, idealnie dopasowanego do potrzeb edukacyjnych &ndas...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Promocja na Lenovo ThinkPad X1 – zyskaj Silent Mouse GRATIS!",
+      "link": "http://lenovo24.pl/238-news-Promocja-na-Lenovo-ThinkPad-X1-zyskaj-Silent-Mouse-GRATIS",
+      "date": null,
+      "description": "Jeśli rozważasz zakup nowoczesnego laptopa biznesowego z najwyższej półki, właśnie nadszedł idealny moment. Trwa wyjątkowa promocja — do wybranych modeli z prestiżowej serii Lenovo ThinkPad X1 otrzymasz myszkę ThinkPad Bluetooth Silent Mouse gratis!\n \nThinkPad X1 &ndash...",
+      "source": "lenovo24.pl"
+    },
+    {
+      "title": "Introducing Think BIOS Config Tool V2 and Lenovo BIOS Certificate Tool V2",
+      "link": "https://blog.lenovocdrt.com/introducing-think-bios-config-tool-v2-and-lenovo-bios-certificate-tool-v2/",
+      "date": null,
+      "description": "Introducing the new PowerShell-based Think BIOS Config Tool V2 and Lenovo BIOS Certificate Tool V2",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Deploying Certificate-based BIOS Authentication",
+      "link": "https://blog.lenovocdrt.com/deploying-certificate-based-bios-authentication-with-microsoft-configuration-manager",
+      "date": null,
+      "description": "Using a Microsoft Configuration Manager task sequence to deploy certificate-based BIOS authentication",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "What Is The System Firmware Update Utility?",
+      "link": "https://blog.lenovocdrt.com/what-is-the-system-firmware-update-utility",
+      "date": null,
+      "description": "Understanding capsule-based updates",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Use Cases for SU Helper",
+      "link": "https://blog.lenovocdrt.com/su-helper-use-cases-in-a-modern-world",
+      "date": null,
+      "description": "Demonstrating different use cases for SU Helper across Microsoft's Endpoint Management solutions",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Introducing: Lenovo Client Sripting Module 2.0.0",
+      "link": "https://blog.lenovocdrt.com/introducing-lenovo-client-scripting-module-200",
+      "date": null,
+      "description": "Article describes our Lenovo.Client.Scripting PowerShell module and how to use it.",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Deploying Intel Processor Power Management Package",
+      "link": "https://blog.lenovocdrt.com/deploying-the-intel-processor-power-management-package",
+      "date": null,
+      "description": "Deploying the Intel PPM package using Intune",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "ARM-based Operating System Deployment",
+      "link": "https://blog.lenovocdrt.com/arm-based-operating-system-deployment",
+      "date": null,
+      "description": "Deploying Windows to ARM-based devices using Configuration Manager",
+      "source": "CDRT Blog"
+    },
+    {
+      "title": "Enable Logging for Commercial Vantage",
+      "link": "https://blog.lenovocdrt.com/enabling-logging-for-commercial-vantage",
+      "date": null,
+      "description": "Example solutions on how to enable logging for Commercial Vantage",
+      "source": "CDRT Blog"
+    }
+  ]
+}

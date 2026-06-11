@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-06-11T04:08:59.699454+00:00</updated>
+  <updated>2026-06-11T10:31:30.458504+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://openai.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>OpenAI product updates: News (incl. Research), Engineering, Release notes, Developers, and the Codex / Apps SDK / API changelogs.</subtitle>
+  <entry>
+    <id>https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem</id>
+    <title>Supporting Europe’s work in ensuring a trustworthy AI ecosystem</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.</content>
+    <link href="https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"/>
+    <category term="OpenAI News" label="OpenAI News"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://openai.com/index/using-codex-to-simulate-black-holes</id>
     <title>How an astrophysicist uses Codex to help simulate black holes</title>
@@ -1848,15 +1857,6 @@ CI runners with their ChatGPT workspace identity. Learn more in Access tokens .<
     <content>Released GPT-5.5, a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: - Reasoning effort now defaults to medium. - When i</content>
     <link href="https://openai.com/products/release-notes#CL-20260424-APIP-092"/>
     <category term="OpenAI Release notes" label="OpenAI Release notes"/>
-    <published>2026-04-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://developers.openai.com/api/docs/changelog#api-2026-04-24-released-gpt-5-5-a-new-frontier</id>
-    <title>Feature: Released GPT-5.5 , a new frontier model for complex professional work, to the Chat Completions and Response...</title>
-    <updated>2026-04-24T00:00:00+00:00</updated>
-    <content>Released GPT-5.5 , a new frontier model for complex professional work, to the Chat Completions and Responses API, and released GPT-5.5 Pro for Responses API requests for tougher problems that benefit from more compute. GPT-5.5 supports a 1M token context window, image input, structured outputs, function calling, prompt caching, Batch, tool search, built-in computer use, hosted shell, apply patch, Skills, MCP, and web search. Key updates include: Reasoning effort now defaults to medium . When ima</content>
-    <link href="https://developers.openai.com/api/docs/changelog#api-2026-04-24-released-gpt-5-5-a-new-frontier"/>
-    <category term="API changelog" label="API changelog"/>
     <published>2026-04-24T00:00:00+00:00</published>
   </entry>
 </feed>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T04:08:30.630307+00:00",
+  "last_updated": "2026-06-11T10:29:49.450275+00:00",
   "entries": [
     {
       "guid": "urn:imgw:warnhydro:4f4a8c7066cfc8f8799b34924c9d079c227100d2",
@@ -117,7 +117,7 @@
       "station": "Kraków",
       "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
       "date": "2026-06-11T00:00:00+02:00",
-      "updated": "2026-06-11T04:08:26.673170+00:00",
+      "updated": "2026-06-11T10:29:45.928451+00:00",
       "readings": {
         "03": {
           "temperatura": "11.5",
@@ -126,41 +126,49 @@
           "wilgotnosc_wzgledna": "96.7",
           "suma_opadu": "15.2",
           "cisnienie": "1012.1"
+        },
+        "10": {
+          "temperatura": "13.3",
+          "predkosc_wiatru": "2",
+          "kierunek_wiatru": "250",
+          "wilgotnosc_wzgledna": "78.5",
+          "suma_opadu": "15.9",
+          "cisnienie": "1017.9"
         }
       },
-      "title": "Kraków — obserwacje 11.06: 11.5°C, opad 15.2 mm (godz. 03)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>03:00</td><td>11.5°C</td><td>4 m/s / 250°</td><td>96.7%</td><td>15.2 mm</td><td>1012.1 hPa</td></tr></table>",
-      "summary_hash": "bc10d4676be02660933035602441484e933e9ce8"
+      "title": "Kraków — obserwacje 11.06: 13.3°C, opad 15.9 mm (godz. 10)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>03:00</td><td>11.5°C</td><td>4 m/s / 250°</td><td>96.7%</td><td>15.2 mm</td><td>1012.1 hPa</td></tr><tr><td>10:00</td><td>13.3°C</td><td>2 m/s / 250°</td><td>78.5%</td><td>15.9 mm</td><td>1017.9 hPa</td></tr></table>",
+      "summary_hash": "6ac313c158c1a3ef113f718d1ceebfa960aa26fc"
     },
     {
       "guid": "urn:imgw:hydro:150190260:2026-06-11",
       "kind": "hydro",
-      "title": "Smolice (Wisła) — stan wody 141 cm (11.06 03:30)",
+      "title": "Smolice (Wisła) — stan wody 156 cm (11.06 10:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 141 cm (11.06 03:30)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 156 cm (11.06 10:00)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
       "date": "2026-06-11T00:00:00+02:00",
-      "updated": "2026-06-11T04:08:27.692865+00:00",
-      "summary_hash": "92448525a99814225d1c428f44cada1778451a29"
+      "updated": "2026-06-11T10:29:46.994782+00:00",
+      "summary_hash": "45432882fb4e384a51ecd8a1f5d000371e078948"
     },
     {
       "guid": "urn:imgw:hydro:150190180:2026-06-11",
       "kind": "hydro",
-      "title": "Jeleń (Przemsza) — stan wody 174 cm (11.06 03:30)",
+      "title": "Jeleń (Przemsza) — stan wody 176 cm (11.06 10:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 174 cm (11.06 03:30)</li><li>Przepływ: 17.5 m³/s (11.06 03:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 176 cm (11.06 10:00)</li><li>Przepływ: 18 m³/s (11.06 10:10)</li></ul>",
       "date": "2026-06-11T00:00:00+02:00",
-      "updated": "2026-06-11T04:08:27.692967+00:00",
-      "summary_hash": "834d104163876d04a095c56a198707546d3a8d88"
+      "updated": "2026-06-11T10:29:46.994879+00:00",
+      "summary_hash": "1cf03dd54052cf860ac774fc7c8906374e5c5322"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-06-11",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 11.06: opad (10 min) 0 mm (03:40)",
+      "title": "Chrzanów — telemetria 11.06: opad (10 min) 0 mm (10:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (03:40)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (10:00)</li></ul>",
       "date": "2026-06-11T00:00:00+02:00",
-      "updated": "2026-06-11T04:08:28.614057+00:00",
-      "summary_hash": "dc7cdea541a7f1a262f58f73056752e35cbedc38"
+      "updated": "2026-06-11T10:29:48.324774+00:00",
+      "summary_hash": "55da2cd0f70873e032cd33087fae857a105f49e2"
     },
     {
       "guid": "urn:imgw:warnhydro:c977bd0b3449c05d9c75f2b0417b5251a622bc6e",
@@ -181,6 +189,16 @@
       "date": "2026-06-11T04:11:05+02:00",
       "updated": "2026-06-11T04:08:30.629636+00:00",
       "summary_hash": "1d0da03f0d57358331f196f895407a948e331e3d"
+    },
+    {
+      "guid": "urn:imgw:warnhydro:566e1b4308769d18b2c459006181a521a0a7410f",
+      "kind": "warning",
+      "title": "💧 Ostrzeżenie hydro: Gwałtowne wzrosty stanów wody (małopolskie)",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "description": "<p><strong>Gwałtowne wzrosty stanów wody</strong> — nr 101, prawdopodobieństwo 70%</p><p>Od 2026-06-11 08:39:07 do 2026-06-11 18:00:00</p><p>W związku ze spływem wód opadowych lokalnie spodziewane są dalsze wzrosty poziomu wody w strefie wody wysokiej. Na Dunajcu w Nowym Targu zostanie krótkotrwale przekroczony stan ostrzegawczy, a w Nowym Targu-Kowańcu istnieje możliwość przekroczenia tego progu.</p><p>Obszar: małopolskie, Wisła od zb. Goczałkowice do ujścia Przemszy oraz zlewnia górnego Dunajca, gwałtowne wzrosty stanów wody</p><p>Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie</p>",
+      "date": "2026-06-11T08:38:21+02:00",
+      "updated": "2026-06-11T10:29:49.449691+00:00",
+      "summary_hash": "4c1e4a66f498d90774efc1e472fa0317a591ec8c"
     }
   ]
 }

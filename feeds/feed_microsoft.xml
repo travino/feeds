@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-11T04:08:39.123057+00:00</updated>
+  <updated>2026-06-11T10:30:01.320573+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -10,6 +10,33 @@
   <link href="https://blogs.microsoft.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined Microsoft feed: Official Microsoft Blog, Source, Signal, the Microsoft 365 Blog, and the Tech Community blogs.</subtitle>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/last-call-join-live-the-postgresql-community-at-posette-an-event/ba-p/4527424</id>
+    <title>Last Call: Join Live the PostgreSQL Community at POSETTE: An Event for Postgres 2026 (T‑1 week)</title>
+    <updated>2026-06-11T09:09:00+00:00</updated>
+    <content>In just one week, the PostgreSQL community gathers again for one of the most anticipated global moments of the year: POSETTE: An Event for Postgres 2026 . From June 16–18, this free and fully virtual event brings together PostgreSQL contributors, engineers, architects, and practitioners across 4 livestreams, 44 talks, and 50 speakers. But you might be wondering, why should I participate in POSETTE during the livestreams? Why join it live? Explore the schedule and choose your livestreams on the o</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-blog-for-postgresql/last-call-join-live-the-postgresql-community-at-posette-an-event/ba-p/4527424"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T09:09:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523</id>
+    <title>Performance Tuning Cold Starts, Scaling Delays, and Startup Latency in Azure Container Apps</title>
+    <updated>2026-06-11T07:00:00+00:00</updated>
+    <content>Introduction There is a particular kind of frustration that comes not when your application fails to start, but when it starts too slowly. The container is running, the health probes pass, your monitoring shows green — and yet every few minutes a user somewhere in the world hits a request that takes 15 seconds to respond. Your support team starts getting tickets. Your SLA dashboard turns amber. This is the cold start problem, and it is one of the most widely discussed pain points with any server</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-developer-community/performance-tuning-cold-starts-scaling-delays-and-startup/ba-p/4518523"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T07:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/at-scale-failure-reporting-for-azure-update-manager/ba-p/4527378</id>
+    <title>At-Scale Failure Reporting for Azure Update Manager</title>
+    <updated>2026-06-11T06:32:42+00:00</updated>
+    <content>Introduction Azure Update Manager simplifies patching across Azure virtual machines and Azure Arc-enabled servers by providing a centralized platform for patch assessment and installation. However, as environments scale, a key challenge emerges— efficiently identifying and troubleshooting patch failures across large fleets of machines . While Azure Update Manager surfaces detailed error messages in the Azure portal, this information is typically available only at an individual machine level . In</content>
+    <link href="https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/at-scale-failure-reporting-for-azure-update-manager/ba-p/4527378"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T06:32:42+00:00</published>
+  </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/available-today-anthropic-claude-fable-5-in-microsoft-365/ba-p/4526832</id>
     <title>Available today: Anthropic Claude Fable 5 in Microsoft 365 Copilot</title>

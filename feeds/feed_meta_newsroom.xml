@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-06-11T04:08:37.807269+00:00</updated>
+  <updated>2026-06-11T10:29:59.720101+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://about.fb.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Meta news, engineering, and AI blogs -- Meta.com, About Meta, Engineering at Meta, and AI at Meta -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/06/how-to-verify-age-online/</id>
+    <title>Why Social Media Bans Alone Can’t Solve the Age Verification Dilemma</title>
+    <updated>2026-06-11T04:10:35+00:00</updated>
+    <content>To help ensure young people stay safe online, we need a practical, centralized framework that verifies the ages of people using our apps. The post Why Social Media Bans Alone Can’t Solve the Age Verification Dilemma appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/06/how-to-verify-age-online/"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-06-11T04:10:35+00:00</published>
+  </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/what-is-compute-power-meta-ai-infrastructure/</id>
     <title>Infrastructure Explained: Compute Power</title>
@@ -900,14 +909,5 @@
     <link href="https://ai.meta.com/blog/codeium-ai-coding-assistant-llama/"/>
     <category term="AI at Meta" label="AI at Meta"/>
     <published>2025-01-22T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/josephine-miller-designer-meta-segment-anything-2/</id>
-    <title>How digital artist Josephine Miller uses Meta Segment Anything to help design the future of fashion</title>
-    <updated>2025-01-16T00:00:00+00:00</updated>
-    <content>Josephine, a London-based XR creative designer and content creator, takes us behind the scenes of how she uses open source technology in her work.</content>
-    <link href="https://ai.meta.com/blog/josephine-miller-designer-meta-segment-anything-2/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2025-01-16T00:00:00+00:00</published>
   </entry>
 </feed>
