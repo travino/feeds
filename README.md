@@ -50,6 +50,7 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds)
 | <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Canva](https://www.canva.com/newsroom/news/) | [feed_canva.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_canva.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=lenovo.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [ Lenovo StoryHub](https://news.lenovo.com/) | [feed_lenovo.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_lenovo.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=sony.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Sony](https://www.sony.com/en/SonyInfo/News/Press/) | [feed_sony.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_sony.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Apple](https://www.apple.com/pl/newsroom/) | [feed_apple.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_apple.xml) |
 
 > Favicons are pulled live from Google's favicon service
 > (`https://www.google.com/s2/favicons?domain=<host>`); no images are committed
@@ -226,6 +227,10 @@ hash-gated so unchanged days don't churn. Location is overridable via
 ### About the Sony feed
 
 **One combined feed** from seven Sony sources: Sony Group press releases (the sony.co.jp news page is JS-rendered, but its data source is a hidden RSS at `assets_revamp2025/xml/en/rss_new.xml` — relative links are resolved and the `[Company]` title prefixes are lifted into descriptions), Sony Electronics US (native mediaroom RSS), SIE press releases (WordPress with feeds and the REST API disabled, so the listing cards are scraped), the PlayStation Blog (FeedBurner RSS), Sony Music PL and its Prowly newsroom (native RSS), and Sony PL community wallpapers (board RSS). Entries carry per-source `<category>` labels and are deduplicated across sources. Not sources, deliberately: www.sony.com, sony.pl/presscentre, sonymusic.com, and sonypictures.com all sit behind Akamai and return 403 to non-residential clients (including Chrome-impersonated requests); the sony.co.jp hidden RSS covers the same Sony Group press content as the blocked www.sony.com XML.
+
+### About the Apple feed
+
+**One combined feed** from Apple's news and developer-documentation surfaces: Apple Newsroom PL (native Atom), Apple Developer News and Developer Releases (native RSS, the latter carrying OS/Xcode/TestFlight build announcements), and the developer documentation site. The docs site is JS-rendered, but every page has a JSON twin under `/tutorials/data/documentation/<path>.json`; the topic indexes for Technotes and the iOS/iPadOS, macOS, and Safari release notes are read from there — newest 12 per topic, dated when first seen (doc pages carry no dates), with that timestamp preserved in the cache so newly published release notes surface at the top. Developer Account release notes are scraped from their dated `h5.rn-date` entries and keyed by a date fragment on the page URL. The Apple News Format release notes are a single prose page with no per-version subpages, so they are not an item source.
 
 ### About the Reuters feed
 
