@@ -49,6 +49,7 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds)
 | <img src="https://www.google.com/s2/favicons?domain=commoninja.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Common Ninja Blog](https://www.commoninja.com/blog) | [feed_commoninja.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_commoninja.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Canva](https://www.canva.com/newsroom/news/) | [feed_canva.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_canva.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=lenovo.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [ Lenovo StoryHub](https://news.lenovo.com/) | [feed_lenovo.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_lenovo.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=sony.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Sony](https://www.sony.com/en/SonyInfo/News/Press/) | [feed_sony.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_sony.xml) |
 
 > Favicons are pulled live from Google's favicon service
 > (`https://www.google.com/s2/favicons?domain=<host>`); no images are committed
@@ -221,6 +222,10 @@ hash-gated so unchanged days don't churn. Location is overridable via
 ### About the YouTube feed
 
 `blog.youtube` ships a native RSS feed at `/rss/`, but it omits whole sections — Inside YouTube posts (the CEO's annual letter) and some News & Events articles never appear in it, and the Culture & Trends site (`youtube.com/trends`) has no feed at all. `youtube.py` merges three sources into one Atom feed: the native RSS, the blog's "Latest" page ItemList (each genuinely new URL is fetched once for its article metadata, gated by the cache so steady-state runs cost zero extra requests), and the Culture & Trends Discover cards (dateless articles get a stable fallback date so they never churn). Entries are deduplicated across sources by canonical URL or normalized title and tagged with their section via an Atom `<category>`.
+
+### About the Sony feed
+
+**One combined feed** from seven Sony sources: Sony Group press releases (the sony.co.jp news page is JS-rendered, but its data source is a hidden RSS at `assets_revamp2025/xml/en/rss_new.xml` — relative links are resolved and the `[Company]` title prefixes are lifted into descriptions), Sony Electronics US (native mediaroom RSS), SIE press releases (WordPress with feeds and the REST API disabled, so the listing cards are scraped), the PlayStation Blog (FeedBurner RSS), Sony Music PL and its Prowly newsroom (native RSS), and Sony PL community wallpapers (board RSS). Entries carry per-source `<category>` labels and are deduplicated across sources. Not sources, deliberately: www.sony.com, sony.pl/presscentre, sonymusic.com, and sonypictures.com all sit behind Akamai and return 403 to non-residential clients (including Chrome-impersonated requests); the sony.co.jp hidden RSS covers the same Sony Group press content as the blocked www.sony.com XML.
 
 ### About the Reuters feed
 
