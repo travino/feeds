@@ -89,10 +89,6 @@ feeds:
     script: hcp_combined.py
     type: requests
     blog_url: https://www.hashicorp.com/blog
-  opencode:
-    script: opencode_combined.py
-    type: requests
-    blog_url: https://opencode.ai/changelog
   commoninja:
     script: commoninja_blog.py
     type: requests
