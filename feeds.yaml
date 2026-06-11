@@ -141,14 +141,6 @@ feeds:
     script: microsoft.py
     type: requests
     blog_url: https://blogs.microsoft.com/
-  perplexity:
-    script: perplexity.py
-    type: requests
-    blog_url: https://www.perplexity.ai/hub
-  thebatch:
-    script: thebatch.py
-    type: requests
-    blog_url: https://www.deeplearning.ai/the-batch
   aibridge:
     script: aibridge.py
     type: requests
