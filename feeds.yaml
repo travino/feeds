@@ -149,3 +149,7 @@ feeds:
     script: open_meteo.py
     type: requests
     blog_url: https://open-meteo.com/
+  youtube:
+    script: youtube.py
+    type: requests
+    blog_url: https://blog.youtube/
