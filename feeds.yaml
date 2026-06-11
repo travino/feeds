@@ -161,3 +161,7 @@ feeds:
     script: sony.py
     type: requests
     blog_url: https://www.sony.com/en/SonyInfo/News/Press/
+  apple:
+    script: apple.py
+    type: requests
+    blog_url: https://www.apple.com/pl/newsroom/
