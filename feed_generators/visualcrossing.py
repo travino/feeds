@@ -11,7 +11,7 @@ naturally without any rollup on our side.
 Weather **alerts** returned by the API are emitted as their own entries.
 
 The API key is read from ``VISUALCROSSING_API_KEY`` (a GitHub Actions secret in
-CI) and never committed. Location defaults to ``50.1298,19.4242`` (Chrzanów) and
+CI) and never committed. Location defaults to ``32-500 Kasztanowa`` (Chrzanów) and
 is overridable with ``VISUALCROSSING_LOCATION``; ``VISUALCROSSING_UNITS``
 (default ``metric``) and ``VISUALCROSSING_LANG`` (default ``pl``) are also
 configurable.
@@ -54,7 +54,7 @@ FEED_NAME = "visualcrossing"
 
 # Configuration (env-driven so the key is never committed).
 API_KEY = os.getenv("VISUALCROSSING_API_KEY", "").strip()
-LOCATION = os.getenv("VISUALCROSSING_LOCATION", "50.1298,19.4242").strip()
+LOCATION = os.getenv("VISUALCROSSING_LOCATION", "32-500 Kasztanowa").strip()
 UNITS = os.getenv("VISUALCROSSING_UNITS", "metric").strip().lower()
 LANG = os.getenv("VISUALCROSSING_LANG", "pl").strip().lower()
 
