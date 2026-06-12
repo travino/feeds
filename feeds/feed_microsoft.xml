@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-11T23:25:35.418051+00:00</updated>
+  <updated>2026-06-12T04:10:03.080710+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -18,6 +18,15 @@
     <link href="https://code.visualstudio.com/updates/v1_125"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-06-17T17:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available</id>
+    <title>GitHub Enterprise Server 3.21 is now generally available</title>
+    <updated>2026-06-11T22:46:53+00:00</updated>
+    <content>GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release: Organization custom properties are now generally… The post GitHub Enterprise Server 3.21 is now generally available...</content>
+    <link href="https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-11T22:46:53+00:00</published>
   </entry>
   <entry>
     <id>https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved</id>
@@ -1820,14 +1829,5 @@ declaratively in SQL, and run it as a fault-tolerant pipeline insid...</content>
     <link href="https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/"/>
     <category term="Microsoft Research" label="Microsoft Research"/>
     <published>2026-05-11T17:19:28+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/</id>
-    <title>Building realistic electric transmission grid dataset at scale: a pipeline from open dataset</title>
-    <updated>2026-05-08T19:53:56+00:00</updated>
-    <content>Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic […] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset ap</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-08T19:53:56+00:00</published>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://thinkingmachines.ai/blog/</id>
   <title>AI-bridge</title>
-  <updated>2026-06-11T23:23:54.704832+00:00</updated>
+  <updated>2026-06-12T04:08:45.031560+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -10,6 +10,69 @@
   <link href="https://thinkingmachines.ai/blog/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined AI feed: Thinking Machines, Ollama, Mistral, Interconnected, AI Clock, Perplexity (blog/changelog/research/API changelog), and The Batch / DeepLearning.AI.</subtitle>
+  <entry>
+    <id>https://www.perplexity.ai/hub/blog/disaggregated-prefill-and-decode</id>
+    <title>Disaggregated Prefill and Decode</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Separating prefill and decode across devices speeds up LLM inference and improves performance</content>
+    <link href="https://www.perplexity.ai/hub/blog/disaggregated-prefill-and-decode"/>
+    <category term="Perplexity Blog" label="Perplexity Blog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.perplexity.ai/hub/blog/computer-for-professional-finance</id>
+    <title>Computer for Professional Finance</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Today we are launching Perplexity Computer for Professional Finance, a version of Computer built for the research, analysis, and decision workflows finance teams run every day.</content>
+    <link href="https://www.perplexity.ai/hub/blog/computer-for-professional-finance"/>
+    <category term="Perplexity Blog" label="Perplexity Blog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api</id>
+    <title>Introducing Finance Search in the Agent API</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Today we're launching Finance Search in the Perplexity Agent API. In a single tool call, Finance Search combines licensed financial datasets, real-time market data, and cited web sources.</content>
+    <link href="https://www.perplexity.ai/hub/blog/introducing-finance-search-in-the-agent-api"/>
+    <category term="Perplexity Blog" label="Perplexity Blog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.perplexity.ai/hub/blog/how-we-built-security-into-computer</id>
+    <title>How We Built Security Into Computer</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Perplexity Computer is built directly on Perplexity's existing infrastructure, which has completed its 2026 SOC 2 Type II attestation, and inherits Perplexity’s enterprise security features such as SAML SSO, audit logs, and granular administrative controls.</content>
+    <link href="https://www.perplexity.ai/hub/blog/how-we-built-security-into-computer"/>
+    <category term="Perplexity Blog" label="Perplexity Blog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.perplexity.ai/hub/blog/how-computer-is-reshaping-knowledge-work</id>
+    <title>How Computer is Reshaping Knowledge Work</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>This week, in collaboration with researchers at Harvard Business School, we published a new study looking at how people actually use Perplexity Computer in the real world.</content>
+    <link href="https://www.perplexity.ai/hub/blog/how-computer-is-reshaping-knowledge-work"/>
+    <category term="Perplexity Blog" label="Perplexity Blog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.perplexity.ai/hub/blog/deep-research-now-in-computer</id>
+    <title>Deep Research, now in Computer</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Deep Research in Computer answers hard questions with trusted data, then delivers reports, dashboards, and decks.</content>
+    <link href="https://www.perplexity.ai/hub/blog/deep-research-now-in-computer"/>
+    <category term="Perplexity Blog" label="Perplexity Blog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://ollama.com/blog/mlx-performance</id>
+    <title>Ollama's highest performance on Apple Silicon yet with MLX</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.</content>
+    <link href="https://ollama.com/blog/mlx-performance"/>
+    <category term="Ollama" label="Ollama"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://www.perplexity.ai/hub/blog/bringing-european-ai-models-to-global-audiences</id>
     <title>Bringing European AI Models to Global Audiences</title>
@@ -1278,6 +1341,15 @@
     <link href="https://docs.perplexity.ai/docs/resources/changelog#may-2026"/>
     <category term="Perplexity API changelog" label="Perplexity API changelog"/>
     <published>2026-05-06T23:01:29+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.perplexity.ai/changelog/improved-computer-models-and-enterprise-updates---may-4-2026</id>
+    <title>Improved Computer Models and Enterprise Updates - May 4, 2026</title>
+    <updated>2026-05-04T00:00:00+00:00</updated>
+    <content>Improved Computer Models and Enterprise Updates - May 4, 2026</content>
+    <link href="https://www.perplexity.ai/changelog/improved-computer-models-and-enterprise-updates---may-4-2026"/>
+    <category term="Perplexity Changelog" label="Perplexity Changelog"/>
+    <published>2026-05-04T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://interconnected.org/home/2026/04/29/syndicating-vibes</id>

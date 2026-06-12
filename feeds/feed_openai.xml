@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-06-11T23:25:52.446556+00:00</updated>
+  <updated>2026-06-12T04:10:17.599110+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -10,6 +10,22 @@
   <link href="https://openai.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>OpenAI product updates: News (incl. Research), Engineering, Release notes, Developers, and the Codex / Apps SDK / API changelogs.</subtitle>
+  <entry>
+    <id>https://developers.openai.com/codex/changelog#codex-2026-06-11-app</id>
+    <title>Codex app 26.609</title>
+    <updated>2026-06-11T00:00:00+00:00</updated>
+    <content>New features Added rate-limit reset banking for Plus and Pro users, including one free
+reset at launch and referral invitations for
+earning more during the current promotion. Eligible Business members can
+invite coworkers to earn shared workspace credits through a separate
+referral program. Added Developer mode for Browser use in
+Chrome and the Codex in-app browser. It gives Codex controlled Chrome
+DevTools Protocol (CDP) access for performance profiling and deeper debugging
+of network traffic, </content>
+    <link href="https://developers.openai.com/codex/changelog#codex-2026-06-11-app"/>
+    <category term="Codex changelog" label="Codex changelog"/>
+    <published>2026-06-11T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://openai.com/index/bbva</id>
     <title>BBVA puts AI at the core of banking with OpenAI</title>
@@ -1849,14 +1865,5 @@ CI runners with their ChatGPT workspace identity. Learn more in Access tokens .<
     <link href="https://openai.com/products/release-notes#CL-20260428-CHAT-169"/>
     <category term="OpenAI Release notes" label="OpenAI Release notes"/>
     <published>2026-04-28T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://openai.com/index/open-source-codex-orchestration-symphony</id>
-    <title>An open-source spec for orchestration: Symphony</title>
-    <updated>2026-04-27T00:00:00+00:00</updated>
-    <content>Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.</content>
-    <link href="https://openai.com/index/open-source-codex-orchestration-symphony"/>
-    <category term="OpenAI Engineering" label="OpenAI Engineering"/>
-    <published>2026-04-27T00:00:00+00:00</published>
   </entry>
 </feed>

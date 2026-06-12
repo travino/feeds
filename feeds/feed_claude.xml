@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-06-11T23:24:12.622573+00:00</updated>
+  <updated>2026-06-12T04:09:04.456840+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -27,6 +27,15 @@
     <link href="https://code.claude.com/docs/en/changelog#2-1-172"/>
     <category term="Claude Code" label="Claude Code"/>
     <published>2026-06-11T00:39:33+00:00</published>
+  </entry>
+  <entry>
+    <id>https://platform.claude.com/docs/en/release-notes/overview#june-10-2026</id>
+    <title>Claude Platform — June 10, 2026</title>
+    <updated>2026-06-10T00:00:00+00:00</updated>
+    <content>The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox, is now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the GetEnvironment action that authorizes it.</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#june-10-2026"/>
+    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
+    <published>2026-06-10T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://claude.com/blog/building-with-claude-managed-agents</id>
@@ -1350,14 +1359,5 @@
     <link href="https://platform.claude.com/docs/en/release-notes/overview#september-17-2025"/>
     <category term="Claude Platform release notes" label="Claude Platform release notes"/>
     <published>2025-09-17T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://platform.claude.com/docs/en/release-notes/overview#september-16-2025</id>
-    <title>Claude Platform — September 16, 2025</title>
-    <updated>2025-09-16T00:00:00+00:00</updated>
-    <content>We've unified our developer offerings under the Claude brand. You should see updated naming and URLs across our platform and documentation, but our developer interfaces will remain the same . Here are some notable changes: Claude Console (console.anthropic.com) → Claude Console (platform.claude.com). The console will be available at both URLs until January 12, 2026. After that date, console.anthropic.com will automatically redirect to platform.claude.com. Anthropic Docs (docs.anthropic.com) → Cl</content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-16-2025"/>
-    <category term="Claude Platform release notes" label="Claude Platform release notes"/>
-    <published>2025-09-16T00:00:00+00:00</published>
   </entry>
 </feed>

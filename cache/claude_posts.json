@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T23:24:12.620689+00:00",
+  "last_updated": "2026-06-12T04:09:04.454868+00:00",
   "entries": [
     {
       "title": "Claude Platform — May 10th, 2024",
@@ -1603,6 +1603,13 @@
       "date": "2026-06-10T00:00:00+00:00",
       "description": "Building with claude managed agents",
       "source": "Claude Blog"
+    },
+    {
+      "title": "Claude Platform — June 10, 2026",
+      "link": "https://platform.claude.com/docs/en/release-notes/overview#june-10-2026",
+      "date": "2026-06-10T00:00:00+00:00",
+      "description": "The GET /v1/environments/{id}/work endpoint, which lists pending work for a self-hosted sandbox, is now available on Claude Platform on AWS. See IAM actions for Claude Platform on AWS for the GetEnvironment action that authorizes it.",
+      "source": "Claude Platform release notes"
     },
     {
       "title": "2.1.172",
