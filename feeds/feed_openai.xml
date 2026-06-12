@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-06-12T04:10:17.599110+00:00</updated>
+  <updated>2026-06-12T10:18:39.813766+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://openai.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>OpenAI product updates: News (incl. Research), Engineering, Release notes, Developers, and the Codex / Apps SDK / API changelogs.</subtitle>
+  <entry>
+    <id>https://openai.com/index/preply</id>
+    <title>How Preply combines AI and human tutors to personalize learning</title>
+    <updated>2026-06-12T00:00:00+00:00</updated>
+    <content>Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.</content>
+    <link href="https://openai.com/index/preply"/>
+    <category term="OpenAI News" label="OpenAI News"/>
+    <published>2026-06-12T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://developers.openai.com/codex/changelog#codex-2026-06-11-app</id>
     <title>Codex app 26.609</title>
@@ -1856,14 +1865,5 @@ CI runners with their ChatGPT workspace identity. Learn more in Access tokens .<
     <link href="https://openai.com/index/advanced-account-security"/>
     <category term="OpenAI News" label="OpenAI News"/>
     <published>2026-04-30T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://openai.com/products/release-notes#CL-20260428-CHAT-169</id>
-    <title>Easier model selection in ChatGPT</title>
-    <updated>2026-04-28T00:00:00+00:00</updated>
-    <content>We’re making it easier to choose the right model before you send a message. Model selection now appears in the composer, so you can find and switch models from the same place where you write your prompt. We’re also moving thinking effort controls into the model picker. When you choose a Thinking or Pro model, you can select the level of thinking effort directly from the model picker. This update is available on web to ChatGPT users on Plus, Pro, and Business plans.</content>
-    <link href="https://openai.com/products/release-notes#CL-20260428-CHAT-169"/>
-    <category term="OpenAI Release notes" label="OpenAI Release notes"/>
-    <published>2026-04-28T00:00:00+00:00</published>
   </entry>
 </feed>

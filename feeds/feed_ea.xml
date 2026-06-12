@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.ea.com/pl-pl/news</id>
   <title>Electronic Arts</title>
-  <updated>2026-06-12T04:09:24.628358+00:00</updated>
+  <updated>2026-06-12T10:17:20.310830+00:00</updated>
   <author>
     <name>Electronic Arts</name>
   </author>
   <link href="https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_ea.xml" rel="self"/>
   <link href="https://www.ea.com/pl-pl/news" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
-  <subtitle>Combined EA feed: EA News (PL), EA Research &amp; Technology, EA Sports News (PL), and EA Sports FC 26 News (PL).</subtitle>
+  <subtitle>Combined EA feed: EA News (PL), EA Research &amp; Technology, EA Sports News (PL), SEED, and EA Sports FC 26 News (PL).</subtitle>
   <entry>
     <id>https://www.ea.com/pl/games/ea-sports-fc/fc-26/news/ultimate-saudi-arabia</id>
     <title>Saudi Football Meets Ultimate Team | FC 26 Journey of Nations</title>
@@ -173,6 +173,15 @@
     <published>2026-03-27T18:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://www.ea.com/seed/news/fc-26-goalkeepers</id>
+    <title>How FC creatives made the most human-like goalkeepers</title>
+    <updated>2026-03-26T00:00:00+00:00</updated>
+    <content>EA SPORTS FC 26 introduces reinforcement learning to power more human-like goalkeeper behavior.</content>
+    <link href="https://www.ea.com/seed/news/fc-26-goalkeepers"/>
+    <category term="SEED" label="SEED"/>
+    <published>2026-03-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://www.ea.com/pl-pl/news/fc-26-goalkeepers</id>
     <title>Jak twórcy FC stworzyli najbardziej ludzkich bramkarzy</title>
     <updated>2026-03-26T00:00:00+00:00</updated>
@@ -198,6 +207,15 @@
     <link href="https://www.ea.com/pl/games/ea-sports-fc/fc-26/news/fc-26-season-6"/>
     <category term="EA Sports FC 26 News PL" label="EA Sports FC 26 News PL"/>
     <published>2026-03-12T17:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.ea.com/seed/news/ea-gdc-2026</id>
+    <title>EA at GDC Festival of Gaming 2026</title>
+    <updated>2026-03-12T00:00:00+00:00</updated>
+    <content>Electronic Arts returns to GDC Festival of Gaming 2026 to share insights on AI, game development, and the future of interactive entertainment.</content>
+    <link href="https://www.ea.com/seed/news/ea-gdc-2026"/>
+    <category term="SEED" label="SEED"/>
+    <published>2026-03-12T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://www.ea.com/pl-pl/news/ea-gdc-2026</id>
@@ -369,6 +387,51 @@
     <link href="https://www.ea.com/pl-pl/games/f1/f1-24/news/f1-24-season-four"/>
     <category term="EA Sports News PL" label="EA Sports News PL"/>
     <published>2024-11-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.ea.com/seed/news/gigi-lightning-talks-2024</id>
+    <title>Gigi Lightning Talks</title>
+    <updated>2024-09-26T00:00:00+00:00</updated>
+    <content>SEED brought together developers to show off their prowess using the Gigi rapid prototyping platform for real-time rendering.</content>
+    <link href="https://www.ea.com/seed/news/gigi-lightning-talks-2024"/>
+    <category term="SEED" label="SEED"/>
+    <published>2024-09-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.ea.com/seed/news/seed-gameplay-innovation</id>
+    <title>SEED's Adventure in Gameplay Innovation</title>
+    <updated>2024-09-13T00:00:00+00:00</updated>
+    <content>SEED is branching out into the world of game mechanics, storytelling magic, and interactive wonders.</content>
+    <link href="https://www.ea.com/seed/news/seed-gameplay-innovation"/>
+    <category term="SEED" label="SEED"/>
+    <published>2024-09-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.ea.com/seed/news/metrics-for-evalutating-gesture-generation</id>
+    <title>Objective Metrics for Evalutating Gesture Generation are Almost Useless</title>
+    <updated>2024-09-10T00:00:00+00:00</updated>
+    <content>How do you evaluate something as subjective and ephemeral as human body language for natural and lifelike qualities?</content>
+    <link href="https://www.ea.com/seed/news/metrics-for-evalutating-gesture-generation"/>
+    <category term="SEED" label="SEED"/>
+    <published>2024-09-10T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.ea.com/seed/news/siggraph2024-pbmpm</id>
+    <title>A Position-Based Material Point Method</title>
+    <updated>2024-08-29T00:00:00+00:00</updated>
+    <content>A novel formulation of Material Point Method that is stable at any time-step, and significantly improves the utility of MPM for real-time applications.</content>
+    <link href="https://www.ea.com/seed/news/siggraph2024-pbmpm"/>
+    <category term="SEED" label="SEED"/>
+    <published>2024-08-29T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.ea.com/seed/news/gigi</id>
+    <title>Gigi: Rapid Prototyping Platform for Real-Time Rendering</title>
+    <updated>2024-08-22T00:00:00+00:00</updated>
+    <content>Gigi allows you to create rendering techniques as a node graph in a visual editor and generate code for them automatically.</content>
+    <link href="https://www.ea.com/seed/news/gigi"/>
+    <category term="SEED" label="SEED"/>
+    <published>2024-08-22T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://www.ea.com/technology/news/ea-anticheat-safety</id>

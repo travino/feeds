@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-12T04:10:03.080710+00:00</updated>
+  <updated>2026-06-12T10:18:16.456209+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -20,6 +20,24 @@
     <published>2026-06-17T17:00:00+00:00</published>
   </entry>
   <entry>
+    <id>https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836</id>
+    <title>ArchAngel: Skilling the next developer generation for the Agentic transformation.</title>
+    <updated>2026-06-12T10:13:43+00:00</updated>
+    <content>AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try to solve this by catching issues after the commit, but by then the teaching moment is already gone. What if your developers could learn why something is wrong and how to fix it, as they write it? Arch</content>
+    <link href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T10:13:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542</id>
+    <title>Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps</title>
+    <updated>2026-06-12T07:00:00+00:00</updated>
+    <content>Introduction Deploying an AI application to Azure Container Apps is fundamentally different from deploying a web API. When you containerize a Django REST API, the application starts in a few seconds, the memory footprint is predictable, and the CPU usage scales linearly with requests. When you containerize a PyTorch model server, a LangChain agent, or an ONNX inference service, you are dealing with a completely different category of problem. Large language models, computer vision models, and emb</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T07:00:00+00:00</published>
+  </entry>
+  <entry>
     <id>https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available</id>
     <title>GitHub Enterprise Server 3.21 is now generally available</title>
     <updated>2026-06-11T22:46:53+00:00</updated>
@@ -27,6 +45,15 @@
     <link href="https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-06-11T22:46:53+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507</id>
+    <title>Right‑sizing Azure Savings Plans, one hour at a time</title>
+    <updated>2026-06-11T20:21:40+00:00</updated>
+    <content>Most of us have, at some point, sized a commitment the same way we order food for a team offsite: estimate, round up, and hope nobody complains. It works for pizza. It is a less robust strategy for a three‑year Savings Plan. Azure Cost Management already produces commitment recommendations for you, and they are a great starting point. But the headline dollar figure on the portal hides the most useful signal a FinOps team can get its hands on: the hourly Pay‑As‑You‑Go (PAYG) usage that the recomm</content>
+    <link href="https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T20:21:40+00:00</published>
   </entry>
   <entry>
     <id>https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved</id>
@@ -66,6 +93,15 @@ storage accounts. This includes legacy blob stor...</content>
     <link href="https://azure.microsoft.com/updates?id=564774"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-06-11T19:00:41+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566</id>
+    <title>Modern VM monitoring, powered by OpenTelemetry</title>
+    <updated>2026-06-11T18:57:11+00:00</updated>
+    <content>At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers . OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and streamlined integration with open-source and cloud-native observability tools. Alongside the GA, we're introducing an enhanced VM monitoring experience, recommended alerts, and out-of-the-box Grafana das</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-11T18:57:11+00:00</published>
   </entry>
   <entry>
     <id>https://azure.microsoft.com/updates?id=564734</id>
@@ -1793,41 +1829,5 @@ declaratively in SQL, and run it as a fault-tolerant pipeline insid...</content>
     <link href="https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/"/>
     <category term="Microsoft Research" label="Microsoft Research"/>
     <published>2026-05-13T16:00:20+00:00</published>
-  </entry>
-  <entry>
-    <id>https://news.microsoft.com/source/emea/2026/05/polska-na-mapie-rewolucji-ai-bez-dlugu-technologicznego-z-szansa-na-pozycje-lidera/?lang=pl</id>
-    <title>Polska na mapie rewolucji AI: bez długu technologicznego, z szansą na pozycję lidera</title>
-    <updated>2026-05-13T08:46:25+00:00</updated>
-    <content>The post Polska na mapie rewolucji AI: bez długu technologicznego, z szansą na pozycję lidera appeared first on Source EMEA .</content>
-    <link href="https://news.microsoft.com/source/emea/2026/05/polska-na-mapie-rewolucji-ai-bez-dlugu-technologicznego-z-szansa-na-pozycje-lidera/?lang=pl"/>
-    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
-    <published>2026-05-13T08:46:25+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/</id>
-    <title>Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models</title>
-    <updated>2026-05-12T13:00:00+00:00</updated>
-    <content>MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-12T13:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/</id>
-    <title>New and improved: Agent governance, intelligent workflows, and connected app experiences</title>
-    <updated>2026-05-11T17:25:12+00:00</updated>
-    <content>See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator. The post New and improved: Agent governance, intelligent workflows, and connected app experiences appeared first on Microsoft 365 Blog .</content>
-    <link href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/"/>
-    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
-    <published>2026-05-11T17:25:12+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/</id>
-    <title>SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests</title>
-    <updated>2026-05-11T17:19:28+00:00</updated>
-    <content>Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-11T17:19:28+00:00</published>
   </entry>
 </feed>

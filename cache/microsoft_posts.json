@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T04:10:03.078442+00:00",
+  "last_updated": "2026-06-12T10:18:16.453930+00:00",
   "entries": [
     {
       "title": "Announcing Copilot leadership update",
@@ -1528,6 +1528,13 @@
       "source": "Microsoft 365 Developer Changelog"
     },
     {
+      "title": "Modern VM monitoring, powered by OpenTelemetry",
+      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/modern-vm-monitoring-powered-by-opentelemetry/ba-p/4527566",
+      "date": "2026-06-11T18:57:11+00:00",
+      "description": "At Build 2026, we're announcing the general availability of OpenTelemetry (OTel) Guest OS metrics for Azure VMs and Arc-enabled Servers . OTel provides a standards-based foundation for VM monitoring with consistent metrics across Windows and Linux, richer Guest OS and per-process visibility, and streamlined integration with open-source and cloud-native observability tools. Alongside the GA, we're introducing an enhanced VM monitoring experience, recommended alerts, and out-of-the-box Grafana das",
+      "source": "Tech Community"
+    },
+    {
       "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
       "link": "https://azure.microsoft.com/updates?id=564774",
       "date": "2026-06-11T19:00:41+00:00",
@@ -1556,11 +1563,32 @@
       "source": "Microsoft 365 Developer Changelog"
     },
     {
+      "title": "Right‑sizing Azure Savings Plans, one hour at a time",
+      "link": "https://techcommunity.microsoft.com/t5/finops-blog/right-sizing-azure-savings-plans-one-hour-at-a-time/ba-p/4527507",
+      "date": "2026-06-11T20:21:40+00:00",
+      "description": "Most of us have, at some point, sized a commitment the same way we order food for a team offsite: estimate, round up, and hope nobody complains. It works for pizza. It is a less robust strategy for a three‑year Savings Plan. Azure Cost Management already produces commitment recommendations for you, and they are a great starting point. But the headline dollar figure on the portal hides the most useful signal a FinOps team can get its hands on: the hourly Pay‑As‑You‑Go (PAYG) usage that the recomm",
+      "source": "Tech Community"
+    },
+    {
       "title": "GitHub Enterprise Server 3.21 is now generally available",
       "link": "https://github.blog/changelog/2026-06-11-github-enterprise-server-3-21-is-now-generally-available",
       "date": "2026-06-11T22:46:53+00:00",
       "description": "GitHub Enterprise Server (GHES) 3.21 enhances deployment efficiency, monitoring capabilities, code security, and policy management. Here are a few highlights in the 3.21 release: Organization custom properties are now generally… The post GitHub Enterprise Server 3.21 is now generally available...",
       "source": "Microsoft 365 Developer Changelog"
+    },
+    {
+      "title": "Troubleshooting ML Model Loading, GPU Issues, and Memory Pressure in Azure Container Apps",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/troubleshooting-ml-model-loading-gpu-issues-and-memory-pressure/ba-p/4518542",
+      "date": "2026-06-12T07:00:00+00:00",
+      "description": "Introduction Deploying an AI application to Azure Container Apps is fundamentally different from deploying a web API. When you containerize a Django REST API, the application starts in a few seconds, the memory footprint is predictable, and the CPU usage scales linearly with requests. When you containerize a PyTorch model server, a LangChain agent, or an ONNX inference service, you are dealing with a completely different category of problem. Large language models, computer vision models, and emb",
+      "source": "Tech Community"
+    },
+    {
+      "title": "ArchAngel: Skilling the next developer generation for the Agentic transformation.",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
+      "date": "2026-06-12T10:13:43+00:00",
+      "description": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try to solve this by catching issues after the commit, but by then the teaching moment is already gone. What if your developers could learn why something is wrong and how to fix it, as they write it? Arch",
+      "source": "Tech Community"
     },
     {
       "title": "Visual Studio Code 1.125",
