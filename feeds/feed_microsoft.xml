@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-12T10:18:16.456209+00:00</updated>
+  <updated>2026-06-12T15:20:17.956005+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -18,6 +18,33 @@
     <link href="https://code.visualstudio.com/updates/v1_125"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-06-17T17:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-teams-blog/workplace-presence-made-effortless-workplace-check-in-via-wi-fi/ba-p/4523386</id>
+    <title>Workplace presence, made effortless: Workplace check-in via Wi-Fi for Microsoft Places and Teams</title>
+    <updated>2026-06-12T15:00:00+00:00</updated>
+    <content>We’re introducing workplace check-in via Wi-Fi for Microsoft Places and Teams, designed to help employees coordinate in-person work by keeping their workplace location up to date when they’re in the office. This capability builds on existing Microsoft 365 presence signals like calendar availability and Teams presence by making workplace location easier to keep current. For employees who choose to enable it, workplace check-in via Wi-Fi can update their workplace location based on connection to c</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-teams-blog/workplace-presence-made-effortless-workplace-check-in-via-wi-fi/ba-p/4523386"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T15:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/agent-365-identity-access-controls-in-entra/ba-p/4526815</id>
+    <title>Agent 365 | Identity &amp; Access Controls in Entra</title>
+    <updated>2026-06-12T13:35:57+00:00</updated>
+    <content>Surface agents across AWS Bedrock, Google Vertex, Databricks, and Salesforce in one registry, assign Entra Agent IDs via CLI or SDK, and enforce least-privilege access through Conditional Access policies and Agent Blueprints, all without rebuilding your existing identity infrastructure. Lock down agent activity with sign-in logs that capture every authentication attempt, policy hit, and failure. Govern agents as first-class identities alongside your users, apps, and devices, and draw a hard line</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/agent-365-identity-access-controls-in-entra/ba-p/4526815"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T13:35:57+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-measure-token-impact-of-mcp-tool-invocation-in-microsoft/ba-p/4527338</id>
+    <title>How to Measure Token Impact of MCP Tool Invocation in Microsoft Foundry</title>
+    <updated>2026-06-12T13:00:00+00:00</updated>
+    <content>Your MCP-enabled agent just ran, and the token counts don't add up. The API says 773 tokens. The portal trace shows 581/141. The trajectory view displays something else entirely. Before you file a bug report, here's what's actually happening—and how to build an evidence pattern that makes enterprise token accounting defensible. What you'll get: A reproducible A/B comparison method, visual evidence templates, and a reconciliation pattern that reduces FinOps review cycles. Quick Reference MCP (Mod</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-measure-token-impact-of-mcp-tool-invocation-in-microsoft/ba-p/4527338"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T13:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836</id>
@@ -1802,32 +1829,5 @@ declaratively in SQL, and run it as a fault-tolerant pipeline insid...</content>
     <link href="https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/"/>
     <category term="Microsoft Research" label="Microsoft Research"/>
     <published>2026-05-15T18:06:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://news.microsoft.com/source/emea/2026/05/jak-liderzy-innowacji-przebudowuja-modele-operacyjne-na-potrzeby-ery-ai/?lang=pl</id>
-    <title>Jak liderzy innowacji przebudowują modele operacyjne na potrzeby ery AI</title>
-    <updated>2026-05-14T08:29:57+00:00</updated>
-    <content>The post Jak liderzy innowacji przebudowują modele operacyjne na potrzeby ery AI appeared first on Source EMEA .</content>
-    <link href="https://news.microsoft.com/source/emea/2026/05/jak-liderzy-innowacji-przebudowuja-modele-operacyjne-na-potrzeby-ery-ai/?lang=pl"/>
-    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
-    <published>2026-05-14T08:29:57+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/</id>
-    <title>mimalloc: A new, high-performance, scalable memory allocator for the modern era</title>
-    <updated>2026-05-13T17:19:59+00:00</updated>
-    <content>mimalloc is an open-source, modern, scalable memory allocator that is a drop-in replacement for malloc and free. It is relatively small (~12K lines), with clear internal data structures, and is easy to build and integrate into other projects. It provides bounded worst-case allocation times (up to OS primitives), bounded space overhead, low internal fragmentation, and minimal contention by relying almost exclusively on atomic operations. The post mimalloc: A new, high-performance, scalable memory</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/mimalloc-a-high-performance-scalable-memory-allocator-for-the-modern-era/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-13T17:19:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/</id>
-    <title>GridSFM: A new, small foundation model for the electric grid</title>
-    <updated>2026-05-13T16:00:20+00:00</updated>
-    <content>Introducing GridSFM, a small foundation model that can predict AC optimal power flow in milliseconds, boosting efficiency and unlocking cost savings. Learn how GridSFM gives grid operators direct visibility into congestion, stability, and system health. The post GridSFM: A new, small foundation model for the electric grid appeared first on Microsoft Research .</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-13T16:00:20+00:00</published>
   </entry>
 </feed>

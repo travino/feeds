@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-06-12T10:18:12.598174+00:00</updated>
+  <updated>2026-06-12T15:20:14.203908+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://about.fb.com/news/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Meta news, engineering, and AI blogs -- Meta.com, About Meta, Engineering at Meta, and AI at Meta -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/06/free-ai-glasses-for-every-blind-veteran/</id>
+    <title>The Future Is for Everyone: Free AI Glasses for Every Blind Veteran in America</title>
+    <updated>2026-06-12T12:33:26+00:00</updated>
+    <content>We're donating Ray-Ban Meta glasses to every blind veteran in America, giving them transformative AI technology. The post The Future Is for Everyone: Free AI Glasses for Every Blind Veteran in America appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/06/free-ai-glasses-for-every-blind-veteran/"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-06-12T12:33:26+00:00</published>
+  </entry>
   <entry>
     <id>https://about.fb.com/news/2026/06/going-all-in-for-global-football-fans-across-meta-apps/</id>
     <title>Going All in for Global Football Fans Across Meta Apps</title>
@@ -900,14 +909,5 @@
     <link href="https://ai.meta.com/blog/altana-value-chain-management-llama/"/>
     <category term="AI at Meta" label="AI at Meta"/>
     <published>2025-01-30T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ai.meta.com/blog/brightheart-transforms-fetal-heart-screenings-dinov2/</id>
-    <title>How BrightHeart uses Meta’s DINOv2 to transform fetal heart screenings</title>
-    <updated>2025-01-23T00:00:00+00:00</updated>
-    <content>BrightHeart has created an AI-powered medical software with the support of Meta’s DINOv2 model to help clinicians identify or rule out signs suggestive of congenital heart defects.</content>
-    <link href="https://ai.meta.com/blog/brightheart-transforms-fetal-heart-screenings-dinov2/"/>
-    <category term="AI at Meta" label="AI at Meta"/>
-    <published>2025-01-23T00:00:00+00:00</published>
   </entry>
 </feed>

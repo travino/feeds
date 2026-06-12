@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-06-12T10:17:34.915455+00:00</updated>
+  <updated>2026-06-12T15:19:32.926687+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -10,6 +10,132 @@
   <link href="https://blog.google/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/</id>
+    <title>Introducing the Open Knowledge Format</title>
+    <updated>2026-06-12T13:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As foundation models continue to improve, the lack of relevant context often limits what they can do, especially as they are used to build agentic systems. While these models can help you write code, summarize documents, or analyze a dataset, they still need the right information to produce accurate and actionable results. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;That’s why today, we’re introducing the Open Knowledge Format (OKF), an open specification that formalizes the &lt;a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" rel="noopener" target="_blank"&gt;LLM-wiki&lt;/a&gt; pattern into a portable, interoperable format. This is a vendor-neutral, agent- and human-friendly standard for representing the metadata, context, and curated knowledge that modern AI systems need.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As published, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;OKF v0.1&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; represents knowledge as a directory of markdown files with YAML frontmatter, with a small set of agreed-upon conventions that let wikis written by different producers be consumed by different agents without translation.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;That's it. No complex compression scheme, no new runtime, no required SDK. A bundle of OKF documents is:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Just markdown&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; — readable in any editor, renderable on GitHub, indexable by any search tool&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Just files&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; — shippable as a tarball, hostable in any git repo, mountable on any filesystem&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Just YAML frontmatter&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; — for the small set of structured fields that need to be queryable: &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;type&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;title&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;description&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;resource&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;tags&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, and &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;timestamp&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If you've used Obsidian, Notion, Hugo, or any of the LLM wiki patterns that have emerged over the past year, the shape will feel familiar. OKF formalizes the small set of conventions needed to make these patterns interoperable.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Let’s take a look at the problem that OKF can solve for your organization, how it works, how to get started with it, and what’s next.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;A fragmented context landscape&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In most organizations, the information that foundation models use is overwhelmingly internal knowledge: the schema of a table, your business’ meaning of a metric, the runbook for an incident, the join paths between two systems, the deprecation notice for an old API, etc.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Today, these atoms of knowledge live in a variety of highly fragmented systems:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Metadata catalogs with their own APIs&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Wikis, third-party systems, or in shared drives&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Code comments, docstrings, or notebook cells&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The heads of a few senior engineers&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;When an AI agent needs to answer &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;"How do I compute weekly active users from our event stream?"&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; it has to assemble the answer from these scattered, mutually incompatible surfaces. Every vendor offers its own catalog, its own SDK, its own knowledge-graph schema, and none of the knowledge is easily portable across products or organizations.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The result: Every agent builder is solving the same context-assembly problem from scratch, every catalog vendor is reinventing the same data models, and the knowledge itself is locked behind whichever surface created it.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Knowledge as a living wiki&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Developer teams are changing how they build AI agents. Instead of using models to search the same documents for the same facts over and over, you can give your agents a shared markdown library that grows more useful over time. This lets your agents take on the drudgery of reading and updating their own files, while your team curates the content and manages it like code. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Andrej Karpathy, the prominent AI researcher and educator, articulates this idea most crisply in his &lt;/span&gt;&lt;a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;LLM Wiki gist&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. "LLMs don't get bored, don't forget to update a cross-reference, and can touch 15 files in one pass," he writes. The bookkeeping that causes humans to abandon personal wikis is exactly what LLMs are good at.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Similar knowledge-as-Wiki pattern keeps reappearing under different names: &lt;/span&gt;&lt;a href="https://obsidian.md/help/vault" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Obsidian vaults&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; wired to coding agents, the &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;AGENTS.md&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; / &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;CLAUDE.md&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; family of convention files, repos full of &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;index.md&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;log.md&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; artifacts that agents consult before doing real work, and "metadata as code" repositories inside data teams. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The pattern is compelling and powerful, but each instance is bespoke. Karpathy's wiki and your team's wiki and a vendor's catalog export may all &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;look&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; alike (markdown, frontmatter, cross-links), but none of them are intentionally designed to cooperate. There is no agreed-upon answer to &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;what fields every document should carry&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, or &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;what filenames mean what&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;. As a result, the knowledge encoded in wikis remains siloed within the original teams, leading to redundant effort whenever a new agent is built.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;What's missing is a format, not another service&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The answer to this problem isn’t another knowledge service. You need a &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;format&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;, a way to represent knowledge that:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Anyone can produce, without an SDK&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Anyone can consume, without an integration&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Survives moving between systems, organizations, and tools&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Lives in version control alongside the code it describes&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Is readable by humans &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;and&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; parseable by agents: the same file, no translation layer&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By design, OKF is that format. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;How OKF works: The design in one screen&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;An OKF &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;bundle&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; is a directory of markdown files representing &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;concepts: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;anything you want to capture, including tables, datasets, metrics, playbooks, runbooks, and APIs. Each concept is one file. The file path is the concept's identity:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;sales/\r\n├── index.md\r\n├── datasets/\r\n│   ├── index.md\r\n│   └── orders_db.md\r\n├── tables/\r\n│   ├── index.md\r\n│   ├── orders.md\r\n│   └── customers.md\r\n└── metrics/\r\n│   ├── index.md\r\n     └── weekly_active_users.md&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7fb8be70dfa0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Each concept document has a small block of YAML front matter for structured fields and a markdown body for everything else:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;---\r\ntype: BigQuery Table\r\ntitle: Orders\r\ndescription: One row per completed customer order.\r\nresource: https://console.cloud.google.com/bigquery?p=acme&amp;amp;d=sales&amp;amp;t=orders\r\ntags: [sales, revenue]\r\ntimestamp: 2026-05-28T14:30:00Z\r\n---\r\n\r\n# Schema\r\n\r\n| Column        | Type      | Description                              |\r\n|---------------|-----------|------------------------------------------|\r\n| `order_id`    | STRING    | Globally unique order identifier.        |\r\n| `customer_id` | STRING    | FK to [customers](/tables/customers.md). |\r\n\r\n# Joins\r\n\r\nJoined with [customers](/tables/customers.md) on `customer_id`.&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7fb8be70d4c0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Concepts link to each other with normal markdown links, turning the directory into a &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;graph&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; of relationships that is richer than the parent/child links implied by the file system. Bundles can optionally include &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;index.md&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; files (for progressive disclosure as agents navigate the hierarchy) and &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;log.md&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; files (for chronological history of changes).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The full v0.1 specification (including conformance criteria, cross-linking rules, and the small number of reserved filenames) fits on a single page.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Three principles behind the design&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;1. Minimally opinionated.&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; OKF requires exactly one thing of every concept: a &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;type&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; field. Everything else (e.g., what types exist, what other fields to include, what sections the body has) is left to the producer. The spec defines the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;interoperability surface&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;, not the content model.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;2. Producer/consumer independence.&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; OKF cleanly separates &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;who writes the knowledge&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; from &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;who consumes it&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;. A bundle hand-authored by a human can be consumed by an AI agent. A bundle generated by a metadata export pipeline can be browsed in a visualizer. A bundle synthesized by one LLM can be queried by another. The format is the contract; the tooling at each end is independently swappable.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;3. Format, not platform.&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; OKF is not tied to any specific cloud, database, model provider, or agent framework. It will never require a proprietary account or SDK to read, write, or serve. We're publishing it as an open standard because the value of a knowledge format comes from how many parties speak it, not from who owns it.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;What we're shipping with the spec&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To make the format concrete, we're publishing &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;reference implementations&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; at both the producer and consumer ends:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;An &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;enrichment agent&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; that walks a BigQuery dataset, drafts an OKF concept document for every table and view, then runs a second LLM pass that crawls authoritative documentation and enriches each concept with citations, schemas, and join paths.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;A &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;static HTML visualizer&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; that turns any OKF bundle into an interactive graph view in a single self-contained file; no backend, no install on the viewing side, no data leaves the page.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Three ready-to-browse sample bundles&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: &lt;/span&gt;&lt;a href="https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;GA4 e-commerce&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://pantheon.corp.google.com/marketplace/product/stack-exchange/stack-overflow?e=PanGm2themeLaunch::PanGm2themeEnabled,PanGm2themeDarkLaunch::PanGm2themeDarkControl&amp;amp;mods=pan_ng2&amp;amp;project=hormati-bqml" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Stack Overflow&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, and &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/topics/public-datasets/bitcoin-in-bigquery-blockchain-analytics-on-public-data?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Bitcoin public datasets&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, produced by the reference agent and committed to the repo as living examples of conformant OKF.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;These are proofs of concept, deliberately. The agent demonstrates &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;one&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; way to produce OKF; nothing about the format requires a specific agent framework or LLM. The visualizer demonstrates &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;one&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; way to consume it; nothing about the format requires HTML or a graph view. We expect (and want!) the ecosystem of producers and consumers to grow far beyond what we've shipped.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Where we go from here&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;OKF v0.1 is a starting point, not a finished standard. The format will evolve as more producers and consumers emerge and as we collectively learn what knowledge representations agents actually need in practice.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We're publishing in the open from day one because that's the only way a knowledge format earns its name, whether you're building a knowledge catalog, an enrichment pipeline, a wiki tailored to AI agents, or anything in the AI knowledge domain. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;From here, we encourage you to:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Read the spec&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; (it's short!)&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Write a producer&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; for your source system, your database, your documentation site&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Write a consumer:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; a viewer, a search index, an agent that reasons over bundles&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Try the reference implementation&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; against your own data&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;File issues, send PRs, or propose extensions:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; The spec is versioned and explicitly designed for backward-compatible growth&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The repo, the spec, and the sample bundles are available in &lt;/span&gt;&lt;a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;GitHub&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. We have also updated Google Cloud’s &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/introducing-the-google-cloud-knowledge-catalog"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Knowledge Catalog&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to be able to ingest Open Knowledge Format and serve it to our agents. You can find the relevant code and examples &lt;/span&gt;&lt;a href="https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/mdcode/demo" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The format itself is the contribution. The tools we've shipped exist to make it real, and to lower the cost of trying it out. Whatever shape your knowledge takes today, OKF is designed to be the &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;lingua franca&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; it can be exchanged for tomorrow. &lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;&lt;sup&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Published by the Google Cloud Data Cloud team. Open Knowledge Format is an open specification; contributions, alternative implementations, and adoption beyond Google products are all explicitly welcomed.&lt;/span&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;&lt;sup&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;In addition to the authors, this work came together thanks to key ideas from many others at Google, and we thank them for their contributions.&lt;/span&gt;&lt;/sup&gt;&lt;/p&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"/>
+    <category term="Google Cloud"/>
+    <published>2026-06-12T13:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://blog.google/innovation-and-ai/technology/safety-security/combatting-ai-scams/</id>
     <title>How we're combatting AI scams with security, legislation and more</title>

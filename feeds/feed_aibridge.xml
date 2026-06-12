@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://thinkingmachines.ai/blog/</id>
   <title>AI-bridge</title>
-  <updated>2026-06-12T10:16:28.527797+00:00</updated>
+  <updated>2026-06-12T15:18:14.148716+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://thinkingmachines.ai/blog/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined AI feed: Thinking Machines, Ollama, Mistral, Interconnected, AI Clock, Perplexity (blog/changelog/research/API changelog), and The Batch / DeepLearning.AI.</subtitle>
+  <entry>
+    <id>https://interconnected.org/home/2026/06/12/wet</id>
+    <title>Wet thoughts</title>
+    <updated>2026-06-12T12:42:00+00:00</updated>
+    <content>Wet lab. “Wet lab” was a new term to me, I had to look it up – it’s a laboratory with chemicals where there’s spill risk etc. I have a physics background myself and the closest I came to liquids was liquid nitrogen, and when you spill that it just boils furiously and goes away. Don’t do this: if you put your open hand into a dewar of liquid nitrogen, you can hold it under the liquid at -196C/-320F because the boiling on the surface of your hand makes an insulating quilt. It’s a fun game. Closing</content>
+    <link href="https://interconnected.org/home/2026/06/12/wet"/>
+    <category term="Interconnected" label="Interconnected"/>
+    <published>2026-06-12T12:42:00+00:00</published>
+  </entry>
   <entry>
     <id>https://www.perplexity.ai/hub/blog/disaggregated-prefill-and-decode</id>
     <title>Disaggregated Prefill and Decode</title>

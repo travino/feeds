@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-06-12T10:18:48.026708+00:00</updated>
+  <updated>2026-06-12T15:20:45.130970+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://ra.co/magazine" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85405</id>
+    <title>Leticia van Riel, Sama' Abdulhadi's co-manager, dies following car accident</title>
+    <updated>2026-06-12T10:45:00+00:00</updated>
+    <content>IMS paid tribute to "a force within the electronic music industry"</content>
+    <link href="https://ra.co/news/85405"/>
+    <category term="News"/>
+    <published>2026-06-12T10:45:00+00:00</published>
+  </entry>
   <entry>
     <id>https://ra.co/reviews/36357</id>
     <title>horsegiirL - Nature Is Healing</title>
@@ -1800,14 +1809,5 @@
     <link href="https://ra.co/features/4493"/>
     <category term="Feature"/>
     <published>2026-03-24T13:00:17+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ra.co/features/4495</id>
-    <title>The Best Club Songs Named After Clubs</title>
-    <updated>2026-03-19T16:30:58+00:00</updated>
-    <content>From Berghain and Red Rocks to Liquid Room and Cxema, we compiled a list of musical odes to dance floors around the world.</content>
-    <link href="https://ra.co/features/4495"/>
-    <category term="Feature"/>
-    <published>2026-03-19T16:30:58+00:00</published>
   </entry>
 </feed>

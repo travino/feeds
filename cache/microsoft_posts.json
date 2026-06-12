@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T10:18:16.453930+00:00",
+  "last_updated": "2026-06-12T15:20:17.953922+00:00",
   "entries": [
     {
       "title": "Announcing Copilot leadership update",
@@ -1588,6 +1588,27 @@
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/archangel-skilling-the-next-developer-generation-for-the-agentic/ba-p/4525836",
       "date": "2026-06-12T10:13:43+00:00",
       "description": "AI is transforming the SDLC at speed but there's a quieter question following close behind. If the code is being written for your junior developers, when do they learn the skills to become senior ones and how can they use these tools without losing understanding of what they've made? Most tools try to solve this by catching issues after the commit, but by then the teaching moment is already gone. What if your developers could learn why something is wrong and how to fix it, as they write it? Arch",
+      "source": "Tech Community"
+    },
+    {
+      "title": "How to Measure Token Impact of MCP Tool Invocation in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/how-to-measure-token-impact-of-mcp-tool-invocation-in-microsoft/ba-p/4527338",
+      "date": "2026-06-12T13:00:00+00:00",
+      "description": "Your MCP-enabled agent just ran, and the token counts don't add up. The API says 773 tokens. The portal trace shows 581/141. The trajectory view displays something else entirely. Before you file a bug report, here's what's actually happening—and how to build an evidence pattern that makes enterprise token accounting defensible. What you'll get: A reproducible A/B comparison method, visual evidence templates, and a reconciliation pattern that reduces FinOps review cycles. Quick Reference MCP (Mod",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Agent 365 | Identity & Access Controls in Entra",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-mechanics-blog/agent-365-identity-access-controls-in-entra/ba-p/4526815",
+      "date": "2026-06-12T13:35:57+00:00",
+      "description": "Surface agents across AWS Bedrock, Google Vertex, Databricks, and Salesforce in one registry, assign Entra Agent IDs via CLI or SDK, and enforce least-privilege access through Conditional Access policies and Agent Blueprints, all without rebuilding your existing identity infrastructure. Lock down agent activity with sign-in logs that capture every authentication attempt, policy hit, and failure. Govern agents as first-class identities alongside your users, apps, and devices, and draw a hard line",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Workplace presence, made effortless: Workplace check-in via Wi-Fi for Microsoft Places and Teams",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/workplace-presence-made-effortless-workplace-check-in-via-wi-fi/ba-p/4523386",
+      "date": "2026-06-12T15:00:00+00:00",
+      "description": "We’re introducing workplace check-in via Wi-Fi for Microsoft Places and Teams, designed to help employees coordinate in-person work by keeping their workplace location up to date when they’re in the office. This capability builds on existing Microsoft 365 presence signals like calendar availability and Teams presence by making workplace location easier to keep current. For employees who choose to enable it, workplace check-in via Wi-Fi can update their workplace location based on connection to c",
       "source": "Tech Community"
     },
     {
