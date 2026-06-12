@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T18:11:06.736324+00:00",
+  "last_updated": "2026-06-12T21:48:29.562472+00:00",
   "entries": [
     {
       "title": "Announcing Copilot leadership update",
@@ -1612,6 +1612,13 @@
       "source": "Tech Community"
     },
     {
+      "title": "GitHub Actions: Minimum version enforcement timeline for self-hosted runners",
+      "link": "https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners",
+      "date": "2026-06-12T16:04:57+00:00",
+      "description": "GitHub Actions is resuming enforcement of version requirements for self-hosted runners on github.com and GitHub Enterprise Cloud with Data Residency. This change is part of a broader effort to rebuild… The post GitHub Actions: Minimum version enforcement timeline for self-hosted runners appeared...",
+      "source": "Microsoft 365 Developer Changelog"
+    },
+    {
       "title": "Why some apps reach revenue faster than others—and how App Advisor helps close the gap",
       "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/why-some-apps-reach-revenue-faster-than-others-and-how-app/ba-p/4526910",
       "date": "2026-06-12T17:08:43+00:00",
@@ -1637,6 +1644,34 @@
       "link": "https://techcommunity.microsoft.com/t5/iis-support-blog/understanding-iis-website-limits-connection-timeout-bandwidth/ba-p/4516193",
       "date": "2026-06-12T17:37:52+00:00",
       "description": "In this blog, I am sharing learnings from multiple real-world issues I have worked on where the root cause came down to just three IIS Website Limit settings . On the surface, these options feel pretty straightforward in the UI but in practice, they can quietly become the reason behind major incidents. I have seen these settings trigger timeouts, dropped connections, and strange performance issues sometimes even before the request makes it to your application. That’s what makes them tricky every",
+      "source": "Tech Community"
+    },
+    {
+      "title": "What the AI-driven skills shift means for educators",
+      "link": "https://news.microsoft.com/signal/articles/what-the-ai-driven-skills-shift-means-for-educators/",
+      "date": "2026-06-12T19:22:08+00:00",
+      "description": "The post What the AI-driven skills shift means for educators appeared first on Microsoft Signal Blog .",
+      "source": "Microsoft Signal"
+    },
+    {
+      "title": "mssql-python 1.9.0: Row-friendly Bulk Copy, smarter NULL parameters, and a more portable wheel",
+      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-python-1-9-0-row-friendly-bulk-copy-smarter-null/ba-p/4527924",
+      "date": "2026-06-12T19:50:56+00:00",
+      "description": "We just shipped mssql-python 1.9.0, the official Microsoft SQL driver for Python. This release focuses on day-to-day ergonomics for data loading, a long-standing correctness gap around NULL parameter binding, and a build change that makes the published wheels work on clean macOS and Linux machines. pip install --upgrade mssql-python Highlights Bulk Copy now accepts Row objects (and lists) Bulk Copy previously required tuples. In 1.9.0 you can hand it Row objects straight from a SELECT, or plain ",
+      "source": "Tech Community"
+    },
+    {
+      "title": "Ire identifies another LOTUSLITE specimen",
+      "link": "https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/",
+      "date": "2026-06-12T20:30:48+00:00",
+      "description": "Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen appeared first on Microsoft Research .",
+      "source": "Microsoft Research"
+    },
+    {
+      "title": "DLP for Copilot Prompts: How to Stop Sensitive Data From Leaving Your Tenant",
+      "link": "https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/dlp-for-copilot-prompts-how-to-stop-sensitive-data-from-leaving/ba-p/4527948",
+      "date": "2026-06-12T21:15:24+00:00",
+      "description": "Picture this. A user types something sensitive into Copilot. Now you're left wondering what happens to it, how to prevent it from going out, and what to do after the fact. That's a conversation I have with customers a lot. How do you get proactive about securing what goes into Copilot and stop sensitive information from going out, instead of just cleaning up after it happens. Copilot's web grounding sends prompts out to Bing Search when it needs more context to answer a question. That's useful. ",
       "source": "Tech Community"
     },
     {

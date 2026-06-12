@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-06-12T18:11:06.738665+00:00</updated>
+  <updated>2026-06-12T21:48:29.564780+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -18,6 +18,42 @@
     <link href="https://code.visualstudio.com/updates/v1_125"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-06-17T17:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/dlp-for-copilot-prompts-how-to-stop-sensitive-data-from-leaving/ba-p/4527948</id>
+    <title>DLP for Copilot Prompts: How to Stop Sensitive Data From Leaving Your Tenant</title>
+    <updated>2026-06-12T21:15:24+00:00</updated>
+    <content>Picture this. A user types something sensitive into Copilot. Now you're left wondering what happens to it, how to prevent it from going out, and what to do after the fact. That's a conversation I have with customers a lot. How do you get proactive about securing what goes into Copilot and stop sensitive information from going out, instead of just cleaning up after it happens. Copilot's web grounding sends prompts out to Bing Search when it needs more context to answer a question. That's useful. </content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/dlp-for-copilot-prompts-how-to-stop-sensitive-data-from-leaving/ba-p/4527948"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T21:15:24+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/</id>
+    <title>Ire identifies another LOTUSLITE specimen</title>
+    <updated>2026-06-12T20:30:48+00:00</updated>
+    <content>Project Ire examined a timely malware sample and determined its intent through reverse engineering—identifying LOTUSLITE characteristics even as most major EDR tools did not detect it. The post Ire identifies another LOTUSLITE specimen appeared first on Microsoft Research .</content>
+    <link href="https://www.microsoft.com/en-us/research/blog/ire-identifies-another-lotuslite-specimen/"/>
+    <category term="Microsoft Research" label="Microsoft Research"/>
+    <published>2026-06-12T20:30:48+00:00</published>
+  </entry>
+  <entry>
+    <id>https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-python-1-9-0-row-friendly-bulk-copy-smarter-null/ba-p/4527924</id>
+    <title>mssql-python 1.9.0: Row-friendly Bulk Copy, smarter NULL parameters, and a more portable wheel</title>
+    <updated>2026-06-12T19:50:56+00:00</updated>
+    <content>We just shipped mssql-python 1.9.0, the official Microsoft SQL driver for Python. This release focuses on day-to-day ergonomics for data loading, a long-standing correctness gap around NULL parameter binding, and a build change that makes the published wheels work on clean macOS and Linux machines. pip install --upgrade mssql-python Highlights Bulk Copy now accepts Row objects (and lists) Bulk Copy previously required tuples. In 1.9.0 you can hand it Row objects straight from a SELECT, or plain </content>
+    <link href="https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-python-1-9-0-row-friendly-bulk-copy-smarter-null/ba-p/4527924"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-06-12T19:50:56+00:00</published>
+  </entry>
+  <entry>
+    <id>https://news.microsoft.com/signal/articles/what-the-ai-driven-skills-shift-means-for-educators/</id>
+    <title>What the AI-driven skills shift means for educators</title>
+    <updated>2026-06-12T19:22:08+00:00</updated>
+    <content>The post What the AI-driven skills shift means for educators appeared first on Microsoft Signal Blog .</content>
+    <link href="https://news.microsoft.com/signal/articles/what-the-ai-driven-skills-shift-means-for-educators/"/>
+    <category term="Microsoft Signal" label="Microsoft Signal"/>
+    <published>2026-06-12T19:22:08+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/iis-support-blog/understanding-iis-website-limits-connection-timeout-bandwidth/ba-p/4516193</id>
@@ -54,6 +90,15 @@
     <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/why-some-apps-reach-revenue-faster-than-others-and-how-app/ba-p/4526910"/>
     <category term="Tech Community" label="Tech Community"/>
     <published>2026-06-12T17:08:43+00:00</published>
+  </entry>
+  <entry>
+    <id>https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners</id>
+    <title>GitHub Actions: Minimum version enforcement timeline for self-hosted runners</title>
+    <updated>2026-06-12T16:04:57+00:00</updated>
+    <content>GitHub Actions is resuming enforcement of version requirements for self-hosted runners on github.com and GitHub Enterprise Cloud with Data Residency. This change is part of a broader effort to rebuild… The post GitHub Actions: Minimum version enforcement timeline for self-hosted runners appeared...</content>
+    <link href="https://github.blog/changelog/2026-06-12-github-actions-minimum-version-enforcement-timeline-for-self-hosted-runners"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-06-12T16:04:57+00:00</published>
   </entry>
   <entry>
     <id>https://techcommunity.microsoft.com/t5/microsoft-teams-blog/workplace-presence-made-effortless-workplace-check-in-via-wi-fi/ba-p/4523386</id>
@@ -1784,50 +1829,5 @@ declaratively in SQL, and run it as a fault-tolerant pipeline insid...</content>
     <link href="https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/"/>
     <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
     <published>2026-05-26T16:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://news.microsoft.com/source/emea/2026/05/z-ciszy-na-scene-tedx-jak-ai-wspiera-dominike-kazdego-dnia/?lang=pl</id>
-    <title>Z ciszy na scenę TEDx. Jak AI wspiera Dominikę każdego dnia</title>
-    <updated>2026-05-26T10:29:33+00:00</updated>
-    <content>The post Z ciszy na scenę TEDx. Jak AI wspiera Dominikę każdego dnia appeared first on Source EMEA .</content>
-    <link href="https://news.microsoft.com/source/emea/2026/05/z-ciszy-na-scene-tedx-jak-ai-wspiera-dominike-kazdego-dnia/?lang=pl"/>
-    <category term="Microsoft Source EMEA (PL)" label="Microsoft Source EMEA (PL)"/>
-    <published>2026-05-26T10:29:33+00:00</published>
-  </entry>
-  <entry>
-    <id>https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win</id>
-    <title>The AX stack: what’s fixed, where you can win</title>
-    <updated>2026-05-21T17:39:59+00:00</updated>
-    <content>AI coding agents promise to make you more productive. On the surface they do, but in practice they fall short: agents generate code that doesn’t compile, use a deprecated SDK, or pick the wrong service entirely. Is it you using it wrong? Is it your tech stack? Or is it the tools you haven’t configured […] The post The AX stack: what’s fixed, where you can win appeared first on Microsoft for Developers .</content>
-    <link href="https://devblogs.microsoft.com/blog/the-ax-stack-whats-fixed-where-you-can-win"/>
-    <category term="Microsoft DevBlogs" label="Microsoft DevBlogs"/>
-    <published>2026-05-21T17:39:59+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/</id>
-    <title>MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models</title>
-    <updated>2026-05-21T17:00:00+00:00</updated>
-    <content>MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft Research .</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-21T17:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/</id>
-    <title>Vega: Zero-knowledge proofs for digital identity in the age of AI</title>
-    <updated>2026-05-21T13:48:40+00:00</updated>
-    <content>Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research .</content>
-    <link href="https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/"/>
-    <category term="Microsoft Research" label="Microsoft Research"/>
-    <published>2026-05-21T13:48:40+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blogs.microsoft.com/blog/2026/05/21/from-ai-pilots-to-enterprise-impact-why-execution-is-the-new-differentiator/</id>
-    <title>From AI pilots to enterprise impact: Why execution is the new differentiator</title>
-    <updated>2026-05-21T11:02:33+00:00</updated>
-    <content>As the pace of change accelerates, organizations are moving quickly from AI experimentation to enterprise-scale transformation. Leaders are prioritizing measurable outcomes, faster time to value and repeatability across the business. But many are encountering the same reality: the challenge is no longer deciding whether to invest in AI — it’s scaling adoption and delivering consistent,... The post From AI pilots to enterprise impact: Why execution is the new differentiator appeared first on The </content>
-    <link href="https://blogs.microsoft.com/blog/2026/05/21/from-ai-pilots-to-enterprise-impact-why-execution-is-the-new-differentiator/"/>
-    <category term="Official Microsoft Blog" label="Official Microsoft Blog"/>
-    <published>2026-05-21T11:02:33+00:00</published>
   </entry>
 </feed>
