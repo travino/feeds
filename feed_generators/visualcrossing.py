@@ -63,6 +63,26 @@ BASE_URL = (
     "rest/services/timeline"
 )
 
+# Air-quality / extra elements appended to the default element set.
+# `add:` keeps all default day fields and adds these on top.
+EXTRA_ELEMENTS = ",".join(
+    f"add:{e}"
+    for e in (
+        "aqieur", "aqielement",
+        "pm1", "pm2p5", "pm10",
+        "o3", "no2", "so2", "co",
+        "lightningrisk",
+    )
+)
+
+# European Air Quality Index (CAMS) levels, 1 (best) .. 6 (worst).
+AQI_EUR_LEVELS = {
+    "pl": {1: "bardzo dobra", 2: "dobra", 3: "umiarkowana",
+           4: "zła", 5: "bardzo zła", 6: "ekstremalnie zła"},
+    "en": {1: "good", 2: "fair", 3: "moderate",
+           4: "poor", 5: "very poor", 6: "extremely poor"},
+}
+
 # Unit symbols by `unitGroup`.
 TEMP_UNIT = {"metric": "°C", "us": "°F", "uk": "°C", "base": "K"}.get(UNITS, "°C")
 WIND_UNIT = {"metric": "km/h", "us": "mph", "uk": "mph", "base": "m/s"}.get(UNITS, "km/h")
@@ -86,6 +106,8 @@ LABELS = {
         "wind": "Wiatr", "gust": "porywy", "humidity": "Wilgotność",
         "uv": "Indeks UV", "cloud": "Zachmurzenie", "sunrise": "Wschód słońca",
         "sunset": "Zachód słońca", "alert": "Ostrzeżenie pogodowe",
+        "aqi": "Jakość powietrza (AQI EU)", "aqi_dominant": "dominuje",
+        "pm": "Pyły", "gases": "Gazy", "lightning": "Ryzyko burz",
     },
 }
 DEFAULT_LABELS = {
@@ -94,6 +116,8 @@ DEFAULT_LABELS = {
     "snow": "Snow", "wind": "Wind", "gust": "gusts", "humidity": "Humidity",
     "uv": "UV index", "cloud": "Cloud cover", "sunrise": "Sunrise",
     "sunset": "Sunset", "alert": "Weather alert",
+    "aqi": "Air quality (EU AQI)", "aqi_dominant": "dominant",
+    "pm": "Particulates", "gases": "Gases", "lightning": "Lightning risk",
 }
 L = LABELS.get(LANG, DEFAULT_LABELS)
 
@@ -112,6 +136,7 @@ def fetch_timeline(retries: int = 3, backoff: float = 2.0):
         {
             "unitGroup": UNITS,
             "include": "days,alerts",
+            "elements": EXTRA_ELEMENTS,
             "key": API_KEY,
             "lang": LANG,
             "contentType": "json",
@@ -149,6 +174,47 @@ def _pl_date(local_date: datetime) -> str:
     if LANG == "pl":
         return f"{PL_WEEKDAYS[local_date.weekday()]}, {local_date.day} {PL_MONTHS[local_date.month - 1]}"
     return local_date.strftime("%a %d %b")
+
+
+def _air_quality_lines(day: dict) -> list[str]:
+    """Render air-quality <li> lines for a day, or [] if no AQ data."""
+    lines = []
+    aqi = day.get("aqieur")
+    if aqi is not None:
+        level = AQI_EUR_LEVELS.get(LANG, AQI_EUR_LEVELS["en"]).get(int(aqi), "")
+        dominant = (
+            (day.get("aqielement") or "")
+            .replace("pm2p5", "PM2.5").replace("pm10", "PM10").replace("pm1", "PM1")
+            .replace("o3", "O₃").replace("no2", "NO₂").replace("so2", "SO₂")
+            .replace("co", "CO").replace(",", ", ")
+        )
+        text = f"{L['aqi']}: {int(aqi)}/6"
+        if level:
+            text += f" ({level})"
+        if dominant:
+            text += f" — {L['aqi_dominant']}: {dominant}"
+        lines.append(f"<li>{text}</li>")
+
+    pm = [
+        f"{name} {_r(day[key])}"
+        for key, name in (("pm1", "PM1"), ("pm2p5", "PM2.5"), ("pm10", "PM10"))
+        if day.get(key) is not None
+    ]
+    if pm:
+        lines.append(f"<li>{L['pm']}: {' · '.join(pm)} µg/m³</li>")
+
+    gases = [
+        f"{name} {_r(day[key])}"
+        for key, name in (("o3", "O₃"), ("no2", "NO₂"), ("so2", "SO₂"), ("co", "CO"))
+        if day.get(key) is not None
+    ]
+    if gases:
+        lines.append(f"<li>{L['gases']}: {' · '.join(gases)} µg/m³</li>")
+
+    risk = day.get("lightningrisk")
+    if risk:
+        lines.append(f"<li>{L['lightning']}: {_r(risk)}%</li>")
+    return lines
 
 
 def build_day_entries(data: dict) -> list[dict]:
@@ -205,6 +271,7 @@ def build_day_entries(data: dict) -> list[dict]:
             lines.append(f"<li>{L['cloud']}: {_r(cloud)}%</li>")
         if sunrise and sunset:
             lines.append(f"<li>{L['sunrise']}: {sunrise} · {L['sunset']}: {sunset}</li>")
+        lines.extend(_air_quality_lines(day))
         lines.append("</ul>")
         description_html = sanitize_xml("\n".join(lines))
 
