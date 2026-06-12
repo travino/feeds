@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-06-12T21:48:47.162969+00:00</updated>
+  <updated>2026-06-12T23:20:51.854872+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -18,6 +18,15 @@
     <link href="https://openai.com/index/academy-courses-applying-ai-at-work"/>
     <category term="OpenAI News" label="OpenAI News"/>
     <published>2026-06-12T10:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://developers.openai.com/apps-sdk/changelog#apps-sdk-2026-06-12</id>
+    <title>App permission controls in ChatGPT</title>
+    <updated>2026-06-12T00:00:00+00:00</updated>
+    <content>Fixes &amp; improvements ChatGPT users can now choose when connected apps ask for permission: always, before making changes, or only before important changes. Personal accounts can set global and per-app preferences, while Business and Enterprise admins control workspace and per-app defaults.</content>
+    <link href="https://developers.openai.com/apps-sdk/changelog#apps-sdk-2026-06-12"/>
+    <category term="Apps SDK changelog" label="Apps SDK changelog"/>
+    <published>2026-06-12T00:00:00+00:00</published>
   </entry>
   <entry>
     <id>https://openai.com/index/preply</id>
@@ -1855,15 +1864,6 @@ CI runners with their ChatGPT workspace identity. Learn more in Access tokens .<
     <content>$ npm install -g @openai/codex@0.128.0 View details New Features Added persisted /goal workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. ( #18073 , #18074 , #18075 , #18076 , #18077 , #20082 ) Added codex update , configurable TUI keymaps, plan-mode nudges, action-required terminal titles, and active-turn /statusline and /title edits. ( #19933 , #18593 , #19901 , #18372 , #19917 ) Expanded permission profiles with built-in d</content>
     <link href="https://developers.openai.com/codex/changelog#github-release-315916672"/>
     <category term="Codex changelog" label="Codex changelog"/>
-    <published>2026-04-30T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://developers.openai.com/learn/developers-codex-plugin/</id>
-    <title>OpenAI Developers plugin for Codex</title>
-    <updated>2026-04-30T00:00:00+00:00</updated>
-    <content>Install and use the OpenAI Developers plugin in Codex to set up project API keys and troubleshoot OpenAI API issues.</content>
-    <link href="https://developers.openai.com/learn/developers-codex-plugin/"/>
-    <category term="OpenAI Developers" label="OpenAI Developers"/>
     <published>2026-04-30T00:00:00+00:00</published>
   </entry>
 </feed>

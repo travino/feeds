@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T21:48:47.158863+00:00",
+  "last_updated": "2026-06-12T23:20:51.850827+00:00",
   "entries": [
     {
       "title": "Update: Added function calling support to the Fine-tuning API",
@@ -3745,6 +3745,13 @@
       "date": "2026-06-12T00:00:00+00:00",
       "description": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
       "source": "OpenAI News"
+    },
+    {
+      "title": "App permission controls in ChatGPT",
+      "link": "https://developers.openai.com/apps-sdk/changelog#apps-sdk-2026-06-12",
+      "date": "2026-06-12T00:00:00+00:00",
+      "description": "Fixes & improvements ChatGPT users can now choose when connected apps ask for permission: always, before making changes, or only before important changes. Personal accounts can set global and per-app preferences, while Business and Enterprise admins control workspace and per-app defaults.",
+      "source": "Apps SDK changelog"
     },
     {
       "title": "New OpenAI Academy courses for the next era of work",

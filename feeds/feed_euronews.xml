@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.euronews.com/</id>
   <title>Euronews</title>
-  <updated>2026-06-12T21:47:41.767562+00:00</updated>
+  <updated>2026-06-12T23:19:31.037263+00:00</updated>
   <author>
     <name>Euronews</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://www.euronews.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined Euronews feed: News, My Europe, No Comment, Culture, Sport, Travel, and Next.</subtitle>
+  <entry>
+    <id>http://www.euronews.com/video/2026/06/13/david-beckham-receives-star-on-the-hollywood-walk-of-fame</id>
+    <title>David Beckham receives star on the Hollywood Walk of Fame</title>
+    <updated>2026-06-12T22:25:50+00:00</updated>
+    <content>Football icon David Beckham was honoured with a star on the Hollywood Walk of Fame, recognising his sporting achievements and influence on the growth of football in the United States.</content>
+    <link href="http://www.euronews.com/video/2026/06/13/david-beckham-receives-star-on-the-hollywood-walk-of-fame"/>
+    <category term="News" label="News"/>
+    <published>2026-06-12T22:25:50+00:00</published>
+  </entry>
   <entry>
     <id>http://www.euronews.com/2026/06/12/cuban-president-announces-economic-reforms-to-liberalise-the-embargo-hit-and-blockaded-isl</id>
     <title>Cuban president announces economic reforms to &amp;#039;liberalise&amp;#039; the embargo-hit and blockaded island</title>
@@ -1801,14 +1810,5 @@ NB: Spoiler-free review.</content>
     <link href="http://www.euronews.com/culture/2026/06/09/archaeological-sensation-iron-age-celtic-grave-discovered-in-hesse"/>
     <category term="Culture" label="Culture"/>
     <published>2026-06-09T17:34:53+00:00</published>
-  </entry>
-  <entry>
-    <id>http://www.euronews.com/video/2026/06/09/israeli-warnings-trigger-mass-exodus-from-lebanons-historic-tyre</id>
-    <title>Israeli warnings trigger mass exodus from Lebanon’s historic Tyre</title>
-    <updated>2026-06-09T17:29:40+00:00</updated>
-    <content>Thousands of residents fled Lebanon's southern city of Tyre on 9 June, with long queues of vehicles heading north after Israeli military warnings heightened fears of further air strikes and a wider regional escalation.</content>
-    <link href="http://www.euronews.com/video/2026/06/09/israeli-warnings-trigger-mass-exodus-from-lebanons-historic-tyre"/>
-    <category term="News" label="News"/>
-    <published>2026-06-09T17:29:40+00:00</published>
   </entry>
 </feed>
