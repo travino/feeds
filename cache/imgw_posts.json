@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T14:01:56.712489+00:00",
+  "last_updated": "2026-06-13T15:20:15.005941+00:00",
   "entries": [
     {
       "guid": "urn:imgw:warnhydro:4f4a8c7066cfc8f8799b34924c9d079c227100d2",
@@ -331,7 +331,7 @@
       "station": "Kraków",
       "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
       "date": "2026-06-13T00:00:00+02:00",
-      "updated": "2026-06-13T13:32:33.790505+00:00",
+      "updated": "2026-06-13T15:20:11.551490+00:00",
       "readings": {
         "03": {
           "temperatura": "12.8",
@@ -364,41 +364,49 @@
           "wilgotnosc_wzgledna": "63.4",
           "suma_opadu": "1.4",
           "cisnienie": "1013.9"
+        },
+        "15": {
+          "temperatura": "20.4",
+          "predkosc_wiatru": "5",
+          "kierunek_wiatru": "280",
+          "wilgotnosc_wzgledna": "61.5",
+          "suma_opadu": "1.4",
+          "cisnienie": "1012.7"
         }
       },
-      "title": "Kraków — obserwacje 13.06: 19.4°C, opad 1.4 mm (godz. 13)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>03:00</td><td>12.8°C</td><td>1 m/s / 230°</td><td>84.0%</td><td>0 mm</td><td>1016.8 hPa</td></tr><tr><td>07:00</td><td>16°C</td><td>5 m/s / 250°</td><td>86.6%</td><td>1.4 mm</td><td>1016.1 hPa</td></tr><tr><td>10:00</td><td>20.4°C</td><td>8 m/s / 240°</td><td>55.2%</td><td>1.4 mm</td><td>1014.9 hPa</td></tr><tr><td>13:00</td><td>19.4°C</td><td>9 m/s / 230°</td><td>63.4%</td><td>1.4 mm</td><td>1013.9 hPa</td></tr></table>",
-      "summary_hash": "00ccdec0682c5690c56b37c9ec38caa6d3427b60"
+      "title": "Kraków — obserwacje 13.06: 20.4°C, opad 1.4 mm (godz. 15)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>03:00</td><td>12.8°C</td><td>1 m/s / 230°</td><td>84.0%</td><td>0 mm</td><td>1016.8 hPa</td></tr><tr><td>07:00</td><td>16°C</td><td>5 m/s / 250°</td><td>86.6%</td><td>1.4 mm</td><td>1016.1 hPa</td></tr><tr><td>10:00</td><td>20.4°C</td><td>8 m/s / 240°</td><td>55.2%</td><td>1.4 mm</td><td>1014.9 hPa</td></tr><tr><td>13:00</td><td>19.4°C</td><td>9 m/s / 230°</td><td>63.4%</td><td>1.4 mm</td><td>1013.9 hPa</td></tr><tr><td>15:00</td><td>20.4°C</td><td>5 m/s / 280°</td><td>61.5%</td><td>1.4 mm</td><td>1012.7 hPa</td></tr></table>",
+      "summary_hash": "231187d136468dd121fac3a76cc8734c3fe4f8d2"
     },
     {
       "guid": "urn:imgw:hydro:150190260:2026-06-13",
       "kind": "hydro",
-      "title": "Smolice (Wisła) — stan wody 149 cm (13.06 13:30)",
+      "title": "Smolice (Wisła) — stan wody 147 cm (13.06 15:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 149 cm (13.06 13:30)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 147 cm (13.06 15:00)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
       "date": "2026-06-13T00:00:00+02:00",
-      "updated": "2026-06-13T14:01:49.073493+00:00",
-      "summary_hash": "48b43f9d12da27bc1369f50521770a18dd1ee8e6"
+      "updated": "2026-06-13T15:20:12.816858+00:00",
+      "summary_hash": "1095c5baf28ddcdb044a2394815409ec769b152f"
     },
     {
       "guid": "urn:imgw:hydro:150190180:2026-06-13",
       "kind": "hydro",
-      "title": "Jeleń (Przemsza) — stan wody 143 cm (13.06 13:30)",
+      "title": "Jeleń (Przemsza) — stan wody 143 cm (13.06 15:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 143 cm (13.06 13:30)</li><li>Przepływ: 10.5 m³/s (13.06 13:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 143 cm (13.06 15:00)</li><li>Przepływ: 10.5 m³/s (13.06 14:50)</li></ul>",
       "date": "2026-06-13T00:00:00+02:00",
-      "updated": "2026-06-13T14:01:49.073598+00:00",
-      "summary_hash": "e532414e01900de89e68f4c1e46e1686bf568e7c"
+      "updated": "2026-06-13T15:20:12.816960+00:00",
+      "summary_hash": "147d95a68fc06c7f85f49f68973f6225c14cbc5d"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-06-13",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 13.06: opad (10 min) 0 mm (13:30)",
+      "title": "Chrzanów — telemetria 13.06: opad (10 min) 0 mm (14:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (13:30)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (14:50)</li></ul>",
       "date": "2026-06-13T00:00:00+02:00",
-      "updated": "2026-06-13T14:01:50.358546+00:00",
-      "summary_hash": "4539aea71a7e7b70bae0101ee0a5346d59fb05c8"
+      "updated": "2026-06-13T15:20:13.945050+00:00",
+      "summary_hash": "41680cd9bc67cdf790bc141c4860bdc289ad4d13"
     }
   ]
 }
