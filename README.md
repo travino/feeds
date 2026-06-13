@@ -53,6 +53,7 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds)
 | <img src="https://www.google.com/s2/favicons?domain=commoninja.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Common Ninja Blog](https://www.commoninja.com/blog) | [feed_commoninja.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_commoninja.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=canva.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Canva](https://www.canva.com/newsroom/news/) | [feed_canva.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_canva.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=bethesda.net&sz=32" width="16" height="16" align="absmiddle" alt=""> [Bethesda News](https://bethesda.net/pl-PL/news) | [feed_bethesda.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_bethesda.xml) |
+| <img src="https://www.google.com/s2/favicons?domain=steampowered.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Steam News](https://store.steampowered.com/news/) | [feed_steam.xml](https://raw.githubusercontent.com/travino/feeds/main/feeds/feed_steam.xml) |
 
 > Favicons are pulled live from Google's favicon service
 > (`https://www.google.com/s2/favicons?domain=<host>`); no images are committed

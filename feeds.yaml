@@ -173,3 +173,7 @@ feeds:
     script: bethesda.py
     type: requests
     blog_url: https://bethesda.net/pl-PL/news
+  steam:
+    script: steam.py
+    type: requests
+    blog_url: https://store.steampowered.com/news/
