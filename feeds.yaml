@@ -177,3 +177,7 @@ feeds:
     script: steam.py
     type: requests
     blog_url: https://store.steampowered.com/news/
+  "4chan":
+    script: fourchan.py
+    type: requests
+    blog_url: https://www.4chan.org/
