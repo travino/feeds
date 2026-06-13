@@ -189,3 +189,7 @@ feeds:
     script: usgov.py
     type: requests
     blog_url: https://www.usa.gov/
+  esa:
+    script: esa.py
+    type: requests
+    blog_url: https://www.esa.int/
