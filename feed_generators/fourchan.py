@@ -64,7 +64,13 @@ BOARDS = [
     ("tv", "/tv/ TV & Film"),
     ("v", "/v/ Video Games"),
     ("mu", "/mu/ Music"),
+    ("b", "/b/ Random"),
+    ("trash", "/trash/ Off-Topic"),
+    ("s4s", "/s4s/ Sh*t 4chan Says"),
+    ("t", "/t/ Torrents"),
     ("vip", "/vip/ VIP"),
+    ("int", "/int/ International"),
+    ("bant", "/bant/ International/Random"),
 ]
 
 # Official blog (WordPress) — folded in as a native RSS source.
