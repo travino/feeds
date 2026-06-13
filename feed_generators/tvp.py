@@ -11,7 +11,7 @@ Sources:
       - Informacje  (/83939255/informacje)   — national/world news
       - Rozrywka    (/85859082/aktualnosci)  — entertainment
       - Kultura     (/44233674/aktualnosci)  — culture
-      - Moto        (/82262988/moto)         — automotive
+      - Moto        (/82263271/moto)         — automotive
 
 Block-API mechanics: ``window.__directoryData`` in each section page carries
 the page id and its directory ``type``. When that type is a "grid", the page
@@ -21,12 +21,9 @@ the page is a section-group landing whose article grids are listed by
 "news"`` block). Item dates arrive as epoch milliseconds in ``release_date`` /
 ``publication_start``.
 
-The Moto landing currently exposes only a menu (no flat article grid), so it
-contributes nothing until TVP populates a grid there; it is kept in the list
-so it starts working automatically if that changes. centruminformacji.tvp.pl
-is deliberately not a source: it is a static corporate landing page (sections
-like "nasze akcje", "patronaty", "przetargi") with no article stream and no
-native feed.
+centruminformacji.tvp.pl is deliberately not a source: it is a static
+corporate landing page (sections like "nasze akcje", "patronaty", "przetargi")
+with no article stream and no native feed.
 """
 
 import argparse
@@ -53,7 +50,7 @@ PORTAL_SECTIONS = [
     ("TVP Informacje", "https://www.tvp.pl/83939255/informacje"),
     ("TVP Rozrywka", "https://www.tvp.pl/85859082/aktualnosci"),
     ("TVP Kultura", "https://www.tvp.pl/44233674/aktualnosci"),
-    ("TVP Moto", "https://www.tvp.pl/82262988/moto"),
+    ("TVP Moto", "https://www.tvp.pl/82263271/moto"),
 ]
 
 
