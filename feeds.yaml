@@ -133,6 +133,10 @@ feeds:
     script: pap.py
     type: requests
     blog_url: https://www.pap.pl/
+  tvp:
+    script: tvp.py
+    type: requests
+    blog_url: https://www.tvp.pl/
   microsoft:
     script: microsoft.py
     type: requests
