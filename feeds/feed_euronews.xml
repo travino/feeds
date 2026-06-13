@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.euronews.com/</id>
   <title>Euronews</title>
-  <updated>2026-06-13T17:26:00.889629+00:00</updated>
+  <updated>2026-06-13T19:29:15.698907+00:00</updated>
   <author>
     <name>Euronews</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://www.euronews.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined Euronews feed: News, My Europe, No Comment, Culture, Sport, Travel, and Next.</subtitle>
+  <entry>
+    <id>http://www.euronews.com/my-europe/2026/06/13/trump-announces-iran-peace-deal-could-be-signed-on-sunday</id>
+    <title>Trump announces Iran peace deal could be signed on Sunday</title>
+    <updated>2026-06-13T18:33:59+00:00</updated>
+    <content>Ahead of the G7 summit in Évian, Trump announced a US-Iran peace deal could be signed Sunday—reopening the Strait of Hormuz—though Iran disputed the timeline.</content>
+    <link href="http://www.euronews.com/my-europe/2026/06/13/trump-announces-iran-peace-deal-could-be-signed-on-sunday"/>
+    <category term="My Europe" label="My Europe"/>
+    <published>2026-06-13T18:33:59+00:00</published>
+  </entry>
   <entry>
     <id>http://www.euronews.com/video/2026/06/13/latest-news-bulletin-june-13th-2026-evening</id>
     <title>Latest news bulletin | June 13th, 2026 – Evening</title>
@@ -1801,14 +1810,5 @@ NB: Spoiler-free review.</content>
     <link href="http://www.euronews.com/video/2026/06/10/spain-pope-leo-xiv-surprises-passengers-with-cockpit-visit-on-madrid-barcelona-flight"/>
     <category term="News" label="News"/>
     <published>2026-06-10T09:51:59+00:00</published>
-  </entry>
-  <entry>
-    <id>http://www.euronews.com/my-europe/2026/06/10/fake-article-claims-mbappe-made-sexual-harassment-allegations-against-macron</id>
-    <title>Fake article claims Mbappé made sexual harassment allegations against Macron</title>
-    <updated>2026-06-10T09:02:28+00:00</updated>
-    <content>A report attempting to mimic a legitimate Eurosport article claims that French football sensation Kylian Mbappé has made a series of revelations about inappropriate behaviour by Preisdent Emmanuel Macron.</content>
-    <link href="http://www.euronews.com/my-europe/2026/06/10/fake-article-claims-mbappe-made-sexual-harassment-allegations-against-macron"/>
-    <category term="My Europe" label="My Europe"/>
-    <published>2026-06-10T09:02:28+00:00</published>
   </entry>
 </feed>

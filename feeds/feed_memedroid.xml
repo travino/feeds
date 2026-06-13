@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.memedroid.com/</id>
   <title>Memedroid</title>
-  <updated>2026-06-13T17:26:46.048543+00:00</updated>
+  <updated>2026-06-13T19:29:45.814000+00:00</updated>
   <author>
     <name>Memedroid</name>
   </author>
@@ -10,6 +10,24 @@
   <link href="https://www.memedroid.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Trending memes from memedroid.com (no native feed; scraped from the server-rendered homepage).</subtitle>
+  <entry>
+    <id>https://www.memedroid.com/memes/detail/4702482/Lion-King</id>
+    <title>Lion King</title>
+    <updated>2026-06-13T14:51:02+00:00</updated>
+    <content>Lion King</content>
+    <link href="https://www.memedroid.com/memes/detail/4702482/Lion-King"/>
+    <category term="Memedroid" label="Memedroid"/>
+    <published>2026-06-13T14:51:02+00:00</published>
+  </entry>
+  <entry>
+    <id>https://www.memedroid.com/memes/detail/4702481/Hell-yeah</id>
+    <title>Hell yeah</title>
+    <updated>2026-06-13T14:51:01+00:00</updated>
+    <content>Hell yeah</content>
+    <link href="https://www.memedroid.com/memes/detail/4702481/Hell-yeah"/>
+    <category term="Memedroid" label="Memedroid"/>
+    <published>2026-06-13T14:51:01+00:00</published>
+  </entry>
   <entry>
     <id>https://www.memedroid.com/memes/detail/4702459/Easy-mode-activated-Maybe-the-old-ways-were-better</id>
     <title>Easy mode activated. Maybe the old ways were better</title>
@@ -1341,23 +1359,5 @@
     <link href="https://www.memedroid.com/memes/detail/4701920/Every-content-creator-ever"/>
     <category term="Memedroid" label="Memedroid"/>
     <published>2026-06-11T04:27:01+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.memedroid.com/memes/detail/4701809/Peak-optimism</id>
-    <title>Peak optimism</title>
-    <updated>2026-06-11T04:22:01+00:00</updated>
-    <content>&lt;p&gt;&lt;a href="https://www.memedroid.com/memes/detail/4701809/Peak-optimism"&gt;&lt;img src="https://memes.memedroid.com/images/2026-06-11/6a2a5f30a4a5d.jpeg" alt="Peak optimism" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://www.memedroid.com/memes/detail/4701809/Peak-optimism"/>
-    <category term="Memedroid" label="Memedroid"/>
-    <published>2026-06-11T04:22:01+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.memedroid.com/memes/detail/4701806/Cant-even-hate</id>
-    <title>Can't even hate</title>
-    <updated>2026-06-11T04:11:01+00:00</updated>
-    <content>&lt;p&gt;&lt;a href="https://www.memedroid.com/memes/detail/4701806/Cant-even-hate"&gt;&lt;img src="https://memes.memedroid.com/images/2026-06-11/6a2a5f262509d.jpeg" alt="Can't even hate" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
-    <link href="https://www.memedroid.com/memes/detail/4701806/Cant-even-hate"/>
-    <category term="Memedroid" label="Memedroid"/>
-    <published>2026-06-11T04:11:01+00:00</published>
   </entry>
 </feed>
