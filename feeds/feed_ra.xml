@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-06-13T03:58:15.638255+00:00</updated>
+  <updated>2026-06-13T07:53:15.105531+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://ra.co/magazine" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85390</id>
+    <title>Mix Of The Day: Doc Scott &amp; MC Justyce</title>
+    <updated>2026-06-13T05:00:03+00:00</updated>
+    <content>Archival drum &amp; bass, recorded live at The Blue Note in 1997.</content>
+    <link href="https://ra.co/news/85390"/>
+    <category term="News"/>
+    <published>2026-06-13T05:00:03+00:00</published>
+  </entry>
   <entry>
     <id>https://ra.co/news/85406</id>
     <title>This week's new music: DJ Koze, Eden Samara, FOREIGNER</title>
@@ -1800,14 +1809,5 @@
     <link href="https://ra.co/features/4497"/>
     <category term="Feature"/>
     <published>2026-04-01T13:30:27+00:00</published>
-  </entry>
-  <entry>
-    <id>https://ra.co/features/4496</id>
-    <title>Corsica Studios: Nothing Lasts Forever</title>
-    <updated>2026-03-26T14:00:37+00:00</updated>
-    <content>After 24 years, one of London's great clubs is calling time. 35 participants tell the story in this bumper oral history.</content>
-    <link href="https://ra.co/features/4496"/>
-    <category term="Feature"/>
-    <published>2026-03-26T14:00:37+00:00</published>
   </entry>
 </feed>

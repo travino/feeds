@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>urn:openweather:chrzanów-pl</id>
   <title>Daily weather forecast — Chrzanów,PL</title>
-  <updated>2026-06-13T03:58:07.370021+00:00</updated>
+  <updated>2026-06-13T07:53:09.353840+00:00</updated>
   <author>
     <name>OpenWeather</name>
     <uri>https://openweathermap.org/</uri>
@@ -13,14 +13,14 @@
   <subtitle>Daily forecast aggregated from OpenWeather's 5-day/3-hour data</subtitle>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-06-18</id>
-    <title>Chrzanów, PL: Thu 18 Jun — Overcast clouds, 16–17°C</title>
-    <updated>2026-06-13T03:58:07.368960+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Overcast clouds&lt;/strong&gt; · High 17°C · Low 16°C&lt;/p&gt;
+    <title>Chrzanów, PL: Thu 18 Jun — Overcast clouds, 16–19°C</title>
+    <updated>2026-06-13T07:53:09.352791+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Overcast clouds&lt;/strong&gt; · High 19°C · Low 16°C&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
-&lt;li&gt;Feels like (midday): 15°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 2.6 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 76%&lt;/li&gt;
+&lt;li&gt;Feels like (midday): 19°C&lt;/li&gt;
+&lt;li&gt;Wind: up to 2.3 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 77%&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;Partial day (forecast window does not cover all hours).&lt;/em&gt;&lt;/p&gt;</content>
     <link href="https://openweathermap.org/city/3101547"/>
@@ -30,13 +30,13 @@
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-06-17</id>
     <title>Chrzanów, PL: Wed 17 Jun — Overcast clouds, 9–22°C</title>
-    <updated>2026-06-13T03:58:07.368930+00:00</updated>
+    <updated>2026-06-13T07:53:09.352766+00:00</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;Overcast clouds&lt;/strong&gt; · High 22°C · Low 9°C&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
 &lt;li&gt;Feels like (midday): 21°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 4.3 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 63%&lt;/li&gt;
+&lt;li&gt;Wind: up to 4.4 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 66%&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://openweathermap.org/city/3101547"/>
     <category term="weather"/>
@@ -44,14 +44,15 @@
   </entry>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-06-16</id>
-    <title>Chrzanów, PL: Tue 16 Jun — Broken clouds, 9–20°C</title>
-    <updated>2026-06-13T03:58:07.368895+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Broken clouds&lt;/strong&gt; · High 20°C · Low 9°C&lt;/p&gt;
+    <title>Chrzanów, PL: Tue 16 Jun — Few clouds, 8–20°C</title>
+    <updated>2026-06-13T07:53:09.352739+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Few clouds&lt;/strong&gt; · High 20°C · Low 8°C&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
+&lt;li&gt;Chance of precipitation: 20%&lt;/li&gt;
 &lt;li&gt;Feels like (midday): 19°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 5.6 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 65%&lt;/li&gt;
+&lt;li&gt;Wind: up to 5.7 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 67%&lt;/li&gt;
+&lt;li&gt;Rain: 0.3 mm&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://openweathermap.org/city/3101547"/>
     <category term="weather"/>
@@ -59,15 +60,15 @@
   </entry>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-06-15</id>
-    <title>Chrzanów, PL: Mon 15 Jun — Light rain, 8–17°C</title>
-    <updated>2026-06-13T03:58:07.368857+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Light rain&lt;/strong&gt; · High 17°C · Low 8°C&lt;/p&gt;
+    <title>Chrzanów, PL: Mon 15 Jun — Light rain, 8–16°C</title>
+    <updated>2026-06-13T07:53:09.352710+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Light rain&lt;/strong&gt; · High 16°C · Low 8°C&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Chance of precipitation: 20%&lt;/li&gt;
-&lt;li&gt;Feels like (midday): 16°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 5.3 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 72%&lt;/li&gt;
-&lt;li&gt;Rain: 0.5 mm&lt;/li&gt;
+&lt;li&gt;Chance of precipitation: 100%&lt;/li&gt;
+&lt;li&gt;Feels like (midday): 15°C&lt;/li&gt;
+&lt;li&gt;Wind: up to 5.2 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 75%&lt;/li&gt;
+&lt;li&gt;Rain: 1.7 mm&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://openweathermap.org/city/3101547"/>
     <category term="weather"/>
@@ -75,15 +76,15 @@
   </entry>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-06-14</id>
-    <title>Chrzanów, PL: Sun 14 Jun — Scattered clouds, 10–20°C</title>
-    <updated>2026-06-13T03:58:07.368809+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Scattered clouds&lt;/strong&gt; · High 20°C · Low 10°C&lt;/p&gt;
+    <title>Chrzanów, PL: Sun 14 Jun — Light rain, 11–19°C</title>
+    <updated>2026-06-13T07:53:09.352676+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Light rain&lt;/strong&gt; · High 19°C · Low 11°C&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Chance of precipitation: 74%&lt;/li&gt;
+&lt;li&gt;Chance of precipitation: 97%&lt;/li&gt;
 &lt;li&gt;Feels like (midday): 17°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 7.7 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 73%&lt;/li&gt;
-&lt;li&gt;Rain: 0.9 mm&lt;/li&gt;
+&lt;li&gt;Wind: up to 7.1 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 74%&lt;/li&gt;
+&lt;li&gt;Rain: 1.3 mm&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://openweathermap.org/city/3101547"/>
     <category term="weather"/>
@@ -91,15 +92,15 @@
   </entry>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-06-13</id>
-    <title>Chrzanów, PL: Sat 13 Jun — Light rain, 13–20°C</title>
-    <updated>2026-06-13T03:58:07.368736+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Light rain&lt;/strong&gt; · High 20°C · Low 13°C&lt;/p&gt;
+    <title>Chrzanów, PL: Sat 13 Jun — Light rain, 14–18°C</title>
+    <updated>2026-06-13T07:53:09.352614+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Light rain&lt;/strong&gt; · High 18°C · Low 14°C&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Chance of precipitation: 100%&lt;/li&gt;
-&lt;li&gt;Feels like (midday): 20°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 5.1 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 84%&lt;/li&gt;
-&lt;li&gt;Rain: 7.9 mm&lt;/li&gt;
+&lt;li&gt;Feels like (midday): 18°C&lt;/li&gt;
+&lt;li&gt;Wind: up to 5.4 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 82%&lt;/li&gt;
+&lt;li&gt;Rain: 5.8 mm&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://openweathermap.org/city/3101547"/>
     <category term="weather"/>
