@@ -1,24 +1,18 @@
 version: 2
 updates:
-
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
-      
-  - package-ecosystem: "gitsubmodule"
-    directory: "/"
-    schedule:
-      interval: "weekly"
+    groups:
+      actions:
+        patterns: ["*"]
 
+  # Python deps live in pyproject.toml / requirements.txt at the root.
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
-
-  - package-ecosystem: "npm"
-    # Look for `package.json` and `lock` files in the `root` directory
-    directory: "/"
-    # Check the npm registry for updates every day (weekdays)
-    schedule:
-      interval: "weekly"
+    groups:
+      python-minor-patch:
+        update-types: ["minor", "patch"]
