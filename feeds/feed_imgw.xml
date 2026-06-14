@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>urn:imgw:danepubliczne</id>
   <title>IMGW — pogoda, hydrologia i ostrzeżenia</title>
-  <updated>2026-06-14T17:23:23.538646+00:00</updated>
+  <updated>2026-06-14T19:30:03.628527+00:00</updated>
   <author>
     <name>IMGW-PIB</name>
     <uri>https://danepubliczne.imgw.pl/</uri>
@@ -13,36 +13,36 @@
   <subtitle>Obserwacje synoptyczne, stany wód, telemetria oraz ostrzeżenia meteo i hydro z danepubliczne.imgw.pl</subtitle>
   <entry>
     <id>urn:imgw:meteo:250190790:2026-06-14</id>
-    <title>Chrzanów — telemetria 14.06: opad (10 min) 0 mm (17:00)</title>
-    <updated>2026-06-14T17:23:22.221426+00:00</updated>
-    <content type="html">&lt;p&gt;Telemetria IMGW — stacja &lt;strong&gt;Chrzanów&lt;/strong&gt; (250190790)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opad (10 min): 0 mm (17:00)&lt;/li&gt;&lt;/ul&gt;</content>
+    <title>Chrzanów — telemetria 14.06: opad (10 min) 0.3 mm (19:00)</title>
+    <updated>2026-06-14T19:30:01.781234+00:00</updated>
+    <content type="html">&lt;p&gt;Telemetria IMGW — stacja &lt;strong&gt;Chrzanów&lt;/strong&gt; (250190790)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opad (10 min): 0.3 mm (19:00)&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/meteo"/>
     <category term="meteo"/>
     <published>2026-06-14T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:imgw:hydro:150190180:2026-06-14</id>
-    <title>Jeleń (Przemsza) — stan wody 146 cm (14.06 17:00)</title>
-    <updated>2026-06-14T17:23:20.851832+00:00</updated>
-    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Jeleń&lt;/strong&gt;, rzeka Przemsza, woj. śląskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 146 cm (14.06 17:00)&lt;/li&gt;&lt;li&gt;Przepływ: 11.1 m³/s (14.06 16:50)&lt;/li&gt;&lt;/ul&gt;</content>
+    <title>Jeleń (Przemsza) — stan wody 146 cm (14.06 19:00)</title>
+    <updated>2026-06-14T19:30:00.310067+00:00</updated>
+    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Jeleń&lt;/strong&gt;, rzeka Przemsza, woj. śląskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 146 cm (14.06 19:00)&lt;/li&gt;&lt;li&gt;Przepływ: 11.1 m³/s (14.06 19:10)&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/hydro"/>
     <category term="hydro"/>
     <published>2026-06-14T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:imgw:hydro:150190260:2026-06-14</id>
-    <title>Smolice (Wisła) — stan wody 143 cm (14.06 17:00)</title>
-    <updated>2026-06-14T17:23:20.851729+00:00</updated>
-    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Smolice&lt;/strong&gt;, rzeka Wisła, woj. małopolskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 143 cm (14.06 17:00)&lt;/li&gt;&lt;li&gt;Przepływ: 247 m³/s (29.07 23:30)&lt;/li&gt;&lt;/ul&gt;</content>
+    <title>Smolice (Wisła) — stan wody 139 cm (14.06 19:00)</title>
+    <updated>2026-06-14T19:30:00.309907+00:00</updated>
+    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Smolice&lt;/strong&gt;, rzeka Wisła, woj. małopolskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 139 cm (14.06 19:00)&lt;/li&gt;&lt;li&gt;Przepływ: 247 m³/s (29.07 23:30)&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/hydro"/>
     <category term="hydro"/>
     <published>2026-06-14T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:imgw:synop:12566:2026-06-14</id>
-    <title>Kraków — obserwacje 14.06: 15.8°C, opad 2.2 mm (godz. 17)</title>
-    <updated>2026-06-14T17:23:19.908718+00:00</updated>
-    <content type="html">&lt;p&gt;Obserwacje synoptyczne IMGW — stacja &lt;strong&gt;Kraków&lt;/strong&gt; (12566)&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Godz.&lt;/th&gt;&lt;th&gt;Temp.&lt;/th&gt;&lt;th&gt;Wiatr&lt;/th&gt;&lt;th&gt;Wilg.&lt;/th&gt;&lt;th&gt;Opad&lt;/th&gt;&lt;th&gt;Ciśn.&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;04:00&lt;/td&gt;&lt;td&gt;12°C&lt;/td&gt;&lt;td&gt;3 m/s / 200°&lt;/td&gt;&lt;td&gt;92.9%&lt;/td&gt;&lt;td&gt;1.4 mm&lt;/td&gt;&lt;td&gt;1012.2 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;09:00&lt;/td&gt;&lt;td&gt;14.6°C&lt;/td&gt;&lt;td&gt;5 m/s / 270°&lt;/td&gt;&lt;td&gt;68.7%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1011.3 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11:00&lt;/td&gt;&lt;td&gt;16.4°C&lt;/td&gt;&lt;td&gt;4 m/s / 230°&lt;/td&gt;&lt;td&gt;60.7%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1009.9 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14:00&lt;/td&gt;&lt;td&gt;15.1°C&lt;/td&gt;&lt;td&gt;4 m/s / 220°&lt;/td&gt;&lt;td&gt;73.6%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1009.6 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17:00&lt;/td&gt;&lt;td&gt;15.8°C&lt;/td&gt;&lt;td&gt;6 m/s / 280°&lt;/td&gt;&lt;td&gt;56.5%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1009.7 hPa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <title>Kraków — obserwacje 14.06: 10.9°C, opad 2.2 mm (godz. 19)</title>
+    <updated>2026-06-14T19:29:58.990398+00:00</updated>
+    <content type="html">&lt;p&gt;Obserwacje synoptyczne IMGW — stacja &lt;strong&gt;Kraków&lt;/strong&gt; (12566)&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Godz.&lt;/th&gt;&lt;th&gt;Temp.&lt;/th&gt;&lt;th&gt;Wiatr&lt;/th&gt;&lt;th&gt;Wilg.&lt;/th&gt;&lt;th&gt;Opad&lt;/th&gt;&lt;th&gt;Ciśn.&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;04:00&lt;/td&gt;&lt;td&gt;12°C&lt;/td&gt;&lt;td&gt;3 m/s / 200°&lt;/td&gt;&lt;td&gt;92.9%&lt;/td&gt;&lt;td&gt;1.4 mm&lt;/td&gt;&lt;td&gt;1012.2 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;09:00&lt;/td&gt;&lt;td&gt;14.6°C&lt;/td&gt;&lt;td&gt;5 m/s / 270°&lt;/td&gt;&lt;td&gt;68.7%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1011.3 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;11:00&lt;/td&gt;&lt;td&gt;16.4°C&lt;/td&gt;&lt;td&gt;4 m/s / 230°&lt;/td&gt;&lt;td&gt;60.7%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1009.9 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;14:00&lt;/td&gt;&lt;td&gt;15.1°C&lt;/td&gt;&lt;td&gt;4 m/s / 220°&lt;/td&gt;&lt;td&gt;73.6%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1009.6 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;17:00&lt;/td&gt;&lt;td&gt;15.8°C&lt;/td&gt;&lt;td&gt;6 m/s / 280°&lt;/td&gt;&lt;td&gt;56.5%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1009.7 hPa&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;19:00&lt;/td&gt;&lt;td&gt;10.9°C&lt;/td&gt;&lt;td&gt;2 m/s / 240°&lt;/td&gt;&lt;td&gt;84.9%&lt;/td&gt;&lt;td&gt;2.2 mm&lt;/td&gt;&lt;td&gt;1010.8 hPa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/synop/id/12566"/>
     <category term="synop"/>
     <published>2026-06-14T00:00:00+02:00</published>

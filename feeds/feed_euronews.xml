@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.euronews.com/</id>
   <title>Euronews</title>
-  <updated>2026-06-14T17:22:59.914262+00:00</updated>
+  <updated>2026-06-14T19:29:37.174212+00:00</updated>
   <author>
     <name>Euronews</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://www.euronews.com/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined Euronews feed: News, My Europe, No Comment, Culture, Sport, Travel, and Next.</subtitle>
+  <entry>
+    <id>http://www.euronews.com/2026/06/14/football-curacao-scores-its-first-ever-fifa-world-cup-goal-equalising-against-germany</id>
+    <title>Germany wins 7-1 after Curaçao scores its first-ever FIFA World Cup goal</title>
+    <updated>2026-06-14T17:41:35+00:00</updated>
+    <content>Football: Germany won 7-1 against Curaçao in the Group E opener in Houston.</content>
+    <link href="http://www.euronews.com/2026/06/14/football-curacao-scores-its-first-ever-fifa-world-cup-goal-equalising-against-germany"/>
+    <category term="Sport" label="Sport"/>
+    <published>2026-06-14T17:41:35+00:00</published>
+  </entry>
   <entry>
     <id>http://www.euronews.com/culture/2026/06/14/a-queen-a-guillotine-and-a-mailbox-marie-antoinette-still-gets-letters-even-yours</id>
     <title>A queen, a guillotine, and a mailbox: Marie Antoinette still gets letters, even yours</title>
@@ -1800,14 +1809,5 @@
     <link href="http://www.euronews.com/my-europe/2026/06/10/long-term-fertiliser-solutions-needed-to-avoid-eu-food-shortages-eu-agriculture-commission"/>
     <category term="My Europe" label="My Europe"/>
     <published>2026-06-10T16:59:46+00:00</published>
-  </entry>
-  <entry>
-    <id>http://www.euronews.com/my-europe/2026/06/10/partners-and-friends-trade-and-defence-top-of-agenda-at-eu-south-korea-summit</id>
-    <title>&amp;#039;Partners and friends’: Trade and defence top of agenda at EU-South Korea summit</title>
-    <updated>2026-06-10T16:24:51+00:00</updated>
-    <content>As security threats grow and geopolitics shift, the European Union and Republic of South Korea have celebrated a new Digital Trade Agreement at a summit in Brussels.</content>
-    <link href="http://www.euronews.com/my-europe/2026/06/10/partners-and-friends-trade-and-defence-top-of-agenda-at-eu-south-korea-summit"/>
-    <category term="My Europe" label="My Europe"/>
-    <published>2026-06-10T16:24:51+00:00</published>
   </entry>
 </feed>

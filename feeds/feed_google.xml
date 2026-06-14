@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-06-14T17:23:12.103055+00:00</updated>
+  <updated>2026-06-14T19:29:50.052693+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -10,6 +10,15 @@
   <link href="https://blog.google/" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://blog.google/company-news/inside-google/message-ceo/stanford-commencement-speech-2026/</id>
+    <title>Read Sundar Pichai’s 2026 Commencement Address at Stanford University</title>
+    <updated>2026-06-14T17:30:00+00:00</updated>
+    <content type="html">a gradient G</content>
+    <link href="https://blog.google/company-news/inside-google/message-ceo/stanford-commencement-speech-2026/"/>
+    <category term="The Keyword"/>
+    <published>2026-06-14T17:30:00+00:00</published>
+  </entry>
   <entry>
     <id>http://workspaceupdates.googleblog.com/2026/06/weekly-recap-06-12-2026.html</id>
     <title>Google Workspace Updates Weekly Recap - June 12, 2026</title>
@@ -12895,13 +12904,5 @@ This launch is part of our ongoing commitment to user safety, privacy, and contr
     <link href="https://firebase.blog/posts/2025/07/firebase-studio-gemini-cli"/>
     <category term="Firebase"/>
     <published>2025-07-22T10:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://firebase.blog/posts/2025/07/supercharge-firebase-studio-with-mcp</id>
-    <title>Supercharge your Firebase Studio workflow with MCP servers</title>
-    <updated>2025-07-09T00:00:00+00:00</updated>
-    <link href="https://firebase.blog/posts/2025/07/supercharge-firebase-studio-with-mcp"/>
-    <category term="Firebase"/>
-    <published>2025-07-09T00:00:00+00:00</published>
   </entry>
 </feed>
