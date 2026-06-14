@@ -15,7 +15,10 @@ Sources (each a native feed unless marked scraped, aggregated here into one):
 * Android Developers          https://android-developers.googleblog.com/atom.xml
 * Chrome for Developers       https://developer.chrome.com/static/blog/feed.xml
 * Chromium Blog               https://blog.chromium.org/atom.xml
+* Firebase                    https://firebase.blog/rss.xml
 * Search Central              https://feeds.feedburner.com/blogspot/amDG
+* Search Central Docs         https://developers.google.com/search/updates/search_docs_updates.rss
+* Search Status Dashboard     https://status.search.google.com/en/feed.atom?hl=pl
 * Waze                        https://blog.google/waze/rss/
 * Google Research             https://research.google/blog/rss/
 * Google DeepMind             https://deepmind.google/blog/rss.xml
@@ -123,7 +126,10 @@ SOURCES: list[Source] = [
     Source("android", "Android Developers", "https://android-developers.googleblog.com/atom.xml"),
     Source("chrome", "Chrome for Developers", "https://developer.chrome.com/static/blog/feed.xml"),
     Source("chromium", "Chromium Blog", "https://blog.chromium.org/atom.xml"),
+    Source("firebase", "Firebase", "https://firebase.blog/rss.xml"),
     Source("search-central", "Search Central", "https://feeds.feedburner.com/blogspot/amDG"),
+    Source("search-docs", "Search Central Docs", "https://developers.google.com/search/updates/search_docs_updates.rss"),
+    Source("search-status", "Search Status Dashboard", "https://status.search.google.com/en/feed.atom?hl=pl"),
     Source("waze", "Waze", "https://blog.google/waze/rss/"),
     Source("research", "Google Research", "https://research.google/blog/rss/"),
     Source("deepmind", "Google DeepMind", "https://deepmind.google/blog/rss.xml"),
