@@ -1,6 +1,7 @@
 import sys
 import tempfile
 import unittest
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import patch
@@ -17,6 +18,7 @@ from invoke_generator import (  # noqa: E402
     invoke,
     persist_entry_ids,
     preserve_atom_publication_dates,
+    reuse_requests_connections,
 )
 
 
@@ -84,6 +86,43 @@ class InvokeGeneratorTests(unittest.TestCase):
             "    return Item(1).value == 1\n"
         )
         self.assertTrue(invoke(script))
+
+    def test_requests_connections_are_reused_per_thread(self):
+        import requests
+        import requests.api
+
+        sessions = []
+
+        class FakeSession:
+            def __init__(self):
+                self.closed = False
+                sessions.append(self)
+
+            def request(self, method, url, **kwargs):
+                return self
+
+            def close(self):
+                self.closed = True
+
+        original_api_request = requests.api.request
+        original_package_request = requests.request
+        with patch.object(requests, "Session", FakeSession):
+            with reuse_requests_connections():
+                first = requests.get("https://example.com/a")
+                second = requests.request("GET", "https://example.com/b")
+                with ThreadPoolExecutor(max_workers=1) as pool:
+                    worker = pool.submit(
+                        requests.get, "https://example.com/thread"
+                    ).result()
+
+                self.assertIs(first, second)
+                self.assertIsNot(first, worker)
+                self.assertEqual(len(sessions), 2)
+
+            self.assertTrue(all(session.closed for session in sessions))
+
+        self.assertIs(requests.api.request, original_api_request)
+        self.assertIs(requests.request, original_package_request)
 
     def test_implicit_atom_update_uses_publication_date(self):
         with preserve_atom_publication_dates():
