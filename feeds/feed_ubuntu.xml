@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-06T21:03:41.454699+00:00</updated>
+  <updated>2026-09-06T23:20:22.811936+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/5e3ec685f2f2b58b</id>
+    <title>Firefox’s big redesign rolls out in late September</title>
+    <updated>2026-09-06T22:45:03+00:00</updated>
+    <content>Firefox’s new ‘Nova’ redesign will be enabled for all users in Firefox 157, due the end of September – barring any last minute hiccups, of course. Mozilla’s engineers have been working on Nova since March. The original pitch was for rounded UI elements, floating toolbars, framed web content no longer flush with the edges of the browser window and, more strikingly, a lot of pastel gradients. Those changes have been refined and dialled down during the past few months. Roundness was lightly reigned</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/firefox-nova-redesign-coming-september" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-06T22:45:03+00:00</published>
+    <media:group>
+      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/07/firefox-logo-blur.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/07/firefox-logo-blur.webp?resize=406%2C232&amp;ssl=1"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/07/firefox-logo-blur.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/6c723678905213a0</id>
     <title>Ubuntu 26.10 Snapshot 3 is Available Over A Month Behind Schedule</title>
@@ -906,21 +921,6 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/firefox-154.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/ade7a8313ba863e2</id>
-    <title>Ubuntu’s App Center doesn’t know what went wrong</title>
-    <updated>2026-08-18T00:32:22+00:00</updated>
-    <content>I recently re-encountered my favourite ‘error’ dialog in Ubuntu, which is thrown by the distro’s App Center (snap-store), which is the default GUI software management tool. Now, I don’t see it often, but when I do it (un)helpfully informs me: “Something went wrong. We’re sorry, but we’re not sure what the error is.” I appreciate its honesty and sympathise with the general sense of unease it imparts – I say something similar myself, looking at the state of the world – but surely it’s the software</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/ubuntu-app-center-something-went-wrong" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-18T00:32:22+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/something-went-wrong-error.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/something-went-wrong-error.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/something-went-wrong-error.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/29d4a1ff5c9ac6d5</id>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T20:51:13.374763+00:00",
+  "last_updated": "2026-09-06T23:18:34.469781+00:00",
   "entries": [
     {
       "guid": "urn:imgw:warnmeteo:Sk20260809095307175",
@@ -3212,7 +3212,7 @@
       "station": "Kraków",
       "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T20:51:01.449003+00:00",
+      "updated": "2026-09-06T23:18:21.242069+00:00",
       "readings": {
         "00": {
           "temperatura": "13.2",
@@ -3277,41 +3277,49 @@
           "wilgotnosc_wzgledna": "74.6",
           "suma_opadu": "0.7",
           "cisnienie": "1028.1"
+        },
+        "23": {
+          "temperatura": "8.7",
+          "predkosc_wiatru": "0",
+          "kierunek_wiatru": "0",
+          "wilgotnosc_wzgledna": "88.9",
+          "suma_opadu": "0.7",
+          "cisnienie": "1028.9"
         }
       },
-      "title": "Kraków — obserwacje 06.09: 11.8°C, opad 0.7 mm (godz. 20)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>13.2°C</td><td>7 m/s / 260°</td><td>84.0%</td><td>1.4 mm</td><td>1021 hPa</td></tr><tr><td>02:00</td><td>13.6°C</td><td>5 m/s / 260°</td><td>79.6%</td><td>1.4 mm</td><td>1021.5 hPa</td></tr><tr><td>03:00</td><td>13.4°C</td><td>6 m/s / 260°</td><td>78.5%</td><td>1.4 mm</td><td>1021.8 hPa</td></tr><tr><td>04:00</td><td>13.3°C</td><td>6 m/s / 260°</td><td>76.9%</td><td>1.4 mm</td><td>1022.3 hPa</td></tr><tr><td>11:00</td><td>17.4°C</td><td>8 m/s / 280°</td><td>49.6%</td><td>0.7 mm</td><td>1024.8 hPa</td></tr><tr><td>15:00</td><td>19°C</td><td>5 m/s / 280°</td><td>42.3%</td><td>0.7 mm</td><td>1025.6 hPa</td></tr><tr><td>18:00</td><td>15.8°C</td><td>2 m/s / 290°</td><td>54.6%</td><td>0.7 mm</td><td>1027.1 hPa</td></tr><tr><td>20:00</td><td>11.8°C</td><td>1 m/s / 200°</td><td>74.6%</td><td>0.7 mm</td><td>1028.1 hPa</td></tr></table>",
-      "summary_hash": "2c575174c7990eabdc96f2185a353930f31c886f"
+      "title": "Kraków — obserwacje 06.09: 8.7°C, opad 0.7 mm (godz. 23)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>13.2°C</td><td>7 m/s / 260°</td><td>84.0%</td><td>1.4 mm</td><td>1021 hPa</td></tr><tr><td>02:00</td><td>13.6°C</td><td>5 m/s / 260°</td><td>79.6%</td><td>1.4 mm</td><td>1021.5 hPa</td></tr><tr><td>03:00</td><td>13.4°C</td><td>6 m/s / 260°</td><td>78.5%</td><td>1.4 mm</td><td>1021.8 hPa</td></tr><tr><td>04:00</td><td>13.3°C</td><td>6 m/s / 260°</td><td>76.9%</td><td>1.4 mm</td><td>1022.3 hPa</td></tr><tr><td>11:00</td><td>17.4°C</td><td>8 m/s / 280°</td><td>49.6%</td><td>0.7 mm</td><td>1024.8 hPa</td></tr><tr><td>15:00</td><td>19°C</td><td>5 m/s / 280°</td><td>42.3%</td><td>0.7 mm</td><td>1025.6 hPa</td></tr><tr><td>18:00</td><td>15.8°C</td><td>2 m/s / 290°</td><td>54.6%</td><td>0.7 mm</td><td>1027.1 hPa</td></tr><tr><td>20:00</td><td>11.8°C</td><td>1 m/s / 200°</td><td>74.6%</td><td>0.7 mm</td><td>1028.1 hPa</td></tr><tr><td>23:00</td><td>8.7°C</td><td>0 m/s / 0°</td><td>88.9%</td><td>0.7 mm</td><td>1028.9 hPa</td></tr></table>",
+      "summary_hash": "aa3008daebb6eb3c05b3687729855dcd0449c1b4"
     },
     {
       "guid": "urn:imgw:hydro:150190260:2026-09-06",
       "kind": "hydro",
-      "title": "Smolice (Wisła) — stan wody 126 cm (06.09 20:20)",
+      "title": "Smolice (Wisła) — stan wody 126 cm (06.09 22:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 126 cm (06.09 20:20)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 126 cm (06.09 22:50)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T20:51:02.731490+00:00",
-      "summary_hash": "250963e714e9a6025bd30341585eea7fb9855764"
+      "updated": "2026-09-06T23:18:22.933370+00:00",
+      "summary_hash": "f5b11cf5ac54135c521769c4a543161b49be5ff2"
     },
     {
       "guid": "urn:imgw:hydro:150190180:2026-09-06",
       "kind": "hydro",
-      "title": "Jeleń (Przemsza) — stan wody 131 cm (06.09 20:20)",
+      "title": "Jeleń (Przemsza) — stan wody 131 cm (06.09 22:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 131 cm (06.09 20:20)</li><li>Przepływ: 7.82 m³/s (06.09 20:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 131 cm (06.09 22:50)</li><li>Przepływ: 7.82 m³/s (06.09 22:50)</li></ul>",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T20:51:02.731562+00:00",
-      "summary_hash": "330fca6cb7c7fc79fa99d37dbae46553b74a1da0"
+      "updated": "2026-09-06T23:18:22.933457+00:00",
+      "summary_hash": "79532c929a53bbd4608160460f6291f34559a75e"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-09-06",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 06.09: opad (10 min) 0 mm (20:30)",
+      "title": "Chrzanów — telemetria 06.09: opad (10 min) 0 mm (23:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (20:30)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (23:00)</li></ul>",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T20:51:04.285926+00:00",
-      "summary_hash": "d3e76ab749171492d502900bf418ff843d39910c"
+      "updated": "2026-09-06T23:18:24.584801+00:00",
+      "summary_hash": "c735024d58854649f0636e6ed4dbf80f952ffe99"
     }
   ]
 }

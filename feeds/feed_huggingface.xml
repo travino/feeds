@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-06T20:51:00.199479+00:00</updated>
+  <updated>2026-09-06T23:18:21.078658+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/eec0b7a941332133</id>
+    <title>Big shoutout to Abliterlitics.</title>
+    <updated>2026-09-06T23:18:20.039407+00:00</updated>
+    <content>Big shoutout to Abliterlitics. These benchmark writeups are consistently some of the most thoughtful, detailed, and genuinely useful posts I read on open-weight model behavior and abliteration. The latest Qwen3.8-27B comparison is another great one. I look forward to pretty much every post he puts out on the subject. If you're interested in uncensoring, abliteration, model behavior, or comparing techniques across models, definitely check his work out: https://abliterlitics.dev</content>
+    <link href="https://huggingface.co/posts/darkc0de/905295038508354" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-06T23:18:20.039407+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/darkc0de/905295038508354.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/darkc0de/905295038508354.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/darkc0de/905295038508354.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/9befc469c70d4ed9</id>
     <title>Hello HuggingFace!</title>

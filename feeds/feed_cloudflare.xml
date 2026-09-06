@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-06T20:47:54.013305+00:00</updated>
+  <updated>2026-09-06T23:17:38.984690+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -13,6 +13,16 @@
   <logo>https://blog.cloudflare.com/favicon.ico</logo>
   <subtitle>Combined Cloudflare feed: the Cloudflare Blog, the developer Changelog, Community top topics, Status incidents, and Cloudflare Research publications.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/f965a230020c3484</id>
+    <title>Purchased domains from registrar not appearing in Cloudflare Dashboard</title>
+    <updated>2026-09-06T21:50:49+00:00</updated>
+    <content>Sep 6 , 21:50 UTC Resolved - This incident has been resolved. Sep 6 , 17:06 UTC Investigating - We are investigating reports of delays in the provisioning of newly purchased domains. Our engineering team is currently working to resolve these delays affecting domain registration.</content>
+    <link href="https://www.cloudflarestatus.com/incidents/1ghtnh94pby6" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-06T21:50:49+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/6f7098b86e9ab877</id>
     <title>Service Connectivity Issues in Canberra</title>
     <updated>2026-09-06T18:27:01+00:00</updated>
@@ -20,16 +30,6 @@
     <link href="https://www.cloudflarestatus.com/incidents/htwds1qczkzd" rel="alternate"/>
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-09-06T18:27:01+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/f965a230020c3484</id>
-    <title>Purchased domains from registrar not appearing in Cloudflare Dashboard</title>
-    <updated>2026-09-06T17:06:53+00:00</updated>
-    <content>Sep 6 , 17:06 UTC Investigating - We are investigating reports of delays in the provisioning of newly purchased domains. Our engineering team is currently working to resolve these delays affecting domain registration.</content>
-    <link href="https://www.cloudflarestatus.com/incidents/1ghtnh94pby6" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-09-06T17:06:53+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>
