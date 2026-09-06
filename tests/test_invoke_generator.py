@@ -98,9 +98,13 @@ class InvokeGeneratorTests(unittest.TestCase):
 
             def __init__(self):
                 self.closed = False
+                self.cookies = requests.cookies.RequestsCookieJar()
+                self.seen_cookies = []
                 sessions.append(self)
 
             def request(self, **_kwargs):
+                self.seen_cookies.append(self.cookies.get_dict())
+                self.cookies.set("response-cookie", "1")
                 return self
 
             def close(self):
@@ -122,6 +126,8 @@ class InvokeGeneratorTests(unittest.TestCase):
                 self.assertIs(first, second)
                 self.assertIsNot(first, worker)
                 self.assertEqual(len(sessions), 2)
+                self.assertEqual(sessions[0].seen_cookies, [{}, {}])
+                self.assertTrue(all(not session.cookies for session in sessions))
 
             self.assertTrue(all(session.closed for session in sessions))
 
