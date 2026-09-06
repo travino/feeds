@@ -13,6 +13,7 @@ import argparse
 import importlib.util
 import inspect
 import sys
+import threading
 from collections.abc import Callable, Iterator
 from contextlib import contextmanager
 from datetime import datetime, timezone
@@ -23,6 +24,45 @@ from entry_identity import ENTRY_ID_FIELD, persist_entry_ids
 from feedgen.entry import FeedEntry
 
 PRESERVE_MISSING_DATE = "_feedseek_preserve_missing_date"
+
+
+@contextmanager
+def reuse_requests_connections() -> Iterator[None]:
+    """Reuse Requests connections for one generator without sharing sessions across threads.
+
+    Top-level ``requests.get``/``post`` helpers normally create and close a new
+    ``Session`` for every call. Generators often make several requests to the
+    same origin, so keeping one session per thread lets urllib3 reuse pooled
+    TCP/TLS connections while preserving isolation for internally threaded
+    generators. The subprocess boundary still gives every feed its own pool.
+    """
+    import requests
+    import requests.api
+
+    original_api_request = requests.api.request
+    original_package_request = requests.request
+    thread_state = threading.local()
+    sessions = []
+    sessions_lock = threading.Lock()
+
+    def pooled_request(method, url, **kwargs):
+        session = getattr(thread_state, "session", None)
+        if session is None:
+            session = requests.Session()
+            thread_state.session = session
+            with sessions_lock:
+                sessions.append(session)
+        return session.request(method=method, url=url, **kwargs)
+
+    requests.api.request = pooled_request
+    requests.request = pooled_request
+    try:
+        yield
+    finally:
+        requests.api.request = original_api_request
+        requests.request = original_package_request
+        for session in sessions:
+            session.close()
 
 
 def freeze_missing_dates(entries, *, date_field="date", fallback=None):
@@ -180,6 +220,7 @@ def result_succeeded(result: object) -> bool:
 
 def invoke(script: Path, *, full: bool = False) -> bool:
     with (
+        reuse_requests_connections(),
         freeze_saved_entry_dates(),
         preserve_atom_publication_dates(),
         isolated_argv(script, full=full),
