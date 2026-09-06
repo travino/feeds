@@ -28,13 +28,15 @@ PRESERVE_MISSING_DATE = "_feedseek_preserve_missing_date"
 
 @contextmanager
 def reuse_requests_connections() -> Iterator[None]:
-    """Reuse Requests connections for one generator without sharing sessions across threads.
+    """Reuse Requests connections without adding state to top-level helpers.
 
     Top-level ``requests.get``/``post`` helpers normally create and close a new
     ``Session`` for every call. Generators often make several requests to the
     same origin, so keeping one session per thread lets urllib3 reuse pooled
     TCP/TLS connections while preserving isolation for internally threaded
-    generators. The subprocess boundary still gives every feed its own pool.
+    generators. Session cookies are cleared around every request so ordinary
+    top-level helpers remain stateless; explicit user-created Sessions are
+    untouched. The subprocess boundary still gives every feed its own pool.
     """
     import requests
     import requests.api
@@ -52,7 +54,11 @@ def reuse_requests_connections() -> Iterator[None]:
             thread_state.session = session
             with sessions_lock:
                 sessions.append(session)
-        return session.request(method=method, url=url, **kwargs)
+        session.cookies.clear()
+        try:
+            return session.request(method=method, url=url, **kwargs)
+        finally:
+            session.cookies.clear()
 
     requests.api.request = pooled_request
     requests.request = pooled_request
