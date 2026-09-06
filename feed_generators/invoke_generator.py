@@ -114,7 +114,7 @@ def freeze_saved_entry_dates() -> Iterator[None]:
         return result
 
     utils.make_entry_id = tracked_make_entry_id
-    utils.save_cache = save_cache_with_dates
+    setattr(utils, "save_cache", save_cache_with_dates)
     try:
         yield
     finally:
