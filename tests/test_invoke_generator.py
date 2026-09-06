@@ -94,11 +94,13 @@ class InvokeGeneratorTests(unittest.TestCase):
         sessions = []
 
         class FakeSession:
+            """Small Requests session stand-in used to observe pooling."""
+
             def __init__(self):
                 self.closed = False
                 sessions.append(self)
 
-            def request(self, method, url, **kwargs):
+            def request(self, **_kwargs):
                 return self
 
             def close(self):
@@ -108,11 +110,13 @@ class InvokeGeneratorTests(unittest.TestCase):
         original_package_request = requests.request
         with patch.object(requests, "Session", FakeSession):
             with reuse_requests_connections():
-                first = requests.get("https://example.com/a")
-                second = requests.request("GET", "https://example.com/b")
+                first = requests.get("https://example.com/a", timeout=1)
+                second = requests.request("GET", "https://example.com/b", timeout=1)
                 with ThreadPoolExecutor(max_workers=1) as pool:
                     worker = pool.submit(
-                        requests.get, "https://example.com/thread"
+                        requests.get,
+                        "https://example.com/thread",
+                        timeout=1,
                     ).result()
 
                 self.assertIs(first, second)
