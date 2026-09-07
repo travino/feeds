@@ -100,7 +100,7 @@ Use these values when filling the current OpenAI submission form:
 | Privacy policy | `https://github.com/trvny/feedseek/blob/main/PRIVACY.md` |
 | Terms | `https://github.com/trvny/feedseek/blob/main/TERMS.md` |
 | App icon | `assets/icons/android-chrome-512x512.png` |
-| Submission import | `chatgpt-app-submission.json` |
+| Submission reference | `chatgpt-app-submission.json` |
 
 Before submission:
 
