@@ -63,6 +63,8 @@ display, while literal angle-bracket text in `content_text` is preserved.
   item id needed for deterministic lookup.
 - Tool arguments are validated server-side instead of relying on client validation.
 - The existing constrained fetch proxy remains unchanged; `/mcp` is routed separately.
+- The public app policy is maintained in [`PRIVACY.md`](../PRIVACY.md); service terms are in
+  [`TERMS.md`](../TERMS.md).
 
 ## ChatGPT testing and installation
 
@@ -70,13 +72,45 @@ For private development, connect the remote MCP endpoint in ChatGPT Developer Mo
 account or workspace that supports custom MCP apps. ChatGPT scans the server and exposes its
 tools after the app is created.
 
-For normal end-user installation, submit the app for review and publish it through the
-ChatGPT Plugin Directory. After approval, users can install/connect Feedseek from ChatGPT's
-Apps/Plugins UI rather than manually entering the endpoint.
+For normal end-user installation, submit the app for review. Approved apps can be distributed
+through a plugin listing in the ChatGPT Plugin Directory, where users install/connect the app
+without manually entering its MCP endpoint.
 
 The repository root includes `chatgpt-app-submission.json` with review-facing app metadata,
-tool annotations, and positive/negative test cases. Reuse the existing Feedseek app artwork,
-including `assets/icons/android-chrome-512x512.png`, for directory submission assets.
+tool annotations, and exactly five positive plus three negative test cases.
+
+## Directory submission checklist
+
+Use these values when filling the current OpenAI app submission form:
+
+| Field | Value |
+| --- | --- |
+| Display name | `Feedseek` |
+| Category | `NEWS` |
+| MCP server | `https://feeds.trfny.com/mcp` |
+| Authentication | None; public read-only data |
+| Homepage | `https://trvny.github.io/feedseek/` |
+| Source | `https://github.com/trvny/feedseek` |
+| Privacy policy | `https://github.com/trvny/feedseek/blob/main/PRIVACY.md` |
+| Terms | `https://github.com/trvny/feedseek/blob/main/TERMS.md` |
+| App icon | `assets/icons/android-chrome-512x512.png` |
+| Submission import | `chatgpt-app-submission.json` |
+
+Before submission, verify the production MCP endpoint and both policy links over HTTPS and
+upload/import `chatgpt-app-submission.json` into the review form. The app is tool-only, so it
+has no widget CSP to declare. All three tools explicitly declare `readOnlyHint: true`,
+`openWorldHint: false`, and `destructiveHint: false`, and each tool declares an
+`outputSchema`.
+
+### Review-facing scope
+
+Feedseek should trigger for public feed/news discovery, recent digest candidates, topic
+search, and full retrieval of a selected Feedseek entry. It should not trigger for unrelated
+actions such as messaging, live weather lookup, local business discovery, purchases, or
+mutating external services.
+
+No tool input asks for credentials, payment data, health data, government identifiers, MFA
+codes, biometrics, or other sensitive identifiers.
 
 ## Deployment
 
