@@ -77,7 +77,9 @@ def extract_hot_terms(html):
         seen.add(title)
 
         rank = len(entries) + 1
-        link = f"https://baike.baidu.com/item/{quote(title, safe='')}"
+        # The date fragment keeps repeat appearances distinct in Feedseek's URL
+        # dedupe while still resolving to the canonical Baike lemma page.
+        link = f"https://baike.baidu.com/item/{quote(title, safe='')}#{iso_date}"
         entries.append(
             {
                 "title": title,
