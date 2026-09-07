@@ -27,6 +27,7 @@ single Atom stream written to ``feeds/feed_saas.xml``:
     - Behance           blog (FeedBurner RSS)
     - CodeRabbit        blog + changelog (native RSS) + newsroom (scraped)
     - Netlify           blog + changelog + knowledge base (native RSS)
+    - Stripe            newsroom + developer blog + API changelog (scraped)
 
 Note: exa.ai/research is a client-rendered listing with no sitemap entries and
 no server-rendered post list, so it isn't aggregated here (would need a
@@ -94,7 +95,8 @@ FEED_SUBTITLE = (
     "Cursor (blog + changelog), NeuralTrust, "
     "Abnormal (blog + newsroom), Character.AI, "
     "Astral Codex Ten, Behance (blog), CodeRabbit (blog + changelog + newsroom), "
-    "and Netlify (blog + changelog + knowledge base)."
+    "Netlify (blog + changelog + knowledge base), and "
+    "Stripe (newsroom + developer blog + API changelog)."
 )
 BLOG_URL = "https://www.hashicorp.com/blog"
 MAX_ENTRIES = 600  # all vendors share one archive
@@ -245,6 +247,9 @@ def doc_sources():
     return [
         ("CodeRabbit Newsroom", CODERABBIT_NEWSROOM_URL),
         ("Postman App Release Notes", POSTMAN_APP_RELEASE_NOTES_URL),
+        ("Stripe Newsroom", STRIPE_NEWSROOM_URL),
+        ("Stripe Developer Blog", STRIPE_DEV_URL),
+        ("Stripe Changelog", STRIPE_CHANGELOG_URL),
     ]
 
 
@@ -747,6 +752,190 @@ def collect_dated_anchor_sources() -> list[dict]:
     return out
 
 
+
+# --------------------------------------------------------------------------- #
+# Stripe: all three requested surfaces are server-rendered but expose no
+# reliable native feed. Keep the public URLs as the documented sources and use
+# their fuller listing pages internally where available.
+# --------------------------------------------------------------------------- #
+STRIPE_NEWSROOM_URL = "https://stripe.com/en-pl/newsroom"
+_STRIPE_NEWSROOM_LIST_URL = "https://stripe.com/en-pl/newsroom/news"
+STRIPE_DEV_URL = "https://stripe.dev/"
+_STRIPE_DEV_BLOG_URL = "https://stripe.dev/blog"
+STRIPE_CHANGELOG_URL = "https://docs.stripe.com/changelog"
+STRIPE_MAX_ENTRIES = 50
+_STRIPE_NEWS_DATE_RE = re.compile(r"\b\d{1,2}\s+[A-Z][a-z]+\s+20\d{2}\b")
+_STRIPE_DEV_DATE_RE = re.compile(r"\b20\d{2}\.\d{1,2}\.\d{1,2}\b")
+_STRIPE_CHANGELOG_LINK_RE = re.compile(
+    r"/changelog/(?:[a-z0-9-]+/)?(20\d{2}-\d{2}-\d{2})/[^?#]+",
+    re.I,
+)
+
+
+def _stripe_date(value: str):
+    """Parse Stripe's three listing-date formats into UTC datetimes."""
+    parsed = multi_rss.parse_date(value)
+    if parsed is not None:
+        return parsed
+    for fmt in ("%d %B %Y", "%Y.%m.%d", "%Y-%m-%d"):
+        try:
+            return datetime.strptime(value.strip(), fmt).replace(tzinfo=timezone.utc)
+        except ValueError:
+            pass
+    return None
+
+
+def _stripe_link(href: str, base: str) -> str:
+    """Normalize a Stripe listing href to a stable absolute URL."""
+    href = (href or "").split("?", 1)[0].split("#", 1)[0]
+    return href if href.startswith("http") else base + href
+
+
+def parse_stripe_newsroom(html: str, known_links: set[str] | None = None) -> list[dict]:
+    """Parse Stripe newsroom cards without depending on presentation classes."""
+    known_links = known_links or set()
+    grouped: dict[str, list[str]] = {}
+    soup = BeautifulSoup(html or "", "html.parser")
+    for anchor in soup.select("a[href*='/newsroom/news/']"):
+        link = _stripe_link(anchor.get("href", ""), "https://stripe.com")
+        if link.rstrip("/").endswith("/newsroom/news"):
+            continue
+        anchor_text = re.sub(r"\s+", " ", anchor.get_text(" ", strip=True)).strip()
+        if anchor_text:
+            grouped.setdefault(link, []).append(anchor_text)
+
+    out = []
+    for link, texts in grouped.items():
+        if link in known_links:
+            continue
+        date_text = next((item for item in texts if _STRIPE_NEWS_DATE_RE.fullmatch(item)), "")
+        titles = [
+            item
+            for item in texts
+            if not _STRIPE_NEWS_DATE_RE.fullmatch(item)
+            and item.lower() not in {"product", "corporate", "latest"}
+            and len(item) >= 12
+        ]
+        if not titles:
+            continue
+        title = sanitize_xml(max(titles, key=len))[:200]
+        out.append(
+            {
+                "id": link,
+                "title": title,
+                "link": link,
+                "date": _stripe_date(date_text) or stable_fallback_date(link),
+                "description": title,
+                "content_html": None,
+                "source": "Stripe Newsroom",
+            }
+        )
+    out.sort(key=lambda entry: entry["date"], reverse=True)
+    return out[:STRIPE_MAX_ENTRIES]
+
+
+def parse_stripe_dev_blog(html: str, known_links: set[str] | None = None) -> list[dict]:
+    """Parse stripe.dev cards, whose visible metadata includes YYYY.M.DD."""
+    known_links = known_links or set()
+    soup = BeautifulSoup(html or "", "html.parser")
+    out, seen = [], set()
+    for anchor in soup.select("a[href]"):
+        href = anchor.get("href", "")
+        if not re.search(r"(?:^|stripe\.dev)/blog/[^/?#]+", href):
+            continue
+        link = _stripe_link(href, "https://stripe.dev")
+        if link in seen or link in known_links:
+            continue
+        card = anchor
+        card_text = re.sub(r"\s+", " ", card.get_text(" ", strip=True)).strip()
+        for _ in range(5):
+            if _STRIPE_DEV_DATE_RE.search(card_text):
+                break
+            if not getattr(card, "parent", None):
+                break
+            card = card.parent
+            card_text = re.sub(r"\s+", " ", card.get_text(" ", strip=True)).strip()
+        date_match = _STRIPE_DEV_DATE_RE.search(card_text)
+        if not date_match:
+            continue
+        title = re.sub(r"\s+", " ", anchor.get_text(" ", strip=True)).strip()
+        title = _STRIPE_DEV_DATE_RE.sub("", title).strip(" ·—-|")
+        if len(title) < 8 or title.lower() in {"read", "read more"}:
+            heading = card.find(["h1", "h2", "h3", "h4"])
+            title = heading.get_text(" ", strip=True) if heading else ""
+        if not title:
+            continue
+        title = sanitize_xml(title)[:200]
+        seen.add(link)
+        out.append(
+            {
+                "id": link,
+                "title": title,
+                "link": link,
+                "date": _stripe_date(date_match.group(0)) or stable_fallback_date(link),
+                "description": title,
+                "content_html": None,
+                "source": "Stripe Developer Blog",
+            }
+        )
+    out.sort(key=lambda entry: entry["date"], reverse=True)
+    return out[:STRIPE_MAX_ENTRIES]
+
+
+def parse_stripe_changelog(html: str, known_links: set[str] | None = None) -> list[dict]:
+    """Parse dated Stripe API changelog links and canonicalize Markdown URLs."""
+    known_links = known_links or set()
+    soup = BeautifulSoup(html or "", "html.parser")
+    out, seen = [], set()
+    for anchor in soup.select("a[href*='/changelog/']"):
+        link = _stripe_link(anchor.get("href", ""), "https://docs.stripe.com")
+        match = _STRIPE_CHANGELOG_LINK_RE.search(link)
+        if not match:
+            continue
+        if link.endswith(".md"):
+            link = link[:-3]
+        if link in seen or link in known_links:
+            continue
+        title = sanitize_xml(anchor.get_text(" ", strip=True))[:200]
+        if not title:
+            continue
+        seen.add(link)
+        out.append(
+            {
+                "id": link,
+                "title": title,
+                "link": link,
+                "date": _stripe_date(match.group(1)) or stable_fallback_date(link),
+                "description": title,
+                "content_html": None,
+                "source": "Stripe Changelog",
+            }
+        )
+    out.sort(key=lambda entry: entry["date"], reverse=True)
+    return out[:STRIPE_MAX_ENTRIES]
+
+
+def collect_stripe(known_links: set[str]) -> list[dict]:
+    """Collect Stripe surfaces independently so one outage cannot sink the rest."""
+    out: list[dict] = []
+    sources = (
+        ("Stripe Newsroom", _STRIPE_NEWSROOM_LIST_URL, parse_stripe_newsroom),
+        ("Stripe Developer Blog", _STRIPE_DEV_BLOG_URL, parse_stripe_dev_blog),
+        ("Stripe Changelog", STRIPE_CHANGELOG_URL, parse_stripe_changelog),
+    )
+    for label, url, parser in sources:
+        try:
+            html = multi_rss.get_html(url)
+            if not html:
+                logger.warning("%s unavailable; continuing", label)
+                continue
+            entries = parser(html, known_links)
+            out.extend(entries)
+            logger.info("%s: %d entries", label, len(entries))
+        except Exception as exc:
+            logger.warning("%s failed: %s", label, exc)
+    return out
+
 # --------------------------------------------------------------------------- #
 # Feed
 # --------------------------------------------------------------------------- #
@@ -804,6 +993,7 @@ def main(full: bool = False) -> bool:
         + collect_bitly(known_links)
         + collect_commoninja()
         + collect_native_feeds(known_links)
+        + collect_stripe(known_links)
         + collect_coderabbit_newsroom(known_links)
         + collect_postman_app_release_notes(known_links)
         + collect_postman_press(known_links)
