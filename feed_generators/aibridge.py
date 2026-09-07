@@ -32,6 +32,7 @@ from perplexity import scrape_framer_listings
 from thebatch import scrape_blog as scrape_dlai_blog
 from thebatch import scrape_thebatch
 from utils import favicon_proxy, sanitize_xml, setup_logging, stable_fallback_date
+from widocznosc import scrape_widocznosc_news
 
 logger = setup_logging()
 FEED_NAME = "aibridge"
@@ -419,6 +420,7 @@ def main(full=False):
             scrape_groq,
             scrape_crewclaw,
             scrape_pllum_blog,
+            scrape_widocznosc_news,
         ],
         max_entries=400,
         # Volume here is wildly uneven: CrewClaw is an SEO archive that landed
