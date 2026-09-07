@@ -22,25 +22,36 @@ of fetching every candidate separately.
 ## Data path
 
 ```text
-feeds/feed_*.json
-       |
-       v
+enabled feeds/feed_*.json
+          |
+          v
 site/build_search_index.py
-       |
-       v
+          |
+          v
 GitHub Pages: feedseek-search-index.json
-       |
-       v
+          |
+          v
 feeds.trfny.com/mcp
-       |
-       v
+          |
+          +--> search / recent
+          |
+          +--> fetch -> immutable feed JSON at the commit encoded in the result id
+          |
+          v
 ChatGPT Feedseek app
 ```
 
 The index contains at most 5,000 items from the last 14 days plus a small allowance for
-undated entries. Search reads that aggregate with one upstream request. `fetch` then reads
-only the JSON Feed containing the selected item. This avoids per-request fan-out over the
-entire Feedseek registry.
+undated entries. Feeds explicitly disabled in `feeds.yaml` are not indexed. Search reads
+that aggregate with one upstream request.
+
+Each result id also carries the exact Git commit used to build the index. `fetch` reads the
+selected JSON Feed at that immutable revision, so a feed update cannot invalidate a result
+between `search` and `fetch`. This also avoids per-request fan-out over the registry.
+
+Publication and modification timestamps are both considered for recency; the newer valid
+timestamp wins. HTML-only entries are converted to decoded plain text for matching and
+display, while literal angle-bracket text in `content_text` is preserved.
 
 ## Security and privacy
 
@@ -48,8 +59,9 @@ entire Feedseek registry.
 - The app reads only Feedseek's already-public generated feeds; it needs no user account,
   OAuth token or secret.
 - Feed/article text is explicitly marked and instructed as untrusted external content.
-- Opaque result ids encode only the Feedseek source key and upstream item id needed for
-  deterministic lookup.
+- Opaque result ids encode only the immutable Feedseek revision, source key and upstream
+  item id needed for deterministic lookup.
+- Tool arguments are validated server-side instead of relying on client validation.
 - The existing constrained fetch proxy remains unchanged; `/mcp` is routed separately.
 
 ## ChatGPT testing and installation

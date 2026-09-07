@@ -25,28 +25,32 @@ async function withFetch(mockFetch, run) {
   }
 }
 
-const opaqueId = "openai:dGFnOmV4YW1wbGU";
+const revision = "a".repeat(40);
+const opaqueId = `${revision}.openai:dGFnOmV4YW1wbGU`;
 const indexPayload = {
   indexed_from: "2026-08-24T00:00:00Z",
+  revision,
   items: [
     {
       id: opaqueId,
       source_key: "openai",
       source: "OpenAI",
-      title: "New coding model",
+      title: "Żółć coding model",
       url: "https://example.com/a",
       summary: "Agents and coding",
-      published_at: "2026-09-07T10:00:00Z",
+      published_at: "2026-08-01T10:00:00Z",
+      modified_at: "2026-09-07T10:00:00Z",
       tags: ["AI"],
     },
     {
-      id: "reuters:eA",
+      id: `${revision}.reuters:eA`,
       source_key: "reuters",
       source: "Reuters",
       title: "Markets",
       url: "https://example.com/b",
       summary: "Daily markets",
       published_at: "2026-09-07T11:00:00Z",
+      modified_at: null,
       tags: [],
     },
   ],
@@ -82,21 +86,21 @@ test("lists standard search/fetch plus read-only recent", async () => {
   }
 });
 
-test("standard search returns only id title and canonical url", async () => {
+test("standard search normalizes diacritics and returns connector shape", async () => {
   await withFetch(
     async () => new Response(JSON.stringify(indexPayload), { status: 200 }),
     async () => {
       const body = await (
         await call("tools/call", {
           name: "search",
-          arguments: { query: "coding" },
+          arguments: { query: "zolc" },
         })
       ).json();
       assert.deepEqual(body.result.structuredContent, {
         results: [
           {
             id: opaqueId,
-            title: "New coding model",
+            title: "Żółć coding model",
             url: "https://example.com/a",
           },
         ],
@@ -107,7 +111,7 @@ test("standard search returns only id title and canonical url", async () => {
   );
 });
 
-test("recent honors time and source filters and returns summaries", async () => {
+test("recent uses the newest publication or modification time", async () => {
   await withFetch(
     async () => new Response(JSON.stringify(indexPayload), { status: 200 }),
     async () => {
@@ -122,20 +126,21 @@ test("recent honors time and source filters and returns summaries", async () => 
         })
       ).json();
       assert.equal(body.result.structuredContent.count, 1);
+      assert.equal(body.result.structuredContent.entries[0].summary, "Agents and coding");
       assert.equal(
-        body.result.structuredContent.entries[0].summary,
-        "Agents and coding",
+        body.result.structuredContent.entries[0].modified_at,
+        "2026-09-07T10:00:00Z",
       );
     },
   );
 });
 
-test("fetch returns the standard document shape with metadata", async () => {
+test("fetch is pinned to the revision encoded by search and preserves text", async () => {
   await withFetch(
     async (url) => {
       assert.equal(
         String(url),
-        "https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_openai.json",
+        `https://raw.githubusercontent.com/trvny/feedseek/${revision}/feeds/feed_openai.json`,
       );
       return new Response(
         JSON.stringify({
@@ -145,8 +150,9 @@ test("fetch returns the standard document shape with metadata", async () => {
               id: "tag:example",
               title: "Full story",
               url: "https://example.com/full",
-              content_text: "Complete text",
-              date_published: "2026-09-07T10:00:00Z",
+              content_text: "Use <T> & keep it",
+              date_published: "2026-08-01T10:00:00Z",
+              date_modified: "2026-09-07T10:00:00Z",
               tags: ["AI"],
             },
           ],
@@ -162,10 +168,60 @@ test("fetch returns the standard document shape with metadata", async () => {
         })
       ).json();
       assert.equal(body.result.structuredContent.title, "Full story");
-      assert.equal(body.result.structuredContent.text, "Complete text");
-      assert.equal(body.result.structuredContent.metadata.source_key, "openai");
+      assert.equal(body.result.structuredContent.text, "Use <T> & keep it");
+      assert.equal(body.result.structuredContent.metadata.revision, revision);
     },
   );
+});
+
+test("fetch converts HTML to decoded plain text and skips script/style", async () => {
+  await withFetch(
+    async () =>
+      new Response(
+        JSON.stringify({
+          title: "OpenAI",
+          items: [
+            {
+              id: "tag:example",
+              title: "HTML story",
+              url: "https://example.com/full",
+              content_html:
+                "<p>Hello &amp; <strong>world</strong> &#33;</p><script>bad()</script><style>.bad{}</style>",
+            },
+          ],
+        }),
+        { status: 200 },
+      ),
+    async () => {
+      const body = await (
+        await call("tools/call", {
+          name: "fetch",
+          arguments: { id: opaqueId },
+        })
+      ).json();
+      assert.equal(body.result.structuredContent.text, "Hello & world !");
+    },
+  );
+});
+
+test("tool arguments are validated server-side", async () => {
+  const extra = await (
+    await call("tools/call", {
+      name: "search",
+      arguments: { query: "AI", limit: 10 },
+    })
+  ).json();
+  assert.equal(extra.result.isError, true);
+  assert.match(extra.result.content[0].text, /unexpected argument: limit/);
+
+  const badLimit = await (
+    await call("tools/call", {
+      name: "recent",
+      arguments: { limit: 101 },
+    })
+  ).json();
+  assert.equal(badLimit.result.isError, true);
+  assert.match(badLimit.result.content[0].text, /limit must be an integer/);
 });
 
 test("tool errors are model-visible and preflight permits POST", async () => {
