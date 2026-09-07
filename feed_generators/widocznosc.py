@@ -73,7 +73,7 @@ def scrape_widocznosc_news(known_links):
         if date is None:
             continue
 
-        heading = anchor.find(["h2", "h3", "h4"])
+        heading = anchor.select_one(".news-card-title, h2, h3, h4")
         title = heading.get_text(" ", strip=True) if heading else anchor.get("aria-label", "")
         title = re.sub(r"\s+", " ", title).strip()
         if not title:
