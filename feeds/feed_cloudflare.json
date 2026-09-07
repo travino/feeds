@@ -8,6 +8,22 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9028a1316124a76a",
+      "url": "https://www.cloudflarestatus.com/incidents/np4n61ckjdw7",
+      "title": "Increased Workflow Instance Creation Errors",
+      "content_text": "Sep 7 , 07:35 UTC Resolved - This incident has been resolved. Sep 7 , 07:03 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 05:12 UTC Investigating - Cloudflare is aware of, and investigating an issue which potentially impacts multiple customers. Further detail will be provided as more information becomes available.",
+      "date_published": "2026-09-07T07:35:46Z",
+      "date_modified": "2026-09-07T07:35:46Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/f965a230020c3484",
       "url": "https://www.cloudflarestatus.com/incidents/1ghtnh94pby6",
       "title": "Purchased domains from registrar not appearing in Cloudflare Dashboard",
@@ -2130,22 +2146,6 @@
           "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M0AP04HK7ZM02ZWP3G59W4DP.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/c406b70f48a1162c",
-      "url": "https://www.cloudflarestatus.com/incidents/wdp9xb0250qk",
-      "title": "Lists Service Degraded",
-      "content_text": "Aug 17 , 22:41 UTC Resolved - This incident is now resolved. Aug 17 , 22:17 UTC Monitoring - A fix has been implemented and we are currently monitoring the results. Aug 17 , 21:41 UTC Identified - We are continuing to work toward a fix for this issue. Changes to URL Lists will experience delays before taking effect. Existing Lists continue to function normally. Aug 17 , 19:56 UTC Identified - Changes to URL Lists will experience delays before taking effect. Rulesets that contain lists may result",
-      "date_published": "2026-08-17T22:41:47Z",
-      "date_modified": "2026-08-17T22:41:47Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
       ]
     },
     {

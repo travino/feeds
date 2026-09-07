@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-09-07T05:10:08.081638+00:00</updated>
+  <updated>2026-09-07T12:59:54.109550+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.google.com/s2/favicons?domain=openai.com&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=openai.com&amp;sz=256</logo>
   <subtitle>OpenAI product updates: News (incl. Research), Engineering, Release notes, Developers, ChatGPT, and the Codex / Apps SDK / API changelogs.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/openai/e02ae19def6b6f7c</id>
+    <title>Supporting independent journalism in Ukraine</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.</content>
+    <link href="https://openai.com/index/supporting-independent-journalism-in-ukraine" rel="alternate"/>
+    <category term="OpenAI News" label="OpenAI News"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/4EIHNZJQDBZf3Op2ZWbU1g/eafc9b864cc26c505ecca0f8eadb8f78/supporting-independent-journalism-in-ukraine-seo-option-029.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" medium="image" height="900" width="1600"/>
+      <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/4EIHNZJQDBZf3Op2ZWbU1g/eafc9b864cc26c505ecca0f8eadb8f78/supporting-independent-journalism-in-ukraine-seo-option-029.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
+    </media:group>
+    <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/4EIHNZJQDBZf3Op2ZWbU1g/eafc9b864cc26c505ecca0f8eadb8f78/supporting-independent-journalism-in-ukraine-seo-option-029.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/openai/a8e8f9dc895a026b</id>
     <title>An Alien Mind</title>
@@ -2761,19 +2775,5 @@ text into your side c</content>
       <media:thumbnail url="https://learn.chatgpt.com/og/docs/changelog.png" height="630" width="1200"/>
     </media:group>
     <link rel="enclosure" href="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/openai/66abb366589dc2b6</id>
-    <title>Update: Starting July 30, GPT-5.6 Luna costs 80% less, while GPT-5.6 Terra costs 20% less.</title>
-    <updated>2026-07-30T00:00:00+00:00</updated>
-    <content>Starting July 30, GPT-5.6 Luna costs 80% less, while GPT-5.6 Terra costs 20% less. See pricing details . We're also introducing Fast mode in the API, which replaces our Priority Processing offering. For GPT-5.6 Sol, Fast mode now delivers up to 2.5× faster speeds than standard processing at twice the price. This change is backward compatible: requests tagged priority will automatically use Fast mode.</content>
-    <link href="https://developers.openai.com/api/docs/changelog#api-2026-07-30-starting-july-30-gpt-5-6-luna-costs" rel="alternate"/>
-    <category term="API changelog" label="API changelog"/>
-    <published>2026-07-30T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.openai.com/og/api/docs/changelog.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://developers.openai.com/og/api/docs/changelog.png" height="630" width="1200"/>
-    </media:group>
-    <link rel="enclosure" href="https://developers.openai.com/og/api/docs/changelog.png" type="image/png" length="0"/>
   </entry>
 </feed>

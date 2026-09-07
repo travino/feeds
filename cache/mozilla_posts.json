@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T05:09:59.948575+00:00",
+  "last_updated": "2026-09-07T12:59:53.261434+00:00",
   "entries": [
     {
       "title": "Watch videos with friends anywhere—how to social stream with browser extensions",
@@ -8633,6 +8633,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/8c9ab55dd7cc2d8a"
     },
     {
+      "title": "I beg every programmer",
+      "link": "https://connect.mozilla.org/t5/discussions/i-beg-every-programmer/m-p/137278#M55619",
+      "date": "2026-09-06T19:40:49+00:00",
+      "description": "I am writing to report a critical accessibility issue and to plead for help. The problem: In Firefox on macOS, the text-to-speech / read-aloud function reads out every URL in the text. When I try to listen to articles, Google answers, or AI responses, I constantly hear “https://”, “”, and long strings of characters and numbers. The actual content is drowned out. This makes the feature unusable for me. What I have tried: • I searched for hidden macOS settings or terminal commands to make the syst",
+      "source": "Mozilla Connect",
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/24ebc09c33d9f866"
+    },
+    {
       "title": "\"Edit PDF\" desktop drawing feature unpleasant.",
       "link": "https://connect.mozilla.org/t5/discussions/quot-edit-pdf-quot-desktop-drawing-feature-unpleasant/m-p/137378#M55603",
       "date": "2026-09-07T01:51:56+00:00",
@@ -8640,6 +8649,57 @@
       "source": "Mozilla Connect",
       "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/85689cd5ed0faf39"
+    },
+    {
+      "title": "Starting with Firefox 155, pages can load faster, with Happy Eyeballs v3 trying several ways of...",
+      "link": "https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792131",
+      "date": "2026-09-07T09:17:00.382786+00:00",
+      "description": "157.0a1 / New / Bug 2067488 Starting with Firefox 155, pages can load faster, with Happy Eyeballs v3 trying several ways of connecting to a website at once and using whichever succeeds first.",
+      "source": "Nightly Release Notes",
+      "image": "https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/786e981b568df4b3"
+    },
+    {
+      "title": "Firefox now supports the chain value for the CSS overscroll-behavior property.",
+      "link": "https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792195",
+      "date": "2026-09-07T09:36:39.904006+00:00",
+      "description": "157.0a1 / Web Platform / Bug 2036966 Firefox now supports the chain value for the CSS overscroll-behavior property.",
+      "source": "Nightly Release Notes",
+      "image": "https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/c8d8e81c7ef97b45"
+    },
+    {
+      "title": "Improved audio/video synchronization when changing playback rate on HTMLMediaElement.",
+      "link": "https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792196",
+      "date": "2026-09-07T10:05:10.290773+00:00",
+      "description": "157.0a1 / Fixed / Bug 1955841 Improved audio/video synchronization when changing playback rate on HTMLMediaElement .",
+      "source": "Nightly Release Notes",
+      "image": "https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/e8d412e814470cca"
+    },
+    {
+      "title": "Microsoft Store version ask for Firewall permission after every update",
+      "link": "https://connect.mozilla.org/t5/discussions/microsoft-store-version-ask-for-firewall-permission-after-every/m-p/137396#M55606",
+      "date": "2026-09-07T10:25:08+00:00",
+      "description": "I prefer to use the Microsoft Store version of Firefox, but after every update I have to allow it all over again in Windows Firewall. There must be something I can do about this so it won't happen again. And yes I know it's because it thinks it's a new application, but Edge does not have the problem. So there must be a workaround for this.",
+      "source": "Mozilla Connect",
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/e4eb7be3f47ff881"
+    },
+    {
+      "title": "Could Firefox Improve the Experience of Watching Short Videos on Mobile?",
+      "link": "https://connect.mozilla.org/t5/discussions/could-firefox-improve-the-experience-of-watching-short-videos-on/m-p/137403#M55613",
+      "date": "2026-09-07T11:18:45+00:00",
+      "description": "Short-video platforms rely heavily on quick swipes, smooth playback, and easy access to video controls. Could Firefox Mobile make browsing short-form videos more seamless, especially with better swipe navigation, fullscreen controls, and playback performance? What improvements would make watching short videos in Firefox feel closer to using a dedicated app?",
+      "source": "Mozilla Connect",
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/01611353cf9b72ec"
     }
   ]
 }

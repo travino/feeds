@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-09-07T05:09:35.441871+00:00</updated>
+  <updated>2026-09-07T12:59:17.416666+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -12,6 +12,41 @@
   <icon>https://blog.google/favicon.ico</icon>
   <logo>https://blog.google/favicon.ico</logo>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights</id>
+    <title>Our new contrail avoidance trial in Asia-Pacific</title>
+    <updated>2026-09-07T08:00:00+00:00</updated>
+    <content type="html">Contrails</content>
+    <link href="https://blog.google/innovation-and-ai/models-and-research/google-research/contrail-avoidance-ultra-long-haul-flights" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-07T08:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Contrails_Hero.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Contrails_Hero.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Contrails_Hero.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>https://docs.cloud.google.com/release-notes#September_07_2026</id>
+    <title>Cloud Release Notes — September 07, 2026</title>
+    <updated>2026-09-07T07:00:00+00:00</updated>
+    <content type="html">&lt;h2 class="release-note-product-title"&gt;Access Approval&lt;/h2&gt;
+&lt;h3&gt;Feature&lt;/h3&gt;
+&lt;p&gt;Privileged Access Manager is generally available
+&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;(GA)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 class="release-note-product-title"&gt;Access Transparency&lt;/h2&gt;
+&lt;h3&gt;Feature&lt;/h3&gt;
+&lt;p&gt;Privileged Access Manager is generally available
+&lt;a href="https://cloud.google.com/products#product-launch-stages"&gt;(GA)&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://docs.cloud.google.com/release-notes#September_07_2026" rel="alternate"/>
+    <category term="Cloud Release Notes"/>
+    <published>2026-09-07T07:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac</id>
     <title>Backing 16 green AI projects in Asia-Pacific</title>
@@ -28416,144 +28451,5 @@ to generate a PQC key pair and create an attestor, see
       <media:thumbnail url="https://ai.google.dev/static/site-assets/images/release-notes.png"/>
     </media:group>
     <link rel="enclosure" href="https://ai.google.dev/static/site-assets/images/release-notes.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini</id>
-    <title>5 ways to build a side hustle with Gemini</title>
-    <updated>2026-07-20T19:00:00+00:00</updated>
-    <content type="html">An illustration of a person sitting in a chair uploading files, and an AI sparkle icon</content>
-    <link href="https://blog.google/products-and-platforms/products/gemini/launch-business-with-gemini" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-20T19:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Scale_Side_Hustles_w_Gemini_her.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Scale_Side_Hustles_w_Gemini_her.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Scale_Side_Hustles_w_Gemini_her.max-600x600.format-webp.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data</id>
-    <title>Unifying Structured and Unstructured Data Insights with BQ Search Innovations</title>
-    <updated>2026-07-20T18:00:00+00:00</updated>
-    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Modern enterprises possess a vast amount of unstructured data, yet they frequently encounter significant challenges in managing and extracting value from it. Historically, unlocking the insights hidden within PDFs, audio files, images, and unstructured text required a fragmented architecture: moving data out of your warehouse, stitching together complex LLM pipelines, and managing disparate search indexes.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery has worked with many enterprises to make sense of their unstructured data sources. For example, consider an &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;advanced healthcare company&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;managing thousands of clinical trial documents in PDF&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; form. BigQuery helps unlock insights from these documents through a simple, five-step lifecycle: &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Access, Process, Ground, Relate, and Activate&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In this post, we are highlighting three major milestones focused heavily on the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;"Ground"&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; phase of this framework:&lt;/span&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;General Availability (GA) of Autonomous Embedding Generation&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;General Availability (GA) of AI.SEARCH with massive single-query performance gains&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Public Preview of Hybrid Search&lt;/strong&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Let’s dive into how these features work together to simplify your AI architecture, using a real-world clinical trial research platform as an example.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Simplify Pipelines with Autonomous Embedding Generation (GA)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Building a retrieval-augmented generation (RAG) pipeline or search application usually requires managing complex, asynchronous embedding infrastructure. You have to handle retries, error logging, and pipeline orchestration every time a new record arrives.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With the General Availability of &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Autonomous Embedding Generation&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;, BigQuery manages this entirely for you. By simply defining a column in your schema, BigQuery asynchronously and continuously generates embeddings as new data is ingested. You have the flexibility to choose external models (like Vertex AI text-embeddings) or natively utilize &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Gemma embedding models&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; directly within BigQuery.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;How it works in practice:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Imagine you are building a research platform analyzing clinical trial PDFs stored in Google Cloud Storage. After extracting the study titles and disease areas into a table, you can automatically embed those titles:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;quot;CREATE OR REPLACE TABLE mydataset.clinical_trials\r\n(\r\n  trial_id STRING,\r\n  study_title STRING,\r\n  study_embedding STRUCT&amp;lt;result ARRAY&amp;lt;FLOAT64&amp;gt;, status STRING&amp;gt;\r\n   GENERATED ALWAYS AS (AI.EMBED(\r\n     study_title,\r\n     connection_id =&amp;gt; &amp;#x27;myconnection&amp;#x27;,\r\n     endpoint =&amp;gt; &amp;#x27;text-embedding-005&amp;#x27;\r\n   ))\r\n   STORED\r\n   OPTIONS( asynchronous = TRUE )\r\n);&amp;quot;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7fdc88c3f940&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;BigQuery eliminates the need for complex third-party vector databases by managing &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;enterprise-scale processing with one configuration. This autonomous embedding generation keeps data synchronized automatically as source text changes, removing the need for manual machine learning pipelines. This integrated approach streamlines workflows for dynamic datasets and reduces the operational burden of maintaining custom data scripts.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Finally, with this GA launch, Autonomous Embedding Generation now also supports generating embeddings natively over images using &lt;/span&gt;&lt;a href="https://cloud.google.com/bigquery/docs/object-tables"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;ObjectRefs&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, unlocking true multimodal search and analytics.&lt;/span&gt;&lt;/p&gt;
-&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Natural Language Search at Scale with AI.SEARCH (GA)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To truly enable conversational analytics agents and snappier user experiences, your underlying search infrastructure needs to be intuitive and performant.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Once your data is seamlessly embedded, you need an efficient way to query it. Today, we are announcing the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;General Availability of &lt;/strong&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;AI.SEARCH()&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. This function provides a streamlined, natural-language-focused search experience, allowing you to easily find semantically related records without generating embeddings in your search path. In pairing this with the Autonomous Embedding Generation, we leverage the same embedding model used in your dataset for easier use. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Furthermore, as part of efficiency investments in the last year, we have heavily optimized AI.SEARCH for single-query execution. For online applications and single-query searches (those most common in agentic searches), we have observed &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;up to a 133x gain in slot efficiency..&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This means you can serve highly concurrent, user-facing natural language searches directly out of BigQuery faster and more cost-effectively than ever before.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;SELECT base.trial_id, base.study_title, distance\r\nFROM\r\n  AI.SEARCH(\r\n    TABLE mydataset.clinical_trials,\r\n    \&amp;#x27;study_title\&amp;#x27;,\r\n    &amp;quot;What treatments are available for advanced tumors?&amp;quot;\r\n  );&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7fdc88c3f730&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Unifying Keyword and Vector with Hybrid Search (Public Preview)&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Semantic (vector) search is incredibly powerful; for example, the query above will successfully return conceptually related terms like "chemotherapy." However, semantic search isn't always enough. What if a researcher is searching for a specific, highly technical immunotherapy drug designation like "MK3475"? Because this alphanumeric string lacks broad semantic meaning, pure vector search might struggle to rank it correctly.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By merging lexical search with existing semantic capabilities, BigQuery's &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#hybrid-search"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;hybrid search&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; allows for data retrieval based on both keyword similarity and underlying meaning. This approach unites the conceptual depth of semantic vector search with the pinpoint accuracy of lexical matching, utilizing algorithms such as Reciprocal Rank Fusion and BM25. The result is a significant boost in search precision and a reduction in LLM hallucination costs through the reranking of results based on keyword frequency and semantic relevance. Users can implement this via the AI.SEARCH and VECTOR_SEARCH functions by employing the &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;hybrid mode&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; or &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;lexical_search_columns&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; parameters. Furthermore, performance can be optimized by extending vector indexes to include keyword data, which accelerates the lexical search process.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can now perform hybrid searches effortlessly using the AI.SEARCH() function by simply setting the mode to HYBRID:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-code"&gt;&lt;dl&gt;
-    &lt;dt&gt;code_block&lt;/dt&gt;
-    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;SELECT base.trial_id, base.study_title, distance\r\nFROM\r\n  AI.SEARCH(\r\n    TABLE mydataset.clinical_trials,\r\n    \&amp;#x27;study_title\&amp;#x27;,\r\n    &amp;quot;Cancer treated by MK-3475&amp;quot;,\r\n    mode =&amp;gt; \&amp;#x27;HYBRID\&amp;#x27;\r\n  );&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7fdc88c3f550&amp;gt;)])]&amp;gt;&lt;/dd&gt;
-&lt;/dl&gt;&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To speed up these hybrid queries at scale, you can easily &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/vector-index#use_vector_indexes_with_hybrid_search"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;extend your CREATE VECTOR INDEX DDL&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to include the keyword columns you want to use for the lexical portion of the search, natively combining your indexes.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Building an End-to-End Unstructured Data Analytics Platform&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The search and embedding features launching today are part of a much broader vision. We are building an end-to-end unstructured data analytics platform. One common type of unstructured data is documents, and BigQuery now provides the complete toolset to manage this workflow from end to end:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "&gt;
-
-      
-      
-        
-        &lt;img alt="image1" src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/image1_bQnyG2Q.gif" /&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;ul&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Access:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Enable zero-ETL workflows by querying unstructured PDFs and documents directly where they live in Google Cloud Storage using Object Tables.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Process:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Utilize embedded AI capabilities like AI.PARSE_DOCUMENT (coming soon) for layout-aware chunking (perfect for RAG), AI.GENERATE for entity extraction, and AI.CLASSIFY to instantly categorize records using foundational models directly in your SQL pipelines.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Ground:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Build highly accurate context using Autonomous Embeddings and Hybrid Search. Hybrid search combines the conceptual understanding of semantic vector search with the exact precision of lexical keyword matching By reranking results based on both semantic relevance and keyword frequency, you drastically increase search precision and drive down LLM hallucinations.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Relate:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Uncover hidden multi-hop insights by mapping extracted entities (like Sponsors, Trials, and Drugs) into a &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/graph-overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery Graph&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;—no specialized graph database required.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Activate:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Bring it all together with &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/conversational-analytics"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;BigQuery's Conversational Analytics&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; agents. Using functions like &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-agg"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AI.AGG&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, you can chat directly with your complex data, generate visualizations, and perform trend analysis at massive scale.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With unstructured data as a first-class citizen in BigQuery, you can finally bridge the gap between your raw documents and conversational AI.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Ready to get started?&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Explore the Code:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Check out the complete end-to-end clinical trials demonstration in our &lt;/span&gt;&lt;a href="https://github.com/GoogleCloudPlatform/document-analytics-on-bigquery" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Document Analytics on BigQuery GitHub Repository&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Read the Docs:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Dive into the official documentation for &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/autonomous-embedding-generation"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Autonomous Embeddings&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#hybrid-search"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Hybrid Search&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to start building your own unified data pipelines today.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</content>
-    <link href="https://cloud.google.com/blog/products/data-analytics/bigquery-search-innovations-unify-structured-unstructured-data" rel="alternate"/>
-    <category term="Google Cloud"/>
-    <published>2026-07-20T18:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-2600x2600.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-2600x2600.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-2600x2600.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

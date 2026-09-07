@@ -8,6 +8,52 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/98adc95e5618f0ab",
+      "url": "https://huggingface.co/posts/juiceb0xc0de/625815479584297",
+      "title": "Dude, Where's My Update? I'll tell you where! ~97.6% of my BF16 parameter coordinates didn't move at all, and the ones that did overshot by ~1.33x.",
+      "content_text": "Dude, Where's My Update? I'll tell you where! ~97.6% of my BF16 parameter coordinates didn't move at all, and the ones that did overshot by ~1.33x. It's nice to do research that doesn't end in disproving yourself once again and moving on to the next subject once in awhile. Back to the topic, if you've ever wondered why most of your weights are basically ghosting you nearly every step when you store your weights at bf16, Dude, I Measured It. https://huggingface.co/blog/juiceb0xc0de/intended-and-realized-updates-in-bf16-fine-tuning#dude-wheres-my-update",
+      "date_published": "2026-09-07T12:59:06Z",
+      "date_modified": "2026-09-07T12:59:06Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/665425bdf0c8c891ca472d94/Y1WmRO0hytW6hqTAKhqwF.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/665425bdf0c8c891ca472d94/Y1WmRO0hytW6hqTAKhqwF.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/52ad65f62f551a31",
+      "url": "https://huggingface.co/posts/Hoglet-33/620130623473492",
+      "title": "Today, we planned to release Pebble-50M and Pebble-50M-Chat to the world. Unfortunately, due to a few issues, that didn't go quite as planned.",
+      "content_text": "Today, we planned to release Pebble-50M and Pebble-50M-Chat to the world. Unfortunately, due to a few issues, that didn't go quite as planned. What happened: - Some data and benchmark results were lost or corrupted - The models performed worse on benchmarks than our other Pebble models Despite that, you can still find both models here: Pebble-50M-beta: basically-experimental/Pebble-50M-beta Pebble-50M-Chat-beta: basically-experimental/Pebble-50M-Chat-beta There are still some interesting improvements in these models: - Compatible with non-CUDA devices - Vocabulary increased to 16K tokens - Context length increased to 16K tokens For now, there won't be any more Pebble releases for a while. We",
+      "date_published": "2026-09-07T12:59:06Z",
+      "date_modified": "2026-09-07T12:59:06Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Hoglet-33/620130623473492.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Hoglet-33/620130623473492.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/9babf4556d990556",
       "url": "https://huggingface.co/posts/lucifertrj/522449422051774",
       "title": "Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it.",
@@ -3430,6 +3476,29 @@
       "attachments": [
         {
           "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2603.07236.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/ff6a82eae1dd5f47",
+      "url": "https://huggingface.co/papers/2602.04634",
+      "title": "WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning",
+      "content_text": "Multi-agent systems using reinforcement learning enable parallel information seeking with scalable orchestration, achieving performance comparable to larger single agents.",
+      "date_published": "2026-02-04T00:00:00Z",
+      "date_modified": "2026-02-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.04634.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.04634.png",
           "mime_type": "image/png"
         }
       ]

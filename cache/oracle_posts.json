@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T05:10:12.446877+00:00",
+  "last_updated": "2026-09-07T13:00:10.941266+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3466,6 +3466,53 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/0b57934584f6e5c4"
+    },
+    {
+      "title": "APEX 26.1 Bar Chart: Per-Row Colors Ignored When Using Region SQL Source but Work with Series SQL Source",
+      "link": "https://forums.oracle.com/ords/apexds/post/apex-26-1-bar-chart-per-row-colors-ignored-when-using-regio-1487",
+      "date": "2026-09-07T09:54:48.412526+00:00",
+      "description": "I believe I found an issue with Bar Charts in Oracle APEX 26.1.4 related to the Color column when the SQL query is defined at the Region level instead of the Series level. I have a Bar Chart where each bar should have its own color. The SQL query returns a different color value for each row. For example, a simplified version of the query would be: select    employee_name as label,    count(*) as value,    '#' || substr(        standard_hash(employee_id, 'MD5'),        1,        6    ) as colorfr",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/1798227fa3eed405"
+    },
+    {
+      "title": "ORDS direct PL&#x2F;SQL Gateway causes severe library-cache contention when configured with --config-only and no ORDS repository",
+      "link": "https://forums.oracle.com/ords/apexds/post/ords-direct-pl-sql-gateway-causes-severe-library-cache-cont-7485",
+      "date": "2026-09-07T10:21:21.061482+00:00",
+      "description": "Title ORDS direct PL/SQL Gateway causes severe library-cache contention when configured with --config-only and no ORDS repository Product Oracle REST Data Services (ORDS) Component PL/SQL Gateway / OWA request initialization Version 26.2.2.r2041619 The same code path is also present in inspected ORDS 26.1 binaries. A similar issue was publicly reported for ORDS 23.1 and 23.4. Database Version Oracle Database 19c, version 19.19 Problem Summary ORDS can be configured and started as a direct PL/SQL",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/82d4268057148fdc"
+    },
+    {
+      "title": "Modafinil 400mg: What Is This Dosage Used For?",
+      "link": "https://forums.oracle.com/ords/apexds/post/modafinil-400mg-what-is-this-dosage-used-for-8770",
+      "date": "2026-09-07T11:07:23.686275+00:00",
+      "description": "Modafinil 400mg is a high dosage of modafinil, which is a prescription drug and works towards improving wakefulness and alertness. Modafinil is used to improve the condition of wakefulness in adults who have various diseases including narcolepsy, obstructive sleep apnea and shift work sleep disorder by affecting certain chemicals and signals in the brain. A dosage of 400mg of modafinil is usually regarded as the highest daily dosage of modafinil. The exact amount of the dosage should be taken de",
+      "source": "Oracle Developer Community",
+      "image": null,
+      "image_attempts": 1,
+      "image_attempt_url": "https://forums.oracle.com/ords/apexds/post/modafinil-400mg-what-is-this-dosage-used-for-8770",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/276f08e3d69a9885"
+    },
+    {
+      "title": "Page submit on macOS Tahoe&#x2F;Safari installed PWA end with &quot;Page not available&quot;, apex 26.1.4",
+      "link": "https://forums.oracle.com/ords/apexds/post/page-submit-on-macos-tahoe-safari-installed-pwa-end-with-pa-8571",
+      "date": "2026-09-07T12:02:00.227110+00:00",
+      "description": "Hi, After updating an app to 26.1.4 I have some strange behaviour. I've created a simple testcase on oracleapex.com for this where I can reproduce this. I have a page with s a button. The button does a JS apex.submit which causes the page to branch to another page (after processing a branch is created). This works fine in Safari but as soon as I install the app as a PWA ( from Safari/MacOs Tahoe ) and use the PWA I get an error. As soon as the submit happends I get redirected to a “Sorry this pa",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/GSgtOobp-0102-cIDmCNBV",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/763938036df1051a"
+    },
+    {
+      "title": "Oracle APEX Free Workspace Account Locked – ASHISH_2002",
+      "link": "https://forums.oracle.com/ords/apexds/post/oracle-apex-free-workspace-account-locked-ashish-2002-7667",
+      "date": "2026-09-07T12:15:19.365501+00:00",
+      "description": "Hello Oracle APEX Team, My Oracle APEX free hosted workspace account is locked and I am unable to sign in. Workspace Name: ASHISH_2002 Service: Oracle APEX Free Hosted Service (oracleapex.com) Error Message: \"The account is locked.\" I accidentally entered an incorrect password multiple times, which caused my account to become locked. I have already used the Reset Password option and received the password reset email, but the account is still showing as locked. I am the only Workspace Administrat",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/c74f5245036c4d82"
     }
   ]
 }

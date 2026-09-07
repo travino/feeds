@@ -4,7 +4,7 @@ Konkretne linki źródłowe wchodzące w skład każdego generowanego feeda. Lis
 
 > Plik generowany: `uv run --locked feed_generators/docs_sources.py`. Nie edytuj ręcznie — zmień źródła w generatorze.
 
-102 feedów · 795 źródeł
+102 feedów · 796 źródeł
 
 ## Spis grup
 
@@ -204,6 +204,7 @@ Konkretne linki źródłowe wchodzące w skład każdego generowanego feeda. Lis
 - ![](https://www.google.com/s2/favicons?domain=www.minimax.io&sz=16) Minimax blog — <https://www.minimax.io/blog>
 - ![](https://www.google.com/s2/favicons?domain=www.minimax.io&sz=16) Minimax news — <https://www.minimax.io/news>
 - ![](https://www.google.com/s2/favicons?domain=pllum.org.pl&sz=16) Pllum blog — <https://pllum.org.pl/blog>
+- ![](https://www.google.com/s2/favicons?domain=widocznosc.ai&sz=16) Widocznosc news — <https://widocznosc.ai/news/>
 - ![](https://www.google.com/s2/favicons?domain=groq.com&sz=16) Changelog — <https://groq.com/changelog>
 - ![](https://www.google.com/s2/favicons?domain=github.com&sz=16) Commits atom — <https://github.com/groq/groq-changelog/commits/main.atom>
 

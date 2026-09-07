@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.mi.com/global/discover/newsroom</id>
   <title>Xiaomi Newsroom</title>
-  <updated>2026-09-07T05:11:02.392379+00:00</updated>
+  <updated>2026-09-07T13:01:04.960952+00:00</updated>
   <author>
     <name>Xiaomi</name>
   </author>
@@ -13,11 +13,71 @@
   <logo>https://www.mi.com/favicon.ico</logo>
   <subtitle>Combined Xiaomi feed: xiaomi.eu community, Xiaomi Advices, Xiaomi Today, and Xiaomi Corp investor news.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xiaomi/4db1127490f2bc3d</id>
+    <title>Xiaomi 17 Pro/PANDORA — KernelSU Next works, but Wallet contactless and Revolut login still fail</title>
+    <updated>2026-09-07T11:49:53+00:00</updated>
+    <content>I’m looking for advice with a Xiaomi 17 Pro (PANDORA) running: xiaomi.eu OS3.0.318 Android 16 Kernel 6.12.23-android16-5 Unlocked bootloader KernelSU Next v3.3.0 Earlier Magisk and regular KernelSU attempts did not provide working root, so I restored the original images. I then installed KernelSU Next by patching the stock init_boot.img from the matching OS3.0.318 ROM. KernelSU Next now reports: Working after multiple reboots LKM (GKI2) mode Hook mode... Read more</content>
+    <link href="https://xiaomi.eu/community/threads/xiaomi-17-pro-pandora-%E2%80%94-kernelsu-next-works-but-wallet-contactless-and-revolut-login-still-fail.76746/" rel="alternate"/>
+    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
+    <published>2026-09-07T11:49:53+00:00</published>
+    <media:group>
+      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
+    </media:group>
+    <dc:creator>xiaomi.eu community</dc:creator>
+    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xiaomi/8d6e48faf4b7a5ed</id>
+    <title>After install Xiaomi.eu Firmware i Cant go back to 17 Ultra Global Firmware</title>
+    <updated>2026-09-07T10:49:23+00:00</updated>
+    <content>I have installed xiaomi.eu_NEZHA_OS3.0.309.0.WPACNXM_16 When i try to install LAST Global Firmware i receive crc error: if 1 GTR 1 set anticheck="Current device antirollback version is greater than this pakcage" echo "antirollback check pass"   | findstr /r /c:"pass"   || "antirollback check pass" fastboot  getvar crc   2&gt;&amp;1  | findstr /r /c:"^crc: 1" crc: 1 if 0 EQU 0 ( fastboot  flash crclist D:\Android Root\17 Rom\nezha_global_images_OS3.0.302.0.WPAMIXM_16.0\images\crclist.txt   ||... Read mo</content>
+    <link href="https://xiaomi.eu/community/threads/after-install-xiaomi-eu-firmware-i-cant-go-back-to-17-ultra-global-firmware.76707/" rel="alternate"/>
+    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
+    <published>2026-09-07T10:49:23+00:00</published>
+    <media:group>
+      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
+    </media:group>
+    <dc:creator>xiaomi.eu community</dc:creator>
+    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xiaomi/2254f681c0e4dff2</id>
+    <title>[HELP / WTB] Unbrick Service for Xiaomi 17 Pro Max (CN Version) - EDL 9008</title>
+    <updated>2026-09-07T09:16:28+00:00</updated>
+    <content>Hi everyone, I accidentally soft-bricked my Xiaomi 17 Pro Max (China Edition) . The phone is currently stuck and only recognized as Qualcomm HS-USB QDLoader 9008 (COM7) via TestPoint. When trying to flash the official CN Fastboot ROM via MiFlash, I encounter the Sahara Download Programmer Error 4 , which indicates that an authorized Xiaomi EDL account is required. Device: Xiaomi 17 Pro Max Region: CN (China Hardware) Status: EDL Mode... Read more</content>
+    <link href="https://xiaomi.eu/community/threads/help-wtb-unbrick-service-for-xiaomi-17-pro-max-cn-version-edl-9008.76712/" rel="alternate"/>
+    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
+    <published>2026-09-07T09:16:28+00:00</published>
+    <media:group>
+      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
+    </media:group>
+    <dc:creator>xiaomi.eu community</dc:creator>
+    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/xiaomi/57ea14faad075a31</id>
     <title>Fix for Google wallet, play store banks and goverment apps update 06.09.2026</title>
     <updated>2026-09-07T01:03:47+00:00</updated>
     <content>Spoiler: Important This tutorial is not mandatory. This is made complying KISS methodology!! KISS mean: Keep it Simple and Stupid! This also mean, If you are not expert, use recomeded. This tutorial evolving based on new solution. Only importmant is working bank, gov, wallet app. Dont bully me with stupid question If you... Read more</content>
     <link href="https://xiaomi.eu/community/threads/fix-for-google-wallet-play-store-banks-and-goverment-apps-update-06-09-2026.75896/" rel="alternate"/>
+    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
+    <published>2026-09-07T01:03:47+00:00</published>
+    <media:group>
+      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
+    </media:group>
+    <dc:creator>xiaomi.eu community</dc:creator>
+    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xiaomi/b077eb8197199ce6</id>
+    <title>Fix for Google wallet, play store banks and goverment apps update 07.09.2026</title>
+    <updated>2026-09-07T01:03:47+00:00</updated>
+    <content>Spoiler: Important This tutorial is not mandatory. This is made complying KISS methodology!! KISS mean: Keep it Simple and Stupid! This also mean, If you are not expert, use recomeded. This tutorial evolving based on new solution. Only importmant is working bank, gov, wallet app. Dont bully me with stupid question If you... Read more</content>
+    <link href="https://xiaomi.eu/community/threads/fix-for-google-wallet-play-store-banks-and-goverment-apps-update-07-09-2026.75896/" rel="alternate"/>
     <category term="xiaomi.eu community" label="xiaomi.eu community"/>
     <published>2026-09-07T01:03:47+00:00</published>
     <media:group>
@@ -176,21 +236,6 @@
     </media:group>
     <dc:creator>Xiaomi Today</dc:creator>
     <link rel="enclosure" href="https://xiaomitoday.com/wp-content/uploads/2026/09/EarFun-Wave-Pro-X-4.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xiaomi/4db1127490f2bc3d</id>
-    <title>Xiaomi 17 Pro/PANDORA — KernelSU Next works, but Wallet contactless and Revolut login still fail</title>
-    <updated>2026-09-05T14:14:23+00:00</updated>
-    <content>I’m looking for advice with a Xiaomi 17 Pro (PANDORA) running: xiaomi.eu OS3.0.318 Android 16 Kernel 6.12.23-android16-5 Unlocked bootloader KernelSU Next v3.3.0 Earlier Magisk and regular KernelSU attempts did not provide working root, so I restored the original images. I then installed KernelSU Next by patching the stock init_boot.img from the matching OS3.0.318 ROM. KernelSU Next now reports: Working after multiple reboots LKM (GKI2) mode Hook mode... Read more</content>
-    <link href="https://xiaomi.eu/community/threads/xiaomi-17-pro-pandora-%E2%80%94-kernelsu-next-works-but-wallet-contactless-and-revolut-login-still-fail.76746/" rel="alternate"/>
-    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-09-05T14:14:23+00:00</published>
-    <media:group>
-      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
-    </media:group>
-    <dc:creator>xiaomi.eu community</dc:creator>
-    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/xiaomi/28eb4de20b6916db</id>
@@ -1768,21 +1813,6 @@
     <link rel="enclosure" href="https://xiaomitoday.com/wp-content/uploads/2026/08/GTA-6-Extended-Look-Gameplay-1024x576.avif" type="image/avif" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xiaomi/2254f681c0e4dff2</id>
-    <title>[HELP / WTB] Unbrick Service for Xiaomi 17 Pro Max (CN Version) - EDL 9008</title>
-    <updated>2026-08-28T04:47:30+00:00</updated>
-    <content>Hi everyone, I accidentally soft-bricked my Xiaomi 17 Pro Max (China Edition) . The phone is currently stuck and only recognized as Qualcomm HS-USB QDLoader 9008 (COM7) via TestPoint. When trying to flash the official CN Fastboot ROM via MiFlash, I encounter the Sahara Download Programmer Error 4 , which indicates that an authorized Xiaomi EDL account is required. Device: Xiaomi 17 Pro Max Region: CN (China Hardware) Status: EDL Mode... Read more</content>
-    <link href="https://xiaomi.eu/community/threads/help-wtb-unbrick-service-for-xiaomi-17-pro-max-cn-version-edl-9008.76712/" rel="alternate"/>
-    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-08-28T04:47:30+00:00</published>
-    <media:group>
-      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
-    </media:group>
-    <dc:creator>xiaomi.eu community</dc:creator>
-    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/xiaomi/8dc2b3d943fb3e54</id>
     <title>Xiaomi Unveils TV S Pro 2027 With 360Hz RGB Mini LED Displays and 5,000-Nit Brightness</title>
     <updated>2026-08-27T18:49:03+00:00</updated>
@@ -2195,21 +2225,6 @@
     <link href="https://xiaomi.eu/community/threads/when-the-rom%E2%80%99s-stable-but-the-weekend%E2%80%99s-not.76708/" rel="alternate"/>
     <category term="xiaomi.eu community" label="xiaomi.eu community"/>
     <published>2026-08-24T06:01:20+00:00</published>
-    <media:group>
-      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
-    </media:group>
-    <dc:creator>xiaomi.eu community</dc:creator>
-    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xiaomi/8d6e48faf4b7a5ed</id>
-    <title>After install Xiaomi.eu Firmware i Cant go back to 17 Ultra Global Firmware</title>
-    <updated>2026-08-23T18:06:09+00:00</updated>
-    <content>I have installed xiaomi.eu_NEZHA_OS3.0.309.0.WPACNXM_16 When i try to install LAST Global Firmware i receive crc error: if 1 GTR 1 set anticheck="Current device antirollback version is greater than this pakcage" echo "antirollback check pass"   | findstr /r /c:"pass"   || "antirollback check pass" fastboot  getvar crc   2&gt;&amp;1  | findstr /r /c:"^crc: 1" crc: 1 if 0 EQU 0 ( fastboot  flash crclist D:\Android Root\17 Rom\nezha_global_images_OS3.0.302.0.WPAMIXM_16.0\images\crclist.txt   ||... Read mo</content>
-    <link href="https://xiaomi.eu/community/threads/after-install-xiaomi-eu-firmware-i-cant-go-back-to-17-ultra-global-firmware.76707/" rel="alternate"/>
-    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-08-23T18:06:09+00:00</published>
     <media:group>
       <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
@@ -2775,21 +2790,6 @@
     <link href="https://xiaomi.eu/community/threads/fix-for-google-wallet-play-store-banks-and-goverment-apps-update-06-08-2026.75896/" rel="alternate"/>
     <category term="xiaomi.eu community" label="xiaomi.eu community"/>
     <published>2026-08-06T20:56:17+00:00</published>
-    <media:group>
-      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
-    </media:group>
-    <dc:creator>xiaomi.eu community</dc:creator>
-    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xiaomi/a706dc875b46bf19</id>
-    <title>trying to unlock bootloader on my poco x8 pro max</title>
-    <updated>2026-08-05T20:31:30+00:00</updated>
-    <content>hi all, i just bought a poco x8 pro max os version 3.0302.0.wpleuxm.c08. in developer settings ion the mi unlock status section the device is locked the phone is secured. i turned on oem unlocking and usb debugging but  i cannot add the account and device it says couldnt add please go to xiaomi community to apply. i went to xiaomi community and it says application quota reached. please try again after 08/07 00:00 . before that it says account must be registered for 30 days before applying... Rea</content>
-    <link href="https://xiaomi.eu/community/threads/trying-to-unlock-bootloader-on-my-poco-x8-pro-max.76668/" rel="alternate"/>
-    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-08-05T20:31:30+00:00</published>
     <media:group>
       <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>

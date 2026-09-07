@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-07T05:09:59.822195+00:00</updated>
+  <updated>2026-09-07T12:59:53.139626+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -13,6 +13,81 @@
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/01611353cf9b72ec</id>
+    <title>Could Firefox Improve the Experience of Watching Short Videos on Mobile?</title>
+    <updated>2026-09-07T11:18:45+00:00</updated>
+    <content>Short-video platforms rely heavily on quick swipes, smooth playback, and easy access to video controls. Could Firefox Mobile make browsing short-form videos more seamless, especially with better swipe navigation, fullscreen controls, and playback performance? What improvements would make watching short videos in Firefox feel closer to using a dedicated app?</content>
+    <link href="https://connect.mozilla.org/t5/discussions/could-firefox-improve-the-experience-of-watching-short-videos-on/m-p/137403#M55613" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T11:18:45+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/e4eb7be3f47ff881</id>
+    <title>Microsoft Store version ask for Firewall permission after every update</title>
+    <updated>2026-09-07T10:25:08+00:00</updated>
+    <content>I prefer to use the Microsoft Store version of Firefox, but after every update I have to allow it all over again in Windows Firewall. There must be something I can do about this so it won't happen again. And yes I know it's because it thinks it's a new application, but Edge does not have the problem. So there must be a workaround for this.</content>
+    <link href="https://connect.mozilla.org/t5/discussions/microsoft-store-version-ask-for-firewall-permission-after-every/m-p/137396#M55606" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T10:25:08+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/e8d412e814470cca</id>
+    <title>Improved audio/video synchronization when changing playback rate on HTMLMediaElement.</title>
+    <updated>2026-09-07T10:05:10.290773+00:00</updated>
+    <content>157.0a1 / Fixed / Bug 1955841 Improved audio/video synchronization when changing playback rate on HTMLMediaElement .</content>
+    <link href="https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792196" rel="alternate"/>
+    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
+    <published>2026-09-07T10:05:10.290773+00:00</published>
+    <media:group>
+      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Nightly Release Notes</dc:creator>
+    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/c8d8e81c7ef97b45</id>
+    <title>Firefox now supports the chain value for the CSS overscroll-behavior property.</title>
+    <updated>2026-09-07T09:36:39.904006+00:00</updated>
+    <content>157.0a1 / Web Platform / Bug 2036966 Firefox now supports the chain value for the CSS overscroll-behavior property.</content>
+    <link href="https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792195" rel="alternate"/>
+    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
+    <published>2026-09-07T09:36:39.904006+00:00</published>
+    <media:group>
+      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Nightly Release Notes</dc:creator>
+    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/786e981b568df4b3</id>
+    <title>Starting with Firefox 155, pages can load faster, with Happy Eyeballs v3 trying several ways of...</title>
+    <updated>2026-09-07T09:17:00.382786+00:00</updated>
+    <content>157.0a1 / New / Bug 2067488 Starting with Firefox 155, pages can load faster, with Happy Eyeballs v3 trying several ways of connecting to a website at once and using whichever succeeds first.</content>
+    <link href="https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792131" rel="alternate"/>
+    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
+    <published>2026-09-07T09:17:00.382786+00:00</published>
+    <media:group>
+      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Nightly Release Notes</dc:creator>
+    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/85689cd5ed0faf39</id>
     <title>"Edit PDF" desktop drawing feature unpleasant.</title>
     <updated>2026-09-07T01:51:56+00:00</updated>
@@ -20,6 +95,21 @@
     <link href="https://connect.mozilla.org/t5/discussions/quot-edit-pdf-quot-desktop-drawing-feature-unpleasant/m-p/137378#M55603" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-07T01:51:56+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/24ebc09c33d9f866</id>
+    <title>I beg every programmer</title>
+    <updated>2026-09-06T19:40:49+00:00</updated>
+    <content>I am writing to report a critical accessibility issue and to plead for help. The problem: In Firefox on macOS, the text-to-speech / read-aloud function reads out every URL in the text. When I try to listen to articles, Google answers, or AI responses, I constantly hear “https://”, “”, and long strings of characters and numbers. The actual content is drowned out. This makes the feature unusable for me. What I have tried: • I searched for hidden macOS settings or terminal commands to make the syst</content>
+    <link href="https://connect.mozilla.org/t5/discussions/i-beg-every-programmer/m-p/137278#M55619" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-06T19:40:49+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
@@ -303,21 +393,6 @@ set_network_cache — bypass or restore the HTTP cache, for the selected tab or 
     <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/ccd30bd77d05cb1a</id>
-    <title>VPN set to Japan but the IP address is from Singapore</title>
-    <updated>2026-09-04T05:06:35+00:00</updated>
-    <content>So i just got the new VPN feature in Firefox, when i used it to connect to Japan, the VPN said it connected to Japan, but instead, it connected me to Singapore. Is it just a server issue or a client issue? I don't know. Hope Mozilla fixes this bug!</content>
-    <link href="https://connect.mozilla.org/t5/discussions/vpn-set-to-japan-but-the-ip-address-is-from-singapore/m-p/136968#M55432" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T05:06:35+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/f1483ed914e8c900</id>
     <title>Firefox 155.0.1</title>
     <updated>2026-09-04T00:00:00+00:00</updated>
@@ -346,21 +421,6 @@ set_network_cache — bypass or restore the HTTP cache, for the selected tab or 
     </media:group>
     <dc:creator>Android Release Notes</dc:creator>
     <link rel="enclosure" href="https://www.firefox.com/media/img/firefox/flare/og.4d50d9b1674b.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/aa2c890eda7c8b47</id>
-    <title>When Are We Getting That Apology We Were Promised Over Ruining The Android App?</title>
-    <updated>2026-09-03T21:59:34+00:00</updated>
-    <content>@andyf said we were owed and apology, and then never gave one. When are you going to apologize for making the android app inaccessible to users? When are you going to apologize for refusing to fix your now discriminatory android app? Where is the apology and how can to actually make it up to us if you refuse to fix the app? I made an account here because of how horrid the current form of the android app is, I've wasted so much of my time trying to get it through your heads that we don't like or </content>
-    <link href="https://connect.mozilla.org/t5/discussions/when-are-we-getting-that-apology-we-were-promised-over-ruining/m-p/136916#M55384" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-03T21:59:34+00:00</published>
-    <media:group>
-      <media:content url="https://connect.mozilla.org/t5/image/serverpage/image-id/15632i34836ED1460F2FC8/image-size/large?v=v2&amp;px=999" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://connect.mozilla.org/t5/image/serverpage/image-id/15632i34836ED1460F2FC8/image-size/large?v=v2&amp;px=999"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://connect.mozilla.org/t5/image/serverpage/image-id/15632i34836ED1460F2FC8/image-size/large?v=v2&amp;px=999" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/38affee826349d5b</id>
@@ -423,21 +483,6 @@ Other Changes:
     </media:group>
     <dc:creator>Planet Mozilla</dc:creator>
     <link rel="enclosure" href="https://us1.discourse-cdn.com/flex001/uploads/mozilla/original/3X/1/8/180ccfafb4284e125acb62e88c091db07e8a77bb.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/f34209004c24a357</id>
-    <title>Breaking: 6% Niche browser breaks all shared-server non-HTTPS sites</title>
-    <updated>2026-09-03T14:17:24+00:00</updated>
-    <content>What the heck? v155 has decided that because I use shared hosting and ONE site on that shared host uses SSL, that MY site, that has run just fine since the mid-1990s that does not use HTTPS, stores no cookies or anything else, and doesn't NEED TLS or security and never has, now does not work at all and there's no way to get to it. Are you literally trying to lose every single one of your dwindling hobbyist/small site users? This is not acceptable. No standards body told you to do this, no other </content>
-    <link href="https://connect.mozilla.org/t5/discussions/breaking-6-niche-browser-breaks-all-shared-server-non-https/m-p/136881#M55379" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-03T14:17:24+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/499a9292e8d773b0</id>
@@ -1142,51 +1187,6 @@ Since the Glean Dictionary is just a stati</content>
     <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792086" rel="alternate"/>
     <category term="Nightly Release Notes" label="Nightly Release Notes"/>
     <published>2026-08-18T19:14:38.882338+00:00</published>
-    <media:group>
-      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Nightly Release Notes</dc:creator>
-    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/94833881b3207996</id>
-    <title>Starting with Firefox 156, tabbing into the search bar in Firefox Nightly lands on the search...</title>
-    <updated>2026-08-18T15:02:17.114267+00:00</updated>
-    <content>156.0a1 / New Starting with Firefox 156, tabbing into the search bar in Firefox Nightly lands on the search input rather than the search button</content>
-    <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792085" rel="alternate"/>
-    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
-    <published>2026-08-18T15:02:17.114267+00:00</published>
-    <media:group>
-      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Nightly Release Notes</dc:creator>
-    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/49b899ee8f5d0d47</id>
-    <title>Firefox now shows how many trackers it has blocked in the address bar, making built-in privacy...</title>
-    <updated>2026-08-18T15:00:26.016799+00:00</updated>
-    <content>155.0a1 / New / Bug 2051545 Firefox now shows how many trackers it has blocked in the address bar, making built-in privacy protections easier to see as you browse. You can hide the count in settings without turning off tracker blocking.</content>
-    <link href="https://www.firefox.com/en-US/firefox/155.0a1/releasenotes/#note-792084" rel="alternate"/>
-    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
-    <published>2026-08-18T15:00:26.016799+00:00</published>
-    <media:group>
-      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Nightly Release Notes</dc:creator>
-    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/8ae4a1d875423748</id>
-    <title>The Windows installer now resolves /INI= paths relative to the installer itself, so deployment...</title>
-    <updated>2026-08-18T14:59:05.640694+00:00</updated>
-    <content>156.0a1 / Enterprise / Bug 1470570 The Windows installer now resolves /INI= paths relative to the installer itself, so deployment tools that unpack to a temporary folder no longer need an absolute path.</content>
-    <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792083" rel="alternate"/>
-    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
-    <published>2026-08-18T14:59:05.640694+00:00</published>
     <media:group>
       <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
       <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>

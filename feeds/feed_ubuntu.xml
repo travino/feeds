@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-07T05:10:44.404199+00:00</updated>
+  <updated>2026-09-07T13:00:45.358329+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/95e0e05ff47df398</id>
+    <title>Mesa 26.2 Finally Available to Install via PPA in Ubuntu 26.04/24.04</title>
+    <updated>2026-09-07T09:30:01+00:00</updated>
+    <content>For those who want to try out the most recent Mesa graphics library 26.2, it’s finally easy to install in Ubuntu through the popular kisak-mesa fresh PPA. Mesa is the user-space open-source graphics drivers and libraries let apps and games on Linux access to the GPU, especially for Intel/AMD GPUs. The latest Mesa version so […]</content>
+    <link href="https://ubuntuhandbook.org/index.php/2026/09/mesa-26-2-install-ppa-ubuntu/" rel="alternate"/>
+    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
+    <published>2026-09-07T09:30:01+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2026/09/about-mesa2604-700x492.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2026/09/about-mesa2604-700x492.webp"/>
+    </media:group>
+    <dc:creator>UbuntuHandbook</dc:creator>
+    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2026/09/about-mesa2604-700x492.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/5e3ec685f2f2b58b</id>
     <title>Firefox redesign will arrive in v157 release</title>
@@ -801,21 +816,6 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-phone-scaled.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/80eada46fafafd0f</id>
-    <title>Mesa 26.2.1 Released with A Large Collection of Bug Fixes</title>
-    <updated>2026-08-23T15:11:28+00:00</updated>
-    <content>Mesa 3D graphics library released 26.2.1 version a few days ago, making the new 26.2 release series stable enough for production use. Mesa announced 26.2.0 a few weeks ago with many exciting new features. Now, it’s ready for use by the first 26.2.1 bug fix update. Mesa 26.2.0 is a new development release. People who […]</content>
-    <link href="https://ubuntuhandbook.org/index.php/2026/08/mesa-26-2-1-released-with-a-large-collection-of-bug-fixes/" rel="alternate"/>
-    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
-    <published>2026-08-23T15:11:28+00:00</published>
-    <media:group>
-      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2026/08/OpenCL_RGB_Apr20-700x318.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2026/08/OpenCL_RGB_Apr20-700x318.webp"/>
-    </media:group>
-    <dc:creator>UbuntuHandbook</dc:creator>
-    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2026/08/OpenCL_RGB_Apr20-700x318.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/928ce7e8d2ac9c78</id>

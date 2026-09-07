@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-07T05:10:15.086346+00:00</updated>
+  <updated>2026-09-07T13:00:05.685905+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -28,54 +28,59 @@
     <link rel="enclosure" href="https://pydantic.dev/articles/linguistic-drift-at-the-frontier/og.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2a9f3b6e8801786a</id>
-    <title>vader-hybrid 0.2.0</title>
-    <updated>2026-09-07T05:08:23+00:00</updated>
-    <content>Hybrid VADER + transformer sentiment analysis with speed/accuracy tradeoff control</content>
-    <link href="https://pypi.org/project/vader-hybrid/0.2.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/2283cbe717bd00a6</id>
+    <title>pycti 7.260907.0</title>
+    <updated>2026-09-07T12:47:18+00:00</updated>
+    <content>Python API client for OpenCTI.</content>
+    <link href="https://pypi.org/project/pycti/7.260907.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T05:08:23+00:00</published>
+    <published>2026-09-07T12:47:18+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/67e84f12e45f66e9</id>
-    <title>mGFD 0.12.0</title>
-    <updated>2026-09-07T05:08:00+00:00</updated>
-    <content>mGFD (Meshless Generalized Finite Differences) is a high-performance Python ecosystem designed to solve Partial Differential Equations (PDEs) directly on unstructured point clouds, bypassing traditional mesh generation.</content>
-    <link href="https://pypi.org/project/mgfd/0.12.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/3c6817237edd4a81</id>
+    <title>cuvis-ai-core 0.17.1</title>
+    <updated>2026-09-07T12:46:56+00:00</updated>
+    <content>Cuvis.AI Core Framework</content>
+    <link href="https://pypi.org/project/cuvis-ai-core/0.17.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T05:08:00+00:00</published>
+    <published>2026-09-07T12:46:56+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/72136d24c303ca3d</id>
-    <title>marinholab-papers-tro2022-adaptivecontrol 25.6.0.50</title>
-    <updated>2026-09-07T05:07:58+00:00</updated>
-    <content>A Python implementation of an example of 'Adaptive Constrained Kinematic Control using Partial or Complete Task-Space Measurements'</content>
-    <link href="https://pypi.org/project/marinholab-papers-tro2022-adaptivecontrol/25.6.0.50/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/d63c3df5395814ea</id>
+    <title>battinfoconverter-backend 3.3.0</title>
+    <updated>2026-09-07T12:46:50+00:00</updated>
+    <content>Backend conversion module for BattInfoConverter</content>
+    <link href="https://pypi.org/project/battinfoconverter-backend/3.3.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T05:07:58+00:00</published>
+    <published>2026-09-07T12:46:50+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/1e2488204b5e0fdd</id>
-    <title>ariapin 1.21.0</title>
-    <updated>2026-09-07T05:07:56+00:00</updated>
-    <content>Python client for the ariapin end-side post-training API (LoRA/QLoRA + RL with SFT/DPO/GRPO)</content>
-    <link href="https://pypi.org/project/ariapin/1.21.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/acff067545545afe</id>
+    <title>cdk-preflight 0.0.53</title>
+    <updated>2026-09-07T12:46:39+00:00</updated>
+    <content>Catch deploy-time CloudFormation failures at synth time: a Rego rule pack for constraints that resource schemas miss, injected into the AWS CDK built-in validator</content>
+    <link href="https://pypi.org/project/cdk-preflight/0.0.53/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T05:07:56+00:00</published>
+    <published>2026-09-07T12:46:39+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/c38bd192219012da</id>
-    <title>karcytics-sdk 2.1.2</title>
-    <updated>2026-09-07T05:07:55+00:00</updated>
-    <content>Software Development Kit and CLI for Karcytics.</content>
-    <link href="https://pypi.org/project/karcytics-sdk/2.1.2/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/ed8a2531779bb65d</id>
+    <title>manifest-builder 0.7.11</title>
+    <updated>2026-09-07T12:46:21+00:00</updated>
+    <content>Generate materialized Kubernetes manifests from configuration input</content>
+    <link href="https://pypi.org/project/manifest-builder/0.7.11/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T05:07:55+00:00</published>
+    <published>2026-09-07T12:46:21+00:00</published>
+    <media:group>
+      <media:content url="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://pypi.org/static/images/og-card.00947198.webp" height="630" width="1200"/>
+    </media:group>
     <dc:creator>PyPI Updates</dc:creator>
+    <link rel="enclosure" href="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.docker.com/blog/</id>
   <title>Docker</title>
-  <updated>2026-09-07T05:09:03.544657+00:00</updated>
+  <updated>2026-09-07T12:58:35.672695+00:00</updated>
   <author>
     <name>Docker</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.docker.com/favicon.ico</icon>
   <logo>https://www.docker.com/favicon.ico</logo>
   <subtitle>Combined Docker feed: the Docker Blog and newsroom press releases plus release notes for Docker Desktop, Engine, Hub, Platform, and Hardened Images.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/docker/15de65649b284703</id>
+    <title>Docker Desktop 4.90.0</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>Download Docker Desktop Windows ( checksum ) Windows ARM Early Access ( checksum ) Mac with Apple chip ( checksum ) Mac with Intel chip ( checksum ) Debian - RPM - Arch ( checksum ) Updates Docker Agent v1.128.0 Docker Offload v0.6.15 Docker Desktop CLI v0.4.4 Bug fixes and enhancements For all platforms Ask Gordon is now accessible as a right-side drawer, keeping users in context while chatting with Gordon alongside any page being viewed. A container, image, or volume row with a detected issue </content>
+    <link href="https://docs.docker.com/desktop/release-notes/#4900" rel="alternate"/>
+    <category term="Docker Desktop" label="Docker Desktop"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://docs.docker.com/images/thumbnail.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://docs.docker.com/images/thumbnail.webp"/>
+    </media:group>
+    <dc:creator>Docker Desktop</dc:creator>
+    <link rel="enclosure" href="https://docs.docker.com/images/thumbnail.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/docker/07d6a8e1d657c1c5</id>
     <title>YOLO Mode: Agent Autonomy Without the Guardrails</title>

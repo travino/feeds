@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-07T05:10:20.069635+00:00</updated>
+  <updated>2026-09-07T13:00:13.679379+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/458b319d22de6a16</id>
+    <title>Understanding W8A8 INT8 LLM quantization: Half the size, better performance, same accuracy</title>
+    <updated>2026-09-07T07:01:34+00:00</updated>
+    <content>Large language models are expensive to serve. A model like Llama 3.1 8B in Bfloat16 (BF16) precision occupies roughly 15 GB of GPU memory. In BF16, each of the 8 billion parameters takes 2 bytes to store, which adds up to roughly 15 GB for the weights—and that's not all. The GPU needs memory for the key-value (KV) cache to store context for active requests, alongside intermediate tensor outputs (activations, as we call them) generated during inference. The post Understanding W8A8 INT8 LLM quanti</content>
+    <link href="https://developers.redhat.com/articles/2026/09/07/understanding-w8a8-int8-llm-quantization" rel="alternate"/>
+    <category term="Red Hat Developer" label="Red Hat Developer"/>
+    <published>2026-09-07T07:01:34+00:00</published>
+    <media:group>
+      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Inference-LLMCompressor-1920x1080%20%282%29.png?itok=s49BZ_O_" type="image/png" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Inference-LLMCompressor-1920x1080%20%282%29.png?itok=s49BZ_O_" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Red Hat Developer</dc:creator>
+    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Inference-LLMCompressor-1920x1080%20%282%29.png?itok=s49BZ_O_" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/9e8d70de17c1acb6</id>
+    <title>Red Hat Developer Hub software template authoring with rhdh-templates</title>
+    <updated>2026-09-07T07:01:32+00:00</updated>
+    <content>If you are a platform engineer or developer building Red Hat Developer Hub software templates, you know the friction of wrestling with Nunjucks syntax, guessing location.yaml placements, and discovering errors only after rendering in your developer portal. While AI coding agents handle generic YAML, they lack Red Hat Developer Hub and Backstage-specific conventions. The post Red Hat Developer Hub software template authoring with rhdh-templates appeared first on Red Hat Developer .</content>
+    <link href="https://developers.redhat.com/articles/2026/09/07/red-hat-developer-hub-software-template-authoring-rhdh-templates" rel="alternate"/>
+    <category term="Red Hat Developer" label="Red Hat Developer"/>
+    <published>2026-09-07T07:01:32+00:00</published>
+    <media:group>
+      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/2024_RH_Developer_Hub_Featured_imageV2.jpg?itok=ifSI3bfh" type="image/jpeg" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/2024_RH_Developer_Hub_Featured_imageV2.jpg?itok=ifSI3bfh" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Red Hat Developer</dc:creator>
+    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/2024_RH_Developer_Hub_Featured_imageV2.jpg?itok=ifSI3bfh" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/4f3bdafad3ab1b7e</id>
     <title>Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes</title>
@@ -850,21 +880,6 @@ from the CVE link(s) in the References section.</content>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/blog/2018/05/openshift-featured.png?itok=_wvw4XJq" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/966da46c8f57f289</id>
-    <title>Red Hat OpenShift autoscaling with Cluster Autoscaler</title>
-    <updated>2026-08-25T03:16:19+00:00</updated>
-    <content>There are different solutions for scaling your Red Hat OpenShift compute infrastructure, including: The post Red Hat OpenShift autoscaling with Cluster Autoscaler appeared first on Red Hat Developer .</content>
-    <link href="https://developers.redhat.com/articles/2026/08/25/red-hat-openshift-autoscaling-with-cluster-autoscaler" rel="alternate"/>
-    <category term="Red Hat Developer" label="Red Hat Developer"/>
-    <published>2026-08-25T03:16:19+00:00</published>
-    <media:group>
-      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" type="image/png" medium="image" height="627" width="1200"/>
-      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" height="627" width="1200"/>
-    </media:group>
-    <dc:creator>Red Hat Developer</dc:creator>
-    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/0e9cf3abf15a1115</id>
     <title>Paying it forward: How mentorship comes full circle for early talent</title>
     <updated>2026-08-25T00:00:00+00:00</updated>
@@ -893,21 +908,6 @@ from the CVE link(s) in the References section.</content>
     </media:group>
     <dc:creator>Red Hat Blog</dc:creator>
     <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/a49060364fddb2cd</id>
-    <title>Run LoRA fine-tuning on Red Hat OpenShift AI with Ray</title>
-    <updated>2026-08-24T07:01:02+00:00</updated>
-    <content>Ray has emerged as a leading open source distributed compute framework for scaling enterprise AI workloads. After its donation to the PyTorch Foundation in 2025, adoption accelerated across the industry, and Red Hat OpenShift AI includes prebuilt, fully supported Ray cluster runtime images. The post Run LoRA fine-tuning on Red Hat OpenShift AI with Ray appeared first on Red Hat Developer .</content>
-    <link href="https://developers.redhat.com/articles/2026/08/24/lora-fine-tuning-red-hat-openshift-ai-ray" rel="alternate"/>
-    <category term="Red Hat Developer" label="Red Hat Developer"/>
-    <published>2026-08-24T07:01:02+00:00</published>
-    <media:group>
-      <media:content url="https://developers.redhat.com/sites/default/files/styles/article_floated/public/figure-1_41.png?itok=PSW5jsKY" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/article_floated/public/figure-1_41.png?itok=PSW5jsKY"/>
-    </media:group>
-    <dc:creator>Red Hat Developer</dc:creator>
-    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/article_floated/public/figure-1_41.png?itok=PSW5jsKY" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/344402f9d22fac9a</id>

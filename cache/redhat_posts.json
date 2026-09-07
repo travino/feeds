@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T05:10:20.164302+00:00",
+  "last_updated": "2026-09-07T13:00:13.758623+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -5935,6 +5935,28 @@
       "image_width": 1200,
       "image_height": 627,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/4f3bdafad3ab1b7e"
+    },
+    {
+      "title": "Red Hat Developer Hub software template authoring with rhdh-templates",
+      "link": "https://developers.redhat.com/articles/2026/09/07/red-hat-developer-hub-software-template-authoring-rhdh-templates",
+      "date": "2026-09-07T07:01:32+00:00",
+      "description": "If you are a platform engineer or developer building Red Hat Developer Hub software templates, you know the friction of wrestling with Nunjucks syntax, guessing location.yaml placements, and discovering errors only after rendering in your developer portal. While AI coding agents handle generic YAML, they lack Red Hat Developer Hub and Backstage-specific conventions. The post Red Hat Developer Hub software template authoring with rhdh-templates appeared first on Red Hat Developer .",
+      "source": "Red Hat Developer",
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/2024_RH_Developer_Hub_Featured_imageV2.jpg?itok=ifSI3bfh",
+      "image_width": 1200,
+      "image_height": 627,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/9e8d70de17c1acb6"
+    },
+    {
+      "title": "Understanding W8A8 INT8 LLM quantization: Half the size, better performance, same accuracy",
+      "link": "https://developers.redhat.com/articles/2026/09/07/understanding-w8a8-int8-llm-quantization",
+      "date": "2026-09-07T07:01:34+00:00",
+      "description": "Large language models are expensive to serve. A model like Llama 3.1 8B in Bfloat16 (BF16) precision occupies roughly 15 GB of GPU memory. In BF16, each of the 8 billion parameters takes 2 bytes to store, which adds up to roughly 15 GB for the weights—and that's not all. The GPU needs memory for the key-value (KV) cache to store context for active requests, alongside intermediate tensor outputs (activations, as we call them) generated during inference. The post Understanding W8A8 INT8 LLM quanti",
+      "source": "Red Hat Developer",
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/Inference-LLMCompressor-1920x1080%20%282%29.png?itok=s49BZ_O_",
+      "image_width": 1200,
+      "image_height": 627,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/458b319d22de6a16"
     }
   ]
 }

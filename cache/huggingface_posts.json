@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T05:09:29.332510+00:00",
+  "last_updated": "2026-09-07T12:59:07.566989+00:00",
   "entries": [
     {
       "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
@@ -252,6 +252,15 @@
       "source": "Hugging Face Trending Papers",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2601.02163.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/cf89f1ed99e6f1e3"
+    },
+    {
+      "title": "WideSeek-R1: Exploring Width Scaling for Broad Information Seeking via Multi-Agent Reinforcement Learning",
+      "link": "https://huggingface.co/papers/2602.04634",
+      "date": "2026-02-04T00:00:00+00:00",
+      "description": "Multi-agent systems using reinforcement learning enable parallel information seeking with scalable orchestration, achieving performance comparable to larger single agents.",
+      "source": "Hugging Face Trending Papers",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2602.04634.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/ff6a82eae1dd5f47"
     },
     {
       "title": "HY-WU (Part I): An Extensible Functional Neural Memory Framework and An Instantiation in Text-Guided Image Editing",
@@ -1593,6 +1602,24 @@
       "source": "Hugging Face Posts",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/9babf4556d990556"
+    },
+    {
+      "title": "Today, we planned to release Pebble-50M and Pebble-50M-Chat to the world. Unfortunately, due to a few issues, that didn't go quite as planned.",
+      "link": "https://huggingface.co/posts/Hoglet-33/620130623473492",
+      "date": "2026-09-07T12:59:06.360915+00:00",
+      "description": "Today, we planned to release Pebble-50M and Pebble-50M-Chat to the world. Unfortunately, due to a few issues, that didn't go quite as planned. What happened: - Some data and benchmark results were lost or corrupted - The models performed worse on benchmarks than our other Pebble models Despite that, you can still find both models here: Pebble-50M-beta: basically-experimental/Pebble-50M-beta Pebble-50M-Chat-beta: basically-experimental/Pebble-50M-Chat-beta There are still some interesting improvements in these models: - Compatible with non-CUDA devices - Vocabulary increased to 16K tokens - Context length increased to 16K tokens For now, there won't be any more Pebble releases for a while. We",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Hoglet-33/620130623473492.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/52ad65f62f551a31"
+    },
+    {
+      "title": "Dude, Where's My Update? I'll tell you where! ~97.6% of my BF16 parameter coordinates didn't move at all, and the ones that did overshot by ~1.33x.",
+      "link": "https://huggingface.co/posts/juiceb0xc0de/625815479584297",
+      "date": "2026-09-07T12:59:06.360915+00:00",
+      "description": "Dude, Where's My Update? I'll tell you where! ~97.6% of my BF16 parameter coordinates didn't move at all, and the ones that did overshot by ~1.33x. It's nice to do research that doesn't end in disproving yourself once again and moving on to the next subject once in awhile. Back to the topic, if you've ever wondered why most of your weights are basically ghosting you nearly every step when you store your weights at bf16, Dude, I Measured It. https://huggingface.co/blog/juiceb0xc0de/intended-and-realized-updates-in-bf16-fine-tuning#dude-wheres-my-update",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/665425bdf0c8c891ca472d94/Y1WmRO0hytW6hqTAKhqwF.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/98adc95e5618f0ab"
     }
   ]
 }
