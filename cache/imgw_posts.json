@@ -1,16 +1,6 @@
 {
-  "last_updated": "2026-09-06T23:18:34.469781+00:00",
+  "last_updated": "2026-09-07T00:18:12.540101+00:00",
   "entries": [
-    {
-      "guid": "urn:imgw:warnmeteo:Sk20260809095307175",
-      "kind": "warning",
-      "title": "⚠️ Ostrzeżenie meteo 1. stopnia: Upał",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningsmeteo",
-      "description": "<p><strong>Upał</strong> — ostrzeżenie 1. stopnia, prawdopodobieństwo 85%</p><p>Obowiązuje od 2026-08-10 11:00:00 do 2026-08-10 20:00:00</p><p>Prognozuje się upał. Temperatura maksymalna wyniesie od 30°C do 33°C.</p><p><em>Brak.</em></p><p>Centralne Biuro Prognoz Meteorologicznych w Warszawie</p>",
-      "date": "2026-08-09T11:53:00+02:00",
-      "updated": "2026-08-09T11:07:58.054630+00:00",
-      "summary_hash": "9446fe7ae1b00c4a5d11a71c3012ba93d7ca9bfd"
-    },
     {
       "guid": "urn:imgw:synop:12566:2026-08-10",
       "kind": "synop",
@@ -3294,32 +3284,53 @@
     {
       "guid": "urn:imgw:hydro:150190260:2026-09-06",
       "kind": "hydro",
-      "title": "Smolice (Wisła) — stan wody 126 cm (06.09 22:50)",
+      "title": "Smolice (Wisła) — stan wody 126 cm (06.09 23:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 126 cm (06.09 22:50)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 126 cm (06.09 23:50)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T23:18:22.933370+00:00",
-      "summary_hash": "f5b11cf5ac54135c521769c4a543161b49be5ff2"
+      "updated": "2026-09-07T00:18:04.719741+00:00",
+      "summary_hash": "aec528d02dc9226c99b050019a6c32ee263b4fbe"
     },
     {
       "guid": "urn:imgw:hydro:150190180:2026-09-06",
       "kind": "hydro",
-      "title": "Jeleń (Przemsza) — stan wody 131 cm (06.09 22:50)",
+      "title": "Jeleń (Przemsza) — stan wody 131 cm (06.09 23:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 131 cm (06.09 22:50)</li><li>Przepływ: 7.82 m³/s (06.09 22:50)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 131 cm (06.09 23:50)</li><li>Przepływ: 7.82 m³/s (06.09 23:50)</li></ul>",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T23:18:22.933457+00:00",
-      "summary_hash": "79532c929a53bbd4608160460f6291f34559a75e"
+      "updated": "2026-09-07T00:18:04.719839+00:00",
+      "summary_hash": "4767c07c2cfba2aa21e05caea9740ba678fda00f"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-09-06",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 06.09: opad (10 min) 0 mm (23:00)",
+      "title": "Chrzanów — telemetria 06.09: opad (10 min) 0 mm (23:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (23:00)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (23:50)</li></ul>",
       "date": "2026-09-06T00:00:00+02:00",
-      "updated": "2026-09-06T23:18:24.584801+00:00",
-      "summary_hash": "c735024d58854649f0636e6ed4dbf80f952ffe99"
+      "updated": "2026-09-07T00:18:05.069134+00:00",
+      "summary_hash": "5b3ddb4501e65db0ad7df18bcb1068a41aae1777"
+    },
+    {
+      "guid": "urn:imgw:synop:12566:2026-09-07",
+      "kind": "synop",
+      "station": "Kraków",
+      "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
+      "date": "2026-09-07T00:00:00+02:00",
+      "updated": "2026-09-07T00:18:03.750043+00:00",
+      "readings": {
+        "00": {
+          "temperatura": "7.3",
+          "predkosc_wiatru": "2",
+          "kierunek_wiatru": "40",
+          "wilgotnosc_wzgledna": "93.9",
+          "suma_opadu": "0.7",
+          "cisnienie": "1028.8"
+        }
+      },
+      "title": "Kraków — obserwacje 07.09: 7.3°C, opad 0.7 mm (godz. 00)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>7.3°C</td><td>2 m/s / 40°</td><td>93.9%</td><td>0.7 mm</td><td>1028.8 hPa</td></tr></table>",
+      "summary_hash": "e3c7ad511b98fdf9ff276c426eeeb5caee4079af"
     }
   ]
 }

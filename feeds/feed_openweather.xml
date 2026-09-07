@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>urn:openweather:chrzanów-pl</id>
   <title>OpenWeather</title>
-  <updated>2026-09-06T23:19:03.961554+00:00</updated>
+  <updated>2026-09-07T00:18:41.404348+00:00</updated>
   <author>
     <name>OpenWeather</name>
     <uri>https://openweathermap.org/</uri>
@@ -13,6 +13,22 @@
   <icon>https://openweathermap.org/favicon.ico</icon>
   <logo>https://openweathermap.org/favicon.ico</logo>
   <subtitle>Daily forecast aggregated from OpenWeather's 5-day/3-hour data</subtitle>
+  <entry>
+    <id>urn:openweather:chrzanów-pl:2026-09-12</id>
+    <title>Chrzanów, PL: Sat 12 Sep — Overcast clouds, 14–14°C</title>
+    <updated>2026-09-07T00:18:41.402448+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Overcast clouds&lt;/strong&gt; · High 14°C · Low 14°C&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
+&lt;li&gt;Feels like (midday): 13°C&lt;/li&gt;
+&lt;li&gt;Wind: up to 0.4 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 55%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Partial day (forecast window does not cover all hours).&lt;/em&gt;&lt;/p&gt;</content>
+    <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
+    <category term="weather"/>
+    <published>2026-09-12T00:00:00+02:00</published>
+  </entry>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-09-11</id>
     <title>Chrzanów, PL: Fri 11 Sep — Clear sky, 10–22°C</title>
@@ -79,13 +95,13 @@
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-09-07</id>
     <title>Chrzanów, PL: Mon 07 Sep — Overcast clouds, 9–23°C</title>
-    <updated>2026-09-06T23:19:03.959229+00:00</updated>
+    <updated>2026-09-07T00:18:41.402232+00:00</updated>
     <content type="html">&lt;p&gt;&lt;strong&gt;Overcast clouds&lt;/strong&gt; · High 23°C · Low 9°C&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
 &lt;li&gt;Feels like (midday): 22°C&lt;/li&gt;
 &lt;li&gt;Wind: up to 2.0 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 54%&lt;/li&gt;
+&lt;li&gt;Humidity: 50%&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
     <category term="weather"/>
@@ -643,21 +659,5 @@
     <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
     <category term="weather"/>
     <published>2026-08-04T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>urn:openweather:chrzanów-pl:2026-08-03</id>
-    <title>Chrzanów, PL: Mon 03 Aug — Clear sky, 27–27°C</title>
-    <updated>2026-08-03T20:22:53.517487+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Clear sky&lt;/strong&gt; · High 27°C · Low 27°C&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
-&lt;li&gt;Feels like (midday): 27°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 2.8 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 67%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Partial day (forecast window does not cover all hours).&lt;/em&gt;&lt;/p&gt;</content>
-    <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
-    <category term="weather"/>
-    <published>2026-08-03T00:00:00+02:00</published>
   </entry>
 </feed>

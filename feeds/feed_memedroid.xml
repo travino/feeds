@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.memedroid.com/</id>
   <title>Memedroid</title>
-  <updated>2026-09-06T23:18:47.453210+00:00</updated>
+  <updated>2026-09-07T00:18:24.626688+00:00</updated>
   <author>
     <name>Memedroid</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.memedroid.com/favicon.ico</icon>
   <logo>https://www.memedroid.com/favicon.ico</logo>
   <subtitle>Trending memes from memedroid.com (no native feed; scraped from the server-rendered homepage).</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/memedroid/5dcacf59011b6bf3</id>
+    <title>Don't</title>
+    <updated>2026-09-06T19:24:02+00:00</updated>
+    <content>&lt;p&gt;&lt;a href="https://www.memedroid.com/memes/detail/4726346/Dont"&gt;&lt;img src="https://memes.memedroid.com/images/2026-09-06/6a9dded43e816.jpeg" alt="Don't" /&gt;&lt;/a&gt;&lt;/p&gt;</content>
+    <link href="https://www.memedroid.com/memes/detail/4726346/Dont" rel="alternate"/>
+    <category term="Memedroid" label="Memedroid"/>
+    <published>2026-09-06T19:24:02+00:00</published>
+    <media:group>
+      <media:content url="https://memes.memedroid.com/images/2026-09-06/6a9dded43e816.jpeg" type="image/jpeg" medium="image" height="2000" width="899"/>
+      <media:thumbnail url="https://memes.memedroid.com/images/2026-09-06/6a9dded43e816.jpeg" height="2000" width="899"/>
+    </media:group>
+    <dc:creator>Memedroid</dc:creator>
+    <link rel="enclosure" href="https://memes.memedroid.com/images/2026-09-06/6a9dded43e816.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/memedroid/b3b00f31af1f0a7d</id>
     <title>That's a Guinness World Record!</title>
@@ -2246,20 +2261,5 @@
     </media:group>
     <dc:creator>Memedroid</dc:creator>
     <link rel="enclosure" href="https://memes.memedroid.com/images/2026-09-02/6a981402e361d.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/memedroid/340c285f8aec0d96</id>
-    <title>Dog rescue legends</title>
-    <updated>2026-09-02T08:33:01+00:00</updated>
-    <content>Dog rescue legends</content>
-    <link href="https://www.memedroid.com/memes/detail/4725492/Dog-rescue-legends" rel="alternate"/>
-    <category term="Memedroid" label="Memedroid"/>
-    <published>2026-09-02T08:33:01+00:00</published>
-    <media:group>
-      <media:content url="https://memes.memedroid.com/videos/2026-09-02/6a97c97d12a57.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://memes.memedroid.com/videos/2026-09-02/6a97c97d12a57.jpeg"/>
-    </media:group>
-    <dc:creator>Memedroid</dc:creator>
-    <link rel="enclosure" href="https://memes.memedroid.com/videos/2026-09-02/6a97c97d12a57.jpeg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

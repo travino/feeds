@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>urn:imgw:danepubliczne</id>
   <title>IMGW</title>
-  <updated>2026-09-06T23:18:34.473238+00:00</updated>
+  <updated>2026-09-07T00:18:12.543305+00:00</updated>
   <author>
     <name>IMGW-PIB</name>
     <uri>https://danepubliczne.imgw.pl/</uri>
@@ -14,28 +14,37 @@
   <logo>https://danepubliczne.imgw.pl/favicon.ico</logo>
   <subtitle>Obserwacje synoptyczne, stany wód, telemetria oraz ostrzeżenia meteo i hydro z danepubliczne.imgw.pl</subtitle>
   <entry>
+    <id>urn:imgw:synop:12566:2026-09-07</id>
+    <title>Kraków — obserwacje 07.09: 7.3°C, opad 0.7 mm (godz. 00)</title>
+    <updated>2026-09-07T00:18:03.750043+00:00</updated>
+    <content type="html">&lt;p&gt;Obserwacje synoptyczne IMGW — stacja &lt;strong&gt;Kraków&lt;/strong&gt; (12566)&lt;/p&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;Godz.&lt;/th&gt;&lt;th&gt;Temp.&lt;/th&gt;&lt;th&gt;Wiatr&lt;/th&gt;&lt;th&gt;Wilg.&lt;/th&gt;&lt;th&gt;Opad&lt;/th&gt;&lt;th&gt;Ciśn.&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;00:00&lt;/td&gt;&lt;td&gt;7.3°C&lt;/td&gt;&lt;td&gt;2 m/s / 40°&lt;/td&gt;&lt;td&gt;93.9%&lt;/td&gt;&lt;td&gt;0.7 mm&lt;/td&gt;&lt;td&gt;1028.8 hPa&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</content>
+    <link href="https://danepubliczne.imgw.pl/api/data/synop/id/12566" rel="alternate"/>
+    <category term="synop"/>
+    <published>2026-09-07T00:00:00+02:00</published>
+  </entry>
+  <entry>
     <id>urn:imgw:meteo:250190790:2026-09-06</id>
-    <title>Chrzanów — telemetria 06.09: opad (10 min) 0 mm (23:00)</title>
-    <updated>2026-09-06T23:18:24.584801+00:00</updated>
-    <content type="html">&lt;p&gt;Telemetria IMGW — stacja &lt;strong&gt;Chrzanów&lt;/strong&gt; (250190790)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opad (10 min): 0 mm (23:00)&lt;/li&gt;&lt;/ul&gt;</content>
+    <title>Chrzanów — telemetria 06.09: opad (10 min) 0 mm (23:50)</title>
+    <updated>2026-09-07T00:18:05.069134+00:00</updated>
+    <content type="html">&lt;p&gt;Telemetria IMGW — stacja &lt;strong&gt;Chrzanów&lt;/strong&gt; (250190790)&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Opad (10 min): 0 mm (23:50)&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/meteo" rel="alternate"/>
     <category term="meteo"/>
     <published>2026-09-06T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:imgw:hydro:150190180:2026-09-06</id>
-    <title>Jeleń (Przemsza) — stan wody 131 cm (06.09 22:50)</title>
-    <updated>2026-09-06T23:18:22.933457+00:00</updated>
-    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Jeleń&lt;/strong&gt;, rzeka Przemsza, woj. śląskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 131 cm (06.09 22:50)&lt;/li&gt;&lt;li&gt;Przepływ: 7.82 m³/s (06.09 22:50)&lt;/li&gt;&lt;/ul&gt;</content>
+    <title>Jeleń (Przemsza) — stan wody 131 cm (06.09 23:50)</title>
+    <updated>2026-09-07T00:18:04.719839+00:00</updated>
+    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Jeleń&lt;/strong&gt;, rzeka Przemsza, woj. śląskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 131 cm (06.09 23:50)&lt;/li&gt;&lt;li&gt;Przepływ: 7.82 m³/s (06.09 23:50)&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/hydro" rel="alternate"/>
     <category term="hydro"/>
     <published>2026-09-06T00:00:00+02:00</published>
   </entry>
   <entry>
     <id>urn:imgw:hydro:150190260:2026-09-06</id>
-    <title>Smolice (Wisła) — stan wody 126 cm (06.09 22:50)</title>
-    <updated>2026-09-06T23:18:22.933370+00:00</updated>
-    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Smolice&lt;/strong&gt;, rzeka Wisła, woj. małopolskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 126 cm (06.09 22:50)&lt;/li&gt;&lt;li&gt;Przepływ: 247 m³/s (29.07 23:30)&lt;/li&gt;&lt;/ul&gt;</content>
+    <title>Smolice (Wisła) — stan wody 126 cm (06.09 23:50)</title>
+    <updated>2026-09-07T00:18:04.719741+00:00</updated>
+    <content type="html">&lt;p&gt;Wodowskaz &lt;strong&gt;Smolice&lt;/strong&gt;, rzeka Wisła, woj. małopolskie&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stan wody: 126 cm (06.09 23:50)&lt;/li&gt;&lt;li&gt;Przepływ: 247 m³/s (29.07 23:30)&lt;/li&gt;&lt;/ul&gt;</content>
     <link href="https://danepubliczne.imgw.pl/api/data/hydro" rel="alternate"/>
     <category term="hydro"/>
     <published>2026-09-06T00:00:00+02:00</published>
@@ -1357,14 +1366,5 @@
     <link href="https://danepubliczne.imgw.pl/api/data/synop/id/12566" rel="alternate"/>
     <category term="synop"/>
     <published>2026-08-10T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>urn:imgw:warnmeteo:Sk20260809095307175</id>
-    <title>⚠️ Ostrzeżenie meteo 1. stopnia: Upał</title>
-    <updated>2026-08-09T11:07:58.054630+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Upał&lt;/strong&gt; — ostrzeżenie 1. stopnia, prawdopodobieństwo 85%&lt;/p&gt;&lt;p&gt;Obowiązuje od 2026-08-10 11:00:00 do 2026-08-10 20:00:00&lt;/p&gt;&lt;p&gt;Prognozuje się upał. Temperatura maksymalna wyniesie od 30°C do 33°C.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Brak.&lt;/em&gt;&lt;/p&gt;&lt;p&gt;Centralne Biuro Prognoz Meteorologicznych w Warszawie&lt;/p&gt;</content>
-    <link href="https://danepubliczne.imgw.pl/api/data/warningsmeteo" rel="alternate"/>
-    <category term="warning"/>
-    <published>2026-08-09T11:53:00+02:00</published>
   </entry>
 </feed>

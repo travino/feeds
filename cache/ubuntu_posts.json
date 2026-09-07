@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T23:20:22.880380+00:00",
+  "last_updated": "2026-09-07T00:19:24.693182+00:00",
   "entries": [
     {
       "title": "Ubuntu Studio 24.04.3 LTS Released",
@@ -1043,7 +1043,7 @@
       "date": "2026-08-27T15:33:24+00:00",
       "description": "AI-powered voice typing is coming to Ubuntu in Myna, a speech-to-text feature that lets you talk into any valid text field. It’s still a work in progress, but I grabbed an early build to see how it’s shaping up. With Ubuntu 26.10 now entering its freeze, the user-facing pieces of myna are falling in to place. This week, a new GNOME Shell extension was added to default installs to provide an on-screen indicator when myna is listening and recording. To be clear: Myna is not a GNOME Shell extension",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/myna-dictation-osd.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/08/myna-dictation-osd-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/1be83a0665c73a14"
     },
     {
@@ -1052,7 +1052,7 @@
       "date": "2026-08-27T22:50:37+00:00",
       "description": "If you’ve installed Chromium or Google Chrome as a Flatpak, you’ve installed an unofficial, community-maintained package done independently of the search giant – that could be about to change. Chromium’s build system is now able to generate Flatpak packages of the browser itself, though its developers caution that the change does not mean official Flatpak support is coming. A commit made by Google’s Tom Anderson this week adds the necessary packaging scripts and a build flag (enable_flatpak) to ",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/google-chromium-flatpak.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/08/google-chromium-flatpak-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/4d5e1c1346d378c2"
     },
     {
@@ -1061,7 +1061,7 @@
       "date": "2026-08-27T23:06:40+00:00",
       "description": "Ubuntu 26.04.1 LTS downloads are out. The first point release to the 'Resolute Raccoon' sees an ISO refresh with fixes, like disk encryption PIN skipping. You're reading Ubuntu 26.04.1 LTS is now available to download , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/03/ubuntu-2604-hero-2.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/03/ubuntu-2604-hero-2-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/aec175e776dfed8b"
     },
     {
@@ -1107,7 +1107,7 @@
       "date": "2026-08-28T22:59:40+00:00",
       "description": "Calibre, the open-source ebook manager, now lets you generate AI ebook covers for content in your library, using genre prompts or custom ones. You're reading Calibre ebook manager lets you generate AI book covers , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2023/12/calibre-ebook-manager-app.jpg?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2023/12/calibre-ebook-manager-app-406x232.jpg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/7e59e54eca3fadb3"
     },
     {
@@ -1143,7 +1143,7 @@
       "date": "2026-08-30T22:39:47+00:00",
       "description": "OpenShot 4.0 sees the open-source video editor add colour grading tools, a recording dock for audio and screen capture and new AI effects. You're reading OpenShot 4.0 adds colour grading, recording dock and Qt 6 support , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/openshot-4.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/08/openshot-4-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/506bda43464b2dae"
     },
     {
@@ -1188,7 +1188,7 @@
       "date": "2026-08-31T14:33:00+00:00",
       "description": "If you’re wondering why you can’t do a directly upgrade to Ubuntu 26.04 from 24.04 yet, despite the Resolute Raccoon’s first point release being live, there is a reason. Canonical’s Oliver Reiche said in the mailing list announcement for Ubuntu 26.04.1 LTS that upgrades will be delayed by a few weeks to allow couple of backports to land. These will “address regressions in a recent version of rust-coreutils”. Users on Ubuntu 25.10 are not affected by this; upgrades from 25.10 went live in April. ",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/04/upgrade-ubuntu-2604.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/04/upgrade-ubuntu-2604-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/a262431a4a9d2675"
     },
     {
@@ -1206,7 +1206,7 @@
       "date": "2026-08-31T22:25:00+00:00",
       "description": "Getting is planning to ‘sunset’ IRC as an official support method, and some long-time users aren’t happy. The recently Ubuntu 26.04.1 LTS release announcement didn’t include a link to the Ubuntu Support IRC channel under its “if you have a question” section – though, from looking, the last announcement to list IRC was the one for Ubuntu 24.10). That led to questions on if the Ubuntu support IRC channel is still an official community support option (the Help app in Ubuntu 26.04 still has links to",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-basic-irc.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-basic-irc-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/72ca0c23e2750bd5"
     },
     {
@@ -1215,7 +1215,7 @@
       "date": "2026-09-01T02:34:22+00:00",
       "description": "Mozilla Firefox 155 is released, making Smart Window available in USA, Canada & France. Plus, blocked tracker counts, container reordering and Linux fixes. You're reading Firefox 155 brings AI-powered Smart Window to more countries , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/09/firefox-155-release.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/firefox-155-release-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/746aa964b2e60ce5"
     },
     {
@@ -1260,7 +1260,7 @@
       "date": "2026-09-01T22:18:27+00:00",
       "description": "August saw a number of slew of notable Linux app updates, and in this post I roundup a few that might have passed you by. But unless you’ve been sleeping under a rock you’ll have already heard about Firefox 153, the big OpenShot 4.0 release with colour grading and the latest update to the ebook manager Calibre letting you generate new book covers using online generative AI. August also saw the Mastodon client Tuba pick up a stack of new features and LibreOffice 26.8 debuted a new paragraph compo",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/09/linux-release-roundup-august-2026.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/linux-release-roundup-august-2026-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/8645385e6b5bb2e2"
     },
     {
@@ -1287,7 +1287,7 @@
       "date": "2026-09-02T15:15:46+00:00",
       "description": "LibreOffice 26.8 was download more than 1 million times in its first week of release, which The Document Foundation say is the highest first-week figure of any release of the free office suite. Released on 26 August, LibreOffice 26.8 saw 1,031,162 downloads from the official website, which provides installers for Windows, macOS and Linux, during the first seven days. As many Linux users update via other sources, like the Snap Store, Flathub and PPAs, the real figure will be even higher than that",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/08/libreoffice-hero.jpg?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/08/libreoffice-hero-406x232.jpg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/d014c96c46f679bb"
     },
     {
@@ -1306,7 +1306,7 @@
       "date": "2026-09-02T18:08:36+00:00",
       "description": "Arduino's VENTUNO Q went up for pre-order priced from $299. The development board runs Ubuntu 24.04 LTS is built around Qualcomm's Dragonwing IQ8 platform. You're reading Arduino’s Ubuntu-powered $299 edge AI board just sold out , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/09/Arduino-VENTUNO-Q.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/Arduino-VENTUNO-Q-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/8e45504aaf9c1979"
     },
     {
@@ -1324,7 +1324,7 @@
       "date": "2026-09-03T14:52:11+00:00",
       "description": "Audacity 4.0 has been released with a new Qt user interface, a new clip editing model and project file format – as well as a swathe of smaller improvements. The Qt port of Audacity is more than a superficial – some would say much-needed – facelift, as the toolkit switch brings native HDPI scaling, light and dark mode support and is able to follow system accent colours in its UI. A new app logo compliment the refresh. Customising Audacity’s interface is now possible. Toolbars and panels can be mo",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/06/audacity-new-logo-1.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/06/audacity-new-logo-1-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/f9c99262c84343fe"
     },
     {
@@ -1333,7 +1333,7 @@
       "date": "2026-09-03T22:46:26+00:00",
       "description": "Vivaldi 8.2 rolled out today (3 September 2026) and lets you do quick and private math calculations directly in the address bar. This may prove useful when you don’t want to open to a new tab or a calculator app. I’ve often narrowed my eyes at an online checkout page after applying a coupon code (don’t judge), muttering “that can’t be right”. A quick number crunch later and, of course, it always is. You can click to copy the the result to your system clipboard, ready to paste elsewhere. Previous",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2025/05/vivaldi-logo.jpg?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2025/05/vivaldi-logo-406x232.jpg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/0d9e0f76eb3c56d6"
     },
     {
@@ -1342,7 +1342,7 @@
       "date": "2026-09-03T23:24:32+00:00",
       "description": "The third, and potentially final, monthly snapshot of Ubuntu 26.10 is available for download. There were no monthly snapshots of the ‘Stonking Stingray’ in August or July – no reason has been given – and the Ubuntu 26.10 beta release is scheduled for release on 24 September. Thus, this could be the final snapshot of the, though Canonical’s Utkarsh Gupta says that a “surprise snapshot to test some changes to our machinery” might appear. Ubuntu’s monthly snapshots are strictly for testing. They ar",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/04/ubuntu-2610-date.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/04/ubuntu-2610-date-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/1ffa5f088067c84a"
     },
     {
@@ -1361,7 +1361,7 @@
       "date": "2026-09-04T14:31:00+00:00",
       "description": "Firmware updates on Ubuntu 24.04 LTS have got smaller, as Canonical has backported the split Linux firmware packages it introduced in 26.04. To make the change in noble, the linux-firmware package is now a meta-package that pulls in all of the individual firmware packages. Functionally, nothing changes; all installs get the full whack. The binary blobs the distro uses are now split across 18 vendor-specific sub-packages: Some non-default firmware was already available to install as a sub-package",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/09/ubuntu-firmware.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/ubuntu-firmware-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/cdac0f9afa97603e"
     },
     {
@@ -1379,7 +1379,7 @@
       "date": "2026-09-06T01:22:59+00:00",
       "description": "Sushi, the spacebar preview utility for Nautilus file manager, has been ported to GTK4 for GNOME 51. For anyone unfamiliar with it, Sushi is like Quick Look on macOS: you highlight a file (image, music, video, document, etc) in Nautilus, press the spacebar and an instant preview of its content appears. Press the spacebar again to dismiss it. For v51, Sushi’s GTK4 port means it looks nicer on newer GNOME releases. There’s a flatter headerbar, and overlay controls on certain file types (like media",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/09/sushi-file-preview-image.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/sushi-file-preview-image-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/33f36eaa160e7d34"
     },
     {
@@ -1395,9 +1395,9 @@
       "title": "Firefox’s big redesign rolls out in late September",
       "link": "https://www.omgubuntu.co.uk/2026/09/firefox-nova-redesign-coming-september",
       "date": "2026-09-06T22:45:03+00:00",
-      "description": "Firefox’s new ‘Nova’ redesign will be enabled for all users in Firefox 157, due the end of September – barring any last minute hiccups, of course. Mozilla’s engineers have been working on Nova since March. The original pitch was for rounded UI elements, floating toolbars, framed web content no longer flush with the edges of the browser window and, more strikingly, a lot of pastel gradients. Those changes have been refined and dialled down during the past few months. Roundness was lightly reigned",
+      "description": "Firefox’s new ‘Nova’ redesign will be enabled for all users in Firefox 157, due the end of September – barring any last minute hiccups, of course. Mozilla’s engineers have been working on Nova since March. The original pitch was for rounded UI elements, floating toolbars, framed web content no longer flush with the edges of the browser window and, more strikingly, a lot of pastel gradients. Those changes have been refined and dialled down during the past few months, as you can see in this compar",
       "source": "OMG! Ubuntu",
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/07/firefox-logo-blur.webp?resize=406%2C232&ssl=1",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/07/firefox-logo-blur-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/5e3ec685f2f2b58b"
     }
   ]
