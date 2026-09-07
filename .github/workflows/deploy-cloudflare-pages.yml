@@ -65,6 +65,7 @@ jobs:
         working-directory: .
         run: |
           uv run --locked site/build_site.py
+          uv run --locked site/build_search_index.py
           uv run --locked site/make_favicon.py
 
       - name: Deploy to Cloudflare Pages

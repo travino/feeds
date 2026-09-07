@@ -1,0 +1,116 @@
+{
+  "$schema": "https://developers.openai.com/plugins/schemas/chatgpt-app-submission.v1.json",
+  "schema_version": 1,
+  "app_info": {
+    "display_name": "Feedseek",
+    "subtitle": "Search fresh feed news",
+    "description": "Feedseek helps ChatGPT search recent entries from its public RSS, Atom, and JSON Feed collection, retrieve full entry details, and gather compact time-bounded candidates for news digests.",
+    "category": "NEWS"
+  },
+  "tools": {
+    "search": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Search only reads Feedseek's published recent-entry index and does not change any external state.",
+        "open_world_justification": "Search retrieves public feed data but never publishes, posts, sends, or modifies internet state.",
+        "destructive_justification": "Search cannot delete, overwrite, revoke, or otherwise alter data."
+      }
+    },
+    "fetch": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Fetch retrieves one published JSON Feed entry by the opaque id returned by Feedseek search tools.",
+        "open_world_justification": "Fetch reads an existing public feed entry and performs no writes to external systems.",
+        "destructive_justification": "Fetch has no capability to delete, overwrite, revoke, send, or mutate anything."
+      }
+    },
+    "recent": {
+      "annotations": {
+        "readOnlyHint": true,
+        "openWorldHint": false,
+        "destructiveHint": false
+      },
+      "justifications": {
+        "read_only_justification": "Recent only filters and returns compact entries from Feedseek's published recent-entry index.",
+        "open_world_justification": "Recent reads public feed data without publishing or changing any third-party system.",
+        "destructive_justification": "Recent cannot delete, overwrite, revoke, or otherwise mutate data."
+      }
+    }
+  },
+  "test_cases": [
+    {
+      "description": "Get compact candidates for a recent AI news digest.",
+      "user_prompt": "Show me the most important AI items Feedseek collected in the last 48 hours.",
+      "file_attachment_urls": null,
+      "tools_triggered": "recent",
+      "expected_output": "Returns recent Feedseek entries with source, date, summary, canonical URL, and result id for deeper follow-up.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Filter a digest to one Feedseek source.",
+      "user_prompt": "What has OpenAI published recently in Feedseek?",
+      "file_attachment_urls": null,
+      "tools_triggered": "recent",
+      "expected_output": "Returns recent entries filtered to the relevant Feedseek source rather than unrelated feeds.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Search the Feedseek corpus by topic.",
+      "user_prompt": "Search Feedseek for Cloudflare Workers.",
+      "file_attachment_urls": null,
+      "tools_triggered": "search",
+      "expected_output": "Returns citation-ready matching results with id, title, and canonical URL.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Search and retrieve the full selected feed entry.",
+      "user_prompt": "Find the newest Feedseek item about Audacity, then give me the full entry details.",
+      "file_attachment_urls": null,
+      "tools_triggered": "search, fetch",
+      "expected_output": "Searches for a matching result and then retrieves its full text and source metadata using the returned id.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Handle a topic with no matching recent entries.",
+      "user_prompt": "Search Feedseek for an extremely unlikely phrase: cobalt-lobster-xyzzy-9472.",
+      "file_attachment_urls": null,
+      "tools_triggered": "search",
+      "expected_output": "Returns an empty results list without inventing entries or failing the MCP session.",
+      "expected_output_url": null
+    }
+  ],
+  "negative_test_cases": [
+    {
+      "description": "Do not use Feedseek to send communications.",
+      "user_prompt": "Send an email to my coworker about tomorrow's meeting.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked because Feedseek only reads public feed data and cannot send messages.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not use Feedseek as a live weather service.",
+      "user_prompt": "What is the temperature outside right now?",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked for live current weather because its purpose is feed discovery and news digests.",
+      "expected_output_url": null
+    },
+    {
+      "description": "Do not use Feedseek for unrelated local business discovery.",
+      "user_prompt": "Find a good sushi restaurant near me tonight.",
+      "file_attachment_urls": null,
+      "tools_triggered": null,
+      "expected_output": "The app should not be invoked because local restaurant search is outside Feedseek's feed-news workflows.",
+      "expected_output_url": null
+    }
+  ]
+}
