@@ -255,16 +255,19 @@ function latestTime(published, modified) {
 /** @param {IndexItem} item @param {string[]} words */
 function scoreItem(item, words) {
   if (!words.length) return 1;
-  const title = normalize(item.title);
-  const source = normalize(`${item.source_key} ${item.source}`);
-  const tags = normalize((item.tags || []).join(" "));
-  const summary = normalize(item.summary);
+  const termSet = (value) => new Set(
+    normalize(value).split(/[^\p{L}\p{N}+#.-]+/u).filter(Boolean),
+  );
+  const title = termSet(item.title);
+  const source = termSet(`${item.source_key} ${item.source}`);
+  const tags = termSet((item.tags || []).join(" "));
+  const summary = termSet(item.summary);
   let score = 0;
   for (const word of words) {
-    if (title.includes(word)) score += 8;
-    if (source.includes(word)) score += 5;
-    if (tags.includes(word)) score += 3;
-    if (summary.includes(word)) score += 1;
+    if (title.has(word)) score += 8;
+    if (source.has(word)) score += 5;
+    if (tags.has(word)) score += 3;
+    if (summary.has(word)) score += 1;
   }
   return score;
 }
@@ -489,7 +492,7 @@ async function fetchEntry(args = {}) {
   if (!url) throw new Error("Feedseek entry has no citation URL");
   let text = "";
   if (typeof item.content_text === "string" && item.content_text.trim()) {
-    text = item.content_text.replace(/\s+/g, " ").trim();
+    text = item.content_text.replace(/\r\n?/g, "\n").trim();
   } else if (typeof item.content_html === "string" && item.content_html.trim()) {
     text = htmlToText(item.content_html);
   } else if (typeof item.summary === "string") {
