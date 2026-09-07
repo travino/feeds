@@ -114,6 +114,9 @@ def main(full=False):
         max_entries=200,
         language="zh-CN",
         full=full,
+        # A term can trend again on a later day. Its dated link fragment is the
+        # durable identity, so title dedupe must not suppress the newer entry.
+        dedupe_title_field=None,
     )
 
 
