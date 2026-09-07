@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "feeds-proxy",
   "account_id": "d29db89a330417194726eb69450a4668",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "compatibility_date": "2026-07-14",
   "preview_urls": false,
   "cache": {
