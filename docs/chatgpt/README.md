@@ -65,7 +65,7 @@ display, while literal angle-bracket text in `content_text` is preserved.
 - The existing constrained fetch proxy remains unchanged; `/mcp` is routed separately.
 - The public app policy is maintained in [`PRIVACY.md`](PRIVACY.md); service terms are in
   [`TERMS.md`](TERMS.md), and user-facing support information is in
-  [`SUPPORT.md`](SUPPORT.md).
+  [`../SUPPORT.md`](../SUPPORT.md).
 
 ## ChatGPT testing and installation
 
@@ -96,7 +96,7 @@ Use these values when filling the current OpenAI submission form:
 | Authentication | None; public read-only data |
 | Homepage | `https://trvny.github.io/feedseek/` |
 | Source | `https://github.com/trvny/feedseek` |
-| Support | `https://github.com/trvny/feedseek/blob/main/docs/chatgpt/SUPPORT.md` |
+| Support | `https://github.com/trvny/feedseek/blob/main/docs/SUPPORT.md` |
 | Privacy policy | `https://github.com/trvny/feedseek/blob/main/docs/chatgpt/PRIVACY.md` |
 | Terms | `https://github.com/trvny/feedseek/blob/main/docs/chatgpt/TERMS.md` |
 | App icon | `assets/icons/android-chrome-512x512.png` |
