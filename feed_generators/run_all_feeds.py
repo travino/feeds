@@ -15,6 +15,7 @@ import logging
 import os
 import subprocess
 import sys
+import time
 from concurrent.futures import ThreadPoolExecutor
 from functools import partial
 from pathlib import Path
@@ -32,6 +33,7 @@ logger = logging.getLogger(__name__)
 # whole batch. Eight minutes is intentionally generous for one source.
 GENERATOR_TIMEOUT = float(os.environ.get("FEEDSEEK_GENERATOR_TIMEOUT", "480"))
 DEFAULT_GENERATOR_WORKERS = 4
+SLOWEST_GENERATORS_LIMIT = 10
 
 
 def _configured_generator_workers() -> int:
@@ -205,10 +207,11 @@ def _log_generation_summary(
     failed_scripts: list[str],
     skipped_scripts: list[str],
     skipped_configs: list[str],
+    generation_times: list[tuple[str, float]],
     *,
     normalization_ok: bool,
 ) -> None:
-    """Log the batch outcome without adding branching to the runner."""
+    """Log the batch outcome and the slowest generators."""
     logger.info("\n%s", "=" * 60)
     logger.info("Feed Generation Summary:")
     logger.info("  Successful: %d", len(successful_scripts))
@@ -216,6 +219,14 @@ def _log_generation_summary(
     logger.info("  Skipped (disabled/filtered): %d", len(skipped_scripts))
     logger.info("  Invalid configs (skipped): %d", len(skipped_configs))
     logger.info("  Metadata normalization: %s", "ok" if normalization_ok else "failed")
+
+    if generation_times:
+        slowest = sorted(generation_times, key=lambda item: (-item[1], item[0]))[
+            :SLOWEST_GENERATORS_LIMIT
+        ]
+        logger.info("\nSlowest generators:")
+        for name, elapsed in slowest:
+            logger.info("  %s: %.1fs", name, elapsed)
 
     for heading, names, level, marker in (
         ("Failed feeds", failed_scripts, logger.error, "✗"),
@@ -232,10 +243,14 @@ def _log_generation_summary(
 
 def _run_enabled_feed(
     item: tuple[str, FeedConfig], *, full: bool
-) -> tuple[str, bool]:
-    """Run one enabled registry entry for the bounded worker pool."""
+) -> tuple[str, bool, float]:
+    """Run one enabled registry entry and report its wall-clock duration."""
     name, config = item
-    return name, run_feed(name, config, full=full)
+    started = time.perf_counter()
+    ok = run_feed(name, config, full=full)
+    elapsed = time.perf_counter() - started
+    logger.info("Completed %s in %.1fs", name, elapsed)
+    return name, ok, elapsed
 
 
 def _run_registry(
@@ -248,6 +263,7 @@ def _run_registry(
     failed_scripts: list[str] = []
     successful_scripts: list[str] = []
     skipped_scripts: list[str] = []
+    generation_times: list[tuple[str, float]] = []
     enabled_feeds: list[tuple[str, FeedConfig]] = []
 
     for name, config in sorted(registry.items()):
@@ -268,16 +284,18 @@ def _run_registry(
         runner = partial(_run_enabled_feed, full=full)
         if worker_count == 1:
             outcomes = map(runner, enabled_feeds)
-            for name, ok in outcomes:
+            for name, ok, elapsed in outcomes:
                 target = successful_scripts if ok else failed_scripts
                 target.append(name)
+                generation_times.append((name, elapsed))
         else:
             with ThreadPoolExecutor(
                 max_workers=worker_count, thread_name_prefix="feedseek"
             ) as pool:
-                for name, ok in pool.map(runner, enabled_feeds):
+                for name, ok, elapsed in pool.map(runner, enabled_feeds):
                     target = successful_scripts if ok else failed_scripts
                     target.append(name)
+                    generation_times.append((name, elapsed))
 
     normalization_ok = normalize_generated_feeds()
     _log_generation_summary(
@@ -285,6 +303,7 @@ def _run_registry(
         failed_scripts,
         skipped_scripts,
         skipped_configs,
+        generation_times,
         normalization_ok=normalization_ok,
     )
     return 1 if failed_scripts or skipped_configs or not normalization_ok else 0
