@@ -45,6 +45,7 @@ class CodeRabbitSaasTests(unittest.TestCase):
             "collect_bitly",
             "collect_commoninja",
             "collect_native_feeds",
+            "collect_stripe",
             "collect_coderabbit_newsroom",
             "collect_postman_app_release_notes",
             "collect_postman_press",
