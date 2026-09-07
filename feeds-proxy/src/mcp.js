@@ -255,6 +255,7 @@ function latestTime(published, modified) {
 /** @param {IndexItem} item @param {string[]} words */
 function scoreItem(item, words) {
   if (!words.length) return 1;
+  /** @param {unknown} value */
   const termSet = (value) => new Set(
     normalize(value).split(/[^\p{L}\p{N}+#.-]+/u).filter(Boolean),
   );
