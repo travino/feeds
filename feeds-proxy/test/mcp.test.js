@@ -116,6 +116,40 @@ test("strict RFC 3339 parser rejects loose and impossible dates", () => {
   assert.equal(parseWhen("09/07/2026 10:00"), null);
 });
 
+test("recent accepts legacy ISO-like timestamps from the index only", async () => {
+  const payload = {
+    indexed_from: "2026-09-01T00:00:00Z",
+    truncated: false,
+    skipped_feeds: [],
+    revision,
+    items: [
+      {
+        id: opaqueId,
+        source_key: "openai",
+        source: "OpenAI",
+        title: "Legacy timestamp",
+        url: "https://example.com/legacy",
+        summary: "legacy",
+        published_at: "2026-09-07 10:00:00+0200",
+        modified_at: null,
+        tags: [],
+      },
+    ],
+  };
+  await withFetch(
+    async () => new Response(JSON.stringify(payload), { status: 200 }),
+    async () => {
+      const body = await (
+        await call("tools/call", {
+          name: "recent",
+          arguments: { since: "2026-09-07T07:30:00Z" },
+        })
+      ).json();
+      assert.equal(body.result.structuredContent.count, 1);
+    },
+  );
+});
+
 test("standard search normalizes diacritics and returns connector shape", async () => {
   await withFetch(
     async () => new Response(JSON.stringify(indexPayload), { status: 200 }),
@@ -185,12 +219,20 @@ test("fetch is pinned to revision and uses external_url fallback", async () => {
   );
 });
 
-test("HTML conversion decodes markup without eating literal less-than text", () => {
+test("HTML conversion preserves text-like angle brackets and block structure", () => {
   assert.equal(
     htmlToText("<p>Hello &amp; <strong>world</strong>.</p><script>bad()</script>"),
     "Hello & world.",
   );
   assert.equal(htmlToText("<p>2 < 3 and 4 > 1</p>"), "2 < 3 and 4 > 1");
+  assert.equal(
+    htmlToText("<p>List<T> and x < y and z > q</p>"),
+    "List<T> and x < y and z > q",
+  );
+  assert.equal(
+    htmlToText("<p>First</p><ul><li>One</li><li>Two</li></ul><pre>if (x) {\n  y();\n}</pre>"),
+    "First\nOne\nTwo\nif (x) {\n  y();\n}",
+  );
 });
 
 test("tool arguments are validated server-side", async () => {
