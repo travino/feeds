@@ -31,6 +31,7 @@ SOURCES = [
     ("RubyGems Blog", "https://blog.rubygems.org/atom.xml", 40),
     ("RubyInstaller", "https://rubyinstaller.org/feed.xml", 40),
     ("JetBrains Blog", "https://blog.jetbrains.com/feed/", 40),
+    ("web.dev Blog", "https://web.dev/blog/feed.xml", 40),
     ("Django Weblog", "https://www.djangoproject.com/rss/weblog/", 30),
     ("Django News", "https://django-news.com/rss", 30),
     ("Django Packages latest", "https://djangopackages.org/feeds/packages/latest/atom/", 3),

@@ -25,6 +25,7 @@ class DevelopmentSourceTests(unittest.TestCase):
         self.assertEqual(urls["RubyGems Blog"], "https://blog.rubygems.org/atom.xml")
         self.assertEqual(urls["RubyInstaller"], "https://rubyinstaller.org/feed.xml")
         self.assertEqual(urls["JetBrains Blog"], "https://blog.jetbrains.com/feed/")
+        self.assertEqual(urls["web.dev Blog"], "https://web.dev/blog/feed.xml")
         self.assertEqual(development.DEV_TOP_MONTH_URL, "https://dev.to/top/month")
         self.assertEqual(
             development.DEV_TOP_MONTH_API_URL,
