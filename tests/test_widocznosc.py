@@ -15,6 +15,7 @@ class WidocznoscNewsTests(unittest.TestCase):
         <main>
           <a href="/news/seattle-times-i-newsday-pozywaja-openai/">
             <span>6 września 2026</span>
+            <h2>Wrong earlier heading</h2>
             <div class="news-card-title">Seattle Times i Newsday pozywają OpenAI oraz Microsoft</div>
             <p>Do grona wydawców walczących z twórcami modeli dołączyły kolejne redakcje.</p>
           </a>
