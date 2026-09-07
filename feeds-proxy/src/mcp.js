@@ -214,6 +214,7 @@ function tokens(query) {
 }
 
 const RFC3339_RE = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})(?:\.\d+)?(Z|[+-]\d{2}:\d{2})$/;
+const LEGACY_INDEX_DATETIME_RE = /^(\d{4}-\d{2}-\d{2})[ T](\d{2}:\d{2}:\d{2})(\.\d+)?(Z|[+-]\d{2}:?\d{2})?$/;
 
 /** @param {number} year @param {number} month */
 function daysInMonth(year, month) {
@@ -221,7 +222,7 @@ function daysInMonth(year, month) {
   return [31, leap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][month - 1] ?? 0;
 }
 
-/** Strict RFC 3339 parser; rejects implementation-specific and normalized dates. @param {unknown} value */
+/** Strict RFC 3339 parser for caller-supplied timestamps. @param {unknown} value */
 function parseWhen(value) {
   if (typeof value !== "string") return null;
   const match = RFC3339_RE.exec(value);
@@ -244,9 +245,23 @@ function parseWhen(value) {
   return Number.isFinite(timestamp) ? timestamp : null;
 }
 
+/** Parse index timestamps emitted from older Python ISO forms without loosening user input. @param {unknown} value */
+function parseIndexWhen(value) {
+  const strict = parseWhen(value);
+  if (strict !== null) return strict;
+  if (typeof value !== "string") return null;
+  const match = LEGACY_INDEX_DATETIME_RE.exec(value.trim());
+  if (!match) return null;
+  const [, date, time, fraction = "", rawZone = "Z"] = match;
+  const zone = rawZone === "Z" || rawZone.includes(":")
+    ? rawZone
+    : `${rawZone.slice(0, 3)}:${rawZone.slice(3)}`;
+  return parseWhen(`${date}T${time}${fraction}${zone}`);
+}
+
 /** @param {unknown} published @param {unknown} modified */
 function latestTime(published, modified) {
-  const values = [parseWhen(published), parseWhen(modified)].filter(
+  const values = [parseIndexWhen(published), parseIndexWhen(modified)].filter(
     /** @returns {value is number} */ (value) => value !== null,
   );
   return values.length ? Math.max(...values) : null;
@@ -413,6 +428,19 @@ const BLOCK_TAGS = new Set([
   "pre", "section", "table", "td", "th", "tr", "ul",
 ]);
 const SKIP_TAGS = new Set(["script", "style", "template"]);
+const INLINE_TAGS = new Set([
+  "a", "abbr", "b", "bdi", "bdo", "cite", "code", "data", "del", "dfn", "em",
+  "i", "img", "ins", "kbd", "mark", "q", "rp", "rt", "ruby", "s", "samp",
+  "small", "span", "strong", "sub", "sup", "time", "u", "var", "wbr",
+]);
+const DOCUMENT_TAGS = new Set(["base", "body", "head", "html", "link", "meta", "title"]);
+const KNOWN_TAGS = new Set([...BLOCK_TAGS, ...SKIP_TAGS, ...INLINE_TAGS, ...DOCUMENT_TAGS]);
+
+/** @param {string[]} parts */
+function pushBlockBreak(parts) {
+  if (parts.length) parts[parts.length - 1] = parts[parts.length - 1].replace(/[ \t]+$/g, "");
+  if (!parts.length || !parts[parts.length - 1].endsWith("\n")) parts.push("\n");
+}
 
 /** @param {string} html */
 function htmlToText(html) {
@@ -420,6 +448,7 @@ function htmlToText(html) {
   const parts = [];
   let index = 0;
   let skipDepth = 0;
+  let preDepth = 0;
   while (index < html.length) {
     if (html.startsWith("<!--", index)) {
       const end = html.indexOf("-->", index + 4);
@@ -429,7 +458,14 @@ function htmlToText(html) {
     if (html[index] !== "<") {
       const next = html.indexOf("<", index);
       const end = next === -1 ? html.length : next;
-      if (!skipDepth) parts.push(decodeEntities(html.slice(index, end)));
+      if (!skipDepth) {
+        let text = decodeEntities(html.slice(index, end)).replace(/\r\n?/g, "\n");
+        if (!preDepth) text = text.replace(/[^\S\n]+/g, " ");
+        if (parts.length && parts[parts.length - 1].endsWith("\n") && !preDepth) {
+          text = text.replace(/^ +/g, "");
+        }
+        parts.push(text);
+      }
       index = end;
       continue;
     }
@@ -447,25 +483,33 @@ function htmlToText(html) {
     const closing = raw.startsWith("/");
     if (closing) raw = raw.slice(1).trimStart();
     const selfClosing = raw.endsWith("/");
-    const nameMatch = /^([A-Za-z][A-Za-z0-9:-]*)/.exec(raw);
-    if (!nameMatch) {
+    const nameMatch = /^([A-Za-z][A-Za-z0-9:-]*)(?=\s|\/|$)/.exec(raw);
+    const name = nameMatch ? nameMatch[1].toLowerCase() : "";
+    if (!name || !KNOWN_TAGS.has(name)) {
       if (!skipDepth) parts.push("<");
       index += 1;
       continue;
     }
-    const name = nameMatch[1].toLowerCase();
     if (SKIP_TAGS.has(name)) {
       if (closing) {
         if (skipDepth) skipDepth -= 1;
       } else if (!selfClosing) {
         skipDepth += 1;
       }
-    } else if (!skipDepth && BLOCK_TAGS.has(name)) {
-      parts.push(" ");
+      index = end + 1;
+      continue;
+    }
+    if (!skipDepth && BLOCK_TAGS.has(name)) pushBlockBreak(parts);
+    if (name === "pre") {
+      if (closing) {
+        if (preDepth) preDepth -= 1;
+      } else if (!selfClosing) {
+        preDepth += 1;
+      }
     }
     index = end + 1;
   }
-  return parts.join("").replace(/\s+/g, " ").trim();
+  return parts.join("").replace(/\n{3,}/g, "\n\n").trim();
 }
 
 /** @param {JsonObject} item */
