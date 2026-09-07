@@ -57,6 +57,7 @@ jobs:
           SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: |
           uv run --locked site/build_site.py
+          uv run --locked site/build_search_index.py
           uv run --locked site/make_favicon.py
           sed -i '/google-site-verification/a\  <meta name="msvalidate.01" content="23A368B2C5F4DF3471A67EA6CB057149" />' public/index.html
 
