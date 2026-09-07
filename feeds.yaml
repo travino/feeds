@@ -220,6 +220,9 @@ feeds:
   europa:
     script: europa.py
     blog_url: https://european-union.europa.eu/
+  baidubaike:
+    script: baidubaike.py
+    blog_url: https://baike.baidu.com/
   wikipedia_pl:
     script: wikipedia_pl.py
     blog_url: https://pl.wikipedia.org/
