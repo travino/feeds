@@ -6,6 +6,7 @@ from __future__ import annotations
 import base64
 import json
 import os
+import shutil
 import subprocess
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
@@ -139,7 +140,9 @@ def entry_summary(item: dict) -> str:
 
 
 def encode_id(feed_key: str, item_id: str, revision: str) -> str:
-    token = base64.urlsafe_b64encode(item_id.encode("utf-8")).decode("ascii").rstrip("=")
+    token = (
+        base64.urlsafe_b64encode(item_id.encode("utf-8")).decode("ascii").rstrip("=")
+    )
     return f"{revision}.{feed_key}:{token}"
 
 
@@ -191,18 +194,26 @@ def resolve_revision() -> str:
     if explicit:
         revision = explicit
     else:
-        try:
-            revision = subprocess.check_output(
-                ["git", "rev-parse", "HEAD"],
-                cwd=ROOT,
-                text=True,
-                stderr=subprocess.DEVNULL,
-            ).strip()
-        except (OSError, subprocess.CalledProcessError):
+        git = shutil.which("git")
+        if not git:
             revision = ""
+        else:
+            try:
+                revision = subprocess.check_output(
+                    [git, "rev-parse", "HEAD"],
+                    cwd=ROOT,
+                    text=True,
+                    stderr=subprocess.DEVNULL,
+                ).strip()
+            except OSError, subprocess.CalledProcessError:
+                revision = ""
 
-    if len(revision) != 40 or any(char not in "0123456789abcdefABCDEF" for char in revision):
-        raise ValueError("Feedseek MCP index requires an exact 40-character Git commit SHA")
+    if len(revision) != 40 or any(
+        char not in "0123456789abcdefABCDEF" for char in revision
+    ):
+        raise ValueError(
+            "Feedseek MCP index requires an exact 40-character Git commit SHA"
+        )
     return revision.lower()
 
 
@@ -220,7 +231,9 @@ def build_index(
         feed = load_feed(path)
         feed_count += 1
         key = path.stem.removeprefix("feed_")
-        feed_title = compact_text(feed.get("title"), 160) or key.replace("_", " ").title()
+        feed_title = (
+            compact_text(feed.get("title"), 160) or key.replace("_", " ").title()
+        )
         undated = 0
 
         for item in feed["items"]:
@@ -253,7 +266,9 @@ def build_index(
                         "source_key": key,
                         "source": feed_title,
                         "title": title,
-                        "url": item.get("url") if isinstance(item.get("url"), str) else "",
+                        "url": (
+                            item.get("url") if isinstance(item.get("url"), str) else ""
+                        ),
                         "summary": entry_summary(item),
                         "published_at": (
                             item.get("date_published")
@@ -288,7 +303,9 @@ def main() -> None:
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     feed_paths, missing = enabled_feed_paths()
     if missing:
-        print(f"  ! no JSON artifact yet for enabled feeds: {', '.join(sorted(missing))}")
+        print(
+            f"  ! no JSON artifact yet for enabled feeds: {', '.join(sorted(missing))}"
+        )
 
     payload = build_index(feed_paths, revision=resolve_revision())
     OUT_PATH.write_text(
