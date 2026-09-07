@@ -69,6 +69,25 @@ test("negotiates initialize and advertises tool capability", async () => {
   assert.deepEqual(body.result.capabilities, { tools: {} });
 });
 
+test("rejects unsupported initialize versions with supported choices", async () => {
+  const response = await call("initialize", {
+    protocolVersion: "1900-01-01",
+    capabilities: {},
+    clientInfo: { name: "test", version: "1" },
+  });
+  const body = await response.json();
+  assert.equal(body.error.code, -32022);
+  assert.equal(body.error.data.requested, "1900-01-01");
+  assert.ok(body.error.data.supported.includes("2026-07-28"));
+});
+
+test("supports modern server discovery", async () => {
+  const body = await (await call("server/discover")).json();
+  assert.equal(body.result.resultType, "complete");
+  assert.ok(body.result.supportedVersions.includes("2026-07-28"));
+  assert.deepEqual(body.result.capabilities, { tools: {} });
+});
+
 test("lists standard search/fetch plus read-only recent", async () => {
   const body = await (await call("tools/list")).json();
   assert.deepEqual(

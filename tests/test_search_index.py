@@ -8,8 +8,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "site" / "build_search_index.py"
 SPEC = importlib.util.spec_from_file_location("feedseek_search_index", SCRIPT)
+if SPEC is None or SPEC.loader is None:
+    raise RuntimeError(f"cannot load module spec from {SCRIPT}")
 MODULE = importlib.util.module_from_spec(SPEC)
-assert SPEC.loader is not None
 SPEC.loader.exec_module(MODULE)
 
 REVISION = "a" * 40
@@ -30,7 +31,7 @@ class SearchIndexTests(unittest.TestCase):
                                 "title": "Fresh",
                                 "content_text": "  hello   world ",
                                 "date_published": "2026-09-07T10:00:00Z",
-                                "tags": ["AI"],
+                                "tags": None,
                             },
                             {
                                 "id": "old",

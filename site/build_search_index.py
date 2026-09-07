@@ -239,9 +239,10 @@ def build_index(
             elif date < cutoff or date > now + timedelta(days=1):
                 continue
 
+            raw_tags = item.get("tags")
             tags = [
                 compact_text(tag, 80)
-                for tag in item.get("tags", [])
+                for tag in (raw_tags if isinstance(raw_tags, list) else [])
                 if isinstance(tag, str)
             ][:12]
             entries.append(

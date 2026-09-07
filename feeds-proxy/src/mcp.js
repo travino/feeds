@@ -608,11 +608,25 @@ async function callTool(name, rawArgs, protocol) {
 }
 
 /** @param {JsonObject|undefined} params */
-function negotiateProtocol(params) {
+function requestedProtocol(params) {
   const requested = params?.protocolVersion;
-  return typeof requested === "string" && SUPPORTED_PROTOCOLS.has(requested)
-    ? requested
-    : LATEST_PROTOCOL;
+  return typeof requested === "string" ? requested : LATEST_PROTOCOL;
+}
+
+/**
+ * @param {unknown} id
+ * @param {string} requested
+ */
+function unsupportedProtocol(id, requested) {
+  return json({
+    jsonrpc: "2.0",
+    id: id ?? null,
+    error: {
+      code: -32022,
+      message: "Unsupported protocol version",
+      data: { supported: [...SUPPORTED_PROTOCOLS], requested },
+    },
+  }, 200, LATEST_PROTOCOL);
 }
 
 /** @param {Request} request */
@@ -638,9 +652,14 @@ export async function mcpResponse(request) {
     ? headerProtocol
     : LATEST_PROTOCOL;
   if (message.method === "initialize") {
-    protocol = negotiateProtocol(
-      isPlainObject(message.params) ? /** @type {JsonObject} */ (message.params) : undefined,
-    );
+    const params = isPlainObject(message.params)
+      ? /** @type {JsonObject} */ (message.params)
+      : undefined;
+    const requested = requestedProtocol(params);
+    if (!SUPPORTED_PROTOCOLS.has(requested)) {
+      return unsupportedProtocol(message.id, requested);
+    }
+    protocol = requested;
   }
 
   if (message.id === undefined) {
@@ -650,6 +669,27 @@ export async function mcpResponse(request) {
     });
   }
 
+  if (message.method === "server/discover") {
+    return rpcResult(
+      message.id,
+      {
+        ...(protocol === "2026-07-28" ? { resultType: "complete" } : {}),
+        supportedVersions: [...SUPPORTED_PROTOCOLS],
+        capabilities: { tools: {} },
+        _meta: {
+          "io.modelcontextprotocol/serverInfo": {
+            name: "feedseek",
+            title: "Feedseek",
+            version: "1.0.0",
+          },
+        },
+        instructions: "Use recent for time-bounded news digests, search for topical discovery, and fetch for full details.",
+        ttlMs: 3600000,
+        cacheScope: "public",
+      },
+      protocol,
+    );
+  }
   if (message.method === "initialize") {
     return rpcResult(
       message.id,
