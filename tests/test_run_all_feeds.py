@@ -167,6 +167,34 @@ class GeneratorBatchTests(unittest.TestCase):
         self.assertEqual(status, 0)
         self.assertEqual(order, ["alpha", "beta"])
 
+    def test_enabled_feed_reports_wall_clock_duration(self):
+        with (
+            mock.patch.object(run_all_feeds, "run_feed", return_value=True),
+            mock.patch.object(
+                run_all_feeds.time, "perf_counter", side_effect=[10.0, 13.25]
+            ),
+        ):
+            result = run_all_feeds._run_enabled_feed(
+                ("alpha", self.config()), full=False
+            )
+
+        self.assertEqual(result, ("alpha", True, 3.25))
+
+    def test_summary_ranks_slowest_generators(self):
+        with self.assertLogs(run_all_feeds.logger, level="INFO") as caught:
+            run_all_feeds._log_generation_summary(
+                ["fast", "medium", "slow"],
+                [],
+                [],
+                [],
+                [("fast", 1.0), ("slow", 3.2), ("medium", 2.1)],
+                normalization_ok=True,
+            )
+
+        output = "\n".join(caught.output)
+        self.assertLess(output.index("slow: 3.2s"), output.index("medium: 2.1s"))
+        self.assertLess(output.index("medium: 2.1s"), output.index("fast: 1.0s"))
+
 
 if __name__ == "__main__":
     unittest.main()
