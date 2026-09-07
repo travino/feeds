@@ -1,0 +1,36 @@
+name: Temporary Stripe SaaS patch
+
+on:
+  push:
+    branches:
+      - feeds/saas-stripe
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d
+        with:
+          enable-cache: false
+          python-version: "3.14"
+      - name: Apply patch
+        run: python .github/scripts/patch_stripe_saas.py
+      - name: Test
+        run: uv run --locked pytest tests/test_saas_stripe.py tests/test_requested_feed_sources.py -q
+      - name: Regenerate source docs
+        run: uv run --locked feed_generators/docs_sources.py
+      - name: Commit final patch
+        run: |
+          rm .github/workflows/tmp-stripe-patch.yml .github/scripts/patch_stripe_saas.py
+          git config user.name "gptomek[bot]"
+          git config user.email "gptomek[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "feeds: add Stripe sources to SaaS"
+          git push origin HEAD:feeds/saas-stripe
