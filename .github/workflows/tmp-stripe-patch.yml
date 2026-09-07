@@ -23,7 +23,9 @@ jobs:
       - name: Apply patch
         run: python .github/scripts/patch_stripe_saas.py
       - name: Test
-        run: uv run --locked pytest tests/test_saas_stripe.py tests/test_requested_feed_sources.py -q
+        run: |
+          uv run --locked python tests/test_saas_stripe.py
+          uv run --locked python tests/test_requested_feed_sources.py
       - name: Regenerate source docs
         run: uv run --locked feed_generators/docs_sources.py
       - name: Commit final patch
