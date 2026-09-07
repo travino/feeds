@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-07T18:51:53.832442+00:00</updated>
+  <updated>2026-09-07T23:00:03.320208+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,34 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85830</id>
+    <title>Mix Of The Day: Shlohmo</title>
+    <updated>2026-09-07T22:58:33.315657+00:00</updated>
+    <content>Chopped, screwed and slowed, but never slopped.</content>
+    <link href="https://ra.co/news/85830" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-07T22:58:33.315657+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-02-38-pm-7736.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-02-38-pm-7736.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-02-38-pm-7736.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://ra.co/news/85534</id>
+    <title>Mix Of The Day: Jocelyn</title>
+    <updated>2026-09-07T22:58:02.315657+00:00</updated>
+    <content>Polymorphous techno, bass and breaks recorded live at Berserker.</content>
+    <link href="https://ra.co/news/85534" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-07T22:58:02.315657+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/motd11072026.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/motd11072026.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/motd11072026.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/news/85681</id>
     <title>Mix Of The Day: DJ Funk</title>
@@ -2783,33 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-18-pm-7029.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-18-pm-7029.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85835</id>
-    <title>Yasuaki Shimizu scores film on Nagasaki atomic bomb survivors</title>
-    <updated>2026-08-20T10:00:36+00:00</updated>
-    <content>The Japanese ambient legend's soundtrack for The Man Who Brings the Voice of August is out now.</content>
-    <link href="https://ra.co/news/85835" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-20T10:00:36+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/shimizu.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/shimizu.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/shimizu.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85834</id>
-    <title>Paisley's Club 69 to close after 37 years</title>
-    <updated>2026-08-20T09:30:46+00:00</updated>
-    <content>The legendary basement venue will close in October.</content>
-    <link href="https://ra.co/news/85834" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-20T09:30:46+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/club69.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/club69.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/club69.png" type="image/png" length="0"/>
   </entry>
 </feed>

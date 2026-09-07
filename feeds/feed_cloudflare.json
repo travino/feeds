@@ -8,12 +8,12 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9636edc21aeeb9a4",
-      "url": "https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs",
-      "title": "Issues rendering route configuration table in Networking > Routes UI",
-      "content_text": "Sep 7 , 17:12 UTC Resolved - This incident has been resolved. Sep 7 , 16:46 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 16:11 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 15:52 UTC Investigating - We are continuing to investigate this issue. Sep 7 , 15:32 UTC Investigating - Cloudflare is investigating an issue within the Dashboard UI (Networking > Routes) where the route configuration table is failing to displa",
-      "date_published": "2026-09-07T17:12:30Z",
-      "date_modified": "2026-09-07T17:12:30Z",
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07",
+      "url": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
+      "title": "Browser Isolation Session Initialization Failures",
+      "content_text": "Sep 7 , 19:14 UTC Resolved - This incident has been resolved. Sep 7 , 15:11 UTC Monitoring - A fix has been implemented and we are monitoring the results.\n\nCustomers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session. Sep 7 , 14:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 14:25 UTC Investigating - We are investigating reports of customers encountering a white screen when atte",
+      "date_published": "2026-09-07T19:14:29Z",
+      "date_modified": "2026-09-07T19:14:29Z",
       "authors": [
         {
           "name": "Cloudflare Status"
@@ -24,12 +24,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07",
-      "url": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
-      "title": "Browser Isolation Session Initialization Failures",
-      "content_text": "Sep 7 , 15:11 UTC Monitoring - A fix has been implemented and we are monitoring the results.\n\nCustomers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session. Sep 7 , 14:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 14:25 UTC Investigating - We are investigating reports of customers encountering a white screen when attempting to access websites behind Browser Isolation. This is ca",
-      "date_published": "2026-09-07T15:11:43Z",
-      "date_modified": "2026-09-07T15:11:43Z",
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9636edc21aeeb9a4",
+      "url": "https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs",
+      "title": "Issues rendering route configuration table in Networking > Routes UI",
+      "content_text": "Sep 7 , 17:12 UTC Resolved - This incident has been resolved. Sep 7 , 16:46 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 16:11 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 15:52 UTC Investigating - We are continuing to investigate this issue. Sep 7 , 15:32 UTC Investigating - Cloudflare is investigating an issue within the Dashboard UI (Networking > Routes) where the route configuration table is failing to displa",
+      "date_published": "2026-09-07T17:12:30Z",
+      "date_modified": "2026-09-07T17:12:30Z",
       "authors": [
         {
           "name": "Cloudflare Status"

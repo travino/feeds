@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>https://store.steampowered.com/news/</id>
   <title>Steam</title>
-  <updated>2026-09-07T18:52:17.593016+00:00</updated>
+  <updated>2026-09-07T23:00:25.000295+00:00</updated>
   <author>
     <name>Steam</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://store.steampowered.com/favicon.ico</icon>
   <logo>https://store.steampowered.com/favicon.ico</logo>
   <subtitle>Combined Steam news feed: the global Steam news feed plus selected games and groups, from Steam's native news RSS.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/eed44a274cefe4f1</id>
+    <title>Update #1: Live Now - Save Compatibility, Gameplay, Quests &amp; Localization</title>
+    <updated>2026-09-07T22:49:36+00:00</updated>
+    <content>Hi everyone! This is our very first update, shaped by your feedback, everything we’ve seen in the Steam Discussions, and all the thoughts and suggestions you’ve been actively sharing with us on Discord. We’re incredibly happy to have such an amazing community, and it makes us want to work even harder to make Tiny Eden the best game it can be! 💚 Save Files Save files from versions prior to 0.10.0 are no longer supported and will no longer appear in the Load Game menu. Save files from 0.10.x versi</content>
+    <link href="https://store.steampowered.com/news/app/3375110/view/715663387750565891" rel="alternate"/>
+    <category term="Steam News" label="Steam News"/>
+    <published>2026-09-07T22:49:36+00:00</published>
+    <media:group>
+      <media:content url="https://clan.fastly.steamstatic.com/images/45360433/73add2858532425e2b9aa4e5e1534bd66f4bde5c.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://clan.fastly.steamstatic.com/images/45360433/73add2858532425e2b9aa4e5e1534bd66f4bde5c.png"/>
+    </media:group>
+    <dc:creator>Steam News</dc:creator>
+    <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/45360433/73add2858532425e2b9aa4e5e1534bd66f4bde5c.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/fcc53adb7f967c9e</id>
+    <title>AI Gaming Festival</title>
+    <updated>2026-09-07T21:14:18+00:00</updated>
+    <content>AI is changing the way people create games across every part of the development process—from assets and debugging to coding, NPC interactions, localization, and so much more. This festival aims to both educate people about AI and showcase games made with AI, highlighting how the technology is being used within them. In addition to the games, we've put together a lineup of speakers and learning sessions featuring investors, developers who have worked on high-profile games like Assassin's Creed an</content>
+    <link href="https://store.steampowered.com/news/group/46280965/view/669500857710019395" rel="alternate"/>
+    <category term="Steam News" label="Steam News"/>
+    <published>2026-09-07T21:14:18+00:00</published>
+    <media:group>
+      <media:content url="https://clan.fastly.steamstatic.com/images/46280965/e8ea58d461f0939b465aeb987493a365739cbbf8.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://clan.fastly.steamstatic.com/images/46280965/e8ea58d461f0939b465aeb987493a365739cbbf8.png"/>
+    </media:group>
+    <dc:creator>Steam News</dc:creator>
+    <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/46280965/e8ea58d461f0939b465aeb987493a365739cbbf8.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/fdae4ba1da1d9279</id>
     <title>Celebrate British Automotive in Forza Horizon 6</title>
@@ -73,6 +103,21 @@
     <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/46138335/f0898d1e8093db90f752be7e8cef0b9c87b5debf.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/ee7bf0a68c36d5f6</id>
+    <title>Server Downtime</title>
+    <updated>2026-09-07T17:00:29+00:00</updated>
+    <content>Hunters, The Live Servers will be taken down tomorrow, September 8th, at 09:00 CEST to deploy Update 2.9 and launch the new Event, Blood Testament. The patch notes will be published once the update goes live. Estimated downtime ~4h. Please note that the size of this update is 91.2GB, so make sure to start downloading early if you want to jump straight into action.</content>
+    <link href="https://store.steampowered.com/news/app/594650/view/713411587938977889" rel="alternate"/>
+    <category term="Steam News" label="Steam News"/>
+    <published>2026-09-07T17:00:29+00:00</published>
+    <media:group>
+      <media:content url="https://clan.fastly.steamstatic.com/images/30897473/d62fb249ded363ea2026fe1c986e93a25f0dfcc8.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://clan.fastly.steamstatic.com/images/30897473/d62fb249ded363ea2026fe1c986e93a25f0dfcc8.jpg"/>
+    </media:group>
+    <dc:creator>Steam News</dc:creator>
+    <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/30897473/d62fb249ded363ea2026fe1c986e93a25f0dfcc8.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/805038fba96f20a7</id>
     <title>Prismatic Indie Showcase</title>
     <updated>2026-09-07T17:00:28+00:00</updated>
@@ -131,51 +176,6 @@
     </media:group>
     <dc:creator>Steam News</dc:creator>
     <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/45557445/25721fa11dc81c10da308e82f2a439ccef177730.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/3b37e38c99859d04</id>
-    <title>FK-2000: Top Of Its Class</title>
-    <updated>2026-09-07T15:00:42+00:00</updated>
-    <content>Meet China’s new anti-aircraft missile and gun system featuring 12 missiles and two six-barreled 30 mm guns! FK-2000: A SAM System for China at Rank VIII At a glance: 12 anti-aircraft missiles Twin 30 mm cannons, 4,000 rounds per minute each Mobile wheeled chassis Phased-array radar Moderately high profile Introducing the FK-2000! Today we’re taking a look at the FK-2000, coming to the Chinese ground forces tree. This vehicle is somewhat of a master of its class, as it features excellent missile</content>
-    <link href="https://store.steampowered.com/news/app/236390/view/701026688965805547" rel="alternate"/>
-    <category term="Steam News" label="Steam News"/>
-    <published>2026-09-07T15:00:42+00:00</published>
-    <media:group>
-      <media:content url="https://clan.fastly.steamstatic.com/images/4649813/6b6adec07e240fd415f49d45bc7a178b1e6cc7cb.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://clan.fastly.steamstatic.com/images/4649813/6b6adec07e240fd415f49d45bc7a178b1e6cc7cb.png"/>
-    </media:group>
-    <dc:creator>Steam News</dc:creator>
-    <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/4649813/6b6adec07e240fd415f49d45bc7a178b1e6cc7cb.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/15d30e0b78c6eb3a</id>
-    <title>Citrine Prime Access wkrótce dostępny</title>
-    <updated>2026-09-07T15:00:23+00:00</updated>
-    <content>Zabłyśnij urzekającym blaskiem diamentu, gdy Citrine Prime wkroczy do Prime Access już 23 września ! Wspaniałe złoto Orokin podkreśla każdy szlif jej charakterystycznych broni Prime i ekskluzywnych akcesoriów Prime. Ci, którzy dostąpią zaszczytu ujrzenia jej majestatu, zyskają niezachwianą determinację. Spraw, by Twój Arsenał zalśnił dzięki natychmiastowemu dostępowi do wybranych przedmiotów Prime. Wybierz spośród pakietów Broni , Prime , Kompletnego i Akcesoriów (w zależności od platformy i pre</content>
-    <link href="https://store.steampowered.com/news/app/230410/view/680760490643686159" rel="alternate"/>
-    <category term="Steam News" label="Steam News"/>
-    <published>2026-09-07T15:00:23+00:00</published>
-    <media:group>
-      <media:content url="https://clan.fastly.steamstatic.com/images/4437469/9e4dee4529c3f30e4ec2b8a6034ede18701a8c18.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://clan.fastly.steamstatic.com/images/4437469/9e4dee4529c3f30e4ec2b8a6034ede18701a8c18.png"/>
-    </media:group>
-    <dc:creator>Steam News</dc:creator>
-    <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/4437469/9e4dee4529c3f30e4ec2b8a6034ede18701a8c18.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/9492e14c30f7a2b2</id>
-    <title>UPDATE 5 - UJRZAŁ ŚWIATŁO DZIENNE!</title>
-    <updated>2026-09-07T12:52:21+00:00</updated>
-    <content>W tej aktualizacji skupiliśmy się przede wszystkim na przejściu na nowszą wersję silnika gry. Nie ma w niej dużo nowych funkcji czy większych zmian, ale dzięki temu będziemy mogli sprawniej przygotowywać kolejne aktualizacje. Co się udało poprawić Część crashy - np. podczas wchodzenia i wychodzenia z mieszkań czy domu gracza Wydajność i stabilność FPS Problemy związane z kompilacją shaderów, przez które gra mogła się nie uruchomić Co dalej? Następna aktualizacja będzie większa niż poprzednie. Sk</content>
-    <link href="https://store.steampowered.com/news/app/3167920/view/699900789058963219" rel="alternate"/>
-    <category term="Steam News" label="Steam News"/>
-    <published>2026-09-07T12:52:21+00:00</published>
-    <media:group>
-      <media:content url="https://clan.akamai.steamstatic.com/images/45176549/ce5a26166ce5b308bc391efcda4787a6e9380f19.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://clan.akamai.steamstatic.com/images/45176549/ce5a26166ce5b308bc391efcda4787a6e9380f19.jpg"/>
-    </media:group>
-    <dc:creator>Steam News</dc:creator>
-    <link rel="enclosure" href="https://clan.akamai.steamstatic.com/images/45176549/ce5a26166ce5b308bc391efcda4787a6e9380f19.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/9034027371c85dfd</id>
@@ -1258,6 +1258,21 @@
     <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/41218960/4d7037bf974bcf83d26f0189c2cd7eae54af6146.png" type="image/png" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/7bac339bfe0166be</id>
+    <title>Gothic 1 Remake — Patch 1.0.3 Is Live!</title>
+    <updated>2026-07-02T14:00:59+00:00</updated>
+    <content>Hello Gothic Community, Today, we're releasing Patch 1.0.3 , which includes various fixes and improvements. See the patch notes (they are also now available in the game) - https://files.gothic-game.com/changelogs/G1R_Patch_1.0.3.txt We appreciate a lot all your bug-reports that you've been doing! Thank you for that cooperation! If you encounter any other issues, please send them using our bug-reporting system . After updating, please verify that your game version is CL 170287 , which confirms th</content>
+    <link href="https://store.steampowered.com/news/app/1297900/view/687509549434801685" rel="alternate"/>
+    <category term="Gothic 1 Remake" label="Gothic 1 Remake"/>
+    <published>2026-07-02T14:00:59+00:00</published>
+    <media:group>
+      <media:content url="https://clan.fastly.steamstatic.com/images/40085203/53626b3832b27417e99c3aa4ab866891d73aa7b6.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://clan.fastly.steamstatic.com/images/40085203/53626b3832b27417e99c3aa4ab866891d73aa7b6.png"/>
+    </media:group>
+    <dc:creator>Gothic 1 Remake</dc:creator>
+    <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/40085203/53626b3832b27417e99c3aa4ab866891d73aa7b6.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/27a4fa1375f525da</id>
     <title>Epic: National Stars 2014</title>
     <updated>2026-06-29T02:41:10+00:00</updated>
@@ -1661,21 +1676,6 @@
     </media:group>
     <dc:creator>Grand Theft Auto V Enhanced</dc:creator>
     <link rel="enclosure" href="https://clan.akamai.steamstatic.com/images/45517848/ae149ee7ad553c427eaa41c302467408a42f2926.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/dd4b46d370b7c58f</id>
-    <title>Voices of the Valley of Mines</title>
-    <updated>2026-06-05T10:07:50+00:00</updated>
-    <content>With Gothic 1 Remake about to release, we thought it was the perfect time to introduce you to the voices that bring the Colony to life. Take a look at the voice casts for the English, German, Polish, and Russian localizations! Whenever possible, we worked with original voice actors to preserve the authentic spirit of Gothic. At the same time, we welcomed talented performers who share a passion for the project and could help recreate the atmosphere that made the original game so memorable.</content>
-    <link href="https://store.steampowered.com/news/app/1297900/view/684129946245792460" rel="alternate"/>
-    <category term="Gothic 1 Remake" label="Gothic 1 Remake"/>
-    <published>2026-06-05T10:07:50+00:00</published>
-    <media:group>
-      <media:content url="https://clan.akamai.steamstatic.com/images/40085203/f9b5494272ce864a3ffa0f0ad987f3cfe7ef933f.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://clan.akamai.steamstatic.com/images/40085203/f9b5494272ce864a3ffa0f0ad987f3cfe7ef933f.png"/>
-    </media:group>
-    <dc:creator>Gothic 1 Remake</dc:creator>
-    <link rel="enclosure" href="https://clan.akamai.steamstatic.com/images/40085203/f9b5494272ce864a3ffa0f0ad987f3cfe7ef933f.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/4e230a92334fd5a4</id>
@@ -2788,94 +2788,19 @@
     <link rel="enclosure" href="https://clan.fastly.steamstatic.com/images/36225228/4c2bdd28162239fa4bd3c0d3ed1718f2759c4edf.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/066e46592e8ce7e8</id>
-    <title>Samodzielna wersja Red Dead Online w grudniu</title>
+    <id>tag:trvny.github.io,2024:feedseek/steam/c5543c3387a1665e</id>
+    <title>Ojciec odświeżał ekran przez 13 godzin, by kupić PS5 dla dziecka</title>
     <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>Na początku przyszłego miesiąca na konsolach oraz komputerach PC zadebiutuje samodzielna wersja modułu zabawy wieloosobowej z Red Dead Redemption 2, która pozwoli bawić się w Internecie bez posiadania pełnej wersji tytułu. Do połowy lutego przyszłego roku Red Dead Online będzie sprzedawany w atrakcyjnej promocyjnej cenie. Informacja Samodzielna wersja Red Dead Online w grudniu została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346698" rel="alternate"/>
+    <content>Mieszkaniec Wielkiej Brytanii bardzo chciał kupić PlayStation 5 swojemu dziecku. Mężczyzna spędził kilkanaście godzin, odświeżając ekrany na ośmiu różnych urządzeniach. Informacja Ojciec odświeżał ekran przez 13 godzin, by kupić PS5 dla dziecka została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346730" rel="alternate"/>
     <category term="GRYOnline.pl" label="GRYOnline.pl"/>
     <published>2020-11-25T01:15:37+00:00</published>
     <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343939022.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343939022.jpg"/>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343909712.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343909712.jpg"/>
     </media:group>
     <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343939022.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/85aaa78cb8bc9a77</id>
-    <title>Cyberpunk 2077 - zobacz gameplay z PS4 Pro i PS5</title>
-    <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>Twórcy gry Cyberpunk 2077 odsłonili skrywane dotąd karty i zaprezentowali gameplay z wersji na PS4 Pro oraz PS5. Studio CD Projekt RED dołożyło starań, by na obu konsolach japońskiego giganta tytuł prezentował się naprawdę ładnie. Informacja Cyberpunk 2077 - zobacz gameplay z PS4 Pro i PS5 została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346702" rel="alternate"/>
-    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
-    <published>2020-11-25T01:15:37+00:00</published>
-    <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343938745.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343938745.jpg"/>
-    </media:group>
-    <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343938745.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/e0fec3cea0a15552</id>
-    <title>Fortnite z własnym abonamentem. Jego premiera już niedługo</title>
-    <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>Epic Games zdecydowało się na wprowadzenie do Fortnite’a miesięcznego abonamentu, dzięki któremu gracze zdobędą cyfrową walutę oraz pakiety kosmetyczne. Usługa wejdzie w życie już niedługo. Informacja Fortnite z własnym abonamentem. Jego premiera już niedługo została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346708" rel="alternate"/>
-    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
-    <published>2020-11-25T01:15:37+00:00</published>
-    <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343937133.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343937133.jpg"/>
-    </media:group>
-    <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343937133.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/d91d9ae33b7ac904</id>
-    <title>Games with Gold na grudzień (m.in. Saints Row Gat out of Hell i The Raven Remastered)</title>
-    <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>Poznaliśmy gry, które w grudniu zostaną udostępnione abonentom Xbox Live Gold w ramach usługi Games with Gold. Mowa między innymi o Saints Row: Gat out of Hell oraz The Raven Remastered. Informacja Games with Gold na grudzień (m.in . Saints Row Gat out of Hell i The Raven Remastered) została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346712" rel="alternate"/>
-    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
-    <published>2020-11-25T01:15:37+00:00</published>
-    <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343936773.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343936773.jpg"/>
-    </media:group>
-    <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343936773.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/14fdadb20ee5c505</id>
-    <title>W Hitmanie 3 spotkamy nawet do 300 NPC naraz; twórcy zapowiadają rewolucję w AI</title>
-    <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>Firma IO Interactive zapowiedziała nową mapę do gry Hitman 3, a także ogłosiła, że produkcja będzie małą ewolucją, jeżeli chodzi o liczbę NPC występujących w tym samym czasie na ekranie. Informacja W Hitmanie 3 spotkamy nawet do 300 NPC naraz; twórcy zapowiadają rewolucję w AI została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346716" rel="alternate"/>
-    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
-    <published>2020-11-25T01:15:37+00:00</published>
-    <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343933988.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343933988.jpg"/>
-    </media:group>
-    <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343933988.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/ef58d6386f1126ad</id>
-    <title>Ruszyły zapisy do Świątecznej Bitwy Legend TFT</title>
-    <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>W radiu już słychać pierwsze Last Christmas, a to oznacza tylko jedno - mamy zielone światło, aby startować ze Świąteczną Bitwą Legend! Ręka do góry, komu nie przyda się dodatkowa kasa na prezenty? Zapisy właśnie ruszyły, a do zgarnięcia są nagrody z puli 4 000 złotych! Informacja Ruszyły zapisy do Świątecznej Bitwy Legend TFT została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346722" rel="alternate"/>
-    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
-    <published>2020-11-25T01:15:37+00:00</published>
-    <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343928489.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343928489.jpg"/>
-    </media:group>
-    <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343928489.jpg" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343909712.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/f4694d504787508b</id>
@@ -2893,34 +2818,94 @@
     <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343930995.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/c5543c3387a1665e</id>
-    <title>Ojciec odświeżał ekran przez 13 godzin, by kupić PS5 dla dziecka</title>
+    <id>tag:trvny.github.io,2024:feedseek/steam/ef58d6386f1126ad</id>
+    <title>Ruszyły zapisy do Świątecznej Bitwy Legend TFT</title>
     <updated>2020-11-25T01:15:37+00:00</updated>
-    <content>Mieszkaniec Wielkiej Brytanii bardzo chciał kupić PlayStation 5 swojemu dziecku. Mężczyzna spędził kilkanaście godzin, odświeżając ekrany na ośmiu różnych urządzeniach. Informacja Ojciec odświeżał ekran przez 13 godzin, by kupić PS5 dla dziecka została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346730" rel="alternate"/>
+    <content>W radiu już słychać pierwsze Last Christmas, a to oznacza tylko jedno - mamy zielone światło, aby startować ze Świąteczną Bitwą Legend! Ręka do góry, komu nie przyda się dodatkowa kasa na prezenty? Zapisy właśnie ruszyły, a do zgarnięcia są nagrody z puli 4 000 złotych! Informacja Ruszyły zapisy do Świątecznej Bitwy Legend TFT została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346722" rel="alternate"/>
     <category term="GRYOnline.pl" label="GRYOnline.pl"/>
     <published>2020-11-25T01:15:37+00:00</published>
     <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343909712.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343909712.jpg"/>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343928489.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343928489.jpg"/>
     </media:group>
     <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343909712.jpg" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343928489.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/steam/6d12043dded65c95</id>
-    <title>Wyprzedaż Black Friday w GMG - taniej GreedFall, Desperados 3 i inne gry</title>
-    <updated>2020-11-25T01:15:36+00:00</updated>
-    <content>Do 2 grudnia w sklepie Green Man Gaming trwa wyprzedaż z okazji Black Friday. Promocją objęto takie tytuły jak GreedFall, Desperados 3, Mutant Year Zero, Ace Combat 7, A Plague Tale oraz Assassin's Creed: Odyssey. Informacja Wyprzedaż Black Friday w GMG - taniej GreedFall, Desperados 3 i inne gry została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
-    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346687" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/steam/14fdadb20ee5c505</id>
+    <title>W Hitmanie 3 spotkamy nawet do 300 NPC naraz; twórcy zapowiadają rewolucję w AI</title>
+    <updated>2020-11-25T01:15:37+00:00</updated>
+    <content>Firma IO Interactive zapowiedziała nową mapę do gry Hitman 3, a także ogłosiła, że produkcja będzie małą ewolucją, jeżeli chodzi o liczbę NPC występujących w tym samym czasie na ekranie. Informacja W Hitmanie 3 spotkamy nawet do 300 NPC naraz; twórcy zapowiadają rewolucję w AI została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346716" rel="alternate"/>
     <category term="GRYOnline.pl" label="GRYOnline.pl"/>
-    <published>2020-11-25T01:15:36+00:00</published>
+    <published>2020-11-25T01:15:37+00:00</published>
     <media:group>
-      <media:content url="https://www.gry-online.pl/i/w/h1/720_343947170.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343947170.jpg"/>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343933988.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343933988.jpg"/>
     </media:group>
     <dc:creator>GRYOnline.pl</dc:creator>
-    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343947170.jpg" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343933988.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/d91d9ae33b7ac904</id>
+    <title>Games with Gold na grudzień (m.in. Saints Row Gat out of Hell i The Raven Remastered)</title>
+    <updated>2020-11-25T01:15:37+00:00</updated>
+    <content>Poznaliśmy gry, które w grudniu zostaną udostępnione abonentom Xbox Live Gold w ramach usługi Games with Gold. Mowa między innymi o Saints Row: Gat out of Hell oraz The Raven Remastered. Informacja Games with Gold na grudzień (m.in . Saints Row Gat out of Hell i The Raven Remastered) została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346712" rel="alternate"/>
+    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
+    <published>2020-11-25T01:15:37+00:00</published>
+    <media:group>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343936773.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343936773.jpg"/>
+    </media:group>
+    <dc:creator>GRYOnline.pl</dc:creator>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343936773.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/e0fec3cea0a15552</id>
+    <title>Fortnite z własnym abonamentem. Jego premiera już niedługo</title>
+    <updated>2020-11-25T01:15:37+00:00</updated>
+    <content>Epic Games zdecydowało się na wprowadzenie do Fortnite’a miesięcznego abonamentu, dzięki któremu gracze zdobędą cyfrową walutę oraz pakiety kosmetyczne. Usługa wejdzie w życie już niedługo. Informacja Fortnite z własnym abonamentem. Jego premiera już niedługo została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346708" rel="alternate"/>
+    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
+    <published>2020-11-25T01:15:37+00:00</published>
+    <media:group>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343937133.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343937133.jpg"/>
+    </media:group>
+    <dc:creator>GRYOnline.pl</dc:creator>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343937133.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/85aaa78cb8bc9a77</id>
+    <title>Cyberpunk 2077 - zobacz gameplay z PS4 Pro i PS5</title>
+    <updated>2020-11-25T01:15:37+00:00</updated>
+    <content>Twórcy gry Cyberpunk 2077 odsłonili skrywane dotąd karty i zaprezentowali gameplay z wersji na PS4 Pro oraz PS5. Studio CD Projekt RED dołożyło starań, by na obu konsolach japońskiego giganta tytuł prezentował się naprawdę ładnie. Informacja Cyberpunk 2077 - zobacz gameplay z PS4 Pro i PS5 została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346702" rel="alternate"/>
+    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
+    <published>2020-11-25T01:15:37+00:00</published>
+    <media:group>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343938745.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343938745.jpg"/>
+    </media:group>
+    <dc:creator>GRYOnline.pl</dc:creator>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343938745.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/066e46592e8ce7e8</id>
+    <title>Samodzielna wersja Red Dead Online w grudniu</title>
+    <updated>2020-11-25T01:15:37+00:00</updated>
+    <content>Na początku przyszłego miesiąca na konsolach oraz komputerach PC zadebiutuje samodzielna wersja modułu zabawy wieloosobowej z Red Dead Redemption 2, która pozwoli bawić się w Internecie bez posiadania pełnej wersji tytułu. Do połowy lutego przyszłego roku Red Dead Online będzie sprzedawany w atrakcyjnej promocyjnej cenie. Informacja Samodzielna wersja Red Dead Online w grudniu została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346698" rel="alternate"/>
+    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
+    <published>2020-11-25T01:15:37+00:00</published>
+    <media:group>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343939022.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343939022.jpg"/>
+    </media:group>
+    <dc:creator>GRYOnline.pl</dc:creator>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343939022.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/7cabd30b4dd59acb</id>
@@ -2936,6 +2921,21 @@
     </media:group>
     <dc:creator>GRYOnline.pl</dc:creator>
     <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343943731.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/steam/6d12043dded65c95</id>
+    <title>Wyprzedaż Black Friday w GMG - taniej GreedFall, Desperados 3 i inne gry</title>
+    <updated>2020-11-25T01:15:36+00:00</updated>
+    <content>Do 2 grudnia w sklepie Green Man Gaming trwa wyprzedaż z okazji Black Friday. Promocją objęto takie tytuły jak GreedFall, Desperados 3, Mutant Year Zero, Ace Combat 7, A Plague Tale oraz Assassin's Creed: Odyssey. Informacja Wyprzedaż Black Friday w GMG - taniej GreedFall, Desperados 3 i inne gry została opublikowana przez https://www.gry-online.pl/ 24 listopada 2020.</content>
+    <link href="https://store.steampowered.com/news/group/6911258/view/2881703925251346687" rel="alternate"/>
+    <category term="GRYOnline.pl" label="GRYOnline.pl"/>
+    <published>2020-11-25T01:15:36+00:00</published>
+    <media:group>
+      <media:content url="https://www.gry-online.pl/i/w/h1/720_343947170.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.gry-online.pl/i/w/h1/720_343947170.jpg"/>
+    </media:group>
+    <dc:creator>GRYOnline.pl</dc:creator>
+    <link rel="enclosure" href="https://www.gry-online.pl/i/w/h1/720_343947170.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/steam/deb3508f2cbff904</id>

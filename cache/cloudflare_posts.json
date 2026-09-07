@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T18:50:36.175888+00:00",
+  "last_updated": "2026-09-07T22:58:39.478480+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5485,16 +5485,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/250472e90fa75844"
     },
     {
-      "title": "Browser Isolation Session Initialization Failures",
-      "link": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
-      "date": "2026-09-07T15:11:43+00:00",
-      "description": "Sep 7 , 15:11 UTC Monitoring - A fix has been implemented and we are monitoring the results.\n\nCustomers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session. Sep 7 , 14:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 14:25 UTC Investigating - We are investigating reports of customers encountering a white screen when attempting to access websites behind Browser Isolation. This is ca",
-      "source": "Cloudflare Status",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07"
-    },
-    {
       "title": "Issues rendering route configuration table in Networking > Routes UI",
       "link": "https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs",
       "date": "2026-09-07T17:12:30+00:00",
@@ -5503,6 +5493,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/9636edc21aeeb9a4"
+    },
+    {
+      "title": "Browser Isolation Session Initialization Failures",
+      "link": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
+      "date": "2026-09-07T19:14:29+00:00",
+      "description": "Sep 7 , 19:14 UTC Resolved - This incident has been resolved. Sep 7 , 15:11 UTC Monitoring - A fix has been implemented and we are monitoring the results.\n\nCustomers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session. Sep 7 , 14:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 14:25 UTC Investigating - We are investigating reports of customers encountering a white screen when atte",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07"
     }
   ]
 }

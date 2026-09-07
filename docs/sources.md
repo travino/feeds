@@ -4,7 +4,7 @@ Konkretne linki źródłowe wchodzące w skład każdego generowanego feeda. Lis
 
 > Plik generowany: `uv run --locked feed_generators/docs_sources.py`. Nie edytuj ręcznie — zmień źródła w generatorze.
 
-102 feedów · 799 źródeł
+103 feedów · 801 źródeł
 
 ## Spis grup
 
@@ -896,6 +896,12 @@ Konkretne linki źródłowe wchodzące w skład każdego generowanego feeda. Lis
 - ![](https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=16) AWS Developer Tools Blog — <https://aws.amazon.com/blogs/developer/feed/>
 - ![](https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=16) AWS Open Source Blog — <https://aws.amazon.com/blogs/opensource/feed/>
 - ![](https://www.google.com/s2/favicons?domain=github.com&sz=16) CLI releases atom — <https://github.com/aws/aws-cli/releases.atom>
+
+### ![](https://www.google.com/s2/favicons?domain=baike.baidu.com&sz=16) Baidu Baike 热搜词条
+`baidubaike` · [feed_baidubaike.xml](../feeds/feed_baidubaike.xml)
+
+- ![](https://www.google.com/s2/favicons?domain=baike.baidu.com&sz=16) Blog — <https://baike.baidu.com/>
+- ![](https://www.google.com/s2/favicons?domain=wapbaike.baidu.com&sz=16) Source — <https://wapbaike.baidu.com/>
 
 ### ![](https://www.google.com/s2/favicons?domain=download-soundtracks.com&sz=16) Download Soundtracks
 `download-soundtracks` · [feed_download-soundtracks.xml](../feeds/feed_download-soundtracks.xml)

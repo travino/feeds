@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-07T18:52:41.116803+00:00</updated>
+  <updated>2026-09-07T23:00:55.564278+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.v2ex.com/favicon.ico</icon>
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/697a45144d6da90a</id>
+    <title>能「自建题库」的刷题 App👇 全 AI 编写</title>
+    <updated>2026-09-07T22:31:49+00:00</updated>
+    <content>APP 主要功能： 1️⃣ 题库管理 自由创建科目、章节 支持单选、多选、判断、解答 4 种题型 JSON 文件批量导入，自动建科目章节｜可导出备份｜模板免费下载 2️⃣ 刷题模式 顺序练习：逐题作答 + 即时解析 模拟考试：按题型固定顺序组卷，交卷后统一出分，再逐题查看解析 解答题自评：「我答对了 / 答错了」自主判定 3️⃣ 错题系统 答错自动收录，答对自动移除 按科目查看，只记最近一次错误 4️⃣ 批量管理 题目管理：章节筛选、状态筛选、批量有效/无效/删除 考试管理：历次成绩存档、试卷快照永久保留、批量操作 5️⃣ 云同步 邮箱验证码注册登录 题库 + 考试记录整包备份 换机恢复可选「合并」或「清空还原」 纯本地运行也完全 OK ，云备份只是加分项～ 地址： https://pan.quark.cn/s/ff3d13daced8?pwd=cBbR 本身是 JAVA 开发，第一次自动化写安卓应用，听取下大家意见，谢谢</content>
+    <link href="https://www.v2ex.com/t/1240234#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-07T22:31:49+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/gravatar/cce0d82e622c243f64218fbf3442751f?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/gravatar/cce0d82e622c243f64218fbf3442751f?s=73&amp;d=retro"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/cce0d82e622c243f64218fbf3442751f?s=73&amp;d=retro" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/0f465caa31d2e8bd</id>
+    <title>有很多 V 友准备买 gpt6 astro 了，我这有 20 刀优惠</title>
+    <updated>2026-09-07T22:03:07+00:00</updated>
+    <content>看到很多 V 友准备买 gpt 6 astro. 用美区的苹果账号买 gpt 订阅可以不用绑定银行卡，可以直接用 Apple Gift Card 订阅。需要的 V 友联系我，可以优惠 20 刀，相当于一个月的 plus 会员省了。 Apple Gift Card 都是美区本地官方店里买的，收据齐全，放心用。</content>
+    <link href="https://www.v2ex.com/t/1240232#reply0" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-07T22:03:07+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/1f89/6209/235090_large.png?m=1497243652" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/1f89/6209/235090_large.png?m=1497243652"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/1f89/6209/235090_large.png?m=1497243652" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/bbfcda9de449fb85</id>
     <title>现在的 ai 虽然不是真正的人工智能，但是能极大缩短探索路径</title>
@@ -237,22 +267,6 @@
     </media:group>
     <dc:creator>V2EX Creative</dc:creator>
     <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/abda35d8d2b1aa1158e580f193f5e9c0?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/a4745995d7cf22e6</id>
-    <title>一个约 1800 行的 agent 框架内核：为了真正搞懂 LangGraph</title>
-    <updated>2026-09-07T12:36:51+00:00</updated>
-    <content>我之前反复研究 LangGraph 和 Google 的 ADK ，想搞清楚一个 agent 运行时到底是怎么工作的，但每次都卡壳。不是说它们不好，而是等我穿过三层抽象之后，已经彻底搞不清楚哪些东西是"必须的"、哪些是附加的。所以我干脆自己写了一个尽可能小、但仍然保留生产级 agent 该有的关键特性的东西：崩溃恢复、human-in-the-loop 暂停、有界并发，以及并行分支下的确定性状态。 项目叫 prodagent： https://github.com/limenagent/prodagent 内核大约 1800 行代码，分布在 11 个文件里，只依赖 Python 标准库（唯一的开发依赖是 pytest ； 70 个测试全部离线运行）。整体拆分得很干净，机制（ mechanism ）和策略（ policy ）分离： • 内核完全不知道 LLM 是什么。它只有一个静态的 Plan （节点 / 边 / 状态通道）、一个针对每次执行的 Run ，以及一个
-Scheduler——它每一轮（ wave ）只做一件事：算出"现在谁可以跑"，并发执行它们，然后在一个屏障（ barrie</content>
-    <link href="https://www.v2ex.com/t/1240169#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-07T12:36:51+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/5f6b3b2a242e71fa7b270d4beb22432c?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/5f6b3b2a242e71fa7b270d4beb22432c?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/5f6b3b2a242e71fa7b270d4beb22432c?s=73&amp;d=retro" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/715054b4a29e8104</id>
@@ -492,21 +506,6 @@ ro.produc</content>
     </media:group>
     <dc:creator>V2EX Play</dc:creator>
     <link rel="enclosure" href="https://cdn.v2ex.com/avatar/3d79/17f8/581086_xlarge.png?m=1747379747" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/fa7ce9c05ac20e5b</id>
-    <title>上海电信 720/年 300M，申请公网 IP + 改桥接折腾记录</title>
-    <updated>2026-09-07T02:53:21+00:00</updated>
-    <content>最近我办了一条上海电信的宽带。 720 块钱一年，300M ，安装费 100 ，光猫押金 200 。后来我又把它改成了桥接，还申请到了一个固定公网 IP 。 单看这个结果，事情非常简单。人在上海，花 720 块钱，得到一根网线和一个公网 IP 。按照常识，这件事应该比买一台洗衣机简单。 后来我发现，常识在这里没有什么用。 事情是从微信开始的。 我在微信里搜了电信宽带，找到一个在线客服，说我要办宽带。客服问了地址、电话，我都告诉了他。过了一阵，师傅来了，带着光猫，把线接上，网络就通了。 这一步非常顺利，顺利得让我产生了一种错觉，以为下面的事情也会这样。 我跟师傅说，我还想要一个公网 IP 。 后来我打了 10000 ，客服说可以，然后就给我处理了。 我当时觉得电信真不错。 再后来我想了一下，觉得不对。 因为光猫还是路由模式。既然我要公网 IP ，大概就是为了自己折腾路由器、NAS 、端口转发、远程访问这些东西。要是公网 IP 最后还是停在光猫上，我自己再躲在它后面，好像多少有点多此一举。 于是我决定改桥接。 师傅试了一下，说改不了。 原因是我的宽带上有一个东西，叫“云网关”。 师傅说，要</content>
-    <link href="https://www.v2ex.com/t/1239977#reply13" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-07T02:53:21+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/bfb1/c723/208123_large.png?m=1788745967" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/bfb1/c723/208123_large.png?m=1788745967"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/bfb1/c723/208123_large.png?m=1788745967" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/0b22f5b66d86c99c</id>

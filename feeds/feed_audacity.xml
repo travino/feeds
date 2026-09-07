@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.audacityteam.org/blog/</id>
   <title>Audacity®</title>
-  <updated>2026-09-07T18:50:21.629785+00:00</updated>
+  <updated>2026-09-07T22:58:23.485942+00:00</updated>
   <author>
     <name>Audacity / MuseHub</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.audacityteam.org/favicon.ico</icon>
   <logo>https://www.audacityteam.org/favicon.ico</logo>
   <subtitle>Audacity blog and forum updates, plus MuseHub news and newly listed audio tools.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/bc02eaaed52377e4</id>
+    <title>Bugs: various bugs and missing things</title>
+    <updated>2026-09-07T21:00:54+00:00</updated>
+    <content>I just installed A4 , and I found a few bugs: Audacity crashes when zooming in to a specific part of audio to delete (A3 shows dots you can delete and be guided) I tried to edit a music track, and the metadata of the song disappeared. I need to write it all again When importing shortcuts from A3 and I want to use them in A4, none of them work. 1 post - 1 participant Read full topic</content>
+    <link href="https://forum.audacityteam.org/t/bugs-various-bugs-and-missing-things/153976" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-07T21:00:54+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/audacity/5366c0a17647ba80</id>
     <title>Audacity 4: Feature Improvements for a More Professional Recording Experience</title>
@@ -196,7 +211,7 @@
     <id>tag:trvny.github.io,2024:feedseek/audacity/5ff175b23572306d</id>
     <title>Various problems</title>
     <updated>2026-09-06T19:18:13+00:00</updated>
-    <content>I’ve installed Audacity 4 for Windows a few times now and all the time with the same result: after installation I open a .mp3 file, can’t increase or decrease sound, doesn’t play over external speaker and when that first song finishes, Audacity crashes and will never open again. No chance. Any help would be greatly appreciated. 2 posts - 1 participant Read full topic</content>
+    <content>I’ve installed Audacity 4 for Windows a few times now and all the time with the same result: after installation I open a .mp3 file, can’t increase or decrease sound, doesn’t play over external speaker and when that first song finishes, Audacity crashes and will never open again. No chance. Any help would be greatly appreciated. 3 posts - 1 participant Read full topic</content>
     <link href="https://forum.audacityteam.org/t/various-problems/153947" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-06T19:18:13+00:00</published>

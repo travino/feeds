@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-07T18:52:29.384337+00:00</updated>
+  <updated>2026-09-07T23:00:38.863007+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/c3761b27d8b3fd25</id>
+    <title>KDE’s new Photos app offers a sleek alternative to Gwenview</title>
+    <updated>2026-09-07T22:24:46+00:00</updated>
+    <content>Photos is a new(ish) image viewer and organiser for KDE Plasma aiming to give Gwenview a run for its pixels. Linux distributions that use KDE Plasma typically ship Gwenview, which has been the KDE image app for over 25 years. It’s a solid, feature-filled and Qt-based tool that and many love and rely on to view, manage and edit images. But development on Gwenview has slowed – and its legacy could be to blame. As GNOME found during efforts to modernise the Evince document viewer, updating old soft</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/kde-photos-app-replace-gwenview" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-07T22:24:46+00:00</published>
+    <media:group>
+      <media:content url="https://www.omgubuntu.co.uk/wp-content/uploads/2025/08/kde-logo--406x232.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.omgubuntu.co.uk/wp-content/uploads/2025/08/kde-logo--406x232.jpg"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2025/08/kde-logo--406x232.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/11c17449d8a4c4e2</id>
     <title>Ubuntu 26.10 daily ISOs add amd64v3 installer</title>
@@ -891,21 +906,6 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/modest-tuba.jpg.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/52113f07d62a20f5</id>
-    <title>Pine64 stops making Linux devices as AI inflates component costs</title>
-    <updated>2026-08-19T15:49:50+00:00</updated>
-    <content>If you’ve been eyeing up one of PINE64‘s Linux-friendly single-board computers, phones or tablets, now would be a good time to buy one. The open-hardware company has announced it will not be “producing more Linux devices” for the time being, and expects its existing stock of certain devices, including the PineNote and PineTab 2, to sell out in the next three months. After that, there won’t be more until. Why’s the company pulling the plug on production? One guess: RAMaggeddon. The AI infrastruct</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/pine64-stops-linux-device-production-chip-shortage" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-19T15:49:50+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/pine64-devices.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/pine64-devices.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/pine64-devices.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/79093b171c98c55c</id>

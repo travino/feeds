@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-07T18:51:02.048122+00:00</updated>
+  <updated>2026-09-07T22:59:10.076908+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -1361,6 +1361,21 @@
     </media:group>
     <dc:creator>Hugging Face Blog</dc:creator>
     <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/680a58121b2c7c159d2bd481/hJldzOsDg5kYWJC_vyj09.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/0919508f92439fba</id>
+    <title>LLM-as-a-Verifier: A General-Purpose Verification Framework</title>
+    <updated>2026-07-06T00:00:00+00:00</updated>
+    <content>LLM-as-a-Verifier introduces a probabilistic verification framework that scales across multiple dimensions to improve solution correctness assessment and agent performance across various benchmarks.</content>
+    <link href="https://huggingface.co/papers/2607.05391" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-07-06T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.05391.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.05391.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2607.05391.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/c57690ad336e7f8b</id>

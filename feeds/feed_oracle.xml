@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-07T18:51:51.416383+00:00</updated>
+  <updated>2026-09-07T22:59:59.674301+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/510a4a703df4f625</id>
+    <title>How do you test your APEX apps? A general discussion on strategies, tools and frameworks.</title>
+    <updated>2026-09-07T19:43:13.294461+00:00</updated>
+    <content>Hi. This is an open-ended question to review the state of APEX testing in 2026. I am interested in learning more about how you or your development team approach testing APEX applications across the different layers and modalities - from code correctness and database logic to end-to-end UI testing and more. I'm curious about the strategies and broader testing practices you use, specific tools and frameworks adopted or adapted for APEX, and any internal tooling you've built at your company to test</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/how-do-you-test-your-apex-apps-a-general-discussion-on-stra-4308" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-07T19:43:13.294461+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/0404b40b9381c7bc</id>
     <title>How to install Oracle Graph Studio on-premise Oracle Database 26ai?</title>
@@ -193,6 +208,16 @@
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/01109a56bf857890</id>
+    <title>Move the AI to the Data: What’s New in Select AI for Autonomous AI Database on Dedicated Infrastructure</title>
+    <updated>2026-09-05T05:31:27+00:00</updated>
+    <content>There are only two ways to build generative AI on top of enterprise data. You either move the data to the AI — extract it, ship it to a vector store, embed it somewhere else, orchestrate it in a Python framework running on a VM — or you move the AI to the data and […]</content>
+    <link href="https://blogs.oracle.com/developers/move-the-ai-to-the-data-whats-new-in-select-ai-for-autonomous-ai-database-on-dedicated-infrastructure" rel="alternate"/>
+    <category term="Oracle Developers" label="Oracle Developers"/>
+    <published>2026-09-05T05:31:27+00:00</published>
+    <dc:creator>Oracle Developers</dc:creator>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/28f2c30959055056</id>
     <title>Build Stateful Kubernetes Applications on OKE Virtual Nodes with OCI File Storage</title>
     <updated>2026-09-04T20:26:00+00:00</updated>
@@ -215,21 +240,6 @@
     <link href="https://forums.oracle.com/ords/apexds/post/set-sqlprefix-is-obsolete-error-messages-while-applying-26-1225" rel="alternate"/>
     <category term="Oracle Developer Community" label="Oracle Developer Community"/>
     <published>2026-09-04T18:26:53.018918+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/e51c2e5c1b5cf8de</id>
-    <title>Most Beautiful Girls Fun Ai Service Call Nyra</title>
-    <updated>2026-09-04T16:02:56.246879+00:00</updated>
-    <content>https://escortnyra.carrd.co/ https://www.northsidesun.com/user/public-profile/50211 https://www.tizmos.com/nyraescortservice https://www.dibiz.com/farooq282001 https://nyraescort.com/phpbb/</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/most-beautiful-girls-fun-ai-service-call-nyra-8358" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-04T16:02:56.246879+00:00</published>
     <media:group>
       <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
