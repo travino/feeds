@@ -4,7 +4,7 @@ Konkretne linki źródłowe wchodzące w skład każdego generowanego feeda. Lis
 
 > Plik generowany: `uv run --locked feed_generators/docs_sources.py`. Nie edytuj ręcznie — zmień źródła w generatorze.
 
-102 feedów · 796 źródeł
+102 feedów · 799 źródeł
 
 ## Spis grup
 
@@ -478,6 +478,9 @@ Konkretne linki źródłowe wchodzące w skład każdego generowanego feeda. Lis
 
 - ![](https://www.google.com/s2/favicons?domain=www.coderabbit.ai&sz=16) CodeRabbit Newsroom — <https://www.coderabbit.ai/newsroom>
 - ![](https://www.google.com/s2/favicons?domain=www.postman.com&sz=16) Postman App Release Notes — <https://www.postman.com/release-notes/postman-app/>
+- ![](https://www.google.com/s2/favicons?domain=stripe.com&sz=16) Stripe Newsroom — <https://stripe.com/en-pl/newsroom>
+- ![](https://www.google.com/s2/favicons?domain=stripe.dev&sz=16) Stripe Developer Blog — <https://stripe.dev/>
+- ![](https://www.google.com/s2/favicons?domain=docs.stripe.com&sz=16) Stripe Changelog — <https://docs.stripe.com/changelog>
 - ![](https://www.google.com/s2/favicons?domain=cursor.com&sz=16) Cursor Blog — <https://cursor.com/blog>
 - ![](https://www.google.com/s2/favicons?domain=neuraltrust.ai&sz=16) NeuralTrust — <https://neuraltrust.ai/resources>
 - ![](https://www.google.com/s2/favicons?domain=abnormal.ai&sz=16) Abnormal Blog — <https://abnormal.ai/blog>
