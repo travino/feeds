@@ -63,9 +63,9 @@ display, while literal angle-bracket text in `content_text` is preserved.
   item id needed for deterministic lookup.
 - Tool arguments are validated server-side instead of relying on client validation.
 - The existing constrained fetch proxy remains unchanged; `/mcp` is routed separately.
-- The public app policy is maintained in [`PRIVACY.md`](../PRIVACY.md); service terms are in
-  [`TERMS.md`](../TERMS.md), and user-facing support information is in
-  [`SUPPORT.md`](../SUPPORT.md).
+- The public app policy is maintained in [`PRIVACY.md`](PRIVACY.md); service terms are in
+  [`TERMS.md`](TERMS.md), and user-facing support information is in
+  [`SUPPORT.md`](SUPPORT.md).
 
 ## ChatGPT testing and installation
 
@@ -77,8 +77,8 @@ For normal end-user installation, submit the app for review. Approved apps can b
 through a plugin listing in the ChatGPT Plugin Directory, where users install/connect the app
 without manually entering its MCP endpoint.
 
-The repository root includes `chatgpt-app-submission.json` with review-facing app metadata,
-tool annotations, and exactly five positive plus three negative test cases.
+`chatgpt-app-submission.json` in this directory contains review-facing app metadata, tool
+annotations, and exactly five positive plus three negative test cases.
 
 ## Directory submission checklist
 
@@ -96,11 +96,11 @@ Use these values when filling the current OpenAI submission form:
 | Authentication | None; public read-only data |
 | Homepage | `https://trvny.github.io/feedseek/` |
 | Source | `https://github.com/trvny/feedseek` |
-| Support | `https://github.com/trvny/feedseek/blob/main/SUPPORT.md` |
-| Privacy policy | `https://github.com/trvny/feedseek/blob/main/PRIVACY.md` |
-| Terms | `https://github.com/trvny/feedseek/blob/main/TERMS.md` |
+| Support | `https://github.com/trvny/feedseek/blob/main/docs/chatgpt/SUPPORT.md` |
+| Privacy policy | `https://github.com/trvny/feedseek/blob/main/docs/chatgpt/PRIVACY.md` |
+| Terms | `https://github.com/trvny/feedseek/blob/main/docs/chatgpt/TERMS.md` |
 | App icon | `assets/icons/android-chrome-512x512.png` |
-| Submission reference | `chatgpt-app-submission.json` |
+| Submission reference | `docs/chatgpt/chatgpt-app-submission.json` |
 
 Before submission:
 
@@ -112,9 +112,9 @@ Before submission:
    `https://feeds.trfny.com/.well-known/openai-apps-challenge`; without a configured token the
    route returns 404. Verify the URL, then retry domain verification in the portal.
 4. Verify the production MCP endpoint and the public support/privacy/terms links over HTTPS.
-5. Use the five positive and three negative cases from `chatgpt-app-submission.json`, add
-   realistic starter prompts, choose the intended countries/regions, and describe this as the
-   initial Feedseek submission in the release notes.
+5. Use the five positive and three negative cases from `docs/chatgpt/chatgpt-app-submission.json`,
+   add realistic starter prompts, choose the intended countries/regions, and describe this as
+   the initial Feedseek submission in the release notes.
 
 The app is tool-only, so it has no widget CSP to declare. All three tools explicitly declare
 `readOnlyHint: true`, `openWorldHint: false`, and `destructiveHint: false`, and each tool

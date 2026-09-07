@@ -22,8 +22,8 @@ so the existing constrained proxy implementation remains independent.
   and `cache-control: public, max-age=900`, defaults content-type to
   `application/xml; charset=utf-8` when upstream doesn't send one
 
-See [`../docs/chatgpt-app.md`](../docs/chatgpt-app.md) for the ChatGPT app data
-flow, testing, installation, and submission notes.
+See [`../docs/chatgpt/`](../docs/chatgpt/) for the ChatGPT app data flow,
+testing, installation, and submission notes.
 
 ## Deploy
 

@@ -4,7 +4,7 @@ For Feedseek usage, source, feed, and ChatGPT plugin questions, start with the p
 
 - Project: https://github.com/trvny/feedseek
 - Documentation: https://github.com/trvny/feedseek/tree/main/docs
-- ChatGPT app notes: https://github.com/trvny/feedseek/blob/main/docs/chatgpt-app.md
+- ChatGPT app notes: https://github.com/trvny/feedseek/blob/main/docs/chatgpt/README.md
 
 If the repository does not expose an appropriate discussion or issue entry point, use the public contact links available from the maintainer's GitHub profile:
 
