@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.blog/</id>
   <title>GitHub</title>
-  <updated>2026-09-07T00:17:58.173698+00:00</updated>
+  <updated>2026-09-07T05:09:23.428859+00:00</updated>
   <author>
     <name>GitHub</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://github.blog/favicon.ico</icon>
   <logo>https://github.blog/favicon.ico</logo>
   <subtitle>Combined GitHub feed: GitHub blogs and changelogs, GitHub Status, Mergify, BeeWare News, Komi Store, the Git tooling ecosystem, Track Awesome List and deduplicated GitHub trending streams.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/e0dda6b8db9c36ee</id>
+    <title>Weekly Update – September 7, 2026</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>v0.88.4 hardens the agentic firewall and CI reliability, plus new trusted enclave and DIFC policy support.</content>
+    <link href="https://github.github.com/gh-aw/blog/2026-09-07-weekly-update/" rel="alternate"/>
+    <category term="GitHub Agentic Workflows" label="GitHub Agentic Workflows"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.github.com/gh-aw/og-hero-1200x630.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>GitHub Agentic Workflows</dc:creator>
+    <link rel="enclosure" href="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/3bf2b31b16fed474</id>
     <title>youssofal/MTPLX</title>
@@ -73,6 +88,16 @@
     <link rel="enclosure" href="https://opengraph.githubassets.com/e573cee3c26ab8563309b28736085ce49ba508c3daf34040b8506c4f99b4bfca/humanlayer/skills" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/aae02053bab7fc88</id>
+    <title>Awesome List Updated on Sep 06, 2026</title>
+    <updated>2026-09-06T04:31:59.853000+00:00</updated>
+    <content>12 awesome list updated on Sep 06, 2026, including Public Apis, Awesome Rust, Awesome Cpp, Awesome Web Security, Awesome Zsh Plugins, Awesome Playcanvas, Awesome Selfhosted, Awesome Django, Awesome Go, Awesome Github Wiki, Awesome Neovim, Awesome Jupyter</content>
+    <link href="https://www.trackawesomelist.com/2026/09/06/" rel="alternate"/>
+    <category term="Track Awesome List" label="Track Awesome List"/>
+    <published>2026-09-06T04:31:59.853000+00:00</published>
+    <dc:creator>Track Awesome List</dc:creator>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/adbef724cb274560</id>
     <title>anomalyco/opencode</title>
     <updated>2026-09-05T10:56:09.241120+00:00</updated>
@@ -127,7 +152,7 @@ choco install openc</content>
     <id>tag:trvny.github.io,2024:feedseek/github/37feae9c2cb3313b</id>
     <title>Awesome List Updated on Sep 05, 2026</title>
     <updated>2026-09-05T04:18:51.627000+00:00</updated>
-    <content>13 awesome list updated on Sep 05, 2026, including Awesome Datascience, Awesome Claude Code, Awesome Terraform, Awesome Bitcoin, Awesome Digital History, Awesome Scientific Writing, Awesome Homematic, Awesome Mac, Open Source Mac Os Apps, Awesome Rust, Awesome Web Security, Awesome Selfhosted, Awesome Go</content>
+    <content>13 awesome list updated on Sep 05, 2026, including Awesome Claude Code, Awesome Bitcoin, Awesome Digital History, Awesome Scientific Writing, Awesome Homematic, Open Source Mac Os Apps, Awesome Go, Awesome Rust, Awesome Web Security, Awesome Selfhosted, Awesome Terraform, Awesome Datascience, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/09/05/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-09-05T04:18:51.627000+00:00</published>
@@ -775,7 +800,7 @@ python main.py --backfill     # 回填模式：全市场历史K线一次性灌�
     <id>tag:trvny.github.io,2024:feedseek/github/8603bfe75485aa96</id>
     <title>Awesome List Updated on Sep 02, 2026</title>
     <updated>2026-09-02T04:22:57.980000+00:00</updated>
-    <content>21 awesome list updated on Sep 02, 2026, including Awesome Streaming, Awesome WSL, Magictools, Awesome Amazon Seller, Awesome Sysadmin, Awesome Javascript, Awesome Windows, Free for Dev, Awesome Testing, Collective Ai Tools, Awesome Datascience, Awesome Claude Code, Awesome Mac, Awesome Cli Apps, Public Apis, Awesome Rust, Awesome Gemini Cli, Awesome Selfhosted, Awesome Go, Awesome Mac, Awesome Ai</content>
+    <content>21 awesome list updated on Sep 02, 2026, including Awesome Streaming, Awesome WSL, Magictools, Awesome Sysadmin, Awesome Javascript, Awesome Windows, Free for Dev, Awesome Testing, Collective Ai Tools, Awesome Claude Code, Awesome Cli Apps, Public Apis, Awesome Rust, Awesome Gemini Cli, Awesome Selfhosted, Awesome Go, Awesome Mac, Awesome Ai, Awesome Datascience, Awesome Amazon Seller, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/09/02/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-09-02T04:22:57.980000+00:00</published>
@@ -969,7 +994,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/050d99d1a4c30b47</id>
     <title>Awesome List Updated on Sep 01, 2026</title>
     <updated>2026-09-01T04:59:39.233000+00:00</updated>
-    <content>19 awesome list updated on Sep 01, 2026, including ALL About RSS, Awesome Integration, Awesome Ios Books, Free Programming Books (English, By Subjects), Alternative Internet, Awesome Nextjs, Awesome Mqtt, Awesome Kde, Awesome Cl, Free for Dev, Awesome Mac, Awesome Cli Apps, Public Apis, Awesome Rust, Awesome Cpp, Awesome Gemini Cli, Awesome Neovim, Awesome Selfhosted, Awesome Go</content>
+    <content>19 awesome list updated on Sep 01, 2026, including ALL About RSS, Awesome Integration, Awesome Ios Books, Alternative Internet, Awesome Nextjs, Awesome Mqtt, Awesome Kde, Awesome Cl, Free for Dev, Awesome Cli Apps, Public Apis, Awesome Rust, Awesome Cpp, Awesome Gemini Cli, Awesome Selfhosted, Awesome Go, Free Programming Books (English, By Subjects), Awesome Neovim, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/09/01/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-09-01T04:59:39.233000+00:00</published>
@@ -1129,7 +1154,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/ab1436b091cfc81b</id>
     <title>Awesome List Updated on Aug 31, 2026</title>
     <updated>2026-08-31T05:26:53.355000+00:00</updated>
-    <content>16 awesome list updated on Aug 31, 2026, including Open Source Flutter Apps, Awesome Postgres, Awesome Flame, Awesome Open Hardware, Awesome Computational Biology, Awesome Capacitorjs, Awesome Hacker News, ALL About RSS, Awesome Cl, Awesome Amazon Seller, Awesome Windows, Free for Dev, Awesome Testing, Collective Ai Tools, Awesome Rust, Awesome Go</content>
+    <content>16 awesome list updated on Aug 31, 2026, including Awesome Postgres, Awesome Flame, Awesome Open Hardware, Awesome Computational Biology, Awesome Capacitorjs, Awesome Hacker News, ALL About RSS, Awesome Cl, Awesome Windows, Free for Dev, Awesome Testing, Collective Ai Tools, Awesome Rust, Awesome Go, Awesome Amazon Seller, Open Source Flutter Apps</content>
     <link href="https://www.trackawesomelist.com/2026/08/31/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-31T05:26:53.355000+00:00</published>
@@ -1139,6 +1164,21 @@ parameter. The preferred co</content>
     </media:group>
     <dc:creator>Track Awesome List</dc:creator>
     <link rel="enclosure" href="https://raw.githubusercontent.com/AboutRSS/ALL-about-RSS/refs/heads/master/media/Greasemonkey.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/9ce583f61382ccda</id>
+    <title>Awesome List Updated on Sep 07 - Sep 13, 2026</title>
+    <updated>2026-08-31T05:26:53.355000+00:00</updated>
+    <content>59 awesome list updated on Sep 07 - Sep 13, 2026, including Awesome Postgres, Awesome Flame, Awesome Open Hardware, Awesome Computational Biology, Awesome Capacitorjs, Awesome Hacker News, ALL About RSS, Awesome Integration, Awesome Ios Books, Alternative Internet, Awesome Nextjs, Awesome Mqtt, Awesome Kde, Awesome Cl, Awesome Streaming, Awesome WSL, Magictools, Awesome Sysadmin, Awesome Javascript, Awesome Machine Learning, Awesome Algorand, Awesome Blazor, Awesome Flutter, Awesome Windows, Awe</content>
+    <link href="https://www.trackawesomelist.com/2026/36/" rel="alternate"/>
+    <category term="Track Awesome List" label="Track Awesome List"/>
+    <published>2026-08-31T05:26:53.355000+00:00</published>
+    <media:group>
+      <media:content url="https://github.com/AboutRSS/ALL-about-RSS/raw/master/media/icons8-mac-client-16.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://github.com/AboutRSS/ALL-about-RSS/raw/master/media/icons8-mac-client-16.png"/>
+    </media:group>
+    <dc:creator>Track Awesome List</dc:creator>
+    <link rel="enclosure" href="https://github.com/AboutRSS/ALL-about-RSS/raw/master/media/icons8-mac-client-16.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/f5944d886064e864</id>
@@ -1174,7 +1214,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/6874022c9806559a</id>
     <title>Awesome List Updated on Aug 30, 2026</title>
     <updated>2026-08-30T05:19:11.326000+00:00</updated>
-    <content>10 awesome list updated on Aug 30, 2026, including Static Analysis, Free for Dev, Awesome Mac, Public Apis, Awesome Gemini Cli, Awesome Playcanvas, Awesome Selfhosted, Awesome Go, Awesome Github Wiki, Awesome Mac</content>
+    <content>10 awesome list updated on Aug 30, 2026, including Static Analysis, Free for Dev, Public Apis, Awesome Gemini Cli, Awesome Playcanvas, Awesome Selfhosted, Awesome Go, Awesome Github Wiki, Awesome Mac, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/08/30/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-30T05:19:11.326000+00:00</published>
@@ -1189,7 +1229,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/8070d25b1a5afff5</id>
     <title>Awesome List Updated on Aug 29, 2026</title>
     <updated>2026-08-29T16:41:08.196000+00:00</updated>
-    <content>11 awesome list updated on Aug 29, 2026, including Awesome Slack, Static Analysis, ALL About RSS, Free Programming Books (English, By Subjects), Magictools, Awesome Sysadmin, Collective Ai Tools, Awesome Mac, Awesome Rust, Awesome Zsh Plugins, Awesome Go</content>
+    <content>11 awesome list updated on Aug 29, 2026, including Awesome Slack, Static Analysis, ALL About RSS, Magictools, Awesome Sysadmin, Collective Ai Tools, Awesome Rust, Awesome Zsh Plugins, Awesome Go, Free Programming Books (English, By Subjects), Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/08/29/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-29T16:41:08.196000+00:00</published>
@@ -1264,7 +1304,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/053a914b559f92b3</id>
     <title>Awesome List Updated on Aug 28, 2026</title>
     <updated>2026-08-28T11:18:04.449000+00:00</updated>
-    <content>11 awesome list updated on Aug 28, 2026, including Awesome Dev Fun, Awesome Embedded Rust, Static Analysis, Awesome Mac, Free for Dev, Awesome Testing, Awesome Bitcoin, Awesome Rust, Awesome Gemini Cli, Awesome Neovim, Awesome Go</content>
+    <content>11 awesome list updated on Aug 28, 2026, including Awesome Dev Fun, Awesome Embedded Rust, Static Analysis, Free for Dev, Awesome Testing, Awesome Bitcoin, Awesome Rust, Awesome Gemini Cli, Awesome Go, Awesome Neovim, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/08/28/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-28T11:18:04.449000+00:00</published>
@@ -1444,7 +1484,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/8dd24b5fb08c4f01</id>
     <title>Awesome List Updated on Aug 27, 2026</title>
     <updated>2026-08-27T09:35:55.445000+00:00</updated>
-    <content>20 awesome list updated on Aug 27, 2026, including Awesome Graphql, Awesome Design Systems, Awesome Ddd, Awesome React Native, Awesome Talks, Awesome Ci, Awesome Lowcode, Awesome Qgis, Awesome Open Hardware, Awesome Nextjs, Awesome Machine Learning, Awesome Windows, Webcomponents the Right Way, Awesome Datascience, Awesome Claude Code, Awesome Mac, Public Apis, Awesome Rust, Awesome Selfhosted, Awesome Go</content>
+    <content>20 awesome list updated on Aug 27, 2026, including Awesome Graphql, Awesome Design Systems, Awesome Ddd, Awesome React Native, Awesome Talks, Awesome Ci, Awesome Qgis, Awesome Open Hardware, Awesome Nextjs, Awesome Machine Learning, Awesome Windows, Webcomponents the Right Way, Awesome Claude Code, Public Apis, Awesome Rust, Awesome Selfhosted, Awesome Go, Awesome Datascience, Awesome Lowcode, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/08/27/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-27T09:35:55.445000+00:00</published>
@@ -1534,7 +1574,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/d84cec5207599e09</id>
     <title>Awesome List Updated on Aug 26, 2026</title>
     <updated>2026-08-26T01:54:51.200000+00:00</updated>
-    <content>11 awesome list updated on Aug 26, 2026, including Awesome V, Awesome Polars, Awesome WSL, Awesome Windows, Free for Dev, Awesome Testing, Awesome Osint, Awesome Datascience, Public Apis, Awesome Gemini Cli, Awesome Go</content>
+    <content>11 awesome list updated on Aug 26, 2026, including Awesome V, Awesome Polars, Awesome WSL, Awesome Windows, Free for Dev, Awesome Testing, Awesome Osint, Public Apis, Awesome Gemini Cli, Awesome Go, Awesome Datascience</content>
     <link href="https://www.trackawesomelist.com/2026/08/26/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-26T01:54:51.200000+00:00</published>
@@ -1609,7 +1649,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/91d67946c3ccde5f</id>
     <title>Awesome List Updated on Aug 25, 2026</title>
     <updated>2026-08-25T01:48:33.961000+00:00</updated>
-    <content>15 awesome list updated on Aug 25, 2026, including Awesome Fastapi, Awesome Web Performance Budget, Awesome Cakephp, Awesome Malware Persistence, Awesome Polars, Awesome Capacitorjs, ALL About RSS, Awesome Integration, Magictools, Awesome Amazon Seller, Awesome Machine Learning, Free for Dev, Awesome Terraform, Awesome Mac, Awesome Go</content>
+    <content>15 awesome list updated on Aug 25, 2026, including Awesome Fastapi, Awesome Web Performance Budget, Awesome Cakephp, Awesome Malware Persistence, Awesome Polars, Awesome Capacitorjs, ALL About RSS, Awesome Integration, Magictools, Awesome Machine Learning, Free for Dev, Awesome Go, Awesome Terraform, Awesome Amazon Seller, Awesome Mac</content>
     <link href="https://www.trackawesomelist.com/2026/08/25/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-25T01:48:33.961000+00:00</published>
@@ -1749,7 +1789,7 @@ parameter. The preferred co</content>
     <id>tag:trvny.github.io,2024:feedseek/github/88a2f21fe49ef98f</id>
     <title>Awesome List Updated on Aug 31 - Sep 06, 2026</title>
     <updated>2026-08-24T01:54:20.715000+00:00</updated>
-    <content>54 awesome list updated on Aug 31 - Sep 06, 2026, including Awesome Love2d, Awesome Ffmpeg, Awesome Ansible, Awesome Fastapi, Awesome Web Performance Budget, Awesome Cakephp, Awesome Malware Persistence, Awesome V, Awesome Polars, Awesome Graphql, Awesome Design Systems, Awesome Ddd, Awesome React Native, Awesome Talks, Awesome Ci, Awesome Lowcode, Awesome Qgis, Awesome Dev Fun, Awesome Embedded Rust, Awesome Slack, Awesome Userscripts, Static Analysis, Awesome Open Hardware, Awesome Capacitorjs</content>
+    <content>54 awesome list updated on Aug 31 - Sep 06, 2026, including Awesome Love2d, Awesome Ffmpeg, Awesome Ansible, Awesome Fastapi, Awesome Web Performance Budget, Awesome Cakephp, Awesome Malware Persistence, Awesome V, Awesome Polars, Awesome Graphql, Awesome Design Systems, Awesome Ddd, Awesome React Native, Awesome Talks, Awesome Ci, Awesome Qgis, Awesome Dev Fun, Awesome Embedded Rust, Awesome Slack, Awesome Userscripts, Static Analysis, Awesome Open Hardware, Awesome Capacitorjs, ALL About RSS, </content>
     <link href="https://www.trackawesomelist.com/2026/35/" rel="alternate"/>
     <category term="Track Awesome List" label="Track Awesome List"/>
     <published>2026-08-24T01:54:20.715000+00:00</published>
@@ -2694,31 +2734,6 @@ parameter. The preferred co</content>
     </media:group>
     <dc:creator>GitHub Status</dc:creator>
     <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/605f3c92bc7047da</id>
-    <title>Awesome List Updated on Aug 10, 2026</title>
-    <updated>2026-08-10T02:30:14.603000+00:00</updated>
-    <content>10 awesome list updated on Aug 10, 2026, including Typography, Awesome Mac, Awesome Go, Awesome Claude Code, Awesome Datascience, Tips, Awesome Iot, Awesome Mqtt, Awesome Icons, Awesome Selfhosted</content>
-    <link href="https://www.trackawesomelist.com/2026/08/10/" rel="alternate"/>
-    <category term="Track Awesome List" label="Track Awesome List"/>
-    <published>2026-08-10T02:30:14.603000+00:00</published>
-    <dc:creator>Track Awesome List</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/203b8f8fcebf3cad</id>
-    <title>Awesome List Updated on Aug 17 - Aug 23, 2026</title>
-    <updated>2026-08-10T02:30:14.603000+00:00</updated>
-    <content>49 awesome list updated on Aug 17 - Aug 23, 2026, including Typography, Tips, Awesome Iot, Typedb Awesome, Awesome Agents, Awesome Icons, Awesome Langchain, Awesome Irc, Awesome Fiber, Awesome Ruby, Awesome Cmake, Awesome Audio Visualization, Awesome Deno, Awesome Zig, Awesome Math, Awesome Tailwindcss, Awesome Open Source Games, Awesome Artificial Intelligence, Awesome Game Engine Dev, Awesome V, Awesome Graphql, Awesome Ddd, Awesome Lowcode, Awesome Embedded Rust, Awesome Computational Biology</content>
-    <link href="https://www.trackawesomelist.com/2026/33/" rel="alternate"/>
-    <category term="Track Awesome List" label="Track Awesome List"/>
-    <published>2026-08-10T02:30:14.603000+00:00</published>
-    <media:group>
-      <media:content url="https://img.shields.io/github/stars/langchain-ai/langchain?style=social" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://img.shields.io/github/stars/langchain-ai/langchain?style=social"/>
-    </media:group>
-    <dc:creator>Track Awesome List</dc:creator>
-    <link rel="enclosure" href="https://img.shields.io/github/stars/langchain-ai/langchain?style=social" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/4b5643e7a12eed13</id>
@@ -3911,16 +3926,6 @@ https://git-annex.branchable.com/tips/how_to_make_a_s</content>
     <dc:creator>Mergify Changelog</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/ca72c4c995a8c07f</id>
-    <title>Safe templating for GitHub Actions workflow inputs</title>
-    <updated>2026-06-29T00:00:00+00:00</updated>
-    <content>Workflow-dispatch inputs in the github_actions action now use safe {{ variable }} templating, with raw Jinja2 deprecated.</content>
-    <link href="https://docs.mergify.com/changelog/2026-06-29-safe-templating-for-github-actions-workflow-inputs/" rel="alternate"/>
-    <category term="Mergify Changelog" label="Mergify Changelog"/>
-    <published>2026-06-29T00:00:00+00:00</published>
-    <dc:creator>Mergify Changelog</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/5e94abbecf00b7da</id>
     <title>Weekly Update – June 29, 2026</title>
     <updated>2026-06-29T00:00:00+00:00</updated>
@@ -3934,6 +3939,16 @@ https://git-annex.branchable.com/tips/how_to_make_a_s</content>
     </media:group>
     <dc:creator>GitHub Agentic Workflows</dc:creator>
     <link rel="enclosure" href="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/ca72c4c995a8c07f</id>
+    <title>Safe templating for GitHub Actions workflow inputs</title>
+    <updated>2026-06-29T00:00:00+00:00</updated>
+    <content>Workflow-dispatch inputs in the github_actions action now use safe {{ variable }} templating, with raw Jinja2 deprecated.</content>
+    <link href="https://docs.mergify.com/changelog/2026-06-29-safe-templating-for-github-actions-workflow-inputs/" rel="alternate"/>
+    <category term="Mergify Changelog" label="Mergify Changelog"/>
+    <published>2026-06-29T00:00:00+00:00</published>
+    <dc:creator>Mergify Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/82ae11bbbd140343</id>
@@ -4214,21 +4229,6 @@ than MD5 or SHA1. Improve handling of synced/master and s</content>
     </media:group>
     <dc:creator>Tower</dc:creator>
     <link rel="enclosure" href="https://www.git-tower.com/blog/media/pages/posts/jujutsu/07a4d3d03a-1785937849/og.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/4e828b4ff42fa65e</id>
-    <title>Effective Tokens replaced by AI Credits</title>
-    <updated>2026-06-08T00:00:00+00:00</updated>
-    <content>The latest gh-aw build uses AI Credits (AIC) as the primary spend metric and keeps Effective Tokens (ET) as a legacy compatibility field.</content>
-    <link href="https://github.github.com/gh-aw/blog/2026-06-08-migrating-from-effective-tokens-to-ai-credits/" rel="alternate"/>
-    <category term="GitHub Agentic Workflows" label="GitHub Agentic Workflows"/>
-    <published>2026-06-08T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.github.com/gh-aw/og-hero-1200x630.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>GitHub Agentic Workflows</dc:creator>
-    <link rel="enclosure" href="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/b9e1c3c11b52f21a</id>

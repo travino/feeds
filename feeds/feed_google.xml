@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-09-07T00:18:09.356962+00:00</updated>
+  <updated>2026-09-07T05:09:35.441871+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://blog.google/favicon.ico</icon>
   <logo>https://blog.google/favicon.ico</logo>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac</id>
+    <title>Backing 16 green AI projects in Asia-Pacific</title>
+    <updated>2026-09-07T01:00:00+00:00</updated>
+    <content type="html">A cluster of iridescent, crystalline cubes intertwined with lush green foliage</content>
+    <link href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/ai-planet-accelerator-apac" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-07T01:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG_0934.JPG_1.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG_0934.JPG_1.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/IMG_0934.JPG_1.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>https://docs.cloud.google.com/release-notes#September_06_2026</id>
     <title>Cloud Release Notes — September 06, 2026</title>
@@ -28541,19 +28555,5 @@ to generate a PQC key pair and create an attestor, see
       <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-2600x2600.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/09_-_Data_Analytics_tFH57V6.max-2600x2600.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://workspaceupdates.googleblog.com/2026/07/import-and-create-combo-charts-in-Google-Sheets.html</id>
-    <title>Import and create combo charts in Google Sheets</title>
-    <updated>2026-07-20T17:30:35+00:00</updated>
-    <content type="html">Google Sheets now offers enhanced support for combo charts, providing a more seamless experience when creating multi-series visualizations. Users can create new “Combo” chart types, enabling complex dataset visualization with different scales and metrics without requiring manual re-plotting. These include:&lt;div&gt;&lt;br /&gt;&lt;div&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Clustered Column - Line&lt;/li&gt;&lt;li&gt;Clustered Column - Line on Secondary Axis&lt;/li&gt;&lt;li&gt;Custom Combo&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div&gt;Sheets combo chart support also comes with enhanced Microsoft Excel import compatibility. Previously, importing external files that contained combo charts with a secondary axis would result in the secondary axis being dropped. This update ensures that secondary axis configurations and combo chart types are preserved during file import.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu9RcdUjK5Z9hkBQX7Z87mRMidxzVVT_4B8yEtSbj2qpg-mz1tIiSMR0qLMXRDLGSsyxhxxVL_TtOJ0qOCTefWK6pi7u3ZIX6aJRRdsSNlQLU-f-VWRCcXYVOEv-4Pe4ilBNRY9tTl3OdWg4DyPT3n42RoL_tzzQQDpo0Wn73kX_WoDg4rwpCE5JVXKDM/s2048/Import%20and%20create%20combo%20charts%20in%20Google%20Sheets%20-%206843.png" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu9RcdUjK5Z9hkBQX7Z87mRMidxzVVT_4B8yEtSbj2qpg-mz1tIiSMR0qLMXRDLGSsyxhxxVL_TtOJ0qOCTefWK6pi7u3ZIX6aJRRdsSNlQLU-f-VWRCcXYVOEv-4Pe4ilBNRY9tTl3OdWg4DyPT3n42RoL_tzzQQDpo0Wn73kX_WoDg4rwpCE5JVXKDM/s1600/Import%20and%20create%20combo%20charts%20in%20Google%20Sheets%20-%206843.png" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;User creating a combo chart in Google Sheets&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins: &lt;/b&gt;There is no admin control for this feature.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users: &lt;/b&gt;Visit the Help Center to &lt;a href="https://support.google.com/docs/answer/63824" target="_blank"&gt;learn more about adding and editing a chart in Google Sheets.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) starting on July 20, 2026&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Scheduled Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) starting on August 4, 2026&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Available to all Google Workspace customers and users with personal Google accounts&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;div&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Docs Editors Help: &lt;a href="https://support.google.com/docs/answer/63824" target="_blank"&gt;Add &amp;amp; edit a chart or graph&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;</content>
-    <link href="https://workspaceupdates.googleblog.com/2026/07/import-and-create-combo-charts-in-Google-Sheets.html" rel="alternate"/>
-    <category term="Workspace Updates"/>
-    <published>2026-07-20T17:30:35+00:00</published>
-    <media:group>
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu9RcdUjK5Z9hkBQX7Z87mRMidxzVVT_4B8yEtSbj2qpg-mz1tIiSMR0qLMXRDLGSsyxhxxVL_TtOJ0qOCTefWK6pi7u3ZIX6aJRRdsSNlQLU-f-VWRCcXYVOEv-4Pe4ilBNRY9tTl3OdWg4DyPT3n42RoL_tzzQQDpo0Wn73kX_WoDg4rwpCE5JVXKDM/s72-c/Import%20and%20create%20combo%20charts%20in%20Google%20Sheets%20-%206843.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu9RcdUjK5Z9hkBQX7Z87mRMidxzVVT_4B8yEtSbj2qpg-mz1tIiSMR0qLMXRDLGSsyxhxxVL_TtOJ0qOCTefWK6pi7u3ZIX6aJRRdsSNlQLU-f-VWRCcXYVOEv-4Pe4ilBNRY9tTl3OdWg4DyPT3n42RoL_tzzQQDpo0Wn73kX_WoDg4rwpCE5JVXKDM/s72-c/Import%20and%20create%20combo%20charts%20in%20Google%20Sheets%20-%206843.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu9RcdUjK5Z9hkBQX7Z87mRMidxzVVT_4B8yEtSbj2qpg-mz1tIiSMR0qLMXRDLGSsyxhxxVL_TtOJ0qOCTefWK6pi7u3ZIX6aJRRdsSNlQLU-f-VWRCcXYVOEv-4Pe4ilBNRY9tTl3OdWg4DyPT3n42RoL_tzzQQDpo0Wn73kX_WoDg4rwpCE5JVXKDM/s72-c/Import%20and%20create%20combo%20charts%20in%20Google%20Sheets%20-%206843.png" type="image/png" length="0"/>
   </entry>
 </feed>

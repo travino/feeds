@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T23:18:21.177979+00:00",
+  "last_updated": "2026-09-07T05:09:29.332510+00:00",
   "entries": [
     {
       "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
@@ -9,6 +9,15 @@
       "source": "Hugging Face Trending Papers",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/1910.03771.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/369c93f1c6a69931"
+    },
+    {
+      "title": "PyTorch Distributed: Experiences on Accelerating Data Parallel Training",
+      "link": "https://huggingface.co/papers/2006.15704",
+      "date": "2020-06-28T00:00:00+00:00",
+      "description": "The PyTorch distributed data parallel module optimizes large-scale model training using techniques like gradient bucketing, computation-communication overlap, and selective synchronization to achieve near-linear scalability.",
+      "source": "Hugging Face Trending Papers",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2006.15704.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/7d5c75283bda6a63"
     },
     {
       "title": "3D Gaussian Splatting for Real-Time Radiance Field Rendering",
@@ -1575,6 +1584,15 @@
       "source": "Hugging Face Posts",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/darkc0de/905295038508354.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/eec0b7a941332133"
+    },
+    {
+      "title": "Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it.",
+      "link": "https://huggingface.co/posts/lucifertrj/522449422051774",
+      "date": "2026-09-07T05:09:26.080864+00:00",
+      "description": "Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it. It also includes a benchmark comparing float32, scalar, binary and TurboQuant across BEIR's SciFact, ArguAna and NFCorpus, measured with recall@10, precision@10 and nDCG@10. 🔗 HF article: https://huggingface.co/blog/lucifertrj/turboquant-quantization-explained",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/9babf4556d990556"
     }
   ]
 }

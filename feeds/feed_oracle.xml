@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-07T00:18:49.304999+00:00</updated>
+  <updated>2026-09-07T05:10:12.279865+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/0b57934584f6e5c4</id>
+    <title>Request to Unlock Oracle APEX Account and System Enhancement Suggestion</title>
+    <updated>2026-09-07T04:53:28.890103+00:00</updated>
+    <content>Dear Support Team, I hope you are doing well. My Oracle APEX account has been locked, and I am currently unable to access my workspace. I kindly request you to unlock my account. Please find my account details below: Workspace: HAMZASHAFIQUE535 Username: hamzashafique535@gmail.com Additionally, I would like to suggest a system enhancement. It would be helpful if users could have a self-service option to unlock their accounts, similar to a password reset process. This would allow users to restore</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/request-to-unlock-oracle-apex-account-and-system-enhancemen-6596" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-07T04:53:28.890103+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/dea53f24f1ffca20</id>
+    <title>Oracle APEX Free Workspace Account Locked – Unable to Reset Password</title>
+    <updated>2026-09-07T01:39:52.501027+00:00</updated>
+    <content>Hi Oracle APEX Team, I am using the free Oracle APEX hosted service at oracleapex.com. My APEX workspace user account has been locked after multiple unsuccessful login attempts. I am unable to access the workspace. I tried the available Reset Password option, but I am still unable to regain access to the account. I also do not have another workspace administrator account through which I can unlock my user account. Could you please help me unlock my workspace account or advise me on the appropria</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/oracle-apex-free-workspace-account-locked-unable-to-reset-p-5096" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-07T01:39:52.501027+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/cfdf14c3e99863d8</id>
     <title>ORA-07445 [kkqojeanl] &amp;#x2F; [kqlpgCallback] SIGSEGV After Patching to 19.32 RU (Regression with Large IN-List Bind Variables)</title>
@@ -321,36 +351,6 @@
     </media:group>
     <dc:creator>Oracle Press Releases</dc:creator>
     <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-rudy.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/c1d71a29c5306054</id>
-    <title>Oracle Field Service - Plugin limitation</title>
-    <updated>2026-09-03T15:32:11.364147+00:00</updated>
-    <content>Hi, I would like to know if there is any limitation to the number of properties that can be added in a plugin in OFS.</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/oracle-field-service-plugin-limitation-2141" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-03T15:32:11.364147+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/0afd2c7b9f7ddf3d</id>
-    <title>View as Text disabled</title>
-    <updated>2026-09-03T14:26:19.140961+00:00</updated>
-    <content>Why the View as Text option to see the content of a BLOB or CLOB is now disabled? It used to be enabled in previous versions.</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/viem-as-text-disabled-3463" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-03T14:26:19.140961+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/NerUNoJw-3634-aFMGamUt" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/NerUNoJw-3634-aFMGamUt"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/NerUNoJw-3634-aFMGamUt" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/ab0cbda8ed3b8b78</id>

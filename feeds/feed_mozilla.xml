@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-07T00:18:39.745524+00:00</updated>
+  <updated>2026-09-07T05:09:59.822195+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/85689cd5ed0faf39</id>
+    <title>"Edit PDF" desktop drawing feature unpleasant.</title>
+    <updated>2026-09-07T01:51:56+00:00</updated>
+    <content>The Firefox built-in PDF file editor has been out for a while now, however it greatly needs improvement. The main issue I want to highlight is with the pencil tool. When you draw something, deselect the tool, and go back to draw something over it, you cannot. Instead, it opens a selection box, since you clicked on the drawing. Another issue is that drawings made using the highlighter tool can't be moved or scaled, which is inconsistent with the behavior of the pencil tool. The attached GIF shows</content>
+    <link href="https://connect.mozilla.org/t5/discussions/quot-edit-pdf-quot-desktop-drawing-feature-unpleasant/m-p/137378#M55603" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T01:51:56+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/8c9ab55dd7cc2d8a</id>
     <title>Individual Password Name</title>
@@ -417,21 +432,6 @@ Other Changes:
     <link href="https://connect.mozilla.org/t5/discussions/breaking-6-niche-browser-breaks-all-shared-server-non-https/m-p/136881#M55379" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-03T14:17:24+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/a6002168e21f87df</id>
-    <title>What blockchain can be used for cryptocurrency development?</title>
-    <updated>2026-09-03T11:43:15+00:00</updated>
-    <content>Several blockchain networks can be used for cryptocurrency development, depending on the project's goals, budget, scalability needs, and required features. Ethereum is widely used for token development because of its established smart contract ecosystem and broad wallet and application support. BNB Chain is another popular option, particularly for projects looking for lower transaction costs and access to an active Web3 ecosystem. Solana is suitable for projects that require high transaction thr</content>
-    <link href="https://connect.mozilla.org/t5/discussions/what-blockchain-can-be-used-for-cryptocurrency-development/m-p/136852#M55361" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-03T11:43:15+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>

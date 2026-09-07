@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T00:18:53.877549+00:00",
+  "last_updated": "2026-09-07T05:10:15.248432+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -7599,20 +7599,11 @@
     {
       "title": "Graham Dumpleton: Phased behaviour in wrapture",
       "link": "https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/",
-      "date": "2026-09-03T21:39:53+00:00",
+      "date": "2026-09-04T00:00:00+00:00",
       "description": "Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a",
       "source": "Planet Python",
       "image": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d"
-    },
-    {
-      "title": "Graham Dumpleton: Beyond callables in wrapture",
-      "link": "https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/",
-      "date": "2026-09-03T21:39:53+00:00",
-      "description": "Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest",
-      "source": "Planet Python",
-      "image": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4"
     },
     {
       "title": "Bob Belderbos: Why does Alembic need an import you never use?",
@@ -7719,6 +7710,15 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/def7a51367852dc9"
+    },
+    {
+      "title": "Graham Dumpleton: Beyond callables in wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/",
+      "date": "2026-09-05T00:00:00+00:00",
+      "description": "Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4"
     },
     {
       "title": "Armin Ronacher: Latent Powers",
@@ -7848,6 +7848,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/c52dc92d322c1c7a"
     },
     {
+      "title": "Glyph Lefkowitz: ... but what about video games?",
+      "link": "https://blog.glyph.im/2026/09/but-what-about-video-games.html",
+      "date": "2026-09-06T22:57:00+00:00",
+      "description": "I get asked this rhetorical question a lot, in various forms: Sure, datacenters might use a lot of energy, but you don’t have to use a\nhosted frontier model to do software development.  What if I just run a local\nopen-weights model to do some coding, with an open-source coding agent?\nVideo games also use my GPU.  Is local model development any worse than\nplaying a video game? So I want to write down my comprehensive answer to this: Yes, using an LLM to\nwrite some code is worse than playing a vid",
+      "source": "Planet Python",
+      "image": "https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/68cfed7ffbc511f7"
+    },
+    {
       "title": "kicad-cruncher 2026.9.7",
       "link": "https://pypi.org/project/kicad-cruncher/2026.9.7/",
       "date": "2026-09-07T00:18:10+00:00",
@@ -7896,6 +7905,65 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e"
+    },
+    {
+      "title": "Graham Dumpleton: Live tracing with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/",
+      "date": "2026-09-07T01:39:16+00:00",
+      "description": "When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding ",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f"
+    },
+    {
+      "title": "karcytics-sdk 2.1.2",
+      "link": "https://pypi.org/project/karcytics-sdk/2.1.2/",
+      "date": "2026-09-07T05:07:55+00:00",
+      "description": "Software Development Kit and CLI for Karcytics.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c38bd192219012da"
+    },
+    {
+      "title": "ariapin 1.21.0",
+      "link": "https://pypi.org/project/ariapin/1.21.0/",
+      "date": "2026-09-07T05:07:56+00:00",
+      "description": "Python client for the ariapin end-side post-training API (LoRA/QLoRA + RL with SFT/DPO/GRPO)",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1e2488204b5e0fdd"
+    },
+    {
+      "title": "marinholab-papers-tro2022-adaptivecontrol 25.6.0.50",
+      "link": "https://pypi.org/project/marinholab-papers-tro2022-adaptivecontrol/25.6.0.50/",
+      "date": "2026-09-07T05:07:58+00:00",
+      "description": "A Python implementation of an example of 'Adaptive Constrained Kinematic Control using Partial or Complete Task-Space Measurements'",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/72136d24c303ca3d"
+    },
+    {
+      "title": "mGFD 0.12.0",
+      "link": "https://pypi.org/project/mgfd/0.12.0/",
+      "date": "2026-09-07T05:08:00+00:00",
+      "description": "mGFD (Meshless Generalized Finite Differences) is a high-performance Python ecosystem designed to solve Partial Differential Equations (PDEs) directly on unstructured point clouds, bypassing traditional mesh generation.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/67e84f12e45f66e9"
+    },
+    {
+      "title": "vader-hybrid 0.2.0",
+      "link": "https://pypi.org/project/vader-hybrid/0.2.0/",
+      "date": "2026-09-07T05:08:23+00:00",
+      "description": "Hybrid VADER + transformer sentiment analysis with speed/accuracy tradeoff control",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2a9f3b6e8801786a"
     },
     {
       "title": "Linguistic drift at the frontier | Pydantic",

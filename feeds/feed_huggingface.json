@@ -8,6 +8,29 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/9babf4556d990556",
+      "url": "https://huggingface.co/posts/lucifertrj/522449422051774",
+      "title": "Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it.",
+      "content_text": "Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it. It also includes a benchmark comparing float32, scalar, binary and TurboQuant across BEIR's SciFact, ArguAna and NFCorpus, measured with recall@10, precision@10 and nDCG@10. 🔗 HF article: https://huggingface.co/blog/lucifertrj/turboquant-quantization-explained",
+      "date_published": "2026-09-07T05:09:26Z",
+      "date_modified": "2026-09-07T05:09:26Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/eec0b7a941332133",
       "url": "https://huggingface.co/posts/darkc0de/905295038508354",
       "title": "Big shoutout to Abliterlitics.",
@@ -4005,6 +4028,29 @@
       "attachments": [
         {
           "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2308.04079.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/7d5c75283bda6a63",
+      "url": "https://huggingface.co/papers/2006.15704",
+      "title": "PyTorch Distributed: Experiences on Accelerating Data Parallel Training",
+      "content_text": "The PyTorch distributed data parallel module optimizes large-scale model training using techniques like gradient bucketing, computation-communication overlap, and selective synchronization to achieve near-linear scalability.",
+      "date_published": "2020-06-28T00:00:00Z",
+      "date_modified": "2020-06-28T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2006.15704.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2006.15704.png",
           "mime_type": "image/png"
         }
       ]

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-07T00:18:01.633535+00:00</updated>
+  <updated>2026-09-07T05:09:29.233223+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/9babf4556d990556</id>
+    <title>Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it.</title>
+    <updated>2026-09-07T05:09:26.080864+00:00</updated>
+    <content>Published a guide to TurboQuant quantization: how the algorithm works and what Qdrant adds on top of it. It also includes a benchmark comparing float32, scalar, binary and TurboQuant across BEIR's SciFact, ArguAna and NFCorpus, measured with recall@10, precision@10 and nDCG@10. 🔗 HF article: https://huggingface.co/blog/lucifertrj/turboquant-quantization-explained</content>
+    <link href="https://huggingface.co/posts/lucifertrj/522449422051774" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-07T05:09:26.080864+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/eec0b7a941332133</id>
     <title>Big shoutout to Abliterlitics.</title>
@@ -2621,6 +2636,21 @@
     </media:group>
     <dc:creator>Hugging Face Trending Papers</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2308.04079.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/7d5c75283bda6a63</id>
+    <title>PyTorch Distributed: Experiences on Accelerating Data Parallel Training</title>
+    <updated>2020-06-28T00:00:00+00:00</updated>
+    <content>The PyTorch distributed data parallel module optimizes large-scale model training using techniques like gradient bucketing, computation-communication overlap, and selective synchronization to achieve near-linear scalability.</content>
+    <link href="https://huggingface.co/papers/2006.15704" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2020-06-28T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2006.15704.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2006.15704.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2006.15704.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/369c93f1c6a69931</id>

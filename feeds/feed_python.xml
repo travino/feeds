@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-07T00:18:53.715334+00:00</updated>
+  <updated>2026-09-07T05:10:15.086346+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -26,6 +26,71 @@
     </media:group>
     <dc:creator>Pydantic</dc:creator>
     <link rel="enclosure" href="https://pydantic.dev/articles/linguistic-drift-at-the-frontier/og.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/2a9f3b6e8801786a</id>
+    <title>vader-hybrid 0.2.0</title>
+    <updated>2026-09-07T05:08:23+00:00</updated>
+    <content>Hybrid VADER + transformer sentiment analysis with speed/accuracy tradeoff control</content>
+    <link href="https://pypi.org/project/vader-hybrid/0.2.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-07T05:08:23+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/67e84f12e45f66e9</id>
+    <title>mGFD 0.12.0</title>
+    <updated>2026-09-07T05:08:00+00:00</updated>
+    <content>mGFD (Meshless Generalized Finite Differences) is a high-performance Python ecosystem designed to solve Partial Differential Equations (PDEs) directly on unstructured point clouds, bypassing traditional mesh generation.</content>
+    <link href="https://pypi.org/project/mgfd/0.12.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-07T05:08:00+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/72136d24c303ca3d</id>
+    <title>marinholab-papers-tro2022-adaptivecontrol 25.6.0.50</title>
+    <updated>2026-09-07T05:07:58+00:00</updated>
+    <content>A Python implementation of an example of 'Adaptive Constrained Kinematic Control using Partial or Complete Task-Space Measurements'</content>
+    <link href="https://pypi.org/project/marinholab-papers-tro2022-adaptivecontrol/25.6.0.50/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-07T05:07:58+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/1e2488204b5e0fdd</id>
+    <title>ariapin 1.21.0</title>
+    <updated>2026-09-07T05:07:56+00:00</updated>
+    <content>Python client for the ariapin end-side post-training API (LoRA/QLoRA + RL with SFT/DPO/GRPO)</content>
+    <link href="https://pypi.org/project/ariapin/1.21.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-07T05:07:56+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/c38bd192219012da</id>
+    <title>karcytics-sdk 2.1.2</title>
+    <updated>2026-09-07T05:07:55+00:00</updated>
+    <content>Software Development Kit and CLI for Karcytics.</content>
+    <link href="https://pypi.org/project/karcytics-sdk/2.1.2/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-07T05:07:55+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f</id>
+    <title>Graham Dumpleton: Live tracing with wrapture</title>
+    <updated>2026-09-07T01:39:16+00:00</updated>
+    <content>When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding </content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-07T01:39:16+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e</id>
@@ -76,6 +141,26 @@
     <category term="PyPI Updates" label="PyPI Updates"/>
     <published>2026-09-07T00:18:10+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/68cfed7ffbc511f7</id>
+    <title>Glyph Lefkowitz: ... but what about video games?</title>
+    <updated>2026-09-06T22:57:00+00:00</updated>
+    <content>I get asked this rhetorical question a lot, in various forms: Sure, datacenters might use a lot of energy, but you don’t have to use a
+hosted frontier model to do software development.  What if I just run a local
+open-weights model to do some coding, with an open-source coding agent?
+Video games also use my GPU.  Is local model development any worse than
+playing a video game? So I want to write down my comprehensive answer to this: Yes, using an LLM to
+write some code is worse than playing a vid</content>
+    <link href="https://blog.glyph.im/2026/09/but-what-about-video-games.html" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-06T22:57:00+00:00</published>
+    <media:group>
+      <media:content url="https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/c52dc92d322c1c7a</id>
@@ -208,6 +293,21 @@
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4</id>
+    <title>Graham Dumpleton: Beyond callables in wrapture</title>
+    <updated>2026-09-05T00:00:00+00:00</updated>
+    <content>Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-05T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/0950e50bfcce8da3</id>
     <title>Armin Ronacher: Latent Powers</title>
     <updated>2026-09-05T00:00:00+00:00</updated>
@@ -297,54 +397,19 @@ For much of that time, spaced repetition has been something I would recommend le
     <link rel="enclosure" href="https://treyhunner.com/images/daily-recall-card.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/ea1d7c97ee3a9da2</id>
-    <title>domonic 1.6.0</title>
-    <updated>2026-09-04T00:25:19+00:00</updated>
-    <content>Python DOM toolkit for HTML generation, SVG/XML, CSS selectors, XPath, Web APIs, and JavaScript-like scripting.</content>
-    <link href="https://pypi.org/project/domonic/1.6.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-04T00:25:19+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/b4284e98ac40d60b</id>
-    <title>pybank-slip 0.2.4</title>
-    <updated>2026-09-04T00:25:03+00:00</updated>
-    <content>A framework-agnostic Python library to manage Brazilian bank slips (boletos) across multiple banks.</content>
-    <link href="https://pypi.org/project/pybank-slip/0.2.4/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-04T00:25:03+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/93e02aa143f402dc</id>
-    <title>entigram-ai 2.4.0</title>
-    <updated>2026-09-04T00:25:03+00:00</updated>
-    <content>Schema-first semantic governance layer for enterprise agents</content>
-    <link href="https://pypi.org/project/entigram-ai/2.4.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-04T00:25:03+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/1c1a0a29420141e4</id>
-    <title>code-mower 1.0.4</title>
-    <updated>2026-09-04T00:24:42+00:00</updated>
-    <content>Multi-reviewer AI code audit orchestration</content>
-    <link href="https://pypi.org/project/code-mower/1.0.4/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-04T00:24:42+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2a406bd25a830ebc</id>
-    <title>pyflowlauncher 1.2.1</title>
-    <updated>2026-09-04T00:24:26+00:00</updated>
-    <content>Python library to help build Flow Launcher plugins.</content>
-    <link href="https://pypi.org/project/pyflowlauncher/1.2.1/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-04T00:24:26+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
+    <id>tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d</id>
+    <title>Graham Dumpleton: Phased behaviour in wrapture</title>
+    <updated>2026-09-04T00:00:00+00:00</updated>
+    <content>Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-04T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/2159a4685819df65</id>
@@ -360,36 +425,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://belderbos.dev/images/og/what-table-true-does-sqlmodel.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d</id>
-    <title>Graham Dumpleton: Phased behaviour in wrapture</title>
-    <updated>2026-09-03T21:39:53+00:00</updated>
-    <content>Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-03T21:39:53+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4</id>
-    <title>Graham Dumpleton: Beyond callables in wrapture</title>
-    <updated>2026-09-03T21:39:53+00:00</updated>
-    <content>Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-03T21:39:53+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/d5def26daadb180a</id>
@@ -620,41 +655,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://media.djangoproject.com/blog/images/2026/08/applications_closes.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/d26cdca7c4db21ce</id>
-    <title>James Bennett: Boring Python: dependency management</title>
-    <updated>2026-09-01T16:37:50+00:00</updated>
-    <content>This post has been significantly updated since it was originally written. The most recent update was in September 2026; a summary of what changed is at the end. This is the first in hopefully a series of posts I intend to write about how to build/manage/deploy/etc. Python applications in as boring a way as possible. So before I go any further, I want to be absolutely clear on what I mean by “boring”: I don’t mean “reliable” or “bug-free” or “no incidents”. While there is some overlap, and some o</content>
-    <link href="https://www.b-list.org/weblog/2022/may/13/boring-python-dependencies/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-01T16:37:50+00:00</published>
-    <media:group>
-      <media:content url="https://www.b-list.org/static/b-list/img/og.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.b-list.org/static/b-list/img/og.jpg"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://www.b-list.org/static/b-list/img/og.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/6c267771a3cd2c06</id>
-    <title>Python Bytes: #494 Python Wrapture</title>
-    <updated>2026-09-01T15:39:32+00:00</updated>
-    <content>&lt;strong&gt;Topics covered in this episode:&lt;/strong&gt;&lt;br&gt;
-
-&lt;ul&gt;
-	&lt;li&gt;&lt;strong&gt;&lt;a href="https://github.com/openai/openai-python/blob/main/httpx2.md?featured_on=pythonbytes"&gt;OpenAI's Python SDK has migrated to HTTPX2&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="https://tmog.org?featured_on=pythonbytes"&gt;TMOG - Native Task Manager for macOS, Windows, and Linux&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;a href="http://grahamdumpleton.me/posts/2026/08/introducing-wrapture/?featured_on=pythonbytes"&gt;wrapture - one wrapper for </content>
-    <link href="https://pythonbytes.fm/episodes/show/494/python-wrapture" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-01T15:39:32+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.pythonbytes.fm/episodes/youtube_image/4AUE4ewgN38?v=1" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.pythonbytes.fm/episodes/youtube_image/4AUE4ewgN38?v=1"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://cdn.pythonbytes.fm/episodes/youtube_image/4AUE4ewgN38?v=1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7767a1637395e669</id>

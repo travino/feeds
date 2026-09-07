@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-07T00:18:57.762885+00:00</updated>
+  <updated>2026-09-07T05:10:20.069635+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/4f3bdafad3ab1b7e</id>
+    <title>Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes</title>
+    <updated>2026-09-07T03:00:55+00:00</updated>
+    <content>Red Hat Advanced Cluster Security for Kubernetes provides an image scanning API through its Central component that CI/CD pipelines depend on for vulnerability assessment. Red Hat Advanced Cluster Security upgrades and restarts introduce downtime windows that can block critical build paths. This post describes a reference architecture that eliminates scan API downtime by running two Central service instances with a client-side failover mechanism. The post Reference architecture for HA scanning wi</content>
+    <link href="https://developers.redhat.com/articles/2026/09/07/reference-architecture-for-ha-scanning-with-red-hat-advanced-cluster-security-for-kubernetes" rel="alternate"/>
+    <category term="Red Hat Developer" label="Red Hat Developer"/>
+    <published>2026-09-07T03:00:55+00:00</published>
+    <media:group>
+      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" type="image/png" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Red Hat Developer</dc:creator>
+    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/55e9a7b9dbcf2d6c</id>
     <title>From incident to remediation: Building an AI-driven AIOps workflow with Red Hat Ansible Automation Platform</title>
@@ -893,21 +908,6 @@ from the CVE link(s) in the References section.</content>
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/article_floated/public/figure-1_41.png?itok=PSW5jsKY" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/7dabf925964d281b</id>
-    <title>Improved failure reports on Red Hat OpenShift with the event-driven diagnostic operator</title>
-    <updated>2026-08-21T13:18:15+00:00</updated>
-    <content>Imagine this: It's late. A major incident just rocked your production environment. Teams are scrambling, alarms are flying, and after some emergency actions, the site is back up. Crisis averted? Not really. When you finally sit down to figure out what actually happened, the most important thing—the logs—are gone. Overwritten. Lost in the rush. No clear trigger, no breadcrumbs, just a black hole where your root cause should be. The post Improved failure reports on Red Hat OpenShift with the event</content>
-    <link href="https://developers.redhat.com/articles/2026/08/21/improved-failure-reports-on-red-hat-openshift-with-the-event-driven-diagnostic-operator" rel="alternate"/>
-    <category term="Red Hat Developer" label="Red Hat Developer"/>
-    <published>2026-08-21T13:18:15+00:00</published>
-    <media:group>
-      <media:content url="https://developers.redhat.com/sites/default/files/styles/article_floated/public/1000020100000244000003af39480543dcdbf3ca.webp?itok=MsH6Jkbe" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/article_floated/public/1000020100000244000003af39480543dcdbf3ca.webp?itok=MsH6Jkbe"/>
-    </media:group>
-    <dc:creator>Red Hat Developer</dc:creator>
-    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/article_floated/public/1000020100000244000003af39480543dcdbf3ca.webp?itok=MsH6Jkbe" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/344402f9d22fac9a</id>

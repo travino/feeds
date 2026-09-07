@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T05:04:22.249446+00:00",
+  "last_updated": "2026-09-07T05:10:20.164302+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -5924,6 +5924,17 @@
       "image_width": 1200,
       "image_height": 627,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/55e9a7b9dbcf2d6c"
+    },
+    {
+      "title": "Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes",
+      "link": "https://developers.redhat.com/articles/2026/09/07/reference-architecture-for-ha-scanning-with-red-hat-advanced-cluster-security-for-kubernetes",
+      "date": "2026-09-07T03:00:55+00:00",
+      "description": "Red Hat Advanced Cluster Security for Kubernetes provides an image scanning API through its Central component that CI/CD pipelines depend on for vulnerability assessment. Red Hat Advanced Cluster Security upgrades and restarts introduce downtime windows that can block critical build paths. This post describes a reference architecture that eliminates scan API downtime by running two Central service instances with a client-side failover mechanism. The post Reference architecture for HA scanning wi",
+      "source": "Red Hat Developer",
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG",
+      "image_width": 1200,
+      "image_height": 627,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/4f3bdafad3ab1b7e"
     }
   ]
 }

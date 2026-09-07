@@ -8,6 +8,29 @@
   "icon": "https://www.redhat.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/4f3bdafad3ab1b7e",
+      "url": "https://developers.redhat.com/articles/2026/09/07/reference-architecture-for-ha-scanning-with-red-hat-advanced-cluster-security-for-kubernetes",
+      "title": "Reference architecture for HA scanning with Red Hat Advanced Cluster Security for Kubernetes",
+      "content_text": "Red Hat Advanced Cluster Security for Kubernetes provides an image scanning API through its Central component that CI/CD pipelines depend on for vulnerability assessment. Red Hat Advanced Cluster Security upgrades and restarts introduce downtime windows that can block critical build paths. This post describes a reference architecture that eliminates scan API downtime by running two Central service instances with a client-side failover mechanism. The post Reference architecture for HA scanning wi",
+      "date_published": "2026-09-07T03:00:55Z",
+      "date_modified": "2026-09-07T03:00:55Z",
+      "authors": [
+        {
+          "name": "Red Hat Developer"
+        }
+      ],
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG",
+      "tags": [
+        "Red Hat Developer"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/redhat/55e9a7b9dbcf2d6c",
       "url": "https://developers.redhat.com/articles/2026/09/05/building-an-ai-driven-aiops-workflow-with-red-hat-ansible-automation-platform",
       "title": "From incident to remediation: Building an AI-driven AIOps workflow with Red Hat Ansible Automation Platform",
@@ -1309,29 +1332,6 @@
         {
           "url": "https://developers.redhat.com/sites/default/files/styles/article_floated/public/figure-1_41.png?itok=PSW5jsKY",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/7dabf925964d281b",
-      "url": "https://developers.redhat.com/articles/2026/08/21/improved-failure-reports-on-red-hat-openshift-with-the-event-driven-diagnostic-operator",
-      "title": "Improved failure reports on Red Hat OpenShift with the event-driven diagnostic operator",
-      "content_text": "Imagine this: It's late. A major incident just rocked your production environment. Teams are scrambling, alarms are flying, and after some emergency actions, the site is back up. Crisis averted? Not really. When you finally sit down to figure out what actually happened, the most important thing—the logs—are gone. Overwritten. Lost in the rush. No clear trigger, no breadcrumbs, just a black hole where your root cause should be. The post Improved failure reports on Red Hat OpenShift with the event",
-      "date_published": "2026-08-21T13:18:15Z",
-      "date_modified": "2026-08-21T13:18:15Z",
-      "authors": [
-        {
-          "name": "Red Hat Developer"
-        }
-      ],
-      "image": "https://developers.redhat.com/sites/default/files/styles/article_floated/public/1000020100000244000003af39480543dcdbf3ca.webp?itok=MsH6Jkbe",
-      "tags": [
-        "Red Hat Developer"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.redhat.com/sites/default/files/styles/article_floated/public/1000020100000244000003af39480543dcdbf3ca.webp?itok=MsH6Jkbe",
-          "mime_type": "image/webp"
         }
       ]
     },

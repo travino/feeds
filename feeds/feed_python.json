@@ -31,6 +31,109 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/2a9f3b6e8801786a",
+      "url": "https://pypi.org/project/vader-hybrid/0.2.0/",
+      "title": "vader-hybrid 0.2.0",
+      "content_text": "Hybrid VADER + transformer sentiment analysis with speed/accuracy tradeoff control",
+      "date_published": "2026-09-07T05:08:23Z",
+      "date_modified": "2026-09-07T05:08:23Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/67e84f12e45f66e9",
+      "url": "https://pypi.org/project/mgfd/0.12.0/",
+      "title": "mGFD 0.12.0",
+      "content_text": "mGFD (Meshless Generalized Finite Differences) is a high-performance Python ecosystem designed to solve Partial Differential Equations (PDEs) directly on unstructured point clouds, bypassing traditional mesh generation.",
+      "date_published": "2026-09-07T05:08:00Z",
+      "date_modified": "2026-09-07T05:08:00Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/72136d24c303ca3d",
+      "url": "https://pypi.org/project/marinholab-papers-tro2022-adaptivecontrol/25.6.0.50/",
+      "title": "marinholab-papers-tro2022-adaptivecontrol 25.6.0.50",
+      "content_text": "A Python implementation of an example of 'Adaptive Constrained Kinematic Control using Partial or Complete Task-Space Measurements'",
+      "date_published": "2026-09-07T05:07:58Z",
+      "date_modified": "2026-09-07T05:07:58Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/1e2488204b5e0fdd",
+      "url": "https://pypi.org/project/ariapin/1.21.0/",
+      "title": "ariapin 1.21.0",
+      "content_text": "Python client for the ariapin end-side post-training API (LoRA/QLoRA + RL with SFT/DPO/GRPO)",
+      "date_published": "2026-09-07T05:07:56Z",
+      "date_modified": "2026-09-07T05:07:56Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/c38bd192219012da",
+      "url": "https://pypi.org/project/karcytics-sdk/2.1.2/",
+      "title": "karcytics-sdk 2.1.2",
+      "content_text": "Software Development Kit and CLI for Karcytics.",
+      "date_published": "2026-09-07T05:07:55Z",
+      "date_modified": "2026-09-07T05:07:55Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f",
+      "url": "https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/",
+      "title": "Graham Dumpleton: Live tracing with wrapture",
+      "content_text": "When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding",
+      "date_published": "2026-09-07T01:39:16Z",
+      "date_modified": "2026-09-07T01:39:16Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e",
       "url": "https://pypi.org/project/aisbom-cli/1.4.0/",
       "title": "aisbom-cli 1.4.0",
@@ -108,6 +211,29 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/68cfed7ffbc511f7",
+      "url": "https://blog.glyph.im/2026/09/but-what-about-video-games.html",
+      "title": "Glyph Lefkowitz: ... but what about video games?",
+      "content_text": "I get asked this rhetorical question a lot, in various forms: Sure, datacenters might use a lot of energy, but you don’t have to use a\nhosted frontier model to do software development.  What if I just run a local\nopen-weights model to do some coding, with an open-source coding agent?\nVideo games also use my GPU.  Is local model development any worse than\nplaying a video game? So I want to write down my comprehensive answer to this: Yes, using an LLM to\nwrite some code is worse than playing a vid",
+      "date_published": "2026-09-06T22:57:00Z",
+      "date_modified": "2026-09-06T22:57:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png",
+          "mime_type": "image/png"
+        }
       ]
     },
     {
@@ -317,6 +443,29 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4",
+      "url": "https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/",
+      "title": "Graham Dumpleton: Beyond callables in wrapture",
+      "content_text": "Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest",
+      "date_published": "2026-09-05T00:00:00Z",
+      "date_modified": "2026-09-05T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/0950e50bfcce8da3",
       "url": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
       "title": "Armin Ronacher: Latent Powers",
@@ -441,83 +590,26 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/ea1d7c97ee3a9da2",
-      "url": "https://pypi.org/project/domonic/1.6.0/",
-      "title": "domonic 1.6.0",
-      "content_text": "Python DOM toolkit for HTML generation, SVG/XML, CSS selectors, XPath, Web APIs, and JavaScript-like scripting.",
-      "date_published": "2026-09-04T00:25:19Z",
-      "date_modified": "2026-09-04T00:25:19Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d",
+      "url": "https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/",
+      "title": "Graham Dumpleton: Phased behaviour in wrapture",
+      "content_text": "Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a",
+      "date_published": "2026-09-04T00:00:00Z",
+      "date_modified": "2026-09-04T00:00:00Z",
       "authors": [
         {
-          "name": "PyPI Updates"
+          "name": "Planet Python"
         }
       ],
+      "image": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
       "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/b4284e98ac40d60b",
-      "url": "https://pypi.org/project/pybank-slip/0.2.4/",
-      "title": "pybank-slip 0.2.4",
-      "content_text": "A framework-agnostic Python library to manage Brazilian bank slips (boletos) across multiple banks.",
-      "date_published": "2026-09-04T00:25:03Z",
-      "date_modified": "2026-09-04T00:25:03Z",
-      "authors": [
+        "Planet Python"
+      ],
+      "attachments": [
         {
-          "name": "PyPI Updates"
+          "url": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
         }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/93e02aa143f402dc",
-      "url": "https://pypi.org/project/entigram-ai/2.4.0/",
-      "title": "entigram-ai 2.4.0",
-      "content_text": "Schema-first semantic governance layer for enterprise agents",
-      "date_published": "2026-09-04T00:25:03Z",
-      "date_modified": "2026-09-04T00:25:03Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/1c1a0a29420141e4",
-      "url": "https://pypi.org/project/code-mower/1.0.4/",
-      "title": "code-mower 1.0.4",
-      "content_text": "Multi-reviewer AI code audit orchestration",
-      "date_published": "2026-09-04T00:24:42Z",
-      "date_modified": "2026-09-04T00:24:42Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/2a406bd25a830ebc",
-      "url": "https://pypi.org/project/pyflowlauncher/1.2.1/",
-      "title": "pyflowlauncher 1.2.1",
-      "content_text": "Python library to help build Flow Launcher plugins.",
-      "date_published": "2026-09-04T00:24:26Z",
-      "date_modified": "2026-09-04T00:24:26Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
       ]
     },
     {
@@ -540,52 +632,6 @@
         {
           "url": "https://belderbos.dev/images/og/what-table-true-does-sqlmodel.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d",
-      "url": "https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/",
-      "title": "Graham Dumpleton: Phased behaviour in wrapture",
-      "content_text": "Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a",
-      "date_published": "2026-09-03T21:39:53Z",
-      "date_modified": "2026-09-03T21:39:53Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4",
-      "url": "https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/",
-      "title": "Graham Dumpleton: Beyond callables in wrapture",
-      "content_text": "Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest",
-      "date_published": "2026-09-03T21:39:53Z",
-      "date_modified": "2026-09-03T21:39:53Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -940,52 +986,6 @@
         {
           "url": "https://media.djangoproject.com/blog/images/2026/08/applications_closes.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/d26cdca7c4db21ce",
-      "url": "https://www.b-list.org/weblog/2022/may/13/boring-python-dependencies/",
-      "title": "James Bennett: Boring Python: dependency management",
-      "content_text": "This post has been significantly updated since it was originally written. The most recent update was in September 2026; a summary of what changed is at the end. This is the first in hopefully a series of posts I intend to write about how to build/manage/deploy/etc. Python applications in as boring a way as possible. So before I go any further, I want to be absolutely clear on what I mean by “boring”: I don’t mean “reliable” or “bug-free” or “no incidents”. While there is some overlap, and some o",
-      "date_published": "2026-09-01T16:37:50Z",
-      "date_modified": "2026-09-01T16:37:50Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://www.b-list.org/static/b-list/img/og.jpg",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.b-list.org/static/b-list/img/og.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/6c267771a3cd2c06",
-      "url": "https://pythonbytes.fm/episodes/show/494/python-wrapture",
-      "title": "Python Bytes: #494 Python Wrapture",
-      "content_text": "<strong>Topics covered in this episode:</strong><br>\n\n<ul>\n\t<li><strong><a href=\"https://github.com/openai/openai-python/blob/main/httpx2.md?featured_on=pythonbytes\">OpenAI's Python SDK has migrated to HTTPX2</a></strong></li>\n<li><strong><a href=\"https://tmog.org?featured_on=pythonbytes\">TMOG - Native Task Manager for macOS, Windows, and Linux</a></strong></li>\n<li><strong><a href=\"http://grahamdumpleton.me/posts/2026/08/introducing-wrapture/?featured_on=pythonbytes\">wrapture - one wrapper for",
-      "date_published": "2026-09-01T15:39:32Z",
-      "date_modified": "2026-09-01T15:39:32Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://cdn.pythonbytes.fm/episodes/youtube_image/4AUE4ewgN38?v=1",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.pythonbytes.fm/episodes/youtube_image/4AUE4ewgN38?v=1",
-          "mime_type": "image/jpeg"
         }
       ]
     },
