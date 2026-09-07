@@ -64,7 +64,8 @@ display, while literal angle-bracket text in `content_text` is preserved.
 - Tool arguments are validated server-side instead of relying on client validation.
 - The existing constrained fetch proxy remains unchanged; `/mcp` is routed separately.
 - The public app policy is maintained in [`PRIVACY.md`](../PRIVACY.md); service terms are in
-  [`TERMS.md`](../TERMS.md).
+  [`TERMS.md`](../TERMS.md), and user-facing support information is in
+  [`SUPPORT.md`](../SUPPORT.md).
 
 ## ChatGPT testing and installation
 
@@ -81,26 +82,50 @@ tool annotations, and exactly five positive plus three negative test cases.
 
 ## Directory submission checklist
 
-Use these values when filling the current OpenAI app submission form:
+Open the OpenAI plugin submission portal at `https://platform.openai.com/plugins`, select
+**Create plugin**, and choose **With MCP**. Feedseek uses one universal public endpoint.
+
+Use these values when filling the current OpenAI submission form:
 
 | Field | Value |
 | --- | --- |
 | Display name | `Feedseek` |
 | Category | `NEWS` |
+| MCP type | Universal |
 | MCP server | `https://feeds.trfny.com/mcp` |
 | Authentication | None; public read-only data |
 | Homepage | `https://trvny.github.io/feedseek/` |
 | Source | `https://github.com/trvny/feedseek` |
+| Support | `https://github.com/trvny/feedseek/blob/main/SUPPORT.md` |
 | Privacy policy | `https://github.com/trvny/feedseek/blob/main/PRIVACY.md` |
 | Terms | `https://github.com/trvny/feedseek/blob/main/TERMS.md` |
 | App icon | `assets/icons/android-chrome-512x512.png` |
 | Submission import | `chatgpt-app-submission.json` |
 
-Before submission, verify the production MCP endpoint and both policy links over HTTPS and
-upload/import `chatgpt-app-submission.json` into the review form. The app is tool-only, so it
-has no widget CSP to declare. All three tools explicitly declare `readOnlyHint: true`,
-`openWorldHint: false`, and `destructiveHint: false`, and each tool declares an
-`outputSchema`.
+Before submission:
+
+1. Confirm the submitting OpenAI Platform organization has **Apps Management: Write** and
+   select a verified individual or business identity whose public details match the listing.
+2. Enter `https://feeds.trfny.com/mcp`, choose no authentication, then select **Scan Tools**.
+3. If the portal requests domain verification, copy its exact token into the production
+   Cloudflare Worker variable `OPENAI_APPS_CHALLENGE`. The Worker serves that value verbatim at
+   `https://feeds.trfny.com/.well-known/openai-apps-challenge`; without a configured token the
+   route returns 404. Verify the URL, then retry domain verification in the portal.
+4. Verify the production MCP endpoint and the public support/privacy/terms links over HTTPS.
+5. Use the five positive and three negative cases from `chatgpt-app-submission.json`, add
+   realistic starter prompts, choose the intended countries/regions, and describe this as the
+   initial Feedseek submission in the release notes.
+
+The app is tool-only, so it has no widget CSP to declare. All three tools explicitly declare
+`readOnlyHint: true`, `openWorldHint: false`, and `destructiveHint: false`, and each tool
+declares an `outputSchema`.
+
+### Suggested starter prompts
+
+- `What is new in AI in Feedseek over the last 24 hours?`
+- `Search Feedseek for Cloudflare Workers.`
+- `Find the newest Audacity item and show me the full entry.`
+- `Give me compact Feedseek candidates for a 48-hour tech digest.`
 
 ### Review-facing scope
 
@@ -115,7 +140,8 @@ codes, biometrics, or other sensitive identifiers.
 ## Deployment
 
 `feeds-proxy/` is already deployed from `main` by Cloudflare Workers Builds. Its Wrangler
-entry point composes the existing fetch proxy with the new `/mcp` route.
+entry point composes the existing fetch proxy with the `/mcp` route and the OpenAI domain
+verification route.
 
 GitHub Pages builds `feedseek-search-index.json` alongside the public Feedseek site. The Pages
 workflow also runs after the regular feed-update workflow, so the MCP index follows the same
