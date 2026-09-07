@@ -11,6 +11,7 @@ import subprocess
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
+from urllib.parse import urlparse
 
 import yaml
 
@@ -20,6 +21,7 @@ REGISTRY_PATH = ROOT / "feeds.yaml"
 OUT_PATH = ROOT / "public" / "feedseek-search-index.json"
 WINDOW_DAYS = 14
 MAX_ITEMS = 5000
+MIN_ITEMS_PER_FEED = 5
 MAX_UNDATED_PER_FEED = 5
 SUMMARY_CHARS = 800
 
@@ -139,6 +141,18 @@ def entry_summary(item: dict) -> str:
     return compact_text(entry_text(item))
 
 
+def canonical_url(item: dict) -> str:
+    """Return a truthful HTTP(S) citation target or an empty string."""
+    for field in ("url", "external_url"):
+        candidate = item.get(field)
+        if not isinstance(candidate, str) or not candidate.strip():
+            continue
+        parsed = urlparse(candidate)
+        if parsed.scheme in {"http", "https"} and parsed.netloc:
+            return candidate
+    return ""
+
+
 def encode_id(feed_key: str, item_id: str, revision: str) -> str:
     token = (
         base64.urlsafe_b64encode(item_id.encode("utf-8")).decode("ascii").rstrip("=")
@@ -205,7 +219,7 @@ def resolve_revision() -> str:
                     text=True,
                     stderr=subprocess.DEVNULL,
                 ).strip()
-            except OSError, subprocess.CalledProcessError:
+            except (OSError, subprocess.CalledProcessError):
                 revision = ""
 
     if len(revision) != 40 or any(
@@ -217,20 +231,82 @@ def resolve_revision() -> str:
     return revision.lower()
 
 
+def _select_entries(
+    entries: list[tuple[datetime | None, str, dict]],
+) -> tuple[list[tuple[datetime | None, str, dict]], bool, int | None]:
+    """Cap the index while preserving a small slice of each active source."""
+    if len(entries) <= MAX_ITEMS:
+        return entries, False, None
+
+    sources = {source for _, source, _ in entries}
+    floor = MIN_ITEMS_PER_FEED if len(sources) * MIN_ITEMS_PER_FEED <= MAX_ITEMS else 1
+    selected: set[int] = set()
+    counts: dict[str, int] = {}
+
+    if len(sources) <= MAX_ITEMS:
+        for index, (_, source, _) in enumerate(entries):
+            if counts.get(source, 0) >= floor:
+                continue
+            selected.add(index)
+            counts[source] = counts.get(source, 0) + 1
+
+    for index in range(len(entries)):
+        if len(selected) >= MAX_ITEMS:
+            break
+        selected.add(index)
+
+    retained = [entry for index, entry in enumerate(entries) if index in selected]
+    first_omitted = next(
+        (index for index in range(len(entries)) if index not in selected),
+        None,
+    )
+    return retained, True, first_omitted
+
+
+def _complete_coverage_boundary(
+    entries: list[tuple[datetime | None, str, dict]],
+    first_omitted: int | None,
+    cutoff: datetime,
+    now: datetime,
+) -> datetime:
+    """Return the oldest timestamp from which every dated candidate is retained."""
+    if first_omitted is None:
+        return cutoff
+    omitted_date = entries[first_omitted][0]
+    if omitted_date is None:
+        return cutoff
+
+    for index in range(first_omitted - 1, -1, -1):
+        candidate = entries[index][0]
+        if candidate is not None and candidate > omitted_date:
+            return candidate
+    return now
+
+
 def build_index(
     feed_paths: list[Path],
     now: datetime | None = None,
     revision: str = "0" * 40,
+    missing_feed_keys: list[str] | None = None,
 ) -> dict:
     now = (now or datetime.now(timezone.utc)).astimezone(timezone.utc)
     cutoff = now - timedelta(days=WINDOW_DAYS)
-    entries: list[tuple[datetime | None, dict]] = []
+    entries: list[tuple[datetime | None, str, dict]] = []
+    skipped_feeds = [
+        {"source_key": key, "reason": "missing_artifact"}
+        for key in sorted(missing_feed_keys or [])
+    ]
     feed_count = 0
 
     for path in sorted(feed_paths):
-        feed = load_feed(path)
-        feed_count += 1
         key = path.stem.removeprefix("feed_")
+        try:
+            feed = load_feed(path)
+        except ValueError:
+            skipped_feeds.append({"source_key": key, "reason": "invalid_json_feed"})
+            continue
+
+        feed_count += 1
         feed_title = (
             compact_text(feed.get("title"), 160) or key.replace("_", " ").title()
         )
@@ -241,7 +317,13 @@ def build_index(
                 continue
             original_id = item.get("id")
             title = compact_text(item.get("title"), 300)
-            if not isinstance(original_id, str) or not original_id or not title:
+            url = canonical_url(item)
+            if (
+                not isinstance(original_id, str)
+                or not original_id
+                or not title
+                or not url
+            ):
                 continue
 
             date = item_date(item)
@@ -261,14 +343,13 @@ def build_index(
             entries.append(
                 (
                     date,
+                    key,
                     {
                         "id": encode_id(key, original_id, revision),
                         "source_key": key,
                         "source": feed_title,
                         "title": title,
-                        "url": (
-                            item.get("url") if isinstance(item.get("url"), str) else ""
-                        ),
+                        "url": url,
                         "summary": entry_summary(item),
                         "published_at": (
                             item.get("date_published")
@@ -286,14 +367,20 @@ def build_index(
             )
 
     floor = datetime.min.replace(tzinfo=timezone.utc)
-    entries.sort(key=lambda pair: pair[0] or floor, reverse=True)
-    items = [entry for _, entry in entries[:MAX_ITEMS]]
+    entries.sort(key=lambda row: row[0] or floor, reverse=True)
+    retained, truncated, first_omitted = _select_entries(entries)
+    boundary = _complete_coverage_boundary(entries, first_omitted, cutoff, now)
+    items = [entry for _, _, entry in retained]
+
     return {
-        "version": 2,
+        "version": 3,
         "revision": revision,
         "generated_at": now.isoformat().replace("+00:00", "Z"),
-        "indexed_from": cutoff.isoformat().replace("+00:00", "Z"),
+        "indexed_from": boundary.isoformat().replace("+00:00", "Z"),
+        "truncated": truncated,
+        "candidate_count": len(entries),
         "feed_count": feed_count,
+        "skipped_feeds": skipped_feeds,
         "item_count": len(items),
         "items": items,
     }
@@ -302,16 +389,17 @@ def build_index(
 def main() -> None:
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     feed_paths, missing = enabled_feed_paths()
-    if missing:
-        print(
-            f"  ! no JSON artifact yet for enabled feeds: {', '.join(sorted(missing))}"
-        )
-
-    payload = build_index(feed_paths, revision=resolve_revision())
+    payload = build_index(
+        feed_paths,
+        revision=resolve_revision(),
+        missing_feed_keys=missing,
+    )
     OUT_PATH.write_text(
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n",
         encoding="utf-8",
     )
+    for skipped in payload["skipped_feeds"]:
+        print(f"  ! skipped {skipped['source_key']}: {skipped['reason']}")
     print(
         f"Built {OUT_PATH.relative_to(ROOT)} with {payload['item_count']} items "
         f"from {payload['feed_count']} enabled feeds at {payload['revision'][:12]}"
