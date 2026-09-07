@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-07T12:59:53.139626+00:00</updated>
+  <updated>2026-09-07T18:51:39.473283+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -12,6 +12,81 @@
   <icon>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/458353e193803f36</id>
+    <title>just introducing myself and giving feedback to Mozilla</title>
+    <updated>2026-09-07T18:48:29+00:00</updated>
+    <content>just introducing myself and giving feedback to Mozilla</content>
+    <link href="https://connect.mozilla.org/t5/discussions/just-introducing-myself-and-giving-feedback-to-mozilla/m-p/137443#M55636" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T18:48:29+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/da9e4aa51db0ce46</id>
+    <title>Misssing old title bar tab function</title>
+    <updated>2026-09-07T17:19:23+00:00</updated>
+    <content>On previous version of FF we were able to close out tabs (x on tab) without having to have it active, but the present version is lacking that - please restore it</content>
+    <link href="https://connect.mozilla.org/t5/discussions/misssing-old-title-bar-tab-function/m-p/137441#M55635" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T17:19:23+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/6fb0dc37c11939ff</id>
+    <title>Option to replace the current tab when clicking the Home button instead of navigating within it</title>
+    <updated>2026-09-07T16:30:16+00:00</updated>
+    <content>`On Firefox for Android, clicking the Home button loads the home page but keeps the current tab active in the session history. This often leads to an accumulation of unused tabs that the user intended to "leave behind" by going home.` `I suggest adding a toggle in the settings to "Replace current tab on Home", which would close the active tab and launch the Home page as a fresh start, similar to the behavior found in other mobile browsers like Chrome.`</content>
+    <link href="https://connect.mozilla.org/t5/discussions/option-to-replace-the-current-tab-when-clicking-the-home-button/m-p/137439#M55633" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T16:30:16+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/7d2e9ef84f216ae9</id>
+    <title>Allow setting a specific Bookmarks folder as the Home Page on Android</title>
+    <updated>2026-09-07T16:25:14+00:00</updated>
+    <content>Currently, the Home Page options on Firefox for Android are limited to the default shortcuts, a blank page, or a specific URL. There is no native way to set a bookmarks folder (such as "Mobile Bookmarks") as the landing page. As a user who relies on a curated list of bookmarks for daily productivity, having to navigate through the menu to reach these links is inefficient. I suggest adding an option in Settings &gt; Home to "Select a Bookmarks Folder" as the Home Page.</content>
+    <link href="https://connect.mozilla.org/t5/discussions/allow-setting-a-specific-bookmarks-folder-as-the-home-page-on/m-p/137438#M55632" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T16:25:14+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/6a3539ddbb3d0e28</id>
+    <title>Google "Sent" Error</title>
+    <updated>2026-09-07T12:45:41+00:00</updated>
+    <content>There is something trouble with "Sent Box" &lt;-- gmail account.</content>
+    <link href="https://connect.mozilla.org/t5/discussions/google-quot-sent-quot-error/m-p/137417#M55624" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-07T12:45:41+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/01611353cf9b72ec</id>
     <title>Could Firefox Improve the Experience of Watching Short Videos on Mobile?</title>
@@ -103,6 +178,28 @@
     <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/fc731571c47d4b42</id>
+    <title>Rust debugging survey 2026 results</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>One of the biggest challenges Rust developers report in our
+annual surveys is a subpar debugging experience. So, back
+in February, we ran our first Rust Debugging Survey,
+in the hopes of identifying how Rust developers are using debuggers and what
+problems they are facing when doing so. We received over 2,300 responses, and
+we'd like to thank everyone who took the time to participate in the survey!
+In this report, we'll go over some of the results of the survey. If you'd like,
+you can also check</content>
+    <link href="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/" rel="alternate"/>
+    <category term="Planet Mozilla" label="Planet Mozilla"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/how-would-you-rate-your-rust-expertise.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/how-would-you-rate-your-rust-expertise.png"/>
+    </media:group>
+    <dc:creator>Planet Mozilla</dc:creator>
+    <link rel="enclosure" href="https://blog.rust-lang.org/2026/09/07/rust-debugging-survey-2026-results/how-would-you-rate-your-rust-expertise.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/24ebc09c33d9f866</id>
     <title>I beg every programmer</title>
     <updated>2026-09-06T19:40:49+00:00</updated>
@@ -140,6 +237,21 @@
     <link href="https://connect.mozilla.org/t5/discussions/facebook-group-posts/m-p/137275#M55597" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-06T17:42:57+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/1d637fad798832b4</id>
+    <title>Why did remove cookies option for a single site from address bar ?</title>
+    <updated>2026-09-06T14:05:02+00:00</updated>
+    <content>Hello, I am writing because it was useful as function, prefer to restore immediately I am not happy for this decision I am waiting for kind reply Thank you Best regards Maurizio Tosetti</content>
+    <link href="https://connect.mozilla.org/t5/discussions/why-did-remove-cookies-option-for-a-single-site-from-address-bar/m-p/137257#M55625" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-06T14:05:02+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
@@ -208,6 +320,21 @@
     <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/626fc981372850c9</id>
+    <title>UI Issue on Nightly using vertical tabs</title>
+    <updated>2026-09-06T00:47:12+00:00</updated>
+    <content>When clicking  the New Tab button, it dissapears behind the UI and does not push the stack up I am using nightly: 155.0a1 (2026-08-06) (aarch64) Thank you for all you do!  Love Mozilla, the mission and dedication to ethical software development in a world tough to do it in! The nightly builds have been very great visually and I think it is really nice to use as well.  Love the new UI and my matrix extension now runs along the side and top really adding to the immersion.  While were are at it, co</content>
+    <link href="https://connect.mozilla.org/t5/discussions/ui-issue-on-nightly-using-vertical-tabs/m-p/137217#M55634" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-06T00:47:12+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/5219eef73a484fd8</id>
     <title>Largo Florida cross dressers near me for nsa</title>
     <updated>2026-09-05T23:03:51+00:00</updated>
@@ -268,51 +395,6 @@
     <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/f02847a5c9fd2168</id>
-    <title>Too many updates: Breaks current session and causes sites to identify login as new PC</title>
-    <updated>2026-09-05T02:51:01+00:00</updated>
-    <content>I can defer the update by not allowing auto update. Then like a spoilt child demanding a toy, it constantly nags that there is an update and the reminder blocks out the upper right inner area of the browser window. Where is the opt out for this? Google suggested a regedit to force program to stop checking but that did nothing. It's funny that I typically only allow the update once a month and sometimes it tells me there is an update back to back. Like I just allowed one and there is another wait</content>
-    <link href="https://connect.mozilla.org/t5/discussions/too-many-updates-breaks-current-session-and-causes-sites-to/m-p/137090#M55490" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-05T02:51:01+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/07625f84046f60d2</id>
-    <title>FIREFOX UPDATES FORCE CLOSES TABS AND MS DOCS, LOST LEGAL WORK</title>
-    <updated>2026-09-04T17:42:50+00:00</updated>
-    <content>TOO MANY FIREFOX UPDATES FORCES AND IT WILL CLOSE ALL TABS AND EVEN MS WORD, AS I DO LEGAL WORD AND LOSE IT ALL, DUE TO THIS CONSTANT UPDATES, SHOULD HAVE A WAY TO UPDATE WHEN YOUR READY, SHUT UPDATES OFF OPTION,  IS NOW A LEGAL ISSUE WHEN IT TAKES OVER YOUR COMPUTER AND LEGAL DOCUMENTS OR WHAT EVER A PERSON IS WORKING ON IMPORTANT RESEARCH, LIKE AI TABS OPEN,LOSING YOUR PLACE AND CONCENTRATION WHERE YOU WERE, WHAT YOU WERE READING, WHAT MS WORD DOCS VANISHED, OR UNSAVED, SHOULD BE FORE FOX LEGA</content>
-    <link href="https://connect.mozilla.org/t5/firefox-labs/firefox-updates-force-closes-tabs-and-ms-docs-lost-legal-work/m-p/137067#M5249" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T17:42:50+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/48c263c66eb50c1d</id>
-    <title>Mozilla Connect Weekly Recap: Top-Voted Ideas (8/28-9/4)</title>
-    <updated>2026-09-04T14:51:19+00:00</updated>
-    <content>Hey all, Happy Friday and welcome to another Weekly Recap here in the Mozilla Connect community! This post will highlight the top 10 most-voted ideas for the previous week (8/28-9/4). While some are ‘ new ideas’ and others are already ‘in review’ ( learn more about The Idea Journey here ), we encourage you to continue voting and add any input that supports your favorite ideas—the more details, the better. Here they are… (currently "In development") (currently "In development") And that's it for </content>
-    <link href="https://connect.mozilla.org/t5/discussions/mozilla-connect-weekly-recap-top-voted-ideas-8-28-9-4/m-p/137050#M55473" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T14:51:19+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/b08e1075605d6339</id>
     <title>Firefox DevTools MCP 0.10.2 released</title>
     <updated>2026-09-04T13:41:12+00:00</updated>
@@ -331,66 +413,6 @@ set_network_cache — bypass or restore the HTTP cache, for the selected tab or 
     </media:group>
     <dc:creator>Planet Mozilla</dc:creator>
     <link rel="enclosure" href="https://us1.discourse-cdn.com/flex001/uploads/mozilla/original/3X/1/8/180ccfafb4284e125acb62e88c091db07e8a77bb.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/40e27bf20bb87a5d</id>
-    <title>Could Firefox Improve the Checkout Experience on Food Delivery Websites?</title>
-    <updated>2026-09-04T12:32:14+00:00</updated>
-    <content>I frequently use food delivery websites on mobile, and checkout can sometimes involve multiple redirects, payment pages, and authentication steps. Could Firefox make these flows smoother by improving session handling and preventing users from losing their cart when moving between pages? Would better support for web-based payment and checkout experiences make food delivery sites feel more like native apps?</content>
-    <link href="https://connect.mozilla.org/t5/discussions/could-firefox-improve-the-checkout-experience-on-food-delivery/m-p/137032#M55470" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T12:32:14+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/35e071f626b91213</id>
-    <title>Conserver les onglets épinglés avec plusieurs fenêtres Firefox</title>
-    <updated>2026-09-04T10:20:29+00:00</updated>
-    <content>Bonjour, J’utilise régulièrement les onglets épinglés dans Firefox pour garder accessibles mes sites importants : messagerie, agenda, outils professionnels, etc. C’est une fonction très pratique. Cependant, je rencontre un problème lorsque j’utilise Firefox avec deux fenêtres ouvertes , par exemple une sur chaque écran. Si je ferme Firefox puis le rouvre, les onglets épinglés ne sont pas toujours restaurés correctement. Lorsque je n’utilise qu’une seule fenêtre, tout fonctionne normalement. Il s</content>
-    <link href="https://connect.mozilla.org/t5/discussions/conserver-les-onglets-%C3%A9pingl%C3%A9s-avec-plusieurs-fen%C3%AAtres-firefox/m-p/137022#M55466" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T10:20:29+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/d1faa0a0edf4de4c</id>
-    <title>Webseite sein MONATEN nicht erreichbar!!!!</title>
-    <updated>2026-09-04T07:57:45+00:00</updated>
-    <content>https://banking.postbank.de/#/login Ergebniss: Bitte aktualisieren Sie Ihren Browser und/oder aktivieren Sie JavaScript. Um den vollen Funktionsumfang dieser Webseite nutzen zu können, benötigen Sie einen aktuellen Browser mit aktiviertem JavaScript. Aus Sicherheitsgründen sollten Sie Ihren Browser regelmäßig aktualisieren, damit dieser immer auf dem neuesten Stand ist. Please update your browser and/or enable JavaScript. To use the full functionality of this website, you need an up-to-date brow</content>
-    <link href="https://connect.mozilla.org/t5/firefox-labs/webseite-sein-monaten-nicht-erreichbar/m-p/136998#M5246" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T07:57:45+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/2e425e7133a2d783</id>
-    <title>Can you stop putting adverts in the menus?</title>
-    <updated>2026-09-04T05:12:29+00:00</updated>
-    <content>I think we all knew this kind of crap was coming sooner or later. We need to **bleep** this before the toilet becomes clogged. You see the attached image? That is an advert. You know it's an advert, you're not stupid. I've just removed it from my history AND my bookmarks menus, yet it remains here, taking up the space of 4-5 menu items. It's designed to draw my attention and manipulate me into doing something that I otherwise wouldn't have bothered to do. I don't want to sign into my web browser</content>
-    <link href="https://connect.mozilla.org/t5/firefox-labs/can-you-stop-putting-adverts-in-the-menus/m-p/136978#M5242" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-04T05:12:29+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/f1483ed914e8c900</id>
@@ -1027,21 +1049,6 @@ Claude.</content>
     <link href="https://jonalmeida.com/til/github-serves-ssh-over-tls-port/" rel="alternate"/>
     <category term="Planet Mozilla" label="Planet Mozilla"/>
     <published>2026-08-24T00:00:00+00:00</published>
-    <dc:creator>Planet Mozilla</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/6a058edd5125c5fa</id>
-    <title>Glean Dictionary + DuckDB</title>
-    <updated>2026-08-23T21:11:16+00:00</updated>
-    <content>While working on Writing the Docs: 2026 Edition,
-I experimented a bit with updating the Glean Dictionary to
-incorporate some of the ideas in the essay, in particular those around reference documentation.
-As a sort of demonstration that documentation about an application can be
-treated as a data product in and of itself, I hacked up a quick ETL pipeline to dump the JSON output of the Glean Dictionary into a DuckDB database that can be queried standalone.
-Since the Glean Dictionary is just a stati</content>
-    <link href="https://wrla.ch/log/2026/08/glean-dictionary-duckdb/?utm_source=mozilla&amp;utm_medium=RSS" rel="alternate"/>
-    <category term="Planet Mozilla" label="Planet Mozilla"/>
-    <published>2026-08-23T21:11:16+00:00</published>
     <dc:creator>Planet Mozilla</dc:creator>
   </entry>
   <entry>

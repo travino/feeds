@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-07T13:00:53.084133+00:00</updated>
+  <updated>2026-09-07T18:52:36.430011+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,26 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/16a1cfd09957258a</id>
+    <title>网盘智能识别助手 (优化版) — 辻弌20</title>
+    <updated>2026-09-07T16:14:44+00:00</updated>
+    <content>智能识别选中文字中的🔗网盘链接和🔑提取码，识别成功打开网盘链接并自动填写提取码，省去手动复制提取码在输入的烦恼。支持识别：✅百度网盘 ✅阿里云盘 ✅夸克网盘 ✅腾讯微云 ✅蓝奏云 ✅蓝奏云·优享版 ✅123云盘新域名 ✅4275极速文件中转站 ✅三大通信运营商网盘：中国移动(和彩云)、中国联通(沃盘)、中国电信(天翼云盘) ✅迅雷云盘 ✅360云盘(屏蔽) ✅115网盘 ✅奶牛快传 ✅城通网盘 ✅FlowUs息流 ✅商店类：Chrome 扩展商店、Edge 扩展商店、Firefox 扩展商店、Windows 应用商店 ✅开源社区类：Github</content>
+    <link href="https://scriptcat.org/script-show-page/7888" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-07T16:14:44+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/f342fb4575cb0aed</id>
+    <title>乐山培训网_自动刷课 — zx902681</title>
+    <updated>2026-09-07T14:30:03+00:00</updated>
+    <content>点击课程播放，自动提交并跳转下一节课</content>
+    <link href="https://scriptcat.org/script-show-page/7887" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-07T14:30:03+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/09572f07dc961178</id>
     <title>Æther Player — 全网VIP视频免费解析 · 毛玻璃美学 · 免费破解去广告 — 辻弌20</title>
@@ -1480,26 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7673" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-26T11:06:52+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/1d9b631224de38d7</id>
-    <title>TransLite+ — GeorgeChou</title>
-    <updated>2026-08-26T10:20:34+00:00</updated>
-    <content>TransLite 的 Tampermonkey 移植版：基于 GM 存储实现跨网页配置保存，支持 LLM/百度/MyMemory/自定义引擎、双语模式、可拖动按钮与菜单命令。</content>
-    <link href="https://scriptcat.org/script-show-page/7672" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T10:20:34+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/397e9b4ac57ba930</id>
-    <title>VIP视频解析助手 - 国内视频平台 — admin789</title>
-    <updated>2026-08-26T09:21:08+00:00</updated>
-    <content>支持爱奇艺、优酷、腾讯、PPTV、1905电影网等平台的VIP视频解析播放工具，提供美观的浮动解析面板，支持多线路选择、拖拽移动、位置记忆等功能。</content>
-    <link href="https://scriptcat.org/script-show-page/7671" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T09:21:08+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

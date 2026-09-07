@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T13:00:10.941266+00:00",
+  "last_updated": "2026-09-07T18:51:51.503095+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3491,9 +3491,7 @@
       "date": "2026-09-07T11:07:23.686275+00:00",
       "description": "Modafinil 400mg is a high dosage of modafinil, which is a prescription drug and works towards improving wakefulness and alertness. Modafinil is used to improve the condition of wakefulness in adults who have various diseases including narcolepsy, obstructive sleep apnea and shift work sleep disorder by affecting certain chemicals and signals in the brain. A dosage of 400mg of modafinil is usually regarded as the highest daily dosage of modafinil. The exact amount of the dosage should be taken de",
       "source": "Oracle Developer Community",
-      "image": null,
-      "image_attempts": 1,
-      "image_attempt_url": "https://forums.oracle.com/ords/apexds/post/modafinil-400mg-what-is-this-dosage-used-for-8770",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/276f08e3d69a9885"
     },
     {
@@ -3513,6 +3511,33 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/c74f5245036c4d82"
+    },
+    {
+      "title": "How Does APEX Implement the Stacked Master-Detail Interactive Grids?",
+      "link": "https://forums.oracle.com/ords/apexds/post/how-does-apex-implement-the-stacked-master-detail-interacti-8493",
+      "date": "2026-09-07T13:36:57.171321+00:00",
+      "description": "Can someone explain how Oracle APEX implements the stacked master-detail page created by the built-in wizard? I’m trying to understand the logic behind the whole master-detail interaction, specifically: How does selecting a row in the master Interactive Grid cause the detail grid to refresh and show only the related records? And when creating a new master record, how is the generated master primary key made available to the detail grid so that new detail records get the correct foreign key value",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/2074c6dff300ef61"
+    },
+    {
+      "title": "Object Browser does not display tree objects in the left panel.",
+      "link": "https://forums.oracle.com/ords/apexds/post/object-browser-does-not-display-tree-objects-in-the-left-pa-2180",
+      "date": "2026-09-07T13:57:19.226037+00:00",
+      "description": "Apex 26.1 . I have three workspaces. Two of them work well. In one of them, object browser does not display tree objects in the left panel. There is the correct current database schemaassigned to workspace. Many objects exist in this schema. Those happend after migration to APex 26,1. What is wrong?",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/cf8ecc9844cf8983"
+    },
+    {
+      "title": "How to install Oracle Graph Studio on-premise Oracle Database 26ai?",
+      "link": "https://forums.oracle.com/ords/apexds/post/how-to-install-oracle-graph-studio-on-premise-oracle-databa-7755",
+      "date": "2026-09-07T15:11:38.030917+00:00",
+      "description": "Hi, We are exploring Graph capabilities ofr Oracle 26ai databased installed on-premise server. How to enable Graph features and also install Graph studio for communicating adn cerating Graphs via UI?",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/0404b40b9381c7bc"
     }
   ]
 }

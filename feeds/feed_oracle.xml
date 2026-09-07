@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-07T13:00:10.841780+00:00</updated>
+  <updated>2026-09-07T18:51:51.416383+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,51 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/0404b40b9381c7bc</id>
+    <title>How to install Oracle Graph Studio on-premise Oracle Database 26ai?</title>
+    <updated>2026-09-07T15:11:38.030917+00:00</updated>
+    <content>Hi, We are exploring Graph capabilities ofr Oracle 26ai databased installed on-premise server. How to enable Graph features and also install Graph studio for communicating adn cerating Graphs via UI?</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/how-to-install-oracle-graph-studio-on-premise-oracle-databa-7755" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-07T15:11:38.030917+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/cf8ecc9844cf8983</id>
+    <title>Object Browser does not display tree objects in the left panel.</title>
+    <updated>2026-09-07T13:57:19.226037+00:00</updated>
+    <content>Apex 26.1 . I have three workspaces. Two of them work well. In one of them, object browser does not display tree objects in the left panel. There is the correct current database schemaassigned to workspace. Many objects exist in this schema. Those happend after migration to APex 26,1. What is wrong?</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/object-browser-does-not-display-tree-objects-in-the-left-pa-2180" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-07T13:57:19.226037+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/2074c6dff300ef61</id>
+    <title>How Does APEX Implement the Stacked Master-Detail Interactive Grids?</title>
+    <updated>2026-09-07T13:36:57.171321+00:00</updated>
+    <content>Can someone explain how Oracle APEX implements the stacked master-detail page created by the built-in wizard? I’m trying to understand the logic behind the whole master-detail interaction, specifically: How does selecting a row in the master Interactive Grid cause the detail grid to refresh and show only the related records? And when creating a new master record, how is the generated master primary key made available to the detail grid so that new detail records get the correct foreign key value</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/how-does-apex-implement-the-stacked-master-detail-interacti-8493" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-07T13:36:57.171321+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/c74f5245036c4d82</id>
     <title>Oracle APEX Free Workspace Account Locked – ASHISH_2002</title>
@@ -50,7 +95,12 @@
     <link href="https://forums.oracle.com/ords/apexds/post/modafinil-400mg-what-is-this-dosage-used-for-8770" rel="alternate"/>
     <category term="Oracle Developer Community" label="Oracle Developer Community"/>
     <published>2026-09-07T11:07:23.686275+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png"/>
+    </media:group>
     <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/82d4268057148fdc</id>
@@ -180,46 +230,6 @@
     <link href="https://forums.oracle.com/ords/apexds/post/most-beautiful-girls-fun-ai-service-call-nyra-8358" rel="alternate"/>
     <category term="Oracle Developer Community" label="Oracle Developer Community"/>
     <published>2026-09-04T16:02:56.246879+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/264f85b551ea0161</id>
-    <title>NIce Ai Sevrice Girls</title>
-    <updated>2026-09-04T16:01:18.757185+00:00</updated>
-    <content>https://nyraescort.com/phpbb/ Nice Post</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/nice-ai-sevrice-girls-8234" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-04T16:01:18.757185+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/8241b06b4a37f620</id>
-    <title>CaLL-GIℛLS IN Lucknow ⅇscoRt-SeℛviceS.9120481797iN Lucknow</title>
-    <updated>2026-09-04T16:00:30.241227+00:00</updated>
-    <content>CaLL-GIℛLS IN Lucknow ⅇscoRt-SeℛviceS.9120481797iN LucknowCaLL-GIℛLS IN Lucknow ⅇscoRt-SeℛviceS.9120481797iN LucknowCaLL-GIℛLS IN Lucknow ⅇscoRt-SeℛviceS.9120481797iN LucknowCaLL-GIℛLS IN Lucknow ⅇscoRt-SeℛviceS.9120481797iN LucknowCaLL-GIℛLS IN Lucknow ⅇscoRt-SeℛviceS.9120481797iN Lucknowhttps://hyraescort.weebly.com/ https://sites.google.com/view/nyraescort/home https://6a8887c56e72c.site123.me/ https://www.nyraescort.com/wp/ https://www.nyraescort.com/wpp/ https://www.nyraescort.com/joomla ht</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/call-girls-in-lucknow-scort-services-9120481797in-lucknow-8841" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-04T16:00:30.241227+00:00</published>
-    <dc:creator>Oracle Developer Community</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/911bcbc4f4511e21</id>
-    <title>Friday&amp;#x27;s quiz - Add Without Plus</title>
-    <updated>2026-09-04T15:13:29.296631+00:00</updated>
-    <content>This is challenge from “Cracking the Coding Interview” book: Write a function that adds two numbers. You should not use + or any arithmetic operators. In our adaptation it should be: Write a SQL query that adds two numbers. You should not use + or any arithmetic operators. To save your time book also contains java solution based on binary operations. public static int add(int a, int b) {    if (b == 0) return a;    int sum = a ^ b; // add without carrying    int carry = (a &amp; b) &lt;&lt; 1; // carry, b</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/friday-s-quiz-add-without-plus-7539" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-04T15:13:29.296631+00:00</published>
     <media:group>
       <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>

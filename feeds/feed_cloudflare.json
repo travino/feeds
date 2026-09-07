@@ -8,6 +8,54 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9636edc21aeeb9a4",
+      "url": "https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs",
+      "title": "Issues rendering route configuration table in Networking > Routes UI",
+      "content_text": "Sep 7 , 17:12 UTC Resolved - This incident has been resolved. Sep 7 , 16:46 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 16:11 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 15:52 UTC Investigating - We are continuing to investigate this issue. Sep 7 , 15:32 UTC Investigating - Cloudflare is investigating an issue within the Dashboard UI (Networking > Routes) where the route configuration table is failing to displa",
+      "date_published": "2026-09-07T17:12:30Z",
+      "date_modified": "2026-09-07T17:12:30Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07",
+      "url": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
+      "title": "Browser Isolation Session Initialization Failures",
+      "content_text": "Sep 7 , 15:11 UTC Monitoring - A fix has been implemented and we are monitoring the results.\n\nCustomers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session. Sep 7 , 14:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 14:25 UTC Investigating - We are investigating reports of customers encountering a white screen when attempting to access websites behind Browser Isolation. This is ca",
+      "date_published": "2026-09-07T15:11:43Z",
+      "date_modified": "2026-09-07T15:11:43Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/250472e90fa75844",
+      "url": "https://www.cloudflarestatus.com/incidents/pgn7y7hgd25l",
+      "title": "Performance degradation affecting TURN service",
+      "content_text": "Sep 7 , 13:52 UTC Resolved - A fix was deployed for this issue and the impact is over for any new connections on Realtime TURN service.\n\nExisting connection will continue to use TCP until the customers clients end and restart their connections. Sep 7 , 13:04 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 13:02 UTC Investigating - We are investigating reports of performance degradation affecting our TURN service since August 22nd. Currently, a significant p",
+      "date_published": "2026-09-07T13:52:48Z",
+      "date_modified": "2026-09-07T13:52:48Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9028a1316124a76a",
       "url": "https://www.cloudflarestatus.com/incidents/np4n61ckjdw7",
       "title": "Increased Workflow Instance Creation Errors",
@@ -2055,22 +2103,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/3692436dfa12efa8",
-      "url": "https://www.cloudflarestatus.com/incidents/46j9vvprj159",
-      "title": "Workers AI GLM 5.2 is unavailable",
-      "content_text": "Aug 19 , 17:24 UTC Resolved - This incident has been resolved. Aug 19 , 17:12 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 19 , 16:36 UTC Identified - The issue has been identified and a fix is being implemented. Aug 19 , 16:16 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 19 , 16:15 UTC Investigating - We are investigating an issue with Workers AI GLM 5.2",
-      "date_published": "2026-08-19T17:24:19Z",
-      "date_modified": "2026-08-19T17:24:19Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/7e3762c611e403a1",
       "url": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
       "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
@@ -2091,38 +2123,6 @@
           "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M00XZZC7473CXRW6EF1Z69ZW.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/4d93ad4e7fc680c5",
-      "url": "https://www.cloudflarestatus.com/incidents/mlr8smgngv5h",
-      "title": "Increased Errors for Durable Objects in the Hong Kong region",
-      "content_text": "Aug 19 , 07:20 UTC Resolved - This incident has been resolved. Aug 19 , 07:06 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 19 , 06:59 UTC Investigating - Cloudflare is aware of, and investigating an issue with Durable Objects and related products which potentially impacts multiple customers in the Hong Kong region. Customers trying to use Durable Objects and some other reliant products such as RealtimeKit and Realtime SFU from aforementioned region may be ex",
-      "date_published": "2026-08-19T07:20:23Z",
-      "date_modified": "2026-08-19T07:20:23Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/52645b923594224f",
-      "url": "https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2",
-      "title": "CDNJS Elevated Errors",
-      "content_text": "Aug 18 , 16:34 UTC Resolved - This incident is now resolved. Aug 18 , 16:16 UTC Investigating - We are investigated an increase in errors requesting cdnjs.cloudflare.com.",
-      "date_published": "2026-08-18T16:34:54Z",
-      "date_modified": "2026-08-18T16:34:54Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
       ]
     },
     {

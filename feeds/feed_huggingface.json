@@ -8,6 +8,52 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/f8f4a7fd7a452583",
+      "url": "https://huggingface.co/posts/Aurelien-Morgan/656385261354634",
+      "title": "@",
+      "content_text": "@ retrain-pipelines execution engine is in perpetual evolution, with the aim to establish itself as SOTA, and for the long run. However, we neglect no aspect of ML-Eng centricity. If notebooks is where you like to do dev most, we support you there 100% too. Build crazy combos of inline tasks, deep parallel sub-DAG branches, nested asynchronous groups... ... the DAG renderer is undergoing an incremental upgrade until the next one. * starring toy tasks here. No ML has been hurt in this video 🙂",
+      "date_published": "2026-09-07T18:51:01Z",
+      "date_modified": "2026-09-07T18:51:01Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Aurelien-Morgan/656385261354634.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Aurelien-Morgan/656385261354634.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/6fe5c52b4763c28e",
+      "url": "https://huggingface.co/posts/OppaAI/485390537451913",
+      "title": "This weekend I took an outing with my AI Waifu to the Natsu Matsuri.",
+      "content_text": "This weekend I took an outing with my AI Waifu to the Natsu Matsuri. Turns out my Japanese is still understandable. I probably need to spend more time continue to learn and practice speaking Japanese. That's why an idea struck me to let my AI Waifu be my Japanese tutor. Anyway, I have run out of idea what task I should let her do, so I wrote a simple Android App to let her be my Japanese tutor to help me to practice Nihongo. There will be some minor mistakes. After all, this is just a 3B LLM model. And inference speed will be slow because I only got 8GB of RAM in Jetson Orin Nano. At least I don't need to pay for Duolingo... アイコせんせい、よろしくお願いします！ Need both repos, one front-end, one back-end 🔗",
+      "date_published": "2026-09-07T18:51:01Z",
+      "date_modified": "2026-09-07T18:51:01Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/681c02a257cfafb5eafbfffe/FctS6MTdV5jq4aeP37qt6.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/681c02a257cfafb5eafbfffe/FctS6MTdV5jq4aeP37qt6.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/98adc95e5618f0ab",
       "url": "https://huggingface.co/posts/juiceb0xc0de/625815479584297",
       "title": "Dude, Where's My Update? I'll tell you where! ~97.6% of my BF16 parameter coordinates didn't move at all, and the ones that did overshot by ~1.33x.",
@@ -491,6 +537,29 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/28bcc8f13cc3e033",
+      "url": "https://huggingface.co/papers/2609.05416",
+      "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
+      "content_text": "Adapting a single-object 3D generative prior to multi-view observations enables scalable compositional mesh reconstruction of densely cluttered scenes with severe occlusion.",
+      "date_published": "2026-09-04T00:00:00Z",
+      "date_modified": "2026-09-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05416/gradient.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05416/gradient.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/96a3500c5a4b2fb7",
       "url": "https://huggingface.co/blog/Hcompany/neomme",
       "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
@@ -510,6 +579,29 @@
         {
           "url": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp",
           "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/ed8dcfef486c0bfa",
+      "url": "https://huggingface.co/papers/2609.04304",
+      "title": "Iris: Climbing to the Search Frontier",
+      "content_text": "Two large-scale search agents are trained via a multi-stage pipeline combining supervised fine-tuning and reinforcement learning against live search, achieving state-of-the-art open-source results on complex web benchmarks through rigorous trajectory filtering and inference-time context management.",
+      "date_published": "2026-09-03T00:00:00Z",
+      "date_modified": "2026-09-03T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04304.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.04304.png",
+          "mime_type": "image/png"
         }
       ]
     },
@@ -3821,6 +3913,29 @@
       "attachments": [
         {
           "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.11576.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/a754f287027edf8f",
+      "url": "https://huggingface.co/papers/2503.09642",
+      "title": "Open-Sora 2.0: Training a Commercial-Level Video Generation Model in $200k",
+      "content_text": "Open-Sora 2.0, a highly efficient commercial-level video generation model, achieves comparable performance to leading models at a significantly lower training cost and is open-sourced to promote innovation.",
+      "date_published": "2025-03-12T00:00:00Z",
+      "date_modified": "2025-03-12T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.09642.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.09642.png",
           "mime_type": "image/png"
         }
       ]

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-07T12:58:32.750126+00:00</updated>
+  <updated>2026-09-07T18:50:36.083480+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -12,6 +12,40 @@
   <icon>https://blog.cloudflare.com/favicon.ico</icon>
   <logo>https://blog.cloudflare.com/favicon.ico</logo>
   <subtitle>Combined Cloudflare feed: the Cloudflare Blog, the developer Changelog, Community top topics, Status incidents, and Cloudflare Research publications.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/9636edc21aeeb9a4</id>
+    <title>Issues rendering route configuration table in Networking &gt; Routes UI</title>
+    <updated>2026-09-07T17:12:30+00:00</updated>
+    <content>Sep 7 , 17:12 UTC Resolved - This incident has been resolved. Sep 7 , 16:46 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 16:11 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 15:52 UTC Investigating - We are continuing to investigate this issue. Sep 7 , 15:32 UTC Investigating - Cloudflare is investigating an issue within the Dashboard UI (Networking &gt; Routes) where the route configuration table is failing to displa</content>
+    <link href="https://www.cloudflarestatus.com/incidents/kjfs3vqkxkgs" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-07T17:12:30+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07</id>
+    <title>Browser Isolation Session Initialization Failures</title>
+    <updated>2026-09-07T15:11:43+00:00</updated>
+    <content>Sep 7 , 15:11 UTC Monitoring - A fix has been implemented and we are monitoring the results.
+
+Customers still experiencing the issue may attempt to close all their Browser Isolation tabs for 2 minutes before starting a new session. Sep 7 , 14:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 7 , 14:25 UTC Investigating - We are investigating reports of customers encountering a white screen when attempting to access websites behind Browser Isolation. This is ca</content>
+    <link href="https://www.cloudflarestatus.com/incidents/z16209cfb1xv" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-07T15:11:43+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/250472e90fa75844</id>
+    <title>Performance degradation affecting TURN service</title>
+    <updated>2026-09-07T13:52:48+00:00</updated>
+    <content>Sep 7 , 13:52 UTC Resolved - A fix was deployed for this issue and the impact is over for any new connections on Realtime TURN service.
+
+Existing connection will continue to use TCP until the customers clients end and restart their connections. Sep 7 , 13:04 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 7 , 13:02 UTC Investigating - We are investigating reports of performance degradation affecting our TURN service since August 22nd. Currently, a significant p</content>
+    <link href="https://www.cloudflarestatus.com/incidents/pgn7y7hgd25l" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-07T13:52:48+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/9028a1316124a76a</id>
     <title>Increased Workflow Instance Creation Errors</title>
@@ -1344,16 +1378,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/3692436dfa12efa8</id>
-    <title>Workers AI GLM 5.2 is unavailable</title>
-    <updated>2026-08-19T17:24:19+00:00</updated>
-    <content>Aug 19 , 17:24 UTC Resolved - This incident has been resolved. Aug 19 , 17:12 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 19 , 16:36 UTC Identified - The issue has been identified and a fix is being implemented. Aug 19 , 16:16 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 19 , 16:15 UTC Investigating - We are investigating an issue with Workers AI GLM 5.2</content>
-    <link href="https://www.cloudflarestatus.com/incidents/46j9vvprj159" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-08-19T17:24:19+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/7e3762c611e403a1</id>
     <title>A revisit of remote Spectre attacks on Cloudflare Workers</title>
     <updated>2026-08-19T16:00:28+00:00</updated>
@@ -1367,26 +1391,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     </media:group>
     <dc:creator>Cloudflare Blog</dc:creator>
     <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01M00XZZC7473CXRW6EF1Z69ZW.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/4d93ad4e7fc680c5</id>
-    <title>Increased Errors for Durable Objects in the Hong Kong region</title>
-    <updated>2026-08-19T07:20:23+00:00</updated>
-    <content>Aug 19 , 07:20 UTC Resolved - This incident has been resolved. Aug 19 , 07:06 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 19 , 06:59 UTC Investigating - Cloudflare is aware of, and investigating an issue with Durable Objects and related products which potentially impacts multiple customers in the Hong Kong region. Customers trying to use Durable Objects and some other reliant products such as RealtimeKit and Realtime SFU from aforementioned region may be ex</content>
-    <link href="https://www.cloudflarestatus.com/incidents/mlr8smgngv5h" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-08-19T07:20:23+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/52645b923594224f</id>
-    <title>CDNJS Elevated Errors</title>
-    <updated>2026-08-18T16:34:54+00:00</updated>
-    <content>Aug 18 , 16:34 UTC Resolved - This incident is now resolved. Aug 18 , 16:16 UTC Investigating - We are investigated an increase in errors requesting cdnjs.cloudflare.com.</content>
-    <link href="https://www.cloudflarestatus.com/incidents/pqcnjfxrycb2" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-08-18T16:34:54+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/28a6cdd93fefa60a</id>

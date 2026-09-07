@@ -31,12 +31,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/2283cbe717bd00a6",
-      "url": "https://pypi.org/project/pycti/7.260907.0/",
-      "title": "pycti 7.260907.0",
-      "content_text": "Python API client for OpenCTI.",
-      "date_published": "2026-09-07T12:47:18Z",
-      "date_modified": "2026-09-07T12:47:18Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/6ade91d19440e520",
+      "url": "https://pypi.org/project/iii-sdk/0.23.1rc3/",
+      "title": "iii-sdk 0.23.1rc3",
+      "content_text": "III SDK for Python",
+      "date_published": "2026-09-07T18:51:38Z",
+      "date_modified": "2026-09-07T18:51:38Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -47,12 +47,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/3c6817237edd4a81",
-      "url": "https://pypi.org/project/cuvis-ai-core/0.17.1/",
-      "title": "cuvis-ai-core 0.17.1",
-      "content_text": "Cuvis.AI Core Framework",
-      "date_published": "2026-09-07T12:46:56Z",
-      "date_modified": "2026-09-07T12:46:56Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/847e88a5bfc6b0a5",
+      "url": "https://pypi.org/project/docforge-sdk/0.15.11/",
+      "title": "docforge-sdk 0.15.11",
+      "content_text": "Typed async + sync Python client for the DocForge REST API (standalone, zero server deps).",
+      "date_published": "2026-09-07T18:51:25Z",
+      "date_modified": "2026-09-07T18:51:25Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -63,12 +63,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/d63c3df5395814ea",
-      "url": "https://pypi.org/project/battinfoconverter-backend/3.3.0/",
-      "title": "battinfoconverter-backend 3.3.0",
-      "content_text": "Backend conversion module for BattInfoConverter",
-      "date_published": "2026-09-07T12:46:50Z",
-      "date_modified": "2026-09-07T12:46:50Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/f5f3a7f3f2d909a8",
+      "url": "https://pypi.org/project/crowe-logic/0.10.6/",
+      "title": "crowe-logic 0.10.6",
+      "content_text": "Crowe Logic. The agent console for the terminal: routed model tiers, named engines, a real tool loop.",
+      "date_published": "2026-09-07T18:51:05Z",
+      "date_modified": "2026-09-07T18:51:05Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -79,12 +79,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/acff067545545afe",
-      "url": "https://pypi.org/project/cdk-preflight/0.0.53/",
-      "title": "cdk-preflight 0.0.53",
-      "content_text": "Catch deploy-time CloudFormation failures at synth time: a Rego rule pack for constraints that resource schemas miss, injected into the AWS CDK built-in validator",
-      "date_published": "2026-09-07T12:46:39Z",
-      "date_modified": "2026-09-07T12:46:39Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/2d2589fa9798b338",
+      "url": "https://pypi.org/project/iii-observability/0.23.1rc3/",
+      "title": "iii-observability 0.23.1rc3",
+      "content_text": "Deprecated shim: re-exports iii_helpers.observability. Import from iii-helpers instead.",
+      "date_published": "2026-09-07T18:50:36Z",
+      "date_modified": "2026-09-07T18:50:36Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -95,25 +95,524 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/ed8a2531779bb65d",
-      "url": "https://pypi.org/project/manifest-builder/0.7.11/",
-      "title": "manifest-builder 0.7.11",
-      "content_text": "Generate materialized Kubernetes manifests from configuration input",
-      "date_published": "2026-09-07T12:46:21Z",
-      "date_modified": "2026-09-07T12:46:21Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/a3e920748934bda4",
+      "url": "https://pypi.org/project/array-api-extra/0.11.4/",
+      "title": "array-api-extra 0.11.4",
+      "content_text": "Extra array functions built on top of the array API standard.",
+      "date_published": "2026-09-07T18:50:32Z",
+      "date_modified": "2026-09-07T18:50:32Z",
       "authors": [
         {
           "name": "PyPI Updates"
         }
       ],
-      "image": "https://pypi.org/static/images/og-card.00947198.webp",
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47",
+      "url": "https://pydevtools.com/handbook/reference/marimo/",
+      "title": "marimo: Reactive Python Notebook",
+      "content_text": "marimo is an open-source Python notebook in which cells re-execute automatically when the variables they read change. Notebooks are stored as plain .py files rather than JSON and are parsed by static analysis to derive a deterministic execution order. The same file can be run as a standalone script or inside a sandboxed environment managed by uv . It is licensed under Apache-2.0 and requires Python 3.10 or newer. Reactive Notebook Model The traditional notebook model decouples cell ordering from",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
+      "tags": [
+        "PyDevTools"
       ],
       "attachments": [
         {
-          "url": "https://pypi.org/static/images/og-card.00947198.webp",
-          "mime_type": "image/webp"
+          "url": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/32fe80ac89984c66",
+      "url": "https://pydevtools.com/handbook/reference/ipython/",
+      "title": "IPython: Enhanced Python Interactive Shell",
+      "content_text": "IPython is an enhanced interactive Python interpreter that provides a powerful command-line interface with advanced features like syntax highlighting, tab completion, magic commands, and rich display capabilities. It serves as the computational kernel for Jupyter notebooks. Key Features Enhanced Interactive Shell Syntax Highlighting: Real-time code coloring for better readability Tab Completion: Intelligent autocompletion for objects, methods, and file paths History Management: Persistent comman",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/ecffcf2928101b16",
+      "url": "https://pydevtools.com/handbook/reference/cookiecutter/",
+      "title": "Cookiecutter: Python Project Template Tool",
+      "content_text": "Cookiecutter is a cross-platform command-line utility that creates projects from templates. It generates project structures by copying template directories and replacing templated variables with user-provided values, supporting any programming language or markup format. Key Features Template Processing Copies source directory trees and replaces names surrounded by templating tags {{ }} with values from cookiecutter.json Supports variable replacement in file names, directory names, and file conte",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/1df86da533494713",
+      "url": "https://pydevtools.com/handbook/reference/pdb/",
+      "title": "pdb: Python's Built-in Debugger",
+      "content_text": "pdb is Python’s interactive source debugger, distributed as a module in the standard library. It supports setting breakpoints, single-stepping at the source-line level, inspecting and modifying variables in any stack frame, and post-mortem analysis of an unhandled exception. The interface is line-oriented and runs in any terminal with no external dependencies. When to use pdb Use pdb when a problem can be reproduced locally and adding a print statement is not enough. Drop a breakpoint() call at",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/cd602c93cf11368a",
+      "url": "https://pydevtools.com/handbook/reference/cibuildwheel/",
+      "title": "cibuildwheel: Cross-Platform Python Wheel Builder",
+      "content_text": "cibuildwheel is a CI tool that builds Python wheels for multiple platforms, architectures, and Python versions from a single configuration. It runs on CI servers (GitHub Actions, GitLab CI, and Azure Pipelines), automating the work of compiling C/C++/Rust/Cython extensions and producing manylinux /musllinux-compliant wheels. Note",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/d6e1aaa9d673f674",
+      "url": "https://pydevtools.com/handbook/reference/furo/",
+      "title": "Furo: Sphinx Documentation Theme",
+      "content_text": "Furo is a Sphinx theme written by Pradyun Gedam . It is a clean, customisable replacement for Sphinx’s default alabaster theme, with built-in light and dark modes, a responsive layout, and a focused sidebar. Note",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/2026-04-29-furo-reference-comic.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/2026-04-29-furo-reference-comic.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/edc7724d65a94346",
+      "url": "https://pydevtools.com/handbook/reference/mkdocstrings/",
+      "title": "mkdocstrings: Autogenerate API Documentation in MkDocs",
+      "content_text": "mkdocstrings is a MkDocs plugin that generates API documentation from source code and injects it directly into Markdown pages. The base plugin is language-agnostic; concrete language support ships as separate handler packages. Note",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocstrings-reference-insight.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/2026-04-29-mkdocstrings-reference-insight.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/d4e005317594330c",
+      "url": "https://pydevtools.com/handbook/reference/mkdocs/",
+      "title": "MkDocs: Markdown Documentation for Python Projects",
+      "content_text": "MkDocs is a static site generator that builds documentation websites from Markdown source files. A project’s structure, navigation, theme, and plugins are declared in a single mkdocs.yml file at the repo root. Note",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-reference-insight.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/2026-04-29-mkdocs-reference-insight.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/1630f214a486dcc3",
+      "url": "https://pydevtools.com/handbook/reference/mkdocs-material/",
+      "title": "Material for MkDocs: Documentation Theme and Framework",
+      "content_text": "Material for MkDocs is a theme and feature framework for MkDocs . Built by Martin Donath (squidfunk) , it layers Material Design styling, client-side search, dark mode, code annotations, and a wide configuration surface on top of the base MkDocs build pipeline. Note",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-material-reference-hottake.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/2026-04-29-mkdocs-material-reference-hottake.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/f767908f987bb006",
+      "url": "https://pydevtools.com/handbook/reference/conda-pypi/",
+      "title": "conda-pypi",
+      "content_text": "conda-pypi is a conda plugin that installs PyPI packages into a conda environment where the conda solver can track them. It closes the long-standing gap where pip -installed packages were invisible to conda and the two views of the environment would drift apart. With the conda-pypi channel configured, the standard conda install command resolves conda-forge and PyPI packages in a single solve, with no separate pip step. The plugin offers two mechanisms, and they behave differently:",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/73900e398bd60fc2",
+      "url": "https://pydevtools.com/handbook/reference/nox/",
+      "title": "nox: Python Test Automation Tool",
+      "content_text": "nox manages Python virtual environments and runs tests across multiple Python versions and configurations. Where tox uses declarative TOML or INI configuration, nox uses Python code in a noxfile.py , which makes it straightforward to express conditionals, loops, and dynamic session generation. Hatch offers a third approach with its environment matrix system configured in pyproject.toml . When to Use nox nox solves the problem of running test suites, linters, and other checks across multiple Pyth",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/b39689f4809b285c",
+      "url": "https://pydevtools.com/handbook/reference/anaconda/",
+      "title": "Anaconda: Python and R Data Science Platform",
+      "content_text": "Anaconda Distribution is a pre-packaged Python and R data science platform maintained by Anaconda, Inc. It bundles the conda package manager, a Python interpreter , and over 600 scientific computing libraries into a single installer. The current release, Anaconda Distribution 2025.12, ships with Python 3.13.9 and conda 25.11.0. Warning",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/8df2c1b862ad83c7",
+      "url": "https://pydevtools.com/handbook/reference/hatch/",
+      "title": "Hatch: Python Project Manager",
+      "content_text": "hatch is a Python project management tool maintained by the Python Packaging Authority (PyPA). It handles virtual environment management, dependency resolution, project scaffolding, and publishing through a unified interface that follows Python packaging standards. Its build backend, hatchling, is one of the most widely used on PyPI. When to Use Hatch Hatch suits library authors who want a single, standards-compliant tool covering scaffolding, building, publishing, and multi-version testing. Its",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/950b5ec5463eb083",
+      "url": "https://pydevtools.com/handbook/reference/build/",
+      "title": "build: Python Package Build Frontend",
+      "content_text": "build is a PEP 517-compliant Python package builder developed by the Python Packaging Authority (PyPA) . It provides a standardized interface for building Python packages using any compliant build backend , serving as a simple frontend tool that executes the build process defined by backends like setuptools , flit , or hatchling . Key Features Build Operations Source Distributions: Creates sdist packages containing source code Binary Distributions: Builds wheel packages for direct installation B",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/5c4cc5c777978be4",
+      "url": "https://pydevtools.com/handbook/reference/basedpyright/",
+      "title": "Basedpyright: Python Type Checker (pyright Fork)",
+      "content_text": "Basedpyright is a static type checker and language server for Python, maintained by DetachHead as a community fork of Microsoft’s pyright . It tracks upstream pyright closely and adds diagnostic rules, stricter defaults, and language-server features that Microsoft keeps exclusive to its closed-source Pylance extension. The fork exists because pyright ships as an npm package and depends on Node.js, which makes it awkward to pin as a project dependency, and because the editor features most Python",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/basedpyright-reference-stat-bomb.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/basedpyright-reference-stat-bomb.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/3a80343827fcb2d7",
+      "url": "https://pydevtools.com/handbook/reference/mise/",
+      "title": "mise: Polyglot Runtime and Tool Version Manager",
+      "content_text": "mise (pronounced “meez,” formerly named rtx) is a cross-platform command-line tool that manages multiple language runtimes, environment variables, and project tasks from a single manifest. It installs and switches versions of Python, Node.js, Rust, Go, Ruby, and more than a thousand other tools, activating the correct versions automatically as the shell moves between directories. When to use mise mise fits polyglot projects that need more than one language runtime pinned together. A repository t",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/mise-social.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/mise-social.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/fc11a414f7436401",
+      "url": "https://pydevtools.com/handbook/reference/claude-code/",
+      "title": "Claude Code: Anthropic's Terminal Coding Agent",
+      "content_text": "Claude Code is a terminal-based AI coding agent from Anthropic that reads a project’s files, edits them, runs shell commands, and iterates on the results. A request is described in plain language, and Claude Code decides which files to read, which commands to run, and what code to write; when a command fails, it reads the error and adjusts. It also runs as a VS Code and JetBrains extension, a desktop app, and in the browser at claude.ai/code , all backed by the same engine.",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social/2026-07-27-claude-code-reference-hub.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social/2026-07-27-claude-code-reference-hub.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/f2588ff05cf50a48",
+      "url": "https://pydevtools.com/handbook/reference/direnv/",
+      "title": "direnv: Per-Directory Environment Variables for Python",
+      "content_text": "direnv is a shell extension that loads and unloads environment variables based on the current working directory. It reads a per-directory .envrc file when entering a folder and reverts the environment when leaving. Although direnv is language-agnostic, it is widely used in Python projects to activate virtual environments and export project-specific settings without polluting the global shell. Key Features Loads variables from .envrc on cd into a directory and unloads them on cd out Provides a st",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/7c29a14f05f0fcf0",
+      "url": "https://pydevtools.com/handbook/reference/mypy/",
+      "title": "mypy: Python Static Type Checker",
+      "content_text": "mypy is a static type checker for Python that analyzes type annotations to detect bugs before runtime. It has been the default Python type checker since 2012 and has the broadest ecosystem support of any Python type checking tool. Development happens in the python/mypy repository under an MIT license. When to use mypy Use mypy when you want to catch type-related bugs before runtime by adding static type checking to a Python project. It is the most established Python type checker with broad ecosy",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/d5def26daadb180a",
+      "url": "https://pydevtools.com/handbook/reference/conda/",
+      "title": "Conda",
+      "content_text": "Conda is a language-agnostic, cross-platform package and environment manager. Where pip installs Python packages from PyPI , conda resolves dependencies across Python, R, C/C++, Fortran, and other languages in a single dependency graph. Note Conda is the package manager. Anaconda is a distribution that bundles conda with 600+ pre-installed packages. See Understanding the Conda/Anaconda Ecosystem for how conda, Miniconda, Miniforge, and Anaconda relate.",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/2178ec26784f685b",
+      "url": "https://pydevtools.com/handbook/reference/flake8/",
+      "title": "flake8: Python Linter",
+      "content_text": "Flake8 is a Python linting tool that wraps three checkers into one CLI: PyFlakes for logical errors, pycodestyle for PEP 8 style, and mccabe for cyclomatic complexity. A plugin system extends it with additional rules. Ruff reimplements flake8’s entire rule set with autofix support and 10-100x faster runs. Consider Ruff for new projects. When to use flake8 Flake8 fits codebases that already run it in CI and have tuned a stable configuration across setup.cfg , tox.ini , or .flake8 . Teams that dep",
+      "date_published": "2026-09-07T15:04:11Z",
+      "date_modified": "2026-09-07T15:04:11Z",
+      "authors": [
+        {
+          "name": "PyDevTools"
+        }
+      ],
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "tags": [
+        "PyDevTools"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydevtools.com/images/social-share-default.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/760346d5adbccfd2",
+      "url": "https://pytorch.org/blog/pytorch-x-hugging-face-in-bengaluru-building-indias-next-generation-of-ml-systems-contributors/",
+      "title": "PyTorch x Hugging Face in Bengaluru: Building India’s Next Generation of ML Systems Contributors",
+      "content_text": "TL;DR More than 170 students, engineers, researchers, and open-source contributors gathered in Bengaluru for a technical evening hosted by Red Hat and Hugging Face around PyTorch, large-scale inference, reinforcement learning...",
+      "date_published": "2026-09-07T13:05:37Z",
+      "date_modified": "2026-09-07T13:05:37Z",
+      "authors": [
+        {
+          "name": "PyTorch"
+        }
+      ],
+      "image": "https://pytorch.org/wp-content/uploads/2026/08/Bengaluru-Event-1024x345.jpg",
+      "tags": [
+        "PyTorch"
+      ],
+      "attachments": [
+        {
+          "url": "https://pytorch.org/wp-content/uploads/2026/08/Bengaluru-Event-1024x345.jpg",
+          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -344,6 +843,29 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee",
+      "url": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
+      "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
+      "content_text": "There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l",
+      "date_published": "2026-09-06T00:00:00Z",
+      "date_modified": "2026-09-06T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
+          "mime_type": "image/png"
+        }
       ]
     },
     {
@@ -643,75 +1165,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/d5def26daadb180a",
-      "url": "https://pydevtools.com/handbook/reference/conda/",
-      "title": "Conda",
-      "content_text": "Conda is a language-agnostic, cross-platform package and environment manager. Where pip installs Python packages from PyPI , conda resolves dependencies across Python, R, C/C++, Fortran, and other languages in a single dependency graph. Note Conda is the package manager. Anaconda is a distribution that bundles conda with 600+ pre-installed packages. See Understanding the Conda/Anaconda Ecosystem for how conda, Miniconda, Miniforge, and Anaconda relate.",
-      "date_published": "2026-09-03T20:00:48Z",
-      "date_modified": "2026-09-03T20:00:48Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/2178ec26784f685b",
-      "url": "https://pydevtools.com/handbook/reference/flake8/",
-      "title": "flake8: Python Linter",
-      "content_text": "Flake8 is a Python linting tool that wraps three checkers into one CLI: PyFlakes for logical errors, pycodestyle for PEP 8 style, and mccabe for cyclomatic complexity. A plugin system extends it with additional rules. Ruff reimplements flake8’s entire rule set with autofix support and 10-100x faster runs. Consider Ruff for new projects. When to use flake8 Flake8 fits codebases that already run it in CI and have tuned a stable configuration across setup.cfg , tox.ini , or .flake8 . Teams that dep",
-      "date_published": "2026-09-03T20:00:48Z",
-      "date_modified": "2026-09-03T20:00:48Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7c29a14f05f0fcf0",
-      "url": "https://pydevtools.com/handbook/reference/mypy/",
-      "title": "mypy: Python Static Type Checker",
-      "content_text": "mypy is a static type checker for Python that analyzes type annotations to detect bugs before runtime. It has been the default Python type checker since 2012 and has the broadest ecosystem support of any Python type checking tool. Development happens in the python/mypy repository under an MIT license. When to use mypy Use mypy when you want to catch type-related bugs before runtime by adding static type checking to a Python project. It is the most established Python type checker with broad ecosy",
-      "date_published": "2026-09-03T12:59:57Z",
-      "date_modified": "2026-09-03T12:59:57Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/1c614b6030cd1bf2",
       "url": "https://wrongsideofmemphis.com/2026/09/03/the-many-challenges-in-integrating-information-for-ai-agents/",
       "title": "Jaime Buelta: The Many Challenges in Integrating Information for AI Agents",
@@ -974,29 +1427,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/c662cb37c8a3c142",
-      "url": "https://www.djangoproject.com/weblog/2026/sep/01/djangonaut-space-session-7-accepting-applications/",
-      "title": "Django Weblog: Djangonaut Space - Session 7 Accepting Applications",
-      "content_text": "We are thrilled to announce that Djangonaut Space, a mentorship program for contributing to Django, is open for applicants for our next cohort! 🚀 Session 7 launches October 12th, 2026. We are currently accepting applications until September 6th, 2026 Anywhere on Earth . More details can be found in the website . Djangonaut Space is a free, 8-week group mentoring program where individuals will work self-paced in a semi-structured learning environment. It seeks to help members of the community who",
-      "date_published": "2026-09-01T17:13:15Z",
-      "date_modified": "2026-09-01T17:13:15Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://media.djangoproject.com/blog/images/2026/08/applications_closes.png",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://media.djangoproject.com/blog/images/2026/08/applications_closes.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/7767a1637395e669",
       "url": "https://www.python.org/downloads/release/pymanager-264b2/",
       "title": "Python install manager 26.4 beta 2",
@@ -1089,190 +1519,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/73900e398bd60fc2",
-      "url": "https://pydevtools.com/handbook/reference/nox/",
-      "title": "nox: Python Test Automation Tool",
-      "content_text": "nox manages Python virtual environments and runs tests across multiple Python versions and configurations. Where tox uses declarative TOML or INI configuration, nox uses Python code in a noxfile.py , which makes it straightforward to express conditionals, loops, and dynamic session generation. Hatch offers a third approach with its environment matrix system configured in pyproject.toml . When to Use nox nox solves the problem of running test suites, linters, and other checks across multiple Pyth",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/b39689f4809b285c",
-      "url": "https://pydevtools.com/handbook/reference/anaconda/",
-      "title": "Anaconda: Python and R Data Science Platform",
-      "content_text": "Anaconda Distribution is a pre-packaged Python and R data science platform maintained by Anaconda, Inc. It bundles the conda package manager, a Python interpreter , and over 600 scientific computing libraries into a single installer. The current release, Anaconda Distribution 2025.12, ships with Python 3.13.9 and conda 25.11.0. Warning",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/8df2c1b862ad83c7",
-      "url": "https://pydevtools.com/handbook/reference/hatch/",
-      "title": "Hatch: Python Project Manager",
-      "content_text": "hatch is a Python project management tool maintained by the Python Packaging Authority (PyPA). It handles virtual environment management, dependency resolution, project scaffolding, and publishing through a unified interface that follows Python packaging standards. Its build backend, hatchling, is one of the most widely used on PyPI. When to Use Hatch Hatch suits library authors who want a single, standards-compliant tool covering scaffolding, building, publishing, and multi-version testing. Its",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/950b5ec5463eb083",
-      "url": "https://pydevtools.com/handbook/reference/build/",
-      "title": "build: Python Package Build Frontend",
-      "content_text": "build is a PEP 517-compliant Python package builder developed by the Python Packaging Authority (PyPA) . It provides a standardized interface for building Python packages using any compliant build backend , serving as a simple frontend tool that executes the build process defined by backends like setuptools , flit , or hatchling . Key Features Build Operations Source Distributions: Creates sdist packages containing source code Binary Distributions: Builds wheel packages for direct installation B",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/5c4cc5c777978be4",
-      "url": "https://pydevtools.com/handbook/reference/basedpyright/",
-      "title": "Basedpyright: Python Type Checker (pyright Fork)",
-      "content_text": "Basedpyright is a static type checker and language server for Python, maintained by DetachHead as a community fork of Microsoft’s pyright . It tracks upstream pyright closely and adds diagnostic rules, stricter defaults, and language-server features that Microsoft keeps exclusive to its closed-source Pylance extension. The fork exists because pyright ships as an npm package and depends on Node.js, which makes it awkward to pin as a project dependency, and because the editor features most Python",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/basedpyright-reference-stat-bomb.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/basedpyright-reference-stat-bomb.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/3a80343827fcb2d7",
-      "url": "https://pydevtools.com/handbook/reference/mise/",
-      "title": "mise: Polyglot Runtime and Tool Version Manager",
-      "content_text": "mise (pronounced “meez,” formerly named rtx) is a cross-platform command-line tool that manages multiple language runtimes, environment variables, and project tasks from a single manifest. It installs and switches versions of Python, Node.js, Rust, Go, Ruby, and more than a thousand other tools, activating the correct versions automatically as the shell moves between directories. When to use mise mise fits polyglot projects that need more than one language runtime pinned together. A repository t",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/mise-social.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/mise-social.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/fc11a414f7436401",
-      "url": "https://pydevtools.com/handbook/reference/claude-code/",
-      "title": "Claude Code: Anthropic's Terminal Coding Agent",
-      "content_text": "Claude Code is a terminal-based AI coding agent from Anthropic that reads a project’s files, edits them, runs shell commands, and iterates on the results. A request is described in plain language, and Claude Code decides which files to read, which commands to run, and what code to write; when a command fails, it reads the error and adjusts. It also runs as a VS Code and JetBrains extension, a desktop app, and in the browser at claude.ai/code , all backed by the same engine.",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-07-27-claude-code-reference-hub.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-07-27-claude-code-reference-hub.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/f2588ff05cf50a48",
-      "url": "https://pydevtools.com/handbook/reference/direnv/",
-      "title": "direnv: Per-Directory Environment Variables for Python",
-      "content_text": "direnv is a shell extension that loads and unloads environment variables based on the current working directory. It reads a per-directory .envrc file when entering a folder and reverts the environment when leaving. Although direnv is language-agnostic, it is widely used in Python projects to activate virtual environments and export project-specific settings without polluting the global shell. Key Features Loads variables from .envrc on cd into a directory and unloads them on cd out Provides a st",
-      "date_published": "2026-08-29T11:17:44Z",
-      "date_modified": "2026-08-29T11:17:44Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/21fa1224a0fedcb8",
       "url": "https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/",
       "title": "vLLM Sessions at PyTorch Conference North America 2026",
@@ -1286,29 +1532,6 @@
       ],
       "tags": [
         "PyTorch"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/f767908f987bb006",
-      "url": "https://pydevtools.com/handbook/reference/conda-pypi/",
-      "title": "conda-pypi",
-      "content_text": "conda-pypi is a conda plugin that installs PyPI packages into a conda environment where the conda solver can track them. It closes the long-standing gap where pip -installed packages were invisible to conda and the two views of the environment would drift apart. With the conda-pypi channel configured, the standard conda install command resolves conda-forge and PyPI packages in a single solve, with no separate pip step. The plugin offers two mechanisms, and they behave differently:",
-      "date_published": "2026-08-28T15:30:28Z",
-      "date_modified": "2026-08-28T15:30:28Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {
@@ -1364,98 +1587,6 @@
       ],
       "tags": [
         "PyTorch"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/d6e1aaa9d673f674",
-      "url": "https://pydevtools.com/handbook/reference/furo/",
-      "title": "Furo: Sphinx Documentation Theme",
-      "content_text": "Furo is a Sphinx theme written by Pradyun Gedam . It is a clean, customisable replacement for Sphinx’s default alabaster theme, with built-in light and dark modes, a responsive layout, and a focused sidebar. Note",
-      "date_published": "2026-08-26T17:38:55Z",
-      "date_modified": "2026-08-26T17:38:55Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-04-29-furo-reference-comic.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-04-29-furo-reference-comic.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/edc7724d65a94346",
-      "url": "https://pydevtools.com/handbook/reference/mkdocstrings/",
-      "title": "mkdocstrings: Autogenerate API Documentation in MkDocs",
-      "content_text": "mkdocstrings is a MkDocs plugin that generates API documentation from source code and injects it directly into Markdown pages. The base plugin is language-agnostic; concrete language support ships as separate handler packages. Note",
-      "date_published": "2026-08-26T17:38:55Z",
-      "date_modified": "2026-08-26T17:38:55Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocstrings-reference-insight.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-04-29-mkdocstrings-reference-insight.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/d4e005317594330c",
-      "url": "https://pydevtools.com/handbook/reference/mkdocs/",
-      "title": "MkDocs: Markdown Documentation for Python Projects",
-      "content_text": "MkDocs is a static site generator that builds documentation websites from Markdown source files. A project’s structure, navigation, theme, and plugins are declared in a single mkdocs.yml file at the repo root. Note",
-      "date_published": "2026-08-26T17:38:55Z",
-      "date_modified": "2026-08-26T17:38:55Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-reference-insight.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-04-29-mkdocs-reference-insight.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/1630f214a486dcc3",
-      "url": "https://pydevtools.com/handbook/reference/mkdocs-material/",
-      "title": "Material for MkDocs: Documentation Theme and Framework",
-      "content_text": "Material for MkDocs is a theme and feature framework for MkDocs . Built by Martin Donath (squidfunk) , it layers Material Design styling, client-side search, dark mode, code annotations, and a wide configuration surface on top of the base MkDocs build pipeline. Note",
-      "date_published": "2026-08-26T17:38:55Z",
-      "date_modified": "2026-08-26T17:38:55Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-material-reference-hottake.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-04-29-mkdocs-material-reference-hottake.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {
@@ -1574,29 +1705,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/cd602c93cf11368a",
-      "url": "https://pydevtools.com/handbook/reference/cibuildwheel/",
-      "title": "cibuildwheel: Cross-Platform Python Wheel Builder",
-      "content_text": "cibuildwheel is a CI tool that builds Python wheels for multiple platforms, architectures, and Python versions from a single configuration. It runs on CI servers (GitHub Actions, GitLab CI, and Azure Pipelines), automating the work of compiling C/C++/Rust/Cython extensions and producing manylinux /musllinux-compliant wheels. Note",
-      "date_published": "2026-08-25T13:54:49Z",
-      "date_modified": "2026-08-25T13:54:49Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/16775323aeff2915",
       "url": "https://pydantic.dev/articles/best-sentry-alternatives",
       "title": "Best Sentry Alternatives in 2026 | Pydantic Logfire",
@@ -1666,75 +1774,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/32fe80ac89984c66",
-      "url": "https://pydevtools.com/handbook/reference/ipython/",
-      "title": "IPython: Enhanced Python Interactive Shell",
-      "content_text": "IPython is an enhanced interactive Python interpreter that provides a powerful command-line interface with advanced features like syntax highlighting, tab completion, magic commands, and rich display capabilities. It serves as the computational kernel for Jupyter notebooks. Key Features Enhanced Interactive Shell Syntax Highlighting: Real-time code coloring for better readability Tab Completion: Intelligent autocompletion for objects, methods, and file paths History Management: Persistent comman",
-      "date_published": "2026-08-19T20:16:33Z",
-      "date_modified": "2026-08-19T20:16:33Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/ecffcf2928101b16",
-      "url": "https://pydevtools.com/handbook/reference/cookiecutter/",
-      "title": "Cookiecutter: Python Project Template Tool",
-      "content_text": "Cookiecutter is a cross-platform command-line utility that creates projects from templates. It generates project structures by copying template directories and replacing templated variables with user-provided values, supporting any programming language or markup format. Key Features Template Processing Copies source directory trees and replaces names surrounded by templating tags {{ }} with values from cookiecutter.json Supports variable replacement in file names, directory names, and file conte",
-      "date_published": "2026-08-19T20:16:33Z",
-      "date_modified": "2026-08-19T20:16:33Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/1df86da533494713",
-      "url": "https://pydevtools.com/handbook/reference/pdb/",
-      "title": "pdb: Python's Built-in Debugger",
-      "content_text": "pdb is Python’s interactive source debugger, distributed as a module in the standard library. It supports setting breakpoints, single-stepping at the source-line level, inspecting and modifying variables in any stack frame, and post-mortem analysis of an unhandled exception. The interface is line-oriented and runs in any terminal with no external dependencies. When to use pdb Use pdb when a problem can be reproduced locally and adding a print statement is not enough. Drop a breakpoint() call at",
-      "date_published": "2026-08-19T20:16:33Z",
-      "date_modified": "2026-08-19T20:16:33Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social-share-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/4b33535a26c33757",
       "url": "https://www.anaconda.com/blog/ai-differentiation-beyond-model",
       "title": "How to Differentiate When Everyone Can Download the Same Model",
@@ -1754,29 +1793,6 @@
         {
           "url": "https://www.anaconda.com/wp-content/uploads/2026/08/Eval-Loop-Design-1024x881.webp",
           "mime_type": "image/webp"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47",
-      "url": "https://pydevtools.com/handbook/reference/marimo/",
-      "title": "marimo: Reactive Python Notebook",
-      "content_text": "marimo is an open-source Python notebook in which cells re-execute automatically when the variables they read change. Notebooks are stored as plain .py files rather than JSON and are parsed by static analysis to derive a deterministic execution order. The same file can be run as a standalone script or inside a sandboxed environment managed by uv . It is licensed under Apache-2.0 and requires Python 3.10 or newer. Reactive Notebook Model The traditional notebook model decouples cell ordering from",
-      "date_published": "2026-08-19T18:48:14Z",
-      "date_modified": "2026-08-19T18:48:14Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
-          "mime_type": "image/png"
         }
       ]
     },
@@ -3146,22 +3162,6 @@
           "url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
           "mime_type": "image/jpeg"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/3bc2d60742896aa7",
-      "url": "https://pytorch.org/blog/pytorch-2-13-release-blog/",
-      "title": "PyTorch 2.13 Release Blog",
-      "content_text": "We are excited to announce the release of PyTorch® 2.13 (release notes)! The PyTorch 2.13 release features the following changes:   FlexAttention lands on Apple Silicon (MPS), with up to...",
-      "date_published": "2026-07-08T17:42:23Z",
-      "date_modified": "2026-07-08T17:42:23Z",
-      "authors": [
-        {
-          "name": "PyTorch"
-        }
-      ],
-      "tags": [
-        "PyTorch"
       ]
     },
     {

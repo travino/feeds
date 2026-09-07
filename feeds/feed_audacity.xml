@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.audacityteam.org/blog/</id>
   <title>Audacity®</title>
-  <updated>2026-09-07T12:58:17.175054+00:00</updated>
+  <updated>2026-09-07T18:50:21.629785+00:00</updated>
   <author>
     <name>Audacity / MuseHub</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.audacityteam.org/favicon.ico</icon>
   <logo>https://www.audacityteam.org/favicon.ico</logo>
   <subtitle>Audacity blog and forum updates, plus MuseHub news and newly listed audio tools.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/5366c0a17647ba80</id>
+    <title>Audacity 4: Feature Improvements for a More Professional Recording Experience</title>
+    <updated>2026-09-07T16:10:45+00:00</updated>
+    <content>Audacity 4 has made a significant improvement in terms of interface design and overall workflow. However, I believe a few additional refinements could make the recording and editing experience even more professional and comfortable. One useful feature would be an option to allow effects with a tail, such as Reverb or Echo, to continue playing briefly after pressing Stop. This would make it much easier to hear the complete effect naturally. Another important improvement would be a truly real-time</content>
+    <link href="https://forum.audacityteam.org/t/audacity-4-feature-improvements-for-a-more-professional-recording-experience/153971" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-07T16:10:45+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/de82c8a2acf9266c</id>
+    <title>SoX - the Swiss Army Knife of sound processing</title>
+    <updated>2026-09-07T13:05:26+00:00</updated>
+    <content>SoX has been a well known command-line utility for working with audio files, for over 35 years. Here on the Audacity forum there are multiple examples and recipes for batch processing with SoX. Unfortunately, if you refer to the Wikipedia page one might get the impression that SoX is dead, but this is not the case. While it is true that the last release of the original SoX project was SoX 14.4.2 back in 2015, it has been continuously maintained and updated by the Linux community and others to th</content>
+    <link href="https://forum.audacityteam.org/t/sox-the-swiss-army-knife-of-sound-processing/153967" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-07T13:05:26+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/audacity/002b9dae57fdabcc</id>
     <title>Sound disappeard</title>
@@ -106,7 +136,7 @@
     <id>tag:trvny.github.io,2024:feedseek/audacity/10ac3a1fc2c8398b</id>
     <title>Prev/Next Clip Boundary shortcut keys (J/K) not working</title>
     <updated>2026-09-06T23:39:31+00:00</updated>
-    <content>I use the ability to jump between clips using the J/K keys all the time, but they are not working in v4. I checked the Shortcut Keys setup and noticed they were not defined so I added them, but they still don’t work.  Exited &amp; Restarted - still not working. 3 posts - 3 participants Read full topic</content>
+    <content>I use the ability to jump between clips using the J/K keys all the time, but they are not working in v4. I checked the Shortcut Keys setup and noticed they were not defined so I added them, but they still don’t work.  Exited &amp; Restarted - still not working. 4 posts - 3 participants Read full topic</content>
     <link href="https://forum.audacityteam.org/t/prev-next-clip-boundary-shortcut-keys-j-k-not-working/153951" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-06T23:39:31+00:00</published>

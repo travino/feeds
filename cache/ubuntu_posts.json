@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T13:00:45.419091+00:00",
+  "last_updated": "2026-09-07T18:52:29.433265+00:00",
   "entries": [
     {
       "title": "Ubuntu Studio 24.04.3 LTS Released",
@@ -1408,6 +1408,15 @@
       "source": "UbuntuHandbook",
       "image": "https://ubuntuhandbook.org/wp-content/uploads/2026/09/about-mesa2604-700x492.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/95e0e05ff47df398"
+    },
+    {
+      "title": "Ubuntu 26.10 daily ISOs add amd64v3 installer",
+      "link": "https://www.omgubuntu.co.uk/2026/09/ubuntu-amd64v3-iso-downloads",
+      "date": "2026-09-07T15:51:41+00:00",
+      "description": "Ubuntu 26.10 daily builds now include an amd64-v3 installer, allowing you to try out a CPU-optimised package set from the off, without any post-install reconfiguration. The distro began building amd64v3 packages as an opt-in archive last year, though Ubuntu 26.04 LTS continues to use the standard amd64 (v1) baseline by default (and since there have been hiccups along the way, that decision was a wise one). Ubuntu 26.04 LTS can be manually converted to an amd64-v3 package set after install, but t",
+      "source": "OMG! Ubuntu",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/01/dell-xps-ubuntu-406x232.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/11c17449d8a4c4e2"
     }
   ]
 }

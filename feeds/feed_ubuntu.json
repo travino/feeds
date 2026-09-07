@@ -8,6 +8,29 @@
   "icon": "https://ubuntu.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/11c17449d8a4c4e2",
+      "url": "https://www.omgubuntu.co.uk/2026/09/ubuntu-amd64v3-iso-downloads",
+      "title": "Ubuntu 26.10 daily ISOs add amd64v3 installer",
+      "content_text": "Ubuntu 26.10 daily builds now include an amd64-v3 installer, allowing you to try out a CPU-optimised package set from the off, without any post-install reconfiguration. The distro began building amd64v3 packages as an opt-in archive last year, though Ubuntu 26.04 LTS continues to use the standard amd64 (v1) baseline by default (and since there have been hiccups along the way, that decision was a wise one). Ubuntu 26.04 LTS can be manually converted to an amd64-v3 package set after install, but t",
+      "date_published": "2026-09-07T15:51:41Z",
+      "date_modified": "2026-09-07T15:51:41Z",
+      "authors": [
+        {
+          "name": "OMG! Ubuntu"
+        }
+      ],
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/01/dell-xps-ubuntu-406x232.jpg",
+      "tags": [
+        "OMG! Ubuntu"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/01/dell-xps-ubuntu-406x232.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/ubuntu/95e0e05ff47df398",
       "url": "https://ubuntuhandbook.org/index.php/2026/09/mesa-26-2-install-ppa-ubuntu/",
       "title": "Mesa 26.2 Finally Available to Install via PPA in Ubuntu 26.04/24.04",
@@ -1379,29 +1402,6 @@
         {
           "url": "https://jnsgr.uk/2026/08/automating-c-to-rust-translation/cover.jpg",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/6b50f0ed8a2080e2",
-      "url": "https://www.omgubuntu.co.uk/2026/08/firefox-154-released",
-      "title": "Firefox 154 released with translation, AI and UI tweaks",
-      "content_text": "Mozilla has released Firefox 154 with some small AI-related changes, an ‘improved’ full-page translations and faster video seeking on “all operating systems”. Firefox 154 serves as the final monthly release of Firefox before browser switches to a faster, twice-monthly release schedule early September. That means you’ll be back here, reading “Firefox 155 released” in a couple weeks, rather than the usual four weeks. But enough what’s coming; what’s new now? Firefox 154’s main changes Firefox’s be",
-      "date_published": "2026-08-18T13:46:26Z",
-      "date_modified": "2026-08-18T13:46:26Z",
-      "authors": [
-        {
-          "name": "OMG! Ubuntu"
-        }
-      ],
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/firefox-154.webp?resize=406%2C232&ssl=1",
-      "tags": [
-        "OMG! Ubuntu"
-      ],
-      "attachments": [
-        {
-          "url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/firefox-154.webp?resize=406%2C232&ssl=1",
-          "mime_type": "image/webp"
         }
       ]
     },

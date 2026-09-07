@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T13:00:05.832956+00:00",
+  "last_updated": "2026-09-07T18:51:53.082253+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -5730,95 +5730,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/97a4255320f4f6c4"
     },
     {
-      "title": "Nuitka",
-      "link": "https://pydevtools.com/handbook/reference/nuitka/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "Nuitka is a Python-to-C compiler that translates CPython bytecode into C source, then compiles and links the result against libpython . The output runs without a separate Python installation and can ship as a standalone folder, a self-extracting single-file executable, or an importable extension module. Nuitka runs on Linux, macOS, and Windows; the build machine needs a C toolchain ( gcc , clang , or MSVC). Install it with uv tool install nuitka or pipx install nuitka . Nuitka is AGPL-3.0+ with ",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/9c115d2254ed0eda"
-    },
-    {
-      "title": "Homebrew: macOS Package Manager for Python",
-      "link": "https://pydevtools.com/handbook/reference/homebrew/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "Homebrew is a package manager for macOS and Linux that installs software outside the operating system’s own package manager, without requiring root access. It manages its own dependency tree, handles updates, and exposes installed binaries on PATH . Homebrew can install Python, but using it as a Python version manager for development is not recommended . Homebrew updates can silently change Python versions, breaking project environments. Use uv python install or pyenv for version management. Key",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/0b5991ac8b08e772"
-    },
-    {
-      "title": "Conda Package",
-      "link": "https://pydevtools.com/handbook/reference/conda-package/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "A conda package is a compressed archive containing pre-built binaries, library code, metadata, and dependency information for installation through conda channels. It serves the same role in the conda ecosystem that a wheel serves on PyPI , with one critical difference: conda packages can bundle software from any language (Python, R, C++, Fortran, Julia), not just Python. Package Formats The conda ecosystem recognizes two archive formats, referred to as v1 and v2.",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3679d48f9f55d3d8"
-    },
-    {
-      "title": "conda-forge: Community Conda Package Channel",
-      "link": "https://pydevtools.com/handbook/reference/conda-forge/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "conda-forge is a community-maintained collection of conda packages distributed through a public channel on anaconda.org . Over 25,000 feedstocks (package repositories) produce builds for Linux, macOS, and Windows across multiple CPU architectures. Each feedstock contains a build recipe in its own GitHub repository, and automated infrastructure rebuilds packages when dependencies change or new platforms appear. Note",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/cb01d1caea51ef63"
-    },
-    {
-      "title": "Briefcase",
-      "link": "https://pydevtools.com/handbook/reference/briefcase/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "Briefcase is the only mainstream Python packaging tool that ships to iOS and Android. It also packages applications for macOS, Windows, Linux, and the Web, producing platform-specific artifacts ( .app /DMG, MSI, .deb / .rpm /AppImage/Flatpak, Xcode project, Gradle project, PyScript/Pyodide site) from a single pyproject.toml configuration. Briefcase is part of the BeeWare project and is the packaging companion to Toga , BeeWare’s cross-platform GUI toolkit. Briefcase does not require Toga; it pac",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/2026-04-16-briefcase-mobile-mascot.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c475c7166b871722"
-    },
-    {
-      "title": "distutils: Python's Original Build System",
-      "link": "https://pydevtools.com/handbook/reference/distutils/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "distutils was a standard library module that provided the original mechanism for building and distributing Python packages. It defined the setup.py -based workflow that became the foundation of Python packaging for over two decades. distutils was deprecated in Python 3.10 and removed in Python 3.12. Projects still importing from distutils.core must migrate to a modern build backend configured through pyproject.toml . Original workflow distutils handled package building, installation, and distrib",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3f9b1f3b99c3befd"
-    },
-    {
-      "title": "Black: Python Code Formatter",
-      "link": "https://pydevtools.com/handbook/reference/black/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "Black is an opinionated Python code formatter that rewrites source files to conform to a strict subset of PEP 8 . It exposes few configuration options by design, so teams converge on one canonical style instead of debating formatting choices. To sort imports alongside Black, most projects pair it with isort (or use Ruff , which bundles both). When to use Black Black fits codebases that already run it in CI or pre-commit hooks and have built workflows around its stable output. Its formatting has ",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/8df7e3b22145031c"
-    },
-    {
-      "title": "Flit: Python Build and Publish Tool",
-      "link": "https://pydevtools.com/handbook/reference/flit/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "Flit is a Python packaging tool for building and publishing pure-Python packages. It provides a CLI for scaffolding ( flit init ), local installation ( flit install ), and PyPI publishing ( flit publish ). Its build backend, flit-core, ships as a separate package with zero runtime dependencies and can be used independently of the flit CLI. Flit does not manage virtual environments or resolve dependencies; those are handled by separate tools such as uv . When to use Flit Flit suits pure-Python li",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/941e11322c9f8587"
-    },
-    {
-      "title": "cx_Freeze",
-      "link": "https://pydevtools.com/handbook/reference/cx-freeze/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "cx_Freeze is a Python application freezer that packages a Python program and its dependencies into a self-contained directory or executable. It targets Windows, macOS, and Linux from the same configuration and ships native commands for producing each platform’s preferred installer format. Recent releases add experimental support for freezing free-threaded CPython builds. Install it with uv tool install cx_Freeze or pipx install cx_Freeze . When to Use cx_Freeze cx_Freeze fits projects whose deli",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/2026-04-16-cx-freeze-six-installers-stat-bomb.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ed372d272cab7225"
-    },
-    {
-      "title": "marimo: Reactive Python Notebook",
-      "link": "https://pydevtools.com/handbook/reference/marimo/",
-      "date": "2026-08-19T18:48:14+00:00",
-      "description": "marimo is an open-source Python notebook in which cells re-execute automatically when the variables they read change. Notebooks are stored as plain .py files rather than JSON and are parsed by static analysis to derive a deterministic execution order. The same file can be run as a standalone script or inside a sandboxed environment managed by uv . It is licensed under Apache-2.0 and requires Python 3.10 or newer. Reactive Notebook Model The traditional notebook model decouples cell ordering from",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47"
-    },
-    {
       "title": "Talk Python to Me: #559: 12 Things You Should (and Shouldn't) Do in AWS",
       "link": "https://talkpython.fm/episodes/show/559/12-things-you-should-and-shouldnt-do-in-aws",
       "date": "2026-08-19T18:57:47+00:00",
@@ -5835,33 +5746,6 @@
       "source": "Anaconda",
       "image": "https://www.anaconda.com/wp-content/uploads/2026/08/Eval-Loop-Design-1024x881.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/4b33535a26c33757"
-    },
-    {
-      "title": "IPython: Enhanced Python Interactive Shell",
-      "link": "https://pydevtools.com/handbook/reference/ipython/",
-      "date": "2026-08-19T20:16:33+00:00",
-      "description": "IPython is an enhanced interactive Python interpreter that provides a powerful command-line interface with advanced features like syntax highlighting, tab completion, magic commands, and rich display capabilities. It serves as the computational kernel for Jupyter notebooks. Key Features Enhanced Interactive Shell Syntax Highlighting: Real-time code coloring for better readability Tab Completion: Intelligent autocompletion for objects, methods, and file paths History Management: Persistent comman",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/32fe80ac89984c66",
-      "image": "https://pydevtools.com/images/social-share-default.png"
-    },
-    {
-      "title": "Cookiecutter: Python Project Template Tool",
-      "link": "https://pydevtools.com/handbook/reference/cookiecutter/",
-      "date": "2026-08-19T20:16:33+00:00",
-      "description": "Cookiecutter is a cross-platform command-line utility that creates projects from templates. It generates project structures by copying template directories and replacing templated variables with user-provided values, supporting any programming language or markup format. Key Features Template Processing Copies source directory trees and replaces names surrounded by templating tags {{ }} with values from cookiecutter.json Supports variable replacement in file names, directory names, and file conte",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ecffcf2928101b16"
-    },
-    {
-      "title": "pdb: Python's Built-in Debugger",
-      "link": "https://pydevtools.com/handbook/reference/pdb/",
-      "date": "2026-08-19T20:16:33+00:00",
-      "description": "pdb is Python’s interactive source debugger, distributed as a module in the standard library. It supports setting breakpoints, single-stepping at the source-line level, inspecting and modifying variables in any stack frame, and post-mortem analysis of an unhandled exception. The interface is line-oriented and runs in any terminal with no external dependencies. When to use pdb Use pdb when a problem can be reproduced locally and adding a print statement is not enough. Drop a breakpoint() call at ",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1df86da533494713"
     },
     {
       "title": "verbiflow 0.2.12",
@@ -6467,15 +6351,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/390341a8015070f1"
     },
     {
-      "title": "cibuildwheel: Cross-Platform Python Wheel Builder",
-      "link": "https://pydevtools.com/handbook/reference/cibuildwheel/",
-      "date": "2026-08-25T13:54:49+00:00",
-      "description": "cibuildwheel is a CI tool that builds Python wheels for multiple platforms, architectures, and Python versions from a single configuration. It runs on CI servers (GitHub Actions, GitLab CI, and Azure Pipelines), automating the work of compiling C/C++/Rust/Cython extensions and producing manylinux /musllinux-compliant wheels. Note",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/cd602c93cf11368a"
-    },
-    {
       "title": "Anarcat: A more nuanced view of LLMs",
       "link": "https://anarc.at/blog/2026-08-25-llm-nuance/",
       "date": "2026-08-25T16:07:58+00:00",
@@ -6634,42 +6509,6 @@
       "source": "Planet Python",
       "image": "https://mathspp.com/images/5/a/2/3/d/5a23d5a2e70f8ab336e1e7e1d2baa11334840561-thumbnail.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/1727dcab217f1f51"
-    },
-    {
-      "title": "Furo: Sphinx Documentation Theme",
-      "link": "https://pydevtools.com/handbook/reference/furo/",
-      "date": "2026-08-26T17:38:55+00:00",
-      "description": "Furo is a Sphinx theme written by Pradyun Gedam . It is a clean, customisable replacement for Sphinx’s default alabaster theme, with built-in light and dark modes, a responsive layout, and a focused sidebar. Note",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d6e1aaa9d673f674",
-      "image": "https://pydevtools.com/images/social/2026-04-29-furo-reference-comic.png"
-    },
-    {
-      "title": "mkdocstrings: Autogenerate API Documentation in MkDocs",
-      "link": "https://pydevtools.com/handbook/reference/mkdocstrings/",
-      "date": "2026-08-26T17:38:55+00:00",
-      "description": "mkdocstrings is a MkDocs plugin that generates API documentation from source code and injects it directly into Markdown pages. The base plugin is language-agnostic; concrete language support ships as separate handler packages. Note",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/edc7724d65a94346",
-      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocstrings-reference-insight.png"
-    },
-    {
-      "title": "MkDocs: Markdown Documentation for Python Projects",
-      "link": "https://pydevtools.com/handbook/reference/mkdocs/",
-      "date": "2026-08-26T17:38:55+00:00",
-      "description": "MkDocs is a static site generator that builds documentation websites from Markdown source files. A project’s structure, navigation, theme, and plugins are declared in a single mkdocs.yml file at the repo root. Note",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d4e005317594330c",
-      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-reference-insight.png"
-    },
-    {
-      "title": "Material for MkDocs: Documentation Theme and Framework",
-      "link": "https://pydevtools.com/handbook/reference/mkdocs-material/",
-      "date": "2026-08-26T17:38:55+00:00",
-      "description": "Material for MkDocs is a theme and feature framework for MkDocs . Built by Martin Donath (squidfunk) , it layers Material Design styling, client-side search, dark mode, code annotations, and a wide configuration surface on top of the base MkDocs build pipeline. Note",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-material-reference-hottake.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1630f214a486dcc3"
     },
     {
       "title": "Talk Python to Me: #560: Building a Research OS: From Django to 30,000 Samples",
@@ -6900,15 +6739,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/d319f8f3ade6d32c"
     },
     {
-      "title": "conda-pypi",
-      "link": "https://pydevtools.com/handbook/reference/conda-pypi/",
-      "date": "2026-08-28T15:30:28+00:00",
-      "description": "conda-pypi is a conda plugin that installs PyPI packages into a conda environment where the conda solver can track them. It closes the long-standing gap where pip -installed packages were invisible to conda and the two views of the environment would drift apart. With the conda-pypi channel configured, the standard conda install command resolves conda-forge and PyPI packages in a single solve, with no separate pip step. The plugin offers two mechanisms, and they behave differently:",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f767908f987bb006"
-    },
-    {
       "title": "vLLM Sessions at PyTorch Conference North America 2026",
       "link": "https://pytorch.org/blog/vllm-sessions-at-pytorch-conference-north-america-2026/",
       "date": "2026-08-28T21:30:18+00:00",
@@ -6967,78 +6797,6 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/d08feef95d72d43e"
-    },
-    {
-      "title": "nox: Python Test Automation Tool",
-      "link": "https://pydevtools.com/handbook/reference/nox/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "nox manages Python virtual environments and runs tests across multiple Python versions and configurations. Where tox uses declarative TOML or INI configuration, nox uses Python code in a noxfile.py , which makes it straightforward to express conditionals, loops, and dynamic session generation. Hatch offers a third approach with its environment matrix system configured in pyproject.toml . When to Use nox nox solves the problem of running test suites, linters, and other checks across multiple Pyth",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/73900e398bd60fc2"
-    },
-    {
-      "title": "Anaconda: Python and R Data Science Platform",
-      "link": "https://pydevtools.com/handbook/reference/anaconda/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "Anaconda Distribution is a pre-packaged Python and R data science platform maintained by Anaconda, Inc. It bundles the conda package manager, a Python interpreter , and over 600 scientific computing libraries into a single installer. The current release, Anaconda Distribution 2025.12, ships with Python 3.13.9 and conda 25.11.0. Warning",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b39689f4809b285c"
-    },
-    {
-      "title": "Hatch: Python Project Manager",
-      "link": "https://pydevtools.com/handbook/reference/hatch/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "hatch is a Python project management tool maintained by the Python Packaging Authority (PyPA). It handles virtual environment management, dependency resolution, project scaffolding, and publishing through a unified interface that follows Python packaging standards. Its build backend, hatchling, is one of the most widely used on PyPI. When to Use Hatch Hatch suits library authors who want a single, standards-compliant tool covering scaffolding, building, publishing, and multi-version testing. Its",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/8df2c1b862ad83c7"
-    },
-    {
-      "title": "build: Python Package Build Frontend",
-      "link": "https://pydevtools.com/handbook/reference/build/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "build is a PEP 517-compliant Python package builder developed by the Python Packaging Authority (PyPA) . It provides a standardized interface for building Python packages using any compliant build backend , serving as a simple frontend tool that executes the build process defined by backends like setuptools , flit , or hatchling . Key Features Build Operations Source Distributions: Creates sdist packages containing source code Binary Distributions: Builds wheel packages for direct installation B",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/950b5ec5463eb083"
-    },
-    {
-      "title": "Basedpyright: Python Type Checker (pyright Fork)",
-      "link": "https://pydevtools.com/handbook/reference/basedpyright/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "Basedpyright is a static type checker and language server for Python, maintained by DetachHead as a community fork of Microsoft’s pyright . It tracks upstream pyright closely and adds diagnostic rules, stricter defaults, and language-server features that Microsoft keeps exclusive to its closed-source Pylance extension. The fork exists because pyright ships as an npm package and depends on Node.js, which makes it awkward to pin as a project dependency, and because the editor features most Python ",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/basedpyright-reference-stat-bomb.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/5c4cc5c777978be4"
-    },
-    {
-      "title": "mise: Polyglot Runtime and Tool Version Manager",
-      "link": "https://pydevtools.com/handbook/reference/mise/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "mise (pronounced “meez,” formerly named rtx) is a cross-platform command-line tool that manages multiple language runtimes, environment variables, and project tasks from a single manifest. It installs and switches versions of Python, Node.js, Rust, Go, Ruby, and more than a thousand other tools, activating the correct versions automatically as the shell moves between directories. When to use mise mise fits polyglot projects that need more than one language runtime pinned together. A repository t",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/mise-social.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3a80343827fcb2d7"
-    },
-    {
-      "title": "Claude Code: Anthropic's Terminal Coding Agent",
-      "link": "https://pydevtools.com/handbook/reference/claude-code/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "Claude Code is a terminal-based AI coding agent from Anthropic that reads a project’s files, edits them, runs shell commands, and iterates on the results. A request is described in plain language, and Claude Code decides which files to read, which commands to run, and what code to write; when a command fails, it reads the error and adjusts. It also runs as a VS Code and JetBrains extension, a desktop app, and in the browser at claude.ai/code , all backed by the same engine.",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social/2026-07-27-claude-code-reference-hub.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/fc11a414f7436401"
-    },
-    {
-      "title": "direnv: Per-Directory Environment Variables for Python",
-      "link": "https://pydevtools.com/handbook/reference/direnv/",
-      "date": "2026-08-29T11:17:44+00:00",
-      "description": "direnv is a shell extension that loads and unloads environment variables based on the current working directory. It reads a per-directory .envrc file when entering a folder and reverts the environment when leaving. Although direnv is language-agnostic, it is widely used in Python projects to activate virtual environments and export project-specific settings without polluting the global shell. Key Features Loads variables from .envrc on cd into a directory and unloads them on cd out Provides a st",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f2588ff05cf50a48"
     },
     {
       "title": "eqiora 0.1.0a5",
@@ -7570,33 +7328,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/1c614b6030cd1bf2"
     },
     {
-      "title": "mypy: Python Static Type Checker",
-      "link": "https://pydevtools.com/handbook/reference/mypy/",
-      "date": "2026-09-03T12:59:57+00:00",
-      "description": "mypy is a static type checker for Python that analyzes type annotations to detect bugs before runtime. It has been the default Python type checker since 2012 and has the broadest ecosystem support of any Python type checking tool. Development happens in the python/mypy repository under an MIT license. When to use mypy Use mypy when you want to catch type-related bugs before runtime by adding static type checking to a Python project. It is the most established Python type checker with broad ecosy",
-      "source": "PyDevTools",
-      "image": "https://pydevtools.com/images/social-share-default.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7c29a14f05f0fcf0"
-    },
-    {
-      "title": "Conda",
-      "link": "https://pydevtools.com/handbook/reference/conda/",
-      "date": "2026-09-03T20:00:48+00:00",
-      "description": "Conda is a language-agnostic, cross-platform package and environment manager. Where pip installs Python packages from PyPI , conda resolves dependencies across Python, R, C/C++, Fortran, and other languages in a single dependency graph. Note Conda is the package manager. Anaconda is a distribution that bundles conda with 600+ pre-installed packages. See Understanding the Conda/Anaconda Ecosystem for how conda, Miniconda, Miniforge, and Anaconda relate.",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d5def26daadb180a",
-      "image": "https://pydevtools.com/images/social-share-default.png"
-    },
-    {
-      "title": "flake8: Python Linter",
-      "link": "https://pydevtools.com/handbook/reference/flake8/",
-      "date": "2026-09-03T20:00:48+00:00",
-      "description": "Flake8 is a Python linting tool that wraps three checkers into one CLI: PyFlakes for logical errors, pycodestyle for PEP 8 style, and mccabe for cyclomatic complexity. A plugin system extends it with additional rules. Ruff reimplements flake8’s entire rule set with autofix support and 10-100x faster runs. Consider Ruff for new projects. When to use flake8 Flake8 fits codebases that already run it in CI and have tuned a stable configuration across setup.cfg , tox.ini , or .flake8 . Teams that dep",
-      "source": "PyDevTools",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2178ec26784f685b",
-      "image": "https://pydevtools.com/images/social-share-default.png"
-    },
-    {
       "title": "Graham Dumpleton: Phased behaviour in wrapture",
       "link": "https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/",
       "date": "2026-09-04T00:00:00+00:00",
@@ -7789,6 +7520,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/c2a98ae98656f512"
     },
     {
+      "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
+      "link": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
+      "date": "2026-09-06T00:00:00+00:00",
+      "description": "There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l",
+      "source": "Planet Python",
+      "image": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee"
+    },
+    {
       "title": "flask-production-mcp 0.1.0",
       "link": "https://pypi.org/project/flask-production-mcp/0.1.0/",
       "date": "2026-09-06T00:16:12+00:00",
@@ -7916,55 +7656,332 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f"
     },
     {
-      "title": "manifest-builder 0.7.11",
-      "link": "https://pypi.org/project/manifest-builder/0.7.11/",
-      "date": "2026-09-07T12:46:21+00:00",
-      "description": "Generate materialized Kubernetes manifests from configuration input",
-      "source": "PyPI Updates",
-      "image": "https://pypi.org/static/images/og-card.00947198.webp",
-      "image_width": 1200,
-      "image_height": 630,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ed8a2531779bb65d"
+      "title": "PyTorch x Hugging Face in Bengaluru: Building India’s Next Generation of ML Systems Contributors",
+      "link": "https://pytorch.org/blog/pytorch-x-hugging-face-in-bengaluru-building-indias-next-generation-of-ml-systems-contributors/",
+      "date": "2026-09-07T13:05:37+00:00",
+      "description": "TL;DR More than 170 students, engineers, researchers, and open-source contributors gathered in Bengaluru for a technical evening hosted by Red Hat and Hugging Face around PyTorch, large-scale inference, reinforcement learning...",
+      "source": "PyTorch",
+      "image": "https://pytorch.org/wp-content/uploads/2026/08/Bengaluru-Event-1024x345.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/760346d5adbccfd2"
     },
     {
-      "title": "cdk-preflight 0.0.53",
-      "link": "https://pypi.org/project/cdk-preflight/0.0.53/",
-      "date": "2026-09-07T12:46:39+00:00",
-      "description": "Catch deploy-time CloudFormation failures at synth time: a Rego rule pack for constraints that resource schemas miss, injected into the AWS CDK built-in validator",
+      "title": "Nuitka",
+      "link": "https://pydevtools.com/handbook/reference/nuitka/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Nuitka is a Python-to-C compiler that translates CPython bytecode into C source, then compiles and links the result against libpython . The output runs without a separate Python installation and can ship as a standalone folder, a self-extracting single-file executable, or an importable extension module. Nuitka runs on Linux, macOS, and Windows; the build machine needs a C toolchain ( gcc , clang , or MSVC). Install it with uv tool install nuitka or pipx install nuitka . Nuitka is AGPL-3.0+ with ",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/9c115d2254ed0eda"
+    },
+    {
+      "title": "Homebrew: macOS Package Manager for Python",
+      "link": "https://pydevtools.com/handbook/reference/homebrew/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Homebrew is a package manager for macOS and Linux that installs software outside the operating system’s own package manager, without requiring root access. It manages its own dependency tree, handles updates, and exposes installed binaries on PATH . Homebrew can install Python, but using it as a Python version manager for development is not recommended . Homebrew updates can silently change Python versions, breaking project environments. Use uv python install or pyenv for version management. Key",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/0b5991ac8b08e772"
+    },
+    {
+      "title": "Conda Package",
+      "link": "https://pydevtools.com/handbook/reference/conda-package/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "A conda package is a compressed archive containing pre-built binaries, library code, metadata, and dependency information for installation through conda channels. It serves the same role in the conda ecosystem that a wheel serves on PyPI , with one critical difference: conda packages can bundle software from any language (Python, R, C++, Fortran, Julia), not just Python. Package Formats The conda ecosystem recognizes two archive formats, referred to as v1 and v2.",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3679d48f9f55d3d8"
+    },
+    {
+      "title": "conda-forge: Community Conda Package Channel",
+      "link": "https://pydevtools.com/handbook/reference/conda-forge/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "conda-forge is a community-maintained collection of conda packages distributed through a public channel on anaconda.org . Over 25,000 feedstocks (package repositories) produce builds for Linux, macOS, and Windows across multiple CPU architectures. Each feedstock contains a build recipe in its own GitHub repository, and automated infrastructure rebuilds packages when dependencies change or new platforms appear. Note",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/cb01d1caea51ef63"
+    },
+    {
+      "title": "Briefcase",
+      "link": "https://pydevtools.com/handbook/reference/briefcase/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Briefcase is the only mainstream Python packaging tool that ships to iOS and Android. It also packages applications for macOS, Windows, Linux, and the Web, producing platform-specific artifacts ( .app /DMG, MSI, .deb / .rpm /AppImage/Flatpak, Xcode project, Gradle project, PyScript/Pyodide site) from a single pyproject.toml configuration. Briefcase is part of the BeeWare project and is the packaging companion to Toga , BeeWare’s cross-platform GUI toolkit. Briefcase does not require Toga; it pac",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/2026-04-16-briefcase-mobile-mascot.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c475c7166b871722"
+    },
+    {
+      "title": "distutils: Python's Original Build System",
+      "link": "https://pydevtools.com/handbook/reference/distutils/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "distutils was a standard library module that provided the original mechanism for building and distributing Python packages. It defined the setup.py -based workflow that became the foundation of Python packaging for over two decades. distutils was deprecated in Python 3.10 and removed in Python 3.12. Projects still importing from distutils.core must migrate to a modern build backend configured through pyproject.toml . Original workflow distutils handled package building, installation, and distrib",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3f9b1f3b99c3befd"
+    },
+    {
+      "title": "Black: Python Code Formatter",
+      "link": "https://pydevtools.com/handbook/reference/black/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Black is an opinionated Python code formatter that rewrites source files to conform to a strict subset of PEP 8 . It exposes few configuration options by design, so teams converge on one canonical style instead of debating formatting choices. To sort imports alongside Black, most projects pair it with isort (or use Ruff , which bundles both). When to use Black Black fits codebases that already run it in CI or pre-commit hooks and have built workflows around its stable output. Its formatting has ",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/8df7e3b22145031c"
+    },
+    {
+      "title": "Flit: Python Build and Publish Tool",
+      "link": "https://pydevtools.com/handbook/reference/flit/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Flit is a Python packaging tool for building and publishing pure-Python packages. It provides a CLI for scaffolding ( flit init ), local installation ( flit install ), and PyPI publishing ( flit publish ). Its build backend, flit-core, ships as a separate package with zero runtime dependencies and can be used independently of the flit CLI. Flit does not manage virtual environments or resolve dependencies; those are handled by separate tools such as uv . When to use Flit Flit suits pure-Python li",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/941e11322c9f8587"
+    },
+    {
+      "title": "cx_Freeze",
+      "link": "https://pydevtools.com/handbook/reference/cx-freeze/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "cx_Freeze is a Python application freezer that packages a Python program and its dependencies into a self-contained directory or executable. It targets Windows, macOS, and Linux from the same configuration and ships native commands for producing each platform’s preferred installer format. Recent releases add experimental support for freezing free-threaded CPython builds. Install it with uv tool install cx_Freeze or pipx install cx_Freeze . When to Use cx_Freeze cx_Freeze fits projects whose deli",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/2026-04-16-cx-freeze-six-installers-stat-bomb.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ed372d272cab7225"
+    },
+    {
+      "title": "marimo: Reactive Python Notebook",
+      "link": "https://pydevtools.com/handbook/reference/marimo/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "marimo is an open-source Python notebook in which cells re-execute automatically when the variables they read change. Notebooks are stored as plain .py files rather than JSON and are parsed by static analysis to derive a deterministic execution order. The same file can be run as a standalone script or inside a sandboxed environment managed by uv . It is licensed under Apache-2.0 and requires Python 3.10 or newer. Reactive Notebook Model The traditional notebook model decouples cell ordering from",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47"
+    },
+    {
+      "title": "IPython: Enhanced Python Interactive Shell",
+      "link": "https://pydevtools.com/handbook/reference/ipython/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "IPython is an enhanced interactive Python interpreter that provides a powerful command-line interface with advanced features like syntax highlighting, tab completion, magic commands, and rich display capabilities. It serves as the computational kernel for Jupyter notebooks. Key Features Enhanced Interactive Shell Syntax Highlighting: Real-time code coloring for better readability Tab Completion: Intelligent autocompletion for objects, methods, and file paths History Management: Persistent comman",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/32fe80ac89984c66",
+      "image": "https://pydevtools.com/images/social-share-default.png"
+    },
+    {
+      "title": "Cookiecutter: Python Project Template Tool",
+      "link": "https://pydevtools.com/handbook/reference/cookiecutter/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Cookiecutter is a cross-platform command-line utility that creates projects from templates. It generates project structures by copying template directories and replacing templated variables with user-provided values, supporting any programming language or markup format. Key Features Template Processing Copies source directory trees and replaces names surrounded by templating tags {{ }} with values from cookiecutter.json Supports variable replacement in file names, directory names, and file conte",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ecffcf2928101b16"
+    },
+    {
+      "title": "pdb: Python's Built-in Debugger",
+      "link": "https://pydevtools.com/handbook/reference/pdb/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "pdb is Python’s interactive source debugger, distributed as a module in the standard library. It supports setting breakpoints, single-stepping at the source-line level, inspecting and modifying variables in any stack frame, and post-mortem analysis of an unhandled exception. The interface is line-oriented and runs in any terminal with no external dependencies. When to use pdb Use pdb when a problem can be reproduced locally and adding a print statement is not enough. Drop a breakpoint() call at ",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1df86da533494713"
+    },
+    {
+      "title": "cibuildwheel: Cross-Platform Python Wheel Builder",
+      "link": "https://pydevtools.com/handbook/reference/cibuildwheel/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "cibuildwheel is a CI tool that builds Python wheels for multiple platforms, architectures, and Python versions from a single configuration. It runs on CI servers (GitHub Actions, GitLab CI, and Azure Pipelines), automating the work of compiling C/C++/Rust/Cython extensions and producing manylinux /musllinux-compliant wheels. Note",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/cd602c93cf11368a"
+    },
+    {
+      "title": "Furo: Sphinx Documentation Theme",
+      "link": "https://pydevtools.com/handbook/reference/furo/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Furo is a Sphinx theme written by Pradyun Gedam . It is a clean, customisable replacement for Sphinx’s default alabaster theme, with built-in light and dark modes, a responsive layout, and a focused sidebar. Note",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d6e1aaa9d673f674",
+      "image": "https://pydevtools.com/images/social/2026-04-29-furo-reference-comic.png"
+    },
+    {
+      "title": "mkdocstrings: Autogenerate API Documentation in MkDocs",
+      "link": "https://pydevtools.com/handbook/reference/mkdocstrings/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "mkdocstrings is a MkDocs plugin that generates API documentation from source code and injects it directly into Markdown pages. The base plugin is language-agnostic; concrete language support ships as separate handler packages. Note",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/edc7724d65a94346",
+      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocstrings-reference-insight.png"
+    },
+    {
+      "title": "MkDocs: Markdown Documentation for Python Projects",
+      "link": "https://pydevtools.com/handbook/reference/mkdocs/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "MkDocs is a static site generator that builds documentation websites from Markdown source files. A project’s structure, navigation, theme, and plugins are declared in a single mkdocs.yml file at the repo root. Note",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d4e005317594330c",
+      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-reference-insight.png"
+    },
+    {
+      "title": "Material for MkDocs: Documentation Theme and Framework",
+      "link": "https://pydevtools.com/handbook/reference/mkdocs-material/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Material for MkDocs is a theme and feature framework for MkDocs . Built by Martin Donath (squidfunk) , it layers Material Design styling, client-side search, dark mode, code annotations, and a wide configuration surface on top of the base MkDocs build pipeline. Note",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/2026-04-29-mkdocs-material-reference-hottake.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1630f214a486dcc3"
+    },
+    {
+      "title": "conda-pypi",
+      "link": "https://pydevtools.com/handbook/reference/conda-pypi/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "conda-pypi is a conda plugin that installs PyPI packages into a conda environment where the conda solver can track them. It closes the long-standing gap where pip -installed packages were invisible to conda and the two views of the environment would drift apart. With the conda-pypi channel configured, the standard conda install command resolves conda-forge and PyPI packages in a single solve, with no separate pip step. The plugin offers two mechanisms, and they behave differently:",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f767908f987bb006"
+    },
+    {
+      "title": "nox: Python Test Automation Tool",
+      "link": "https://pydevtools.com/handbook/reference/nox/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "nox manages Python virtual environments and runs tests across multiple Python versions and configurations. Where tox uses declarative TOML or INI configuration, nox uses Python code in a noxfile.py , which makes it straightforward to express conditionals, loops, and dynamic session generation. Hatch offers a third approach with its environment matrix system configured in pyproject.toml . When to Use nox nox solves the problem of running test suites, linters, and other checks across multiple Pyth",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/73900e398bd60fc2"
+    },
+    {
+      "title": "Anaconda: Python and R Data Science Platform",
+      "link": "https://pydevtools.com/handbook/reference/anaconda/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Anaconda Distribution is a pre-packaged Python and R data science platform maintained by Anaconda, Inc. It bundles the conda package manager, a Python interpreter , and over 600 scientific computing libraries into a single installer. The current release, Anaconda Distribution 2025.12, ships with Python 3.13.9 and conda 25.11.0. Warning",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b39689f4809b285c"
+    },
+    {
+      "title": "Hatch: Python Project Manager",
+      "link": "https://pydevtools.com/handbook/reference/hatch/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "hatch is a Python project management tool maintained by the Python Packaging Authority (PyPA). It handles virtual environment management, dependency resolution, project scaffolding, and publishing through a unified interface that follows Python packaging standards. Its build backend, hatchling, is one of the most widely used on PyPI. When to Use Hatch Hatch suits library authors who want a single, standards-compliant tool covering scaffolding, building, publishing, and multi-version testing. Its",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/8df2c1b862ad83c7"
+    },
+    {
+      "title": "build: Python Package Build Frontend",
+      "link": "https://pydevtools.com/handbook/reference/build/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "build is a PEP 517-compliant Python package builder developed by the Python Packaging Authority (PyPA) . It provides a standardized interface for building Python packages using any compliant build backend , serving as a simple frontend tool that executes the build process defined by backends like setuptools , flit , or hatchling . Key Features Build Operations Source Distributions: Creates sdist packages containing source code Binary Distributions: Builds wheel packages for direct installation B",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/950b5ec5463eb083"
+    },
+    {
+      "title": "Basedpyright: Python Type Checker (pyright Fork)",
+      "link": "https://pydevtools.com/handbook/reference/basedpyright/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Basedpyright is a static type checker and language server for Python, maintained by DetachHead as a community fork of Microsoft’s pyright . It tracks upstream pyright closely and adds diagnostic rules, stricter defaults, and language-server features that Microsoft keeps exclusive to its closed-source Pylance extension. The fork exists because pyright ships as an npm package and depends on Node.js, which makes it awkward to pin as a project dependency, and because the editor features most Python ",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/basedpyright-reference-stat-bomb.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/5c4cc5c777978be4"
+    },
+    {
+      "title": "mise: Polyglot Runtime and Tool Version Manager",
+      "link": "https://pydevtools.com/handbook/reference/mise/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "mise (pronounced “meez,” formerly named rtx) is a cross-platform command-line tool that manages multiple language runtimes, environment variables, and project tasks from a single manifest. It installs and switches versions of Python, Node.js, Rust, Go, Ruby, and more than a thousand other tools, activating the correct versions automatically as the shell moves between directories. When to use mise mise fits polyglot projects that need more than one language runtime pinned together. A repository t",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/mise-social.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3a80343827fcb2d7"
+    },
+    {
+      "title": "Claude Code: Anthropic's Terminal Coding Agent",
+      "link": "https://pydevtools.com/handbook/reference/claude-code/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Claude Code is a terminal-based AI coding agent from Anthropic that reads a project’s files, edits them, runs shell commands, and iterates on the results. A request is described in plain language, and Claude Code decides which files to read, which commands to run, and what code to write; when a command fails, it reads the error and adjusts. It also runs as a VS Code and JetBrains extension, a desktop app, and in the browser at claude.ai/code , all backed by the same engine.",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social/2026-07-27-claude-code-reference-hub.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/fc11a414f7436401"
+    },
+    {
+      "title": "direnv: Per-Directory Environment Variables for Python",
+      "link": "https://pydevtools.com/handbook/reference/direnv/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "direnv is a shell extension that loads and unloads environment variables based on the current working directory. It reads a per-directory .envrc file when entering a folder and reverts the environment when leaving. Although direnv is language-agnostic, it is widely used in Python projects to activate virtual environments and export project-specific settings without polluting the global shell. Key Features Loads variables from .envrc on cd into a directory and unloads them on cd out Provides a st",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f2588ff05cf50a48"
+    },
+    {
+      "title": "mypy: Python Static Type Checker",
+      "link": "https://pydevtools.com/handbook/reference/mypy/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "mypy is a static type checker for Python that analyzes type annotations to detect bugs before runtime. It has been the default Python type checker since 2012 and has the broadest ecosystem support of any Python type checking tool. Development happens in the python/mypy repository under an MIT license. When to use mypy Use mypy when you want to catch type-related bugs before runtime by adding static type checking to a Python project. It is the most established Python type checker with broad ecosy",
+      "source": "PyDevTools",
+      "image": "https://pydevtools.com/images/social-share-default.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7c29a14f05f0fcf0"
+    },
+    {
+      "title": "Conda",
+      "link": "https://pydevtools.com/handbook/reference/conda/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Conda is a language-agnostic, cross-platform package and environment manager. Where pip installs Python packages from PyPI , conda resolves dependencies across Python, R, C/C++, Fortran, and other languages in a single dependency graph. Note Conda is the package manager. Anaconda is a distribution that bundles conda with 600+ pre-installed packages. See Understanding the Conda/Anaconda Ecosystem for how conda, Miniconda, Miniforge, and Anaconda relate.",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d5def26daadb180a",
+      "image": "https://pydevtools.com/images/social-share-default.png"
+    },
+    {
+      "title": "flake8: Python Linter",
+      "link": "https://pydevtools.com/handbook/reference/flake8/",
+      "date": "2026-09-07T15:04:11+00:00",
+      "description": "Flake8 is a Python linting tool that wraps three checkers into one CLI: PyFlakes for logical errors, pycodestyle for PEP 8 style, and mccabe for cyclomatic complexity. A plugin system extends it with additional rules. Ruff reimplements flake8’s entire rule set with autofix support and 10-100x faster runs. Consider Ruff for new projects. When to use flake8 Flake8 fits codebases that already run it in CI and have tuned a stable configuration across setup.cfg , tox.ini , or .flake8 . Teams that dep",
+      "source": "PyDevTools",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2178ec26784f685b",
+      "image": "https://pydevtools.com/images/social-share-default.png"
+    },
+    {
+      "title": "array-api-extra 0.11.4",
+      "link": "https://pypi.org/project/array-api-extra/0.11.4/",
+      "date": "2026-09-07T18:50:32+00:00",
+      "description": "Extra array functions built on top of the array API standard.",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/acff067545545afe"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a3e920748934bda4"
     },
     {
-      "title": "battinfoconverter-backend 3.3.0",
-      "link": "https://pypi.org/project/battinfoconverter-backend/3.3.0/",
-      "date": "2026-09-07T12:46:50+00:00",
-      "description": "Backend conversion module for BattInfoConverter",
+      "title": "iii-observability 0.23.1rc3",
+      "link": "https://pypi.org/project/iii-observability/0.23.1rc3/",
+      "date": "2026-09-07T18:50:36+00:00",
+      "description": "Deprecated shim: re-exports iii_helpers.observability. Import from iii-helpers instead.",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d63c3df5395814ea"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2d2589fa9798b338"
     },
     {
-      "title": "cuvis-ai-core 0.17.1",
-      "link": "https://pypi.org/project/cuvis-ai-core/0.17.1/",
-      "date": "2026-09-07T12:46:56+00:00",
-      "description": "Cuvis.AI Core Framework",
+      "title": "crowe-logic 0.10.6",
+      "link": "https://pypi.org/project/crowe-logic/0.10.6/",
+      "date": "2026-09-07T18:51:05+00:00",
+      "description": "Crowe Logic. The agent console for the terminal: routed model tiers, named engines, a real tool loop.",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3c6817237edd4a81"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f5f3a7f3f2d909a8"
     },
     {
-      "title": "pycti 7.260907.0",
-      "link": "https://pypi.org/project/pycti/7.260907.0/",
-      "date": "2026-09-07T12:47:18+00:00",
-      "description": "Python API client for OpenCTI.",
+      "title": "docforge-sdk 0.15.11",
+      "link": "https://pypi.org/project/docforge-sdk/0.15.11/",
+      "date": "2026-09-07T18:51:25+00:00",
+      "description": "Typed async + sync Python client for the DocForge REST API (standalone, zero server deps).",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2283cbe717bd00a6"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/847e88a5bfc6b0a5"
+    },
+    {
+      "title": "iii-sdk 0.23.1rc3",
+      "link": "https://pypi.org/project/iii-sdk/0.23.1rc3/",
+      "date": "2026-09-07T18:51:38+00:00",
+      "description": "III SDK for Python",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/6ade91d19440e520"
     },
     {
       "title": "Linguistic drift at the frontier | Pydantic",
