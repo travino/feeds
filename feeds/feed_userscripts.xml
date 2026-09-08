@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-08T11:42:58.214173+00:00</updated>
+  <updated>2026-09-08T16:51:59.118732+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,16 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/9937f09fbf84bf06</id>
+    <title>微软积分商城签到（改进版） — 爆归</title>
+    <updated>2026-09-08T14:02:15+00:00</updated>
+    <content>每天在后台自动完成 Microsoft Rewards 任务获取积分奖励，✅签入、✅阅读、✅活动、✅搜索（修复版：活动解析、API 上报与结果复核，自动跳过等级/App 限定任务）</content>
+    <link href="https://scriptcat.org/script-show-page/7903" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T14:02:15+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/ba15cb080ec419e4</id>
     <title>ChatGPT 网页端隐藏选中文本菜单 — CHuilin_</title>
@@ -1490,16 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7687" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-26T18:27:40+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/b2f161c0d53733a7</id>
-    <title>软考报名助手（全国计算机软件资格考试） — admin789</title>
-    <updated>2026-08-26T18:03:26+00:00</updated>
-    <content>软考报名平台增强：自动标记各省报名状态（进行中/未开始/已结束）、我的省份置顶+实时倒计时、状态筛选、一键展开全部省份列表</content>
-    <link href="https://scriptcat.org/script-show-page/7686" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T18:03:26+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T11:42:27.301814+00:00",
+  "last_updated": "2026-09-08T16:51:17.458039+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -8013,6 +8013,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2"
     },
     {
+      "title": "Incident Report: File Hosting Errors",
+      "link": "https://blog.pypi.org/posts/2026-09-08-file-hosting-errors/",
+      "date": "2026-09-08T06:09:00+00:00",
+      "description": "Executive summary For about two weeks in August 2026, some PyPI users hit intermittent 502 and 503 errors downloading files from files.pythonhosted.org , triggering failures during installation from PyPI. Thanks to our users filing reports in the support tracker ; one report in particular narrowed the problem to a single cache node. Two separate problems were uncovered. A canary deployment inside Fastly's network had triggered a misconfiguration at one cache node, causing Fastly's routing layer ",
+      "source": "PyPI Blog",
+      "image": "https://blog.pypi.org/assets/images/social/posts/2026-09-08-file-hosting-errors.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3048f768e9933366"
+    },
+    {
       "title": "Linguistic drift at the frontier | Pydantic",
       "link": "https://pydantic.dev/articles/linguistic-drift-at-the-frontier",
       "date": "2026-09-08T09:00:00+00:00",
@@ -8022,54 +8031,66 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/f1bfeeb3305b73ff"
     },
     {
-      "title": "pynesys-pynecore 6.9.2",
-      "link": "https://pypi.org/project/pynesys-pynecore/6.9.2/",
-      "date": "2026-09-08T11:42:01+00:00",
-      "description": "Python based Pine Script like runtime and API",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/34f8d90de819764a"
+      "title": "LernerPython blog, from Reuven Lerner: Claude Code always produces something. That’s the hard part.",
+      "link": "https://lernerpython.com/2026/09/08/claude-code-always-produces-something/",
+      "date": "2026-09-08T13:04:49+00:00",
+      "description": "For many months, I’ve been using Claude Code several hours each day. Not to experiment, but to get work done. A growing amount of the functionality behind LernerPython.com is now written with Claude Code: the events system , the membership plumbing, and the scheduled jobs that keep the site’s session listings current. And, of course, my Socratic AI tutor , which I’ve not only integrated into my courses, but also into my “ Better Developers ” and “ Bamboo Weekly ” newsletters. Even my course-setu",
+      "source": "Planet Python",
+      "image": "https://lernerpython.com/wp-content/uploads/2026/03/AI-powered-coding-image-683x1024.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1587e1cfbbafd95f"
     },
     {
-      "title": "bencheval 0.1.1.dev20260908114200",
-      "link": "https://pypi.org/project/bencheval/0.1.1.dev20260908114200/",
-      "date": "2026-09-08T11:42:05+00:00",
-      "description": "Benchmark evaluation for tabular ML: Elo, win-rate, rank and improvability leaderboards (the engine behind TabArena)",
+      "title": "enola-cli 0.4.16",
+      "link": "https://pypi.org/project/enola-cli/0.4.16/",
+      "date": "2026-09-08T15:45:47+00:00",
+      "description": "Architectural regression testing for AI-assisted development",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7775abf27a89d41d"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/268483fce9fb1599"
     },
     {
-      "title": "tabarena 0.1.1.dev20260908114200",
-      "link": "https://pypi.org/project/tabarena/0.1.1.dev20260908114200/",
-      "date": "2026-09-08T11:42:06+00:00",
-      "description": "A Living Benchmark for Machine Learning on Tabular Data",
+      "title": "agno 3.0.8",
+      "link": "https://pypi.org/project/agno/3.0.8/",
+      "date": "2026-09-08T15:45:49+00:00",
+      "description": "The programming language for agentic software.",
       "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/4ef61fc208c91207"
+      "image": "https://pypi.org/static/images/og-card.00947198.webp",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c298c98b3f9dede8"
     },
     {
-      "title": "connectonion 1.8.4",
-      "link": "https://pypi.org/project/connectonion/1.8.4/",
-      "date": "2026-09-08T11:42:14+00:00",
-      "description": "A simple Python framework for creating AI agents with behavior tracking",
+      "title": "kaleidorg-swap-sdk 0.5.0",
+      "link": "https://pypi.org/project/kaleidorg-swap-sdk/0.5.0/",
+      "date": "2026-09-08T15:45:52+00:00",
+      "description": "KaleidoSwap swap SDK — client-side atomic swaps (Boltz protocol)",
       "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/123518511db6c30d"
+      "image": "https://pypi.org/static/images/og-card.00947198.webp",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ca0414d7a0ad6693"
     },
     {
-      "title": "ansys-acp-core 0.4.0",
-      "link": "https://pypi.org/project/ansys-acp-core/0.4.0/",
-      "date": "2026-09-08T11:42:17+00:00",
-      "description": "Python library for ACP - Ansys Composite PrepPost",
+      "title": "odoo-addon-l10n-br-mdfe 17.0.2.1.0",
+      "link": "https://pypi.org/project/odoo-addon-l10n-br-mdfe/17.0.2.1.0/",
+      "date": "2026-09-08T15:45:55+00:00",
+      "description": "Brazilian Eletronic Invoice MDF-e",
+      "source": "PyPI Updates",
+      "image": "https://pypi.org/static/images/og-card.00947198.webp",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b697331e87d33e74"
+    },
+    {
+      "title": "pillow-minecraft-map 1.1.3",
+      "link": "https://pypi.org/project/pillow-minecraft-map/1.1.3/",
+      "date": "2026-09-08T15:46:33+00:00",
+      "description": "A Pillow Image plugin to open Minecraft .dat map files.",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/aa1504dc60cf7c22"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/29024f57ccf90c7f"
     }
   ]
 }

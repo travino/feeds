@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T21:24:41.922948+00:00",
+  "last_updated": "2026-09-08T16:52:04.631801+00:00",
   "entries": [
     {
       "title": "Announcing Expanded Historical Weather Data",
@@ -487,6 +487,28 @@
       "image_width": 800,
       "image_height": 471,
       "entry_id": "tag:trvny.github.io,2024:feedseek/visualcrossing_blog/aa13745d0458348a"
+    },
+    {
+      "title": "How to Retrieve and Compare Individual Weather Forecast Models",
+      "link": "https://www.visualcrossing.com/resources/documentation/weather-api/weather-forecast-model-comparison/",
+      "date": "2026-09-08T13:11:14+00:00",
+      "description": "Learn how to compare individual weather forecast models, investigate model differences and uncertainty, compare successive model runs, and retrieve individual model forecasts through the Visual Crossing Weather API. The post How to Retrieve and Compare Individual Weather Forecast Models appeared first on Visual Crossing .",
+      "source": "Visual Crossing Documentation",
+      "image": "https://www.visualcrossing.com/wp-content/uploads/2026/09/image-3.png",
+      "image_width": 1908,
+      "image_height": 872,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/visualcrossing_blog/f4d9470b8da96131"
+    },
+    {
+      "title": "Understanding Weather Forecast Consensus with Spread and Confidence",
+      "link": "https://www.visualcrossing.com/resources/documentation/weather-api/forecast-confidence-model-spread/",
+      "date": "2026-09-08T13:50:42+00:00",
+      "description": "Weather forecasts are built from multiple forecast models, and those models can produce somewhat different results. Some models provide a single deterministic forecast, while ensemble systems generate multiple possible outcomes. When the contributing forecasts agree closely, confidence in the forecast is generally higher. When they diverge, there is greater uncertainty about the expected outcome. The […] The post Understanding Weather Forecast Consensus with Spread and Confidence appeared first ",
+      "source": "Visual Crossing Documentation",
+      "image": "https://www.visualcrossing.com/wp-content/uploads/2026/09/forecast_confidence.png",
+      "image_width": 800,
+      "image_height": 582,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/visualcrossing_blog/50656d0940f263a1"
     }
   ]
 }

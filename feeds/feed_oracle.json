@@ -8,6 +8,52 @@
   "icon": "https://blogs.oracle.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/585f0c4711b0e249",
+      "url": "https://forums.oracle.com/ords/apexds/post/apex-static-files-mismatch-404-error-on-always-free-adb-db-6533",
+      "title": "APEX Static Files Mismatch 404 Error on Always Free ADB (DB: 26.1.4 vs Images: 26.1.1)",
+      "content_text": "Hi APEX Team, Following a recent automatic patch on my Always Free Autonomous Database instance, I am encountering an environment mismatch popup when opening the APEX Workspace, along with 404 Not Found console errors. Error Details: Popup: “There is a problem with your environment because the Oracle APEX files are not up-to-date! The files for version 26.1.1 have been loaded, but 26.1.4 is expected.” Environment Details: Service: Oracle Autonomous Database (Always Free) Region: eu-frankfurt-1 D",
+      "date_published": "2026-09-08T12:24:22Z",
+      "date_modified": "2026-09-08T12:24:22Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/666347a18e5901cf",
+      "url": "https://forums.oracle.com/ords/apexds/post/trouble-with-adding-genai-service-to-apex-26-1-404-authoriz-4431",
+      "title": "Trouble with adding GenAI service to Apex 26.1 : 404 authorization failed error",
+      "content_text": "I am trying to add a Gen AI service through workspace utilities in Apex. All of the credentials have been entered rightly, including region, public key signature, private key, user ID, compartment ID and model ID. Also checked the connectivity through the OCI console chat for the chosen compartment ID and model ID and it works fine. However, when I try to test connection after setting up the service on Apex, it is throwing up the below error: 1 error has occurred The HTTP request to Generative A",
+      "date_published": "2026-09-08T12:11:38Z",
+      "date_modified": "2026-09-08T12:11:38Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/6b8e9460cc218bc2",
       "url": "https://forums.oracle.com/ords/apexds/post/old-apex-friendly-urls-runs-into-severe-500-9012",
       "title": "Old APEX Friendly URLs runs into SEVERE 500",
@@ -267,52 +313,6 @@
       "content_text": "Title ORDS direct PL/SQL Gateway causes severe library-cache contention when configured with --config-only and no ORDS repository Product Oracle REST Data Services (ORDS) Component PL/SQL Gateway / OWA request initialization Version 26.2.2.r2041619 The same code path is also present in inspected ORDS 26.1 binaries. A similar issue was publicly reported for ORDS 23.1 and 23.4. Database Version Oracle Database 19c, version 19.19 Problem Summary ORDS can be configured and started as a direct PL/SQL",
       "date_published": "2026-09-07T10:21:21Z",
       "date_modified": "2026-09-07T10:21:21Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/1798227fa3eed405",
-      "url": "https://forums.oracle.com/ords/apexds/post/apex-26-1-bar-chart-per-row-colors-ignored-when-using-regio-1487",
-      "title": "APEX 26.1 Bar Chart: Per-Row Colors Ignored When Using Region SQL Source but Work with Series SQL Source",
-      "content_text": "I believe I found an issue with Bar Charts in Oracle APEX 26.1.4 related to the Color column when the SQL query is defined at the Region level instead of the Series level. I have a Bar Chart where each bar should have its own color. The SQL query returns a different color value for each row. For example, a simplified version of the query would be: select    employee_name as label,    count(*) as value,    '#' || substr(        standard_hash(employee_id, 'MD5'),        1,        6    ) as colorfr",
-      "date_published": "2026-09-07T09:54:48Z",
-      "date_modified": "2026-09-07T09:54:48Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/0b57934584f6e5c4",
-      "url": "https://forums.oracle.com/ords/apexds/post/request-to-unlock-oracle-apex-account-and-system-enhancemen-6596",
-      "title": "Request to Unlock Oracle APEX Account and System Enhancement Suggestion",
-      "content_text": "Dear Support Team, I hope you are doing well. My Oracle APEX account has been locked, and I am currently unable to access my workspace. I kindly request you to unlock my account. Please find my account details below: Workspace: HAMZASHAFIQUE535 Username: hamzashafique535@gmail.com Additionally, I would like to suggest a system enhancement. It would be helpful if users could have a self-service option to unlock their accounts, similar to a password reset process. This would allow users to restore",
-      "date_published": "2026-09-07T04:53:28Z",
-      "date_modified": "2026-09-07T04:53:28Z",
       "authors": [
         {
           "name": "Oracle Developer Community"

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.youtube/</id>
   <title>YouTube Blog</title>
-  <updated>2026-09-08T11:43:07.558331+00:00</updated>
+  <updated>2026-09-08T16:52:14.275873+00:00</updated>
   <author>
     <name>YouTube</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://blog.youtube/static/blog_youtube/images/favicon.ico</icon>
   <logo>https://blog.youtube/static/blog_youtube/images/favicon.ico</logo>
   <subtitle>Combined feed of the official YouTube Blog (News &amp; Events, Creator &amp; Artist Stories, Inside YouTube) and YouTube Culture &amp; Trends</subtitle>
+  <entry>
+    <id>https://blog.youtube/culture-and-trends/auto-detailing-videos/</id>
+    <title>Celebrating YouTube's auto detailing community</title>
+    <updated>2026-09-06T10:00:00+00:00</updated>
+    <content type="text">Discover why satisfying auto detailing videos racked up over 150M ASMR views on YouTube, and explore the curated playlist behind the trend.</content>
+    <link href="https://blog.youtube/culture-and-trends/auto-detailing-videos/" rel="alternate"/>
+    <category term="Culture &amp; Trends"/>
+    <published>2026-09-06T10:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://blog.youtube/static/blog_youtube/images/youtube_social_1200x630.png?version=pr20260902-1737" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blog.youtube/static/blog_youtube/images/youtube_social_1200x630.png?version=pr20260902-1737"/>
+    </media:group>
+    <link rel="enclosure" href="https://blog.youtube/static/blog_youtube/images/youtube_social_1200x630.png?version=pr20260902-1737" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>https://blog.youtube/culture-and-trends/youtube-bento-box-meal-prep-trend/</id>
     <title>Why millions of viewers tune into bento box meal prep on YouTube</title>

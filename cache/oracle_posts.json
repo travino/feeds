@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T11:42:14.707539+00:00",
+  "last_updated": "2026-09-08T16:51:13.250199+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3592,6 +3592,24 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/6b8e9460cc218bc2"
+    },
+    {
+      "title": "Trouble with adding GenAI service to Apex 26.1 : 404 authorization failed error",
+      "link": "https://forums.oracle.com/ords/apexds/post/trouble-with-adding-genai-service-to-apex-26-1-404-authoriz-4431",
+      "date": "2026-09-08T12:11:38.097475+00:00",
+      "description": "I am trying to add a Gen AI service through workspace utilities in Apex. All of the credentials have been entered rightly, including region, public key signature, private key, user ID, compartment ID and model ID. Also checked the connectivity through the OCI console chat for the chosen compartment ID and model ID and it works fine. However, when I try to test connection after setting up the service on Apex, it is throwing up the below error: 1 error has occurred The HTTP request to Generative A",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/666347a18e5901cf"
+    },
+    {
+      "title": "APEX Static Files Mismatch 404 Error on Always Free ADB (DB: 26.1.4 vs Images: 26.1.1)",
+      "link": "https://forums.oracle.com/ords/apexds/post/apex-static-files-mismatch-404-error-on-always-free-adb-db-6533",
+      "date": "2026-09-08T12:24:22.716038+00:00",
+      "description": "Hi APEX Team, Following a recent automatic patch on my Always Free Autonomous Database instance, I am encountering an environment mismatch popup when opening the APEX Workspace, along with 404 Not Found console errors. Error Details: Popup: “There is a problem with your environment because the Oracle APEX files are not up-to-date! The files for version 26.1.1 have been loaded, but 26.1.4 is expected.” Environment Details: Service: Oracle Autonomous Database (Always Free) Region: eu-frankfurt-1 D",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/585f0c4711b0e249"
     }
   ]
 }

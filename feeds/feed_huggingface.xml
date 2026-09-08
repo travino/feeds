@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-08T11:41:33.826084+00:00</updated>
+  <updated>2026-09-08T16:50:22.055550+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/4f420d1c5cd0cb94</id>
+    <title>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic</title>
+    <updated>2026-09-08T14:23:07+00:00</updated>
+    <content>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic</content>
+    <link href="https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom" rel="alternate"/>
+    <category term="Hugging Face Blog" label="Hugging Face Blog"/>
+    <published>2026-09-08T14:23:07+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Blog</dc:creator>
+    <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/d2a1557718307801</id>
     <title>How often can an email make your AI agent move money?</title>
@@ -2546,6 +2561,21 @@
     </media:group>
     <dc:creator>Hugging Face Trending Papers</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2507.03009.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/e9badb8ce67b8e9c</id>
+    <title>MiniCPM4: Ultra-Efficient LLMs on End Devices</title>
+    <updated>2025-06-09T00:00:00+00:00</updated>
+    <content>MiniCPM4, a highly efficient large language model for end-side devices, achieves superior performance using innovations in sparse attention, pre-training datasets, training algorithms, and inference systems.</content>
+    <link href="https://huggingface.co/papers/2506.07900" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2025-06-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.07900/gradient.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.07900/gradient.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2506.07900/gradient.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/611e8294772adf5d</id>

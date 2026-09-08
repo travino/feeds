@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T11:42:22.712346+00:00",
+  "last_updated": "2026-09-08T16:51:23.360295+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -5977,6 +5977,60 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/458b319d22de6a16"
     },
     {
+      "title": "The context wall: What happens when your AI agent hits the GPU memory ceiling",
+      "link": "https://www.redhat.com/en/blog/context-wall-what-happens-when-your-ai-agent-hits-gpu-memory-ceiling",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "Every model has a physical limit to how much it can hold in active memory at once. When production workloads hit that limit, they hit the context wall, and the failure is silent.An AI model's context window is the amount of text it can hold and reason over at a given time. Every token in the window has to be held in graphics processing unit (GPU) memory the model can actively attend to. GPU memory is the most expensive and constrained tier in the serving stack, and is small compared to how much ",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/897bafd2d826646f"
+    },
+    {
+      "title": "Red Hat named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management for the fourth consecutive year",
+      "link": "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-container-management-fourth-consecutive-year",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "For the fourth consecutive year, Red Hat has been recognized as a Leader in the Gartner® Magic Quadrant™ for Container Management. We’re thrilled by this recognition and believe it represents continued validation of Red Hat OpenShift’s strong execution and strategy for delivering an industry trusted application platform. It provides the hybrid cloud consistency teams need to modernize virtual machines, run containers, and accelerate AI adoption on a single foundation - from the data center to th",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/5cfe22093a704cfa"
+    },
+    {
+      "title": "Red Hat joins OpenClaw Foundation as a founding member to advance an open future for production AI agents",
+      "link": "https://www.redhat.com/en/blog/red-hat-joins-openclaw-foundation-founding-member-advance-open-future-production-ai-agents",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "In July, the OpenClaw Foundation was announced with Red Hat joining as a founding member to bring open, more secure infrastructure to autonomous AI agents. OpenClaw has quickly become a premier open source autonomous agent framework, and Red Hat’s involvement aims to bring the enterprise readiness, governance, and infrastructure needed to transition this technology from a powerful personal tool to a production-grade business asset. The value of OpenClaw lies in its persistence. It automates task",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0be6e48c9f2b57f6"
+    },
+    {
+      "title": "NVIDIA BlueField security and acceleration arrive on the Red Hat AI Factory with NVIDIA and Red Hat OpenShift",
+      "link": "https://www.redhat.com/en/blog/nvidia-bluefield-security-and-acceleration-arrive-red-hat-ai-factory-nvidia-and-red-hat-openshift",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "Agentic AI inference and 5G RAN workloads are pushing data center networking to its limits, yet up to 30% of host CPU power is wasted simply routing packets and enforcing security policies. When infrastructure services run directly on host CPUs, they create an \"infrastructure tax\" – consuming valuable CPU cycles that should be dedicated to core business applications, 5G core, radio access network (RAN) network functions, or resource-intensive AI models.To help service providers and enterprises m",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/3654cacd0eda8368"
+    },
+    {
+      "title": "Better together: Red Hat Enterprise Linux system roles and Red Hat Ansible Automation Platform",
+      "link": "https://www.redhat.com/en/blog/better-together-red-hat-enterprise-linux-system-roles-and-red-hat-ansible-automation-platform",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "Managing Red Hat Enterprise Linux (RHEL) at scale requires consistent, repeatable configuration across hundreds or thousands of hosts. Doing this by hand means encoding the details of every subsystem into your own automation, including installing packages, editing configuration files, restarting services, and handling the dependencies between all of these steps. And that knowledge must be maintained as your fleet grows and as RHEL evolves across versions. That's why RHEL system roles take a high",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/38de456a69b370e5"
+    },
+    {
+      "title": "Accelerating modern virtualization infrastructure in 9 months",
+      "link": "https://www.redhat.com/en/blog/accelerating-modern-virtualization-infrastructure-9-months",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "It’s no surprise that many organizations are reevaluating their existing virtualization platforms due to a variety of factors, including but not limited to rising virtualization costs and disruptive licensing changes. However, replacing a traditional virtualization platform with an identical hypervisor layer often does little to solve tomorrow’s business problems. Forward-thinking enterprises are recognizing that if they are going to go through the disruption of moving long-standing workloads an",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/3726166439116509"
+    },
+    {
       "title": "RHSA-2026:64779: Critical: redhat-ds:12 security, bug fix, and enhancement update",
       "link": "https://access.redhat.com/errata/RHSA-2026:64779",
       "date": "2026-09-08T03:02:57+00:00",
@@ -6273,6 +6327,97 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/4a5860f7992c45d3"
+    },
+    {
+      "title": "RHSA-2026:63100: Important: OpenShift Container Platform 4.20.37 bug fix and security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:63100",
+      "date": "2026-09-08T12:01:14+00:00",
+      "description": "Red Hat OpenShift Container Platform release 4.20.37 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.20.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References ",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/2812a3d1b3199a8b"
+    },
+    {
+      "title": "RHSA-2026:65336: Important: ignition security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:65336",
+      "date": "2026-09-08T12:11:53+00:00",
+      "description": "An update for ignition is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/a01aa8a9b7552059"
+    },
+    {
+      "title": "RHSA-2026:63639: Important: Red Hat build of MicroShift 4.22.13 security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:63639",
+      "date": "2026-09-08T13:04:08+00:00",
+      "description": "Red Hat build of MicroShift release 4.22.13 is now available with updates\nto packages and images that include a security update.\n\nRed Hat Product Security has rated this update as having a security impact\nof Important. A Common Vulnerability Scoring System (CVSS) base score,\nwhich gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/7854a488e828225f"
+    },
+    {
+      "title": "RHSA-2026:63637: Important: Red Hat build of MicroShift 4.20.37 security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:63637",
+      "date": "2026-09-08T13:05:03+00:00",
+      "description": "Red Hat build of MicroShift release 4.20.37 is now available with updates\nto packages and images that include a security update.\n\nRed Hat Product Security has rated this update as having a security impact\nof Important. A Common Vulnerability Scoring System (CVSS) base score,\nwhich gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/b7996a9ceca4a002"
+    },
+    {
+      "title": "Optimize vLLM speculative decoding with FastMTP heads",
+      "link": "https://developers.redhat.com/articles/2026/09/08/optimize-vllm-speculative-decoding-fastmtp-heads",
+      "date": "2026-09-08T14:20:16+00:00",
+      "description": "Autoregressive decoding makes large language model (LLM) inference memory-bandwidth bound: every token needs 1 full forward pass over billions of parameters, so the hardware spends most of its time moving weights rather than computing. MTP is a training objective: models like the DeepSeek and Qwen families learn to predict several future tokens at each position, which improves their data efficiency and quality. The post Optimize vLLM speculative decoding with FastMTP heads appeared first on Red ",
+      "source": "Red Hat Developer",
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM",
+      "image_width": 1200,
+      "image_height": 627,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/369672c24a6e3bc3"
+    },
+    {
+      "title": "RHSA-2026:63041: Important: OpenShift Container Platform 4.21.32 bug fix and security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:63041",
+      "date": "2026-09-08T15:01:09+00:00",
+      "description": "Red Hat OpenShift Container Platform release 4.21.32 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.21.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References ",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/ec71cb4a20e4c1b9"
+    },
+    {
+      "title": "RHSA-2026:65467: Important: libyang security, bug fix, and enhancement update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:65467",
+      "date": "2026-09-08T15:08:25+00:00",
+      "description": "An update for libyang is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/178e6d8b7dd5b7cf"
+    },
+    {
+      "title": "RHSA-2026:63091: Important: OpenShift Container Platform 4.22.13 packages and security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:63091",
+      "date": "2026-09-08T16:07:44+00:00",
+      "description": "Red Hat OpenShift Container Platform release 4.22.13 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.22.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References ",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/2a39af7521d79a00"
+    },
+    {
+      "title": "RHSA-2026:65508: Important: libyang security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:65508",
+      "date": "2026-09-08T16:12:44+00:00",
+      "description": "An update for libyang is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/e85a2d191a801776"
     }
   ]
 }

@@ -8,6 +8,52 @@
   "icon": "https://www.visualcrossing.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/visualcrossing_blog/50656d0940f263a1",
+      "url": "https://www.visualcrossing.com/resources/documentation/weather-api/forecast-confidence-model-spread/",
+      "title": "Understanding Weather Forecast Consensus with Spread and Confidence",
+      "content_text": "Weather forecasts are built from multiple forecast models, and those models can produce somewhat different results. Some models provide a single deterministic forecast, while ensemble systems generate multiple possible outcomes. When the contributing forecasts agree closely, confidence in the forecast is generally higher. When they diverge, there is greater uncertainty about the expected outcome. The […] The post Understanding Weather Forecast Consensus with Spread and Confidence appeared first",
+      "date_published": "2026-09-08T13:50:42Z",
+      "date_modified": "2026-09-08T13:50:42Z",
+      "authors": [
+        {
+          "name": "Visual Crossing Documentation"
+        }
+      ],
+      "image": "https://www.visualcrossing.com/wp-content/uploads/2026/09/forecast_confidence.png",
+      "tags": [
+        "Visual Crossing Documentation"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.visualcrossing.com/wp-content/uploads/2026/09/forecast_confidence.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/visualcrossing_blog/f4d9470b8da96131",
+      "url": "https://www.visualcrossing.com/resources/documentation/weather-api/weather-forecast-model-comparison/",
+      "title": "How to Retrieve and Compare Individual Weather Forecast Models",
+      "content_text": "Learn how to compare individual weather forecast models, investigate model differences and uncertainty, compare successive model runs, and retrieve individual model forecasts through the Visual Crossing Weather API. The post How to Retrieve and Compare Individual Weather Forecast Models appeared first on Visual Crossing .",
+      "date_published": "2026-09-08T13:11:14Z",
+      "date_modified": "2026-09-08T13:11:14Z",
+      "authors": [
+        {
+          "name": "Visual Crossing Documentation"
+        }
+      ],
+      "image": "https://www.visualcrossing.com/wp-content/uploads/2026/09/image-3.png",
+      "tags": [
+        "Visual Crossing Documentation"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.visualcrossing.com/wp-content/uploads/2026/09/image-3.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/visualcrossing_blog/aa13745d0458348a",
       "url": "https://www.visualcrossing.com/resources/documentation/weather-data/how-to-include-weather-radar-data-in-weather-datasets/",
       "title": "How to Include Weather Radar Data in Weather Datasets",

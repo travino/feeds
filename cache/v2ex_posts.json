@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T11:43:03.168215+00:00",
+  "last_updated": "2026-09-08T16:52:02.396801+00:00",
   "entries": [
     {
       "title": "reddit 被墙了吗，在手机上用 Apollo 客户端无法显示内容，浏览器无法打开？",
@@ -2324,15 +2324,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a2a8ae7026499ae5"
     },
     {
-      "title": "Isobar：开源跨平台短波气象传真（WEFAX）解码器，兼容 KG-FAX， macOS / Windows / Linux 全平台",
-      "link": "https://www.v2ex.com/t/1232598#reply3",
-      "date": "2026-08-07T00:49:02+00:00",
-      "description": "背景：短波上至今还活跃着一种很老的\"数字\"业务——气象传真（ WEFAX ）。日本气象厅的 JMH 电台（ 3622.5 / 7795 / 13988.5 kHz ，USB 下调 1.9 kHz 收听）每天定时把天气图、台风预报、向日葵卫星云图调制成音频音调广播出来，任何一台 SSB 接收机加一根天线就能收。国内很多火腿应该都在 13987 kHz 附近听过那种每半秒\"咔\"一声的信号。 收听端软件这个领域，17 年来的标杆是日本爱好者 K.G 在 2009 年发布的免费软件 KG-FAX v1.1.3——但它只有 Windows 版、源码从未公开，作者如今也已经联系不上了。 过去两周我做了 Isobar ：把 KG-FAX 逆向成一份功能规格书，然后从零写了一个全新的跨平台实现。GPLv3+ 开源，今天发布 v1.5.1： https://github.com/skgsara/isobar 实时接收（任意声卡输入）或离线解码 WAV 录音——任意采样率，12 kHz 的 SDR 录音和 48 kHz 的声卡采集都直接支持； 自动开始/停止：监听 300 Hz 选速音和 450 Hz 停",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/493093af6603b5ff"
-    },
-    {
       "title": "派早报：Bose 发布新款 QuietComfort 头戴式耳机等",
       "link": "https://sspai.com/post/113162",
       "date": "2026-08-07T00:51:06+00:00",
@@ -2342,42 +2333,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/bbe965f4365d4b00"
     },
     {
-      "title": "兄弟们，我做了一个壁纸网站 - 青山",
-      "link": "https://www.v2ex.com/t/1232605#reply33",
-      "date": "2026-08-07T01:15:44+00:00",
-      "description": "来看看 :) https://qingshan.media",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/0ececf3df10dd515"
-    },
-    {
-      "title": "workbuddy 开源替代品",
-      "link": "https://www.v2ex.com/t/1232607#reply5",
-      "date": "2026-08-07T01:31:16+00:00",
-      "description": "花了 1 个半月做了一款 工作 agent, 配合 v4 flash,速度起飞 现在少就是多，系统提示词越少越好 目前有哪些功能： 基础 agent + 浏览器自动化 + im 对话通道 当然也可以用这个的 sdk 封装自己想要的前端如 cli app 等形式 源码自取",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/b2fd98f2a34a4f49"
-    },
-    {
-      "title": "新轮子，但是好轮子：我用纯 Swift 写了个 macOS 原生 Markdown 编辑器(1.6MB)，离线渲染 Mermaid 和公式",
-      "link": "https://www.v2ex.com/t/1232621#reply5",
-      "date": "2026-08-07T01:58:44+00:00",
-      "description": "受够了那些用 Electron 套壳、一打开就吃掉大量内存、连大一点的文件都滚不动的编辑器，我决定自己写一个 macOS 上的 Markdown 工具。本来只想糊个自己用的查看器，结果越写越多，最后干脆打磨了一下发出来。App 叫 FastMD ，macOS 14+，已经在 App Store 免费 上架。 平时开发和写文档时踩过不少坑，这个工具主要围绕这几个场景做的，看看有没有共鸣： 配合 AI Agent 的实时预览窗 ：用 Claude Code 、Codex 等在外部改文件时，FastMD 预览瞬间自动跟上，适合摆在旁边当不用操心的实时预览窗。 纯 AppKit 原生、秒开 ：零第三方依赖，没有内嵌浏览器，体积小、省内存，冷启动真正秒开。 纯 Swift 离线原生渲染 ：Mermaid 图表（流程图/时序图/甘特图）、数学公式、表格、代码高亮、YAML front matter 全部纯 Swift 从零渲染，完全没用 WebView ；离线可用，公式是真文本可以选中复制。 大文件照常流畅滚动 ：预览是虚拟化的，无论文件多大都只渲染你在看的那一屏。 点击即改，不污染源文件 ：看到",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/b7fa5a77c68c4417"
-    },
-    {
-      "title": "[开源免费] 开发了一个开源 macOS 启动项管理器 Birth",
-      "link": "https://www.v2ex.com/t/1232630#reply3",
-      "date": "2026-08-07T02:13:42+00:00",
-      "description": "起因是每次电脑重启总有一大堆启动项，系统设置里却又看不到，于是我 vibe 了一个小工具，一目了然地管理系统的所有启动项，并且每一项标出开发者签名，冒充系统项的直接标红 工具已开源，欢迎朋友们体验反馈，star 支持 https://github.com/iAmCorey/birth",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/1d6e75c1233c708c"
-    },
-    {
       "title": "角落新声｜从合租到整租，我在客厅听见了自己的声音",
       "link": "https://sspai.com/post/113144",
       "date": "2026-08-07T02:15:51+00:00",
@@ -2385,51 +2340,6 @@
       "source": "sspai.com",
       "image": "https://rssfile.sspai.com/2026/08/06/ba8439a4d5ca403971147d3d7382f46f.jpg?imageMogr2/auto-orient/ignore-error/1",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/38f380b5581fb0fc"
-    },
-    {
-      "title": "基于 H3 做了个免费搞抽象视频的网站",
-      "link": "https://www.v2ex.com/t/1232633#reply6",
-      "date": "2026-08-07T02:18:07+00:00",
-      "description": "demo： https://professor.greatdk.com/video/3f476ec8-86bb-4050-83fa-22c235ec44ef 搞了台服务器，反正闲着也是闲着，我觉得做这种视频还挺有意思的，就做了个小工具，可以玩玩看",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9161b2bb43125454"
-    },
-    {
-      "title": "[分享创造] 16 年业余时间写 PDF 核心，近两年做了一款 Mac PDF 编辑器：全功能编辑 + AI 智能体， 1.0 已上 Mac App Store，送 20 个终生会员求反馈",
-      "link": "https://www.v2ex.com/t/1232634#reply14",
-      "date": "2026-08-07T02:18:28+00:00",
-      "description": "## 这是什么 AetherPDF ，Mac 上的 PDF 编辑器： 1. **自研 PDF 引擎**——不依赖 PDFium 或任何第三方库，从零写了 16 年，约 15 万行 C++。能做内容流级文本编辑（直接改 PDF 内容流里的文字对象，不是注释层覆盖），编辑后的文件在任何 PDF 阅读器里显示一致。 2. **AI Agent 直接调用引擎每一项原子能力**——不是套壳 ChatGPT 跟你聊文档，是 AI 直接动手改 PDF 。比如「把这份合同里所有『甲方』替换成公司名」「把所有章节标题改成 18pt 深蓝色 Helvetica 」「给每页加页码」，AI 直接执行，所有操作走 Undo/Redo 栈，不满意 Cmd+Z 撤回。 3. **全功能编辑器** 文字编辑、图像编辑、图形编辑、链接、书签、页面管理（新建页，删除也，导出页，导入页，页面交欢位置，复制页）、水印、页眉页脚、注释（ 19 种注释工具）、页面剪裁。目前表单功能正在开发中 ## 我是谁 一个人，16 年业余时间写 PDF 核心，近 2 年做成 Mac 编辑器全栈。1.0 已于 2026-07-15 上 Mac",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/0c4b90e9ef391902"
-    },
-    {
-      "title": "Vibe 新新作！给 iMessage 接入可视化工作流和 AI Bot！ BubblePilot v1.0.0 正式发布！",
-      "link": "https://www.v2ex.com/t/1232654#reply0",
-      "date": "2026-08-07T03:03:54+00:00",
-      "description": "兄弟！有没有想过给自己的 iMessage 群聊接一个真正可控的 AI Bot ？ 我做了一个开源的 BlueBubbles 消息自动化平台——BubblePilot ，现在 v1.0.0 正式发布了！🎉\n它可以监听你指定的聊天，根据关键词、发送者、正则、时间等条件自动触发工作流。收到消息后，可以读取最近对话、调用 AI 、联网搜索，再把结果回复到原聊天。\n整个流程都能在可视化画布里编排，不需要自己写一堆脚本。 支持可视化工作流和群聊 AI Bot\n支持关键词、发送者、正则、时间等触发条件\n支持多个 OpenAI 兼容服务，自动 Retry 、Fallback 和故障降级\n支持模型联网搜索，也可以搭配自托管 SearXNG\n支持选择性消息归档、搜索和受控导出\n完整记录 AI 调用、搜索、节点执行和回复轨迹\n支持 Docker 私有部署，消息和配置都保存在自己的 PostgreSQL 中 它不只适合做聊天机器人，也可以拿来做群聊问答、消息整理、固定回复、内容归档，以及各种基于 iMessage 的自动化流程。\n部署需要提前准备 BlueBubbles Server ，并配置 Webhoo",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a8ac80c2ac535dee"
-    },
-    {
-      "title": "手痒，又 Vibe 了一个贴纸收藏组合的 APP，欢迎大家体验 👏",
-      "link": "https://www.v2ex.com/t/1232660#reply0",
-      "date": "2026-08-07T03:21:46+00:00",
-      "description": "为什么说是又呢，老 V 友可能之前看过我发的 Vibe 赚米的帖子，之前 Vibe 了一个旅行票根的 APP ，叫 PicSlicer ，最近稳定在 iOS 旅游付费榜的榜三。最近手痒又和 G 大师共同协作（我负责监工，他负责干活）。写了一个本地化抠图、设计、展示于一体的贴纸 APP - 「 Museeum 贴纸 」 APP Store 链接 https://apps.apple.com/cn/app/museeum/id6794801760 灵感来源 起初的灵感是来自于刷到抖音的一条使用 iPhone 扫描文本快速记录博物馆藏品的视频。我自己经常出差，一般去一个新城市也爱去博物馆转转，经常拍完博物馆的藏品就堆在相册吃灰了。很少会去主动再翻阅。所以当时的想法是做一个专门面向博物馆的收藏记录手册，融合现在比较流行的抠图和 OCR 识别做到一键录入藏品 为什么要做贴纸 APP 那为什么后来变成了贴纸 APP 呢？原因是我后来感觉专门做博物馆记录太小众了，面向的用户群比较少，而且后续可迭代的方向不多。再者我自己也不是博物馆的资深爱好者，对于专业记录的想法可能没有其他人深刻，所以后面转变了思路",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/4ecd8cdaa21bf7e0"
-    },
-    {
-      "title": "极简风格的番茄学习法工具 [极简番茄钟 - 专注助手]",
-      "link": "https://www.v2ex.com/t/1232679#reply0",
-      "date": "2026-08-07T03:56:03+00:00",
-      "description": "一款极简界面，简易操作的番茄钟小工具。 https://apps.apple.com/cn/app/%E6%9E%81%E7%AE%80%E7%95%AA%E8%8C%84%E9%92%9F-%E4%B8%93%E6%B3%A8%E5%8A%A9%E6%89%8B/id6450924766",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/266dc1c0532bd3f2"
     },
     {
       "title": "推荐个 EVM 合约对接调试的工具站",
@@ -5709,15 +5619,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9e999742f717f10a"
     },
     {
-      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
-      "link": "https://www.v2ex.com/t/1234483#reply1",
-      "date": "2026-08-14T13:08:14+00:00",
-      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
-      "source": "V2EX Creative",
-      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
-    },
-    {
       "title": "苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件",
       "link": "https://www.v2ex.com/t/1234484#reply0",
       "date": "2026-08-14T13:08:14+00:00",
@@ -5725,6 +5626,15 @@
       "source": "V2EX Creative",
       "image": "https://private-user-images.githubusercontent.com/14333766/636160355-0aceb14e-b4f5-4ab4-bf1e-72da35d147b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMwNTQsIm5iZiI6MTc4NjcxMjc1NCwicGF0aCI6Ii8xNDMzMzc2Ni82MzYxNjAzNTUtMGFjZWIxNGUtYjRmNS00YWI0LWJmMWUtNzJkYTM1ZDE0N2I5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM1MWNmMWIwZDg3MDEzZTA3YjBhY2I3OTA5NjVmNjQ5MDQ1YWZhZGFhNjlhYjk1ODM1MmI1ZTFlZmM0MjA3ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.G7WNF9w1vljvTj16Ns9lCbGK6jYZORpJSY38mLG8ggI",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/491fdf8e33c97c54"
+    },
+    {
+      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
+      "link": "https://www.v2ex.com/t/1234483#reply1",
+      "date": "2026-08-14T13:08:14+00:00",
+      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
+      "source": "V2EX Creative",
+      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
     },
     {
       "title": "分享个 dsh 插件 自动将为提交信息增加 co-author 对应模型",
@@ -6717,15 +6627,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/845f675437e6e7a1"
     },
     {
-      "title": "如何最大化 Claude Code Session 的价值",
-      "link": "https://www.v2ex.com/t/1234919#reply0",
-      "date": "2026-08-17T03:07:19+00:00",
-      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
-      "source": "V2EX Play",
-      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
-    },
-    {
       "title": "Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？",
       "link": "https://www.v2ex.com/t/1234920#reply1",
       "date": "2026-08-17T03:07:19+00:00",
@@ -6733,6 +6634,15 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/avatar/a5c4/cedb/764031_xlarge.png?m=1773103759",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a0fb6b3f396db430"
+    },
+    {
+      "title": "如何最大化 Claude Code Session 的价值",
+      "link": "https://www.v2ex.com/t/1234919#reply0",
+      "date": "2026-08-17T03:07:19+00:00",
+      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
     },
     {
       "title": "深港两地用 codex(chatgpt)用什么网络方案？",
@@ -18002,6 +17912,96 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/gravatar/516267b1e6f3034d60404a8aa86e7232?s=73&d=retro",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/5ef9dcab2d833683"
+    },
+    {
+      "title": "庭记 app 发封闭测试版了,欢迎 Android 用户（设备需支持 GMS）试用",
+      "link": "https://www.v2ex.com/t/1240483#reply0",
+      "date": "2026-09-08T11:55:33+00:00",
+      "description": "庭记 Android 是一个给大陆律师提供开庭日程管理和诉讼保全到期提醒的工具，也能够扫描文档生成 PDF 。 参与具体步骤： 1.留言谷歌邮箱，我把你的账户加到内测名单； 2.点击内测链接（ play store： https://play.google.com/store/apps/details?id=com.guodongzhu.courtnote ；网页： https://play.google.com/apps/testing/com.guodongzhu.courtnote ），然后选择“接受”并下载就可以了。 版友如果有想参与测试的，欢迎留言谷歌邮箱，我来帮你加到内测名单里。 也欢迎安卓开发者分享你的的封测项目，我也会参加你的封测项目。谢谢大家！",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/avatar/c4a0/452d/556606_xlarge.png?m=1784530402",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/6f7ddfb606c3c506"
+    },
+    {
+      "title": "做了个 NAS Find： NAS 自己维护索引， Windows、Mac 和网页共用文件名搜索",
+      "link": "https://www.v2ex.com/t/1240489#reply0",
+      "date": "2026-09-08T12:08:17+00:00",
+      "description": "我平时很依赖 Everything ，也想在 Ubuntu NAS 上实现“按名字找到文件，直接用电脑上的应用打开”，于是做了 NAS Find： https://github.com/chess99/nas-find Everything 本身就能 索引网络文件夹 ，在一台 Windows 上用很省事。我想补的是： 由 NAS 统一维护索引，Windows 、Mac 和网页共用，各台电脑不用分别扫描共享目录建立索引。 几个方案的取舍： 方案 优点 取舍 Everything ＋网络文件夹 无需部署 NAS 服务，支持大小、日期筛选 仅 Windows ，各电脑分别维护网络文件夹索引 NAS Find Windows 、Mac 和网页共用 NAS 索引 需部署服务，暂不支持大小、日期筛选 kodbox 编辑、分享、协作与文件管理齐全 要维护 Web 服务与数据库 sist2 正文、元数据搜索与缩略图 内容提取与缩略图生成增加索引处理量 目前支持名称/路径匹配、视频/音频等类型筛选、全选结果、批量复制与导出路径。桌面端用系统默认应用打开原文件，也能定位到资源管理器或 Finder ； W",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/gravatar/711552760bceeaf903a87f5db909abe0?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/e738be4a2e8bc402"
+    },
+    {
+      "title": "市面上没有好用的学德语软件，于是就自己 vibe 了",
+      "link": "https://www.v2ex.com/t/1240498#reply3",
+      "date": "2026-09-08T12:44:55+00:00",
+      "description": "楼主因为读博的缘故打算学学日常德语应付到 b1 但是由于是个很懒而且除了购物平时根本没机会用到德语，遂打算自学 然后就有了标题 想说的都在图里了 本来写好了打算自己偷着用 朋友看了觉得好东西不能私藏，独乐乐不如众乐乐 如果觉得有意思，欢迎各位佬友 star 分享和各种改进的意见 http://hughyau.com/learn_german",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/gravatar/a7abfabb5fb6f7723b895e7946dfa1e2?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/e2faed49d59e01c8"
+    },
+    {
+      "title": "自创了一种新的冷饮，哈哈",
+      "link": "https://www.v2ex.com/t/1240501#reply2",
+      "date": "2026-09-08T12:57:16+00:00",
+      "description": "下班骑车回家，然后需要补水。\n平时我都是从冰箱里取半杯冷冻白开水+半杯无糖芬达/可乐/雪碧。 今天我想着补点蛋白质，然后突发奇想创建了一个新的配方。\n先放 2 满勺脱脂奶粉，然后用 1/3 杯冷水冲泡，搅拌开，最后用 1/3 杯无糖芬达打底，差不多快满杯（ 400/450ML ）了。\n然后饮了一口，奶香+糖香+冰凉 直接沁入心肺，真好喝啊~\n如果喝过奶啤的朋友应该会有似曾相识的感觉，但是我个人觉得更好喝。",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/gravatar/b4b3448fdb9c5cc4ea62babbd10b45f6?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/75c7fe6557deeb5e"
+    },
+    {
+      "title": "[分享] ZWPlayer 更新 v3.3.2，加了贴片广告、音乐模式、跨视频字幕搜索，界面也翻新了一版",
+      "link": "https://www.v2ex.com/t/1240503#reply2",
+      "date": "2026-09-08T13:05:59+00:00",
+      "description": "之前在 V2EX 分享过 v3.3.0 和 v3.3.1 的更新，收到不少反馈，感谢各位。v3.3.2 折腾了一阵子才发出来，这次更新量比较大，来同步一下。 老规矩先介绍下：ZWPlayer 是一个免费的网页视频播放器，纯前端，单个 JS 文件引入就能用，支持 HLS / DASH / FLV / WebRTC / RTSP ，不依赖 CDN ，内网也能跑。前两个版本做了交互标注、防录屏水印、播放列表、VR 全景、多音轨这些。 1. 贴片广告 可以在正片播放前后插自己的宣传片（ pre-roll / post-roll ）： 三种跳过策略可配：强制看完、立即可跳、N 秒倒计时后可跳 支持点击跳转落地页 循环播放正片时广告只插一次，不会反复打扰 自有频道、企业内训平台、知识付费站点，不接第三方广告系统也能把「内容 + 变现」的闭环做了。 2. 播放模式：一个播放器四种形态 新增 mode 配置，两个新形态比较有意思： 预览模式 ：鼠标悬停卡片自动静音播放一段预览，从视频中间位置开始直击精华，离开就暂停。做视频列表、课程目录、推荐墙的同学应该都用得上这个交互。 音乐模式 ：播纯音频时不再是",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/gravatar/4a2a9eac27b18f27f4e16c0cf9244f43?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/6f108761b8ad0cde"
+    },
+    {
+      "title": "爱奇艺体育吃像太难看了",
+      "link": "https://www.v2ex.com/t/1240514#reply3",
+      "date": "2026-09-08T14:14:42+00:00",
+      "description": "趁最近活动开通了 26-27 赛季欧冠赛事通，居然看不了之前的欧冠赛事回放。",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/avatar/32df/f5d2/579649_xlarge.png?m=1746683807",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/14ebc8162d396316"
+    },
+    {
+      "title": "折腾了好一段时间，升级了 pi2.nvim 插件，为什么我又造了个 subagents 的轮子",
+      "link": "https://www.v2ex.com/t/1240516#reply0",
+      "date": "2026-09-08T14:30:50+00:00",
+      "description": "先交代背景,免得误会:pi2.nvim 是 pi 这个 coding agent 的 Neovim 前端(在 alex35mil/pi.nvim 基础上改的),不是新造 agent 。最近把 子会话 功能做完了,v1.5.0 刚发,来聊聊为什么我觉得它跟现有的不一样。 先说痛点。想在 Neovim 里\"并行用多个 agent\",现有方案基本三选一,都很别扭: 一个 tab 一个对话 → 并行 = 自己开一堆 tab 手动当调度员,来回复制上下文、盯结果; 用框架内置的 sub-agent → 无头一次性工蜂,过程黑盒看不见,跑完就没了,想\"接着上次那个子任务的进度继续\"基本没门; 要提前配好一堆 subagent 模板/角色才能开工 → 活还没干先交配置税。 所以我的思路很简单:需要的时候现造,用完不扔,想看能看,想管能管。四个特点: 1. 现用现造,零预配置。 要第二个、第三个 agent 了?一句话当场创建,每个孩子独立进程、独立 session 、独立的模型和思考档位。没有\"先注册一堆模板才能用\"的门槛。 2. 用完不扔,可复用。 子会话干完是 休眠(dormant),不是删除 ",
+      "source": "V2EX Creative",
+      "image": "https://cdn.jsdelivr.net/gh/zgs225/pi2.nvim@main/assets/subagents-demo.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/2f94b6d6b258b4dd"
+    },
+    {
+      "title": "分享一个好用的 JSON 在线工具。欢迎全网对比",
+      "link": "https://www.v2ex.com/t/1240523#reply1",
+      "date": "2026-09-08T15:15:05+00:00",
+      "description": "JSON 在线工具 身为程序猿  每天都是必备的网站。虽然市面上有很多的 json 工具网站。但是没有一个我觉得好用的。要么有广告，有么布局不合理，要么功能少。 我需要一个这样的 JSON 工具网站： 可视区域足够大。 非常重要 界面简洁，布局合理。 支持转义 非转义。 非常重要 支持一键复制，压缩合并。 支持查看子节点的信息，快速复制子节点信息。 支持 json 对比。 支持 List 转  Table ，方便数据对比。 非常重要 有多种示例数据  方便调试。 支持大 bigint 数字 不丢失精度。 重要 支持错误数据也能一键纠正。 非常重要 支持错误信息定位到某一行。 重要 支持路径复制 https://json.share888.top/ 留下你常用的 JSON 工具站，欢迎全网对比",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/gravatar/4fa66611be4bcea2578c222594a770c7?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a49782b72aeba570"
+    },
+    {
+      "title": "[开源] PixelBridge：用闲置的初代 Pixel，给 iCloud 照片多做一份备份",
+      "link": "https://www.v2ex.com/t/1240526#reply3",
+      "date": "2026-09-08T15:32:38+00:00",
+      "description": "闲置的初代 Pixel ，终于有用了。 我做了 PixelBridge ，一个开源的 macOS 原生应用： Apple 照片 → Mac → Pixel → Google Photos 支持动图和自动增量传输，给珍贵的回忆多留一份备份。 首个 Beta 已开放： https://pixelbridge-app.vercel.app",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/avatar/9065/5739/64765_large.png?m=1752218641",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/1fc8d3edd1334de3"
+    },
+    {
+      "title": "墨知，一款本地 markdown 知识库工具",
+      "link": "https://www.v2ex.com/t/1240527#reply0",
+      "date": "2026-09-08T15:37:09+00:00",
+      "description": "墨知正式版发布：Live 模式、一键发布与小知助手 最近抽空用 Fable5 和 Grok4.6 对知识库项目做了比较大的重构，加入了很多新功能，同时也对编辑功能的可靠性和稳定性做了大量修复与增强。 给软件取了个新名字——墨知/Mozi 。 新功能介绍 Live 模式 得益于 Fable5 的优秀能力，Live 模式的性能和稳定性问题得到了解决，因此我在正式版本中去掉了对纯编辑模式和分屏模式的支持。Live 模式现在可以提供所见即所得的编辑体验。 一键发布 为了方便文章的发布操作，墨知提供了两种便捷的博客发布方式：微信公众号 + Simple Blog 。其中： 微信公众号草稿：受微信平台限制，当前支持在完成公众号相关配置后，将文章内容按预渲染样式发送到微信公众号草稿。可以通过公众号助手查看草稿后执行发布，也比较便捷。 Simple Blog：我开发的配套博客网页，具体使用见 GitHub 仓库。部署到 Vercel 后即可执行博客的在线发布，我当前的博客就是基于这个模式运行的。 图片分享 支持一键将文章内容生成分享长图，适合社交媒体分享。 小知助手 内置语义检索本体小模型，支持全局内",
+      "source": "V2EX Creative",
+      "image": "https://raw.githubusercontent.com/Yunz93/PicRepo/main/images/%E5%A2%A8%E7%9F%A5%E6%AD%A3%E5%BC%8F%E7%89%88-1787670846943.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/8aba3cf69fa53bf2"
     }
   ]
 }

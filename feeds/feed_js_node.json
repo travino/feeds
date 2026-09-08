@@ -8,6 +8,29 @@
   "icon": "https://nodejs.org/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/js_node/2e73857455e1cb1d",
+      "url": "https://javascriptweekly.com/issues/801",
+      "title": "When 8 chunks weigh more than 355",
+      "content_text": "#​801 — September 8, 2026 Read on the Web JavaScript Weekly How Turbopack Chunks Your JavaScript — Starting from the Network tab and working up, a look at chunking strategy and the tradeoffs bundlers make between fewer requests and less code (e.g. 8 chunks can weigh more than 355 do), backed by numbers from bundling the official Next.js site itself. Sam Poder Catch Runtime Bugs Before Your JS PR Merges — Greptile now runs your code to find bugs. T-Rex runs your PR branch in a sandbox, uses brows",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "JavaScript Weekly"
+        }
+      ],
+      "image": "https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg",
+      "tags": [
+        "JavaScript Weekly"
+      ],
+      "attachments": [
+        {
+          "url": "https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/js_node/027663c095241715",
       "url": "https://bun.com/blog/bun-v1.4.2",
       "title": "Bun v1.4.2",
@@ -192,29 +215,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/js_node/e49c27e9a993f84d",
-      "url": "https://svelte.dev/blog/whats-new-in-svelte-september-2026",
-      "title": "What’s new in Svelte: September 2026",
-      "content_text": "This month, Svelte 5.57 shipped with new SvelteMap methods and a few quality-of-life additions while SvelteKit 3 got closer to the finish line with its Release Candidate. The sv CLI also got a new ai-tools add-on that replaces the old mcp one, and sv@next now ships a task-based sveltekit-3 migration for existing apps. Let’s dive a bit deeper! What’s new in Svelte SvelteMap now has getOrInsert and getOrInsertComputed methods for the common “read or initialize” pattern ( 5.57.0 , Docs , #18728 ) c",
-      "date_published": "2026-09-01T00:00:00Z",
-      "date_modified": "2026-09-01T00:00:00Z",
-      "authors": [
-        {
-          "name": "Svelte Blog"
-        }
-      ],
-      "image": "https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png",
-      "tags": [
-        "Svelte Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/js_node/91f850c55b8e2999",
       "url": "https://javascriptweekly.com/issues/800",
       "title": "How to fit Minesweeper into 247 bytes",
@@ -234,6 +234,29 @@
         {
           "url": "https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/bx17eefknqp64qnr1fet.jpg",
           "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/js_node/e49c27e9a993f84d",
+      "url": "https://svelte.dev/blog/whats-new-in-svelte-september-2026",
+      "title": "What’s new in Svelte: September 2026",
+      "content_text": "This month, Svelte 5.57 shipped with new SvelteMap methods and a few quality-of-life additions while SvelteKit 3 got closer to the finish line with its Release Candidate. The sv CLI also got a new ai-tools add-on that replaces the old mcp one, and sv@next now ships a task-based sveltekit-3 migration for existing apps. Let’s dive a bit deeper! What’s new in Svelte SvelteMap now has getOrInsert and getOrInsertComputed methods for the common “read or initialize” pattern ( 5.57.0 , Docs , #18728 ) c",
+      "date_published": "2026-09-01T00:00:00Z",
+      "date_modified": "2026-09-01T00:00:00Z",
+      "authors": [
+        {
+          "name": "Svelte Blog"
+        }
+      ],
+      "image": "https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png",
+      "tags": [
+        "Svelte Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png",
+          "mime_type": "image/png"
         }
       ]
     },
@@ -1843,29 +1866,6 @@
       "attachments": [
         {
           "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/js_node/c6369a5cb2acfb5c",
-      "url": "https://nodesource.com/blog/nsolid-extension-plugin-nodejs-developer-experience",
-      "title": "N|Solid Extension and Plugin: Runtime Intelligence Where Developers Work",
-      "content_text": "Bring Node.js runtime telemetry, diagnostics, security insights, and performance workflows into your editor and AI coding agents with N|Solid.",
-      "date_published": "2026-07-22T19:44:33Z",
-      "date_modified": "2026-07-22T19:44:33Z",
-      "authors": [
-        {
-          "name": "NodeSource Blog"
-        }
-      ],
-      "image": "https:https://assets.nodesource.com/strapi-uploads/BLOG_18_c6869ea092.png",
-      "tags": [
-        "NodeSource Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https:https://assets.nodesource.com/strapi-uploads/BLOG_18_c6869ea092.png",
           "mime_type": "image/png"
         }
       ]

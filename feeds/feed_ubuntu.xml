@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-08T11:42:50.902414+00:00</updated>
+  <updated>2026-09-08T16:51:51.821046+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/78e96e9a1511b4b1</id>
+    <title>Ubuntu 26.10 reveals new official wallpaper, mascot art</title>
+    <updated>2026-09-08T15:11:18+00:00</updated>
+    <content>The official wallpaper for the upcoming Ubuntu 26.10 ‘Stonking Stringray’ release has been revealed, alongside artwork bearing the official mascot. No huge surprises to see the standard formula hole. The distro’s designers have, once again, opted for a dark purple/aubergine backdrop that bears a vectorised mascot in the middle, which for this release is a stingray: No illustrative nod to the “stonking” adjective of the codename, but as most people aren’t even aware it is a word, perfectly unders</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-wallpaper" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-08T15:11:18+00:00</published>
+    <media:group>
+      <media:content url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/ubuntu-2610-mascot-406x232.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/ubuntu-2610-mascot-406x232.webp"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/ubuntu-2610-mascot-406x232.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/2d140bfb617a264c</id>
+    <title>Paint.NET Adds Initial Linux Support, How to Try Out in Ubuntu</title>
+    <updated>2026-09-08T14:21:20+00:00</updated>
+    <content>Paint.NET image editor added experimental Linux support with version 5.2 Alpha. Here’s step by step guide shows how to try it out in Ubuntu. There are quite a few Paint.NET alternative apps with native Linux support, but it’s always good to see a Windows app add Linux support. Paint.NET made the step in last week […]</content>
+    <link href="https://ubuntuhandbook.org/index.php/2026/09/paint-net-adds-initial-linux-support-how-to-try-out-in-ubuntu/" rel="alternate"/>
+    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
+    <published>2026-09-08T14:21:20+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2026/09/paintdotnet-ubuntu-700x394.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2026/09/paintdotnet-ubuntu-700x394.webp"/>
+    </media:group>
+    <dc:creator>UbuntuHandbook</dc:creator>
+    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2026/09/paintdotnet-ubuntu-700x394.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/ad36bbe9aacc993a</id>
     <title>Grace on the currents: Stonking Stingray</title>
@@ -26,6 +56,21 @@
     </media:group>
     <dc:creator>Ubuntu Blog</dc:creator>
     <link rel="enclosure" href="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_1920/https%3A%2F%2Fubuntu.com%2Fwp-content%2Fuploads%2F8d06%2FStonking_Stingray_Wallpaper_Color_1920x1080.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/d5df2f46dc36f65f</id>
+    <title>GNOME 51 Release Candidate is Available for Testing</title>
+    <updated>2026-09-08T09:58:31+00:00</updated>
+    <content>GNOME 51, the Linux desktop expected to be default in Ubuntu 26.10 and Fedora Workstation 45, now is available for RC testing! The developer team announced this RC release last night. While, the GNOME 51 Final release is scheduled for September 16th in next week. With the last Alpha and Beta releases, GNOME 51 introduced […]</content>
+    <link href="https://ubuntuhandbook.org/index.php/2026/09/gnome-51-release-candidate-is-available-for-testing/" rel="alternate"/>
+    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
+    <published>2026-09-08T09:58:31+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2023/11/gnome-logo-dark-250x250.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2023/11/gnome-logo-dark-250x250.webp"/>
+    </media:group>
+    <dc:creator>UbuntuHandbook</dc:creator>
+    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2023/11/gnome-logo-dark-250x250.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/c3761b27d8b3fd25</id>
@@ -818,36 +863,6 @@
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/05/ubuntu-server.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/2d4a1a723b983975</id>
-    <title>iDescriptor Lets You Manage &amp; Interact with iPhone/iPad in Linux</title>
-    <updated>2026-08-24T13:47:23+00:00</updated>
-    <content>Looking a tool to manage your iPhone or iPad in PC or laptop? Try the free open-source iDescriptor app that works in Linux, Windows, and macOS. It’s a Rust written and Qt-based application that allows to manage and interact with your iPhone, iPad, or iPod through either USB or Wi-Fi. With it, you can quickly […]</content>
-    <link href="https://ubuntuhandbook.org/index.php/2026/08/idescriptor-lets-you-manage-interact-with-iphone-ipad-in-linux/" rel="alternate"/>
-    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
-    <published>2026-08-24T13:47:23+00:00</published>
-    <media:group>
-      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2026/08/idescripter-info-700x503.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2026/08/idescripter-info-700x503.webp"/>
-    </media:group>
-    <dc:creator>UbuntuHandbook</dc:creator>
-    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2026/08/idescripter-info-700x503.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/b1bb741ec1294afa</id>
-    <title>KDE Rounded Corners 0.10.0 Released with Gradient-Colored Outline</title>
-    <updated>2026-08-24T09:31:16+00:00</updated>
-    <content>KDE Rounded Colors, the kwin effect for KDE Plasma Desktop 5 and 6, released new 0.10.0 version today! The new version of this open-source project introduced gradient outlines support, which draws window borders with color gradually changes from one color to another, rather than having a single solid color. Each outline (primary, second, or outer […]</content>
-    <link href="https://ubuntuhandbook.org/index.php/2026/08/kde-rounded-corners-0-10-0-released-with-gradient-colored-outline/" rel="alternate"/>
-    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
-    <published>2026-08-24T09:31:16+00:00</published>
-    <media:group>
-      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2022/01/kde-logo-250x250.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2022/01/kde-logo-250x250.png"/>
-    </media:group>
-    <dc:creator>UbuntuHandbook</dc:creator>
-    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2022/01/kde-logo-250x250.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/dacfec71cc7872b6</id>
     <title>10-year-old bug action triggered an Ubuntu Phone dev reunion</title>
     <updated>2026-08-23T21:27:01+00:00</updated>
@@ -906,21 +921,6 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/dynamic-icons-gnome-extension.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/badf0b35e0017220</id>
-    <title>Tuba, the best Mastodon client for Linux, just got a BIG update</title>
-    <updated>2026-08-20T02:04:16+00:00</updated>
-    <content>Tuba 0.11 adds full Mastodon quote and Collections support, UnifiedPush and an early, experimental Android build. Linux's best Mastodon app, now better! You're reading Tuba, the best Mastodon client for Linux, just got a BIG update , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/tuba-mastodon-quote-support-collections" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-20T02:04:16+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/modest-tuba.jpg.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/modest-tuba.jpg.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/modest-tuba.jpg.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/79093b171c98c55c</id>

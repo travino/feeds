@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://nodejs.org/</id>
   <title>JS | Node</title>
-  <updated>2026-09-08T11:41:54.085355+00:00</updated>
+  <updated>2026-09-08T16:50:46.170219+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://nodejs.org/favicon.ico</icon>
   <logo>https://nodejs.org/favicon.ico</logo>
   <subtitle>Combined JS/Node.js runtime &amp; tooling feed: Node.js, pnpm, jsDelivr (blog + status), Bun, Deno, NodeSource, Total.js, Vite, Next.js, Vue, Svelte, React, JavaScript Weekly, ReactLibs, Bootstrap, jQuery, V8, PWABuilder, npm status, npmx, and the OpenJS Foundation blog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/js_node/2e73857455e1cb1d</id>
+    <title>When 8 chunks weigh more than 355</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>#​801 — September 8, 2026 Read on the Web JavaScript Weekly How Turbopack Chunks Your JavaScript — Starting from the Network tab and working up, a look at chunking strategy and the tradeoffs bundlers make between fewer requests and less code (e.g. 8 chunks can weigh more than 355 do), backed by numbers from bundling the official Next.js site itself. Sam Poder Catch Runtime Bugs Before Your JS PR Merges — Greptile now runs your code to find bugs. T-Rex runs your PR branch in a sandbox, uses brows</content>
+    <link href="https://javascriptweekly.com/issues/801" rel="alternate"/>
+    <category term="JavaScript Weekly" label="JavaScript Weekly"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg"/>
+    </media:group>
+    <dc:creator>JavaScript Weekly</dc:creator>
+    <link rel="enclosure" href="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/027663c095241715</id>
     <title>Bun v1.4.2</title>
@@ -134,21 +149,6 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     <link rel="enclosure" href="https://bufferwall.com/download/B20260827T000001596_1200x600.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/js_node/e49c27e9a993f84d</id>
-    <title>What’s new in Svelte: September 2026</title>
-    <updated>2026-09-01T00:00:00+00:00</updated>
-    <content>This month, Svelte 5.57 shipped with new SvelteMap methods and a few quality-of-life additions while SvelteKit 3 got closer to the finish line with its Release Candidate. The sv CLI also got a new ai-tools add-on that replaces the old mcp one, and sv@next now ships a task-based sveltekit-3 migration for existing apps. Let’s dive a bit deeper! What’s new in Svelte SvelteMap now has getOrInsert and getOrInsertComputed methods for the common “read or initialize” pattern ( 5.57.0 , Docs , #18728 ) c</content>
-    <link href="https://svelte.dev/blog/whats-new-in-svelte-september-2026" rel="alternate"/>
-    <category term="Svelte Blog" label="Svelte Blog"/>
-    <published>2026-09-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png"/>
-    </media:group>
-    <dc:creator>Svelte Blog</dc:creator>
-    <link rel="enclosure" href="https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/91f850c55b8e2999</id>
     <title>How to fit Minesweeper into 247 bytes</title>
     <updated>2026-09-01T00:00:00+00:00</updated>
@@ -162,6 +162,21 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     </media:group>
     <dc:creator>JavaScript Weekly</dc:creator>
     <link rel="enclosure" href="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/bx17eefknqp64qnr1fet.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/js_node/e49c27e9a993f84d</id>
+    <title>What’s new in Svelte: September 2026</title>
+    <updated>2026-09-01T00:00:00+00:00</updated>
+    <content>This month, Svelte 5.57 shipped with new SvelteMap methods and a few quality-of-life additions while SvelteKit 3 got closer to the finish line with its Release Candidate. The sv CLI also got a new ai-tools add-on that replaces the old mcp one, and sv@next now ships a task-based sveltekit-3 migration for existing apps. Let’s dive a bit deeper! What’s new in Svelte SvelteMap now has getOrInsert and getOrInsertComputed methods for the common “read or initialize” pattern ( 5.57.0 , Docs , #18728 ) c</content>
+    <link href="https://svelte.dev/blog/whats-new-in-svelte-september-2026" rel="alternate"/>
+    <category term="Svelte Blog" label="Svelte Blog"/>
+    <published>2026-09-01T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png"/>
+    </media:group>
+    <dc:creator>Svelte Blog</dc:creator>
+    <link rel="enclosure" href="https://svelte.dev/blog/whats-new-in-svelte-september-2026/card.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/d6b89f5858f2dcad</id>
@@ -1212,21 +1227,6 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     </media:group>
     <dc:creator>npm Status</dc:creator>
     <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/js_node/c6369a5cb2acfb5c</id>
-    <title>N|Solid Extension and Plugin: Runtime Intelligence Where Developers Work</title>
-    <updated>2026-07-22T19:44:33+00:00</updated>
-    <content>Bring Node.js runtime telemetry, diagnostics, security insights, and performance workflows into your editor and AI coding agents with N|Solid.</content>
-    <link href="https://nodesource.com/blog/nsolid-extension-plugin-nodejs-developer-experience" rel="alternate"/>
-    <category term="NodeSource Blog" label="NodeSource Blog"/>
-    <published>2026-07-22T19:44:33+00:00</published>
-    <media:group>
-      <media:content url="https:https://assets.nodesource.com/strapi-uploads/BLOG_18_c6869ea092.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https:https://assets.nodesource.com/strapi-uploads/BLOG_18_c6869ea092.png"/>
-    </media:group>
-    <dc:creator>NodeSource Blog</dc:creator>
-    <link rel="enclosure" href="https:https://assets.nodesource.com/strapi-uploads/BLOG_18_c6869ea092.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/a9c42db9eb4c1b30</id>

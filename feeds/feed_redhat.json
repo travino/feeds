@@ -8,6 +8,157 @@
   "icon": "https://www.redhat.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/e85a2d191a801776",
+      "url": "https://access.redhat.com/errata/RHSA-2026:65508",
+      "title": "RHSA-2026:65508: Important: libyang security update",
+      "content_text": "An update for libyang is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "date_published": "2026-09-08T16:12:44Z",
+      "date_modified": "2026-09-08T16:12:44Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/2a39af7521d79a00",
+      "url": "https://access.redhat.com/errata/RHSA-2026:63091",
+      "title": "RHSA-2026:63091: Important: OpenShift Container Platform 4.22.13 packages and security update",
+      "content_text": "Red Hat OpenShift Container Platform release 4.22.13 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.22.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References",
+      "date_published": "2026-09-08T16:07:44Z",
+      "date_modified": "2026-09-08T16:07:44Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/178e6d8b7dd5b7cf",
+      "url": "https://access.redhat.com/errata/RHSA-2026:65467",
+      "title": "RHSA-2026:65467: Important: libyang security, bug fix, and enhancement update",
+      "content_text": "An update for libyang is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "date_published": "2026-09-08T15:08:25Z",
+      "date_modified": "2026-09-08T15:08:25Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/ec71cb4a20e4c1b9",
+      "url": "https://access.redhat.com/errata/RHSA-2026:63041",
+      "title": "RHSA-2026:63041: Important: OpenShift Container Platform 4.21.32 bug fix and security update",
+      "content_text": "Red Hat OpenShift Container Platform release 4.21.32 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.21.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References",
+      "date_published": "2026-09-08T15:01:09Z",
+      "date_modified": "2026-09-08T15:01:09Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/369672c24a6e3bc3",
+      "url": "https://developers.redhat.com/articles/2026/09/08/optimize-vllm-speculative-decoding-fastmtp-heads",
+      "title": "Optimize vLLM speculative decoding with FastMTP heads",
+      "content_text": "Autoregressive decoding makes large language model (LLM) inference memory-bandwidth bound: every token needs 1 full forward pass over billions of parameters, so the hardware spends most of its time moving weights rather than computing. MTP is a training objective: models like the DeepSeek and Qwen families learn to predict several future tokens at each position, which improves their data efficiency and quality. The post Optimize vLLM speculative decoding with FastMTP heads appeared first on Red",
+      "date_published": "2026-09-08T14:20:16Z",
+      "date_modified": "2026-09-08T14:20:16Z",
+      "authors": [
+        {
+          "name": "Red Hat Developer"
+        }
+      ],
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM",
+      "tags": [
+        "Red Hat Developer"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/b7996a9ceca4a002",
+      "url": "https://access.redhat.com/errata/RHSA-2026:63637",
+      "title": "RHSA-2026:63637: Important: Red Hat build of MicroShift 4.20.37 security update",
+      "content_text": "Red Hat build of MicroShift release 4.20.37 is now available with updates\nto packages and images that include a security update.\n\nRed Hat Product Security has rated this update as having a security impact\nof Important. A Common Vulnerability Scoring System (CVSS) base score,\nwhich gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References section.",
+      "date_published": "2026-09-08T13:05:03Z",
+      "date_modified": "2026-09-08T13:05:03Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/7854a488e828225f",
+      "url": "https://access.redhat.com/errata/RHSA-2026:63639",
+      "title": "RHSA-2026:63639: Important: Red Hat build of MicroShift 4.22.13 security update",
+      "content_text": "Red Hat build of MicroShift release 4.22.13 is now available with updates\nto packages and images that include a security update.\n\nRed Hat Product Security has rated this update as having a security impact\nof Important. A Common Vulnerability Scoring System (CVSS) base score,\nwhich gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References section.",
+      "date_published": "2026-09-08T13:04:08Z",
+      "date_modified": "2026-09-08T13:04:08Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/a01aa8a9b7552059",
+      "url": "https://access.redhat.com/errata/RHSA-2026:65336",
+      "title": "RHSA-2026:65336: Important: ignition security update",
+      "content_text": "An update for ignition is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "date_published": "2026-09-08T12:11:53Z",
+      "date_modified": "2026-09-08T12:11:53Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/2812a3d1b3199a8b",
+      "url": "https://access.redhat.com/errata/RHSA-2026:63100",
+      "title": "RHSA-2026:63100: Important: OpenShift Container Platform 4.20.37 bug fix and security update",
+      "content_text": "Red Hat OpenShift Container Platform release 4.20.37 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.20.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References",
+      "date_published": "2026-09-08T12:01:14Z",
+      "date_modified": "2026-09-08T12:01:14Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/redhat/4a5860f7992c45d3",
       "url": "https://access.redhat.com/errata/RHSA-2026:64808",
       "title": "RHSA-2026:64808: Important: kernel security update",
@@ -104,131 +255,141 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/10148838efce501f",
-      "url": "https://access.redhat.com/errata/RHSA-2026:65116",
-      "title": "RHSA-2026:65116: Important: opentelemetry-collector security update",
-      "content_text": "An update for opentelemetry-collector is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T09:10:47Z",
-      "date_modified": "2026-09-08T09:10:47Z",
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/897bafd2d826646f",
+      "url": "https://www.redhat.com/en/blog/context-wall-what-happens-when-your-ai-agent-hits-gpu-memory-ceiling",
+      "title": "The context wall: What happens when your AI agent hits the GPU memory ceiling",
+      "content_text": "Every model has a physical limit to how much it can hold in active memory at once. When production workloads hit that limit, they hit the context wall, and the failure is silent.An AI model's context window is the amount of text it can hold and reason over at a given time. Every token in the window has to be held in graphics processing unit (GPU) memory the model can actively attend to. GPU memory is the most expensive and constrained tier in the serving stack, and is small compared to how much",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
         {
-          "name": "Red Hat Security Errata"
+          "name": "Red Hat Blog"
         }
       ],
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "tags": [
-        "Red Hat Security Errata"
+        "Red Hat Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/df3b21ff67a7fe0a",
-      "url": "https://access.redhat.com/errata/RHSA-2026:65122",
-      "title": "RHSA-2026:65122: Important: gstreamer1-plugins-bad-free security update",
-      "content_text": "An update for gstreamer1-plugins-bad-free is now available for Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T09:09:37Z",
-      "date_modified": "2026-09-08T09:09:37Z",
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/5cfe22093a704cfa",
+      "url": "https://www.redhat.com/en/blog/red-hat-named-leader-2026-gartnerr-magic-quadranttm-container-management-fourth-consecutive-year",
+      "title": "Red Hat named a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management for the fourth consecutive year",
+      "content_text": "For the fourth consecutive year, Red Hat has been recognized as a Leader in the Gartner® Magic Quadrant™ for Container Management. We’re thrilled by this recognition and believe it represents continued validation of Red Hat OpenShift’s strong execution and strategy for delivering an industry trusted application platform. It provides the hybrid cloud consistency teams need to modernize virtual machines, run containers, and accelerate AI adoption on a single foundation - from the data center to th",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
         {
-          "name": "Red Hat Security Errata"
+          "name": "Red Hat Blog"
         }
       ],
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "tags": [
-        "Red Hat Security Errata"
+        "Red Hat Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/663b378bbbbb36f6",
-      "url": "https://access.redhat.com/errata/RHSA-2026:65132",
-      "title": "RHSA-2026:65132: Moderate: edk2 security update",
-      "content_text": "An update for edk2 is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T09:04:57Z",
-      "date_modified": "2026-09-08T09:04:57Z",
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/0be6e48c9f2b57f6",
+      "url": "https://www.redhat.com/en/blog/red-hat-joins-openclaw-foundation-founding-member-advance-open-future-production-ai-agents",
+      "title": "Red Hat joins OpenClaw Foundation as a founding member to advance an open future for production AI agents",
+      "content_text": "In July, the OpenClaw Foundation was announced with Red Hat joining as a founding member to bring open, more secure infrastructure to autonomous AI agents. OpenClaw has quickly become a premier open source autonomous agent framework, and Red Hat’s involvement aims to bring the enterprise readiness, governance, and infrastructure needed to transition this technology from a powerful personal tool to a production-grade business asset. The value of OpenClaw lies in its persistence. It automates task",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
         {
-          "name": "Red Hat Security Errata"
+          "name": "Red Hat Blog"
         }
       ],
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "tags": [
-        "Red Hat Security Errata"
+        "Red Hat Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/acd18da0184adfb3",
-      "url": "https://access.redhat.com/errata/RHSA-2026:65111",
-      "title": "RHSA-2026:65111: Important: firefox security update",
-      "content_text": "An update for firefox is now available for Red Hat Enterprise Linux 8.4 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.4 Extended Update Support Long-Life Add-On.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T08:03:23Z",
-      "date_modified": "2026-09-08T08:03:23Z",
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/3654cacd0eda8368",
+      "url": "https://www.redhat.com/en/blog/nvidia-bluefield-security-and-acceleration-arrive-red-hat-ai-factory-nvidia-and-red-hat-openshift",
+      "title": "NVIDIA BlueField security and acceleration arrive on the Red Hat AI Factory with NVIDIA and Red Hat OpenShift",
+      "content_text": "Agentic AI inference and 5G RAN workloads are pushing data center networking to its limits, yet up to 30% of host CPU power is wasted simply routing packets and enforcing security policies. When infrastructure services run directly on host CPUs, they create an \"infrastructure tax\" – consuming valuable CPU cycles that should be dedicated to core business applications, 5G core, radio access network (RAN) network functions, or resource-intensive AI models.To help service providers and enterprises m",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
         {
-          "name": "Red Hat Security Errata"
+          "name": "Red Hat Blog"
         }
       ],
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "tags": [
-        "Red Hat Security Errata"
+        "Red Hat Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/acef041826ae5fbc",
-      "url": "https://access.redhat.com/errata/RHSA-2026:64799",
-      "title": "RHSA-2026:64799: Moderate: glib2 security update",
-      "content_text": "An update for glib2 is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T07:45:47Z",
-      "date_modified": "2026-09-08T07:45:47Z",
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/38de456a69b370e5",
+      "url": "https://www.redhat.com/en/blog/better-together-red-hat-enterprise-linux-system-roles-and-red-hat-ansible-automation-platform",
+      "title": "Better together: Red Hat Enterprise Linux system roles and Red Hat Ansible Automation Platform",
+      "content_text": "Managing Red Hat Enterprise Linux (RHEL) at scale requires consistent, repeatable configuration across hundreds or thousands of hosts. Doing this by hand means encoding the details of every subsystem into your own automation, including installing packages, editing configuration files, restarting services, and handling the dependencies between all of these steps. And that knowledge must be maintained as your fleet grows and as RHEL evolves across versions. That's why RHEL system roles take a high",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
         {
-          "name": "Red Hat Security Errata"
+          "name": "Red Hat Blog"
         }
       ],
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "tags": [
-        "Red Hat Security Errata"
+        "Red Hat Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/4b7e0a5d739730ef",
-      "url": "https://access.redhat.com/errata/RHSA-2026:64815",
-      "title": "RHSA-2026:64815: Moderate: pam security update",
-      "content_text": "An update for pam is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T07:44:47Z",
-      "date_modified": "2026-09-08T07:44:47Z",
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/3726166439116509",
+      "url": "https://www.redhat.com/en/blog/accelerating-modern-virtualization-infrastructure-9-months",
+      "title": "Accelerating modern virtualization infrastructure in 9 months",
+      "content_text": "It’s no surprise that many organizations are reevaluating their existing virtualization platforms due to a variety of factors, including but not limited to rising virtualization costs and disruptive licensing changes. However, replacing a traditional virtualization platform with an identical hypervisor layer often does little to solve tomorrow’s business problems. Forward-thinking enterprises are recognizing that if they are going to go through the disruption of moving long-standing workloads an",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
         {
-          "name": "Red Hat Security Errata"
+          "name": "Red Hat Blog"
         }
       ],
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "tags": [
-        "Red Hat Security Errata"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/e537ccd96310963b",
-      "url": "https://access.redhat.com/errata/RHSA-2026:64812",
-      "title": "RHSA-2026:64812: Moderate: expat security update",
-      "content_text": "An update for expat is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T07:44:33Z",
-      "date_modified": "2026-09-08T07:44:33Z",
-      "authors": [
+        "Red Hat Blog"
+      ],
+      "attachments": [
         {
-          "name": "Red Hat Security Errata"
+          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+          "mime_type": "image/jpeg"
         }
-      ],
-      "tags": [
-        "Red Hat Security Errata"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/8ff5f4dfb49a0ee6",
-      "url": "https://access.redhat.com/errata/RHSA-2026:64823",
-      "title": "RHSA-2026:64823: Important: redis:6 security update",
-      "content_text": "An update for the redis:6 module is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T07:15:52Z",
-      "date_modified": "2026-09-08T07:15:52Z",
-      "authors": [
-        {
-          "name": "Red Hat Security Errata"
-        }
-      ],
-      "tags": [
-        "Red Hat Security Errata"
       ]
     },
     {
@@ -1083,29 +1244,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/01781c8d8d725d36",
-      "url": "https://www.redhat.com/en/blog/beyond-model-architecting-production-grade-enterprise-ai-systems",
-      "title": "Beyond the model: Architecting production-grade enterprise AI systems",
-      "content_text": "Enterprises rarely lack AI options, they lack a coherent way to use them. Moving from \"we should use AI\" to production-ready capability is an architecture problem shaped by which models you adopt, what infrastructure runs them, and how you deploy and operate them alongside your existing estate.Enterprise AI initiatives often fail because the conversation ends at the model. Without model storage, a serving layer, integration into existing systems, and someone to operate it all, a capable model is",
-      "date_published": "2026-08-27T00:00:00Z",
-      "date_modified": "2026-08-27T00:00:00Z",
-      "authors": [
-        {
-          "name": "Red Hat Blog"
-        }
-      ],
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "tags": [
-        "Red Hat Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/redhat/eb6b761d3cfb6006",
       "url": "https://www.redhat.com/en/blog/automating-edge-recovery-minimizing-unplanned-downtime-with-red-hat-edge",
       "title": "Automating edge recovery: Minimizing unplanned downtime with Red Hat Edge",
@@ -1193,144 +1331,6 @@
       "attachments": [
         {
           "url": "https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/86acf9f399a0ef7c",
-      "url": "https://www.redhat.com/en/blog/taming-agent-beast-monolithic-prompt-modular-agentic-workflow",
-      "title": "Taming the agent beast: From monolithic prompt to modular agentic workflow",
-      "content_text": "What happens when you stop thinking of AI agents as chatbots and start treating them as workers in a pipeline? This is the story of turning a sprawling Jira backlog into a self-orchestrating system, and the lessons learned along the way.TL;DRWe built an agentic workflow that automatically discovers Jira tickets, enriches them with context from source control, and produces structured summaries that make tickets actionable, all without human intervention. In practice, this pipeline processes dozen",
-      "date_published": "2026-08-26T00:00:00Z",
-      "date_modified": "2026-08-26T00:00:00Z",
-      "authors": [
-        {
-          "name": "Red Hat Blog"
-        }
-      ],
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "tags": [
-        "Red Hat Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/6c4120173574a992",
-      "url": "https://www.redhat.com/en/blog/open-telco-ai-training-model-industry",
-      "title": "Open telco AI: Training a model for an industry",
-      "content_text": "Domain-specific artificial intelligence (AI) is becoming a practical priority for the telecommunications industry. At AMD Advancing AI, ATT Chief Technology Officer Jeremy Legg joined AMD’s Dan McNamara, Senior Vice President and General Manager of Compute and Enterprise AI, to introduce OTel 2.0 and show how telecom-focused models are moving closer to production network use. The early response underscores that momentum: OTel 2.0 has already surpassed 5 million downloads since release, following",
-      "date_published": "2026-08-26T00:00:00Z",
-      "date_modified": "2026-08-26T00:00:00Z",
-      "authors": [
-        {
-          "name": "Red Hat Blog"
-        }
-      ],
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "tags": [
-        "Red Hat Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/48751656bafab9c1",
-      "url": "https://www.redhat.com/en/blog/modernizing-database-workloads-red-hat-openshift",
-      "title": "Modernizing database workloads on Red Hat OpenShift",
-      "content_text": "As organizations continue to modernize their workloads, one of the most important questions is how to support the full range of database workloads, including SQL, NoSQL, vector, and in-memory databases. Modernizing database infrastructure requires a thoughtful strategy that considers vendor guidance while recognizing the value of a consistent enterprise platform that can support both existing and future application architectures.Red Hat offers multiple options for running database workloads acro",
-      "date_published": "2026-08-26T00:00:00Z",
-      "date_modified": "2026-08-26T00:00:00Z",
-      "authors": [
-        {
-          "name": "Red Hat Blog"
-        }
-      ],
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "tags": [
-        "Red Hat Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/0db4b696352226d8",
-      "url": "https://www.redhat.com/en/blog/migrate-confidence-how-red-hat-consulting-de-risks-your-linux-transition",
-      "title": "Modernize with confidence: Build a threat-resistant Linux foundation with Red Hat Consulting",
-      "content_text": "Operating an unsupported or outdated Linux distribution can expose your organization to critical security risks, drive up maintenance costs, and keep you from using the newest and best tools. However, undergoing a successful Linux modernization effort requires deep insights into your current environment, careful planning, and a clear roadmap that organizations are often unprepared to handle alone.To help you strategically plan and execute your Red Hat Enterprise Linux modernization, Red Hat Cons",
-      "date_published": "2026-08-26T00:00:00Z",
-      "date_modified": "2026-08-26T00:00:00Z",
-      "authors": [
-        {
-          "name": "Red Hat Blog"
-        }
-      ],
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "tags": [
-        "Red Hat Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/176d5c1161d338cb",
-      "url": "https://www.redhat.com/en/blog/how-ai-inference-works-clearly-explained",
-      "title": "How AI inference works, clearly explained",
-      "content_text": "If you're using or building on large language models (LLMs), perhaps the most important concept to understand is how inference and key-value (KV) cache work. That's because no matter if you're working with coding agents, retrieval-augmented generation (RAG), or fine-tuning, inference is what happens each time you make a request to a model and get a response back (and thus, where all the money goes).While training happens once, inference happens every single time a user sends a prompt. So, let's",
-      "date_published": "2026-08-26T00:00:00Z",
-      "date_modified": "2026-08-26T00:00:00Z",
-      "authors": [
-        {
-          "name": "Red Hat Blog"
-        }
-      ],
-      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-      "tags": [
-        "Red Hat Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/8c5f957a3982c002",
-      "url": "https://developers.redhat.com/articles/2026/08/25/reinforcement-learning-from-verifiable-rewards-with-training-hub-on-red-hat-openshift-ai",
-      "title": "GRPO fine-tuning on Red Hat OpenShift AI: Reinforcement learning from verifiable rewards with Training Hub",
-      "content_text": "article here The post GRPO fine-tuning on Red Hat OpenShift AI: Reinforcement learning from verifiable rewards with Training Hub appeared first on Red Hat Developer .",
-      "date_published": "2026-08-25T03:16:21Z",
-      "date_modified": "2026-08-25T03:16:21Z",
-      "authors": [
-        {
-          "name": "Red Hat Developer"
-        }
-      ],
-      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/blog/2018/05/openshift-featured.png?itok=_wvw4XJq",
-      "tags": [
-        "Red Hat Developer"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.redhat.com/sites/default/files/styles/share/public/blog/2018/05/openshift-featured.png?itok=_wvw4XJq",
           "mime_type": "image/png"
         }
       ]

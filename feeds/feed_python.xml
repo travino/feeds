@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-08T11:42:27.077181+00:00</updated>
+  <updated>2026-09-08T16:51:17.293968+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -13,54 +13,84 @@
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/aa1504dc60cf7c22</id>
-    <title>ansys-acp-core 0.4.0</title>
-    <updated>2026-09-08T11:42:17+00:00</updated>
-    <content>Python library for ACP - Ansys Composite PrepPost</content>
-    <link href="https://pypi.org/project/ansys-acp-core/0.4.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/29024f57ccf90c7f</id>
+    <title>pillow-minecraft-map 1.1.3</title>
+    <updated>2026-09-08T15:46:33+00:00</updated>
+    <content>A Pillow Image plugin to open Minecraft .dat map files.</content>
+    <link href="https://pypi.org/project/pillow-minecraft-map/1.1.3/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T11:42:17+00:00</published>
+    <published>2026-09-08T15:46:33+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/123518511db6c30d</id>
-    <title>connectonion 1.8.4</title>
-    <updated>2026-09-08T11:42:14+00:00</updated>
-    <content>A simple Python framework for creating AI agents with behavior tracking</content>
-    <link href="https://pypi.org/project/connectonion/1.8.4/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/b697331e87d33e74</id>
+    <title>odoo-addon-l10n-br-mdfe 17.0.2.1.0</title>
+    <updated>2026-09-08T15:45:55+00:00</updated>
+    <content>Brazilian Eletronic Invoice MDF-e</content>
+    <link href="https://pypi.org/project/odoo-addon-l10n-br-mdfe/17.0.2.1.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T11:42:14+00:00</published>
+    <published>2026-09-08T15:45:55+00:00</published>
+    <media:group>
+      <media:content url="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://pypi.org/static/images/og-card.00947198.webp" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>PyPI Updates</dc:creator>
+    <link rel="enclosure" href="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/ca0414d7a0ad6693</id>
+    <title>kaleidorg-swap-sdk 0.5.0</title>
+    <updated>2026-09-08T15:45:52+00:00</updated>
+    <content>KaleidoSwap swap SDK — client-side atomic swaps (Boltz protocol)</content>
+    <link href="https://pypi.org/project/kaleidorg-swap-sdk/0.5.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T15:45:52+00:00</published>
+    <media:group>
+      <media:content url="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://pypi.org/static/images/og-card.00947198.webp" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>PyPI Updates</dc:creator>
+    <link rel="enclosure" href="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/c298c98b3f9dede8</id>
+    <title>agno 3.0.8</title>
+    <updated>2026-09-08T15:45:49+00:00</updated>
+    <content>The programming language for agentic software.</content>
+    <link href="https://pypi.org/project/agno/3.0.8/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T15:45:49+00:00</published>
+    <media:group>
+      <media:content url="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://pypi.org/static/images/og-card.00947198.webp" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>PyPI Updates</dc:creator>
+    <link rel="enclosure" href="https://pypi.org/static/images/og-card.00947198.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/268483fce9fb1599</id>
+    <title>enola-cli 0.4.16</title>
+    <updated>2026-09-08T15:45:47+00:00</updated>
+    <content>Architectural regression testing for AI-assisted development</content>
+    <link href="https://pypi.org/project/enola-cli/0.4.16/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T15:45:47+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/4ef61fc208c91207</id>
-    <title>tabarena 0.1.1.dev20260908114200</title>
-    <updated>2026-09-08T11:42:06+00:00</updated>
-    <content>A Living Benchmark for Machine Learning on Tabular Data</content>
-    <link href="https://pypi.org/project/tabarena/0.1.1.dev20260908114200/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T11:42:06+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7775abf27a89d41d</id>
-    <title>bencheval 0.1.1.dev20260908114200</title>
-    <updated>2026-09-08T11:42:05+00:00</updated>
-    <content>Benchmark evaluation for tabular ML: Elo, win-rate, rank and improvability leaderboards (the engine behind TabArena)</content>
-    <link href="https://pypi.org/project/bencheval/0.1.1.dev20260908114200/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T11:42:05+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/34f8d90de819764a</id>
-    <title>pynesys-pynecore 6.9.2</title>
-    <updated>2026-09-08T11:42:01+00:00</updated>
-    <content>Python based Pine Script like runtime and API</content>
-    <link href="https://pypi.org/project/pynesys-pynecore/6.9.2/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T11:42:01+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
+    <id>tag:trvny.github.io,2024:feedseek/python/1587e1cfbbafd95f</id>
+    <title>LernerPython blog, from Reuven Lerner: Claude Code always produces something. That’s the hard part.</title>
+    <updated>2026-09-08T13:04:49+00:00</updated>
+    <content>For many months, I’ve been using Claude Code several hours each day. Not to experiment, but to get work done. A growing amount of the functionality behind LernerPython.com is now written with Claude Code: the events system , the membership plumbing, and the scheduled jobs that keep the site’s session listings current. And, of course, my Socratic AI tutor , which I’ve not only integrated into my courses, but also into my “ Better Developers ” and “ Bamboo Weekly ” newsletters. Even my course-setu</content>
+    <link href="https://lernerpython.com/2026/09/08/claude-code-always-produces-something/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-08T13:04:49+00:00</published>
+    <media:group>
+      <media:content url="https://lernerpython.com/wp-content/uploads/2026/03/AI-powered-coding-image-683x1024.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://lernerpython.com/wp-content/uploads/2026/03/AI-powered-coding-image-683x1024.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://lernerpython.com/wp-content/uploads/2026/03/AI-powered-coding-image-683x1024.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/f1bfeeb3305b73ff</id>
@@ -76,6 +106,21 @@
     </media:group>
     <dc:creator>Pydantic</dc:creator>
     <link rel="enclosure" href="https://pydantic.dev/articles/linguistic-drift-at-the-frontier/og.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/3048f768e9933366</id>
+    <title>Incident Report: File Hosting Errors</title>
+    <updated>2026-09-08T06:09:00+00:00</updated>
+    <content>Executive summary For about two weeks in August 2026, some PyPI users hit intermittent 502 and 503 errors downloading files from files.pythonhosted.org , triggering failures during installation from PyPI. Thanks to our users filing reports in the support tracker ; one report in particular narrowed the problem to a single cache node. Two separate problems were uncovered. A canary deployment inside Fastly's network had triggered a misconfiguration at one cache node, causing Fastly's routing layer </content>
+    <link href="https://blog.pypi.org/posts/2026-09-08-file-hosting-errors/" rel="alternate"/>
+    <category term="PyPI Blog" label="PyPI Blog"/>
+    <published>2026-09-08T06:09:00+00:00</published>
+    <media:group>
+      <media:content url="https://blog.pypi.org/assets/images/social/posts/2026-09-08-file-hosting-errors.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blog.pypi.org/assets/images/social/posts/2026-09-08-file-hosting-errors.png"/>
+    </media:group>
+    <dc:creator>PyPI Blog</dc:creator>
+    <link rel="enclosure" href="https://blog.pypi.org/assets/images/social/posts/2026-09-08-file-hosting-errors.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2</id>
@@ -945,21 +990,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZf4Sb2zkaEg1_jinY3n0dy113nTc18kPAjxoAbUyvVXHrsFY18QsNs7Q7IdOzt6rfDIcqaUz50iP-ZCbfzRidbgigeQqQRMbRv1V-0MLPo0VfA9g365Th6aBw0ccK9_1UNMzpgSjfb-FPmKMyuOYKe-LFzuwMDQUrI5_gvYYuDoE_dqMThyphenhyphenZ5tQ/s320/doom.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/c2b9d192e571037b</id>
-    <title>Graham Dumpleton: Unit testing with wrapture</title>
-    <updated>2026-09-02T00:00:00+00:00</updated>
-    <content>In introducing wrapture I said the one idea everything sits on is to wrap rather than replace. That is easy to say and harder to see the point of, so this post takes a small piece of code and writes tests for it twice, once with unittest.mock and once with wrapture. I am not going to walk through every mock idiom and show its wrapture spelling, since a good part of the time the two are doing the same thing with different syntax, and the comparison page in the documentation already maps one onto </content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/unit-testing-with-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-02T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/54f11ba6/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/54f11ba6/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/54f11ba6/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7767a1637395e669</id>
@@ -3905,21 +3935,6 @@ talks are available. PyCon US Security Track Hala Ali on generating SBOMs direct
     </media:group>
     <dc:creator>PyPI Blog</dc:creator>
     <link rel="enclosure" href="https://blog.pypi.org/assets/images/social/posts/2025-07-25-inbox-ru-follow-up.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/ebe43d359697bace</id>
-    <title>Prohibiting inbox.ru email domain registrations</title>
-    <updated>2025-07-15T06:09:00+00:00</updated>
-    <content>A recent spam campaign against PyPI has prompted an administrative action, preventing using the inbox.ru email domain. This includes new registrations as well as adding as additional addresses. The campaign created over 250 new user accounts, publishing over 1,500 new projects on PyPI, leading to end-user confusion, abuse of resources, and potential security issues. All relevant projects have been removed from PyPI, and accounts have been disabled. Background Users are welcome to use any valid e</content>
-    <link href="https://blog.pypi.org/posts/2025-06-15-prohibiting-inbox-ru-emails/" rel="alternate"/>
-    <category term="PyPI Blog" label="PyPI Blog"/>
-    <published>2025-07-15T06:09:00+00:00</published>
-    <media:group>
-      <media:content url="https://blog.pypi.org/assets/images/social/posts/2025-06-15-prohibiting-inbox-ru-emails.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://blog.pypi.org/assets/images/social/posts/2025-06-15-prohibiting-inbox-ru-emails.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>PyPI Blog</dc:creator>
-    <link rel="enclosure" href="https://blog.pypi.org/assets/images/social/posts/2025-06-15-prohibiting-inbox-ru-emails.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/d3f33733f980b6d5</id>

@@ -8,6 +8,29 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/de2784bec6a72647",
+      "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+      "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
+      "content_text": "Automatic Key Exchange probes TLS 1.3-capable customer origins to learn which key agreement algorithms they support. We then lead with the most secure algorithm when connecting to the origin, preferring post-quantum connections wherever the origin supports it.",
+      "date_published": "2026-09-08T13:10:00Z",
+      "date_modified": "2026-09-08T13:10:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Blog"
+        }
+      ],
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M1PVTWFH1FTSY24GMGKMD4G2.01M1PVTXAKN3C2KME8M5NF4SS4.png",
+      "tags": [
+        "Cloudflare Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M1PVTWFH1FTSY24GMGKMD4G2.01M1PVTXAKN3C2KME8M5NF4SS4.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/652c79981097cf58",
       "url": "https://www.cloudflarestatus.com/incidents/qz292kvy220g",
       "title": "Cache Reserve Issue in Paris",
@@ -40,10 +63,79 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/91e04a5fdaafa651",
+      "url": "https://developers.cloudflare.com/changelog/post/scheduled-waf-release/",
+      "title": "WAF - WAF Release - Scheduled changes for 2026-09-15",
+      "content_text": "Announcement Date Release Date Release Behavior Legacy Rule ID Rule ID Description Comments 2026-09-08 2026-09-15 Log N/A ...19491e62 SSRF - Cloud - 3 This is a new detection. 2026-09-08 2026-09-15 Log N/A ...e6a0b6de Version Control - Information Disclosure - Beta This rule will be merged into the original rule \"Version Control - Information Disclosure\" (ID: ...0550c529 ). 2026-09-08 2026-09-15 Log N/A ...c1aaebda Command Injection - Generic 10 This is a new detection.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/og-changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/13a0bbce4527a32d",
       "url": "https://developers.cloudflare.com/changelog/post/2026-09-08-miniflare-v5/",
       "title": "Workers - Miniflare v5 prepares local development for the cf CLI",
       "content_text": "Miniflare v5 prepares Cloudflare local development tooling for the upcoming cf CLI. Miniflare powers local Workers development behind wrangler dev , the Cloudflare Vite plugin, and @cloudflare/vitest-plugin .\nMost projects should use those tools instead of depending on Miniflare directly, and Miniflare v5 will not require any action. The most significant change is a new configuration shape which aligns Miniflare with cloudflare.config.ts , the programmatic Cloudflare configuration format now ava",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/og-changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/a78ecf1c7f7de619",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-08-radar-search-events/",
+      "title": "Radar - Radar search now includes Internet events",
+      "content_text": "Cloudflare Radar search now includes Internet events and outages alongside existing results. Search event descriptions or related entities, such as locations, ASes, bots, and top-level domains, to find relevant events and open the most relevant Radar view. Event links preserve the event date range, making it easier to investigate what changed before, during, and after an event. These results are also available to browser-based AI agents through WebMCP .",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2512,height=1130,format=webp/_astro/radar-search-events.DpZAk59G.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2512,height=1130,format=webp/_astro/radar-search-events.DpZAk59G.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9c22a947e58e0ba6",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-08-waf-release/",
+      "title": "WAF - WAF Release - 2026-09-08",
+      "content_text": "This release enhances detection logic for existing rules targeting Next.js remote code execution (RCE) vulnerabilities by consolidating active beta rules into baseline signatures. Ruleset Rule ID Legacy Rule ID Description Previous Action New Action Comments Cloudflare Managed Ruleset ...c76ba662 N/A Next.js - Image Optimizer Remote Code Execution via Crafted AVIF - Beta Log Block This rule is merged into the original rule \"Next.js - Image Optimizer Remote Code Execution via Crafted AVIF\" (ID: .",
       "date_published": "2026-09-08T00:00:00Z",
       "date_modified": "2026-09-08T00:00:00Z",
       "authors": [
@@ -619,29 +711,6 @@
       ],
       "tags": [
         "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/91e04a5fdaafa651",
-      "url": "https://developers.cloudflare.com/changelog/post/scheduled-waf-release/",
-      "title": "WAF - WAF Release - Scheduled changes for 2026-09-08",
-      "content_text": "Announcement Date Release Date Release Behavior Legacy Rule ID Rule ID Description Comments 2026-09-01 2026-09-08 Log N/A ...c76ba662 Next.js - Image Optimizer Remote Code Execution via Crafted AVIF - Beta This rule will be merged into the original rule \"Next.js - Image Optimizer Remote Code Execution via Crafted AVIF\" (ID: ...80256efe ). 2026-09-01 2026-09-08 Log N/A ...208457cf Next.js - Remote Code Execution - CVE:CVE-2026-75604 - Beta This rule will be merged into the original rule \"Next.js",
-      "date_published": "2026-09-01T00:00:00Z",
-      "date_modified": "2026-09-01T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/og-changelog.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/og-changelog.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {
@@ -1988,52 +2057,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/ffa6aad8e2f4b09a",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-limits-increase/",
-      "title": "Browser Run - Run more headless browsers concurrently with Browser Run",
-      "content_text": "Browser Run lets you automate headless browsers on Cloudflare's global network. Run full browser sessions for interactive workflows, or use Quick Actions for one-request tasks such as screenshots, PDFs, and capturing page content. If you are on the Workers Paid plan , your default limits are now higher: Limit Previous New Concurrent browsers 120 200 New browser instances / second 1 3 Quick Actions requests / second 10 30 You can now run hundreds of browser sessions in parallel, launch new browse",
-      "date_published": "2026-08-20T00:00:00Z",
-      "date_modified": "2026-08-20T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/og-changelog.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/og-changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/4dd04bde5c4ed879",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-fuse-local-development/",
-      "title": "Containers - Use FUSE in local Containers development",
-      "content_text": "Miniflare now automatically grants local Containers the Docker privileges required for Filesystem in Userspace (FUSE). This applies to wrangler dev , the Cloudflare Vite plugin, and direct Miniflare use. Miniflare grants these privileges when the local Docker daemon runs inside a virtual machine (VM). This includes Docker engines on macOS and through Windows Subsystem for Linux (WSL). On Linux, Miniflare grants the privileges for local rootless Docker when /dev/fuse is available. Rootful Docker",
-      "date_published": "2026-08-20T00:00:00Z",
-      "date_modified": "2026-08-20T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/og-changelog.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/og-changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/e69726c5ea4aec6c",
       "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-durable-objects-deployments-tab/",
       "title": "Durable Objects, Workers - View deployments for Durable Objects in the dashboard",
@@ -3041,29 +3064,6 @@
       "attachments": [
         {
           "url": "https://blog.cloudflare.com/_emdash/api/media/file/01KYN5V56B8HHHZ71NTH17JJVV.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/c309d7510c2c47dd",
-      "url": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-      "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption event",
-      "content_text": "Cloudflare Radar tracked Internet disruptions driven by natural disasters, government-mandated shutdowns, and DNSSEC key rollovers over the last quarter. This blog post analyzes traffic telemetry to explain how these events impacted global connectivity.",
-      "date_published": "2026-07-28T13:00:00Z",
-      "date_modified": "2026-07-28T13:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Blog"
-        }
-      ],
-      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01KYMEWF4EKVC0NGY7QBV1J1ZF.png",
-      "tags": [
-        "Cloudflare Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://blog.cloudflare.com/_emdash/api/media/file/01KYMEWF4EKVC0NGY7QBV1J1ZF.png",
           "mime_type": "image/png"
         }
       ]

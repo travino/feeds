@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.visualcrossing.com/resources/</id>
   <title>Visual Crossing Resources</title>
-  <updated>2026-09-08T11:43:00.510686+00:00</updated>
+  <updated>2026-09-08T16:52:04.592295+00:00</updated>
   <author>
     <name>Visual Crossing</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.visualcrossing.com/favicon.ico</icon>
   <logo>https://www.visualcrossing.com/favicon.ico</logo>
   <subtitle>Visual Crossing news, blog posts and documentation updates.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/50656d0940f263a1</id>
+    <title>Understanding Weather Forecast Consensus with Spread and Confidence</title>
+    <updated>2026-09-08T13:50:42+00:00</updated>
+    <content>Weather forecasts are built from multiple forecast models, and those models can produce somewhat different results. Some models provide a single deterministic forecast, while ensemble systems generate multiple possible outcomes. When the contributing forecasts agree closely, confidence in the forecast is generally higher. When they diverge, there is greater uncertainty about the expected outcome. The […] The post Understanding Weather Forecast Consensus with Spread and Confidence appeared first </content>
+    <link href="https://www.visualcrossing.com/resources/documentation/weather-api/forecast-confidence-model-spread/" rel="alternate"/>
+    <category term="Visual Crossing Documentation" label="Visual Crossing Documentation"/>
+    <published>2026-09-08T13:50:42+00:00</published>
+    <media:group>
+      <media:content url="https://www.visualcrossing.com/wp-content/uploads/2026/09/forecast_confidence.png" type="image/png" medium="image" height="582" width="800"/>
+      <media:thumbnail url="https://www.visualcrossing.com/wp-content/uploads/2026/09/forecast_confidence.png" height="582" width="800"/>
+    </media:group>
+    <dc:creator>Visual Crossing Documentation</dc:creator>
+    <link rel="enclosure" href="https://www.visualcrossing.com/wp-content/uploads/2026/09/forecast_confidence.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/f4d9470b8da96131</id>
+    <title>How to Retrieve and Compare Individual Weather Forecast Models</title>
+    <updated>2026-09-08T13:11:14+00:00</updated>
+    <content>Learn how to compare individual weather forecast models, investigate model differences and uncertainty, compare successive model runs, and retrieve individual model forecasts through the Visual Crossing Weather API. The post How to Retrieve and Compare Individual Weather Forecast Models appeared first on Visual Crossing .</content>
+    <link href="https://www.visualcrossing.com/resources/documentation/weather-api/weather-forecast-model-comparison/" rel="alternate"/>
+    <category term="Visual Crossing Documentation" label="Visual Crossing Documentation"/>
+    <published>2026-09-08T13:11:14+00:00</published>
+    <media:group>
+      <media:content url="https://www.visualcrossing.com/wp-content/uploads/2026/09/image-3.png" type="image/png" medium="image" height="872" width="1908"/>
+      <media:thumbnail url="https://www.visualcrossing.com/wp-content/uploads/2026/09/image-3.png" height="872" width="1908"/>
+    </media:group>
+    <dc:creator>Visual Crossing Documentation</dc:creator>
+    <link rel="enclosure" href="https://www.visualcrossing.com/wp-content/uploads/2026/09/image-3.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/aa13745d0458348a</id>
     <title>How to Include Weather Radar Data in Weather Datasets</title>

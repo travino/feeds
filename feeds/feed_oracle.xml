@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-08T11:42:14.595062+00:00</updated>
+  <updated>2026-09-08T16:51:13.144362+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/585f0c4711b0e249</id>
+    <title>APEX Static Files Mismatch 404 Error on Always Free ADB (DB: 26.1.4 vs Images: 26.1.1)</title>
+    <updated>2026-09-08T12:24:22.716038+00:00</updated>
+    <content>Hi APEX Team, Following a recent automatic patch on my Always Free Autonomous Database instance, I am encountering an environment mismatch popup when opening the APEX Workspace, along with 404 Not Found console errors. Error Details: Popup: “There is a problem with your environment because the Oracle APEX files are not up-to-date! The files for version 26.1.1 have been loaded, but 26.1.4 is expected.” Environment Details: Service: Oracle Autonomous Database (Always Free) Region: eu-frankfurt-1 D</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/apex-static-files-mismatch-404-error-on-always-free-adb-db-6533" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T12:24:22.716038+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/666347a18e5901cf</id>
+    <title>Trouble with adding GenAI service to Apex 26.1 : 404 authorization failed error</title>
+    <updated>2026-09-08T12:11:38.097475+00:00</updated>
+    <content>I am trying to add a Gen AI service through workspace utilities in Apex. All of the credentials have been entered rightly, including region, public key signature, private key, user ID, compartment ID and model ID. Also checked the connectivity through the OCI console chat for the chosen compartment ID and model ID and it works fine. However, when I try to test connection after setting up the service on Apex, it is throwing up the below error: 1 error has occurred The HTTP request to Generative A</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/trouble-with-adding-genai-service-to-apex-26-1-404-authoriz-4431" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T12:11:38.097475+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/6b8e9460cc218bc2</id>
     <title>Old APEX Friendly URLs runs into SEVERE 500</title>
@@ -185,36 +215,6 @@
     <link href="https://forums.oracle.com/ords/apexds/post/ords-direct-pl-sql-gateway-causes-severe-library-cache-cont-7485" rel="alternate"/>
     <category term="Oracle Developer Community" label="Oracle Developer Community"/>
     <published>2026-09-07T10:21:21.061482+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/1798227fa3eed405</id>
-    <title>APEX 26.1 Bar Chart: Per-Row Colors Ignored When Using Region SQL Source but Work with Series SQL Source</title>
-    <updated>2026-09-07T09:54:48.412526+00:00</updated>
-    <content>I believe I found an issue with Bar Charts in Oracle APEX 26.1.4 related to the Color column when the SQL query is defined at the Region level instead of the Series level. I have a Bar Chart where each bar should have its own color. The SQL query returns a different color value for each row. For example, a simplified version of the query would be: select    employee_name as label,    count(*) as value,    '#' || substr(        standard_hash(employee_id, 'MD5'),        1,        6    ) as colorfr</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/apex-26-1-bar-chart-per-row-colors-ignored-when-using-regio-1487" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T09:54:48.412526+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/0b57934584f6e5c4</id>
-    <title>Request to Unlock Oracle APEX Account and System Enhancement Suggestion</title>
-    <updated>2026-09-07T04:53:28.890103+00:00</updated>
-    <content>Dear Support Team, I hope you are doing well. My Oracle APEX account has been locked, and I am currently unable to access my workspace. I kindly request you to unlock my account. Please find my account details below: Workspace: HAMZASHAFIQUE535 Username: hamzashafique535@gmail.com Additionally, I would like to suggest a system enhancement. It would be helpful if users could have a self-service option to unlock their accounts, similar to a password reset process. This would allow users to restore</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/request-to-unlock-oracle-apex-account-and-system-enhancemen-6596" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T04:53:28.890103+00:00</published>
     <media:group>
       <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>

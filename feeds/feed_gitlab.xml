@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.gitlab.com/</id>
   <title>GitLab</title>
-  <updated>2026-09-08T11:41:21.258009+00:00</updated>
+  <updated>2026-09-08T16:50:14.140125+00:00</updated>
   <author>
     <name>Various</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://about.gitlab.com/favicon.ico</icon>
   <logo>https://about.gitlab.com/favicon.ico</logo>
   <subtitle>Combined GitLab and federated forge feed: GitLab blog, release notes, patch releases, press releases and what's new, plus Codeberg and Forgejo.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/gitlab/ba7d054e8183bdff</id>
+    <title>Bring your own model to GitLab Duo Self-Hosted with Microsoft Foundry</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>For many organizations, the question about AI coding tools isn't whether they help, but where the code goes. Teams under data sovereignty, residency, or regulatory constraints need to know which network handles their source code before they can adopt anything. GitLab Duo Self-Hosted answers that by letting administrators connect GitLab Duo features to models running on infrastructure they choose, with control over hosting, region, network path, and credentials. In this tutorial, we'll connect Gi</content>
+    <link href="https://about.gitlab.com/blog/gitlab-duo-self-hosted-models-on-microsoft-foundry/" rel="alternate"/>
+    <category term="GitLab Blog" label="GitLab Blog"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1787324016/jmxuhk8e13yvknwjkptf.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1787324016/jmxuhk8e13yvknwjkptf.png"/>
+    </media:group>
+    <dc:creator>GitLab Blog</dc:creator>
+    <link rel="enclosure" href="https://res.cloudinary.com/about-gitlab-com/image/upload/v1787324016/jmxuhk8e13yvknwjkptf.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/gitlab/9f530a665aeaf7e0</id>
     <title>Forgejo Runner v13.1.0 is available</title>
@@ -672,21 +687,6 @@ one of these versions immediately. GitLab.com is already running the patched ver
     <category term="GitLab Patch Releases" label="GitLab Patch Releases"/>
     <published>2026-07-08T00:00:00+00:00</published>
     <dc:creator>GitLab Patch Releases</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/gitlab/c7d9c5f52a84a9d4</id>
-    <title>Keep your GitLab seats in check with restricted access</title>
-    <updated>2026-07-06T00:00:00+00:00</updated>
-    <content>GitLab restricted access for instance admins, group owners, and billing managers enables predictable seat costs with less manual gatekeeping. The feature has been significantly improved and is now more complete for the workflows that commonly affect seat usage. This update closes the gaps around identity provider provisioning, dormant user reactivation, and sign-in flows so organizations can use restricted access with more confidence in real-world environments. In this article, you'll learn what</content>
-    <link href="https://about.gitlab.com/blog/gitlab-restricted-access-improvements/" rel="alternate"/>
-    <category term="GitLab Blog" label="GitLab Blog"/>
-    <published>2026-07-06T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1774375772/kpaaaiqhokevxxeoxvu0.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1774375772/kpaaaiqhokevxxeoxvu0.png"/>
-    </media:group>
-    <dc:creator>GitLab Blog</dc:creator>
-    <link rel="enclosure" href="https://res.cloudinary.com/about-gitlab-com/image/upload/v1774375772/kpaaaiqhokevxxeoxvu0.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/gitlab/b04e1cf7e355bac9</id>

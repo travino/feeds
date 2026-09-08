@@ -8,6 +8,29 @@
   "icon": "https://about.gitlab.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/gitlab/ba7d054e8183bdff",
+      "url": "https://about.gitlab.com/blog/gitlab-duo-self-hosted-models-on-microsoft-foundry/",
+      "title": "Bring your own model to GitLab Duo Self-Hosted with Microsoft Foundry",
+      "content_text": "For many organizations, the question about AI coding tools isn't whether they help, but where the code goes. Teams under data sovereignty, residency, or regulatory constraints need to know which network handles their source code before they can adopt anything. GitLab Duo Self-Hosted answers that by letting administrators connect GitLab Duo features to models running on infrastructure they choose, with control over hosting, region, network path, and credentials. In this tutorial, we'll connect Gi",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "GitLab Blog"
+        }
+      ],
+      "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1787324016/jmxuhk8e13yvknwjkptf.png",
+      "tags": [
+        "GitLab Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1787324016/jmxuhk8e13yvknwjkptf.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/gitlab/9f530a665aeaf7e0",
       "url": "https://forgejo.org/2026-09-runner-release-v131/",
       "title": "Forgejo Runner v13.1.0 is available",
@@ -1009,29 +1032,6 @@
       ],
       "tags": [
         "GitLab Patch Releases"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/gitlab/c7d9c5f52a84a9d4",
-      "url": "https://about.gitlab.com/blog/gitlab-restricted-access-improvements/",
-      "title": "Keep your GitLab seats in check with restricted access",
-      "content_text": "GitLab restricted access for instance admins, group owners, and billing managers enables predictable seat costs with less manual gatekeeping. The feature has been significantly improved and is now more complete for the workflows that commonly affect seat usage. This update closes the gaps around identity provider provisioning, dormant user reactivation, and sign-in flows so organizations can use restricted access with more confidence in real-world environments. In this article, you'll learn what",
-      "date_published": "2026-07-06T00:00:00Z",
-      "date_modified": "2026-07-06T00:00:00Z",
-      "authors": [
-        {
-          "name": "GitLab Blog"
-        }
-      ],
-      "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1774375772/kpaaaiqhokevxxeoxvu0.png",
-      "tags": [
-        "GitLab Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1774375772/kpaaaiqhokevxxeoxvu0.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {
