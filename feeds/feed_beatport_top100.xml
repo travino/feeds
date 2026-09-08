@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.beatport.com/beatport_top100</id>
   <title>Beatport Top 100</title>
-  <updated>2026-09-08T05:07:18.574203+00:00</updated>
+  <updated>2026-09-08T11:40:49.888104+00:00</updated>
   <author>
     <name>Beatport</name>
   </author>
@@ -12,6 +12,19 @@
   <icon>https://www.google.com/s2/favicons?domain=beatport.com&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=beatport.com&amp;sz=256</logo>
   <subtitle>Tracks as they enter the Beatport Top 100 chart</subtitle>
+  <entry>
+    <id>https://www.beatport.com/track/i-get-lifted/29996291</id>
+    <title>Barbara Tucker, Michael Gray - I Get Lifted (Extended Mix)</title>
+    <updated>2026-09-08T11:39:15.882962+00:00</updated>
+    <content>Entered the Beatport Top 100 at #94 · Artists: Barbara Tucker, Michael Gray · Genre: House · BPM: 124 · Key: D Minor · Length: 6:28 · Label: Fool's Paradise</content>
+    <link href="https://www.beatport.com/track/i-get-lifted/29996291" rel="alternate"/>
+    <published>2026-09-08T11:39:15.882962+00:00</published>
+    <media:group>
+      <media:content url="https://geo-media.beatport.com/image_size/1400x1400/2f1788c9-a492-49eb-b574-a0f620833f9e.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://geo-media.beatport.com/image_size/1400x1400/2f1788c9-a492-49eb-b574-a0f620833f9e.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://geo-media.beatport.com/image_size/1400x1400/2f1788c9-a492-49eb-b574-a0f620833f9e.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://www.beatport.com/track/stay-sexy/29386531</id>
     <title>Mili, HUGEL, LaBritney - Stay Sexy (Extended Mix)</title>
@@ -2598,18 +2611,5 @@
       <media:thumbnail url="https://geo-media.beatport.com/image_size/1400x1400/5fa6f5f0-b975-49d1-9997-522c460c852f.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://geo-media.beatport.com/image_size/1400x1400/5fa6f5f0-b975-49d1-9997-522c460c852f.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://www.beatport.com/track/inner-peace/29773122</id>
-    <title>S3PPA - Inner Peace (Extended Mix)</title>
-    <updated>2026-08-07T23:08:04.174129+00:00</updated>
-    <content>Entered the Beatport Top 100 at #97 · Artists: S3PPA · Genre: Dance / Pop · BPM: 140 · Key: Bb Minor · Length: 6:29 · Label: Musical Freedom</content>
-    <link href="https://www.beatport.com/track/inner-peace/29773122" rel="alternate"/>
-    <published>2026-08-07T23:08:04.174129+00:00</published>
-    <media:group>
-      <media:content url="https://geo-media.beatport.com/image_size/1400x1400/72547d39-7ed1-43af-8c97-5ff50831a0e7.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://geo-media.beatport.com/image_size/1400x1400/72547d39-7ed1-43af-8c97-5ff50831a0e7.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://geo-media.beatport.com/image_size/1400x1400/72547d39-7ed1-43af-8c97-5ff50831a0e7.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

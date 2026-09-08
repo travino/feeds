@@ -11,9 +11,9 @@
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/652c79981097cf58",
       "url": "https://www.cloudflarestatus.com/incidents/qz292kvy220g",
       "title": "Cache Reserve Issue in Paris",
-      "content_text": "Sep 8 , 04:42 UTC Identified - The issue has been identified and a fix is being implemented. Sep 8 , 03:25 UTC Investigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.\n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly.",
-      "date_published": "2026-09-08T04:42:58Z",
-      "date_modified": "2026-09-08T04:42:58Z",
+      "content_text": "Sep 8 , 05:22 UTC Resolved - This incident has been resolved. Sep 8 , 04:42 UTC Identified - The issue has been identified and a fix is being implemented. Sep 8 , 03:25 UTC Investigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.\n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly.",
+      "date_published": "2026-09-08T05:22:41Z",
+      "date_modified": "2026-09-08T05:22:41Z",
       "authors": [
         {
           "name": "Cloudflare Status"
@@ -37,6 +37,29 @@
       ],
       "tags": [
         "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/13a0bbce4527a32d",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-08-miniflare-v5/",
+      "title": "Workers - Miniflare v5 prepares local development for the cf CLI",
+      "content_text": "Miniflare v5 prepares Cloudflare local development tooling for the upcoming cf CLI. Miniflare powers local Workers development behind wrangler dev , the Cloudflare Vite plugin, and @cloudflare/vitest-plugin .\nMost projects should use those tools instead of depending on Miniflare directly, and Miniflare v5 will not require any action. The most significant change is a new configuration shape which aligns Miniflare with cloudflare.config.ts , the programmatic Cloudflare configuration format now ava",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/og-changelog.png",
+          "mime_type": "image/png"
+        }
       ]
     },
     {
@@ -1962,29 +1985,6 @@
       ],
       "tags": [
         "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d0605367720be971",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-leaked-credentials-authorization-header/",
-      "title": "WAF - Leaked credentials detection now scans Authorization headers",
-      "content_text": "Leaked credentials detection now scans the Authorization request header for Basic Authentication credentials. Previously, the detection only inspected request bodies, query strings, and headers for well-known web applications or custom detection locations, which meant credentials sent through HTTP Basic Authentication were not covered by default. This new default scan location decodes the Authorization: Basic <credentials> header and compares the extracted username and password against Cloudflar",
-      "date_published": "2026-08-20T00:00:00Z",
-      "date_modified": "2026-08-20T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/og-changelog.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/og-changelog.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {

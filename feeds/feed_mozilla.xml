@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-08T05:08:30.991203+00:00</updated>
+  <updated>2026-09-08T11:42:03.202120+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/07f51bfb72be1f97</id>
+    <title>Start page</title>
+    <updated>2026-09-08T09:39:59+00:00</updated>
+    <content>Hi, from last update start page keep adding icons from site i visited . Option to add history or recent activity in settings are disabled.</content>
+    <link href="https://connect.mozilla.org/t5/discussions/start-page/m-p/137484#M55651" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-08T09:39:59+00:00</published>
+    <media:group>
+      <media:content url="https://connect.mozilla.org/t5/image/serverpage/image-id/15661i9E06D87EF2D30CE8/image-size/medium?v=v2&amp;px=400" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://connect.mozilla.org/t5/image/serverpage/image-id/15661i9E06D87EF2D30CE8/image-size/medium?v=v2&amp;px=400"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://connect.mozilla.org/t5/image/serverpage/image-id/15661i9E06D87EF2D30CE8/image-size/medium?v=v2&amp;px=400" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/0e66aa02d41f1af9</id>
+    <title>Fixed the Vertical Tabs sidebar not reappearing when the cursor moves to the edge of the screen...</title>
+    <updated>2026-09-08T08:12:57.601473+00:00</updated>
+    <content>157.0a1 / Fixed / Bug 2064638 Fixed the Vertical Tabs sidebar not reappearing when the cursor moves to the edge of the screen in full screen mode.</content>
+    <link href="https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792197" rel="alternate"/>
+    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
+    <published>2026-09-08T08:12:57.601473+00:00</published>
+    <media:group>
+      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Nightly Release Notes</dc:creator>
+    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/35dc1371f3fccccb</id>
     <title>Spatial Audio is not supported on Websites, might be a firefox issue</title>
@@ -372,21 +402,6 @@ you can also check</content>
     <link href="https://connect.mozilla.org/t5/firefox-labs/largo-florida-cross-dressers-near-me-for-nsa/m-p/137215#M5250" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-05T23:03:51+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/f66177cdd7a4d842</id>
-    <title>Sorting Discussions by "most recent" goes by most recent COMMENT instead of most recent POST</title>
-    <updated>2026-09-05T20:31:09+00:00</updated>
-    <content>I went into discussion, it's auto sorted by "most recent" but once I finally scroll past the twenty pinned posts (some of which should not still be pinned like the post about the world cup widget) the next three posts were posted in 2024, 2025, and 2024, all of them had recent comments- only one of which was from a real person. So the posts first accessible by users are more often going to be the posts that are full of spam bots commenting completely unrelated to the post. all those spam bot com</content>
-    <link href="https://connect.mozilla.org/t5/discussions/sorting-discussions-by-quot-most-recent-quot-goes-by-most-recent/m-p/137205#M55576" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-05T20:31:09+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
@@ -1179,21 +1194,6 @@ Claude.</content>
     <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792087" rel="alternate"/>
     <category term="Nightly Release Notes" label="Nightly Release Notes"/>
     <published>2026-08-19T13:06:16.813745+00:00</published>
-    <media:group>
-      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Nightly Release Notes</dc:creator>
-    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/37c974ee5c8b1e79</id>
-    <title>On Firefox for Android, the media notification now shows previous, next, and a timeline for...</title>
-    <updated>2026-08-18T19:14:38.882338+00:00</updated>
-    <content>156.0a1 / New / Bug 2063332 On Firefox for Android , the media notification now shows previous, next, and a timeline for seeking through audio and video.</content>
-    <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792086" rel="alternate"/>
-    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
-    <published>2026-08-18T19:14:38.882338+00:00</published>
     <media:group>
       <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
       <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>

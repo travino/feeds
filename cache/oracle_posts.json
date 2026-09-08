@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T05:08:40.787249+00:00",
+  "last_updated": "2026-09-08T11:42:14.707539+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3556,6 +3556,42 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/510a4a703df4f625"
+    },
+    {
+      "title": "ORA-13249: Size too big: sz=",
+      "link": "https://forums.oracle.com/ords/apexds/post/ora-13249-size-too-big-sz-8392",
+      "date": "2026-09-08T06:31:53.408694+00:00",
+      "description": "Hello, Starting with Oracle Database 19.28 and later versions, we are encountering the following error when creating an MDSYS.SPATIAL_INDEX_V2 index on tables containing more than 50 million rows. The index creation statement is: CREATE INDEX ERSEL.SIDX_TEST_GEOM ON ERSEL.T_SPATIAL_INDEX_TEST (GEOM) INDEXTYPE IS MDSYS.SPATIAL_INDEX_V2 PARAMETERS('tablespace=ERSEL_TDE_DENEME ') parallel 4; The error is: CREATE INDEX ERSEL.SIDX_TEST_GEOM ON ERSEL.T_SPATIAL_INDEX_TEST * ERROR at line 1: ORA-29855: ",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/08260891f31cbe52"
+    },
+    {
+      "title": "An error occurred while running the statement due to: Cannot read properties of undefined (reading &#x27;items&#x27;).",
+      "link": "https://forums.oracle.com/ords/apexds/post/an-error-occurred-while-running-the-statement-due-to-cannot-6578",
+      "date": "2026-09-08T06:54:53.211945+00:00",
+      "description": "Hi, Steps to reproduce: create table people ( person_id number primary key, name varchar2(15) );insert into people (person_id, name) values (1, 'Wonder Woman'), (2, 'Peter Parker'), (3, 'Jean Grey'), (4, 'Clark Kent'), (5, 'Bruce Banner'); commit;create table connections ( connection_id number primary key, person_id_1 number, person_id_2 number, constraint connections_people_1_fk foreign key (person_id_1) references people (person_id), constraint connections_people_2_fk foreign key (person_id_2)",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/78607ca78a16e700"
+    },
+    {
+      "title": "Does SQLcl Project Support Incremental APEX Component Deployment?",
+      "link": "https://forums.oracle.com/ords/apexds/post/does-sqlcl-project-support-incremental-apex-component-deplo-0869",
+      "date": "2026-09-08T06:55:10.553785+00:00",
+      "description": "The Oracle APEX Lifecycle Management paper presents SQLcl Projects as an approach for managing APEX applications and database objects in Git. It also discusses split exports , where individual APEX application components are exported into separate files to make source control and code review easier. My main question is about the deployment behavior of SQLcl Projects for APEX applications . For example, suppose a developer changes specific components of an APEX application, such as Page 10, a Lis",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/7e565dc1a9c3b47b"
+    },
+    {
+      "title": "Old APEX Friendly URLs runs into SEVERE 500",
+      "link": "https://forums.oracle.com/ords/apexds/post/old-apex-friendly-urls-runs-into-severe-500-9012",
+      "date": "2026-09-08T07:29:07.570855+00:00",
+      "description": "ORDS 26.2.3.r2371104 on Tomcat 9 and Standalone Using old Friendly URLs runs into 2026-09-08T07:10:33.231Z WARNING     <DomhHsRjETJULXkmy_d1Ww> Failed to fetch Crypto Keys when required, removing dependent services. 2026-09-08T07:10:33.652Z SEVERE      <DomhHsRjETJULXkmy_d1Ww> GET rb-wam.bosch.com /apxoccafp/occafuss/r/occ-user-self-service/home 500 An unexpected error with the following message occurred: null InternalServerException [statusCode=500, logLevel=SEVERE, reasons=[An unexpected error",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/6b8e9460cc218bc2"
     }
   ]
 }

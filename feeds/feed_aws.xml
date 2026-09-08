@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://aws.amazon.com/blogs/</id>
   <title>AWS</title>
-  <updated>2026-09-08T05:07:18.243946+00:00</updated>
+  <updated>2026-09-08T11:40:48.344650+00:00</updated>
   <author>
     <name>Amazon Web Services</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://aws.amazon.com/favicon.ico</icon>
   <logo>https://aws.amazon.com/favicon.ico</logo>
   <subtitle>AWS announcements, selected blogs, re:Post articles, and AWS CLI v2 releases.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/811342b392f4a0da</id>
+    <title>Automating service quota increases for newly vended AWS accounts</title>
+    <updated>2026-09-08T09:02:19.853000+00:00</updated>
+    <content>How to pre-approve service quotas for newly vended AWS accounts, so teams stop filing the same increase cases. Covers Service Quotas organization request templates (native, no code) and the four limits that decide whether they are enough — then Terraform and boto3 snippets for the API route: the resource, the multi-Region trap that fails silently, global-quota handling, the GetServiceQuota pre-check, IAM, and where it goes in AFT.</content>
+    <link href="https://repost.aws/articles/ARnzCnUdsKTBi35w1A5r2Gcw/automating-service-quota-increases-for-newly-vended-aws-accounts" rel="alternate"/>
+    <category term="AWS re:Post Articles" label="AWS re:Post Articles"/>
+    <published>2026-09-08T09:02:19.853000+00:00</published>
+    <media:group>
+      <media:content url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
+    </media:group>
+    <dc:creator>AWS re:Post Articles</dc:creator>
+    <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/07d5eee3ae8f7b3f</id>
     <title>Master and internal user accounts reset on Amazon OpenSearch Service: why snapshots don't restore them, and what to prepare</title>
@@ -158,21 +173,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/cc91629bbab944f7</id>
-    <title>Amazon SageMaker AI Batch Transform now supports G6e instances</title>
-    <updated>2026-09-04T08:00:00+00:00</updated>
-    <content>Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint. Amazon EC2 G6e instances are powered by up to eight NVIDIA L40S Tensor Core GPUs with 48 GB of memory per GPU and third-generation AMD EPYC processors. G6e instances deliver improved performance for GPU-intensive workloads. With this launch, you can use G6</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-04T08:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/3b07a93265a40203</id>
     <title>AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation</title>
     <updated>2026-09-04T08:00:00+00:00</updated>
     <content>AWS Transfer Family SFTP Connectors now continue running file transfers while you rotate the credentials used to authenticate with remote SFTP servers. You no longer need to update the connector to point to a new secret version each time a credential rotates, removing a manual step and helping avoid failed transfers during the rotation window. Connectors can now retrieve credentials from an ordered list of AWS Secrets Manager version stages, such as the current and previous versions, during auth</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-04T08:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/cc91629bbab944f7</id>
+    <title>Amazon SageMaker AI Batch Transform now supports G6e instances</title>
+    <updated>2026-09-04T08:00:00+00:00</updated>
+    <content>Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint. Amazon EC2 G6e instances are powered by up to eight NVIDIA L40S Tensor Core GPUs with 48 GB of memory per GPU and third-generation AMD EPYC processors. G6e instances deliver improved performance for GPU-intensive workloads. With this launch, you can use G6</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-04T08:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -278,21 +293,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/ac04c624e4a6dd2e</id>
-    <title>AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery</title>
-    <updated>2026-09-03T17:00:00+00:00</updated>
-    <content>A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP endpoints to quickly detect failed connections and establish new TCP flows through healthy targets. Previously, when a GWLB target failed, existing TCP connections would continue to be forwarded to the unhealthy target (aka fail-open behavior).</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-03T17:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/a4f83077f2d74b8c</id>
     <title>Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances</title>
     <updated>2026-09-03T17:00:00+00:00</updated>
     <content>Amazon WorkSpaces Applications now supports Graphics G7 instances, powered by NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and Intel Xeon Scalable (6th Gen) processors. G7 instances deliver up to 2.1× better performance for graphics-intensive workloads compared to previous generation G6 instances. With Graphics G7, customers can stream demanding professional applications such as CAD/CAM, 3D rendering, scientific visualization, video editing, and AI-assisted design workflows at higher fideli</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-03T17:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/ac04c624e4a6dd2e</id>
+    <title>AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery</title>
+    <updated>2026-09-03T17:00:00+00:00</updated>
+    <content>A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP endpoints to quickly detect failed connections and establish new TCP flows through healthy targets. Previously, when a GWLB target failed, existing TCP connections would continue to be forwarded to the unhealthy target (aka fail-open behavior).</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-03T17:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -328,21 +343,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/b575561ca2b7396a</id>
-    <title>Amazon SageMaker Unified Studio Workflows support Python and Bash operators</title>
-    <updated>2026-09-03T15:00:00+00:00</updated>
-    <content>Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution. To get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-03T15:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/ac76782c8142b8ba</id>
     <title>Amazon MWAA adds built-in monitoring with Amazon CloudWatch</title>
     <updated>2026-09-03T15:00:00+00:00</updated>
     <content>Amazon Managed Workflows for Apache Airflow (MWAA) now includes a built-in monitoring experience on the environment detail page in the AWS Management Console . A new metrics dashboard displays key Amazon CloudWatch metrics for your environment in one place, and each graph includes an optional toggle to overlay suggested warning ranges, helping you quickly identify conditions that may affect your environment's health and performance. The environment detail page also now shows an alarms table that</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-03T15:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/b575561ca2b7396a</id>
+    <title>Amazon SageMaker Unified Studio Workflows support Python and Bash operators</title>
+    <updated>2026-09-03T15:00:00+00:00</updated>
+    <content>Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution. To get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-03T15:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -463,21 +478,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/8c7e8a245591793c</id>
-    <title>Amazon Connect Customer announces general availability of agentic CX designer</title>
-    <updated>2026-09-02T16:00:00+00:00</updated>
-    <content>Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to lau</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-02T16:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/da776e3ea9018903</id>
     <title>Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions</title>
     <updated>2026-09-02T16:00:00+00:00</updated>
     <content>Second-generation AWS Outposts racks are now supported in the AWS GovCloud (US-East) and AWS GovCloud (US-West) Regions. Outposts racks extend AWS infrastructure, AWS services, APIs, and tools to virtually any on-premises data center or colocation space for a truly consistent hybrid experience. Organizations from startups to enterprises and the public sector can now order their Outposts racks connected to the new supported regions, optimizing for their latency and data residency needs. Outposts </content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-02T16:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/8c7e8a245591793c</id>
+    <title>Amazon Connect Customer announces general availability of agentic CX designer</title>
+    <updated>2026-09-02T16:00:00+00:00</updated>
+    <content>Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to lau</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-02T16:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -618,21 +633,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/fc4fe7280ad4281f</id>
-    <title>Amazon CloudWatch Database Insights now supports self-managed PostgreSQL</title>
-    <updated>2026-09-01T19:00:00+00:00</updated>
-    <content>Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon Aurora, to give you a complete view of your database fleet in a single console. Amazon CloudWatch Database Insights is a database observability solution that provides a curated experience to help you monitor database fleet health, diagnose iss</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-01T19:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/8288e6708cd1d935</id>
     <title>Amazon Kinesis Data Streams now supports a dry run feature to validate API requests</title>
     <updated>2026-09-01T19:00:00+00:00</updated>
     <content>Amazon Kinesis Data Streams now supports a dry run feature to check whether an API request would succeed without executing the operation. Customers can now set the new optional parameter ‘DryRun’ to true in their API requests to validate permissions before interacting with a stream in production. Previously, customers had no safe way to test whether their application had the correct permissions to access a stream. They would often send a request engineered to fail after checking permissions, suc</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-01T19:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/fc4fe7280ad4281f</id>
+    <title>Amazon CloudWatch Database Insights now supports self-managed PostgreSQL</title>
+    <updated>2026-09-01T19:00:00+00:00</updated>
+    <content>Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon Aurora, to give you a complete view of your database fleet in a single console. Amazon CloudWatch Database Insights is a database observability solution that provides a curated experience to help you monitor database fleet health, diagnose iss</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-01T19:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -653,21 +668,21 @@
     <link rel="enclosure" href="https://opengraph.githubassets.com/579bcf0b466cb66869736479f50b04690d162ba4d7016486e39dae6cc27906f5/aws/aws-cli" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/c8e7e3c37923ca5b</id>
-    <title>AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account</title>
-    <updated>2026-09-01T18:00:00+00:00</updated>
-    <content>AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required per</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-01T18:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/faecc5cd8ae2c36c</id>
     <title>AWS Marketplace reduces listing fee for professional services in multi-product solutions</title>
     <updated>2026-09-01T18:00:00+00:00</updated>
     <content>AWS Marketplace now offers a 0% listing fee for professional services purchased as part of a qualifying multi-product solution. This builds on the recent reduction of professional services listing fee to 0.5%. It further lowers the cost for any Partner that transacts services through AWS Marketplace, while retaining the billing benefits that come with it. Over the past year, AWS Marketplace has built a set of capabilities purpose-built for discovering and purchasing services. Customers can find </content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-fee-professional-services/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-01T18:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/c8e7e3c37923ca5b</id>
+    <title>AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account</title>
+    <updated>2026-09-01T18:00:00+00:00</updated>
+    <content>AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required per</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-01T18:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -683,21 +698,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/f095f9df2af10029</id>
-    <title>Amazon MWAA supports Apache Airflow version 3.3.1</title>
-    <updated>2026-09-01T15:00:00+00:00</updated>
-    <content>Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud. Apache Airflow 3.3 introduces stateful tasks and multi-language support. With the new Task and Asset State Store, tasks can now persist durable state across retries and reruns, </content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-09-01T15:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/0ba18c7f0493f371</id>
     <title>AWS Marketplace now supports auto-renewals for private offers</title>
     <updated>2026-09-01T15:00:00+00:00</updated>
     <content>AWS Marketplace now supports auto-renewals for private offers. This capability helps sellers and buyers maintain active software and service subscriptions without re-negotiation or re-purchasing at the end of the term. Negotiated pricing and contract terms carry forward automatically when buyers and sellers agree to renew. This helps reduce procurement overhead and prevent unintended lapses in subscriptions. When creating a private offer, sellers define the renewal terms and choose how pricing c</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-09-01T15:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/f095f9df2af10029</id>
+    <title>Amazon MWAA supports Apache Airflow version 3.3.1</title>
+    <updated>2026-09-01T15:00:00+00:00</updated>
+    <content>Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud. Apache Airflow 3.3 introduces stateful tasks and multi-language support. With the new Task and Asset State Store, tasks can now persist durable state across retries and reruns, </content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-09-01T15:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -1003,11 +1018,11 @@
     <link rel="enclosure" href="https://d2908q01vomqb2.cloudfront.net/827bfc458708f0b442009c9c9836f7e4b65557fb/2020/06/03/Blog-Post_thumbnail.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/c6c28b29bbed7047</id>
-    <title>AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview</title>
+    <id>tag:trvny.github.io,2024:feedseek/aws/99ea9b412b221130</id>
+    <title>Amazon WorkSpaces Applications is now available in three new AWS Regions</title>
     <updated>2026-08-31T15:00:00+00:00</updated>
-    <content>AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multiple cloud service providers (C</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/" rel="alternate"/>
+    <content>Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich), Asia Pacific (Osaka), and Canada West (Calgary) Regions and stream them using WorkSpaces Applications. Deploying your applications on WorkSpaces Applications in a region closer to your end users helps provide a more responsive experience. Additionally, customers in Europe, Asia Pacific, and Canada now</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-08-31T15:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -1023,11 +1038,11 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/99ea9b412b221130</id>
-    <title>Amazon WorkSpaces Applications is now available in three new AWS Regions</title>
+    <id>tag:trvny.github.io,2024:feedseek/aws/c6c28b29bbed7047</id>
+    <title>AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview</title>
     <updated>2026-08-31T15:00:00+00:00</updated>
-    <content>Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich), Asia Pacific (Osaka), and Canada West (Calgary) Regions and stream them using WorkSpaces Applications. Deploying your applications on WorkSpaces Applications in a region closer to your end users helps provide a more responsive experience. Additionally, customers in Europe, Asia Pacific, and Canada now</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion" rel="alternate"/>
+    <content>AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multiple cloud service providers (C</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-08-31T15:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -1168,21 +1183,21 @@
     <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/7c02579279c302db</id>
-    <title>Amazon Bedrock AgentCore Memory now supports fine-grained access control</title>
-    <updated>2026-08-28T20:00:00+00:00</updated>
-    <content>Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restric</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-08-28T20:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/949d3bd410987973</id>
     <title>Amazon Bedrock AgentCore Memory now supports flexible namespace variables</title>
     <updated>2026-08-28T20:00:00+00:00</updated>
     <content>Amazon Bedrock AgentCore Memory now lets developers define flexible namespace variables to scope long-term memories along any application-specific dimension - such as organization, tenant, team, or environment - without creating duplicate strategies or overloading built-in variables. This gives multi-tenant and complex-hierarchy applications fine-grained control over how memories are organized, isolated, and accessed. Define keys on the memory resource, reference them in a strategy's namespace t</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-08-28T20:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/7c02579279c302db</id>
+    <title>Amazon Bedrock AgentCore Memory now supports fine-grained access control</title>
+    <updated>2026-08-28T20:00:00+00:00</updated>
+    <content>Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restric</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-08-28T20:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -1248,21 +1263,21 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/a087d31e4f54cfd0</id>
-    <title>Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available</title>
-    <updated>2026-08-28T16:00:00+00:00</updated>
-    <content>Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.45 release notes. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Upgrade Roll</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/" rel="alternate"/>
-    <category term="AWS What's New" label="AWS What's New"/>
-    <published>2026-08-28T16:00:00+00:00</published>
-    <dc:creator>AWS What's New</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/ef9b971d9d2ace8e</id>
     <title>Amazon CloudWatch agent adds support for journald logs</title>
     <updated>2026-08-28T16:00:00+00:00</updated>
     <content>AWS announces support for collecting systemd journal (journald) logs with the Amazon CloudWatch agent. You can now configure the CloudWatch agent to read log entries directly from the systemd journal on Linux instances and send them to Amazon CloudWatch Logs, without first writing those logs to files on disk. Many modern Linux distributions, including Amazon Linux 2023, use systemd journal as the primary logging system and no longer write traditional text log files such as /var/log/messages by d</content>
     <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/" rel="alternate"/>
+    <category term="AWS What's New" label="AWS What's New"/>
+    <published>2026-08-28T16:00:00+00:00</published>
+    <dc:creator>AWS What's New</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/a087d31e4f54cfd0</id>
+    <title>Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available</title>
+    <updated>2026-08-28T16:00:00+00:00</updated>
+    <content>Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.45 release notes. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Upgrade Roll</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-08-28T16:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -1358,11 +1373,11 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/fc841c5d91703b7a</id>
-    <title>AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery</title>
+    <id>tag:trvny.github.io,2024:feedseek/aws/67aa9c0c6ce5274e</id>
+    <title>Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region</title>
     <updated>2026-08-27T18:00:00+00:00</updated>
-    <content>AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a sp</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/" rel="alternate"/>
+    <content>Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency. With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of c</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-08-27T18:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -1378,11 +1393,11 @@
     <dc:creator>AWS What's New</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/67aa9c0c6ce5274e</id>
-    <title>Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region</title>
+    <id>tag:trvny.github.io,2024:feedseek/aws/fc841c5d91703b7a</id>
+    <title>AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery</title>
     <updated>2026-08-27T18:00:00+00:00</updated>
-    <content>Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency. With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of c</content>
-    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/" rel="alternate"/>
+    <content>AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a sp</content>
+    <link href="https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/" rel="alternate"/>
     <category term="AWS What's New" label="AWS What's New"/>
     <published>2026-08-27T18:00:00+00:00</published>
     <dc:creator>AWS What's New</dc:creator>
@@ -2686,21 +2701,6 @@ This article explains how to monitor pod failure status on Fargate-only clusters
     </media:group>
     <dc:creator>AWS Developer Tools Blog</dc:creator>
     <link rel="enclosure" href="https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2026/08/04/dotnet-agentcore-architecture.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/0d2a1d339a6bf7ce</id>
-    <title>Troubleshooting OpenAI model access on Amazon Bedrock: model not visible, or HTTP 401 "not available for this account"</title>
-    <updated>2026-08-05T16:51:36.028000+00:00</updated>
-    <content>You cannot see, select, or invoke an OpenAI GPT-5.x model such as openai.gpt-5.5 in Amazon Bedrock, or an inference call returns an HTTP 401 error stating that the model is not available for your account.</content>
-    <link href="https://repost.aws/articles/ARHA2ExePfRemVJWpEIGJbFw/troubleshooting-openai-model-access-on-amazon-bedrock-model-not-visible-or-http-401-not-available-for-this-account" rel="alternate"/>
-    <category term="AWS re:Post Articles" label="AWS re:Post Articles"/>
-    <published>2026-08-05T16:51:36.028000+00:00</published>
-    <media:group>
-      <media:content url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
-    </media:group>
-    <dc:creator>AWS re:Post Articles</dc:creator>
-    <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/d2c58e81d3fe5aa9</id>

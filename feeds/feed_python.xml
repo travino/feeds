@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-08T05:08:43.032068+00:00</updated>
+  <updated>2026-09-08T11:42:27.077181+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -12,6 +12,56 @@
   <icon>https://www.python.org/favicon.ico</icon>
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/aa1504dc60cf7c22</id>
+    <title>ansys-acp-core 0.4.0</title>
+    <updated>2026-09-08T11:42:17+00:00</updated>
+    <content>Python library for ACP - Ansys Composite PrepPost</content>
+    <link href="https://pypi.org/project/ansys-acp-core/0.4.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T11:42:17+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/123518511db6c30d</id>
+    <title>connectonion 1.8.4</title>
+    <updated>2026-09-08T11:42:14+00:00</updated>
+    <content>A simple Python framework for creating AI agents with behavior tracking</content>
+    <link href="https://pypi.org/project/connectonion/1.8.4/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T11:42:14+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/4ef61fc208c91207</id>
+    <title>tabarena 0.1.1.dev20260908114200</title>
+    <updated>2026-09-08T11:42:06+00:00</updated>
+    <content>A Living Benchmark for Machine Learning on Tabular Data</content>
+    <link href="https://pypi.org/project/tabarena/0.1.1.dev20260908114200/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T11:42:06+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/7775abf27a89d41d</id>
+    <title>bencheval 0.1.1.dev20260908114200</title>
+    <updated>2026-09-08T11:42:05+00:00</updated>
+    <content>Benchmark evaluation for tabular ML: Elo, win-rate, rank and improvability leaderboards (the engine behind TabArena)</content>
+    <link href="https://pypi.org/project/bencheval/0.1.1.dev20260908114200/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T11:42:05+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/34f8d90de819764a</id>
+    <title>pynesys-pynecore 6.9.2</title>
+    <updated>2026-09-08T11:42:01+00:00</updated>
+    <content>Python based Pine Script like runtime and API</content>
+    <link href="https://pypi.org/project/pynesys-pynecore/6.9.2/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-08T11:42:01+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/f1bfeeb3305b73ff</id>
     <title>Linguistic drift at the frontier | Pydantic</title>
@@ -621,56 +671,6 @@ write some code is worse than playing a vid</content>
     </media:group>
     <dc:creator>cibuildwheel</dc:creator>
     <link rel="enclosure" href="https://avatars.githubusercontent.com/u/1244307?s=60&amp;v=4" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7b9430dbd9020b28</id>
-    <title>regula-documentreader-webclient 9.8.1028rc0</title>
-    <updated>2026-09-05T00:27:09+00:00</updated>
-    <content>Regula's Document Reader python client</content>
-    <link href="https://pypi.org/project/regula-documentreader-webclient/9.8.1028rc0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-05T00:27:09+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7a5dada48b1db7ce</id>
-    <title>axilog 1.13.1</title>
-    <updated>2026-09-05T00:27:00+00:00</updated>
-    <content>Python bindings (PyO3) for axilog's Rust GW2 arcdps WvW parsing core</content>
-    <link href="https://pypi.org/project/axilog/1.13.1/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-05T00:27:00+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/bf3a0036d524690c</id>
-    <title>zanii-id 0.1.3</title>
-    <updated>2026-09-05T00:26:46+00:00</updated>
-    <content>Zanii ID SDK for Python — OIDC authentication for products in the Zanii ecosystem</content>
-    <link href="https://pypi.org/project/zanii-id/0.1.3/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-05T00:26:46+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2a25e572c203afbe</id>
-    <title>cocoindex-code-plus 0.1.42</title>
-    <updated>2026-09-05T00:26:33+00:00</updated>
-    <content>Client CLI for CocoIndex Code Plus: query indexed codebases from your workstation.</content>
-    <link href="https://pypi.org/project/cocoindex-code-plus/0.1.42/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-05T00:26:33+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/db5c3abaf5c9d3bf</id>
-    <title>pytorch-ignite 0.6.0.dev20260905</title>
-    <updated>2026-09-05T00:26:08+00:00</updated>
-    <content>A lightweight library to help with training neural networks in PyTorch.</content>
-    <link href="https://pypi.org/project/pytorch-ignite/0.6.0.dev20260905/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-05T00:26:08+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4</id>

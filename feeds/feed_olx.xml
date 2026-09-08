@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>https://www.olx.pl/olx</id>
   <title>OLX Group</title>
-  <updated>2026-09-08T05:08:39.570233+00:00</updated>
+  <updated>2026-09-08T11:42:13.757488+00:00</updated>
   <author>
     <name>OLX Group</name>
   </author>
@@ -12,6 +12,23 @@
   <icon>https://www.olx.pl/favicon.ico</icon>
   <logo>https://www.olx.pl/favicon.ico</logo>
   <subtitle>Combined blog, news and press feeds from OLX, OTOMOTO and Otodom</subtitle>
+  <entry>
+    <id>https://media.otodom.pl/rekord-pierwszego-polrocza-w-upadlosciach-konsumenckich-czy-polski-rynek-mieszkaniowy-odczuje-skutki</id>
+    <title>Rekord pierwszego półrocza w upadłościach konsumenckich. Czy polski rynek mieszkaniowy odczuje skutki?</title>
+    <updated>2026-09-08T10:12:00+00:00</updated>
+    <author>
+      <name>Otodom – pressroom</name>
+    </author>
+    <content>Rekord pierwszego półrocza w upadłościach konsumenckich. Czy polski rynek mieszkaniowy odczuje skutki?</content>
+    <link href="https://media.otodom.pl/rekord-pierwszego-polrocza-w-upadlosciach-konsumenckich-czy-polski-rynek-mieszkaniowy-odczuje-skutki" rel="alternate"/>
+    <category term="otodom"/>
+    <published>2026-09-08T10:12:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.uc.assets.prezly.com/a8907e8b-0e34-4c49-b2f1-64bc69799c81/-/preview/600x600/" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.uc.assets.prezly.com/a8907e8b-0e34-4c49-b2f1-64bc69799c81/-/preview/600x600/"/>
+    </media:group>
+    <link rel="enclosure" href="https://cdn.uc.assets.prezly.com/a8907e8b-0e34-4c49-b2f1-64bc69799c81/-/preview/600x600/" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://media.otodom.pl/sprzedaz-nowych-mieszkan-wyzsza-o-25-rr-przesadzily-rezerwacje</id>
     <title>Sprzedaż nowych mieszkań wyższa o 25% r/r – przesądziły rezerwacje</title>
@@ -1714,22 +1731,5 @@ Chłodna kalkulacja i rosnąca rola chińskich marek</content>
       <media:thumbnail url="https://admin.otomotonews.pl/wp-content/uploads/2026/07/Stacja-nawodna-6.jpg" height="1105" width="1472"/>
     </media:group>
     <link rel="enclosure" href="https://admin.otomotonews.pl/wp-content/uploads/2026/07/Stacja-nawodna-6.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://www.otomoto.pl/news/opel-combo-benzynowy-cena</id>
-    <title>Rodzinny Opel wyceniony. Za 123 800 zł nie da się mieć więcej przestrzeni</title>
-    <updated>2026-07-18T05:45:00+00:00</updated>
-    <author>
-      <name>OTOMOTO News</name>
-    </author>
-    <content>Osobowy Opel Combo wraca do napędu benzynowego. Nowa wersja 1.2 Turbo ma 110 KM, manualną skrzynię i kosztuje od 123 800 zł.</content>
-    <link href="https://www.otomoto.pl/news/opel-combo-benzynowy-cena" rel="alternate"/>
-    <category term="otomoto"/>
-    <published>2026-07-18T05:45:00+00:00</published>
-    <media:group>
-      <media:content url="https://admin.otomotonews.pl/wp-content/uploads/2026/07/opel-combo-benzyna-cena-1-3.jpeg" type="image/jpeg" medium="image" height="853" width="1280"/>
-      <media:thumbnail url="https://admin.otomotonews.pl/wp-content/uploads/2026/07/opel-combo-benzyna-cena-1-3.jpeg" height="853" width="1280"/>
-    </media:group>
-    <link rel="enclosure" href="https://admin.otomotonews.pl/wp-content/uploads/2026/07/opel-combo-benzyna-cena-1-3.jpeg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

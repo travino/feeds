@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-08T05:07:30.351837+00:00</updated>
+  <updated>2026-09-08T11:41:01.613770+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -15,13 +15,13 @@
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/652c79981097cf58</id>
     <title>Cache Reserve Issue in Paris</title>
-    <updated>2026-09-08T04:42:58+00:00</updated>
-    <content>Sep 8 , 04:42 UTC Identified - The issue has been identified and a fix is being implemented. Sep 8 , 03:25 UTC Investigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.
+    <updated>2026-09-08T05:22:41+00:00</updated>
+    <content>Sep 8 , 05:22 UTC Resolved - This incident has been resolved. Sep 8 , 04:42 UTC Identified - The issue has been identified and a fix is being implemented. Sep 8 , 03:25 UTC Investigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.
 
 We are working to analyse and mitigate this problem.  More updates to follow shortly.</content>
     <link href="https://www.cloudflarestatus.com/incidents/qz292kvy220g" rel="alternate"/>
     <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-09-08T04:42:58+00:00</published>
+    <published>2026-09-08T05:22:41+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>
@@ -38,6 +38,22 @@ A workaround can be used:
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-09-08T01:42:38+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/13a0bbce4527a32d</id>
+    <title>Workers - Miniflare v5 prepares local development for the cf CLI</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Miniflare v5 prepares Cloudflare local development tooling for the upcoming cf CLI. Miniflare powers local Workers development behind wrangler dev , the Cloudflare Vite plugin, and @cloudflare/vitest-plugin .
+Most projects should use those tools instead of depending on Miniflare directly, and Miniflare v5 will not require any action. The most significant change is a new configuration shape which aligns Miniflare with cloudflare.config.ts , the programmatic Cloudflare configuration format now ava</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-08-miniflare-v5/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07</id>
@@ -1293,21 +1309,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-08-20T14:00:10+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/d0605367720be971</id>
-    <title>WAF - Leaked credentials detection now scans Authorization headers</title>
-    <updated>2026-08-20T00:00:00+00:00</updated>
-    <content>Leaked credentials detection now scans the Authorization request header for Basic Authentication credentials. Previously, the detection only inspected request bodies, query strings, and headers for well-known web applications or custom detection locations, which meant credentials sent through HTTP Basic Authentication were not covered by default. This new default scan location decodes the Authorization: Basic &lt;credentials&gt; header and compares the extracted username and password against Cloudflar</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-20-leaked-credentials-authorization-header/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-20T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/ffa6aad8e2f4b09a</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-08T05:09:20.506164+00:00</updated>
+  <updated>2026-09-08T11:42:58.214173+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,46 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/ba15cb080ec419e4</id>
+    <title>ChatGPT 网页端隐藏选中文本菜单 — CHuilin_</title>
+    <updated>2026-09-08T10:35:09+00:00</updated>
+    <content>隐藏 ChatGPT 选中文字后出现的操作菜单</content>
+    <link href="https://scriptcat.org/script-show-page/7900" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T10:35:09+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/ddcab3832c4b7600</id>
+    <title>湖南大学继续教育自动播放助手 — 圆圆圆</title>
+    <updated>2026-09-08T09:20:43+00:00</updated>
+    <content>自动播放课程视频，支持倍速、后台计时、自动切换下一节</content>
+    <link href="https://scriptcat.org/script-show-page/7899" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T09:20:43+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/e20750600f143911</id>
+    <title>刷题计时器（公考平台通用） — Dpower</title>
+    <updated>2026-09-08T09:16:24+00:00</updated>
+    <content>在粉笔/华图/中公等主流公考平台显示；开始后停留本页计时，离开/遮挡即暂停，可收缩为圆点</content>
+    <link href="https://scriptcat.org/script-show-page/7898" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T09:16:24+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/4f3bbd68253a09ff</id>
+    <title>吾爱破解自动打卡签到 — zcy1340</title>
+    <updated>2026-09-08T08:42:20+00:00</updated>
+    <content>进入吾爱破解自动点击"打卡签到"按钮（点击后直接跳转签到）</content>
+    <link href="https://scriptcat.org/script-show-page/7896" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T08:42:20+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/5352093b7706931e</id>
     <title>BUAA校园网保活 — lzszz</title>
@@ -1460,46 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7686" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-26T18:03:26+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/5e5c4feac136e53b</id>
-    <title>汉江师范学院官网助手 — admin789</title>
-    <updated>2026-08-26T17:52:09+00:00</updated>
-    <content>汉江师范学院官网增强：通知公告新公告监控（桌面提醒）、通知/要闻聚合速览、全校快捷导航、夜间模式、文章阅读增强、链接新标签打开。</content>
-    <link href="https://scriptcat.org/script-show-page/7685" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T17:52:09+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/251d2d0970253ab1</id>
-    <title>YouTube 优化大师 — haoyisiwu</title>
-    <updated>2026-08-26T16:29:43+00:00</updated>
-    <content>YouTube 视频体验增强：v0.7.8 跳过按钮+seekTo+10s冷却，无hooks无循环。含画质/布局/年龄/倒赞等功能。</content>
-    <link href="https://scriptcat.org/script-show-page/7684" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T16:29:43+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/471efb7174d1c7e6</id>
-    <title>BOSS海投助手 — Yangshengzhou</title>
-    <updated>2026-08-26T16:01:28+00:00</updated>
-    <content>BOSS海投助手 - BOSS直聘官方认证求职工具，微软/谷歌/360/联想联合审核上架，安全合规不封号！一键批量投递沟通，自动发简历、智能关键词筛选、HR活跃排序、防重复投递，求职效率提升10倍，找工作必备神器！</content>
-    <link href="https://scriptcat.org/script-show-page/7683" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T16:01:28+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/226fdf5df0a26790</id>
-    <title>移除外联脚本 — 空梦</title>
-    <updated>2026-08-26T15:23:06+00:00</updated>
-    <content>拦截并移除第三方/黑名单外联脚本，提供独立白名单与黑名单管理。</content>
-    <link href="https://scriptcat.org/script-show-page/7680" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T15:23:06+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-08T05:08:40.792196+00:00</updated>
+  <updated>2026-09-08T11:42:14.595062+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,66 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/6b8e9460cc218bc2</id>
+    <title>Old APEX Friendly URLs runs into SEVERE 500</title>
+    <updated>2026-09-08T07:29:07.570855+00:00</updated>
+    <content>ORDS 26.2.3.r2371104 on Tomcat 9 and Standalone Using old Friendly URLs runs into 2026-09-08T07:10:33.231Z WARNING     &lt;DomhHsRjETJULXkmy_d1Ww&gt; Failed to fetch Crypto Keys when required, removing dependent services. 2026-09-08T07:10:33.652Z SEVERE      &lt;DomhHsRjETJULXkmy_d1Ww&gt; GET rb-wam.bosch.com /apxoccafp/occafuss/r/occ-user-self-service/home 500 An unexpected error with the following message occurred: null InternalServerException [statusCode=500, logLevel=SEVERE, reasons=[An unexpected error</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/old-apex-friendly-urls-runs-into-severe-500-9012" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T07:29:07.570855+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/7e565dc1a9c3b47b</id>
+    <title>Does SQLcl Project Support Incremental APEX Component Deployment?</title>
+    <updated>2026-09-08T06:55:10.553785+00:00</updated>
+    <content>The Oracle APEX Lifecycle Management paper presents SQLcl Projects as an approach for managing APEX applications and database objects in Git. It also discusses split exports , where individual APEX application components are exported into separate files to make source control and code review easier. My main question is about the deployment behavior of SQLcl Projects for APEX applications . For example, suppose a developer changes specific components of an APEX application, such as Page 10, a Lis</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/does-sqlcl-project-support-incremental-apex-component-deplo-0869" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T06:55:10.553785+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/78607ca78a16e700</id>
+    <title>An error occurred while running the statement due to: Cannot read properties of undefined (reading &amp;#x27;items&amp;#x27;).</title>
+    <updated>2026-09-08T06:54:53.211945+00:00</updated>
+    <content>Hi, Steps to reproduce: create table people ( person_id number primary key, name varchar2(15) );insert into people (person_id, name) values (1, 'Wonder Woman'), (2, 'Peter Parker'), (3, 'Jean Grey'), (4, 'Clark Kent'), (5, 'Bruce Banner'); commit;create table connections ( connection_id number primary key, person_id_1 number, person_id_2 number, constraint connections_people_1_fk foreign key (person_id_1) references people (person_id), constraint connections_people_2_fk foreign key (person_id_2)</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/an-error-occurred-while-running-the-statement-due-to-cannot-6578" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T06:54:53.211945+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/08260891f31cbe52</id>
+    <title>ORA-13249: Size too big: sz=</title>
+    <updated>2026-09-08T06:31:53.408694+00:00</updated>
+    <content>Hello, Starting with Oracle Database 19.28 and later versions, we are encountering the following error when creating an MDSYS.SPATIAL_INDEX_V2 index on tables containing more than 50 million rows. The index creation statement is: CREATE INDEX ERSEL.SIDX_TEST_GEOM ON ERSEL.T_SPATIAL_INDEX_TEST (GEOM) INDEXTYPE IS MDSYS.SPATIAL_INDEX_V2 PARAMETERS('tablespace=ERSEL_TDE_DENEME ') parallel 4; The error is: CREATE INDEX ERSEL.SIDX_TEST_GEOM ON ERSEL.T_SPATIAL_INDEX_TEST * ERROR at line 1: ORA-29855: </content>
+    <link href="https://forums.oracle.com/ords/apexds/post/ora-13249-size-too-big-sz-8392" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T06:31:53.408694+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/510a4a703df4f625</id>
     <title>How do you test your APEX apps? A general discussion on strategies, tools and frameworks.</title>
@@ -163,51 +223,6 @@
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/dea53f24f1ffca20</id>
-    <title>Oracle APEX Free Workspace Account Locked – Unable to Reset Password</title>
-    <updated>2026-09-07T01:39:52.501027+00:00</updated>
-    <content>Hi Oracle APEX Team, I am using the free Oracle APEX hosted service at oracleapex.com. My APEX workspace user account has been locked after multiple unsuccessful login attempts. I am unable to access the workspace. I tried the available Reset Password option, but I am still unable to regain access to the account. I also do not have another workspace administrator account through which I can unlock my user account. Could you please help me unlock my workspace account or advise me on the appropria</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/oracle-apex-free-workspace-account-locked-unable-to-reset-p-5096" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T01:39:52.501027+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/cfdf14c3e99863d8</id>
-    <title>ORA-07445 [kkqojeanl] &amp;#x2F; [kqlpgCallback] SIGSEGV After Patching to 19.32 RU (Regression with Large IN-List Bind Variables)</title>
-    <updated>2026-09-06T07:30:00.105181+00:00</updated>
-    <content>Hello Oracle Community, We have encountered a critical, repetitive crash sequence leading to internal ORA-07445 errors immediately after upgrading our Multitenant environment from 19.21 RU to 19.32 RU . Crucially, OPTIMIZER_FEATURES_ENABLE was (and still is) explicitly set to '19.1.0' globally, which leads us to suspect a severe binary code regression in the 19.32 query optimizer engine during the parsing/transformation phase. 📋 Environment Details Target Version: Oracle 19.32 RU (19c) Previous </content>
-    <link href="https://forums.oracle.com/ords/apexds/post/ora-07445-kkqojeanl-kqlpgcallback-sigsegv-after-patching-to-9622" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-06T07:30:00.105181+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/390c45107b91ca8e</id>
-    <title>FreeSQL Connection frequently disconnects from VS code extension</title>
-    <updated>2026-09-05T09:25:27.505482+00:00</updated>
-    <content>I am using a VS Code extension to connect to my Oracle LiveSQL account. However, the connection frequently drops after just a short idle time. This is quite frustrating because I have to constantly reconnect while I am reading tutorials and practicing. Interestingly, this issue does not happen when I use the LiveSQL webpage directly How to fix this issue experts?</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/freesql-connection-frequently-disconnects-from-vs-code-exte-5587" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-05T09:25:27.505482+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/01109a56bf857890</id>
     <title>Move the AI to the Data: What’s New in Select AI for Autonomous AI Database on Dedicated Infrastructure</title>
     <updated>2026-09-05T05:31:27+00:00</updated>
@@ -236,21 +251,6 @@
     </media:group>
     <dc:creator>Oracle Cloud Infrastructure</dc:creator>
     <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/image-19.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/884c633b1bc2c8da</id>
-    <title>&amp;quot;set sqlprefix is obsolete&amp;quot; error messages while applying 26.1.4</title>
-    <updated>2026-09-04T18:26:53.018918+00:00</updated>
-    <content>Hello, I found these two messages in the catpatch.log after applying 26.1.4 patch set using SQLcl: line 14: "set sqlprefix off" is Obsolete. … line 94,650: "set sqlprefix #" is Obsolete. Can they be ignored? Regards, Nick</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/set-sqlprefix-is-obsolete-error-messages-while-applying-26-1225" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-04T18:26:53.018918+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/1d7b485746a7ea1b</id>

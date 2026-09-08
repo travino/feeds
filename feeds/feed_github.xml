@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.blog/</id>
   <title>GitHub</title>
-  <updated>2026-09-08T05:07:48.014978+00:00</updated>
+  <updated>2026-09-08T11:41:21.278543+00:00</updated>
   <author>
     <name>GitHub</name>
   </author>
@@ -12,6 +12,141 @@
   <icon>https://github.blog/favicon.ico</icon>
   <logo>https://github.blog/favicon.ico</logo>
   <subtitle>Combined GitHub feed: GitHub blogs and changelogs, GitHub Status, Mergify, BeeWare News, Komi Store, the Git tooling ecosystem, Track Awesome List and deduplicated GitHub trending streams.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/a8454ebb58ea32c1</id>
+    <title>advaitpaliwal/feynman</title>
+    <updated>2026-09-08T11:41:20.354912+00:00</updated>
+    <content>The open source AI research agent. https://feynman.is The open source AI research agent. Installation macOS / Linux: curl -fsSL https://feynman.is/install | bash Windows (PowerShell): irm https://feynman.is/install.ps1 | iex The one-line installer fetches the latest tagged release. To pin a version, pass it explicitly, for example curl -fsSL https://feynman.is/install | bash -s -- 0.2.35 . The installer downloads a standalone native bundle with its own pinned Node.js runtime and verifies the rel</content>
+    <link href="https://github.com/advaitpaliwal/feynman" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:20.354912+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/7483ce79a96305b395cf3ff88e57f0fd8df8965be251895ea3b6e00161e52d00/advaitpaliwal/feynman" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/7483ce79a96305b395cf3ff88e57f0fd8df8965be251895ea3b6e00161e52d00/advaitpaliwal/feynman"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/7483ce79a96305b395cf3ff88e57f0fd8df8965be251895ea3b6e00161e52d00/advaitpaliwal/feynman" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/7ea1971285713c90</id>
+    <title>zubair-trabzada/geo-seo-claude</title>
+    <updated>2026-09-08T11:41:20.349617+00:00</updated>
+    <content>GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community https://www.skool.com/aiworkshop GEO-first, SEO-supported. Optimize websites for AI-powered search engines (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) while maintaining traditional SEO f</content>
+    <link href="https://github.com/zubair-trabzada/geo-seo-claude" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:20.349617+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/3c8d201bcb3045238a2435200c646594e42bbcc91e4da88905695cda86333821/zubair-trabzada/geo-seo-claude" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/3c8d201bcb3045238a2435200c646594e42bbcc91e4da88905695cda86333821/zubair-trabzada/geo-seo-claude"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/3c8d201bcb3045238a2435200c646594e42bbcc91e4da88905695cda86333821/zubair-trabzada/geo-seo-claude" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/7e7a6ce6c81ff0b4</id>
+    <title>lightpanda-io/browser</title>
+    <updated>2026-09-08T11:41:20.028339+00:00</updated>
+    <content>Lightpanda: the headless browser designed for AI and automation https://lightpanda.io Lightpanda Browser The headless browser built from scratch for AI agents and automation. Not a Chromium fork. Not a WebKit patch. A new browser, written in Zig. Benchmarks Requesting 933 real web pages over the network on a AWS EC2 m5.large instance. See benchmark details . Metric Lightpanda Headless Chrome Difference Memory (peak, 100 pages) 123MB 2GB ~16 less Execution time (100 pages) 5s 46s ~9x faster Quick</content>
+    <link href="https://github.com/lightpanda-io/browser" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:20.028339+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/66dd92e95abf7bf30aafd3b4462e0a8626324e865c822f8c218c155e283eb21e/lightpanda-io/browser" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/66dd92e95abf7bf30aafd3b4462e0a8626324e865c822f8c218c155e283eb21e/lightpanda-io/browser"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/66dd92e95abf7bf30aafd3b4462e0a8626324e865c822f8c218c155e283eb21e/lightpanda-io/browser" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/f87fcf2e466ce361</id>
+    <title>The-Swarm-Corporation/AutoHedge</title>
+    <updated>2026-09-08T11:41:19.981487+00:00</updated>
+    <content>Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution. https://swarms.xyz/ AutoHedge AutoHedge is an enterprise-grade autonomous agent hedge fund that trades on your behalf. It combines swarm intelligence and specialized AI agents to perform end-to-end market analysis, risk management, and execution with minimal human intervention. Current support: Full autonomous trading on</content>
+    <link href="https://github.com/The-Swarm-Corporation/AutoHedge" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:19.981487+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/0e7edfd27d4544d79ca0967278363004bca1b91ea41667b494df6b65b94a97d8/The-Swarm-Corporation/AutoHedge" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/0e7edfd27d4544d79ca0967278363004bca1b91ea41667b494df6b65b94a97d8/The-Swarm-Corporation/AutoHedge"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/0e7edfd27d4544d79ca0967278363004bca1b91ea41667b494df6b65b94a97d8/The-Swarm-Corporation/AutoHedge" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/2ab57a9c4c475a70</id>
+    <title>MoonTechLab/LunaTV</title>
+    <updated>2026-09-08T11:41:19.905987+00:00</updated>
+    <content>本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源 MoonTV 🎬 MoonTV 是一个开箱即用的、跨平台的影视聚合播放器。它基于 Next.js 14 + Tailwind CSS + TypeScript 构建，支持多资源搜索、在线播放、收藏同步、播放记录、云端存储，让你可以随时随地畅享海量免费影视内容。 ✨ 功能特性 🔍 多源聚合搜索 ：一次搜索立刻返回全源结果。 📄 丰富详情页 ：支持剧集列表、演员、年份、简介等完整信息展示。 ▶️ 流畅在线播放 ：集成 HLS.js &amp; ArtPlayer。 ❤️ 收藏 + 继续观看 ：支持 Kvrocks/Redis/Upstash 存储，多端同步进度。 📱 PWA ：离线缓存、安装到桌面/主屏，移动端原生体验。 🌗 响应式布局 ：桌面侧边栏 + 移动底部导航，自适应各种屏幕尺寸。 👿 智能去广告 ：自动跳过视频中的切片广告（实验性）。 注意：部署后项目为空壳项目，无内置播放源和直播源，需要自行收集 点击查看项目截图 请不要在 B站、小红书、微信公众号、抖音、今日头条或其他中国大陆</content>
+    <link href="https://github.com/MoonTechLab/LunaTV" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:19.905987+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/f6c043d4499e510e096f141b05ce4e6bf63ced8e523d769d8f43cb4a97c9ede2/MoonTechLab/LunaTV" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/f6c043d4499e510e096f141b05ce4e6bf63ced8e523d769d8f43cb4a97c9ede2/MoonTechLab/LunaTV"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/f6c043d4499e510e096f141b05ce4e6bf63ced8e523d769d8f43cb4a97c9ede2/MoonTechLab/LunaTV" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/17b935c33dc7c82a</id>
+    <title>jo-inc/camofox-browser</title>
+    <updated>2026-09-08T11:41:19.885419+00:00</updated>
+    <content>Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement. https://github.com/jo-inc/camofox-browser#readme camofox-browser Anti-detection browser server for AI agents, powered by Camoufox Standing on the mighty shoulders of Camoufox - a Firefox fork with fingerprint spoofing at the C++ level. Built by the team behind jo, a personal AI agent that runs half on your Mac, half on a dedicated cloud machine just for you -- w</content>
+    <link href="https://github.com/jo-inc/camofox-browser" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:19.885419+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/7307b8e93ac488cc8eb9b1fbdbbbed46635c0447f94cb8816a6e85e55b457887/jo-inc/camofox-browser" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/7307b8e93ac488cc8eb9b1fbdbbbed46635c0447f94cb8816a6e85e55b457887/jo-inc/camofox-browser"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/7307b8e93ac488cc8eb9b1fbdbbbed46635c0447f94cb8816a6e85e55b457887/jo-inc/camofox-browser" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/c4764ac37ccdddc8</id>
+    <title>mksglu/context-mode</title>
+    <updated>2026-09-08T11:41:19.832496+00:00</updated>
+    <content>Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks. https://context-mode.com Context Mode The other half of the context problem. Used across teams at The Problem Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent</content>
+    <link href="https://github.com/mksglu/context-mode" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:19.832496+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/53160a317e74d5ced35415a1c14be3e8bd1a27a576b18bd69b7ff923049b3bf9/mksglu/context-mode" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/53160a317e74d5ced35415a1c14be3e8bd1a27a576b18bd69b7ff923049b3bf9/mksglu/context-mode"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/53160a317e74d5ced35415a1c14be3e8bd1a27a576b18bd69b7ff923049b3bf9/mksglu/context-mode" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/8d319652f14e2c9b</id>
+    <title>microsoft/markitdown</title>
+    <updated>2026-09-08T11:41:19.821362+00:00</updated>
+    <content>Python tool for converting files and office documents to Markdown. MarkItDown Important MarkItDown performs I/O with the privileges of the current process. Like open() or requests.get(), it will access resources that the process itself can access. Sanitize your inputs in untrusted environments, and call the narrowest convert_* function needed for your use case (e.g., convert_stream() , or convert_local() ). See the Security Considerations section of the documentation for more information. MarkIt</content>
+    <link href="https://github.com/microsoft/markitdown" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:19.821362+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/5583bb7f4756d996c62454afb0a6dc703c7ea0d550767740445f440c97691575/microsoft/markitdown" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/5583bb7f4756d996c62454afb0a6dc703c7ea0d550767740445f440c97691575/microsoft/markitdown"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/5583bb7f4756d996c62454afb0a6dc703c7ea0d550767740445f440c97691575/microsoft/markitdown" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/8898dc1fb352feb7</id>
+    <title>heygen-com/hyperframes</title>
+    <updated>2026-09-08T11:41:19.810379+00:00</updated>
+    <content>Write HTML. Render video. Built for agents. Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent Install the HyperFrames skills, then describe the video you want:</content>
+    <link href="https://github.com/heygen-com/hyperframes" rel="alternate"/>
+    <category term="GitHub Trending" label="GitHub Trending"/>
+    <published>2026-09-08T11:41:19.810379+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/66dd92e95abf7bf30aafd3b4462e0a8626324e865c822f8c218c155e283eb21e/heygen-com/hyperframes" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/66dd92e95abf7bf30aafd3b4462e0a8626324e865c822f8c218c155e283eb21e/heygen-com/hyperframes"/>
+    </media:group>
+    <dc:creator>GitHub Trending</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/66dd92e95abf7bf30aafd3b4462e0a8626324e865c822f8c218c155e283eb21e/heygen-com/hyperframes" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/f832050dc996d96e</id>
     <title>AI Created a Leaked Credentials Flood: Here's How We're Draining It</title>
@@ -36,11 +171,11 @@
     <category term="GitHub Trending" label="GitHub Trending"/>
     <published>2026-09-07T12:59:03.478764+00:00</published>
     <media:group>
-      <media:content url="https://opengraph.githubassets.com/dc40d4a333c7173d090cfd79234fcd0a4d1c17aca5454c87319f2af9ea9f6d98/vorssaint/vorssaint-utils" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/dc40d4a333c7173d090cfd79234fcd0a4d1c17aca5454c87319f2af9ea9f6d98/vorssaint/vorssaint-utils"/>
+      <media:content url="https://opengraph.githubassets.com/5ee4677475c5a9df5eb0592a9ec808cf6fb3151e185309a0e4a86e62abaed026/vorssaint/vorssaint-utils" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/5ee4677475c5a9df5eb0592a9ec808cf6fb3151e185309a0e4a86e62abaed026/vorssaint/vorssaint-utils"/>
     </media:group>
     <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/dc40d4a333c7173d090cfd79234fcd0a4d1c17aca5454c87319f2af9ea9f6d98/vorssaint/vorssaint-utils" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/5ee4677475c5a9df5eb0592a9ec808cf6fb3151e185309a0e4a86e62abaed026/vorssaint/vorssaint-utils" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/389a8fdbfbd25b34</id>
@@ -81,11 +216,11 @@
     <category term="GitHub Trending" label="GitHub Trending"/>
     <published>2026-09-07T12:59:02.683967+00:00</published>
     <media:group>
-      <media:content url="https://opengraph.githubassets.com/30b8082db890066655faf7ec5ff8985f92ad3bcb2464cb705595161b6ec2955e/coreyhaines31/marketingskills" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/30b8082db890066655faf7ec5ff8985f92ad3bcb2464cb705595161b6ec2955e/coreyhaines31/marketingskills"/>
+      <media:content url="https://opengraph.githubassets.com/cf4e6681ade7e9a28eef93a83cc09a9844818efa534c15b773e0cde4626ad3fe/coreyhaines31/marketingskills" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/cf4e6681ade7e9a28eef93a83cc09a9844818efa534c15b773e0cde4626ad3fe/coreyhaines31/marketingskills"/>
     </media:group>
     <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/30b8082db890066655faf7ec5ff8985f92ad3bcb2464cb705595161b6ec2955e/coreyhaines31/marketingskills" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/cf4e6681ade7e9a28eef93a83cc09a9844818efa534c15b773e0cde4626ad3fe/coreyhaines31/marketingskills" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/1a24b3b275b58771</id>
@@ -111,11 +246,11 @@
     <category term="GitHub Trending" label="GitHub Trending"/>
     <published>2026-09-07T12:59:02.640036+00:00</published>
     <media:group>
-      <media:content url="https://opengraph.githubassets.com/93eaaff791bbd924dd066630a285a2b259a09b905e2e5748043b25afb3695686/openai/skills" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/93eaaff791bbd924dd066630a285a2b259a09b905e2e5748043b25afb3695686/openai/skills"/>
+      <media:content url="https://opengraph.githubassets.com/4bf3a8562ba1487203812195e742d6ac7b95ee56fb8a388a2ba86465004847c1/openai/skills" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/4bf3a8562ba1487203812195e742d6ac7b95ee56fb8a388a2ba86465004847c1/openai/skills"/>
     </media:group>
     <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/93eaaff791bbd924dd066630a285a2b259a09b905e2e5748043b25afb3695686/openai/skills" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/4bf3a8562ba1487203812195e742d6ac7b95ee56fb8a388a2ba86465004847c1/openai/skills" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/9abcc53c2a43b8d2</id>
@@ -171,11 +306,11 @@
     <category term="GitHub Trending" label="GitHub Trending"/>
     <published>2026-09-06T11:20:53.681522+00:00</published>
     <media:group>
-      <media:content url="https://opengraph.githubassets.com/da0bea729e81950e6ba2c6ad6851bfd51dd3dbc45faed3b9f352a86fc4440601/youssofal/MTPLX" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/da0bea729e81950e6ba2c6ad6851bfd51dd3dbc45faed3b9f352a86fc4440601/youssofal/MTPLX"/>
+      <media:content url="https://opengraph.githubassets.com/b7c7e6f11a0dda9c9c79ae636ccb531e943ca4a70d43c0fe361b905a4009392a/youssofal/MTPLX" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/b7c7e6f11a0dda9c9c79ae636ccb531e943ca4a70d43c0fe361b905a4009392a/youssofal/MTPLX"/>
     </media:group>
     <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/da0bea729e81950e6ba2c6ad6851bfd51dd3dbc45faed3b9f352a86fc4440601/youssofal/MTPLX" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/b7c7e6f11a0dda9c9c79ae636ccb531e943ca4a70d43c0fe361b905a4009392a/youssofal/MTPLX" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/fc526c0c8fab1e94</id>
@@ -201,11 +336,11 @@
     <category term="GitHub Trending" label="GitHub Trending"/>
     <published>2026-09-06T11:20:53.199489+00:00</published>
     <media:group>
-      <media:content url="https://opengraph.githubassets.com/c8eed84c7195048621c6082f266da0d967ab166f48651c4d865aa897976ad4db/BraveOPotato/FckSignups" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/c8eed84c7195048621c6082f266da0d967ab166f48651c4d865aa897976ad4db/BraveOPotato/FckSignups"/>
+      <media:content url="https://opengraph.githubassets.com/0bedafbf809573f4011b38cf9e69b80aadb7a91289e8e5b1c64e098f7d88177c/BraveOPotato/FckSignups" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/0bedafbf809573f4011b38cf9e69b80aadb7a91289e8e5b1c64e098f7d88177c/BraveOPotato/FckSignups"/>
     </media:group>
     <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/c8eed84c7195048621c6082f266da0d967ab166f48651c4d865aa897976ad4db/BraveOPotato/FckSignups" type="image/jpeg" length="0"/>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/0bedafbf809573f4011b38cf9e69b80aadb7a91289e8e5b1c64e098f7d88177c/BraveOPotato/FckSignups" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/2a8c71daf8f699c9</id>
@@ -252,36 +387,6 @@ choco install openc</content>
     </media:group>
     <dc:creator>GitHub Trending</dc:creator>
     <link rel="enclosure" href="https://repository-images.githubusercontent.com/975734319/2c2c3389-c647-405c-a499-f80e4d521277" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/7c77e1d39e390229</id>
-    <title>radixark/miles</title>
-    <updated>2026-09-05T10:56:09.237624+00:00</updated>
-    <content>Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime. https://miles.radixark.com Enterprise-Grade Reinforcement Learning for Large-Scale Model Post-Training | Website | Documentation | Quick Start | Supported Models | Miles Diffusion | Blog | Slack ( #miles-rl ) | News [2026/08] 🔥 Miles v0.1 is released! Read the blog post here: Miles v0.1: Production-level Post-training . [2026/07] Towards Blackwell-Native 8-bit and</content>
-    <link href="https://github.com/radixark/miles" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-05T10:56:09.237624+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/86d73bc689ecb5bd7d6c9c9db147ada92c61356cd463bc7d06e154c3badbb355/radixark/miles" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/86d73bc689ecb5bd7d6c9c9db147ada92c61356cd463bc7d06e154c3badbb355/radixark/miles"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/86d73bc689ecb5bd7d6c9c9db147ada92c61356cd463bc7d06e154c3badbb355/radixark/miles" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/db607f8f27decba9</id>
-    <title>bikini/exploitarium</title>
-    <updated>2026-09-05T10:56:09.204718+00:00</updated>
-    <content>A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way. Statement This repo was incomplete when published. In regard to AI usage, my fuzzing workflow was automated by AI with a strict workflow. I used GPT-5.3 for ALL th</content>
-    <link href="https://github.com/bikini/exploitarium" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-05T10:56:09.204718+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/910c46645d4748af99c91c92d363c073066e70d033c250264006c70613d4d726/bikini/exploitarium" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/910c46645d4748af99c91c92d363c073066e70d033c250264006c70613d4d726/bikini/exploitarium"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/910c46645d4748af99c91c92d363c073066e70d033c250264006c70613d4d726/bikini/exploitarium" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/37feae9c2cb3313b</id>
@@ -402,92 +507,6 @@ choco install openc</content>
     </media:group>
     <dc:creator>GitHub AI &amp; ML</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/HydraFusion_architecture_02.png?resize=1024%2C334" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/c5725ed10e96abdb</id>
-    <title>xai-org/x-algorithm</title>
-    <updated>2026-09-04T11:44:14.250727+00:00</updated>
-    <content>Algorithm powering the For You feed on X X For You Feed Algorithm This repository contains the core code that determines which posts a viewer sees in the For You feed on X. It combines in-network content (from accounts the viewer follows) with out-of-network content (discovered through ML-based retrieval and other mechanisms), filters content based on a variety of inputs, and ranks posts using a transformer model. Table of Contents Notable Updates August 14th, 2026 August 13th, 2026 Overview Sys</content>
-    <link href="https://github.com/xai-org/x-algorithm" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-04T11:44:14.250727+00:00</published>
-    <media:group>
-      <media:content url="https://avatars.githubusercontent.com/u/130314967?s=400&amp;v=4" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://avatars.githubusercontent.com/u/130314967?s=400&amp;v=4"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://avatars.githubusercontent.com/u/130314967?s=400&amp;v=4" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/0f24fd84d2eb4755</id>
-    <title>cloudflare/cloudflare-os</title>
-    <updated>2026-09-04T11:44:14.221910+00:00</updated>
-    <content>Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems. https://os.cloudflare.app Cloudflare OS: An AI productivity environment Cloudflare OS is an "operating system" for AI productivity originally developed for use inside Cloudflare. A large portion of Cloudflare's workforce -- from engineering to sales and everything in between -- uses Cloudflare OS every day to help them do their jobs. This is not a traditi</content>
-    <link href="https://github.com/cloudflare/cloudflare-os" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-04T11:44:14.221910+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/644d23226fa6646dbed55e14d7a37af3d08b00f327705c93b6ae2114c7685a4f/cloudflare/cloudflare-os" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/644d23226fa6646dbed55e14d7a37af3d08b00f327705c93b6ae2114c7685a4f/cloudflare/cloudflare-os"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/644d23226fa6646dbed55e14d7a37af3d08b00f327705c93b6ae2114c7685a4f/cloudflare/cloudflare-os" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/50d76d66e89da4f8</id>
-    <title>colinhacks/zod</title>
-    <updated>2026-09-04T11:44:14.008430+00:00</updated>
-    <content>TypeScript-first schema validation with static type inference https://zod.dev Zod TypeScript-first schema validation with static type inference by @colinhacks Docs • Discord • 𝕏 • Bluesky Read the docs → What is Zod? Zod is a TypeScript-first validation library. Define a schema and parse some data with it. You'll get back a strongly typed, validated result. import * as z from "zod";
-
-const User = z.object({
-  name: z.string(),
-});
-
-// some untrusted data...
-const input = {
-  /* stuff */
-};
-
-// t</content>
-    <link href="https://github.com/colinhacks/zod" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-04T11:44:14.008430+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/1a54f24c9b913fb645111c033d5accba3223d0b11f658f7b320353f1607c0628/colinhacks/zod" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/1a54f24c9b913fb645111c033d5accba3223d0b11f658f7b320353f1607c0628/colinhacks/zod"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/1a54f24c9b913fb645111c033d5accba3223d0b11f658f7b320353f1607c0628/colinhacks/zod" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/20b52029e3604190</id>
-    <title>magnitudedev/magnitude</title>
-    <updated>2026-09-04T11:44:13.714990+00:00</updated>
-    <content>Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline. https://magnitude.dev Magnitude Run your agent on local models. Free, private, and offline. Magnitude is an open source inference server that runs the best local models for your hardware, plugged into the agent you already use. It profiles your machine, recommends the models that fit, then downl</content>
-    <link href="https://github.com/magnitudedev/magnitude" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-04T11:44:13.714990+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/89c2d496ff12e0f34a902f8d7cf21f2e40a13fc6695e6b9db696c06ac932ac6d/magnitudedev/magnitude" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/89c2d496ff12e0f34a902f8d7cf21f2e40a13fc6695e6b9db696c06ac932ac6d/magnitudedev/magnitude"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/89c2d496ff12e0f34a902f8d7cf21f2e40a13fc6695e6b9db696c06ac932ac6d/magnitudedev/magnitude" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/e678d4cec6baabba</id>
-    <title>ByteByteGoHq/system-design-101</title>
-    <updated>2026-09-04T11:44:13.704726+00:00</updated>
-    <content>Explain complex systems using visuals and simple terms. Help you prepare for system design interviews. https://bytebytego.com/guides 【 👨🏻‍💻 YouTube | 📮 Newsletter 】 System Design 101 Explain complex systems using visuals and simple terms. Whether you're preparing for a System Design Interview or you simply want to understand how systems work beneath the surface, we hope this repository will help you achieve that. Table of Contents API and Web Development Short/long polling, SSE, WebSocket Load B</content>
-    <link href="https://github.com/ByteByteGoHq/system-design-101" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-04T11:44:13.704726+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/43566614b9700362235cbfd07bf3cf8b70830ed1cfc92571d282b9a23a2ddd26/ByteByteGoHq/system-design-101" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/43566614b9700362235cbfd07bf3cf8b70830ed1cfc92571d282b9a23a2ddd26/ByteByteGoHq/system-design-101"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/43566614b9700362235cbfd07bf3cf8b70830ed1cfc92571d282b9a23a2ddd26/ByteByteGoHq/system-design-101" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/a2d3b62cf8e1be89</id>
@@ -643,36 +662,6 @@ const input = {
     </media:group>
     <dc:creator>GitHub Changelog</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/642719862-23b15938-a289-499a-8382-c30fe42eefce.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/10da54c7425a7edc</id>
-    <title>zedeus/nitter</title>
-    <updated>2026-09-03T11:42:32.528968+00:00</updated>
-    <content>Alternative Twitter front-end https://nitter.net Nitter Note On 24 August 2026 cease and desist letters were sent by X Corp. demanding a permanent takedown of Nitter instances and the project's repository. A free and open source alternative Twitter front-end focused on privacy and performance. Inspired by the Invidious project. Donations Liberapay : https://liberapay.com/zedeus Patreon : https://patreon.com/nitter Ko-fi : https://ko-fi.com/zedeus BTC : bc1qpqpzjkcpgluhzf7x9yqe7jfe8gpfm5v08mdr55 </content>
-    <link href="https://github.com/zedeus/nitter" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-03T11:42:32.528968+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/48fcaac38955dee7269872480da674087d9486f17783f5d6d0849242e84f7333/zedeus/nitter" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/48fcaac38955dee7269872480da674087d9486f17783f5d6d0849242e84f7333/zedeus/nitter"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/48fcaac38955dee7269872480da674087d9486f17783f5d6d0849242e84f7333/zedeus/nitter" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/db09b457282c5683</id>
-    <title>blader/humanizer</title>
-    <updated>2026-09-03T11:42:32.457373+00:00</updated>
-    <content>Agent skill that removes signs of AI-generated writing from text https://skills.sh/blader/humanizer Humanizer Humanizer rewrites AI-sounding text so it reads like a person wrote it, without changing what it says. Because it is just Markdown, it works with any agent that supports skills. Installation Install Humanizer with the Skills CLI: npx skills add blader/humanizer --global Leave off --global to install Humanizer only in the current project. Add --agent &lt;name&gt; or --agent '*' to choose which </content>
-    <link href="https://github.com/blader/humanizer" rel="alternate"/>
-    <category term="GitHub Trending" label="GitHub Trending"/>
-    <published>2026-09-03T11:42:32.457373+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/e2bff91d7461fd8b92bf6b0aa1b0752952a6e878ee0ec194f0a45a8a8164b4b0/blader/humanizer" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/e2bff91d7461fd8b92bf6b0aa1b0752952a6e878ee0ec194f0a45a8a8164b4b0/blader/humanizer"/>
-    </media:group>
-    <dc:creator>GitHub Trending</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/e2bff91d7461fd8b92bf6b0aa1b0752952a6e878ee0ec194f0a45a8a8164b4b0/blader/humanizer" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/932e51eccdaa67fe</id>
