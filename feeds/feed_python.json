@@ -31,12 +31,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/5edca772449ad3ea",
-      "url": "https://pypi.org/project/the-steward/0.2.54/",
-      "title": "the-steward 0.2.54",
-      "content_text": "The Steward — a continuously-watching guardian that spends intelligence only on novelty, investigates it to a decision-ready conclusion, verifies against reality over time, and surfaces exactly what a human or an agent needs. The flagship inferroute application.",
-      "date_published": "2026-09-07T22:58:07Z",
-      "date_modified": "2026-09-07T22:58:07Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2",
+      "url": "https://pypi.org/project/memory-arbiter-mcp/0.15.8/",
+      "title": "memory-arbiter-mcp 0.15.8",
+      "content_text": "Local MCP memory with evidence-based recall and explicit conflict governance.",
+      "date_published": "2026-09-08T05:08:24Z",
+      "date_modified": "2026-09-08T05:08:24Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -47,12 +47,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/bb780e59c3cd791b",
-      "url": "https://pypi.org/project/litscan/2.1.1/",
-      "title": "litscan 2.1.1",
-      "content_text": "A small CLI tool that scans a codebase for string and numeric literals, helping you quickly spot hard-coded values in source files.",
-      "date_published": "2026-09-07T22:58:00Z",
-      "date_modified": "2026-09-07T22:58:00Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/43b1b3a2f3fd9af1",
+      "url": "https://pypi.org/project/neatxlsx/0.2.1/",
+      "title": "neatxlsx 0.2.1",
+      "content_text": "Opinionated XLSX report-table writer for Polars.",
+      "date_published": "2026-09-08T05:08:16Z",
+      "date_modified": "2026-09-08T05:08:16Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -63,12 +63,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/a1c9d6ae03530463",
-      "url": "https://pypi.org/project/labbstart/0.4.5/",
-      "title": "labbstart 0.4.5",
-      "content_text": "CLI tool to kickstart Django projects with labb",
-      "date_published": "2026-09-07T22:57:51Z",
-      "date_modified": "2026-09-07T22:57:51Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/75fb48587a4e6100",
+      "url": "https://pypi.org/project/rocket-welder-sdk/2.19.1.dev89/",
+      "title": "rocket-welder-sdk 2.19.1.dev89",
+      "content_text": "High-performance video streaming SDK for RocketWelder services using ZeroBuffer IPC",
+      "date_published": "2026-09-08T05:08:14Z",
+      "date_modified": "2026-09-08T05:08:14Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -79,12 +79,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/519d687fff760579",
-      "url": "https://pypi.org/project/labbicons/0.4.5/",
-      "title": "labbicons 0.4.5",
-      "content_text": "Icon components library for labb UI and django projects",
-      "date_published": "2026-09-07T22:57:42Z",
-      "date_modified": "2026-09-07T22:57:42Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/84481cc10df913e9",
+      "url": "https://pypi.org/project/sbmlsim/0.5.0/",
+      "title": "sbmlsim 0.5.0",
+      "content_text": "sbmlsim are python utilities for the simulation of SBML models.",
+      "date_published": "2026-09-08T05:07:47Z",
+      "date_modified": "2026-09-08T05:07:47Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -95,12 +95,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/e4645f1389e6d25a",
-      "url": "https://pypi.org/project/labbdocs/0.4.5/",
-      "title": "labbdocs 0.4.5",
-      "content_text": "Documentation for the labb project",
-      "date_published": "2026-09-07T22:57:33Z",
-      "date_modified": "2026-09-07T22:57:33Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/963a444f5d18279b",
+      "url": "https://pypi.org/project/modelmetre/0.2.1/",
+      "title": "ModelMetre 0.2.1",
+      "content_text": "Multi-provider LLM cost observability SDK",
+      "date_published": "2026-09-08T05:07:33Z",
+      "date_modified": "2026-09-08T05:07:33Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -108,6 +108,84 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7",
+      "url": "https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/",
+      "title": "Graham Dumpleton: Zero-code tracing with wrapture",
+      "content_text": "The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi",
+      "date_published": "2026-09-08T01:39:22Z",
+      "date_modified": "2026-09-08T01:39:22Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/8c7994ba519e7580",
+      "url": "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china/",
+      "title": "Alibaba Cloud, Ant Group, Cambricon and Huawei Come Together in Shanghai to Advance the Open Source AI Stack at PyTorch Conference China",
+      "content_text": "China’s leading AI technology companies Alibaba Cloud, Cambricon and Ant Group join the PyTorch Foundation as members Summary Alibaba Cloud and Cambricon joined the PyTorch Foundation as Platinum members, and...",
+      "date_published": "2026-09-08T01:00:02Z",
+      "date_modified": "2026-09-08T01:00:02Z",
+      "authors": [
+        {
+          "name": "PyTorch"
+        }
+      ],
+      "tags": [
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/df66e6ebf2cb9e3a",
+      "url": "https://pytorch.org/blog/cambricon-joins-the-pytorch-foundation-as-a-platinum-member/",
+      "title": "Cambricon Joins the PyTorch Foundation as a Platinum Member",
+      "content_text": "The PyTorch Foundation, a community-driven hub for open source AI under the Linux Foundation, is announcing today that Cambricon has joined as a Platinum member. Founded in 2016, Cambricon is...",
+      "date_published": "2026-09-08T00:59:13Z",
+      "date_modified": "2026-09-08T00:59:13Z",
+      "authors": [
+        {
+          "name": "PyTorch"
+        }
+      ],
+      "tags": [
+        "PyTorch"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f",
+      "url": "https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/",
+      "title": "Graham Dumpleton: Live tracing with wrapture",
+      "content_text": "When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
@@ -612,29 +690,6 @@
       "attachments": [
         {
           "url": "https://pytorch.org/wp-content/uploads/2026/08/Bengaluru-Event-1024x345.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f",
-      "url": "https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/",
-      "title": "Graham Dumpleton: Live tracing with wrapture",
-      "content_text": "When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding",
-      "date_published": "2026-09-07T01:39:16Z",
-      "date_modified": "2026-09-07T01:39:16Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
         }
       ]
@@ -1399,29 +1454,6 @@
       "attachments": [
         {
           "url": "https://opengraph.githubassets.com/54f11ba6/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/46906374a851f189",
-      "url": "https://pycoders.com/issues/750",
-      "title": "PyCoder’s Weekly: Issue #750: State of Django, PSF Elections, Python 3.15, and More (2026-09-01)",
-      "content_text": "#750 – SEPTEMBER 1, 2026 View in Browser » The State of Django 2026: Boring Is So Back A summary of this year’s State of Django report which draws on responses from nearly 3,500 developers across more than 40 countries: from students in their first year to veterans with decades of experience. WILL VINCENT 2026 PSF Board Election Interviews This is a collection of interviews of the various candidates running for the Python Software Foundation Board. Many of the posts also include links to AMA ses",
-      "date_published": "2026-09-01T19:30:00Z",
-      "date_modified": "2026-09-01T19:30:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5",
           "mime_type": "image/jpeg"
         }
       ]
@@ -2880,22 +2912,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/73cb02dfdc3fb85f",
-      "url": "https://pytorch.org/blog/triton-plugin-extensions-enabling-tlx-and-custom-compiler-passes-out-of-the-box/",
-      "title": "Triton Plugin Extensions: Enabling TLX and Custom Compiler Passes Out of the Box",
-      "content_text": "TLDR The PyTorch-Triton 3.7 release introduces the Triton Plugin Extensions system, a framework for dynamically loading custom compiler passes, dialects (including their ops), and DSL extensions into upstream Triton at...",
-      "date_published": "2026-07-15T15:09:15Z",
-      "date_modified": "2026-07-15T15:09:15Z",
-      "authors": [
-        {
-          "name": "PyTorch"
-        }
-      ],
-      "tags": [
-        "PyTorch"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/6f3b5ec36b430a90",
       "url": "https://www.anaconda.com/blog/anaconda-acquires-kilo-code",
       "title": "AI on Your Own Terms: Anaconda Acquires Kilo Code",
@@ -3031,22 +3047,6 @@
           "url": "https://peps.python.org/_static/og-image.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/8b70ca0ae1958279",
-      "url": "https://pytorch.org/blog/towards-free-normalization-fusing-normalization-into-gemm-and-attention-kernels/",
-      "title": "Towards Free Normalization: Fusing Normalization into GEMM and Attention Kernels",
-      "content_text": "TL;DR In this blog post, we present various novel kernel fusion techniques for common normalization ops like LayerNorm and RMSNorm, which provide significant speedup by reducing the memory-IO overhead of...",
-      "date_published": "2026-07-10T14:35:48Z",
-      "date_modified": "2026-07-10T14:35:48Z",
-      "authors": [
-        {
-          "name": "PyTorch"
-        }
-      ],
-      "tags": [
-        "PyTorch"
       ]
     },
     {

@@ -8,6 +8,50 @@
   "icon": "https://danepubliczne.imgw.pl/favicon.ico",
   "items": [
     {
+      "id": "urn:imgw:meteo:250190790:2026-09-08",
+      "url": "https://danepubliczne.imgw.pl/api/data/meteo",
+      "title": "Chrzanów — telemetria 08.09: opad (10 min) 0 mm (04:40)",
+      "content_html": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (04:40)</li></ul>",
+      "date_published": "2026-09-07T22:00:00Z",
+      "date_modified": "2026-09-08T05:08:01Z",
+      "tags": [
+        "meteo"
+      ]
+    },
+    {
+      "id": "urn:imgw:hydro:150190180:2026-09-08",
+      "url": "https://danepubliczne.imgw.pl/api/data/hydro",
+      "title": "Jeleń (Przemsza) — stan wody 133 cm (08.09 04:20)",
+      "content_html": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 133 cm (08.09 04:20)</li><li>Przepływ: 8.26 m³/s (08.09 04:50)</li></ul>",
+      "date_published": "2026-09-07T22:00:00Z",
+      "date_modified": "2026-09-08T05:08:00Z",
+      "tags": [
+        "hydro"
+      ]
+    },
+    {
+      "id": "urn:imgw:hydro:150190260:2026-09-08",
+      "url": "https://danepubliczne.imgw.pl/api/data/hydro",
+      "title": "Smolice (Wisła) — stan wody 127 cm (08.09 04:20)",
+      "content_html": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 127 cm (08.09 04:20)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "date_published": "2026-09-07T22:00:00Z",
+      "date_modified": "2026-09-08T05:08:00Z",
+      "tags": [
+        "hydro"
+      ]
+    },
+    {
+      "id": "urn:imgw:synop:12566:2026-09-08",
+      "url": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
+      "title": "Kraków — obserwacje 08.09: 10.1°C, opad 0 mm (godz. 04)",
+      "content_html": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>04:00</td><td>10.1°C</td><td>1 m/s / 40°</td><td>94.1%</td><td>0 mm</td><td>1019.4 hPa</td></tr></table>",
+      "date_published": "2026-09-07T22:00:00Z",
+      "date_modified": "2026-09-08T05:08:00Z",
+      "tags": [
+        "synop"
+      ]
+    },
+    {
       "id": "urn:imgw:meteo:250190790:2026-09-07",
       "url": "https://danepubliczne.imgw.pl/api/data/meteo",
       "title": "Chrzanów — telemetria 07.09: opad (10 min) 0 mm (22:40)",
@@ -1609,50 +1653,6 @@
       "content_html": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (23:10)</li></ul>",
       "date_published": "2026-08-10T22:00:00Z",
       "date_modified": "2026-08-11T23:31:17Z",
-      "tags": [
-        "meteo"
-      ]
-    },
-    {
-      "id": "urn:imgw:hydro:150190180:2026-08-11",
-      "url": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "title": "Jeleń (Przemsza) — stan wody 134 cm (11.08 23:00)",
-      "content_html": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 134 cm (11.08 23:00)</li><li>Przepływ: 8.48 m³/s (11.08 23:10)</li></ul>",
-      "date_published": "2026-08-10T22:00:00Z",
-      "date_modified": "2026-08-11T23:31:15Z",
-      "tags": [
-        "hydro"
-      ]
-    },
-    {
-      "id": "urn:imgw:hydro:150190260:2026-08-11",
-      "url": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "title": "Smolice (Wisła) — stan wody 124 cm (11.08 23:00)",
-      "content_html": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 124 cm (11.08 23:00)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
-      "date_published": "2026-08-10T22:00:00Z",
-      "date_modified": "2026-08-11T23:31:15Z",
-      "tags": [
-        "hydro"
-      ]
-    },
-    {
-      "id": "urn:imgw:synop:12566:2026-08-11",
-      "url": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
-      "title": "Kraków — obserwacje 11.08: 12.9°C, opad 0 mm (godz. 23)",
-      "content_html": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>04:00</td><td>18.1°C</td><td>2 m/s / 300°</td><td>76.6%</td><td>0 mm</td><td>1018.7 hPa</td></tr><tr><td>05:00</td><td>19.4°C</td><td>1 m/s / 290°</td><td>72.3%</td><td>0 mm</td><td>1019.1 hPa</td></tr><tr><td>07:00</td><td>20°C</td><td>4 m/s / 310°</td><td>66.5%</td><td>0 mm</td><td>1020 hPa</td></tr><tr><td>11:00</td><td>24.4°C</td><td>4 m/s / 280°</td><td>44.2%</td><td>0 mm</td><td>1020.4 hPa</td></tr><tr><td>13:00</td><td>24.7°C</td><td>6 m/s / 280°</td><td>38.2%</td><td>0 mm</td><td>1020.3 hPa</td></tr><tr><td>15:00</td><td>24.6°C</td><td>5 m/s / 290°</td><td>28.3%</td><td>0 mm</td><td>1020.6 hPa</td></tr><tr><td>17:00</td><td>22.4°C</td><td>6 m/s / 320°</td><td>34.4%</td><td>0 mm</td><td>1021.5 hPa</td></tr><tr><td>19:00</td><td>18°C</td><td>3 m/s / 350°</td><td>46.4%</td><td>0 mm</td><td>1023.9 hPa</td></tr><tr><td>23:00</td><td>12.9°C</td><td>1 m/s / 240°</td><td>66.5%</td><td>0 mm</td><td>1026.6 hPa</td></tr></table>",
-      "date_published": "2026-08-10T22:00:00Z",
-      "date_modified": "2026-08-11T23:31:13Z",
-      "tags": [
-        "synop"
-      ]
-    },
-    {
-      "id": "urn:imgw:meteo:250190790:2026-08-10",
-      "url": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "title": "Chrzanów — telemetria 10.08: opad (10 min) 0 mm (22:50)",
-      "content_html": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (22:50)</li></ul>",
-      "date_published": "2026-08-09T22:00:00Z",
-      "date_modified": "2026-08-10T23:17:00Z",
       "tags": [
         "meteo"
       ]

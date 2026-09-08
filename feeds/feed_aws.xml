@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://aws.amazon.com/blogs/</id>
   <title>AWS</title>
-  <updated>2026-09-07T22:58:26.392541+00:00</updated>
+  <updated>2026-09-08T05:07:18.243946+00:00</updated>
   <author>
     <name>Amazon Web Services</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://aws.amazon.com/favicon.ico</icon>
   <logo>https://aws.amazon.com/favicon.ico</logo>
   <subtitle>AWS announcements, selected blogs, re:Post articles, and AWS CLI v2 releases.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/07d5eee3ae8f7b3f</id>
+    <title>Master and internal user accounts reset on Amazon OpenSearch Service: why snapshots don't restore them, and what to prepare</title>
+    <updated>2026-09-08T02:54:46.203000+00:00</updated>
+    <content>On an Amazon OpenSearch Service domain with fine-grained access control, the master user password may stop working and your internal users and role mappings may disappear. Hourly automated snapshots do not bring this data back, because the official restore procedure excludes the security system index that holds it. This article explains why, what recovery is possible, and what to prepare beforehand. It is intended for operators of such domains.</content>
+    <link href="https://repost.aws/articles/ARg8GtUq77SPCjZCgxrO_lPg/master-and-internal-user-accounts-reset-on-amazon-opensearch-service-why-snapshots-don-t-restore-them-and-what-to-prepare" rel="alternate"/>
+    <category term="AWS re:Post Articles" label="AWS re:Post Articles"/>
+    <published>2026-09-08T02:54:46.203000+00:00</published>
+    <media:group>
+      <media:content url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
+    </media:group>
+    <dc:creator>AWS re:Post Articles</dc:creator>
+    <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aws/341c829e443e9075</id>
+    <title>How to delete Amazon Connect queues in bulk using the AWS CLI</title>
+    <updated>2026-09-08T02:26:37.391000+00:00</updated>
+    <content>A step-by-step guide for Amazon Connect administrators to delete one or more queues programmatically using the AWS CLI. It covers the full dependency-resolution workflow needed to avoid the ResourceInUseException error: disassociating routing profiles, replacing default outbound queues, removing quick connect associations, and deleting queue-type quick connects that reference the target queue.</content>
+    <link href="https://repost.aws/articles/ARL8Ju3yYHTtuVAq9hhfl2ZQ/how-to-delete-amazon-connect-queues-in-bulk-using-the-aws-cli" rel="alternate"/>
+    <category term="AWS re:Post Articles" label="AWS re:Post Articles"/>
+    <published>2026-09-08T02:26:37.391000+00:00</published>
+    <media:group>
+      <media:content url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
+    </media:group>
+    <dc:creator>AWS re:Post Articles</dc:creator>
+    <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/a2baf1598d97541e</id>
     <title>How do I resolve 504 Gateway Timeout errors on an Amazon CloudWatch data source when my Amazon Managed Grafana workspace has private VPC connectivity to CloudWatch?</title>
@@ -2701,36 +2731,6 @@ This article explains how to monitor pod failure status on Fargate-only clusters
     </media:group>
     <dc:creator>AWS Developer Tools Blog</dc:creator>
     <link rel="enclosure" href="https://d2908q01vomqb2.cloudfront.net/0716d9708d321ffb6a00818614779e779925365c/2026/07/31/aws-power-installer-v2.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/32cb478299ea99e7</id>
-    <title>Amazon GameLift Servers plugin for Unreal now supports Unreal Engine 5.8</title>
-    <updated>2026-08-04T22:36:17.666000+00:00</updated>
-    <content>Amazon GameLift Servers has updated its Unreal Engine plugin and server SDKs, now supporting Unreal Engine 5.8 with improved logging integration and a new custom logging capability for the C++ server SDK.</content>
-    <link href="https://repost.aws/articles/ARO43cP2lHSeqJMnebGufOqA/amazon-gamelift-servers-plugin-for-unreal-now-supports-unreal-engine-5-8" rel="alternate"/>
-    <category term="AWS re:Post Articles" label="AWS re:Post Articles"/>
-    <published>2026-08-04T22:36:17.666000+00:00</published>
-    <media:group>
-      <media:content url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
-    </media:group>
-    <dc:creator>AWS re:Post Articles</dc:creator>
-    <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aws/b2851168b5600cb1</id>
-    <title>Troubleshoot AWS Transit Gateway VPC attachment creation</title>
-    <updated>2026-08-04T21:03:36.753000+00:00</updated>
-    <content>I created a cross-account AWS Transit Gateway VPC attachment and it was accepted, but the attachment transitioned to a "failed" state instead of "available."</content>
-    <link href="https://repost.aws/articles/AR58IIMkujScyVWzDMLqeyUA/troubleshoot-aws-transit-gateway-vpc-attachment-creation" rel="alternate"/>
-    <category term="AWS re:Post Articles" label="AWS re:Post Articles"/>
-    <published>2026-08-04T21:03:36.753000+00:00</published>
-    <media:group>
-      <media:content url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"/>
-    </media:group>
-    <dc:creator>AWS re:Post Articles</dc:creator>
-    <link rel="enclosure" href="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aws/b2805bc2be804139</id>

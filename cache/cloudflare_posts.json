@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T22:58:39.478480+00:00",
+  "last_updated": "2026-09-08T05:07:30.455084+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5503,6 +5503,26 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07"
+    },
+    {
+      "title": "Cloudflare Account Member Invite Issue",
+      "link": "https://www.cloudflarestatus.com/incidents/pjr4m9q1xxb1",
+      "date": "2026-09-08T01:42:38+00:00",
+      "description": "Sep 8 , 01:42 UTC Resolved - This incident has been resolved. Sep 8 , 01:32 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 8 , 00:35 UTC Investigating - Cloudflare customers may experience an issue when invited to a new account. An error message is displayed, \"Invaild redirect_url\". \n\nA workaround can be used:\n* Invited members create an account directly from the dashboard (not using the email link)\n* Admin resends invitation\n* Invited member clicks new link a",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/d6e560bc521762c1"
+    },
+    {
+      "title": "Cache Reserve Issue in Paris",
+      "link": "https://www.cloudflarestatus.com/incidents/qz292kvy220g",
+      "date": "2026-09-08T04:42:58+00:00",
+      "description": "Sep 8 , 04:42 UTC Identified - The issue has been identified and a fix is being implemented. Sep 8 , 03:25 UTC Investigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.\n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly.",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/652c79981097cf58"
     }
   ]
 }

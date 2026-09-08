@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T22:58:23.545442+00:00",
+  "last_updated": "2026-09-08T05:07:16.280783+00:00",
   "entries": [
     {
       "title": "Audacity 3.3",
@@ -846,10 +846,55 @@
       "title": "Bugs: various bugs and missing things",
       "link": "https://forum.audacityteam.org/t/bugs-various-bugs-and-missing-things/153976",
       "date": "2026-09-07T21:00:54+00:00",
-      "description": "I just installed A4 , and I found a few bugs: Audacity crashes when zooming in to a specific part of audio to delete (A3 shows dots you can delete and be guided) I tried to edit a music track, and the metadata of the song disappeared. I need to write it all again When importing shortcuts from A3 and I want to use them in A4, none of them work. 1 post - 1 participant Read full topic",
+      "description": "I just installed A4 , and I found a few bugs: Audacity crashes when zooming in to a specific part of audio to delete (A3 shows dots you can delete and be guided) I tried to edit a music track, and the metadata of the song disappeared. I need to write it all again When importing shortcuts from A3 and I want to use them in A4, none of them work. I don’t know if it is a bug, but if I select a section of the audio, it doesn’t play the selected area but plays where the cursor is located. 1 post - 1 p",
       "source": "Audacity Forum",
       "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/bc02eaaed52377e4"
+    },
+    {
+      "title": "Clip won't move in Au 4",
+      "link": "https://forum.audacityteam.org/t/clip-wont-move-in-au-4/153977",
+      "date": "2026-09-07T23:46:33+00:00",
+      "description": "In one of my tracks, I can’t move a clip from another track–it “bounces” back. Also, in this problem track, I can’t move a clip, even if there’s plenty of room. It just bounces back. The only work around for both of these clip-related situations, at least that I’ve found, is to cut the clip and paste it exactly where I want it. 1 post - 1 participant Read full topic",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/89960105553570f4"
+    },
+    {
+      "title": "Audacity 4.0.0 fails to start on fresh Windows 11 install",
+      "link": "https://forum.audacityteam.org/t/audacity-4-0-0-fails-to-start-on-fresh-windows-11-install/153978",
+      "date": "2026-09-08T00:05:12+00:00",
+      "description": "I actually filed a GitHub issue for this before I realized there was a form, so apologies for the duplication. Please feel free to close either this thread or the GH issue. As reported there, I did a fresh install of Audacity 4.0.0 on a Windows 11 x64 machine, and the program simply fails to start up. The process starts up, then dies after a couple of seconds. It does produce a log file: 2026-09-07T16:49:49.709 | INFO  | main_thread     | GlobalModule::onPreInit | log path: C:/Users/micro/AppDat",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/89330e0fb33b7bb6"
+    },
+    {
+      "title": "Is my project gone? \"Connection to project file is null\" message keeps popping up",
+      "link": "https://forum.audacityteam.org/t/is-my-project-gone-connection-to-project-file-is-null-message-keeps-popping-up/153979",
+      "date": "2026-09-08T00:28:59+00:00",
+      "description": "Am I totally screwed if I get this message? I’m new to Audacity but was using it to edit a podcast as a final project for a college class, and I was almost all the way done and now it keeps showing this message: In my audio.com account it still shows that the project is worth almost 1G of data, and I’ve tried 4 different wifis. Is my project retrievable? It’s due on Friday and I’ve spent almost a month on it, so I wouldn’t be able to recreate it to the standard I need for my grade. Very much pan",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/3X/1/d/1d21b742d0986c10bbb74b9d7d2f2d0c5db9b16d.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/00b46706d2f5ef90"
+    },
+    {
+      "title": "Can't Load m4a files as I did in 3.X",
+      "link": "https://forum.audacityteam.org/t/cant-load-m4a-files-as-i-did-in-3-x/153980",
+      "date": "2026-09-08T01:22:34+00:00",
+      "description": "I use m4a files all the time, and A4 is not accepting them. Can’t use A4 until I figure this out. Thank you. 3 posts - 2 participants Read full topic",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/99392a46cc135d14"
+    },
+    {
+      "title": "Audacity 4 - track gain controls feedback",
+      "link": "https://forum.audacityteam.org/t/audacity-4-track-gain-controls-feedback/153981",
+      "date": "2026-09-08T01:35:02+00:00",
+      "description": "Hi! I’ve been a longtime user of Audacity and I love it’s simplicity. The new version really have a beautiful GUI and everything looks really colorful and polished. I wanted to provide some feedback regarding the controls for track gains. I frequently record tracks with multiple microphones and use Audacity to line everything up and during this process, I usually make fine adjustments to the microphone levels via the individual track gain controls. As of now, the slider is set with a range of -6",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/f32a60816287c297"
     }
   ]
 }

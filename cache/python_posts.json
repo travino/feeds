@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T23:00:01.426623+00:00",
+  "last_updated": "2026-09-08T05:08:43.192149+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -7647,15 +7647,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e"
     },
     {
-      "title": "Graham Dumpleton: Live tracing with wrapture",
-      "link": "https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/",
-      "date": "2026-09-07T01:39:16+00:00",
-      "description": "When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding ",
-      "source": "Planet Python",
-      "image": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f"
-    },
-    {
       "title": "PyTorch x Hugging Face in Bengaluru: Building India’s Next Generation of ML Systems Contributors",
       "link": "https://pytorch.org/blog/pytorch-x-hugging-face-in-bengaluru-building-indias-next-generation-of-ml-systems-contributors/",
       "date": "2026-09-07T13:05:37+00:00",
@@ -7934,54 +7925,92 @@
       "image": "https://pydevtools.com/images/social-share-default.png"
     },
     {
-      "title": "labbdocs 0.4.5",
-      "link": "https://pypi.org/project/labbdocs/0.4.5/",
-      "date": "2026-09-07T22:57:33+00:00",
-      "description": "Documentation for the labb project",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/e4645f1389e6d25a"
+      "title": "Graham Dumpleton: Live tracing with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding ",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f"
     },
     {
-      "title": "labbicons 0.4.5",
-      "link": "https://pypi.org/project/labbicons/0.4.5/",
-      "date": "2026-09-07T22:57:42+00:00",
-      "description": "Icon components library for labb UI and django projects",
-      "source": "PyPI Updates",
+      "title": "Cambricon Joins the PyTorch Foundation as a Platinum Member",
+      "link": "https://pytorch.org/blog/cambricon-joins-the-pytorch-foundation-as-a-platinum-member/",
+      "date": "2026-09-08T00:59:13+00:00",
+      "description": "The PyTorch Foundation, a community-driven hub for open source AI under the Linux Foundation, is announcing today that Cambricon has joined as a Platinum member. Founded in 2016, Cambricon is...",
+      "source": "PyTorch",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/519d687fff760579"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/df66e6ebf2cb9e3a"
     },
     {
-      "title": "labbstart 0.4.5",
-      "link": "https://pypi.org/project/labbstart/0.4.5/",
-      "date": "2026-09-07T22:57:51+00:00",
-      "description": "CLI tool to kickstart Django projects with labb",
-      "source": "PyPI Updates",
+      "title": "Alibaba Cloud, Ant Group, Cambricon and Huawei Come Together in Shanghai to Advance the Open Source AI Stack at PyTorch Conference China",
+      "link": "https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china/",
+      "date": "2026-09-08T01:00:02+00:00",
+      "description": "China’s leading AI technology companies Alibaba Cloud, Cambricon and Ant Group join the PyTorch Foundation as members Summary Alibaba Cloud and Cambricon joined the PyTorch Foundation as Platinum members, and...",
+      "source": "PyTorch",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a1c9d6ae03530463"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/8c7994ba519e7580"
     },
     {
-      "title": "litscan 2.1.1",
-      "link": "https://pypi.org/project/litscan/2.1.1/",
-      "date": "2026-09-07T22:58:00+00:00",
-      "description": "A small CLI tool that scans a codebase for string and numeric literals, helping you quickly spot hard-coded values in source files.",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/bb780e59c3cd791b"
+      "title": "Graham Dumpleton: Zero-code tracing with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/",
+      "date": "2026-09-08T01:39:22+00:00",
+      "description": "The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7"
     },
     {
-      "title": "the-steward 0.2.54",
-      "link": "https://pypi.org/project/the-steward/0.2.54/",
-      "date": "2026-09-07T22:58:07+00:00",
-      "description": "The Steward — a continuously-watching guardian that spends intelligence only on novelty, investigates it to a decision-ready conclusion, verifies against reality over time, and surfaces exactly what a human or an agent needs. The flagship inferroute application.",
+      "title": "ModelMetre 0.2.1",
+      "link": "https://pypi.org/project/modelmetre/0.2.1/",
+      "date": "2026-09-08T05:07:33+00:00",
+      "description": "Multi-provider LLM cost observability SDK",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/5edca772449ad3ea"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/963a444f5d18279b"
+    },
+    {
+      "title": "sbmlsim 0.5.0",
+      "link": "https://pypi.org/project/sbmlsim/0.5.0/",
+      "date": "2026-09-08T05:07:47+00:00",
+      "description": "sbmlsim are python utilities for the simulation of SBML models.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/84481cc10df913e9"
+    },
+    {
+      "title": "rocket-welder-sdk 2.19.1.dev89",
+      "link": "https://pypi.org/project/rocket-welder-sdk/2.19.1.dev89/",
+      "date": "2026-09-08T05:08:14+00:00",
+      "description": "High-performance video streaming SDK for RocketWelder services using ZeroBuffer IPC",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/75fb48587a4e6100"
+    },
+    {
+      "title": "neatxlsx 0.2.1",
+      "link": "https://pypi.org/project/neatxlsx/0.2.1/",
+      "date": "2026-09-08T05:08:16+00:00",
+      "description": "Opinionated XLSX report-table writer for Polars.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/43b1b3a2f3fd9af1"
+    },
+    {
+      "title": "memory-arbiter-mcp 0.15.8",
+      "link": "https://pypi.org/project/memory-arbiter-mcp/0.15.8/",
+      "date": "2026-09-08T05:08:24+00:00",
+      "description": "Local MCP memory with evidence-based recall and explicit conflict governance.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2"
     },
     {
       "title": "Linguistic drift at the frontier | Pydantic",

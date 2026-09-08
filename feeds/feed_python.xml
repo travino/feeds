@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-07T23:00:01.252251+00:00</updated>
+  <updated>2026-09-08T05:08:43.032068+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -28,54 +28,104 @@
     <link rel="enclosure" href="https://pydantic.dev/articles/linguistic-drift-at-the-frontier/og.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/5edca772449ad3ea</id>
-    <title>the-steward 0.2.54</title>
-    <updated>2026-09-07T22:58:07+00:00</updated>
-    <content>The Steward — a continuously-watching guardian that spends intelligence only on novelty, investigates it to a decision-ready conclusion, verifies against reality over time, and surfaces exactly what a human or an agent needs. The flagship inferroute application.</content>
-    <link href="https://pypi.org/project/the-steward/0.2.54/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2</id>
+    <title>memory-arbiter-mcp 0.15.8</title>
+    <updated>2026-09-08T05:08:24+00:00</updated>
+    <content>Local MCP memory with evidence-based recall and explicit conflict governance.</content>
+    <link href="https://pypi.org/project/memory-arbiter-mcp/0.15.8/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T22:58:07+00:00</published>
+    <published>2026-09-08T05:08:24+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/bb780e59c3cd791b</id>
-    <title>litscan 2.1.1</title>
-    <updated>2026-09-07T22:58:00+00:00</updated>
-    <content>A small CLI tool that scans a codebase for string and numeric literals, helping you quickly spot hard-coded values in source files.</content>
-    <link href="https://pypi.org/project/litscan/2.1.1/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/43b1b3a2f3fd9af1</id>
+    <title>neatxlsx 0.2.1</title>
+    <updated>2026-09-08T05:08:16+00:00</updated>
+    <content>Opinionated XLSX report-table writer for Polars.</content>
+    <link href="https://pypi.org/project/neatxlsx/0.2.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T22:58:00+00:00</published>
+    <published>2026-09-08T05:08:16+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/a1c9d6ae03530463</id>
-    <title>labbstart 0.4.5</title>
-    <updated>2026-09-07T22:57:51+00:00</updated>
-    <content>CLI tool to kickstart Django projects with labb</content>
-    <link href="https://pypi.org/project/labbstart/0.4.5/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/75fb48587a4e6100</id>
+    <title>rocket-welder-sdk 2.19.1.dev89</title>
+    <updated>2026-09-08T05:08:14+00:00</updated>
+    <content>High-performance video streaming SDK for RocketWelder services using ZeroBuffer IPC</content>
+    <link href="https://pypi.org/project/rocket-welder-sdk/2.19.1.dev89/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T22:57:51+00:00</published>
+    <published>2026-09-08T05:08:14+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/519d687fff760579</id>
-    <title>labbicons 0.4.5</title>
-    <updated>2026-09-07T22:57:42+00:00</updated>
-    <content>Icon components library for labb UI and django projects</content>
-    <link href="https://pypi.org/project/labbicons/0.4.5/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/84481cc10df913e9</id>
+    <title>sbmlsim 0.5.0</title>
+    <updated>2026-09-08T05:07:47+00:00</updated>
+    <content>sbmlsim are python utilities for the simulation of SBML models.</content>
+    <link href="https://pypi.org/project/sbmlsim/0.5.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T22:57:42+00:00</published>
+    <published>2026-09-08T05:07:47+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/e4645f1389e6d25a</id>
-    <title>labbdocs 0.4.5</title>
-    <updated>2026-09-07T22:57:33+00:00</updated>
-    <content>Documentation for the labb project</content>
-    <link href="https://pypi.org/project/labbdocs/0.4.5/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/963a444f5d18279b</id>
+    <title>ModelMetre 0.2.1</title>
+    <updated>2026-09-08T05:07:33+00:00</updated>
+    <content>Multi-provider LLM cost observability SDK</content>
+    <link href="https://pypi.org/project/modelmetre/0.2.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T22:57:33+00:00</published>
+    <published>2026-09-08T05:07:33+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7</id>
+    <title>Graham Dumpleton: Zero-code tracing with wrapture</title>
+    <updated>2026-09-08T01:39:22+00:00</updated>
+    <content>The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-08T01:39:22+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/8c7994ba519e7580</id>
+    <title>Alibaba Cloud, Ant Group, Cambricon and Huawei Come Together in Shanghai to Advance the Open Source AI Stack at PyTorch Conference China</title>
+    <updated>2026-09-08T01:00:02+00:00</updated>
+    <content>China’s leading AI technology companies Alibaba Cloud, Cambricon and Ant Group join the PyTorch Foundation as members Summary Alibaba Cloud and Cambricon joined the PyTorch Foundation as Platinum members, and...</content>
+    <link href="https://pytorch.org/blog/alibaba-cloud-ant-group-cambricon-and-huawei-come-together-in-shanghai-to-advance-the-open-source-ai-stack-at-pytorch-conference-china/" rel="alternate"/>
+    <category term="PyTorch" label="PyTorch"/>
+    <published>2026-09-08T01:00:02+00:00</published>
+    <dc:creator>PyTorch</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/df66e6ebf2cb9e3a</id>
+    <title>Cambricon Joins the PyTorch Foundation as a Platinum Member</title>
+    <updated>2026-09-08T00:59:13+00:00</updated>
+    <content>The PyTorch Foundation, a community-driven hub for open source AI under the Linux Foundation, is announcing today that Cambricon has joined as a Platinum member. Founded in 2016, Cambricon is...</content>
+    <link href="https://pytorch.org/blog/cambricon-joins-the-pytorch-foundation-as-a-platinum-member/" rel="alternate"/>
+    <category term="PyTorch" label="PyTorch"/>
+    <published>2026-09-08T00:59:13+00:00</published>
+    <dc:creator>PyTorch</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f</id>
+    <title>Graham Dumpleton: Live tracing with wrapture</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding </content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47</id>
@@ -406,21 +456,6 @@
     </media:group>
     <dc:creator>PyTorch</dc:creator>
     <link rel="enclosure" href="https://pytorch.org/wp-content/uploads/2026/08/Bengaluru-Event-1024x345.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/46e258e3b256104f</id>
-    <title>Graham Dumpleton: Live tracing with wrapture</title>
-    <updated>2026-09-07T01:39:16+00:00</updated>
-    <content>When I wrote about unit testing with wrapture the pattern in every test was the same: create a binding on a method, open a timeline() , run the code, and read the recorded calls off the tape. What I did not say at the time is that nothing about a binding is specific to testing. A binding observes a call site and emits events, and what happens to those events is decided by whoever is listening. In a test the listener is a tape. Take the tape away and register something else, and the same binding </content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/live-tracing-with-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-07T01:39:16+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e</id>
@@ -925,21 +960,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://opengraph.githubassets.com/54f11ba6/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/46906374a851f189</id>
-    <title>PyCoder’s Weekly: Issue #750: State of Django, PSF Elections, Python 3.15, and More (2026-09-01)</title>
-    <updated>2026-09-01T19:30:00+00:00</updated>
-    <content>#750 – SEPTEMBER 1, 2026 View in Browser » The State of Django 2026: Boring Is So Back A summary of this year’s State of Django report which draws on responses from nearly 3,500 developers across more than 40 countries: from students in their first year to veterans with decades of experience. WILL VINCENT 2026 PSF Board Election Interviews This is a collection of interviews of the various candidates running for the Python Software Foundation Board. Many of the posts also include links to AMA ses</content>
-    <link href="https://pycoders.com/issues/750" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-01T19:30:00+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7767a1637395e669</id>
@@ -1887,16 +1907,6 @@ For much of that time, spaced repetition has been something I would recommend le
     <link rel="enclosure" href="https://www.python.org/static/opengraph-icon-200x200.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/73cb02dfdc3fb85f</id>
-    <title>Triton Plugin Extensions: Enabling TLX and Custom Compiler Passes Out of the Box</title>
-    <updated>2026-07-15T15:09:15+00:00</updated>
-    <content>TLDR The PyTorch-Triton 3.7 release introduces the Triton Plugin Extensions system, a framework for dynamically loading custom compiler passes, dialects (including their ops), and DSL extensions into upstream Triton at...</content>
-    <link href="https://pytorch.org/blog/triton-plugin-extensions-enabling-tlx-and-custom-compiler-passes-out-of-the-box/" rel="alternate"/>
-    <category term="PyTorch" label="PyTorch"/>
-    <published>2026-07-15T15:09:15+00:00</published>
-    <dc:creator>PyTorch</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/6f3b5ec36b430a90</id>
     <title>AI on Your Own Terms: Anaconda Acquires Kilo Code</title>
     <updated>2026-07-15T13:03:23+00:00</updated>
@@ -1985,16 +1995,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>PEPs</dc:creator>
     <link rel="enclosure" href="https://peps.python.org/_static/og-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/8b70ca0ae1958279</id>
-    <title>Towards Free Normalization: Fusing Normalization into GEMM and Attention Kernels</title>
-    <updated>2026-07-10T14:35:48+00:00</updated>
-    <content>TL;DR In this blog post, we present various novel kernel fusion techniques for common normalization ops like LayerNorm and RMSNorm, which provide significant speedup by reducing the memory-IO overhead of...</content>
-    <link href="https://pytorch.org/blog/towards-free-normalization-fusing-normalization-into-gemm-and-attention-kernels/" rel="alternate"/>
-    <category term="PyTorch" label="PyTorch"/>
-    <published>2026-07-10T14:35:48+00:00</published>
-    <dc:creator>PyTorch</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/94832d74e7448a3d</id>

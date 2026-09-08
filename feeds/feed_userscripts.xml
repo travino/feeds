@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-07T23:01:03.639158+00:00</updated>
+  <updated>2026-09-08T05:09:20.506164+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,46 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/5352093b7706931e</id>
+    <title>BUAA校园网保活 — lzszz</title>
+    <updated>2026-09-08T03:42:09+00:00</updated>
+    <content>默认每两小时整点检查校园网；修改crontab调整时间，账号密码在用户配置中填写。</content>
+    <link href="https://scriptcat.org/script-show-page/7895" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T03:42:09+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/3f3813eac806691c</id>
+    <title>Minimal Desktop 网页剪藏 — 5855144</title>
+    <updated>2026-09-08T02:14:34+00:00</updated>
+    <content>使用可拖动的 U 形悬浮菜单打开 Minimal Desktop，或将当前网页添加到桌面、书签。</content>
+    <link href="https://scriptcat.org/script-show-page/7893" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T02:14:34+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/a7418dab30263d25</id>
+    <title>世强+立创(Sekorm/LCSC) 免登录浏览增强 — yanguin</title>
+    <updated>2026-09-08T01:13:08+00:00</updated>
+    <content>①世强硬创平台(sekorm.com)：自动关闭登录拦截弹窗，免登录浏览产品参数与资料预览；②立创商城(szlcsc.com)：游客搜索次数达上限被强制跳转到 passport.jlc.com 登录页时，自动重置游客会话（含 HttpOnly Cookie、各域本地存储）、获取新游客身份并跳回搜索结果，失败时提供手动重试。</content>
+    <link href="https://scriptcat.org/script-show-page/7891" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T01:13:08+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/de99cd3c5e1f0a59</id>
+    <title>酷家乐公式编辑器重制 — hejie13250</title>
+    <updated>2026-09-08T01:01:13+00:00</updated>
+    <content>按VSCode风格重写酷家乐参数化编辑器「公式编辑器」弹窗：左侧函数树+中间字段面板+右侧高亮代码编辑器，支持格式化、Ctrl+/ 行注释、函数文档、字段自动识别（#参数 / @shelf）。</content>
+    <link href="https://scriptcat.org/script-show-page/7890" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-08T01:01:13+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/16a1cfd09957258a</id>
     <title>网盘智能识别助手 (优化版) — 辻弌20</title>
@@ -90,6 +130,16 @@
     <link href="https://scriptcat.org/script-show-page/7875" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-09-07T07:15:22+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/8ea4ec708f82fd04</id>
+    <title>妖火好帖工坊 (精准实名收录增强版) — cccl2026</title>
+    <updated>2026-09-07T04:57:44+00:00</updated>
+    <content>看帖一键收录好帖，底层精准提取本人ID与原帖作者ID；支持本人收录管理与可用率打卡。</content>
+    <link href="https://scriptcat.org/script-show-page/7874" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-07T04:57:44+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>
@@ -1450,56 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7680" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-26T15:23:06+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/97168ec54728eed9</id>
-    <title>GSecurity AutoNavGuard (Via) — 咕咕呱呱</title>
-    <updated>2026-08-26T14:13:54+00:00</updated>
-    <content>自己使用，手机版Via自动跳转防护兜底：平时零界面，拦截网页脚本发起的跨站跳转、可疑协议、表单直提、伪点击与 meta refresh，弹窗询问后再放行；建议配合 Via『重定向到非同源界面前先询问』使用。</content>
-    <link href="https://scriptcat.org/script-show-page/7679" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T14:13:54+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/d9261144381ffb2c</id>
-    <title>抖音精选页 SPA 视频跳转 B站模式 — Samliu</title>
-    <updated>2026-08-26T13:38:59+00:00</updated>
-    <content>将抖音网页版 jingxuan 页面的默认 SPA 弹窗播放改为新标签页打开 /video/XXX 标准视频页（类似 B 站播放逻辑）。</content>
-    <link href="https://scriptcat.org/script-show-page/7678" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T13:38:59+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/2e8bb03c54a18b3d</id>
-    <title>iTalent 考勤加班助手 — hxlong</title>
-    <updated>2026-08-26T13:38:27+00:00</updated>
-    <content>北森(iTalent)考勤数据解析 + 加班识别 + CSV 导出 + 加班申请自动填充。考勤数据经油猴本地存储跨页面/刷新保留；「批量加班」弹窗不再注入悬浮按钮，改由油猴菜单触发：菜单「填充加班」/「导出弹窗表单结构」经 postMessage 广播给弹窗 iframe 执行。填充逻辑不变：按真实结构(.customFieldsTr)定位明细行，加班日期走日历弹层点选、开始/结束时间走时间面板点选（时段+时+分），时长由系统自动计算。填充完成面板消息精简为一行结果，诊断日志进控制台(F12)。只在点「解析页面」时采集，不自动同步、不拦截请求。</content>
-    <link href="https://scriptcat.org/script-show-page/7677" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T13:38:27+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/46d12de4a0a19809</id>
-    <title>流媒体聚合搜索 &amp; 下载器快捷启动（增强版 v3.13） — admin789</title>
-    <updated>2026-08-26T11:28:35+00:00</updated>
-    <content>聚合搜索主流正版流媒体（可自定义平台 + 分组 + 单独开关），支持更多下载器，收藏搜索历史（可导出），深色模式；站点内合规「解析下载」启动器，自动采集页面 &lt;video&gt;/&lt;a href="*.m3u8"&gt; 等直链并填入下载框；可一键内嵌「可配置解析服务列表」解析本页（vlogdownloader / tool77 等，可运行时添加，选择持久化）；新增「🚀 启动 AIX」按钮（仅跳转/打开独立 AIX 扩展并复制本页链接，解析由 AIX 自身完成，不提取受 DRM 保护的流）。仅用于合法内容。</content>
-    <link href="https://scriptcat.org/script-show-page/7674" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T11:28:35+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/cbcf74570f64bb76</id>
-    <title>YouTube 長按右鍵加速播放 — jjjghu</title>
-    <updated>2026-08-26T11:06:52+00:00</updated>
-    <content>短按「→」維持 YouTube 原本快轉 5 秒的行為；長按「→」時將影片加速播放，放開恢復原速；長按期間按「↑/↓」可調整加速倍率，並會跨影片、跨頁面持久保存</content>
-    <link href="https://scriptcat.org/script-show-page/7673" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T11:06:52+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

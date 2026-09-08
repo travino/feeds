@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-07T23:00:03.320208+00:00</updated>
+  <updated>2026-09-08T05:08:43.421063+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85951</id>
+    <title>Mix Of The Day: Ne/Re/A</title>
+    <updated>2026-09-08T05:00:54+00:00</updated>
+    <content>White-hot, relentless techno.</content>
+    <link href="https://ra.co/news/85951" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-08T05:00:54+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-04-sep-2026-02-45-pm-242.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-04-sep-2026-02-45-pm-242.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-04-sep-2026-02-45-pm-242.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/news/85830</id>
     <title>Mix Of The Day: Shlohmo</title>
@@ -2797,19 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-57-pm-5435.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-57-pm-5435.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85831</id>
-    <title>DFA Records releases 'The Whole Of The Moon' tribute to Optimo's JD Twitch</title>
-    <updated>2026-08-20T10:45:33+00:00</updated>
-    <content>The one-time release from supergroup The Watergirls features Teamy, Mhairi McClymont, James Murphy, Bob Weston and more.</content>
-    <link href="https://ra.co/news/85831" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-20T10:45:33+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-18-pm-7029.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-18-pm-7029.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-19-aug-2026-04-18-pm-7029.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

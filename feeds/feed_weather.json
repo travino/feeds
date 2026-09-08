@@ -5,6 +5,26 @@
   "home_page_url": "https://weather.trfny.com/",
   "items": [
     {
+      "id": "tag:travny,2026:weather:koscielec:current:2026-09-08T02:00:50.058Z",
+      "title": "Kościelec (Chrzanów): zachmurzenie, 11.4°C",
+      "content_text": "temperatura -3.9°C → 11.4°C. Mediana 3 źródeł: 11.4°C (rozrzut 10.8–12.9°C), wiatr 1.5 m/s, wilgotność 75%, UV 0.",
+      "date_published": "2026-09-08T02:00:50Z",
+      "date_modified": "2026-09-08T02:00:50Z",
+      "tags": [
+        "current_change"
+      ]
+    },
+    {
+      "id": "tag:travny,2026:weather:koscielec:air:2026-09-08T00:00:48.784Z",
+      "title": "Kościelec (Chrzanów): jakość powietrza — dobra (AQI 40)",
+      "content_text": "Europejski indeks AQI 40 (dobra). PM2.5 15.6 µg/m³, PM10 19.6 µg/m³. Dominujący pyłek: bylica (6 ziaren/m³).",
+      "date_published": "2026-09-08T00:00:48Z",
+      "date_modified": "2026-09-08T00:00:48Z",
+      "tags": [
+        "air_quality_change"
+      ]
+    },
+    {
       "id": "tag:travny,2026:weather:koscielec:current:2026-09-07T22:00:48.382Z",
       "title": "Kościelec (Chrzanów): zachmurzenie, 15.3°C",
       "content_text": "temperatura -4.5°C → 15.3°C. Mediana 3 źródeł: 15.3°C (rozrzut 15.3–16.1°C), wiatr 2.1 m/s, wilgotność 65%, UV 0.",
@@ -582,26 +602,6 @@
       "date_modified": "2026-08-31T06:00:38Z",
       "tags": [
         "warning_new"
-      ]
-    },
-    {
-      "id": "tag:travny,2026:weather:koscielec:current:2026-08-31T02:00:12.104Z",
-      "title": "Kościelec (Chrzanów): zachmurzenie, 16°C",
-      "content_text": "temperatura -3.8°C → 16°C. Mediana 3 źródeł: 16°C (rozrzut 15.8–17.1°C), wiatr 1 m/s, wilgotność 78%, UV 0.",
-      "date_published": "2026-08-31T02:00:12Z",
-      "date_modified": "2026-08-31T02:00:12Z",
-      "tags": [
-        "current_change"
-      ]
-    },
-    {
-      "id": "tag:travny,2026:weather:koscielec:air:2026-08-30T22:00:11.615Z",
-      "title": "Kościelec (Chrzanów): jakość powietrza — bardzo dobra (AQI 19)",
-      "content_text": "Europejski indeks AQI 19 (bardzo dobra). PM2.5 10.1 µg/m³, PM10 13.4 µg/m³. Dominujący pyłek: ambrozja (4 ziaren/m³).",
-      "date_published": "2026-08-30T22:00:11Z",
-      "date_modified": "2026-08-30T22:00:11Z",
-      "tags": [
-        "air_quality_change"
       ]
     }
   ]

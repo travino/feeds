@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T22:59:10.185253+00:00",
+  "last_updated": "2026-09-08T05:07:58.469794+00:00",
   "entries": [
     {
       "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
@@ -1674,6 +1674,24 @@
       "source": "Hugging Face Posts",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Aurelien-Morgan/656385261354634.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/f8f4a7fd7a452583"
+    },
+    {
+      "title": "🚀 OxCoder-9B — a lightweight agentic coding model, now on HF!",
+      "link": "https://huggingface.co/posts/DedeProGames/794706064038759",
+      "date": "2026-09-08T05:07:57.396807+00:00",
+      "description": "🚀 OxCoder-9B — a lightweight agentic coding model, now on HF! Introducing OxCoder-9B, a 9B parameter model built for long-horizon tasks, agentic coding, and agentic reasoning. Despite its compact size, it delivers frontier-level performance in Agentic Terminal and Agentic Coding, rivaling models many times its size. Highlights: - Trained on frontier agent traces — distilled from Fable-5.1 and GLM-5.3 agentic coding trajectories across Claude Code, OpenCode, and Codex - 262K native context — handles complex, multi-file codebases and long-horizon reasoning tasks with ease - Error recovery — learns read-before-write patterns, responds to LSP diagnostics, and applies minimal edit diffs instead o",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/dbbef82039ceeada"
+    },
+    {
+      "title": "How often can an email make your AI agent move money?",
+      "link": "https://huggingface.co/posts/mihailgribov/920141481244709",
+      "date": "2026-09-08T05:07:57.396807+00:00",
+      "description": "How often can an email make your AI agent move money? We gave the agent one job: log an incoming email. But the emails carried an indirect prompt injection - a second instruction, written for the agent rather than for a person: make a payment. Across nine agentic models, the same injected emails produced payment orders in **0% to 42%** of cases. All nine ran under the same conditions - one agent, one set of tools, the same 395 emails - so the numbers compare directly. And the average score hides the interesting part: different models fail on different kinds of injections. Full experiment and results: https://huggingface.co/blog/mihailgribov/agentic-models-measured-on-the-injections-that-mov ",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/664537fc57210744a6f928ef/HOemrkRD-KchTguQmslNM.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/d2a1557718307801"
     }
   ]
 }

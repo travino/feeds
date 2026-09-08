@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-09-07T22:59:49.903641+00:00</updated>
+  <updated>2026-09-08T05:08:35.349429+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -165,6 +165,20 @@
       <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
     </media:group>
     <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/6ibCaqsoO7F6XCNCIO8zaZ/9475cdebc1f0af100414f1c85860fc4c/Hero_16x9.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/openai/7077818f0d7c47a3</id>
+    <title>Zendesk and OneNote plugins in ChatGPT and Codex</title>
+    <updated>2026-09-03T00:00:00+00:00</updated>
+    <content>Today, we added the Zendesk and OneNote plugins in the Plugin directory. The Zendesk plugin helps teams review support tickets and customer history, find relevant knowledge, and prepare replies in ChatGPT and Codex. Members connect their own Zendesk accounts to work with the support information they can access. The OneNote plugin helps you find and summarize notes, gather decisions and action items, and create or update notes through supported actions in ChatGPT and Codex.</content>
+    <link href="https://openai.com/products/release-notes#CL-20260903-CHAT-451" rel="alternate"/>
+    <category term="OpenAI Release notes" label="OpenAI Release notes"/>
+    <published>2026-09-03T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" medium="image" height="900" width="1600"/>
+      <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
+    </media:group>
+    <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/openai/fbe4e86d99c5f2cd</id>
@@ -445,6 +459,20 @@
       <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/4P7k1TvvR84R1Pz53CGvPp/d48aee58b6ce31782b9e6188e03a5382/gilbert-tobin-customer-story-seo.webp?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
     </media:group>
     <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/4P7k1TvvR84R1Pz53CGvPp/d48aee58b6ce31782b9e6188e03a5382/gilbert-tobin-customer-story-seo.webp?w=1600&amp;h=900&amp;fit=fill" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/openai/bf3b44213e16c088</id>
+    <title>IPv6 support for api.openai.com</title>
+    <updated>2026-09-01T00:00:00+00:00</updated>
+    <content>Connections to `api.openai.com` can now use IPv6.</content>
+    <link href="https://openai.com/products/release-notes#CL-20260901-APIP-450" rel="alternate"/>
+    <category term="OpenAI Release notes" label="OpenAI Release notes"/>
+    <published>2026-09-01T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" medium="image" height="900" width="1600"/>
+      <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
+    </media:group>
+    <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/openai/0295c5bab6adbad1</id>
@@ -2743,37 +2771,5 @@
       <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/3fyGPrm9EzNjtYNlcxQmCJ/4f05bda009dafc919f2e8dc1463c5c81/avatarin-seo-contentful.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
     </media:group>
     <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/3fyGPrm9EzNjtYNlcxQmCJ/4f05bda009dafc919f2e8dc1463c5c81/avatarin-seo-contentful.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/openai/0376b6a8f4a825f5</id>
-    <title>Browser upgrades, multi-repository review, and image editing 26.727</title>
-    <updated>2026-07-30T00:00:00+00:00</updated>
-    <content>The latest ChatGPT desktop app update makes browsing, reviewing code, and
-editing generated images faster and easier. Browse and find context faster Type in the built-in browser’s address bar to revisit pages from your
-browsing history or search Google when there’s no match. Manage your browsing history in Settings, and let ChatGPT search that
-history when a task needs to find a page you visited before. Use the Chrome extension to mention open tabs or bring highlighted page
-text into your side c</content>
-    <link href="https://learn.chatgpt.com/docs/changelog#codex-2026-07-30-app" rel="alternate"/>
-    <category term="ChatGPT changelog" label="ChatGPT changelog"/>
-    <published>2026-07-30T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://learn.chatgpt.com/og/docs/changelog.png" height="630" width="1200"/>
-    </media:group>
-    <link rel="enclosure" href="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/openai/30f0dd37525834f7</id>
-    <title>Browser upgrades, multi-repository review, and image editing</title>
-    <updated>2026-07-30T00:00:00+00:00</updated>
-    <content>Browse faster, review changes across repositories, and refine generated images in the ChatGPT desktop app.</content>
-    <link href="https://developers.openai.com/codex/changelog/#codex-2026-07-30-app" rel="alternate"/>
-    <category term="OpenAI Codex" label="OpenAI Codex"/>
-    <published>2026-07-30T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://learn.chatgpt.com/og/docs/changelog.png" height="630" width="1200"/>
-    </media:group>
-    <link rel="enclosure" href="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" length="0"/>
   </entry>
 </feed>

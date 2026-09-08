@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-07T22:59:10.076908+00:00</updated>
+  <updated>2026-09-08T05:07:58.364381+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/d2a1557718307801</id>
+    <title>How often can an email make your AI agent move money?</title>
+    <updated>2026-09-08T05:07:57.396807+00:00</updated>
+    <content>How often can an email make your AI agent move money? We gave the agent one job: log an incoming email. But the emails carried an indirect prompt injection - a second instruction, written for the agent rather than for a person: make a payment. Across nine agentic models, the same injected emails produced payment orders in **0% to 42%** of cases. All nine ran under the same conditions - one agent, one set of tools, the same 395 emails - so the numbers compare directly. And the average score hides the interesting part: different models fail on different kinds of injections. Full experiment and results: https://huggingface.co/blog/mihailgribov/agentic-models-measured-on-the-injections-that-mov </content>
+    <link href="https://huggingface.co/posts/mihailgribov/920141481244709" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-08T05:07:57.396807+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-uploads.huggingface.co/production/uploads/664537fc57210744a6f928ef/HOemrkRD-KchTguQmslNM.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-uploads.huggingface.co/production/uploads/664537fc57210744a6f928ef/HOemrkRD-KchTguQmslNM.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/664537fc57210744a6f928ef/HOemrkRD-KchTguQmslNM.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/dbbef82039ceeada</id>
+    <title>🚀 OxCoder-9B — a lightweight agentic coding model, now on HF!</title>
+    <updated>2026-09-08T05:07:57.396807+00:00</updated>
+    <content>🚀 OxCoder-9B — a lightweight agentic coding model, now on HF! Introducing OxCoder-9B, a 9B parameter model built for long-horizon tasks, agentic coding, and agentic reasoning. Despite its compact size, it delivers frontier-level performance in Agentic Terminal and Agentic Coding, rivaling models many times its size. Highlights: - Trained on frontier agent traces — distilled from Fable-5.1 and GLM-5.3 agentic coding trajectories across Claude Code, OpenCode, and Codex - 262K native context — handles complex, multi-file codebases and long-horizon reasoning tasks with ease - Error recovery — learns read-before-write patterns, responds to LSP diagnostics, and applies minimal edit diffs instead o</content>
+    <link href="https://huggingface.co/posts/DedeProGames/794706064038759" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-08T05:07:57.396807+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/f8f4a7fd7a452583</id>
     <title>@</title>

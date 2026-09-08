@@ -8,6 +8,38 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/652c79981097cf58",
+      "url": "https://www.cloudflarestatus.com/incidents/qz292kvy220g",
+      "title": "Cache Reserve Issue in Paris",
+      "content_text": "Sep 8 , 04:42 UTC Identified - The issue has been identified and a fix is being implemented. Sep 8 , 03:25 UTC Investigating - Cloudflare is investigating an issue with Cache Reserve errors in Paris (CDG). Customers may see an elevated request volume to origin servers in the forementioned region.\n\nWe are working to analyse and mitigate this problem.  More updates to follow shortly.",
+      "date_published": "2026-09-08T04:42:58Z",
+      "date_modified": "2026-09-08T04:42:58Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d6e560bc521762c1",
+      "url": "https://www.cloudflarestatus.com/incidents/pjr4m9q1xxb1",
+      "title": "Cloudflare Account Member Invite Issue",
+      "content_text": "Sep 8 , 01:42 UTC Resolved - This incident has been resolved. Sep 8 , 01:32 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 8 , 00:35 UTC Investigating - Cloudflare customers may experience an issue when invited to a new account. An error message is displayed, \"Invaild redirect_url\". \n\nA workaround can be used:\n* Invited members create an account directly from the dashboard (not using the email link)\n* Admin resends invitation\n* Invited member clicks new link a",
+      "date_published": "2026-09-08T01:42:38Z",
+      "date_modified": "2026-09-08T01:42:38Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d5334cf67241ae07",
       "url": "https://www.cloudflarestatus.com/incidents/z16209cfb1xv",
       "title": "Browser Isolation Session Initialization Failures",
@@ -1933,22 +1965,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/374a2a832f9e6a6e",
-      "url": "https://www.cloudflarestatus.com/incidents/5g1nlg4hc2lh",
-      "title": "Network performance issue in Singapore",
-      "content_text": "Aug 20 , 05:58 UTC Resolved - This incident has been resolved. Aug 20 , 05:50 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 20 , 05:41 UTC Investigating - Cloudflare is investigating issues with network performance in Singapore. We are working to analyse and mitigate this problem. More updates to follow shortly.",
-      "date_published": "2026-08-20T05:58:05Z",
-      "date_modified": "2026-08-20T05:58:05Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/d0605367720be971",
       "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-leaked-credentials-authorization-header/",
       "title": "WAF - Leaked credentials detection now scans Authorization headers",
@@ -2084,22 +2100,6 @@
           "url": "https://developers.cloudflare.com/og-changelog.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/45e48527e916c30c",
-      "url": "https://www.cloudflarestatus.com/incidents/877bn0l3ptp8",
-      "title": "Elevated error rates in Chicago (ORD) region.",
-      "content_text": "Aug 19 , 23:23 UTC Resolved - This incident has been resolved. Aug 19 , 21:19 UTC Investigating - We are investigating reports of elevated error rates in the Chicago (ORD) region.",
-      "date_published": "2026-08-19T23:23:29Z",
-      "date_modified": "2026-08-19T23:23:29Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
       ]
     },
     {

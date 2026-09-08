@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T18:52:36.507043+00:00",
+  "last_updated": "2026-09-08T05:09:20.598019+00:00",
   "entries": [
     {
       "title": "Greasemonkey 3.6 Release",
@@ -5660,6 +5660,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/93bd58f1140cb69b"
     },
     {
+      "title": "妖火好帖工坊 (精准实名收录增强版) — cccl2026",
+      "link": "https://scriptcat.org/script-show-page/7874",
+      "date": "2026-09-07T04:57:44+00:00",
+      "description": "看帖一键收录好帖，底层精准提取本人ID与原帖作者ID；支持本人收录管理与可用率打卡。",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/8ea4ec708f82fd04"
+    },
+    {
       "title": "Bilibili 合集链接提取面板 — wanzhongqiang",
       "link": "https://scriptcat.org/script-show-page/7875",
       "date": "2026-09-07T07:15:22+00:00",
@@ -5730,6 +5739,42 @@
       "source": "ScriptCat",
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/16a1cfd09957258a"
+    },
+    {
+      "title": "酷家乐公式编辑器重制 — hejie13250",
+      "link": "https://scriptcat.org/script-show-page/7890",
+      "date": "2026-09-08T01:01:13+00:00",
+      "description": "按VSCode风格重写酷家乐参数化编辑器「公式编辑器」弹窗：左侧函数树+中间字段面板+右侧高亮代码编辑器，支持格式化、Ctrl+/ 行注释、函数文档、字段自动识别（#参数 / @shelf）。",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/de99cd3c5e1f0a59"
+    },
+    {
+      "title": "世强+立创(Sekorm/LCSC) 免登录浏览增强 — yanguin",
+      "link": "https://scriptcat.org/script-show-page/7891",
+      "date": "2026-09-08T01:13:08+00:00",
+      "description": "①世强硬创平台(sekorm.com)：自动关闭登录拦截弹窗，免登录浏览产品参数与资料预览；②立创商城(szlcsc.com)：游客搜索次数达上限被强制跳转到 passport.jlc.com 登录页时，自动重置游客会话（含 HttpOnly Cookie、各域本地存储）、获取新游客身份并跳回搜索结果，失败时提供手动重试。",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/a7418dab30263d25"
+    },
+    {
+      "title": "Minimal Desktop 网页剪藏 — 5855144",
+      "link": "https://scriptcat.org/script-show-page/7893",
+      "date": "2026-09-08T02:14:34+00:00",
+      "description": "使用可拖动的 U 形悬浮菜单打开 Minimal Desktop，或将当前网页添加到桌面、书签。",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/3f3813eac806691c"
+    },
+    {
+      "title": "BUAA校园网保活 — lzszz",
+      "link": "https://scriptcat.org/script-show-page/7895",
+      "date": "2026-09-08T03:42:09+00:00",
+      "description": "默认每两小时整点检查校园网；修改crontab调整时间，账号密码在用户配置中填写。",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/5352093b7706931e"
     }
   ]
 }
