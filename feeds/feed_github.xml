@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.blog/</id>
   <title>GitHub</title>
-  <updated>2026-09-08T16:50:16.890134+00:00</updated>
+  <updated>2026-09-08T21:22:32.399265+00:00</updated>
   <author>
     <name>GitHub</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://github.blog/favicon.ico</icon>
   <logo>https://github.blog/favicon.ico</logo>
   <subtitle>Combined GitHub feed: GitHub blogs and changelogs, GitHub Status, Mergify, BeeWare News, Komi Store, the Git tooling ecosystem, Track Awesome List and deduplicated GitHub trending streams.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/49d221fd67ecbe45</id>
+    <title>New customer portal help.github.com</title>
+    <updated>2026-09-08T18:00:10+00:00</updated>
+    <content>The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search… The post New customer portal help.github.com appeared first on The GitHub Blog .</content>
+    <link href="https://github.blog/changelog/2026-09-08-new-customer-portal-help-github-com" rel="alternate"/>
+    <category term="GitHub Changelog" label="GitHub Changelog"/>
+    <published>2026-09-08T18:00:10+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg" type="image/jpeg" medium="image" height="1260" width="2400"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg" height="1260" width="2400"/>
+    </media:group>
+    <dc:creator>GitHub Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/184883cf7091df33</id>
+    <title>Automatic Dependabot access to GitHub-hosted registries</title>
+    <updated>2026-09-08T16:46:05+00:00</updated>
+    <content>Dependabot can now read from private GitHub Packages registries without a personal access token. If a package has granted your repository access through “Manage Actions access” in the package settings,… The post Automatic Dependabot access to GitHub-hosted registries appeared first on The GitHub Blog .</content>
+    <link href="https://github.blog/changelog/2026-09-08-automatic-dependabot-access-to-github-hosted-registries" rel="alternate"/>
+    <category term="GitHub Changelog" label="GitHub Changelog"/>
+    <published>2026-09-08T16:46:05+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/06/600382041-4d4bc845-8e6d-469d-ad2d-7f965361151e.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/06/600382041-4d4bc845-8e6d-469d-ad2d-7f965361151e.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>GitHub Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/06/600382041-4d4bc845-8e6d-469d-ad2d-7f965361151e.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/40fa7ade7231ca85</id>
     <title>Service Account Credential Rotation: The Blast-Radius Checklist</title>
@@ -181,6 +211,21 @@
     <category term="Mergify Changelog" label="Mergify Changelog"/>
     <published>2026-09-08T00:00:00+00:00</published>
     <dc:creator>Mergify Changelog</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/7a62b50c0b73877b</id>
+    <title>Agent of the Day – September 8, 2026</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Meet CLI Version Checker, the agent that quietly keeps gh-aw's toolchain current.</content>
+    <link href="https://github.github.com/gh-aw/blog/2026-09-08-agent-of-the-day/" rel="alternate"/>
+    <category term="GitHub Agentic Workflows" label="GitHub Agentic Workflows"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.github.com/gh-aw/og-hero-1200x630.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>GitHub Agentic Workflows</dc:creator>
+    <link rel="enclosure" href="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/f832050dc996d96e</id>
@@ -1503,21 +1548,6 @@ parameter. The preferred co</content>
     <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/pages-twitter_logos/original/36420/GitHub-Mark-120px-plus.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/df7f8627ab33b6c8</id>
-    <title>Close all open contributions authored by a blocked user</title>
-    <updated>2026-08-27T16:30:52+00:00</updated>
-    <content>You can now automatically close all open issues, discussions, and pull requests authored by a user when you block them from your personal account or organization. To use this option,… The post Close all open contributions authored by a blocked user appeared first on The GitHub Blog .</content>
-    <link href="https://github.blog/changelog/2026-08-27-close-all-open-contributions-authored-by-a-blocked-user" rel="alternate"/>
-    <category term="GitHub Changelog" label="GitHub Changelog"/>
-    <published>2026-08-27T16:30:52+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_BlockedUserCloseOpenContributions-copy.jpeg" type="image/jpeg" medium="image" height="1162" width="2064"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_BlockedUserCloseOpenContributions-copy.jpeg" height="1162" width="2064"/>
-    </media:group>
-    <dc:creator>GitHub Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_BlockedUserCloseOpenContributions-copy.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/471ea8bf94e66bbd</id>
     <title>OpenClaw went viral. Meet the maintainers building and securing it.</title>
     <updated>2026-08-27T16:00:00+00:00</updated>
@@ -1561,21 +1591,6 @@ parameter. The preferred co</content>
     </media:group>
     <dc:creator>Track Awesome List</dc:creator>
     <link rel="enclosure" href="https://img.shields.io/github/created-at/duqaXxX/seedeep?style=flat-square&amp;labelColor=2b2b2b&amp;color=6b6b6b" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/4f6129e818ff5784</id>
-    <title>Enterprise-managed settings now support autoUpdate for plugin marketplaces</title>
-    <updated>2026-08-27T01:52:19+00:00</updated>
-    <content>You can now opt individual plugin marketplaces into automatic updates by setting autoUpdate: true on an extraKnownMarketplaces entry in enterprise managed settings. Supported clients automatically check the marketplace and update… The post Enterprise-managed settings now support autoUpdate for plugin marketplaces appeared first on The GitHub Blog .</content>
-    <link href="https://github.blog/changelog/2026-08-26-enterprise-managed-settings-now-support-autoupdate-for-plugin-marketplaces" rel="alternate"/>
-    <category term="GitHub Changelog" label="GitHub Changelog"/>
-    <published>2026-08-27T01:52:19+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/08/641242009-1b0de702-307f-41db-bd7f-09c2d0ce3b93.jpg" type="image/jpeg" medium="image" height="1162" width="2064"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/08/641242009-1b0de702-307f-41db-bd7f-09c2d0ce3b93.jpg" height="1162" width="2064"/>
-    </media:group>
-    <dc:creator>GitHub Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/641242009-1b0de702-307f-41db-bd7f-09c2d0ce3b93.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/03c22e05507ca79c</id>
@@ -3953,16 +3968,6 @@ https://git-annex.branchable.com/tips/how_to_make_a_s</content>
     <dc:creator>Mergify Changelog</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/ca72c4c995a8c07f</id>
-    <title>Safe templating for GitHub Actions workflow inputs</title>
-    <updated>2026-06-29T00:00:00+00:00</updated>
-    <content>Workflow-dispatch inputs in the github_actions action now use safe {{ variable }} templating, with raw Jinja2 deprecated.</content>
-    <link href="https://docs.mergify.com/changelog/2026-06-29-safe-templating-for-github-actions-workflow-inputs/" rel="alternate"/>
-    <category term="Mergify Changelog" label="Mergify Changelog"/>
-    <published>2026-06-29T00:00:00+00:00</published>
-    <dc:creator>Mergify Changelog</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/5e94abbecf00b7da</id>
     <title>Weekly Update – June 29, 2026</title>
     <updated>2026-06-29T00:00:00+00:00</updated>
@@ -3976,6 +3981,16 @@ https://git-annex.branchable.com/tips/how_to_make_a_s</content>
     </media:group>
     <dc:creator>GitHub Agentic Workflows</dc:creator>
     <link rel="enclosure" href="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/ca72c4c995a8c07f</id>
+    <title>Safe templating for GitHub Actions workflow inputs</title>
+    <updated>2026-06-29T00:00:00+00:00</updated>
+    <content>Workflow-dispatch inputs in the github_actions action now use safe {{ variable }} templating, with raw Jinja2 deprecated.</content>
+    <link href="https://docs.mergify.com/changelog/2026-06-29-safe-templating-for-github-actions-workflow-inputs/" rel="alternate"/>
+    <category term="Mergify Changelog" label="Mergify Changelog"/>
+    <published>2026-06-29T00:00:00+00:00</published>
+    <dc:creator>Mergify Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/82ae11bbbd140343</id>
@@ -4081,21 +4096,6 @@ than MD5 or SHA1. Improve handling of synced/master and s</content>
     </media:group>
     <dc:creator>GitHub Open Source</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/01/4ba0cd42388a255e04c78e5143548f22e577d68e0f15f68e6a3c76c18b927981-1920x1080-1.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/689d2793780f4418</id>
-    <title>Weekly Update – June 22, 2026</title>
-    <updated>2026-06-22T00:00:00+00:00</updated>
-    <content>This week brings a +320% compiler speed fix, a new defer-in-loop linter, gh-aw-detection rolling out to 50% of workflows, and JSON-RPC reliability improvements.</content>
-    <link href="https://github.github.com/gh-aw/blog/2026-06-22-weekly-update/" rel="alternate"/>
-    <category term="GitHub Agentic Workflows" label="GitHub Agentic Workflows"/>
-    <published>2026-06-22T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.github.com/gh-aw/og-hero-1200x630.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>GitHub Agentic Workflows</dc:creator>
-    <link rel="enclosure" href="https://github.github.com/gh-aw/og-hero-1200x630.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/01ae70b9c712808a</id>

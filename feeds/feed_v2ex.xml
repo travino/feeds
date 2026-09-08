@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-08T16:52:02.156532+00:00</updated>
+  <updated>2026-09-08T21:24:10.362017+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,56 @@
   <icon>https://www.v2ex.com/favicon.ico</icon>
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/4308a24e16833a5d</id>
+    <title>地球电台网站</title>
+    <updated>2026-09-08T21:10:22+00:00</updated>
+    <content>简介：一个可以搜索收听全球电台的网站 网站地址： https://37147a0d.pinme.dev/</content>
+    <link href="https://www.v2ex.com/t/1240542#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-08T21:10:22+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/4615d51c15c9118e</id>
+    <title>快咔更新分享：截图内容搜索（本地 RAG）、按视觉布局还原的 OCR、原生 C 匹配器长截图拼接</title>
+    <updated>2026-09-08T19:36:30+00:00</updated>
+    <content>做快咔（一款本地截图 + OCR + 图片库管理的桌面工具，Electron 壳）的团队最近发了一版更新，有几个点我觉得做得挺讲究，分享给同样在折腾截图工具链的同学： 截图内容搜索（本地 RAG ）
+所有截图的 OCR 文本进本地索引，之后可以直接用关键词搜"哪张截图里有 XXX"。全离线，不走云端。 OCR 按视觉布局还原排版
+这个是我觉得最实用的：OCR 结果不再是裸文本流，而是按截图里的视觉布局动态还原换行和段落——代码块还原成代码块的形状，表格不再挤成一坨。拿去贴文档能省不少整理工夫。 长截图拼接重做
+拼接匹配器用原生 C 重写了，修掉了向下滚动拼接错乱的老毛病。长截图对齐这种活确实适合下沉到原生层干。 模型改为按需下载
+安装包不再内置模型，装完在设置页按需下载——安装包体积直接瘦身，也方便模型独立迭代。 应用内更新
+支持在应用内检查并安装更新，不用再跳浏览器下安装包了。 另外还有一些体验修复：截图复制文字后立即退出蒙版、钉图恢复到销毁前位置、二维码/网址入索引、会议类待办预筛等。 想了解的可以自己搜"快咔"，欢迎交流截图工具链的本地化方案。</content>
+    <link href="https://www.v2ex.com/t/1240541#reply0" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-08T19:36:30+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/b16c/fa37/589358_xlarge.png?m=1772967663" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/b16c/fa37/589358_xlarge.png?m=1772967663"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/b16c/fa37/589358_xlarge.png?m=1772967663" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/f391b36ec5941fa1</id>
+    <title>做了个能在浏览器里跑真 Manim 的站，不用装 Python</title>
+    <updated>2026-09-08T18:19:54+00:00</updated>
+    <content>起因很俗：想用 Manim （ 3Blue1Brown 那套数学动画引擎）做点东西，结果一晚上都耗在装环境上。Python 版本、pip 超时、LaTeX 几个 G 、Cairo/Pango 的二进制依赖、中文字体缺失 —— 每一环都能卡住，而这些跟"做动画"没有半毛钱关系。 后来想，这层能不能整个删掉。 做法 用 Pyodide 把 真的 Manim 本体 （ Manim Community 0.20.1 ）搬进浏览器，不是重写一个近似引擎。跑不了的原生依赖逐个替掉： cairo → Canvas2D shim Pango → opentype.js （带 Noto Sans CJK SC 子集，中文和标点开箱即用） LaTeX → MathJax （子式可寻址， set_color_by_tex / TransformMatchingTex 能用） skia-pathops → 纯 Python polybool （布尔运算） 导出走 ffmpeg.wasm ，单线程，所以不需要 COOP/COEP 渲染落 Canvas2D 而不是 WebGPU —— 这条是有意的，国内不少机器和</content>
+    <link href="https://www.v2ex.com/t/1240536#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-08T18:19:54+00:00</published>
+    <media:group>
+      <media:content url="https://jizuobiao.xyz/blog/figures/math-animation-difficulty-two-paths.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://jizuobiao.xyz/blog/figures/math-animation-difficulty-two-paths.webp"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://jizuobiao.xyz/blog/figures/math-animation-difficulty-two-paths.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/8aba3cf69fa53bf2</id>
     <title>墨知，一款本地 markdown 知识库工具</title>
@@ -288,36 +338,6 @@
     <link rel="enclosure" href="https://cdn.v2ex.com/avatar/ac1f/c3f1/70513_xlarge.png?m=1782148171" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/1003a2e240a8f8be</id>
-    <title>做了一个本地保存登录状态的 Chrome 多账号切换扩展： LoginFlip</title>
-    <updated>2026-09-08T08:21:47+00:00</updated>
-    <content>平时要在工作号、测试号和自己的账号之间来回切，最烦的不是登录本身，而是退出、重新输账号，再把页面找回来这一整套动作。于是做了 LoginFlip ，把同一网站不同账号的登录状态保存成几个本地快照，需要时从扩展里直接切换。 目前 1.0.0 已经上架 Chrome 商店。它会恢复适用的 Cookie 和当前 origin 的 localStorage ，快照只保存在本机 Chrome 里；没有 LoginFlip 账号、开发者后端、云同步、统计或广告。也做了置顶、固定顺序、前四个账号快捷键、返回上一个账号，以及可选账号的口令加密导入导出。 上图是日常使用时的账号快照列表：保存一次，之后选中目标账号即可恢复对应登录状态并刷新页面。 边界也先说清楚：它是顺序切换登录快照，不是多容器，不能让多个账号同时隔离在线；遇到登录过期、SSO 、设备验证或站点自己的安全策略，还是可能需要重新登录。它也不保存或自动填写密码。 官网： https://qingtan-labs.github.io/loginflip/ Chrome 商店： https://chromewebstore.google.com/</content>
-    <link href="https://www.v2ex.com/t/1240442#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-08T08:21:47+00:00</published>
-    <media:group>
-      <media:content url="https://qingtan-labs.github.io/loginflip/assets/overview-zh.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://qingtan-labs.github.io/loginflip/assets/overview-zh.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://qingtan-labs.github.io/loginflip/assets/overview-zh.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/a50de706115fca28</id>
-    <title>做了个一个小工具站，图片转拼豆图纸</title>
-    <updated>2026-09-08T08:13:22+00:00</updated>
-    <content>最近女儿在玩拼豆，正好我最近在学做网站，拿 codex vibe 了一个图片转拼豆图纸工具站玩（ https://imagetobeads.com/ ），还挺有意思的。 老实说效果比我预期要好，我做之前搜了些站参考，好像移动端都支持的不太好，我就特意要求 codex 支持好移动端，最后给出来的效果还不错。 我做了些测试，这种纯像素压缩模式需要简单图片，像素画、头像之类的，如果是照片真就是人肉 3D 打印机了，估计没人愿意拼，复杂图估计得让 ai 处理了。 PS:本来想发几张图的，不会发🐶</content>
-    <link href="https://www.v2ex.com/t/1240437#reply5" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-08T08:13:22+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/baaf/c18c/452143_large.png?m=1573369646" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/baaf/c18c/452143_large.png?m=1573369646"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/baaf/c18c/452143_large.png?m=1573369646" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/57fcf9ed9f096a4d</id>
     <title>现在 TR069 还能互通吗？</title>
     <updated>2026-09-08T07:58:31+00:00</updated>
@@ -474,21 +494,6 @@ B 的 TR069 正常获取 IP
     </media:group>
     <dc:creator>V2EX Play</dc:creator>
     <link rel="enclosure" href="https://cdn.v2ex.com/avatar/63db/a51a/355671_xlarge.png?m=1759216422" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/4b9baa3404f43c9d</id>
-    <title>Trojan 协议从 9 月 6 日起完全阻断</title>
-    <updated>2026-09-08T02:18:41+00:00</updated>
-    <content>torjan 已经用了 10 年+ 2026.9.6 开始山东上海三网完全不可用了，端口正常域名正常，猜测完全被识别阻断。 终于还是换了 vless+reality</content>
-    <link href="https://www.v2ex.com/t/1240294#reply10" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-08T02:18:41+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/38a0/9f4d/189266_xlarge.png?m=1786982688" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/38a0/9f4d/189266_xlarge.png?m=1786982688"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/38a0/9f4d/189266_xlarge.png?m=1786982688" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/22027f07e349120e</id>

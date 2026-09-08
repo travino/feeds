@@ -8,6 +8,38 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/a403d9b2c52ac497",
+      "url": "https://www.cloudflarestatus.com/incidents/hy0gsndpkypz",
+      "title": "Intermittent issues accessing the Dashboard on Firefox and Safari",
+      "content_text": "Sep 8 , 20:25 UTC Resolved - This incident has been resolved. Sep 8 , 20:20 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 8 , 20:03 UTC Investigating - We are continuing to investigate this issue. Sep 8 , 19:39 UTC Investigating - Cloudflare is investigating intermittent issues accessing the Cloudflare Dashboard from Firefox and Safari browsers.",
+      "date_published": "2026-09-08T20:25:49Z",
+      "date_modified": "2026-09-08T20:25:49Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/ac8296914750497d",
+      "url": "https://www.cloudflarestatus.com/incidents/kq11rg5y66f2",
+      "title": "Errors in Unified Billing for some requests OpenAI models",
+      "content_text": "Sep 8 , 18:00 UTC Resolved - Customers using Unified Billing may have seen a low number of requests to OpenAI models result in errors from 18:01 to 18:34UTC on 8th of September 2026",
+      "date_published": "2026-09-08T18:00:00Z",
+      "date_modified": "2026-09-08T18:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/de2784bec6a72647",
       "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
       "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
@@ -2022,38 +2054,6 @@
           "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/b3ea76149a09ed83",
-      "url": "https://www.cloudflarestatus.com/incidents/xh5t9jy2cl6x",
-      "title": "Network Performance Issues in India",
-      "content_text": "Aug 20 , 15:14 UTC Resolved - This incident has been resolved. Aug 20 , 12:01 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 20 , 11:38 UTC Investigating - Cloudflare is investigating issues with network performance in India. We are working to analyse and mitigate this problem. More updates to follow shortly.",
-      "date_published": "2026-08-20T15:14:12Z",
-      "date_modified": "2026-08-20T15:14:12Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/5a8ffc340a6b0a20",
-      "url": "https://www.cloudflarestatus.com/incidents/76jq00tfhd4c",
-      "title": "Increased Errors for Durable Objects and Downstream Services in Indonesia",
-      "content_text": "Aug 20 , 14:00 UTC Resolved - This incident has been resolved. Aug 20 , 13:49 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 20 , 13:38 UTC Identified - The issue has been identified and a fix is being implemented. Aug 20 , 13:25 UTC Investigating - Clients connecting to Jakarta datacentre are receiving disconnected exceptions when sending requests to Durable Objects. Aug 20 , 13:10 UTC Investigating - Cloudflare is investigating issues causing an increase of",
-      "date_published": "2026-08-20T14:00:10Z",
-      "date_modified": "2026-08-20T14:00:10Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
       ]
     },
     {

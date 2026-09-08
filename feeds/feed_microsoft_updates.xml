@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://support.microsoft.com/en-us/windows</id>
   <title>Microsoft Updates</title>
-  <updated>2026-09-08T16:50:53.987858+00:00</updated>
+  <updated>2026-09-08T21:23:07.738341+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -12,6 +12,16 @@
   <icon>https://support.microsoft.com/favicon.ico</icon>
   <logo>https://support.microsoft.com/favicon.ico</logo>
   <subtitle>Windows 11/10 update histories, the Windows message center, Office Current Channel, Outlook (new/Mobile), Office Deployment Tool, and Microsoft 365 Copilot release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/0e51647b5f0686e8</id>
+    <title>The September 2026 Windows security update is now available</title>
+    <updated>2026-09-08T10:00:00+00:00</updated>
+    <content>The September 2026 security update is now available for all supported versions of Windows. We recommend that you install these updates promptly. Information about the contents of this update is available in the release notes, which are accessible from the Windows 11 update history page. For instructions on how to install this update on your home device, see the Update Windows article. To learn more about the different types of monthly quality updates, see Understanding Windows monthly updates . </content>
+    <link href="https://support.microsoft.com/help/5124008" rel="alternate"/>
+    <category term="Windows message center" label="Windows message center"/>
+    <published>2026-09-08T10:00:00+00:00</published>
+    <dc:creator>Windows message center</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/7450254d57cf90f1</id>
     <title>Outlook Mobile release notes: September 4, 2026</title>
@@ -1466,21 +1476,6 @@
     </media:group>
     <dc:creator>Outlook (new) release notes</dc:creator>
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/bfa3eb6a07fa7adb</id>
-    <title>Windows Office Hours: May 21, 2026</title>
-    <updated>2026-05-14T10:00:00+00:00</updated>
-    <content>If you are an IT admin with questions about managing and updating Windows, we want to help. Every third Thursday of the month, we host a live chat-based event on the Tech Community called Windows Office Hours. Members of the Windows, Microsoft Intune, Windows Autopilot, Windows Autopatch, and Windows 365 engineering teams will be standing by to answer your questions.</content>
-    <link href="https://techcommunity.microsoft.com/event/windowsevents/windows-office-hours-may-21-2026/4458464" rel="alternate"/>
-    <category term="Windows message center" label="Windows message center"/>
-    <published>2026-05-14T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NDU4NDY0LXJyZFJLWA?revision=3" type="image/jpeg" medium="image" height="1080" width="1920"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NDU4NDY0LXJyZFJLWA?revision=3" height="1080" width="1920"/>
-    </media:group>
-    <dc:creator>Windows message center</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NDU4NDY0LXJyZFJLWA?revision=3" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/ce2913bfbadbbdff</id>

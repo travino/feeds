@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T16:52:02.396801+00:00",
+  "last_updated": "2026-09-08T21:24:10.609867+00:00",
   "entries": [
     {
       "title": "reddit 被墙了吗，在手机上用 Apollo 客户端无法显示内容，浏览器无法打开？",
@@ -2342,15 +2342,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/38f380b5581fb0fc"
     },
     {
-      "title": "推荐个 EVM 合约对接调试的工具站",
-      "link": "https://www.v2ex.com/t/1232683#reply0",
-      "date": "2026-08-07T04:13:19+00:00",
-      "description": "开发这个工具站是因为之前做一些 dApp 的时候，合约可能处于开发阶段或其他原因没有在 etherscan 等浏览器上 verify ，区块链浏览器无法根据 abi 解析合约信息和友好显示调用的参数等，只能看到不利于阅读的字符串。 但开发时我们可能拿到、或根据源码编译出 abi 文件，这个工具站的一大作用就是可以输入 abi ，然后根据 abi 进行合约读写等操作，以及解析 calldata 、selector 等。 之前没找到比较好的相关在线工具，就自己 vibe coding 了这个工具站，欢迎有需要的人使用和提出建议。 工具站地址： https://contractrw.dev",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/1ac1ab4979eb78ae"
-    },
-    {
       "title": "站内首发？ Claude 被封禁后 5 天解封",
       "link": "https://www.v2ex.com/t/1232686",
       "date": "2026-08-07T04:25:24+00:00",
@@ -2367,24 +2358,6 @@
       "source": "V2EX Claude (blackantt)",
       "image": "https://cdn.v2ex.com/gravatar/003f1b50994eb31aeb26105920380e3a?s=73&d=retro",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/5f1aa31f3fc48042"
-    },
-    {
-      "title": "做了一个在浏览器里把照片转成十字绣图纸的小工具",
-      "link": "https://www.v2ex.com/t/1232690#reply4",
-      "date": "2026-08-07T05:07:57+00:00",
-      "description": "最近做了一个小工具 StitchFromPhoto 。 https://stitchfromphoto.com/ 它可以把 JPG 、PNG 或 WebP 照片转成十字绣图纸。原图留在本地，浏览器用 Canvas 完成转换，不需要注册账号，也不会把照片上传到服务器。 转换用的是普通算法。浏览器先把图片缩到选定的针格尺寸，再匹配接近的 DMC 参考色，然后按使用频率压缩颜色。图纸宽度可以在 30 到 120 针之间调整，颜色数量是 6 到 36 种。完成后可以来回看彩色格子图和黑白符号图，页面也会计算不同 Aida 布目数下的成品尺寸。 制作、完整预览和线色表都能免费使用。导出高清 PNG 与分块 PDF 目前是每张图片 2.99 美元。同一张原图购买后，在当前浏览器里 24 小时内可以继续调整并重复导出，没有订阅。 现在还有一些限制。颜色匹配来自一份精简的数字 DMC 参考，只能作为近似结果，做大图前最好拿实体线比较。目前只支持全针，也没有逐格编辑。 如果有人愿意试一下，我最想知道黑白符号图在大尺寸图纸上够不够清楚。单张图片付费是否容易理解，也欢迎直接说。",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/584ee725e16938d0"
-    },
-    {
-      "title": "写了个碰瓷网约车车牌查询网站",
-      "link": "https://www.v2ex.com/t/1232702#reply14",
-      "date": "2026-08-07T06:01:04+00:00",
-      "description": "现在各地网约车碰瓷的情况非常猖獗，为了反制，我收集了社交媒体的公开信息，写了个网约车碰瓷的车牌查询网站。 目前我手动插入了一些社媒上的碰瓷或者疑似碰瓷的事故记录。支持用户手动上传事故记录，经过审批后会公开。 欢迎大家提意见，如果热度高大家都觉得有意义，后期可以考虑自动化抓取录入。 网约车事故记录查询： https://pc.higrammar.com/",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/83c42f7f1941aadf"
     },
     {
       "title": "Fillin：一个会理解页面语境的 AI 填表插件（开源）",
@@ -5619,15 +5592,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9e999742f717f10a"
     },
     {
-      "title": "苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件",
-      "link": "https://www.v2ex.com/t/1234484#reply0",
-      "date": "2026-08-14T13:08:14+00:00",
-      "description": "苦于 DeepSeek Harness 没有可视化文本搜索，Vibe 了一个 dsh-better-sidebar 的扩展。支持 VsCode 同款文件搜索功能，项目链接： https://github.com/tsonglew/dsh-workspace-search",
-      "source": "V2EX Creative",
-      "image": "https://private-user-images.githubusercontent.com/14333766/636160355-0aceb14e-b4f5-4ab4-bf1e-72da35d147b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMwNTQsIm5iZiI6MTc4NjcxMjc1NCwicGF0aCI6Ii8xNDMzMzc2Ni82MzYxNjAzNTUtMGFjZWIxNGUtYjRmNS00YWI0LWJmMWUtNzJkYTM1ZDE0N2I5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM1MWNmMWIwZDg3MDEzZTA3YjBhY2I3OTA5NjVmNjQ5MDQ1YWZhZGFhNjlhYjk1ODM1MmI1ZTFlZmM0MjA3ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.G7WNF9w1vljvTj16Ns9lCbGK6jYZORpJSY38mLG8ggI",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/491fdf8e33c97c54"
-    },
-    {
       "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
       "link": "https://www.v2ex.com/t/1234483#reply1",
       "date": "2026-08-14T13:08:14+00:00",
@@ -5635,6 +5599,15 @@
       "source": "V2EX Creative",
       "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
+    },
+    {
+      "title": "苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件",
+      "link": "https://www.v2ex.com/t/1234484#reply0",
+      "date": "2026-08-14T13:08:14+00:00",
+      "description": "苦于 DeepSeek Harness 没有可视化文本搜索，Vibe 了一个 dsh-better-sidebar 的扩展。支持 VsCode 同款文件搜索功能，项目链接： https://github.com/tsonglew/dsh-workspace-search",
+      "source": "V2EX Creative",
+      "image": "https://private-user-images.githubusercontent.com/14333766/636160355-0aceb14e-b4f5-4ab4-bf1e-72da35d147b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMwNTQsIm5iZiI6MTc4NjcxMjc1NCwicGF0aCI6Ii8xNDMzMzc2Ni82MzYxNjAzNTUtMGFjZWIxNGUtYjRmNS00YWI0LWJmMWUtNzJkYTM1ZDE0N2I5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM1MWNmMWIwZDg3MDEzZTA3YjBhY2I3OTA5NjVmNjQ5MDQ1YWZhZGFhNjlhYjk1ODM1MmI1ZTFlZmM0MjA3ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.G7WNF9w1vljvTj16Ns9lCbGK6jYZORpJSY38mLG8ggI",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/491fdf8e33c97c54"
     },
     {
       "title": "分享个 dsh 插件 自动将为提交信息增加 co-author 对应模型",
@@ -6627,15 +6600,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/845f675437e6e7a1"
     },
     {
-      "title": "Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？",
-      "link": "https://www.v2ex.com/t/1234920#reply1",
-      "date": "2026-08-17T03:07:19+00:00",
-      "description": "https://github.com/agalwood/Motrix",
-      "source": "V2EX Play",
-      "image": "https://cdn.v2ex.com/avatar/a5c4/cedb/764031_xlarge.png?m=1773103759",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a0fb6b3f396db430"
-    },
-    {
       "title": "如何最大化 Claude Code Session 的价值",
       "link": "https://www.v2ex.com/t/1234919#reply0",
       "date": "2026-08-17T03:07:19+00:00",
@@ -6643,6 +6607,15 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
+    },
+    {
+      "title": "Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？",
+      "link": "https://www.v2ex.com/t/1234920#reply1",
+      "date": "2026-08-17T03:07:19+00:00",
+      "description": "https://github.com/agalwood/Motrix",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/avatar/a5c4/cedb/764031_xlarge.png?m=1773103759",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a0fb6b3f396db430"
     },
     {
       "title": "深港两地用 codex(chatgpt)用什么网络方案？",
@@ -18002,6 +17975,33 @@
       "source": "V2EX Creative",
       "image": "https://raw.githubusercontent.com/Yunz93/PicRepo/main/images/%E5%A2%A8%E7%9F%A5%E6%AD%A3%E5%BC%8F%E7%89%88-1787670846943.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/8aba3cf69fa53bf2"
+    },
+    {
+      "title": "做了个能在浏览器里跑真 Manim 的站，不用装 Python",
+      "link": "https://www.v2ex.com/t/1240536#reply1",
+      "date": "2026-09-08T18:19:54+00:00",
+      "description": "起因很俗：想用 Manim （ 3Blue1Brown 那套数学动画引擎）做点东西，结果一晚上都耗在装环境上。Python 版本、pip 超时、LaTeX 几个 G 、Cairo/Pango 的二进制依赖、中文字体缺失 —— 每一环都能卡住，而这些跟\"做动画\"没有半毛钱关系。 后来想，这层能不能整个删掉。 做法 用 Pyodide 把 真的 Manim 本体 （ Manim Community 0.20.1 ）搬进浏览器，不是重写一个近似引擎。跑不了的原生依赖逐个替掉： cairo → Canvas2D shim Pango → opentype.js （带 Noto Sans CJK SC 子集，中文和标点开箱即用） LaTeX → MathJax （子式可寻址， set_color_by_tex / TransformMatchingTex 能用） skia-pathops → 纯 Python polybool （布尔运算） 导出走 ffmpeg.wasm ，单线程，所以不需要 COOP/COEP 渲染落 Canvas2D 而不是 WebGPU —— 这条是有意的，国内不少机器和",
+      "source": "V2EX Creative",
+      "image": "https://jizuobiao.xyz/blog/figures/math-animation-difficulty-two-paths.webp",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/f391b36ec5941fa1"
+    },
+    {
+      "title": "快咔更新分享：截图内容搜索（本地 RAG）、按视觉布局还原的 OCR、原生 C 匹配器长截图拼接",
+      "link": "https://www.v2ex.com/t/1240541#reply0",
+      "date": "2026-09-08T19:36:30+00:00",
+      "description": "做快咔（一款本地截图 + OCR + 图片库管理的桌面工具，Electron 壳）的团队最近发了一版更新，有几个点我觉得做得挺讲究，分享给同样在折腾截图工具链的同学： 截图内容搜索（本地 RAG ）\n所有截图的 OCR 文本进本地索引，之后可以直接用关键词搜\"哪张截图里有 XXX\"。全离线，不走云端。 OCR 按视觉布局还原排版\n这个是我觉得最实用的：OCR 结果不再是裸文本流，而是按截图里的视觉布局动态还原换行和段落——代码块还原成代码块的形状，表格不再挤成一坨。拿去贴文档能省不少整理工夫。 长截图拼接重做\n拼接匹配器用原生 C 重写了，修掉了向下滚动拼接错乱的老毛病。长截图对齐这种活确实适合下沉到原生层干。 模型改为按需下载\n安装包不再内置模型，装完在设置页按需下载——安装包体积直接瘦身，也方便模型独立迭代。 应用内更新\n支持在应用内检查并安装更新，不用再跳浏览器下安装包了。 另外还有一些体验修复：截图复制文字后立即退出蒙版、钉图恢复到销毁前位置、二维码/网址入索引、会议类待办预筛等。 想了解的可以自己搜\"快咔\"，欢迎交流截图工具链的本地化方案。",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/avatar/b16c/fa37/589358_xlarge.png?m=1772967663",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/4615d51c15c9118e"
+    },
+    {
+      "title": "地球电台网站",
+      "link": "https://www.v2ex.com/t/1240542#reply0",
+      "date": "2026-09-08T21:10:22+00:00",
+      "description": "简介：一个可以搜索收听全球电台的网站 网站地址： https://37147a0d.pinme.dev/",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/4308a24e16833a5d"
     }
   ]
 }

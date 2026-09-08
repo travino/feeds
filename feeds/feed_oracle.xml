@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-08T16:51:13.144362+00:00</updated>
+  <updated>2026-09-08T21:23:28.006080+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,81 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/fc5e0bdef525a48f</id>
+    <title>LOV Column in Grid sets to Null when tab through</title>
+    <updated>2026-09-08T20:22:48.301488+00:00</updated>
+    <content>I have an interactive grid.  One of the columns is an LOV field.  After the grid is filled from the database when they launch the appropriate page, if someone wants to make a change and is just tabbing through the columns - when they tab through the LOV field it sets that field to Null.  If they're tabbing through then it should just keep its current value like all the other columns.  What am I doing wrong?  Thank you in advance.</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/lov-column-in-grid-sets-to-null-when-tab-through-8652" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-08T20:22:48.301488+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/f19e8b87c1db8656</id>
+    <title>Why Exadata Database Service on Exascale Infrastructure Is the Right Home for Oracle Database Enterprise Edition – Extreme Performance in the Cloud</title>
+    <updated>2026-09-08T16:30:08+00:00</updated>
+    <content>Choosing the right Database Cloud Service for your mission-critical and business-critical workloads comes down to more than just picking a database. It’s about finding the right combination of capabilities, performance, availability, and cost. And for many organizations, the answer starts to become clear pretty quickly. You want the capabilities that come with Oracle Database Enterprise […]</content>
+    <link href="https://blogs.oracle.com/cloud-infrastructure/oracledb-eeep-on-exadb-xs" rel="alternate"/>
+    <category term="Oracle Cloud Infrastructure" label="Oracle Cloud Infrastructure"/>
+    <published>2026-09-08T16:30:08+00:00</published>
+    <media:group>
+      <media:content url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/EE-EP-on-ExaDB-XS-Thumbnail.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/EE-EP-on-ExaDB-XS-Thumbnail.png"/>
+    </media:group>
+    <dc:creator>Oracle Cloud Infrastructure</dc:creator>
+    <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/EE-EP-on-ExaDB-XS-Thumbnail.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/270e42bc97183d3c</id>
+    <title>Oracle Announces up to $1 Million for Research into Carbon Capture and Sequestration in New Mexico</title>
+    <updated>2026-09-08T13:00:00+00:00</updated>
+    <content>Oracle Announces up to $1 Million for Research into Carbon Capture and Sequestration in New Mexico</content>
+    <link href="https://www.oracle.com/news/announcement/oracle-announces-research-into-carbon-capture-2026-09-08/" rel="alternate"/>
+    <category term="Oracle Press Releases" label="Oracle Press Releases"/>
+    <published>2026-09-08T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.oracle.com/a/pr/img/og-social-carbon-capture.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.oracle.com/a/pr/img/og-social-carbon-capture.jpg"/>
+    </media:group>
+    <dc:creator>Oracle Press Releases</dc:creator>
+    <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-carbon-capture.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/bbeffe4ef71e32c0</id>
+    <title>Oracle Issues RFP for 2 GW of Renewable Energy in New Mexico</title>
+    <updated>2026-09-08T13:00:00+00:00</updated>
+    <content>Oracle Issues RFP for 2 GW of Renewable Energy in New Mexico</content>
+    <link href="https://www.oracle.com/news/announcement/oracle-issues-rfp-for-2gw-of-renewable-energy-2026-09-08/" rel="alternate"/>
+    <category term="Oracle Press Releases" label="Oracle Press Releases"/>
+    <published>2026-09-08T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.oracle.com/a/pr/img/og-social-rfp.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.oracle.com/a/pr/img/og-social-rfp.jpg"/>
+    </media:group>
+    <dc:creator>Oracle Press Releases</dc:creator>
+    <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-rfp.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/59c342385516ec3c</id>
+    <title>Project Jupiter to Provide Environmental Data to the Public</title>
+    <updated>2026-09-08T13:00:00+00:00</updated>
+    <content>Project Jupiter to Provide Environmental Data to the Public</content>
+    <link href="https://www.oracle.com/news/announcement/project-jupiter-to-provide-environmental-data-to-the-public-2026-09-08/" rel="alternate"/>
+    <category term="Oracle Press Releases" label="Oracle Press Releases"/>
+    <published>2026-09-08T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.oracle.com/a/pr/img/og-social-environmental-monitoring.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.oracle.com/a/pr/img/og-social-environmental-monitoring.jpg"/>
+    </media:group>
+    <dc:creator>Oracle Press Releases</dc:creator>
+    <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-environmental-monitoring.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/585f0c4711b0e249</id>
     <title>APEX Static Files Mismatch 404 Error on Always Free ADB (DB: 26.1.4 vs Images: 26.1.1)</title>
@@ -208,21 +283,6 @@
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/82d4268057148fdc</id>
-    <title>ORDS direct PL&amp;#x2F;SQL Gateway causes severe library-cache contention when configured with --config-only and no ORDS repository</title>
-    <updated>2026-09-07T10:21:21.061482+00:00</updated>
-    <content>Title ORDS direct PL/SQL Gateway causes severe library-cache contention when configured with --config-only and no ORDS repository Product Oracle REST Data Services (ORDS) Component PL/SQL Gateway / OWA request initialization Version 26.2.2.r2041619 The same code path is also present in inspected ORDS 26.1 binaries. A similar issue was publicly reported for ORDS 23.1 and 23.4. Database Version Oracle Database 19c, version 19.19 Problem Summary ORDS can be configured and started as a direct PL/SQL</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/ords-direct-pl-sql-gateway-causes-severe-library-cache-cont-7485" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T10:21:21.061482+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/01109a56bf857890</id>
     <title>Move the AI to the Data: What’s New in Select AI for Autonomous AI Database on Dedicated Infrastructure</title>
     <updated>2026-09-05T05:31:27+00:00</updated>
@@ -416,21 +476,6 @@
     </media:group>
     <dc:creator>Inside Java</dc:creator>
     <link rel="enclosure" href="https://inside.java/resources/social-image--nAgZMYNGE8fqdi2dNsobXsdOYjHge7YemY2jQDyJc0.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/f19e8b87c1db8656</id>
-    <title>Why ExaDB-XS Is the Right Home for EE-EP in the Cloud</title>
-    <updated>2026-09-02T19:47:00+00:00</updated>
-    <content>Choosing the right Database Cloud Service for your mission-critical and business-critical workloads comes down to more than just picking a database. It’s about finding the right combination of capabilities, performance, availability, and cost. And for many organizations, the answer starts to become clear pretty quickly. You want the capabilities that come with Oracle Database Enterprise […]</content>
-    <link href="https://blogs.oracle.com/cloud-infrastructure/oracledb-eeep-on-exadb-xs" rel="alternate"/>
-    <category term="Oracle Cloud Infrastructure" label="Oracle Cloud Infrastructure"/>
-    <published>2026-09-02T19:47:00+00:00</published>
-    <media:group>
-      <media:content url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/EE-EP-on-ExaDB-XS-Thumbnail.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/EE-EP-on-ExaDB-XS-Thumbnail.png"/>
-    </media:group>
-    <dc:creator>Oracle Cloud Infrastructure</dc:creator>
-    <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/EE-EP-on-ExaDB-XS-Thumbnail.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/c1362fc23deb7a21</id>
@@ -1256,51 +1301,6 @@
     </media:group>
     <dc:creator>Oracle Developers</dc:creator>
     <link rel="enclosure" href="https://blogs.oracle.com/developers/wp-content/uploads/sites/129/2026/08/How-to-Build-a-Controlled-MCP-Workflow--scaled.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/2d965ae4cfe4099f</id>
-    <title>Project Jupiter’s Water Use: What Southern New Mexico Residents Should Know</title>
-    <updated>2026-08-11T13:00:00+00:00</updated>
-    <content>Project Jupiter’s Water Use: What Southern New Mexico Residents Should Know</content>
-    <link href="https://www.oracle.com/news/announcement/blog/project-jupiters-water-use-what-southern-new-mexico-residents-should-know-2026-08-11/" rel="alternate"/>
-    <category term="Oracle Press Releases" label="Oracle Press Releases"/>
-    <published>2026-08-11T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.oracle.com/a/pr/img/og-social-water-consumption.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.oracle.com/a/pr/img/og-social-water-consumption.jpg"/>
-    </media:group>
-    <dc:creator>Oracle Press Releases</dc:creator>
-    <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-water-consumption.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/d07924258bc79e24</id>
-    <title>Project Jupiter Launches Initiative to Save More Water Than It Uses in New Mexico</title>
-    <updated>2026-08-11T13:00:00+00:00</updated>
-    <content>Project Jupiter Launches Initiative to Save More Water Than It Uses in New Mexico</content>
-    <link href="https://www.oracle.com/news/announcement/project-jupiter-launches-initiative-with-arable-2026-08-11/" rel="alternate"/>
-    <category term="Oracle Press Releases" label="Oracle Press Releases"/>
-    <published>2026-08-11T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.oracle.com/a/pr/img/og-social-arable.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.oracle.com/a/pr/img/og-social-arable.jpg"/>
-    </media:group>
-    <dc:creator>Oracle Press Releases</dc:creator>
-    <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-arable.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/e74b0d06c633da87</id>
-    <title>El Proyecto Júpiter lanza una iniciativa para ahorrar más agua de la que utiliza en Nuevo México</title>
-    <updated>2026-08-11T13:00:00+00:00</updated>
-    <content>El Proyecto Júpiter lanza una iniciativa para ahorrar más agua de la que utiliza en Nuevo México</content>
-    <link href="https://www.oracle.com/news/announcement/project-jupiter-launches-initiative-with-arable-es-2026-08-11/" rel="alternate"/>
-    <category term="Oracle Press Releases" label="Oracle Press Releases"/>
-    <published>2026-08-11T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.oracle.com/a/pr/img/og-social-arable.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.oracle.com/a/pr/img/og-social-arable.jpg"/>
-    </media:group>
-    <dc:creator>Oracle Press Releases</dc:creator>
-    <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-arable.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/ddd175ca7e7150d4</id>

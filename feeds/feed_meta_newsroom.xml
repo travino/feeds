@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.fb.com/news/#meta_newsroom</id>
   <title>Meta Newsroom</title>
-  <updated>2026-09-08T16:50:59.711582+00:00</updated>
+  <updated>2026-09-08T21:23:08.430687+00:00</updated>
   <author>
     <name>Meta</name>
   </author>
@@ -12,6 +12,38 @@
   <icon>https://about.fb.com/favicon.ico</icon>
   <logo>https://about.fb.com/favicon.ico</logo>
   <subtitle>Meta news, engineering, and AI blogs plus Meta developer changelogs and blogs -- in one feed.</subtitle>
+  <entry>
+    <id>https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/</id>
+    <title>Introducing Muse: The World’s First Personal AI Agent Built for Everyone</title>
+    <updated>2026-09-08T19:00:51+00:00</updated>
+    <content>Muse is a secure, private personal AI agent that proactively helps people meet their goals and suggests ideas. The post Introducing Muse: The World’s First Personal AI Agent Built for Everyone appeared first on Meta Newsroom .</content>
+    <link href="https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/" rel="alternate"/>
+    <category term="Meta Newsroom" label="Meta Newsroom"/>
+    <published>2026-09-08T19:00:51+00:00</published>
+    <media:group>
+      <media:content url="https://about.fb.com/wp-content/uploads/2026/09/Introducing-Muse_-Personal-AI-Agent_SocialShare.jpg?w=1200" type="image/jpeg" medium="image" height="576" width="1024"/>
+      <media:thumbnail url="https://about.fb.com/wp-content/uploads/2026/09/Introducing-Muse_-Personal-AI-Agent_SocialShare.jpg?w=1200" height="576" width="1024"/>
+    </media:group>
+    <link rel="enclosure" href="https://about.fb.com/wp-content/uploads/2026/09/Introducing-Muse_-Personal-AI-Agent_SocialShare.jpg?w=1200" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog/?filter=September+8%2C+2026</id>
+    <title>September 8, 2026</title>
+    <updated>2026-09-08T07:00:00+00:00</updated>
+    <content>Updated the Embedded Signup v2 deprecation date to October 8, 2026.</content>
+    <link href="https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog/?filter=September+8%2C+2026" rel="alternate"/>
+    <category term="WhatsApp Changelog" label="WhatsApp Changelog"/>
+    <published>2026-09-08T07:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog/?filter=September+7%2C+2026</id>
+    <title>September 7, 2026</title>
+    <updated>2026-09-07T07:00:00+00:00</updated>
+    <content>Solution Partners can now allowlist up to 500 end-businesses for the max price feature during the Limited Beta period, increased from 100.</content>
+    <link href="https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog/?filter=September+7%2C+2026" rel="alternate"/>
+    <category term="WhatsApp Changelog" label="WhatsApp Changelog"/>
+    <published>2026-09-07T07:00:00+00:00</published>
+  </entry>
   <entry>
     <id>https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/</id>
     <title>ZGateway: Learnings from Putting a Proxy in Front of ZippyDB</title>
@@ -1104,37 +1136,5 @@
     <link href="https://www.meta.com/blog/discord-launch/" rel="alternate"/>
     <category term="The Meta.com Blog" label="The Meta.com Blog"/>
     <published>2026-06-30T17:10:23+00:00</published>
-  </entry>
-  <entry>
-    <id>https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/</id>
-    <title>10 Years of Meta’s Commitment to Python</title>
-    <updated>2026-06-30T16:00:46+00:00</updated>
-    <content>This year marks Meta’s 10th consecutive year as a sponsor of the Python Software Foundation (PSF), the charitable organization dedicated to advancing, supporting, and protecting the open-source Python programming language and the community that sustains it. Python is one of the world’s most influential programming languages, and we use it across our engineering stack, from [...] Read More... The post 10 Years of Meta’s Commitment to Python appeared first on Engineering at Meta .</content>
-    <link href="https://engineering.fb.com/2026/06/30/open-source/10-years-of-metas-commitment-to-python/" rel="alternate"/>
-    <category term="Engineering at Meta" label="Engineering at Meta"/>
-    <published>2026-06-30T16:00:46+00:00</published>
-    <media:group>
-      <media:content url="https://engineering.fb.com/wp-content/uploads/2026/06/10-Years-Meta-Python-HERO-large.png" type="image/png" medium="image" height="1072" width="1920"/>
-      <media:thumbnail url="https://engineering.fb.com/wp-content/uploads/2026/06/10-Years-Meta-Python-HERO-large.png" height="1072" width="1920"/>
-    </media:group>
-    <link rel="enclosure" href="https://engineering.fb.com/wp-content/uploads/2026/06/10-Years-Meta-Python-HERO-large.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog/?filter=June+30%2C+2026</id>
-    <title>June 30, 2026</title>
-    <updated>2026-06-30T07:00:00+00:00</updated>
-    <content>Added call recording and transcription for the WhatsApp Business Calling API.</content>
-    <link href="https://developers.facebook.com/documentation/business-messaging/whatsapp/changelog/?filter=June+30%2C+2026" rel="alternate"/>
-    <category term="WhatsApp Changelog" label="WhatsApp Changelog"/>
-    <published>2026-06-30T07:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://developers.facebook.com/documentation/business-messaging/messenger-platform/changelog/?filter=June+30%2C+2026</id>
-    <title>June 30, 2026</title>
-    <updated>2026-06-30T07:00:00+00:00</updated>
-    <content>Added the image grid template for Messenger Platform — send 2 to 6 images in a grid with optional per-image tap actions.</content>
-    <link href="https://developers.facebook.com/documentation/business-messaging/messenger-platform/changelog/?filter=June+30%2C+2026" rel="alternate"/>
-    <category term="Messenger Platform Changelog" label="Messenger Platform Changelog"/>
-    <published>2026-06-30T07:00:00+00:00</published>
   </entry>
 </feed>

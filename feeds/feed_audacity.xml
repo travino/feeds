@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.audacityteam.org/blog/</id>
   <title>Audacity®</title>
-  <updated>2026-09-08T16:49:37.573444+00:00</updated>
+  <updated>2026-09-08T21:21:55.706322+00:00</updated>
   <author>
     <name>Audacity / MuseHub</name>
   </author>
@@ -12,6 +12,51 @@
   <icon>https://www.audacityteam.org/favicon.ico</icon>
   <logo>https://www.audacityteam.org/favicon.ico</logo>
   <subtitle>Audacity blog and forum updates, plus MuseHub news and newly listed audio tools.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/16e737a9d2875403</id>
+    <title>Amp Squeezer</title>
+    <updated>2026-09-08T21:21:37.217339+00:00</updated>
+    <content>Frequency-shaped overdrive.</content>
+    <link href="https://www.musehub.com/pl-pl/plugin/amp-squeezer" rel="alternate"/>
+    <category term="MuseHub New Products" label="MuseHub New Products"/>
+    <published>2026-09-08T21:21:37.217339+00:00</published>
+    <media:group>
+      <media:content url="https://production-v2.muse-cdn.com/cdn-cgi/image/w=256,q=50,f=webp,onerror=redirect/effect-icon-images/acc820c1-a9f4-43f5-94d6-31bc4fd5b7c6.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://production-v2.muse-cdn.com/cdn-cgi/image/w=256,q=50,f=webp,onerror=redirect/effect-icon-images/acc820c1-a9f4-43f5-94d6-31bc4fd5b7c6.png"/>
+    </media:group>
+    <dc:creator>MuseHub New Products</dc:creator>
+    <link rel="enclosure" href="https://production-v2.muse-cdn.com/cdn-cgi/image/w=256,q=50,f=webp,onerror=redirect/effect-icon-images/acc820c1-a9f4-43f5-94d6-31bc4fd5b7c6.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/ef4de798df227cc6</id>
+    <title>Uè Uè</title>
+    <updated>2026-09-08T21:21:36.217416+00:00</updated>
+    <content>Vocal wah. With an accent or two.</content>
+    <link href="https://www.musehub.com/pl-pl/plugin/ue-ue" rel="alternate"/>
+    <category term="MuseHub New Products" label="MuseHub New Products"/>
+    <published>2026-09-08T21:21:36.217416+00:00</published>
+    <media:group>
+      <media:content url="https://production-v2.muse-cdn.com/cdn-cgi/image/w=256,q=50,f=webp,onerror=redirect/effect-icon-images/c7c420f7-0bc5-4281-9c6f-757dadb47067.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://production-v2.muse-cdn.com/cdn-cgi/image/w=256,q=50,f=webp,onerror=redirect/effect-icon-images/c7c420f7-0bc5-4281-9c6f-757dadb47067.png"/>
+    </media:group>
+    <dc:creator>MuseHub New Products</dc:creator>
+    <link rel="enclosure" href="https://production-v2.muse-cdn.com/cdn-cgi/image/w=256,q=50,f=webp,onerror=redirect/effect-icon-images/c7c420f7-0bc5-4281-9c6f-757dadb47067.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/2d1ff97c87d9eefd</id>
+    <title>Periodic Buzz when recording in Audacity 4</title>
+    <updated>2026-09-08T18:15:20+00:00</updated>
+    <content>I have been using Audacity for years. I am now trying v4 and have run into an odd, periodic buzz (sounds like a bee or mosquito). You can hear it at the 8 sec. mark in the sample below. (it is faint; you may have to crank up your volume to hear it) This does not and has never occurred for me in earlier versions. There has been no hardware or software change; everything identical, including the recording specs between v3 and 4. PS: The infuriating implementation in v4 of making a selection and pl</content>
+    <link href="https://forum.audacityteam.org/t/periodic-buzz-when-recording-in-audacity-4/153995" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-08T18:15:20+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/audacity/62093731363109c8</id>
     <title>Help/ adjust tempo but not pitch missing! also when saving to folder it shows no aup files found, but when checking folder afterwards they aup files are there. in 4</title>

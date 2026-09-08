@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.hackerone.com/blog#hackerone</id>
   <title>HackerOne Blog &amp; Newsroom</title>
-  <updated>2026-09-08T16:50:17.753915+00:00</updated>
+  <updated>2026-09-08T21:22:34.241356+00:00</updated>
   <author>
     <name>HackerOne</name>
   </author>
@@ -12,6 +12,19 @@
   <icon>https://www.hackerone.com/favicon.ico</icon>
   <logo>https://www.hackerone.com/favicon.ico</logo>
   <subtitle>Posts from the HackerOne blog and first-party press releases</subtitle>
+  <entry>
+    <id>https://hackerone.com/blog/eu-cra-reporting-requirements</id>
+    <title>EU CRA Reporting Goes Live This Friday. Are You Ready?</title>
+    <updated>2026-09-08T16:58:05+00:00</updated>
+    <content/>
+    <link href="https://hackerone.com/blog/eu-cra-reporting-requirements" rel="alternate"/>
+    <published>2026-09-08T16:58:05+00:00</published>
+    <media:group>
+      <media:content url="https://www.hackerone.com/sites/default/files/styles/og_image/public/2026-09/EU-CRA-Reporting-Goes-Live-This-Friday.-Are-You-Ready-Header.png.jpg?itok=uQoQTpPg" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.hackerone.com/sites/default/files/styles/og_image/public/2026-09/EU-CRA-Reporting-Goes-Live-This-Friday.-Are-You-Ready-Header.png.jpg?itok=uQoQTpPg" height="630" width="1200"/>
+    </media:group>
+    <link rel="enclosure" href="https://www.hackerone.com/sites/default/files/styles/og_image/public/2026-09/EU-CRA-Reporting-Goes-Live-This-Friday.-Are-You-Ready-Header.png.jpg?itok=uQoQTpPg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://hackerone.com/press-release/hackerone-makes-openai-gpt-cyber-models-available-h1-platform-turn-security-findings</id>
     <title>HackerOne Makes OpenAI GPT Cyber Models Available in the H1 Platform to Turn Security Findings Into Faster Fixes</title>

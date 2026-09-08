@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T16:50:25.136690+00:00",
+  "last_updated": "2026-09-08T21:22:38.281189+00:00",
   "entries": [
     {
       "guid": "urn:imgw:warnhydro:55e558566a98453c4a95e09aa5ab9f3dfe3cfcc5",
@@ -3170,7 +3170,7 @@
       "station": "Kraków",
       "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
       "date": "2026-09-08T00:00:00+02:00",
-      "updated": "2026-09-08T16:50:23.408273+00:00",
+      "updated": "2026-09-08T21:22:36.891391+00:00",
       "readings": {
         "04": {
           "temperatura": "10.1",
@@ -3195,41 +3195,49 @@
           "wilgotnosc_wzgledna": "34.1",
           "suma_opadu": "0",
           "cisnienie": "1011.4"
+        },
+        "21": {
+          "temperatura": "18.1",
+          "predkosc_wiatru": "1",
+          "kierunek_wiatru": "350",
+          "wilgotnosc_wzgledna": "67.5",
+          "suma_opadu": "0",
+          "cisnienie": "1011.4"
         }
       },
-      "title": "Kraków — obserwacje 08.09: 28.4°C, opad 0 mm (godz. 16)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>04:00</td><td>10.1°C</td><td>1 m/s / 40°</td><td>94.1%</td><td>0 mm</td><td>1019.4 hPa</td></tr><tr><td>11:00</td><td>28.5°C</td><td>3 m/s / 240°</td><td>31.1%</td><td>0 mm</td><td>1014.4 hPa</td></tr><tr><td>16:00</td><td>28.4°C</td><td>3 m/s / 240°</td><td>34.1%</td><td>0 mm</td><td>1011.4 hPa</td></tr></table>",
-      "summary_hash": "0e6cb98ac07b84b060baaa0abfebe20486c206ca"
+      "title": "Kraków — obserwacje 08.09: 18.1°C, opad 0 mm (godz. 21)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>04:00</td><td>10.1°C</td><td>1 m/s / 40°</td><td>94.1%</td><td>0 mm</td><td>1019.4 hPa</td></tr><tr><td>11:00</td><td>28.5°C</td><td>3 m/s / 240°</td><td>31.1%</td><td>0 mm</td><td>1014.4 hPa</td></tr><tr><td>16:00</td><td>28.4°C</td><td>3 m/s / 240°</td><td>34.1%</td><td>0 mm</td><td>1011.4 hPa</td></tr><tr><td>21:00</td><td>18.1°C</td><td>1 m/s / 350°</td><td>67.5%</td><td>0 mm</td><td>1011.4 hPa</td></tr></table>",
+      "summary_hash": "0d571b0179e3548ae4fdf8a3a387aef089b24de8"
     },
     {
       "guid": "urn:imgw:hydro:150190260:2026-09-08",
       "kind": "hydro",
-      "title": "Smolice (Wisła) — stan wody 128 cm (08.09 16:20)",
+      "title": "Smolice (Wisła) — stan wody 129 cm (08.09 20:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 128 cm (08.09 16:20)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 129 cm (08.09 20:50)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
       "date": "2026-09-08T00:00:00+02:00",
-      "updated": "2026-09-08T16:50:24.489137+00:00",
-      "summary_hash": "842245bf368130d02f0d676ffc82fb5bd0377f7a"
+      "updated": "2026-09-08T21:22:37.751486+00:00",
+      "summary_hash": "bd4b880cc4b68729a30d6212d499b1105b1079fe"
     },
     {
       "guid": "urn:imgw:hydro:150190180:2026-09-08",
       "kind": "hydro",
-      "title": "Jeleń (Przemsza) — stan wody 130 cm (08.09 16:20)",
+      "title": "Jeleń (Przemsza) — stan wody 134 cm (08.09 20:50)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 130 cm (08.09 16:20)</li><li>Przepływ: 7.6 m³/s (08.09 16:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 134 cm (08.09 20:50)</li><li>Przepływ: 8.48 m³/s (08.09 20:50)</li></ul>",
       "date": "2026-09-08T00:00:00+02:00",
-      "updated": "2026-09-08T16:50:24.489247+00:00",
-      "summary_hash": "3b8a1a0e09a59b5547db36d94ae6aab76c93b9cd"
+      "updated": "2026-09-08T21:22:37.751576+00:00",
+      "summary_hash": "2f75c66ea11cbd3f8ffd192fbaff1319962d376e"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-09-08",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 08.09: opad (10 min) 0 mm (16:30)",
+      "title": "Chrzanów — telemetria 08.09: opad (10 min) 0 mm (21:00)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (16:30)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (21:00)</li></ul>",
       "date": "2026-09-08T00:00:00+02:00",
-      "updated": "2026-09-08T16:50:24.812647+00:00",
-      "summary_hash": "aab71ac66138e2c46601f516da2cfc8a00d1fb77"
+      "updated": "2026-09-08T21:22:38.013240+00:00",
+      "summary_hash": "8ecc1dd4564e7d8e96a24085461f5c8fdc7a0ce9"
     },
     {
       "guid": "urn:imgw:warnmeteo:Sk20260908095226687",

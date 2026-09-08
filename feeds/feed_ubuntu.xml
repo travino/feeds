@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-08T16:51:51.821046+00:00</updated>
+  <updated>2026-09-08T21:24:04.627551+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/088a81c9c059a91a</id>
+    <title>Ubuntu now certified on Qualcomm Dragonwing™ IQ-8275</title>
+    <updated>2026-09-08T19:39:05+00:00</updated>
+    <content>Sep 8, 2026 –  Canonical and Qualcomm Technologies, Inc. announce the general availability of certified Ubuntu 24.04 LTS images for the Qualcomm Dragonwing™ IQ-8275 Evaluation Kit (EVK). Offering industrial-grade efficiency, this release provides production-ready software designed for building high-performance edge AI applications. For developers, system integrators, and OEMs, Qualcomm Dragonwing IQ-8275 hardware and Ubuntu 24.04 […]</content>
+    <link href="https://ubuntu.com//blog/ubuntu-now-certified-on-qualcomm-dragonwing-iq-8275" rel="alternate"/>
+    <category term="Ubuntu Blog" label="Ubuntu Blog"/>
+    <published>2026-09-08T19:39:05+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntu.com/wp-content/uploads/da5d/Qualcomm-Dragonwing-announcement.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://ubuntu.com/wp-content/uploads/da5d/Qualcomm-Dragonwing-announcement.png"/>
+    </media:group>
+    <dc:creator>Ubuntu Blog</dc:creator>
+    <link rel="enclosure" href="https://ubuntu.com/wp-content/uploads/da5d/Qualcomm-Dragonwing-announcement.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/78e96e9a1511b4b1</id>
     <title>Ubuntu 26.10 reveals new official wallpaper, mascot art</title>

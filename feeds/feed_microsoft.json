@@ -31,6 +31,38 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/microsoft/729bb6de741d4036",
+      "url": "https://azure.microsoft.com/updates?id=570919",
+      "title": "[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North",
+      "content_text": "Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for running end-to-end Playwright tests at scale, with parallel e...",
+      "date_published": "2026-09-08T17:35:32Z",
+      "date_modified": "2026-09-08T17:35:32Z",
+      "authors": [
+        {
+          "name": "Microsoft 365 Developer Changelog"
+        }
+      ],
+      "tags": [
+        "Microsoft 365 Developer Changelog"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/microsoft/2e6b88059b35bbe3",
+      "url": "https://azure.microsoft.com/updates?id=570881",
+      "title": "[Launched] Generally Available: Azure Developer CLI (azd) Extension Framework",
+      "content_text": "The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support their preferred application development workflows.With...",
+      "date_published": "2026-09-08T17:18:38Z",
+      "date_modified": "2026-09-08T17:18:38Z",
+      "authors": [
+        {
+          "name": "Microsoft 365 Developer Changelog"
+        }
+      ],
+      "tags": [
+        "Microsoft 365 Developer Changelog"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/microsoft/c84a57a97fd6c729",
       "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
       "title": "Called to serve: Tech, research, and positive impact with Chris White",
@@ -518,6 +550,29 @@
       "attachments": [
         {
           "url": "https://dms.licdn.com/playlist/vid/v2/D5605AQGmncSIkoTSvA/thumbnail-with-play-button-overlay-high/B56aBtNZm_IwC0-/0/1788538635199?e=2147483647&v=beta&t=gsnWbYfOay5UF8XP67jHwfTqy-ON7AnCGrAz8fXs8LA",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/microsoft/bf663182ef3c149e",
+      "url": "https://github.blog/changelog/2026-09-04-new-customer-portal-help-github-com",
+      "title": "New customer portal help.github.com",
+      "content_text": "The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search… The post New customer portal help.github.com appeared first on The GitHub Blog...",
+      "date_published": "2026-09-04T17:08:10Z",
+      "date_modified": "2026-09-04T17:08:10Z",
+      "authors": [
+        {
+          "name": "Microsoft 365 Developer Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg",
+      "tags": [
+        "Microsoft 365 Developer Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg",
           "mime_type": "image/jpeg"
         }
       ]
@@ -1270,7 +1325,7 @@
     {
       "id": "tag:trvny.github.io,2024:feedseek/microsoft/63606c78d30c064b",
       "url": "https://azure.microsoft.com/updates?id=569653",
-      "title": "[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL",
+      "title": "[In development] Private Preview: Reader Endpoint for Azure Database for MySQL",
       "content_text": "We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection...",
       "date_published": "2026-09-02T16:59:15Z",
       "date_modified": "2026-09-02T16:59:15Z",
@@ -1839,68 +1894,6 @@
       "attachments": [
         {
           "url": "https://github.blog/wp-content/uploads/2026/08/641793572-5eef0e12-4c0d-4bd7-aca5-2f08291168d7.jpeg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/microsoft/9c77ff23cea81ad8",
-      "url": "https://azure.microsoft.com/updates?id=570120",
-      "title": "[Launched] Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure",
-      "content_text": "The Azure Files Container Storage Interface (CSI) driver in Azure\nKubernetes Service (AKS) now supports workload identity for pod-level\nauthentication to SMB file shares. Previously, managed identity support in AKS enabled\nworkloads to mount Azure Files w...",
-      "date_published": "2026-08-28T20:25:22Z",
-      "date_modified": "2026-08-28T20:25:22Z",
-      "authors": [
-        {
-          "name": "Microsoft 365 Developer Changelog"
-        }
-      ],
-      "tags": [
-        "Microsoft 365 Developer Changelog"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/microsoft/362e2edecbfb3eea",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2",
-      "title": "GitHub Copilot in Visual Studio — August update",
-      "content_text": "August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog...",
-      "date_published": "2026-08-28T20:24:20Z",
-      "date_modified": "2026-08-28T20:24:20Z",
-      "authors": [
-        {
-          "name": "Microsoft 365 Developer Changelog"
-        }
-      ],
-      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
-      "tags": [
-        "Microsoft 365 Developer Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/microsoft/fe43888c26b149f6",
-      "url": "https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24",
-      "title": "GitHub Copilot weekly releases — August 24",
-      "content_text": "This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog...",
-      "date_published": "2026-08-28T20:13:22Z",
-      "date_modified": "2026-08-28T20:13:22Z",
-      "authors": [
-        {
-          "name": "Microsoft 365 Developer Changelog"
-        }
-      ],
-      "image": "https://github.blog/wp-content/uploads/2026/08/Changelog_NewRelease_Header_CopilotWeeklyReleases_14cccc.jpg",
-      "tags": [
-        "Microsoft 365 Developer Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.blog/wp-content/uploads/2026/08/Changelog_NewRelease_Header_CopilotWeeklyReleases_14cccc.jpg",
           "mime_type": "image/jpeg"
         }
       ]

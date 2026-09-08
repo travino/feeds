@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-09-08T16:50:53.682112+00:00</updated>
+  <updated>2026-09-08T21:23:17.857146+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -26,6 +26,26 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/729bb6de741d4036</id>
+    <title>[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North</title>
+    <updated>2026-09-08T17:35:32+00:00</updated>
+    <content>Playwright Workspaces in Azure App Testing is now generally available in Switzerland North, Japan East, and Australia East.Playwright Workspaces provides fully managed cloud-hosted browsers for running end-to-end Playwright tests at scale, with parallel e...</content>
+    <link href="https://azure.microsoft.com/updates?id=570919" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-08T17:35:32+00:00</published>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/2e6b88059b35bbe3</id>
+    <title>[Launched] Generally Available: Azure Developer CLI (azd) Extension Framework</title>
+    <updated>2026-09-08T17:18:38+00:00</updated>
+    <content>The Azure Developer CLI (azd) Extension Framework is now generally available. The framework enables developers, teams, and partners to extend Azure Developer CLI with custom capabilities that support their preferred application development workflows.With...</content>
+    <link href="https://azure.microsoft.com/updates?id=570881" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-08T17:18:38+00:00</published>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/c84a57a97fd6c729</id>
@@ -346,6 +366,21 @@
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://dms.licdn.com/playlist/vid/v2/D5605AQGmncSIkoTSvA/thumbnail-with-play-button-overlay-high/B56aBtNZm_IwC0-/0/1788538635199?e=2147483647&amp;v=beta&amp;t=gsnWbYfOay5UF8XP67jHwfTqy-ON7AnCGrAz8fXs8LA" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/bf663182ef3c149e</id>
+    <title>New customer portal help.github.com</title>
+    <updated>2026-09-04T17:08:10+00:00</updated>
+    <content>The support portal has been redesigned and moved to a new home at help.github.com. It brings support, docs, learning, community, and account resources together in one place with Copilot-powered search… The post New customer portal help.github.com appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-09-04-new-customer-portal-help-github-com" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-04T17:08:10+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg" type="image/jpeg" medium="image" height="1260" width="2400"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg" height="1260" width="2400"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/645378793-e03ded5d-3655-4ebc-81cd-f9e16bc72419.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/d9c0a0609ce15fe5</id>
@@ -844,7 +879,7 @@ targeted po...</content>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/63606c78d30c064b</id>
-    <title>[In preview] Public Preview: Reader Endpoint for Azure Database for MySQL</title>
+    <title>[In development] Private Preview: Reader Endpoint for Azure Database for MySQL</title>
     <updated>2026-09-02T16:59:15+00:00</updated>
     <content>We’re happy to announce the public preview of reader endpoint support to simplify connection management when using multiple replicas in Azure Database for MySQL - Flexible Server. A reader endpoint enables automatic load balancing of read-only connection...</content>
     <link href="https://azure.microsoft.com/updates?id=569653" rel="alternate"/>
@@ -1217,49 +1252,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/641793572-5eef0e12-4c0d-4bd7-aca5-2f08291168d7.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/9c77ff23cea81ad8</id>
-    <title>[Launched] Generally Available: Workload identity support for Azure Files CSI driver (SMB) in Azure</title>
-    <updated>2026-08-28T20:25:22+00:00</updated>
-    <content>The Azure Files Container Storage Interface (CSI) driver in Azure
-Kubernetes Service (AKS) now supports workload identity for pod-level
-authentication to SMB file shares. Previously, managed identity support in AKS enabled
-workloads to mount Azure Files w...</content>
-    <link href="https://azure.microsoft.com/updates?id=570120" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-08-28T20:25:22+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/362e2edecbfb3eea</id>
-    <title>GitHub Copilot in Visual Studio — August update</title>
-    <updated>2026-08-28T20:24:20+00:00</updated>
-    <content>August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog...</content>
-    <link href="https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-08-28T20:24:20+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/fe43888c26b149f6</id>
-    <title>GitHub Copilot weekly releases — August 24</title>
-    <updated>2026-08-28T20:13:22+00:00</updated>
-    <content>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog...</content>
-    <link href="https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-08-28T20:13:22+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/08/Changelog_NewRelease_Header_CopilotWeeklyReleases_14cccc.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/08/Changelog_NewRelease_Header_CopilotWeeklyReleases_14cccc.jpg"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/Changelog_NewRelease_Header_CopilotWeeklyReleases_14cccc.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/cdbaa82337a4f3f5</id>

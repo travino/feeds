@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-08T16:50:22.055550+00:00</updated>
+  <updated>2026-09-08T21:22:35.830249+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/10ac7bb5839a927d</id>
+    <title>Qwen3.8-27B Unsloth GGUF is now the #1 most-liked GGUF of all time! 🤗🦥</title>
+    <updated>2026-09-08T21:22:35.089452+00:00</updated>
+    <content>Qwen3.8-27B Unsloth GGUF is now the #1 most-liked GGUF of all time! 🤗🦥 The model hit 10M downloads and 3.7K likes in just 24 days on Hugging Face - all thanks to you. GGUF: unsloth/Qwen3.8-27B-GGUF Guide: https://unsloth.ai/docs/models/qwen3.8</content>
+    <link href="https://huggingface.co/posts/danielhanchen/664381486199600" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-08T21:22:35.089452+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-uploads.huggingface.co/production/uploads/62ecdc18b72a69615d6bd857/xWjFbAUaF-On-2b7BuOhy.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-uploads.huggingface.co/production/uploads/62ecdc18b72a69615d6bd857/xWjFbAUaF-On-2b7BuOhy.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/62ecdc18b72a69615d6bd857/xWjFbAUaF-On-2b7BuOhy.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/4f420d1c5cd0cb94</id>
     <title>Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic</title>
