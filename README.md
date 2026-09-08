@@ -135,7 +135,7 @@ Inspired by [Olshansk/rss-feeds](https://github.com/Olshansk/rss-feeds) & [rss-b
 | <img src="https://www.google.com/s2/favicons?domain=download-soundtracks.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [Download Soundtracks](https://download-soundtracks.com/) | [feed_download-soundtracks.xml](https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_download-soundtracks.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=youtube.com&sz=32" width="16" height="16" align="absmiddle" alt=""> [YouTubs (selected channels, no Shorts)](https://www.youtube.com/) | [feed_youtubs.xml](https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_youtubs.xml) |
 | <img src="https://www.google.com/s2/favicons?domain=1337x.to&sz=32" width="16" height="16" align="absmiddle" alt=""> [1337x Trending[OFF]](https://1337x.to/trending) | `feed_1337x.xml` — disabled, not published |
-| <img src="https://www.google.com/s2/favicons?domain=rutracker.org&sz=32" width="16" height="16" align="absmiddle" alt=""> [RuTracker](https://rutracker.org/) | [feed_rutracker.xml](https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_rutracker.xml) |
+| <img src="https://icons.duckduckgo.com/ip3/rutracker.org.ico" width="16" height="16" align="absmiddle" alt=""> [RuTracker](https://rutracker.org/) | [feed_rutracker.xml](https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_rutracker.xml) |
 
 > Favicons are pulled live from Google's favicon service
 > (`https://www.google.com/s2/favicons?domain=<host>`) or DuckDuckGo (`https://icons.duckduckgo.com/ip3/.ico`); no images are committed
