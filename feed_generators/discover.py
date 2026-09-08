@@ -8,12 +8,19 @@ reaching for a scraper.
 Usage:
     uv run feed_generators/discover.py <url>
 
-Tries the local feedsearch-crawler library first (a full async crawl, no
-external service dependency). Falls back to the hosted feedsearch.dev API
-(https://feedsearch.dev) if the local crawl errors or finds nothing.
+Tries the local feedsearch-crawler library first and falls back to the hosted
+feedsearch.dev API. It also checks the site's llms.txt, when present, and probes
+a bounded set of feed-, changelog-, blog-, and news-oriented links for extra
+native feeds. llms.txt failures never block ordinary discovery.
 """
 
 import sys
+
+import requests
+
+from llms_discovery import discover_llms_candidates
+
+MAX_LLMS_PROBES = 6
 
 
 def discover_local(url: str):
@@ -34,8 +41,6 @@ def discover_local(url: str):
 
 
 def discover_hosted(url: str):
-    import requests
-
     resp = requests.get(
         "https://feedsearch.dev/api/v1/search",
         params={"url": url, "info": "true"},
@@ -45,29 +50,73 @@ def discover_hosted(url: str):
     return resp.json()
 
 
+def discover_target(url: str):
+    feeds = discover_local(url)
+    source = "local"
+    if not feeds:
+        feeds = discover_hosted(url)
+        source = "hosted"
+    return list(feeds or []), source
+
+
+def feed_value(feed, name: str, default=""):
+    if isinstance(feed, dict):
+        return feed.get(name, default)
+    return getattr(feed, name, default)
+
+
+def merge_feeds(found: dict[str, tuple[object, str]], feeds, source: str) -> None:
+    for feed in feeds:
+        url = str(feed_value(feed, "url")).strip()
+        if url and url not in found:
+            found[url] = (feed, source)
+
+
+def llms_candidates(url: str):
+    try:
+        return discover_llms_candidates(url, limit=MAX_LLMS_PROBES)
+    except (requests.RequestException, UnicodeError, ValueError) as exc:
+        print(f"llms.txt discovery skipped: {exc}", file=sys.stderr)
+        return []
+
+
 def main():
     if len(sys.argv) != 2:
         print("usage: discover.py <url>", file=sys.stderr)
         sys.exit(1)
     url = sys.argv[1]
 
-    feeds = discover_local(url)
-    source = "local"
-    if not feeds:
-        print("local crawl found nothing, falling back to feedsearch.dev", file=sys.stderr)
-        feeds = discover_hosted(url)
-        source = "hosted"
+    feeds, source = discover_target(url)
+    found: dict[str, tuple[object, str]] = {}
+    merge_feeds(found, feeds, source)
 
-    if not feeds:
-        print("no feeds found", file=sys.stderr)
+    candidates = llms_candidates(url)
+    for candidate in candidates:
+        print(
+            f"llms.txt candidate: score={candidate.score} {candidate.title} -> {candidate.url}",
+            file=sys.stderr,
+        )
+        try:
+            candidate_feeds, candidate_source = discover_target(candidate.url)
+        except requests.RequestException as exc:
+            print(f"candidate probe failed: {candidate.url}: {exc}", file=sys.stderr)
+            continue
+        merge_feeds(found, candidate_feeds, f"llms-{candidate_source}")
+
+    if not found:
+        if candidates:
+            print("no native feeds found; llms.txt candidates above may be scraper sources", file=sys.stderr)
+        else:
+            print("no feeds found", file=sys.stderr)
         sys.exit(1)
 
-    print(f"# source: {source}", file=sys.stderr)
-    for f in feeds:
-        if source == "local":
-            print(f"{f.url}\t{f.version}\tscore={f.score}\t{f.title}")
-        else:
-            print(f"{f['url']}\t{f['version']}\tscore={f['score']}\t{f['title']}")
+    sources = ", ".join(dict.fromkeys(item[1] for item in found.values()))
+    print(f"# sources: {sources}", file=sys.stderr)
+    for feed, _ in found.values():
+        print(
+            f"{feed_value(feed, 'url')}\t{feed_value(feed, 'version')}\t"
+            f"score={feed_value(feed, 'score')}\t{feed_value(feed, 'title')}"
+        )
 
 
 if __name__ == "__main__":
