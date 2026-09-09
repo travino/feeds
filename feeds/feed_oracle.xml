@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-09T11:48:13.020132+00:00</updated>
+  <updated>2026-09-09T16:53:39.975374+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,111 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/a0b82b7b7e4bdec6</id>
+    <title>Causing an ORDS connection pool to recreate itself</title>
+    <updated>2026-09-09T15:15:05.742136+00:00</updated>
+    <content>hi i have several databases hooked to ORDS 26.1 it works except when I clone the databases - sometimes nightly or hourly If that happens then the connection pools can get broken and the only way out is a Tomcat restart which is a pain in the butt to do and downs several databases from ords when it happens. So I want to be able to tell the connection pool to refresh itself - i cannot see a published rest API to do so -  i can call  the instance api landing which lets me see down to the pool stats</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/causing-an-ords-connection-pool-to-recreate-itself-2279" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T15:15:05.742136+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/dec54713ac70e0e8</id>
+    <title>Understanding Morse Code Translators and How They Make Communication Easier</title>
+    <updated>2026-09-09T15:05:36.416916+00:00</updated>
+    <content>Morse code is one of the most interesting communication systems ever developed. Long before smartphones, instant messaging, and modern digital communication became part of everyday life, people needed reliable ways to send messages across long distances. Morse code provided a simple but effective solution by representing letters, numbers, and certain symbols through combinations of short and long signals. These signals are commonly known as dots and dashes. Even though Morse code was created dur</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/understanding-morse-code-translators-and-how-they-make-comm-8960" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T15:05:36.416916+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/158a31e8c82f971e</id>
+    <title>How a global security platform reduced PostgreSQL replication latency</title>
+    <updated>2026-09-09T14:30:29+00:00</updated>
+    <content>A global cybersecurity company serves thousands of organizations across North America, Europe, and Asia. As its platform expanded, the company needed a PostgreSQL design that could keep regional user experiences responsive without creating separate data silos in each geography. The goal was a global database architecture with nodes close to users while keeping the underlying […]</content>
+    <link href="https://blogs.oracle.com/cloud-infrastructure/reducing-postgresql-replication-latency" rel="alternate"/>
+    <category term="Oracle Cloud Infrastructure" label="Oracle Cloud Infrastructure"/>
+    <published>2026-09-09T14:30:29+00:00</published>
+    <media:group>
+      <media:content url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/pglogical-pglogical-16x9-4.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/pglogical-pglogical-16x9-4.jpg"/>
+    </media:group>
+    <dc:creator>Oracle Cloud Infrastructure</dc:creator>
+    <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/pglogical-pglogical-16x9-4.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/9206d9935afcccf4</id>
+    <title>Editor Doesn&amp;#x27;t Recognize the Syntax of IMMUTABLE</title>
+    <updated>2026-09-09T12:33:10.216306+00:00</updated>
+    <content>v: 26.2.1 The statement with IMMUTABLE CLAUSE  works fine but the syntax is underline in red and the editor color changes to red.</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-immutable-3101" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T12:33:10.216306+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/e2153d3d4e880908</id>
+    <title>Editor Does Not Recognize the for staging Syntax</title>
+    <updated>2026-09-09T12:31:33.282671+00:00</updated>
+    <content>v: 26.2.1 The statement with FOR STAGING clause works fine but the syntax is underline in red and the editor color changes to red.</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/editor-does-not-recognize-the-for-staging-syntax-1669" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T12:31:33.282671+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/151d550094133498</id>
+    <title>Editor Doesn&amp;#x27;t Recognize the Syntax of SET FEEDBACK ON SQL_ID ON</title>
+    <updated>2026-09-09T12:29:15.896572+00:00</updated>
+    <content>v: 26.2.1 The statement works fine but the syntax is underline in red and the editor color changes to red.</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-set-feedback-on-sql-7222" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T12:29:15.896572+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/saZLOrxs-5056-omEgZUvG" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/saZLOrxs-5056-omEgZUvG"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/saZLOrxs-5056-omEgZUvG" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/318b2e053e786ed9</id>
+    <title>Solaris: issue with HBA SAS 3816</title>
+    <updated>2026-09-09T12:19:52.547049+00:00</updated>
+    <content>Hello everybody. I have some issues with disk HBA disk controller SAS 3816: new HBA sees only 30 disks instead of 60. I have 2 servers: new and old. Here is a new server with newer version of HBA controller: # sasinfo hba -vHBA Name: SUNW-lsc-0    Manufacturer: LSI Logic    Model:  SAS 3816    Firmware Version: 33.0.0.0    FCode/BIOS Version: not available    Firmware Package Version: 0.0.24.1    Serial Number: not available    Driver Name: lsc    Driver Version: lsc driver    Number of HBA Port</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/solaris-issue-with-hba-sas-3816-4196" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T12:19:52.547049+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/2923e557bfe63a42</id>
     <title>Getting &amp;quot;Provide a valid value for DN_NA_Account_ServiceBranch_c&amp;quot; error while trying to Delete&amp;#x2F;Approve a user in DCS portal.</title>
@@ -185,96 +290,6 @@
     <link href="https://forums.oracle.com/ords/apexds/post/trouble-with-adding-genai-service-to-apex-26-1-404-authoriz-4431" rel="alternate"/>
     <category term="Oracle Developer Community" label="Oracle Developer Community"/>
     <published>2026-09-08T12:11:38.097475+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/6b8e9460cc218bc2</id>
-    <title>Old APEX Friendly URLs runs into SEVERE 500</title>
-    <updated>2026-09-08T07:29:07.570855+00:00</updated>
-    <content>ORDS 26.2.3.r2371104 on Tomcat 9 and Standalone Using old Friendly URLs runs into 2026-09-08T07:10:33.231Z WARNING     &lt;DomhHsRjETJULXkmy_d1Ww&gt; Failed to fetch Crypto Keys when required, removing dependent services. 2026-09-08T07:10:33.652Z SEVERE      &lt;DomhHsRjETJULXkmy_d1Ww&gt; GET rb-wam.bosch.com /apxoccafp/occafuss/r/occ-user-self-service/home 500 An unexpected error with the following message occurred: null InternalServerException [statusCode=500, logLevel=SEVERE, reasons=[An unexpected error</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/old-apex-friendly-urls-runs-into-severe-500-9012" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T07:29:07.570855+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/7e565dc1a9c3b47b</id>
-    <title>Does SQLcl Project Support Incremental APEX Component Deployment?</title>
-    <updated>2026-09-08T06:55:10.553785+00:00</updated>
-    <content>The Oracle APEX Lifecycle Management paper presents SQLcl Projects as an approach for managing APEX applications and database objects in Git. It also discusses split exports , where individual APEX application components are exported into separate files to make source control and code review easier. My main question is about the deployment behavior of SQLcl Projects for APEX applications . For example, suppose a developer changes specific components of an APEX application, such as Page 10, a Lis</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/does-sqlcl-project-support-incremental-apex-component-deplo-0869" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T06:55:10.553785+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/78607ca78a16e700</id>
-    <title>An error occurred while running the statement due to: Cannot read properties of undefined (reading &amp;#x27;items&amp;#x27;).</title>
-    <updated>2026-09-08T06:54:53.211945+00:00</updated>
-    <content>Hi, Steps to reproduce: create table people ( person_id number primary key, name varchar2(15) );insert into people (person_id, name) values (1, 'Wonder Woman'), (2, 'Peter Parker'), (3, 'Jean Grey'), (4, 'Clark Kent'), (5, 'Bruce Banner'); commit;create table connections ( connection_id number primary key, person_id_1 number, person_id_2 number, constraint connections_people_1_fk foreign key (person_id_1) references people (person_id), constraint connections_people_2_fk foreign key (person_id_2)</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/an-error-occurred-while-running-the-statement-due-to-cannot-6578" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T06:54:53.211945+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/08260891f31cbe52</id>
-    <title>ORA-13249: Size too big: sz=</title>
-    <updated>2026-09-08T06:31:53.408694+00:00</updated>
-    <content>Hello, Starting with Oracle Database 19.28 and later versions, we are encountering the following error when creating an MDSYS.SPATIAL_INDEX_V2 index on tables containing more than 50 million rows. The index creation statement is: CREATE INDEX ERSEL.SIDX_TEST_GEOM ON ERSEL.T_SPATIAL_INDEX_TEST (GEOM) INDEXTYPE IS MDSYS.SPATIAL_INDEX_V2 PARAMETERS('tablespace=ERSEL_TDE_DENEME ') parallel 4; The error is: CREATE INDEX ERSEL.SIDX_TEST_GEOM ON ERSEL.T_SPATIAL_INDEX_TEST * ERROR at line 1: ORA-29855: </content>
-    <link href="https://forums.oracle.com/ords/apexds/post/ora-13249-size-too-big-sz-8392" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T06:31:53.408694+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/510a4a703df4f625</id>
-    <title>How do you test your APEX apps? A general discussion on strategies, tools and frameworks.</title>
-    <updated>2026-09-07T19:43:13.294461+00:00</updated>
-    <content>Hi. This is an open-ended question to review the state of APEX testing in 2026. I am interested in learning more about how you or your development team approach testing APEX applications across the different layers and modalities - from code correctness and database logic to end-to-end UI testing and more. I'm curious about the strategies and broader testing practices you use, specific tools and frameworks adopted or adapted for APEX, and any internal tooling you've built at your company to test</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/how-do-you-test-your-apex-apps-a-general-discussion-on-stra-4308" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T19:43:13.294461+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/0404b40b9381c7bc</id>
-    <title>How to install Oracle Graph Studio on-premise Oracle Database 26ai?</title>
-    <updated>2026-09-07T15:11:38.030917+00:00</updated>
-    <content>Hi, We are exploring Graph capabilities ofr Oracle 26ai databased installed on-premise server. How to enable Graph features and also install Graph studio for communicating adn cerating Graphs via UI?</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/how-to-install-oracle-graph-studio-on-premise-oracle-databa-7755" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T15:11:38.030917+00:00</published>
     <media:group>
       <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
@@ -1016,21 +1031,6 @@
     </media:group>
     <dc:creator>Inside Java</dc:creator>
     <link rel="enclosure" href="https://inside.java/resources/code--RWufeMNS6f2Qg95awttrZ0nyJXg8mWC0lBheGokwU.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/ecee4c7b7505845e</id>
-    <title>From Plan &amp; Proof to OCI Workload Planner</title>
-    <updated>2026-08-20T16:00:00+00:00</updated>
-    <content>A practical, repeatable recipe for turning OCI workload requirements into architecture options, measurable validation, and evidence-backed decisions. Important clarification “OCI Workload Planner” is the title used for this blog and the approach described here. It is not a new OCI product, service, or separately deployed tool. The recipe shows customers how to recreate the planning […]</content>
-    <link href="https://blogs.oracle.com/cloud-infrastructure/oci-workload-planner-evolving-with-oci" rel="alternate"/>
-    <category term="Oracle Cloud Infrastructure" label="Oracle Cloud Infrastructure"/>
-    <published>2026-08-20T16:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/Workload.Planner.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/Workload.Planner.png"/>
-    </media:group>
-    <dc:creator>Oracle Cloud Infrastructure</dc:creator>
-    <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/Workload.Planner.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/5a6f6687959cad9d</id>

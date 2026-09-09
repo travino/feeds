@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://creativecommons.org/blog/</id>
   <title>Open Source</title>
-  <updated>2026-09-09T11:48:09.545788+00:00</updated>
+  <updated>2026-09-09T16:53:35.979959+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,16 @@
   <icon>https://creativecommons.org/favicon.ico</icon>
   <logo>https://creativecommons.org/favicon.ico</logo>
   <subtitle>Open-licensing and open-standards bodies: Creative Commons, the Open Source Initiative, the Linux Foundation, SPDX, the Open Geospatial Consortium, the RFC Editor, IETF status, and the Open Graph protocol.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/opensource/454d7586e8e5333c</id>
+    <title>SPDX Articles in Journal of Innovation</title>
+    <updated>2026-09-09T15:41:26+00:00</updated>
+    <content>Bob Martin did a great job getting two articles into the August 2026 Journal of Innovation that explore how SPDX can help make supply-chain information more trustworthy, usable, and actionable. “Regulatory Digital Product Passports as a Catalyst for U.S. Supply Chain Visibility” examines how EU Digital Product Passport requirements and the UN Transparency Protocol could create structured, verifiable product and provenance data at scale, with SPDX serving as an open, machine-readable exchange lay</content>
+    <link href="https://spdx.dev/spdx-articles-in-journel-of-innovation/" rel="alternate"/>
+    <category term="SPDX" label="SPDX"/>
+    <published>2026-09-09T15:41:26+00:00</published>
+    <dc:creator>SPDX</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/opensource/fdad38dae073c61e</id>
     <title>Alibaba Cloud, Ant Group, Cambricon and Huawei Come Together in Shanghai to Advance the Open Source AI Stack at PyTorch Conference China</title>

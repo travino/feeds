@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-09-09T11:47:53.702535+00:00</updated>
+  <updated>2026-09-09T16:53:26.570570+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -13,10 +13,25 @@
   <logo>https://www.google.com/s2/favicons?domain=blogs.microsoft.com&amp;sz=256</logo>
   <subtitle>Combined Microsoft feed: Official Microsoft Blog, On the Issues, Research, Source (global + EMEA PL), Signal, Unlocked (PL), the Microsoft 365 Blog, DevBlogs, the Microsoft Open Source blog, MCSCAT, GenAIScript, the Microsoft 365 Developer changelog, and the Tech Community blogs.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/fdb8de2269af8310</id>
+    <title>Visual Studio Code 1.138 (Insiders)</title>
+    <updated>2026-09-16T17:00:00+00:00</updated>
+    <content>Learn what's new in Visual Studio Code 1.138 (Insiders)...</content>
+    <link href="https://code.visualstudio.com/updates/v1_138" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-16T17:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://code.visualstudio.com/assets/updates/1_138/release-highlights.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://code.visualstudio.com/assets/updates/1_138/release-highlights.webp"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_138/release-highlights.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/21be95ff0214ed04</id>
-    <title>Visual Studio Code 1.137 (Insiders)</title>
+    <title>Visual Studio Code 1.137</title>
     <updated>2026-09-09T17:00:00+00:00</updated>
-    <content>Learn what is new in Visual Studio Code Insiders...</content>
+    <content>Learn what's new in Visual Studio Code 1.137...</content>
     <link href="https://code.visualstudio.com/updates/v1_137" rel="alternate"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-09-09T17:00:00+00:00</published>
@@ -26,6 +41,36 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/e434a81638c0e0cc</id>
+    <title>Protecting students in the age of AI: A new school standard</title>
+    <updated>2026-09-09T15:02:52+00:00</updated>
+    <content>The post Protecting students in the age of AI: A new school standard appeared first on Source .</content>
+    <link href="https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/" rel="alternate"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-09-09T15:02:52+00:00</published>
+    <media:group>
+      <media:content url="https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png"/>
+    </media:group>
+    <dc:creator>Microsoft Source</dc:creator>
+    <link rel="enclosure" href="https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/377bfe454379ffb2</id>
+    <title>Remediate Code Quality findings with agentic autofix</title>
+    <updated>2026-09-09T12:21:01+00:00</updated>
+    <content>Agentic autofix is now available to help you burn down findings in your code quality backlog. You can select up to 25 standard findings on a page and assign the… The post Remediate Code Quality findings with agentic autofix appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-09T12:21:01+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/644885218-524436f1-3158-472b-aeb2-ea79252754e3.png" type="image/png" medium="image" height="1084" width="2064"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/644885218-524436f1-3158-472b-aeb2-ea79252754e3.png" height="1084" width="2064"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/644885218-524436f1-3158-472b-aeb2-ea79252754e3.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/5d268713dd7d54c7</id>
@@ -258,6 +303,31 @@
     <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/WeishungChris-MSRPod_TW_LI_FB_1920x1080-1.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/6cdf8a3057440b84</id>
+    <title>Earn the badge built for Frontier AI leaders</title>
+    <updated>2026-09-08T16:37:26+00:00</updated>
+    <content>The next wave of AI transformation needs more than ambition. Customers need partners with the skills and proven capabilities to deliver real outcomes. The Frontier Transformation Engineer badge recognizes partners building the capabilities to design, implement, and deliver Microsoft Frontier AI solutions. Earn the badge to demonstrate validated skills, strengthen customer confidence, and differentiate your practice in a rapidly evolving AI market. With the Frontier Transformation Engineer journe</content>
+    <link href="https://techcommunity.microsoft.com/t5/partner-news/earn-the-badge-built-for-frontier-ai-leaders/ba-p/4553596" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-08T16:37:26+00:00</published>
+    <dc:creator>Tech Community</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/d9b724f716391393</id>
+    <title>Notes and documents – the way clinicians want them</title>
+    <updated>2026-09-08T15:29:10+00:00</updated>
+    <content>The moment after the visit There is a moment in every patient encounter when the clinical story needs to become something more than a note. It may become a referral letter, a set of patient instructions, a school or work note, or a summary that helps a patient remember what was discussed. These documents matter as much as the note itself. A patient needs clear instructions they can understand and follow. A referring physician needs concise context and clinical reasoning. A specialist needs relev</content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/notes-and-documents-the-way-clinicians-want-them/ba-p/4554064" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-08T15:29:10+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" medium="image" height="1560" width="3266"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" height="1560" width="3266"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/185ce8b9aa9335c3</id>
     <title>The Microsoft Student Ambassador Who Became an MVP: Bojan Ivanoski's Journey</title>
     <updated>2026-09-08T15:15:00+00:00</updated>
@@ -376,31 +446,6 @@
     </media:group>
     <dc:creator>Tech Community</dc:creator>
     <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyMzQzLXk1QmJLYg?revision=21" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/6cdf8a3057440b84</id>
-    <title>Earn the badge built for Frontier AI leaders</title>
-    <updated>2026-09-07T16:00:00+00:00</updated>
-    <content>The next wave of AI transformation needs more than ambition. Customers need partners with the skills and proven capabilities to deliver real outcomes. The Frontier Transformation Engineer badge recognizes partners building the capabilities to design, implement, and deliver Microsoft Frontier AI solutions. Earn the badge to demonstrate validated skills, strengthen customer confidence, and differentiate your practice in a rapidly evolving AI market. With the Frontier Transformation Engineer journe</content>
-    <link href="https://techcommunity.microsoft.com/t5/partner-news/earn-the-badge-built-for-frontier-ai-leaders/ba-p/4553596" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-07T16:00:00+00:00</published>
-    <dc:creator>Tech Community</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/d9b724f716391393</id>
-    <title>Notes and documents – the way clinicians want them</title>
-    <updated>2026-09-07T15:48:13+00:00</updated>
-    <content>The moment after the visit There is a moment in every patient encounter when the clinical story needs to become something more than a note. It may become a referral letter, a set of patient instructions, a school or work note, or a summary that helps a patient remember what was discussed. These documents matter as much as the note itself. A patient needs clear instructions they can understand and follow. A referring physician needs concise context and clinical reasoning. A specialist needs relev</content>
-    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/notes-and-documents-the-way-clinicians-want-them/ba-p/4554064" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-07T15:48:13+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" medium="image" height="1560" width="3266"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" height="1560" width="3266"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/122e97a143beeadb</id>
@@ -1247,21 +1292,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/23f6eecf9075f23e</id>
-    <title>Copilot model access update for GitHub Team plans</title>
-    <updated>2026-08-31T21:58:46+00:00</updated>
-    <content>We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog...</content>
-    <link href="https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-08-31T21:58:46+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg" type="image/jpeg" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/5bd4e0b1775cd563</id>
     <title>House passes historic reforms to rein in secret surveillance</title>
     <updated>2026-08-31T21:24:53+00:00</updated>
@@ -1275,21 +1305,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     </media:group>
     <dc:creator>Microsoft On the Issues</dc:creator>
     <link rel="enclosure" href="https://blogs.microsoft.com/wp-content/uploads/sites/5/2026/08/NDO_FAIRNESS_MOI_HEADER-1024x576.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/61dcb71cb81076b9</id>
-    <title>Selected GitHub Copilot models deprecated</title>
-    <updated>2026-08-31T21:21:40+00:00</updated>
-    <content>As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog...</content>
-    <link href="https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-08-31T21:21:40+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/08/643788614-0f2bb4fa-0dbe-4e11-b56f-03606e66ea3c.jpeg" type="image/jpeg" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/08/643788614-0f2bb4fa-0dbe-4e11-b56f-03606e66ea3c.jpeg" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/643788614-0f2bb4fa-0dbe-4e11-b56f-03606e66ea3c.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/1621f6709a15390c</id>
@@ -1930,21 +1945,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/startups/blog/wp-content/uploads/2026/08/fireworks-ai-social.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/f32996ec2e751895</id>
-    <title>Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps</title>
-    <updated>2026-08-05T17:46:31+00:00</updated>
-    <content>The post Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps appeared first on Source .</content>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/" rel="alternate"/>
-    <category term="Microsoft Source" label="Microsoft Source"/>
-    <published>2026-08-05T17:46:31+00:00</published>
-    <media:group>
-      <media:content url="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/08/Security-ImageryScan-Device-Blue-06-2026-scaled.jpg" type="image/jpeg" medium="image" height="1709" width="2560"/>
-      <media:thumbnail url="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/08/Security-ImageryScan-Device-Blue-06-2026-scaled.jpg" height="1709" width="2560"/>
-    </media:group>
-    <dc:creator>Microsoft Source</dc:creator>
-    <link rel="enclosure" href="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2026/08/Security-ImageryScan-Device-Blue-06-2026-scaled.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/83d2ea257d9f0a9f</id>

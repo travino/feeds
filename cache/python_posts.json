@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T11:48:13.936530+00:00",
+  "last_updated": "2026-09-09T16:53:44.166820+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -7520,15 +7520,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/c2a98ae98656f512"
     },
     {
-      "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
-      "link": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
-      "date": "2026-09-06T00:00:00+00:00",
-      "description": "There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l",
-      "source": "Planet Python",
-      "image": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee"
-    },
-    {
       "title": "flask-production-mcp 0.1.0",
       "link": "https://pypi.org/project/flask-production-mcp/0.1.0/",
       "date": "2026-09-06T00:16:12+00:00",
@@ -7595,6 +7586,15 @@
       "source": "Planet Python",
       "image": "https://en.gravatar.com/userimage/4935940/3f36deb2aefc09c0bcd985db2458f2b5.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/68cfed7ffbc511f7"
+    },
+    {
+      "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
+      "link": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
+      "date": "2026-09-07T00:00:00+00:00",
+      "description": "There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l",
+      "source": "Planet Python",
+      "image": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee"
     },
     {
       "title": "kicad-cruncher 2026.9.7",
@@ -8078,6 +8078,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7"
     },
     {
+      "title": "Bob Belderbos: Database-Driven RBAC with FastAPI and Azure Entra ID",
+      "link": "https://belderbos.dev/blog/database-driven-rbac-fastapi-azure-entra/",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "This came out of a coaching project: a FastAPI service backing a geotechnical database. We use Azure Entra ID for authentication, but we needed role-based access control (RBAC) granularly per endpoint and across different user roles. It turned into an interesting sprint where we designed it so that role changes did not require code changes. I've seen FastAPI auth examples hardcode a policy like: if \"Admin\" not in user.roles: raise 403 , copy-pasted into every route. It works until the day someon",
+      "source": "Planet Python",
+      "image": "https://belderbos.dev/images/og/database-driven-rbac-fastapi-azure-entra.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/717bfd57d668931c"
+    },
+    {
       "title": "kpublic 0.1.1",
       "link": "https://pypi.org/project/kpublic/0.1.1/",
       "date": "2026-09-09T00:16:27+00:00",
@@ -8164,54 +8173,54 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/f2affdba0b1cdc2d"
     },
     {
-      "title": "pseudocode-i18n-languageserver 0.9.1",
-      "link": "https://pypi.org/project/pseudocode-i18n-languageserver/0.9.1/",
-      "date": "2026-09-09T11:46:33+00:00",
-      "description": "Language Server Protocol implementation for multilingual pseudocode-i18n",
+      "title": "mlimage 0.2.1",
+      "link": "https://pypi.org/project/mlimage/0.2.1/",
+      "date": "2026-09-09T16:52:47+00:00",
+      "description": "Python bindings for mlimage-rs, exposing a reader for MeVisLab's MLImage file format for medical imaging",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/9e0cf7163b1dd25a"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/abdacef2b3de2c39"
     },
     {
-      "title": "omnigent 0.13.0rc3",
-      "link": "https://pypi.org/project/omnigent/0.13.0rc3/",
-      "date": "2026-09-09T11:46:40+00:00",
-      "description": "Omnigent: declarative agent authoring and runtime framework",
+      "title": "VeraGridServer 6.5.25",
+      "link": "https://pypi.org/project/veragridserver/6.5.25/",
+      "date": "2026-09-09T16:52:49+00:00",
+      "description": "VeraGrid is a Power Systems simulation program intended for professional use and research",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/64319fbe8750ec8c"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/6f37148d3b95c4de"
     },
     {
-      "title": "scrapy-ingest 1.3.0",
-      "link": "https://pypi.org/project/scrapy-ingest/1.3.0/",
-      "date": "2026-09-09T11:46:50+00:00",
-      "description": "Scrapy extension for database ingestion with job/spider tracking",
+      "title": "VeraGridMcp 6.5.25",
+      "link": "https://pypi.org/project/veragridmcp/6.5.25/",
+      "date": "2026-09-09T16:52:52+00:00",
+      "description": "VeraGrid is a Power Systems simulation program intended for professional use and research",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3ec852a702c5a330"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/e7c7306be6067bd5"
     },
     {
-      "title": "secenvY 0.3.0",
-      "link": "https://pypi.org/project/secenvy/0.3.0/",
-      "date": "2026-09-09T11:47:00+00:00",
-      "description": "Gymnasium Environment for AI-driven Android Security Analysis, Dynamic Fuzzing, and Penetration Testing",
+      "title": "rpi-hwid 0.0.post17",
+      "link": "https://pypi.org/project/rpi-hwid/0.0.post17/",
+      "date": "2026-09-09T16:53:00+00:00",
+      "description": "Raspberry Pi hardware identity: what a Pi wears, what powers it, which FPGA board it hosts, and print-ready labels for all of it.",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2e904f9679b70cab"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ed61de91a71423dc"
     },
     {
-      "title": "safecmd 0.1.16",
-      "link": "https://pypi.org/project/safecmd/0.1.16/",
-      "date": "2026-09-09T11:47:06+00:00",
-      "description": "Call commands safely by checking them rigorously against an allow-list",
+      "title": "trame 4.0.0",
+      "link": "https://pypi.org/project/trame/4.0.0/",
+      "date": "2026-09-09T16:53:39+00:00",
+      "description": "Trame, a framework to build applications in plain Python",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1d57accb583483cd"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/394ad950a7766845"
     }
   ]
 }

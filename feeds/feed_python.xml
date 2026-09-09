@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-09T11:48:13.768684+00:00</updated>
+  <updated>2026-09-09T16:53:44.000575+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -13,53 +13,53 @@
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/1d57accb583483cd</id>
-    <title>safecmd 0.1.16</title>
-    <updated>2026-09-09T11:47:06+00:00</updated>
-    <content>Call commands safely by checking them rigorously against an allow-list</content>
-    <link href="https://pypi.org/project/safecmd/0.1.16/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/394ad950a7766845</id>
+    <title>trame 4.0.0</title>
+    <updated>2026-09-09T16:53:39+00:00</updated>
+    <content>Trame, a framework to build applications in plain Python</content>
+    <link href="https://pypi.org/project/trame/4.0.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T11:47:06+00:00</published>
+    <published>2026-09-09T16:53:39+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2e904f9679b70cab</id>
-    <title>secenvY 0.3.0</title>
-    <updated>2026-09-09T11:47:00+00:00</updated>
-    <content>Gymnasium Environment for AI-driven Android Security Analysis, Dynamic Fuzzing, and Penetration Testing</content>
-    <link href="https://pypi.org/project/secenvy/0.3.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/ed61de91a71423dc</id>
+    <title>rpi-hwid 0.0.post17</title>
+    <updated>2026-09-09T16:53:00+00:00</updated>
+    <content>Raspberry Pi hardware identity: what a Pi wears, what powers it, which FPGA board it hosts, and print-ready labels for all of it.</content>
+    <link href="https://pypi.org/project/rpi-hwid/0.0.post17/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T11:47:00+00:00</published>
+    <published>2026-09-09T16:53:00+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/3ec852a702c5a330</id>
-    <title>scrapy-ingest 1.3.0</title>
-    <updated>2026-09-09T11:46:50+00:00</updated>
-    <content>Scrapy extension for database ingestion with job/spider tracking</content>
-    <link href="https://pypi.org/project/scrapy-ingest/1.3.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/e7c7306be6067bd5</id>
+    <title>VeraGridMcp 6.5.25</title>
+    <updated>2026-09-09T16:52:52+00:00</updated>
+    <content>VeraGrid is a Power Systems simulation program intended for professional use and research</content>
+    <link href="https://pypi.org/project/veragridmcp/6.5.25/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T11:46:50+00:00</published>
+    <published>2026-09-09T16:52:52+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/64319fbe8750ec8c</id>
-    <title>omnigent 0.13.0rc3</title>
-    <updated>2026-09-09T11:46:40+00:00</updated>
-    <content>Omnigent: declarative agent authoring and runtime framework</content>
-    <link href="https://pypi.org/project/omnigent/0.13.0rc3/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/6f37148d3b95c4de</id>
+    <title>VeraGridServer 6.5.25</title>
+    <updated>2026-09-09T16:52:49+00:00</updated>
+    <content>VeraGrid is a Power Systems simulation program intended for professional use and research</content>
+    <link href="https://pypi.org/project/veragridserver/6.5.25/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T11:46:40+00:00</published>
+    <published>2026-09-09T16:52:49+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/9e0cf7163b1dd25a</id>
-    <title>pseudocode-i18n-languageserver 0.9.1</title>
-    <updated>2026-09-09T11:46:33+00:00</updated>
-    <content>Language Server Protocol implementation for multilingual pseudocode-i18n</content>
-    <link href="https://pypi.org/project/pseudocode-i18n-languageserver/0.9.1/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/abdacef2b3de2c39</id>
+    <title>mlimage 0.2.1</title>
+    <updated>2026-09-09T16:52:47+00:00</updated>
+    <content>Python bindings for mlimage-rs, exposing a reader for MeVisLab's MLImage file format for medical imaging</content>
+    <link href="https://pypi.org/project/mlimage/0.2.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T11:46:33+00:00</published>
+    <published>2026-09-09T16:52:47+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
@@ -187,6 +187,21 @@ if text == '': # if the line edit i</content>
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/717bfd57d668931c</id>
+    <title>Bob Belderbos: Database-Driven RBAC with FastAPI and Azure Entra ID</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>This came out of a coaching project: a FastAPI service backing a geotechnical database. We use Azure Entra ID for authentication, but we needed role-based access control (RBAC) granularly per endpoint and across different user roles. It turned into an interesting sprint where we designed it so that role changes did not require code changes. I've seen FastAPI auth examples hardcode a policy like: if "Admin" not in user.roles: raise 403 , copy-pasted into every route. It works until the day someon</content>
+    <link href="https://belderbos.dev/blog/database-driven-rbac-fastapi-azure-entra/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://belderbos.dev/images/og/database-driven-rbac-fastapi-azure-entra.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://belderbos.dev/images/og/database-driven-rbac-fastapi-azure-entra.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://belderbos.dev/images/og/database-driven-rbac-fastapi-azure-entra.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/b061cf09123f13fe</id>
@@ -764,6 +779,21 @@ if text == '': # if the line edit i</content>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee</id>
+    <title>Bob Belderbos: 5 design patterns used in my new habit tracker app</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l</content>
+    <link href="https://belderbos.dev/blog/python-patterns-django-habit-tracker/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/68cfed7ffbc511f7</id>
     <title>Glyph Lefkowitz: ... but what about video games?</title>
     <updated>2026-09-06T22:57:00+00:00</updated>
@@ -797,21 +827,6 @@ write some code is worse than playing a vid</content>
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!wVbn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61bacbdb-ec15-431f-abf9-91a5f9515c74_1280x720.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee</id>
-    <title>Bob Belderbos: 5 design patterns used in my new habit tracker app</title>
-    <updated>2026-09-06T00:00:00+00:00</updated>
-    <content>There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l</content>
-    <link href="https://belderbos.dev/blog/python-patterns-django-habit-tracker/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-06T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/c2a98ae98656f512</id>
@@ -931,21 +946,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://treyhunner.com/images/daily-recall-card.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d</id>
-    <title>Graham Dumpleton: Phased behaviour in wrapture</title>
-    <updated>2026-09-04T00:00:00+00:00</updated>
-    <content>Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-04T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/2159a4685819df65</id>

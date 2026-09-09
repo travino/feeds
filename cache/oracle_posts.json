@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T11:48:13.197379+00:00",
+  "last_updated": "2026-09-09T16:53:40.090373+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3691,6 +3691,69 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/2923e557bfe63a42"
+    },
+    {
+      "title": "Solaris: issue with HBA SAS 3816",
+      "link": "https://forums.oracle.com/ords/apexds/post/solaris-issue-with-hba-sas-3816-4196",
+      "date": "2026-09-09T12:19:52.547049+00:00",
+      "description": "Hello everybody. I have some issues with disk HBA disk controller SAS 3816: new HBA sees only 30 disks instead of 60. I have 2 servers: new and old. Here is a new server with newer version of HBA controller: # sasinfo hba -vHBA Name: SUNW-lsc-0    Manufacturer: LSI Logic    Model:  SAS 3816    Firmware Version: 33.0.0.0    FCode/BIOS Version: not available    Firmware Package Version: 0.0.24.1    Serial Number: not available    Driver Name: lsc    Driver Version: lsc driver    Number of HBA Port",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/318b2e053e786ed9"
+    },
+    {
+      "title": "Editor Doesn&#x27;t Recognize the Syntax of SET FEEDBACK ON SQL_ID ON",
+      "link": "https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-set-feedback-on-sql-7222",
+      "date": "2026-09-09T12:29:15.896572+00:00",
+      "description": "v: 26.2.1 The statement works fine but the syntax is underline in red and the editor color changes to red.",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/saZLOrxs-5056-omEgZUvG",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/151d550094133498"
+    },
+    {
+      "title": "Editor Does Not Recognize the for staging Syntax",
+      "link": "https://forums.oracle.com/ords/apexds/post/editor-does-not-recognize-the-for-staging-syntax-1669",
+      "date": "2026-09-09T12:31:33.282671+00:00",
+      "description": "v: 26.2.1 The statement with FOR STAGING clause works fine but the syntax is underline in red and the editor color changes to red.",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/e2153d3d4e880908"
+    },
+    {
+      "title": "Editor Doesn&#x27;t Recognize the Syntax of IMMUTABLE",
+      "link": "https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-immutable-3101",
+      "date": "2026-09-09T12:33:10.216306+00:00",
+      "description": "v: 26.2.1 The statement with IMMUTABLE CLAUSE  works fine but the syntax is underline in red and the editor color changes to red.",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/9206d9935afcccf4"
+    },
+    {
+      "title": "How a global security platform reduced PostgreSQL replication latency",
+      "link": "https://blogs.oracle.com/cloud-infrastructure/reducing-postgresql-replication-latency",
+      "date": "2026-09-09T14:30:29+00:00",
+      "description": "A global cybersecurity company serves thousands of organizations across North America, Europe, and Asia. As its platform expanded, the company needed a PostgreSQL design that could keep regional user experiences responsive without creating separate data silos in each geography. The goal was a global database architecture with nodes close to users while keeping the underlying […]",
+      "source": "Oracle Cloud Infrastructure",
+      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/pglogical-pglogical-16x9-4.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/158a31e8c82f971e"
+    },
+    {
+      "title": "Understanding Morse Code Translators and How They Make Communication Easier",
+      "link": "https://forums.oracle.com/ords/apexds/post/understanding-morse-code-translators-and-how-they-make-comm-8960",
+      "date": "2026-09-09T15:05:36.416916+00:00",
+      "description": "Morse code is one of the most interesting communication systems ever developed. Long before smartphones, instant messaging, and modern digital communication became part of everyday life, people needed reliable ways to send messages across long distances. Morse code provided a simple but effective solution by representing letters, numbers, and certain symbols through combinations of short and long signals. These signals are commonly known as dots and dashes. Even though Morse code was created dur",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/dec54713ac70e0e8"
+    },
+    {
+      "title": "Causing an ORDS connection pool to recreate itself",
+      "link": "https://forums.oracle.com/ords/apexds/post/causing-an-ords-connection-pool-to-recreate-itself-2279",
+      "date": "2026-09-09T15:15:05.742136+00:00",
+      "description": "hi i have several databases hooked to ORDS 26.1 it works except when I clone the databases - sometimes nightly or hourly If that happens then the connection pools can get broken and the only way out is a Tomcat restart which is a pain in the butt to do and downs several databases from ords when it happens. So I want to be able to tell the connection pool to refresh itself - i cannot see a published rest API to do so -  i can call  the instance api landing which lets me see down to the pool stats",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/a0b82b7b7e4bdec6"
     }
   ]
 }

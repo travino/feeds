@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://news.mit.edu/</id>
   <title>MIT News</title>
-  <updated>2026-09-09T11:47:53.487402+00:00</updated>
+  <updated>2026-09-09T16:53:26.789311+00:00</updated>
   <author>
     <name>MIT News Office</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=news.mit.edu&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=news.mit.edu&amp;sz=256</logo>
   <subtitle>Official MIT News: research, campus, and latest articles.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mit/f637ad35137d8c63</id>
+    <title>An electrochemical approach turns ammonia into pure hydrogen</title>
+    <updated>2026-09-09T15:00:00+00:00</updated>
+    <content>An MIT team has demonstrated a more efficient way to extract pure hydrogen gas from hydrogen carrier molecules.</content>
+    <link href="https://news.mit.edu/2026/electrochemical-approach-turns-ammonia-into-pure-hydrogen-0909" rel="alternate"/>
+    <category term="MIT Research" label="MIT Research"/>
+    <published>2026-09-09T15:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Hydrogen-Generation-01-press.jpg?itok=aYP-m8j8" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Hydrogen-Generation-01-press.jpg?itok=aYP-m8j8"/>
+    </media:group>
+    <dc:creator>MIT Research</dc:creator>
+    <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Hydrogen-Generation-01-press.jpg?itok=aYP-m8j8" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mit/28da349a180b351c</id>
     <title>Study predicts large disparities in access to food, water, and energy in 2050</title>
@@ -178,21 +193,6 @@
     <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-FlexibilePhotonics-01-press.jpg?itok=DDruFKRq" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mit/b8c814edf944a882</id>
-    <title>Giving farmers a more sustainable way to protect crops</title>
-    <updated>2026-09-03T04:00:00+00:00</updated>
-    <content>Led by Andee Wallace PhD ’20, Robigo uses cutting-edge biotechnology to engineer microbes to fight pests, reducing the need for harmful chemical pesticides.</content>
-    <link href="https://news.mit.edu/2026/robigo-gives-farmers-more-sustainable-way-protect-crops-0903" rel="alternate"/>
-    <category term="MIT Latest" label="MIT Latest"/>
-    <published>2026-09-03T04:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Robigo-01-press.jpg?itok=47ixF5BW" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Robigo-01-press.jpg?itok=47ixF5BW"/>
-    </media:group>
-    <dc:creator>MIT Latest</dc:creator>
-    <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Robigo-01-press.jpg?itok=47ixF5BW" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/mit/2ab31faa96633087</id>
     <title>New qubit architecture enables faster, more accurate operations</title>
     <updated>2026-09-03T04:00:00+00:00</updated>
@@ -206,6 +206,21 @@
     </media:group>
     <dc:creator>MIT Research</dc:creator>
     <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-ArmQubit-01-press.jpg?itok=dVeq5yj9" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mit/b8c814edf944a882</id>
+    <title>Giving farmers a more sustainable way to protect crops</title>
+    <updated>2026-09-03T04:00:00+00:00</updated>
+    <content>Led by Andee Wallace PhD ’20, Robigo uses cutting-edge biotechnology to engineer microbes to fight pests, reducing the need for harmful chemical pesticides.</content>
+    <link href="https://news.mit.edu/2026/robigo-gives-farmers-more-sustainable-way-protect-crops-0903" rel="alternate"/>
+    <category term="MIT Latest" label="MIT Latest"/>
+    <published>2026-09-03T04:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Robigo-01-press.jpg?itok=47ixF5BW" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Robigo-01-press.jpg?itok=47ixF5BW"/>
+    </media:group>
+    <dc:creator>MIT Latest</dc:creator>
+    <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202609/MIT-Robigo-01-press.jpg?itok=47ixF5BW" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mit/5dca9429a545611c</id>
@@ -2681,21 +2696,6 @@
     </media:group>
     <dc:creator>MIT Research</dc:creator>
     <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT-AgenticWorkflow-01.jpg?itok=GQ871Ygt" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mit/00f3f807ab098cb8</id>
-    <title>What happens when environmental change outpaces life’s ability to adapt?</title>
-    <updated>2026-06-24T15:00:00+00:00</updated>
-    <content>A new model links Earth’s mass extinctions to mismatches between rates of environmental change and biological adaptation.</content>
-    <link href="https://news.mit.edu/2026/when-environmental-change-outpaces-life-ability-to-adapt-0624" rel="alternate"/>
-    <category term="MIT Research" label="MIT Research"/>
-    <published>2026-06-24T15:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT-Extinction-Pattern-01.jpg?itok=_Irc9lVP" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT-Extinction-Pattern-01.jpg?itok=_Irc9lVP"/>
-    </media:group>
-    <dc:creator>MIT Research</dc:creator>
-    <link rel="enclosure" href="https://news.mit.edu/sites/default/files/styles/news_article__cover_image__original/public/images/202606/MIT-Extinction-Pattern-01.jpg?itok=_Irc9lVP" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mit/ae933461cc969a11</id>

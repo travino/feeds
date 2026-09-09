@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T05:06:45.109871+00:00",
+  "last_updated": "2026-09-09T16:52:30.120886+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5588,6 +5588,34 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/a403d9b2c52ac497"
+    },
+    {
+      "title": "AI Gateway - AI Gateway custom costs support cache tokens",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-09-09-custom-cache-token-costs/",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "AI Gateway custom costs now support cache-read and cache-write token rates. This lets custom cost metrics reflect negotiated cache pricing across providers. Add per_cache_read_token or per_cache_write_token to the cf-aig-custom-cost header: { \"per_token_in\" : 0.000001 , \"per_token_out\" : 0.000002 , \"per_cache_read_token\" : 0.0000001 , \"per_cache_write_token\" : 0.0000005 } Cache-token pricing activates when either cache rate is present. An omitted cache rate defaults to per_token_in . If both cac",
+      "source": "Cloudflare Changelog",
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/1e8bfa47e117881f"
+    },
+    {
+      "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
+      "link": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
+      "date": "2026-09-09T13:00:00+00:00",
+      "description": "Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.",
+      "source": "Cloudflare Blog",
+      "image": "https://blog.cloudflare.com/_emdash/api/media/file/01M1WCDP58M0ZWWK4EQ5Z60396.01M1WCDPYM384QTHNEZA0WQ8W8.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/7eed123a34dc82ae"
+    },
+    {
+      "title": "Cloudflare Workers AI increased errors",
+      "link": "https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym",
+      "date": "2026-09-09T15:02:41+00:00",
+      "description": "Sep 9 , 15:02 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 14:25 UTC Investigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/5f550bcc13a085f5"
     }
   ]
 }

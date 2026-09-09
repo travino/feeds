@@ -8,6 +8,98 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/0b1035cded72703a",
+      "url": "https://huggingface.co/posts/OppaAI/460632677989379",
+      "title": "Another small 4B model comes out yesterday.",
+      "content_text": "Another small 4B model comes out yesterday. NeoHorse 1 4B TokenRhythm/NeoHorse-1-4B There are quite a few good smaller parameter models that are capable for Agentic tasks: The ones from the chart, I have tried a few already in my Jetson Orin Nano, ❌Gemma4 E2B IT - cannot fit my RAM usage if use with TTS and embedder ❓Qwen3.5 4B - just barely fit my RAM usage, need to add think/no_think ❌Spark X2.5 4B - need to build the forked llama.cpp; no vision ➡️Nanbeige 4.2 3B - need to build the forked llama.cpp; slower than Ministral3-3B by 25%; no vision but good for coding; maybe run this is separate server for doing coding tasks ➡️Agents A1 4B - This one is quite interesting. Another Qwen3.5 4B bas",
+      "date_published": "2026-09-09T16:53:03Z",
+      "date_modified": "2026-09-09T16:53:03Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/681c02a257cfafb5eafbfffe/VU5afqcrozhbSeWuEYEJ1.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/681c02a257cfafb5eafbfffe/VU5afqcrozhbSeWuEYEJ1.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/2d997e6d17818126",
+      "url": "https://huggingface.co/posts/RN0311/984204869970554",
+      "title": "SONAR is now open-source! 🔊",
+      "content_text": "SONAR is now open-source! 🔊 SONAR is an evaluation toolkit for multilingual ASR that goes beyond WER/CER. It combines semantic similarity, the Poseidon Score, and analysis across dialect, demographic, and metadata-based failure modes. 🌍 Our goal is to make it easier for everyone to understand why an ASR model fails, not just how often. 🔍 You can plug in your own models + audio, extend it to new languages and datasets, or contribute directly. 🛠️ MIT licensed. Would love feedback from the HF community! 🤗 🔗 GitHub: https://github.com/PSDN-AI/SONAR-OSS/ 🔗 Blog: https://www.psdn.ai/blog/open-source-multilingual-asr-evaluation",
+      "date_published": "2026-09-09T16:53:03Z",
+      "date_modified": "2026-09-09T16:53:03Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/RN0311/984204869970554.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/RN0311/984204869970554.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/69aa6014ea2c8057",
+      "url": "https://huggingface.co/posts/GoktugD/875808960716281",
+      "title": "🇹🇷 One of our small Turkish models quietly reached **500+ monthly downloads** on Hugging Face.",
+      "content_text": "🇹🇷 One of our small Turkish models quietly reached **500+ monthly downloads** on Hugging Face. **Werea-TR-TextRestore — only 300M parameters.** Its job is simple: istanbulda hava cok guzel → İstanbul'da hava çok güzel. A lightweight model for restoring Turkish text: • diacritics • punctuation • casing • corrupted text **96.5% word accuracy** on real Turkish news sentences. And it runs without sending your text to a cloud API. 🤗 Try the model: Werea-co/Werea-TR-TextRestore 🇹🇷 Built in Türkiye. Open source. If you're working on Turkish NLP, I'd love to hear what we should build next. #TurkishNLP #HuggingFace #OpenSourceAI #NLP",
+      "date_published": "2026-09-09T16:53:03Z",
+      "date_modified": "2026-09-09T16:53:03Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/GoktugD/875808960716281.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/GoktugD/875808960716281.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/e8608e40b7228951",
+      "url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "content_text": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "date_published": "2026-09-09T15:36:24Z",
+      "date_modified": "2026-09-09T15:36:24Z",
+      "authors": [
+        {
+          "name": "Hugging Face Blog"
+        }
+      ],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/69d3d41eef229c09afea5d83/KYse3pX6t3l8FnI-1pKsi.png",
+      "tags": [
+        "Hugging Face Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/69d3d41eef229c09afea5d83/KYse3pX6t3l8FnI-1pKsi.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/e778c8cdfb90efee",
       "url": "https://huggingface.co/posts/nwaughachukwuma/199024335043983",
       "title": "It’s easy to get distracted by benchmarks, throughput (tok/s), and all the hype around frontier model releases.",
@@ -118,6 +210,98 @@
       "attachments": [
         {
           "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/84198b2383a85dd8",
+      "url": "https://huggingface.co/papers/2609.08368",
+      "title": "Miles v0.1: Production-Level Post-Training",
+      "content_text": "Miles is an open-source, production-ready system for large-scale reinforcement learning and post-training that supports diverse backends, weight synchronization, LoRA, distillation, and diffusion models.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08368.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08368.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/54d2827c81bfa5af",
+      "url": "https://huggingface.co/papers/2609.08183",
+      "title": "NeoHorse-1: Towards Recursive Self-Improvement via Agentic Post-Training with Routing Harness",
+      "content_text": "NeoHorse-1 uses agentic post-training with intelligent routing, structured feedback loops, and curriculum-based distillation to improve model capabilities across agent benchmarks.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08183.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08183.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/d52c532d940ca162",
+      "url": "https://huggingface.co/papers/2609.09123",
+      "title": "Mask Forcing: Improving Autoregressive Video Diffusion Distillation via Dual-Noise Masking Rollout",
+      "content_text": "Mask Forcing mitigates mode collapse in distilled autoregressive video diffusion by injecting masked cleaner signals during self-rollout, improving visual quality without extra training data.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.09123.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.09123.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/45cfdd94e4e29de9",
+      "url": "https://huggingface.co/papers/2609.08977",
+      "title": "Omni Interaction Agent Technical Report",
+      "content_text": "Gander is an end-to-end framework that integrates continuous multi-modal streaming, real-time full-duplex interaction, and agentic reasoning through a Cerebellum-Brain architecture and a chunk-level token stream design.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08977.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08977.png",
           "mime_type": "image/png"
         }
       ]
@@ -652,6 +836,52 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/72cedb041bee0a9d",
+      "url": "https://huggingface.co/papers/2609.06055",
+      "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
+      "content_text": "DriveZero is an end-to-end autonomous driving system that combines a vision foundation model for perception with a closed-loop reinforcement learning action model to learn driving behaviors beyond human demonstrations.",
+      "date_published": "2026-09-05T00:00:00Z",
+      "date_modified": "2026-09-05T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06055.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06055.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/6f7f60b3b9a18f19",
+      "url": "https://huggingface.co/papers/2609.05594",
+      "title": "SceneMosaic: Efficient and Diverse Simulation-Ready Scene Generation via Hybrid Agentic Layout Evolution",
+      "content_text": "SceneMosaic combines learned image priors with vision-language agents to efficiently generate diverse, physically valid indoor scenes by evolving local units and composing them globally.",
+      "date_published": "2026-09-04T00:00:00Z",
+      "date_modified": "2026-09-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05594.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05594.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/28bcc8f13cc3e033",
       "url": "https://huggingface.co/papers/2609.05416",
       "title": "WorldSculpt: Generating Compositional Worlds from Grounded Videos",
@@ -831,6 +1061,29 @@
       "attachments": [
         {
           "url": "https://cdn-uploads.huggingface.co/production/uploads/64e8143f6de557454220921e/1oB5vm47VNu42diDOsp0p.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/24ea369aa7a2dbea",
+      "url": "https://huggingface.co/papers/2609.05533",
+      "title": "SimpleMemVLA: A Simple but Effective Native-Video Memory for Vision-Language-Action Models",
+      "content_text": "SimpleMemVLA achieves long-horizon manipulation by feeding intact timestamped video history directly into a pretrained VLM backbone and using hidden states to inform a flow-matching action head, outperforming dedicated memory modules.",
+      "date_published": "2026-09-02T00:00:00Z",
+      "date_modified": "2026-09-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05533.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05533.png",
           "mime_type": "image/png"
         }
       ]
@@ -2694,6 +2947,29 @@
       "attachments": [
         {
           "url": "https://huggingface.co/blog/assets/agentic-resource-discovery-launch/thumbnail_.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/fd4a8c87ca562d73",
+      "url": "https://huggingface.co/papers/2606.16533",
+      "title": "Kairos: A Native World Model Stack for Physical AI",
+      "content_text": "Kairos is a world model framework that learns from diverse experiences, maintains persistent states through hybrid temporal attention mechanisms, and operates efficiently across different hardware platforms for physical AI applications.",
+      "date_published": "2026-06-16T00:00:00Z",
+      "date_modified": "2026-06-16T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16533.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16533.png",
           "mime_type": "image/png"
         }
       ]

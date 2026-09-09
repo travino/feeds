@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-09-09T11:47:31.572540+00:00</updated>
+  <updated>2026-09-09T16:53:02.968989+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -12,6 +12,431 @@
   <icon>https://blog.google/favicon.ico</icon>
   <logo>https://blog.google/favicon.ico</logo>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://cloud.google.com/blog/products/databases/how-to-replicate-sql-server-logins-and-passwords-to-cloud-sql</id>
+    <title>Beyond DMS: Accelerating Migrations SQL Server Logins and Users to Cloud SQL</title>
+    <updated>2026-09-09T16:30:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;So, you’ve planned your database modernization journey. You’ve set up Google Cloud’s &lt;/span&gt;&lt;a href="https://cloud.google.com/database-migration"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Database Migration Service&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; (DMS), configured replication, and successfully synchronized your application databases from your on-premises or cloud systems to a fully managed &lt;/span&gt;&lt;a href="https://cloud.google.com/sql/sqlserver"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud SQL for SQL Server&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; instance.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The replication is complete, the data is up to date, and you’re ready for cutover. But when your application attempts to connect to the newly migrated database, you’re hit with a frustrating roadblock:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code style="vertical-align: baseline;"&gt;Msg 18456, Level 14, State 1, Line 1: Login failed for user 'app_user.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The culprit is simple: your SQL Server logins didn't migrate with your database. In this post, we’ll look at why this gap exists, why it actually protects your organization's security posture, and how easy it is to bridge using standard, time-tested SQL Server tools. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Why DMS doesn't migrate logins: Security and compliance&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Database Migration Service (DMS) is highly efficient at replicating database-level schemas and transactional data. However, it purposefully doesn’t migrate instance-level objects, such as the system &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;master&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; database or server logins and permissions.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;While this might feel like a missing feature, it is actually a deliberate design choice built around three core pillars:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Security Isolation and Privilege Boundaries:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; The source environment and the destination Cloud SQL environment operate under different security paradigms. Replicating the master system database directly could lead to unauthorized privilege escalation. For example, an on-premises login with &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;sysadmin&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; privileges shouldn’t have unrestricted &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;sysadmin&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; access to a fully managed Google Cloud database. When the cloud provider manages physical backups, patching, and security, it needs to limit underlying operating system access to ensure correct operation.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Compliance and Audit Governance:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Automated migration of encrypted password hashes and server-level security credentials without explicit administrator oversight frequently violates enterprise compliance frameworks such as PCI-DSS or SOC 2. By keeping security object migration as a deliberate, administrator-driven step, organizations can guarantee that only approved identities are provisioned in the cloud landing zone.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;The Need for Identity Modernization:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Migrating to the cloud is the perfect opportunity to update and prune stale credentials. Frequently, on-premises instances carry legacy SQL logins that are no longer used. Replicating them blindly to a cloud-managed service is a security anti-pattern. Furthermore, moving to Cloud SQL is often the catalyst for shifting away from legacy SQL authentication toward modern, cloud-native identity solutions like Customer-Managed Active Directory (CMAD).&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Understanding logins vs. users: The SID connection&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To migrate logins successfully, let’s briefly revisit how SQL Server manages security. SQL Server separates identity into two distinct layers:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Logins (server-level):&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Stored in the &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;master&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; database. These authenticate a client connection to the SQL Server instance.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Users (database-level):&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Stored inside individual user databases. These authorize what actions a connection can perform within that specific database.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The bridge between a server login and a database user is a unique &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Security Identifier (SID)&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;When you backup and restore a database (or use DMS to replicate it), the database-level &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;users&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; (and their corresponding SIDs) are migrated inside the database files. However, if the corresponding server-level &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;login&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; does not exist in the destination &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;master&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; database—or exists but has a different SID—the mapping breaks. This results in "orphaned users" who have database access permissions but no way to authenticate at the server level.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="SQL Server Logins 1" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_kO5uMVL.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+        &lt;figcaption class="article-image__caption "&gt;&lt;p&gt;Figure 1: How migrating databases without corresponding logins or with mismatched security identifiers (SIDs) results in orphaned users on the destination instance.&lt;/p&gt;&lt;/figcaption&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The recommended solution: Replicating logins using &lt;/strong&gt;&lt;strong style="vertical-align: baseline;"&gt;sp_help_revlogin&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Instead of manually recreating every login and guessing password hashes, we can rely on a classic Microsoft-provided script: &lt;/span&gt;&lt;a href="https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/security/transfer-logins-passwords-between-instances" rel="noopener" target="_blank"&gt;&lt;code style="text-decoration: underline; vertical-align: baseline;"&gt;sp_help_revlogin&lt;/code&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This script generates a T-SQL query containing the &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;CREATE LOGIN&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; statement for every SQL Server authentication login on your source instance, complete with its original, encrypted password hash and its exact Security Identifier (SID).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Step 1: Create the helper procedures on your source instance&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Connect to your source SQL Server instance using SQL Server Management Studio (SSMS). Copy and execute the official Microsoft script to create the two required stored procedures in your source &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;master&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; database: &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;sp_hexadecimal&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;sp_help_revlogin&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Step 2: Generate the migration script&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Once the procedures are created, run the following statement in your SSMS query window. Make sure to toggle your output settings to &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Results to Text&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; (Ctrl + T) to copy the output cleanly:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;EXEC master.dbo.sp_help_revlogin;&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f25c4adba10&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The output will contain auto-generated T-SQL statements that look similar to this:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;CREATE LOGIN [app_user] WITH PASSWORD = 0x01004F3D... HASHED, SID = 0x8D2F..., DEFAULT_DATABASE = [CustomerDB]&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f25c4a645d0&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By scripting out the login with the &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;HASHED&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; password option and the original &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;SID&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt;, SQL Server allows us to safely recreate the login with its original password and secure link intact.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Step 3: Apply the script to Cloud SQL&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Copy the generated script, connect to your destination Cloud SQL for SQL Server instance, and execute the query. Your logins are instantly created in the cloud with their correct passwords.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By running the script generated by sp_help_revlogin, we replicate the logins onto the destination Cloud SQL instance with their exact security identifiers (SIDs) and password hashes intact. As shown below, this ensures that the database-level users automatically map to their server-level logins upon database migration, avoiding “orphaned users” entirely.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="SQL Server Logins 2" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image2_lFILOIi.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+        &lt;figcaption class="article-image__caption "&gt;&lt;p&gt;Figure 2: The unified migration process using the sp_help_revlogin script to preserve password hashes and original SIDs, resolving user mapping on Cloud SQL for SQL Server.&lt;/p&gt;&lt;/figcaption&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Note: &lt;br /&gt;&lt;/strong&gt;&lt;strong style="vertical-align: baseline;"&gt;sp_help_revlogin&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; is a stored procedure that was created and is maintained by Microsoft. Make sure to download the latest version and read the &lt;/span&gt;&lt;a href="https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/security/transfer-logins-passwords-between-instances" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Troubleshooting orphaned users&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If you had created a login on the target Cloud SQL instance manually before running &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;sp_help_revlogin&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt;, the SIDs might not match, causing the user to become "orphaned."&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;If you find an orphaned user (say, &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;app_user&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt;), you can easily remap it to the newly created server login with a single command:&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;ALTER USER [app_user] WITH LOGIN = [app_user];&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f25c4a67190&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With that command, the database user and the server login are immediately reunited via their SIDs, and application connectivity is fully restored.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Take your security a step further&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;While migrating SQL logins using &lt;/span&gt;&lt;code style="vertical-align: baseline;"&gt;sp_help_revlogin&lt;/code&gt;&lt;span style="vertical-align: baseline;"&gt; is the easiest path for a lift-and-shift migration, consider utilizing your cloud migration to modernize your authentication. Cloud SQL for SQL Server supports robust integrations with &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Customer-Managed Active Directory (CMAD)&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. Integrating your destination instance with Active Directory allows you to deprecate legacy SQL logins in favor of centralized, enterprise-grade Kerberos authentication.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Wrap up&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Database migration is more than just shifting rows of data—it’s about ensuring your applications remain secure, compliant, and operational from day one. While Google Cloud’s DMS handles the heavy lifting of data replication, migrating your logins is a straightforward, three-step process that guarantees a seamless cutover.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To learn more about optimizing your migration strategy, check out the&lt;/span&gt;&lt;a href="https://cloud.google.com/sql/docs/sqlserver/migrate-data"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud SQL for SQL Server Migration Guide&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and explore how&lt;/span&gt;&lt;a href="https://cloud.google.com/database-migration-service"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Database Migration Service&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; can streamline your move to Google Cloud.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/databases/how-to-replicate-sql-server-logins-and-passwords-to-cloud-sql" rel="alternate"/>
+    <category term="Google Cloud"/>
+    <published>2026-09-09T16:30:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_kO5uMVL.max-1000x1000.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_kO5uMVL.max-1000x1000.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_kO5uMVL.max-1000x1000.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>https://cloud.google.com/blog/products/databases/spanner-removes-dml-mutation-limits</id>
+    <title>Spanner: Removing cumulative mutation limits for DML transactions</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Spanner is Google Cloud’s no-compromise operational database that gives you the horizontal scale and always-on availability of a modern distributed system along with the rich feature set and familiar ecosystem of a relational database. Innovators in industries like banking, retail, media and entertainment, and AI infrastructure rely on Spanner today for their most critical workloads. We’re excited to announce a new, flexible way to handle larger, more complex transactions in Spanner, simplifying applications that need the highest levels of data consistency.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Operational workloads typically combine real-time decision making with granular updates: Think: identifying fraud as part of a multi-step checkout process in an ecommerce app. These changes must be transactional; either all of them succeed or none of them do and subsequent requests see the correct data. This update to Spanner’s ACID transactions allows applications to handle more data in an update without compromising on consistency, scalability, or availability using familiar DML. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Higher ceiling, more flexibility&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Previously, Spanner capped the changes a query could perform in a transaction, for example using DML, at 80,000. That was roughly computed as the product of the number of rows and number of columns updated, plus any dependent indexes. Applications evolve over time to handle more data and provide new functionality. These changes increase the size of transactions, potentially causing previously small transactions to hit this limit. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This update shifts&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt; &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;the 80,000 mutation mod limit from the transaction to individual DML statements. DML statements no longer contribute to an overall transaction-level mutation limit. A single transaction can now contain any number of DML statements, such as INSERT, UPDATE, or DELETE, provided that each individual statement generates fewer than 80,000 mutation mods.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;Key benefits&lt;/span&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Larger transactions:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Group DML statements logically based on business requirements rather than artificially splitting them to comply with cumulative mutation limits.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Seamless transition:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; This change is compatible with all existing Spanner client libraries and requires no updates to application code.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Technical considerations&lt;/strong&gt;&lt;/h3&gt;
+&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;Locking and aborts&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;While you can now include more DML statements in a single transaction, be aware that larger and longer-running transactions hold locks for a greater duration. This may increase the likelihood of &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;lock contention&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;transaction aborts&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. Keeping transactions concise helps maintain high performance and minimize resource contention.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;DML vs. Mutation API&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The application of limits depends on the method used to modify data:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;DML Statements:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Each statement (e.g., executeUpdate) is evaluated independently against the 80,000 mod limit.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Mutation API:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; When using client library methods like insert() or update(), mutations are provided during the Commit call. The 80,000 limit continues to apply to the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;entire set&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; of mutations included in that single call.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;Understanding mutation mods&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Spanner counts "mods" based on the complexity of changes, including modified cells, primary keys, and secondary index updates. Please look at &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/databases/cloud-spanner-doubles-the-number-of-updates-per-transaction"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;this&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; blog for more details on how mutations are counted. You can monitor the total mods for a committed transaction via the mutation_count in the CommitStats. Note that the mutation_count will include all the mutations that are part of the transaction, across all DML statements and commit calls. &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Java implementation example&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The following example demonstrates how multiple DML statements can be executed within a single transaction under the new limit logic.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-code"&gt;&lt;dl&gt;
+    &lt;dt&gt;code_block&lt;/dt&gt;
+    &lt;dd&gt;&amp;lt;ListValue: [StructValue([(&amp;#x27;code&amp;#x27;, &amp;#x27;import com.google.cloud.spanner.DatabaseClient;\r\nimport com.google.cloud.spanner.Statement;\r\nimport com.google.cloud.spanner.TransactionContext;\r\nimport com.google.cloud.spanner.TransactionRunner.Work;\r\n\r\n// Assuming dbClient is your initialized DatabaseClient\r\ndbClient\r\n    .readWriteTransaction()\r\n    .run(\r\n        new Work&amp;lt;Void&amp;gt;() {\r\n          @Override\r\n          public Void doWork(TransactionContext transaction) throws Exception {\r\n            // Each executeUpdate call is evaluated separately against the 80k mod limit.\r\n\r\n            // Example 1: Updating specific products\r\n            Statement stmt1 = Statement.newBuilder(\r\n                        &amp;quot;UPDATE Products SET InStock = FALSE WHERE ProductId = @productId&amp;quot;)\r\n                    .bind(&amp;quot;productId&amp;quot;).to(1L)\r\n                    .build();\r\n            transaction.executeUpdate(stmt1); // Verified against 80k limit\r\n\r\n            Statement stmt2 = Statement.newBuilder(\r\n                        &amp;quot;UPDATE Products SET InStock = FALSE WHERE ProductId = @productId&amp;quot;)\r\n                    .bind(&amp;quot;productId&amp;quot;).to(2L)\r\n                    .build();\r\n            transaction.executeUpdate(stmt2); // Verified against 80k limit separately\r\n\r\n            // Example 2: Inserting related order data\r\n            Statement stmt3 = Statement.newBuilder(\r\n                        &amp;quot;INSERT INTO OrderItems (OrderId, ItemId, Quantity) VALUES (@orderId, @itemId, @qty)&amp;quot;)\r\n                    .bind(&amp;quot;orderId&amp;quot;).to(100L)\r\n                    .bind(&amp;quot;itemId&amp;quot;).to(1L)\r\n                    .bind(&amp;quot;qty&amp;quot;).to(2)\r\n                    .build();\r\n            transaction.executeUpdate(stmt3); \r\n\r\n            Statement stmt4 = Statement.newBuilder(\r\n                        &amp;quot;UPDATE Orders SET LastUpdated = PENDING_COMMIT_TIMESTAMP() WHERE OrderId = @orderId&amp;quot;)\r\n                    .bind(&amp;quot;orderId&amp;quot;).to(100L)\r\n                    .build();\r\n            transaction.executeUpdate(stmt4); \r\n\r\n            return null;\r\n          }\r\n        });&amp;#x27;), (&amp;#x27;language&amp;#x27;, &amp;#x27;&amp;#x27;), (&amp;#x27;caption&amp;#x27;, &amp;lt;wagtail.rich_text.RichText object at 0x7f25c489e990&amp;gt;)])]&amp;gt;&lt;/dd&gt;
+&lt;/dl&gt;&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;What has not changed&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Individual statement limit:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Any single DML statement that generates more than 80,000 mods on its own will still return the same error as we do today. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Other transaction limits:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Other constraints such as the maximum transaction size in bytes remain in effect. They are documented &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/spanner/quotas"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Best practices&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Monitor CommitStats:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Utilize the mutation_count returned in CommitStats to understand the load generated by your operations.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Optimize large operations:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; If a single statement (like a bulk update) exceeds the limit, consider using &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Partitioned DML&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; or paginating through keys.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Spanner is the trusted choice for operational applications that need to scale without downtime. This increase to the mutation limit provides developers new flexibility to run larger transactions that leverage Spanner’s global consistency. &lt;/span&gt;&lt;a href="https://cloud.google.com/spanner"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Learn&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; how Spanner can help your teams innovate faster with less risk, or try it on your own, with a &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/spanner/docs/free-trial-instance"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;free trial&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; or production instances starting as low as $54/month.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;External references&lt;/span&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;a href="https://docs.cloud.google.com/spanner/quotas"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Quotas &amp;amp; limits  |  Spanner  |  Google Cloud Documentation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;a href="https://docs.cloud.google.com/spanner/docs/dml-versus-mutations"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Compare DML and Mutations  |  Spanner  |  Google Cloud Documentation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;a href="http://go/cspanner-docs/commit-statistics" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Retrieve commit statistics for a transaction  |  Spanner  |  Google Cloud Documentation&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/databases/spanner-removes-dml-mutation-limits" rel="alternate"/>
+    <category term="Google Cloud"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/10_-_Databases.max-2600x2600.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/10_-_Databases.max-2600x2600.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/10_-_Databases.max-2600x2600.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://cloud.google.com/blog/products/media-entertainment/how-airtel-delivered-its-flawless-indian-premiere-league-2026-cricket-broadcasts</id>
+    <title>How Airtel delivered its flawless Indian Premiere League 2026 cricket broadcasts</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For the millions of fervent fans of the &lt;/span&gt;&lt;a href="https://www.iplt20.com/" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Indian Premiere League&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; (IPL), being able to count on a flawless live streaming cricket experience is never up for debate. For Airtel, producing &lt;/span&gt;&lt;a href="https://www.airtelxstream.in/Landing/page/indian-premier-league-2026/ipl-2026" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;league TV broadcasts&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; with some of the world's most massive concurrent viewership, dropped packets and buffering are simply not options.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;During the IPL 2026 season, Airtel partnered with Google Cloud to manage this digital delivery. Across 74 matches, the streaming infrastructure delivered several hundred petabytes of egress data. The final match alone processed tens of billions of requests, hitting a peak egress of several Tbps.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Delivering video under these concurrency spikes requires an edge architecture designed strictly around localization, paired with proactive operational monitoring. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our goal for IPL 2026 was to deliver an uninterrupted, stadium-grade viewing experience to cricket fans across India, regardless of concurrency surges or network conditions. Partnering with Google Cloud and using Media CDN gave us deep local edge proximity and excellent cache efficiency. Combined with proactive match-day real-time monitoring, we delivered a reliable broadcast experience from start to finish.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Architecting for concurrency and edge efficiency&lt;/strong&gt;&lt;/h3&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="IPL-BLog-Architecture" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/IPL-BLog-Architecture.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;One of the primary challenges in live sports broadcasting is seamlessly handling large traffic spikes and never degrading stream performance or overwhelming backend origins. That’s especially important when millions of viewers simultaneously tune in during a final over because every millisecond counts.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To accelerate content delivery across India’s diverse ISP landscape, Airtel leveraged Google Cloud’s &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/media-cdn/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Media CDN&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. By utilizing Google’s extensive global edge network, Airtel was able to serve viewer requests from edge locations that were physically close to end users. This deep localization was a cornerstone of the broadcast's success, with 99.9% of all tournament traffic being served locally from within India.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This efficient architecture minimized network hops and reduced transit congestion, translating into remarkable infrastructure and viewer experience metrics throughout the 74 matches:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Superior caching efficiency:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Airtel saw an overall cache hit ratio exceeding 98%. By effectively absorbing massive viewer traffic load at the edge, origin server/video platform demands remained minimal even during peak playoff viewership.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Consistent ultra-low latency:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Airtel maintained a p99 latency of &amp;lt; 300 ms during the tournament, which supported fast stream start times and minimized buffering risk during critical game moments.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Proactive strategies for operational readiness&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;While maintaining an intelligent backend architecture was vital to Airtel’s IPL streaming strategy, it was  only half the equation. Executing high-stakes live broadcasts across 74 consecutive matches also demanded meticulous operational preparation and proactive match-day execution.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Because Airtel and Google Cloud recognized that potential bottlenecks had to be identified long before the first ball, they established a deeply integrated operational support model:&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Pre-tournament support readiness reviews:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Well ahead of the opening match, joint engineering teams conducted comprehensive support readiness reviews. By auditing traffic projections, reviewing manifest configurations, and validating failover mechanisms early, the teams supported robust client readiness, resulting in low operational friction during the tournament.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;a href="https://cloud.google.com/monitoring"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Monitoring as a service&lt;/strong&gt;&lt;/a&gt;&lt;strong style="vertical-align: baseline;"&gt; (MaaS):&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; The teams maintained continuous, proactive telemetry monitoring through MaaS on Media CDN, and real-time observability enabled early detection and mitigation of network shifts before anomalies could impact viewer playback.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Dedicated match-day and weekend support:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Live sports don't play by the rules of  standard business hours, so Airtel established comprehensive monitoring protocols for every match. During critical weekend fixtures and the high-stakes playoff stage, Google Cloud’s &lt;/span&gt;&lt;a href="https://cloud.google.com/tam"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Technical Account Management&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and MaaS teams worked hand-in-hand with Airtel engineering to provide dedicated, real-time event support.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;A blueprint for live broadcast excellence&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Airtel’s successful streaming of IPL 2026 demonstrates that handling extreme concurrency is only possible with an integrated strategy across architecture, edge localization, and operational governance. By combining a 98%+ cache hit ratio with 99.9% local delivery and proactive match-day monitoring, Airtel hit a benchmark for live sports broadcasting at scale.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;This deployment provides an overview of the technical architecture and operational strategies involved in scaling live media delivery for high-concurrency events. To learn more about optimizing live broadcasts and edge delivery, review the &lt;/span&gt;&lt;a href="https://cloud.google.com/media-cdn/docs"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Media CDN developer documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/media-entertainment/how-airtel-delivered-its-flawless-indian-premiere-league-2026-cricket-broadcasts" rel="alternate"/>
+    <category term="Google Cloud"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_nJUHFi1.max-600x600.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_nJUHFi1.max-600x600.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_nJUHFi1.max-600x600.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>https://android-developers.googleblog.com/2026/09/wireless-debugging-adb-wifi-2.html</id>
+    <title>Introducing Fast and Reliable Wireless Debugging with Android Debug Bridge (ADB) Wi-Fi 2.0</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">&lt;img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5d1m5V0YkXO3RfG80oR_CKgil42o_kHWX_FkCe57Mg8y_9CRTBiiEAtyNUNkMAcISJ1i2YsNauolZEiwLMbGV8V-9rb4TjPXOKIldpCasNz0_nmSS01SbsYzAgabgOjh0peLNjbTTUwEdurcC7-0okTm5MTxGBbea1dZPdGA9AO13fJSm6nIkE-I1ym4/s2048/Introducing-Fast-and-Reliable-Wireless-Debugging-Metadata.jpg" style="display: none;" /&gt;&lt;div&gt;&lt;i&gt;Posted by Steven Jenkins,  Product Manager, Sherif Eid,  Senior Software Engineer, and Fabien Sanglard, Staff Software Engineer, Android Studio&lt;/i&gt;&lt;/div&gt;&lt;span id="docs-internal-guid-6a7eecf2-7fff-34c8-1c7c-3bd8d99ebe9a"&gt;&lt;div&gt;&lt;span face="&amp;quot;Google Sans&amp;quot;, sans-serif" style="color: #666666; font-size: 9pt; font-style: italic; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAfnfuXrLdJzBnFaM_1pbRh2qhH1DGrUwpRQop-WjTsgc-8I7Jlr-BB8uJ2wgfqJrduh2pqnZOL1egrkiNcWafTfhr68-06Ho-TdV26oU3AFxztsBFl1jbDyLPncifUguyMVDBhjJpMnvovpXRfqF9mXtqDl8R8sAPum1sZSZ_ir2lGOWRDr8M2PMORJQ/s4209/Introducing-Fast-and-Reliable-Wireless-Debugging-Blog.jpg" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAfnfuXrLdJzBnFaM_1pbRh2qhH1DGrUwpRQop-WjTsgc-8I7Jlr-BB8uJ2wgfqJrduh2pqnZOL1egrkiNcWafTfhr68-06Ho-TdV26oU3AFxztsBFl1jbDyLPncifUguyMVDBhjJpMnvovpXRfqF9mXtqDl8R8sAPum1sZSZ_ir2lGOWRDr8M2PMORJQ/s1600/Introducing-Fast-and-Reliable-Wireless-Debugging-Blog.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;Wireless debugging on Android is now faster, more reliable, and easier to set up than ever. With ADB Wi-Fi 2.0, we’ve introduced a new server stack and smarter network handling to directly address developer feedback around usability gaps.&lt;/p&gt;
+
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCQSrTovybgRKX3qsBj_frFMaDWcCplBneWm0PS4TokojPY_Dr-fF1RY5e9thbSukVFx08coK2xnDdKZ0Ado-E5wpJgilM3QiejqsA5v2VdmmTXf6TgDRQULkwBXrxUAc1pCgO7wlhgyKu08SE0tSUKMIv2Dz3KBcPdxYm1Ylly4Mp58CtMeVLRu16NVk/s1080/wireless-debug-update-with-qr-to-documentation.gif" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCQSrTovybgRKX3qsBj_frFMaDWcCplBneWm0PS4TokojPY_Dr-fF1RY5e9thbSukVFx08coK2xnDdKZ0Ado-E5wpJgilM3QiejqsA5v2VdmmTXf6TgDRQULkwBXrxUAc1pCgO7wlhgyKu08SE0tSUKMIv2Dz3KBcPdxYm1Ylly4Mp58CtMeVLRu16NVk/s1600/wireless-debug-update-with-qr-to-documentation.gif" /&gt;&lt;/a&gt;&lt;/div&gt;
+
+&lt;h2&gt;How ADB Wi-Fi 2.0 Improves Wireless Debugging&lt;/h2&gt;
+&lt;p&gt;To ensure ADB Wi-Fi 2.0 is even more reliable, we reworked all three core components of the stack: the adb server, the adbd daemon, and Android Studio.&lt;/p&gt;
+
+&lt;p&gt;Here are the new features:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A new server stack (adb):&lt;/strong&gt; Previously, wireless device connections would sever when network configurations changed or devices were turned off. This meant that connections would drop for common occurrences. With our new mDNS stack, we’ve replaced both Bonjour and legacy mDNS so that your wireless devices more reliably stay connected as you go about your day.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Smarter network handling (adbd):&lt;/strong&gt; Previously, the workstation's mDNS client would sporadically drop services. Now, the daemon automatically turns off ADB Wi-Fi when it detects an untrusted network and re-enables itself once running on a user-allowed network.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Improved discoverability in Android Studio:&lt;/strong&gt; Previously, Wi-Fi pairing was difficult to find. Now, you simply enable wireless debugging on your phone and it will show in Android Studio’s Device Manager.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With ADB Wi-Fi 2.0, auto-connection success rates improved by 32% and connection speeds increased by 66% for 90% of connections.&lt;/p&gt;
+
+&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;img border="0" height="307" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEif1qBkzuM3gDn0sJAYSjIJoceDuvZmfsoR_-XU01yk1Us9wPC2UwXMgBZAEJ_mY1ACrkqIlUBH0cgzX-AEPFa8-tKZocdMETDGuxf1jZiy2VEacHx0UdwsD2FXYALyiN6m02-eibJNSj4mJoz44E5BWZkVMIGuOh_zZHuKR3IjDWHy_51nL0VW9OAWylQ/s320/adb-metric.png" width="320" /&gt;&lt;/div&gt;
+
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+&lt;p&gt;You can use ADB Wi-Fi 2.0 on your phone, tablet, Wear OS, and TV. Here’s how to get started:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Update to &lt;b&gt;Android 17&lt;/b&gt;, &lt;b&gt;Android SDK Platform-Tools 37.0.0&lt;/b&gt;, and &lt;b&gt;Android Studio Quail 3&lt;/b&gt; or later.&lt;/li&gt;
+  &lt;li&gt;Ensure your workstation and your Android device are connected to the &lt;b&gt;same Wi-Fi network&lt;/b&gt;.&lt;/li&gt;
+  &lt;li&gt;On your device, navigate to &lt;a href="https://developer.android.com/studio/debug/dev-options" target="_blank"&gt;&lt;b&gt;Developer Options&lt;/b&gt;&lt;/a&gt; and &lt;b&gt;enable Wireless debugging&lt;/b&gt;.&lt;/li&gt;
+  &lt;li&gt;Open the Android Studio Device Manager and click the &lt;b&gt;pair over Wi-Fi&lt;/b&gt; icon&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Ox1W3nIerx-N_PGRybJVpZckeD58RM5MLidGiFkTByCG7ZKbnmLIztspMJHNPj9wZGjifLdt1r66BUGNvfGRMcGzSRNtdascx_aAmKWYmv13VTJzFX0eXje1HL7-k_UIYWfscNHueD0JUb9AKCnrP70kloYooyps7ADD7GW76VPa9kSC0D0loI8n9T8/s40/Untitled%20design.png" style="margin-left: 1em; margin-right: 1em; text-align: center;"&gt;&lt;img border="0" height="20" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4Ox1W3nIerx-N_PGRybJVpZckeD58RM5MLidGiFkTByCG7ZKbnmLIztspMJHNPj9wZGjifLdt1r66BUGNvfGRMcGzSRNtdascx_aAmKWYmv13VTJzFX0eXje1HL7-k_UIYWfscNHueD0JUb9AKCnrP70kloYooyps7ADD7GW76VPa9kSC0D0loI8n9T8/w20-h20/Untitled%20design.png" width="20" /&gt;&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;b&gt;Scan the QR code&lt;/b&gt; with your device or use a pairing code, and you're all set!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For more information, see the &lt;a href="https://developer.android.com/studio/run/device#wireless"&gt;documentation&lt;/a&gt; or watch the &lt;a href="https://www.youtube.com/watch?v=_CR44gRhad4"&gt;presentation&lt;/a&gt; at Android Makers by droidcon 2026.&lt;/p&gt;
+
+&lt;p&gt;As always, we appreciate any feedback. If you find a bug or issue, please &lt;a href="https://developer.android.com/studio/report-bugs"&gt;report it&lt;/a&gt;. Also, you can be part of our vibrant Android developer community on &lt;a href="https://www.linkedin.com/showcase/androiddev/posts/?feedView=all" target="_blank"&gt;LinkedIn&lt;/a&gt;, &lt;a href="https://www.youtube.com/c/AndroidDevelopers/videos" target="_blank"&gt;YouTube&lt;/a&gt;, or &lt;a href="https://x.com/androidstudio"&gt;X&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://android-developers.googleblog.com/2026/09/wireless-debugging-adb-wifi-2.html" rel="alternate"/>
+    <category term="Android Developers"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5d1m5V0YkXO3RfG80oR_CKgil42o_kHWX_FkCe57Mg8y_9CRTBiiEAtyNUNkMAcISJ1i2YsNauolZEiwLMbGV8V-9rb4TjPXOKIldpCasNz0_nmSS01SbsYzAgabgOjh0peLNjbTTUwEdurcC7-0okTm5MTxGBbea1dZPdGA9AO13fJSm6nIkE-I1ym4/s72-c/Introducing-Fast-and-Reliable-Wireless-Debugging-Metadata.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5d1m5V0YkXO3RfG80oR_CKgil42o_kHWX_FkCe57Mg8y_9CRTBiiEAtyNUNkMAcISJ1i2YsNauolZEiwLMbGV8V-9rb4TjPXOKIldpCasNz0_nmSS01SbsYzAgabgOjh0peLNjbTTUwEdurcC7-0okTm5MTxGBbea1dZPdGA9AO13fJSm6nIkE-I1ym4/s72-c/Introducing-Fast-and-Reliable-Wireless-Debugging-Metadata.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5d1m5V0YkXO3RfG80oR_CKgil42o_kHWX_FkCe57Mg8y_9CRTBiiEAtyNUNkMAcISJ1i2YsNauolZEiwLMbGV8V-9rb4TjPXOKIldpCasNz0_nmSS01SbsYzAgabgOjh0peLNjbTTUwEdurcC7-0okTm5MTxGBbea1dZPdGA9AO13fJSm6nIkE-I1ym4/s72-c/Introducing-Fast-and-Reliable-Wireless-Debugging-Metadata.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy</id>
+    <title>4 ways Gemini makes administrative chores quick and easy</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">"Ask Gemini" prompt box over a photo of a woman sitting in front of a laptop and looking through various documents</content>
+    <link href="https://blog.google/products-and-platforms/products/gemini/ai-navigate-bureaucracy" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/4_ways_Gemini_makes_administrat.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/4_ways_Gemini_makes_administrat.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/4_ways_Gemini_makes_administrat.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/google-accelerators-10-years</id>
+    <title>Google Accelerators have spent the last decade helping global startups succeed.</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">&lt;img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Post_Accelerator_hero.max-600x600.format-webp.webp" /&gt;Since 2016, we’ve supported 2,115 startups, developers, research organizations, and NGOs across 92 countries.</content>
+    <link href="https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/google-accelerators-10-years" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Post_Accelerator_hero.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Post_Accelerator_hero.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Post_Accelerator_hero.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>https://blog.google/innovation-and-ai/technology/ai/love-rendered-film</id>
+    <title>Recreating a 70-year love story frame by frame</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">An elderly couple sitting in a movie theater. Overlayed are "Teulluride Film Festival" and "Love, Rendered"</content>
+    <link href="https://blog.google/innovation-and-ai/technology/ai/love-rendered-film" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/LOVE_RENDERED_HERO_BLOG_SANS_LO.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>https://blog.google/products-and-platforms/products/search/football-features-google-search</id>
+    <title>Get ready for the game with new football features in Search</title>
+    <updated>2026-09-09T16:00:00+00:00</updated>
+    <content type="html">An illustrated graphic set against a vibrant green background featuring American football elements, including a gold trophy, a blue helmet, a silver whistle, a football, a mini scoreboard, and play diagrams, with the icon for AI Mode in Google Search in t</content>
+    <link href="https://blog.google/products-and-platforms/products/search/football-features-google-search" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-09T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>https://googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure</id>
     <title>Google Deepens Commitment to Finland with Two-Year €13 Billion investment in AI Infrastructure</title>
@@ -3791,6 +4216,19 @@ rules&lt;/a&gt;.&lt;/p&gt;</content>
     <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/S2E2_thumbnail.max-600x600.format-webp.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
+    <id>https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises</id>
+    <title>Proactive cyber defense for governments and enterprises</title>
+    <updated>2026-09-02T16:24:24+00:00</updated>
+    <link href="https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises" rel="alternate"/>
+    <category term="Google DeepMind"/>
+    <published>2026-09-02T16:24:24+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blog__header__1.width-1300.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blog__header__1.width-1300.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blog__header__1.width-1300.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>https://workspaceupdates.googleblog.com/2026/09/custom-instructions-for-gemini-in-Workspace-now-available-in-more-apps.html</id>
     <title>Custom instructions for Gemini in Workspace now available in more apps</title>
     <updated>2026-09-02T16:22:23+00:00</updated>
@@ -3803,6 +4241,19 @@ rules&lt;/a&gt;.&lt;/p&gt;</content>
       <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9pirh0dCkAdCtVEOIBKwIL06wFbO-39HX4jUqEo_yCFYXt-kP0HLXpGJoDIkIX8NL9qWj6IU6jKgcczjfqyev9isHvgAx8lWk0KaLS5ci1-O6_hkpCsRU5kBySWS_6VrbkbJaRvgvm5bRtqrm7DqKJiupHVv9DgejKSnpAXG5A8nLe4AUuFFImbcM0rs/s72-w627-h640-c/Custom%20instructions%20for%20Gemini%20in%20Workspace%20now%20available%20in%20more%20apps%20-%206926%20-%201.png"/>
     </media:group>
     <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9pirh0dCkAdCtVEOIBKwIL06wFbO-39HX4jUqEo_yCFYXt-kP0HLXpGJoDIkIX8NL9qWj6IU6jKgcczjfqyev9isHvgAx8lWk0KaLS5ci1-O6_hkpCsRU5kBySWS_6VrbkbJaRvgvm5bRtqrm7DqKJiupHVv9DgejKSnpAXG5A8nLe4AUuFFImbcM0rs/s72-w627-h640-c/Custom%20instructions%20for%20Gemini%20in%20Workspace%20now%20available%20in%20more%20apps%20-%206926%20-%201.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber</id>
+    <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</title>
+    <updated>2026-09-02T16:18:31+00:00</updated>
+    <link href="https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber" rel="alternate"/>
+    <category term="Google DeepMind"/>
+    <published>2026-09-02T16:18:31+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>https://workspaceupdates.googleblog.com/2026/09/automate-drive-gmail-and-google-chat-actions-with-new-steps-in-Workspace-Studio.html</id>
@@ -29241,249 +29692,5 @@ comments&lt;/a&gt;.&lt;/p&gt;</content>
       <media:thumbnail url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"/>
     </media:group>
     <link rel="enclosure" href="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://googlecloudpresscorner.com/2026-07-23-ITC-Infotech-and-Google-Cloud-Join-Hands-to-Scale-Enterprise-Agentic-Transformation-and-AI-Innovation</id>
-    <title>ITC Infotech and Google Cloud Join Hands to Scale Enterprise Agentic Transformation and AI Innovation</title>
-    <updated>2026-07-23T05:30:00+00:00</updated>
-    <link href="https://googlecloudpresscorner.com/2026-07-23-ITC-Infotech-and-Google-Cloud-Join-Hands-to-Scale-Enterprise-Agentic-Transformation-and-AI-Innovation" rel="alternate"/>
-    <category term="Google Cloud Press"/>
-    <published>2026-07-23T05:30:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment</id>
-    <title>SymptomAI: Towards a conversational AI agent for everyday symptom assessment</title>
-    <updated>2026-07-22T21:32:00+00:00</updated>
-    <content type="html">General Science</content>
-    <link href="https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment" rel="alternate"/>
-    <category term="Google Research"/>
-    <published>2026-07-22T21:32:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-research2023-media/original_images/SymptomAI1_Overview.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-research2023-media/original_images/SymptomAI1_Overview.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-research2023-media/original_images/SymptomAI1_Overview.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026</id>
-    <title>Q2 2026 earnings call: Remarks from our CEO</title>
-    <updated>2026-07-22T20:45:00+00:00</updated>
-    <content type="html">Read an edited transcript of Sundar Pichai’s remarks from the Q2 2026 Alphabet earnings call.</content>
-    <link href="https://blog.google/company-news/inside-google/message-ceo/alphabet-earnings-q2-2026" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-22T20:45:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Q2Earnings.width-1300.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Q2Earnings.width-1300.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Q2Earnings.width-1300.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://android-developers.googleblog.com/2026/07/optimize-galaxy-screen-sizes.html</id>
-    <title>Optimize your apps for the next generation of Samsung Galaxy devices</title>
-    <updated>2026-07-22T19:00:00+00:00</updated>
-    <content type="html">&lt;img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-c747avSj9Z8JO4DTK4kSfO3SjSpd5aTuVvR_TBeD3bXV6cc8lzNLGrWCngNXdyZBeiNjQqwQZCcU4QCrovwL99gu0t5bQrlTXa0PIBGIivwyS8y226MgeraphZr4VITWYe0x7ckFto0dsD8rBLM1J_P3dV0CBj5Ctlwm8jsgAPZA7W2XnKnRz59H9I/s2049/MM_Adaptive_and_device_Meta%20(1).png" style="display: none;" /&gt;&lt;div&gt;
-
-
-
-&lt;div&gt;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;i&gt;Posted by Fahd Imtiaz, Senior Product Manager and Miguel Montemayor, Developer Relations Engineer, Android Developer Experience&lt;/i&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGrEplk_My1fOfyw851kt92Jc2wyODN6bwWJaL5EGFV6_5grP3-pS7jrMzI4MOXgo1W1yVHcwj8J7AIO3olxlHDoNWxzTTlQLc9_D6CWB6bUtWLyvxmXN-JQQ92_HWYErsdMVuNkynTjXpZSKoaUTFiY_4aiffEDsfdCrl9om05MRVqqMac0YGExE4XLQ/s4210/MM_Adaptive_and_device_Blog.png" style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGrEplk_My1fOfyw851kt92Jc2wyODN6bwWJaL5EGFV6_5grP3-pS7jrMzI4MOXgo1W1yVHcwj8J7AIO3olxlHDoNWxzTTlQLc9_D6CWB6bUtWLyvxmXN-JQQ92_HWYErsdMVuNkynTjXpZSKoaUTFiY_4aiffEDsfdCrl9om05MRVqqMac0YGExE4XLQ/s1600/MM_Adaptive_and_device_Blog.png" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;p&gt;Today at Galaxy Unpacked, Samsung &lt;a href="https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026" target="_blank"&gt;unveiled&lt;/a&gt; its latest lineup of foldable and wearable devices. For developers, this means that the variety of form factors, screen sizes, and device postures your app needs to support is expanding once again.&lt;/p&gt;
-
-&lt;p&gt;With devices like the Galaxy Z Fold8, the ecosystem is expanding to include hardware with a landscape-first natural orientation and a wider aspect ratio in its main display state. Whether a user is unfolding a large display, flipping open a cover screen, or glancing at their wrist, users expect a flawless experience. To help you meet this moment, we’re sharing actionable guidance and new tooling updates to enable you to build adaptively proactively.&lt;/p&gt;
-
-&lt;div class="separator" style="clear: both; text-align: center;"&gt;
-  &lt;/div&gt;
-
-&lt;h2&gt;Rethink layout architecture for dynamic displays, including ultra-wide foldables&lt;/h2&gt;
-
-&lt;p&gt;Building for the latest foldables means dropping assumptions about display orientation and size. This is especially true for the Galaxy Z Fold8, which adopts an ultra-wide display, adding to the variety of aspect ratios to account for.&amp;nbsp; Devices with this landscape-first natural orientation show the limitations of hardcoded layout rules when users unfold the device. That’s why we’ve introduced &lt;a href="https://developer.android.com/develop/adaptive-apps/guides/foldables/trifolds-and-landscape-foldables" target="_blank"&gt;dedicated guidance for building for landscape foldables and trifolds.&lt;/a&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrdDMq9mmhR2NzEVD5cgQgT3Y5DgMZOV5FrjsJb-wSiZVvJjIiDQuUkfv0cjBHQMREjOKPqz9n6wPf-x5Hn6H7uT2_JiXA3Nykcr1UwnwDRK9jGFurhTRKR-5t1BN62ISXFznXhQ_e-03Mo6uIh5-BDVmNbA1Q4RY9rSg4VxBO0K6E6Dc4kViNpvuYefY/s1302/Samsung%20fold8%20phones.png" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrdDMq9mmhR2NzEVD5cgQgT3Y5DgMZOV5FrjsJb-wSiZVvJjIiDQuUkfv0cjBHQMREjOKPqz9n6wPf-x5Hn6H7uT2_JiXA3Nykcr1UwnwDRK9jGFurhTRKR-5t1BN62ISXFznXhQ_e-03Mo6uIh5-BDVmNbA1Q4RY9rSg4VxBO0K6E6Dc4kViNpvuYefY/s1600/Samsung%20fold8%20phones.png" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;p&gt;To build a responsive UI that handles these physics seamlessly, focus on the following core pillars:&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Build fluid, adaptive layouts: &lt;/b&gt;Wide aspect ratios and compact vertical heights require fluid UIs that scale responsively. Our updated &lt;a href="https://developer.android.com/design/ui/mobile/guides/layout-and-content/adapt-layout" target="_blank"&gt;adaptive design guidance&lt;/a&gt; advises considering the window class width first to determine layout changes, then adjusting for height. To let individual components fluidly adapt to the grid, structure your layout using flexible containers that allow your content to automatically wrap, span, and reflow. For design inspiration browse our &lt;a href="https://developer.android.com/design/ui/gallery/social/pawparazzi" target="_blank"&gt;adaptive sample app&lt;/a&gt; and &lt;a href="https://developer.android.com/design/ui/gallery/social/dual-screen?hl=en" target="_blank"&gt;dual-screen&lt;/a&gt; design galleries.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Track actual app space:&lt;/b&gt; Your app's display space rarely matches the physical device size, especially on an ultra-wide screen during multi-window, split-screen, or multitasking states. Sometimes even the orientations differ. Leverage &lt;a href="https://developer.android.com/develop/adaptive-apps/guides/use-window-size-classes?hl=en" target="_blank"&gt;Window Size Classes&lt;/a&gt; using the &lt;a href="https://developer.android.com/blog/posts/jetpack-window-manager-1-5-is-stable" target="_blank"&gt;Jetpack Window Manager library&lt;/a&gt; to calculate the exact space your app occupies.&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
-  
-&lt;div class="separator" style="clear: both; text-align: center;"&gt;
-  &lt;/div&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;div class="separator" style="clear: both;"&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Leverage the latest Jetpack Compose Update: &lt;/b&gt;Start by adopting the stable &lt;a href="https://android-developers.googleblog.com/2026/04/jetpack-compose-april-2026-updates.html" target="_blank"&gt;Jetpack Compose April '26 release&lt;/a&gt; (&lt;a href="https://developer.android.com/develop/ui/compose/bom" target="_blank"&gt;Compose BOM&lt;/a&gt; version &lt;code&gt;2026.04.01&lt;/code&gt;).Take advantage of the new structural layout tools to manage complex architectures. The new &lt;a href="https://developer.android.com/develop/ui/compose/layouts/adaptive/grid" target="_blank"&gt;Grid&lt;/a&gt; API allows you to define dynamic tracks and column spans without the performance overhead of a lazy list. Pair Grid with the new &lt;a href="https://developer.android.com/develop/ui/compose/layouts/adaptive/flexbox" target="_blank"&gt;FlexBox&lt;/a&gt; layout API to easily handle multi-axis alignment and dynamic item wrapping. You can also use the new &lt;a href="https://developer.android.com/develop/ui/compose/layouts/adaptive/mediaquery" target="_blank"&gt;MediaQuery&lt;/a&gt; API to adapt your UI to its environment, using conditions to detect signals like device posture, window size, and keyboard types.&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Make your app fold aware: &lt;/b&gt;Use the Jetpack WindowManager library, which provides an API surface for foldable device window features such as folds and hinges. When your app is&lt;a href="https://developer.android.com/develop/adaptive-apps/guides/foldables/make-your-app-fold-aware" target="_blank"&gt; fold aware&lt;/a&gt;, it can adapt its layout to avoid placing important content in the area of folds or hinges and use folds and hinges as natural separators.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Maintain app continuity:&lt;/b&gt; Avoid breaking the user journey when the device configuration shifts. Retain your UI state using &lt;a href="https://developer.android.com/topic/libraries/architecture/viewmodel?hl=en" target="_blank"&gt;ViewModel&lt;/a&gt; to ensure smooth transitions when a user folds or unfolds their device.&lt;/li&gt;&lt;/ul&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdxp09YbiUc9EzTGhIJ2fcoV67rLKb6Sm9UOVCISO4Xa0VVVnFUJG9PXSAYCq7gnHILLx8xoIx-L2C0blhugbADUa3nM0AOx8UQzGImu194B94Kt-CKAuK1CrGHUz10fBFs02Lmly-HO-fmBHFuZ9knuYRb6EP9v4-SpR7Ja-oeJZErJDUVEgEje0d7J8/s1920/7.22_MorphToTablet_Gif.gif" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdxp09YbiUc9EzTGhIJ2fcoV67rLKb6Sm9UOVCISO4Xa0VVVnFUJG9PXSAYCq7gnHILLx8xoIx-L2C0blhugbADUa3nM0AOx8UQzGImu194B94Kt-CKAuK1CrGHUz10fBFs02Lmly-HO-fmBHFuZ9knuYRb6EP9v4-SpR7Ja-oeJZErJDUVEgEje0d7J8/w640-h360/7.22_MorphToTablet_Gif.gif" width="640" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div&gt;&lt;h2 style="text-align: left;"&gt;Ensure seamless camera capture on foldable devices&lt;/h2&gt;&lt;div&gt;Camera implementation on foldables brings unique hardware quirks. Moving from a compact outer display to an expanded inner display introduces distinct layout aspect ratios while device rotation remains unchanged. If an app assumes a fixed portrait relationship between the camera sensor and the device layout, the app will likely suffer from sideways, stretched, or cropped previews during these folding transitions.&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;When optimizing your app's media pipeline, migrate your capture experiences to &lt;a href="https://developer.android.com/media/camera/camerax" target="_blank"&gt;CameraX&lt;/a&gt; using the CameraX migration &lt;a href="https://github.com/android/skills/blob/main/camera/camerax/SKILL.md"&gt;skill&lt;/a&gt;. The library’s &lt;a href="https://developer.android.com/reference/kotlin/androidx/camera/view/PreviewView" target="_blank"&gt;PreviewView&lt;/a&gt; automatically handles sensor orientation, device rotation, and scaling behind the scenes. This guarantees a clean, stable preview regardless of how the user holds or positions the device. If you are maintaining an existing Camera2 codebase, integrate the &lt;a href="https://developer.android.com/develop/adaptive-apps/guides/foldables/trifolds-and-landscape-foldables#solution_2_cameraviewfinder" target="_blank"&gt;CameraViewfinder&lt;/a&gt; library to apply these complex aspect ratio and rotation transformations automatically without needing a total architecture overhaul.&lt;/div&gt;&lt;/div&gt;&lt;h2 style="text-align: left;"&gt;Extend glanceable interactions to Wear OS 7&lt;/h2&gt;&lt;div&gt;The opportunity to build for this new generation of devices extends right to the wrist. Launching with Wear OS 7, Wear Widgets give you a fresh surface to provide users with instant, glanceable access to their essential updates. You can build these highly expressive experiences using &lt;a href="https://developer.android.com/jetpack/androidx/releases/glance-wear" target="_blank"&gt;Jetpack Glance&lt;/a&gt; and &lt;a href="https://developer.android.com/jetpack/androidx/releases/compose-remote" target="_blank"&gt;RemoteCompose&lt;/a&gt;. Crucially, Widgets built with this framework can now populate multi-widget tiles that were previously reserved for first-party widgets.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;
-    
- &lt;div class="separator" style="clear: both; text-align: center;"&gt;
-  &lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: left;"&gt;&lt;h2 style="clear: both; text-align: left;"&gt;Build intelligent features&amp;nbsp;&lt;/h2&gt;&lt;div class="separator" style="clear: both;"&gt;&lt;a href="https://blog.google/products-and-platforms/platforms/android/gemini-intelligence/" target="_blank"&gt;Gemini intelligence &lt;/a&gt;already completes tasks on users’ behalf, and you can &lt;a href="https://developer.android.com/ai/appfunctions?_gl=1*1jms098*_up*MQ..*_ga*MjY0OTY0MDI3LjE3ODQzMzI1NDk.*_ga_6HH9YJMN9M*czE3ODQzMzI1NDkkbzEkZzAkdDE3ODQzMzI1NDkkajYwJGwwJGgxNjE0MTMzNjEz" target="_blank"&gt;experiment&lt;/a&gt; with the intelligence system by sharing your apps capabilities.&amp;nbsp;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;Samsung’s new foldable devices come with Gemini Nano 4, our latest on-device model. Nano 4 provides support for over 140 languages, better multimodal understanding, and &lt;a href="https://developers.google.com/ml-kit/release-notes#july_14_2026" target="_blank"&gt;much more&lt;/a&gt;. Use &lt;a href="https://developers.google.com/ml-kit/genai/prompt/android" target="_blank"&gt;ML Kit’s Prompt API&lt;/a&gt; with advanced features like s&lt;a href="https://developers.google.com/ml-kit/genai/prompt/android/structured-output" target="_blank"&gt;tructured output&lt;/a&gt; and &lt;a href="https://developers.google.com/ml-kit/genai/prompt/android/thinking-mode" target="_blank"&gt;thinking mode&lt;/a&gt; to build intelligent features on-device.&amp;nbsp;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;&lt;h2 style="clear: both; text-align: left;"&gt;Start optimizing today&lt;/h2&gt;&lt;div class="separator" style="clear: both;"&gt;The tools and frameworks are ready to help you optimize your app for all screen sizes. Begin by exploring our guidance for &lt;a href="https://developer.android.com/develop/adaptive-apps" target="_blank"&gt;building adaptive apps &lt;/a&gt;to learn more about core adaptive design principles.&amp;nbsp;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;To dive deeper, check out our comprehensive &lt;a href="https://www.youtube.com/playlist?list=PLD2U7gd1-ieo" target="_blank"&gt;YouTube playlist&lt;/a&gt;. Finally, ensure your app delivers a flawless, premium experience on the newest form factors by reviewing our dedicated quality guidelines for &lt;a href="https://developer.android.com/develop/adaptive-apps/guides/foldables/trifolds-and-landscape-foldables" target="_blank"&gt;trifolds and landscape foldables&lt;/a&gt; and &lt;a href="https://developer.android.com/design/ui/wear/guides/get-started?hl=en" target="_blank"&gt;WearOS&lt;/a&gt;.&amp;nbsp;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both;"&gt;Unfold the future today!&amp;nbsp;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</content>
-    <link href="https://android-developers.googleblog.com/2026/07/optimize-galaxy-screen-sizes.html" rel="alternate"/>
-    <category term="Android Developers"/>
-    <published>2026-07-22T19:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-c747avSj9Z8JO4DTK4kSfO3SjSpd5aTuVvR_TBeD3bXV6cc8lzNLGrWCngNXdyZBeiNjQqwQZCcU4QCrovwL99gu0t5bQrlTXa0PIBGIivwyS8y226MgeraphZr4VITWYe0x7ckFto0dsD8rBLM1J_P3dV0CBj5Ctlwm8jsgAPZA7W2XnKnRz59H9I/s72-c/MM_Adaptive_and_device_Meta%20(1).png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-c747avSj9Z8JO4DTK4kSfO3SjSpd5aTuVvR_TBeD3bXV6cc8lzNLGrWCngNXdyZBeiNjQqwQZCcU4QCrovwL99gu0t5bQrlTXa0PIBGIivwyS8y226MgeraphZr4VITWYe0x7ckFto0dsD8rBLM1J_P3dV0CBj5Ctlwm8jsgAPZA7W2XnKnRz59H9I/s72-c/MM_Adaptive_and_device_Meta%20(1).png"/>
-    </media:group>
-    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-c747avSj9Z8JO4DTK4kSfO3SjSpd5aTuVvR_TBeD3bXV6cc8lzNLGrWCngNXdyZBeiNjQqwQZCcU4QCrovwL99gu0t5bQrlTXa0PIBGIivwyS8y226MgeraphZr4VITWYe0x7ckFto0dsD8rBLM1J_P3dV0CBj5Ctlwm8jsgAPZA7W2XnKnRz59H9I/s72-c/MM_Adaptive_and_device_Meta%20(1).png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors</id>
-    <title>Towards a quantum computer that learns from its errors</title>
-    <updated>2026-07-22T18:40:21+00:00</updated>
-    <content type="html">Machine Intelligence</content>
-    <link href="https://research.google/blog/towards-a-quantum-computer-that-learns-from-its-errors" rel="alternate"/>
-    <category term="Google Research"/>
-    <published>2026-07-22T18:40:21+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-research2023-media/original_images/RL_for__QEC-2.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-research2023-media/original_images/RL_for__QEC-2.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-research2023-media/original_images/RL_for__QEC-2.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://workspaceupdates.googleblog.com/2026/07/google-meet-now-organizes-your-meeting-notes-transcripts-and-recordings-in-your-Google-Drive.html</id>
-    <title>Google Meet now organizes your meeting notes, transcripts, and recordings in your Google Drive</title>
-    <updated>2026-07-22T16:48:25+00:00</updated>
-    <content type="html">&lt;p&gt;We’re making it easier for users to find &lt;a href="https://support.google.com/meet/answer/14754931?hl=en&amp;amp;ref_topic=14073938&amp;amp;sjid=8385333923985479419-NA" target="_blank"&gt;meeting notes&lt;/a&gt;, &lt;a href="https://support.google.com/meet/answer/12849897?hl=en&amp;amp;ref_topic=14074639&amp;amp;sjid=8385333923985479419-NA" target="_blank"&gt;transcripts&lt;/a&gt; and &lt;a href="https://support.google.com/meet/answer/9308681?sjid=8385333923985479419-NA" target="_blank"&gt;recordings&lt;/a&gt; in Google Drive with the following improvements:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;After a meeting, we’ll automatically upload these files to a new folder in the host’s My Drive called “Google Meet.”&lt;/li&gt;&lt;li&gt;Within that “Google Meet” folder, these files will be automatically organized into subfolders for each meeting. Files from different instances of a recurring meeting will share one folder.&lt;/li&gt;&lt;li&gt;Any meeting attendees with access to the meeting files will see shortcuts to these source files in their “Google Meet” Drive folders too..&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Previously, these files were only uploaded to the host’s My Drive, not the attendees’, and the files weren’t organized by meeting.&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note: &lt;/b&gt;Shortly after we roll out this change, we’ll automatically move the existing “Meet Recordings” folder into the new “Google Meet” folder and rename it “Legacy Meet Recordings.” Users may see both “Meet Recordings” and “Google Meet” in their Google Drive for a brief period during this transition.&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjif_xiHfQODyvVZEK_IgvjWOBfXcMxvi-TjSnhY1uHzaxm4DVMj8KHMqT6EjNwfTtL0a3H6kGjHZURCwJAeMRA3nHUIRb1qjsuogkjDz2k_JMPHhVvdoR6KAHrmpFslOzpnBP1UMaQOaylbUiBRVUSfzEx58SgmgTNK_XEeclBatwlU3nJVDBCAWaCk3c/s2048/Google%20Meet%20now%20organizes%20your%20meeting%20notes,%20transcripts,%20and%20recordings%20in%20your%20Google%20Drive%20-%207148.jpeg" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjif_xiHfQODyvVZEK_IgvjWOBfXcMxvi-TjSnhY1uHzaxm4DVMj8KHMqT6EjNwfTtL0a3H6kGjHZURCwJAeMRA3nHUIRb1qjsuogkjDz2k_JMPHhVvdoR6KAHrmpFslOzpnBP1UMaQOaylbUiBRVUSfzEx58SgmgTNK_XEeclBatwlU3nJVDBCAWaCk3c/s1600/Google%20Meet%20now%20organizes%20your%20meeting%20notes,%20transcripts,%20and%20recordings%20in%20your%20Google%20Drive%20-%207148.jpeg" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins: &lt;/b&gt;Existing "Meet Recordings" folders will be renamed to "Legacy Meet Recordings" and moved under the new "Google Meet" folder topology. Admins should audit any API scripts or automated workflows that rely on specific folder names or IDs.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users: &lt;/b&gt;Users will see their meeting artifacts automatically organized into meeting-specific sub-folders within the "Google Meet" folder, with shortcuts for easier findability.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release domains:&lt;/a&gt; Full rollout (1–3 days for feature visibility) starting on July 22, 2026&lt;/li&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Scheduled Release domains:&lt;/a&gt; Full rollout (1–3 days for feature visibility) starting on July 30, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Available to all Google Workspace customers&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Meet Help: &lt;a href="https://support.google.com/meet/answer/9308681" target="_blank"&gt;Record a video meeting&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Meet Help: &lt;a href="https://support.google.com/meet/answer/14754931?hl=en&amp;amp;ref_topic=14073938&amp;amp;sjid=8385333923985479419-NA" target="_blank"&gt;Take notes for me in Google Meet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://workspaceupdates.googleblog.com/2026/07/google-meet-now-organizes-your-meeting-notes-transcripts-and-recordings-in-your-Google-Drive.html" rel="alternate"/>
-    <category term="Workspace Updates"/>
-    <published>2026-07-22T16:48:25+00:00</published>
-    <media:group>
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjif_xiHfQODyvVZEK_IgvjWOBfXcMxvi-TjSnhY1uHzaxm4DVMj8KHMqT6EjNwfTtL0a3H6kGjHZURCwJAeMRA3nHUIRb1qjsuogkjDz2k_JMPHhVvdoR6KAHrmpFslOzpnBP1UMaQOaylbUiBRVUSfzEx58SgmgTNK_XEeclBatwlU3nJVDBCAWaCk3c/s72-c/Google%20Meet%20now%20organizes%20your%20meeting%20notes,%20transcripts,%20and%20recordings%20in%20your%20Google%20Drive%20-%207148.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjif_xiHfQODyvVZEK_IgvjWOBfXcMxvi-TjSnhY1uHzaxm4DVMj8KHMqT6EjNwfTtL0a3H6kGjHZURCwJAeMRA3nHUIRb1qjsuogkjDz2k_JMPHhVvdoR6KAHrmpFslOzpnBP1UMaQOaylbUiBRVUSfzEx58SgmgTNK_XEeclBatwlU3nJVDBCAWaCk3c/s72-c/Google%20Meet%20now%20organizes%20your%20meeting%20notes,%20transcripts,%20and%20recordings%20in%20your%20Google%20Drive%20-%207148.jpeg"/>
-    </media:group>
-    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjif_xiHfQODyvVZEK_IgvjWOBfXcMxvi-TjSnhY1uHzaxm4DVMj8KHMqT6EjNwfTtL0a3H6kGjHZURCwJAeMRA3nHUIRb1qjsuogkjDz2k_JMPHhVvdoR6KAHrmpFslOzpnBP1UMaQOaylbUiBRVUSfzEx58SgmgTNK_XEeclBatwlU3nJVDBCAWaCk3c/s72-c/Google%20Meet%20now%20organizes%20your%20meeting%20notes,%20transcripts,%20and%20recordings%20in%20your%20Google%20Drive%20-%207148.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://workspaceupdates.googleblog.com/2026/07/gemini-alpha-is-now-gemini-beta.html</id>
-    <title>Gemini Alpha is now Gemini Beta</title>
-    <updated>2026-07-22T16:39:21+00:00</updated>
-    <content type="html">&lt;p&gt;We’re updating the name of the Gemini Alpha program to "Gemini Beta." This new name more accurately reflects both the scale and the quality of the features that enter this launch stage. Please note that this is solely a branding change. This update does not alter any customer configurations, data privacy constraints, or pricing tiers. All existing admin controls and customer opt-ins are fully preserved. Your current Terms of Service continue to apply, and customers do not need to re-sign any agreements.&lt;/p&gt;&lt;p&gt;As a reminder, we’ll continue to announce new Gemini Beta features in the &lt;a href="https://discuss.google.dev/c/workspace-releases/22" target="_blank"&gt;Google Developer Program (GDP)&lt;/a&gt; forum and the &lt;a href="https://knowledge.workspace.google.com/p/gemini-beta" target="_blank"&gt;Gemini Beta Help Center&lt;/a&gt;. You must be an active Workspace customer and register to access GDP content; follow these &lt;a href="https://docs.google.com/document/d/16_AW7LIHrI7de_7jTZIWQIFS3us1Cm8sAmASSFQP56c/edit?usp=sharing" target="_blank"&gt;instructions to sign up&lt;/a&gt;.&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins: &lt;/b&gt;There is no change to &lt;a href="https://knowledge.workspace.google.com/p/gemini-beta" target="_blank"&gt;existing admin controls&lt;/a&gt;. You will begin to see the "Gemini Beta" label replace "Gemini Alpha" in the Admin console and Help Center articles over the next several weeks.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users:&lt;/b&gt; There is no end user setting for this change.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release and Scheduled Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) starting on July 22, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Business: &lt;/b&gt;Business Starter, Standard, and Plus&lt;/li&gt;&lt;li&gt;&lt;b&gt;Enterprise: &lt;/b&gt;Enterprise Starter, Standard, and Plus&lt;/li&gt;&lt;li&gt;&lt;b&gt;Education Add-ons:&lt;/b&gt; Google AI Pro for Education&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Workspace Admin Help: &lt;a href="https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/turn-access-to-google-workspace-with-gemini-alpha-on-or-off" target="_blank"&gt;Turn access to Google Workspace with Gemini Beta on or off&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Developer Program: &lt;a href="https://discuss.google.dev/c/workspace-releases/workspace-alpha/workspace-alpha-forum/222" target="_blank"&gt;Workspace Alpha Forum&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://workspaceupdates.googleblog.com/2026/07/gemini-alpha-is-now-gemini-beta.html" rel="alternate"/>
-    <category term="Workspace Updates"/>
-    <published>2026-07-22T16:39:21+00:00</published>
-  </entry>
-  <entry>
-    <id>https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to</id>
-    <title>Here’s how to ask Gemini Live for help with anything you see.</title>
-    <updated>2026-07-22T16:00:00+00:00</updated>
-    <content type="html">&lt;img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Gemini_Live_for_help_with_a.max-600x600.format-webp.webp" /&gt;Have you ever struggled to describe something you’re looking at? Whether it’s a complex manual, a blinking error code, or a unique object, sometimes you just need an exp…</content>
-    <link href="https://blog.google/products-and-platforms/products/gemini/gemini-live-camera-how-to" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-22T16:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Gemini_Live_for_help_with_a.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Gemini_Live_for_help_with_a.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Ask_Gemini_Live_for_help_with_a.max-600x600.format-webp.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3</id>
-    <title>From maintenance to innovation: Checking in on Checkout.com’s Cloud Composer 3 migration</title>
-    <updated>2026-07-22T14:00:00+00:00</updated>
-    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Data engineering teams often face a “Day 2” operational reality after building a data platform: the ongoing work of maintaining the orchestrator itself.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For the Data Platform team at &lt;/span&gt;&lt;a href="https://www.checkout.com/" rel="noopener" target="_blank"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Checkout.com&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, managing a self-hosted Apache Airflow environment on another hyperscaler was consuming time the team wanted to spend elsewhere as server management, patching, and incident response were pulling focus from building pipelines.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;By migrating to &lt;/span&gt;&lt;a href="https://cloud.google.com/composer"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Managed Service for Apache Airflow (Gen 3)&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, Google Cloud’s fully managed Airflow service, Checkout.com transformed its reliability and cost structure. Here’s how they built a more scalable, cost-efficient, and robust data foundation.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;The starting point: self-managed Airflow&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Before the migration, Checkout.com ran Airflow on self-managed infrastructure. While functional, maintaining the underlying resources required significant attention. Patching, upgrades, and server management created regular interruptions.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Operational data from the past year illustrates some of the challenges the company was navigating:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Reducing operational friction:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; In its self-managed environment, Checkout.com faced stability challenges, particularly during high-load periods. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Complex dependency management:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Upgrading packages and ensuring compatibility was a constant, manual struggle. With Managed Airflow (Gen 3), the company was able to simplify this by handling dependencies at the image level, ensuring seamless compatibility out-of-the-box during routine environment upgrades.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;DAG sync time:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Syncing DAGs to the scheduler took approximately six minutes after deployment to S3, which affected iteration speed.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Manual processes:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Scaling required manual intervention, and onboarding new teams meant manually creating secrets and variables for dbt.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;The solution: Managed Service for Apache Airflow (Gen 3)&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Checkout.com’s team migrated to Managed Airflow to offload infrastructure responsibility and take advantage of Google Cloud's managed scalability. The results were immediate and measurable across three areas: reliability, cost, and developer velocity.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "&gt;
-
-      
-      
-        
-        &lt;img alt="checkout-managed-airflow-chart" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/checkout-managed-airflow-chart.max-1000x1000.png" /&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;Dynamic scaling in action&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the previous elastic container service setup, the team allocated the maximum number of workers required for peak loads. This meant paying for peak capacity around the clock, regardless of actual usage.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Managed Airflow provides built-in dynamic scaling, eliminating the need for manual resource management. The environment automatically adjusts the number of workers based specifically on the workload demands. When tasks spike, the system scales up; when they drop, it scales down to save resources. Similarly, moving from fixed provisioning to dynamic scaling reduced monthly costs by an estimated 30%.&lt;/span&gt;&lt;/p&gt;
-&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;Reliability and DAG isolation&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Achieving increased stability was a primary driver for Checkout.com’s migration since in the past, a single problematic DAG could affect its entire environment. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Managed Airflow introduced a number of critical architecture improvements:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;DAG isolation:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Each DAG runs in its own execution environment. If one DAG fails or consumes excessive resources, it doesn’t affect the entire environment.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Managed operations:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Google Cloud handles patching and upgrades during scheduled windows, removing the need for manual upgrade management.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Improved visibility:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Integration with &lt;/span&gt;&lt;a href="https://cloud.google.com/monitoring"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Google Cloud Monitoring&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://cloud.google.com/logging"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud Logging&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; provides clear visibility into task execution. Engineers can now debug issues independently without escalating to the platform team.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;&lt;span style="vertical-align: baseline;"&gt;Faster developer workflows&lt;/span&gt;&lt;/h4&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The migration also improved day-to-day workflows for &lt;/span&gt;&lt;a href="http://checkout.com" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Checkout.com&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;’s data engineers.&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong style="vertical-align: baseline;"&gt;Faster deployments:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Using &lt;/span&gt;&lt;a href="https://cloud.google.com/storage"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Cloud Storage&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for DAGs enabled near-instant syncing.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="vertical-align: baseline;"&gt;Simpler onboarding:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Teams no longer needed platform support to create variables before onboarding.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="vertical-align: baseline;"&gt;Modernizing dbt execution:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; One of the company’s most significant wins was changing how it runs dbt. Previously, its engineers had to manually install and manage complex virtual environments for every supported dbt version. By leveraging containerized dbt runs, Managed Airflow (Gen 3) eliminates dependency bottlenecks. This ensures complete dependency isolation, allowing teams to run any required dbt model with minimal setup and no manual infrastructure overhead.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="vertical-align: baseline;"&gt;Environment updates:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; The company no longer needs to redeploy the entire Airflow environment to add new roles or update Python packages.&lt;/span&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong style="vertical-align: baseline;"&gt;AI-powered troubleshooting with &lt;/strong&gt;&lt;a href="https://docs.cloud.google.com/composer/docs/composer-3/troubleshooting-dags#investigations"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Gemini Cloud Assist&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;:&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt; &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;In a self-managed environment, a failed task often triggered a frantic hunt through fragmented logs and metrics. With Managed Airflow, Checkout.com can initiate a Gemini investigation directly from its Airflow DAG UI in the Google Cloud console.&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt; &lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Gemini doesn't just provide generic error messages; it generates a scorecard that evaluates different hypotheses with both supporting and contradictory evidence, which can drastically reduce mean time to recovery.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Conclusion&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For Checkout.com, the move to Managed Airflow (Gen 3) marked a strategic shift, one that freed its engineers to focus on delivering value.&lt;/span&gt;&lt;/p&gt;
-&lt;p style="padding-left: 40px;"&gt;&lt;span style="vertical-align: baseline;"&gt;"With Managed Service for Apache Airflow, we’ve achieved significant improvements in efficiency, scalability, and reliability. Managed infrastructure, automated scaling, faster deployments, and isolated execution environments have transformed how we operate." &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;— &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Keisi Mancellari, Data Platform Engineer, Checkout.com&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With a stable, scalable, and cost-efficient platform in place, Checkout.com is now able to  focus on the future of its data pipelines, confident that its orchestration layer is ready for whatever comes next.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Learn more about&lt;/span&gt; &lt;a href="https://cloud.google.com/composer"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Managed Service for Apache Airflow&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and how it can support your data platform.&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;&lt;sub&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Special thanks to the following contributors to this post: Serge Bouschet and&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; &lt;/span&gt;&lt;a href="mailto:keisi.mancellari@checkout.com"&gt;&lt;span style="font-style: italic; text-decoration: underline; vertical-align: baseline;"&gt;Keisi Mancellari&lt;/span&gt;&lt;/a&gt;&lt;/sub&gt;&lt;/p&gt;&lt;/div&gt;</content>
-    <link href="https://cloud.google.com/blog/products/data-analytics/how-checkout-com-tallies-data-with-cloud-composer-3" rel="alternate"/>
-    <category term="Google Cloud"/>
-    <published>2026-07-22T14:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/checkout-airflow-migration-google-cloud-2.max-600x600.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/checkout-airflow-migration-google-cloud-2.max-600x600.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/checkout-airflow-migration-google-cloud-2.max-600x600.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission</id>
-    <title>Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission</title>
-    <updated>2026-07-22T13:38:54+00:00</updated>
-    <content type="html">Google commits $40M in AI tokens and credits for the Genesis Mission</content>
-    <link href="https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission" rel="alternate"/>
-    <category term="Google DeepMind"/>
-    <published>2026-07-22T13:38:54+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/Genesis_Mission_40M_commitment.max-2600x2600.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/Genesis_Mission_40M_commitment.max-2600x2600.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/Genesis_Mission_40M_commitment.max-2600x2600.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

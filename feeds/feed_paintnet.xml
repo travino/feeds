@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.paint.net/</id>
   <title>Paint.NET</title>
-  <updated>2026-09-09T11:48:09.371558+00:00</updated>
+  <updated>2026-09-09T16:53:37.623334+00:00</updated>
   <author>
     <name>Paint.NET</name>
   </author>
@@ -16,7 +16,7 @@
     <id>tag:trvny.github.io,2024:feedseek/paintnet/46503868ff787067</id>
     <title>🍷 Extremely Experimental WINE/Linux support: How to Get Started</title>
     <updated>2026-08-31T23:34:42+00:00</updated>
-    <content>Paint.NET 5.2 Alpha (build 9739) contains extremely experimental support for WINE (which means Linux). To try this out, you need to: Use the portable version of the app. The installer will NOT work. You must be using at least WINE version 11.14. Seriously, just use whatever the latest version is. You need add a registry key so that WINE doesn't try to override a DLL with its own version which does not work. Run this command to do so: (and if someone knows how to make it so that this step isn't n</content>
+    <content>Update: Head over to GitHub for the latest builds and updates Paint.NET 5.2 Alpha (build 9739) contains extremely experimental support for WINE (which means Linux). To try this out, you need to: Use the portable version of the app. The installer will NOT work. You must be using at least WINE version 11.14. Seriously, just use whatever the latest version is. You need add a registry key so that WINE doesn't try to override a DLL with its own version which does not work. Run this command to do so: </content>
     <link href="https://forums.paint.net/topic/134563-%F0%9F%8D%B7-extremely-experimental-winelinux-support-how-to-get-started/" rel="alternate"/>
     <category term="Preview Center" label="Preview Center"/>
     <published>2026-08-31T23:34:42+00:00</published>
@@ -1056,11 +1056,11 @@
     <category term="Miscellaneous" label="Miscellaneous"/>
     <published>2022-08-23T07:58:05+00:00</published>
     <media:group>
-      <media:content url="https://i.postimg.cc/FRxsrN8M/1.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://i.postimg.cc/FRxsrN8M/1.png"/>
+      <media:content url="https://i.postimg.cc/0QRKYnqR/1.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.postimg.cc/0QRKYnqR/1.png"/>
     </media:group>
     <dc:creator>Miscellaneous</dc:creator>
-    <link rel="enclosure" href="https://i.postimg.cc/FRxsrN8M/1.png" type="image/png" length="0"/>
+    <link rel="enclosure" href="https://i.postimg.cc/0QRKYnqR/1.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/paintnet/233580cedcee469b</id>

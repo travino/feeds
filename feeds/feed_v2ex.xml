@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-09T11:48:53.565806+00:00</updated>
+  <updated>2026-09-09T16:54:22.805514+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -13,54 +13,214 @@
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/f029a07ae5b4538c</id>
-    <title>[开源软件] 如果你的 mac 也装了很多 app，那么你可能也需要这个小工具</title>
-    <updated>2026-09-09T11:44:32+00:00</updated>
-    <content>背景 : 不知道佬友们是不是跟我一样，用 Mac 一久，机器上总会出现一堆“似曾相识”的 App 。图标眼熟，名字眼熟，但过两个月就忘了：它是干什么的？当时为什么装？和某个项目有关系吗？因为用的不多，但是可能偶尔想用的时候就找不到是哪个 app 了，很让人抓狂 我最开始的想法就是，给每个 App 打一个备注。 如果应用旁边就有备注，能搜索，能按项目或用途归类，那简直太好了。于是就有了这个原生 SwiftUI + AppKit 写的小工具。 我希望它保持轻量，不上传数据，只保留本地，只是一个很小很好用的工具。 目前支持的功能 ： 应用备注：给每个已安装应用记录用途、快捷键、项目归属或注意事项，自动保存。
-快捷搜索：⌃⌥N 唤起搜索，方向键选择、回车打开应用、Esc 关闭。
-应用分类：自建分类，一个应用可以属于多个分类；支持批量管理、右键归类和详情页归类。
-应用概览：展示应用介绍、应用信息、App 内购买等公开资料，非 App Store 应用仍可查看本机信息。
-本地优先：备注、分类和偏好保存在本机；商店资料按地区和语言缓存 24 小时。
-原生界面：支持浅色、深色和跟随系统；界面语言支持简</content>
-    <link href="https://www.v2ex.com/t/1240792#reply0" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/54abf1e9461a2a13</id>
+    <title>创业开发了“吃有数”APP，迭代了 10 个月，我再也不劝别人做独立开发者了！</title>
+    <updated>2026-09-09T16:03:08+00:00</updated>
+    <content>我从去年年中从字节毕业，也就是 2025 年 6 月 30 日，加入了独立开发者大军，因为这是我从 18 年开始以来的梦想，特别是年龄已过 36 ，加上 AI 的疯狂成长，就很决绝的从年薪百万的职位上退了下来，可是，梦想很丰满，现实很骨感，实际你想实现工作的十分之一的收入都是难上加难，我从 18 年创立 w2solo 社区这么久，亲眼见证过太多的开发者和我一样怀揣着这个梦想出来创业，大多都铩羽而归，大部分怕是服务器的费用都赚不回来。 “吃有数”APP 是我模仿 Cal AI 来做的，当时这个 APP 特别火爆，我下载来看了下，被它简单好用清晰明了的风格吸引，我就像自己也开发一个，我还专门开了个年会员，好像是 400 多 RMB 吧，好好学习一下它的各种功能，现在我终于做出来了，真的很不容易，表面上看起来很简单，实际很复杂，数据库表我都将近 100 个，更别说 UI 至少重构了五六个大版本，我很佩服那些能赚到钱的人，他们是真的能沉下心做产品的，不过有一类我是感觉到非常的难受，这个市场有很多头部 APP ，也有一些后来者，他们都是带资入场的，比如某 APP 的背景是七麦，有的是某省的国资，</content>
+    <link href="https://www.v2ex.com/t/1240837#reply2" rel="alternate"/>
     <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T11:44:32+00:00</published>
+    <published>2026-09-09T16:03:08+00:00</published>
     <media:group>
-      <media:content url="https://i.imgur.com/YPjLV4r.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://i.imgur.com/YPjLV4r.png"/>
+      <media:content url="https://cdn.v2ex.com/avatar/e664/4ffb/378710_large.png?m=1745417599" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/e664/4ffb/378710_large.png?m=1745417599"/>
     </media:group>
     <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://i.imgur.com/YPjLV4r.png" type="image/png" length="0"/>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/e664/4ffb/378710_large.png?m=1745417599" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/355e207679c7f110</id>
-    <title>写了个新生儿护理记录小程序「宝可记」</title>
-    <updated>2026-09-09T11:35:58+00:00</updated>
-    <content>给娃写了个护理记录小程序「宝可记」 今年刚当爸。新生儿护理从零学起。 医院那几天我观察到一件事：新生儿科护工人手一个小本本，记母乳、奶粉、大便、小便、备注（眼药水、洗澡、晒太阳、抚触全塞进去）。我想：这不就是程序员天天写的 CRUD 吗？与其拿纸记不如自己写一个。「宝可记」就这样来了。 ## 用记录应对"哭声" 带娃最慌的是哭声，没有说明书，只能靠排除法。慢慢会建立一套模式： &gt; 哭 → 查记录 → 上次喂奶多久前？上次换尿布多久前？该干嘛干嘛，继续记。 所以「宝可记」的第一目标就是**记得快**。喂奶、换尿布、睡觉、大小便几下点完。喂养方式做了兼容：母乳亲喂、奶粉、母乳瓶喂分开记，亲喂还能记左右侧和时长。 ![快速记录与今日流水]( https://image.lingsbot.online/home.jpg) ## 家庭共享，交接不靠脑子 我们家三个人带娃——我、老婆、岳母。最怕交接"早上喂了几次""几点拉的"。共享后所有记录在同一个池子里，谁都能看、谁都能记。接班的人看一眼近期记录就知道该干嘛。 ![家庭共享：邀请码 + 成员管理]( https://image.lingsbot</content>
-    <link href="https://www.v2ex.com/t/1240791#reply0" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/d0cdc6f2c453445c</id>
+    <title>[自荐]迫于焦虑失眠，做了个小工具集合，小程序「静一下心」</title>
+    <updated>2026-09-09T15:38:59+00:00</updated>
+    <content>老焦虑症患者了，之前一直去杭州七院。然后和医生沟通，也查了一些权威资料，找到像舒尔特方格/stroop 训练之类的是有效果的，自己试了下也是。但是麻烦在于，很多功能都是分散的。呼吸训练一个应用，舒尔特一个网页，记录再找一个。我就想，能不能把它们塞进一个我自己每天愿意点开的东西里。 于是用业余时间氛围了个微信小程序，叫「静一下心」。功能很简单： - 呼吸引导。箱式呼吸训练，放松身体。 - 舒尔特方格。练专注力，然后让自己不胡思乱想。 - 一个轻的记录页。纯做本地记录，可以复盘有哪些是让你感到焦虑。 - 还有一些其他小工具，比如焦虑自测，睡眠自测之类。 没做社区，也不提供就医指导，就是个纯免费的小工具。如果真的能帮到有类似情况的人我会很高兴。如果使用有什么问题也可以和我说，持续优化。 感谢大家。</content>
+    <link href="https://www.v2ex.com/t/1240833#reply1" rel="alternate"/>
     <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T11:35:58+00:00</published>
+    <published>2026-09-09T15:38:59+00:00</published>
     <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/e39a/aa0d/465654_xlarge.png?m=1655632601" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/e39a/aa0d/465654_xlarge.png?m=1655632601"/>
+      <media:content url="https://i.imgur.com/Mg4WXzw.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/Mg4WXzw.png"/>
     </media:group>
     <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/e39a/aa0d/465654_xlarge.png?m=1655632601" type="image/png" length="0"/>
+    <link rel="enclosure" href="https://i.imgur.com/Mg4WXzw.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/b6480031631e6a51</id>
-    <title>NextClaw × DeepSeek：三任务实测降本 62%，本次缓存条件下比官方 DSH 低 10.8%</title>
-    <updated>2026-09-09T11:19:58+00:00</updated>
-    <content>最近给我在做的开源 AI 助手 NextClaw 做了五步成本优化，也拿官方 DeepSeek Harness （ DSH ）跑了一遍对照。同模型、同三项任务，NextClaw 费用比优化前降低 62%，在本次缓存条件下比 DSH 低 10.8%。 模型是 deepseek-v4-flash 。任务包括五文件核对与追问、配置故障诊断与追问、Python 运费边界修复与外部测试。各版本都通过了三项任务。按供应商返回的用量和实验时价格估算，三任务费用合计： NextClaw 原版：$0.022664 NextClaw 优化版：$0.008613 官方 DSH：$0.009656 缓存命中率分别为 61.99%、84.08%、78.92%。 对照里有个需要说明的差异：NextClaw 首轮多命中了一些缓存，DSH 首轮没有命中。如果只把首轮统一按未命中价格重算，NextClaw 会比 DSH 高约 4.4%。这只是敏感性分析，不是清空缓存后的复测； 10.8% 是当次观测结果，还不能说稳定比官方便宜。 这轮收益比较大的地方是保留原始模型轮次、固定工具声明，以及把部分工具参数改成按需查询。 保</content>
-    <link href="https://www.v2ex.com/t/1240790#reply0" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/2d943e73846b4840</id>
+    <title>分享一个 Magicbook Pro 16 2026 的充电/触摸设置工具, 甩脱电脑管家</title>
+    <updated>2026-09-09T15:20:54+00:00</updated>
+    <content>设置充电保护,自测可用 https://github.com/AceDroidX/HuaweiBatteryControl 设置触摸板反馈力度,用 AI 逆向+网络信息交叉验证确认有效 https://github.com/edimetia3d/GoodixNewtonTouchpad 额外的详情可以参考 https://www.tinyedi.com/escaping-huawei-honor-pc-manager/</content>
+    <link href="https://www.v2ex.com/t/1240831#reply0" rel="alternate"/>
     <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T11:19:58+00:00</published>
+    <published>2026-09-09T15:20:54+00:00</published>
     <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/0414/c9dd/457276_xlarge.png?m=1774323691" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/0414/c9dd/457276_xlarge.png?m=1774323691"/>
+      <media:content url="https://cdn.v2ex.com/avatar/66ca/1082/119647_large.png?m=1460984874" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/66ca/1082/119647_large.png?m=1460984874"/>
     </media:group>
     <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/0414/c9dd/457276_xlarge.png?m=1774323691" type="image/png" length="0"/>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/66ca/1082/119647_large.png?m=1460984874" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/bc3c3943202d4d2f</id>
+    <title>做了一个 GPT Image 2.5 图片网站，可以在一个工作台中生成和编辑图片</title>
+    <updated>2026-09-09T14:46:24+00:00</updated>
+    <content>大家好，分享一下我做的图片生成和编辑网站 GPT Image 2.5： https://gptimage25.biz/ 它是一个网页工作台：想从零做图，就输入提示词；已经有图片，就上传参考图并描述想修改的地方。并且可以一次生成多张图片，可以更快速拿到符合要求的结果。 目前接入了 Flare 和 Sunburst 两个模型，两者都支持文生图和参考图编辑。输出可以选择 1K 、2K 、4K ，也支持方图、竖图、横图等比例。比如做内容配图，可以先描述画面；做产品视觉，可以带上参考图，尝试调整背景或整体风格。 网站目前是英文界面，生成需要登录并消耗积分。注册可以赠送积分，体验生成一次。 官方模型的介绍在这里： https://openai.com/index/introducing-chatgpt-images-2-5/ 如果有官方账号，也可以直接在官网使用。 想听听实际使用中的反馈：从输入提示词到拿到图片，哪一步最影响效率？如果你经常需要修改现有图片，最希望这种工具做好哪一类修改？遇到不顺手的地方，也欢迎描述具体操作，我会跟进看看。</content>
+    <link href="https://www.v2ex.com/t/1240827#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T14:46:24+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/1017/59b7/671137_xlarge.png?m=1785994212" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/1017/59b7/671137_xlarge.png?m=1785994212"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/1017/59b7/671137_xlarge.png?m=1785994212" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/ef9a5f9627aac409</id>
+    <title>自荐：鸿蒙原生 V2EX 客户端 V2Halo</title>
+    <updated>2026-09-09T14:15:50+00:00</updated>
+    <content>最近换了鸿蒙设备,做了个鸿蒙原生 V2EX 客户端 V2Halo 项目地址 https://github.com/qinlinglong/v2ex-harmonyos 主要功能 最近、最热、节点、XNA 、关注等首页板块 主题详情、回复、回复排序、收藏、感谢、赞踩 Markdown 和 V2EX 原生格式发帖与预览 图片上传，支持 B 站图床和 主题、用户、节点搜索 深色模式、主题色、首页板块编辑 选中文本复制和 Base64 解码 目前优先完善真机体验，使用过程遇到问题，欢迎大家反馈问题和建议 应用内截图</content>
+    <link href="https://www.v2ex.com/t/1240821#reply5" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T14:15:50+00:00</published>
+    <media:group>
+      <media:content url="https://raw.githubusercontent.com/qinlinglong/v2ex-harmonyos/main/docs/screenshots/home.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/qinlinglong/v2ex-harmonyos/main/docs/screenshots/home.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://raw.githubusercontent.com/qinlinglong/v2ex-harmonyos/main/docs/screenshots/home.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/30819ee826adfaf4</id>
+    <title>[送兑换码] 做了一个沉浸式浏览、管理相册的 iOS App</title>
+    <updated>2026-09-09T13:52:56+00:00</updated>
+    <content>我是一个多愁善感的人， 过往的一张照片，一段视频，总会让我思绪万千， 我相信有人也会有这样的感受， 因此最近做了这样一个， 可以让人沉浸式浏览的相册 App ，欢迎试用： 送五十个兑换码（点击即可使用）： THLWWF4XJLPN7J87NH 6WY8HAR8HM3PX7LWPW 3LYAJ4EP3A6WRAFTXR ELLJFRRPWEL34HY48M MEW8HNAJA884ETELTK MKXAKPYFEKWT6YT8KE PT7RAWXL4763N3N8H3 XA4P4J6AAE7MTMFP6T 4EX7FREXF7TFYPMPAL 7J3EM73LANKKAX88EA J6WN7WRNXR3T64AKJK REYXHLRM66EPW7P6E8 W7K8NEYP4PLR67W44J FPHFNJ36WE6YNENJ48 EA48XPHNYERA7TFA4J KLJRANW3KWMH8L8XL7 8LMYFRALE3LPLHWEFJ 3WTN6FAMYMW64JRJP8 M83368EHXRRM4PHWLJ T8EXAMXNFL8MNHJYWR ETNFPMYWFXN33LE4T</content>
+    <link href="https://www.v2ex.com/t/1240817#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T13:52:56+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/BHqEAMo.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/BHqEAMo.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/BHqEAMo.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/d132b5eb11ff2f9d</id>
+    <title>做了个纯浏览器端的视频抽帧工具，不上传、不安装</title>
+    <updated>2026-09-09T13:47:51+00:00</updated>
+    <content>做视频相关的事时经常要把视频拆成一帧帧的图 —— 做封面、做分镜、给 bug 提单配图、分析动作。 常见的三条路我都不太满意： ffmpeg ：要装、要记命令，偶尔用一次还得翻文档 桌面软件 ：多半收费，而且挺重 在线工具 ：要上传视频，隐私和体积都不踏实 所以自己撸了一个： Video2Frames 👉 https://videotoframes.app 它是什么 一个纯前端的 Video Frame Extractor 。整个抽帧过程跑在你自己的浏览器里，用的是 HTML5 Video + Canvas ， 视频文件从头到尾不会离开你的电脑 。 能做什么 批量抽帧 ：按时间间隔（每 N 秒 / 每 N 帧）自动抓一段区间内的所有帧 单帧抓取 ：拖进度条到某一刻，一键抓下当前帧 导出 ZIP ：所有帧打包成 PNG 导出 PDF ：带时间戳的 contact sheet ，1/2/3/4/6 图每页可选 提取音轨 ：把音频单独导成 WebM 整理 ：抽完可以拖拽排序、删除、重命名 原分辨率输出，抓帧时不做二次压缩。 怎么用 打开页面，把 MP4 / MOV / WebM 拖进去 选模</content>
+    <link href="https://www.v2ex.com/t/1240815#reply2" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T13:47:51+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/b4cd/073f/92465_large.png?m=1785642015" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/b4cd/073f/92465_large.png?m=1785642015"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/b4cd/073f/92465_large.png?m=1785642015" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/8cf3157cad9ad7ab</id>
+    <title>弄了一个 Codeing Agent 远端控制 App: AgentDeck</title>
+    <updated>2026-09-09T13:37:21+00:00</updated>
+    <content>做完发现很像 paseo 我这里是利用浏览器扩展 https://v2ex.com/t/1215754 当电脑上守护进程的，可以充分利用浏览器扩展的能力： 需要时可以使用你的主力浏览器 进行操作，使用 CDP 进行调试 昨天发 Google Play 以及配置自动发布都是 Codex 用我主力浏览器干的 App 现在上架 Google Play 了： https://play.google.com/store/apps/details?id=com.mantou.agentdeck&amp;hl=en</content>
+    <link href="https://www.v2ex.com/t/1240814#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T13:37:21+00:00</published>
+    <media:group>
+      <media:content url="https://github.com/user-attachments/assets/842d81a0-c62c-4838-a6d3-ac903097f42f" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://github.com/user-attachments/assets/842d81a0-c62c-4838-a6d3-ac903097f42f"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://github.com/user-attachments/assets/842d81a0-c62c-4838-a6d3-ac903097f42f" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/0235c3b2a5afe918</id>
+    <title>黄鱼的 Claude 号被封，任务没做完，换 Codex 能接的上吗？</title>
+    <updated>2026-09-09T13:30:20+00:00</updated>
+    <content>小黄鱼上搞的 Claude 号，结果一觉醒来，号没了，任务也没做完&lt;br /&gt;&lt;br /&gt;已经废了好几个 Claude 号了，不想继续折腾，免得到时候任务没完了，号又没了。&lt;br /&gt;&lt;br /&gt;Openai 家风控松一点，换 Codex 接着干，能接的上吗？</content>
+    <link href="https://www.v2ex.com/t/1240813" rel="alternate"/>
+    <category term="V2EX Claude (jacketma)" label="V2EX Claude (jacketma)"/>
+    <published>2026-09-09T13:30:20+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/gravatar/a941f83ac4192740c2e1f95676ce23c5?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/gravatar/a941f83ac4192740c2e1f95676ce23c5?s=73&amp;d=retro"/>
+    </media:group>
+    <dc:creator>V2EX Claude (jacketma)</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/a941f83ac4192740c2e1f95676ce23c5?s=73&amp;d=retro" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/de79b4849a80d66b</id>
+    <title>做了一个 GPT Image 2.5 的图片生成和编辑工具，想听听大家的反馈</title>
+    <updated>2026-09-09T13:19:10+00:00</updated>
+    <content>最近做了一个 AI 图片生成和编辑网站： https://gpt-image-2-5.org/ 主要是想把常见的图片生成、参考图改图、尺寸比例选择、不同模型切换这些流程做得简单一点。目前网站里支持： 文本生成图片 上传参考图进行编辑 选择不同尺寸和比例 Flare 、Sunburst 、GPT Image 2 等不同模式 适合做产品图、头像、海报、营销素材、概念图等 我自己做这个站的原因是，很多 AI 图片工具要么流程比较重，要么模型和参数藏得比较深。这个站更偏向一个轻量的工作台，打开后直接输入 prompt 或上传图片就能开始生成。 目前还在早期阶段，想请大家帮忙看看： 首屏表达是否清楚 生成/编辑流程有没有哪里不顺 定价页和登录流程是否容易理解 还有没有你们会期待的图片编辑功能 如果你平时有用 AI 生成图片、做设计素材、产品图或者内容配图，欢迎试试看，也欢迎直接拍砖。</content>
+    <link href="https://www.v2ex.com/t/1240811#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T13:19:10+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/gravatar/b47a73bd9fb4838f3c88072b1b67bbb2?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/gravatar/b47a73bd9fb4838f3c88072b1b67bbb2?s=73&amp;d=retro"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/b47a73bd9fb4838f3c88072b1b67bbb2?s=73&amp;d=retro" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/5736bd913eb51d0b</id>
+    <title>GPT Image 2.5 发布了</title>
+    <updated>2026-09-09T12:28:36+00:00</updated>
+    <content>GPT Image 2.5 发布了，这次生图之外，改图也有不少看点 OpenAI 刚发布了 GPT Image 2.5 ，简单看了下官方介绍，这次比较值得关注的是参考图还原、局部修改，以及连续改图时的一致性。平时拿 AI 做产品图、海报，或者经常需要“这张挺好，再改一点”的朋友，可以留意一下。 这次有两个模型： Flare 和 Sunburst 。Flare 更偏日常使用，兼顾速度和画质； Sunburst 则把重点放在细节和编辑精度上，生成时间也更长。按官方的定位，快速试方案、批量出图可以考虑前者，需要仔细打磨产品图和广告素材时，再考虑后者。 参考图方面，2.5 加强了对原图主体的保留。比如上传一张人物照片，再换场景、换风格，人物的辨识度应该更容易延续下来。对产品图也是一样：背景可以重新设计，但产品本身的外观和特征，需要尽量跟着原图走。 局部编辑也挺实用。换掉一个背景、调整一件衣服、修改画面里的文案，理想情况都是只动指定的部分。2.5 这次强化的就是这种能力，让修改尽量少影响已经满意的构图和其他细节。 还有连续修改。先换背景，再调光线，最后改文字，这种操作很常见。官方提到，新模型在多</content>
+    <link href="https://www.v2ex.com/t/1240802#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T12:28:36+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/f4ed/c431/697856_xlarge.png?m=1788956904" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/f4ed/c431/697856_xlarge.png?m=1788956904"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/f4ed/c431/697856_xlarge.png?m=1788956904" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/f93f7f05004b797d</id>
+    <title>做了一个本地处理的 Android 换瞳色 App，想请大家帮忙挑挑问题</title>
+    <updated>2026-09-09T12:27:16+00:00</updated>
+    <content>大家好，最近做了一个 Android 小工具： RenderPop Eye Color Changer 。 起因是我试过一些换瞳色工具，比较常见的问题是： 改完之后眼睛像被重新生成了，原本的虹膜纹理没了 深色眼睛上色不自然，容易变成一整块纯色 自动识别不准时，没有办法手动修正 想分别修改左右眼，或者处理合照时不够方便 有些工具需要上传照片，或者导出带水印 所以这个 App 的思路不是“重新生成一双眼睛”，而是在保留原始虹膜纹理、反光和阴影的基础上调整颜色。 目前支持： 自动检测眼睛，并可手动调整选区 左右眼分别设置颜色，可以做异瞳效果 蓝色、绿色、灰色、紫色、琥珀色等预设和自定义颜色 多人合照中的眼睛编辑 本地处理，照片不需要上传服务器 无广告、无水印 它也可以用来简单预览彩色隐形眼镜的大致视觉效果，不过只是图片效果参考，不是医学或实际佩戴建议。 目前还是早期版本，只支持 Android ，也没有实时相机或视频处理。复杂角度、遮挡严重的照片，可能需要手动调整眼睛范围。 产品介绍和效果截图： https://www.renderpop.app/apps/eye-color-changer</content>
+    <link href="https://www.v2ex.com/t/1240801#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T12:27:16+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/8904/f586/299390_large.png?m=1520853235" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/8904/f586/299390_large.png?m=1520853235"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/8904/f586/299390_large.png?m=1520853235" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/55a878f6790fc846</id>
+    <title>自荐：跨平台 Flutter 音乐播放器 Vynody</title>
+    <updated>2026-09-09T12:18:49+00:00</updated>
+    <content>https://github.com/axel10/vynody 大家好，我是 Vynody 的开发者。 Vynody 是一款界面美观，功能丰富的跨平台音乐播放器。设计主旨是简化媒体库和歌曲标签的管理流程，让听歌体验更加纯粹。 支持平台：windows ，linux ，android ，macos ，ios （还在审核） Vynody 支持的功能包括但不限于： AI 歌词生成和翻译 听歌识曲 Navidrome ，WebDAV ，SMB 支持 自动标签补全 局域网播放遥控 局域网文件互传 局域网歌词、歌单同步 媒体库管理 类 apple music 歌词面板 波形进度条 音频转码 Vynody 的 Github 版完全免费，商店版收费。 应用内截图： 跳转商店 微软商店 苹果商店</content>
+    <link href="https://www.v2ex.com/t/1240799#reply5" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T12:18:49+00:00</published>
+    <media:group>
+      <media:content url="https://raw.githubusercontent.com/axel10/vynody/refs/heads/main/assets/readme/zh/folder_pc.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://raw.githubusercontent.com/axel10/vynody/refs/heads/main/assets/readme/zh/folder_pc.jpg"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://raw.githubusercontent.com/axel10/vynody/refs/heads/main/assets/readme/zh/folder_pc.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/75ff31a925e8268c</id>
+    <title>GPT Image 2.5 试了一下，和上一代的区别</title>
+    <updated>2026-09-09T11:54:18+00:00</updated>
+    <content>OpenAI 上周发了 GPT Image 2.5 ，两个型号 flare 和 sunburst ，参数完全一样，flare 快、sunburst 更适合精修。跑了一批图，说几个实际用下来的区别。 质量档从三档变五档。 上一代只有 low / medium / high ，这一代中间插进了 xhigh 和 max 。听起来是多了两个高档位，实际不是,、两代的最低档和最高档消耗的 token 完全一样（ 196 和 7024 ），新增的三档都落在中间。以前想要比 low 好一点，只能直接跳到 medium ，成本涨九倍；现在中间有一档只涨 2.2 倍。 同样的质量，明显更快。 上一代 medium 和这一代 high 消耗的 token 都是 1756 ，可以认为是同一档画质。实测耗时 53 秒对 21 秒。更极端的是上一代的 high ，我在同一条线路上连着两次都跑到 126 秒超时失败，而这一代 max 是同样的 token 量，50 秒就回来了。 多了一个 input_fidelity 参数。 做图生图的时候能控制原图细节保留多少，上一代不接受这个参数，一律按高保真处理。 文字渲染</content>
+    <link href="https://www.v2ex.com/t/1240795#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T11:54:18+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/a4c1/821b/722197_xlarge.png?m=1787150905" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/a4c1/821b/722197_xlarge.png?m=1787150905"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/a4c1/821b/722197_xlarge.png?m=1787150905" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/d2d03430546b505a</id>
@@ -78,98 +238,6 @@
     <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/3255b79a506a9c3b5e1661dfd3f30cdc?s=73&amp;d=retro" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/98dfbe0b74b006fe</id>
-    <title>现在每天逛的最多的就是分享创造节点</title>
-    <updated>2026-09-09T10:32:26+00:00</updated>
-    <content>每过一会儿我就上来看看有没有大善人来发布自己的小作品，然后看看有没有我能嫖上的</content>
-    <link href="https://www.v2ex.com/t/1240780#reply2" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T10:32:26+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/e60e/6bbe/508218_large.png?m=1787801141" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/e60e/6bbe/508218_large.png?m=1787801141"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/e60e/6bbe/508218_large.png?m=1787801141" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/882114192c2ca32a</id>
-    <title>你会在办公室对着电脑说话吗？聊聊语音输入的尴尬与可能</title>
-    <updated>2026-09-09T10:16:16+00:00</updated>
-    <content>Vokie 官网 🎙️ 大家好，我是 Vokie 的开发者 alan 。 很多朋友认识 Vokie ，是从一次偶然的语音输入开始的。今天写这些文字，是想和大家聊聊， 我们在做的事情，以及背后的思考。 首先，最想说的是一句感谢。感谢大家一直以来对 Vokie 的包容。我们知道它有时并不完美——偶尔会“自作多情”地直接回答了你的问题，偶尔会用力过猛把你的原话整理得过于板正，甚至有时还会闹点服务不稳定的小脾气。你们的耐心，是我们一路折腾到现在的底气。 在这条赛道上，我们的目标一直没变： 做你和 AI Agent 协作时，那个最默契的语音输入伙伴。 为什么我们如此死磕“语音”？ 如果你仔细观察过自己，你会发现： 打字是防御性的，而说话是开放的。 当我们面对键盘时，大脑会本能地开始“预清洗”，很多鲜活的想法在敲击之前就被过滤掉了。而口语表达，是我们最天然、最不加掩饰的输出方式。在这种状态下，你会倾倒出海量的细节、情绪和突发奇想——这些看似随意的上下文，恰恰是喂给 Agent 最好的养料。 为了接住这些养料，Vokie 在底层的“听力”上下了苦功。 得益于团队对业内顶尖 ASR 模型的深度调教，V</content>
-    <link href="https://www.v2ex.com/t/1240776#reply4" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T10:16:16+00:00</published>
-    <media:group>
-      <media:content url="https://i.postimg.cc/xjkwyLK1/wei-xin-tu-pian-20260827141007-18-369.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://i.postimg.cc/xjkwyLK1/wei-xin-tu-pian-20260827141007-18-369.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://i.postimg.cc/xjkwyLK1/wei-xin-tu-pian-20260827141007-18-369.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/14a0642b940d23ad</id>
-    <title>做了一个免费的 AI 图片描述工具： Describe a Picture</title>
-    <updated>2026-09-09T10:09:31+00:00</updated>
-    <content>最近做了个比较简单的小工具站： https://describeapicture.com 功能也很直接：上传一张图片，AI 会自动生成图片描述。 目前主要支持这几类场景： 生成详细的图片描述 生成适合无障碍场景的 Alt Text 看不懂一张图时，快速了解图片内容 给写作、学习或者内容创作提供图片描述参考 不需要注册，上传图片就可以直接用。 做这个站的起因也比较简单，我发现 "describe a picture"、"image describer" 这类需求其实一直有人搜，但很多现有网站要么操作比较绕，要么广告比较多，所以就想做一个尽量干净、打开就能用的版本。 目前还是早期版本，后面准备继续补： 更详细 / 更简洁的描述模式 OCR + 图片内容理解 多语言图片描述 Image to Prompt 针对英语学习 / IELTS 图片描述的模板 技术和产品上都还比较粗糙，主要先验证一下这个需求是不是真的有人用。 如果大家方便的话，欢迎试一下： https://describeapicture.com 比较想听听大家的意见： 生成的描述准不准？ 页面有没有哪里不好用？ 你会在什么场景下用</content>
-    <link href="https://www.v2ex.com/t/1240775#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T10:09:31+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/ec09/0bbd/656596_xlarge.png?m=1770779410" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/ec09/0bbd/656596_xlarge.png?m=1770779410"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/ec09/0bbd/656596_xlarge.png?m=1770779410" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/8c36b48c47659a8c</id>
-    <title>[自荐] golang 语言的轻量级 agent 框架 go-agent</title>
-    <updated>2026-09-09T09:49:08+00:00</updated>
-    <content>大家好，最近结合自己的学习思考，新写了一个轻量级 golang 语言的 agent 框架，github 地址： https://github.com/David3310273/go-agent 欢迎大家关注和建议，彼此共同学习。如果觉得还不错的话，帮忙点个星标支持一下。 主要特点： 轻量级目录结构，易上手，快速接入不同的 provider 和工具 分层架构，边界清晰，依赖注入，面向接口继承</content>
-    <link href="https://www.v2ex.com/t/1240769#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:49:08+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/1929/8698/678945_xlarge.png?m=1788946803" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/1929/8698/678945_xlarge.png?m=1788946803"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/1929/8698/678945_xlarge.png?m=1788946803" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/725d967b4cfe2358</id>
-    <title>Album Art Creator：给要发行的歌做封面</title>
-    <updated>2026-09-09T09:43:00+00:00</updated>
-    <content>怎么来的 ：做关键词调研时发现的需求。搜 "album cover size"、"distrokid album art size" 这类词的人意图很具体——想做适配歌曲的封面，所以有了这个产品。 给谁用 ：用 Suno / Udio 做歌的，和自己写歌录歌的。歌做完要发到 Spotify / Apple Music ，走 DistroKid 、TuneCore 、CD Baby ，封面绕不过去：尺寸、色彩空间、文件大小、不能带网址和社交账号、显式内容要不要贴 Parental Advisory ，各家规则还不一样，被打回再改一轮很浪费时间。不止发行场景，随便需要一张歌曲、专辑或歌单封面也能用。 怎么用 ：输入歌名、选流派，可粘贴歌词或 Suno / Udio 的 style tags → 出四个方向（抽象 / 场景 / 人像 / 字体）→ 选一张 → 导出前按 Spotify 、Apple Music 、DistroKid 、TuneCore 、CD Baby 、Bandcamp 各自帮助文档的规则逐条预检。标题和艺人名不在生成的图里，是浏览器里的独立文字图层，改错别字、换字体、挪位</content>
-    <link href="https://www.v2ex.com/t/1240767#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:43:00+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/a4d8/02ec/771599_xlarge.png?m=1785819826" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/a4d8/02ec/771599_xlarge.png?m=1785819826"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/a4d8/02ec/771599_xlarge.png?m=1785819826" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/7f335df80e62f936</id>
-    <title>做了个 CLI 直接读 Apple Notes 的 SQLite，全文搜索比 OpenClaw/Hermes(memo) 快 2500 倍</title>
-    <updated>2026-09-09T09:32:40+00:00</updated>
-    <content>用 Apple Notes 记了几百条笔记之后，发现一个尴尬的事：想从终端搜自己的笔记，几乎没有好用的工具。 现有的方案——Claude 桌面版、OpenClaw 、Hermes——都是走 AppleScript 调 Notes.app 。问题是 AppleScript 读笔记正文太慢了，逐条读取，每条要 0.3 秒。我 749 条笔记全文搜索一遍要 220 秒。所以这些工具其实都偷偷放弃了全文搜索，只搜标题。memo 的 "search" 是标题模糊匹配，OpenClaw 包装成 "fuzzy search"，但不会告诉你正文压根没搜。 后来发现 Notes 的数据就躺在本地的 SQLite 里，正文是 gzip + protobuf 编码。直接读数据库，同样 749 条笔记全文搜索只要 0.087 秒，快了大约 2500 倍。不需要 Notes.app 运行，没有缓存，每次都是实时数据。 apple-notes search "kubernetes"     # 全文搜索，按相关度排序
-apple-notes recent --since 2d       # 最近改过的笔记
-ap</content>
-    <link href="https://www.v2ex.com/t/1240766#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:32:40+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/da79/b01a/189893_large.png?m=1477192324" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/da79/b01a/189893_large.png?m=1477192324"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/da79/b01a/189893_large.png?m=1477192324" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/558871cd335f4880</id>
     <title>我一定会回来……吗？小手用户与 iPhone 17 Pro Max 的一年</title>
     <updated>2026-09-09T09:30:00+00:00</updated>
@@ -185,51 +253,6 @@ ap</content>
     <link rel="enclosure" href="https://rssfile.sspai.com/2026/9/9/article/6902d14d-5c65-ecd8-21c0-72b506a3e35f.jpeg?imageMogr2/auto-orient/ignore-error/1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/dbc47186f6609978</id>
-    <title>MiMo Desktop + MiMo X Pro Preview，鹈鹕测试</title>
-    <updated>2026-09-09T09:22:43+00:00</updated>
-    <content>提示词：创建一个 html ，内容是 SVG 绘制一个鹈鹕骑自行车的 2D 动画 下面是 MiMo 测试的： 耗时：4 分 13 秒 过程截图： 产物： 202609252171825.gif 下面是昨天使用 V4.1 Flash 测试的： 202609252172145.gif PS：可能是录制为 gif 的关系，帧率都有些低。</content>
-    <link href="https://www.v2ex.com/t/1240762#reply1" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:22:43+00:00</published>
-    <media:group>
-      <media:content url="https://i.imgur.com/Le6w5xw.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://i.imgur.com/Le6w5xw.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://i.imgur.com/Le6w5xw.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/2bf5426640834a8e</id>
-    <title>做了个帝国 2 决定版录像搜索网站</title>
-    <updated>2026-09-09T09:19:22+00:00</updated>
-    <content>我觉得我做了别人都没做的事情： 可按玩家、玩家分数、地图、使用策略、甚至是否打开了作弊模式来搜索录像文件。是的，你跟 AI 玩，开了作弊的录像也能搜到。 一键播放录像文件。安装了对应 AOE2 viewer and spy app ，可在网页上直接点击播放。点击之后会自动下载，app 会自动打开帝国并打开该录像文件。 AOE2 viewer and spy app 可在现场比赛中以覆盖层的方式显示对手的 ELO ，以及对手在该地图上以往所使用的策略。 https://aoe2viewer.com/ 已经有了一定访问量了。v2 支招如何变现。 :-)</content>
-    <link href="https://www.v2ex.com/t/1240760#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:19:22+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/da25/4f37/32400_large.png?m=1660652553" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/da25/4f37/32400_large.png?m=1660652553"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/da25/4f37/32400_large.png?m=1660652553" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/c1555483402ddd36</id>
-    <title>业余时间写了个高校招标信息聚合站：从 1.4 万个学校官网里自动挖出招标公告</title>
-    <updated>2026-09-09T09:18:25+00:00</updated>
-    <content>背景很简单：做教育行业生意的朋友跟我抱怨，高校的招标信息散落在每个学校官网的角落里，格式千奇百怪，没有一个地方能统一搜到。市面上的标讯平台大多只覆盖政府采购网，招标代理类，学校官网这块是盲区。 于是业余时间搞了这个站：**校采汇** https://xiaocaizhao.waitchenx.cn 思路是做成一条全自动流水线，尽量不人工介入： 1. 各类网站中搜索学校名字。 2. 从备案里面筛出学校主体，目前入库 1.4w+ 所学校 3. 自动匹配每所学校的官网站点 4. 在官网上自动发现"招标公告"列表页入口（ LLM 辅助研判，过滤掉新闻页、分页链接等噪音） 5. 定时抓列表页，发现新公告后抓取正文 6. 用 LLM 把公告正文结构化（预算、截止时间、联系方式等） 目前收录公告 500 条左右（刚起步，每天在长），入口还在持续扩。 功能上除了搜索，还支持注册后设置关键词，命中新公告会推送到你自己配置的 webhook （企业微信/钉钉/飞书都能接）。 欢迎试用拍砖，尤其是做教育信息化、实验室设备、后勤服务这类生意的朋友，这东西应该是刚需。搜索有频率限制，爬我站的兄弟手下留情 😂</content>
-    <link href="https://www.v2ex.com/t/1240759#reply4" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:18:25+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/ed13aec6009395c647216e03d5efece4?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/ed13aec6009395c647216e03d5efece4?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/ed13aec6009395c647216e03d5efece4?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/3e8e729cc3c9bbd0</id>
     <title>9 月份网易云音乐黑胶会员领取，天数随机</title>
     <updated>2026-09-09T09:07:22+00:00</updated>
@@ -243,21 +266,6 @@ ap</content>
     </media:group>
     <dc:creator>V2EX Play</dc:creator>
     <link rel="enclosure" href="https://cdn.v2ex.com/avatar/3e7c/de92/386067_large.png?m=1604838918" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/ea8c22f19303a4bf</id>
-    <title>自荐： iList - OpenList/AList 第三方客户端， iOS/macOS 均已上架</title>
-    <updated>2026-09-09T09:04:06+00:00</updated>
-    <content>大家好，我是 iList 的开发者，给大家推荐一下我开发的这款 OpenList/AList 第三方客户端，现在 iOS/macOS 版均已上架 App Store ，欢迎大家下载使用。 iList 的特色功能 文件浏览：文件夹与文件可混合排列。每个文件夹的排序方式可单独设定并自动记忆，切换时无需重新调整。大部分媒体文件都支持显示缩略图。 扫描文件夹：将文件夹中的图片、视频或音频整理成可重复打开的播放列表，方便连续浏览和播放。 收藏夹：可收藏常用文件及文件夹，快速访问你喜爱的内容。 图片：支持图片预加载和卷轴视图浏览，体验顺滑流畅。 视频：支持多种字幕（含特效、双语）、手势控制及画面缩放。可设置字幕自动选择、记忆观看进度，还能串流或本地调用 VLC 、Infuse 等第三方应用播放。 音频：支持播放列表、逐句/逐字歌词、睡眠定时和听书进度记录。支持音频预下载，实现无缝切换。 PDF：可直接在应用内查看。 文本与代码：支持查看和编辑多种文本及代码文件。 服务器管理：支持同时登录多个服务器、多用户及多 Endpoint ，可在启动时自动选择内/外网 Endpoint ，也能将分享链接添加为</content>
-    <link href="https://www.v2ex.com/t/1240753#reply20" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T09:04:06+00:00</published>
-    <media:group>
-      <media:content url="https://i.imgur.com/XUkPOdD.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://i.imgur.com/XUkPOdD.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://i.imgur.com/XUkPOdD.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/5cf7404c7f0a1d43</id>
@@ -1648,22 +1656,6 @@ Details: [cyber]&lt;/p&gt;
     <link href="https://www.v2ex.com/t/1234943" rel="alternate"/>
     <category term="V2EX Claude (blackantt)" label="V2EX Claude (blackantt)"/>
     <published>2026-08-17T03:37:17+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/003f1b50994eb31aeb26105920380e3a?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/003f1b50994eb31aeb26105920380e3a?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Claude (blackantt)</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/003f1b50994eb31aeb26105920380e3a?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/bb39a959d57c92d8</id>
-    <title>claude 网页版能否上传整个项目的 py 文件让它去分析呢(在不同目录下)？ 网页版有 fable 5 吗？</title>
-    <updated>2026-08-17T02:28:23+00:00</updated>
-    <content>&lt;p&gt;如题！&lt;/p&gt;
-</content>
-    <link href="https://www.v2ex.com/t/1234899" rel="alternate"/>
-    <category term="V2EX Claude (blackantt)" label="V2EX Claude (blackantt)"/>
-    <published>2026-08-17T02:28:23+00:00</published>
     <media:group>
       <media:content url="https://cdn.v2ex.com/gravatar/003f1b50994eb31aeb26105920380e3a?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://cdn.v2ex.com/gravatar/003f1b50994eb31aeb26105920380e3a?s=73&amp;d=retro"/>

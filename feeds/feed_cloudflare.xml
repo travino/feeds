@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-09T11:47:03.177249+00:00</updated>
+  <updated>2026-09-09T16:52:30.004160+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -12,6 +12,46 @@
   <icon>https://blog.cloudflare.com/favicon.ico</icon>
   <logo>https://blog.cloudflare.com/favicon.ico</logo>
   <subtitle>Combined Cloudflare feed: the Cloudflare Blog, the developer Changelog, Community top topics, Status incidents, and Cloudflare Research publications.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/5f550bcc13a085f5</id>
+    <title>Cloudflare Workers AI increased errors</title>
+    <updated>2026-09-09T15:02:41+00:00</updated>
+    <content>Sep 9 , 15:02 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 14:25 UTC Investigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.</content>
+    <link href="https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-09T15:02:41+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/7eed123a34dc82ae</id>
+    <title>How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility</title>
+    <updated>2026-09-09T13:00:00+00:00</updated>
+    <content>Workers now enables Node.js compatibility by default, supports applications up to 64 mebibytes, and adds a URL-based module registry with import.meta, lazy compilation, shared code caches, and clearer errors.</content>
+    <link href="https://blog.cloudflare.com/workers-module-registry-nodejs/" rel="alternate"/>
+    <category term="Cloudflare Blog" label="Cloudflare Blog"/>
+    <published>2026-09-09T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://blog.cloudflare.com/_emdash/api/media/file/01M1WCDP58M0ZWWK4EQ5Z60396.01M1WCDPYM384QTHNEZA0WQ8W8.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blog.cloudflare.com/_emdash/api/media/file/01M1WCDP58M0ZWWK4EQ5Z60396.01M1WCDPYM384QTHNEZA0WQ8W8.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Blog</dc:creator>
+    <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01M1WCDP58M0ZWWK4EQ5Z60396.01M1WCDPYM384QTHNEZA0WQ8W8.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/1e8bfa47e117881f</id>
+    <title>AI Gateway - AI Gateway custom costs support cache tokens</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>AI Gateway custom costs now support cache-read and cache-write token rates. This lets custom cost metrics reflect negotiated cache pricing across providers. Add per_cache_read_token or per_cache_write_token to the cf-aig-custom-cost header: { "per_token_in" : 0.000001 , "per_token_out" : 0.000002 , "per_cache_read_token" : 0.0000001 , "per_cache_write_token" : 0.0000005 } Cache-token pricing activates when either cache rate is present. An omitted cache rate defaults to per_token_in . If both cac</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-09-custom-cache-token-costs/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/a403d9b2c52ac497</id>
     <title>Intermittent issues accessing the Dashboard on Firefox and Safari</title>
@@ -1346,16 +1386,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/e3741db30190350d</id>
-    <title>Durable Objects and Downstream Service Errors</title>
-    <updated>2026-08-20T17:48:08+00:00</updated>
-    <content>Aug 20 , 17:48 UTC Resolved - This incident has been resolved. Aug 20 , 16:56 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 20 , 16:48 UTC Investigating - Cloudflare is investigating issues causing an increase of errors for Durable Objects and downstream services in ENAM region. We are working to analyse and mitigate this problem. More updates to follow shortly.</content>
-    <link href="https://www.cloudflarestatus.com/incidents/f35vbpr3dv4h" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-08-20T17:48:08+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/c63cf33b379ef330</id>
     <title>From all-or-nothing to task-based OAuth consent</title>
     <updated>2026-08-20T17:03:03+00:00</updated>
@@ -1369,21 +1399,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     </media:group>
     <dc:creator>Cloudflare Blog</dc:creator>
     <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/3be4694f86c63498</id>
-    <title>Logs - New Logpush datasets and updated fields across multiple Logpush datasets in Cloudflare Logs</title>
-    <updated>2026-08-20T00:00:00+00:00</updated>
-    <content>Cloudflare has updated Logpush datasets : New datasets Account Abuse Protection Events : A new dataset with fields including AuthenticationIdentityProvider , AuthenticationMethod , AuthenticationStatus , BotScore , ClientASN , ClientCity , ClientCountry , ClientIP , Email , EphemeralID , EventSource , EventType , FraudEmailRisk , Host , JA4 , RayID , Timestamp , UserAgent , and UserID . Magic BGP Logs : A new dataset with fields including Direction , EventData , EventKind , EventTimestamp , Tunn</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-20-log-fields-updated/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-20T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/553cadfa42c7bcf8</id>
@@ -1999,21 +2014,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     </media:group>
     <dc:creator>Cloudflare Blog</dc:creator>
     <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01KYSB8K2P26A5EW9F1D1XDH8J.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/ff81718e8f99d111</id>
-    <title>Post-quantum authentication to origins is now supported</title>
-    <updated>2026-07-29T13:00:00+00:00</updated>
-    <content>Cloudflare now supports post-quantum (PQ) authentication when connecting to customer origin servers via Authenticated Origin Pulls and Custom Origin Trust Store. This is the first step towards providing PQ authentication for all Cloudflare products.</content>
-    <link href="https://blog.cloudflare.com/post-quantum-authentication-to-origins/" rel="alternate"/>
-    <category term="Cloudflare Blog" label="Cloudflare Blog"/>
-    <published>2026-07-29T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://blog.cloudflare.com/_emdash/api/media/file/01KYN5V56B8HHHZ71NTH17JJVV.png" type="image/png" medium="image" height="628" width="1200"/>
-      <media:thumbnail url="https://blog.cloudflare.com/_emdash/api/media/file/01KYN5V56B8HHHZ71NTH17JJVV.png" height="628" width="1200"/>
-    </media:group>
-    <dc:creator>Cloudflare Blog</dc:creator>
-    <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01KYN5V56B8HHHZ71NTH17JJVV.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/9c8ac316e1020baf</id>

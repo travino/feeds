@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-09T11:48:17.070846+00:00</updated>
+  <updated>2026-09-09T16:53:48.768471+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,96 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/c9d593c3a3371596</id>
+    <title>RHSA-2026:66016: Important: osbuild-composer security update</title>
+    <updated>2026-09-09T16:12:37+00:00</updated>
+    <content>An update for osbuild-composer is now available for Red Hat Enterprise Linux 8.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66016" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T16:12:37+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/efa818a772855e7a</id>
+    <title>RHSA-2026:65993: Important: qt5-qtbase security update</title>
+    <updated>2026-09-09T15:27:12+00:00</updated>
+    <content>An update for qt5-qtbase is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:65993" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T15:27:12+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/6ede01f8b6efa8b5</id>
+    <title>Deploy NeMo Guardrails on Red Hat OpenShift AI</title>
+    <updated>2026-09-09T15:05:01+00:00</updated>
+    <content>This is part 3 in a 3-part series on local guardrail development and evaluation. In the 1st article , I looked at how to design and develop a guardrail configuration on a local machine, and then tried some manual testing. In the 2nd article , I explored how to rigorously test a guardrail against popular large-scale risk datasets. The post Deploy NeMo Guardrails on Red Hat OpenShift AI appeared first on Red Hat Developer .</content>
+    <link href="https://developers.redhat.com/articles/2026/09/09/deploy-nemo-guardrails-on-red-hat-openshift-ai" rel="alternate"/>
+    <category term="Red Hat Developer" label="Red Hat Developer"/>
+    <published>2026-09-09T15:05:01+00:00</published>
+    <media:group>
+      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20OpenShift%20AI_0.png?itok=C9XlhkOQ" type="image/png" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20OpenShift%20AI_0.png?itok=C9XlhkOQ" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Red Hat Developer</dc:creator>
+    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20OpenShift%20AI_0.png?itok=C9XlhkOQ" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/c060829332487fdc</id>
+    <title>RHSA-2026:65999: Moderate: gstreamer1-plugins-good security update</title>
+    <updated>2026-09-09T14:07:56+00:00</updated>
+    <content>An update for gstreamer1-plugins-good is now available for Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:65999" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T14:07:56+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/df6cb7b2f2378545</id>
+    <title>Use a local and open source code assistant</title>
+    <updated>2026-09-09T14:01:45+00:00</updated>
+    <content>There's a lot of excitement about AI coding assistants, but many of the available options either aren't open source, or don't respect your data privacy by sending what you're working on to the cloud for processing. If you're looking for an alternative to closed AI, then you need an open coding assistant and an open source IDE. The post Use a local and open source code assistant appeared first on Red Hat Developer .</content>
+    <link href="https://developers.redhat.com/articles/2026/09/09/use-local-and-open-source-code-assistant" rel="alternate"/>
+    <category term="Red Hat Developer" label="Red Hat Developer"/>
+    <published>2026-09-09T14:01:45+00:00</published>
+    <media:group>
+      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/GC-opensource_2x%20%281%29.png?itok=t6qsnXn3" type="image/png" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/GC-opensource_2x%20%281%29.png?itok=t6qsnXn3" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Red Hat Developer</dc:creator>
+    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/GC-opensource_2x%20%281%29.png?itok=t6qsnXn3" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/7726d8cb1d8bdedc</id>
+    <title>RHSA-2026:65959: Moderate: gstreamer1-plugins-good security update</title>
+    <updated>2026-09-09T13:06:36+00:00</updated>
+    <content>An update for gstreamer1-plugins-good is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:65959" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T13:06:36+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/e6293d764ae3a3db</id>
+    <title>RHSA-2026:65918: Important: delve security update</title>
+    <updated>2026-09-09T12:06:06+00:00</updated>
+    <content>An update for delve is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:65918" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T12:06:06+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/36a3def84a7ba852</id>
     <title>RHSA-2026:65886: Important: image-builder security update</title>
@@ -46,6 +136,30 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <link href="https://access.redhat.com/errata/RHSA-2026:65899" rel="alternate"/>
     <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
     <published>2026-09-09T11:16:51+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/bda6bf0ffbf6d75c</id>
+    <title>RHSA-2026:65895: Important: osbuild-composer security update</title>
+    <updated>2026-09-09T11:16:26+00:00</updated>
+    <content>An update for osbuild-composer is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:65895" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T11:16:26+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/d073d66ee424a4e2</id>
+    <title>RHSA-2026:65900: Important: openssh security update</title>
+    <updated>2026-09-09T11:15:31+00:00</updated>
+    <content>An update for openssh is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:65900" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T11:15:31+00:00</published>
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
@@ -85,99 +199,17 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/7b50e3362f74cf61</id>
-    <title>RHSA-2026:65832: Important: mrtg security update</title>
-    <updated>2026-09-09T09:11:52+00:00</updated>
-    <content>An update for mrtg is now available for Red Hat Enterprise Linux 8.
+    <id>tag:trvny.github.io,2024:feedseek/redhat/f7cd3ff469964dd8</id>
+    <title>RHSA-2026:63044: Important: OpenShift Container Platform 4.19.46 bug fix and security update</title>
+    <updated>2026-09-09T10:01:11+00:00</updated>
+    <content>Red Hat OpenShift Container Platform release 4.19.46 is now available with updates to packages and images that fix several bugs and add enhancements.
 
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65832" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T09:11:52+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/f85932f5a934911d</id>
-    <title>RHSA-2026:65855: Important: freerdp security update</title>
-    <updated>2026-09-09T09:03:36+00:00</updated>
-    <content>An update for freerdp is now available for Red Hat Enterprise Linux 8.4 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.4 Extended Update Support Long-Life Add-On.
+This release includes a security update for Red Hat OpenShift Container Platform 4.19.
 
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65855" rel="alternate"/>
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References </content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:63044" rel="alternate"/>
     <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T09:03:36+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/d80ad23807fe464e</id>
-    <title>RHSA-2026:65816: Important: qt6-qt5compat security update</title>
-    <updated>2026-09-09T07:19:21+00:00</updated>
-    <content>An update for qt6-qt5compat is now available for Red Hat Enterprise Linux 10.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65816" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T07:19:21+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/5f53e242586689bc</id>
-    <title>RHSA-2026:65803: Important: libvirt security update</title>
-    <updated>2026-09-09T06:11:11+00:00</updated>
-    <content>An update for libvirt is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65803" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T06:11:11+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/dc40909a8988cc68</id>
-    <title>RHSA-2026:65763: Moderate: glib2 security update</title>
-    <updated>2026-09-09T04:31:35+00:00</updated>
-    <content>An update for glib2 is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65763" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T04:31:35+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/fe148660af90d323</id>
-    <title>RHSA-2026:65770: Moderate: glib2 security update</title>
-    <updated>2026-09-09T04:23:10+00:00</updated>
-    <content>An update for glib2 is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65770" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T04:23:10+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/2b7fa435fa39f889</id>
-    <title>RHSA-2026:65768: Moderate: glib2 security update</title>
-    <updated>2026-09-09T04:17:40+00:00</updated>
-    <content>An update for glib2 is now available for Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65768" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T04:17:40+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/1e1a9408aa600026</id>
-    <title>RHSA-2026:65773: Moderate: glib2 security update</title>
-    <updated>2026-09-09T04:08:25+00:00</updated>
-    <content>An update for glib2 is now available for Red Hat Enterprise Linux 7 Extended Lifecycle Support.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65773" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T04:08:25+00:00</published>
+    <published>2026-09-09T10:01:11+00:00</published>
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
@@ -194,6 +226,81 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20OpenShift%20AI_0.png?itok=C9XlhkOQ" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/55beb1c0d499227c</id>
+    <title>The Lightwell reality check</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>We’ve been talking with business leaders about Lightwell for the past few months, and the conversation always starts with enthusiasm. AI-driven exploits are moving at unprecedented speeds, and enterprise security teams are feeling a level of urgency we haven’t seen in decades. When organizations discover they can submit software vulnerabilities under an embargo window and receive certified, backported patches for legacy or pinned environments, the reaction is almost always: "Where do we sign up?</content>
+    <link href="https://www.redhat.com/en/blog/lightwell-reality-check" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/f7cb4aec68bd19e8</id>
+    <title>Red Hat sponsors the OpenClaw Foundation to advance an open future for production AI agents</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>In July, the OpenClaw Foundation was announced with Red Hat joining as a sponsor to bring open, more secure infrastructure to autonomous AI agents. OpenClaw has quickly become a premier open source autonomous agent framework, and Red Hat’s involvement aims to bring the enterprise readiness and infrastructure needed to transition this technology from a powerful personal tool to a production-grade business asset. The value of OpenClaw lies in its persistence. It automates tasks and workflows indep</content>
+    <link href="https://www.redhat.com/en/blog/red-hat-sponsors-openclaw-foundation-advance-open-future-production-ai-agents" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/ac995222dbd99233</id>
+    <title>Red Hat AI 3.5: Scaling and governing AI agents in production</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Enterprise teams have moved past early experimentation. Pilots succeed, prototypes impress, and individual teams deliver initial results. The challenge every platform engineering and ITOps team hits next is much harder: operating AI with the same operational rigor as mission-critical AI infrastructure. Moving beyond isolated development sandboxes requires answering 4 questions before scaling: Can we trust it? Can we control it? Can we build on it? Can we measure it? Red Hat AI 3.5 provides the t</content>
+    <link href="https://www.redhat.com/en/blog/red-hat-ai-35-scaling-and-governing-ai-agents-production" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/dac923936607ee8a</id>
+    <title>Rafay and Red Hat publish joint reference architecture for sovereign AI cloud as a service</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Red Hat has published Sovereign AI Cloud as a Service, a joint reference architecture built with Rafay for telecommunications providers, sovereign cloud operators, and NeoClouds that want to turn distributed GPU infrastructure into a governed, self-service, revenue-generating AI cloud.Built on Red Hat's foundational AI and multi-tenant cloud platform, the architecture integrates Rafay to add the self-service commercial workflows service providers need to resell that platform to their own custome</content>
+    <link href="https://www.redhat.com/en/blog/rafay-and-red-hat-publish-joint-reference-architecture-sovereign-ai-cloud-service" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/769716cb6c70c331</id>
+    <title>Accelerating post-quantum security migration with Red Hat Certificate System</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>The realities of quantum computing and its inevitable impact on enterprise cryptography are already taking shape:Red Hat Enterprise Linux has been post-quantum cryptographically (PQC)-capable since the launch of Red Hat Enterprise Linux 10 (RHEL) in 2025.Hyperscalers like AWS and Google Cloud Platform are revisiting their original estimates for PQC availability in light of continued advances in the space.Organizations like Microsoft and Google are either advancing PQC adoption deadlines or progr</content>
+    <link href="https://www.redhat.com/en/blog/accelerating-post-quantum-security-migration-red-hat-certificate" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/369672c24a6e3bc3</id>
@@ -291,6 +398,21 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     <updated>2026-09-08T00:00:00+00:00</updated>
     <content>It’s no surprise that many organizations are reevaluating their existing virtualization platforms due to a variety of factors, including but not limited to rising virtualization costs and disruptive licensing changes. However, replacing a traditional virtualization platform with an identical hypervisor layer often does little to solve tomorrow’s business problems. Forward-thinking enterprises are recognizing that if they are going to go through the disruption of moving long-standing workloads an</content>
     <link href="https://www.redhat.com/en/blog/accelerating-modern-virtualization-infrastructure-9-months" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/4bba335fee785245</id>
+    <title>Beyond container boundaries: Kernel-level agent security in Red Hat OpenShift AI 3.5</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>77% of organizations now have AI agents running in production.1 The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. Many are operating in what IDC calls a "governance grey zone." Shadow AI incidents cost, on average, $670,000 more than standard security incidents.The problem is architectural, not attitudinal. Teams want governance, but they lack the tools. AI agents that browse the web, execute code, query databases</content>
+    <link href="https://www.redhat.com/en/blog/beyond-container-boundaries-kernel-level-agent-security-red-hat-openshift-ai-35" rel="alternate"/>
     <category term="Red Hat Blog" label="Red Hat Blog"/>
     <published>2026-09-08T00:00:00+00:00</published>
     <media:group>
@@ -661,21 +783,6 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/0d93518304172b08</id>
-    <title>5 ways to augment security risk management in the AI era</title>
-    <updated>2026-09-01T00:00:00+00:00</updated>
-    <content>IT operations and security teams receive thousands of alerts every day from threat intelligence sources, such as vulnerability scanners, observability tools, Red Hat Lightspeed, and more. The challenge is identifying, correlating, and addressing impactful alerts from an ongoing, high-volume stream of information as quickly as possible, especially now that vulnerabilities can be exploited in a matter of hours. Consider IBM's X-Force Threat Intelligence Index 2026, where researchers found that sca</content>
-    <link href="https://www.redhat.com/en/blog/5-ways-augment-security-risk-management-ai-era" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-09-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/2cb1c9489237c2ef</id>
     <title>Why the virtualization decision keeps getting deferred</title>
     <updated>2026-09-01T00:00:00+00:00</updated>
@@ -781,66 +888,6 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift%20AI_0.png?itok=EGHltugp" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/fe6e6fd7b8a382a1</id>
-    <title>Friday Five — August 28, 2026</title>
-    <updated>2026-08-28T00:00:00+00:00</updated>
-    <content>Streamlining container security: Red Hat Hardened Images now supported in AWS InspectorScan API and ECR Basic scanningAWS InspectorScan API and ECR Basic scanning now support Red Hat Hardened Images. This integration helps software security and development teams reduce vulnerability alerts, verify software supply chain integrity, and streamline compliance across hybrid cloud workflows using enterprise open source container images. Learn more Unify IT workflows at scale with the new automation or</content>
-    <link href="https://www.redhat.com/en/blog/friday-five-august-28-2026-red-hat" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-08-28T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/d572cba2318f81d6</id>
-    <title>Managing enterprise AI at scale: Hosting, deployment patterns, and Day 2 operations</title>
-    <updated>2026-08-28T00:00:00+00:00</updated>
-    <content>In our previous article, Enterprise AI model selection: Balancing performance, privacy, and operational fit, we described the 4 layers that make up an effective enterprise AI architecture. In this article, we'll talk about who operates each layer,  where workloads run (managed APIs, self-hosting, or hybrid), and how Red Hat AI Enterprise provides all 4 layers as a tightly integrated production AI system. We'll also cover some deployment implications for RAG, fine-tuning, and agents, and some con</content>
-    <link href="https://www.redhat.com/en/blog/managing-enterprise-ai-scale-hosting-deployment-patterns-and-day-2-operations" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-08-28T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/1ca71097eb9b87bd</id>
-    <title>Learning while building: How Red Hat Training accelerates technical growth</title>
-    <updated>2026-08-28T00:00:00+00:00</updated>
-    <content>Managing complex data systems and learning new software platforms can feel like navigating a maze in the dark. Whether you’re stepping into a command-line environment for the 1st time or mapping intricate relationships across enterprise platforms, practical experience provides the bridge for moving from basic familiarity to operational confidence. When I started my internship at Red Hat as a product training analyst intern, I faced both challenges at once: I had minimal Linux and terminal experi</content>
-    <link href="https://www.redhat.com/en/blog/learning-while-building-how-red-hat-training-accelerates-technical-growth" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-08-28T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/c237e4da2f5f9da3</id>
-    <title>Celebrating excellence: Honoring the Red Hat Academy APAC award winners</title>
-    <updated>2026-08-28T00:00:00+00:00</updated>
-    <content>The future of technology depends on a workforce equipped with practical, industry-relevant skills. As organizations accelerate their adoption of open source, cloud, automation, and enterprise technologies, educational institutions play a critical role in preparing students for these opportunities. This is where the Red Hat Academy continues to make a meaningful impact.Bridging the gap between education and industryRed Hat Academy empowers educational institutions with a comprehensive curriculum </content>
-    <link href="https://www.redhat.com/en/blog/celebrating-excellence-honoring-red-hat-academy-apac-award-winners" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-08-28T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/69496ee65f8e1af8</id>
     <title>llm-d flow control: Priority queuing for shared GPU inference</title>
     <updated>2026-08-27T03:01:23+00:00</updated>
@@ -854,51 +901,6 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/eb6b761d3cfb6006</id>
-    <title>Automating edge recovery: Minimizing unplanned downtime with Red Hat Edge</title>
-    <updated>2026-08-27T00:00:00+00:00</updated>
-    <content>Before joining Red Hat, senior product manager for edge computing Luke Thompson spent 7 years of his career working at a large industrial automation company, where he had considerable opportunity to talk with customers and learn about the operational challenges they face every day. Whether the conversation was about infrastructure management, workforce shortages, supply chain disruptions, or production efficiency, one concern remained consistent across every manufacturing industry: minimizing un</content>
-    <link href="https://www.redhat.com/en/blog/automating-edge-recovery-minimizing-unplanned-downtime-with-red-hat-edge" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-08-27T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/1164ebd464db3e8c</id>
-    <title>How AI observability works with MLflow</title>
-    <updated>2026-08-26T09:16:42+00:00</updated>
-    <content>As I'm sure you already know, AI responses aren't always correct (your favorite LLM probably has a disclaimer saying the same thing). The post How AI observability works with MLflow appeared first on Red Hat Developer .</content>
-    <link href="https://developers.redhat.com/articles/2026/08/26/how-ai-observability-works-mlflow" rel="alternate"/>
-    <category term="Red Hat Developer" label="Red Hat Developer"/>
-    <published>2026-08-26T09:16:42+00:00</published>
-    <media:group>
-      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" type="image/png" medium="image" height="627" width="1200"/>
-      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" height="627" width="1200"/>
-    </media:group>
-    <dc:creator>Red Hat Developer</dc:creator>
-    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/56e7bcf06be3b562</id>
-    <title>Try the Ansible playbook generation lab with Gemini and OpenAI</title>
-    <updated>2026-08-26T07:01:16+00:00</updated>
-    <content>Red Hat Ansible Automation Platform's official Visual Studio Code (VS Code) extension has undergone many iterations and improvements since its initial release in 2021. Along with its automatic linting and easy documentation access, one of the most helpful features of the extension is its ability for users to generate Ansible playbooks and roles using their AI large language model of choice. The post Try the Ansible playbook generation lab with Gemini and OpenAI appeared first on Red Hat Develope</content>
-    <link href="https://developers.redhat.com/articles/2026/08/26/try-ansible-playbook-generation-lab-gemini-and-openai" rel="alternate"/>
-    <category term="Red Hat Developer" label="Red Hat Developer"/>
-    <published>2026-08-26T07:01:16+00:00</published>
-    <media:group>
-      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Ansible%20Automation%20Platform.png?itok=4DKnztfp" type="image/png" medium="image" height="627" width="1200"/>
-      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Ansible%20Automation%20Platform.png?itok=4DKnztfp" height="627" width="1200"/>
-    </media:group>
-    <dc:creator>Red Hat Developer</dc:creator>
-    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Ansible%20Automation%20Platform.png?itok=4DKnztfp" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/344402f9d22fac9a</id>

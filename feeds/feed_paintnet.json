@@ -11,7 +11,7 @@
       "id": "tag:trvny.github.io,2024:feedseek/paintnet/46503868ff787067",
       "url": "https://forums.paint.net/topic/134563-%F0%9F%8D%B7-extremely-experimental-winelinux-support-how-to-get-started/",
       "title": "🍷 Extremely Experimental WINE/Linux support: How to Get Started",
-      "content_text": "Paint.NET 5.2 Alpha (build 9739) contains extremely experimental support for WINE (which means Linux). To try this out, you need to: Use the portable version of the app. The installer will NOT work. You must be using at least WINE version 11.14. Seriously, just use whatever the latest version is. You need add a registry key so that WINE doesn't try to override a DLL with its own version which does not work. Run this command to do so: (and if someone knows how to make it so that this step isn't n",
+      "content_text": "Update: Head over to GitHub for the latest builds and updates Paint.NET 5.2 Alpha (build 9739) contains extremely experimental support for WINE (which means Linux). To try this out, you need to: Use the portable version of the app. The installer will NOT work. You must be using at least WINE version 11.14. Seriously, just use whatever the latest version is. You need add a registry key so that WINE doesn't try to override a DLL with its own version which does not work. Run this command to do so:",
       "date_published": "2026-08-31T23:34:42Z",
       "date_modified": "2026-08-31T23:34:42Z",
       "authors": [
@@ -1610,13 +1610,13 @@
           "name": "Miscellaneous"
         }
       ],
-      "image": "https://i.postimg.cc/FRxsrN8M/1.png",
+      "image": "https://i.postimg.cc/0QRKYnqR/1.png",
       "tags": [
         "Miscellaneous"
       ],
       "attachments": [
         {
-          "url": "https://i.postimg.cc/FRxsrN8M/1.png",
+          "url": "https://i.postimg.cc/0QRKYnqR/1.png",
           "mime_type": "image/png"
         }
       ]

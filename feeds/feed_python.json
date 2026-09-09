@@ -8,12 +8,12 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/1d57accb583483cd",
-      "url": "https://pypi.org/project/safecmd/0.1.16/",
-      "title": "safecmd 0.1.16",
-      "content_text": "Call commands safely by checking them rigorously against an allow-list",
-      "date_published": "2026-09-09T11:47:06Z",
-      "date_modified": "2026-09-09T11:47:06Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/394ad950a7766845",
+      "url": "https://pypi.org/project/trame/4.0.0/",
+      "title": "trame 4.0.0",
+      "content_text": "Trame, a framework to build applications in plain Python",
+      "date_published": "2026-09-09T16:53:39Z",
+      "date_modified": "2026-09-09T16:53:39Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -24,12 +24,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/2e904f9679b70cab",
-      "url": "https://pypi.org/project/secenvy/0.3.0/",
-      "title": "secenvY 0.3.0",
-      "content_text": "Gymnasium Environment for AI-driven Android Security Analysis, Dynamic Fuzzing, and Penetration Testing",
-      "date_published": "2026-09-09T11:47:00Z",
-      "date_modified": "2026-09-09T11:47:00Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/ed61de91a71423dc",
+      "url": "https://pypi.org/project/rpi-hwid/0.0.post17/",
+      "title": "rpi-hwid 0.0.post17",
+      "content_text": "Raspberry Pi hardware identity: what a Pi wears, what powers it, which FPGA board it hosts, and print-ready labels for all of it.",
+      "date_published": "2026-09-09T16:53:00Z",
+      "date_modified": "2026-09-09T16:53:00Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -40,12 +40,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/3ec852a702c5a330",
-      "url": "https://pypi.org/project/scrapy-ingest/1.3.0/",
-      "title": "scrapy-ingest 1.3.0",
-      "content_text": "Scrapy extension for database ingestion with job/spider tracking",
-      "date_published": "2026-09-09T11:46:50Z",
-      "date_modified": "2026-09-09T11:46:50Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/e7c7306be6067bd5",
+      "url": "https://pypi.org/project/veragridmcp/6.5.25/",
+      "title": "VeraGridMcp 6.5.25",
+      "content_text": "VeraGrid is a Power Systems simulation program intended for professional use and research",
+      "date_published": "2026-09-09T16:52:52Z",
+      "date_modified": "2026-09-09T16:52:52Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -56,12 +56,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/64319fbe8750ec8c",
-      "url": "https://pypi.org/project/omnigent/0.13.0rc3/",
-      "title": "omnigent 0.13.0rc3",
-      "content_text": "Omnigent: declarative agent authoring and runtime framework",
-      "date_published": "2026-09-09T11:46:40Z",
-      "date_modified": "2026-09-09T11:46:40Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/6f37148d3b95c4de",
+      "url": "https://pypi.org/project/veragridserver/6.5.25/",
+      "title": "VeraGridServer 6.5.25",
+      "content_text": "VeraGrid is a Power Systems simulation program intended for professional use and research",
+      "date_published": "2026-09-09T16:52:49Z",
+      "date_modified": "2026-09-09T16:52:49Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -72,12 +72,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/9e0cf7163b1dd25a",
-      "url": "https://pypi.org/project/pseudocode-i18n-languageserver/0.9.1/",
-      "title": "pseudocode-i18n-languageserver 0.9.1",
-      "content_text": "Language Server Protocol implementation for multilingual pseudocode-i18n",
-      "date_published": "2026-09-09T11:46:33Z",
-      "date_modified": "2026-09-09T11:46:33Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/abdacef2b3de2c39",
+      "url": "https://pypi.org/project/mlimage/0.2.1/",
+      "title": "mlimage 0.2.1",
+      "content_text": "Python bindings for mlimage-rs, exposing a reader for MeVisLab's MLImage file format for medical imaging",
+      "date_published": "2026-09-09T16:52:47Z",
+      "date_modified": "2026-09-09T16:52:47Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -279,6 +279,29 @@
         {
           "url": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/717bfd57d668931c",
+      "url": "https://belderbos.dev/blog/database-driven-rbac-fastapi-azure-entra/",
+      "title": "Bob Belderbos: Database-Driven RBAC with FastAPI and Azure Entra ID",
+      "content_text": "This came out of a coaching project: a FastAPI service backing a geotechnical database. We use Azure Entra ID for authentication, but we needed role-based access control (RBAC) granularly per endpoint and across different user roles. It turned into an interesting sprint where we designed it so that role changes did not require code changes. I've seen FastAPI auth examples hardcode a policy like: if \"Admin\" not in user.roles: raise 403 , copy-pasted into every route. It works until the day someon",
+      "date_published": "2026-09-09T00:00:00Z",
+      "date_modified": "2026-09-09T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://belderbos.dev/images/og/database-driven-rbac-fastapi-azure-entra.png",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://belderbos.dev/images/og/database-driven-rbac-fastapi-azure-entra.png",
+          "mime_type": "image/png"
         }
       ]
     },
@@ -1165,6 +1188,29 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee",
+      "url": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
+      "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
+      "content_text": "There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l",
+      "date_published": "2026-09-07T00:00:00Z",
+      "date_modified": "2026-09-07T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/68cfed7ffbc511f7",
       "url": "https://blog.glyph.im/2026/09/but-what-about-video-games.html",
       "title": "Glyph Lefkowitz: ... but what about video games?",
@@ -1206,29 +1252,6 @@
       "attachments": [
         {
           "url": "https://substackcdn.com/image/fetch/$s_!wVbn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61bacbdb-ec15-431f-abf9-91a5f9515c74_1280x720.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee",
-      "url": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
-      "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
-      "content_text": "There are plenty of habit trackers, but I wanted to build mine with constraints, a calendar view and habit streaks. So I built commitgraph : a small Django + HTMX app. Here are five Python design and testing patterns from building it. 1. Pure functions Streak counting and calendar shading live in two plain modules. They take dates and return values. And work independently from Django, the database, or the user. That makes them easy to test. # streaks.py from datetime import date, timedelta def l",
-      "date_published": "2026-09-06T00:00:00Z",
-      "date_modified": "2026-09-06T00:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://belderbos.dev/images/og/python-patterns-django-habit-tracker.png",
           "mime_type": "image/png"
         }
       ]
@@ -1400,29 +1423,6 @@
         {
           "url": "https://treyhunner.com/images/daily-recall-card.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/45ab5692992cc33d",
-      "url": "https://grahamdumpleton.me/posts/2026/09/phased-behaviour-in-wrapture/",
-      "title": "Graham Dumpleton: Phased behaviour in wrapture",
-      "content_text": "Most of what a test configures on a patch holds until the test changes it. Retry logic is the classic case where that is not enough: the code under test keeps calling, and the test needs the behaviour to change on its own as it does. Fail twice and then succeed. Hand out a sequence of canned responses. Run the real thing until it breaks and then fail fast. unittest.mock handles the first two of those with a list passed as side_effect , consumed one entry per call. wrapture models the same idea a",
-      "date_published": "2026-09-04T00:00:00Z",
-      "date_modified": "2026-09-04T00:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/4f759d91/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
         }
       ]
     },
