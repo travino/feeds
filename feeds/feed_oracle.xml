@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-09T05:08:00.339913+00:00</updated>
+  <updated>2026-09-09T11:48:13.020132+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,66 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/2923e557bfe63a42</id>
+    <title>Getting &amp;quot;Provide a valid value for DN_NA_Account_ServiceBranch_c&amp;quot; error while trying to Delete&amp;#x2F;Approve a user in DCS portal.</title>
+    <updated>2026-09-09T10:54:26.722824+00:00</updated>
+    <content>Getting an error while working on the Digital Customer Service Portal/Fusion Service B2B, The issue I'm getting is that when I try to approve a user in my DCS portal or delete a user that is already there. Then I get this error (find attached). Error: “Provide a valid value for DN_NA_Account_ServiceBranch_c” Tried debugging it by going to Fusion Service B2B, this field is required and has a Groovy script attached to it which reads: //Account_MD01 - Script added to make Service Branch Mandatory i</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/getting-provide-a-valid-value-for-dn-na-account-servicebran-7100" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T10:54:26.722824+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/448e07ee9efd87ef</id>
+    <title>[Live Technical Session] Modernizing Enterprise Applications with Oracle APEX, AI, and RAG Pipelines</title>
+    <updated>2026-09-09T10:35:29.480124+00:00</updated>
+    <content>Hi APEX Community, The MaxAPEX team is hosting a live technical session on integrating modern AI architecture into Oracle APEX enterprise applications. Technical Topics Covered: Strategies for integrating natural-language querying inside APEX Building private RAG (Retrieval-Augmented Generation) pipelines and AI agents Scaling AI-driven workflows on modern cloud infrastructure Event Details: Date: September 10, 2026 Time: 7:30 PM PKT (2:30 PM UTC / GMT+5) Duration: 60 Minutes (Live Online) You c</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/live-technical-session-modernizing-enterprise-applications-6520" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T10:35:29.480124+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/71439fb8bc2d1473</id>
+    <title>Connecting Oracle 7 for Node.js App on RHEL</title>
+    <updated>2026-09-09T10:30:17.275019+00:00</updated>
+    <content>We have a Oracle 7 database that we want to connect to a Node JS App. However, the Node JS App is on RHEL 9.x and it seems there is no direct connectivity possible as the drivers are not available. From some research, it looks like the best bet is to create a bridge DB, either Oracle 11 / Oracle 8 or Oracle 7. I'd like to know if there's any other complexity someone might have faced in such a setup. Many thanks in advance.</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/connecting-oracle-7-for-node-js-app-on-rhel-3464" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T10:30:17.275019+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/72c527726ab88b1d</id>
+    <title>Reasoning effort parameter in IA Services</title>
+    <updated>2026-09-09T09:49:00.649782+00:00</updated>
+    <content>Hello, We would like to use AI Services in APEX, but for some simple tasks we have found that the available models can be unnecessarily heavy and slow. One way to address this is by disabling or reducing reasoning. For models that support OpenAI-compatible APIs, this can be configured using the reasoning_effort parameter: https://developers.openai.com/api/docs/guides/reasoning?api-mode=responses For example, setting reasoning_effort to none can significantly reduce latency and token consumption </content>
+    <link href="https://forums.oracle.com/ords/apexds/post/reasoning-effort-parameter-in-ia-services-5097" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T09:49:00.649782+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/cef50df6aed4c97c</id>
     <title>Filtering the ADB catalog by caller identity before NL2SQL - findings from a live 26ai run</title>
@@ -221,66 +281,6 @@
     </media:group>
     <dc:creator>Oracle Developer Community</dc:creator>
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/cf8ecc9844cf8983</id>
-    <title>Object Browser does not display tree objects in the left panel.</title>
-    <updated>2026-09-07T13:57:19.226037+00:00</updated>
-    <content>Apex 26.1 . I have three workspaces. Two of them work well. In one of them, object browser does not display tree objects in the left panel. There is the correct current database schemaassigned to workspace. Many objects exist in this schema. Those happend after migration to APex 26,1. What is wrong?</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/object-browser-does-not-display-tree-objects-in-the-left-pa-2180" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T13:57:19.226037+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/2074c6dff300ef61</id>
-    <title>How Does APEX Implement the Stacked Master-Detail Interactive Grids?</title>
-    <updated>2026-09-07T13:36:57.171321+00:00</updated>
-    <content>Can someone explain how Oracle APEX implements the stacked master-detail page created by the built-in wizard? I’m trying to understand the logic behind the whole master-detail interaction, specifically: How does selecting a row in the master Interactive Grid cause the detail grid to refresh and show only the related records? And when creating a new master record, how is the generated master primary key made available to the detail grid so that new detail records get the correct foreign key value</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/how-does-apex-implement-the-stacked-master-detail-interacti-8493" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T13:36:57.171321+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/c74f5245036c4d82</id>
-    <title>Oracle APEX Free Workspace Account Locked – ASHISH_2002</title>
-    <updated>2026-09-07T12:15:19.365501+00:00</updated>
-    <content>Hello Oracle APEX Team, My Oracle APEX free hosted workspace account is locked and I am unable to sign in. Workspace Name: ASHISH_2002 Service: Oracle APEX Free Hosted Service (oracleapex.com) Error Message: "The account is locked." I accidentally entered an incorrect password multiple times, which caused my account to become locked. I have already used the Reset Password option and received the password reset email, but the account is still showing as locked. I am the only Workspace Administrat</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/oracle-apex-free-workspace-account-locked-ashish-2002-7667" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T12:15:19.365501+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/763938036df1051a</id>
-    <title>Page submit on macOS Tahoe&amp;#x2F;Safari installed PWA end with &amp;quot;Page not available&amp;quot;, apex 26.1.4</title>
-    <updated>2026-09-07T12:02:00.227110+00:00</updated>
-    <content>Hi, After updating an app to 26.1.4 I have some strange behaviour. I've created a simple testcase on oracleapex.com for this where I can reproduce this. I have a page with s a button. The button does a JS apex.submit which causes the page to branch to another page (after processing a branch is created). This works fine in Safari but as soon as I install the app as a PWA ( from Safari/MacOs Tahoe ) and use the PWA I get an error. As soon as the submit happends I get redirected to a “Sorry this pa</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/page-submit-on-macos-tahoe-safari-installed-pwa-end-with-pa-8571" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T12:02:00.227110+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/GSgtOobp-0102-cIDmCNBV" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/GSgtOobp-0102-cIDmCNBV"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/GSgtOobp-0102-cIDmCNBV" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/01109a56bf857890</id>

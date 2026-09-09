@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://support.microsoft.com/en-us/windows</id>
   <title>Microsoft Updates</title>
-  <updated>2026-09-09T05:07:34.193922+00:00</updated>
+  <updated>2026-09-09T11:47:52.827160+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -21,6 +21,21 @@
     <category term="Windows message center" label="Windows message center"/>
     <published>2026-09-08T10:00:00+00:00</published>
     <dc:creator>Windows message center</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/964fc9354d10fbac</id>
+    <title>Version 2608: September 08</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Version 2608 (Build 20326.20144) Various fixes to functionality and performance.</content>
+    <link href="https://learn.microsoft.com/en-us/officeupdates/current-channel#version-2608-september-08" rel="alternate"/>
+    <category term="Office Current Channel" label="Office Current Channel"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
+    </media:group>
+    <dc:creator>Office Current Channel</dc:creator>
+    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/7450254d57cf90f1</id>
@@ -633,21 +648,6 @@
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/b2b7496e8d9e6a32</id>
-    <title>Outlook Mobile release notes: July 23, 2026</title>
-    <updated>2026-07-23T00:00:00+00:00</updated>
-    <content>Build 5.2628.0 Feature updates iOS Various fixes to functionality and performance. Android Various fixes to functionality and performance.</content>
-    <link href="https://learn.microsoft.com/en-us/officeupdates/release-notes-outlook-mobile#july-23-2026" rel="alternate"/>
-    <category term="Outlook Mobile release notes" label="Outlook Mobile release notes"/>
-    <published>2026-07-23T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
-    </media:group>
-    <dc:creator>Outlook Mobile release notes</dc:creator>
-    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/cdf501bec78df219</id>
     <title>Version 2607: July 23</title>
     <updated>2026-07-23T00:00:00+00:00</updated>
@@ -660,6 +660,21 @@
       <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
     </media:group>
     <dc:creator>Office Current Channel</dc:creator>
+    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/b2b7496e8d9e6a32</id>
+    <title>Outlook Mobile release notes: July 23, 2026</title>
+    <updated>2026-07-23T00:00:00+00:00</updated>
+    <content>Build 5.2628.0 Feature updates iOS Various fixes to functionality and performance. Android Various fixes to functionality and performance.</content>
+    <link href="https://learn.microsoft.com/en-us/officeupdates/release-notes-outlook-mobile#july-23-2026" rel="alternate"/>
+    <category term="Outlook Mobile release notes" label="Outlook Mobile release notes"/>
+    <published>2026-07-23T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
+    </media:group>
+    <dc:creator>Outlook Mobile release notes</dc:creator>
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
@@ -3075,21 +3090,6 @@
       <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
     </media:group>
     <dc:creator>Outlook (new) release notes</dc:creator>
-    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/9dd81abeb8cf8831</id>
-    <title>Version 2510: October 30</title>
-    <updated>2025-10-30T00:00:00+00:00</updated>
-    <content>Version 2510 (Build 19328.20158) Feature updates Excel New Get Data dialog in Excel for Windows: Discover a new way to connect to data! The Get Data dialog in Excel for Windows makes finding and using external data sources faster, smarter, and more intuitive. Analyze Data is now found in the Data tab: Continue getting insights from Analyze Data from the Data tab in the ribbon. Resolved issues Outlook We fixed an issue that prevented users from downloading web add-ins in some virtualized environm</content>
-    <link href="https://learn.microsoft.com/en-us/officeupdates/current-channel#version-2510-october-30" rel="alternate"/>
-    <category term="Office Current Channel" label="Office Current Channel"/>
-    <published>2025-10-30T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
-    </media:group>
-    <dc:creator>Office Current Channel</dc:creator>
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>

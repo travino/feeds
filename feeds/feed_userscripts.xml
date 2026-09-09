@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-09T05:08:32.070086+00:00</updated>
+  <updated>2026-09-09T11:48:50.043236+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,46 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/4b0f430b69f7b08b</id>
+    <title>轻榴浏览器元素拦截日志 — 玩玩乐</title>
+    <updated>2026-09-09T11:33:14+00:00</updated>
+    <content>检测轻榴浏览器中生效的元素拦截规则，输出匹配日志</content>
+    <link href="https://scriptcat.org/script-show-page/7908" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-09T11:33:14+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/1b5dc791c791a330</id>
+    <title>江开学习助手 — tianjian</title>
+    <updated>2026-09-09T10:34:29+00:00</updated>
+    <content>解除江苏开放大学学习平台答题页面的复制粘贴限制（支持复制、粘贴、剪切）</content>
+    <link href="https://scriptcat.org/script-show-page/7907" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-09T10:34:29+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/21e7ceef0f76360c</id>
+    <title>Bilibili 剧集双语字幕羽化遮罩与生词本 (看剧学英语) — black_customer</title>
+    <updated>2026-09-09T10:27:30+00:00</updated>
+    <content>在 B 站看剧学英语：无边框羽化光学模糊中文字幕，Alt+滚轮精准盲调无误触；控制栏呼吸自动隐藏，一键截取高清剧照 + 精准时间戳定位与 IndexedDB 侧边生词复习抽屉。</content>
+    <link href="https://scriptcat.org/script-show-page/7906" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-09T10:27:30+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/2da58f819cb9289f</id>
+    <title>红果短剧可播集下载 — nl</title>
+    <updated>2026-09-09T07:21:43+00:00</updated>
+    <content>在播放页提取可播 MP4，按「剧名_第N集」下载；批量仅处理站点已开放集数，不绕过锁定</content>
+    <link href="https://scriptcat.org/script-show-page/7905" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-09T07:21:43+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/8e0adf20d5fc069d</id>
     <title>B站直播间音量快捷控制 — Super-Dian</title>
@@ -1460,46 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7695" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-27T11:16:43+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/b0e529a437cfcd32</id>
-    <title>气象培训平台自动学习 — jiuzhoufx</title>
-    <updated>2026-08-27T10:20:44+00:00</updated>
-    <content>自动遍历"我的自选课"未完成课程，跳过已学完课程，进入学习空间逐个学习课件；以课件页 s_point 对勾/completestate 判断完成状态并断点续学；登录超时弹窗绝不点击；会话失效时自动停止跳转；弹窗被拦截时暂停等待用户允许。适配 ScriptCat / Tampermonkey。</content>
-    <link href="https://scriptcat.org/script-show-page/7694" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T10:20:44+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/9c645c39e4013606</id>
-    <title>【效率版】河南专技培训平台学习助手（河南继续教育学会/南阳理工学院） — 雨图案</title>
-    <updated>2026-08-27T10:08:40+00:00</updated>
-    <content>河南继续教育学会(jxjyedu.org.cn)、南阳理工学院(nypx.jxjyedu.org.cn)专业技术人员继续教育助手：已报名公需课、专业课效率快速完成；免费每站3章节，Pro本站激活绑定不限。</content>
-    <link href="https://scriptcat.org/script-show-page/7693" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T10:08:40+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/1fc486804ac5b919</id>
-    <title>【效率版】河南专技培训平台学习助手（洛阳理工/中原工学院） — 雨图案</title>
-    <updated>2026-08-27T07:23:28+00:00</updated>
-    <content>洛阳理工学院河南专技培训平台（ly.fnhzj.com）和中原工学院河南专技培训平台（www.huayuzj.com）学习辅助：已报名公需课、专业课、可勾选所有课程章节同步进行，无需排队单刷缩短看课时间，免费每站3章节视频，Pro首次激活绑定本站；公需课无考试，专业课考试仅Pro。</content>
-    <link href="https://scriptcat.org/script-show-page/7691" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T07:23:28+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/bc41626c425cbfe6</id>
-    <title>B站热门视频重排 — xcxsvhyizz</title>
-    <updated>2026-08-27T04:05:38+00:00</updated>
-    <content>在热门页nav-tabs添加分栏，重新排序热门视频</content>
-    <link href="https://scriptcat.org/script-show-page/7689" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T04:05:38+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

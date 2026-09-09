@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T05:07:58.367424+00:00",
+  "last_updated": "2026-09-09T11:48:13.936530+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -8137,54 +8137,81 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43"
     },
     {
-      "title": "luma-infra 0.1.310",
-      "link": "https://pypi.org/project/luma-infra/0.1.310/",
-      "date": "2026-09-09T05:05:53+00:00",
-      "description": "Declarative deployment CLI for region-aware Nomad infrastructure.",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/04db7668bd4c32ad"
+      "title": "Python GUIs: Clean up on exit — Stopping threads when closing a PyQt6 application — How to properly shut down background threads and workers when your application window is closed",
+      "link": "https://www.pythonguis.com/faq/clean-up-on-exit-application/",
+      "date": "2026-09-09T06:00:00+00:00",
+      "description": "I'm using QThreadPool and worker threads in my PyQt application. When I click the X button to close the window, the threads keep running in the background. What's the best way to clean everything up on application exit? This is a very common situation when working with multithreaded PyQt6 applications. You've set up background workers using QThreadPool or QThread , everything runs great — but when you close the window, the application doesn't fully exit. The threads keep going, and you might eve",
+      "source": "Planet Python",
+      "image": "https://www.pythonguis.com/static/images/libraries/pyqt6.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/8cb1903c8c7f27b1"
     },
     {
-      "title": "utim-cli 2.3.26",
-      "link": "https://pypi.org/project/utim-cli/2.3.26/",
-      "date": "2026-09-09T05:06:44+00:00",
-      "description": "UTIM – Universal Terminal Intelligence Manager. A powerful agentic AI coding assistant for your terminal.",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/017fbee7e738e89a"
+      "title": "Python GUIs: Fixing Crashes When Using NumPy Arrays with QImage in Qt Threads — How to safely pass image data between threads when streaming video or updating displays",
+      "link": "https://www.pythonguis.com/faq/crashing-in-qrunner-threads-with-numpy/",
+      "date": "2026-09-09T06:00:00+00:00",
+      "description": "I'm using a threaded runner to stream a live video feed by converting a NumPy array to a QImage , then to a QPixmap , and displaying it on a QLabel . But I'm frequently encountering crashes when the label is resized too quickly or the scroll area is scrolled. Could this be a problem with the QImage memory buffer getting cleared before the QPixmap can update? Is this fixable, or is it a fundamental issue with threads in Python/Qt? This is a common problem when working with NumPy arrays and QImage",
+      "source": "Planet Python",
+      "image": "https://www.pythonguis.com/static/images/libraries/pyside6.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/40b2a7d27421dc98"
     },
     {
-      "title": "rapid-pe 0.1.2.dev20260909",
-      "link": "https://pypi.org/project/rapid-pe/0.1.2.dev20260909/",
-      "date": "2026-09-09T05:07:04+00:00",
-      "description": "RapidPE: The original low-latency gravitational wave parameter estimation code.",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b0291c804e0a4b88"
+      "title": "Python GUIs: How to Check if a QLineEdit is Empty in Python — Empty strings are falsey in Python",
+      "link": "https://www.pythonguis.com/faq/check-qlineedit-empty-pyqt/",
+      "date": "2026-09-09T06:00:00+00:00",
+      "description": "A reader asked: I just want to know, how do I check whether a QLineEdit is empty or not? The QLineEdit class doesn't have an isEmpty() method which you can call to find out if the line edit is empty, but we don't need one! Instead we can get the current text using .text() and then check if the returned value is an empty string. Checking QLineEdit Text with .text() In the code below lineedit is our already created QLineEdit widget. python text = lineedit.text()\nif text == '': # if the line edit i",
+      "source": "Planet Python",
+      "image": "https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f2affdba0b1cdc2d"
     },
     {
-      "title": "blade-agent-kit 2608.0.4b3",
-      "link": "https://pypi.org/project/blade-agent-kit/2608.0.4b3/",
-      "date": "2026-09-09T05:07:11+00:00",
-      "description": "REST client for Blade Agent (AgentKit Python, v1 without Socket.IO)",
+      "title": "pseudocode-i18n-languageserver 0.9.1",
+      "link": "https://pypi.org/project/pseudocode-i18n-languageserver/0.9.1/",
+      "date": "2026-09-09T11:46:33+00:00",
+      "description": "Language Server Protocol implementation for multilingual pseudocode-i18n",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c1be02f8cd8b57d0"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/9e0cf7163b1dd25a"
     },
     {
-      "title": "unhog 0.6.1",
-      "link": "https://pypi.org/project/unhog/0.6.1/",
-      "date": "2026-09-09T05:07:39+00:00",
-      "description": "Treemap of the files that use local disk space in OneDrive, Dropbox and SharePoint folders",
+      "title": "omnigent 0.13.0rc3",
+      "link": "https://pypi.org/project/omnigent/0.13.0rc3/",
+      "date": "2026-09-09T11:46:40+00:00",
+      "description": "Omnigent: declarative agent authoring and runtime framework",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/0d995dd0333c313a"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/64319fbe8750ec8c"
+    },
+    {
+      "title": "scrapy-ingest 1.3.0",
+      "link": "https://pypi.org/project/scrapy-ingest/1.3.0/",
+      "date": "2026-09-09T11:46:50+00:00",
+      "description": "Scrapy extension for database ingestion with job/spider tracking",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3ec852a702c5a330"
+    },
+    {
+      "title": "secenvY 0.3.0",
+      "link": "https://pypi.org/project/secenvy/0.3.0/",
+      "date": "2026-09-09T11:47:00+00:00",
+      "description": "Gymnasium Environment for AI-driven Android Security Analysis, Dynamic Fuzzing, and Penetration Testing",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2e904f9679b70cab"
+    },
+    {
+      "title": "safecmd 0.1.16",
+      "link": "https://pypi.org/project/safecmd/0.1.16/",
+      "date": "2026-09-09T11:47:06+00:00",
+      "description": "Call commands safely by checking them rigorously against an allow-list",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1d57accb583483cd"
     }
   ]
 }

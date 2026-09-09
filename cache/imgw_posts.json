@@ -1,83 +1,6 @@
 {
-  "last_updated": "2026-09-09T05:07:09.981727+00:00",
+  "last_updated": "2026-09-09T11:47:30.440574+00:00",
   "entries": [
-    {
-      "guid": "urn:imgw:synop:12566:2026-08-12",
-      "kind": "synop",
-      "station": "Kraków",
-      "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
-      "date": "2026-08-12T00:00:00+02:00",
-      "updated": "2026-08-12T21:29:28.642318+00:00",
-      "readings": {
-        "02": {
-          "temperatura": "10.6",
-          "predkosc_wiatru": "1",
-          "kierunek_wiatru": "240",
-          "wilgotnosc_wzgledna": "82.0",
-          "suma_opadu": "0",
-          "cisnienie": "1027"
-        },
-        "05": {
-          "temperatura": "11.5",
-          "predkosc_wiatru": "1",
-          "kierunek_wiatru": "200",
-          "wilgotnosc_wzgledna": "74.6",
-          "suma_opadu": "0",
-          "cisnienie": "1028.1"
-        },
-        "07": {
-          "temperatura": "17.5",
-          "predkosc_wiatru": "3",
-          "kierunek_wiatru": "50",
-          "wilgotnosc_wzgledna": "53.5",
-          "suma_opadu": "0",
-          "cisnienie": "1028"
-        },
-        "11": {
-          "temperatura": "21.7",
-          "predkosc_wiatru": "3",
-          "kierunek_wiatru": "60",
-          "wilgotnosc_wzgledna": "37.4",
-          "suma_opadu": "0",
-          "cisnienie": "1027.2"
-        },
-        "15": {
-          "temperatura": "22.9",
-          "predkosc_wiatru": "3",
-          "kierunek_wiatru": "120",
-          "wilgotnosc_wzgledna": "34.2",
-          "suma_opadu": "0",
-          "cisnienie": "1026.5"
-        },
-        "17": {
-          "temperatura": "21.6",
-          "predkosc_wiatru": "3",
-          "kierunek_wiatru": "50",
-          "wilgotnosc_wzgledna": "39.3",
-          "suma_opadu": "0",
-          "cisnienie": "1026.6"
-        },
-        "19": {
-          "temperatura": "18",
-          "predkosc_wiatru": "2",
-          "kierunek_wiatru": "20",
-          "wilgotnosc_wzgledna": "53.2",
-          "suma_opadu": "0",
-          "cisnienie": "1027.6"
-        },
-        "21": {
-          "temperatura": "15.8",
-          "predkosc_wiatru": "3",
-          "kierunek_wiatru": "30",
-          "wilgotnosc_wzgledna": "61.4",
-          "suma_opadu": "0",
-          "cisnienie": "1028.4"
-        }
-      },
-      "title": "Kraków — obserwacje 12.08: 15.8°C, opad 0 mm (godz. 21)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>02:00</td><td>10.6°C</td><td>1 m/s / 240°</td><td>82.0%</td><td>0 mm</td><td>1027 hPa</td></tr><tr><td>05:00</td><td>11.5°C</td><td>1 m/s / 200°</td><td>74.6%</td><td>0 mm</td><td>1028.1 hPa</td></tr><tr><td>07:00</td><td>17.5°C</td><td>3 m/s / 50°</td><td>53.5%</td><td>0 mm</td><td>1028 hPa</td></tr><tr><td>11:00</td><td>21.7°C</td><td>3 m/s / 60°</td><td>37.4%</td><td>0 mm</td><td>1027.2 hPa</td></tr><tr><td>15:00</td><td>22.9°C</td><td>3 m/s / 120°</td><td>34.2%</td><td>0 mm</td><td>1026.5 hPa</td></tr><tr><td>17:00</td><td>21.6°C</td><td>3 m/s / 50°</td><td>39.3%</td><td>0 mm</td><td>1026.6 hPa</td></tr><tr><td>19:00</td><td>18°C</td><td>2 m/s / 20°</td><td>53.2%</td><td>0 mm</td><td>1027.6 hPa</td></tr><tr><td>21:00</td><td>15.8°C</td><td>3 m/s / 30°</td><td>61.4%</td><td>0 mm</td><td>1028.4 hPa</td></tr></table>",
-      "summary_hash": "ac8bdf3addc0d3d76cd3b8018eed8be38f2aeb88"
-    },
     {
       "guid": "urn:imgw:hydro:150190260:2026-08-12",
       "kind": "hydro",
@@ -3215,7 +3138,7 @@
       "station": "Kraków",
       "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
       "date": "2026-09-09T00:00:00+02:00",
-      "updated": "2026-09-09T05:07:08.775455+00:00",
+      "updated": "2026-09-09T11:47:29.284423+00:00",
       "readings": {
         "00": {
           "temperatura": "13.4",
@@ -3232,41 +3155,59 @@
           "wilgotnosc_wzgledna": "85.7",
           "suma_opadu": "0",
           "cisnienie": "1009.9"
+        },
+        "11": {
+          "temperatura": "30.9",
+          "predkosc_wiatru": "5",
+          "kierunek_wiatru": "250",
+          "wilgotnosc_wzgledna": "26.0",
+          "suma_opadu": "0",
+          "cisnienie": "1007.3"
         }
       },
-      "title": "Kraków — obserwacje 09.09: 12.9°C, opad 0 mm (godz. 04)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>13.4°C</td><td>2 m/s / 50°</td><td>88.7%</td><td>0 mm</td><td>1011 hPa</td></tr><tr><td>04:00</td><td>12.9°C</td><td>2 m/s / 30°</td><td>85.7%</td><td>0 mm</td><td>1009.9 hPa</td></tr></table>",
-      "summary_hash": "de4fbd03ee85a2f1e5d2f2cc63f3e154ac96a4b5"
+      "title": "Kraków — obserwacje 09.09: 30.9°C, opad 0 mm (godz. 11)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>13.4°C</td><td>2 m/s / 50°</td><td>88.7%</td><td>0 mm</td><td>1011 hPa</td></tr><tr><td>04:00</td><td>12.9°C</td><td>2 m/s / 30°</td><td>85.7%</td><td>0 mm</td><td>1009.9 hPa</td></tr><tr><td>11:00</td><td>30.9°C</td><td>5 m/s / 250°</td><td>26.0%</td><td>0 mm</td><td>1007.3 hPa</td></tr></table>",
+      "summary_hash": "97fd04a7b0de9b8f5aec5e30b3f55d2567d5bd66"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-09-09",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 09.09: opad (10 min) 0 mm (04:40)",
+      "title": "Chrzanów — telemetria 09.09: opad (10 min) 0 mm (11:20)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (04:40)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (11:20)</li></ul>",
       "date": "2026-09-09T00:00:00+02:00",
-      "updated": "2026-09-09T05:07:09.747647+00:00",
-      "summary_hash": "0f03e77cf33d89f28ec16e7d28ee3b01f0c28001"
+      "updated": "2026-09-09T11:47:30.221894+00:00",
+      "summary_hash": "171fcbba4ba1d06038fdbd965cf29252cae9d5e2"
     },
     {
       "guid": "urn:imgw:hydro:150190260:2026-09-09",
       "kind": "hydro",
-      "title": "Smolice (Wisła) — stan wody 132 cm (09.09 04:20)",
+      "title": "Smolice (Wisła) — stan wody 131 cm (09.09 11:20)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 132 cm (09.09 04:20)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 131 cm (09.09 11:20)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
       "date": "2026-09-09T00:00:00+02:00",
-      "updated": "2026-09-09T05:07:09.513386+00:00",
-      "summary_hash": "7a2003f58fd34cffab750cfa84e312294c31b0c1"
+      "updated": "2026-09-09T11:47:30.002526+00:00",
+      "summary_hash": "5511c4c8877c76b8ef0d38d06752465c4f78e46a"
     },
     {
       "guid": "urn:imgw:hydro:150190180:2026-09-09",
       "kind": "hydro",
-      "title": "Jeleń (Przemsza) — stan wody 133 cm (09.09 04:20)",
+      "title": "Jeleń (Przemsza) — stan wody 127 cm (09.09 11:20)",
       "link": "https://danepubliczne.imgw.pl/api/data/hydro",
-      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 133 cm (09.09 04:20)</li><li>Przepływ: 8.26 m³/s (09.09 04:50)</li></ul>",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 127 cm (09.09 11:20)</li><li>Przepływ: 6.94 m³/s (09.09 11:30)</li></ul>",
       "date": "2026-09-09T00:00:00+02:00",
-      "updated": "2026-09-09T05:07:09.513476+00:00",
-      "summary_hash": "79d30ff20cc661a98d80b23968391d7f4aee832b"
+      "updated": "2026-09-09T11:47:30.002619+00:00",
+      "summary_hash": "ccb162c213b862d98770b7d93c3c7e2961b26ef8"
+    },
+    {
+      "guid": "urn:imgw:warnhydro:7c78ea4ce3f63ec332df775e2348b37c8b4d03b9",
+      "kind": "warning",
+      "title": "💧 Ostrzeżenie hydro: Susza hydrologiczna (małopolskie)",
+      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
+      "description": "<p><strong>Susza hydrologiczna</strong> — nr 241, prawdopodobieństwo 100%</p><p>Od 2026-09-09 09:22:33 do 9999-12-31 23:59:59</p><p>W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Dunajca wraz ze zb. Sromowce Wyżne, spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.</p><p>Obszar: małopolskie, zlewnia Dunajca wraz ze zb. Sromowce Wyżne, susza hydrologiczna</p><p>Biuro Prognoz Hydrologicznych w Krakowie, Wydział Prognoz i Opracowań Hydrologicznych w Krakowie</p>",
+      "date": "2026-09-09T09:21:43+02:00",
+      "updated": "2026-09-09T11:47:30.434674+00:00",
+      "summary_hash": "a9f4f566802c9fd706e1de738532642fc3a440ef"
     }
   ]
 }

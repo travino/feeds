@@ -8,6 +8,52 @@
   "icon": "https://aws.amazon.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/aws/bea1be389e1d4151",
+      "url": "https://repost.aws/articles/ARtz-fbc28TrWJwQUJGaL7qw/cost-optimization-and-governance-for-centralized-traffic-inspection-with-transit-gateway-and-network-firewall",
+      "title": "Cost optimization and governance for centralized traffic inspection with Transit Gateway and Network Firewall",
+      "content_text": "Centralized traffic inspection with Transit Gateway and Network Firewall often inspects far more than necessary, and per-GB charges dominate at scale. This post shows how three Transit Gateway features (native firewall attachment, Policy-Based Routing, and metering policies) work together to inspect only what truly needs it and charge the rest back to the owners who drive it.",
+      "date_published": "2026-09-09T08:36:36Z",
+      "date_modified": "2026-09-09T08:36:36Z",
+      "authors": [
+        {
+          "name": "AWS re:Post Articles"
+        }
+      ],
+      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      "tags": [
+        "AWS re:Post Articles"
+      ],
+      "attachments": [
+        {
+          "url": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/aws/2fa451cc1bc4289d",
+      "url": "https://repost.aws/articles/ARa4bCKj5WQ3i61tGkEL0jPQ/use-claude-desktop-with-amazon-bedrock",
+      "title": "Use Claude Desktop with Amazon Bedrock",
+      "content_text": "Configure Claude app to use Amazon Bedrock",
+      "date_published": "2026-09-09T07:01:28Z",
+      "date_modified": "2026-09-09T07:01:28Z",
+      "authors": [
+        {
+          "name": "AWS re:Post Articles"
+        }
+      ],
+      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      "tags": [
+        "AWS re:Post Articles"
+      ],
+      "attachments": [
+        {
+          "url": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/aws/02e3cac8ec9b5990",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/openai-gpt-6-astra-on-amazon-bedrock/",
       "title": "OpenAI GPT-6 Astra is now generally available on Amazon Bedrock",
@@ -4156,52 +4202,6 @@
       "attachments": [
         {
           "url": "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2026/08/05/Screenshot-2026-08-04-at-5.37.50 PM-1126x630.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/aws/96526323dbc84dfc",
-      "url": "https://repost.aws/articles/AR08CYM7xFQyqcUKH8Oxo6LA/why-adding-consumers-won-t-fix-your-consumer-lag-on-amazon-msk-head-of-line-blocking",
-      "title": "Why adding consumers won't fix your consumer lag on Amazon MSK (head-of-line blocking)",
-      "content_text": "When consumer lag spikes, the usual reaction is to add consumers or partitions. But when lag piles up on a single partition, scaling out does not help and can even make things worse: the cause is not insufficient throughput but one slow message. This article shows how to tell the three causes of lag apart from the describe output, explains how one slow message stalls a partition and then the whole group, and covers remedies that actually work, with measured results on Amazon MSK.",
-      "date_published": "2026-08-06T05:41:49Z",
-      "date_modified": "2026-08-06T05:41:49Z",
-      "authors": [
-        {
-          "name": "AWS re:Post Articles"
-        }
-      ],
-      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-      "tags": [
-        "AWS re:Post Articles"
-      ],
-      "attachments": [
-        {
-          "url": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/aws/a66c01e29d10428b",
-      "url": "https://repost.aws/articles/ARiDjxe4YDQHu1k6U5SEHk_Q/why-doesn-t-kafka-delete-records-reduce-consumer-lag-on-amazon-msk",
-      "title": "Why doesn't kafka-delete-records reduce consumer lag on Amazon MSK?",
-      "content_text": "When a consumer gets stuck on a problematic message, a common reaction is to delete that message from the topic. However, after running kafka-delete-records.sh, the consumer lag number stays exactly the same, and after restarting the consumer, the backlog is skipped while the lag remains on screen. This article explains the behavior using the lag formula, walks through a full reproduction on an Amazon MSK Provisioned cluster with actual logs, and shows the safer alternative: reset-offsets.",
-      "date_published": "2026-08-06T02:38:12Z",
-      "date_modified": "2026-08-06T02:38:12Z",
-      "authors": [
-        {
-          "name": "AWS re:Post Articles"
-        }
-      ],
-      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-      "tags": [
-        "AWS re:Post Articles"
-      ],
-      "attachments": [
-        {
-          "url": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
           "mime_type": "image/png"
         }
       ]

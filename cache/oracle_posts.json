@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T05:08:00.522081+00:00",
+  "last_updated": "2026-09-09T11:48:13.197379+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3655,6 +3655,42 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/cef50df6aed4c97c"
+    },
+    {
+      "title": "Reasoning effort parameter in IA Services",
+      "link": "https://forums.oracle.com/ords/apexds/post/reasoning-effort-parameter-in-ia-services-5097",
+      "date": "2026-09-09T09:49:00.649782+00:00",
+      "description": "Hello, We would like to use AI Services in APEX, but for some simple tasks we have found that the available models can be unnecessarily heavy and slow. One way to address this is by disabling or reducing reasoning. For models that support OpenAI-compatible APIs, this can be configured using the reasoning_effort parameter: https://developers.openai.com/api/docs/guides/reasoning?api-mode=responses For example, setting reasoning_effort to none can significantly reduce latency and token consumption ",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/72c527726ab88b1d"
+    },
+    {
+      "title": "Connecting Oracle 7 for Node.js App on RHEL",
+      "link": "https://forums.oracle.com/ords/apexds/post/connecting-oracle-7-for-node-js-app-on-rhel-3464",
+      "date": "2026-09-09T10:30:17.275019+00:00",
+      "description": "We have a Oracle 7 database that we want to connect to a Node JS App. However, the Node JS App is on RHEL 9.x and it seems there is no direct connectivity possible as the drivers are not available. From some research, it looks like the best bet is to create a bridge DB, either Oracle 11 / Oracle 8 or Oracle 7. I'd like to know if there's any other complexity someone might have faced in such a setup. Many thanks in advance.",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/71439fb8bc2d1473"
+    },
+    {
+      "title": "[Live Technical Session] Modernizing Enterprise Applications with Oracle APEX, AI, and RAG Pipelines",
+      "link": "https://forums.oracle.com/ords/apexds/post/live-technical-session-modernizing-enterprise-applications-6520",
+      "date": "2026-09-09T10:35:29.480124+00:00",
+      "description": "Hi APEX Community, The MaxAPEX team is hosting a live technical session on integrating modern AI architecture into Oracle APEX enterprise applications. Technical Topics Covered: Strategies for integrating natural-language querying inside APEX Building private RAG (Retrieval-Augmented Generation) pipelines and AI agents Scaling AI-driven workflows on modern cloud infrastructure Event Details: Date: September 10, 2026 Time: 7:30 PM PKT (2:30 PM UTC / GMT+5) Duration: 60 Minutes (Live Online) You c",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/448e07ee9efd87ef"
+    },
+    {
+      "title": "Getting &quot;Provide a valid value for DN_NA_Account_ServiceBranch_c&quot; error while trying to Delete&#x2F;Approve a user in DCS portal.",
+      "link": "https://forums.oracle.com/ords/apexds/post/getting-provide-a-valid-value-for-dn-na-account-servicebran-7100",
+      "date": "2026-09-09T10:54:26.722824+00:00",
+      "description": "Getting an error while working on the Digital Customer Service Portal/Fusion Service B2B, The issue I'm getting is that when I try to approve a user in my DCS portal or delete a user that is already there. Then I get this error (find attached). Error: “Provide a valid value for DN_NA_Account_ServiceBranch_c” Tried debugging it by going to Fusion Service B2B, this field is required and has a Groovy script attached to it which reads: //Account_MD01 - Script added to make Service Branch Mandatory i",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/2923e557bfe63a42"
     }
   ]
 }

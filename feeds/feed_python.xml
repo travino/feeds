@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-09T05:07:58.202298+00:00</updated>
+  <updated>2026-09-09T11:48:13.768684+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -13,54 +13,100 @@
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/0d995dd0333c313a</id>
-    <title>unhog 0.6.1</title>
-    <updated>2026-09-09T05:07:39+00:00</updated>
-    <content>Treemap of the files that use local disk space in OneDrive, Dropbox and SharePoint folders</content>
-    <link href="https://pypi.org/project/unhog/0.6.1/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/1d57accb583483cd</id>
+    <title>safecmd 0.1.16</title>
+    <updated>2026-09-09T11:47:06+00:00</updated>
+    <content>Call commands safely by checking them rigorously against an allow-list</content>
+    <link href="https://pypi.org/project/safecmd/0.1.16/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T05:07:39+00:00</published>
+    <published>2026-09-09T11:47:06+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/c1be02f8cd8b57d0</id>
-    <title>blade-agent-kit 2608.0.4b3</title>
-    <updated>2026-09-09T05:07:11+00:00</updated>
-    <content>REST client for Blade Agent (AgentKit Python, v1 without Socket.IO)</content>
-    <link href="https://pypi.org/project/blade-agent-kit/2608.0.4b3/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/2e904f9679b70cab</id>
+    <title>secenvY 0.3.0</title>
+    <updated>2026-09-09T11:47:00+00:00</updated>
+    <content>Gymnasium Environment for AI-driven Android Security Analysis, Dynamic Fuzzing, and Penetration Testing</content>
+    <link href="https://pypi.org/project/secenvy/0.3.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T05:07:11+00:00</published>
+    <published>2026-09-09T11:47:00+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/b0291c804e0a4b88</id>
-    <title>rapid-pe 0.1.2.dev20260909</title>
-    <updated>2026-09-09T05:07:04+00:00</updated>
-    <content>RapidPE: The original low-latency gravitational wave parameter estimation code.</content>
-    <link href="https://pypi.org/project/rapid-pe/0.1.2.dev20260909/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/3ec852a702c5a330</id>
+    <title>scrapy-ingest 1.3.0</title>
+    <updated>2026-09-09T11:46:50+00:00</updated>
+    <content>Scrapy extension for database ingestion with job/spider tracking</content>
+    <link href="https://pypi.org/project/scrapy-ingest/1.3.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T05:07:04+00:00</published>
+    <published>2026-09-09T11:46:50+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/017fbee7e738e89a</id>
-    <title>utim-cli 2.3.26</title>
-    <updated>2026-09-09T05:06:44+00:00</updated>
-    <content>UTIM – Universal Terminal Intelligence Manager. A powerful agentic AI coding assistant for your terminal.</content>
-    <link href="https://pypi.org/project/utim-cli/2.3.26/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/64319fbe8750ec8c</id>
+    <title>omnigent 0.13.0rc3</title>
+    <updated>2026-09-09T11:46:40+00:00</updated>
+    <content>Omnigent: declarative agent authoring and runtime framework</content>
+    <link href="https://pypi.org/project/omnigent/0.13.0rc3/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T05:06:44+00:00</published>
+    <published>2026-09-09T11:46:40+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/04db7668bd4c32ad</id>
-    <title>luma-infra 0.1.310</title>
-    <updated>2026-09-09T05:05:53+00:00</updated>
-    <content>Declarative deployment CLI for region-aware Nomad infrastructure.</content>
-    <link href="https://pypi.org/project/luma-infra/0.1.310/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/9e0cf7163b1dd25a</id>
+    <title>pseudocode-i18n-languageserver 0.9.1</title>
+    <updated>2026-09-09T11:46:33+00:00</updated>
+    <content>Language Server Protocol implementation for multilingual pseudocode-i18n</content>
+    <link href="https://pypi.org/project/pseudocode-i18n-languageserver/0.9.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-09T05:05:53+00:00</published>
+    <published>2026-09-09T11:46:33+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/8cb1903c8c7f27b1</id>
+    <title>Python GUIs: Clean up on exit — Stopping threads when closing a PyQt6 application — How to properly shut down background threads and workers when your application window is closed</title>
+    <updated>2026-09-09T06:00:00+00:00</updated>
+    <content>I'm using QThreadPool and worker threads in my PyQt application. When I click the X button to close the window, the threads keep running in the background. What's the best way to clean everything up on application exit? This is a very common situation when working with multithreaded PyQt6 applications. You've set up background workers using QThreadPool or QThread , everything runs great — but when you close the window, the application doesn't fully exit. The threads keep going, and you might eve</content>
+    <link href="https://www.pythonguis.com/faq/clean-up-on-exit-application/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-09T06:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.pythonguis.com/static/images/libraries/pyqt6.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.pythonguis.com/static/images/libraries/pyqt6.jpg"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://www.pythonguis.com/static/images/libraries/pyqt6.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/40b2a7d27421dc98</id>
+    <title>Python GUIs: Fixing Crashes When Using NumPy Arrays with QImage in Qt Threads — How to safely pass image data between threads when streaming video or updating displays</title>
+    <updated>2026-09-09T06:00:00+00:00</updated>
+    <content>I'm using a threaded runner to stream a live video feed by converting a NumPy array to a QImage , then to a QPixmap , and displaying it on a QLabel . But I'm frequently encountering crashes when the label is resized too quickly or the scroll area is scrolled. Could this be a problem with the QImage memory buffer getting cleared before the QPixmap can update? Is this fixable, or is it a fundamental issue with threads in Python/Qt? This is a common problem when working with NumPy arrays and QImage</content>
+    <link href="https://www.pythonguis.com/faq/crashing-in-qrunner-threads-with-numpy/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-09T06:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.pythonguis.com/static/images/libraries/pyside6.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.pythonguis.com/static/images/libraries/pyside6.jpg"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://www.pythonguis.com/static/images/libraries/pyside6.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/f2affdba0b1cdc2d</id>
+    <title>Python GUIs: How to Check if a QLineEdit is Empty in Python — Empty strings are falsey in Python</title>
+    <updated>2026-09-09T06:00:00+00:00</updated>
+    <content>A reader asked: I just want to know, how do I check whether a QLineEdit is empty or not? The QLineEdit class doesn't have an isEmpty() method which you can call to find out if the line edit is empty, but we don't need one! Instead we can get the current text using .text() and then check if the returned value is an empty string. Checking QLineEdit Text with .text() In the code below lineedit is our already created QLineEdit widget. python text = lineedit.text()
+if text == '': # if the line edit i</content>
+    <link href="https://www.pythonguis.com/faq/check-qlineedit-empty-pyqt/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-09T06:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43</id>
@@ -917,36 +963,6 @@ For much of that time, spaced repetition has been something I would recommend le
     <link rel="enclosure" href="https://belderbos.dev/images/og/what-table-true-does-sqlmodel.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/1c614b6030cd1bf2</id>
-    <title>Jaime Buelta: The Many Challenges in Integrating Information for AI Agents</title>
-    <updated>2026-09-03T07:12:34+00:00</updated>
-    <content>Recently I’ve been thinking quite a lot about information availability for agents, and the fact that this is a very difficult and potentially irresoluble problem. Let me try to explain myself. I talked before about a mental model on differentiating between the LLM models and the tools that access those models. I think that now that’s clearer as we are using more and more agents. We understand that we can use Claude Code with different models (like Sonnet or Opus) that change the capacity of the </content>
-    <link href="https://wrongsideofmemphis.com/2026/09/03/the-many-challenges-in-integrating-information-for-ai-agents/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-03T07:12:34+00:00</published>
-    <media:group>
-      <media:content url="https://wrongsideofmemphis.com/wp-content/uploads/2026/09/wrong-side-of-memphis-6a98aa4fe79df.png" type="image/png" medium="image" height="640" width="640"/>
-      <media:thumbnail url="https://wrongsideofmemphis.com/wp-content/uploads/2026/09/wrong-side-of-memphis-6a98aa4fe79df.png" height="640" width="640"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://wrongsideofmemphis.com/wp-content/uploads/2026/09/wrong-side-of-memphis-6a98aa4fe79df.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/4507f59f40d17a0c</id>
-    <title>Graham Dumpleton: Recording calls with wrapture</title>
-    <updated>2026-09-03T00:00:00+00:00</updated>
-    <content>In unit testing with wrapture the tests leaned on a timeline and a tape to assert on what happened, and I skipped over what those actually are. This post is about the recording side of wrapture: what gets recorded, what one event holds, how a test reads the record back, and the whole-tape views that answer questions about the flow between calls rather than about any one of them. The example is a resource leak, because it is the kind of bug the recording model was made for. Code that acquires a c</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/recording-calls-with-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-03T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/b68845d8/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/b68845d8/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/b68845d8/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/3f8bd57b69e10ba6</id>
     <title>PyTorch 2.14 Release Blog</title>
     <updated>2026-09-02T18:41:48+00:00</updated>
@@ -955,21 +971,6 @@ For much of that time, spaced repetition has been something I would recommend le
     <category term="PyTorch" label="PyTorch"/>
     <published>2026-09-02T18:41:48+00:00</published>
     <dc:creator>PyTorch</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2e9918af5d4bf4d5</id>
-    <title>Django Weblog: Django bugfix release issued: 6.1.1</title>
-    <updated>2026-09-02T17:30:00+00:00</updated>
-    <content>Today we've issued the 6.1.1 bugfix release. The release package and checksums are available from our downloads page , as well as from the Python Package Index. The PGP key ID used for this release is Jacob Walls: 131403F4D16D8DC7</content>
-    <link href="https://www.djangoproject.com/weblog/2026/sep/02/bugfix-releases/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-02T17:30:00+00:00</published>
-    <media:group>
-      <media:content url="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/9e006440a76ae6c0</id>

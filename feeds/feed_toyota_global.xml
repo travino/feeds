@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://pressroom.toyota.com/#toyota_global</id>
   <title>Toyota Global</title>
-  <updated>2026-09-09T05:08:24.966843+00:00</updated>
+  <updated>2026-09-09T11:48:42.378568+00:00</updated>
   <author>
     <name>Toyota</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.google.com/s2/favicons?domain=pressroom.toyota.com&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=pressroom.toyota.com&amp;sz=256</logo>
   <subtitle>Toyota news from the USA, Europe, the global newsroom, Toyota Connected, and Toyota Research Institute, in one feed.</subtitle>
+  <entry>
+    <id>https://toyotatimes.jp/en/newscast/207.html</id>
+    <title>Hydrogen-Powered Sauna Boat Offers New Way to Unwind</title>
+    <updated>2026-09-08T15:00:00+00:00</updated>
+    <content>Floating on a lake in JyvÃ¤skylÃ¤, Finland is the Hydrogen Sauna Boat, which combines a lake cruise with a sauna and runs entirely on hydrogen. An idea conceived one year ago has finally taken shape.</content>
+    <link href="https://toyotatimes.jp/en/newscast/207.html" rel="alternate"/>
+    <category term="Toyota Times" label="Toyota Times"/>
+    <published>2026-09-08T15:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://toyotatimes.jp/en/newscast/upload_images/newscast_207_1200_630_OGP.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://toyotatimes.jp/en/newscast/upload_images/newscast_207_1200_630_OGP.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://toyotatimes.jp/en/newscast/upload_images/newscast_207_1200_630_OGP.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://news.google.com/rss/articles/CBMidkFVX3lxTE1tWktORE9aRHJCUGVrbnRHU2JCekZGd0htN3BzVFFoR2taSjhuc2ZpVEZzd0VHeG9uZkVRZDhYbUZacmw2THNlbDh3UVltcWZOa3NHaTZTakIteWNYTjFVVDk5dThZNTdIMnRiWUxSR0Q4Qk5wN0E?oc=5</id>
     <title>Samsung SDS to Launch Robot Orchestration Platform in 2027, Accelerating Manufacturing RX Business</title>
@@ -1388,19 +1402,5 @@ Flying Finn Pajari doubles up with home glory for TGR-WRT</title>
       <media:thumbnail url="https://content.presspage.com/uploads/1523/772c1b3e-bc1f-40d7-a004-8eabaeddd2df/500_wrc_2026_rd10-day2_001.jpg?18799"/>
     </media:group>
     <link rel="enclosure" href="https://content.presspage.com/uploads/1523/772c1b3e-bc1f-40d7-a004-8eabaeddd2df/500_wrc_2026_rd10-day2_001.jpg?18799" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://pressroom.toyota.com/how-a-damaged-vehicle-became-a-powerful-4t-academy-teaching-tool/</id>
-    <title>How a Damaged Vehicle Became a Powerful 4T Academy Teaching Tool</title>
-    <updated>2026-07-31T13:58:32+00:00</updated>
-    <content>What started as a vehicle destined for the scrap yard is now one of the most powerful teaching tools at Toyota Kentucky’s 4T Academy (Team, Teach, Together, Toyota). At Toyota, every vehicle tells a story. Most follow a familiar path, […] The post How a Damaged Vehicle Became a Powerful 4T Academy Teaching Tool appeared first on Toyota USA Newsroom .</content>
-    <link href="https://pressroom.toyota.com/how-a-damaged-vehicle-became-a-powerful-4t-academy-teaching-tool/" rel="alternate"/>
-    <category term="Toyota USA Newsroom" label="Toyota USA Newsroom"/>
-    <published>2026-07-31T13:58:32+00:00</published>
-    <media:group>
-      <media:content url="https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2026/07/4tclass-1000x600.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2026/07/4tclass-1000x600.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://toyota-cms-media.s3.amazonaws.com/wp-content/uploads/2026/07/4tclass-1000x600.png" type="image/png" length="0"/>
   </entry>
 </feed>
