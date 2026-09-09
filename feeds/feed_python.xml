@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-08T21:23:30.592710+00:00</updated>
+  <updated>2026-09-09T00:31:50.275143+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -13,54 +13,69 @@
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/686132b6ec02b987</id>
-    <title>flyte-controller-base 2.7.2</title>
-    <updated>2026-09-08T21:23:04+00:00</updated>
-    <content>Rust controller for Union</content>
-    <link href="https://pypi.org/project/flyte-controller-base/2.7.2/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba</id>
+    <title>coralnet-toolbox 1.0.13</title>
+    <updated>2026-09-09T00:17:28+00:00</updated>
+    <content>Tools for annotating and developing ML models for benthic imagery</content>
+    <link href="https://pypi.org/project/coralnet-toolbox/1.0.13/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T21:23:04+00:00</published>
+    <published>2026-09-09T00:17:28+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/e2b44d2986c4f256</id>
-    <title>ml4t-data 0.1.4</title>
-    <updated>2026-09-08T21:22:35+00:00</updated>
-    <content>High-performance market data management library with unified multi-provider interface</content>
-    <link href="https://pypi.org/project/ml4t-data/0.1.4/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/64ee3779d04725f0</id>
+    <title>scigantic-mcp 0.3.0</title>
+    <updated>2026-09-09T00:17:14+00:00</updated>
+    <content>MCP server for the Scigantic catalog of public scientific data archives, with LLM-ready schema cards, plus SureChEMBL patent chemistry tools</content>
+    <link href="https://pypi.org/project/scigantic-mcp/0.3.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T21:22:35+00:00</published>
+    <published>2026-09-09T00:17:14+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/186a9eb4066ae3f2</id>
-    <title>hgtd-tools 3.0.0rc3</title>
-    <updated>2026-09-08T21:22:33+00:00</updated>
-    <content>Tools for the HGTD production database</content>
-    <link href="https://pypi.org/project/hgtd-tools/3.0.0rc3/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/d32b454a8aeb1c7d</id>
+    <title>ovos-media-plugin-cli 0.0.6a1</title>
+    <updated>2026-09-09T00:16:59+00:00</updated>
+    <content>Generic CLI-command playback plugin for ovos-media (and the legacy ovos-audio service)</content>
+    <link href="https://pypi.org/project/ovos-media-plugin-cli/0.0.6a1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T21:22:33+00:00</published>
+    <published>2026-09-09T00:16:59+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/75d7206d1300bd8a</id>
-    <title>packerscope 0.3.0</title>
-    <updated>2026-09-08T21:22:20+00:00</updated>
-    <content>Automatic packer detection, classification, and unpacking framework for Windows PE files.</content>
-    <link href="https://pypi.org/project/packerscope/0.3.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/acb9221e352b3c1f</id>
+    <title>runtimed 2.7.7a202609082331</title>
+    <updated>2026-09-09T00:16:36+00:00</updated>
+    <content>Python toolkit for Jupyter runtimes, powered by runtimed Rust binaries</content>
+    <link href="https://pypi.org/project/runtimed/2.7.7a202609082331/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T21:22:20+00:00</published>
+    <published>2026-09-09T00:16:36+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/260b733499d5ba64</id>
-    <title>ovos-workshop 9.7.2a1</title>
-    <updated>2026-09-08T21:21:44+00:00</updated>
-    <content>frameworks, templates and patches for the OpenVoiceOS universe</content>
-    <link href="https://pypi.org/project/ovos-workshop/9.7.2a1/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/2973c085361c209f</id>
+    <title>kpublic 0.1.1</title>
+    <updated>2026-09-09T00:16:27+00:00</updated>
+    <content>한국 공공데이터포털(data.go.kr) API를 함정 없이 쓰는 파이썬 SDK — 키 정규화·결과코드 예외·XML 폴백·자동 페이징 + 기상청/에어코리아/공휴일 어댑터</content>
+    <link href="https://pypi.org/project/kpublic/0.1.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T21:21:44+00:00</published>
+    <published>2026-09-09T00:16:27+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/b061cf09123f13fe</id>
+    <title>What OpenAI’s Astra Means for AI Security Teams</title>
+    <updated>2026-09-08T21:36:37+00:00</updated>
+    <content>OpenAI's Astra model can find and chain zero-days on its own. Here's what that capability jump means for how enterprises secure AI in production. The post What OpenAI’s Astra Means for AI Security Teams appeared first on Anaconda .</content>
+    <link href="https://www.anaconda.com/blog/openai-astra-ai-security" rel="alternate"/>
+    <category term="Anaconda" label="Anaconda"/>
+    <published>2026-09-08T21:36:37+00:00</published>
+    <media:group>
+      <media:content url="https://www.anaconda.com/wp-content/uploads/2026/08/General.png" type="image/png" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://www.anaconda.com/wp-content/uploads/2026/08/General.png" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Anaconda</dc:creator>
+    <link rel="enclosure" href="https://www.anaconda.com/wp-content/uploads/2026/08/General.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/224d690a2830dc90</id>
@@ -76,6 +91,21 @@
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://cdn.pycoders.com/37bdf31dc645f968ffb90196e5d38ff5" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/5b1145886fc9c45e</id>
+    <title>Django Weblog: Call for volunteers: Fundraising Working Group</title>
+    <updated>2026-09-08T19:27:14+00:00</updated>
+    <content>The Django Software Foundation is looking for people to join the Fundraising Working Group . This is a particularly interesting time to get involved. The DSF has raised its 2026 fundraising goal to $500,000 . That funding is what allows us to continue supporting the Django Fellows, Django Girls, community events, Djangonaut Space, infrastructure, and the many other things that keep the Django ecosystem going. It also gives the DSF the room to do something new: hire its first Executive Director. </content>
+    <link href="https://www.djangoproject.com/weblog/2026/sep/08/call-for-volunteers-fundraising-working-group/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-08T19:27:14+00:00</published>
+    <media:group>
+      <media:content url="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/1dc30122af492dd2</id>
@@ -965,21 +995,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://discuss-cdn.tryton.org/uploads/default/optimized/2X/c/cc517aeb55ed7903b396da24a1e85618ba34270a_2_333x500.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/dd9b20500da66717</id>
-    <title>Python GUIs: Understanding QPainter Coordinates in PyQt6 — How the coordinate system works for drawing on canvases in PyQt6</title>
-    <updated>2026-09-02T06:00:00+00:00</updated>
-    <content>I really having trouble understanding the coordinate system used in QPainter . Can you explain how this works? If you've started drawing with QPainter in PyQt6, you might have been surprised the first time you drew a line. You pass in coordinates like (10, 10, 300, 200) and the result doesn't look quite like what you'd expect from a math class. That's because QPainter uses a coordinate system where the origin (0, 0) is in the top-left corner of the canvas, not the bottom-left. This catches a lot</content>
-    <link href="https://www.pythonguis.com/faq/coordinates-on-qpainter/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-02T06:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.pythonguis.com/feeds/coordinates-annotated.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://www.pythonguis.com/feeds/coordinates-annotated.png"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://www.pythonguis.com/feeds/coordinates-annotated.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7767a1637395e669</id>
@@ -3910,21 +3925,6 @@ talks are available. PyCon US Security Track Hala Ali on generating SBOMs direct
     </media:group>
     <dc:creator>PyPI Blog</dc:creator>
     <link rel="enclosure" href="https://blog.pypi.org/assets/images/social/posts/2025-07-28-pypi-phishing-attack.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/8265b9daa91a2a55</id>
-    <title>inbox.ru Domain Prohibition Follow-up</title>
-    <updated>2025-07-25T06:09:00+00:00</updated>
-    <content>A follow-up to the previous post . We have since learned that the campaign was orchestrated by the company that owns the inbox.ru email domain, and not by a malicious third party as we initially suspected. Following the previous post, a representative of the parent company for inbox.ru reached out to PyPI Admins to discuss the situation. They expressed their desire to resolve the issue, and reinstate the ability for their users to register for PyPI accounts with email addresses from the inbox.ru</content>
-    <link href="https://blog.pypi.org/posts/2025-07-25-inbox-ru-follow-up/" rel="alternate"/>
-    <category term="PyPI Blog" label="PyPI Blog"/>
-    <published>2025-07-25T06:09:00+00:00</published>
-    <media:group>
-      <media:content url="https://blog.pypi.org/assets/images/social/posts/2025-07-25-inbox-ru-follow-up.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://blog.pypi.org/assets/images/social/posts/2025-07-25-inbox-ru-follow-up.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>PyPI Blog</dc:creator>
-    <link rel="enclosure" href="https://blog.pypi.org/assets/images/social/posts/2025-07-25-inbox-ru-follow-up.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/d3f33733f980b6d5</id>

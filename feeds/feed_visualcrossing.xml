@@ -2,30 +2,51 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>urn:visualcrossing:32-500kasztanowa</id>
   <title>Visual Crossing</title>
-  <updated>2026-09-08T21:24:10.243561+00:00</updated>
+  <updated>2026-09-09T00:32:30.718169+00:00</updated>
   <author>
     <name>Visual Crossing</name>
     <uri>https://www.visualcrossing.com/</uri>
   </author>
   <link href="https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_visualcrossing.xml" rel="self"/>
-  <link href="https://meteo.imgw.pl/dyn/?osmet=true" rel="alternate"/>
+  <link href="https://www.visualcrossing.com/weather-history/32-500%20Kasztanowa" rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="2.0.1">python-feedgen</generator>
-  <icon>https://meteo.imgw.pl/favicon.ico</icon>
-  <logo>https://meteo.imgw.pl/favicon.ico</logo>
+  <icon>https://www.visualcrossing.com/favicon.ico</icon>
+  <logo>https://www.visualcrossing.com/favicon.ico</logo>
   <subtitle>Dzienna prognoza pogody (Visual Crossing)</subtitle>
   <entry>
-    <id>urn:visualcrossing:32-500kasztanowa:2026-09-14</id>
-    <title>Chrzanów 32-500 — poniedziałek, 14 września: Częściowe zachmurzenie, 11–19°C</title>
-    <updated>2026-09-08T21:24:10.240809+00:00</updated>
+    <id>urn:visualcrossing:32-500kasztanowa:2026-09-15</id>
+    <title>Chrzanów 32-500 — wtorek, 15 września: Częściowe zachmurzenie, 13–20°C</title>
+    <updated>2026-09-09T00:32:30.715079+00:00</updated>
     <content type="html">&lt;p&gt;Częściowo pochmurnie przez cały dzień.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Min/Maks: 11°C / 19°C&lt;/li&gt;
-&lt;li&gt;Odczuwalna: 11°C / 19°C&lt;/li&gt;
+&lt;li&gt;Min/Maks: 13°C / 20°C&lt;/li&gt;
+&lt;li&gt;Odczuwalna: 13°C / 20°C&lt;/li&gt;
+&lt;li&gt;Szansa opadów: 29%&lt;/li&gt;
+&lt;li&gt;Opady: 5.1 mm&lt;/li&gt;
+&lt;li&gt;Wiatr: 10 km/h (porywy 23 km/h)&lt;/li&gt;
+&lt;li&gt;Wilgotność: 82%&lt;/li&gt;
+&lt;li&gt;Indeks UV: 4&lt;/li&gt;
+&lt;li&gt;Zachmurzenie: 69%&lt;/li&gt;
+&lt;li&gt;Wschód słońca: 06:17 · Zachód słońca: 18:56&lt;/li&gt;
+&lt;li&gt;Ryzyko burz: 16%&lt;/li&gt;
+&lt;/ul&gt;</content>
+    <link href="https://www.visualcrossing.com/weather-history/32-500%20Kasztanowa" rel="alternate"/>
+    <category term="weather"/>
+    <published>2026-09-15T00:00:00+02:00</published>
+  </entry>
+  <entry>
+    <id>urn:visualcrossing:32-500kasztanowa:2026-09-14</id>
+    <title>Chrzanów 32-500 — poniedziałek, 14 września: Częściowe zachmurzenie, 12–20°C</title>
+    <updated>2026-09-09T00:32:30.715061+00:00</updated>
+    <content type="html">&lt;p&gt;Częściowo pochmurnie przez cały dzień.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Min/Maks: 12°C / 20°C&lt;/li&gt;
+&lt;li&gt;Odczuwalna: 12°C / 20°C&lt;/li&gt;
 &lt;li&gt;Szansa opadów: 32%&lt;/li&gt;
-&lt;li&gt;Wiatr: 7 km/h (porywy 10 km/h)&lt;/li&gt;
-&lt;li&gt;Wilgotność: 78%&lt;/li&gt;
-&lt;li&gt;Indeks UV: 2&lt;/li&gt;
-&lt;li&gt;Zachmurzenie: 85%&lt;/li&gt;
+&lt;li&gt;Wiatr: 11 km/h (porywy 16 km/h)&lt;/li&gt;
+&lt;li&gt;Wilgotność: 79%&lt;/li&gt;
+&lt;li&gt;Indeks UV: 6&lt;/li&gt;
+&lt;li&gt;Zachmurzenie: 82%&lt;/li&gt;
 &lt;li&gt;Wschód słońca: 06:16 · Zachód słońca: 18:58&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://www.visualcrossing.com/weather-history/32-500%20Kasztanowa" rel="alternate"/>
@@ -34,17 +55,18 @@
   </entry>
   <entry>
     <id>urn:visualcrossing:32-500kasztanowa:2026-09-13</id>
-    <title>Chrzanów 32-500 — niedziela, 13 września: Częściowe zachmurzenie, 10–20°C</title>
-    <updated>2026-09-08T21:24:10.240793+00:00</updated>
+    <title>Chrzanów 32-500 — niedziela, 13 września: Częściowe zachmurzenie, 9–21°C</title>
+    <updated>2026-09-09T00:32:30.715041+00:00</updated>
     <content type="html">&lt;p&gt;Częściowo pochmurnie przez cały dzień.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Min/Maks: 10°C / 20°C&lt;/li&gt;
-&lt;li&gt;Odczuwalna: 10°C / 20°C&lt;/li&gt;
+&lt;li&gt;Min/Maks: 9°C / 21°C&lt;/li&gt;
+&lt;li&gt;Odczuwalna: 9°C / 21°C&lt;/li&gt;
 &lt;li&gt;Szansa opadów: 13%&lt;/li&gt;
-&lt;li&gt;Wiatr: 10 km/h (porywy 16 km/h)&lt;/li&gt;
+&lt;li&gt;Opady: 0.1 mm&lt;/li&gt;
+&lt;li&gt;Wiatr: 8 km/h (porywy 14 km/h)&lt;/li&gt;
 &lt;li&gt;Wilgotność: 71%&lt;/li&gt;
-&lt;li&gt;Indeks UV: 6&lt;/li&gt;
-&lt;li&gt;Zachmurzenie: 45%&lt;/li&gt;
+&lt;li&gt;Indeks UV: 7&lt;/li&gt;
+&lt;li&gt;Zachmurzenie: 46%&lt;/li&gt;
 &lt;li&gt;Wschód słońca: 06:14 · Zachód słońca: 19:00&lt;/li&gt;
 &lt;li&gt;Jakość powietrza (AQI EU): 3/6 (umiarkowana) — dominuje: PM2.5&lt;/li&gt;
 &lt;li&gt;Pyły: PM1 27 · PM2.5 30 · PM10 32 µg/m³&lt;/li&gt;
@@ -56,17 +78,17 @@
   </entry>
   <entry>
     <id>urn:visualcrossing:32-500kasztanowa:2026-09-12</id>
-    <title>Chrzanów 32-500 — sobota, 12 września: Częściowe zachmurzenie, 10–19°C</title>
-    <updated>2026-09-08T21:24:10.240772+00:00</updated>
+    <title>Chrzanów 32-500 — sobota, 12 września: Częściowe zachmurzenie, 9–18°C</title>
+    <updated>2026-09-09T00:32:30.715018+00:00</updated>
     <content type="html">&lt;p&gt;Częściowo pochmurnie przez cały dzień.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Min/Maks: 10°C / 19°C&lt;/li&gt;
-&lt;li&gt;Odczuwalna: 10°C / 19°C&lt;/li&gt;
+&lt;li&gt;Min/Maks: 9°C / 18°C&lt;/li&gt;
+&lt;li&gt;Odczuwalna: 9°C / 18°C&lt;/li&gt;
 &lt;li&gt;Szansa opadów: 29%&lt;/li&gt;
-&lt;li&gt;Wiatr: 11 km/h (porywy 23 km/h)&lt;/li&gt;
+&lt;li&gt;Wiatr: 7 km/h (porywy 11 km/h)&lt;/li&gt;
 &lt;li&gt;Wilgotność: 75%&lt;/li&gt;
-&lt;li&gt;Indeks UV: 6&lt;/li&gt;
-&lt;li&gt;Zachmurzenie: 76%&lt;/li&gt;
+&lt;li&gt;Indeks UV: 3&lt;/li&gt;
+&lt;li&gt;Zachmurzenie: 69%&lt;/li&gt;
 &lt;li&gt;Wschód słońca: 06:13 · Zachód słońca: 19:03&lt;/li&gt;
 &lt;li&gt;Jakość powietrza (AQI EU): 3/6 (umiarkowana) — dominuje: PM2.5&lt;/li&gt;
 &lt;li&gt;Pyły: PM1 17 · PM2.5 20 · PM10 23 µg/m³&lt;/li&gt;
@@ -78,16 +100,16 @@
   </entry>
   <entry>
     <id>urn:visualcrossing:32-500kasztanowa:2026-09-11</id>
-    <title>Chrzanów 32-500 — piątek, 11 września: Pochmurnie, 9–16°C</title>
-    <updated>2026-09-08T21:24:10.240745+00:00</updated>
+    <title>Chrzanów 32-500 — piątek, 11 września: Pochmurnie, 10–16°C</title>
+    <updated>2026-09-09T00:32:30.714994+00:00</updated>
     <content type="html">&lt;p&gt;Pochmurnie przez cały dzień.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Min/Maks: 9°C / 16°C&lt;/li&gt;
+&lt;li&gt;Min/Maks: 10°C / 16°C&lt;/li&gt;
 &lt;li&gt;Odczuwalna: 9°C / 16°C&lt;/li&gt;
 &lt;li&gt;Szansa opadów: 29%&lt;/li&gt;
-&lt;li&gt;Wiatr: 11 km/h (porywy 21 km/h)&lt;/li&gt;
+&lt;li&gt;Wiatr: 10 km/h (porywy 18 km/h)&lt;/li&gt;
 &lt;li&gt;Wilgotność: 78%&lt;/li&gt;
-&lt;li&gt;Indeks UV: 4&lt;/li&gt;
+&lt;li&gt;Indeks UV: 2&lt;/li&gt;
 &lt;li&gt;Zachmurzenie: 99%&lt;/li&gt;
 &lt;li&gt;Wschód słońca: 06:11 · Zachód słońca: 19:05&lt;/li&gt;
 &lt;li&gt;Jakość powietrza (AQI EU): 2/6 (dobra) — dominuje: NO₂, O₃, PM2.5&lt;/li&gt;
@@ -101,17 +123,17 @@
   <entry>
     <id>urn:visualcrossing:32-500kasztanowa:2026-09-10</id>
     <title>Chrzanów 32-500 — czwartek, 10 września: Deszcz, Pochmurnie, 12–19°C</title>
-    <updated>2026-09-08T21:24:10.240720+00:00</updated>
+    <updated>2026-09-09T00:32:30.714965+00:00</updated>
     <content type="html">&lt;p&gt;Pochmurnie przez cały dzień. Deszcz zanikający później.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Min/Maks: 12°C / 19°C&lt;/li&gt;
 &lt;li&gt;Odczuwalna: 12°C / 19°C&lt;/li&gt;
 &lt;li&gt;Szansa opadów: 68%&lt;/li&gt;
-&lt;li&gt;Opady: 4.0 mm&lt;/li&gt;
-&lt;li&gt;Wiatr: 20 km/h (porywy 47 km/h)&lt;/li&gt;
+&lt;li&gt;Opady: 10.1 mm&lt;/li&gt;
+&lt;li&gt;Wiatr: 19 km/h (porywy 43 km/h)&lt;/li&gt;
 &lt;li&gt;Wilgotność: 74%&lt;/li&gt;
 &lt;li&gt;Indeks UV: 4&lt;/li&gt;
-&lt;li&gt;Zachmurzenie: 94%&lt;/li&gt;
+&lt;li&gt;Zachmurzenie: 93%&lt;/li&gt;
 &lt;li&gt;Wschód słońca: 06:10 · Zachód słońca: 19:07&lt;/li&gt;
 &lt;li&gt;Jakość powietrza (AQI EU): 1/6 (bardzo dobra) — dominuje: NO₂, O₃, PM2.5&lt;/li&gt;
 &lt;li&gt;Pyły: PM1 5 · PM2.5 6 · PM10 7 µg/m³&lt;/li&gt;
@@ -123,22 +145,22 @@
   </entry>
   <entry>
     <id>urn:visualcrossing:32-500kasztanowa:2026-09-09</id>
-    <title>Chrzanów 32-500 — środa, 9 września: Częściowe zachmurzenie, 17–29°C</title>
-    <updated>2026-09-08T21:24:10.240674+00:00</updated>
+    <title>Chrzanów 32-500 — środa, 9 września: Częściowe zachmurzenie, 15–29°C</title>
+    <updated>2026-09-09T00:32:30.714912+00:00</updated>
     <content type="html">&lt;p&gt;Częściowo pochmurnie przez cały dzień.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Min/Maks: 17°C / 29°C&lt;/li&gt;
-&lt;li&gt;Odczuwalna: 17°C / 28°C&lt;/li&gt;
+&lt;li&gt;Min/Maks: 15°C / 29°C&lt;/li&gt;
+&lt;li&gt;Odczuwalna: 15°C / 28°C&lt;/li&gt;
 &lt;li&gt;Szansa opadów: 45%&lt;/li&gt;
 &lt;li&gt;Wiatr: 19 km/h (porywy 43 km/h)&lt;/li&gt;
-&lt;li&gt;Wilgotność: 54%&lt;/li&gt;
-&lt;li&gt;Indeks UV: 7&lt;/li&gt;
-&lt;li&gt;Zachmurzenie: 24%&lt;/li&gt;
+&lt;li&gt;Wilgotność: 56%&lt;/li&gt;
+&lt;li&gt;Indeks UV: 6&lt;/li&gt;
+&lt;li&gt;Zachmurzenie: 23%&lt;/li&gt;
 &lt;li&gt;Wschód słońca: 06:08 · Zachód słońca: 19:09&lt;/li&gt;
 &lt;li&gt;Jakość powietrza (AQI EU): 2/6 (dobra) — dominuje: NO₂, O₃, PM2.5&lt;/li&gt;
 &lt;li&gt;Pyły: PM1 8 · PM2.5 10 · PM10 11 µg/m³&lt;/li&gt;
 &lt;li&gt;Gazy: O₃ 55 · NO₂ 18 · SO₂ 4 · CO 183 µg/m³&lt;/li&gt;
-&lt;li&gt;Ryzyko burz: 15%&lt;/li&gt;
+&lt;li&gt;Ryzyko burz: 22%&lt;/li&gt;
 &lt;/ul&gt;</content>
     <link href="https://www.visualcrossing.com/weather-history/32-500%20Kasztanowa" rel="alternate"/>
     <category term="weather"/>
@@ -889,15 +911,5 @@
     <link href="https://www.visualcrossing.com/weather-history/32-500%20Kasztanowa" rel="alternate"/>
     <category term="weather"/>
     <published>2026-08-11T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>urn:visualcrossing:32-500kasztanowa:alert:508a627ab90fee53</id>
-    <title>⚠️ Chrzanów 32-500 — Żółty alert na upał</title>
-    <updated>2026-08-09T11:13:01.645511+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Żółty alert na upał dla Polski - województwo małopolskie powiat chrzanowski&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Prognozuje się upał. Temperatura maksymalna wyniesie od 30°C do 33°C.&lt;/p&gt;</content>
-    <link href="https://meteo.imgw.pl/dyn/?osmet=true" rel="alternate"/>
-    <category term="alert"/>
-    <published>2026-08-10T11:00:00+02:00</published>
   </entry>
 </feed>

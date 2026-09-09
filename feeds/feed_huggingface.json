@@ -8,6 +8,29 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/e778c8cdfb90efee",
+      "url": "https://huggingface.co/posts/nwaughachukwuma/199024335043983",
+      "title": "It’s easy to get distracted by benchmarks, throughput (tok/s), and all the hype around frontier model releases.",
+      "content_text": "It’s easy to get distracted by benchmarks, throughput (tok/s), and all the hype around frontier model releases. This is Shiny Model Syndrome, which makes engineers and teams forget the basic physics of production software, i.e., using the right tool for the job and optimizing for ease of integration. - Teams spend huge amounts of money on frontier models for document parsing, OCR, detection, segmentation, and other task-specific visual AI workflows. - Inference marketplaces don’t find it profitable to list task-specific models like glm-ocr, paddleocr, or dots.mocr, even though they’re all superior to frontier VLMs for document parsing and OCR. - Engineers stitch together multiple endpoints f",
+      "date_published": "2026-09-09T00:30:51Z",
+      "date_modified": "2026-09-09T00:30:51Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/nwaughachukwuma/199024335043983.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/nwaughachukwuma/199024335043983.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/10ac7bb5839a927d",
       "url": "https://huggingface.co/posts/danielhanchen/664381486199600",
       "title": "Qwen3.8-27B Unsloth GGUF is now the #1 most-liked GGUF of all time! 🤗🦥",

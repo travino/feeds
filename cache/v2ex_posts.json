@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T21:24:10.609867+00:00",
+  "last_updated": "2026-09-09T00:32:32.118007+00:00",
   "entries": [
     {
       "title": "reddit 被墙了吗，在手机上用 Apollo 客户端无法显示内容，浏览器无法打开？",
@@ -2360,15 +2360,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/5f1aa31f3fc48042"
     },
     {
-      "title": "Fillin：一个会理解页面语境的 AI 填表插件（开源）",
-      "link": "https://www.v2ex.com/t/1232723#reply0",
-      "date": "2026-08-07T07:01:22+00:00",
-      "description": "最近做了一个 Chrome 插件 Fillin ，解决一个很具体的问题：各种表单、问卷、申请资料和长文本报告，填写起来很烦。 它和传统自动填充不同。Fillin 会先读取当前页面和字段上下文，理解每个输入框在问什么，再调用 AI 生成并填写对应内容。标题、正文、评论、下拉框、单选和多选等字段都可以处理，已有内容默认保留，写入后还会检查是否真正生效。 支持 OpenAI-Compatible API ，可以自行配置 API 地址、模型和 Key ，接入 OpenAI 、OpenRouter 、DeepSeek 等服务。 插件没有开发者后端。Key 保存在浏览器本地；执行任务时，相关页面内容会直接发送给你选择的模型服务商。不会读取已有密码、Cookie 和浏览历史，也不会自动提交表单。 目前还是早期版本，复杂表单可能存在兼容问题，欢迎体验、反馈或者提 PR 。 Chrome 应用商店： https://chromewebstore.google.com/detail/bpenblaecddfhamoablfepbjpmobmlfm GitHub： https://github.com/si",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/ab9c027ca06e6111"
-    },
-    {
       "title": "才发现，原来一加手机不止支持电话录音，微信通话也支持录音",
       "link": "https://www.v2ex.com/t/1232727",
       "date": "2026-08-07T07:09:15+00:00",
@@ -2376,15 +2367,6 @@
       "source": "V2EX Android (LLLeo)",
       "image": "https://cdn.v2ex.com/avatar/54ad/a533/649479_xlarge.png?m=1786086449",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/986da2291c0b1cbc"
-    },
-    {
-      "title": "[开源自荐] 一个用 Go 从零打造的 Agent Harness",
-      "link": "https://www.v2ex.com/t/1232728#reply5",
-      "date": "2026-08-07T07:09:42+00:00",
-      "description": "各位 V 友，向大家介绍一个我用 Go 从零开发的 agent harness —— Octo 。 这个项目我已经做了 3 个月，前面没怎么推广，主要是怕不够成熟，用了出问题。 目前我自己已经高强度使用了两个月（日常开发、写文档、运维、办公，基本全在上面跑），还有一些朋友小范围试用了快一个月，该修的 bug 都修得差不多了，我想，是时候向大家介绍一下了。 仓库在这里，MIT 协议，喜欢的话点个 star： https://github.com/open-octo/octo-agent 官网: https://octo-agent.dev Octo 是什么 Octo 是我长时间探索实践各家 agent ，包括 openclaw 、hermes 、cc 、codex 、workbuddy 之后，按照我自己的品味，从零开始，用 Go 打造的一款 agent harness 。 具体说，它是这么几个东西的组合： 一个 ~40 MB 的单二进制。 没有 Node / Python / Ruby 依赖树，不用装 npm 镜像，不会 node-gyp 编译失败。拷到任何一台服务器上就能跑。 模型自由",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/8756158c06406c73"
     },
     {
       "title": "使用 codex 30 分钟撸了一个 Redis 客户端",
@@ -5592,15 +5574,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9e999742f717f10a"
     },
     {
-      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
-      "link": "https://www.v2ex.com/t/1234483#reply1",
-      "date": "2026-08-14T13:08:14+00:00",
-      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
-      "source": "V2EX Creative",
-      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
-    },
-    {
       "title": "苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件",
       "link": "https://www.v2ex.com/t/1234484#reply0",
       "date": "2026-08-14T13:08:14+00:00",
@@ -5608,6 +5581,15 @@
       "source": "V2EX Creative",
       "image": "https://private-user-images.githubusercontent.com/14333766/636160355-0aceb14e-b4f5-4ab4-bf1e-72da35d147b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMwNTQsIm5iZiI6MTc4NjcxMjc1NCwicGF0aCI6Ii8xNDMzMzc2Ni82MzYxNjAzNTUtMGFjZWIxNGUtYjRmNS00YWI0LWJmMWUtNzJkYTM1ZDE0N2I5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM1MWNmMWIwZDg3MDEzZTA3YjBhY2I3OTA5NjVmNjQ5MDQ1YWZhZGFhNjlhYjk1ODM1MmI1ZTFlZmM0MjA3ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.G7WNF9w1vljvTj16Ns9lCbGK6jYZORpJSY38mLG8ggI",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/491fdf8e33c97c54"
+    },
+    {
+      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
+      "link": "https://www.v2ex.com/t/1234483#reply1",
+      "date": "2026-08-14T13:08:14+00:00",
+      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
+      "source": "V2EX Creative",
+      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
     },
     {
       "title": "分享个 dsh 插件 自动将为提交信息增加 co-author 对应模型",
@@ -6600,15 +6582,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/845f675437e6e7a1"
     },
     {
-      "title": "如何最大化 Claude Code Session 的价值",
-      "link": "https://www.v2ex.com/t/1234919#reply0",
-      "date": "2026-08-17T03:07:19+00:00",
-      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
-      "source": "V2EX Play",
-      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
-    },
-    {
       "title": "Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？",
       "link": "https://www.v2ex.com/t/1234920#reply1",
       "date": "2026-08-17T03:07:19+00:00",
@@ -6616,6 +6589,15 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/avatar/a5c4/cedb/764031_xlarge.png?m=1773103759",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a0fb6b3f396db430"
+    },
+    {
+      "title": "如何最大化 Claude Code Session 的价值",
+      "link": "https://www.v2ex.com/t/1234919#reply0",
+      "date": "2026-08-17T03:07:19+00:00",
+      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
     },
     {
       "title": "深港两地用 codex(chatgpt)用什么网络方案？",
@@ -18002,6 +17984,24 @@
       "source": "V2EX Creative",
       "image": "https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/4308a24e16833a5d"
+    },
+    {
+      "title": "豆包输入法 WIN 端可以下载了",
+      "link": "https://www.v2ex.com/t/1240545#reply1",
+      "date": "2026-09-09T00:10:15+00:00",
+      "description": "豆包 [微信的跨设备复制也支持]",
+      "source": "V2EX Play",
+      "image": "https://i.imgur.com/G8rAhGA.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/f15edb48d4b5bcb7"
+    },
+    {
+      "title": "[开源] LazyDB: 键盘优先且支持鼠标的 TUI 终端数据库管理工具(多图预警)",
+      "link": "https://www.v2ex.com/t/1240547#reply0",
+      "date": "2026-09-09T00:28:54+00:00",
+      "description": "给自己 vibe 了一个终端数据库管理工具，自己用起来很爽，有需要的可以自取😄 Github: https://github.com/yelog/lazydb 支持 PostGreSQL 、MySQL 、SQLite 、SQL Server 数据库。 表格预览及编辑、事务切换及管理 较为完备的鼠标操作，尽管是键盘优先，但也尽可能支持鼠标操作 支持 MCP ，让 coding agent 在不同的项目中访问各自的数据库 支持 Neovim 插件：支持 neovim 工作流、LSP 进行数据库表和列字段的补全提示 SQL 执行 表格预览及过滤 多数据支持 数据库总体状态监控 Dashboard 鼠标支持 支持 mcp ，访问当前项目绑定的数据库 支持 Neovim 插件，可以在 neovim 工作流中管理数据库、且支持 LSP ，SQL 代码高亮、在写 SQL 时对表名、列名进行提示 Github: https://github.com/yelog/lazydb 有需要的可以自取，喜欢的麻烦点一下 Star ! 谢谢!",
+      "source": "V2EX Play",
+      "image": "https://i.imgur.com/vQ6T2Nz.gif",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/e47e7af4b9d47924"
     }
   ]
 }

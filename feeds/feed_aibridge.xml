@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://thinkingmachines.ai/blog/</id>
   <title>AI-bridge</title>
-  <updated>2026-09-08T21:22:15.647466+00:00</updated>
+  <updated>2026-09-09T00:30:25.798452+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -13,64 +13,139 @@
   <logo>https://www.google.com/s2/favicons?domain=thinkingmachines.ai&amp;sz=256</logo>
   <subtitle>Combined AI feed: Thinking Machines, Ollama, Mistral, Interconnected, AI Clock, Stability AI, Bielik, Promptowy, Maistry, Karpathy (bearblog + old blog), Transformer, MiniMax News/Blog, PLLuM, Perplexity (blog/changelog/research/API changelog), The Batch / DeepLearning.AI, and Groq (blog/newsroom/changelog).</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/2ca565dbd465c8b4</id>
-    <title>Poprosiłem AI o rebranding czterech polskich marek. Sama dopisała, że to tylko propozycja</title>
-    <updated>2026-09-08T20:28:21+00:00</updated>
-    <content>Poprosiłem generator o spekulacyjny rebranding czterech polskich marek: Żabki, Poczty Polskiej, PKP Intercity i Orlenu. Osiem obrazów w formacie pionowym 4:5, dla każdej marki makieta opisowa i propozycja nowej identyfikacji. Najciekawsze nie jest to, jak wyszły znaki, tylko co model zrobił bez proszenia. Cztery marki: makieta wyjściowa i propozycja spekulacyjna Makieta wyjściowa: sklep osiedlowy. Makieta […] The post Poprosiłem AI o rebranding czterech polskich marek. Sama dopisała, że to tylko</content>
-    <link href="https://promptowy.com/rebranding-polskich-marek-ai/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/ce5e0f595f4bf2c8</id>
+    <title>Suno AI: generator muzyki, który naprawdę śpiewa. Co potrafi i gdzie zawodzi</title>
+    <updated>2026-09-08T23:52:33+00:00</updated>
+    <content>Suno to generator muzyki: opisujesz utwór słowami, a narzędzie tworzy nagranie z wokalem, instrumentami i strukturą piosenki. Nie chodzi o pętlę w tle ani o podkład, tylko o kompletny utwór z tekstem, zwrotkami i refrenem. Jak to działa w praktyce Podajesz dwie rzeczy: opis stylu oraz tekst albo temat. Możesz napisać własny tekst piosenki i […] The post Suno AI: generator muzyki, który naprawdę śpiewa. Co potrafi i gdzie zawodzi first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/suno-ai/" rel="alternate"/>
     <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T20:28:21+00:00</published>
+    <published>2026-09-08T23:52:33+00:00</published>
     <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_rebranding-polskich-marek-ai.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_rebranding-polskich-marek-ai.gif"/>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_suno-ai.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_suno-ai.gif"/>
     </media:group>
     <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_rebranding-polskich-marek-ai.gif" type="image/gif" length="0"/>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_suno-ai.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/5ef6dac6eb5eafd0</id>
-    <title>Sześciu polskich uczonych narysowanych przez AI. I jedna decyzja, którą trzeba podjąć przed pierwszym poleceniem</title>
-    <updated>2026-09-08T20:21:45+00:00</updated>
-    <content>Wygenerowałem sześć portretów polskich uczonych i artystów: Kopernika nad astrolabium, Skłodowską-Curie przy stole laboratoryjnym, Chopina przy fortepianie, Łukasiewicza z lampą naftową, Heweliusza przy teleskopie i Banacha przy tablicy z równaniami. Każdy w formacie pionowym 4:5, z podpisem w kadrze, w rozdzielczości 1120 na 1400 pikseli. Polskie znaki w nazwiskach i daty życia sprawdzone. Sześć portretów […] The post Sześciu polskich uczonych narysowanych przez AI. I jedna decyzja, którą trzeb</content>
-    <link href="https://promptowy.com/portrety-historyczne-ai/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/2c4dde7791ea9c29</id>
+    <title>Google Gemini: co to jest, ile kosztuje i czym różni się od ChatGPT</title>
+    <updated>2026-09-08T23:51:53+00:00</updated>
+    <content>Gemini to rodzina modeli AI Google i zarazem nazwa aplikacji, w której z nich korzystasz. To rozróżnienie tłumaczy większość zamieszania: „Gemini” bywa nazwą modelu, asystenta w telefonie, dodatku w Gmailu i pakietu abonamentowego jednocześnie. Gdzie spotkasz Gemini Aplikacja i strona. Osobny asystent do rozmowy, dostępny w przeglądarce oraz w aplikacji na telefon. To jest odpowiednik […] The post Google Gemini: co to jest, ile kosztuje i czym różni się od ChatGPT first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/google-gemini/" rel="alternate"/>
     <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T20:21:45+00:00</published>
+    <published>2026-09-08T23:51:53+00:00</published>
     <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_portrety-historyczne-ai.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_portrety-historyczne-ai.gif"/>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_google-gemini.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_google-gemini.gif"/>
     </media:group>
     <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_portrety-historyczne-ai.gif" type="image/gif" length="0"/>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_google-gemini.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/eed99613b48d3f53</id>
-    <title>Miniatury na YouTube z AI: sprawdziłem, które są czytelne w telefonie</title>
-    <updated>2026-09-08T20:19:29+00:00</updated>
-    <content>Miniatura na YouTube ma jedno zadanie: być czytelna wtedy, gdy jest mała. Wygenerowałem sześć miniatur i sprawdziłem każdą po pomniejszeniu do szerokości 320 pikseli, czyli mniej więcej tyle, ile zajmuje na liście propozycji w telefonie. Wynik: trzy bardzo dobre, trzy dobre, żadnej nieczytelnej. Siedem miniatur w formacie 16:9 „Koniec etatu?”. Napis czytelny przy 320 pikselach, […] The post Miniatury na YouTube z AI: sprawdziłem, które są czytelne w telefonie first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/miniatury-youtube-ai-test/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/ffce62306a9b99e3</id>
+    <title>Prompt: co to jest, jak go napisać i dlaczego jedno polecenie działa, a drugie nie</title>
+    <updated>2026-09-08T23:41:37+00:00</updated>
+    <content>Prompt to polecenie, które wydajesz modelowi sztucznej inteligencji. Tekst, obraz albo jedno i drugie naraz, na podstawie których model tworzy odpowiedź. Po polsku najbliższe są słowa „polecenie” i „podpowiedź”, ale w praktyce przyjęło się angielskie brzmienie i tak też mówi się w polskich firmach. Tyle definicji. Ciekawsze jest to, dlaczego jedno polecenie daje świetną odpowiedź, […] The post Prompt: co to jest, jak go napisać i dlaczego jedno polecenie działa, a drugie nie first appeared on Pr</content>
+    <link href="https://promptowy.com/prompt-co-to-jest/" rel="alternate"/>
     <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T20:19:29+00:00</published>
+    <published>2026-09-08T23:41:37+00:00</published>
     <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_miniatury-youtube-ai-test.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_miniatury-youtube-ai-test.gif"/>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_prompt-co-to-jest.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_prompt-co-to-jest.gif"/>
     </media:group>
     <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_miniatury-youtube-ai-test.gif" type="image/gif" length="0"/>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_prompt-co-to-jest.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/c234f0441e8ce61a</id>
-    <title>Logo z AI: sześć wariantów, jeden problem, którego nie widać na pierwszy rzut oka</title>
-    <updated>2026-09-08T20:18:50+00:00</updated>
-    <content>Wygenerowałem sześć wariantów logotypu dla wymyślonej palarni kawy: sygnet, wersję tekstową, monogram, układ poziomy, negatyw i stempel. Wszystkie mają być tym samym znakiem w różnych zastosowaniach, bo na tym polega identyfikacja wizualna. Wynik pokazuje dokładnie, gdzie leży granica użyteczności generatorów w tej robocie. Siedem wariantów jednego znaku Znak podstawowy na czarnym tle. Ten sam znak […] The post Logo z AI: sześć wariantów, jeden problem, którego nie widać na pierwszy rzut oka fir</content>
-    <link href="https://promptowy.com/logo-z-ai-test/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/eaf56a4d9533b068</id>
+    <title>Czy ChatGPT działa? Sprawdź status na żywo</title>
+    <updated>2026-09-08T23:20:48+00:00</updated>
+    <content>Poniższy odczyt pochodzi z oficjalnego kanału statusu OpenAI i odświeża się sam co minutę. Jeśli świeci na zielono, a mimo to ChatGPT u Ciebie nie działa, problem jest po Twojej stronie i niżej opisuję, co sprawdzić po kolei. Zielono, a mimo to nie działa. Co sprawdzić Kanał statusu pokazuje awarie po stronie OpenAI. Zdecydowana większość […] The post Czy ChatGPT działa? Sprawdź status na żywo first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/czy-chatgpt-dziala/" rel="alternate"/>
     <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T20:18:50+00:00</published>
+    <published>2026-09-08T23:20:48+00:00</published>
     <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_logo-z-ai-test.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_logo-z-ai-test.gif"/>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/07/og-posts/46074.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/07/og-posts/46074.jpg"/>
     </media:group>
     <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_logo-z-ai-test.gif" type="image/gif" length="0"/>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/07/og-posts/46074.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/ba624105d9b3b1b1</id>
+    <title>Cennik ChatGPT 2026: cztery plany, cztery ceny i jeden haczyk w najtańszym</title>
+    <updated>2026-09-08T23:17:45+00:00</updated>
+    <content>OpenAI podaje ceny ChatGPT w Polsce w złotówkach i ma teraz cztery poziomy dla osób prywatnych, a nie dwa, jak jeszcze niedawno. Poniżej pełny cennik, co dokładnie daje każdy plan i, co ważniejsze, przy którym progu opłaca się zostać. Cennik ChatGPT: wszystkie plany Plan Cena Dla kogo Free 0 zł Nielimitowane czaty tekstowe, ale ograniczone […] The post Cennik ChatGPT 2026: cztery plany, cztery ceny i jeden haczyk w najtańszym first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/chatgpt-cena-cennik-plany/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T23:17:45+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_chatgpt-cena-cennik-plany.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_chatgpt-cena-cennik-plany.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_chatgpt-cena-cennik-plany.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/dbb03311f7c27d67</id>
+    <title>Zdjęcia w stylu lat 80.: kompletne polecenie i 10 kadrów, na których widać różnicę</title>
+    <updated>2026-09-08T23:12:47+00:00</updated>
+    <content>Zdjęcia „przeniesione w lata 80.” zalewają teraz Instagram i większość z nich wygląda tak samo źle: fioletowa mgła, świecące paski, twarz jak z reklamy kremu. To nie są lata 80., tylko cyberpunk. Różnica sprowadza się do kilku zdań w poleceniu i poniżej pokazuję dokładnie które, na dziesięciu kadrach zrobionych tym sposobem. Podstawy, czyli jakie zdjęcia […] The post Zdjęcia w stylu lat 80.: kompletne polecenie i 10 kadrów, na których widać różnicę first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/zdjecia-w-stylu-lat-80/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T23:12:47+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/okladka-lata80.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/okladka-lata80.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/okladka-lata80.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/9d86b00bfe2703c4</id>
+    <title>Jak przerobić zdjęcie w AI: uniwersalne polecenie i pięć gotowych konwencji</title>
+    <updated>2026-09-08T22:46:49+00:00</updated>
+    <content>Przerobienie własnego zdjęcia w AI zajmuje pięć minut i sprowadza się do trzech rzeczy: wgrywasz zdjęcia swojej twarzy, wgrywasz jedno zdjęcie stylu, który Ci się podoba, i wklejasz polecenie mówiące modelowi, do czego służy które. Ten trzeci punkt jest jednocześnie tym, który pomija większość poradników, i to przez niego ludziom wychodzi cudza twarz. Poniżej uniwersalne […] The post Jak przerobić zdjęcie w AI: uniwersalne polecenie i pięć gotowych konwencji first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/jak-przerobic-zdjecie-w-ai/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T22:46:49+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/okladka-przerobic.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/okladka-przerobic.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/okladka-przerobic.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/5a6f99bc07aaed21</id>
+    <title>Sketch w ChatGPT: rysujesz bazgroł, model dorabia resztę. Po co to komu</title>
+    <updated>2026-09-08T22:32:56+00:00</updated>
+    <content>Z czterech nowości, które OpenAI dołożyło do ChatGPT razem z modelem Images 2.5, jedna rozwiązuje problem, z którym nie radzi sobie żaden opis słowny: rozmieszczenie elementów w kadrze. Nazywa się Sketch i uruchamia się wpisaniem @Sketch. Zaznaczam od razu, bo to zmienia status tego tekstu: to jest opis tego, co ogłoszono, a nie relacja z […] The post Sketch w ChatGPT: rysujesz bazgroł, model dorabia resztę. Po co to komu first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/sketch-chatgpt/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T22:32:56+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_sketch-chatgpt.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_sketch-chatgpt.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_sketch-chatgpt.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/3dee62303cd2c656</id>
+    <title>GPT-Image-2.5 Flare i Sunburst: dwa modele w tej samej cenie. Więc czym się różnią</title>
+    <updated>2026-09-08T22:22:47+00:00</updated>
+    <content>Razem z ChatGPT Images 2.5 OpenAI wypuściło do interfejsu programistycznego nie jeden model, tylko dwa: GPT-Image-2.5 Flare i GPT-Image-2.5 Sunburst. Sprawdziłem oficjalny cennik i wyszła rzecz, której nie widać w zapowiedzi: oba kosztują dokładnie tyle samo, co do centa. To zmienia postać wyboru, bo nie decydujesz portfelem, tylko czasem. Cennik, jeden do jednego Model Wejście […] The post GPT-Image-2.5 Flare i Sunburst: dwa modele w tej samej cenie. Więc czym się różnią first appeared on Promp</content>
+    <link href="https://promptowy.com/gpt-image-2-5-flare-sunburst/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T22:22:47+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt-image-2-5-flare-sunburst.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt-image-2-5-flare-sunburst.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt-image-2-5-flare-sunburst.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/fb227bf3da1ef2e0</id>
@@ -101,6 +176,21 @@
     </media:group>
     <dc:creator>Promptowy</dc:creator>
     <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_edycja-komentarzem-test.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/2ca565dbd465c8b4</id>
+    <title>Poprosiłem AI o rebranding czterech polskich marek. Sama dopisała, że to tylko propozycja</title>
+    <updated>2026-09-08T20:05:00+00:00</updated>
+    <content>Poprosiłem generator o spekulacyjny rebranding czterech polskich marek: Żabki, Poczty Polskiej, PKP Intercity i Orlenu. Osiem obrazów w formacie pionowym 4:5, dla każdej marki makieta opisowa i propozycja nowej identyfikacji. Najciekawsze nie jest to, jak wyszły znaki, tylko co model zrobił bez proszenia. Cztery marki: makieta wyjściowa i propozycja spekulacyjna Makieta wyjściowa: sklep osiedlowy. Makieta […] The post Poprosiłem AI o rebranding czterech polskich marek. Sama dopisała, że to tylko</content>
+    <link href="https://promptowy.com/rebranding-polskich-marek-ai/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T20:05:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_rebranding-polskich-marek-ai.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_rebranding-polskich-marek-ai.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_rebranding-polskich-marek-ai.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/6feec4eff533ec21</id>
@@ -178,6 +268,21 @@
     <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/zamkniecie-20260908.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/5ef6dac6eb5eafd0</id>
+    <title>Sześciu polskich uczonych narysowanych przez AI. I jedna decyzja, którą trzeba podjąć przed pierwszym poleceniem</title>
+    <updated>2026-09-08T18:15:00+00:00</updated>
+    <content>Wygenerowałem sześć portretów polskich uczonych i artystów: Kopernika nad astrolabium, Skłodowską-Curie przy stole laboratoryjnym, Chopina przy fortepianie, Łukasiewicza z lampą naftową, Heweliusza przy teleskopie i Banacha przy tablicy z równaniami. Każdy w formacie pionowym 4:5, z podpisem w kadrze, w rozdzielczości 1120 na 1400 pikseli. Polskie znaki w nazwiskach i daty życia sprawdzone. Sześć portretów […] The post Sześciu polskich uczonych narysowanych przez AI. I jedna decyzja, którą trzeb</content>
+    <link href="https://promptowy.com/portrety-historyczne-ai/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T18:15:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_portrety-historyczne-ai.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_portrety-historyczne-ai.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_portrety-historyczne-ai.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/e77aec46e2480aa0</id>
     <title>Stan AI: tydzień 1-7 września 2026</title>
     <updated>2026-09-08T18:00:00+00:00</updated>
@@ -193,6 +298,21 @@
     <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/stan-ai-08-09-2026.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/eed99613b48d3f53</id>
+    <title>Miniatury na YouTube z AI: sprawdziłem, które są czytelne w telefonie</title>
+    <updated>2026-09-08T16:30:00+00:00</updated>
+    <content>Miniatura na YouTube ma jedno zadanie: być czytelna wtedy, gdy jest mała. Wygenerowałem sześć miniatur i sprawdziłem każdą po pomniejszeniu do szerokości 320 pikseli, czyli mniej więcej tyle, ile zajmuje na liście propozycji w telefonie. Wynik: trzy bardzo dobre, trzy dobre, żadnej nieczytelnej. Siedem miniatur w formacie 16:9 „Koniec etatu?”. Napis czytelny przy 320 pikselach, […] The post Miniatury na YouTube z AI: sprawdziłem, które są czytelne w telefonie first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/miniatury-youtube-ai-test/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T16:30:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_miniatury-youtube-ai-test.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_miniatury-youtube-ai-test.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_miniatury-youtube-ai-test.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/1d5858fd3125af68</id>
     <title>Distributing AGI’s wealth worldwide is a very tricky problem</title>
     <updated>2026-09-08T16:02:47+00:00</updated>
@@ -206,6 +326,21 @@
     </media:group>
     <dc:creator>Transformer</dc:creator>
     <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!dvtN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68639c62-4aef-4f70-9fbf-60e930328424_2400x1350.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/c234f0441e8ce61a</id>
+    <title>Logo z AI: sześć wariantów, jeden problem, którego nie widać na pierwszy rzut oka</title>
+    <updated>2026-09-08T14:45:00+00:00</updated>
+    <content>Wygenerowałem sześć wariantów logotypu dla wymyślonej palarni kawy: sygnet, wersję tekstową, monogram, układ poziomy, negatyw i stempel. Wszystkie mają być tym samym znakiem w różnych zastosowaniach, bo na tym polega identyfikacja wizualna. Wynik pokazuje dokładnie, gdzie leży granica użyteczności generatorów w tej robocie. Siedem wariantów jednego znaku Znak podstawowy na czarnym tle. Ten sam znak […] The post Logo z AI: sześć wariantów, jeden problem, którego nie widać na pierwszy rzut oka fir</content>
+    <link href="https://promptowy.com/logo-z-ai-test/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-08T14:45:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_logo-z-ai-test.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_logo-z-ai-test.gif"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_logo-z-ai-test.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/07822281a8fcebf6</id>
@@ -238,21 +373,6 @@
     <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/google-deepmind-alphagenome-atlas-mapa-dna.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/ff724d036b396d43</id>
-    <title>Adobe wbudowuje generator AI bezpośrednio w oś czasu Premiere</title>
-    <updated>2026-09-08T13:21:52+00:00</updated>
-    <content>Adobe przebudowało interfejs generatywnych narzędzi AI w Premiere Pro - nowe Generative Media umożliwia tworzenie wideo, efektów dźwiękowych i muzyki bez wychodzenia z osi czasu projektu. The post Adobe wbudowuje generator AI bezpośrednio w oś czasu Premiere first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/adobe-generative-media-premiere-timeline/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T13:21:52+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/adobe-generative-media-premiere-timeline.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/adobe-generative-media-premiere-timeline.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/adobe-generative-media-premiere-timeline.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/4cb7f72b517b243a</id>
     <title>Everything you need to know about the ‘rogue’ AI incidents</title>
     <updated>2026-09-08T13:06:25+00:00</updated>
@@ -268,66 +388,6 @@
     <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!Q6PI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdda71b00-53af-490e-9a36-6d6171d69745_1920x1080.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/5ddac555aeda5c2e</id>
-    <title>Qwen3.8 Max: milion kontekstu za 2 dolary. Osiem razy taniej niż Astra</title>
-    <updated>2026-09-08T12:33:54+00:00</updated>
-    <content>Qwen3.8 Max to najnowszy flagowy model Alibaby, dostępny przez OpenRouter od kilku dni. Ma milion tokenów kontekstu i kosztuje 2 dolary za milion tokenów wejściowych oraz 6 za wyjściowe. Te dwie liczby warto zestawić z zachodnią czołówką, bo różnica nie jest kosmetyczna. Porównanie, które tłumaczy wszystko Model Wejście / mln Wyjście / mln Kontekst Qwen3.8 […] The post Qwen3.8 Max: milion kontekstu za 2 dolary. Osiem razy taniej niż Astra first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/qwen3-8-max/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T12:33:54+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_qwen3-8-max.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_qwen3-8-max.gif"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_qwen3-8-max.gif" type="image/gif" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/fa99502b11dbc36a</id>
-    <title>GPT: co to jest, jak działa i czym różni się od ChatGPT</title>
-    <updated>2026-09-08T12:33:09+00:00</updated>
-    <content>GPT to skrót od Generative Pre-trained Transformer, czyli nazwy rodziny modeli językowych rozwijanych przez OpenAI. W praktyce to silnik, który stoi za ChatGPT i który przewiduje kolejne słowo w tekście na podstawie tego, co już zostało napisane. Cała reszta, czyli pisanie maili, tłumaczenie, analiza dokumentów i kod, wynika z tej jednej umiejętności doprowadzonej do skrajności. […] The post GPT: co to jest, jak działa i czym różni się od ChatGPT first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/gpt/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T12:33:09+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt.gif"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt.gif" type="image/gif" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/74cde874cb69fc10</id>
-    <title>Mój stack AI w 2026: cmentarzysko zakładek i trzy narzędzia, których naprawdę używam</title>
-    <updated>2026-09-08T12:30:00+00:00</updated>
-    <content>Dlaczego mój stack AI w 2026 skurczył się do garstki narzędzi i czemu uważam to za zwycięstwo, a nie porażkę. The post Mój stack AI w 2026: cmentarzysko zakładek i trzy narzędzia, których naprawdę używam first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/moj-stack-ai-2026-co-zostalo-co-odpadlo-172e4/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T12:30:00+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/moj-stack-ai-2026-co-zostalo-co-odpadlo-172e4-1b69cf.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/moj-stack-ai-2026-co-zostalo-co-odpadlo-172e4-1b69cf.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/moj-stack-ai-2026-co-zostalo-co-odpadlo-172e4-1b69cf.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/d0a684500da76b83</id>
-    <title>GPT-6 Astra Pro: ta sama cena i ten sam kontekst co Astra. Więc co jest inne?</title>
-    <updated>2026-09-08T12:23:41+00:00</updated>
-    <content>GPT-6 Astra Pro jest już dostępny przez OpenRouter i pierwsza rzecz, którą widać w danych API, jest zaskakująca: pod względem ceny i okna kontekstu to model identyczny ze zwykłą Astrą. Dziesięć dolarów za milion tokenów wejściowych, pięćdziesiąt za wyjściowe, 1 050 000 tokenów kontekstu. Te same liczby w obu wariantach, co do centa. Co pokazuje […] The post GPT-6 Astra Pro: ta sama cena i ten sam kontekst co Astra. Więc co jest inne? first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/gpt-6-astra-pro/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T12:23:41+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt-6-astra-pro.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt-6-astra-pro.gif"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_gpt-6-astra-pro.gif" type="image/gif" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/3045481d86a55253</id>
     <title>Mistral raises €3B to make sovereign, open-weight AI the technology frontier</title>
     <updated>2026-09-08T12:00:22+00:00</updated>
@@ -341,66 +401,6 @@
     </media:group>
     <dc:creator>Mistral</dc:creator>
     <link rel="enclosure" href="https://mistral.ai/cms-media/api/media/file/fundraise.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/298fff1a389b80e0</id>
-    <title>Perplexity Deep Research - jak przeprowadzić dogłębną analizę w 3 minuty</title>
-    <updated>2026-09-08T10:51:18+00:00</updated>
-    <content>Deep Research od Perplexity działa na Claude Opus 4.5 i osiąga 67,15% na benchmarku DRACO. Tutorial pokazuje krok po kroku, jak zadawać zapytania i interpretować wyniki analiz. The post Perplexity Deep Research - jak przeprowadzić dogłębną analizę w 3 minuty first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/perplexity-deep-research-jak-przeprowadzic-doglebna-analize-w-3-minuty/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T10:51:18+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/02/pne-20260218-154111-eSbvgA-scaled.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/02/pne-20260218-154111-eSbvgA-scaled.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/02/pne-20260218-154111-eSbvgA-scaled.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/a68207e70d5293d7</id>
-    <title>PR Lens by Coldtea.ai wygrywa dzień na Product Huncie. Oto 10 narzędzi, które warto znać</title>
-    <updated>2026-09-08T08:23:04+00:00</updated>
-    <content>Codzienna dziesiątka z Product Hunta: PR Lens by Coldtea.ai, Scriptly, Tucky i siedem innych aplikacji, które wczoraj zebrały najwięcej głosów. The post PR Lens by Coldtea.ai wygrywa dzień na Product Huncie. Oto 10 narzędzi, które warto znać first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/najlepsze-aplikacje-dnia-7-09-2026/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T08:23:04+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/najlepsze-aplikacje-dnia-7-09-2026-ai.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/najlepsze-aplikacje-dnia-7-09-2026-ai.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/najlepsze-aplikacje-dnia-7-09-2026-ai.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/76e429f1110d95e9</id>
-    <title>DeepSeek V4 Pro: cena w dół o 8%. Nowa stawka to 0,96 / 1,91 dolara za milion tokenów</title>
-    <updated>2026-09-08T05:11:21+00:00</updated>
-    <content>Dostawca modelu DeepSeek V4 Pro tnie ceny. Wejście kosztuje teraz 0,96 dolara za milion tokenów (wcześniej 1,04), a wyjście 1,91 dolara (wcześniej 2,08). To zmiana o 8 procent na pozycji, która w rachunku waży najwięcej. The post DeepSeek V4 Pro: cena w dół o 8%. Nowa stawka to 0,96 / 1,91 dolara za milion tokenów first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/deepseek-v4-pro-cena-w-dol-o-8-nowa-stawka-to-096-191-dolarow-za-milion-tokenow/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T05:11:21+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/zmiana-cen-deepseek-v4-pro-4.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/zmiana-cen-deepseek-v4-pro-4.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/zmiana-cen-deepseek-v4-pro-4.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/8faf32e450c4fc14</id>
-    <title>DeepSeek V4 Flash: cena w dół o 54%. Nowa stawka to 0,07 / 0,18 dolarów za milion tokenów</title>
-    <updated>2026-09-08T05:11:08+00:00</updated>
-    <content>Dostawca modelu DeepSeek V4 Flash tnie ceny. Wejście kosztuje teraz 0,07 dolara za milion tokenów (wcześniej 0,14), a wyjście 0,18 dolara (wcześniej 0,28). To zmiana o 54 procent na pozycji, która w rachunku waży najwięcej. The post DeepSeek V4 Flash: cena w dół o 54%. Nowa stawka to 0,07 / 0,18 dolarów za milion tokenów first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/deepseek-v4-flash-cena-w-dol-o-54-nowa-stawka-to-007-018-dolarow-za-milion-tokenow/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-08T05:11:08+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/zmiana-cen-deepseek-v4-flash.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/zmiana-cen-deepseek-v4-flash.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/zmiana-cen-deepseek-v4-flash.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/c03fa42920dfdd36</id>

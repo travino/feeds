@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T21:23:18.823714+00:00",
+  "last_updated": "2026-09-09T00:31:37.641254+00:00",
   "entries": [
     {
       "title": "Update: Added function calling support to the Fine-tuning API",
@@ -8754,6 +8754,17 @@
       "image_width": 1200,
       "image_height": 630,
       "entry_id": "tag:trvny.github.io,2024:feedseek/openai/ed3143a6e007ab96"
+    },
+    {
+      "title": "Feature: Prompt Cache Diagnostics is now generally available in the Responses API for GPT-5.6 and later supported mo...",
+      "link": "https://developers.openai.com/api/docs/changelog#api-2026-09-08-prompt-cache-diagnostics-is-now-generally",
+      "date": "2026-09-08T00:00:00+00:00",
+      "description": "Prompt Cache Diagnostics is now generally available in the Responses API for GPT-5.6 and later supported models. Compare cache reuse against a previous response, identify reasons for cache misses, and follow troubleshooting guidance to improve cache reuse.",
+      "source": "API changelog",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/1187d932fa1b0530"
     },
     {
       "title": "Funding grants for new research into AI and teen development",

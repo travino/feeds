@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-08T21:24:10.362017+00:00</updated>
+  <updated>2026-09-09T00:32:31.892369+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.v2ex.com/favicon.ico</icon>
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/e47e7af4b9d47924</id>
+    <title>[开源] LazyDB: 键盘优先且支持鼠标的 TUI 终端数据库管理工具(多图预警)</title>
+    <updated>2026-09-09T00:28:54+00:00</updated>
+    <content>给自己 vibe 了一个终端数据库管理工具，自己用起来很爽，有需要的可以自取😄 Github: https://github.com/yelog/lazydb 支持 PostGreSQL 、MySQL 、SQLite 、SQL Server 数据库。 表格预览及编辑、事务切换及管理 较为完备的鼠标操作，尽管是键盘优先，但也尽可能支持鼠标操作 支持 MCP ，让 coding agent 在不同的项目中访问各自的数据库 支持 Neovim 插件：支持 neovim 工作流、LSP 进行数据库表和列字段的补全提示 SQL 执行 表格预览及过滤 多数据支持 数据库总体状态监控 Dashboard 鼠标支持 支持 mcp ，访问当前项目绑定的数据库 支持 Neovim 插件，可以在 neovim 工作流中管理数据库、且支持 LSP ，SQL 代码高亮、在写 SQL 时对表名、列名进行提示 Github: https://github.com/yelog/lazydb 有需要的可以自取，喜欢的麻烦点一下 Star ! 谢谢!</content>
+    <link href="https://www.v2ex.com/t/1240547#reply0" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-09T00:28:54+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/vQ6T2Nz.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/vQ6T2Nz.gif"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/vQ6T2Nz.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/f15edb48d4b5bcb7</id>
+    <title>豆包输入法 WIN 端可以下载了</title>
+    <updated>2026-09-09T00:10:15+00:00</updated>
+    <content>豆包 [微信的跨设备复制也支持]</content>
+    <link href="https://www.v2ex.com/t/1240545#reply1" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-09T00:10:15+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/G8rAhGA.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/G8rAhGA.png"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/G8rAhGA.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/4308a24e16833a5d</id>
     <title>地球电台网站</title>
@@ -464,36 +494,6 @@ B 的 TR069 正常获取 IP
     </media:group>
     <dc:creator>sspai.com</dc:creator>
     <link rel="enclosure" href="https://rssfile.sspai.com/2026/08/31/d2e7fecfc131510783e15f5a36c6072e.jpg?imageMogr2/auto-orient/ignore-error/1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/d8b0c42b7ea6a4ee</id>
-    <title>玄戒 o3 能跑原生 Linux Terminal，这下可以本地 vibe coding 了</title>
-    <updated>2026-09-08T02:21:41+00:00</updated>
-    <content>编译什么的都挺快 最大可分配 10.7 GB 内存</content>
-    <link href="https://www.v2ex.com/t/1240299#reply6" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-08T02:21:41+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/99f2/3af0/147802_large.png?m=1762415765" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/99f2/3af0/147802_large.png?m=1762415765"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/99f2/3af0/147802_large.png?m=1762415765" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/a2b7caad5f485e3c</id>
-    <title>大家看没看 [双休购] 这个小程序～</title>
-    <updated>2026-09-08T02:18:43+00:00</updated>
-    <content>不知道这个小程序还能存活多久～</content>
-    <link href="https://www.v2ex.com/t/1240295#reply1" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-08T02:18:43+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/63db/a51a/355671_xlarge.png?m=1759216422" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/63db/a51a/355671_xlarge.png?m=1759216422"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/63db/a51a/355671_xlarge.png?m=1759216422" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/22027f07e349120e</id>

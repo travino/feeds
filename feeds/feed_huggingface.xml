@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-08T21:22:35.830249+00:00</updated>
+  <updated>2026-09-09T00:30:52.301817+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/e778c8cdfb90efee</id>
+    <title>It’s easy to get distracted by benchmarks, throughput (tok/s), and all the hype around frontier model releases.</title>
+    <updated>2026-09-09T00:30:51.187435+00:00</updated>
+    <content>It’s easy to get distracted by benchmarks, throughput (tok/s), and all the hype around frontier model releases. This is Shiny Model Syndrome, which makes engineers and teams forget the basic physics of production software, i.e., using the right tool for the job and optimizing for ease of integration. - Teams spend huge amounts of money on frontier models for document parsing, OCR, detection, segmentation, and other task-specific visual AI workflows. - Inference marketplaces don’t find it profitable to list task-specific models like glm-ocr, paddleocr, or dots.mocr, even though they’re all superior to frontier VLMs for document parsing and OCR. - Engineers stitch together multiple endpoints f</content>
+    <link href="https://huggingface.co/posts/nwaughachukwuma/199024335043983" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-09T00:30:51.187435+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/nwaughachukwuma/199024335043983.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/nwaughachukwuma/199024335043983.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/nwaughachukwuma/199024335043983.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/10ac7bb5839a927d</id>
     <title>Qwen3.8-27B Unsloth GGUF is now the #1 most-liked GGUF of all time! 🤗🦥</title>

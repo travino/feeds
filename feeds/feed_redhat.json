@@ -8,6 +8,22 @@
   "icon": "https://www.redhat.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/e6c7c17c7f937ea1",
+      "url": "https://access.redhat.com/errata/RHSA-2026:65670",
+      "title": "RHSA-2026:65670: Important: thunderbird security update",
+      "content_text": "An update for thunderbird is now available for Red Hat Enterprise Linux 9.6 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "date_published": "2026-09-08T22:10:55Z",
+      "date_modified": "2026-09-08T22:10:55Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/redhat/0cb946fec49b2f9e",
       "url": "https://access.redhat.com/errata/RHSA-2026:65669",
       "title": "RHSA-2026:65669: Important: thunderbird security update",
@@ -229,22 +245,6 @@
       "content_text": "Red Hat OpenShift Container Platform release 4.22.13 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.22.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References",
       "date_published": "2026-09-08T14:01:19Z",
       "date_modified": "2026-09-08T14:01:19Z",
-      "authors": [
-        {
-          "name": "Red Hat Security Errata"
-        }
-      ],
-      "tags": [
-        "Red Hat Security Errata"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/7b00d1421c4b04c0",
-      "url": "https://access.redhat.com/errata/RHSA-2026:65334",
-      "title": "RHSA-2026:65334: Important: kernel security, bug fix, and enhancement update",
-      "content_text": "An update for kernel is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-08T13:08:03Z",
-      "date_modified": "2026-09-08T13:08:03Z",
       "authors": [
         {
           "name": "Red Hat Security Errata"

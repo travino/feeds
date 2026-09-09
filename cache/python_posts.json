@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T21:23:30.766069+00:00",
+  "last_updated": "2026-09-09T00:31:50.439908+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -8049,6 +8049,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/1dc30122af492dd2"
     },
     {
+      "title": "Django Weblog: Call for volunteers: Fundraising Working Group",
+      "link": "https://www.djangoproject.com/weblog/2026/sep/08/call-for-volunteers-fundraising-working-group/",
+      "date": "2026-09-08T19:27:14+00:00",
+      "description": "The Django Software Foundation is looking for people to join the Fundraising Working Group . This is a particularly interesting time to get involved. The DSF has raised its 2026 fundraising goal to $500,000 . That funding is what allows us to continue supporting the Django Fellows, Django Girls, community events, Djangonaut Space, infrastructure, and the many other things that keep the Django ecosystem going. It also gives the DSF the room to do something new: hire its first Executive Director. ",
+      "source": "Planet Python",
+      "image": "https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/5b1145886fc9c45e"
+    },
+    {
       "title": "PyCoder’s Weekly: Issue #751: Profiling, From pandas to Polars, NotImplemented, and More (2026-09-08)",
       "link": "https://pycoders.com/issues/751",
       "date": "2026-09-08T19:30:00+00:00",
@@ -8058,54 +8067,65 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/224d690a2830dc90"
     },
     {
-      "title": "ovos-workshop 9.7.2a1",
-      "link": "https://pypi.org/project/ovos-workshop/9.7.2a1/",
-      "date": "2026-09-08T21:21:44+00:00",
-      "description": "frameworks, templates and patches for the OpenVoiceOS universe",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/260b733499d5ba64"
+      "title": "What OpenAI’s Astra Means for AI Security Teams",
+      "link": "https://www.anaconda.com/blog/openai-astra-ai-security",
+      "date": "2026-09-08T21:36:37+00:00",
+      "description": "OpenAI's Astra model can find and chain zero-days on its own. Here's what that capability jump means for how enterprises secure AI in production. The post What OpenAI’s Astra Means for AI Security Teams appeared first on Anaconda .",
+      "source": "Anaconda",
+      "image": "https://www.anaconda.com/wp-content/uploads/2026/08/General.png",
+      "image_width": 1920,
+      "image_height": 1080,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b061cf09123f13fe"
     },
     {
-      "title": "packerscope 0.3.0",
-      "link": "https://pypi.org/project/packerscope/0.3.0/",
-      "date": "2026-09-08T21:22:20+00:00",
-      "description": "Automatic packer detection, classification, and unpacking framework for Windows PE files.",
+      "title": "kpublic 0.1.1",
+      "link": "https://pypi.org/project/kpublic/0.1.1/",
+      "date": "2026-09-09T00:16:27+00:00",
+      "description": "한국 공공데이터포털(data.go.kr) API를 함정 없이 쓰는 파이썬 SDK — 키 정규화·결과코드 예외·XML 폴백·자동 페이징 + 기상청/에어코리아/공휴일 어댑터",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/75d7206d1300bd8a"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2973c085361c209f"
     },
     {
-      "title": "hgtd-tools 3.0.0rc3",
-      "link": "https://pypi.org/project/hgtd-tools/3.0.0rc3/",
-      "date": "2026-09-08T21:22:33+00:00",
-      "description": "Tools for the HGTD production database",
+      "title": "runtimed 2.7.7a202609082331",
+      "link": "https://pypi.org/project/runtimed/2.7.7a202609082331/",
+      "date": "2026-09-09T00:16:36+00:00",
+      "description": "Python toolkit for Jupyter runtimes, powered by runtimed Rust binaries",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/186a9eb4066ae3f2"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/acb9221e352b3c1f"
     },
     {
-      "title": "ml4t-data 0.1.4",
-      "link": "https://pypi.org/project/ml4t-data/0.1.4/",
-      "date": "2026-09-08T21:22:35+00:00",
-      "description": "High-performance market data management library with unified multi-provider interface",
+      "title": "ovos-media-plugin-cli 0.0.6a1",
+      "link": "https://pypi.org/project/ovos-media-plugin-cli/0.0.6a1/",
+      "date": "2026-09-09T00:16:59+00:00",
+      "description": "Generic CLI-command playback plugin for ovos-media (and the legacy ovos-audio service)",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/e2b44d2986c4f256"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/d32b454a8aeb1c7d"
     },
     {
-      "title": "flyte-controller-base 2.7.2",
-      "link": "https://pypi.org/project/flyte-controller-base/2.7.2/",
-      "date": "2026-09-08T21:23:04+00:00",
-      "description": "Rust controller for Union",
+      "title": "scigantic-mcp 0.3.0",
+      "link": "https://pypi.org/project/scigantic-mcp/0.3.0/",
+      "date": "2026-09-09T00:17:14+00:00",
+      "description": "MCP server for the Scigantic catalog of public scientific data archives, with LLM-ready schema cards, plus SureChEMBL patent chemistry tools",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/686132b6ec02b987"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/64ee3779d04725f0"
+    },
+    {
+      "title": "coralnet-toolbox 1.0.13",
+      "link": "https://pypi.org/project/coralnet-toolbox/1.0.13/",
+      "date": "2026-09-09T00:17:28+00:00",
+      "description": "Tools for annotating and developing ML models for benthic imagery",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba"
     }
   ]
 }

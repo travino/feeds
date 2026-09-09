@@ -5,6 +5,26 @@
   "home_page_url": "https://weather.trfny.com/",
   "items": [
     {
+      "id": "tag:travny,2026:weather:koscielec:current:2026-09-09T00:00:11.588Z",
+      "title": "Kościelec (Chrzanów): bezchmurnie, 16.9°C",
+      "content_text": "temperatura -3°C → 16.9°C. Mediana 3 źródeł: 16.9°C (rozrzut 15.8–17.7°C), wiatr 1.9 m/s, wilgotność 65%, UV 0.",
+      "date_published": "2026-09-09T00:00:11Z",
+      "date_modified": "2026-09-09T00:00:11Z",
+      "tags": [
+        "current_change"
+      ]
+    },
+    {
+      "id": "tag:travny,2026:weather:koscielec:air:2026-09-08T22:00:09.142Z",
+      "title": "Kościelec (Chrzanów): jakość powietrza — dobra (AQI 38)",
+      "content_text": "Europejski indeks AQI 38 (dobra). PM2.5 14 µg/m³, PM10 19 µg/m³. Dominujący pyłek: ambrozja (26 ziaren/m³).",
+      "date_published": "2026-09-08T22:00:09Z",
+      "date_modified": "2026-09-08T22:00:09Z",
+      "tags": [
+        "air_quality_change"
+      ]
+    },
+    {
       "id": "tag:travny,2026:weather:koscielec:air:2026-09-08T20:00:10.786Z",
       "title": "Kościelec (Chrzanów): jakość powietrza — umiarkowana (AQI 41)",
       "content_text": "Europejski indeks AQI 41 (umiarkowana). PM2.5 16.4 µg/m³, PM10 24 µg/m³. Dominujący pyłek: ambrozja (25 ziaren/m³).",
@@ -582,26 +602,6 @@
       "date_modified": "2026-09-01T18:00:41Z",
       "tags": [
         "current_change"
-      ]
-    },
-    {
-      "id": "tag:travny,2026:weather:koscielec:current:2026-09-01T12:00:41.146Z",
-      "title": "Kościelec (Chrzanów): zachmurzenie, 23.8°C",
-      "content_text": "temperatura +6.1°C → 23.8°C. Mediana 3 źródeł: 23.8°C (rozrzut 22.6–24.1°C), wiatr 3.9 m/s, wilgotność 47.9%, UV 6.1.",
-      "date_published": "2026-09-01T12:00:41Z",
-      "date_modified": "2026-09-01T12:00:41Z",
-      "tags": [
-        "current_change"
-      ]
-    },
-    {
-      "id": "tag:travny,2026:weather:koscielec:air:2026-09-01T08:00:32.200Z",
-      "title": "Kościelec (Chrzanów): jakość powietrza — dobra (AQI 24)",
-      "content_text": "Europejski indeks AQI 24 (dobra). PM2.5 5.2 µg/m³, PM10 8.9 µg/m³. Dominujący pyłek: ambrozja (12 ziaren/m³).",
-      "date_published": "2026-09-01T08:00:32Z",
-      "date_modified": "2026-09-01T08:00:32Z",
-      "tags": [
-        "air_quality_change"
       ]
     }
   ]

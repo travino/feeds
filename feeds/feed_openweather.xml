@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>urn:openweather:chrzanów-pl</id>
   <title>OpenWeather</title>
-  <updated>2026-09-08T21:23:18.761949+00:00</updated>
+  <updated>2026-09-09T00:31:35.170488+00:00</updated>
   <author>
     <name>OpenWeather</name>
     <uri>https://openweathermap.org/</uri>
@@ -13,6 +13,22 @@
   <icon>https://openweathermap.org/favicon.ico</icon>
   <logo>https://openweathermap.org/favicon.ico</logo>
   <subtitle>Daily forecast aggregated from OpenWeather's 5-day/3-hour data</subtitle>
+  <entry>
+    <id>urn:openweather:chrzanów-pl:2026-09-14</id>
+    <title>Chrzanów, PL: Mon 14 Sep — Broken clouds, 13–13°C</title>
+    <updated>2026-09-09T00:31:35.168539+00:00</updated>
+    <content type="html">&lt;p&gt;&lt;strong&gt;Broken clouds&lt;/strong&gt; · High 13°C · Low 13°C&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
+&lt;li&gt;Feels like (midday): 12°C&lt;/li&gt;
+&lt;li&gt;Wind: up to 1.1 m/s&lt;/li&gt;
+&lt;li&gt;Humidity: 64%&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Partial day (forecast window does not cover all hours).&lt;/em&gt;&lt;/p&gt;</content>
+    <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
+    <category term="weather"/>
+    <published>2026-09-14T00:00:00+02:00</published>
+  </entry>
   <entry>
     <id>urn:openweather:chrzanów-pl:2026-09-13</id>
     <title>Chrzanów, PL: Sun 13 Sep — Light rain, 14–22°C</title>
@@ -642,21 +658,5 @@
     <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
     <category term="weather"/>
     <published>2026-08-06T00:00:00+02:00</published>
-  </entry>
-  <entry>
-    <id>urn:openweather:chrzanów-pl:2026-08-05</id>
-    <title>Chrzanów, PL: Wed 05 Aug — Clear sky, 27–27°C</title>
-    <updated>2026-08-05T20:18:15.241289+00:00</updated>
-    <content type="html">&lt;p&gt;&lt;strong&gt;Clear sky&lt;/strong&gt; · High 27°C · Low 27°C&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chance of precipitation: 0%&lt;/li&gt;
-&lt;li&gt;Feels like (midday): 27°C&lt;/li&gt;
-&lt;li&gt;Wind: up to 1.6 m/s&lt;/li&gt;
-&lt;li&gt;Humidity: 46%&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;em&gt;Partial day (forecast window does not cover all hours).&lt;/em&gt;&lt;/p&gt;</content>
-    <link href="https://openweathermap.org/city/3101547" rel="alternate"/>
-    <category term="weather"/>
-    <published>2026-08-05T00:00:00+02:00</published>
   </entry>
 </feed>

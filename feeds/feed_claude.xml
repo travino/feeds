@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-09-08T21:22:09.429093+00:00</updated>
+  <updated>2026-09-09T00:30:19.711224+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://claude.com/favicon.ico</icon>
   <logo>https://claude.com/favicon.ico</logo>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, Claude Platform release notes and system prompts, and the Claude status incident history.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/claude/e67b8d98d542f1d1</id>
+    <title>2.1.266</title>
+    <updated>2026-09-09T00:02:54+00:00</updated>
+    <content>2.1.266</content>
+    <link href="https://code.claude.com/docs/en/changelog#2-1-266" rel="alternate"/>
+    <category term="Claude Code" label="Claude Code"/>
+    <published>2026-09-09T00:02:54+00:00</published>
+    <media:group>
+      <media:content url="https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26title%3DClaude%2BCode%2Bchangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26theme%3D03628e99c753a03aec319053&amp;w=1200&amp;q=100" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26title%3DClaude%2BCode%2Bchangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26theme%3D03628e99c753a03aec319053&amp;w=1200&amp;q=100" height="630" width="1200"/>
+    </media:group>
+    <link rel="enclosure" href="https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26title%3DClaude%2BCode%2Bchangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26theme%3D03628e99c753a03aec319053&amp;w=1200&amp;q=100" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/claude/094ee303c218cf8d</id>
     <title>2.1.265</title>
@@ -2067,19 +2081,5 @@
       <media:thumbnail url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"/>
     </media:group>
     <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/claude/2affd9c68605b4d3</id>
-    <title>Claude Platform release notes — July 24, 2026</title>
-    <updated>2026-07-24T00:00:00+00:00</updated>
-    <content>We've launched Claude Opus 5 ( claude-opus-5 ), a step-change improvement over Claude Opus 4.8. Claude Opus 5 supports a 1M token context window (both the default and the maximum), 128k max output tokens, and thinking on by default, at $5 / $25 USD per MTok, the same pricing as Claude Opus 4.8. It's available on the Claude API, Claude in Amazon Bedrock , Claude Platform on AWS , Claude on Google Cloud , and Claude in Microsoft Foundry . See What's new in Claude Opus 5 for new features, behavior </content>
-    <link href="https://platform.claude.com/docs/en/release-notes/overview#july-24-2026" rel="alternate"/>
-    <category term="Claude Platform" label="Claude Platform"/>
-    <published>2026-07-24T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2" type="image/jpeg" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2" height="630" width="1200"/>
-    </media:group>
-    <link rel="enclosure" href="https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2" type="image/jpeg" length="0"/>
   </entry>
 </feed>
