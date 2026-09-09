@@ -54,6 +54,15 @@ def load_feed_registry(return_skipped: bool = False):
     feeds: dict[str, FeedConfig] = {}
     skipped: list[str] = []
     for name, config in data.get("feeds", {}).items():
+        if not isinstance(config, dict):
+            skipped.append(name)
+            logger.error(
+                "Skipping invalid feed config '%s' in feeds.yaml (expected mapping, got %s)",
+                name,
+                type(config).__name__,
+            )
+            continue
+
         try:
             feeds[name] = FeedConfig(**config)
         except ValidationError as e:
