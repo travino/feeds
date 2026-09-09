@@ -8,7 +8,7 @@
 |----------|---------|----------|--------|------------------|
 | high | Critical shared helper has a large blast radius | `feed_generators/utils.py` is 958 lines and patches Feedgen file-writing methods | A small regression can affect most generated feeds, cache state or serialization | Keep moving reusable concerns into focused modules while preserving one source of truth; require invariant tests for each extraction |
 | medium | Feed richness cannot be represented by one universal checklist | Sources range from APIs/weather to newsrooms and native feeds; `validate_feeds.py` intentionally gates structural invariants only | An overly strict validator could reward invented metadata or reject legitimate sparse sources | Keep structural invariants hard and source-dependent enrichment evidence-based and best-effort |
-| medium | Generator execution scales mostly sequentially | `feed_generators/run_all_feeds.py`; 96 enabled feeds in `feeds.yaml`; comments report a normal full pass around 12 minutes | More sources or slower upstreams consume the 69-minute workflow budget | Track run duration and introduce carefully bounded parallelism only when needed, preserving per-source isolation and rate limits |
+| medium | Batch duration depends on upstream latency and source count | `feed_generators/run_all_feeds.py` uses bounded concurrency and reports the slowest generators | Slow or rate-limited upstreams can still consume workflow headroom as the registry grows | Track per-generator duration and tune the bounded worker count only from measured need, preserving per-source isolation and rate limits |
 | medium | Public proxy fetches arbitrary public-looking HTTPS destinations | `feeds-proxy/src/index.js` | Proxy abuse/SSRF-like behavior is the main exposed network-security surface | Verify Cloudflare's resolved-address guarantees; if needed add an explicit destination policy beyond syntactic hostname checks |
 
 ### 2) Technical Debt
@@ -31,7 +31,7 @@
 
 | Concern | Evidence | Current symptom | Scaling risk | Suggested improvement |
 |---------|----------|-----------------|-------------|-----------------------|
-| Sequential feed batch | `run_all_feeds.py` | Normal pass is documented around 12 minutes | Source count/latency can approach job timeout | Measure aggregate and per-generator duration; add bounded concurrency only if headroom shrinks |
+| Network-bound feed batch | `run_all_feeds.py` uses a bounded worker pool with per-generator timing | Independent network waits are overlapped while concurrency remains capped | More sources or slower upstreams can still stretch the scheduled job or trigger rate limits | Keep the current bound conservative and tune it from measured slowest-generator data rather than adding unbounded parallelism |
 | Enrichment fans out network requests | `article_image.py`, `google_news.py` | Potentially many article/page lookups | Upstream load and CI duration | Keep current per-feed lookup/time/attempt budgets; tune from measured backlog |
 | Persistent cache growth | `utils.DEFAULT_CACHE_LIMIT`, R2 128 MiB ceiling | Historical caches previously grew without bound | Oversized cache can prevent fresh R2 backup | Retain bounded trimming/fair-share policy and monitor archive size |
 | Large static render script | `site/build_site.py` | Re-parses selected feed XML during each build | Mostly linear and acceptable at current size | Optimize only with measured build pressure; correctness is more important than premature indexing |
