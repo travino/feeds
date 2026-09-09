@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.mi.com/global/discover/newsroom</id>
   <title>Xiaomi Newsroom</title>
-  <updated>2026-09-09T00:32:40.917683+00:00</updated>
+  <updated>2026-09-09T05:08:43.097004+00:00</updated>
   <author>
     <name>Xiaomi</name>
   </author>
@@ -13,13 +13,13 @@
   <logo>https://www.mi.com/favicon.ico</logo>
   <subtitle>Combined Xiaomi feed: xiaomi.eu community, Xiaomi Advices, Xiaomi Today, and Xiaomi Corp investor news.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xiaomi/e55b90349ff63363</id>
-    <title>I’m facing a very frustrating issue with my Xiaomi phone. A long, unusual ringtone (one I’ve never heard before) keeps triggering randomly</title>
-    <updated>2026-09-08T22:25:37+00:00</updated>
-    <content>The weird part: There are no notifications on the screen when it happens. No icons in the status bar. Even after a restart, the sound came back. It’s a long sound like old alarm clock, not just a short "beep". What I have already tried/checked: Notification History: I checked, but nothing shows up at the time of the sound. Security App: I cleared the cache and data of the built-in Xiaomi Security app. Antivirus: I installed Avast to scan for malware (nothing found so far). NFC: I've... Read more</content>
-    <link href="https://xiaomi.eu/community/threads/i%E2%80%99m-facing-a-very-frustrating-issue-with-my-xiaomi-phone-a-long-unusual-ringtone-one-i%E2%80%99ve-never-heard-before-keeps-triggering-randomly.76756/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/xiaomi/6fc965a1f425ffc9</id>
+    <title>Xiaomi 17 - Google wallet &amp; Banking fix for rooted global rom</title>
+    <updated>2026-09-09T01:38:03+00:00</updated>
+    <content>How-To: Xiaomi 17 revolut / google wallet fix! ​ - Big thnx to Balle45 on Swedroid! Prerequisites​ Xiaomi 17 Pro Max with unlocked bootloader ADB + Fastboot installed on PC USB debugging enabled on the phone The init_boot.img from your xiaomi.eu ROM package Part 1: Install KernelSU Next​ ( repeat same tutorial we previously did with magisk this time with KernelSU ) Copy init_boot.img to your phone ( use same... Read more</content>
+    <link href="https://xiaomi.eu/community/threads/xiaomi-17-google-wallet-banking-fix-for-rooted-global-rom.76464/" rel="alternate"/>
     <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-09-08T22:25:37+00:00</published>
+    <published>2026-09-09T01:38:03+00:00</published>
     <media:group>
       <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
@@ -30,11 +30,26 @@
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/xiaomi/55783b3ed77f609a</id>
     <title>Does Xiaomi.eu Custom ROM Include Built-In Play Integrity Fixes for Unrooted CN Devices?</title>
-    <updated>2026-09-08T21:46:02+00:00</updated>
+    <updated>2026-09-09T01:31:59+00:00</updated>
     <content>Hi everyone, If I buy a Chinese variant device, keep the bootloader unlocked, and flash the official Xiaomi.eu custom ROM (HyperOS 3 or above) WITHOUT rooting (no Magisk, KernelSU, or APatch): Does the Xiaomi.eu custom ROM itself include the necessary Play Integrity modules/fixes to pass both MEETS_BASIC_INTEGRITY and MEETS_DEVICE_INTEGRITY out of the box? I know MEETS_STRONG_INTEGRITY is not possible (or needed) without locking the bootloader or using custom Keybox modules via root. I... Read m</content>
     <link href="https://xiaomi.eu/community/threads/does-xiaomi-eu-custom-rom-include-built-in-play-integrity-fixes-for-unrooted-cn-devices.76757/" rel="alternate"/>
     <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-09-08T21:46:02+00:00</published>
+    <published>2026-09-09T01:31:59+00:00</published>
+    <media:group>
+      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
+    </media:group>
+    <dc:creator>xiaomi.eu community</dc:creator>
+    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xiaomi/e55b90349ff63363</id>
+    <title>I’m facing a very frustrating issue with my Xiaomi phone. A long, unusual ringtone (one I’ve never heard before) keeps triggering randomly</title>
+    <updated>2026-09-08T22:25:37+00:00</updated>
+    <content>The weird part: There are no notifications on the screen when it happens. No icons in the status bar. Even after a restart, the sound came back. It’s a long sound like old alarm clock, not just a short "beep". What I have already tried/checked: Notification History: I checked, but nothing shows up at the time of the sound. Security App: I cleared the cache and data of the built-in Xiaomi Security app. Antivirus: I installed Avast to scan for malware (nothing found so far). NFC: I've... Read more</content>
+    <link href="https://xiaomi.eu/community/threads/i%E2%80%99m-facing-a-very-frustrating-issue-with-my-xiaomi-phone-a-long-unusual-ringtone-one-i%E2%80%99ve-never-heard-before-keeps-triggering-randomly.76756/" rel="alternate"/>
+    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
+    <published>2026-09-08T22:25:37+00:00</published>
     <media:group>
       <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
@@ -470,21 +485,6 @@
     <link href="https://xiaomi.eu/community/threads/miui-rom-global-language-creators-beyond-the-code-%E2%80%93-what%E2%80%99s-your-offline-hack.76753/" rel="alternate"/>
     <category term="xiaomi.eu community" label="xiaomi.eu community"/>
     <published>2026-09-06T22:02:45+00:00</published>
-    <media:group>
-      <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>
-    </media:group>
-    <dc:creator>xiaomi.eu community</dc:creator>
-    <link rel="enclosure" href="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xiaomi/6fc965a1f425ffc9</id>
-    <title>Xiaomi 17 - Google wallet &amp; Banking fix for rooted global rom</title>
-    <updated>2026-09-06T20:12:45+00:00</updated>
-    <content>How-To: Xiaomi 17 revolut / google wallet fix! ​ - Big thnx to Balle45 on Swedroid! Prerequisites​ Xiaomi 17 Pro Max with unlocked bootloader ADB + Fastboot installed on PC USB debugging enabled on the phone The init_boot.img from your xiaomi.eu ROM package Part 1: Install KernelSU Next​ ( repeat same tutorial we previously did with magisk this time with KernelSU ) Copy init_boot.img to your phone ( use same... Read more</content>
-    <link href="https://xiaomi.eu/community/threads/xiaomi-17-google-wallet-banking-fix-for-rooted-global-rom.76464/" rel="alternate"/>
-    <category term="xiaomi.eu community" label="xiaomi.eu community"/>
-    <published>2026-09-06T20:12:45+00:00</published>
     <media:group>
       <media:content url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png" type="image/png" medium="image"/>
       <media:thumbnail url="https://xiaomi.eu/community/styles/uix/images/og_logo_xiaomi.png"/>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T21:23:28.173747+00:00",
+  "last_updated": "2026-09-09T05:08:00.522081+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3646,6 +3646,15 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/fc5e0bdef525a48f"
+    },
+    {
+      "title": "Filtering the ADB catalog by caller identity before NL2SQL - findings from a live 26ai run",
+      "link": "https://forums.oracle.com/ords/apexds/post/filtering-the-adb-catalog-by-caller-identity-before-nl2sql-8655",
+      "date": "2026-09-09T04:13:59.159400+00:00",
+      "description": "Sharing what a live run against an Always Free ADB turned up, and asking where the Oracle handling is wrong. The problem is an ordering one. Schema selection happens before the query runs, so it happens before VPD or RLS can act. If the selection step is not identity-aware, the model is handed a table the caller cannot read, writes correct SQL, the policy filters every row, and the user is told there are no records. That is a wrong answer that looks like a right one, not an access-denied message",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/cef50df6aed4c97c"
     }
   ]
 }

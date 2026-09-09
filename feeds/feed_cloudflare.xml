@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-09T00:30:19.833953+00:00</updated>
+  <updated>2026-09-09T05:06:45.001496+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -126,6 +126,21 @@ Most projects should use those tools instead of depending on Miniflare directly,
     <updated>2026-09-08T00:00:00+00:00</updated>
     <content>This release enhances detection logic for existing rules targeting Next.js remote code execution (RCE) vulnerabilities by consolidating active beta rules into baseline signatures. Ruleset Rule ID Legacy Rule ID Description Previous Action New Action Comments Cloudflare Managed Ruleset ...c76ba662 N/A Next.js - Image Optimizer Remote Code Execution via Crafted AVIF - Beta Log Block This rule is merged into the original rule "Next.js - Image Optimizer Remote Code Execution via Crafted AVIF" (ID: .</content>
     <link href="https://developers.cloudflare.com/changelog/post/2026-09-08-waf-release/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/8a515ee29b74e56a</id>
+    <title>Workers - Python 3.14 for Python Workers</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Python workers now use Python 3.14 by default. This change applies to all new Python workers using compatibility date 2026-09-08 or later. Internally, this change updates the Pyodide runtime to 314.0.6.</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-08-python-workers-314/" rel="alternate"/>
     <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
     <published>2026-09-08T00:00:00+00:00</published>
     <media:group>
@@ -1354,21 +1369,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     </media:group>
     <dc:creator>Cloudflare Blog</dc:creator>
     <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/e69726c5ea4aec6c</id>
-    <title>Durable Objects, Workers - View deployments for Durable Objects in the dashboard</title>
-    <updated>2026-08-20T00:00:00+00:00</updated>
-    <content>Durable Object namespaces now have a Deployments tab in the Cloudflare dashboard, showing the versions of the backing Worker that are currently live and the traffic split between them. Go to Durable Objects ↗ A Durable Object namespace is backed by a Worker script, so its deployments are the same as that Worker's deployments. Previously, checking on a gradual deployment in progress for a Durable Object meant navigating to the backing Worker. The new tab surfaces that information directly on the </content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-20-durable-objects-deployments-tab/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-20T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2508,height=654,format=webp/_astro/durable-objects-deployments-tab.ZJc93gIt.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2508,height=654,format=webp/_astro/durable-objects-deployments-tab.ZJc93gIt.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2508,height=654,format=webp/_astro/durable-objects-deployments-tab.ZJc93gIt.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/3be4694f86c63498</id>

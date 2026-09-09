@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-09T00:32:30.103758+00:00</updated>
+  <updated>2026-09-09T05:08:32.070086+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,16 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/8e0adf20d5fc069d</id>
+    <title>B站直播间音量快捷控制 — Super-Dian</title>
+    <updated>2026-09-09T04:47:48+00:00</updated>
+    <content>快捷调整B站直播间音量，支持循环切换和弹出菜单两种模式，支持深色模式，设置即时生效</content>
+    <link href="https://scriptcat.org/script-show-page/7904" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-09T04:47:48+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/9937f09fbf84bf06</id>
     <title>微软积分商城签到（改进版） — 爆归</title>
@@ -1490,16 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7689" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-27T04:05:38+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/fd21c180520c0e3e</id>
-    <title>XyPlayer 便携版 · 云播放聚合 — admin789</title>
-    <updated>2026-08-26T18:27:40+00:00</updated>
-    <content>将 XyPlayer 智能解析的"云播放"+"VIP解析"模块移植为纯前端油猴脚本：多资源站并行搜索影视、聚合取剧集、内嵌 ArtPlayer+hls.js 播放 m3u8/mp4、第三方解析线路（iframe）、剧集连播与历史记录。无需 PHP 服务器。</content>
-    <link href="https://scriptcat.org/script-show-page/7687" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-26T18:27:40+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-09T00:31:46.925884+00:00</updated>
+  <updated>2026-09-09T05:08:00.423509+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,34 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85841</id>
+    <title>Mix Of The Day: TSHEPO DJ</title>
+    <updated>2026-09-09T05:06:51.418607+00:00</updated>
+    <content>Melancholic, soulful and straight-up gorgeous house.</content>
+    <link href="https://ra.co/news/85841" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-09T05:06:51.418607+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/motd23082026.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/motd23082026.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/motd23082026.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://ra.co/news/85970</id>
+    <title>Mix Of The Day: Elin</title>
+    <updated>2026-09-09T05:00:11+00:00</updated>
+    <content>Shadowy dubstep and druidstep.</content>
+    <link href="https://ra.co/news/85970" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-09T05:00:11+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-08-sep-2026-11-19-am-1162.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-08-sep-2026-11-19-am-1162.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-08-sep-2026-11-19-am-1162.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/news/85838</id>
     <title>Mix Of The Day: Sight -Beyond- Sound</title>
@@ -2783,33 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/reviews/2025/malaandmagugu.png"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/reviews/2025/malaandmagugu.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/reviews/36324</id>
-    <title>Beatrice M. - Midnight Swim</title>
-    <updated>2026-08-23T10:58:38.535736+00:00</updated>
-    <content>Another hit from France's best hope for a modern day dubstep great.</content>
-    <link href="https://ra.co/reviews/36324" rel="alternate"/>
-    <category term="Review"/>
-    <published>2026-08-23T10:58:38.535736+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/reviews/2025/beatricemidnightswim-cover.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/reviews/2025/beatricemidnightswim-cover.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/reviews/2025/beatricemidnightswim-cover.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/reviews/36358</id>
-    <title>Answer Code Request - Halo</title>
-    <updated>2026-08-23T09:06:12.146870+00:00</updated>
-    <content>The Berlin producer picks up where his 2018 LP Gens left off, wringing extreme feeling from techno's austere templates.</content>
-    <link href="https://ra.co/reviews/36358" rel="alternate"/>
-    <category term="Review"/>
-    <published>2026-08-23T09:06:12.146870+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/reviews/2026/answercoderequesthalo-cover.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/reviews/2026/answercoderequesthalo-cover.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/reviews/2026/answercoderequesthalo-cover.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

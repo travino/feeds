@@ -8,6 +8,29 @@
   "icon": "https://blogs.oracle.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/cef50df6aed4c97c",
+      "url": "https://forums.oracle.com/ords/apexds/post/filtering-the-adb-catalog-by-caller-identity-before-nl2sql-8655",
+      "title": "Filtering the ADB catalog by caller identity before NL2SQL - findings from a live 26ai run",
+      "content_text": "Sharing what a live run against an Always Free ADB turned up, and asking where the Oracle handling is wrong. The problem is an ordering one. Schema selection happens before the query runs, so it happens before VPD or RLS can act. If the selection step is not identity-aware, the model is handed a table the caller cannot read, writes correct SQL, the policy filters every row, and the user is told there are no records. That is a wrong answer that looks like a right one, not an access-denied message",
+      "date_published": "2026-09-09T04:13:59Z",
+      "date_modified": "2026-09-09T04:13:59Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/fc5e0bdef525a48f",
       "url": "https://forums.oracle.com/ords/apexds/post/lov-column-in-grid-sets-to-null-when-tab-through-8652",
       "title": "LOV Column in Grid sets to Null when tab through",
@@ -395,29 +418,6 @@
         {
           "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/GSgtOobp-0102-cIDmCNBV",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/276f08e3d69a9885",
-      "url": "https://forums.oracle.com/ords/apexds/post/modafinil-400mg-what-is-this-dosage-used-for-8770",
-      "title": "Modafinil 400mg: What Is This Dosage Used For?",
-      "content_text": "Modafinil 400mg is a high dosage of modafinil, which is a prescription drug and works towards improving wakefulness and alertness. Modafinil is used to improve the condition of wakefulness in adults who have various diseases including narcolepsy, obstructive sleep apnea and shift work sleep disorder by affecting certain chemicals and signals in the brain. A dosage of 400mg of modafinil is usually regarded as the highest daily dosage of modafinil. The exact amount of the dosage should be taken de",
-      "date_published": "2026-09-07T11:07:23Z",
-      "date_modified": "2026-09-07T11:07:23Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png",
-          "mime_type": "image/png"
         }
       ]
     },

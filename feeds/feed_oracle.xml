@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-09T00:31:43.179522+00:00</updated>
+  <updated>2026-09-09T05:08:00.339913+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/cef50df6aed4c97c</id>
+    <title>Filtering the ADB catalog by caller identity before NL2SQL - findings from a live 26ai run</title>
+    <updated>2026-09-09T04:13:59.159400+00:00</updated>
+    <content>Sharing what a live run against an Always Free ADB turned up, and asking where the Oracle handling is wrong. The problem is an ordering one. Schema selection happens before the query runs, so it happens before VPD or RLS can act. If the selection step is not identity-aware, the model is handed a table the caller cannot read, writes correct SQL, the policy filters every row, and the user is told there are no records. That is a wrong answer that looks like a right one, not an access-denied message</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/filtering-the-adb-catalog-by-caller-identity-before-nl2sql-8655" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-09T04:13:59.159400+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/fc5e0bdef525a48f</id>
     <title>LOV Column in Grid sets to Null when tab through</title>
@@ -266,21 +281,6 @@
     </media:group>
     <dc:creator>Oracle Developer Community</dc:creator>
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/GSgtOobp-0102-cIDmCNBV" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/276f08e3d69a9885</id>
-    <title>Modafinil 400mg: What Is This Dosage Used For?</title>
-    <updated>2026-09-07T11:07:23.686275+00:00</updated>
-    <content>Modafinil 400mg is a high dosage of modafinil, which is a prescription drug and works towards improving wakefulness and alertness. Modafinil is used to improve the condition of wakefulness in adults who have various diseases including narcolepsy, obstructive sleep apnea and shift work sleep disorder by affecting certain chemicals and signals in the brain. A dosage of 400mg of modafinil is usually regarded as the highest daily dosage of modafinil. The exact amount of the dosage should be taken de</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/modafinil-400mg-what-is-this-dosage-used-for-8770" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-07T11:07:23.686275+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/01109a56bf857890</id>

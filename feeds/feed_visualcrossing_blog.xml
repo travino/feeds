@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.visualcrossing.com/resources/</id>
   <title>Visual Crossing Resources</title>
-  <updated>2026-09-09T00:32:32.528628+00:00</updated>
+  <updated>2026-09-09T05:08:34.129173+00:00</updated>
   <author>
     <name>Visual Crossing</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.visualcrossing.com/favicon.ico</icon>
   <logo>https://www.visualcrossing.com/favicon.ico</logo>
   <subtitle>Visual Crossing news, blog posts and documentation updates.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/aa061dccde3edf90</id>
+    <title>Weather Data Documentation</title>
+    <updated>2026-09-09T00:52:03+00:00</updated>
+    <content>The Visual Crossing Weather Data platform provides the ability to easily access weather data sets including weather forecast data, weather history data and historical weather summary data. The data is available for download through the Weather Data Query Page and the Timeline Weather API. Core weather elements These columns are common to most weather data sets unless disabled. […] The post Weather Data Documentation appeared first on Visual Crossing .</content>
+    <link href="https://www.visualcrossing.com/resources/documentation/weather-data/weather-data-documentation/" rel="alternate"/>
+    <category term="Visual Crossing Documentation" label="Visual Crossing Documentation"/>
+    <published>2026-09-09T00:52:03+00:00</published>
+    <media:group>
+      <media:content url="https://www.visualcrossing.com/wp-content/uploads/2025/07/weather_dictionary.png" type="image/png" medium="image" height="400" width="600"/>
+      <media:thumbnail url="https://www.visualcrossing.com/wp-content/uploads/2025/07/weather_dictionary.png" height="400" width="600"/>
+    </media:group>
+    <dc:creator>Visual Crossing Documentation</dc:creator>
+    <link rel="enclosure" href="https://www.visualcrossing.com/wp-content/uploads/2025/07/weather_dictionary.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/2c23031a1648b8a3</id>
     <title>Free Weather Tools and Dashboards</title>

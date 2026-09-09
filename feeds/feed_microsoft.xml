@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-09-09T00:31:31.714716+00:00</updated>
+  <updated>2026-09-09T05:07:53.638590+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -26,6 +26,21 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/57f248685be7d56c</id>
+    <title>Enterprise-managed sandbox in Copilot for JetBrains</title>
+    <updated>2026-09-09T02:43:38+00:00</updated>
+    <content>This update brings support for enterprise-managed sandbox policies, cross-file cursor jumps for next edit suggestions, global project context in chat, enterprise policy diagnostics, and a new connection between terminal Copilot… The post Enterprise-managed sandbox in Copilot for JetBrains appeared...</content>
+    <link href="https://github.blog/changelog/2026-09-08-enterprise-managed-sandbox-in-copilot-for-jetbrains" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-09T02:43:38+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/12ebab8cc50337cb</id>
@@ -228,31 +243,6 @@
     <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/WeishungChris-MSRPod_TW_LI_FB_1920x1080-1.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/6cdf8a3057440b84</id>
-    <title>Earn the badge built for Frontier AI leaders</title>
-    <updated>2026-09-08T16:37:26+00:00</updated>
-    <content>The next wave of AI transformation needs more than ambition. Customers need partners with the skills and proven capabilities to deliver real outcomes. The Frontier Transformation Engineer badge recognizes partners building the capabilities to design, implement, and deliver Microsoft Frontier AI solutions. Earn the badge to demonstrate validated skills, strengthen customer confidence, and differentiate your practice in a rapidly evolving AI market. With the Frontier Transformation Engineer journe</content>
-    <link href="https://techcommunity.microsoft.com/t5/partner-news/earn-the-badge-built-for-frontier-ai-leaders/ba-p/4553596" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T16:37:26+00:00</published>
-    <dc:creator>Tech Community</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/d9b724f716391393</id>
-    <title>Notes and documents – the way clinicians want them</title>
-    <updated>2026-09-08T15:29:10+00:00</updated>
-    <content>The moment after the visit There is a moment in every patient encounter when the clinical story needs to become something more than a note. It may become a referral letter, a set of patient instructions, a school or work note, or a summary that helps a patient remember what was discussed. These documents matter as much as the note itself. A patient needs clear instructions they can understand and follow. A referring physician needs concise context and clinical reasoning. A specialist needs relev</content>
-    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/notes-and-documents-the-way-clinicians-want-them/ba-p/4554064" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T15:29:10+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" medium="image" height="1560" width="3266"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" height="1560" width="3266"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/185ce8b9aa9335c3</id>
     <title>The Microsoft Student Ambassador Who Became an MVP: Bojan Ivanoski's Journey</title>
     <updated>2026-09-08T15:15:00+00:00</updated>
@@ -371,6 +361,31 @@
     </media:group>
     <dc:creator>Tech Community</dc:creator>
     <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyMzQzLXk1QmJLYg?revision=21" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/6cdf8a3057440b84</id>
+    <title>Earn the badge built for Frontier AI leaders</title>
+    <updated>2026-09-07T16:00:00+00:00</updated>
+    <content>The next wave of AI transformation needs more than ambition. Customers need partners with the skills and proven capabilities to deliver real outcomes. The Frontier Transformation Engineer badge recognizes partners building the capabilities to design, implement, and deliver Microsoft Frontier AI solutions. Earn the badge to demonstrate validated skills, strengthen customer confidence, and differentiate your practice in a rapidly evolving AI market. With the Frontier Transformation Engineer journe</content>
+    <link href="https://techcommunity.microsoft.com/t5/partner-news/earn-the-badge-built-for-frontier-ai-leaders/ba-p/4553596" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-07T16:00:00+00:00</published>
+    <dc:creator>Tech Community</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/d9b724f716391393</id>
+    <title>Notes and documents – the way clinicians want them</title>
+    <updated>2026-09-07T15:48:13+00:00</updated>
+    <content>The moment after the visit There is a moment in every patient encounter when the clinical story needs to become something more than a note. It may become a referral letter, a set of patient instructions, a school or work note, or a summary that helps a patient remember what was discussed. These documents matter as much as the note itself. A patient needs clear instructions they can understand and follow. A referring physician needs concise context and clinical reasoning. A specialist needs relev</content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/notes-and-documents-the-way-clinicians-want-them/ba-p/4554064" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-07T15:48:13+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" medium="image" height="1560" width="3266"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" height="1560" width="3266"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MDY0LXIxZU5OMw?revision=1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/122e97a143beeadb</id>
@@ -1260,16 +1275,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/643788614-0f2bb4fa-0dbe-4e11-b56f-03606e66ea3c.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/e04ca440f5fec2ab</id>
-    <title>[In preview] Public Preview: Azure Multicloud Interconnect</title>
-    <updated>2026-08-31T18:36:12+00:00</updated>
-    <content>Announcing the public preview of Azure Multicloud Interconnect, a managed service that provides private connectivity between Azure and supported cloud providers, with Amazon Web Services (AWS) available as the first supported provider in preview. As organ...</content>
-    <link href="https://azure.microsoft.com/updates?id=570364" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-08-31T18:36:12+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/1621f6709a15390c</id>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T00:31:50.439908+00:00",
+  "last_updated": "2026-09-09T05:07:58.367424+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -7954,15 +7954,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/8c7994ba519e7580"
     },
     {
-      "title": "Graham Dumpleton: Zero-code tracing with wrapture",
-      "link": "https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/",
-      "date": "2026-09-08T01:39:22+00:00",
-      "description": "The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi",
-      "source": "Planet Python",
-      "image": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7"
-    },
-    {
       "title": "ModelMetre 0.2.1",
       "link": "https://pypi.org/project/modelmetre/0.2.1/",
       "date": "2026-09-08T05:07:33+00:00",
@@ -8078,6 +8069,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/b061cf09123f13fe"
     },
     {
+      "title": "Graham Dumpleton: Zero-code tracing with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7"
+    },
+    {
       "title": "kpublic 0.1.1",
       "link": "https://pypi.org/project/kpublic/0.1.1/",
       "date": "2026-09-09T00:16:27+00:00",
@@ -8126,6 +8126,65 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba"
+    },
+    {
+      "title": "Graham Dumpleton: Tracing Flask with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/",
+      "date": "2026-09-09T01:39:21+00:00",
+      "description": "For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43"
+    },
+    {
+      "title": "luma-infra 0.1.310",
+      "link": "https://pypi.org/project/luma-infra/0.1.310/",
+      "date": "2026-09-09T05:05:53+00:00",
+      "description": "Declarative deployment CLI for region-aware Nomad infrastructure.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/04db7668bd4c32ad"
+    },
+    {
+      "title": "utim-cli 2.3.26",
+      "link": "https://pypi.org/project/utim-cli/2.3.26/",
+      "date": "2026-09-09T05:06:44+00:00",
+      "description": "UTIM – Universal Terminal Intelligence Manager. A powerful agentic AI coding assistant for your terminal.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/017fbee7e738e89a"
+    },
+    {
+      "title": "rapid-pe 0.1.2.dev20260909",
+      "link": "https://pypi.org/project/rapid-pe/0.1.2.dev20260909/",
+      "date": "2026-09-09T05:07:04+00:00",
+      "description": "RapidPE: The original low-latency gravitational wave parameter estimation code.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b0291c804e0a4b88"
+    },
+    {
+      "title": "blade-agent-kit 2608.0.4b3",
+      "link": "https://pypi.org/project/blade-agent-kit/2608.0.4b3/",
+      "date": "2026-09-09T05:07:11+00:00",
+      "description": "REST client for Blade Agent (AgentKit Python, v1 without Socket.IO)",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c1be02f8cd8b57d0"
+    },
+    {
+      "title": "unhog 0.6.1",
+      "link": "https://pypi.org/project/unhog/0.6.1/",
+      "date": "2026-09-09T05:07:39+00:00",
+      "description": "Treemap of the files that use local disk space in OneDrive, Dropbox and SharePoint folders",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/0d995dd0333c313a"
     }
   ]
 }

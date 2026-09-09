@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://creativecommons.org/blog/</id>
   <title>Open Source</title>
-  <updated>2026-09-09T00:31:38.191995+00:00</updated>
+  <updated>2026-09-09T05:07:54.368787+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -26,6 +26,21 @@
     </media:group>
     <dc:creator>Linux Foundation Press</dc:creator>
     <link rel="enclosure" href="https://www.linuxfoundation.org/hubfs/Press%20Release%20Images%20-%20GL%20(21).png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/opensource/32d837d8aefe3569</id>
+    <title>RFC 10039: Interconnecting EVPN and IPVPN Domains</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Ethernet Virtual Private Network (EVPN) provides a unified BGP control plane for both intra- and inter-subnet forwarding within tenant networks. When a tenant network spans multiple domains, including any combination of EVPN and IPVPN domains, it becomes necessary to define the interworking mechanisms among these BGP domains (EVPN and IPVPN) to ensure seamless end-to-end tenant connectivity. This document defines these interworking procedures. In addition, this document defines a new BGP Path At</content>
+    <link href="https://www.rfc-editor.org/info/rfc10039/" rel="alternate"/>
+    <category term="RFC Editor" label="RFC Editor"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc10039.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc10039.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>RFC Editor</dc:creator>
+    <link rel="enclosure" href="https://www.rfc-editor.org/api/v1/meta-thumbnail/rfc10039.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/opensource/dbe5fbf639cbed8a</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-09T00:31:50.275143+00:00</updated>
+  <updated>2026-09-09T05:07:58.202298+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -12,6 +12,71 @@
   <icon>https://www.python.org/favicon.ico</icon>
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/0d995dd0333c313a</id>
+    <title>unhog 0.6.1</title>
+    <updated>2026-09-09T05:07:39+00:00</updated>
+    <content>Treemap of the files that use local disk space in OneDrive, Dropbox and SharePoint folders</content>
+    <link href="https://pypi.org/project/unhog/0.6.1/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-09T05:07:39+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/c1be02f8cd8b57d0</id>
+    <title>blade-agent-kit 2608.0.4b3</title>
+    <updated>2026-09-09T05:07:11+00:00</updated>
+    <content>REST client for Blade Agent (AgentKit Python, v1 without Socket.IO)</content>
+    <link href="https://pypi.org/project/blade-agent-kit/2608.0.4b3/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-09T05:07:11+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/b0291c804e0a4b88</id>
+    <title>rapid-pe 0.1.2.dev20260909</title>
+    <updated>2026-09-09T05:07:04+00:00</updated>
+    <content>RapidPE: The original low-latency gravitational wave parameter estimation code.</content>
+    <link href="https://pypi.org/project/rapid-pe/0.1.2.dev20260909/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-09T05:07:04+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/017fbee7e738e89a</id>
+    <title>utim-cli 2.3.26</title>
+    <updated>2026-09-09T05:06:44+00:00</updated>
+    <content>UTIM – Universal Terminal Intelligence Manager. A powerful agentic AI coding assistant for your terminal.</content>
+    <link href="https://pypi.org/project/utim-cli/2.3.26/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-09T05:06:44+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/04db7668bd4c32ad</id>
+    <title>luma-infra 0.1.310</title>
+    <updated>2026-09-09T05:05:53+00:00</updated>
+    <content>Declarative deployment CLI for region-aware Nomad infrastructure.</content>
+    <link href="https://pypi.org/project/luma-infra/0.1.310/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-09T05:05:53+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43</id>
+    <title>Graham Dumpleton: Tracing Flask with wrapture</title>
+    <updated>2026-09-09T01:39:21+00:00</updated>
+    <content>For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-09T01:39:21+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba</id>
     <title>coralnet-toolbox 1.0.13</title>
@@ -61,6 +126,21 @@
     <category term="PyPI Updates" label="PyPI Updates"/>
     <published>2026-09-09T00:16:27+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7</id>
+    <title>Graham Dumpleton: Zero-code tracing with wrapture</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/b061cf09123f13fe</id>
@@ -221,21 +301,6 @@
     <category term="PyPI Updates" label="PyPI Updates"/>
     <published>2026-09-08T05:07:33+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7</id>
-    <title>Graham Dumpleton: Zero-code tracing with wrapture</title>
-    <updated>2026-09-08T01:39:22+00:00</updated>
-    <content>The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-08T01:39:22+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/8c7994ba519e7580</id>
@@ -688,56 +753,6 @@ write some code is worse than playing a vid</content>
     <link rel="enclosure" href="https://substackcdn.com/image/fetch/$s_!wVbn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61bacbdb-ec15-431f-abf9-91a5f9515c74_1280x720.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/83301d4cfc523ea9</id>
-    <title>pymaude 0.2.0</title>
-    <updated>2026-09-06T00:17:31+00:00</updated>
-    <content>PyMAUDE: FDA MAUDE adverse event database interface</content>
-    <link href="https://pypi.org/project/pymaude/0.2.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-06T00:17:31+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/cd56741b20ba913b</id>
-    <title>miniverse-sdk 0.4.7</title>
-    <updated>2026-09-06T00:17:20+00:00</updated>
-    <content>Validate and upload Dollhouse Robotics Miniverse simulation bundles.</content>
-    <link href="https://pypi.org/project/miniverse-sdk/0.4.7/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-06T00:17:20+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7258fe1e967e46bd</id>
-    <title>ha-requests 0.1.0rc6</title>
-    <updated>2026-09-06T00:17:20+00:00</updated>
-    <content>ha-requests - requestslib for hackide</content>
-    <link href="https://pypi.org/project/ha-requests/0.1.0rc6/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-06T00:17:20+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7df4789b762e9573</id>
-    <title>silly-kicks 4.110.0</title>
-    <updated>2026-09-06T00:17:05+00:00</updated>
-    <content>Classify and value on-ball football actions using SPADL and VAEP</content>
-    <link href="https://pypi.org/project/silly-kicks/4.110.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-06T00:17:05+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/882ecec9d83ad705</id>
-    <title>flask-production-mcp 0.1.0</title>
-    <updated>2026-09-06T00:16:12+00:00</updated>
-    <content>Static production-readiness auditor for Flask apps: architecture, templates, deployment, testing, security, database, dependencies and code quality. CLI, pre-commit hook, GitHub Action and MCP server.</content>
-    <link href="https://pypi.org/project/flask-production-mcp/0.1.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-06T00:16:12+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee</id>
     <title>Bob Belderbos: 5 design patterns used in my new habit tracker app</title>
     <updated>2026-09-06T00:00:00+00:00</updated>
@@ -980,21 +995,6 @@ For much of that time, spaced repetition has been something I would recommend le
     </media:group>
     <dc:creator>Anaconda</dc:creator>
     <link rel="enclosure" href="https://www.anaconda.com/wp-content/uploads/2026/08/General.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/30070db306eb98b0</id>
-    <title>Tryton News: Tryton News September 2026</title>
-    <updated>2026-09-02T06:00:54+00:00</updated>
-    <content>September brings a balance of trytond internals and business-module refinements. The server now retries queued tasks that were dropped because a worker died, enforces request timeouts for the whole request, and exposes routes so RPC endpoints can be registered declaratively. On the user side, European VAT numbers are now validated in the background, stock periods close themselves, and the IBAN editor formats the number as it is typed-in. All of this builds on our last LTS release 8.0 . For an in</content>
-    <link href="https://discuss.tryton.org/t/tryton-news-september-2026/9356" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-02T06:00:54+00:00</published>
-    <media:group>
-      <media:content url="https://discuss-cdn.tryton.org/uploads/default/optimized/2X/c/cc517aeb55ed7903b396da24a1e85618ba34270a_2_333x500.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://discuss-cdn.tryton.org/uploads/default/optimized/2X/c/cc517aeb55ed7903b396da24a1e85618ba34270a_2_333x500.jpeg"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://discuss-cdn.tryton.org/uploads/default/optimized/2X/c/cc517aeb55ed7903b396da24a1e85618ba34270a_2_333x500.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/7767a1637395e669</id>

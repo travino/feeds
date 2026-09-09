@@ -8,6 +8,109 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/0d995dd0333c313a",
+      "url": "https://pypi.org/project/unhog/0.6.1/",
+      "title": "unhog 0.6.1",
+      "content_text": "Treemap of the files that use local disk space in OneDrive, Dropbox and SharePoint folders",
+      "date_published": "2026-09-09T05:07:39Z",
+      "date_modified": "2026-09-09T05:07:39Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/c1be02f8cd8b57d0",
+      "url": "https://pypi.org/project/blade-agent-kit/2608.0.4b3/",
+      "title": "blade-agent-kit 2608.0.4b3",
+      "content_text": "REST client for Blade Agent (AgentKit Python, v1 without Socket.IO)",
+      "date_published": "2026-09-09T05:07:11Z",
+      "date_modified": "2026-09-09T05:07:11Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/b0291c804e0a4b88",
+      "url": "https://pypi.org/project/rapid-pe/0.1.2.dev20260909/",
+      "title": "rapid-pe 0.1.2.dev20260909",
+      "content_text": "RapidPE: The original low-latency gravitational wave parameter estimation code.",
+      "date_published": "2026-09-09T05:07:04Z",
+      "date_modified": "2026-09-09T05:07:04Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/017fbee7e738e89a",
+      "url": "https://pypi.org/project/utim-cli/2.3.26/",
+      "title": "utim-cli 2.3.26",
+      "content_text": "UTIM – Universal Terminal Intelligence Manager. A powerful agentic AI coding assistant for your terminal.",
+      "date_published": "2026-09-09T05:06:44Z",
+      "date_modified": "2026-09-09T05:06:44Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/04db7668bd4c32ad",
+      "url": "https://pypi.org/project/luma-infra/0.1.310/",
+      "title": "luma-infra 0.1.310",
+      "content_text": "Declarative deployment CLI for region-aware Nomad infrastructure.",
+      "date_published": "2026-09-09T05:05:53Z",
+      "date_modified": "2026-09-09T05:05:53Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43",
+      "url": "https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/",
+      "title": "Graham Dumpleton: Tracing Flask with wrapture",
+      "content_text": "For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret",
+      "date_published": "2026-09-09T01:39:21Z",
+      "date_modified": "2026-09-09T01:39:21Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba",
       "url": "https://pypi.org/project/coralnet-toolbox/1.0.13/",
       "title": "coralnet-toolbox 1.0.13",
@@ -85,6 +188,29 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7",
+      "url": "https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/",
+      "title": "Graham Dumpleton: Zero-code tracing with wrapture",
+      "content_text": "The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi",
+      "date_published": "2026-09-09T00:00:00Z",
+      "date_modified": "2026-09-09T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
@@ -326,29 +452,6 @@
       ],
       "tags": [
         "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/a843cfb1b1d734f7",
-      "url": "https://grahamdumpleton.me/posts/2026/09/zero-code-tracing-with-wrapture/",
-      "title": "Graham Dumpleton: Zero-code tracing with wrapture",
-      "content_text": "The previous post traced the shop with three bindings and a sink, all applied from the program's own entry point. That is fine when the program is yours. It is less fine when the application is one you inherited and would rather not touch, when someone else owns the deployment, or when you simply do not want observation code living inside the thing being observed. For all of those the entry point edit is one edit too many. The same setup can live in a file next to the project instead, with nothi",
-      "date_published": "2026-09-08T01:39:22Z",
-      "date_modified": "2026-09-08T01:39:22Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/330e5321/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
-        }
       ]
     },
     {
@@ -1039,86 +1142,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/83301d4cfc523ea9",
-      "url": "https://pypi.org/project/pymaude/0.2.0/",
-      "title": "pymaude 0.2.0",
-      "content_text": "PyMAUDE: FDA MAUDE adverse event database interface",
-      "date_published": "2026-09-06T00:17:31Z",
-      "date_modified": "2026-09-06T00:17:31Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/cd56741b20ba913b",
-      "url": "https://pypi.org/project/miniverse-sdk/0.4.7/",
-      "title": "miniverse-sdk 0.4.7",
-      "content_text": "Validate and upload Dollhouse Robotics Miniverse simulation bundles.",
-      "date_published": "2026-09-06T00:17:20Z",
-      "date_modified": "2026-09-06T00:17:20Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7258fe1e967e46bd",
-      "url": "https://pypi.org/project/ha-requests/0.1.0rc6/",
-      "title": "ha-requests 0.1.0rc6",
-      "content_text": "ha-requests - requestslib for hackide",
-      "date_published": "2026-09-06T00:17:20Z",
-      "date_modified": "2026-09-06T00:17:20Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7df4789b762e9573",
-      "url": "https://pypi.org/project/silly-kicks/4.110.0/",
-      "title": "silly-kicks 4.110.0",
-      "content_text": "Classify and value on-ball football actions using SPADL and VAEP",
-      "date_published": "2026-09-06T00:17:05Z",
-      "date_modified": "2026-09-06T00:17:05Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/882ecec9d83ad705",
-      "url": "https://pypi.org/project/flask-production-mcp/0.1.0/",
-      "title": "flask-production-mcp 0.1.0",
-      "content_text": "Static production-readiness auditor for Flask apps: architecture, templates, deployment, testing, security, database, dependencies and code quality. CLI, pre-commit hook, GitHub Action and MCP server.",
-      "date_published": "2026-09-06T00:16:12Z",
-      "date_modified": "2026-09-06T00:16:12Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee",
       "url": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
       "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
@@ -1478,29 +1501,6 @@
         {
           "url": "https://www.anaconda.com/wp-content/uploads/2026/08/General.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/30070db306eb98b0",
-      "url": "https://discuss.tryton.org/t/tryton-news-september-2026/9356",
-      "title": "Tryton News: Tryton News September 2026",
-      "content_text": "September brings a balance of trytond internals and business-module refinements. The server now retries queued tasks that were dropped because a worker died, enforces request timeouts for the whole request, and exposes routes so RPC endpoints can be registered declaratively. On the user side, European VAT numbers are now validated in the background, stock periods close themselves, and the IBAN editor formats the number as it is typed-in. All of this builds on our last LTS release 8.0 . For an in",
-      "date_published": "2026-09-02T06:00:54Z",
-      "date_modified": "2026-09-02T06:00:54Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://discuss-cdn.tryton.org/uploads/default/optimized/2X/c/cc517aeb55ed7903b396da24a1e85618ba34270a_2_333x500.jpeg",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://discuss-cdn.tryton.org/uploads/default/optimized/2X/c/cc517aeb55ed7903b396da24a1e85618ba34270a_2_333x500.jpeg",
-          "mime_type": "image/jpeg"
         }
       ]
     },

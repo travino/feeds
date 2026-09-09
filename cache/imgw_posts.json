@@ -1,26 +1,6 @@
 {
-  "last_updated": "2026-09-09T00:30:55.372230+00:00",
+  "last_updated": "2026-09-09T05:07:09.981727+00:00",
   "entries": [
-    {
-      "guid": "urn:imgw:warnhydro:2aad64c421a3cf533b35984922fb50156848f26e",
-      "kind": "warning",
-      "title": "💧 Ostrzeżenie hydro: Susza hydrologiczna (opolskie, śląskie)",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "description": "<p><strong>Susza hydrologiczna</strong> — nr 95, prawdopodobieństwo 90%</p><p>Od 2026-08-11 11:30:51 do 9999-12-31 23:59:59</p><p>Na górnej Odrze wartości natężenia przepływu układają się poniżej SNQ. Ponieważ w najbliższym okresie nie przewiduje się wystarczająco wysokiej sumy opadów deszczu, spodziewane jest utrzymanie się aktualnych warunków hydrologicznych - przepływów poniżej SNQ z wahaniami, mogącymi wynikać z prowadzonej lokalnie gospodarki wodnej lub z nieokresowych opadów deszczu. W konsekwencji narastającego deficytu opadów, może dochodzić do rozwoju suszy hydrologicznej.\n</p><p>Obszar: opolskie, rzeka Odra od Chałupek do Koźla, susza hydrologiczna; śląskie, rzeka Odra od Chałupek do Koźla, susza hydrologiczna</p><p>Biuro Prognoz Hydrologicznych we Wrocławiu, Wydział Prognoz i Opracowań Hydrologicznych we Wrocławiu</p>",
-      "date": "2026-08-11T11:29:57+02:00",
-      "updated": "2026-08-11T11:28:48.861521+00:00",
-      "summary_hash": "a7a550c48fa1ceb419a61ab811976ed3baec82a3"
-    },
-    {
-      "guid": "urn:imgw:warnhydro:ea0c9a73989f1ffdb041b497b14411e002557db3",
-      "kind": "warning",
-      "title": "💧 Ostrzeżenie hydro: Susza hydrologiczna (opolskie, śląskie)",
-      "link": "https://danepubliczne.imgw.pl/api/data/warningshydro",
-      "description": "<p><strong>Susza hydrologiczna</strong> — nr 96, prawdopodobieństwo 90%</p><p>Od 2026-08-11 11:40:10 do 9999-12-31 23:59:59</p><p>W zlewniach Bierawki i Kłodnicy wartości natężenia przepływu układają się miejscami poniżej SNQ. Ponieważ w najbliższym okresie nie przewiduje się wystarczająco wysokiej sumy opadów deszczu, spodziewane jest utrzymanie się aktualnych warunków hydrologicznych - przepływów poniżej SNQ z wahaniami, mogącymi wynikać z prowadzonej lokalnie gospodarki wodnej lub z nieokresowych opadów deszczu. W konsekwencji narastającego deficytu opadów, może dochodzić do rozwoju suszy hydrologicznej.\n</p><p>Obszar: opolskie, Kłodnica od Zb. Dzierżno Duże do ujścia do Odry, Kłodnica, Bierawka, susza hydrologiczna; śląskie, Kłodnica od Zb. Dzierżno Duże do ujścia do Odry, Kłodnica, Bierawka, susza hydrologiczna</p><p>Biuro Prognoz Hydrologicznych we Wrocławiu, Wydział Prognoz i Opracowań Hydrologicznych we Wrocławiu</p>",
-      "date": "2026-08-11T11:39:25+02:00",
-      "updated": "2026-08-11T11:28:48.861546+00:00",
-      "summary_hash": "c3a6ef52f001c9d8e8d2fb199f356817202555c6"
-    },
     {
       "guid": "urn:imgw:synop:12566:2026-08-12",
       "kind": "synop",
@@ -3235,7 +3215,7 @@
       "station": "Kraków",
       "link": "https://danepubliczne.imgw.pl/api/data/synop/id/12566",
       "date": "2026-09-09T00:00:00+02:00",
-      "updated": "2026-09-09T00:30:53.635974+00:00",
+      "updated": "2026-09-09T05:07:08.775455+00:00",
       "readings": {
         "00": {
           "temperatura": "13.4",
@@ -3244,21 +3224,49 @@
           "wilgotnosc_wzgledna": "88.7",
           "suma_opadu": "0",
           "cisnienie": "1011"
+        },
+        "04": {
+          "temperatura": "12.9",
+          "predkosc_wiatru": "2",
+          "kierunek_wiatru": "30",
+          "wilgotnosc_wzgledna": "85.7",
+          "suma_opadu": "0",
+          "cisnienie": "1009.9"
         }
       },
-      "title": "Kraków — obserwacje 09.09: 13.4°C, opad 0 mm (godz. 00)",
-      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>13.4°C</td><td>2 m/s / 50°</td><td>88.7%</td><td>0 mm</td><td>1011 hPa</td></tr></table>",
-      "summary_hash": "ecf8c224a28a5f54174a44956346bd3d89136b79"
+      "title": "Kraków — obserwacje 09.09: 12.9°C, opad 0 mm (godz. 04)",
+      "description": "<p>Obserwacje synoptyczne IMGW — stacja <strong>Kraków</strong> (12566)</p><table><tr><th>Godz.</th><th>Temp.</th><th>Wiatr</th><th>Wilg.</th><th>Opad</th><th>Ciśn.</th></tr><tr><td>00:00</td><td>13.4°C</td><td>2 m/s / 50°</td><td>88.7%</td><td>0 mm</td><td>1011 hPa</td></tr><tr><td>04:00</td><td>12.9°C</td><td>2 m/s / 30°</td><td>85.7%</td><td>0 mm</td><td>1009.9 hPa</td></tr></table>",
+      "summary_hash": "de4fbd03ee85a2f1e5d2f2cc63f3e154ac96a4b5"
     },
     {
       "guid": "urn:imgw:meteo:250190790:2026-09-09",
       "kind": "meteo",
-      "title": "Chrzanów — telemetria 09.09: opad (10 min) 0 mm (00:10)",
+      "title": "Chrzanów — telemetria 09.09: opad (10 min) 0 mm (04:40)",
       "link": "https://danepubliczne.imgw.pl/api/data/meteo",
-      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (00:10)</li></ul>",
+      "description": "<p>Telemetria IMGW — stacja <strong>Chrzanów</strong> (250190790)</p><ul><li>Opad (10 min): 0 mm (04:40)</li></ul>",
       "date": "2026-09-09T00:00:00+02:00",
-      "updated": "2026-09-09T00:30:55.066147+00:00",
-      "summary_hash": "6e2c6e5090ecb7af965b41b160bc751fd50f5720"
+      "updated": "2026-09-09T05:07:09.747647+00:00",
+      "summary_hash": "0f03e77cf33d89f28ec16e7d28ee3b01f0c28001"
+    },
+    {
+      "guid": "urn:imgw:hydro:150190260:2026-09-09",
+      "kind": "hydro",
+      "title": "Smolice (Wisła) — stan wody 132 cm (09.09 04:20)",
+      "link": "https://danepubliczne.imgw.pl/api/data/hydro",
+      "description": "<p>Wodowskaz <strong>Smolice</strong>, rzeka Wisła, woj. małopolskie</p><ul><li>Stan wody: 132 cm (09.09 04:20)</li><li>Przepływ: 247 m³/s (29.07 23:30)</li></ul>",
+      "date": "2026-09-09T00:00:00+02:00",
+      "updated": "2026-09-09T05:07:09.513386+00:00",
+      "summary_hash": "7a2003f58fd34cffab750cfa84e312294c31b0c1"
+    },
+    {
+      "guid": "urn:imgw:hydro:150190180:2026-09-09",
+      "kind": "hydro",
+      "title": "Jeleń (Przemsza) — stan wody 133 cm (09.09 04:20)",
+      "link": "https://danepubliczne.imgw.pl/api/data/hydro",
+      "description": "<p>Wodowskaz <strong>Jeleń</strong>, rzeka Przemsza, woj. śląskie</p><ul><li>Stan wody: 133 cm (09.09 04:20)</li><li>Przepływ: 8.26 m³/s (09.09 04:50)</li></ul>",
+      "date": "2026-09-09T00:00:00+02:00",
+      "updated": "2026-09-09T05:07:09.513476+00:00",
+      "summary_hash": "79d30ff20cc661a98d80b23968391d7f4aee832b"
     }
   ]
 }

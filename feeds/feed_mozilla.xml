@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-09T00:31:32.549481+00:00</updated>
+  <updated>2026-09-09T05:07:41.178258+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/301bd20840d19696</id>
+    <title>No option to Disable Enhanced Tracking Protection(PC)</title>
+    <updated>2026-09-09T03:53:41+00:00</updated>
+    <content>In the PC version of Firefox, there is no option to turn off Enhanced Tracking Protection. Since the option is available in the mobile version, is this perhaps an implementation error?</content>
+    <link href="https://connect.mozilla.org/t5/discussions/no-option-to-disable-enhanced-tracking-protection-pc/m-p/137506#M55663" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-09T03:53:41+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/21ad9feaff463189</id>
     <title>Thunderbird marks messages as unread automatically</title>
@@ -402,21 +417,6 @@ you can also check</content>
     <link href="https://connect.mozilla.org/t5/discussions/why-did-remove-cookies-option-for-a-single-site-from-address-bar/m-p/137257#M55625" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-06T14:05:02+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/2803569f0411331e</id>
-    <title>News feed</title>
-    <updated>2026-09-06T14:04:40+00:00</updated>
-    <content>I only recently noticed there's a news feed when the Firefox browser is opened. Yesterday I look at that collection of "news" items and not a single one is from a conservative source, such as Fox News. Can you enhance your curating efforts?</content>
-    <link href="https://connect.mozilla.org/t5/discussions/news-feed/m-p/137258#M55679" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-06T14:04:40+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
