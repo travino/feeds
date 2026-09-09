@@ -284,18 +284,16 @@ def _run_registry(
         runner = partial(_run_enabled_feed, full=full)
         if worker_count == 1:
             outcomes = map(runner, enabled_feeds)
-            for name, ok, elapsed in outcomes:
-                target = successful_scripts if ok else failed_scripts
-                target.append(name)
-                generation_times.append((name, elapsed))
         else:
             with ThreadPoolExecutor(
                 max_workers=worker_count, thread_name_prefix="feedseek"
             ) as pool:
-                for name, ok, elapsed in pool.map(runner, enabled_feeds):
-                    target = successful_scripts if ok else failed_scripts
-                    target.append(name)
-                    generation_times.append((name, elapsed))
+                outcomes = list(pool.map(runner, enabled_feeds))
+
+        for name, ok, elapsed in outcomes:
+            target = successful_scripts if ok else failed_scripts
+            target.append(name)
+            generation_times.append((name, elapsed))
 
     normalization_ok = normalize_generated_feeds()
     _log_generation_summary(
