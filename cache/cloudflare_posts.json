@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T16:52:30.120886+00:00",
+  "last_updated": "2026-09-09T21:07:47.351839+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5386,6 +5386,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/570b6ff3d263ddba"
     },
     {
+      "title": "R2 - R2 Data Access Logs",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-09-04-r2-data-access-logs/",
+      "date": "2026-09-04T00:00:00+00:00",
+      "description": "R2 Data Access Logs are now generally available. Turn on logging for a bucket to record object read, write, list, multipart upload, and delete operations with response status codes below 400 . Data Access Logs cover requests made through the S3-compatible API, Cloudflare API and dashboard, Workers bindings, and public buckets through r2.dev or custom domains. Events are available in Workers Observability, where you can filter by bucket, operation, interface, actor, and other request fields. Log ",
+      "source": "Cloudflare Changelog",
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/f5f68803c2a95150"
+    },
+    {
       "title": "Elevated connectivity degradation in NRT",
       "link": "https://www.cloudflarestatus.com/incidents/bgbz898hh98g",
       "date": "2026-09-04T02:48:37+00:00",
@@ -5608,10 +5617,30 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/7eed123a34dc82ae"
     },
     {
+      "title": "Increased HTTP Errors",
+      "link": "https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs",
+      "date": "2026-09-09T15:30:00+00:00",
+      "description": "Sep 9 , 15:30 UTC Resolved - Between 16:40 and 16:54 UTC, Cloudflare experienced an elevated rate of HTTP errors affecting traffic passing through Philadelphia (PHL). The issue has been fully identified and resolved, and impact to the PHL location is completely mitigated. All systems are operating normally.",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/36a3deca386073c3"
+    },
+    {
+      "title": "Workers Cron Triggers degraded",
+      "link": "https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw",
+      "date": "2026-09-09T19:18:25+00:00",
+      "description": "Sep 9 , 19:18 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 19:17 UTC Investigating - Workers Cron Triggers may not execute or may be delayed in executing. Updates to Workers Cron Triggers may take some time to take effect.",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/4a1180d18983dc85"
+    },
+    {
       "title": "Cloudflare Workers AI increased errors",
       "link": "https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym",
-      "date": "2026-09-09T15:02:41+00:00",
-      "description": "Sep 9 , 15:02 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 14:25 UTC Investigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.",
+      "date": "2026-09-09T20:09:37+00:00",
+      "description": "Sep 9 , 20:09 UTC Resolved - This incident has been resolved. Sep 9 , 15:02 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 14:25 UTC Investigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.",
       "source": "Cloudflare Status",
       "image": null,
       "image_checked": true,

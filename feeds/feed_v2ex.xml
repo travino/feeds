@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-09T16:54:22.805514+00:00</updated>
+  <updated>2026-09-09T21:09:55.976847+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,66 @@
   <icon>https://www.v2ex.com/favicon.ico</icon>
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/053e9758011d37f0</id>
+    <title>现在飞书也能用 Claude Tag 了？？</title>
+    <updated>2026-09-09T19:18:08+00:00</updated>
+    <content>2026 年 6 月 23 日，Anthropic 发布 Claude Tag ，面向 Claude Enterprise 和 Team 用户 beta 。 管理员可以把 Claude Tag 放进选定频道，链接工具，数据，甚至代码库；然后频道里任何人都能 @ Claude ，把任务交给它，它的记忆是共享的。 但 Claude Enterprise 账号太贵，每个团队用的 Agent 也不一定是 Claude 。 所以我们开源了 AgentConnect ，这是一个把你用的 AI Agent 接入到你的工作软件的一个平台，开源版 Claude tag 。 Github： https://github.com/agentconnect-md/agentconnect 你可以在这里面接入任何你钟意的 Coding Agent: Claude ，Codex ，Hermes Agent ，也可以把它拉进任意的工作区：飞书，微信，Discord ，GitHub 的 code ewview ，甚至 webhook ，都可以触发 但是 Agent Connect 区别于 Claude Tag 的其实</content>
+    <link href="https://www.v2ex.com/t/1240855#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T19:18:08+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/CFMnCOW.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/CFMnCOW.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/CFMnCOW.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/162f51b098be0b99</id>
+    <title>可以分享一个我自己做的开源终端复用器,但是它有 tui/cli/web/ios/android,还自带内网穿透,大家可以在手机上进行 vibecoding,甚至可以在车机上 vibecoding(噱头)</title>
+    <updated>2026-09-09T17:02:00+00:00</updated>
+    <content>做了一个支持 TUI / CLI / Web / iOS / Android 的终端复用器：AnyTTY 先贴项目地址： https://github.com/anytty/anytty 最近做了一个终端工具，叫 AnyTTY ，想分享给大家试试。 它的定位更接近传统的终端复用器：管理终端、分屏、切换会话，以及保留运行现场。Agent 管理并不是它的核心定位，不过也可以用它来配合 Agent 做一些跨机器的事情。但是我还写了一个基于他的 ADE,后续也会开源出来。 目前支持 TUI 、CLI 、Web 、iOS 和 Android 。下面介绍几个我觉得比较有意思的地方。 鼠标操作、原生 Windows ，以及跨机器的工作台 TUI 支持完整的鼠标操作，也支持原生 Windows 。 你可以在同一个 TUI 工作台里，同时查看不同机器上的终端。例如，左边是本地电脑的终端，右边是一台远程 Windows 机器的终端，不用来回切换客户端。(herdr 最近才支持。) 另外，AnyTTY 的 面板和终端是分离的 。面板只是查看终端的一个窗口，同一个终端可以同时出现在多个面板里。 比如，一个标签</content>
+    <link href="https://www.v2ex.com/t/1240843#reply2" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T17:02:00+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/NF1zDMl.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/NF1zDMl.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/NF1zDMl.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/b8dde686767cb083</id>
+    <title>做了一个免费 Twitter 工具站，下载视频，下载图片，下载推文和线程等等超过 20 个小工具</title>
+    <updated>2026-09-09T17:01:41+00:00</updated>
+    <content>做了一个免费 Twitter 工具站，下载视频，下载图片，下载推文和线程等等超过 20 个小工具 https://twimate.com</content>
+    <link href="https://www.v2ex.com/t/1240842#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T17:01:41+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/b372/492f/746548_xlarge.png?m=1788201644" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/b372/492f/746548_xlarge.png?m=1788201644"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/b372/492f/746548_xlarge.png?m=1788201644" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/288cecc24f430579</id>
+    <title>做了个跑在终端里的多 agent 编排系统</title>
+    <updated>2026-09-09T16:56:06+00:00</updated>
+    <content>多 agent 编排其实很多, 我一直想找一个完全在终端里跑的, 既有完整的流程又能保持灵活性. 最后自己实践了两个多月, 搞了个开源项目 https://github.com/dualface/kander 特点: 简单易用 灵活 可定制 求 Github Star ;-)</content>
+    <link href="https://www.v2ex.com/t/1240840#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-09T16:56:06+00:00</published>
+    <media:group>
+      <media:content url="https://github.com/dualface/kander/raw/main/docs/kanban-screenshot-01.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://github.com/dualface/kander/raw/main/docs/kanban-screenshot-01.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://github.com/dualface/kander/raw/main/docs/kanban-screenshot-01.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/54abf1e9461a2a13</id>
     <title>创业开发了“吃有数”APP，迭代了 10 个月，我再也不劝别人做独立开发者了！</title>
@@ -161,66 +221,6 @@
     </media:group>
     <dc:creator>V2EX Creative</dc:creator>
     <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/b47a73bd9fb4838f3c88072b1b67bbb2?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/5736bd913eb51d0b</id>
-    <title>GPT Image 2.5 发布了</title>
-    <updated>2026-09-09T12:28:36+00:00</updated>
-    <content>GPT Image 2.5 发布了，这次生图之外，改图也有不少看点 OpenAI 刚发布了 GPT Image 2.5 ，简单看了下官方介绍，这次比较值得关注的是参考图还原、局部修改，以及连续改图时的一致性。平时拿 AI 做产品图、海报，或者经常需要“这张挺好，再改一点”的朋友，可以留意一下。 这次有两个模型： Flare 和 Sunburst 。Flare 更偏日常使用，兼顾速度和画质； Sunburst 则把重点放在细节和编辑精度上，生成时间也更长。按官方的定位，快速试方案、批量出图可以考虑前者，需要仔细打磨产品图和广告素材时，再考虑后者。 参考图方面，2.5 加强了对原图主体的保留。比如上传一张人物照片，再换场景、换风格，人物的辨识度应该更容易延续下来。对产品图也是一样：背景可以重新设计，但产品本身的外观和特征，需要尽量跟着原图走。 局部编辑也挺实用。换掉一个背景、调整一件衣服、修改画面里的文案，理想情况都是只动指定的部分。2.5 这次强化的就是这种能力，让修改尽量少影响已经满意的构图和其他细节。 还有连续修改。先换背景，再调光线，最后改文字，这种操作很常见。官方提到，新模型在多</content>
-    <link href="https://www.v2ex.com/t/1240802#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T12:28:36+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/f4ed/c431/697856_xlarge.png?m=1788956904" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/f4ed/c431/697856_xlarge.png?m=1788956904"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/f4ed/c431/697856_xlarge.png?m=1788956904" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/f93f7f05004b797d</id>
-    <title>做了一个本地处理的 Android 换瞳色 App，想请大家帮忙挑挑问题</title>
-    <updated>2026-09-09T12:27:16+00:00</updated>
-    <content>大家好，最近做了一个 Android 小工具： RenderPop Eye Color Changer 。 起因是我试过一些换瞳色工具，比较常见的问题是： 改完之后眼睛像被重新生成了，原本的虹膜纹理没了 深色眼睛上色不自然，容易变成一整块纯色 自动识别不准时，没有办法手动修正 想分别修改左右眼，或者处理合照时不够方便 有些工具需要上传照片，或者导出带水印 所以这个 App 的思路不是“重新生成一双眼睛”，而是在保留原始虹膜纹理、反光和阴影的基础上调整颜色。 目前支持： 自动检测眼睛，并可手动调整选区 左右眼分别设置颜色，可以做异瞳效果 蓝色、绿色、灰色、紫色、琥珀色等预设和自定义颜色 多人合照中的眼睛编辑 本地处理，照片不需要上传服务器 无广告、无水印 它也可以用来简单预览彩色隐形眼镜的大致视觉效果，不过只是图片效果参考，不是医学或实际佩戴建议。 目前还是早期版本，只支持 Android ，也没有实时相机或视频处理。复杂角度、遮挡严重的照片，可能需要手动调整眼睛范围。 产品介绍和效果截图： https://www.renderpop.app/apps/eye-color-changer</content>
-    <link href="https://www.v2ex.com/t/1240801#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T12:27:16+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/8904/f586/299390_large.png?m=1520853235" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/8904/f586/299390_large.png?m=1520853235"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/8904/f586/299390_large.png?m=1520853235" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/55a878f6790fc846</id>
-    <title>自荐：跨平台 Flutter 音乐播放器 Vynody</title>
-    <updated>2026-09-09T12:18:49+00:00</updated>
-    <content>https://github.com/axel10/vynody 大家好，我是 Vynody 的开发者。 Vynody 是一款界面美观，功能丰富的跨平台音乐播放器。设计主旨是简化媒体库和歌曲标签的管理流程，让听歌体验更加纯粹。 支持平台：windows ，linux ，android ，macos ，ios （还在审核） Vynody 支持的功能包括但不限于： AI 歌词生成和翻译 听歌识曲 Navidrome ，WebDAV ，SMB 支持 自动标签补全 局域网播放遥控 局域网文件互传 局域网歌词、歌单同步 媒体库管理 类 apple music 歌词面板 波形进度条 音频转码 Vynody 的 Github 版完全免费，商店版收费。 应用内截图： 跳转商店 微软商店 苹果商店</content>
-    <link href="https://www.v2ex.com/t/1240799#reply5" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T12:18:49+00:00</published>
-    <media:group>
-      <media:content url="https://raw.githubusercontent.com/axel10/vynody/refs/heads/main/assets/readme/zh/folder_pc.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://raw.githubusercontent.com/axel10/vynody/refs/heads/main/assets/readme/zh/folder_pc.jpg"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://raw.githubusercontent.com/axel10/vynody/refs/heads/main/assets/readme/zh/folder_pc.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/75ff31a925e8268c</id>
-    <title>GPT Image 2.5 试了一下，和上一代的区别</title>
-    <updated>2026-09-09T11:54:18+00:00</updated>
-    <content>OpenAI 上周发了 GPT Image 2.5 ，两个型号 flare 和 sunburst ，参数完全一样，flare 快、sunburst 更适合精修。跑了一批图，说几个实际用下来的区别。 质量档从三档变五档。 上一代只有 low / medium / high ，这一代中间插进了 xhigh 和 max 。听起来是多了两个高档位，实际不是,、两代的最低档和最高档消耗的 token 完全一样（ 196 和 7024 ），新增的三档都落在中间。以前想要比 low 好一点，只能直接跳到 medium ，成本涨九倍；现在中间有一档只涨 2.2 倍。 同样的质量，明显更快。 上一代 medium 和这一代 high 消耗的 token 都是 1756 ，可以认为是同一档画质。实测耗时 53 秒对 21 秒。更极端的是上一代的 high ，我在同一条线路上连着两次都跑到 126 秒超时失败，而这一代 max 是同样的 token 量，50 秒就回来了。 多了一个 input_fidelity 参数。 做图生图的时候能控制原图细节保留多少，上一代不接受这个参数，一律按高保真处理。 文字渲染</content>
-    <link href="https://www.v2ex.com/t/1240795#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-09T11:54:18+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/a4c1/821b/722197_xlarge.png?m=1787150905" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/a4c1/821b/722197_xlarge.png?m=1787150905"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/a4c1/821b/722197_xlarge.png?m=1787150905" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/d2d03430546b505a</id>

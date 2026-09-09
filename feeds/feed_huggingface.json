@@ -8,6 +8,29 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/7d6bcf2553c986b6",
+      "url": "https://huggingface.co/posts/anakin87/292264034976390",
+      "title": "I made a 1.1M ModernBERT encoder play Doom in real time on a CPU",
+      "content_text": "I made a 1.1M ModernBERT encoder play Doom in real time on a CPU Some time ago, VAGO Solutions released SauerkrautLM-Doom-MultiVec-1.3M, a tiny model trained to play Doom Defend the Center scenario from 31k human gameplay examples. My first thought: cool! I love both Doom and Small Language Models. Then another idea: I bet I can do better :-) What I did? - evaluated the original model and found it's better than reported - changed a bit the architecture - generated SFT data with a scripted oracle - SFT + PPO refinement on consumer hardware Got a smaller, faster and killer model Can even fit a floppy with int8 quantization 💾 Watch it play/read the article: anakin87/tiny-doom-defender",
+      "date_published": "2026-09-09T21:08:16Z",
+      "date_modified": "2026-09-09T21:08:16Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/626505d493e0b04d75710566/ASfNeaaO56M7BIZcf3vdC.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-uploads.huggingface.co/production/uploads/626505d493e0b04d75710566/ASfNeaaO56M7BIZcf3vdC.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/0b1035cded72703a",
       "url": "https://huggingface.co/posts/OppaAI/460632677989379",
       "title": "Another small 4B model comes out yesterday.",
@@ -210,6 +233,52 @@
       "attachments": [
         {
           "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/69be45485ce78669",
+      "url": "https://huggingface.co/papers/2609.08084",
+      "title": "Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation",
+      "content_text": "Marigold V2 repurposes diffusion transformers for monocular depth estimation via single-step flow-matching inference, semantic alignment, and a Sinkhorn-based two-stage fine-tuning protocol, yielding sharper out-of-distribution depth maps and strong results on related dense regression tasks.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08084/gradient.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08084/gradient.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/69df743b4c90e6e9",
+      "url": "https://huggingface.co/papers/2609.08936",
+      "title": "AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing",
+      "content_text": "AuK is an open-source foundational model that unifies speech generation and editing via natural-language instructions and audio context, using a multimodal language model, joint VAE, hybrid rectified-flow Transformer, and efficient distillation for fast inference.",
+      "date_published": "2026-09-08T00:00:00Z",
+      "date_modified": "2026-09-08T00:00:00Z",
+      "authors": [
+        {
+          "name": "Hugging Face Trending Papers"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936/gradient.png",
+      "tags": [
+        "Hugging Face Trending Papers"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936/gradient.png",
           "mime_type": "image/png"
         }
       ]

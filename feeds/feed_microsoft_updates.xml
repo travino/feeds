@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://support.microsoft.com/en-us/windows</id>
   <title>Microsoft Updates</title>
-  <updated>2026-09-09T16:53:26.128157+00:00</updated>
+  <updated>2026-09-09T21:08:51.591483+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://support.microsoft.com/favicon.ico</icon>
   <logo>https://support.microsoft.com/favicon.ico</logo>
   <subtitle>Windows 11/10 update histories, the Windows message center, Office Current Channel, Outlook (new/Mobile), Office Deployment Tool, and Microsoft 365 Copilot release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/ae2e9edba6f67b23</id>
+    <title>IT resources to plan, prepare, and deploy Windows</title>
+    <updated>2026-09-09T10:00:00+00:00</updated>
+    <content>Whether you’re a seasoned IT pro or earlier in your career, new and updated resources are available. Learn how to effectively roll out feature updates to Windows devices and Microsoft 365 Apps in advance of the upcoming Windows 11, version 26H2. You can deploy updates faster and support your remote workforce by following a three-phase process: plan &gt; prepare &gt; deploy. Complete a redesigned Microsoft learning path for free and watch a fresh podcast series:</content>
+    <link href="https://learn.microsoft.com/en-us/training/paths/stay-current-with-windows/" rel="alternate"/>
+    <category term="Windows message center" label="Windows message center"/>
+    <published>2026-09-09T10:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://learn.microsoft.com/training/achievements/stay-current-with-windows-social.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://learn.microsoft.com/training/achievements/stay-current-with-windows-social.png"/>
+    </media:group>
+    <dc:creator>Windows message center</dc:creator>
+    <link rel="enclosure" href="https://learn.microsoft.com/training/achievements/stay-current-with-windows-social.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/166ee686fe922b8a</id>
+    <title>Office Deployment Tool releases: September 9, 2026</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Version 16.0.20326.20112( setup.exe version 16.0.20326.20112) Resiliency and Reliability Improvements</content>
+    <link href="https://learn.microsoft.com/en-us/officeupdates/odt-release-history#september-9-2026" rel="alternate"/>
+    <category term="Office Deployment Tool releases" label="Office Deployment Tool releases"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
+    </media:group>
+    <dc:creator>Office Deployment Tool releases</dc:creator>
+    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/0e51647b5f0686e8</id>
     <title>The September 2026 Windows security update is now available</title>
@@ -393,21 +423,6 @@
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/1769641412f6ce49</id>
-    <title>Microsoft 365 Copilot release notes: August 11, 2026</title>
-    <updated>2026-08-11T00:00:00+00:00</updated>
-    <content>Updates released between July 28, 2026, and August 11, 2026. Microsoft 365 Copilot extensibility Parallel content and identity crawl improves content freshness [Web] Copilot connectors now run content crawl and identity crawl in parallel, making ingested content available to users faster than before. Details: What changed: Previously, content crawl and identity crawl executed sequentially, causing delays before content became accessible in Copilot. Now, both crawls run in parallel, reducing tota</content>
-    <link href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026" rel="alternate"/>
-    <category term="Microsoft 365 Copilot release notes" label="Microsoft 365 Copilot release notes"/>
-    <published>2026-08-11T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Copilot release notes</dc:creator>
-    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/34ff2b3bd6c0f79d</id>
     <title>Office Deployment Tool releases: August 11, 2026</title>
     <updated>2026-08-11T00:00:00+00:00</updated>
@@ -420,6 +435,21 @@
       <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
     </media:group>
     <dc:creator>Office Deployment Tool releases</dc:creator>
+    <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/1769641412f6ce49</id>
+    <title>Microsoft 365 Copilot release notes: August 11, 2026</title>
+    <updated>2026-08-11T00:00:00+00:00</updated>
+    <content>Updates released between July 28, 2026, and August 11, 2026. Microsoft 365 Copilot extensibility Parallel content and identity crawl improves content freshness [Web] Copilot connectors now run content crawl and identity crawl in parallel, making ingested content available to users faster than before. Details: What changed: Previously, content crawl and identity crawl executed sequentially, causing delays before content became accessible in Copilot. Now, both crawls run in parallel, reducing tota</content>
+    <link href="https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026" rel="alternate"/>
+    <category term="Microsoft 365 Copilot release notes" label="Microsoft 365 Copilot release notes"/>
+    <published>2026-08-11T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://learn.microsoft.com/en-us/media/open-graph-image.png"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Copilot release notes</dc:creator>
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
@@ -1358,16 +1388,6 @@
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/0d970b947866d8f3</id>
-    <title>The May 2026 Windows non-security preview update is now available</title>
-    <updated>2026-05-26T10:00:00+00:00</updated>
-    <content>The May 2026 non-security preview update is now available for Windows 11, versions 26H1, 25H2, and 24H2. Information about the contents of this update is available from the release notes, which are accessible from the Windows 11 update history page. For instructions on how to install this update on your home device, check the Update Windows clause. To learn more about the different types of monthly quality updates, see Windows monthly updates explained . To be informed about the latest updates a</content>
-    <link href="https://support.microsoft.com/help/5089573" rel="alternate"/>
-    <category term="Windows message center" label="Windows message center"/>
-    <published>2026-05-26T10:00:00+00:00</published>
-    <dc:creator>Windows message center</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/46a29e80b9c7a108</id>
     <title>Version 2605: May 26</title>
     <updated>2026-05-26T00:00:00+00:00</updated>
@@ -1446,21 +1466,6 @@
     </media:group>
     <dc:creator>Office Current Channel</dc:creator>
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/53c96aff6243563a</id>
-    <title>Updated Secure Boot status report in Windows Autopatch</title>
-    <updated>2026-05-19T10:00:00+00:00</updated>
-    <content>Windows Autopatch now delivers deeper, device-level insights into Secure Boot certificate status, trust configuration, and readiness. With new signals like confidence level, alerts, and detailed certificate visibility, you can more confidently move forward with broad updates and targeted remediations. Explore the latest updates to the Secure Boot stats report and learn how to gain more clarity into your Secure Boot rollout.</content>
-    <link href="https://techcommunity.microsoft.com/blog/windows-itpro-blog/updated-secure-boot-status-report-in-windows-autopatch/4517920" rel="alternate"/>
-    <category term="Windows message center" label="Windows message center"/>
-    <published>2026-05-19T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE3OTIwLW9Xa3FTcA?revision=3" type="image/jpeg" medium="image" height="849" width="1510"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE3OTIwLW9Xa3FTcA?revision=3" height="849" width="1510"/>
-    </media:group>
-    <dc:creator>Windows message center</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE3OTIwLW9Xa3FTcA?revision=3" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/55a57777b7274098</id>

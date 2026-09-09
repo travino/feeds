@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://nodejs.org/</id>
   <title>JS | Node</title>
-  <updated>2026-09-09T16:53:22.752082+00:00</updated>
+  <updated>2026-09-09T21:08:42.358718+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -41,6 +41,21 @@
     </media:group>
     <dc:creator>Node.js Blog</dc:creator>
     <link rel="enclosure" href="https://nodejs.org/en/next-data/og/release/Node.js%20%E2%80%94%20Node.js%2024.21.0%20(LTS)" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/js_node/ae47a5f4e507da01</id>
+    <title>React 19.3</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>React 19.3 adds new features like View Transitions, Fragment Refs, browser(), Trusted Types, and more.</content>
+    <link href="https://react.dev/blog/2026/09/09/react-19-3" rel="alternate"/>
+    <category term="React Blog" label="React Blog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://react.dev/images/og/blog-2026-09-09-react-19-3.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://react.dev/images/og/blog-2026-09-09-react-19-3.png"/>
+    </media:group>
+    <dc:creator>React Blog</dc:creator>
+    <link rel="enclosure" href="https://react.dev/images/og/blog-2026-09-09-react-19-3.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/2e73857455e1cb1d</id>
@@ -3912,21 +3927,6 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     </media:group>
     <dc:creator>jsDelivr Blog</dc:creator>
     <link rel="enclosure" href="https://storage.ghost.io/c/11/db/11db16a2-f74a-4439-8bf1-e1c1fbcd5c84/content/images/2023/04/2023-04-16_21-07-47-5.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/js_node/9e19f1eadd2bc3b5</id>
-    <title>React Labs: What We've Been Working On – March 2023</title>
-    <updated>2023-03-22T00:00:00+00:00</updated>
-    <content>In React Labs posts, we write about projects in active research and development. We've made significant progress on them since our last update, and we'd like to share what we learned.</content>
-    <link href="https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023" rel="alternate"/>
-    <category term="React Blog" label="React Blog"/>
-    <published>2023-03-22T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://react.dev/images/og/blog-2023-03-22-react-labs-what-we-have-been-working-on-march-2023.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://react.dev/images/og/blog-2023-03-22-react-labs-what-we-have-been-working-on-march-2023.png"/>
-    </media:group>
-    <dc:creator>React Blog</dc:creator>
-    <link rel="enclosure" href="https://react.dev/images/og/blog-2023-03-22-react-labs-what-we-have-been-working-on-march-2023.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/e144a3f0011a7c72</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-09T16:53:04.217326+00:00</updated>
+  <updated>2026-09-09T21:08:18.072126+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/7d6bcf2553c986b6</id>
+    <title>I made a 1.1M ModernBERT encoder play Doom in real time on a CPU</title>
+    <updated>2026-09-09T21:08:16.942896+00:00</updated>
+    <content>I made a 1.1M ModernBERT encoder play Doom in real time on a CPU Some time ago, VAGO Solutions released SauerkrautLM-Doom-MultiVec-1.3M, a tiny model trained to play Doom Defend the Center scenario from 31k human gameplay examples. My first thought: cool! I love both Doom and Small Language Models. Then another idea: I bet I can do better :-) What I did? - evaluated the original model and found it's better than reported - changed a bit the architecture - generated SFT data with a scripted oracle - SFT + PPO refinement on consumer hardware Got a smaller, faster and killer model Can even fit a floppy with int8 quantization 💾 Watch it play/read the article: anakin87/tiny-doom-defender</content>
+    <link href="https://huggingface.co/posts/anakin87/292264034976390" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-09T21:08:16.942896+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-uploads.huggingface.co/production/uploads/626505d493e0b04d75710566/ASfNeaaO56M7BIZcf3vdC.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-uploads.huggingface.co/production/uploads/626505d493e0b04d75710566/ASfNeaaO56M7BIZcf3vdC.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/626505d493e0b04d75710566/ASfNeaaO56M7BIZcf3vdC.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/0b1035cded72703a</id>
     <title>Another small 4B model comes out yesterday.</title>
@@ -146,6 +161,36 @@
     </media:group>
     <dc:creator>Hugging Face Posts</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DedeProGames/794706064038759.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/69be45485ce78669</id>
+    <title>Marigold V2: Revisiting Diffusion Transformers for Monocular Depth Estimation</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Marigold V2 repurposes diffusion transformers for monocular depth estimation via single-step flow-matching inference, semantic alignment, and a Sinkhorn-based two-stage fine-tuning protocol, yielding sharper out-of-distribution depth maps and strong results on related dense regression tasks.</content>
+    <link href="https://huggingface.co/papers/2609.08084" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08084/gradient.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08084/gradient.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08084/gradient.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/69df743b4c90e6e9</id>
+    <title>AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>AuK is an open-source foundational model that unifies speech generation and editing via natural-language instructions and audio context, using a multimodal language model, joint VAE, hybrid rectified-flow Transformer, and efficient distillation for fast inference.</content>
+    <link href="https://huggingface.co/papers/2609.08936" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936/gradient.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936/gradient.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.08936/gradient.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/84198b2383a85dd8</id>

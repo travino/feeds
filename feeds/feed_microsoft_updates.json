@@ -8,6 +8,52 @@
   "icon": "https://support.microsoft.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/ae2e9edba6f67b23",
+      "url": "https://learn.microsoft.com/en-us/training/paths/stay-current-with-windows/",
+      "title": "IT resources to plan, prepare, and deploy Windows",
+      "content_text": "Whether you’re a seasoned IT pro or earlier in your career, new and updated resources are available. Learn how to effectively roll out feature updates to Windows devices and Microsoft 365 Apps in advance of the upcoming Windows 11, version 26H2. You can deploy updates faster and support your remote workforce by following a three-phase process: plan > prepare > deploy. Complete a redesigned Microsoft learning path for free and watch a fresh podcast series:",
+      "date_published": "2026-09-09T10:00:00Z",
+      "date_modified": "2026-09-09T10:00:00Z",
+      "authors": [
+        {
+          "name": "Windows message center"
+        }
+      ],
+      "image": "https://learn.microsoft.com/training/achievements/stay-current-with-windows-social.png",
+      "tags": [
+        "Windows message center"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.microsoft.com/training/achievements/stay-current-with-windows-social.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/166ee686fe922b8a",
+      "url": "https://learn.microsoft.com/en-us/officeupdates/odt-release-history#september-9-2026",
+      "title": "Office Deployment Tool releases: September 9, 2026",
+      "content_text": "Version 16.0.20326.20112( setup.exe version 16.0.20326.20112) Resiliency and Reliability Improvements",
+      "date_published": "2026-09-09T00:00:00Z",
+      "date_modified": "2026-09-09T00:00:00Z",
+      "authors": [
+        {
+          "name": "Office Deployment Tool releases"
+        }
+      ],
+      "image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+      "tags": [
+        "Office Deployment Tool releases"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/0e51647b5f0686e8",
       "url": "https://support.microsoft.com/help/5124008",
       "title": "The September 2026 Windows security update is now available",
@@ -594,29 +640,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/1769641412f6ce49",
-      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
-      "title": "Microsoft 365 Copilot release notes: August 11, 2026",
-      "content_text": "Updates released between July 28, 2026, and August 11, 2026. Microsoft 365 Copilot extensibility Parallel content and identity crawl improves content freshness [Web] Copilot connectors now run content crawl and identity crawl in parallel, making ingested content available to users faster than before. Details: What changed: Previously, content crawl and identity crawl executed sequentially, causing delays before content became accessible in Copilot. Now, both crawls run in parallel, reducing tota",
-      "date_published": "2026-08-11T00:00:00Z",
-      "date_modified": "2026-08-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "Microsoft 365 Copilot release notes"
-        }
-      ],
-      "image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-      "tags": [
-        "Microsoft 365 Copilot release notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/34ff2b3bd6c0f79d",
       "url": "https://learn.microsoft.com/en-us/officeupdates/odt-release-history#august-11-2026",
       "title": "Office Deployment Tool releases: August 11, 2026",
@@ -631,6 +654,29 @@
       "image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
       "tags": [
         "Office Deployment Tool releases"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/1769641412f6ce49",
+      "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes#august-11-2026",
+      "title": "Microsoft 365 Copilot release notes: August 11, 2026",
+      "content_text": "Updates released between July 28, 2026, and August 11, 2026. Microsoft 365 Copilot extensibility Parallel content and identity crawl improves content freshness [Web] Copilot connectors now run content crawl and identity crawl in parallel, making ingested content available to users faster than before. Details: What changed: Previously, content crawl and identity crawl executed sequentially, causing delays before content became accessible in Copilot. Now, both crawls run in parallel, reducing tota",
+      "date_published": "2026-08-11T00:00:00Z",
+      "date_modified": "2026-08-11T00:00:00Z",
+      "authors": [
+        {
+          "name": "Microsoft 365 Copilot release notes"
+        }
+      ],
+      "image": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
+      "tags": [
+        "Microsoft 365 Copilot release notes"
       ],
       "attachments": [
         {
@@ -2083,22 +2129,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/0d970b947866d8f3",
-      "url": "https://support.microsoft.com/help/5089573",
-      "title": "The May 2026 Windows non-security preview update is now available",
-      "content_text": "The May 2026 non-security preview update is now available for Windows 11, versions 26H1, 25H2, and 24H2. Information about the contents of this update is available from the release notes, which are accessible from the Windows 11 update history page. For instructions on how to install this update on your home device, check the Update Windows clause. To learn more about the different types of monthly quality updates, see Windows monthly updates explained . To be informed about the latest updates a",
-      "date_published": "2026-05-26T10:00:00Z",
-      "date_modified": "2026-05-26T10:00:00Z",
-      "authors": [
-        {
-          "name": "Windows message center"
-        }
-      ],
-      "tags": [
-        "Windows message center"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/46a29e80b9c7a108",
       "url": "https://learn.microsoft.com/en-us/officeupdates/current-channel#version-2605-may-26",
       "title": "Version 2605: May 26",
@@ -2219,29 +2249,6 @@
         {
           "url": "https://learn.microsoft.com/en-us/media/open-graph-image.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/microsoft_updates/53c96aff6243563a",
-      "url": "https://techcommunity.microsoft.com/blog/windows-itpro-blog/updated-secure-boot-status-report-in-windows-autopatch/4517920",
-      "title": "Updated Secure Boot status report in Windows Autopatch",
-      "content_text": "Windows Autopatch now delivers deeper, device-level insights into Secure Boot certificate status, trust configuration, and readiness. With new signals like confidence level, alerts, and detailed certificate visibility, you can more confidently move forward with broad updates and targeted remediations. Explore the latest updates to the Secure Boot stats report and learn how to gain more clarity into your Secure Boot rollout.",
-      "date_published": "2026-05-19T10:00:00Z",
-      "date_modified": "2026-05-19T10:00:00Z",
-      "authors": [
-        {
-          "name": "Windows message center"
-        }
-      ],
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE3OTIwLW9Xa3FTcA?revision=3",
-      "tags": [
-        "Windows message center"
-      ],
-      "attachments": [
-        {
-          "url": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE3OTIwLW9Xa3FTcA?revision=3",
-          "mime_type": "image/jpeg"
         }
       ]
     },

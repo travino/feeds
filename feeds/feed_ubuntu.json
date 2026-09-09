@@ -8,6 +8,29 @@
   "icon": "https://ubuntu.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/45102b8995a66397",
+      "url": "https://www.omgubuntu.co.uk/2026/09/bleachbit-6-0-4-update",
+      "title": "BleachBit 6.0.4 offers faster scanning, improves Linux cleaners",
+      "content_text": "A new version of BleachBit, an open-source system cleaning tool, is out. BleachBit 6.0.4 brings everything I mentioned in my spot on the BleachBit 6.0.4 beta release, including macOS support for the first time – albeit in an early state, and including a Cleaner for Safari and a choice of the (neat) BleachBit CLI or an early GUI. Windows and Linux users all benefit from faster startup times and scanning speeds, and gain new cleaners for Android Studio, Gradle’s cache, fish and Zsh shells and Pyth",
+      "date_published": "2026-09-09T16:54:24Z",
+      "date_modified": "2026-09-09T16:54:24Z",
+      "authors": [
+        {
+          "name": "OMG! Ubuntu"
+        }
+      ],
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp",
+      "tags": [
+        "OMG! Ubuntu"
+      ],
+      "attachments": [
+        {
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/ubuntu/2816daef9a07016a",
       "url": "https://www.omgubuntu.co.uk/2026/09/firefox-keyboard-cherry-switches",
       "title": "The $200 Firefox mechanical keyboard sold out",
@@ -1424,29 +1447,6 @@
       "attachments": [
         {
           "url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/postcard-gnome-email-client.webp?resize=406%2C232&ssl=1",
-          "mime_type": "image/webp"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/ff9cc8add8419008",
-      "url": "https://www.omgubuntu.co.uk/2026/08/gimp-new-project-file-format",
-      "title": "GIMP is (finally) working on a new project file format",
-      "content_text": "A new project file format is in the works for GIMP, as the existing one can’t handle larger, complex projects. Since 1997, the famed FOSS image editor has used the binary .xcf format to save projects so layers, effects and anything else can be edited and adjusted again – which doesn’t happen in a flat file export to JPEG or PNG. But, writing in a recent development update, the team has said it’s finding “more and more limitations” in the current format. And with major new features, like animatio",
-      "date_published": "2026-08-20T21:05:57Z",
-      "date_modified": "2026-08-20T21:05:57Z",
-      "authors": [
-        {
-          "name": "OMG! Ubuntu"
-        }
-      ],
-      "image": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232&ssl=1",
-      "tags": [
-        "OMG! Ubuntu"
-      ],
-      "attachments": [
-        {
-          "url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232&ssl=1",
           "mime_type": "image/webp"
         }
       ]

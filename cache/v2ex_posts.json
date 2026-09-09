@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T16:54:23.030497+00:00",
+  "last_updated": "2026-09-09T21:09:56.202144+00:00",
   "entries": [
     {
       "title": "reddit 被墙了吗，在手机上用 Apollo 客户端无法显示内容，浏览器无法打开？",
@@ -2810,33 +2810,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/8e655e3280c82b6d"
     },
     {
-      "title": "给自己做的一款浏览器标签页管理插件，免费+开源+纯本地（隐私友好），分享给大家",
-      "link": "https://www.v2ex.com/t/1233314#reply2",
-      "date": "2026-08-10T09:32:12+00:00",
-      "description": "最近给自己做了一个浏览器标签页管理插件 TabTab ，已经上架 Chrome 商店，也开源了，分享给有类似需求的人。 Chrome Web Store： https://chromewebstore.google.com/detail/tabtab-fast-tab-search-wi/mdobkkbakidjidcndihpianaobcnlcap?hl=zh-CN GitHub： https://github.com/Ephemero0n/TabTab 核心特点很简单： 免费 开源 纯本地运行，不上传浏览记录和搜索内容 同时搜索当前标签页和浏览历史 针对中文搜索做了优化 可以自动关闭长期没有使用的标签页 一点个人背景 其实我是学计算机出身的，但已经 N 年没有写代码了 。 平时更多是做产品相关的事情，脑子里经常会有一些「如果这个工具能这样就好了」的想法，但以前真要让我从头把一个完整产品写出来、调试、发布，基本不太现实。 如果不是这两年 Vibe Coding 已经成熟到现在这个程度，我大概率很难真正发布一个自己的作品。 对我来说，它最大的价值是把开发成本降低到了可以实现个人定制化",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/76a23963146343ba"
-    },
-    {
-      "title": "和国外同事开会，一半听得懂一半听不懂，于是做了个实时双语字幕工具",
-      "link": "https://www.v2ex.com/t/1233315#reply3",
-      "date": "2026-08-10T09:35:13+00:00",
-      "description": "起因 我平时经常和外企同事开会。英语听力属于\"半吊子\"水平——对方语速正常、话题熟悉时能跟上，一旦语速快了或者口音重了就开始丢包。开了 Teams 的实时字幕，发现它只能显示纯英文或者纯中文：看英文字幕，卡住的还是卡住；切中文翻译，又听不到原文说了什么，想学的机会也没了。 我想要的其实很简单： 原文一行、翻译一行，同屏对照 。听得懂的部分看原文，听不懂的部分瞄一眼翻译，还能顺便学两句表达。找了一圈没有顺手的，就自己做了一个。 网站概览 网址： https://bicaption.com/zh 实时双语字幕 ：说一句，出一句原文 + 一句翻译，两行对照显示。延迟大概 2~4 秒 不挑会议软件 ：它不接 Teams/Zoom 的 API ，就是用麦克风听声音——所以线上会、线下会、看视频网课都能用 与会的人扫个链接就能看 ：手机/电脑打开链接就是字幕流，不用装任何东西、不用注册。每个人还能自己选想看的翻译语言 会后自动生成双语纪要 ：议题、决定、行动项（谁·做什么·截止时间），可以导出 PDF / Markdown / SRT ，也可以发邮件邀请没参会的同事看 语言对 ：中英之外，日英、韩",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/82b7be0c145ee9c8"
-    },
-    {
-      "title": "Mac Mini HDMI 直连电视，几乎代替了 Nas+Apple TV",
-      "link": "https://www.v2ex.com/t/1233316#reply6",
-      "date": "2026-08-10T09:36:19+00:00",
-      "description": "之前一直是 飞牛 Nas + Apple TV 看电视的方案，这次装修专门埋了一根 10 米多的光纤 HDMI 线，从电脑桌到电视柜，发现体验很好。 Mac mini HDMI 接的电脑桌上的 4K 显示器，拓展坞连着光纤 HDMI 到电视。开屏幕复制，两个都是 4K 屏幕显示都没问题。如果不想在电视上显示了，直接拔掉 HDMI 线就行。 键鼠：本来还觉得得买个体感鼠标，后来发现有手机上的局域网键鼠 APP ，手机模拟成电脑触摸板和键盘，延时操作效率都很好，某些程度 IO 效率比 Apple TV 遥控器还高。 片源：这是最省心的地方，看 B 站再也不用找第三方反代软件了，电视也能刷抖音了，反正都直接用电脑浏览器看。磁力和网盘资源，我也都直接在 115 和夸克软件里看，也不用研究网盘挂载到 Nas 限速的问题。 画质：Mac 确实没有杜比画质，这个是缺点，另外（我猜测） Mac mini 在某些高画质片源解码能力可能不如 Nas + AppleTV 的方案？我还没遇到过。 CEC：这个确实没办法，电脑本身不支持。现在能做到的也就是，Mac 亮屏-电视同步亮屏； Mac Cmd+Ctrl",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/bd02a262766bfecd"
-    },
-    {
       "title": "[V50EX]分享一个自用的 Windows 10/11 的非官方 V2EX 桌面客户端，使用 WinUI 3 构建",
       "link": "https://www.v2ex.com/t/1233317#reply3",
       "date": "2026-08-10T09:36:35+00:00",
@@ -2853,15 +2826,6 @@
       "source": "V2EX Play",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/433d93d92e41eb96"
-    },
-    {
-      "title": "做了个 b 站/油管网页端的可以指定 up 主的视频设置默认倍速的插件",
-      "link": "https://www.v2ex.com/t/1233329#reply0",
-      "date": "2026-08-10T09:56:07+00:00",
-      "description": "感觉最近看视频几乎都需要选择倍速，之前自己写的简单脚本不太够用了，于是做了一个功能更完善的 chrome 倍速插件，支持所有网页内视频的控制，还有两个我认为比较好用的 feature： 1：自动选择当前窗口内最大的视频组件，对于 X 时间流这类场景中的视频调节起来非常方便 2：针对 bilibili ，youtube 的优化：可以针对每个 up 主单独设定这个频道的默认播放速度 默认快捷键是我自己用的非常顺手的快捷键，1 是原速，2 是 2 倍，3 是 3 倍，也可以自己设置添加别的 https://chromewebstore.google.com/detail/universal-video-speed/eolejhoapejdccldhnolnfahndeacami https://github.com/debugtheworldbot/universal-video-speed",
-      "source": "V2EX Creative",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/5d3a052e41c9b23f"
     },
     {
       "title": "派评 | 近期值得关注的 App",
@@ -4926,15 +4890,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9e999742f717f10a"
     },
     {
-      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
-      "link": "https://www.v2ex.com/t/1234483#reply1",
-      "date": "2026-08-14T13:08:14+00:00",
-      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
-      "source": "V2EX Creative",
-      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
-    },
-    {
       "title": "苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件",
       "link": "https://www.v2ex.com/t/1234484#reply0",
       "date": "2026-08-14T13:08:14+00:00",
@@ -4942,6 +4897,15 @@
       "source": "V2EX Creative",
       "image": "https://private-user-images.githubusercontent.com/14333766/636160355-0aceb14e-b4f5-4ab4-bf1e-72da35d147b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMwNTQsIm5iZiI6MTc4NjcxMjc1NCwicGF0aCI6Ii8xNDMzMzc2Ni82MzYxNjAzNTUtMGFjZWIxNGUtYjRmNS00YWI0LWJmMWUtNzJkYTM1ZDE0N2I5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM1MWNmMWIwZDg3MDEzZTA3YjBhY2I3OTA5NjVmNjQ5MDQ1YWZhZGFhNjlhYjk1ODM1MmI1ZTFlZmM0MjA3ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.G7WNF9w1vljvTj16Ns9lCbGK6jYZORpJSY38mLG8ggI",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/491fdf8e33c97c54"
+    },
+    {
+      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
+      "link": "https://www.v2ex.com/t/1234483#reply1",
+      "date": "2026-08-14T13:08:14+00:00",
+      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
+      "source": "V2EX Creative",
+      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
     },
     {
       "title": "分享个 dsh 插件 自动将为提交信息增加 co-author 对应模型",
@@ -5934,15 +5898,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/845f675437e6e7a1"
     },
     {
-      "title": "如何最大化 Claude Code Session 的价值",
-      "link": "https://www.v2ex.com/t/1234919#reply0",
-      "date": "2026-08-17T03:07:19+00:00",
-      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
-      "source": "V2EX Play",
-      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
-    },
-    {
       "title": "Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？",
       "link": "https://www.v2ex.com/t/1234920#reply1",
       "date": "2026-08-17T03:07:19+00:00",
@@ -5950,6 +5905,15 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/avatar/a5c4/cedb/764031_xlarge.png?m=1773103759",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a0fb6b3f396db430"
+    },
+    {
+      "title": "如何最大化 Claude Code Session 的价值",
+      "link": "https://www.v2ex.com/t/1234919#reply0",
+      "date": "2026-08-17T03:07:19+00:00",
+      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
     },
     {
       "title": "深港两地用 codex(chatgpt)用什么网络方案？",
@@ -18002,6 +17966,42 @@
       "source": "V2EX Creative",
       "image": "https://cdn.v2ex.com/avatar/e664/4ffb/378710_large.png?m=1745417599",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/54abf1e9461a2a13"
+    },
+    {
+      "title": "做了个跑在终端里的多 agent 编排系统",
+      "link": "https://www.v2ex.com/t/1240840#reply0",
+      "date": "2026-09-09T16:56:06+00:00",
+      "description": "多 agent 编排其实很多, 我一直想找一个完全在终端里跑的, 既有完整的流程又能保持灵活性. 最后自己实践了两个多月, 搞了个开源项目 https://github.com/dualface/kander 特点: 简单易用 灵活 可定制 求 Github Star ;-)",
+      "source": "V2EX Creative",
+      "image": "https://github.com/dualface/kander/raw/main/docs/kanban-screenshot-01.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/288cecc24f430579"
+    },
+    {
+      "title": "做了一个免费 Twitter 工具站，下载视频，下载图片，下载推文和线程等等超过 20 个小工具",
+      "link": "https://www.v2ex.com/t/1240842#reply0",
+      "date": "2026-09-09T17:01:41+00:00",
+      "description": "做了一个免费 Twitter 工具站，下载视频，下载图片，下载推文和线程等等超过 20 个小工具 https://twimate.com",
+      "source": "V2EX Creative",
+      "image": "https://cdn.v2ex.com/avatar/b372/492f/746548_xlarge.png?m=1788201644",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/b8dde686767cb083"
+    },
+    {
+      "title": "可以分享一个我自己做的开源终端复用器,但是它有 tui/cli/web/ios/android,还自带内网穿透,大家可以在手机上进行 vibecoding,甚至可以在车机上 vibecoding(噱头)",
+      "link": "https://www.v2ex.com/t/1240843#reply2",
+      "date": "2026-09-09T17:02:00+00:00",
+      "description": "做了一个支持 TUI / CLI / Web / iOS / Android 的终端复用器：AnyTTY 先贴项目地址： https://github.com/anytty/anytty 最近做了一个终端工具，叫 AnyTTY ，想分享给大家试试。 它的定位更接近传统的终端复用器：管理终端、分屏、切换会话，以及保留运行现场。Agent 管理并不是它的核心定位，不过也可以用它来配合 Agent 做一些跨机器的事情。但是我还写了一个基于他的 ADE,后续也会开源出来。 目前支持 TUI 、CLI 、Web 、iOS 和 Android 。下面介绍几个我觉得比较有意思的地方。 鼠标操作、原生 Windows ，以及跨机器的工作台 TUI 支持完整的鼠标操作，也支持原生 Windows 。 你可以在同一个 TUI 工作台里，同时查看不同机器上的终端。例如，左边是本地电脑的终端，右边是一台远程 Windows 机器的终端，不用来回切换客户端。(herdr 最近才支持。) 另外，AnyTTY 的 面板和终端是分离的 。面板只是查看终端的一个窗口，同一个终端可以同时出现在多个面板里。 比如，一个标签",
+      "source": "V2EX Creative",
+      "image": "https://i.imgur.com/NF1zDMl.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/162f51b098be0b99"
+    },
+    {
+      "title": "现在飞书也能用 Claude Tag 了？？",
+      "link": "https://www.v2ex.com/t/1240855#reply0",
+      "date": "2026-09-09T19:18:08+00:00",
+      "description": "2026 年 6 月 23 日，Anthropic 发布 Claude Tag ，面向 Claude Enterprise 和 Team 用户 beta 。 管理员可以把 Claude Tag 放进选定频道，链接工具，数据，甚至代码库；然后频道里任何人都能 @ Claude ，把任务交给它，它的记忆是共享的。 但 Claude Enterprise 账号太贵，每个团队用的 Agent 也不一定是 Claude 。 所以我们开源了 AgentConnect ，这是一个把你用的 AI Agent 接入到你的工作软件的一个平台，开源版 Claude tag 。 Github： https://github.com/agentconnect-md/agentconnect 你可以在这里面接入任何你钟意的 Coding Agent: Claude ，Codex ，Hermes Agent ，也可以把它拉进任意的工作区：飞书，微信，Discord ，GitHub 的 code ewview ，甚至 webhook ，都可以触发 但是 Agent Connect 区别于 Claude Tag 的其实",
+      "source": "V2EX Creative",
+      "image": "https://i.imgur.com/CFMnCOW.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/053e9758011d37f0"
     }
   ]
 }

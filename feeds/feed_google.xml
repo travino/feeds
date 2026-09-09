@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-09-09T16:53:02.968989+00:00</updated>
+  <updated>2026-09-09T21:08:28.737373+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -12,6 +12,307 @@
   <icon>https://blog.google/favicon.ico</icon>
   <logo>https://blog.google/favicon.ico</logo>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://workspaceupdates.googleblog.com/2026/09/create-and-edit-calculated-fields-in-Google-Sheets-pivot-tables-with-an-improved-editor.html</id>
+    <title>Create and edit calculated fields in Google Sheets pivot tables with an improved editor</title>
+    <updated>2026-09-09T19:59:50+00:00</updated>
+    <content type="html">&lt;p&gt;We are introducing a new, dedicated formula editor dialog for creating and editing calculated fields within pivot tables in Google Sheets. This update streamlines how you build custom formulas and derived metrics, making data analysis faster and more accurate.&lt;/p&gt;&lt;p&gt;Specifically, this new update introduces:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;A dedicated formula editor dialog for creating and modifying custom calculations&lt;/li&gt;&lt;li&gt;Field selection menus to insert column names without manual typing&lt;/li&gt;&lt;li&gt;Real-time syntax and formula validation to catch errors before applying changes&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Previously, creating calculated fields in Google Sheets required entering formulas into inline sidebar cards, which involved manual typing of exact field names and lacked live error checking. With this update, calculated fields can be created and managed with greater speed and accuracy, ensuring formulas remain consistent and easy to maintain across spreadsheets.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/a/AVvXsEgrdc8qkWUoz6iP_-cZmpg-S9afuzcqtVHhffhqBEfMs2bVM2ao52IlfTV7zh_khCnbAUT47fFaaSOqJEr0usSBeVz9KQAqCKRH-dri_49TjeqfQ_d42VqobT8lQUJy6WPbdMYzgX8ctlvqY0ef7CYmEVB2qC5KV2OewetD3GHQFdhXNgToHwUy6_aZxqA" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img alt="" src="https://blogger.googleusercontent.com/img/a/AVvXsEgrdc8qkWUoz6iP_-cZmpg-S9afuzcqtVHhffhqBEfMs2bVM2ao52IlfTV7zh_khCnbAUT47fFaaSOqJEr0usSBeVz9KQAqCKRH-dri_49TjeqfQ_d42VqobT8lQUJy6WPbdMYzgX8ctlvqY0ef7CYmEVB2qC5KV2OewetD3GHQFdhXNgToHwUy6_aZxqA=s1600" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins: &lt;/b&gt;There is no admin control for this feature.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users:&lt;/b&gt; Visit the Help Center to &lt;a href="https://support.google.com/docs/answer/1272900" target="_blank"&gt;learn more about creating and using pivot tables in Google Sheets&lt;/a&gt;.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) started on September 8, 2026&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Scheduled Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) starting on September 21, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Available to all Google Workspace customers and users with personal Google accounts&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Docs Editors Help: &lt;a href="https://support.google.com/docs/answer/1272900" target="_blank"&gt;Create &amp;amp; use pivot tables&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <link href="https://workspaceupdates.googleblog.com/2026/09/create-and-edit-calculated-fields-in-Google-Sheets-pivot-tables-with-an-improved-editor.html" rel="alternate"/>
+    <category term="Workspace Updates"/>
+    <published>2026-09-09T19:59:50+00:00</published>
+    <media:group>
+      <media:content url="https://blogger.googleusercontent.com/img/a/AVvXsEgrdc8qkWUoz6iP_-cZmpg-S9afuzcqtVHhffhqBEfMs2bVM2ao52IlfTV7zh_khCnbAUT47fFaaSOqJEr0usSBeVz9KQAqCKRH-dri_49TjeqfQ_d42VqobT8lQUJy6WPbdMYzgX8ctlvqY0ef7CYmEVB2qC5KV2OewetD3GHQFdhXNgToHwUy6_aZxqA=s72-c" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://blogger.googleusercontent.com/img/a/AVvXsEgrdc8qkWUoz6iP_-cZmpg-S9afuzcqtVHhffhqBEfMs2bVM2ao52IlfTV7zh_khCnbAUT47fFaaSOqJEr0usSBeVz9KQAqCKRH-dri_49TjeqfQ_d42VqobT8lQUJy6WPbdMYzgX8ctlvqY0ef7CYmEVB2qC5KV2OewetD3GHQFdhXNgToHwUy6_aZxqA=s72-c"/>
+    </media:group>
+    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/a/AVvXsEgrdc8qkWUoz6iP_-cZmpg-S9afuzcqtVHhffhqBEfMs2bVM2ao52IlfTV7zh_khCnbAUT47fFaaSOqJEr0usSBeVz9KQAqCKRH-dri_49TjeqfQ_d42VqobT8lQUJy6WPbdMYzgX8ctlvqY0ef7CYmEVB2qC5KV2OewetD3GHQFdhXNgToHwUy6_aZxqA=s72-c" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://workspaceupdates.googleblog.com/2026/09/automatic-room-check-in-for-google-meet-available-on-mobile-devices.html</id>
+    <title>Automatic room check-in for Google Meet available on mobile devices</title>
+    <updated>2026-09-09T19:15:38+00:00</updated>
+    <content type="html">&lt;p&gt;In January 2026, we introduced &lt;a href="https://workspaceupdates.googleblog.com/2026/01/automatic-room-check-in-google-meet-mobile.html" target="_blank"&gt;Automatic room check-in for Google Meet available on mobile&lt;/a&gt; to organizations on the Rapid Release track enrolled in Early Preview Rooms. We’re excited to announce that this feature is now rolling out to all Workspace customers with Google Meet hardware. This feature simplifies the process of joining meetings for those using companion mode on a phone or tablet within a conference room. We're introducing automatic room check-in via ultrasound proximity detection. To automatically check you in, the green room uses your phone or tablet’s microphone to detect an ultrasound signal from the conference room hardware, streamlining the process and eliminating unnecessary steps. This feature is available on Android and iOS devices.&lt;/p&gt;&lt;p&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/a/AVvXsEg6ow5YTjtT5pUcVGwV8zh3edzO6Zx6KzoE9dou77k_-ufNcv9RTJYRnrBJKH5Mn4XAOqHYtv8oXdXVW1MEO4LPBGdB89twZPgs0h_xu31ZwmrvXa997ZsxaNzd3al-FOKdzD-DUZxM3xQ9FXxfc6SmohOfTqclXaPOOI-DUzJSB878jkQloCTjNt8n1sQ" style="margin-left: auto; margin-right: auto;"&gt;&lt;img alt="" height="640" src="https://blogger.googleusercontent.com/img/a/AVvXsEg6ow5YTjtT5pUcVGwV8zh3edzO6Zx6KzoE9dou77k_-ufNcv9RTJYRnrBJKH5Mn4XAOqHYtv8oXdXVW1MEO4LPBGdB89twZPgs0h_xu31ZwmrvXa997ZsxaNzd3al-FOKdzD-DUZxM3xQ9FXxfc6SmohOfTqclXaPOOI-DUzJSB878jkQloCTjNt8n1sQ=w293-h640" width="293" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;Automatic check-in on Android, Right: on iOS&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/a/AVvXsEg-bYDsnkrNhA7N4YEQpW9R53jy1b0m5lRpWb9IdRjIVAb0M-8wr5E_J8uYQj6AwB1mHFpe29ZKKx0eghvkRo3f1Bzq3YeF58toRB-RqJkwT47k3uKGc-XxHNlqlOOLGxxdR217J1Y_uKZk1OKTBvHqiqoGQQnRtuHVwFkM2o0fqjfzzDSqMLdldspx0Mg" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img alt="" height="640" src="https://blogger.googleusercontent.com/img/a/AVvXsEg-bYDsnkrNhA7N4YEQpW9R53jy1b0m5lRpWb9IdRjIVAb0M-8wr5E_J8uYQj6AwB1mHFpe29ZKKx0eghvkRo3f1Bzq3YeF58toRB-RqJkwT47k3uKGc-XxHNlqlOOLGxxdR217J1Y_uKZk1OKTBvHqiqoGQQnRtuHVwFkM2o0fqjfzzDSqMLdldspx0Mg=w296-h640" width="296" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Additional details&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Minimum Android build required:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Meet: 367.0 (Android Settings &amp;gt; Apps &amp;gt; Meet &amp;gt; [App Info &amp;gt; Version])&lt;/li&gt;&lt;li&gt;Gmail: 2026.06.29. (Android Settings &amp;gt; Apps &amp;gt; Gmail &amp;gt; [App Info &amp;gt; Version])&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;Minimum iOS build required:&lt;/li&gt;&lt;ul&gt;&lt;li&gt;Meet: 374.0. (Meet &amp;gt; Settings -&amp;gt; About, terms, and privacy &amp;gt; Version)&lt;/li&gt;&lt;li&gt;Gmail:&amp;nbsp; 6.0.260824. (Settings &amp;gt; About Gmail &amp;gt; Version)&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins: &lt;/b&gt;Automatic check-in is on by default and can be enabled or disabled at the room level. Visit the Help Center to &lt;a href="https://support.google.com/a/answer/16469989?hl=en" target="_blank"&gt;learn more about turning proximity detection on or off&lt;/a&gt;.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users: &lt;/b&gt;The Companion mode entry point will be highlighted in the greenroom when the proximity detection signal is detected. After joining a meeting in Companion mode, the user will be automatically checked into the room. If proximity check-in isn’t working, visit the Help Center for troubleshooting tips. Users can still check in manually after joining the call.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;p&gt;Android&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release and Scheduled Release domains:&lt;/a&gt; Rollout expected to complete by September 10, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;iOS&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release and Scheduled Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) starting on Sept 9, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Available to all Google Workspace customers, and Workspace Individual subscribers with Google Meet hardware.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Workspace Admin Help: &lt;a href="https://support.google.com/a/answer/16469989?hl=en" target="_blank"&gt;Turn proximity detection on or off&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Google Help: &lt;a href="https://support.google.com/meet/answer/16475134?hl=en" target="_blank"&gt;Use Proximity Detection with Google Meet&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <link href="https://workspaceupdates.googleblog.com/2026/09/automatic-room-check-in-for-google-meet-available-on-mobile-devices.html" rel="alternate"/>
+    <category term="Workspace Updates"/>
+    <published>2026-09-09T19:15:38+00:00</published>
+    <media:group>
+      <media:content url="https://blogger.googleusercontent.com/img/a/AVvXsEg6ow5YTjtT5pUcVGwV8zh3edzO6Zx6KzoE9dou77k_-ufNcv9RTJYRnrBJKH5Mn4XAOqHYtv8oXdXVW1MEO4LPBGdB89twZPgs0h_xu31ZwmrvXa997ZsxaNzd3al-FOKdzD-DUZxM3xQ9FXxfc6SmohOfTqclXaPOOI-DUzJSB878jkQloCTjNt8n1sQ=s72-w293-h640-c" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://blogger.googleusercontent.com/img/a/AVvXsEg6ow5YTjtT5pUcVGwV8zh3edzO6Zx6KzoE9dou77k_-ufNcv9RTJYRnrBJKH5Mn4XAOqHYtv8oXdXVW1MEO4LPBGdB89twZPgs0h_xu31ZwmrvXa997ZsxaNzd3al-FOKdzD-DUZxM3xQ9FXxfc6SmohOfTqclXaPOOI-DUzJSB878jkQloCTjNt8n1sQ=s72-w293-h640-c"/>
+    </media:group>
+    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/a/AVvXsEg6ow5YTjtT5pUcVGwV8zh3edzO6Zx6KzoE9dou77k_-ufNcv9RTJYRnrBJKH5Mn4XAOqHYtv8oXdXVW1MEO4LPBGdB89twZPgs0h_xu31ZwmrvXa997ZsxaNzd3al-FOKdzD-DUZxM3xQ9FXxfc6SmohOfTqclXaPOOI-DUzJSB878jkQloCTjNt8n1sQ=s72-w293-h640-c" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://cloud.google.com/blog/products/databases/alloydb-omni-rpm-orchestrator-is-generally-available</id>
+    <title>Enterprise-grade PostgreSQL with AlloyDB Omni RPM Orchestrator is generally available</title>
+    <updated>2026-09-09T19:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We are thrilled to announce the general availability of the &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/docs/redhat-orchestrator-overview"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;AlloyDB Omni Red Hat RPM orchestrator&lt;/strong&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, that brings production-ready security, resiliency, and low-downtime operations to PostgreSQL workloads in your enterprise environments. This GA milestone builds on the &lt;/span&gt;&lt;a href="https://medium.com/@lujjwal/automate-on-premises-database-operations-introducing-the-alloydb-omni-red-hat-rpm-orchestrator-4ab02ca8a85a" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;foundation laid during our preview release&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and launches alongside &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/docs/linux-overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AlloyDB Omni version 18.3.0&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to bring cloud-like database automation directly to your virtual machines and bare-metal servers with Google’s AI capabilities.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;As of this GA release, AlloyDB Omni can be deployed in four modes to suit your requirements. Visit &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/docs/choose-deployment"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AlloyDB Omni documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for more information.&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Standalone container (Debian / UBI)&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Container with Kubernetes operator for Highly Available enterprise deployment&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Standalone RPM&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With RPM orchestrator for Highly Available enterprise deployment&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Why run a self-managed database?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;For many use cases, a &lt;/span&gt;&lt;a href="https://cloud.google.com/products/databases"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;managed cloud database service&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; is the simplest and most cost-effective option. However, there are scenarios where you may choose to run a PostgreSQL database yourself, on or off the cloud. The AlloyDB Omni RPM deployment is built for organizations that need the performance of the cloud with the control of local, non-containerized infrastructure, with use cases including:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Workload Modernization:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;AlloyDB Omni is more than 2X faster for transactional workloads and can deliver up to 100X faster analytical queries than standard PostgreSQL &lt;/span&gt;&lt;span style="text-decoration: line-through; vertical-align: baseline;"&gt;L&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; , revitalizing existing infrastructure without a full migration.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Regulated Environments:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; For industries with strict data residency and security requirements, the RPM orchestrator provides the necessary tools like SELinux and local audit logging to stay compliant.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Edge and On-Premises Deployment: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Deploying at the edge or on bare-metal servers allows for low-latency processing and disconnected operation.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;AI-Ready Infrastructure: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;You can provision database clusters for AI integrations, using AlloyDB AI capabilities such as &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/linux/current/docs/ai/perform-vector-search"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;vector search&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for modern generative AI applications directly on-premises.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Flexible Reference Architectures&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The AlloyDB Omni RPM orchestrator offers flexible deployment models tailored to your organization's specific operational requirements—whether your focus is maximizing performance, scaling read throughput, or ensuring robust high availability (HA). For more details, refer to the &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/redhat-orchestrator/current/docs/database-availability-reference-architecture-overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AlloyDB Omni availability reference architecture overview&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. The orchestrator simplifies cluster provisioning and lifecycle management by allowing you to define reference architecture specifications, customizable by adjusting instance parameters, node configurations, and networking options. Here is an example deployment view of scalable AlloyDB Omni HA reference architecture.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="1" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_8L3W52J.max-1000x1000.jpg" /&gt;
+        
+        &lt;/a&gt;
+      
+        &lt;figcaption class="article-image__caption "&gt;&lt;p&gt;High availability reference architecture for AlloyDB Omni clusters with RPM Orchestrator&lt;/p&gt;&lt;/figcaption&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The diagram illustrates a highly available, distributed database reference architecture for &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;AlloyDB Omni&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; managed by the &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;RPM Orchestrator&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. It shows that the client applications connect to a robust load-balancing tier and the load balancer routes read-write traffic directly to the active primary database node, while read-only traffic is routed to the replica nodes. The load balancer uses a Virtual IP (VIP) and is highly available itself, with &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Keepalived&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; (for VIP failover), &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;PgBouncer&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; (for PostgreSQL connection pooling), and &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Haproxy&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; (for routing and load balancing). The &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;AlloyDB Omni Primary &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;instance&lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt; &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;database nodes achieve high availability by replicating data synchronously across multiple zones. To scale out read-heavy workloads without impacting the primary HA cluster, separate &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Read Pool &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;instances are deployed. These receive Async Replication (asynchronous) from the active node and can be scaled out. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;It shows how an independent control plane manages the entire configuration and health of the clusters. The administrator interacts with the RPM Orchestrator, to oversee the lifecycle of the databases. The control plane includes redundant &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Cluster Managers &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;and a 3-node etcd based &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Distributed Configuration Store&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; to reliably maintain cluster state, and manage configurations.  The controllers directly interface with the &lt;/span&gt;&lt;strong style="font-style: italic; vertical-align: baseline;"&gt;Node Manager&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; running on each individual database node. For deploying only a single cluster, you may run control and data plane components on the same set of nodes.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;High Availability and Read Scalability&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Maintaining uptime and scaling reads for demanding workloads is simpler with the RPM orchestrator. It provides a resilient architecture capable of automatically handling failures across the stack, including the ability to handle failure of all Data / Control Path components, Readable Standby, as well as mitigating any network disruptions between the nodes.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The orchestrator now supports &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/redhat-orchestrator/current/docs/read-pool-orchestrator"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;read pools&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; for scaling out your read workloads and gives you the ability to create or add read pools to a cluster dynamically to meet the needs of analytical queries or similar workloads. The system also configures dedicated read endpoints for both standby nodes and readpools.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We are continuously expanding the capabilities of the AlloyDB Omni RPM orchestrator. Stay tuned for upcoming features, including advanced enterprise-grade capabilities to further strengthen business continuity and cross-region resiliency.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Data Protection and Security&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Data security and recovery are at the core of the RPM Orchestrator. In this release, we have integrated automated &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/redhat-orchestrator/current/docs/backup-restore"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;backup and restore capabilities&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; that enable you to configure a backup schedule and manage fully automated backup to GCS or S3-compatible storage automatically. The orchestrator allows you to execute backups to S3 or GCS buckets, or locally. Additionally, point-in-time recovery and fully automated in-place PIT restore are natively supported.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The RPM orchestrator supports SELinux enforcement at or after bootstrap to satisfy strict enterprise compliance and security standards and ensure mandatory access control and strong process isolation.&lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt; Database Operations&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We’ve reduced the operational overhead associated with managing database fleets:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Zero-Hassle Low-Downtime Maintenance: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Managing lifecycle updates and scaling operations is easier with the new, fully automated Low Downtime Maintenance (LDTM). Minor version upgrades as well as CPU and memory resource adjustments are executed with minimized downtime and automatic rollback support for maximum availability.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Dynamic Configuration: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Database administrators can dynamically tune settings without hassle, including the ability to Modify GUCs/configs at or after bootstrap. You can also provision a cluster for AI integrations.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Simplified Cluster Maintenance: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Managing your cluster footprint is straightforward, with native operational capabilities to add or remove database nodes as your workload demands shift.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Observability, AI, and Extensions&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Monitoring and tuning your fleet requires deep visibility and the right set of tools:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Advanced Logging: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;The orchestrator simplifies auditability and debugging by providing Data and Control Path log direction to log disk.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Rich Observability: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Custom metrics support allows you to fine-tune observability to suit your monitoring ecosystem. With custom metrics, you can track business-level events directly from the database, such as the number of new user registrations per minute, active sessions for a specific tenant, or the volume of orders processed, and export these to your company's central observability platform.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;AI &amp;amp; Extensions:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; In addition to the &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/redhat-orchestrator/current/docs/reference/extensions"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;list of extensions&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; supported with AlloyDB Omni&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;, &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;the orchestrator includes support for all AlloyDB Omni's AI features such as &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/linux/current/docs/ai/generate-sql-queries-natural-language"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;query using natural language&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/linux/current/docs/ai/store-embeddings"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AI-powered searches&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/linux/current/docs/ai/evaluate-semantic-queries-ai-operators"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AI functions&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, etc. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;&lt;strong style="vertical-align: baseline;"&gt;Get Started Today&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The AlloyDB Omni Red Hat RPM orchestrator offers a new way to manage PostgreSQL-compatible workloads on bare metal or VM platforms, combining the high performance of AlloyDB, access to generative AI features and Gemini models to build AI agents and applications, and full automation.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Ready to elevate your on-premises database operations? Dive into our AlloyDB&lt;/span&gt;&lt;a href="https://docs.cloud.google.com/alloydb/omni/redhat-orchestrator/current/docs/overview"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt; documentation&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to get started with the GA release today. &lt;/span&gt;&lt;a href="http://forms.gle/zxuHekMtV67Bw9Av9" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Sign-up&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; today !!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;You can also try our new &lt;/span&gt;&lt;a href="https://codelabs.developers.google.com/alloydb/omni/rpm/alloydb-omni-vm-ha-deployment" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;codelab&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to deploy a highly available AlloyDB Omni cluster using the RPM Orchestrator.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/databases/alloydb-omni-rpm-orchestrator-is-generally-available" rel="alternate"/>
+    <category term="Google Cloud"/>
+    <published>2026-09-09T19:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_8L3W52J.max-1000x1000.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_8L3W52J.max-1000x1000.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_8L3W52J.max-1000x1000.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space</id>
+    <title>A new deep learning model maps global methane emissions from space.</title>
+    <updated>2026-09-09T18:15:00+00:00</updated>
+    <content type="html">&lt;img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Map_Global_Methane_social.max-600x600.format-webp.webp" /&gt;Google and NASA JPL developed an AI model to map and quantify global methane emissions from space using EMIT.</content>
+    <link href="https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-09T18:15:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Map_Global_Methane_social.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Map_Global_Methane_social.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Map_Global_Methane_social.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants</id>
+    <title>Google is a Leader in the 2026 Gartner® Magic Quadrant™ for Enterprise AI Assistants</title>
+    <updated>2026-09-09T18:00:00+00:00</updated>
+    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We are excited to share that Gartner has named Google a Leader in its inaugural &lt;/span&gt;&lt;a href="https://cloud.google.com/resources/content/2026-gartner-magic-quadrant-enterprise-ai-assistants"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;2026 Magic Quadrant for Enterprise AI Assistants&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;In this comprehensive evaluation of top enterprise AI assistant vendors, Gartner placed Google in the Leaders quadrant for its evaluation across both Completeness of Vision and Ability to Execute.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Gemini Enterprise helps organizations bring helpful, secure AI directly into the daily work of their employees. It moves teams past basic chat interactions to automating multi-step, end-to-end workflows with AI agents. It connects with the tools and infrastructure companies already use and scales easily and cost-effectively, all with security and governance in place. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We see this recognition from Gartner as validation of our goal: creating a unified platform where everyone — from business users to developers — can work alongside AI agents to accomplish more together.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+&lt;div class="block-image_full_width"&gt;
+
+
+
+
+
+
+  
+    &lt;div class="article-module h-c-page"&gt;
+      &lt;div class="h-c-grid"&gt;
+  
+
+    &lt;figure class="article-image--large
+      
+      
+        h-c-grid__col
+        h-c-grid__col--6 h-c-grid__col--offset-3
+        
+        
+      "&gt;
+
+      
+      
+        
+        &lt;img alt="[High Res] Gartner EAIA Magic Quadrant" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/High_Res_Gartner_EAIA_Magic_Quadrant.max-1000x1000.png" /&gt;
+        
+        &lt;/a&gt;
+      
+    &lt;/figure&gt;
+
+  
+      &lt;/div&gt;
+    &lt;/div&gt;
+  
+
+
+
+
+&lt;/div&gt;
+&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Our take on Google as a Leader&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Amid a complex landscape of standalone AI tools and emerging platforms, Gemini Enterprise emerges as a unified, open agentic platform backed by Google’s full AI stack, with strengths mentioned in the report such as:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Unified “AI front door”&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Gemini Enterprise unifies enterprise chat and search, first and third-party agents, a no-code agent designer, Google Workspace integration, and third-party connectors all in one platform, eliminating the need for organizations to piece together disparate AI tools.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Open connectivity:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Gemini Enterprise offers extensive connectivity beyond Google's ecosystem — extending to Microsoft 365, other third-party software, and internal enterprise data sources. This open connectivity lets organizations adopt Gemini Enterprise alongside their existing infrastructure without costly system overhauls.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Simple economics: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Gemini Enterprise offers a straightforward pricing model, with actions like chat and search included in the base SKU. Organizations can select &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;per-user seat subscriptions, as well as a pay-as-you-go option that lets users run agent workloads without hitting quota limits mid-task.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Built-in governance: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Gemini Enterprise provides robust agent governance out-of-the- box at no extra cost, enabling enterprises to seamlessly manage users, agents, and data permissions while curbing security risks and agent sprawl.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Full-stack depth and scale&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;: Google’s vertically-integrated stack provides &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;global infrastructure, custom silicon, world-class models, and a secure, enterprise-ready foundation — all optimized for security, interoperability, and cost. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To read the full report, download it &lt;/span&gt;&lt;a href="https://cloud.google.com/resources/content/2026-gartner-magic-quadrant-enterprise-ai-assistants"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Accelerating our vision with the latest Gemini Enterprise advancements&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Over the past months, we have accelerated Gemini Enterprise with significant product advancements:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Tailored industry solutions: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;We introduced specialized solutions for &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;legal&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; and &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;financial services&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; last month. These tailored solutions bring pre-built agents, domain-specific skills, secure data connectors, and an open partner ecosystem, allowing for rapid deployment. They are also built on top of Gemini Enterprise’s governed control plane so you can create and manage workflows in these highly regulated industries. &lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Google Antigravity in Gemini Enterprise: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;With the introduction of &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;AI developer tools in Gemini Enterprise&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, enterprises can now easily enable agentic dev tools like Antigravity and Android Studio for their developer teams with eligible Gemini Enterprise licenses, and maintain full governance and observability inside the admin console.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;FinOps and cost controls: &lt;/strong&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;New FinOps and cost-control capabilities&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; were introduced last month, allowing organizations to optimize AI spend through more pricing options, Flexible Savings Plans, and granular spend management.&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Gemini Enterprise customers are also seeing the value&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Hearing this recognition from Gartner is great, but it's not just them—our customers are seeing this real-world value too, and it's driving a positive impact across their organizations every day.&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Check out what our customers are saying about the recent product advancements.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;“Deploying Antigravity in Gemini Enterprise allows Accenture to arm our engineers with Google DeepMind’s premier technology on the secure, trusted foundation of Google Cloud. Abstracting away operational complexity ensures our teams don't have to choose between developer speed and enterprise-grade governance — freeing them to deliver high-velocity engineering and transformative value for our clients.” — Chetna Sehgal, Global Practice Lead, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Accenture Google Business Group&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. Learn more &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;“Cleary is committed to embedding AI into our workflows in strategic and competitive ways. Using Google’s Gemini Enterprise, which can slot in seamlessly with other daily work tools, we can unlock greater efficiencies for our teams and help them deliver even higher quality work for our clients.” — Jeff Karpf, Managing Partner, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Cleary Gottlieb&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Learn more &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;“As a design partner for the Financial Research agent, Deutsche Bank has helped shape this capability in view of the realities of a highly regulated industry – from data protection and governance to the workflows our teams use every day,” – Marie-Jeanne Deverdun, Chief Technology, Data and Innovation Officer, and Member of the &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Deutsche Bank Management Board&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;Learn more &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;“We’re thrilled to partner with Google Cloud in the early adoption of Gemini Enterprise for Legal. We look forward to integrating Google’s technology to streamline workflow and further support our litigators in shaping outcomes critical to our clients’ futures.” — Joe Petrosinelli, Chairman, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;Williams &amp;amp; Connolly&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;. Learn more &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;here&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;Get started today&lt;/span&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Read the report: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Download your complimentary copy of the &lt;/span&gt;&lt;a href="https://cloud.google.com/resources/content/2026-gartner-magic-quadrant-enterprise-ai-assistants"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;2026 Gartner Magic Quadrant for Enterprise AI Assistants&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to explore the full analysis&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li style="vertical-align: baseline;"&gt;
+&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Explore Gemini Enterprise: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Discover how your organization can deploy governed, connected agents across every team at&lt;/span&gt;&lt;a href="https://cloud.google.com/gemini-enterprise"&gt;&lt;span style="vertical-align: baseline;"&gt; &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;cloud.google.com/gemini-enterprise&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</content>
+    <link href="https://cloud.google.com/blog/products/ai-machine-learning/google-is-a-leader-in-2026-gartner-magic-quadrant-for-enterprise-ai-assistants" rel="alternate"/>
+    <category term="Google Cloud"/>
+    <published>2026-09-09T18:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/High_Res_Gartner_EAIA_Magic_Quadrant.max-1000x1000.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/High_Res_Gartner_EAIA_Magic_Quadrant.max-1000x1000.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/High_Res_Gartner_EAIA_Magic_Quadrant.max-1000x1000.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>https://workspaceupdates.googleblog.com/2026/09/create-content-schedule-events-and-coordinate-tasks-across-Workspace-regardless-of-what-app-you-are-in.html</id>
+    <title>Create content, schedule events, and coordinate tasks across Workspace regardless of what app you are in</title>
+    <updated>2026-09-09T17:42:25+00:00</updated>
+    <content type="html">&lt;p&gt;Completing a single task shouldn't mean breaking your focus or switching apps. To keep you in the flow of work, Gemini can tackle complex tasks behind the scenes, working as an intelligent orchestrator across Workspace using the power of &lt;a href="https://workspace.google.com/blog/product-announcements/introducing-workspace-intelligence?e=48754805" target="_blank"&gt;Workspace Intelligence&lt;/a&gt;. You can prompt Gemini to help from wherever you are working, including Google Chat, Drive, Docs, Slides, and Gmail*.&lt;/p&gt;&lt;p&gt;Before, you had to prompt within each individual app to get personalized AI help. For example, &lt;a href="https://support.google.com/docs/answer/15541879?hl=en" target="_blank"&gt;generating a personalized document with Gemini&lt;/a&gt; required being in Docs while &lt;a href="https://support.google.com/docs/answer/16959434?hl=en" target="_blank"&gt;building AI-powered spreadsheets&lt;/a&gt; required being in Sheets. Now, for example, with richer AI integrations across Workspace apps, Gemini can help you drive your work forward faster by creating personalized and formatted docs or beautifully designed slides without leaving Gmail. This functionality also will soon power the flows you build in Workspace Studio.&lt;/p&gt;&lt;p&gt;Now you can use Gemini across your Workspace apps to:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Create content: &lt;/b&gt;Generate formatted Google Docs, structured Sheets, or stylized Slides in the background, saved securely to your Drive.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Example prompts:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;When in Gmail (via the side panel) to create a doc: &lt;/b&gt;“Create a strategy brief for this project with goals, milestones and next steps.“&lt;/li&gt;&lt;li&gt;&lt;b&gt;When in Gmail (via the side panel) to create a spreadsheet: &lt;/b&gt;"Create a tracker for this project in a new spreadsheet"&lt;/li&gt;&lt;li&gt;&lt;b&gt;When in Docs (via the side panel) to create a deck:&lt;/b&gt; "Turn this proposal into an easy to read slide deck for my director using @presentation as a style reference.”&lt;/li&gt;&lt;li&gt;&lt;b&gt;When in Chat (via Ask Gemini in Chat) to create a document: &lt;/b&gt;"Create a deck outlining Project Zebra with the latest updates"&lt;/li&gt;&lt;li&gt;&lt;b&gt;When in Drive (via Ask Gemini in Drive) to create a document: &lt;/b&gt;"Create a customer insights deck from project Zebra using my project files including sheets, reports, and emails”&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Conduct deep research: &lt;/b&gt;Synthesize complex data scattered across large folders or long threads into a summary report, complete with clear source attributions.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Example prompts:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;When in Docs (via the side panel): &lt;/b&gt;“Can you do deep research to see how this blog post compares to other content we have drafted internally and what competitors have published externally?”&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Draft and send emails: &lt;/b&gt;Compose detailed emails based on meeting notes or active documents, open as a draft in Gmail or send it directly from the Workspace app you are in.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Example prompts:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;When in Docs (via the side panel): &lt;/b&gt;“Send an email to my sales team for their review and feedback"&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Schedule your meetings: &lt;/b&gt;Find open times, schedule meetings, or resolve calendar conflicts when communicating with your teams without switching to your calendar.&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Example prompts:&lt;/b&gt;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;When in Chat (via Ask Gemini in Chat): &lt;/b&gt;“Schedule some time for me to discuss next steps with product around launch timelines for our new customer support tool“&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;li&gt;&lt;b&gt;Keep track of your to-dos: &lt;/b&gt;Instantly log a reminder or create a to-do list, mapping them straight into Google Tasks.&lt;/li&gt;&lt;ul&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;When in Slides (via the side panel): &lt;/b&gt;“Based on the presented strategy, can you remind me to follow up with the Marketing team next week to see how the social campaign went?”&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;br /&gt;&lt;/div&gt;&lt;p style="text-align: center;"&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style="text-align: center;"&gt;&lt;i&gt;Build branded decks without having to leave Docs&lt;/i&gt;&lt;/p&gt;&lt;p style="text-align: left;"&gt;Enterprise security and compliance controls are built-in:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Data confidentiality: &lt;/b&gt;Your data is not reviewed by humans or used to train Gemini models.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Granular permissions: &lt;/b&gt;Gemini respects the authenticated user’s existing access permissions and sharing policies. If the user cannot access a document, neither can Gemini.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Human-in-the-Loop controls: &lt;/b&gt;For actions involving external communication or calendar commitments, such as sending emails or scheduling meetings, Gemini presents an interactive preview card, allowing users to review, edit, and confirm before execution.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release and Scheduled Release domains:&lt;/a&gt; Gradual rollout (up to 15 days for feature visibility) started on September 2, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Business: &lt;/b&gt;Standard and Plus&lt;/li&gt;&lt;li&gt;&lt;b&gt;Enterprise:&lt;/b&gt; Standard and Plus&lt;/li&gt;&lt;li&gt;&lt;b&gt;Consumer: &lt;/b&gt;Google AI Pro (with the exception of scheduling functionality) and Google AI Ultra&lt;/li&gt;&lt;li&gt;&lt;b&gt;Other Editions: &lt;/b&gt;Frontline Plus (only for scheduling functionality)&lt;/li&gt;&lt;li&gt;&lt;b&gt;Education Add-ons:&lt;/b&gt; Google AI Pro for Education&lt;/li&gt;&lt;li&gt;&lt;b&gt;Other Add-ons: &lt;/b&gt;AI Expanded Access&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; Usage of advanced AI features across Workspace apps is subject to &lt;a href="https://knowledge.workspace.google.com/admin/generative-ai/workspace-with-gemini/ai-expanded-access" target="_blank"&gt;usage limits&lt;/a&gt;. At launch, this feature will be supported in English only. Support for more languages will be added in the future.&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Resources&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Google Workspace Blog: &lt;a href="https://workspace.google.com/blog/product-announcements/less-switching-more-flow-5-new-agentic-capabilities-across-google-workspace-apps" target="_blank"&gt;Less switching, more flow: 5 new agentic capabilities across Google Workspace apps&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <link href="https://workspaceupdates.googleblog.com/2026/09/create-content-schedule-events-and-coordinate-tasks-across-Workspace-regardless-of-what-app-you-are-in.html" rel="alternate"/>
+    <category term="Workspace Updates"/>
+    <published>2026-09-09T17:42:25+00:00</published>
+    <media:group>
+      <media:content url="https://img.youtube.com/vi/b0sVLrjVoJs/default.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://img.youtube.com/vi/b0sVLrjVoJs/default.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://img.youtube.com/vi/b0sVLrjVoJs/default.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://blog.google/products-and-platforms/products/google-one/fall-2026-ai-plan-updates</id>
+    <title>Tackle your to-do list with new features in our Google AI plans.</title>
+    <updated>2026-09-09T17:00:00+00:00</updated>
+    <content type="html">&lt;img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Plans_Recap_Blog.max-600x600.format-webp.webp" /&gt;Subscribers can try Google Pics and Sheets canvas — plus, new voice features in Gmail, Docs, and Keep.</content>
+    <link href="https://blog.google/products-and-platforms/products/google-one/fall-2026-ai-plan-updates" rel="alternate"/>
+    <category term="The Keyword"/>
+    <published>2026-09-09T17:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Plans_Recap_Blog.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Plans_Recap_Blog.max-600x600.format-webp.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_Plans_Recap_Blog.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>https://cloud.google.com/blog/products/databases/how-to-replicate-sql-server-logins-and-passwords-to-cloud-sql</id>
     <title>Beyond DMS: Accelerating Migrations SQL Server Logins and Users to Cloud SQL</title>
@@ -438,6 +739,44 @@
     <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Football_on_Search_blog_header.max-600x600.format-webp.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
+    <id>https://docs.cloud.google.com/release-notes#September_09_2026</id>
+    <title>Cloud Release Notes — September 09, 2026</title>
+    <updated>2026-09-09T07:00:00+00:00</updated>
+    <content type="html">&lt;h2 class="release-note-product-title"&gt;Gemini Enterprise Agent Platform&lt;/h2&gt;
+&lt;h3&gt;Feature&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Agent Gateway supports VPC Service Controls&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Agent Gateway now enforces VPC Service Controls perimeter rules for agent
+communications. When you &lt;a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/set-up-vpc-connectivity"&gt;configure Agent Gateway with VPC
+connectivity&lt;/a&gt;,
+agent traffic is routed through your private VPC network, ensuring that your
+organization's VPC-SC perimeter rules are applied to all agent traffic as well.&lt;/p&gt;
+&lt;p&gt;Note that setting up VPC connectivity is required to enable VPC Service Controls
+perimeter enforcement for Agent Gateway deployments. The connectivity template
+must be configured in &lt;code&gt;ALL_TRAFFIC&lt;/code&gt; egress mode.&lt;/p&gt;
+&lt;aside class="special"&gt;&lt;strong&gt;Important:&lt;/strong&gt;&lt;span&gt; VPC Service Controls is only supported for Agent Gateway deployments
+created after September 8, 2026 that use the &lt;a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/govern/gateways/set-up-vpc-connectivity"&gt;agent connectivity
+template&lt;/a&gt;
+to configure VPC connectivity.&lt;/span&gt;&lt;/aside&gt;
+&lt;h2 class="release-note-product-title"&gt;NetApp Volumes&lt;/h2&gt;
+&lt;h3&gt;Announcement&lt;/h3&gt;
+&lt;p&gt;Google Cloud NetApp Volumes now supports the Flex Unified service level in the
+following regions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;asia-east1 (Taiwan)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;australia-southeast2 (Melbourne)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;europe-southwest1 (Madrid)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more information about available regions, see &lt;a href="https://docs.cloud.google.com/netapp/volumes/docs/discover/service-levels#supported_regions"&gt;Supported regions&lt;/a&gt;.&lt;/p&gt;</content>
+    <link href="https://docs.cloud.google.com/release-notes#September_09_2026" rel="alternate"/>
+    <category term="Cloud Release Notes"/>
+    <published>2026-09-09T07:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>https://googlecloudpresscorner.com/2026-09-09-Google-Deepens-Commitment-to-Finland-with-Two-Year-EUR13-Billion-investment-in-AI-Infrastructure</id>
     <title>Google Deepens Commitment to Finland with Two-Year €13 Billion investment in AI Infrastructure</title>
     <updated>2026-09-09T07:00:00+00:00</updated>
@@ -472,6 +811,19 @@
       <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_FI_Announcement_Helsinki.max-600x600.format-webp.webp"/>
     </media:group>
     <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_FI_Announcement_Helsinki.max-600x600.format-webp.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>https://firebase.blog/posts/2026/09/ai-logic-text-to-speech</id>
+    <title>5 ways to use Gemini text-to-speech (TTS) in your apps with Firebase AI Logic</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <link href="https://firebase.blog/posts/2026/09/ai-logic-text-to-speech" rel="alternate"/>
+    <category term="Firebase"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://firebasestorage.googleapis.com/v0/b/first-class-blog.appspot.com/o/og%2Fai-logic-text-to-speech.svg?alt=media&amp;token=b4fcbde2-aeee-4dd8-93ba-f37136db1ae5" type="image/svg+xml" medium="image"/>
+      <media:thumbnail url="https://firebasestorage.googleapis.com/v0/b/first-class-blog.appspot.com/o/og%2Fai-logic-text-to-speech.svg?alt=media&amp;token=b4fcbde2-aeee-4dd8-93ba-f37136db1ae5"/>
+    </media:group>
+    <link rel="enclosure" href="https://firebasestorage.googleapis.com/v0/b/first-class-blog.appspot.com/o/og%2Fai-logic-text-to-speech.svg?alt=media&amp;token=b4fcbde2-aeee-4dd8-93ba-f37136db1ae5" type="image/svg+xml" length="0"/>
   </entry>
   <entry>
     <id>https://workspaceupdates.googleblog.com/2026/09/pick-up-where-you-left-off-with-persistent-drafts-in-Google-Chat.html</id>
@@ -29303,394 +29655,5 @@ information, see
       <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/07_-_Containers__Kubernetes_iY4YTLa.max-2600x2600.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/07_-_Containers__Kubernetes_iY4YTLa.max-2600x2600.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/products-and-platforms/platforms/google-play/comic-con-san-diego</id>
-    <title>Play Points members and comic book fans can score exclusive rewards with Google Play</title>
-    <updated>2026-07-23T17:00:00+00:00</updated>
-    <content type="html">Overview of The Auction by Google Play</content>
-    <link href="https://blog.google/products-and-platforms/platforms/google-play/comic-con-san-diego" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-23T17:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SDCC_thumbnail.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SDCC_thumbnail.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/SDCC_thumbnail.max-600x600.format-webp.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud</id>
-    <title>Your AI agents are ready. Is your data?</title>
-    <updated>2026-07-23T16:00:00+00:00</updated>
-    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;What’s one of the biggest bottlenecks stopping organizations from scaling&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt; their &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;AI initiatives? It isn’t the capabilities of today’s models — it’s their access to business context and semantic meaning. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In the agentic era, enterprises need to go beyond simply storing data to activating it with trusted context, moving from passive systems of record to proactive &lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;systems of action&lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;But AI agents operate with nonlinear speed; for example, a single prompt can trigger the agent to independently browse, query, and execute across multiple systems, placing stress on the underlying infrastructure. If the compute, networking, and storage layers aren't optimized for agentic AI, the data platform sitting on top of them will buckle.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;It’s no wonder that, according to our &lt;/span&gt;&lt;a href="https://cloud.google.com/resources/content/state-of-infrastructure-in-the-agentic-ai-era"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;State of infrastructure report&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;83% of organizations believe they require infrastructure upgrades&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; to support production-grade agentic AI systems.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "&gt;
-
-      
-      
-        
-        &lt;img alt="2" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/2_bR2eV1x.max-1000x1000.png" /&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To solve this problem, we introduced the Agentic Data Cloud at Google Cloud Next 2026; unifying your data, AI models, and operational databases into a single System of Action. To make an Agentic Data Cloud work, it must be AI-native from the chip to the model. The underlying infrastructure must be able to accommodate agentic load.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "&gt;
-
-      
-      
-        
-        &lt;img alt="3" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/3_pykJFMI.max-1000x1000.png" /&gt;
-        
-        &lt;/a&gt;
-      
-        &lt;figcaption class="article-image__caption "&gt;&lt;p&gt;Google’s Agentic Data Cloud&lt;/p&gt;&lt;/figcaption&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_with_image"&gt;&lt;div class="article-module h-c-page"&gt;
-  &lt;div class="h-c-grid uni-paragraph-wrap"&gt;
-    &lt;div class="uni-paragraph
-      h-c-grid__col h-c-grid__col--8 h-c-grid__col-m--6 h-c-grid__col-l--6
-      h-c-grid__col--offset-2 h-c-grid__col-m--offset-3 h-c-grid__col-l--offset-3"&gt;
-
-      
-
-
-
-
-
-
-  
-
-    &lt;figure class="article-image--wrap-small
-      
-      "&gt;
-
-      
-      
-        
-        &lt;img alt="4" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/4_W9sTAZx.max-1000x1000.png" /&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-
-
-
-
-
-      &lt;p&gt;Let’s explore how the right infrastructure foundation empowers an Agentic Data Cloud to solve the biggest data challenges organizations face today.&lt;/p&gt;&lt;h3&gt;&lt;b&gt;Overcoming a lack of context&lt;/b&gt;&lt;/h3&gt;&lt;p&gt;To be effective, agentic systems require access to context that is often found in fragmented data systems and legacy architectures. This can make it hard for agents to get this context, leading to incomplete, inaccurate results. In fact, our report found that &lt;b&gt;43% of IT leaders cite “difficulty integrating with legacy APIs and data sources”&lt;/b&gt; as their biggest agentic AI infrastructure gap.&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;But organizations cannot simply move massive datasets and connect them to AI without increasing complexity and cost. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our Agentic Data Cloud solves this by leveraging a &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;borderless &lt;/strong&gt;&lt;a href="https://cloud.google.com/products/lakehouse?hl=en"&gt;&lt;strong style="text-decoration: underline; vertical-align: baseline;"&gt;Lakehouse&lt;/strong&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt; &lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;running on open, flexible infrastructure. By accessing powerful native engines like BigQuery and Spanner over open standards (Apache Spark, Apache Iceberg), agents can read, reason over, and activate data across environments as if it were local, bypassing the latency and costs of traditional setups.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Escaping unnecessary manual work &lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Scaling agents on a patchwork of disconnected systems can create significant bottlenecks. In our research, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;81% of leaders called out &lt;/strong&gt;&lt;strong style="vertical-align: baseline;"&gt;operational complexity and engineering overhead&lt;/strong&gt;&lt;strong style="vertical-align: baseline;"&gt; as top unforeseen expenses &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;when scaling AI&lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;,&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; citing the time engineers spend doing manual work to patch together AI agents across disparate systems.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To move from thinking to doing, agents must be able to connect real-time data across both analytical and operational sources. This requires vertical integration. When an Agentic Data Cloud is built on an AI-native infrastructure where the models, data systems, and underlying accelerators are co-designed, there are fewer network hops and tooling is better integrated. This unified system allows an agent to reach an insight and trigger secure transactions without the typical engineering overhead.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;Bringing trust and knowledge to the data&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;It’s not enough for agents to just discover and query data. To take safe, accurate actions, agents also need rich context and business logic. Yet, &lt;/span&gt;&lt;strong style="vertical-align: baseline;"&gt;36% of leaders cite a lack of specialized, high-throughput vector databases &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;used for AI model grounding, as a key infrastructure gap, hindering their ability to give agents context.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In order to work to their full potential, agents need a foundation which is built to read and write data systems in real-time, including legacy ERPs and third-party CRMs. It also gives them the long-term memory to recall a user’s preference from, say, three weeks ago, while executing a complex task today. And without this real-time automation, agents have to re-process data for every single query.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To provide context for AI, organizations are using &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/data-analytics/introducing-the-google-cloud-knowledge-catalog?e=48754805"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Knowledge Catalog&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; to aggregate and enrich data in their data lakes, and enable agentic searches. By extracting meaning from unstructured data and automatically generating semantics, the catalog acts as an active reasoning layer. That catalog in turn, must be backed by high-throughput infrastructure, so that agents can retrieve the right context.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;The path forward&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To turn AI into a true competitive advantage, it’s time to build a connected, active data ecosystem. Giving your agents seamless access to all of your data is a must to move from pilots to production, and this must be supported by an infrastructure that can handle the demands of the agentic era. &lt;/span&gt;&lt;span style="vertical-align: baseline;"&gt;The winners in 2026 and beyond won’t necessarily be the ones with the smartest agents. They’ll be the ones who can feed those agents the right knowledge — securely, cost-effectively, and at scale. Is your data ready for the agentic era? &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;See how leaders are taking an AI-optimized approach to architecture in the &lt;/span&gt;&lt;a href="https://cloud.google.com/resources/content/state-of-infrastructure-in-the-agentic-ai-era"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;State of  infrastructure in the agentic AI era&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt; report. &lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
-&lt;div class="block-related_article_tout"&gt;
-
-
-
-
-
-&lt;div class="uni-related-article-tout h-c-page"&gt;
-  &lt;section class="h-c-grid"&gt;
-    &lt;a class="uni-related-article-tout__wrapper h-c-grid__col h-c-grid__col--8 h-c-grid__col-m--6 h-c-grid__col-l--6
-        h-c-grid__col--offset-2 h-c-grid__col-m--offset-3 h-c-grid__col-l--offset-3 uni-click-tracker" href="https://cloud.google.com/blog/products/compute/state-of-ai-infrastructure-report-overview/"&gt;
-      &lt;div class="uni-related-article-tout__inner-wrapper"&gt;
-        &lt;p class="uni-related-article-tout__eyebrow h-c-eyebrow"&gt;Related Article&lt;/p&gt;
-
-        &lt;div class="uni-related-article-tout__content-wrapper"&gt;
-          &lt;div class="uni-related-article-tout__image-wrapper"&gt;
-            &lt;div class="uni-related-article-tout__image"&gt;&lt;/div&gt;
-          &lt;/div&gt;
-          &lt;div class="uni-related-article-tout__content"&gt;
-            &lt;h4 class="uni-related-article-tout__header h-has-bottom-margin"&gt;Report: 83% of organizations need to upgrade their infrastructure to support agentic AI&lt;/h4&gt;
-            &lt;p class="uni-related-article-tout__body"&gt;Highlights from the State of AI Infrastructure report detailing how organizations are rethinking infrastructure to build resilient, fluid...&lt;/p&gt;
-            &lt;div class="cta module-cta h-c-copy  uni-related-article-tout__cta muted"&gt;
-              &lt;span class="nowrap"&gt;Read Article
-                &lt;svg class="icon h-c-icon" xmlns="http://www.w3.org/2000/svg"&gt;
-                  &lt;use xlink:href="#mi-arrow-forward" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;&lt;/use&gt;
-                &lt;/svg&gt;
-              &lt;/span&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/a&gt;
-  &lt;/section&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;</content>
-    <link href="https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud" rel="alternate"/>
-    <category term="Google Cloud"/>
-    <published>2026-07-23T16:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-600x600.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-600x600.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-600x600.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai</id>
-    <title>The Blueprint: How Voicify makes AI-enabled ordering a delight for customers</title>
-    <updated>2026-07-23T16:00:00+00:00</updated>
-    <content type="html">&lt;div class="block-paragraph_advanced"&gt;&lt;p&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;Welcome to The Blueprint, a new feature where we highlight how Google Cloud customers are tackling unique and common challenges across industries using the latest AI and cloud technologies. We hope to inspire others looking to innovate in their work&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Founded in 2018, Voicify reimagines the traditional phone call with the goal of transforming every call into a seamless and engaging experience. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The challenge:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;When we started Voicify in 2018, our vision was to help organizations build confident, pragmatic, and technically grounded voice-driven assistants for any channel, including phones and chat. But the pandemic changed everything. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We shifted our focus to telephone use cases primarily in the restaurant and healthcare sectors where, at the time, call volume and staffing posed significant challenges. Restaurants could potentially miss up to 20% of their calls and lose orders as a result, and healthcare providers struggled to keep up with call volume with the required 100% accuracy when integrating appointment information into a practice management system. We realized that specialized, purpose-driven AI assistants were the key to businesses maintaining excellent service at scale.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To succeed, we had to overcome four primary challenges:&lt;/span&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Transactional precision: &lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt;Our voice assistant needed to reason with complex customer requests against point of sale and practice management systems with 100% accuracy.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Traffic spike management:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Our LLM usage needs to be provisioned accurately to keep costs down and maintain customer services in spite of the common (and extreme) spikes in traffic seen in restaurants and healthcare organizations.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Latency:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Any delay in the assistant’s response can cause customers to hang up. We needed superfast time to first token, with minimal delay from when a user sends a voice or text request to when the AI model generates its first piece of output. &lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li style="vertical-align: baseline;"&gt;
-&lt;p&gt;&lt;strong style="vertical-align: baseline;"&gt;Security and compliance:&lt;/strong&gt;&lt;span style="vertical-align: baseline;"&gt; Since our founding in 2018, we’ve ensured that we’re HIPAA, SOC2, ISO27001, and PCI-compliant, and that our security is enterprise-grade. We needed architecture and infrastructure that employs all possible safeguards to safeguard data integrity and security.&lt;/span&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The solution:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our conversational orchestration platform builds and validates restaurant orders against a point-of-sale system before submission to ensure accuracy. Under the hood, &lt;/span&gt;&lt;a href="https://gemini.google.com/app/92de35898c1c8237" rel="noopener" target="_blank"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Gemini Flash&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, served via &lt;/span&gt;&lt;a href="https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-agent-platform"&gt;&lt;span style="text-decoration: underline; vertical-align: baseline;"&gt;Gemini Enterprise Agent Platform&lt;/span&gt;&lt;/a&gt;&lt;span style="vertical-align: baseline;"&gt;, vastly improves latency, minimizing user wait times and preventing hang-ups. With it, we also see approximately 25% to 30% savings compared to our previous use of other LLMs, and with greater reliability too.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;To grow the business — and call volume —  and to handle traffic spikes, we switched from Google AI Studio to Vertex AI and its current incarnation in Gemini Enterprise. We wanted the enterprise guarantees the latter provided, which we needed for scaling as well as for security and compliance for our healthcare clients. Specific Gemini Enterprise Agent Platform features help us manage high call volumes without experiencing service interruption or dropped responses.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;These enterprise-grade services may have carried an increased cost over AI Studio, but they were well worth it to ensure reliable uptime, and the premium pay-as-you-go feature made scaling much easier for us. For example, we used a combination of provisioned throughput and premium pay-as-you-go with Vertex AI to accommodate all-time high usage the day before Thanksgiving, and we saw no rate limiting issues.&lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The architecture:&lt;/strong&gt;&lt;/h3&gt;&lt;/div&gt;
-&lt;div class="block-image_full_width"&gt;
-
-
-
-
-
-
-  
-    &lt;div class="article-module h-c-page"&gt;
-      &lt;div class="h-c-grid"&gt;
-  
-
-    &lt;figure class="article-image--large
-      
-      
-        h-c-grid__col
-        h-c-grid__col--6 h-c-grid__col--offset-3
-        
-        
-      "&gt;
-
-      
-      
-        
-        &lt;img alt="image1" src="https://storage.googleapis.com/gweb-cloudblog-publish/images/image1_DsM3Zpr.max-1000x1000.png" /&gt;
-        
-        &lt;/a&gt;
-      
-    &lt;/figure&gt;
-
-  
-      &lt;/div&gt;
-    &lt;/div&gt;
-  
-
-
-
-
-&lt;/div&gt;
-&lt;div class="block-paragraph_advanced"&gt;&lt;h3&gt;&lt;span style="vertical-align: baseline;"&gt;The outcome:&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Gemini has reduced the burden on our in-house programmatic tools for pulling context and building menus. We’ve seen great improvements in performance and reliability, with lower latency and greater reliability with Gemini. And, the increased stability of our Gemini-powered assistants has made client onboarding much more efficient. Now it only takes one to two days to get a restaurant ready to test after gaining access to the POS system, down from what previously took one to two weeks&lt;/span&gt;&lt;span style="font-style: italic; vertical-align: baseline;"&gt;.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;With Google solutions for scale and enterprise-grade service, we’ve optimized our critical time-to-first-token metric, minimizing customer wait times. Using Vertex AI’s provisioned throughput and pay-as-you-go features, we’ve ensured 100% uptime, prevented dropped responses and rate-limiting issues, even during periods of all-time high usage. We’re now able to easily manage the spiky nature of restaurant traffic.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;In terms of technology, we anticipate moving beyond conversational order capture to more proactive assistance, using context from conversations or POS activities. Your typical Friday night order from your favorite Japanese restaurant? Someday soon it might be Voicify’s voice assistant proactively placing it for you. &lt;/span&gt;&lt;/p&gt;
-&lt;h3&gt;&lt;strong style="vertical-align: baseline;"&gt;The details:&lt;/strong&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;Our industry focus presents a few unique challenges that we had to spend time solving within the backend.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;The core component of our Voicify solutions is our voice orchestration platform, which manages the entire phone AI stack and is designed for enterprise-grade scalability and security. This is also the node where industry solutions are called depending on user needs.Our voice orchestration platform sits close to the customer and coordinates backend services like Gemini and the different components of the voice assistant. We use it to manage functions like automated speech recognition, text-to-speech, and text generation, which is not purely generative but includes programmatic elements.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;One of the unique architectural decisions we made was how to manage large, complex restaurant menus. We decided to avoid putting the entire menu into a single prompt, and we include only certain information in the initial prompt and then gather more details as the conversation progresses. This improves response times and helps manage the complexity of larger orders by focusing on only the relevant parts of each menu in a given interaction.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style="vertical-align: baseline;"&gt;We also designed the architecture from the outset of our company to meet the high standards of enterprise clients for security and compliance, particularly in healthcare. We are making sure that our scalability is enterprise-grade. Architecturally we’re also employing all safeguards to ensure data integrity and safety too. Lastly, our platform is designed to support a multicloud environment as part of our strategy for achieving the highest possible level of availability.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</content>
-    <link href="https://cloud.google.com/blog/topics/customers/bringing-delight-to-customer-phone-calls-with-ai" rel="alternate"/>
-    <category term="Google Cloud"/>
-    <published>2026-07-23T16:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-cloudblog-publish/images/voicify-blueprint-header.max-2500x2500.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-cloudblog-publish/images/voicify-blueprint-header.max-2500x2500.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-cloudblog-publish/images/voicify-blueprint-header.max-2500x2500.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://workspaceupdates.googleblog.com/2026/07/view-supporting-calendar-delegates-in-meeting-guest-list.html</id>
-    <title>View supporting calendar delegates in meeting guest list</title>
-    <updated>2026-07-23T15:47:12+00:00</updated>
-    <content type="html">&lt;p&gt;When viewing a guest list in Google Calendar on the web, you will now see a new icon next to leaders who have a calendar delegate assisting them with scheduling support. Hovering over the icon will display the person’s information, allowing you to easily initiate a chat with them directly.&lt;/p&gt;&lt;p&gt;This update helps users quickly identify and contact the appropriate scheduling support for a leader to streamline communication and event coordination.&lt;/p&gt;&lt;p&gt;This icon is visible in several calendar views:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Event details view&lt;/li&gt;&lt;li&gt;Full-screen creation&lt;/li&gt;&lt;li&gt;Side-by-side scheduling view&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5LMGon8DbvIb75H_NX_sx-bv3oZdCH0fI7MNaovk7fUKW416L0sBvXFFMxIywQ5fkZz8Oitaef7ZyqSmAlcXlZMD-2trC1cWq6W99epBcQ7eZe97reUsFk7Cpdlb-FjEdZ0QvJVxLi5M2VZ3vSbpL_elrrPyPTzYxqKy9irfz5h7lc4xlmNiL8V2X_Wk/s1180/View%20supporting%20calendar%20delegates%20in%20meeting%20guest%20list%20-%207060.png" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5LMGon8DbvIb75H_NX_sx-bv3oZdCH0fI7MNaovk7fUKW416L0sBvXFFMxIywQ5fkZz8Oitaef7ZyqSmAlcXlZMD-2trC1cWq6W99epBcQ7eZe97reUsFk7Cpdlb-FjEdZ0QvJVxLi5M2VZ3vSbpL_elrrPyPTzYxqKy9irfz5h7lc4xlmNiL8V2X_Wk/s1600/View%20supporting%20calendar%20delegates%20in%20meeting%20guest%20list%20-%207060.png" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;&lt;br /&gt;New icon surfacing the calendar delegate of a leader in the guest list in event details view&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;h3 style="text-align: left;"&gt;Getting started&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;b&gt;Admins: &lt;/b&gt;There is no admin control for this feature.&lt;/li&gt;&lt;li&gt;&lt;b&gt;End users: &lt;/b&gt;There is no end-user setting for this feature. Simply hover over the icon next to the person’s name to see more information about their scheduling support.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Rollout pace&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Rapid Release domains:&lt;/a&gt;&amp;nbsp;Gradual rollout (up to 15 days for feature visibility) starting on July 23, 2026&lt;/li&gt;&lt;li&gt;&lt;a href="https://support.google.com/a/answer/172177" target="_blank"&gt;Scheduled Release domains:&lt;/a&gt; Full rollout (1–3 days for feature visibility) starting on August 3, 2026&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;h3 style="text-align: left;"&gt;Availability&lt;/h3&gt;&lt;p&gt;&lt;/p&gt;&lt;ul style="text-align: left;"&gt;&lt;li&gt;Available to all Google Workspace customers, Workspace Individual subscribers, and users with personal Google accounts&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;</content>
-    <link href="https://workspaceupdates.googleblog.com/2026/07/view-supporting-calendar-delegates-in-meeting-guest-list.html" rel="alternate"/>
-    <category term="Workspace Updates"/>
-    <published>2026-07-23T15:47:12+00:00</published>
-    <media:group>
-      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5LMGon8DbvIb75H_NX_sx-bv3oZdCH0fI7MNaovk7fUKW416L0sBvXFFMxIywQ5fkZz8Oitaef7ZyqSmAlcXlZMD-2trC1cWq6W99epBcQ7eZe97reUsFk7Cpdlb-FjEdZ0QvJVxLi5M2VZ3vSbpL_elrrPyPTzYxqKy9irfz5h7lc4xlmNiL8V2X_Wk/s72-c/View%20supporting%20calendar%20delegates%20in%20meeting%20guest%20list%20-%207060.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5LMGon8DbvIb75H_NX_sx-bv3oZdCH0fI7MNaovk7fUKW416L0sBvXFFMxIywQ5fkZz8Oitaef7ZyqSmAlcXlZMD-2trC1cWq6W99epBcQ7eZe97reUsFk7Cpdlb-FjEdZ0QvJVxLi5M2VZ3vSbpL_elrrPyPTzYxqKy9irfz5h7lc4xlmNiL8V2X_Wk/s72-c/View%20supporting%20calendar%20delegates%20in%20meeting%20guest%20list%20-%207060.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5LMGon8DbvIb75H_NX_sx-bv3oZdCH0fI7MNaovk7fUKW416L0sBvXFFMxIywQ5fkZz8Oitaef7ZyqSmAlcXlZMD-2trC1cWq6W99epBcQ7eZe97reUsFk7Cpdlb-FjEdZ0QvJVxLi5M2VZ3vSbpL_elrrPyPTzYxqKy9irfz5h7lc4xlmNiL8V2X_Wk/s72-c/View%20supporting%20calendar%20delegates%20in%20meeting%20guest%20list%20-%207060.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-winter-2026</id>
-    <title>Apply now for the Google for Startups Gemini Startup Forum.</title>
-    <updated>2026-07-23T15:00:00+00:00</updated>
-    <content type="html">&lt;img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Startup_Forum_social.max-600x600.format-webp.webp" /&gt;Learn more about Google for Startups Gemini Startup Forum and apply by August 28.</content>
-    <link href="https://blog.google/company-news/outreach-and-initiatives/entrepreneurs/gemini-startup-forum-winter-2026" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-23T15:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Startup_Forum_social.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Startup_Forum_social.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_Startup_Forum_social.max-600x600.format-webp.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in</id>
-    <title>Introducing selfie for sign-in: a new, easy way to access your Google Account</title>
-    <updated>2026-07-23T10:00:00+00:00</updated>
-    <content type="html">Sizzle video overviewing using selfie video to verify identity</content>
-    <link href="https://blog.google/innovation-and-ai/technology/safety-security/selfie-video-sign-in" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-23T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Selfie_sign-in_social.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Selfie_sign-in_social.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Selfie_sign-in_social.max-600x600.format-webp.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy</id>
-    <title>Understanding the AI economy</title>
-    <updated>2026-07-23T10:00:00+00:00</updated>
-    <content type="html">"AI &amp; Economy Atlas" with Google logo, all over a green grid background</content>
-    <link href="https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-23T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_image-3-with-logo.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_image-3-with-logo.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_image-3-with-logo.max-600x600.format-webp.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>https://developers.google.com/workspace/release-notes#July_23_2026</id>
-    <title>Workspace Release Notes — July 23, 2026</title>
-    <updated>2026-07-23T07:00:00+00:00</updated>
-    <content type="html">&lt;h2 class="release-note-product-title"&gt;Google Sheets API&lt;/h2&gt;
-&lt;h3&gt;Feature&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Developer Preview&lt;/strong&gt;: You can now programmatically create and manage comments
-in Google Sheets with the Google Sheets API. This includes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Creating comment threads and replying to comment threads using the
-&lt;a href="https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/request#insertcommentrequest"&gt;&lt;code&gt;InsertCommentRequest&lt;/code&gt;&lt;/a&gt;
-and
-&lt;a href="https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/request#addcommentreplyrequest"&gt;&lt;code&gt;AddCommentReplyRequest&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Modifying existing comment and reply posts using
-&lt;a href="https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/request#updatecommentpostrequest"&gt;&lt;code&gt;UpdateCommentPostRequest&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Deleting comments and replies using
-&lt;a href="https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/request#deletecommentrequest"&gt;&lt;code&gt;DeleteCommentRequest&lt;/code&gt;&lt;/a&gt;
-and
-&lt;a href="https://developers.google.com/workspace/sheets/api/reference/rest/v4/spreadsheets/request#deletecommentreplyrequest"&gt;&lt;code&gt;DeleteCommentReplyRequest&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For more information, see &lt;a href="https://developers.google.com/workspace/sheets/api/guides/comments"&gt;Manage
-comments&lt;/a&gt;.&lt;/p&gt;</content>
-    <link href="https://developers.google.com/workspace/release-notes#July_23_2026" rel="alternate"/>
-    <category term="Workspace Release Notes"/>
-    <published>2026-07-23T07:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.gstatic.com/devrel-devsite/prod/v8c5e9c8e09d4f0c961905721a95aa2027138cb55ec6e1fa60fd7aaa3726ca05f/developers/images/opengraph/white.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://www.gstatic.com/devrel-devsite/prod/v8c5e9c8e09d4f0c961905721a95aa2027138cb55ec6e1fa60fd7aaa3726ca05f/developers/images/opengraph/white.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://www.gstatic.com/devrel-devsite/prod/v8c5e9c8e09d4f0c961905721a95aa2027138cb55ec6e1fa60fd7aaa3726ca05f/developers/images/opengraph/white.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://docs.cloud.google.com/release-notes#July_23_2026</id>
-    <title>Cloud Release Notes — July 23, 2026</title>
-    <updated>2026-07-23T07:00:00+00:00</updated>
-    <content type="html">&lt;h2 class="release-note-product-title"&gt;Apigee hybrid&lt;/h2&gt;
-&lt;h3&gt;Feature&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Runtime rollout strategy configuration&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In this release, you can configure the rollout strategy used when updating runtime (message processor) ReplicaSets by setting the &lt;a href="https://docs.cloud.google.com/apigee/docs/hybrid/v1.14/config-prop-ref#runtime-release-strategy"&gt;&lt;code&gt;runtime.release.strategy&lt;/code&gt;&lt;/a&gt; property (with options &lt;code&gt;rolling&lt;/code&gt;, &lt;code&gt;scale-down-first&lt;/code&gt;, or &lt;code&gt;none&lt;/code&gt;) or per-environment with &lt;code&gt;envs[].components.runtime.release.strategy&lt;/code&gt; in your overrides configuration file. The property defaults to &lt;code&gt;rolling&lt;/code&gt;.&lt;/p&gt;</content>
-    <link href="https://docs.cloud.google.com/release-notes#July_23_2026" rel="alternate"/>
-    <category term="Cloud Release Notes"/>
-    <published>2026-07-23T07:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png" type="image/png" length="0"/>
   </entry>
 </feed>

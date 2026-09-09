@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-09T16:54:15.390262+00:00</updated>
+  <updated>2026-09-09T21:09:46.814037+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/45102b8995a66397</id>
+    <title>BleachBit 6.0.4 offers faster scanning, improves Linux cleaners</title>
+    <updated>2026-09-09T16:54:24+00:00</updated>
+    <content>A new version of BleachBit, an open-source system cleaning tool, is out. BleachBit 6.0.4 brings everything I mentioned in my spot on the BleachBit 6.0.4 beta release, including macOS support for the first time – albeit in an early state, and including a Cleaner for Safari and a choice of the (neat) BleachBit CLI or an early GUI. Windows and Linux users all benefit from faster startup times and scanning speeds, and gain new cleaners for Android Studio, Gradle’s cache, fish and Zsh shells and Pyth</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/bleachbit-6-0-4-update" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-09T16:54:24+00:00</published>
+    <media:group>
+      <media:content url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/2816daef9a07016a</id>
     <title>The $200 Firefox mechanical keyboard sold out</title>
@@ -936,21 +951,6 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/postcard-gnome-email-client.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/ff9cc8add8419008</id>
-    <title>GIMP is (finally) working on a new project file format</title>
-    <updated>2026-08-20T21:05:57+00:00</updated>
-    <content>A new project file format is in the works for GIMP, as the existing one can’t handle larger, complex projects. Since 1997, the famed FOSS image editor has used the binary .xcf format to save projects so layers, effects and anything else can be edited and adjusted again – which doesn’t happen in a flat file export to JPEG or PNG. But, writing in a recent development update, the team has said it’s finding “more and more limitations” in the current format. And with major new features, like animatio</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/gimp-new-project-file-format" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-20T21:05:57+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/gimp-file-format.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/79093b171c98c55c</id>

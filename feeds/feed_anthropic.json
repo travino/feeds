@@ -8,6 +8,24 @@
   "icon": "https://www.anthropic.com/favicon.ico",
   "items": [
     {
+      "id": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "title": "An alignment assessment of recent cybersecurity incidents",
+      "content_text": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.",
+      "date_published": "2026-09-09T00:00:00Z",
+      "date_modified": "2026-09-09T00:00:00Z",
+      "image": "https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp",
+      "tags": [
+        "Anthropic Research"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
       "id": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
       "title": "Formalizing Fermat's Last Theorem",
@@ -1647,24 +1665,6 @@
       "date_modified": "2026-04-24T00:00:00Z",
       "tags": [
         "Anthropic Alignment Science"
-      ]
-    },
-    {
-      "id": "https://www.anthropic.com/news/election-safeguards-update",
-      "url": "https://www.anthropic.com/news/election-safeguards-update",
-      "title": "An update on our election safeguards",
-      "content_text": "An update on our election safeguards",
-      "date_published": "2026-04-24T00:00:00Z",
-      "date_modified": "2026-04-24T00:00:00Z",
-      "image": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Vote&backgroundColor=olive",
-      "tags": [
-        "Anthropic Newsroom"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Vote&backgroundColor=olive",
-          "mime_type": "image/jpeg"
-        }
       ]
     }
   ]

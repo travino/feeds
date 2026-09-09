@@ -11,9 +11,41 @@
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/5f550bcc13a085f5",
       "url": "https://www.cloudflarestatus.com/incidents/jsvvrtk5hvym",
       "title": "Cloudflare Workers AI increased errors",
-      "content_text": "Sep 9 , 15:02 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 14:25 UTC Investigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.",
-      "date_published": "2026-09-09T15:02:41Z",
-      "date_modified": "2026-09-09T15:02:41Z",
+      "content_text": "Sep 9 , 20:09 UTC Resolved - This incident has been resolved. Sep 9 , 15:02 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 14:25 UTC Investigating - Cloudflare is aware of, and investigating, increased Workers AI errors when attempting to use GLM 5.3. Updates to follow.",
+      "date_published": "2026-09-09T20:09:37Z",
+      "date_modified": "2026-09-09T20:09:37Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/4a1180d18983dc85",
+      "url": "https://www.cloudflarestatus.com/incidents/sjs8s0q2x4hw",
+      "title": "Workers Cron Triggers degraded",
+      "content_text": "Sep 9 , 19:18 UTC Identified - The issue has been identified and a fix is being implemented. Sep 9 , 19:17 UTC Investigating - Workers Cron Triggers may not execute or may be delayed in executing. Updates to Workers Cron Triggers may take some time to take effect.",
+      "date_published": "2026-09-09T19:18:25Z",
+      "date_modified": "2026-09-09T19:18:25Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/36a3deca386073c3",
+      "url": "https://www.cloudflarestatus.com/incidents/dmc0gzyv8gcs",
+      "title": "Increased HTTP Errors",
+      "content_text": "Sep 9 , 15:30 UTC Resolved - Between 16:40 and 16:54 UTC, Cloudflare experienced an elevated rate of HTTP errors affecting traffic passing through Philadelphia (PHL). The issue has been fully identified and resolved, and impact to the PHL location is completely mitigated. All systems are operating normally.",
+      "date_published": "2026-09-09T15:30:00Z",
+      "date_modified": "2026-09-09T15:30:00Z",
       "authors": [
         {
           "name": "Cloudflare Status"
@@ -452,6 +484,29 @@
       "url": "https://developers.cloudflare.com/changelog/post/2026-09-04-increased-worker-size-limit/",
       "title": "Workers - Deploy larger Workers — up to 64 MiB for both free and paid plans",
       "content_text": "You can now deploy Workers with larger dependencies, heavier frameworks, and more code without hitting size limits. When you deploy a Worker, Wrangler bundles your code and compresses it before uploading. Previously, Cloudflare checked that compressed size and rejected deploys over 3 MB (Free) or 10 MB (Paid). That limit has been removed. Cloudflare now only checks the uncompressed size of your bundle, which is 64 MiB across all plans. To check your Worker's bundle size before deploying: wrangle",
+      "date_published": "2026-09-04T00:00:00Z",
+      "date_modified": "2026-09-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/og-changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/f5f68803c2a95150",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-04-r2-data-access-logs/",
+      "title": "R2 - R2 Data Access Logs",
+      "content_text": "R2 Data Access Logs are now generally available. Turn on logging for a bucket to record object read, write, list, multipart upload, and delete operations with response status codes below 400 . Data Access Logs cover requests made through the S3-compatible API, Cloudflare API and dashboard, Workers bindings, and public buckets through r2.dev or custom domains. Events are available in Workers Observability, where you can filter by bucket, operation, interface, actor, and other request fields. Log",
       "date_published": "2026-09-04T00:00:00Z",
       "date_modified": "2026-09-04T00:00:00Z",
       "authors": [
@@ -2071,38 +2126,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/c089713c57ddb3a3",
-      "url": "https://www.cloudflarestatus.com/incidents/jn37dmb9s37p",
-      "title": "Missing R2 Audit Logs",
-      "content_text": "Aug 20 , 22:59 UTC Resolved - This incident has been resolved. Aug 20 , 21:59 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 20 , 19:19 UTC Identified - We have identified an issue where audit logs for R2 are missing in the dashboard, we are working to resolve the issue.",
-      "date_published": "2026-08-20T22:59:33Z",
-      "date_modified": "2026-08-20T22:59:33Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/8a3e89045a700398",
-      "url": "https://www.cloudflarestatus.com/incidents/rq2nwg85qqn4",
-      "title": "Elevated Errors R2 and Durable Objects",
-      "content_text": "Aug 20 , 19:32 UTC Resolved - This incident has been resolved. Aug 20 , 19:00 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 20 , 18:51 UTC Identified - We have identified and issue that is causing elevated errors for R2 and Durable Objects.",
-      "date_published": "2026-08-20T19:32:37Z",
-      "date_modified": "2026-08-20T19:32:37Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/c63cf33b379ef330",
       "url": "https://blog.cloudflare.com/task-based-oauth-consent/",
       "title": "From all-or-nothing to task-based OAuth consent",
@@ -2121,29 +2144,6 @@
       "attachments": [
         {
           "url": "https://blog.cloudflare.com/_emdash/api/media/file/01M0E2VFX1WXFF6TK51VFNP5V3.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/553cadfa42c7bcf8",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-pqc-key-exchange-visibility/",
-      "title": "Logs, Log Explorer - Per-zone post-quantum visibility in Logpush and Log Explorer",
-      "content_text": "Cloudflare Radar ↗ publishes global statistics on post-quantum key agreement adoption across all Cloudflare traffic, but until now customers had no way to see the same measurement scoped to their own zones. This is now possible because the http_requests Logpush dataset — also queryable in Log Explorer — includes a new ClientTLSKeyExchangeGroup field. The field reports the TLS key exchange group negotiated on the client-to-Cloudflare connection, by group name. Post-quantum connections appear as X",
-      "date_published": "2026-08-20T00:00:00Z",
-      "date_modified": "2026-08-20T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/og-changelog.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/og-changelog.png",
           "mime_type": "image/png"
         }
       ]

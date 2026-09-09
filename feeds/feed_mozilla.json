@@ -8,6 +8,52 @@
   "icon": "https://www.google.com/s2/favicons?domain=blog.mozilla.org&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/1c66c0e08301fb8f",
+      "url": "https://connect.mozilla.org/t5/discussions/firefox-on-iphone-search-bar-bug-please-fix/m-p/137795#M55875",
+      "title": "Firefox on iPhone - Search Bar Bug - Please Fix",
+      "content_text": "Hi, there has been a recent update to Firefox iPhone that allows users to ‘long press’ the search bar and drag that text somewhere else. However, in practice, this is more of a bug than a feature. It makes all the previous text in the search bar disappear while the current page refreshes. It is extremely frustrating when I am trying to select words from my query, and the entire query gets deleted and lost.",
+      "date_published": "2026-09-09T20:59:08Z",
+      "date_modified": "2026-09-09T20:59:08Z",
+      "authors": [
+        {
+          "name": "Mozilla Connect"
+        }
+      ],
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "tags": [
+        "Mozilla Connect"
+      ],
+      "attachments": [
+        {
+          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/29edf9d35537087f",
+      "url": "https://connect.mozilla.org/t5/discussions/remove-the-recently-added-clock-icon-from-entry-history/m-p/137792#M55874",
+      "title": "Remove the recently added clock icon from entry history",
+      "content_text": "The clock icon in the entry history is about 5 times larger than it should be, and serves no purpose. It was added recently, and now when I use text fields to select a previously used entry, it takes up a huge portion of the screen and adds clicks because I have to click fully out of it before I can select the next field I want to use. This was a useless addition. Please remove it Why is this so huge? At least make it match the text size. There's a second text field under this that I can no long",
+      "date_published": "2026-09-09T20:57:19Z",
+      "date_modified": "2026-09-09T20:57:19Z",
+      "authors": [
+        {
+          "name": "Mozilla Connect"
+        }
+      ],
+      "image": "https://connect.mozilla.org/t5/image/serverpage/image-id/15668i710FEC0A45E69364/image-size/medium?v=v2&px=400",
+      "tags": [
+        "Mozilla Connect"
+      ],
+      "attachments": [
+        {
+          "url": "https://connect.mozilla.org/t5/image/serverpage/image-id/15668i710FEC0A45E69364/image-size/medium?v=v2&px=400",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/mozilla/5d7d34241353a544",
       "url": "https://connect.mozilla.org/t5/discussions/navegador-firefox-pega-o-tema-do-windows-e-fica-tudo-cagado/m-p/137782#M55872",
       "title": "Navegador Firefox pega o tema do Windows e fica tudo cagado.",
@@ -497,52 +543,6 @@
       "content_text": "On previous version of FF we were able to close out tabs (x on tab) without having to have it active, but the present version is lacking that - please restore it",
       "date_published": "2026-09-07T17:19:23Z",
       "date_modified": "2026-09-07T17:19:23Z",
-      "authors": [
-        {
-          "name": "Mozilla Connect"
-        }
-      ],
-      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-      "tags": [
-        "Mozilla Connect"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/6fb0dc37c11939ff",
-      "url": "https://connect.mozilla.org/t5/discussions/option-to-replace-the-current-tab-when-clicking-the-home-button/m-p/137439#M55633",
-      "title": "Option to replace the current tab when clicking the Home button instead of navigating within it",
-      "content_text": "`On Firefox for Android, clicking the Home button loads the home page but keeps the current tab active in the session history. This often leads to an accumulation of unused tabs that the user intended to \"leave behind\" by going home.` `I suggest adding a toggle in the settings to \"Replace current tab on Home\", which would close the active tab and launch the Home page as a fresh start, similar to the behavior found in other mobile browsers like Chrome.`",
-      "date_published": "2026-09-07T16:30:16Z",
-      "date_modified": "2026-09-07T16:30:16Z",
-      "authors": [
-        {
-          "name": "Mozilla Connect"
-        }
-      ],
-      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-      "tags": [
-        "Mozilla Connect"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/7d2e9ef84f216ae9",
-      "url": "https://connect.mozilla.org/t5/discussions/allow-setting-a-specific-bookmarks-folder-as-the-home-page-on/m-p/137438#M55632",
-      "title": "Allow setting a specific Bookmarks folder as the Home Page on Android",
-      "content_text": "Currently, the Home Page options on Firefox for Android are limited to the default shortcuts, a blank page, or a specific URL. There is no native way to set a bookmarks folder (such as \"Mobile Bookmarks\") as the landing page. As a user who relies on a curated list of bookmarks for daily productivity, having to navigate through the menu to reach these links is inefficient. I suggest adding an option in Settings > Home to \"Select a Bookmarks Folder\" as the Home Page.",
-      "date_published": "2026-09-07T16:25:14Z",
-      "date_modified": "2026-09-07T16:25:14Z",
       "authors": [
         {
           "name": "Mozilla Connect"

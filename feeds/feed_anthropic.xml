@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.anthropic.com/anthropic</id>
   <title>Anthropic</title>
-  <updated>2026-09-09T16:52:13.205785+00:00</updated>
+  <updated>2026-09-09T21:07:30.795119+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.anthropic.com/favicon.ico</icon>
   <logo>https://www.anthropic.com/favicon.ico</logo>
   <subtitle>Anthropic Newsroom, Research, Engineering, Red, Alignment Science, and Interpretability posts in one feed.</subtitle>
+  <entry>
+    <id>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</id>
+    <title>An alignment assessment of recent cybersecurity incidents</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</content>
+    <link href="https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents" rel="alternate"/>
+    <category term="Anthropic Research" label="Anthropic Research"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp"/>
+    </media:group>
+    <link rel="enclosure" href="https://cdn.sanity.io/images/4zrzovbb/website/25a7c99743ebfb3b79cb98ffa2b9e928ad7e712b-2000x1125.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>https://www.anthropic.com/research/formalizing-fermats-last-theorem</id>
     <title>Formalizing Fermat's Last Theorem</title>
@@ -1297,19 +1311,5 @@
     <link href="https://alignment.anthropic.com/2026/backdooring-classifiers/" rel="alternate"/>
     <category term="Anthropic Alignment Science" label="Anthropic Alignment Science"/>
     <published>2026-04-24T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://www.anthropic.com/news/election-safeguards-update</id>
-    <title>An update on our election safeguards</title>
-    <updated>2026-04-24T00:00:00+00:00</updated>
-    <content>An update on our election safeguards</content>
-    <link href="https://www.anthropic.com/news/election-safeguards-update" rel="alternate"/>
-    <category term="Anthropic Newsroom" label="Anthropic Newsroom"/>
-    <published>2026-04-24T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Vote&amp;backgroundColor=olive" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Vote&amp;backgroundColor=olive"/>
-    </media:group>
-    <link rel="enclosure" href="https://www.anthropic.com/api/opengraph-illustration?name=Hand%20Vote&amp;backgroundColor=olive" type="image/jpeg" length="0"/>
   </entry>
 </feed>

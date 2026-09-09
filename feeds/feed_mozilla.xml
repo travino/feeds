@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-09T16:53:31.202243+00:00</updated>
+  <updated>2026-09-09T21:08:56.072958+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/1c66c0e08301fb8f</id>
+    <title>Firefox on iPhone - Search Bar Bug - Please Fix</title>
+    <updated>2026-09-09T20:59:08+00:00</updated>
+    <content>Hi, there has been a recent update to Firefox iPhone that allows users to ‘long press’ the search bar and drag that text somewhere else. However, in practice, this is more of a bug than a feature. It makes all the previous text in the search bar disappear while the current page refreshes. It is extremely frustrating when I am trying to select words from my query, and the entire query gets deleted and lost.</content>
+    <link href="https://connect.mozilla.org/t5/discussions/firefox-on-iphone-search-bar-bug-please-fix/m-p/137795#M55875" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-09T20:59:08+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/29edf9d35537087f</id>
+    <title>Remove the recently added clock icon from entry history</title>
+    <updated>2026-09-09T20:57:19+00:00</updated>
+    <content>The clock icon in the entry history is about 5 times larger than it should be, and serves no purpose. It was added recently, and now when I use text fields to select a previously used entry, it takes up a huge portion of the screen and adds clicks because I have to click fully out of it before I can select the next field I want to use. This was a useless addition. Please remove it Why is this so huge? At least make it match the text size. There's a second text field under this that I can no long</content>
+    <link href="https://connect.mozilla.org/t5/discussions/remove-the-recently-added-clock-icon-from-entry-history/m-p/137792#M55874" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-09T20:57:19+00:00</published>
+    <media:group>
+      <media:content url="https://connect.mozilla.org/t5/image/serverpage/image-id/15668i710FEC0A45E69364/image-size/medium?v=v2&amp;px=400" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://connect.mozilla.org/t5/image/serverpage/image-id/15668i710FEC0A45E69364/image-size/medium?v=v2&amp;px=400"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://connect.mozilla.org/t5/image/serverpage/image-id/15668i710FEC0A45E69364/image-size/medium?v=v2&amp;px=400" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/5d7d34241353a544</id>
     <title>Navegador Firefox pega o tema do Windows e fica tudo cagado.</title>
@@ -335,36 +365,6 @@
     <link href="https://connect.mozilla.org/t5/discussions/misssing-old-title-bar-tab-function/m-p/137441#M55635" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-07T17:19:23+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/6fb0dc37c11939ff</id>
-    <title>Option to replace the current tab when clicking the Home button instead of navigating within it</title>
-    <updated>2026-09-07T16:30:16+00:00</updated>
-    <content>`On Firefox for Android, clicking the Home button loads the home page but keeps the current tab active in the session history. This often leads to an accumulation of unused tabs that the user intended to "leave behind" by going home.` `I suggest adding a toggle in the settings to "Replace current tab on Home", which would close the active tab and launch the Home page as a fresh start, similar to the behavior found in other mobile browsers like Chrome.`</content>
-    <link href="https://connect.mozilla.org/t5/discussions/option-to-replace-the-current-tab-when-clicking-the-home-button/m-p/137439#M55633" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-07T16:30:16+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/7d2e9ef84f216ae9</id>
-    <title>Allow setting a specific Bookmarks folder as the Home Page on Android</title>
-    <updated>2026-09-07T16:25:14+00:00</updated>
-    <content>Currently, the Home Page options on Firefox for Android are limited to the default shortcuts, a blank page, or a specific URL. There is no native way to set a bookmarks folder (such as "Mobile Bookmarks") as the landing page. As a user who relies on a curated list of bookmarks for daily productivity, having to navigate through the menu to reach these links is inefficient. I suggest adding an option in Settings &gt; Home to "Select a Bookmarks Folder" as the Home Page.</content>
-    <link href="https://connect.mozilla.org/t5/discussions/allow-setting-a-specific-bookmarks-folder-as-the-home-page-on/m-p/137438#M55632" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-07T16:25:14+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>

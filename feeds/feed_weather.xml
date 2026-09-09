@@ -2,13 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Pogoda — Kościelec (Chrzanów)</title>
   <id>tag:travny,2026:weather:koscielec</id>
-  <updated>2026-09-09T16:00:10.286Z</updated>
+  <updated>2026-09-09T20:00:09.371Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_weather.xml"/>
   <link rel="alternate" href="https://weather.trfny.com/"/>
   <author>
     <name>travny weather aggregator</name>
   </author>
   <generator>cloudflare-worker</generator>
+  <entry>
+    <title>Kościelec (Chrzanów): zachmurzenie, 22.5°C</title>
+    <id>tag:travny,2026:weather:koscielec:current:2026-09-09T20:00:09.371Z</id>
+    <updated>2026-09-09T20:00:09.371Z</updated>
+    <published>2026-09-09T20:00:09.371Z</published>
+    <category term="current_change"/>
+    <content type="text">bezchmurnie → zachmurzenie. Mediana 3 źródeł: 22.5°C (rozrzut 19.9–23.1°C), wiatr 3.4 m/s, wilgotność 61%, UV 0.</content>
+  </entry>
+  <entry>
+    <title>✓ IMGW: wygasło — Upał</title>
+    <id>tag:travny,2026:weather:koscielec:warn:meteo:Sk20260908095226687:lifted</id>
+    <updated>2026-09-09T18:00:11.570Z</updated>
+    <published>2026-09-09T18:00:11.570Z</published>
+    <category term="warning_lifted"/>
+    <content type="text">Upłynął termin ostrzeżenia „Upał".</content>
+  </entry>
+  <entry>
+    <title>Kościelec (Chrzanów): bezchmurnie, 24.5°C</title>
+    <id>tag:travny,2026:weather:koscielec:current:2026-09-09T18:00:10.890Z</id>
+    <updated>2026-09-09T18:00:10.890Z</updated>
+    <published>2026-09-09T18:00:10.890Z</published>
+    <category term="current_change"/>
+    <content type="text">temperatura -4.3°C → 24.5°C. Mediana 3 źródeł: 24.5°C (rozrzut 23.8–24.6°C), wiatr 1.7 m/s, wilgotność 55.6%, UV 0.</content>
+  </entry>
   <entry>
     <title>Kościelec (Chrzanów): jakość powietrza — umiarkowana (AQI 51)</title>
     <id>tag:travny,2026:weather:koscielec:air:2026-09-09T16:00:10.286Z</id>
@@ -464,29 +488,5 @@
     <published>2026-09-02T10:00:14.082Z</published>
     <category term="current_change"/>
     <content type="text">temperatura +3.3°C → 21.9°C. Mediana 3 źródeł: 21.9°C (rozrzut 21.8–22.5°C), wiatr 1.8 m/s, wilgotność 54%, UV 3.7.</content>
-  </entry>
-  <entry>
-    <title>⚠ IMGW hydro: Susza hydrologiczna</title>
-    <id>tag:travny,2026:weather:koscielec:warn:hydro:238:new</id>
-    <updated>2026-09-02T08:00:14.950Z</updated>
-    <published>2026-09-02T08:00:14.950Z</published>
-    <category term="warning_new"/>
-    <content type="text">W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni Raby wraz ze zb. Dobczyce spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.. Prawdopodobieństwo 95%. Obowiązuje 2026-09-02 09:18:42 → 9999-12-31 23:59:59.</content>
-  </entry>
-  <entry>
-    <title>⚠ IMGW hydro: Susza hydrologiczna</title>
-    <id>tag:travny,2026:weather:koscielec:warn:hydro:237:new</id>
-    <updated>2026-09-02T08:00:14.950Z</updated>
-    <published>2026-09-02T08:00:14.950Z</published>
-    <category term="warning_new"/>
-    <content type="text">W związku z występującymi niskimi przepływami wody, w kolejnych dniach na obszarze zlewni dolnej Soły, Skawy i przyrzecza Wisły spodziewane jest dalsze utrzymywanie się przepływów wody poniżej SNQ.. Prawdopodobieństwo 100%. Obowiązuje 2026-09-02 09:18:20 → 9999-12-31 23:59:59.</content>
-  </entry>
-  <entry>
-    <title>Kościelec (Chrzanów): jakość powietrza — dobra (AQI 23)</title>
-    <id>tag:travny,2026:weather:koscielec:air:2026-09-02T08:00:14.413Z</id>
-    <updated>2026-09-02T08:00:14.413Z</updated>
-    <published>2026-09-02T08:00:14.413Z</published>
-    <category term="air_quality_change"/>
-    <content type="text">Europejski indeks AQI 23 (dobra). PM2.5 8.1 µg/m³, PM10 11.6 µg/m³. Dominujący pyłek: ambrozja (6 ziaren/m³).</content>
   </entry>
 </feed>

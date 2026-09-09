@@ -8,6 +8,52 @@
   "icon": "https://github.blog/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/github/958d806c73062144",
+      "url": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
+      "title": "GitHub Advanced Security expands trial availability",
+      "content_text": "More GitHub Enterprise Cloud customers can now start a self-serve GitHub Advanced Security trial to evaluate GitHub Code Security and GitHub Secret Protection. Eligibility has expanded from enterprises with up… The post GitHub Advanced Security expands trial availability appeared first on The GitHub Blog .",
+      "date_published": "2026-09-09T17:33:34Z",
+      "date_modified": "2026-09-09T17:33:34Z",
+      "authors": [
+        {
+          "name": "GitHub Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/525295327-000d216e-26f0-4138-b583-e90b8678f3c7.jpg",
+      "tags": [
+        "GitHub Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/525295327-000d216e-26f0-4138-b583-e90b8678f3c7.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/github/81d8902a087ddcd7",
+      "url": "https://github.blog/changelog/2026-09-09-block-pull-requests-with-exposed-secrets-from-merging",
+      "title": "Block pull requests with exposed secrets from merging",
+      "content_text": "Repository rulesets allow you to easily add scalable protections across your repositories. Starting today, you can use repository rulesets to block pull requests from merging when the pull request introduces… The post Block pull requests with exposed secrets from merging appeared first on The GitHub Blog .",
+      "date_published": "2026-09-09T17:14:02Z",
+      "date_modified": "2026-09-09T17:14:02Z",
+      "authors": [
+        {
+          "name": "GitHub Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/648090600-a0692d21-b918-4dda-9939-c337fdf3f41f.jpg",
+      "tags": [
+        "GitHub Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/648090600-a0692d21-b918-4dda-9939-c337fdf3f41f.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/github/377bfe454379ffb2",
       "url": "https://github.blog/changelog/2026-09-09-remediate-code-quality-findings-with-agentic-autofix",
       "title": "Remediate Code Quality findings with agentic autofix",
@@ -864,7 +910,7 @@
       "id": "tag:trvny.github.io,2024:feedseek/github/f6b5168c1da33a97",
       "url": "https://www.githubstatus.com/incidents/zw1hbx2yyhvr",
       "title": "Disruption with Copilot Code Review",
-      "content_text": "Sep 4 , 22:26 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 4 , 22:25 UTC Monitoring - The degradation has been mitigated. We are monitoring to ensure stability. Sep 4 , 21:54 UTC Update - We are applying the mitigation and expect recovery within approximately 30 minutes. Sep 4 , 20:57 UTC Update - Some users may be experiencing failures when u",
+      "content_text": "Sep 4 , 22:26 UTC Resolved - On September 4, 2026, between 20:04 and 22:26 UTC, GitHub Copilot code review experienced an increased failure rate. Affected pull request reviews failed to complete or post review comments. The incident was caused by a change to the service’s authentication permissions that prevented it from submitting affected reviews to the GitHub API. We reverted the change and restored normal operation by 22:26 UTC. We apologize for the disruption. Sep 4 , 22:25 UTC Monitoring -",
       "date_published": "2026-09-04T22:26:46Z",
       "date_modified": "2026-09-04T22:26:46Z",
       "authors": [
@@ -1149,7 +1195,7 @@
       "id": "tag:trvny.github.io,2024:feedseek/github/4d6edb96e047b2c6",
       "url": "https://www.githubstatus.com/incidents/ktdr5t0xwnhp",
       "title": "Incident with Grok Copilot AI Model Provider",
-      "content_text": "Sep 3 , 17:11 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 3 , 17:11 UTC Update - The issues with our upstream model provider have been resolved, and Grok models are once again available in Copilot products and IDE surfaces. We will continue monitoring to ensure stability, but mitigation is complete. Sep 3 , 14:22 UTC Update - The Grok 4.5 mod",
+      "content_text": "Sep 3 , 17:11 UTC Resolved - Between 13:22 and 17:11 UTC on September 03, 2026, GitHub Copilot experienced degradation affecting several Grok models, including Grok 4.5 and Grok 4.6. Users encountered elevated error rates, but other models were not affected. The degradation was caused by an issue with an upstream model provider. GitHub engineers detected the issue through automated monitoring, displayed in-product warnings for the affected models, and coordinated with the provider. Service retur",
       "date_published": "2026-09-03T17:11:47Z",
       "date_modified": "2026-09-03T17:11:47Z",
       "authors": [
@@ -1678,7 +1724,7 @@
       "id": "tag:trvny.github.io,2024:feedseek/github/4513d1a8ffe5d071",
       "url": "https://www.githubstatus.com/incidents/jk2dy5h9yp3m",
       "title": "Delays in commit processing",
-      "content_text": "Sep 1 , 16:01 UTC Resolved - This incident has been resolved. Thank you for your patience and understanding as we addressed this issue. A detailed root cause analysis will be shared as soon as it is available. Sep 1 , 16:00 UTC Update - Time to update pull request diffs have improved to normal thresholds. Sep 1 , 15:00 UTC Update - Diffs in the PR view may be stale for several minutes. We are investigating and scaling up resources. Sep 1 , 15:00 UTC Investigating - We are investigating reports o",
+      "content_text": "Sep 1 , 16:01 UTC Resolved - On September 1, 2026, between approximately 14:01 and 16:01 UTC, updates in response to pushes were delayed, temporarily showing stale diffs. The median time to refresh a diff after a push rose from the normal level of about 3 seconds to over 2 minutes at the peak, and more than 140,000 customer accounts had at least one delayed refresh during the most affected 75 minutes. Pushing commits and opening pull requests continued to work normally. The incident was caused b",
       "date_published": "2026-09-01T16:01:21Z",
       "date_modified": "2026-09-01T16:01:21Z",
       "authors": [
@@ -2236,29 +2282,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/github/23382e1c0229d390",
-      "url": "https://github.blog/changelog/2026-08-28-upcoming-changes-to-github-copilot-policies-and-billing",
-      "title": "Upcoming changes to GitHub Copilot policies and billing",
-      "content_text": "To provide a strong, consistent Copilot experience, we’re making three separate, upcoming changes to Copilot policies and billing. Please review the upcoming updates to understand what may impact you. Reopening… The post Upcoming changes to GitHub Copilot policies and billing appeared first on The GitHub Blog .",
-      "date_published": "2026-08-28T11:37:19Z",
-      "date_modified": "2026-08-28T11:37:19Z",
-      "authors": [
-        {
-          "name": "GitHub Changelog"
-        }
-      ],
-      "image": "https://github.blog/wp-content/uploads/2026/08/642191610-22aba803-e20a-4480-be50-3935b25bb6c8.jpg",
-      "tags": [
-        "GitHub Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.blog/wp-content/uploads/2026/08/642191610-22aba803-e20a-4480-be50-3935b25bb6c8.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/github/053a914b559f92b3",
       "url": "https://www.trackawesomelist.com/2026/08/28/",
       "title": "Awesome List Updated on Aug 28, 2026",
@@ -2347,29 +2370,6 @@
         {
           "url": "https://github.github.com/gh-aw/og-hero-1200x630.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/github/6466f196863151a6",
-      "url": "https://github.blog/changelog/2026-08-27-label-archiving-is-generally-available",
-      "title": "Better label management on issues is generally available",
-      "content_text": "We’re making it easier to keep labels organized and find the right one, especially in repositories with long and growing label lists. Suggested Labels You can now find the right… The post Better label management on issues is generally available appeared first on The GitHub Blog .",
-      "date_published": "2026-08-27T23:33:22Z",
-      "date_modified": "2026-08-27T23:33:22Z",
-      "authors": [
-        {
-          "name": "GitHub Changelog"
-        }
-      ],
-      "image": "https://github.com/user-attachments/assets/1e021a34-63b0-4f5a-803e-97939c9f51b3",
-      "tags": [
-        "GitHub Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.com/user-attachments/assets/1e021a34-63b0-4f5a-803e-97939c9f51b3",
-          "mime_type": "image/jpeg"
         }
       ]
     },
