@@ -37,17 +37,15 @@ import importlib
 import io
 import sys
 from pathlib import Path
-
-from utils import write_atomically
 from types import ModuleType
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
-import yaml
+from models import load_feed_registry
+from utils import write_atomically
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent  # feedseek/
-FEEDS_YAML = ROOT / "feeds.yaml"
 FEEDS_DIR = ROOT / "feeds"
 OUT = ROOT / "docs" / "sources.md"
 ATOM = "{http://www.w3.org/2005/Atom}"
@@ -82,19 +80,18 @@ GROUPS = [
 
 
 def load_yaml_feeds() -> dict:
-    """Enabled feed_key -> metadata straight from feeds.yaml.
+    """Enabled feed_key -> metadata from the canonical feeds.yaml loader.
 
-    feeds.yaml stays the canonical feed set; disabled entries have no published
-    artifact and therefore do not belong in the generated source directory.
+    ``models.load_feed_registry`` owns registry parsing and validation. Keeping
+    this consumer on the same path as the runner prevents malformed entries from
+    being accepted here after the generator runner already rejected them.
+    Disabled entries have no published artifact and therefore stay omitted.
     """
-    data = yaml.safe_load(FEEDS_YAML.read_text(encoding="utf-8")) or {}
+    registry = load_feed_registry()
     return {
-        str(key): {
-            "blog_url": (cfg or {}).get("blog_url", ""),
-            "script": (cfg or {}).get("script", ""),
-        }
-        for key, cfg in (data.get("feeds") or {}).items()
-        if (cfg or {}).get("enabled", True)
+        name: {"blog_url": config.blog_url, "script": config.script}
+        for name, config in registry.items()
+        if config.enabled
     }
 
 
