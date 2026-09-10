@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-10T05:11:13.144991+00:00</updated>
+  <updated>2026-09-10T11:46:46.437045+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,118 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/ce6f54dece3f7a7b</id>
+    <title>RHSA-2026:66347: Important: freerdp security update</title>
+    <updated>2026-09-10T11:24:09+00:00</updated>
+    <content>An update for freerdp is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66347" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T11:24:09+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/229f58d7d9eb4d31</id>
+    <title>RHSA-2026:66341: Moderate: apr-util security update</title>
+    <updated>2026-09-10T09:20:59+00:00</updated>
+    <content>An update for apr-util is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66341" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T09:20:59+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/0ab90c3add0004bc</id>
+    <title>RHSA-2026:62548: Important: OpenShift Container Platform 4.16.70 packages and security update</title>
+    <updated>2026-09-10T09:07:39+00:00</updated>
+    <content>Red Hat OpenShift Container Platform release 4.16.70 is now available with updates to packages and images that fix several bugs and add enhancements.
+
+This release includes a security update for Red Hat OpenShift Container Platform 4.16.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References </content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:62548" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T09:07:39+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/e53e33978f7a683f</id>
+    <title>RHSA-2026:62549: Important: OpenShift Container Platform 4.16.70 bug fix and security update</title>
+    <updated>2026-09-10T09:01:14+00:00</updated>
+    <content>Red Hat OpenShift Container Platform release 4.16.70 is now available with updates to packages and images that fix several bugs and add enhancements.
+
+This release includes a security update for Red Hat OpenShift Container Platform 4.16.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References </content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:62549" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T09:01:14+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/0ec982795ad853f0</id>
+    <title>RHSA-2026:66336: Important: vim security update</title>
+    <updated>2026-09-10T07:38:59+00:00</updated>
+    <content>An update for vim is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66336" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T07:38:59+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/78ccf20e458798d5</id>
+    <title>RHSA-2026:66325: Important: kernel security, bug fix, and enhancement update</title>
+    <updated>2026-09-10T06:21:53+00:00</updated>
+    <content>An update for kernel is now available for Red Hat Enterprise Linux 8.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66325" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T06:21:53+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/35b242cf0cf6e253</id>
+    <title>RHSA-2026:66323: Important: httpd security update</title>
+    <updated>2026-09-10T06:09:49+00:00</updated>
+    <content>An update for httpd is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66323" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T06:09:49+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/e4fd808ec473979d</id>
+    <title>RHSA-2026:66324: Important: kernel-rt security, bug fix, and enhancement update</title>
+    <updated>2026-09-10T06:09:38+00:00</updated>
+    <content>An update for kernel-rt is now available for Red Hat Enterprise Linux 8.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66324" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T06:09:38+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/99ef2e911dbd69b2</id>
+    <title>RHSA-2026:66327: Important: osbuild-composer security, bug fix, and enhancement update</title>
+    <updated>2026-09-10T06:06:23+00:00</updated>
+    <content>An update for osbuild-composer is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66327" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T06:06:23+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/f90e7fdac44d46d9</id>
     <title>RHSA-2026:66282: Important: freerdp security update</title>
@@ -73,88 +185,6 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/69ee24d1e96460c5</id>
-    <title>RHSA-2026:66203: Important: python3.12-lxml security update</title>
-    <updated>2026-09-09T22:16:57+00:00</updated>
-    <content>An update for python3.12-lxml is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66203" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T22:16:57+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/fcb05cd484528c3f</id>
-    <title>RHSA-2026:66120: Critical: Updated Container Images: HawtIO 4.4.1 for Red Hat build of Apache Camel 4 Release and security update.</title>
-    <updated>2026-09-09T21:28:39+00:00</updated>
-    <content>Updated container images are now available</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66120" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T21:28:39+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/0c84786daecf54c4</id>
-    <title>RHSA-2026:66179: Important: perl-DBI security update</title>
-    <updated>2026-09-09T21:20:47+00:00</updated>
-    <content>An update for perl-DBI is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66179" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T21:20:47+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/c9d593c3a3371596</id>
-    <title>RHSA-2026:66016: Important: osbuild-composer security update</title>
-    <updated>2026-09-09T16:12:37+00:00</updated>
-    <content>An update for osbuild-composer is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66016" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T16:12:37+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/5099d2970e44f026</id>
-    <title>RHSA-2026:66026: Important: virtuoso-opensource security update</title>
-    <updated>2026-09-09T16:06:22+00:00</updated>
-    <content>An update for virtuoso-opensource is now available for Red Hat Enterprise Linux 7 Extended Lifecycle Support.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66026" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T16:06:22+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/efa818a772855e7a</id>
-    <title>RHSA-2026:65993: Important: qt5-qtbase security update</title>
-    <updated>2026-09-09T15:27:12+00:00</updated>
-    <content>An update for qt5-qtbase is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65993" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T15:27:12+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/4a42fe2918281633</id>
-    <title>RHSA-2026:66000: Important: kernel security update</title>
-    <updated>2026-09-09T15:22:22+00:00</updated>
-    <content>An update for kernel is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66000" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T15:22:22+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/6ede01f8b6efa8b5</id>
     <title>Deploy NeMo Guardrails on Red Hat OpenShift AI</title>
     <updated>2026-09-09T15:05:01+00:00</updated>
@@ -168,30 +198,6 @@ Red Hat Product Security has rated this update as having a security impact of Im
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20OpenShift%20AI_0.png?itok=C9XlhkOQ" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/455e961ad3f97741</id>
-    <title>RHSA-2026:65998: Moderate: gzip security update</title>
-    <updated>2026-09-09T14:16:27+00:00</updated>
-    <content>An update for gzip is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65998" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T14:16:27+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/c060829332487fdc</id>
-    <title>RHSA-2026:65999: Moderate: gstreamer1-plugins-good security update</title>
-    <updated>2026-09-09T14:07:56+00:00</updated>
-    <content>An update for gstreamer1-plugins-good is now available for Red Hat Enterprise Linux 9.2 Update Services for SAP Solutions.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65999" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T14:07:56+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/df6cb7b2f2378545</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-10T05:09:10.241403+00:00</updated>
+  <updated>2026-09-10T11:45:04.773013+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -153,7 +153,7 @@ A workaround can be used:
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/91e04a5fdaafa651</id>
     <title>WAF - WAF Release - Scheduled changes for 2026-09-15</title>
     <updated>2026-09-08T00:00:00+00:00</updated>
-    <content>Announcement Date Release Date Release Behavior Legacy Rule ID Rule ID Description Comments 2026-09-08 2026-09-15 Log N/A ...19491e62 SSRF - Cloud - 3 This is a new detection. 2026-09-08 2026-09-15 Log N/A ...e6a0b6de Version Control - Information Disclosure - Beta This rule will be merged into the original rule "Version Control - Information Disclosure" (ID: ...0550c529 ). 2026-09-08 2026-09-15 Log N/A ...c1aaebda Command Injection - Generic 10 This is a new detection.</content>
+    <content>Announcement Date Release Date Release Behavior Legacy Rule ID Rule ID Description Comments 2026-09-08 2026-09-15 Log N/A ...ca453d31 SSRF - Cloud - 3 This is a new detection. 2026-09-08 2026-09-15 Log N/A ...e540f17f Version Control - Information Disclosure - Beta This rule will be merged into the original rule "Version Control - Information Disclosure" (ID: ...0550c529 ). 2026-09-08 2026-09-15 Log N/A ...ba458b4b Command Injection - Generic 10 This is a new detection.</content>
     <link href="https://developers.cloudflare.com/changelog/post/scheduled-waf-release/" rel="alternate"/>
     <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
     <published>2026-09-08T00:00:00+00:00</published>
@@ -701,6 +701,21 @@ We are working to analyse and mitigate this problem. More updates to follow shor
     <updated>2026-08-31T00:00:00+00:00</updated>
     <content>The /crawl endpoint now respects the use directive of the Content Signals ↗ standard, letting site owners express the maximum level at which their content may be used. You can declare your intended level with the new contentUse parameter. Allowed values, from least to most permissive, are reference and full , and the default is full . If a target site's robots.txt sets a use level that is more restrictive than your declared contentUse , the crawl request is rejected with a 400 error. curl -X POS</content>
     <link href="https://developers.cloudflare.com/changelog/post/2026-08-31-crawl-content-use/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-08-31T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/09afe6ac54d64b1e</id>
+    <title>Load Balancing - Load Balancing now supports pool sets</title>
+    <updated>2026-08-31T00:00:00+00:00</updated>
+    <content>Cloudflare Load Balancing now supports pool sets through the API. Pool sets combine geographic matching with location-specific traffic steering. One load balancer can now use different routing behavior for different locations. Each pool set can match a Cloudflare data center, country, or region. It then supplies the candidate pools and can apply its own steering policy, pool weights, and fallback pool. Cloudflare evaluates pool sets in array order and applies the first matching pool set. For exa</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-08-31-pool-sets/" rel="alternate"/>
     <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
     <published>2026-08-31T00:00:00+00:00</published>
     <media:group>
@@ -1324,21 +1339,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-08-21T07:45:56+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/08744382fa74ac2c</id>
-    <title>Cloudflare Web Analytics - Web Analytics improves soft navigation measurement for Single Page Applications (SPAs)</title>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <content>Cloudflare Web Analytics (Real User Monitoring) is rolling out accuracy improvements to client-side soft navigations. This change may alter the volume of pageviews reported in the dashboard and GraphQL API , though the extent depends on your front-end architecture and visitor traffic patterns. Single Page Applications (SPAs)—such as websites built with React, Angular, Vue, or Svelte—predominantly use soft navigations. Soft navigations avoid fully unloading the current page and rendering the next</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-21-improved-soft-navigation-measurement-for-single-page-applications/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-21T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/81c622a638cfaf4a</id>

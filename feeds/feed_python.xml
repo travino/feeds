@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-10T05:11:09.615482+00:00</updated>
+  <updated>2026-09-10T11:46:43.561955+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -13,54 +13,99 @@
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/41bc35f2f9f8cd6c</id>
-    <title>agent-harness-aibom 0.10.0</title>
-    <updated>2026-09-10T05:10:47+00:00</updated>
-    <content>AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface</content>
-    <link href="https://pypi.org/project/agent-harness-aibom/0.10.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/e11a9fc8748b2663</id>
+    <title>luma-infra 0.1.325</title>
+    <updated>2026-09-10T11:45:59+00:00</updated>
+    <content>Declarative deployment CLI for region-aware Nomad infrastructure.</content>
+    <link href="https://pypi.org/project/luma-infra/0.1.325/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T05:10:47+00:00</published>
+    <published>2026-09-10T11:45:59+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2858a7ea880b0260</id>
-    <title>before-push 0.1.1</title>
-    <updated>2026-09-10T05:10:44+00:00</updated>
-    <content>A small CLI that checks your current Git branch before you push or open a pull request.</content>
-    <link href="https://pypi.org/project/before-push/0.1.1/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/c5c57248b361c835</id>
+    <title>limatus 0.7.0</title>
+    <updated>2026-09-10T11:45:58+00:00</updated>
+    <content>A diagnose-and-steer quality loop for AI-generated content.</content>
+    <link href="https://pypi.org/project/limatus/0.7.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T05:10:44+00:00</published>
+    <published>2026-09-10T11:45:58+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/37a4b614f40f0240</id>
-    <title>readie 0.2.6</title>
-    <updated>2026-09-10T05:10:39+00:00</updated>
-    <content>Client SDK for running Python functions on Readie</content>
-    <link href="https://pypi.org/project/readie/0.2.6/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/2e4cbb6dff98fbb6</id>
+    <title>neuracore 17.0.1a85</title>
+    <updated>2026-09-10T11:45:44+00:00</updated>
+    <content>Neuracore Client Library</content>
+    <link href="https://pypi.org/project/neuracore/17.0.1a85/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T05:10:39+00:00</published>
+    <published>2026-09-10T11:45:44+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7ddad8e0357932f4</id>
-    <title>aidx 0.0.0</title>
-    <updated>2026-09-10T05:10:33+00:00</updated>
-    <content>Agent observability and quality SDK (placeholder release)</content>
-    <link href="https://pypi.org/project/aidx/0.0.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/edae5c617c03880f</id>
+    <title>netbox-drawio 0.2.1</title>
+    <updated>2026-09-10T11:45:43+00:00</updated>
+    <content>NetBox plugin for creating draw.io diagrams and assigning them to multiple NetBox objects</content>
+    <link href="https://pypi.org/project/netbox-drawio/0.2.1/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T05:10:33+00:00</published>
+    <published>2026-09-10T11:45:43+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/3b7f76aa19b18e86</id>
-    <title>aidxops 0.0.0</title>
-    <updated>2026-09-10T05:10:31+00:00</updated>
-    <content>Agent observability and quality SDK (placeholder release)</content>
-    <link href="https://pypi.org/project/aidxops/0.0.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/a550db1bc5e6a424</id>
+    <title>z-babeldoc 0.6.2.post2026091001</title>
+    <updated>2026-09-10T11:45:41+00:00</updated>
+    <content>BabelDOC 的定制发行版本</content>
+    <link href="https://pypi.org/project/z-babeldoc/0.6.2.post2026091001/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T05:10:31+00:00</published>
+    <published>2026-09-10T11:45:41+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/cd60fa20f22e1d10</id>
+    <title>Hugo van Kemenade: Soft-deprecating re.match()</title>
+    <updated>2026-09-10T08:08:01+00:00</updated>
+    <content>Quick, without looking it up, what does re.match() do? Which of these return a match? import re re . match ( "pi" , "pi" ) re . match ( "pi" , "pie" ) re . match ( "pi" , "api" ) re . match ( "pi" , "magpie" ) How does it compare to re.search() and re.fullmatch() ? Whilst you’re (quickly) thinking about it, let’s introduce soft deprecation . Soft deprecation # Python’s backwards compatibility policy (PEP 387) introduced soft deprecation in 2023: A soft deprecation can be used when using an API w</content>
+    <link href="https://hugovk.dev/blog/2026/soft-deprecating-re.match/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-10T08:08:01+00:00</published>
+    <media:group>
+      <media:content url="https://hugovk.dev/blog/2026/soft-deprecating-re.match/feature.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://hugovk.dev/blog/2026/soft-deprecating-re.match/feature.jpg"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://hugovk.dev/blog/2026/soft-deprecating-re.match/feature.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/cacd8de5c81e6f31</id>
+    <title>1.6.1</title>
+    <updated>2026-09-10T07:55:45+00:00</updated>
+    <content>What's Changed chore[v1]: prepare for v1.6.1 by @henryiii in #1181 Full Changelog : 1.6.0...1.6.1</content>
+    <link href="https://github.com/pypa/build/releases/tag/1.6.1" rel="alternate"/>
+    <category term="build (pypa)" label="build (pypa)"/>
+    <published>2026-09-10T07:55:45+00:00</published>
+    <media:group>
+      <media:content url="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4"/>
+    </media:group>
+    <dc:creator>build (pypa)</dc:creator>
+    <link rel="enclosure" href="https://avatars.githubusercontent.com/in/15368?s=60&amp;v=4" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/16bb66adc8711458</id>
+    <title>EuroPython: EuroPython 2026: Videos Published</title>
+    <updated>2026-09-10T06:43:11+00:00</updated>
+    <content>Hi all Pythonistas! 👋 EuroPython 2026 took over the ICE Congress Centre in Kraków from 13 - 19 July and it wouldn’t have been possible without all of our attendees, speakers, volunteers, and sponsors. You allowed us to showcase the Python community at its best once again, and the conference truly belongs to all of you 💚 We are now one month on, and we’ve just finished tying up the loose ends over here at EuroPython HQ. In this newsletter, let us look back at some of the highlights of the confere</content>
+    <link href="https://blog.europython.eu/europython-2026-videos-published/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-10T06:43:11+00:00</published>
+    <media:group>
+      <media:content url="https://blog.europython.eu/content/images/2026/09/ep-2.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://blog.europython.eu/content/images/2026/09/ep-2.jpg"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://blog.europython.eu/content/images/2026/09/ep-2.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611</id>
@@ -477,21 +522,6 @@ if text == '': # if the line edit i</content>
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47</id>
-    <title>marimo: Reactive Python Notebook</title>
-    <updated>2026-09-07T15:04:11+00:00</updated>
-    <content>marimo is an open-source Python notebook in which cells re-execute automatically when the variables they read change. Notebooks are stored as plain .py files rather than JSON and are parsed by static analysis to derive a deterministic execution order. The same file can be run as a standalone script or inside a sandboxed environment managed by uv . It is licensed under Apache-2.0 and requires Python 3.10 or newer. Reactive Notebook Model The traditional notebook model decouples cell ordering from</content>
-    <link href="https://pydevtools.com/handbook/reference/marimo/" rel="alternate"/>
-    <category term="PyDevTools" label="PyDevTools"/>
-    <published>2026-09-07T15:04:11+00:00</published>
-    <media:group>
-      <media:content url="https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png"/>
-    </media:group>
-    <dc:creator>PyDevTools</dc:creator>
-    <link rel="enclosure" href="https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/32fe80ac89984c66</id>
@@ -954,33 +984,6 @@ UI for pairing and have a web interf</content>
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2196808272-1faa9c1ea9afcbdca269693a805ce48bc95f4cbecfd1a1a5856668254582c2d2-d_1920x1080%3F%26region%3Dus&amp;src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/3bd944ff39f27465</id>
-    <title>Python Anywhere: Annual plans, PostgreSQL 15, and easier database management</title>
-    <updated>2026-09-04T10:00:00+00:00</updated>
-    <content>We deployed our latest system update to our EU-based system on 23 June 2026 and to our US-based system on 28 July 2026 . People creating an account or upgrading from a free account can now choose an
-annual plan. PostgreSQL 15 is available, and the Databases page now makes it
-easier to restart PostgreSQL servers and keep track of MySQL storage limits.</content>
-    <link href="https://blog.pythonanywhere.com/224/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-04T10:00:00+00:00</published>
-    <dc:creator>Planet Python</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/58d29ddc83a77176</id>
-    <title>Talk Python to Me: #561: TonIO, a Multi-threaded Async Runtime for Python</title>
-    <updated>2026-09-04T07:33:34+00:00</updated>
-    <content>How many cores does your machine have, 10, 18? Your async Python code uses just one of them. That isn't a bug in asyncio. That's the design, and optimizing event loops to be faster by 20% doesn't change it. So Giovanni Barillari started over. Joe is the creator of Granian, the Rust-based server that powers Talk Python. His new project is TonIO, an async runtime written from scratch for free-threaded Python. Real threads, a handful of primitives instead of asyncio's pile of them, and it flat out </content>
-    <link href="https://talkpython.fm/episodes/show/561/tonio-a-multi-threaded-async-runtime-for-python" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-04T07:33:34+00:00</published>
-    <media:group>
-      <media:content url="https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/3f8bd57b69e10ba6</id>

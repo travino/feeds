@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-10T05:11:50.017553+00:00</updated>
+  <updated>2026-09-10T11:47:17.584082+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/c200961ec2ebb46c</id>
+    <title>NVIDIA 615.71.09 Released with Better Windows Gaming on Linux</title>
+    <updated>2026-09-10T09:35:29+00:00</updated>
+    <content>NVIDIA driver for Linux released new 615.71.09 version yesterday, as the latest new feature branch driver. The new driver added some new Vulkan extensions support for better Linux gaming and memory management, and fixed various Wayland and Blackwell GPUs related issues. First, the NVIDIA 615 driver added support the second revision of VK_NV_low_latency extension. It […]</content>
+    <link href="https://ubuntuhandbook.org/index.php/2026/09/nvidia-615-71-09-released-better-windows-gaming-on-linux/" rel="alternate"/>
+    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
+    <published>2026-09-10T09:35:29+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2021/06/nvidia-logo-250x250.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2021/06/nvidia-logo-250x250.webp"/>
+    </media:group>
+    <dc:creator>UbuntuHandbook</dc:creator>
+    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2021/06/nvidia-logo-250x250.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/d4f109235db037e9</id>
+    <title>What the Cyber Resilience Act (CRA) means for Android™ development</title>
+    <updated>2026-09-10T08:00:00+00:00</updated>
+    <content>The CRA starts now: 24 hours to respond Picture this: a critical Android vulnerability is reportedly being exploited. Based on initial analysis, the compromised component is part of your software stack. Your product runs Android, but probably not exactly the Android described in the Common Vulnerabilities and Exposures (CVE) description. You may have your own […]</content>
+    <link href="https://canonical.com//blog/what-the-cyber-resilience-act-cra-means-for-android-development" rel="alternate"/>
+    <category term="Canonical Blog" label="Canonical Blog"/>
+    <published>2026-09-10T08:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntu.com/wp-content/uploads/513c/anbox-cloud-cra.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://ubuntu.com/wp-content/uploads/513c/anbox-cloud-cra.png"/>
+    </media:group>
+    <dc:creator>Canonical Blog</dc:creator>
+    <link rel="enclosure" href="https://ubuntu.com/wp-content/uploads/513c/anbox-cloud-cra.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/45102b8995a66397</id>
     <title>BleachBit 6.0.4 brings faster scanning, better browser cleaning</title>
@@ -26,6 +56,21 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/e27b02e6b475b0f7</id>
+    <title>The Default Wallpapers for Ubuntu 26.10 is Out [Download Link]</title>
+    <updated>2026-09-09T09:05:30+00:00</updated>
+    <content>Ubuntu developer team announced the default wallpaper for the upcoming Ubuntu 26.10 yesterday, along with the winning images from the wallpaper competition. As before, the new default wallpaper is made of a purple background with mascot (stingray) in center. Similar to the one for 26.04, it uses a large, curved origami crease in the background. […]</content>
+    <link href="https://ubuntuhandbook.org/index.php/2026/09/the-default-wallpapers-for-ubuntu-26-10/" rel="alternate"/>
+    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
+    <published>2026-09-09T09:05:30+00:00</published>
+    <media:group>
+      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2026/09/2610-logo-250x250.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2026/09/2610-logo-250x250.webp"/>
+    </media:group>
+    <dc:creator>UbuntuHandbook</dc:creator>
+    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2026/09/2610-logo-250x250.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/2816daef9a07016a</id>
@@ -853,21 +898,6 @@
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2025/08/dingo.jpg?resize=406%2C232&amp;ssl=1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/9a34b7cb29084c58</id>
-    <title>Darktable Tagged 5.6.1 with Numerous Bug-fixes &amp; Improvements</title>
-    <updated>2026-08-26T11:25:43+00:00</updated>
-    <content>Darktable, the open-source photography and raw developer application, tagged 5.6.1 version today. The new version is a maintenance release that improved the AI support, fixed numerous issues, and updated translations. The last Darktable 5.6.0 introduced AI sub-system and a preference dialog to download AI models. The new version updated the download manager, so it will […]</content>
-    <link href="https://ubuntuhandbook.org/index.php/2026/08/darktable-tagged-5-6-1-with-numerous-bug-fixes-improvements/" rel="alternate"/>
-    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
-    <published>2026-08-26T11:25:43+00:00</published>
-    <media:group>
-      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2021/12/darktable-logo-250x250.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2021/12/darktable-logo-250x250.webp"/>
-    </media:group>
-    <dc:creator>UbuntuHandbook</dc:creator>
-    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2021/12/darktable-logo-250x250.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/d6d1e9cbe76ed1f4</id>
     <title>Arduino® VENTUNO™ Q is available for pre-order with Ubuntu pre-installed</title>
     <updated>2026-08-25T19:13:28+00:00</updated>
@@ -881,21 +911,6 @@
     </media:group>
     <dc:creator>Ubuntu Blog</dc:creator>
     <link rel="enclosure" href="https://ubuntu.com/wp-content/uploads/c9ef/Arduino-VENTUNO-Q-GA-announcement.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/f6339b6d2761c022</id>
-    <title>Go Language 1.27 Released with Generic Methods, JSON v2, SIMD Support</title>
-    <updated>2026-08-25T14:14:42+00:00</updated>
-    <content>Go language (aka Golang) released new major 1.27 version in last week, six months after the last 1.26. The new version of this popular programming language added support generic methods, which can now declare their own type parameters, making generics more flexible. As an example, Rand now supports a generic method N, matching the behavior […]</content>
-    <link href="https://ubuntuhandbook.org/index.php/2026/08/go-language-1-27-released-with-generic-methods-json-v2-simd-support/" rel="alternate"/>
-    <category term="UbuntuHandbook" label="UbuntuHandbook"/>
-    <published>2026-08-25T14:14:42+00:00</published>
-    <media:group>
-      <media:content url="https://ubuntuhandbook.org/wp-content/uploads/2024/02/go-logo-250x250.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://ubuntuhandbook.org/wp-content/uploads/2024/02/go-logo-250x250.webp"/>
-    </media:group>
-    <dc:creator>UbuntuHandbook</dc:creator>
-    <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2024/02/go-logo-250x250.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/4eb6b6dbb1fa3afb</id>

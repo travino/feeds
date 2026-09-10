@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-10T05:10:00.807156+00:00</updated>
+  <updated>2026-09-10T11:45:41.876943+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/d21f272752d5ef31</id>
+    <title>AGI has arrived.</title>
+    <updated>2026-09-10T11:45:40.713522+00:00</updated>
+    <content>AGI has arrived. Just gotta wait for the GLM distill.</content>
+    <link href="https://huggingface.co/posts/Banaxi-Tech/229308326459018" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-10T11:45:40.713522+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Banaxi-Tech/229308326459018.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Banaxi-Tech/229308326459018.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Banaxi-Tech/229308326459018.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/ba28783c8002351d</id>
     <title>Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve.</title>
@@ -26,6 +41,21 @@
     </media:group>
     <dc:creator>Hugging Face Posts</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/cb50b0c3c8564548</id>
+    <title>Rebuilding AUTOMATIC1111 with Gradio Workflow</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>Rebuilding AUTOMATIC1111 with Gradio Workflow</content>
+    <link href="https://huggingface.co/blog/gradio-workflow-1111" rel="alternate"/>
+    <category term="Hugging Face Blog" label="Hugging Face Blog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Blog</dc:creator>
+    <link rel="enclosure" href="https://huggingface.co/blog/assets/gradio-workflow1111/thumbnail.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/7d6bcf2553c986b6</id>
@@ -2936,6 +2966,21 @@
     </media:group>
     <dc:creator>Hugging Face Trending Papers</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.09642.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/c2c213e5fc102b3f</id>
+    <title>YuE: Scaling Open Foundation Models for Long-Form Music Generation</title>
+    <updated>2025-03-11T00:00:00+00:00</updated>
+    <content>YuE, a family of open foundation models based on LLaMA2, can generate long-form music with aligned lyrics, coherent structure, and appropriate accompaniment using innovative techniques in next-token prediction, conditioning, and pre-training.</content>
+    <link href="https://huggingface.co/papers/2503.08638" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2025-03-11T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.08638.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.08638.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2503.08638.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/8c331043b87ce7e8</id>

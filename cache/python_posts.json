@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T05:11:09.779550+00:00",
+  "last_updated": "2026-09-10T11:46:43.722748+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -8250,54 +8250,81 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611"
     },
     {
-      "title": "aidxops 0.0.0",
-      "link": "https://pypi.org/project/aidxops/0.0.0/",
-      "date": "2026-09-10T05:10:31+00:00",
-      "description": "Agent observability and quality SDK (placeholder release)",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3b7f76aa19b18e86"
+      "title": "EuroPython: EuroPython 2026: Videos Published",
+      "link": "https://blog.europython.eu/europython-2026-videos-published/",
+      "date": "2026-09-10T06:43:11+00:00",
+      "description": "Hi all Pythonistas! 👋 EuroPython 2026 took over the ICE Congress Centre in Kraków from 13 - 19 July and it wouldn’t have been possible without all of our attendees, speakers, volunteers, and sponsors. You allowed us to showcase the Python community at its best once again, and the conference truly belongs to all of you 💚 We are now one month on, and we’ve just finished tying up the loose ends over here at EuroPython HQ. In this newsletter, let us look back at some of the highlights of the confere",
+      "source": "Planet Python",
+      "image": "https://blog.europython.eu/content/images/2026/09/ep-2.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/16bb66adc8711458"
     },
     {
-      "title": "aidx 0.0.0",
-      "link": "https://pypi.org/project/aidx/0.0.0/",
-      "date": "2026-09-10T05:10:33+00:00",
-      "description": "Agent observability and quality SDK (placeholder release)",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7ddad8e0357932f4"
+      "title": "1.6.1",
+      "link": "https://github.com/pypa/build/releases/tag/1.6.1",
+      "date": "2026-09-10T07:55:45+00:00",
+      "description": "What's Changed chore[v1]: prepare for v1.6.1 by @henryiii in #1181 Full Changelog : 1.6.0...1.6.1",
+      "source": "build (pypa)",
+      "image": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/cacd8de5c81e6f31"
     },
     {
-      "title": "readie 0.2.6",
-      "link": "https://pypi.org/project/readie/0.2.6/",
-      "date": "2026-09-10T05:10:39+00:00",
-      "description": "Client SDK for running Python functions on Readie",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/37a4b614f40f0240"
+      "title": "Hugo van Kemenade: Soft-deprecating re.match()",
+      "link": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
+      "date": "2026-09-10T08:08:01+00:00",
+      "description": "Quick, without looking it up, what does re.match() do? Which of these return a match? import re re . match ( \"pi\" , \"pi\" ) re . match ( \"pi\" , \"pie\" ) re . match ( \"pi\" , \"api\" ) re . match ( \"pi\" , \"magpie\" ) How does it compare to re.search() and re.fullmatch() ? Whilst you’re (quickly) thinking about it, let’s introduce soft deprecation . Soft deprecation # Python’s backwards compatibility policy (PEP 387) introduced soft deprecation in 2023: A soft deprecation can be used when using an API w",
+      "source": "Planet Python",
+      "image": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/feature.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/cd60fa20f22e1d10"
     },
     {
-      "title": "before-push 0.1.1",
-      "link": "https://pypi.org/project/before-push/0.1.1/",
-      "date": "2026-09-10T05:10:44+00:00",
-      "description": "A small CLI that checks your current Git branch before you push or open a pull request.",
+      "title": "z-babeldoc 0.6.2.post2026091001",
+      "link": "https://pypi.org/project/z-babeldoc/0.6.2.post2026091001/",
+      "date": "2026-09-10T11:45:41+00:00",
+      "description": "BabelDOC 的定制发行版本",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2858a7ea880b0260"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a550db1bc5e6a424"
     },
     {
-      "title": "agent-harness-aibom 0.10.0",
-      "link": "https://pypi.org/project/agent-harness-aibom/0.10.0/",
-      "date": "2026-09-10T05:10:47+00:00",
-      "description": "AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface",
+      "title": "netbox-drawio 0.2.1",
+      "link": "https://pypi.org/project/netbox-drawio/0.2.1/",
+      "date": "2026-09-10T11:45:43+00:00",
+      "description": "NetBox plugin for creating draw.io diagrams and assigning them to multiple NetBox objects",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/41bc35f2f9f8cd6c"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/edae5c617c03880f"
+    },
+    {
+      "title": "neuracore 17.0.1a85",
+      "link": "https://pypi.org/project/neuracore/17.0.1a85/",
+      "date": "2026-09-10T11:45:44+00:00",
+      "description": "Neuracore Client Library",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2e4cbb6dff98fbb6"
+    },
+    {
+      "title": "limatus 0.7.0",
+      "link": "https://pypi.org/project/limatus/0.7.0/",
+      "date": "2026-09-10T11:45:58+00:00",
+      "description": "A diagnose-and-steer quality loop for AI-generated content.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c5c57248b361c835"
+    },
+    {
+      "title": "luma-infra 0.1.325",
+      "link": "https://pypi.org/project/luma-infra/0.1.325/",
+      "date": "2026-09-10T11:45:59+00:00",
+      "description": "Declarative deployment CLI for region-aware Nomad infrastructure.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/e11a9fc8748b2663"
     }
   ]
 }

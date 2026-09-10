@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.mozilla.org/</id>
   <title>Mozilla</title>
-  <updated>2026-09-10T05:10:50.827314+00:00</updated>
+  <updated>2026-09-10T11:46:27.154987+00:00</updated>
   <author>
     <name>Mozilla</name>
   </author>
@@ -12,6 +12,51 @@
   <icon>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=blog.mozilla.org&amp;sz=256</logo>
   <subtitle>Combined Mozilla feed: the Mozilla, Firefox Nightly, Add-ons, Hacks and Thunderbird blogs, SpiderMonkey, Mozilla Connect, Planet Mozilla, Nightly release notes, and shipped Firefox desktop and Android release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/b30653817654b113</id>
+    <title>Tapping the search field on the Firefox for Android homepage now shows your recent searches</title>
+    <updated>2026-09-10T09:38:08.379870+00:00</updated>
+    <content>157.0a1 / New / Bug 2067606 Tapping the search field on the Firefox for Android homepage now shows your recent searches</content>
+    <link href="https://www.firefox.com/en-US/firefox/157.0a1/releasenotes/#note-792204" rel="alternate"/>
+    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
+    <published>2026-09-10T09:38:08.379870+00:00</published>
+    <media:group>
+      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Nightly Release Notes</dc:creator>
+    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/1e0b59f051eba758</id>
+    <title>AI in Firefox</title>
+    <updated>2026-09-10T07:28:03+00:00</updated>
+    <content>I am a simple user of Firefox and have been so for many years, I have a dislike for the all-consuming power of Google and similar products over our society and respect the principles of Mozilla. I am also concerned by the development of AI and where its unconstrained development is leading our world, from environmental issues to the risk to humanity itself. Therefore, I wish to applaud Mozilla for including the ability to 'switch off' AI features in Settings. The function is excellent and useful</content>
+    <link href="https://connect.mozilla.org/t5/discussions/ai-in-firefox/m-p/137830#M55887" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-10T07:28:03+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/mozilla/f661c575834e0b59</id>
+    <title>Feature Requests &amp; Core Optimizations Needed for Firefox Android</title>
+    <updated>2026-09-10T05:12:22+00:00</updated>
+    <content>Hey Firefox team, I’ve been trying to stick with Firefox on my phone because I really want to support the project (and having uBlock Origin is great), but it’s getting genuinely hard to keep using it as my daily driver. The biggest issue right now is just general performance. Pages load noticeably slower than on Chromium browsers, and scrolling on heavier sites feels super jittery. It also seems to drain my battery way faster and makes my phone run warm, even when I just have a few tabs open. Fe</content>
+    <link href="https://connect.mozilla.org/t5/discussions/feature-requests-amp-core-optimizations-needed-for-firefox/m-p/137815#M55882" rel="alternate"/>
+    <category term="Mozilla Connect" label="Mozilla Connect"/>
+    <published>2026-09-10T05:12:22+00:00</published>
+    <media:group>
+      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
+    </media:group>
+    <dc:creator>Mozilla Connect</dc:creator>
+    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/mozilla/8a80161607f2a55a</id>
     <title>Happy BMO Push Day! (20260908.1)</title>
@@ -398,36 +443,6 @@ Want something mentioned? Tag us at
     <link href="https://connect.mozilla.org/t5/discussions/spatial-audio-is-not-supported-on-websites-might-be-a-firefox/m-p/137465#M55644" rel="alternate"/>
     <category term="Mozilla Connect" label="Mozilla Connect"/>
     <published>2026-09-08T02:15:20+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/0e2805dd0af97124</id>
-    <title>The passwords "used" field is updated when a password is viewed</title>
-    <updated>2026-09-08T00:38:30+00:00</updated>
-    <content>I am reviewing my list of passwords to determine if some are no longer needed. However, the "used" date at the bottom is the current date, which is not helpful. How can I view a password without affecting the "used" date? Regards, Frank Firefox 155.0.1</content>
-    <link href="https://connect.mozilla.org/t5/discussions/the-passwords-quot-used-quot-field-is-updated-when-a-password-is/m-p/137461#M55642" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-08T00:38:30+00:00</published>
-    <media:group>
-      <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
-    </media:group>
-    <dc:creator>Mozilla Connect</dc:creator>
-    <link rel="enclosure" href="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/458353e193803f36</id>
-    <title>just introducing myself and giving feedback to Mozilla</title>
-    <updated>2026-09-07T18:48:29+00:00</updated>
-    <content>just introducing myself and giving feedback to Mozilla</content>
-    <link href="https://connect.mozilla.org/t5/discussions/just-introducing-myself-and-giving-feedback-to-mozilla/m-p/137443#M55636" rel="alternate"/>
-    <category term="Mozilla Connect" label="Mozilla Connect"/>
-    <published>2026-09-07T18:48:29+00:00</published>
     <media:group>
       <media:content url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg"/>
@@ -1202,21 +1217,6 @@ Want something mentioned? Tag us at
     <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792089" rel="alternate"/>
     <category term="Nightly Release Notes" label="Nightly Release Notes"/>
     <published>2026-08-19T15:33:40.377621+00:00</published>
-    <media:group>
-      <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>Nightly Release Notes</dc:creator>
-    <link rel="enclosure" href="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/mozilla/72144077b0bd26ca</id>
-    <title>Improved memory and CPU usage when Firefox displays large JPEG images scaled down to fit a page.</title>
-    <updated>2026-08-19T15:33:13.120065+00:00</updated>
-    <content>156.0a1 / New / Bug 2033250 Improved memory and CPU usage when Firefox displays large JPEG images scaled down to fit a page.</content>
-    <link href="https://www.firefox.com/en-US/firefox/156.0a1/releasenotes/#note-792088" rel="alternate"/>
-    <category term="Nightly Release Notes" label="Nightly Release Notes"/>
-    <published>2026-08-19T15:33:13.120065+00:00</published>
     <media:group>
       <media:content url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" type="image/png" medium="image" height="630" width="1200"/>
       <media:thumbnail url="https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png" height="630" width="1200"/>

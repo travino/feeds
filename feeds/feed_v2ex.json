@@ -8,278 +8,623 @@
   "icon": "https://www.v2ex.com/favicon.ico",
   "items": [
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/dee77aebdc89fc3b",
-      "url": "https://www.v2ex.com/t/1240985#reply0",
-      "title": "大家有没有公网跨机器访问 agent 的需求啊？比如在公司查看自己家里的 Codex 的进度或者在家访问 Claude 纯净环境的机器？",
-      "content_text": "之前 claude 封号太狠了，然后想要用 claude 就得小心翼翼的搭建环境。梯子，时区，默认语言都得在美区。我就想做个远程的，网页端客户端都能访问的远程编码工具，所以做了了个产品，支持 codex,claude,opencode 和一些国产模型（国模测试不够充分，毕竟不太好用），大家感兴趣先试用，有问题可以评论反馈。 产品地址： https://kite.lumenlan.com/ 手机端地址（ ios 已上架）：ios appstore 搜索“照野” 或者 google 搜索：灵澜·云鸢 我现在日常开发基本都是基于它，然后我围绕它做了一堆的生态产品，有项目管理的 robin （还不完善）,知识管理的 deerlight （只能说初步能用吧： https://deerlight.lumenlan.com/） 话不多所，期待大家的试用。由于 V2EX 贴图太麻烦了，我又在公司不方便搞复杂操作，就先不贴图了，哈哈哈。",
-      "date_published": "2026-09-10T04:10:23Z",
-      "date_modified": "2026-09-10T04:10:23Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/ad76bfa7acfb4884",
+      "url": "https://www.v2ex.com/t/1241124#reply0",
+      "title": "给 Codex 安装一个红绿灯🚥",
+      "content_text": "codex 会话一多，就有个问题，找起来很麻烦+看起来很乱，缺少状态。\n所以做了一个 skill ，在 codex 的会话标题上，加上🔢数字前缀 + 图标 icon ✅，这样就能很快的找到会话了。 分为四种状态，如：\n🟡 codex 思考中\n🔴 等待用户确认\n♻️ 执行任务中\n✅ 已完成 支持一句话安装： 安装 skill 到用户本地 https://tools.markfor.me/skills/codex-traffic-light/SKILL.md",
+      "date_published": "2026-09-10T10:40:35Z",
+      "date_modified": "2026-09-10T10:40:35Z",
       "authors": [
         {
           "name": "V2EX Creative"
         }
       ],
-      "image": "https://cdn.v2ex.com/avatar/f3cd/7904/763174_xlarge.png?m=1789012463",
+      "image": "https://tools.markfor.me/assets/og-codex-traffic-light.png",
       "tags": [
         "V2EX Creative"
       ],
       "attachments": [
         {
-          "url": "https://cdn.v2ex.com/avatar/f3cd/7904/763174_xlarge.png?m=1789012463",
+          "url": "https://tools.markfor.me/assets/og-codex-traffic-light.png",
           "mime_type": "image/png"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/d43813b479d67f31",
-      "url": "https://www.v2ex.com/t/1240976#reply0",
-      "title": "为感谢各位 V 友提供的反馈， Current Card 准备限时再送 50 个主题兑换码",
-      "content_text": "阅读前必看：⚠️⚠️⚠️⚠️ 活动时间：9 月 10 日当天，兑换码 11 号到期，请及时兑换。 领取方式：关注我的小红书账号，后台私信 V2EX 即可，按后台私信顺序统一发放。 数量：v2ex 专供 50 个，送完为止。 我的小红书🍠： https://www.xiaohongshu.com/user/profile/5efb16200000000001002e25 大家好，我是 Current Card 的开发者。之前在 V2EX 分享后，收到了不少支持和反馈。谢谢大家愿意花时间试用，也谢谢你们把使用中的想法告诉我。 注意：⚠️⚠️⚠️⚠️之前已经领取过或购买过 Pro 的朋友，无需再领主题码。 套印工坊已包含在 Pro 中，更新到 1.1.5 后即可使用，自动享有本次更新权益。 Current Card 是一张用来记住「不急着做，但也不想忘」的卡片。可以是突然冒出的灵感、想找时间看的电影，或周末想去的地方。先记下来，放在看得见的地方，不用再给自己加一个闹钟。 1.1.5 新版本已经上线。这次加入了「套印工坊」，有钴蓝、朱橙、洋红、石墨四款卡片主题，像给下一张卡换一张不同墨色的纸。",
-      "date_published": "2026-09-10T03:44:30Z",
-      "date_modified": "2026-09-10T03:44:30Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/b207dada963bf05f",
+      "url": "https://www.v2ex.com/t/1241123#reply0",
+      "title": "[#*开源*#] 我的 WordPress 博客多年积累的数据全部丢失了，所以我搭建了 GitPress",
+      "content_text": "以前我用 WordPress 写了大概五六年的个人博客。WordPress 本身其实挺好用的，我真正烦的是它后面的那一整套东西：服务器、数据库、备份、迁移、DNS、续费。以前买服务器经常首年比较便宜，续费就贵不少，所以中间也折腾过几次迁移。每换一次机器，就得重新搬数据库、文件、配置，然后再改 DNS。 后来有一次我忘记续费，也没有提前迁移，几年的博客数据就这么没了。 这件事之后，我一直想找一种更省心、更长期的方案。 我试过 Hugo 这类静态博客。数据确实简单了，也不太依赖服务器，但另一方面，写博客又变成了 Markdown、Git、命令行、构建、部署。作为开发者当然能搞，但我写博客的时候其实并不想“开发博客”。我还是更喜欢 WordPress 那种感觉：打开后台，写东西，点发布。 后来也用过 Gridea，方向已经比较接近我想要的东西，但本地软件又意味着基本得坐在电脑前写。于是最后干脆自己做了一个：GitPress。 https://gitpress.net GitPress 的想法其实很简单：像 WordPress 一样写，但文章放在你自己的 GitHub 里。 你在 GitPre",
+      "date_published": "2026-09-10T10:33:16Z",
+      "date_modified": "2026-09-10T10:33:16Z",
       "authors": [
         {
           "name": "V2EX Creative"
         }
       ],
-      "image": "https://i.v2ex.co/5Ew66lvy.png",
+      "image": "https://i.imgur.com/NltDwzm.png",
       "tags": [
         "V2EX Creative"
       ],
       "attachments": [
         {
-          "url": "https://i.v2ex.co/5Ew66lvy.png",
+          "url": "https://i.imgur.com/NltDwzm.png",
           "mime_type": "image/png"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6bf6344f21632a81",
-      "url": "https://www.v2ex.com/t/1240971#reply6",
-      "title": "[ios/mac 送码] 自己有给照片生成水印边框的需求，就 vibe 了一个软件 [镜迹] ，送点激活码",
-      "content_text": "页面有点丑，还有几个边框也不太好看，等后续有时间再优化。 如果 v 友也有我这种生成边框的需求也可以试试，或者有什么需求 bug 都可以反馈。 商店地址 https://apps.apple.com/cn/app/%E9%95%9C%E8%BF%B9/id6788419065 截图 兑换地址 https://apps.apple.com/redeem?ctx=offercodes&id=6788419065&code=换成真实的兑换码 兑换码 FK6HRHEKXT3KWHKFHK XK6AT87HXFXRRH67JX 8648NRELXNKMRXW8XP PH3TXJNWJNA6K7MXY3 R3WYHTLLAPTTYNXM4T YP88JFNRYYY6KYN7YX YKX7YPRR7WR7YF34X3 ERFLRPRAKA6HHMWFFE NE4TKR4PL46XHWRA4M NMATA8JW86PTM7KRK7 NJNLYPN7EAFR6JPWFE YFA3YAJPN8AWAY6EAW 46NTMEJ86YWJEXE33Y T37AX7YPHKKHLM3FJW MWTKLA3PFT",
-      "date_published": "2026-09-10T03:40:33Z",
-      "date_modified": "2026-09-10T03:40:33Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/sMB5Gyl.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/sMB5Gyl.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/0520f3e3ad660da7",
-      "url": "https://www.v2ex.com/t/1240968#reply2",
-      "title": "深圳宽带太折腾了，有推荐的吗",
-      "content_text": "现在家里用的是联通 129 的套餐，两年前办理因为有活动每个月可以建 60 ，这样每个月实付 79 、流量 60G 、1000M 宽带 最近要到期了，所以想磨一磨能不能延续优惠，结果 app 和电话客服都说这个套餐很好，建议原价继续用 我就说那就销户吧，人家就 balabala 直接告诉我怎么销户，完全不挽留 从之前电信每个月 200 ，换到联通 79 ，成本省了不少，这次由于到底是原价续，还是换个别的运营商做更低的成本，不知道大家有什么推荐 感觉深圳运营商还是不太把人当人哎~",
-      "date_published": "2026-09-10T03:37:58Z",
-      "date_modified": "2026-09-10T03:37:58Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/1472c6cac8f2d0aa",
+      "url": "https://www.v2ex.com/t/1241121#reply1",
+      "title": "还能用的两根羊毛， b.ai 很稳很慢，商汤反复 429",
+      "content_text": "一直给 Deepseek 官方充值。最近活干的没动力了。弄点免费的，凑合着用。测试了一下目前还能薅到的羊毛。 b.ai ，用的是 glm-5.3-flash 和 qwen3.8-flash 。从来不中断，跟蜗牛一样干活。随便一个任务，就得几十分钟。稍微大一点的，干到过两个小时。 商汤用的是 GLM-5.2 和 sensenova-6.8-flash-lite 。速度倒是挺快。就得碰运气，基本上每个任务都得反复 429 好几回。 大家还有别的好用的推荐没？我英文不行，整不明白国外的东西，也没国外手机号、银行卡。要是有靠谱的教程，给哥们儿分享一个链接呗。还有你们说日均 10 块钱的订阅，说的都是啥呀？ 羡慕你们 token 流量用不完的。哈哈。",
+      "date_published": "2026-09-10T10:21:48Z",
+      "date_modified": "2026-09-10T10:21:48Z",
       "authors": [
         {
           "name": "V2EX Play"
         }
       ],
-      "image": "https://cdn.v2ex.com/gravatar/aa701156bdd3543d84556e100452fc06?s=73&d=retro",
+      "image": "https://cdn.v2ex.com/gravatar/b60c5f70f2c4773603081a5520b0a69b?s=73&d=retro",
       "tags": [
         "V2EX Play"
       ],
       "attachments": [
         {
-          "url": "https://cdn.v2ex.com/gravatar/aa701156bdd3543d84556e100452fc06?s=73&d=retro",
+          "url": "https://cdn.v2ex.com/gravatar/b60c5f70f2c4773603081a5520b0a69b?s=73&d=retro",
           "mime_type": "image/jpeg"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/427cf15e866c3b61",
-      "url": "https://www.v2ex.com/t/1240963#reply0",
-      "title": "Vibe 了个 mimo tts，系统里选择之后，听小说还是可以的。",
-      "content_text": "下载地址 https://pan.quark.cn/s/ca88da219975",
-      "date_published": "2026-09-10T03:24:26Z",
-      "date_modified": "2026-09-10T03:24:26Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.mji.rip/2026/09/10/e02e7cad607189a608d229dfe940f161.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.mji.rip/2026/09/10/e02e7cad607189a608d229dfe940f161.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/73748803a623471a",
-      "url": "https://www.v2ex.com/t/1240933#reply3",
-      "title": "做了个 AI 猜人物小游戏",
-      "content_text": "最近做了一个猜人物小游戏，支持中国历史人物和 NBA 球星。 原本准备做成小程序，折腾了一下发现 AI 问答类的小程序上架挺麻烦，就先算了，做成网页发出来，给大家玩玩图个乐。 地址： https://tenwen.cc 不用注册，手机、电脑都能玩。 玩法是 AI 先选一个人物，你通过提问缩小范围，最后猜出是谁。比如： 他是唐朝以前的人吗？ 他是后卫还是前锋？ 他拿过 NBA 总冠军吗？ 他效力过湖人吗？ 目前有中国历史人物 300 人、NBA 球星 124 人。每局最多 20 次机会，猜错也算一次；无法判断的问题不计次数，可以随时回看本局问答历史。 底层用的是 DeepSeek ，会结合人物资料回答，部分问题会联网搜索和独立校验。不过还是可能答错，或者明明能回答却说证据不足，欢迎大家来挑毛病。 目前 DeepSeek 账户里就剩几十块钱额度，用完可能就玩不了了，暂时也没打算一直充值，大家趁还能玩来图个乐 😂 如果遇到离谱的回答，欢迎留下大致时间、主题和原问题，我查查日志，也欢迎晒一下你用了几问猜中。",
-      "date_published": "2026-09-10T02:45:12Z",
-      "date_modified": "2026-09-10T02:45:12Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/gravatar/aabc90755afc4f20e5f0927fd21c8fc4?s=73&d=retro",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/gravatar/aabc90755afc4f20e5f0927fd21c8fc4?s=73&d=retro",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/d347f6005e95f15b",
-      "url": "https://www.v2ex.com/t/1240923#reply0",
-      "title": "做了个英语配音小游戏，小朋友学英语的可以玩一下！",
-      "content_text": "https://playchoicervoicer.com/zh 给视频配音的，可以听结果，诸位可以体验一下",
-      "date_published": "2026-09-10T02:29:19Z",
-      "date_modified": "2026-09-10T02:29:19Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/8a63/d6ae/830405_xlarge.png?m=1785813211",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/8a63/d6ae/830405_xlarge.png?m=1785813211",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/d76cea39794cded1",
-      "url": "https://www.v2ex.com/t/1240890#reply16",
-      "title": "前端趋向 React，系统趋向 Rust，脚本趋向 Python ，甚至连页面本身都趋向 Next.js，完全无视适配性。",
-      "content_text": "现在，AI 可以重写代码，让迁移变得容易。于是，管理层纷纷建议向主流技术栈迁移。 Cognition 公司的营销网站，从 Astro 迁移到了 Next.js ； Bun 从 Zig 迁移到 Rust 。 没有反复的论证、数年的考察，也许只是公司内部的一场会议，就会导致放弃当前技术栈，改用更流行的技术栈。 根本没人会为当前使用的堆栈辩护，大家争前恐后拥抱最佳实践。 他（ SolidJS 的创始人莱恩·卡尼亚托）的结论就是：\"这样下去，除了少数例外，每一层最终都会变为当下最流行的解决方案。前端趋向 React ，系统趋向 Rust ，脚本趋向 Python ，甚至连页面本身都趋向 Next.js ，完全无视适配性。\" https://dev.to/playfulprogramming/nobody-argued-for-your-stack-51fj",
-      "date_published": "2026-09-10T01:31:23Z",
-      "date_modified": "2026-09-10T01:31:23Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/4857535032f9078c",
+      "url": "https://www.v2ex.com/t/1241117#reply0",
+      "title": "深圳电信号码怎么不换号改套餐",
+      "content_text": "10 年左右深圳电信号码，怎么不修改号码换小于月租 40 块的大流量套餐？",
+      "date_published": "2026-09-10T10:11:05Z",
+      "date_modified": "2026-09-10T10:11:05Z",
       "authors": [
         {
           "name": "V2EX Play"
         }
       ],
-      "image": "https://cdn.v2ex.com/avatar/24ae/a527/588523_xlarge.png?m=1783558369",
+      "image": "https://cdn.v2ex.com/gravatar/3bf95391dba71174bdeb2c57070f8b42?s=73&d=retro",
       "tags": [
         "V2EX Play"
       ],
       "attachments": [
         {
-          "url": "https://cdn.v2ex.com/avatar/24ae/a527/588523_xlarge.png?m=1783558369",
-          "mime_type": "image/png"
+          "url": "https://cdn.v2ex.com/gravatar/3bf95391dba71174bdeb2c57070f8b42?s=73&d=retro",
+          "mime_type": "image/jpeg"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/5ce2ac33ef74fec9",
-      "url": "https://www.v2ex.com/t/1240888#reply2",
-      "title": "达芬奇更新了 21.1.1，现在 GPT 也能直接控制达芬奇粗剪辑和调色了",
-      "content_text": "昨天刚看到，试了一下，粗剪没问题，调色的话 MCP 开放接口里面调色只有部分功能开放了，总体来说调色目前功能补全",
-      "date_published": "2026-09-10T01:26:30Z",
-      "date_modified": "2026-09-10T01:26:30Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/319b4c5e3011de76",
+      "url": "https://www.v2ex.com/t/1241116#reply0",
+      "title": "330+ 开源的多款免费在线计算器与单位转换器， MIT 协议",
+      "content_text": "一套使用 Next.js 14 开发，包含 300 多个免费在线计算器与转换器的综合工具集。包括金融、健康、家居与手工、单位转换器、效率工具。 开源地址： https://github.com/PDFCraftTool/OmniTools",
+      "date_published": "2026-09-10T10:10:02Z",
+      "date_modified": "2026-09-10T10:10:02Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://github.com/user-attachments/assets/b6e0fe47-100b-4c0c-b9be-d5e5e40cf45a",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.com/user-attachments/assets/b6e0fe47-100b-4c0c-b9be-d5e5e40cf45a",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/20ba5aff05f64d2b",
+      "url": "https://www.v2ex.com/t/1241113#reply3",
+      "title": "你亏了几个 iPhone duo 了",
+      "content_text": "买东西唯唯诺诺 股市重拳出击 我已经亏了一个半了，手机还是好几年前的",
+      "date_published": "2026-09-10T10:07:29Z",
+      "date_modified": "2026-09-10T10:07:29Z",
       "authors": [
         {
           "name": "V2EX Play"
         }
       ],
-      "image": "https://cdn.v2ex.com/avatar/9d15/8e4c/644798_xlarge.png?m=1764817237",
+      "image": "https://cdn.v2ex.com/avatar/af79/f518/785860_xlarge.png?m=1775014393",
       "tags": [
         "V2EX Play"
       ],
       "attachments": [
         {
-          "url": "https://cdn.v2ex.com/avatar/9d15/8e4c/644798_xlarge.png?m=1764817237",
+          "url": "https://cdn.v2ex.com/avatar/af79/f518/785860_xlarge.png?m=1775014393",
           "mime_type": "image/png"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/ff76a923d017ca8d",
-      "url": "https://www.v2ex.com/t/1240878#reply9",
-      "title": "牛马颂·叹夕阳 ｜ 昨天下班后写了首诗，顺便拍了几张照片，分享一下",
-      "content_text": "牛马颂·叹夕阳 班车晃荡，蓝衫牛马闭目酣，无言满车厢，皆为同事，平日寒暄交谈欢，待到下班，拂袖不相看。 下车踱步，目视青云染金光，晚风绕身旁，若不上班，吾欲乘风苍穹上，什么工作，去他妈的蛋。 作于 2026.9.9",
-      "date_published": "2026-09-10T01:01:26Z",
-      "date_modified": "2026-09-10T01:01:26Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/7c5a7bbc8c92af87",
+      "url": "https://www.v2ex.com/t/1241112#reply0",
+      "title": "做了一个无 WebView 的桌面 GUI 框架 Wabou（SolidJS + Rust + Vello）",
+      "content_text": "项目地址： https://github.com/SunDoge/wabou 背景 当前 Rust GUI 开发现状：Tauri 带着浏览器内核，环境碎片化严重、内存重；纯 Rust GUI （ Iced/egui ）省资源，但写复杂状态和联动极其痛苦，还没有 HMR 。 因此我在尝试一个折中路线：界面用 SolidJS 写，底层的布局和渲染完全交给 Rust 原生，不嵌浏览器。 架构与原理 没有 DOM ，也没有 HTML/CSS 引擎。分工很简单： [SolidJS 2 (TSX) + 业务逻辑]\n         ↓\n    (QuickJS)\n         ↓  二进制 Mutation 协议（微任务末尾批量推送）\n================================\n  Rust 原生运行时\n  - 布局：Taffy (Flexbox/Grid)\n  - 排版：Parley\n  - 绘制：Vello Hybrid / wgpu\n  - 窗口：Winit 逻辑层：跑在内嵌的 QuickJS 里。Solid 的细粒度 Signal 变动只更新具体节点，不需要做任何",
+      "date_published": "2026-09-10T10:06:12Z",
+      "date_modified": "2026-09-10T10:06:12Z",
       "authors": [
         {
           "name": "V2EX Creative"
         }
       ],
-      "image": "https://imgur.com/bXqDQaZ.jpeg",
+      "image": "https://github.com/user-attachments/assets/b0863daf-7255-443e-b8df-d54eb4074c43",
       "tags": [
         "V2EX Creative"
       ],
       "attachments": [
         {
-          "url": "https://imgur.com/bXqDQaZ.jpeg",
+          "url": "https://github.com/user-attachments/assets/b0863daf-7255-443e-b8df-d54eb4074c43",
           "mime_type": "image/jpeg"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/299888e0acccb529",
-      "url": "https://www.v2ex.com/t/1240870#reply5",
-      "title": "有业务需要用多个谷歌账号（20+账号）管理，请问有没有大拿懂的",
-      "content_text": "1 ，谷歌账号如何获取？ 目前看依靠个人注册行不通，需要在源头上确保谷歌账号不会被关联\n2 ，谷歌账号所在的环节都是独立的指纹环节，有没有什么干净的 ip 套餐推荐？",
-      "date_published": "2026-09-10T00:39:18Z",
-      "date_modified": "2026-09-10T00:39:18Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/65178e8f5e349788",
+      "url": "https://www.v2ex.com/t/1241108#reply0",
+      "title": "夯爆了，安利一个我最新整理的一个 Skill。 可每天自动领取 Workbuddy 积分的 Skill，每月可白嫖 4000 万 Token",
+      "content_text": "这个 Skill 完成的是 2 件事情，并且已经实现「自动化任务」，不需要每天都操作。 1 、每天定点领加油站 100 积分 2 、自动派猫 skill：每天派出去、回来自动领 先安装好这个 Skill——workbuddy-auto-credits 。 https://pan.quark.cn/s/5593cc00b2ad 点击「专家·技能·连接器」>「技能」>「上传技能」，然后把 Skill 压缩包拖进来。 如图所示，已经安装成功了： 一句话，直接执行：“执行，然后配置自动化” 这个 Skill 是我最近整理了的，目前一直都在用 Skill ，所以需要一点积分。 实测效果不错。 Workbuddy 最近有开学福利活动，受邀注册用户可获取 2000 积分，直接注册用户可获得 50 积分。 直接注册仅有 500 积分，如图所示： WorkBuddy 积分领取详细教程可参考，我整理的文档： https://www.kdocs.cn/l/coRBP1PbRO3F 相关问答 1 、需要开着电脑吗？ 服务端运行，电脑关机也可自动领取! 2 、每天能领多少积分？ 签到 100 积分，每次派猫猫",
+      "date_published": "2026-09-10T09:43:31Z",
+      "date_modified": "2026-09-10T09:43:31Z",
       "authors": [
         {
           "name": "V2EX Creative"
         }
       ],
-      "image": "https://cdn.v2ex.com/avatar/3794/5acd/845872_xlarge.png?m=1789003746",
+      "image": "https://files.mdnice.com/user/4562/50514f7d-b9d3-4f0d-93ba-5721b8493a0f.png",
       "tags": [
         "V2EX Creative"
       ],
       "attachments": [
         {
-          "url": "https://cdn.v2ex.com/avatar/3794/5acd/845872_xlarge.png?m=1789003746",
+          "url": "https://files.mdnice.com/user/4562/50514f7d-b9d3-4f0d-93ba-5721b8493a0f.png",
           "mime_type": "image/png"
         }
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/adad75dc81843632",
-      "url": "https://www.v2ex.com/t/1240867#reply1",
-      "title": "头大，到底要怎么宣传自己的产品啊",
-      "content_text": "做了个笔记工具 深度笔记 每天只有一两个新用户，该怎么推广。 自媒体也在发，不过只有 100 个粉丝... 我的小红书",
-      "date_published": "2026-09-10T00:25:47Z",
-      "date_modified": "2026-09-10T00:25:47Z",
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/14aaf28b8ae0a2d2",
+      "url": "https://www.v2ex.com/t/1241107#reply4",
+      "title": "免费音乐播放器",
+      "content_text": "简介：\n基于 p2p 文件分享网络 soulseek 技术，免费搜索，下载，播放音乐，再也不用付费会员啦，哈哈哈，欢迎下载使用反馈意见 软件地址： https://github.com/ns2250225/sk-music （软件在 release 里面下载）",
+      "date_published": "2026-09-10T09:41:48Z",
+      "date_modified": "2026-09-10T09:41:48Z",
       "authors": [
         {
           "name": "V2EX Creative"
         }
       ],
-      "image": "https://cdn.v2ex.com/gravatar/95236964f9c640fb7112b98cf56aa7f9?s=73&d=retro",
+      "image": "https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204",
       "tags": [
         "V2EX Creative"
       ],
       "attachments": [
         {
-          "url": "https://cdn.v2ex.com/gravatar/95236964f9c640fb7112b98cf56aa7f9?s=73&d=retro",
+          "url": "https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/8b38d52a800eb5db",
+      "url": "https://www.v2ex.com/t/1241098#reply1",
+      "title": "智谱·杭州全城 Coding 计划，至高补贴 51%",
+      "content_text": "https://docs.bigmodel.cn/cn/coding-plan/hangzhou-rules",
+      "date_published": "2026-09-10T09:11:37Z",
+      "date_modified": "2026-09-10T09:11:37Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://i.imgur.com/ujlc1I4.png",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://i.imgur.com/ujlc1I4.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/441e978f7a3ce72d",
+      "url": "https://www.v2ex.com/t/1241090#reply0",
+      "title": "抖音最近新出了个兴趣卡，感觉还挺有趣的，会是新的机会吗",
+      "content_text": "抖音最近新出了个兴趣卡，感觉还挺有趣的，会是新的机会吗",
+      "date_published": "2026-09-10T08:49:57Z",
+      "date_modified": "2026-09-10T08:49:57Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/gravatar/982c1bf147faada98983b0030797b663?s=73&d=retro",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/gravatar/982c1bf147faada98983b0030797b663?s=73&d=retro",
           "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/e6027e94a00bb89d",
+      "url": "https://www.v2ex.com/t/1241084#reply3",
+      "title": "中国电信的宽带移机退费问题，很无语",
+      "content_text": "8 月 30 号申请了一个宽带移机，在 app 商操作的，申请的时候就收了我 100 块。实际上门操作的时候，因为当前已有一条宽带，光衰不足以一分二支撑两条宽带使用，故作罢，但是移机是取消了，收了我的钱是到现在为止还一直没退我，也没什么人联系我。好像是 5 号的时候开始打电话投诉，每次都是说会给我处理，黑猫投诉和微信支付投诉也搞了，总之到现在还没处理！ 2026 年 感觉有点离谱啊",
+      "date_published": "2026-09-10T08:23:30Z",
+      "date_modified": "2026-09-10T08:23:30Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/gravatar/2689dc7f22e52784aab2795f6772ce72?s=73&d=retro",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/gravatar/2689dc7f22e52784aab2795f6772ce72?s=73&d=retro",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/ef53994ef035022b",
+      "url": "https://www.v2ex.com/t/1241070#reply0",
+      "title": "古韵书阁 古书原文、译文",
+      "content_text": "https://www.oldbook.space?ref=v2",
+      "date_published": "2026-09-10T07:57:58Z",
+      "date_modified": "2026-09-10T07:57:58Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/gravatar/02bac72a6dd20f70ca9d1000a0121170?s=73&d=retro",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/gravatar/02bac72a6dd20f70ca9d1000a0121170?s=73&d=retro",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/e990517b6c58d860",
+      "url": "https://www.v2ex.com/t/1241066#reply1",
+      "title": "智谱 CodingPlan 杭州补贴",
+      "content_text": "如图，在官网原有包季 7 折/包年 8 折的定价比优惠了 30%，仅限杭州地区社保、杭州地区学生认证领取优惠。\n看描述是杭州政府补贴了一部分，不过话说回来杭州的活动，阿里竟然没有第一个参与这个。",
+      "date_published": "2026-09-10T07:52:43Z",
+      "date_modified": "2026-09-10T07:52:43Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://i.imgur.com/PP1G6uL.png",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://i.imgur.com/PP1G6uL.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/965f87d64c88ab11",
+      "url": "https://www.v2ex.com/t/1241061#reply2",
+      "title": "最近做了一个在线拨测工具，开放公测了",
+      "content_text": "地址： https://t.bt.cn/ 目前支持几个比较常用的网络和网站检测功能： 网站测速 PING TCP DNS SSL 主要考虑的是在网站访问异常、服务器网络排查这类场景下，不用临时到处找不同的检测工具，一个页面里就能完成一些常见的拨测。 目前还是公测版本，后面会继续补充节点和功能。 V2EX 上做开发、运维和站长的朋友比较多，所以也想发出来收一轮反馈。 如果大家实际使用过程中遇到检测结果异常、节点问题，或者有希望加入的检测能力，欢迎反馈。",
+      "date_published": "2026-09-10T07:48:30Z",
+      "date_modified": "2026-09-10T07:48:30Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/9fa9/d386/755219_xlarge.png?m=1751374161",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/9fa9/d386/755219_xlarge.png?m=1751374161",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/b053a85fbff99dac",
+      "url": "https://www.v2ex.com/t/1241059#reply0",
+      "title": "分享一个浏览器里的 AI 视频与 AI 图片创作工具： Tikdek",
+      "content_text": "Tikdek 是一个在浏览器中使用的 AI 视频与 AI 图片创作平台，支持从文字、图片和参考素材生成或编辑视觉内容，也提供视频 API 和图片 API ，方便把创作流程接入产品或批量任务。 如果你正在寻找一个可以先在线体验、再通过 API 扩展的视觉内容工具，可以看看： https://tikdek.com 它适合制作社交媒体短视频、广告素材、产品视觉和分镜草稿。",
+      "date_published": "2026-09-10T07:46:55Z",
+      "date_modified": "2026-09-10T07:46:55Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/6c3a/37a7/755972_xlarge.png?m=1789026380",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/6c3a/37a7/755972_xlarge.png?m=1789026380",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/bb40bb6ef4311514",
+      "url": "https://www.v2ex.com/t/1241054#reply2",
+      "title": "最近自驾游，让 ChatGPT Work 给规划行程，还挺好用的",
+      "content_text": "给他接了高德地图和美团酒旅的 MCP ，所有操作都在它云端完成，你别说还挺好用的，本来就有选择困难症，现在让 AI 给我挑，省心多了。 高德地图 MCP ，官方直接提供 mcp server ，接上就行： https://lbs.amap.com/api/mcp-server/summary 美团酒旅只提供 skill ，让 ChatGPT 给转成 mcp 部署到一台服务上，然后再给 ChatGPT 接上： https://developer.meituan.com/ai-hub/skill-list/detail/12 看看大家还有什么有用差旅的 MCP ，Skills ，分享一下",
+      "date_published": "2026-09-10T07:39:54Z",
+      "date_modified": "2026-09-10T07:39:54Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/9d67/8e20/84263_large.png?m=1735309349",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/9d67/8e20/84263_large.png?m=1735309349",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/4ac20a87a9847e38",
+      "url": "https://www.v2ex.com/t/1241053#reply0",
+      "title": "[开源] 嫌弃 Codex Remote 太慢，顺手做了个 codex bot",
+      "content_text": "https://github.com/bjzhou/codex-bot.git Telegram bot ，支持功能如图：",
+      "date_published": "2026-09-10T07:38:22Z",
+      "date_modified": "2026-09-10T07:38:22Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://i.imgur.com/aQR9aSI.png",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://i.imgur.com/aQR9aSI.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/77934814fa597104",
+      "url": "https://www.v2ex.com/t/1241051#reply1",
+      "title": "60 块的小米遥控器竟然是 VibeCoding 神器",
+      "content_text": "小米蓝牙遥控器 2 Pro 原价 99 ，但在某鱼上 60 块就能拿下 语音输入软件：豆包输入法 配合无线麦软件： https://github.com/HD838A/remote-mic-app 使用实操： https://www.bilibili.com/video/BV1FFYp6jEFf",
+      "date_published": "2026-09-10T07:38:13Z",
+      "date_modified": "2026-09-10T07:38:13Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/9881/5d50/211564_xlarge.png?m=1774241037",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/9881/5d50/211564_xlarge.png?m=1774241037",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/eb12ae7c9c18f5ba",
+      "url": "https://www.v2ex.com/t/1241044#reply0",
+      "title": "Awesome GPT Image 2.5 · 玩法画廊\n从社区爆款玩法，到可抄工作流。Flare / Sunburst / Sketch 精选索引",
+      "content_text": "Awesome GPT Image 2.5 · 玩法画廊\n从社区爆款玩法，到可抄工作流。Flare / Sunburst / Sketch 精选索引 https://xianyu110.github.io/awesome-gpt-image2.5/",
+      "date_published": "2026-09-10T07:15:50Z",
+      "date_modified": "2026-09-10T07:15:50Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://upload.maynor1024.live/file/1789024627219_image-20260910151647272.png",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://upload.maynor1024.live/file/1789024627219_image-20260910151647272.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/2d9230d804c77d14",
+      "url": "https://www.v2ex.com/t/1241037#reply11",
+      "title": "许愿 GPT-6 来的星际争霸单机游戏",
+      "content_text": "并不是全程 GPT-6 ，TOKENS 实在是不够用，大部分都是 5.6 修修补补完成的。 https://sc.bibishuai232.workers.dev/",
+      "date_published": "2026-09-10T06:58:25Z",
+      "date_modified": "2026-09-10T06:58:25Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://i.imgur.com/HdxY2fA.jpeg",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://i.imgur.com/HdxY2fA.jpeg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6b3d94b705ca0a7b",
+      "url": "https://sspai.com/post/114384",
+      "title": "App+1｜下一节：教学工作紧张忙碌，下一节课从从容容",
+      "content_text": "祝每一位老师教师节快乐！ 查看全文",
+      "date_published": "2026-09-10T06:51:52Z",
+      "date_modified": "2026-09-10T06:51:52Z",
+      "authors": [
+        {
+          "name": "sspai.com"
+        }
+      ],
+      "image": "https://rssfile.sspai.com/2026/09/09/9849c1286bb6cf406bded66759298381.png?imageMogr2/auto-orient/ignore-error/1",
+      "tags": [
+        "sspai.com"
+      ],
+      "attachments": [
+        {
+          "url": "https://rssfile.sspai.com/2026/09/09/9849c1286bb6cf406bded66759298381.png?imageMogr2/auto-orient/ignore-error/1",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/82d98b1baac3161f",
+      "url": "https://www.v2ex.com/t/1241031#reply4",
+      "title": "聊聊我对 AI 和这波裁员的的理解",
+      "content_text": "先说结论，AI 是老板裁员的借口。 AI 只是工具，按理说工具进化，是不会和人产生直接竞争关系的。如果原本的业务就能赚钱，配合 AI 工具提升效率，那应该会出现员工与公司双赢的局面。 为什么还会出现这么多裁员现象呢？ 底层原因是老板想赚更多钱。怎么赚？围绕 AI 来做新业务。那老业务怎么办： 1.老业务能赚钱，但老业务没达到老板预期，老板想节省时间精力、金钱成本，掉转船头，将原成本用来探索新业务 2.老业务本来就不赚钱，之前是存着一丝念想慢慢发展，靠投资人或自己的钱养着员工。这时候就直接砍掉，重新开始 所以这波裁员不是技术的问题，不是程序员的问题，而是业务的问题，是 AI 时代旧业务和新业务浪潮在交替，裁员是这波浪潮下必不可缺的浪花。 这波动荡过后，新一波的业务形态稳定以后，该要技术还是要技术、该要销售还是要销售。 我们能做什么？ 1.正视这个动荡期。不要焦虑（有些自媒体正在以此牟利）、放平心态、保持学习。\n2.不要在这个时期透支身体健康。等待浪潮过后，再看中流击水，浪遏飞舟 最近看到很多 v 友的裁员贴，有感而发，希望能有所帮助～",
+      "date_published": "2026-09-10T06:43:43Z",
+      "date_modified": "2026-09-10T06:43:43Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/59df/0017/235416_large.png?m=1785751504",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/59df/0017/235416_large.png?m=1785751504",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/980c65a97b724778",
+      "url": "https://www.v2ex.com/t/1241030#reply1",
+      "title": "做了个 Balatro 命令行版（balatro_cli），大家来添砖加瓦呀",
+      "content_text": "用 ds 参考小丑牌的源码，做了个 python 命令行版本，方便上班摸鱼。有兴趣的老哥一起来完善下呀。（实际上是没 token 了...） 命令行的界面还挺难设计，高度很容易超过当初设想的范围。 首页 小 丑 牌  (Balatro) 命令行版\n  JOKER · 命令行文字界面\n\n  1 开始新游戏\n  2 退出 选择牌组 ━ 选择牌组   不同牌组提供不同初始优势 ━\n  1 红牌组  弃牌+1\n  2 蓝牌组  手牌+1\n  3 黄牌组  +$10\n  4 绿牌组  无利息\n  5 黑牌组  手牌+-1  小丑槽+1\n  6 魔术牌组  自带优惠券\n  7 星云牌组  自带优惠券\n  8 鬼牌组  幻灵生成率×2\n  9 弃牌牌组  去掉面牌\n  10 棋盘牌组  只有黑桃与红心\n  11 黄道牌组  \n  12 涂鸦牌组  手牌上限+2  小丑槽-1\n  13 浮雕牌组  \n  14 等离子牌组  等离子记分\n  15 随机牌组  随机花色点数\n  0 返回 备战盲注 ━ 第 1 底注 · 选择盲注   跳过可获得标签 ━\n  1 迎战 小盲注  （目标 300 · 奖励 $",
+      "date_published": "2026-09-10T06:42:44Z",
+      "date_modified": "2026-09-10T06:42:44Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/gravatar/6ca242ed916873b7f933a1194687f8a7?s=73&d=retro",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/gravatar/6ca242ed916873b7f933a1194687f8a7?s=73&d=retro",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6d4e198fd1174eea",
+      "url": "https://www.v2ex.com/t/1241025#reply0",
+      "title": "How I Built an AI Room Design Tool That Turns One Photo Into a Before-and-After Video",
+      "content_text": "AI room design tools are everywhere now, but most of them stop at one thing: Upload a room photo → generate another room photo. I wanted to build something slightly different. Instead of only showing a redesigned image, I wanted users to see the transformation as a short before-and-after video . That idea became RoomFacelift . 👉 https://roomfacelift.com What RoomFacelift does The workflow is simple: Upload a photo of your room Choose the room type Pick an interior design style Decide how much of",
+      "date_published": "2026-09-10T06:27:41Z",
+      "date_modified": "2026-09-10T06:27:41Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/0f1a/cde5/832407_xlarge.png?m=1786672441",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/0f1a/cde5/832407_xlarge.png?m=1786672441",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/2307c0df7e42f49f",
+      "url": "https://www.v2ex.com/t/1241016#reply0",
+      "title": "[v1.4.2] 收纳管理小程序『存个物』新功能上线",
+      "content_text": "上次上线以后，有哥们提醒说日常使用有些繁琐，后面回去思考了一下，上了一个周期性消耗功能，觉得可以覆盖一些经常使用的场景了，后续会继续再思考一下有没有更好的一个解决方式。 「周期性消耗」功能正式上线：牛奶、鸡蛋、猫粮、保健品……只要设好每次用量和消耗周期，系统就会按天、按周或按月自动记录。每周还能指定星期几，每月也支持一次选多个日期。\n计划有变？随时调整、暂停或删除，消耗记录也能直接查看。 📱 扫码体验",
+      "date_published": "2026-09-10T06:05:44Z",
+      "date_modified": "2026-09-10T06:05:44Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://i.imgur.com/x7b1lvb.png",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://i.imgur.com/x7b1lvb.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/e6f06e2eeaadb344",
+      "url": "https://www.v2ex.com/t/1241012#reply4",
+      "title": "[分享] Apple 直营店现货监控小工具「果到雷达」更新，现已支持 iPhone18 系列",
+      "content_text": "🍎 Apple 直营店现货监控小工具「果到雷达」更新啦！现已支持官网最新的 iPhone 18 系列，欢迎下载体验！ 还在苦于反复刷官网、挨家门店查库存，蹲不到想要的颜色和容量？ 试试「果到雷达」：选好型号和门店，自动检查 Apple 直营店到店取货库存， 检测到有货就提醒你，不用一直守着官网刷页面。 功能特性： 🔍 多门店、多型号监控 ：同时关注多家门店、多个颜色和容量，不用来回切换查询。 🔔 多种有货提醒 ：支持提示音和 Bark 推送，有货时可自动打开 Apple 购物袋页面。电脑监控，iPhone 收消息。 📱 多品类支持 ：支持最新 iPhone 18 系列，以及 iPad 、Mac 、Apple Watch 。 🌏 多地区覆盖 ：支持中国大陆、香港、台湾、日本、新加坡、澳大利亚、马来西亚。 💻 跨平台运行 ：支持 macOS 、Windows 、Linux ，可在系统托盘后台运行。 普通用户 ：直接下载安装包，电脑备好 Chrome 或 Edge ，选好型号和门店即可开始监控。 开发者 ：项目已开源，可以拉取源码、本地编译使用，也欢迎按自己的需求修改，提交 Issue 或",
+      "date_published": "2026-09-10T05:52:51Z",
+      "date_modified": "2026-09-10T05:52:51Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://img.suversal.com/file/public/Nkv4BYB0.png",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://img.suversal.com/file/public/Nkv4BYB0.png",
+          "mime_type": "image/png"
         }
       ]
     },
@@ -353,98 +698,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/053e9758011d37f0",
-      "url": "https://www.v2ex.com/t/1240855#reply0",
-      "title": "现在飞书也能用 Claude Tag 了？？",
-      "content_text": "2026 年 6 月 23 日，Anthropic 发布 Claude Tag ，面向 Claude Enterprise 和 Team 用户 beta 。 管理员可以把 Claude Tag 放进选定频道，链接工具，数据，甚至代码库；然后频道里任何人都能 @ Claude ，把任务交给它，它的记忆是共享的。 但 Claude Enterprise 账号太贵，每个团队用的 Agent 也不一定是 Claude 。 所以我们开源了 AgentConnect ，这是一个把你用的 AI Agent 接入到你的工作软件的一个平台，开源版 Claude tag 。 Github： https://github.com/agentconnect-md/agentconnect 你可以在这里面接入任何你钟意的 Coding Agent: Claude ，Codex ，Hermes Agent ，也可以把它拉进任意的工作区：飞书，微信，Discord ，GitHub 的 code ewview ，甚至 webhook ，都可以触发 但是 Agent Connect 区别于 Claude Tag 的其实",
-      "date_published": "2026-09-09T19:18:08Z",
-      "date_modified": "2026-09-09T19:18:08Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/CFMnCOW.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/CFMnCOW.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/162f51b098be0b99",
-      "url": "https://www.v2ex.com/t/1240843#reply2",
-      "title": "可以分享一个我自己做的开源终端复用器,但是它有 tui/cli/web/ios/android,还自带内网穿透,大家可以在手机上进行 vibecoding,甚至可以在车机上 vibecoding(噱头)",
-      "content_text": "做了一个支持 TUI / CLI / Web / iOS / Android 的终端复用器：AnyTTY 先贴项目地址： https://github.com/anytty/anytty 最近做了一个终端工具，叫 AnyTTY ，想分享给大家试试。 它的定位更接近传统的终端复用器：管理终端、分屏、切换会话，以及保留运行现场。Agent 管理并不是它的核心定位，不过也可以用它来配合 Agent 做一些跨机器的事情。但是我还写了一个基于他的 ADE,后续也会开源出来。 目前支持 TUI 、CLI 、Web 、iOS 和 Android 。下面介绍几个我觉得比较有意思的地方。 鼠标操作、原生 Windows ，以及跨机器的工作台 TUI 支持完整的鼠标操作，也支持原生 Windows 。 你可以在同一个 TUI 工作台里，同时查看不同机器上的终端。例如，左边是本地电脑的终端，右边是一台远程 Windows 机器的终端，不用来回切换客户端。(herdr 最近才支持。) 另外，AnyTTY 的 面板和终端是分离的 。面板只是查看终端的一个窗口，同一个终端可以同时出现在多个面板里。 比如，一个标签",
-      "date_published": "2026-09-09T17:02:00Z",
-      "date_modified": "2026-09-09T17:02:00Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/NF1zDMl.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/NF1zDMl.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/b8dde686767cb083",
-      "url": "https://www.v2ex.com/t/1240842#reply0",
-      "title": "做了一个免费 Twitter 工具站，下载视频，下载图片，下载推文和线程等等超过 20 个小工具",
-      "content_text": "做了一个免费 Twitter 工具站，下载视频，下载图片，下载推文和线程等等超过 20 个小工具 https://twimate.com",
-      "date_published": "2026-09-09T17:01:41Z",
-      "date_modified": "2026-09-09T17:01:41Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/b372/492f/746548_xlarge.png?m=1788201644",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/b372/492f/746548_xlarge.png?m=1788201644",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/288cecc24f430579",
-      "url": "https://www.v2ex.com/t/1240840#reply0",
-      "title": "做了个跑在终端里的多 agent 编排系统",
-      "content_text": "多 agent 编排其实很多, 我一直想找一个完全在终端里跑的, 既有完整的流程又能保持灵活性. 最后自己实践了两个多月, 搞了个开源项目 https://github.com/dualface/kander 特点: 简单易用 灵活 可定制 求 Github Star ;-)",
-      "date_published": "2026-09-09T16:56:06Z",
-      "date_modified": "2026-09-09T16:56:06Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://github.com/dualface/kander/raw/main/docs/kanban-screenshot-01.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.com/dualface/kander/raw/main/docs/kanban-screenshot-01.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/0235c3b2a5afe918",
       "url": "https://www.v2ex.com/t/1240813",
       "title": "黄鱼的 Claude 号被封，任务没做完，换 Codex 能接的上吗？",
@@ -514,121 +767,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/3e8e729cc3c9bbd0",
-      "url": "https://www.v2ex.com/t/1240754#reply0",
-      "title": "9 月份网易云音乐黑胶会员领取，天数随机",
-      "content_text": "1http:/$QbIBna3128082b$ [復淛整段文案并咑閞「网易云音乐」，领免费会员]  黑胶邀请官 贱***叔 送你网易云音乐 9 月黑胶会员卡，领取享 20+会员权益。 https://163cn.tv/bfYN2EBV 日常分享，欢迎领取",
-      "date_published": "2026-09-09T09:07:22Z",
-      "date_modified": "2026-09-09T09:07:22Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/3e7c/de92/386067_large.png?m=1604838918",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/3e7c/de92/386067_large.png?m=1604838918",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/5cf7404c7f0a1d43",
-      "url": "https://www.v2ex.com/t/1240742#reply3",
-      "title": "因为一次自驾掉队,就做了个路书",
-      "content_text": "半个月前自驾出去旅游 3 辆车 本来有一天是去敕勒川草原玩的 其中有个小伙伴导航到了敕勒川公园(市区里的)... 大概 60-100km 的误差吧 行程直接耽误一天 那天他们啥也没完成 后来又跟着第二天补了这个景点 我就想这种情况是不是还挺常见的 就做了个路书项目 一键跳转导航 行程安排 途径点设置变更线路 https://lushu.xyptkd.cn/ 下面是演示 https://lushu.xyptkd.cn/s/afc4fadfe1f5625cb81401a48ee55a3bda9d15d9f50ec403 效果图 教程",
-      "date_published": "2026-09-09T08:40:46Z",
-      "date_modified": "2026-09-09T08:40:46Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://i.imgur.com/pI95oM8.png",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/pI95oM8.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/39fe6af031022aad",
-      "url": "https://www.v2ex.com/t/1240732#reply0",
-      "title": "设置 Windows 11 头像为动图",
-      "content_text": "来源： https://sspai.com/post/114312 评论区一键设置软件： https://github.com/wooi/DuckDuckMove 有什么 GIF 分享出来给大伙看看。",
-      "date_published": "2026-09-09T08:21:11Z",
-      "date_modified": "2026-09-09T08:21:11Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://i.imgur.com/GWtknGY.gif",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/GWtknGY.gif",
-          "mime_type": "image/gif"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/8996ab6b57d01569",
-      "url": "https://www.v2ex.com/t/1240711#reply38",
-      "title": "汤家凤与胡锡进英语主科争议事件总结（网友戏称 “胡辣汤大战”）",
-      "content_text": "汤家凤（考研数学名师） VS 胡锡进（媒体人） ，导火索是辽宁中考改革方案：历史、地理、生物改为考查科目，不计入中考总分。 一、事件起因 9 月 3 日，汤家凤看到辽宁中考调整消息，发文表示 不应该削减历史权重 ，如果要减负，应该把英语移出主科、降低应试权重，由此引发全网热议，胡锡进发文反驳，双方隔空论战。 二、汤家凤核心观点 英语只是工具， 不应该全民高强度应试 。绝大多数普通人毕业后工作用不上英语，学生从小投入大量时间刷题学英语，挤压语文、历史等母语与文史学科学习时间。 原话：母语还没学好就死磕英语，放眼全世界都是笑话；“中国人崇洋媚外的历史该结束了”。 他 不是废除英语这门课 ，而是主张：英语不再是核心主科、降低中高考分值权重；需要用到英语的人（科研、外贸等）可以后续按需学习，加上 AI 翻译发展，不必所有人都卷英语应试。 后续回应：不认同被扣上极端民族主义的标签，公开邀请胡锡进进行视频公开辩论。 三、胡锡进核心反驳观点 英语是获取全球前沿知识、科研文献的重要工具，大量顶尖学术资料是英文，砍掉英语主科地位会锁死普通人接触世界知识的通道。 英语是寒门学子的上升通道。如果校内弱化英语",
-      "date_published": "2026-09-09T07:38:51Z",
-      "date_modified": "2026-09-09T07:38:51Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/cd6a/3674/45118_xlarge.png?m=1788852317",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/cd6a/3674/45118_xlarge.png?m=1788852317",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/89e01189387be499",
-      "url": "https://www.v2ex.com/t/1240709#reply0",
-      "title": "分享两个网站，不怕找不到优秀的录屏软件和语音输入法软件了",
-      "content_text": "最近我不是在做 openbroca 的语音输入法的产品吗，同时也有要录制产品的一些 demo 视频的需求，就找到了 https://recorder.select/ 这个网站，里面有一大批录屏软件的对比，发现宝藏了。 然后我说用同样的方法有没有可能也有人做了类似关于语音输入法的对比，结果一搜还真有笑死，火速把自己的 openbroca 提交上去了， https://dictation.select/",
-      "date_published": "2026-09-09T07:33:15Z",
-      "date_modified": "2026-09-09T07:33:15Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/e180/5805/636100_xlarge.png?m=1788021364",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/e180/5805/636100_xlarge.png?m=1788021364",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/cf1e3992df5c950c",
       "url": "https://sspai.com/post/113842",
       "title": "华人世界被忽视的游戏主机：扩写中国家用游戏主机的时间线",
@@ -648,121 +786,6 @@
         {
           "url": "https://rssfile.sspai.com/2026/08/30/aaacdd01a6cc2f9e526df1a5a6cd294d.jpg?imageMogr2/auto-orient/ignore-error/1",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/f676d63f879c562a",
-      "url": "https://www.v2ex.com/t/1240694#reply0",
-      "title": "求推荐一个便宜的 android 测试机",
-      "content_text": "不介意性能, 主要是用 google play 支付 chatgpt 等国外的订阅 没有折腾过所以求一下推荐, 1000 以内。",
-      "date_published": "2026-09-09T06:48:59Z",
-      "date_modified": "2026-09-09T06:48:59Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/gravatar/fa074e3135f8bbf8588cf0525739a055?s=73&d=retro",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/gravatar/fa074e3135f8bbf8588cf0525739a055?s=73&d=retro",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/7a46cb26dbcb6761",
-      "url": "https://www.v2ex.com/t/1240670#reply0",
-      "title": "小米互联的完成度这么高了吗",
-      "content_text": "好久没看小米了，今天刷到的 看的有点心动了，感觉手里的 iPhone 有点像老年机了 戳中我的 1. 生态互联，家里的智能家居设备不少 2. 平板的体验，比 iPad 的可玩性感觉强不少 3. AI ，那个发光小球的普适性看着很强，mimo 模型本身的能力也不错，日常理解能力足矣 4. 再整个小米 NAS ，想想很舒服了 [ [首发] 小米澎湃 OS4 全家桶体验！万物乱连？] https://www.bilibili.com/video/BV1eCb563E8f 那么，问题来了，真的有演示的这么好吗？",
-      "date_published": "2026-09-09T05:28:41Z",
-      "date_modified": "2026-09-09T05:28:41Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/b1d8/448c/477522_xlarge.png?m=1788931479",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/b1d8/448c/477522_xlarge.png?m=1788931479",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/0152e6c22c73498e",
-      "url": "https://www.v2ex.com/t/1240665#reply12",
-      "title": "现在会不会是 AI 的诺基亚时代？",
-      "content_text": "GPT3.5 印象中大概在 2022 年底出来的，生成式 AI 才 4 年就这么厉害了，那再过几年 几十年 AI 会到什么程度？ 以前还在用诺基亚的时候根本想象不到现在的手机能变成这样子，甚至现在普遍用上的全面屏在以前也是根本想不到的(至少我是没想到)，屏幕大 显示细腻。那 AI 以后能变成什么样子？",
-      "date_published": "2026-09-09T05:15:53Z",
-      "date_modified": "2026-09-09T05:15:53Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/gravatar/91c2088e234cc4c47a2b896116bd31bd?s=73&d=retro",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/gravatar/91c2088e234cc4c47a2b896116bd31bd?s=73&d=retro",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/7c607f7fedc59455",
-      "url": "https://www.v2ex.com/t/1240646#reply0",
-      "title": "《电子斗蛐蛐》之“AI 能创造什么新需求”",
-      "content_text": "最近快被各种模型搞疯掉了，今天谁又出了新的功能，明天又有谁超过了谁谁谁，谁谁谁又出了新版本模型……我自己也用的是挺晕头转向的，于是突发奇想，来一场电子斗蛐蛐，把相同的问题问不同的模型多次，看看他们都会有什么反应。 先把斗蛐蛐的结论说了： Deepseek V4 flash ，更像是一个好学生，很规矩，听话。 Kimi k3 ，像是个艺术家、哲学家，动不动就给你探讨人生。 OpenAi Luna ，像是个大厂员工，造词一流。 Tencent Hy4 ，像是一个伦理学家、制度研究者，虽然懂批判但还是会照做。 正文连接 https://mp.weixin.qq.com/s/jwOMrNh19s6yV3kAnRFsfQ",
-      "date_published": "2026-09-09T04:05:32Z",
-      "date_modified": "2026-09-09T04:05:32Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/774c/13cb/138371_large.png?m=1443502327",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/774c/13cb/138371_large.png?m=1443502327",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/44c3f092c1cca422",
-      "url": "https://www.v2ex.com/t/1240632#reply0",
-      "title": "才知道现在纯 WEB 都可以跑 ASR 了，给我的简单字幕编辑网站加了 SenseVoice 纯前端的文本识别",
-      "content_text": "网站地址： https://subtitle.littleeleven.com 可以完全在前端跑 ASR 模型转录 普通字幕软件对 LaTeX 极不友好，原生支持在字幕里写公式并实时预览排版。 使用 ass 渲染，导出效果和预览完全一致",
-      "date_published": "2026-09-09T03:31:49Z",
-      "date_modified": "2026-09-09T03:31:49Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/1dc1/8722/388472_xlarge.png?m=1664348497",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/1dc1/8722/388472_xlarge.png?m=1664348497",
-          "mime_type": "image/png"
         }
       ]
     },
@@ -1015,29 +1038,6 @@
       "attachments": [
         {
           "url": "https://cdn.v2ex.com/avatar/77d8/76c5/841300_xlarge.png?m=1787297962",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/23571613582e962e",
-      "url": "https://sspai.com/post/113877",
-      "title": "「弯道超车」赛车入门指北 04：全场最快的车，为什么听一辆慢车指挥",
-      "content_text": "一辆远没有 F1 赛车快的车，凭什么让各路豪强乖乖排在后面，甚至左右冠军归属？ 查看全文",
-      "date_published": "2026-09-07T07:00:00Z",
-      "date_modified": "2026-09-07T07:00:00Z",
-      "authors": [
-        {
-          "name": "sspai.com"
-        }
-      ],
-      "image": "https://rssfile.sspai.com/2026/08/28/c842776a75bbd206b25f78abac5b4b8d.png?imageMogr2/auto-orient/ignore-error/1",
-      "tags": [
-        "sspai.com"
-      ],
-      "attachments": [
-        {
-          "url": "https://rssfile.sspai.com/2026/08/28/c842776a75bbd206b25f78abac5b4b8d.png?imageMogr2/auto-orient/ignore-error/1",
           "mime_type": "image/png"
         }
       ]

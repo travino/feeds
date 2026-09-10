@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T05:11:13.225298+00:00",
+  "last_updated": "2026-09-10T11:46:46.519833+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -7025,6 +7025,96 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/f90e7fdac44d46d9"
+    },
+    {
+      "title": "RHSA-2026:66327: Important: osbuild-composer security, bug fix, and enhancement update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66327",
+      "date": "2026-09-10T06:06:23+00:00",
+      "description": "An update for osbuild-composer is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/99ef2e911dbd69b2"
+    },
+    {
+      "title": "RHSA-2026:66324: Important: kernel-rt security, bug fix, and enhancement update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66324",
+      "date": "2026-09-10T06:09:38+00:00",
+      "description": "An update for kernel-rt is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/e4fd808ec473979d"
+    },
+    {
+      "title": "RHSA-2026:66323: Important: httpd security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66323",
+      "date": "2026-09-10T06:09:49+00:00",
+      "description": "An update for httpd is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/35b242cf0cf6e253"
+    },
+    {
+      "title": "RHSA-2026:66325: Important: kernel security, bug fix, and enhancement update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66325",
+      "date": "2026-09-10T06:21:53+00:00",
+      "description": "An update for kernel is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/78ccf20e458798d5"
+    },
+    {
+      "title": "RHSA-2026:66336: Important: vim security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66336",
+      "date": "2026-09-10T07:38:59+00:00",
+      "description": "An update for vim is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0ec982795ad853f0"
+    },
+    {
+      "title": "RHSA-2026:62549: Important: OpenShift Container Platform 4.16.70 bug fix and security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:62549",
+      "date": "2026-09-10T09:01:14+00:00",
+      "description": "Red Hat OpenShift Container Platform release 4.16.70 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.16.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References ",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/e53e33978f7a683f"
+    },
+    {
+      "title": "RHSA-2026:62548: Important: OpenShift Container Platform 4.16.70 packages and security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:62548",
+      "date": "2026-09-10T09:07:39+00:00",
+      "description": "Red Hat OpenShift Container Platform release 4.16.70 is now available with updates to packages and images that fix several bugs and add enhancements.\n\nThis release includes a security update for Red Hat OpenShift Container Platform 4.16.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References ",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0ab90c3add0004bc"
+    },
+    {
+      "title": "RHSA-2026:66341: Moderate: apr-util security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66341",
+      "date": "2026-09-10T09:20:59+00:00",
+      "description": "An update for apr-util is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/229f58d7d9eb4d31"
+    },
+    {
+      "title": "RHSA-2026:66347: Important: freerdp security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66347",
+      "date": "2026-09-10T11:24:09+00:00",
+      "description": "An update for freerdp is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/ce6f54dece3f7a7b"
     }
   ]
 }

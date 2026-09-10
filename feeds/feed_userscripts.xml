@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-10T05:11:56.004883+00:00</updated>
+  <updated>2026-09-10T11:47:24.360910+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,16 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/2a2296d32ab75ffd</id>
+    <title>内蒙古网络学院 课程进度助手 — b1tmicr0</title>
+    <updated>2026-09-10T07:56:14+00:00</updated>
+    <content>在内蒙古网络学院输入专题名称后自动扫描课程、缓存课程ID，并按章节顺序推进课程播放。使用方法：登录后输入专题名并点击“扫描并开始”；数据仅保存在本机浏览器，不向第三方上传用户信息。</content>
+    <link href="https://scriptcat.org/script-show-page/7915" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-10T07:56:14+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/9e9ac83ab80e3a8f</id>
     <title>小红书无水印下载 — ecx</title>
@@ -1490,16 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7699" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-27T13:36:34+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/9b01e97777f04ea6</id>
-    <title>Kimi 算力不足/超时自动重试 — Kamori</title>
-    <updated>2026-08-27T13:20:33+00:00</updated>
-    <content>自动检测 Kimi 网页版的“算力不足”或“超时”提示，并自动点击重试按钮。</content>
-    <link href="https://scriptcat.org/script-show-page/7698" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T13:20:33+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

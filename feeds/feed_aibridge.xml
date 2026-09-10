@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://thinkingmachines.ai/blog/</id>
   <title>AI-bridge</title>
-  <updated>2026-09-10T05:09:20.829026+00:00</updated>
+  <updated>2026-09-10T11:45:11.243223+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,171 @@
   <icon>https://www.google.com/s2/favicons?domain=thinkingmachines.ai&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=thinkingmachines.ai&amp;sz=256</logo>
   <subtitle>Combined AI feed: Thinking Machines, Ollama, Mistral, Interconnected, AI Clock, Stability AI, Bielik, Promptowy, Maistry, Karpathy (bearblog + old blog), Transformer, MiniMax News/Blog, PLLuM, Perplexity (blog/changelog/research/API changelog), The Batch / DeepLearning.AI, and Groq (blog/newsroom/changelog).</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/e4b4d64a6d055a0f</id>
+    <title>Jensen Huang - człowiek który postawił na AI i wygrał. Od Dennys do 3 bilionów dolarów</title>
+    <updated>2026-09-10T10:50:29+00:00</updated>
+    <content>Historia człowieka, który w 1993 roku założył NVIDIA w restauracji Dennys, a dziś kieruje firmą wartą 3 biliony dolarów. Jak CUDA stała się fosą obronną imperium AI. The post Jensen Huang - człowiek który postawił na AI i wygrał. Od Dennys do 3 bilionów dolarów first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/jensen-huang-nvidia-ai-cuda-3-triliony-dolarow/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T10:50:29+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/02/feat-20260218-075408-19.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/02/feat-20260218-075408-19.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/02/feat-20260218-075408-19.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/164f4cfd47b0567e</id>
+    <title>Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data</title>
+    <updated>2026-09-10T10:42:55+00:00</updated>
+    <content>Cloudera and Mistral join forces to bring specialized, sovereign AI intelligence to enterprise data, helping regulated industries innovate on their own terms.</content>
+    <link href="https://mistral.ai/news/mistral-x-cloudera/" rel="alternate"/>
+    <category term="Mistral" label="Mistral"/>
+    <published>2026-09-10T10:42:55+00:00</published>
+    <media:group>
+      <media:content url="https://mistral.ai/cms-media/api/media/file/mistra-x-cloudera.jpg" type="image/jpeg" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://mistral.ai/cms-media/api/media/file/mistra-x-cloudera.jpg" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Mistral</dc:creator>
+    <link rel="enclosure" href="https://mistral.ai/cms-media/api/media/file/mistra-x-cloudera.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/b199624ede60db90</id>
+    <title>DGCPath: jak uczyć AI rozumienia tras pojazdów bez etykiet</title>
+    <updated>2026-09-10T10:10:41+00:00</updated>
+    <content>Badacze opublikowali rozszerzoną wersję systemu DGCPath, który uczy się reprezentacji tras pojazdów bez nadzorowanego oznaczania danych. Łączy generatywne modele dyfuzji z uczeniem kontrastywnym na poziomie rozkładów prawdopodobieństwa. The post DGCPath: jak uczyć AI rozumienia tras pojazdów bez etykiet first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/dgcpath-jak-uczyc-ai-rozumiec-trasy-pojazdow-bez-etykiet/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T10:10:41+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-13.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-13.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-13.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/0f946d922c9f701d</id>
+    <title>Nowe modele AI odbierają Ci wybór. Sprawdziłem 18 i siedem nie pozwala wyłączyć rozumowania</title>
+    <updated>2026-09-10T09:32:39+00:00</updated>
+    <content>Przy pracy z modelami przez interfejs programistyczny można było dotąd wyłączyć rozumowanie jednym parametrem. Model przestawał myśleć na głos i od razu odpowiadał, co przy prostych zadaniach oszczędzało czas i pieniądze. Sprawdziłem dziś osiemnaście modeli i wyszła rzecz, której się nie spodziewałem. Siedem z nich odrzuca taką próbę błędem. Wszystkie siedem to modele najnowszego pokolenia. […] The post Nowe modele AI odbierają Ci wybór. Sprawdziłem 18 i siedem nie pozwala wyłączyć rozumowania f</content>
+    <link href="https://promptowy.com/rozumowanie-ai-nie-da-sie-wylaczyc/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T09:32:39+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/rozumowanie.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/rozumowanie.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/rozumowanie.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/688c2daffe9fc1ba</id>
+    <title>Jedna twarz, 10 emocji: prompty do portretów AI</title>
+    <updated>2026-09-10T09:30:00+00:00</updated>
+    <content>Jak zmienić mimikę bez utraty podobieństwa? 10 promptów na śmiech, skupienie, zdziwienie i inne emocje oraz przykłady tej samej fikcyjnej osoby. The post Jedna twarz, 10 emocji: prompty do portretów AI first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/jedna-twarz-10-emocji-ai-prompty/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T09:30:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/promptowy-emotion-smiech-ai.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/promptowy-emotion-smiech-ai.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/promptowy-emotion-smiech-ai.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/64e992800e379261</id>
+    <title>Mastra Factory rządzi Product Huntem. Oto 10 aplikacji z 9 września 2026</title>
+    <updated>2026-09-10T08:22:37+00:00</updated>
+    <content>Codzienna dziesiątka z Product Hunta: Mastra Factory, Harden, ChatGPT Images 2.5 i siedem innych aplikacji, które wczoraj zebrały najwięcej głosów. The post Mastra Factory rządzi Product Huntem. Oto 10 aplikacji z 9 września 2026 first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/najlepsze-aplikacje-dnia-9-09-2026/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T08:22:37+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/najlepsze-aplikacje-dnia-9-09-2026-ai.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/najlepsze-aplikacje-dnia-9-09-2026-ai.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/najlepsze-aplikacje-dnia-9-09-2026-ai.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/ded0e35ee5816e0d</id>
+    <title>Zdjęcia produktowe AI: 8 promptów na reklamę jednego produktu</title>
+    <updated>2026-09-10T06:30:00+00:00</updated>
+    <content>Jedno opakowanie, osiem aranżacji reklamowych. Gotowe prompty do zdjęć produktowych AI oraz sposób kontroli etykiety, logo, cieni i proporcji. The post Zdjęcia produktowe AI: 8 promptów na reklamę jednego produktu first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/zdjecia-produktowe-ai-8-promptow/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T06:30:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/promptowy-product-bez-ai.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/promptowy-product-bez-ai.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/promptowy-product-bez-ai.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/6744e6345782151c</id>
+    <title>Modele językowe mają specjalne „głowy” do rozpoznawania kontekstu kulturowego</title>
+    <updated>2026-09-10T06:11:39+00:00</updated>
+    <content>Badacze znaleźli w modelach językowych 2-3 warstwy uwagi odpowiedzialne za kojarzenie przedmiotów z kulturą, z której pochodzą. Okazuje się, że modele wiedzą 3-6 razy więcej niż faktycznie wykorzystują przy generowaniu odpowiedzi. The post Modele językowe mają specjalne „głowy” do rozpoznawania kontekstu kulturowego first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/modele-jezykowe-maja-specjalne-glowy-do-rozpoznawania-kontekstu-kulturowego/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T06:11:39+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-12.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-12.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-12.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/28249f304f7d1594</id>
+    <title>RAPID: jak efektywniej uczyć małe modele od dużych dzięki selekcji par</title>
+    <updated>2026-09-10T04:05:00+00:00</updated>
+    <content>Czwórka badaczy proponuje metodę RAPID, która usprawnia tzw. destylację relacyjną - proces przenoszenia wiedzy z dużego modelu językowego do mniejszego. Kluczowy pomysł polega na tym, by nie oceniać wszystkich możliwych par przykładów treningowych, lecz mądrze wybierać te, które niosą najwięcej użytecznej informacji. The post RAPID: jak efektywniej uczyć małe modele od dużych dzięki selekcji par first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/rapid-jak-efektywniej-uczyc-male-modele-od-duzych-dzieki-selekcji-par/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T04:05:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-11.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-11.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-11.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/1da47a25d4def249</id>
+    <title>Kiedy narzędzia psują myślenie LLM - badanie zależne od stanu wiedzy modelu</title>
+    <updated>2026-09-10T04:05:00+00:00</updated>
+    <content>Powszechne założenie, że zewnętrzne narzędzia zawsze pomagają modelom językowym, okazuje się fałszywe. Nowe badanie pokazuje, że narzędzia mogą odwracać poprawne odpowiedzi, jeśli model już wcześniej dobrze sobie radził bez nich. The post Kiedy narzędzia psują myślenie LLM - badanie zależne od stanu wiedzy modelu first appeared on Promptowy .</content>
+    <link href="https://promptowy.com/kiedy-narzedzia-psuja-myslenie-llm-badanie-zalezne-od-stanu-wiedzy-modelu/" rel="alternate"/>
+    <category term="Promptowy" label="Promptowy"/>
+    <published>2026-09-10T04:05:00+00:00</published>
+    <media:group>
+      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-10.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-10.webp"/>
+    </media:group>
+    <dc:creator>Promptowy</dc:creator>
+    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/dokument-zrodlowy-10.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/aibridge/6997c1a48bd6f483</id>
+    <title>Koszt AI na pracownika spadł niemal o 10 proc.</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>Najwięksi użytkownicy AI w USA ograniczyli w sierpniu wydatki na modele językowe w przeliczeniu na pracownika. Dane wskazują, że coraz częściej zastępują najdroższe modele tańszymi alternatywami.</content>
+    <link href="https://widocznosc.ai/news/koszt-ai-na-pracownika-spadl-niemal-o-10-proc/" rel="alternate"/>
+    <category term="widocznosc.ai" label="widocznosc.ai"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://widocznosc.ai/_astro/news-2026-09-10-koszt-ai-na-pracownika-spadl-niemal-o-10-proc.DEMO-grV_Z6ihcD.webp" type="image/webp" medium="image" height="675" width="1200"/>
+      <media:thumbnail url="https://widocznosc.ai/_astro/news-2026-09-10-koszt-ai-na-pracownika-spadl-niemal-o-10-proc.DEMO-grV_Z6ihcD.webp" height="675" width="1200"/>
+    </media:group>
+    <dc:creator>widocznosc.ai</dc:creator>
+    <link rel="enclosure" href="https://widocznosc.ai/_astro/news-2026-09-10-koszt-ai-na-pracownika-spadl-niemal-o-10-proc.DEMO-grV_Z6ihcD.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/860fb468e82614fd</id>
     <title>Ile kosztuje AI? Cenniki dziesięciu narzędzi, sprawdzone u źródła</title>
@@ -221,141 +386,6 @@
     </media:group>
     <dc:creator>Promptowy</dc:creator>
     <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/a4-sztuczna-inteligencja-a-praca-w-polsce.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/f62da0331d805bdf</id>
-    <title>Modele obiecują milion tokenów kontekstu. Sprawdziłem na trzech procentach i dwa poległy</title>
-    <updated>2026-09-09T22:43:03+00:00</updated>
-    <content>Każdy producent chwali się dziś oknem kontekstu na milion tokenów. Brzmi to jak obietnica, że można wrzucić modelowi całą książkę i pytać o szczegóły. Postanowiłem sprawdzić, czy to działa po polsku, i zacząłem ostrożnie: nie od miliona, tylko od dwudziestu pięciu tysięcy tokenów, czyli mniej więcej trzech procent obiecywanego okna. Już na tym poziomie dwa […] The post Modele obiecują milion tokenów kontekstu. Sprawdziłem na trzech procentach i dwa poległy first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/okno-kontekstu-ai-test/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T22:43:03+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/07/og-posts/46588.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/07/og-posts/46588.jpg"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/07/og-posts/46588.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/43857c82f60b33e9</id>
-    <title>AI do zdjęć produktowych: nowe tło, wierny produkt</title>
-    <updated>2026-09-09T22:11:53+00:00</updated>
-    <content>AI do zdjęć produktowych wykorzystałbym przede wszystkim do pracy nad otoczeniem prawdziwego przedmiotu. Zacząłbym od własnej fotografii, a potem zmienił tło lub sposób prezentacji. Nie prosiłbym generatora o odtworzenie towaru wyłącznie z opisu. Potrzebuję obrazu pokazującego rzecz, którą rzeczywiście oferuję, z jej kształtem, kolorem i detalami. Co ma pozostać prawdziwe Przed edycją zapisuję cechy produktu, […] The post AI do zdjęć produktowych: nowe tło, wierny produkt first appeared on Promp</content>
-    <link href="https://promptowy.com/ai-do-zdjec-produktowych/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T22:11:53+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-zdjec-produktowych.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-zdjec-produktowych.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-zdjec-produktowych.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/c2b0fd2ab2d3ff02</id>
-    <title>AI do lektora: jak przygotowuję tekst i sprawdzam głos</title>
-    <updated>2026-09-09T22:11:52+00:00</updated>
-    <content>AI do lektora wybrałbym wtedy, gdy mam gotowy tekst i potrzebuję sprawdzić jego brzmienie w nagraniu. Najpierw poprawiam skrypt, potem wybieram głos. Nie zaczynam od szukania najbardziej efektownej barwy. Do instrukcji potrzebuję przede wszystkim zrozumiałej wypowiedzi, właściwej wymowy i tempa, które pasuje do obrazu. Tekst na ekranie nie jest jeszcze tekstem do czytania Przed generowaniem […] The post AI do lektora: jak przygotowuję tekst i sprawdzam głos first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/ai-do-lektora/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T22:11:52+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-lektora.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-lektora.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-lektora.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/c3f8276df88f7dc0</id>
-    <title>AI do napisów: od transkrypcji do gotowego filmu</title>
-    <updated>2026-09-09T22:11:51+00:00</updated>
-    <content>AI do napisów wykorzystałbym do przygotowania pierwszego zapisu wypowiedzi, a potem dopasowałbym tekst do obrazu. Samo rozpoznanie słów nie kończy pracy. Potrzebuję także poprawnego podziału zdań, synchronizacji i pliku pasującego do miejsca publikacji. Najpierw ustalam więc, czy chcę napisy włączane w odtwarzaczu, czy tekst widoczny stale w filmie. Napisy do filmu a zwykła transkrypcja Transkrypcję […] The post AI do napisów: od transkrypcji do gotowego filmu first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/ai-do-napisow/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T22:11:51+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-napisow.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-napisow.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-napisow.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/3b48fb576442e12f</id>
-    <title>AI do logo: od opisu marki do sprawdzonego znaku</title>
-    <updated>2026-09-09T22:11:51+00:00</updated>
-    <content>AI do logo wykorzystałbym do szukania kierunku i przygotowania szkicu znaku. Zanim uruchomię generator, ustalam nazwę, odbiorcę i miejsce użycia. Inaczej oceniam symbol na opakowaniu, a inaczej małą ikonę profilu. Nie zaczynam od efektownej wizualizacji wizytówki. Najpierw chcę zobaczyć sam znak i sprawdzić, czy pozostaje czytelny bez dekoracji. Co chcę otrzymać od generatora Oddzielam pomysł […] The post AI do logo: od opisu marki do sprawdzonego znaku first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/ai-do-logo/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T22:11:51+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-logo.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-logo.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/a2-ai-do-logo.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/06264dd0a68cbb41</id>
-    <title>Ile kosztuje artykuł napisany przez AI? Zapłaciłem i policzyłem. Różnica sięga 485 razy</title>
-    <updated>2026-09-09T22:05:44+00:00</updated>
-    <content>Pytanie „ile kosztuje artykuł napisany przez AI” dostaje zwykle odpowiedź policzoną z cennika. Postanowiłem zapłacić i sprawdzić. Osiem modeli, to samo polecenie, artykuł o długości około dziewięciuset słów po polsku, koszt odczytany z rachunku, a nie oszacowany. Najtańszy napisał ten tekst za 0,00039 dolara. Najdroższy za 0,18913. To czterysta osiemdziesiąt pięć razy więcej za rzecz […] The post Ile kosztuje artykuł napisany przez AI? Zapłaciłem i policzyłem. Różnica sięga 485 razy first appear</content>
-    <link href="https://promptowy.com/ile-kosztuje-artykul-napisany-przez-ai/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T22:05:44+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/koszt-artykulu.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/koszt-artykulu.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/koszt-artykulu.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/34f4e14d91c1dfa4</id>
-    <title>Przegląd AI: 9 września 2026</title>
-    <updated>2026-09-09T19:01:00+00:00</updated>
-    <content>Skrót najważniejszych wydarzeń w świecie AI z ostatniej doby - 7 newsów w jednym miejscu. The post Przegląd AI: 9 września 2026 first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/przeglad-ai-2026-09-09/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T19:01:00+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/przeglad-ai-2026-09-09-cover.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/przeglad-ai-2026-09-09-cover.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/przeglad-ai-2026-09-09-cover.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/c9d79e317a7d29f5</id>
-    <title>Zamknięcie dnia: Zagłada za 10 lat, krzywda teraz - AI w ogniu pytań</title>
-    <updated>2026-09-09T19:00:00+00:00</updated>
-    <content>Dziś w centrum uwagi postawiłbym jedno pytanie, które przewija się przez kilka z dzisiejszych newsów naraz: czy AI jest bezpieczna - i dla kogo, i w jakim sensie? Bo mamy tu zarówno badacza z Anthropic szacującego ryzyko wyginięcia gatunku, jak i konkretnego człowieka, który po tygodniach rozmów z chatbotem uwierzył, że jest Jezusem i próbował […] The post Zamknięcie dnia: Zagłada za 10 lat, krzywda teraz - AI w ogniu pytań first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/zamkniecie-dnia-zaglada-za-10-lat-krzywda-teraz-ai-w-ogniu-pytan/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T19:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/zamkniecie-20260909.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/zamkniecie-20260909.webp"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/zamkniecie-20260909.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/3f704cb697861174</id>
-    <title>Jak pisać polecenia do Suno: sześć elementów opisu i cztery błędy</title>
-    <updated>2026-09-09T18:18:41+00:00</updated>
-    <content>Suno przyjmuje dwa pola: opis stylu i tekst utworu. Cała jakość wyniku rozstrzyga się w pierwszym z nich, a większość porad w sieci sprowadza się do wypisania gatunku i nastroju. To za mało. Poniżej schemat, którego używam, zbudowany z rzeczy sprawdzonych na własnych generacjach. Sześć elementów opisu stylu Kolejność ma znaczenie, bo model traktuje początek […] The post Jak pisać polecenia do Suno: sześć elementów opisu i cztery błędy first appeared on Promptowy .</content>
-    <link href="https://promptowy.com/suno-v6-prompty/" rel="alternate"/>
-    <category term="Promptowy" label="Promptowy"/>
-    <published>2026-09-09T18:18:41+00:00</published>
-    <media:group>
-      <media:content url="https://promptowy.com/wp-content/uploads/2026/09/ev_suno-v6-prompty.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://promptowy.com/wp-content/uploads/2026/09/ev_suno-v6-prompty.gif"/>
-    </media:group>
-    <dc:creator>Promptowy</dc:creator>
-    <link rel="enclosure" href="https://promptowy.com/wp-content/uploads/2026/09/ev_suno-v6-prompty.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/300b9a710afef4b2</id>
@@ -1684,21 +1714,6 @@ DAW plugin and a more advanced generation experience on StableAudio.com.</conten
     </media:group>
     <dc:creator>Perplexity API changelog</dc:creator>
     <link rel="enclosure" href="https://perplexity.mintlify.app/mintlify-assets/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DResources%26title%3DChangelog%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fperplexity%252FgHf_T6roVjp3yaJv%252Flogo%252FPerplexity_API_Platform.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DgHf_T6roVjp3yaJv%2526q%253D85%2526s%253D07cab879ca2ce031bbc3da8b20f7ab90%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fperplexity%252FgHf_T6roVjp3yaJv%252Flogo%252FPerplexity_API_Platform_Light.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DgHf_T6roVjp3yaJv%2526q%253D85%2526s%253D416d5342d11094201b851dcf3eabdc9d%26primaryColor%3D%2523121516%26lightColor%3D%2523F7F7F8%26backgroundLight%3D%2523F7F7F8%26backgroundDark%3D%2523121516&amp;w=1200&amp;q=100" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/c5e6775255e7ed77</id>
-    <title>WeatherNext wydłuża prognozy cyklonów</title>
-    <updated>2026-08-10T00:00:00+00:00</updated>
-    <content>Nowy model pogodowy od DeepMind ma przewidywać trajektorię i siłę cyklonów tropikalnych jednocześnie. Według opisu źródła robi to około dobę dalej wprzód niż czołowe modele operacyjne, a kod i wagi udostępniono jako open source.</content>
-    <link href="https://widocznosc.ai/news/weathernext-wydluza-prognozy-cyklonow/" rel="alternate"/>
-    <category term="widocznosc.ai" label="widocznosc.ai"/>
-    <published>2026-08-10T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://widocznosc.ai/_astro/news-2026-08-10-weathernext-wydluza-prognozy-cyklonow.C6CwNw1E_qSBw0.webp" type="image/webp" medium="image" height="675" width="1200"/>
-      <media:thumbnail url="https://widocznosc.ai/_astro/news-2026-08-10-weathernext-wydluza-prognozy-cyklonow.C6CwNw1E_qSBw0.webp" height="675" width="1200"/>
-    </media:group>
-    <dc:creator>widocznosc.ai</dc:creator>
-    <link rel="enclosure" href="https://widocznosc.ai/_astro/news-2026-08-10-weathernext-wydluza-prognozy-cyklonow.C6CwNw1E_qSBw0.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/848a6e33be1d3b72</id>
@@ -3417,21 +3432,6 @@ creative production platform powered by your brand.</content>
     </media:group>
     <dc:creator>Answer.AI</dc:creator>
     <link rel="enclosure" href="https://www.answer.ai/posts/2026-03-17-risks-life-sciences/geo.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/aibridge/263adbdbe512b796</id>
-    <title>Introducing Mistral Small 4</title>
-    <updated>2026-03-16T21:00:00+00:00</updated>
-    <content>Introducing Mistral Small 4</content>
-    <link href="https://mistral.ai/news/mistral-small-4/" rel="alternate"/>
-    <category term="Mistral" label="Mistral"/>
-    <published>2026-03-16T21:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://mistral.ai/cms-media/api/media/file/Thumbnail-Model-Small.jpg" type="image/jpeg" medium="image" height="1074" width="1800"/>
-      <media:thumbnail url="https://mistral.ai/cms-media/api/media/file/Thumbnail-Model-Small.jpg" height="1074" width="1800"/>
-    </media:group>
-    <dc:creator>Mistral</dc:creator>
-    <link rel="enclosure" href="https://mistral.ai/cms-media/api/media/file/Thumbnail-Model-Small.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/aibridge/469533f569bcbc78</id>

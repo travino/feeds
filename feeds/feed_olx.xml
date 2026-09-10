@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="pl">
   <id>https://www.olx.pl/olx</id>
   <title>OLX Group</title>
-  <updated>2026-09-10T05:11:00.875171+00:00</updated>
+  <updated>2026-09-10T11:46:35.077294+00:00</updated>
   <author>
     <name>OLX Group</name>
   </author>
@@ -12,6 +12,23 @@
   <icon>https://www.olx.pl/favicon.ico</icon>
   <logo>https://www.olx.pl/favicon.ico</logo>
   <subtitle>Combined blog, news and press feeds from OLX, OTOMOTO and Otodom</subtitle>
+  <entry>
+    <id>https://media.otodom.pl/wiecej-chetnych-na-mieszkania-z-drugiej-reki-bariera-wciaz-zdolnosc-kredytowa-polakow</id>
+    <title>Więcej chętnych na mieszkania z drugiej ręki. Barierą wciąż zdolność kredytowa Polaków?</title>
+    <updated>2026-09-10T11:26:00+00:00</updated>
+    <author>
+      <name>Otodom – pressroom</name>
+    </author>
+    <content>Więcej chętnych na mieszkania z drugiej ręki. Barierą wciąż zdolność kredytowa Polaków?</content>
+    <link href="https://media.otodom.pl/wiecej-chetnych-na-mieszkania-z-drugiej-reki-bariera-wciaz-zdolnosc-kredytowa-polakow" rel="alternate"/>
+    <category term="otodom"/>
+    <published>2026-09-10T11:26:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.uc.assets.prezly.com/7fe5e0eb-e21a-457d-ab12-116184919668/-/preview/600x600/" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.uc.assets.prezly.com/7fe5e0eb-e21a-457d-ab12-116184919668/-/preview/600x600/"/>
+    </media:group>
+    <link rel="enclosure" href="https://cdn.uc.assets.prezly.com/7fe5e0eb-e21a-457d-ab12-116184919668/-/preview/600x600/" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://www.otodom.pl/wiadomosci/za-kulisami-kampanii-mieszkaniowe-style-zycia/</id>
     <title>Za kulisami kampanii „Mieszkaniowe style życia” – jak stworzyć dating show o nieruchomościach?</title>
@@ -1715,22 +1732,5 @@ Chłodna kalkulacja i rosnąca rola chińskich marek</content>
       <media:thumbnail url="https://admin.otomotonews.pl/wp-content/uploads/2026/07/hiszpania-kontra-argentyna2.jpeg" height="1024" width="1536"/>
     </media:group>
     <link rel="enclosure" href="https://admin.otomotonews.pl/wp-content/uploads/2026/07/hiszpania-kontra-argentyna2.jpeg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://www.otomoto.pl/news/mandat-z-ue-polska</id>
-    <title>Inne kraje ścigają nas masowo. Polska odpuszcza piratom na obcych tablicach</title>
-    <updated>2026-07-18T13:45:00+00:00</updated>
-    <author>
-      <name>OTOMOTO News</name>
-    </author>
-    <content>Mandat z UE częściej grozi Polakowi za granicą niż cudzoziemcowi w Polsce. Do kraju wpłynęło ponad 9 razy więcej zapytań.</content>
-    <link href="https://www.otomoto.pl/news/mandat-z-ue-polska" rel="alternate"/>
-    <category term="otomoto"/>
-    <published>2026-07-18T13:45:00+00:00</published>
-    <media:group>
-      <media:content url="https://admin.otomotonews.pl/wp-content/uploads/2026/07/mandat-z-UE-fotoradar.jpg" type="image/jpeg" medium="image" height="1067" width="1600"/>
-      <media:thumbnail url="https://admin.otomotonews.pl/wp-content/uploads/2026/07/mandat-z-UE-fotoradar.jpg" height="1067" width="1600"/>
-    </media:group>
-    <link rel="enclosure" href="https://admin.otomotonews.pl/wp-content/uploads/2026/07/mandat-z-UE-fotoradar.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.beatport.com/beatport_top100</id>
   <title>Beatport Top 100</title>
-  <updated>2026-09-10T05:09:00.195320+00:00</updated>
+  <updated>2026-09-10T11:44:56.396360+00:00</updated>
   <author>
     <name>Beatport</name>
   </author>
@@ -12,6 +12,19 @@
   <icon>https://www.google.com/s2/favicons?domain=beatport.com&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=beatport.com&amp;sz=256</logo>
   <subtitle>Tracks as they enter the Beatport Top 100 chart</subtitle>
+  <entry>
+    <id>https://www.beatport.com/track/in-da-zone/30269838</id>
+    <title>Tini Gessler - In Da Zone (Extended Mix)</title>
+    <updated>2026-09-10T11:43:23.390981+00:00</updated>
+    <content>Entered the Beatport Top 100 at #93 · Artists: Tini Gessler · Genre: Bass House · BPM: 128 · Key: Ab Major · Length: 5:45 · Label: Catch &amp; Release</content>
+    <link href="https://www.beatport.com/track/in-da-zone/30269838" rel="alternate"/>
+    <published>2026-09-10T11:43:23.390981+00:00</published>
+    <media:group>
+      <media:content url="https://geo-media.beatport.com/image_size/1400x1400/fef584a3-00d6-4263-8f94-68c96afc60e3.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://geo-media.beatport.com/image_size/1400x1400/fef584a3-00d6-4263-8f94-68c96afc60e3.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://geo-media.beatport.com/image_size/1400x1400/fef584a3-00d6-4263-8f94-68c96afc60e3.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://www.beatport.com/track/iris/30014070</id>
     <title>Hardwell, Sound Rush - Iris (Extended Mix)</title>
@@ -2598,18 +2611,5 @@
       <media:thumbnail url="https://geo-media.beatport.com/image_size/1400x1400/71501534-eb73-4031-9434-2d86c21226ac.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://geo-media.beatport.com/image_size/1400x1400/71501534-eb73-4031-9434-2d86c21226ac.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://www.beatport.com/track/booty-roll/29761642</id>
-    <title>SEBS - Booty Roll</title>
-    <updated>2026-08-07T23:08:09.174129+00:00</updated>
-    <content>Entered the Beatport Top 100 at #92 · Artists: SEBS · Genre: Tech House · BPM: 130 · Key: G Major · Length: 5:39 · Label: Diynamic</content>
-    <link href="https://www.beatport.com/track/booty-roll/29761642" rel="alternate"/>
-    <published>2026-08-07T23:08:09.174129+00:00</published>
-    <media:group>
-      <media:content url="https://geo-media.beatport.com/image_size/1400x1400/fbde6d5f-7855-4c21-8dd3-19f1fddec192.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://geo-media.beatport.com/image_size/1400x1400/fbde6d5f-7855-4c21-8dd3-19f1fddec192.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://geo-media.beatport.com/image_size/1400x1400/fbde6d5f-7855-4c21-8dd3-19f1fddec192.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

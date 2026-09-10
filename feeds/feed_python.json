@@ -8,12 +8,12 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/41bc35f2f9f8cd6c",
-      "url": "https://pypi.org/project/agent-harness-aibom/0.10.0/",
-      "title": "agent-harness-aibom 0.10.0",
-      "content_text": "AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface",
-      "date_published": "2026-09-10T05:10:47Z",
-      "date_modified": "2026-09-10T05:10:47Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/e11a9fc8748b2663",
+      "url": "https://pypi.org/project/luma-infra/0.1.325/",
+      "title": "luma-infra 0.1.325",
+      "content_text": "Declarative deployment CLI for region-aware Nomad infrastructure.",
+      "date_published": "2026-09-10T11:45:59Z",
+      "date_modified": "2026-09-10T11:45:59Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -24,12 +24,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/2858a7ea880b0260",
-      "url": "https://pypi.org/project/before-push/0.1.1/",
-      "title": "before-push 0.1.1",
-      "content_text": "A small CLI that checks your current Git branch before you push or open a pull request.",
-      "date_published": "2026-09-10T05:10:44Z",
-      "date_modified": "2026-09-10T05:10:44Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/c5c57248b361c835",
+      "url": "https://pypi.org/project/limatus/0.7.0/",
+      "title": "limatus 0.7.0",
+      "content_text": "A diagnose-and-steer quality loop for AI-generated content.",
+      "date_published": "2026-09-10T11:45:58Z",
+      "date_modified": "2026-09-10T11:45:58Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -40,12 +40,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/37a4b614f40f0240",
-      "url": "https://pypi.org/project/readie/0.2.6/",
-      "title": "readie 0.2.6",
-      "content_text": "Client SDK for running Python functions on Readie",
-      "date_published": "2026-09-10T05:10:39Z",
-      "date_modified": "2026-09-10T05:10:39Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/2e4cbb6dff98fbb6",
+      "url": "https://pypi.org/project/neuracore/17.0.1a85/",
+      "title": "neuracore 17.0.1a85",
+      "content_text": "Neuracore Client Library",
+      "date_published": "2026-09-10T11:45:44Z",
+      "date_modified": "2026-09-10T11:45:44Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -56,12 +56,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7ddad8e0357932f4",
-      "url": "https://pypi.org/project/aidx/0.0.0/",
-      "title": "aidx 0.0.0",
-      "content_text": "Agent observability and quality SDK (placeholder release)",
-      "date_published": "2026-09-10T05:10:33Z",
-      "date_modified": "2026-09-10T05:10:33Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/edae5c617c03880f",
+      "url": "https://pypi.org/project/netbox-drawio/0.2.1/",
+      "title": "netbox-drawio 0.2.1",
+      "content_text": "NetBox plugin for creating draw.io diagrams and assigning them to multiple NetBox objects",
+      "date_published": "2026-09-10T11:45:43Z",
+      "date_modified": "2026-09-10T11:45:43Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -72,12 +72,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/3b7f76aa19b18e86",
-      "url": "https://pypi.org/project/aidxops/0.0.0/",
-      "title": "aidxops 0.0.0",
-      "content_text": "Agent observability and quality SDK (placeholder release)",
-      "date_published": "2026-09-10T05:10:31Z",
-      "date_modified": "2026-09-10T05:10:31Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/a550db1bc5e6a424",
+      "url": "https://pypi.org/project/z-babeldoc/0.6.2.post2026091001/",
+      "title": "z-babeldoc 0.6.2.post2026091001",
+      "content_text": "BabelDOC 的定制发行版本",
+      "date_published": "2026-09-10T11:45:41Z",
+      "date_modified": "2026-09-10T11:45:41Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -85,6 +85,75 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/cd60fa20f22e1d10",
+      "url": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/",
+      "title": "Hugo van Kemenade: Soft-deprecating re.match()",
+      "content_text": "Quick, without looking it up, what does re.match() do? Which of these return a match? import re re . match ( \"pi\" , \"pi\" ) re . match ( \"pi\" , \"pie\" ) re . match ( \"pi\" , \"api\" ) re . match ( \"pi\" , \"magpie\" ) How does it compare to re.search() and re.fullmatch() ? Whilst you’re (quickly) thinking about it, let’s introduce soft deprecation . Soft deprecation # Python’s backwards compatibility policy (PEP 387) introduced soft deprecation in 2023: A soft deprecation can be used when using an API w",
+      "date_published": "2026-09-10T08:08:01Z",
+      "date_modified": "2026-09-10T08:08:01Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/feature.jpg",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://hugovk.dev/blog/2026/soft-deprecating-re.match/feature.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/cacd8de5c81e6f31",
+      "url": "https://github.com/pypa/build/releases/tag/1.6.1",
+      "title": "1.6.1",
+      "content_text": "What's Changed chore[v1]: prepare for v1.6.1 by @henryiii in #1181 Full Changelog : 1.6.0...1.6.1",
+      "date_published": "2026-09-10T07:55:45Z",
+      "date_modified": "2026-09-10T07:55:45Z",
+      "authors": [
+        {
+          "name": "build (pypa)"
+        }
+      ],
+      "image": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+      "tags": [
+        "build (pypa)"
+      ],
+      "attachments": [
+        {
+          "url": "https://avatars.githubusercontent.com/in/15368?s=60&v=4",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/16bb66adc8711458",
+      "url": "https://blog.europython.eu/europython-2026-videos-published/",
+      "title": "EuroPython: EuroPython 2026: Videos Published",
+      "content_text": "Hi all Pythonistas! 👋 EuroPython 2026 took over the ICE Congress Centre in Kraków from 13 - 19 July and it wouldn’t have been possible without all of our attendees, speakers, volunteers, and sponsors. You allowed us to showcase the Python community at its best once again, and the conference truly belongs to all of you 💚 We are now one month on, and we’ve just finished tying up the loose ends over here at EuroPython HQ. In this newsletter, let us look back at some of the highlights of the confere",
+      "date_published": "2026-09-10T06:43:11Z",
+      "date_modified": "2026-09-10T06:43:11Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://blog.europython.eu/content/images/2026/09/ep-2.jpg",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://blog.europython.eu/content/images/2026/09/ep-2.jpg",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
@@ -724,29 +793,6 @@
         {
           "url": "https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7398f33096a02c47",
-      "url": "https://pydevtools.com/handbook/reference/marimo/",
-      "title": "marimo: Reactive Python Notebook",
-      "content_text": "marimo is an open-source Python notebook in which cells re-execute automatically when the variables they read change. Notebooks are stored as plain .py files rather than JSON and are parsed by static analysis to derive a deterministic execution order. The same file can be run as a standalone script or inside a sandboxed environment managed by uv . It is licensed under Apache-2.0 and requires Python 3.10 or newer. Reactive Notebook Model The traditional notebook model decouples cell ordering from",
-      "date_published": "2026-09-07T15:04:11Z",
-      "date_modified": "2026-09-07T15:04:11Z",
-      "authors": [
-        {
-          "name": "PyDevTools"
-        }
-      ],
-      "image": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
-      "tags": [
-        "PyDevTools"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydevtools.com/images/social/2026-05-02-marimo-hottake.png",
-          "mime_type": "image/png"
         }
       ]
     },
@@ -1429,45 +1475,6 @@
       "attachments": [
         {
           "url": "https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2196808272-1faa9c1ea9afcbdca269693a805ce48bc95f4cbecfd1a1a5856668254582c2d2-d_1920x1080%3F%26region%3Dus&src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/3bd944ff39f27465",
-      "url": "https://blog.pythonanywhere.com/224/",
-      "title": "Python Anywhere: Annual plans, PostgreSQL 15, and easier database management",
-      "content_text": "We deployed our latest system update to our EU-based system on 23 June 2026 and to our US-based system on 28 July 2026 . People creating an account or upgrading from a free account can now choose an\nannual plan. PostgreSQL 15 is available, and the Databases page now makes it\neasier to restart PostgreSQL servers and keep track of MySQL storage limits.",
-      "date_published": "2026-09-04T10:00:00Z",
-      "date_modified": "2026-09-04T10:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "tags": [
-        "Planet Python"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/58d29ddc83a77176",
-      "url": "https://talkpython.fm/episodes/show/561/tonio-a-multi-threaded-async-runtime-for-python",
-      "title": "Talk Python to Me: #561: TonIO, a Multi-threaded Async Runtime for Python",
-      "content_text": "How many cores does your machine have, 10, 18? Your async Python code uses just one of them. That isn't a bug in asyncio. That's the design, and optimizing event loops to be faster by 20% doesn't change it. So Giovanni Barillari started over. Joe is the creator of Granian, the Rust-based server that powers Talk Python. His new project is TonIO, an async runtime written from scratch for free-threaded Python. Real threads, a handful of primitives instead of asyncio's pile of them, and it flat out",
-      "date_published": "2026-09-04T07:33:34Z",
-      "date_modified": "2026-09-04T07:33:34Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1",
           "mime_type": "image/jpeg"
         }
       ]

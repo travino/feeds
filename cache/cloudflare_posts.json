@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T00:31:24.963639+00:00",
+  "last_updated": "2026-09-10T11:45:04.878037+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5129,6 +5129,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/5d9ed659354f9aa5"
     },
     {
+      "title": "Load Balancing - Load Balancing now supports pool sets",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-08-31-pool-sets/",
+      "date": "2026-08-31T00:00:00+00:00",
+      "description": "Cloudflare Load Balancing now supports pool sets through the API. Pool sets combine geographic matching with location-specific traffic steering. One load balancer can now use different routing behavior for different locations. Each pool set can match a Cloudflare data center, country, or region. It then supplies the candidate pools and can apply its own steering policy, pool weights, and fallback pool. Cloudflare evaluates pool sets in array order and applies the first matching pool set. For exa",
+      "source": "Cloudflare Changelog",
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/09afe6ac54d64b1e"
+    },
+    {
       "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
       "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
       "date": "2026-08-31T12:59:00+00:00",
@@ -5508,7 +5517,7 @@
       "title": "WAF - WAF Release - Scheduled changes for 2026-09-15",
       "link": "https://developers.cloudflare.com/changelog/post/scheduled-waf-release/",
       "date": "2026-09-08T00:00:00+00:00",
-      "description": "Announcement Date Release Date Release Behavior Legacy Rule ID Rule ID Description Comments 2026-09-08 2026-09-15 Log N/A ...19491e62 SSRF - Cloud - 3 This is a new detection. 2026-09-08 2026-09-15 Log N/A ...e6a0b6de Version Control - Information Disclosure - Beta This rule will be merged into the original rule \"Version Control - Information Disclosure\" (ID: ...0550c529 ). 2026-09-08 2026-09-15 Log N/A ...c1aaebda Command Injection - Generic 10 This is a new detection.",
+      "description": "Announcement Date Release Date Release Behavior Legacy Rule ID Rule ID Description Comments 2026-09-08 2026-09-15 Log N/A ...ca453d31 SSRF - Cloud - 3 This is a new detection. 2026-09-08 2026-09-15 Log N/A ...e540f17f Version Control - Information Disclosure - Beta This rule will be merged into the original rule \"Version Control - Information Disclosure\" (ID: ...0550c529 ). 2026-09-08 2026-09-15 Log N/A ...ba458b4b Command Injection - Generic 10 This is a new detection.",
       "source": "Cloudflare Changelog",
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/91e04a5fdaafa651",
       "image": "https://developers.cloudflare.com/og-changelog.png"

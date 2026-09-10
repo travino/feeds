@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-10T05:11:03.588901+00:00</updated>
+  <updated>2026-09-10T11:46:38.990853+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,141 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/9a621c0e18d0cfe0</id>
+    <title>Oracle Analytics Access automation</title>
+    <updated>2026-09-10T10:16:30.579463+00:00</updated>
+    <content>Hi, Just wondering if there is a certain API in APEX to send\receive a payload to enable the user an access to Oracle Analytics? Right now - we are just managing all access via the UI and it also requires to have an Admin privilege to add a user. Thanks Martin</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/oracle-analytics-access-automation-0623" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T10:16:30.579463+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/d8989198ffec6c91</id>
+    <title>"Declassifying the Java 27 Release!" [IJN]</title>
+    <updated>2026-09-10T08:55:00+00:00</updated>
+    <content>Java 27 is heading for release on September 15th. As with every release of the JDK there are a host of changes that will impact developers, from new features, to changes in behavior of existing features. In this episode of the Inside Java Newscast we will be "declassifying" all the developer impacting changes in Java 27.</content>
+    <link href="https://inside.java/podcast" rel="alternate"/>
+    <category term="Inside Java Podcast" label="Inside Java Podcast"/>
+    <published>2026-09-10T08:55:00+00:00</published>
+    <media:group>
+      <media:content url="https://static.libsyn.com/p/assets/e/0/f/2/e0f21f840f315885d959afa2a1bf1c87/Cover-69.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://static.libsyn.com/p/assets/e/0/f/2/e0f21f840f315885d959afa2a1bf1c87/Cover-69.png"/>
+    </media:group>
+    <dc:creator>Inside Java Podcast</dc:creator>
+    <link rel="enclosure" href="https://static.libsyn.com/p/assets/e/0/f/2/e0f21f840f315885d959afa2a1bf1c87/Cover-69.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/ae91523304fd67ad</id>
+    <title>APEXLang - reduce hallucinations and feature fishing</title>
+    <updated>2026-09-10T08:39:42.468452+00:00</updated>
+    <content>Very shortly : I know that APEXLang skills are evolving and LLM's don't natively master APEXLang. So as understood in previous excellent APEX Day in Finland e.g. shared components are not fully covered in the APEXLang skills. So experienced this when fishing proper syntax for ‘authentication schemes’ with agent. Maybe that could be avoided by forcing agent to confess that it doesn't have skills for them yet. I don't know how this could be done effectively unless it would be sort of “negated list</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/apexlang-reduce-hallucinations-and-feature-fishing-7409" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T08:39:42.468452+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/826835e6c09a0858</id>
+    <title>Upgrade 11.2.25</title>
+    <updated>2026-09-10T08:24:35.632508+00:00</updated>
+    <content>Any issues noticed post HFM upgrade to 11.2.25 version</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/upgrade-11-2-25-5991" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T08:24:35.632508+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/f4efd572559f7c4a</id>
+    <title>Alpha Boost Male Enhancement™ Reviews: Does It Support Male Vitality?</title>
+    <updated>2026-09-10T07:59:27.184170+00:00</updated>
+    <content>Overview A product sold to men seeking testosterone support, libido, energy, sexual performance, or general male wellbeing is known as "Alpha Boost Male Enhancement." Different components and formulas may be found in products sold under identical names. A product's name doesn't tell you exactly what it contains or how effective it is. This article examines Alpha Boost Male Enhancement from the standpoint of consumer health. It explains the kinds of substances that are frequently included in male</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/alpha-boost-male-enhancementtm-reviews-does-it-support-male-2285" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T07:59:27.184170+00:00</published>
+    <media:group>
+      <media:content url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ2v318SVAIwuu0W2JxLSWivVoFjCkA1O9eO4a-NwggTPb_E6eiCop3TXBz9-AUkCgbTyZdtkCwtx-Wb_1bPgdtcDSugnsik6dpLvu0keUfCluUn-qzLNp0S9jmx8_6DtwOj34yg3jHqoK3fMV2E1R6UsXxx4s0Ggo_4Q7y4C-lJCgoL8t-0uvzbH-51g/s1600/Alpha%20Boost%20Male%20Enhancement%20Gummies.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ2v318SVAIwuu0W2JxLSWivVoFjCkA1O9eO4a-NwggTPb_E6eiCop3TXBz9-AUkCgbTyZdtkCwtx-Wb_1bPgdtcDSugnsik6dpLvu0keUfCluUn-qzLNp0S9jmx8_6DtwOj34yg3jHqoK3fMV2E1R6UsXxx4s0Ggo_4Q7y4C-lJCgoL8t-0uvzbH-51g/s1600/Alpha%20Boost%20Male%20Enhancement%20Gummies.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQ2v318SVAIwuu0W2JxLSWivVoFjCkA1O9eO4a-NwggTPb_E6eiCop3TXBz9-AUkCgbTyZdtkCwtx-Wb_1bPgdtcDSugnsik6dpLvu0keUfCluUn-qzLNp0S9jmx8_6DtwOj34yg3jHqoK3fMV2E1R6UsXxx4s0Ggo_4Q7y4C-lJCgoL8t-0uvzbH-51g/s1600/Alpha%20Boost%20Male%20Enhancement%20Gummies.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/f68ffaeed76b77a7</id>
+    <title>my workspace is lock</title>
+    <updated>2026-09-10T07:56:01.716021+00:00</updated>
+    <content>Hello Oracle APEX Team, My Oracle APEX free hosted workspace account is locked and I am unable to sign in. Workspace: amalalothman Username: t.amalalothman@gmail.com Error Message: "The account is locked."</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/my-workspace-is-look-9015" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T07:56:01.716021+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/c75766f81f6dd42b</id>
+    <title>Proactive Oracle Tablespace Capacity Forecasting – Is This a Practical DBA Approach?</title>
+    <updated>2026-09-10T07:43:52.147633+00:00</updated>
+    <content>Hello Oracle DBAs, I have been working on a Python-based automation solution for Oracle database storage management and would appreciate feedback from experienced Oracle DBAs on the technical and operational practicality of this approach in real-world environments. The solution focuses on proactive tablespace capacity management and currently provides capabilities such as: Monitoring tablespace and datafile utilization Forecasting future tablespace growth based on historical usage Identifying po</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/proactive-oracle-tablespace-capacity-forecasting-is-this-a-1138" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T07:43:52.147633+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/4bf5b34d1f530d5a</id>
+    <title>convert fmx to fmb</title>
+    <updated>2026-09-10T06:20:38.436890+00:00</updated>
+    <content>Dear, I lost .fmb files no backup. I want to create .fmb from .fmx.  How, it is possible? Regards,</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/convert-fmx-to-fmb-8099" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T06:20:38.436890+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/44ce83b1a63168f6</id>
+    <title>Episode 69 “Declassifying Java 27” [IJN]</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>Java 27 is set to be released on September 15th, let's review what's coming!</content>
+    <link href="https://inside.java/2026/09/10/podcast-069/" rel="alternate"/>
+    <category term="Inside Java" label="Inside Java"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://inside.java/resources/ijn-115--6Qk8mv4fM6d4D6VmPZs9L0LT511UxFdd5pvhigUY.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://inside.java/resources/ijn-115--6Qk8mv4fM6d4D6VmPZs9L0LT511UxFdd5pvhigUY.jpg"/>
+    </media:group>
+    <dc:creator>Inside Java</dc:creator>
+    <link rel="enclosure" href="https://inside.java/resources/ijn-115--6Qk8mv4fM6d4D6VmPZs9L0LT511UxFdd5pvhigUY.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/a0b82b7b7e4bdec6</id>
     <title>Causing an ORDS connection pool to recreate itself</title>
@@ -148,81 +283,6 @@
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/448e07ee9efd87ef</id>
-    <title>[Live Technical Session] Modernizing Enterprise Applications with Oracle APEX, AI, and RAG Pipelines</title>
-    <updated>2026-09-09T10:35:29.480124+00:00</updated>
-    <content>Hi APEX Community, The MaxAPEX team is hosting a live technical session on integrating modern AI architecture into Oracle APEX enterprise applications. Technical Topics Covered: Strategies for integrating natural-language querying inside APEX Building private RAG (Retrieval-Augmented Generation) pipelines and AI agents Scaling AI-driven workflows on modern cloud infrastructure Event Details: Date: September 10, 2026 Time: 7:30 PM PKT (2:30 PM UTC / GMT+5) Duration: 60 Minutes (Live Online) You c</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/live-technical-session-modernizing-enterprise-applications-6520" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T10:35:29.480124+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/71439fb8bc2d1473</id>
-    <title>Connecting Oracle 7 for Node.js App on RHEL</title>
-    <updated>2026-09-09T10:30:17.275019+00:00</updated>
-    <content>We have a Oracle 7 database that we want to connect to a Node JS App. However, the Node JS App is on RHEL 9.x and it seems there is no direct connectivity possible as the drivers are not available. From some research, it looks like the best bet is to create a bridge DB, either Oracle 11 / Oracle 8 or Oracle 7. I'd like to know if there's any other complexity someone might have faced in such a setup. Many thanks in advance.</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/connecting-oracle-7-for-node-js-app-on-rhel-3464" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T10:30:17.275019+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/72c527726ab88b1d</id>
-    <title>Reasoning effort parameter in IA Services</title>
-    <updated>2026-09-09T09:49:00.649782+00:00</updated>
-    <content>Hello, We would like to use AI Services in APEX, but for some simple tasks we have found that the available models can be unnecessarily heavy and slow. One way to address this is by disabling or reducing reasoning. For models that support OpenAI-compatible APIs, this can be configured using the reasoning_effort parameter: https://developers.openai.com/api/docs/guides/reasoning?api-mode=responses For example, setting reasoning_effort to none can significantly reduce latency and token consumption </content>
-    <link href="https://forums.oracle.com/ords/apexds/post/reasoning-effort-parameter-in-ia-services-5097" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T09:49:00.649782+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/JPnPGSQC-9017-rcbeUMNs" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/cef50df6aed4c97c</id>
-    <title>Filtering the ADB catalog by caller identity before NL2SQL - findings from a live 26ai run</title>
-    <updated>2026-09-09T04:13:59.159400+00:00</updated>
-    <content>Sharing what a live run against an Always Free ADB turned up, and asking where the Oracle handling is wrong. The problem is an ordering one. Schema selection happens before the query runs, so it happens before VPD or RLS can act. If the selection step is not identity-aware, the model is handed a table the caller cannot read, writes correct SQL, the policy filters every row, and the user is told there are no records. That is a wrong answer that looks like a right one, not an access-denied message</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/filtering-the-adb-catalog-by-caller-identity-before-nl2sql-8655" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T04:13:59.159400+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/fc5e0bdef525a48f</id>
-    <title>LOV Column in Grid sets to Null when tab through</title>
-    <updated>2026-09-08T20:22:48.301488+00:00</updated>
-    <content>I have an interactive grid.  One of the columns is an LOV field.  After the grid is filled from the database when they launch the appropriate page, if someone wants to make a change and is just tabbing through the columns - when they tab through the LOV field it sets that field to Null.  If they're tabbing through then it should just keep its current value like all the other columns.  What am I doing wrong?  Thank you in advance.</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/lov-column-in-grid-sets-to-null-when-tab-through-8652" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T20:22:48.301488+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/f19e8b87c1db8656</id>
     <title>Why Exadata Database Service on Exascale Infrastructure Is the Right Home for Oracle Database Enterprise Edition – Extreme Performance in the Cloud</title>
     <updated>2026-09-08T16:30:08+00:00</updated>
@@ -281,36 +341,6 @@
     </media:group>
     <dc:creator>Oracle Press Releases</dc:creator>
     <link rel="enclosure" href="https://www.oracle.com/a/pr/img/og-social-environmental-monitoring.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/585f0c4711b0e249</id>
-    <title>APEX Static Files Mismatch 404 Error on Always Free ADB (DB: 26.1.4 vs Images: 26.1.1)</title>
-    <updated>2026-09-08T12:24:22.716038+00:00</updated>
-    <content>Hi APEX Team, Following a recent automatic patch on my Always Free Autonomous Database instance, I am encountering an environment mismatch popup when opening the APEX Workspace, along with 404 Not Found console errors. Error Details: Popup: “There is a problem with your environment because the Oracle APEX files are not up-to-date! The files for version 26.1.1 have been loaded, but 26.1.4 is expected.” Environment Details: Service: Oracle Autonomous Database (Always Free) Region: eu-frankfurt-1 D</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/apex-static-files-mismatch-404-error-on-always-free-adb-db-6533" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T12:24:22.716038+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/666347a18e5901cf</id>
-    <title>Trouble with adding GenAI service to Apex 26.1 : 404 authorization failed error</title>
-    <updated>2026-09-08T12:11:38.097475+00:00</updated>
-    <content>I am trying to add a Gen AI service through workspace utilities in Apex. All of the credentials have been entered rightly, including region, public key signature, private key, user ID, compartment ID and model ID. Also checked the connectivity through the OCI console chat for the chosen compartment ID and model ID and it works fine. However, when I try to test connection after setting up the service on Apex, it is throwing up the below error: 1 error has occurred The HTTP request to Generative A</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/trouble-with-adding-genai-service-to-apex-26-1-404-authoriz-4431" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-08T12:11:38.097475+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/01109a56bf857890</id>
@@ -761,21 +791,6 @@
     </media:group>
     <dc:creator>Oracle Cloud Infrastructure</dc:creator>
     <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/oracle_cloud_vmware_solution_architecture-1.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/d8989198ffec6c91</id>
-    <title>"Operator Overloading with Type Classes" [AtA]</title>
-    <updated>2026-08-27T06:40:00+00:00</updated>
-    <content>OpenJDK's Project Valhalla is improving Java's support for custom numerical types. That goes beyond value types and also encompasses explorations into operator support. While Java is extremely unlikely to ever allow arbitrary operator definitions, it may well support limited operator overloading, so custom value types could be added or multiplied with plus or multiplication signs instead of annoying method calls. In this "Ask the Architects" episode of the Inside Java Podcast, recorded during Ja</content>
-    <link href="https://inside.java/podcast" rel="alternate"/>
-    <category term="Inside Java Podcast" label="Inside Java Podcast"/>
-    <published>2026-08-27T06:40:00+00:00</published>
-    <media:group>
-      <media:content url="https://static.libsyn.com/p/assets/4/5/7/7/4577fe64f2f4a9f4d959afa2a1bf1c87/Cover-68.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://static.libsyn.com/p/assets/4/5/7/7/4577fe64f2f4a9f4d959afa2a1bf1c87/Cover-68.png"/>
-    </media:group>
-    <dc:creator>Inside Java Podcast</dc:creator>
-    <link rel="enclosure" href="https://static.libsyn.com/p/assets/4/5/7/7/4577fe64f2f4a9f4d959afa2a1bf1c87/Cover-68.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/42d41326c3b8dee7</id>

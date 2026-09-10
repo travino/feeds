@@ -8,6 +8,52 @@
   "icon": "https://ubuntu.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/c200961ec2ebb46c",
+      "url": "https://ubuntuhandbook.org/index.php/2026/09/nvidia-615-71-09-released-better-windows-gaming-on-linux/",
+      "title": "NVIDIA 615.71.09 Released with Better Windows Gaming on Linux",
+      "content_text": "NVIDIA driver for Linux released new 615.71.09 version yesterday, as the latest new feature branch driver. The new driver added some new Vulkan extensions support for better Linux gaming and memory management, and fixed various Wayland and Blackwell GPUs related issues. First, the NVIDIA 615 driver added support the second revision of VK_NV_low_latency extension. It […]",
+      "date_published": "2026-09-10T09:35:29Z",
+      "date_modified": "2026-09-10T09:35:29Z",
+      "authors": [
+        {
+          "name": "UbuntuHandbook"
+        }
+      ],
+      "image": "https://ubuntuhandbook.org/wp-content/uploads/2021/06/nvidia-logo-250x250.webp",
+      "tags": [
+        "UbuntuHandbook"
+      ],
+      "attachments": [
+        {
+          "url": "https://ubuntuhandbook.org/wp-content/uploads/2021/06/nvidia-logo-250x250.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/d4f109235db037e9",
+      "url": "https://canonical.com//blog/what-the-cyber-resilience-act-cra-means-for-android-development",
+      "title": "What the Cyber Resilience Act (CRA) means for Android™ development",
+      "content_text": "The CRA starts now: 24 hours to respond Picture this: a critical Android vulnerability is reportedly being exploited. Based on initial analysis, the compromised component is part of your software stack. Your product runs Android, but probably not exactly the Android described in the Common Vulnerabilities and Exposures (CVE) description. You may have your own […]",
+      "date_published": "2026-09-10T08:00:00Z",
+      "date_modified": "2026-09-10T08:00:00Z",
+      "authors": [
+        {
+          "name": "Canonical Blog"
+        }
+      ],
+      "image": "https://ubuntu.com/wp-content/uploads/513c/anbox-cloud-cra.png",
+      "tags": [
+        "Canonical Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://ubuntu.com/wp-content/uploads/513c/anbox-cloud-cra.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/ubuntu/45102b8995a66397",
       "url": "https://www.omgubuntu.co.uk/2026/09/bleachbit-6-0-4-update",
       "title": "BleachBit 6.0.4 brings faster scanning, better browser cleaning",
@@ -26,6 +72,29 @@
       "attachments": [
         {
           "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/05/bleachbit-tui-1-406x232.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/e27b02e6b475b0f7",
+      "url": "https://ubuntuhandbook.org/index.php/2026/09/the-default-wallpapers-for-ubuntu-26-10/",
+      "title": "The Default Wallpapers for Ubuntu 26.10 is Out [Download Link]",
+      "content_text": "Ubuntu developer team announced the default wallpaper for the upcoming Ubuntu 26.10 yesterday, along with the winning images from the wallpaper competition. As before, the new default wallpaper is made of a purple background with mascot (stingray) in center. Similar to the one for 26.04, it uses a large, curved origami crease in the background. […]",
+      "date_published": "2026-09-09T09:05:30Z",
+      "date_modified": "2026-09-09T09:05:30Z",
+      "authors": [
+        {
+          "name": "UbuntuHandbook"
+        }
+      ],
+      "image": "https://ubuntuhandbook.org/wp-content/uploads/2026/09/2610-logo-250x250.webp",
+      "tags": [
+        "UbuntuHandbook"
+      ],
+      "attachments": [
+        {
+          "url": "https://ubuntuhandbook.org/wp-content/uploads/2026/09/2610-logo-250x250.webp",
           "mime_type": "image/webp"
         }
       ]
@@ -1298,29 +1367,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/9a34b7cb29084c58",
-      "url": "https://ubuntuhandbook.org/index.php/2026/08/darktable-tagged-5-6-1-with-numerous-bug-fixes-improvements/",
-      "title": "Darktable Tagged 5.6.1 with Numerous Bug-fixes & Improvements",
-      "content_text": "Darktable, the open-source photography and raw developer application, tagged 5.6.1 version today. The new version is a maintenance release that improved the AI support, fixed numerous issues, and updated translations. The last Darktable 5.6.0 introduced AI sub-system and a preference dialog to download AI models. The new version updated the download manager, so it will […]",
-      "date_published": "2026-08-26T11:25:43Z",
-      "date_modified": "2026-08-26T11:25:43Z",
-      "authors": [
-        {
-          "name": "UbuntuHandbook"
-        }
-      ],
-      "image": "https://ubuntuhandbook.org/wp-content/uploads/2021/12/darktable-logo-250x250.webp",
-      "tags": [
-        "UbuntuHandbook"
-      ],
-      "attachments": [
-        {
-          "url": "https://ubuntuhandbook.org/wp-content/uploads/2021/12/darktable-logo-250x250.webp",
-          "mime_type": "image/webp"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/ubuntu/d6d1e9cbe76ed1f4",
       "url": "https://ubuntu.com//blog/arduino-ventuno-q-is-available-for-pre-order-with-ubuntu-pre-installed",
       "title": "Arduino® VENTUNO™ Q is available for pre-order with Ubuntu pre-installed",
@@ -1340,29 +1386,6 @@
         {
           "url": "https://ubuntu.com/wp-content/uploads/c9ef/Arduino-VENTUNO-Q-GA-announcement.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/ubuntu/f6339b6d2761c022",
-      "url": "https://ubuntuhandbook.org/index.php/2026/08/go-language-1-27-released-with-generic-methods-json-v2-simd-support/",
-      "title": "Go Language 1.27 Released with Generic Methods, JSON v2, SIMD Support",
-      "content_text": "Go language (aka Golang) released new major 1.27 version in last week, six months after the last 1.26. The new version of this popular programming language added support generic methods, which can now declare their own type parameters, making generics more flexible. As an example, Rand now supports a generic method N, matching the behavior […]",
-      "date_published": "2026-08-25T14:14:42Z",
-      "date_modified": "2026-08-25T14:14:42Z",
-      "authors": [
-        {
-          "name": "UbuntuHandbook"
-        }
-      ],
-      "image": "https://ubuntuhandbook.org/wp-content/uploads/2024/02/go-logo-250x250.webp",
-      "tags": [
-        "UbuntuHandbook"
-      ],
-      "attachments": [
-        {
-          "url": "https://ubuntuhandbook.org/wp-content/uploads/2024/02/go-logo-250x250.webp",
-          "mime_type": "image/webp"
         }
       ]
     },
