@@ -28,12 +28,11 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
-import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "feed_generators"))
 
-from docs_sources import collect_sources  # noqa: E402
+from docs_sources import collect_sources, load_yaml_feeds  # noqa: E402
 
 HEADERS = {
     "User-Agent": (
@@ -98,7 +97,7 @@ def main() -> int:
     parser.add_argument("--feed", help="check a single feed by registry name")
     args = parser.parse_args()
 
-    registry = yaml.safe_load((ROOT / "feeds.yaml").read_text(encoding="utf-8"))["feeds"]
+    registry = load_yaml_feeds()
     if args.feed:
         if args.feed not in registry:
             print(f"unknown feed: {args.feed}", file=sys.stderr)
