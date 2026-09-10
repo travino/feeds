@@ -4,6 +4,8 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from types import SimpleNamespace
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parent.parent
 SCRIPT = ROOT / "site" / "build_search_index.py"
@@ -26,6 +28,24 @@ class SearchIndexTests(unittest.TestCase):
             json.dumps({"title": key.title(), "items": items}), encoding="utf-8"
         )
         return path
+
+    def test_enabled_feed_paths_uses_validated_registry(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            feed_dir = Path(tmp)
+            present = self.write_feed(tmp, "present", [])
+            registry = {
+                "present": SimpleNamespace(enabled=True),
+                "missing": SimpleNamespace(enabled=True),
+                "disabled": SimpleNamespace(enabled=False),
+            }
+            with (
+                patch.object(MODULE, "FEEDS_DIR", feed_dir),
+                patch.object(MODULE, "load_feed_registry", return_value=registry),
+            ):
+                paths, missing = MODULE.enabled_feed_paths()
+
+        self.assertEqual(paths, [present])
+        self.assertEqual(missing, ["missing"])
 
     def test_build_index_keeps_recent_items_and_stable_opaque_ids(self):
         with tempfile.TemporaryDirectory() as tmp:
