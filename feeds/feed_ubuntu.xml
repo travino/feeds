@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-10T00:33:59.903221+00:00</updated>
+  <updated>2026-09-10T05:11:50.017553+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -14,7 +14,7 @@
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/45102b8995a66397</id>
-    <title>BleachBit 6.0.4 offers faster scanning, improves Linux cleaners</title>
+    <title>BleachBit 6.0.4 brings faster scanning, better browser cleaning</title>
     <updated>2026-09-09T16:54:24+00:00</updated>
     <content>A new version of BleachBit, an open-source system cleaning tool, is out. BleachBit 6.0.4 brings everything I mentioned in my spot on the BleachBit 6.0.4 beta release, including macOS support for the first time – albeit in an early state, and including a Cleaner for Safari and a choice of the (neat) BleachBit CLI or an early GUI. Windows and Linux users all benefit from faster startup times and scanning speeds, and gain new cleaners for Android Studio, Gradle’s cache, fish and Zsh shells and Pyth</content>
     <link href="https://www.omgubuntu.co.uk/2026/09/bleachbit-6-0-4-update" rel="alternate"/>
@@ -29,9 +29,9 @@
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/2816daef9a07016a</id>
-    <title>The $200 Firefox mechanical keyboard sold out</title>
+    <title>The $200 Firefox mechanical keyboard sold out [update: or not?]</title>
     <updated>2026-09-08T21:37:32+00:00</updated>
-    <content>Love Firefox enough to drop $200 on a branded keyboard? Tough, it’s sold it. It’s a full-sized, 108-key mechanical keyboard with Cherry MX switches, and has a unique keycap colour scheme and branding: a Firefox logo on the super/meta key and new Firefox mascot Kit on Esc. It works wired, via Bluetooth or 2.4g wireless. “Clean, clicky and finished in Firefox colors”, reads the Mozilla Store description, “this is a keyboard that looks good, feels better and sneaks in a little personality where you</content>
+    <content>Love Firefox enough to drop $200 on a branded keyboard? Tough, it’s sold out Mozilla is flogging a full-sized, 108-key mechanical keyboard with Cherry MX switches. It has a unique keycap colour scheme and branding with Firefox logo super/meta key and the new Firefox mascot Kit on Esc. It works wired, via Bluetooth or 2.4g wireless. “Clean, clicky and finished in Firefox colors”, reads the Mozilla Store description, “this is a keyboard that looks good, feels better and sneaks in a little personal</content>
     <link href="https://www.omgubuntu.co.uk/2026/09/firefox-keyboard-cherry-switches" rel="alternate"/>
     <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
     <published>2026-09-08T21:37:32+00:00</published>
@@ -88,6 +88,21 @@
     <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2026/09/paintdotnet-ubuntu-700x394.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/c3adbe0a440f8bde</id>
+    <title>Review merge proposals in VS Code</title>
+    <updated>2026-09-08T10:32:27+00:00</updated>
+    <content>Launchpad Merge Proposals , a VS Code extension for reviewing Launchpad merge proposals, is now available on the Visual Studio Marketplace as a preview release. The extension brings the review into the editor. It finds the merge proposals for the branch you have checked out, renders their diffs in VS Code’s diff editor, and lets you comment and vote without opening a browser. What the extension does Finds the merge proposals for the branch you are on It reads the upstream of the checked-out bran</content>
+    <link href="https://blog.launchpad.net/general/review-merge-proposals-in-vs-code" rel="alternate"/>
+    <category term="Planet Ubuntu" label="Planet Ubuntu"/>
+    <published>2026-09-08T10:32:27+00:00</published>
+    <media:group>
+      <media:content url="https://assets.ubuntu.com/v1/1e88331d-merge_proposals.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://assets.ubuntu.com/v1/1e88331d-merge_proposals.gif"/>
+    </media:group>
+    <dc:creator>Planet Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://assets.ubuntu.com/v1/1e88331d-merge_proposals.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/ad36bbe9aacc993a</id>
     <title>Grace on the currents: Stonking Stingray</title>
     <updated>2026-09-08T10:29:18+00:00</updated>
@@ -116,6 +131,21 @@
     </media:group>
     <dc:creator>UbuntuHandbook</dc:creator>
     <link rel="enclosure" href="https://ubuntuhandbook.org/wp-content/uploads/2023/11/gnome-logo-dark-250x250.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/7ff0fd0bc059f52e</id>
+    <title>E386 OooOOoooOoppss</title>
+    <updated>2026-09-08T00:00:00+00:00</updated>
+    <content>Senhroes treslespectadors, este episódio naõ há seman…hips!…nesta semana não há epsidodio…pisdodio…pisódio! A gente fomos ao centero linux no enterior desquecido e oustracizado e bubemos…bevemos..vebvemos uma ginjinha tão boua que tivemos de ficar a escançar…descansar. A modos que não houve garvação…gravação e depois a gente contamos tudo pra semana, pormete…ppormetemos…prometemos! hips! Já sabem: oiçam, subscrevam e partilhem! LoCo PT: https://loco.ubuntu.com/teams/ubuntu-pt/ Mastodon: https://</content>
+    <link href="https://podcastubuntuportugal.org/e386/" rel="alternate"/>
+    <category term="Planet Ubuntu" label="Planet Ubuntu"/>
+    <published>2026-09-08T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://podcastubuntuportugal.org/images/e386.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://podcastubuntuportugal.org/images/e386.png"/>
+    </media:group>
+    <dc:creator>Planet Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://podcastubuntuportugal.org/images/e386.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/c3761b27d8b3fd25</id>
@@ -471,7 +501,7 @@
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/72ca0c23e2750bd5</id>
     <title>Ubuntu’s IRC support channels to be ‘sunset’, some aren’t happy</title>
     <updated>2026-08-31T22:25:00+00:00</updated>
-    <content>Getting is planning to ‘sunset’ IRC as an official support method, and some long-time users aren’t happy. The recently Ubuntu 26.04.1 LTS release announcement didn’t include a link to the Ubuntu Support IRC channel under its “if you have a question” section – though, from looking, the last announcement to list IRC was the one for Ubuntu 24.10). That led to questions on if the Ubuntu support IRC channel is still an official community support option (the Help app in Ubuntu 26.04 still has links to</content>
+    <content>Ubuntu is planning to 'sunset' IRC as an official support channel, and some long-time users aren't happy – but there is a chance it may live on. You're reading Ubuntu’s IRC support channels to be ‘sunset’, some aren’t happy , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.</content>
     <link href="https://www.omgubuntu.co.uk/2026/08/ubuntu-irc-channels-official-sunset" rel="alternate"/>
     <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
     <published>2026-08-31T22:25:00+00:00</published>
@@ -1403,16 +1433,6 @@ when it was determined to be safe). Little did I know that people have for years
     <link rel="enclosure" href="https://i0.wp.com/blog.simos.info/wp-content/uploads/2024/02/cropped-android-chrome-512x512-1.png?fit=512%2C512&amp;ssl=1" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/e841db95402c0f54</id>
-    <title>2026 LiveCD Memory Usage Compare</title>
-    <updated>2026-05-11T00:54:00+00:00</updated>
-    <content>I am using pretty much the exact same setup I did in 2024 . Let's see who is more efficient in a live session! But first let's take a look at the image sizes: Image size (in GB) 0 0 1 1 2 2 3 3 4 4 5 5 6 6 7 7 6.1 56.42809364548495 317.6705465587045 4.9 78.20735785953177 358.206983805668 3.9 99.9866220735786 391.9873481781377 4.8 121.76588628762542 361.585020242915 3.7 143.54515050167223 398.74342105263156 4 165.3244147157191 388.6093117408907 5.3 187.1036789297659 344.69483805668017 5.3 208.882</content>
-    <link href="https://bryanquigley.com/posts/memory-usage/2026-livecd-memory-usage-compare.html" rel="alternate"/>
-    <category term="Planet Ubuntu" label="Planet Ubuntu"/>
-    <published>2026-05-11T00:54:00+00:00</published>
-    <dc:creator>Planet Ubuntu</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/e67d87a037059daa</id>
     <title>Ubuntu Studio’s New Home: What’s Changing and Why</title>
     <updated>2026-05-10T02:25:40+00:00</updated>
@@ -1441,16 +1461,6 @@ when it was determined to be safe). Little did I know that people have for years
     </media:group>
     <dc:creator>Ubuntu Studio</dc:creator>
     <link rel="enclosure" href="https://ubuntustudio.org/wp-content/uploads/2026/04/banner.jpg?wsr" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/891258684f744578</id>
-    <title>Lubuntu 26.04 LTS Released!</title>
-    <updated>2026-04-23T14:56:36+00:00</updated>
-    <content>Thanks to the hard work from our contributors, Lubuntu 26.04 LTS has been released. With the codename Resolute Raccoon, Lubuntu 26.04 is the 30th release of Lubuntu, the 16th release of Lubuntu with LXQt as the default desktop environment. Download and Support Lifespan With Lubuntu 26.04 being a long-term support interim release, it will follow […]</content>
-    <link href="https://lubuntu.me/lubuntu-26-04-lts-released/" rel="alternate"/>
-    <category term="Planet Ubuntu" label="Planet Ubuntu"/>
-    <published>2026-04-23T14:56:36+00:00</published>
-    <dc:creator>Planet Ubuntu</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/b71f49ca65976da2</id>

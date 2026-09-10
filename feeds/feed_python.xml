@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-10T00:33:09.734170+00:00</updated>
+  <updated>2026-09-10T05:11:09.615482+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -12,6 +12,71 @@
   <icon>https://www.python.org/favicon.ico</icon>
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/41bc35f2f9f8cd6c</id>
+    <title>agent-harness-aibom 0.10.0</title>
+    <updated>2026-09-10T05:10:47+00:00</updated>
+    <content>AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface</content>
+    <link href="https://pypi.org/project/agent-harness-aibom/0.10.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-10T05:10:47+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/2858a7ea880b0260</id>
+    <title>before-push 0.1.1</title>
+    <updated>2026-09-10T05:10:44+00:00</updated>
+    <content>A small CLI that checks your current Git branch before you push or open a pull request.</content>
+    <link href="https://pypi.org/project/before-push/0.1.1/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-10T05:10:44+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/37a4b614f40f0240</id>
+    <title>readie 0.2.6</title>
+    <updated>2026-09-10T05:10:39+00:00</updated>
+    <content>Client SDK for running Python functions on Readie</content>
+    <link href="https://pypi.org/project/readie/0.2.6/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-10T05:10:39+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/7ddad8e0357932f4</id>
+    <title>aidx 0.0.0</title>
+    <updated>2026-09-10T05:10:33+00:00</updated>
+    <content>Agent observability and quality SDK (placeholder release)</content>
+    <link href="https://pypi.org/project/aidx/0.0.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-10T05:10:33+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/3b7f76aa19b18e86</id>
+    <title>aidxops 0.0.0</title>
+    <updated>2026-09-10T05:10:31+00:00</updated>
+    <content>Agent observability and quality SDK (placeholder release)</content>
+    <link href="https://pypi.org/project/aidxops/0.0.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-10T05:10:31+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611</id>
+    <title>Graham Dumpleton: Finding slow code with wrapture</title>
+    <updated>2026-09-10T01:39:23+00:00</updated>
+    <content>The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around </content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-10T01:39:23+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/e46594f36a08c523</id>
     <title>synth-containers 0.4.3</title>
@@ -78,6 +143,21 @@
     <link rel="enclosure" href="https://pytorch.org/wp-content/uploads/2026/09/JASN0826-1-scaled.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43</id>
+    <title>Graham Dumpleton: Tracing Flask with wrapture</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/8cb1903c8c7f27b1</id>
     <title>Python GUIs: Clean up on exit — Stopping threads when closing a PyQt6 application — How to properly shut down background threads and workers when your application window is closed</title>
     <updated>2026-09-09T06:00:00+00:00</updated>
@@ -122,21 +202,6 @@ if text == '': # if the line edit i</content>
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43</id>
-    <title>Graham Dumpleton: Tracing Flask with wrapture</title>
-    <updated>2026-09-09T01:39:21+00:00</updated>
-    <content>For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-09T01:39:21+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba</id>
@@ -744,56 +809,6 @@ if text == '': # if the line edit i</content>
     <link rel="enclosure" href="https://pytorch.org/wp-content/uploads/2026/08/Bengaluru-Event-1024x345.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e</id>
-    <title>aisbom-cli 1.4.0</title>
-    <updated>2026-09-07T00:18:45+00:00</updated>
-    <content>An AI Supply Chain security tool that that detects Pickle bombs and generates CycloneDX SBOMs for Machine Learning models.</content>
-    <link href="https://pypi.org/project/aisbom-cli/1.4.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T00:18:45+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/425304c777dd8a02</id>
-    <title>agentsouk 0.2.0</title>
-    <updated>2026-09-07T00:18:39+00:00</updated>
-    <content>Identity, marketplace and messaging for AI agents in one API. Register with one call, no human needed. Hire other agents or sell your skills; pay and get paid wallet-to-wallet in USDC on Base (no custody, sealed deliveries).</content>
-    <link href="https://pypi.org/project/agentsouk/0.2.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T00:18:39+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/e5acf7de90547b08</id>
-    <title>galaxy_beep_frame 0.2.0</title>
-    <updated>2026-09-07T00:18:37+00:00</updated>
-    <content>Interface for BEEP Frame manipulation</content>
-    <link href="https://pypi.org/project/galaxy-beep-frame/0.2.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T00:18:37+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/1f7fb7ca56c7b91a</id>
-    <title>tesserae-mcp 0.16.0</title>
-    <updated>2026-09-07T00:18:15+00:00</updated>
-    <content>MCP bridge for Tesserae: build e-ink canvas dashboards with an AI agent.</content>
-    <link href="https://pypi.org/project/tesserae-mcp/0.16.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T00:18:15+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/fe566c6a7de45527</id>
-    <title>kicad-cruncher 2026.9.7</title>
-    <updated>2026-09-07T00:18:10+00:00</updated>
-    <content>Cross-platform KiCad CLI workflows built on public kicad-monkey</content>
-    <link href="https://pypi.org/project/kicad-cruncher/2026.9.7/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-07T00:18:10+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee</id>
     <title>Bob Belderbos: 5 design patterns used in my new habit tracker app</title>
     <updated>2026-09-07T00:00:00+00:00</updated>
@@ -966,22 +981,6 @@ easier to restart PostgreSQL servers and keep track of MySQL storage limits.</co
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/fa371ac3d377aed0</id>
-    <title>Trey Hunner: Python Morsels now has spaced repetition</title>
-    <updated>2026-09-04T00:30:00+00:00</updated>
-    <content>Nearly every book I’ve read on teaching and education over the past decade has talked about the value of spaced repetition .
-For much of that time, spaced repetition has been something I would recommend learners do, but it wasn’t something I helped anyone do… until now. Python Morsels now has Daily Recall : a spaced repetition system for Python programmers . We learn by recalling, not by reading The most effective learning techniques all rely on active recall : trying to remember something witho</content>
-    <link href="https://treyhunner.com/2026/09/python-morsels-now-has-spaced-repetition/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-04T00:30:00+00:00</published>
-    <media:group>
-      <media:content url="https://treyhunner.com/images/daily-recall-card.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://treyhunner.com/images/daily-recall-card.png"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://treyhunner.com/images/daily-recall-card.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/3f8bd57b69e10ba6</id>

@@ -8,6 +8,52 @@
   "icon": "https://www.google.com/s2/favicons?domain=blog.mozilla.org&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/8a80161607f2a55a",
+      "url": "https://discourse.mozilla.org/t/happy-bmo-push-day-20260908-1/149413",
+      "title": "Happy BMO Push Day! (20260908.1)",
+      "content_text": "Github Link\nThe following changes have been pushed to bugzilla.mozilla.org:\n\nBug 1205300 - Missing: related documentation “Reporting”\nBug 2068120 - Thunderbird access to “Iteration” and “Due Date” fields\nBug 2066252 - Prevent save if keyword checkin-needed-tb exists without target milestone\nBug 2070017 - Reinstate web bounty form\nBug 2059948 - Do not offer printable recovery codes to Duo users\n\nDiscuss these changes in the BMO Matrix Room\n1 post - 1 participant\nRead full topic",
+      "date_published": "2026-09-10T02:34:16Z",
+      "date_modified": "2026-09-10T02:34:16Z",
+      "authors": [
+        {
+          "name": "Planet Mozilla"
+        }
+      ],
+      "image": "https://us1.discourse-cdn.com/flex001/uploads/mozilla/original/3X/1/8/180ccfafb4284e125acb62e88c091db07e8a77bb.png",
+      "tags": [
+        "Planet Mozilla"
+      ],
+      "attachments": [
+        {
+          "url": "https://us1.discourse-cdn.com/flex001/uploads/mozilla/original/3X/1/8/180ccfafb4284e125acb62e88c091db07e8a77bb.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/383cd2194979667b",
+      "url": "https://connect.mozilla.org/t5/discussions/when-will-the-free-firefox-built-in-vpn-be-available-for/m-p/137809#M55878",
+      "title": "When will the FREE Firefox built-in VPN be available for Australi?",
+      "content_text": "Firefox has been promising a FREE browser-level built-in VPN for some countries, including Australia. According to their sites, Australia should be able to access by now, but it seems NO Australians can.  Instead, we get directed to the PAID SUBSCRIPTION MOZILLA VPN! Can someone PLEASE explain WHEN we will be getting the FREE version of if this was just a big fat lie?",
+      "date_published": "2026-09-10T00:51:44Z",
+      "date_modified": "2026-09-10T00:51:44Z",
+      "authors": [
+        {
+          "name": "Mozilla Connect"
+        }
+      ],
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "tags": [
+        "Mozilla Connect"
+      ],
+      "attachments": [
+        {
+          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/mozilla/1c66c0e08301fb8f",
       "url": "https://connect.mozilla.org/t5/discussions/firefox-on-iphone-search-bar-bug-please-fix/m-p/137795#M55875",
       "title": "Firefox on iPhone - Search Bar Bug - Please Fix",
@@ -258,6 +304,22 @@
           "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
           "mime_type": "image/jpeg"
         }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/2c8cd24826c3a51f",
+      "url": "https://this-week-in-rust.org/blog/2026/09/09/this-week-in-rust-668/",
+      "title": "This Week in Rust 668",
+      "content_text": "Hello and welcome to another issue of This Week in Rust!\nRust is a programming language empowering everyone to build reliable and efficient software.\nThis is a weekly summary of its progress and community.\nWant something mentioned? Tag us at\n@thisweekinrust.bsky.social on Bluesky or\n@ThisWeekinRust on mastodon.social …",
+      "date_published": "2026-09-09T04:00:00Z",
+      "date_modified": "2026-09-09T04:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Mozilla"
+        }
+      ],
+      "tags": [
+        "Planet Mozilla"
       ]
     },
     {
@@ -543,29 +605,6 @@
       "content_text": "just introducing myself and giving feedback to Mozilla",
       "date_published": "2026-09-07T18:48:29Z",
       "date_modified": "2026-09-07T18:48:29Z",
-      "authors": [
-        {
-          "name": "Mozilla Connect"
-        }
-      ],
-      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-      "tags": [
-        "Mozilla Connect"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/da9e4aa51db0ce46",
-      "url": "https://connect.mozilla.org/t5/discussions/misssing-old-title-bar-tab-function/m-p/137441#M55635",
-      "title": "Misssing old title bar tab function",
-      "content_text": "On previous version of FF we were able to close out tabs (x on tab) without having to have it active, but the present version is lacking that - please restore it",
-      "date_published": "2026-09-07T17:19:23Z",
-      "date_modified": "2026-09-07T17:19:23Z",
       "authors": [
         {
           "name": "Mozilla Connect"
@@ -1325,29 +1364,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/d1d0b2487f3c2e3e",
-      "url": "https://blog.rust-lang.org/2026/08/26/announcing-our-first-maintainers-in-residence/",
-      "title": "Announcing our first Maintainers in Residence",
-      "content_text": "We are very happy to announce the Rust Project's first round of Maintainers in Residence:\nGen Li (@rami3l), Chris Denton (@ChrisDenton), Alejandra González (@blyxyas), León Liehr (@fmease), and Maintainer Grant recipients: Jason Newcomb (@Jarcho) and Jonas Böttiger (@joboet). These contributors will be funded for their rust-lang maintenance activities for (at least) the following 12 months!\nThe funding of the Maintainer in Residence (MiR) and Maintainer Grantee roles is possible thanks to genero",
-      "date_published": "2026-08-26T00:00:00Z",
-      "date_modified": "2026-08-26T00:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Mozilla"
-        }
-      ],
-      "image": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
-      "tags": [
-        "Planet Mozilla"
-      ],
-      "attachments": [
-        {
-          "url": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/mozilla/1337eba2bfd993f8",
       "url": "https://blog.nightly.mozilla.org/2026/08/25/icons-lots-of-them-these-weeks-in-firefox-issue-206/",
       "title": "Icons! Lots of them! – These Weeks in Firefox: Issue 206",
@@ -1458,29 +1474,6 @@
       "attachments": [
         {
           "url": "https://www.firefox.com/media/img/firefox/flare/og.4d50d9b1674b.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/c78428abf63c7ad9",
-      "url": "https://discourse.mozilla.org/t/happy-bmo-push-day-20260824-1/149251",
-      "title": "Happy BMO Push Day! (20260824.1)",
-      "content_text": "Github Link\nThe following changes have been pushed to bugzilla.mozilla.org:\n\nBug 1224099 - create 2fa user documentation\nBug 1832783 - Wrong error message for exceeding file size\nBug 2064475 - phab-bot leaves #release-managers review as non-blocking when a user manually adds it first\nBug 2043229 - Display a “Show External” button beneath attachments list to display all attachments that would redirect such as Github and Phabricator\nBug 2057679 - Update docker build process to pull in latest build",
-      "date_published": "2026-08-24T20:29:42Z",
-      "date_modified": "2026-08-24T20:29:42Z",
-      "authors": [
-        {
-          "name": "Planet Mozilla"
-        }
-      ],
-      "image": "https://us1.discourse-cdn.com/flex001/uploads/mozilla/original/3X/1/8/180ccfafb4284e125acb62e88c091db07e8a77bb.png",
-      "tags": [
-        "Planet Mozilla"
-      ],
-      "attachments": [
-        {
-          "url": "https://us1.discourse-cdn.com/flex001/uploads/mozilla/original/3X/1/8/180ccfafb4284e125acb62e88c091db07e8a77bb.png",
           "mime_type": "image/png"
         }
       ]

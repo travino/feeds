@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-09-10T00:32:56.486711+00:00</updated>
+  <updated>2026-09-10T05:10:56.433797+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -53,6 +53,20 @@
       <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/1UclxTs0019dGYT78njfV7/564c2815192122bcdcedce7b4ab36e3a/Business_blog_16x9.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
     </media:group>
     <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/1UclxTs0019dGYT78njfV7/564c2815192122bcdcedce7b4ab36e3a/Business_blog_16x9.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/openai/58d0f80fd894ac03</id>
+    <title>Deep Research in ChatGPT Work and Codex</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Deep research is now available in ChatGPT Work and Codex. Research complex questions across the web, your files, and supported connected apps, then turn the findings into an editable document with citations. You can steer the research as it runs and request a document, presentation, spreadsheet, or Site, depending on available tools. To start, type @Deep Research in Work or explicitly ask for deep research. Available to Plus, Pro, Business, Enterprise, and Edu users with Work access on web, desk</content>
+    <link href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes#chatgpt-2026-09-09-deep-research-in-chatgpt-work-and-codex-5531bd9b" rel="alternate"/>
+    <category term="ChatGPT release notes" label="ChatGPT release notes"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://help.openai.com/og-image.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://help.openai.com/og-image.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://help.openai.com/og-image.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/openai/fe4dd5f209fe046e</id>
@@ -2757,19 +2771,5 @@
       <media:thumbnail url="https://help.openai.com/og-image.png"/>
     </media:group>
     <link rel="enclosure" href="https://help.openai.com/og-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/openai/12199990cee0cb84</id>
-    <title>Migrate usage limits from weekly to monthly</title>
-    <updated>2026-08-04T00:00:00+00:00</updated>
-    <content>Workspace owners can now migrate weekly limits configured in Permissions &amp; roles to monthly limits conveniently. Open Workspace settings → Permissions &amp; roles, select any role, scroll to Weekly limits, choose Migrate, and confirm. Starting the migration from any role moves all remaining weekly role-based limits in the workspace and may take several minutes, depending on workspace size. On August 15, remaining ChatGPT Enterprise workspaces that still use weekly role-based spend limits are schedul</content>
-    <link href="https://openai.com/products/release-notes#CL-20260804-CHAT-390" rel="alternate"/>
-    <category term="OpenAI Release notes" label="OpenAI Release notes"/>
-    <published>2026-08-04T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" medium="image" height="900" width="1600"/>
-      <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
-    </media:group>
-    <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
   </entry>
 </feed>

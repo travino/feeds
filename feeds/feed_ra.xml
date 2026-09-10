@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-10T00:33:10.990266+00:00</updated>
+  <updated>2026-09-10T05:11:08.928050+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85995</id>
+    <title>Mix Of The Day: DIEBYVEG &amp; Charlotte Walsh</title>
+    <updated>2026-09-10T05:00:48+00:00</updated>
+    <content>The spirit of forest raves.</content>
+    <link href="https://ra.co/news/85995" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-10T05:00:48+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-09-sep-2026-05-27-pm-3178.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-09-sep-2026-05-27-pm-3178.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-09-sep-2026-05-27-pm-3178.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/news/85717</id>
     <title>Mix Of The Day: Das Firmament</title>
@@ -2797,19 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-04-48-pm-6011.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-04-48-pm-6011.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85868</id>
-    <title>Mix Of The Day: Carpainter</title>
-    <updated>2026-08-26T05:00:58+00:00</updated>
-    <content>An essential lesson in Japanese techno.</content>
-    <link href="https://ra.co/news/85868" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-26T05:00:58+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-05-24-pm-2093.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-05-24-pm-2093.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-05-24-pm-2093.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

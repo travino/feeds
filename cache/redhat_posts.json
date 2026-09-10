@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T00:33:16.952525+00:00",
+  "last_updated": "2026-09-10T05:11:13.225298+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -6034,7 +6034,7 @@
       "title": "Beyond container boundaries: Kernel-level agent security in Red Hat OpenShift AI 3.5",
       "link": "https://www.redhat.com/en/blog/beyond-container-boundaries-kernel-level-agent-security-red-hat-openshift-ai-35",
       "date": "2026-09-08T00:00:00+00:00",
-      "description": "77% of organizations now have AI agents running in production.1 The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. Many are operating in what IDC calls a \"governance grey zone.\" Shadow AI incidents cost, on average, $670,000 more than standard security incidents.The problem is architectural, not attitudinal. Teams want governance, but they lack the tools. AI agents that browse the web, execute code, query databases",
+      "description": "77% of organizations now have AI agents running in production. The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. \"Organizations must broaden the extent of AI governance in the operational realm.\"1 Shadow AI incidents cost, on average, $670,000 more than standard security incidents.The problem is architectural, not attitudinal. Teams want governance, but they lack the tools. AI agents that browse the web, execute c",
       "source": "Red Hat Blog",
       "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/4bba335fee785245"
@@ -6957,6 +6957,16 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0c84786daecf54c4"
     },
     {
+      "title": "RHSA-2026:66120: Critical: Updated Container Images: HawtIO 4.4.1 for Red Hat build of Apache Camel 4 Release and security update.",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66120",
+      "date": "2026-09-09T21:28:39+00:00",
+      "description": "Updated container images are now available",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/fcb05cd484528c3f"
+    },
+    {
       "title": "RHSA-2026:66203: Important: python3.12-lxml security update",
       "link": "https://access.redhat.com/errata/RHSA-2026:66203",
       "date": "2026-09-09T22:16:57+00:00",
@@ -6985,6 +6995,36 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/b7a83493258d9dcb"
+    },
+    {
+      "title": "RHSA-2026:66180: Important: kernel security, bug fix, and enhancement update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66180",
+      "date": "2026-09-10T00:39:23+00:00",
+      "description": "An update for kernel is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/3ff367f3178dceee"
+    },
+    {
+      "title": "RHSA-2026:66281: Important: freerdp security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66281",
+      "date": "2026-09-10T02:04:20+00:00",
+      "description": "An update for freerdp is now available for Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/b4d6d36e137a26de"
+    },
+    {
+      "title": "RHSA-2026:66282: Important: freerdp security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66282",
+      "date": "2026-09-10T02:05:39+00:00",
+      "description": "An update for freerdp is now available for Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions and Red Hat Enterprise Linux 8.8 Telecommunications Update Service.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/f90e7fdac44d46d9"
     }
   ]
 }

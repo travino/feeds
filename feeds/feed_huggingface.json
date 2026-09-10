@@ -8,6 +8,29 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/ba28783c8002351d",
+      "url": "https://huggingface.co/posts/SoulInPsyAbstract/711982512565448",
+      "title": "Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve.",
+      "content_text": "Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve. Held-out score: 0/10 before fine-tuning. 0/10 after. Ran a before/after LoRA fine-tune on IFM/K2-Horizon-0.9B (Apache 2.0, released this week) on a binary fabrication-detection gate — entirely on a free CPU tier, no GPU. The training loss says it learned something real. The eval says it learned nothing that generalizes. Looked at the actual raw outputs instead of trusting the score. Both before and after, the model never once emits TRUE or FALSE — it just continues the system prompt as text: \"The user is asking me...\" before, \"The user is asking for...\" after. Fine-tuning moved the failure string by two words. It did",
+      "date_published": "2026-09-10T05:09:56Z",
+      "date_modified": "2026-09-10T05:09:56Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/7d6bcf2553c986b6",
       "url": "https://huggingface.co/posts/anakin87/292264034976390",
       "title": "I made a 1.1M ModernBERT encoder play Doom in real time on a CPU",

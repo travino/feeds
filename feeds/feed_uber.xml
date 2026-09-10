@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.uber.com/us/en/newsroom/</id>
   <title>Uber Newsroom</title>
-  <updated>2026-09-10T00:33:57.297048+00:00</updated>
+  <updated>2026-09-10T05:11:46.196462+00:00</updated>
   <author>
     <name>Uber</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.uber.com/favicon.ico</icon>
   <logo>https://www.uber.com/favicon.ico</logo>
   <subtitle>Uber Blog (Poland + US) and Uber US Newsroom in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/uber/d34b91d04afd4f75</id>
+    <title>From One Horizontal Scaling Controller to Many: Evolving Uber's Compute Platform</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>From One Horizontal Scaling Controller to Many: Evolving Uber's Compute Platform</content>
+    <link href="https://www.uber.com/us/en/blog/evolving-ubers-compute-platform/" rel="alternate"/>
+    <category term="Uber Blog US" label="Uber Blog US"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://tb-static.uber.com/prod/udam-assets/f6dc9d95-2918-4261-b5e3-e7553e7dcfe1.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://tb-static.uber.com/prod/udam-assets/f6dc9d95-2918-4261-b5e3-e7553e7dcfe1.jpeg"/>
+    </media:group>
+    <dc:creator>Uber Blog US</dc:creator>
+    <link rel="enclosure" href="https://tb-static.uber.com/prod/udam-assets/f6dc9d95-2918-4261-b5e3-e7553e7dcfe1.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/uber/a884de0415b52723</id>
     <title>Your guide to earning on Uber</title>

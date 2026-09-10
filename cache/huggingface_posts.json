@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T00:32:00.358516+00:00",
+  "last_updated": "2026-09-10T05:10:00.919531+00:00",
   "entries": [
     {
       "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
@@ -1872,6 +1872,15 @@
       "source": "Hugging Face Posts",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/626505d493e0b04d75710566/ASfNeaaO56M7BIZcf3vdC.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/7d6bcf2553c986b6"
+    },
+    {
+      "title": "Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve.",
+      "link": "https://huggingface.co/posts/SoulInPsyAbstract/711982512565448",
+      "date": "2026-09-10T05:09:56.926858+00:00",
+      "description": "Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve. Held-out score: 0/10 before fine-tuning. 0/10 after. Ran a before/after LoRA fine-tune on IFM/K2-Horizon-0.9B (Apache 2.0, released this week) on a binary fabrication-detection gate — entirely on a free CPU tier, no GPU. The training loss says it learned something real. The eval says it learned nothing that generalizes. Looked at the actual raw outputs instead of trusting the score. Both before and after, the model never once emits TRUE or FALSE — it just continues the system prompt as text: \"The user is asking me...\" before, \"The user is asking for...\" after. Fine-tuning moved the failure string by two words. It did",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/ba28783c8002351d"
     }
   ]
 }

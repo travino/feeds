@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-10T00:33:16.878770+00:00</updated>
+  <updated>2026-09-10T05:11:13.144991+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,42 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/f90e7fdac44d46d9</id>
+    <title>RHSA-2026:66282: Important: freerdp security update</title>
+    <updated>2026-09-10T02:05:39+00:00</updated>
+    <content>An update for freerdp is now available for Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions and Red Hat Enterprise Linux 8.8 Telecommunications Update Service.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66282" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T02:05:39+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/b4d6d36e137a26de</id>
+    <title>RHSA-2026:66281: Important: freerdp security update</title>
+    <updated>2026-09-10T02:04:20+00:00</updated>
+    <content>An update for freerdp is now available for Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66281" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T02:04:20+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/3ff367f3178dceee</id>
+    <title>RHSA-2026:66180: Important: kernel security, bug fix, and enhancement update</title>
+    <updated>2026-09-10T00:39:23+00:00</updated>
+    <content>An update for kernel is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66180" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T00:39:23+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/b7a83493258d9dcb</id>
     <title>RHSA-2026:66248: Important: ansible-core security update</title>
@@ -46,6 +82,16 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <link href="https://access.redhat.com/errata/RHSA-2026:66203" rel="alternate"/>
     <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
     <published>2026-09-09T22:16:57+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/fcb05cd484528c3f</id>
+    <title>RHSA-2026:66120: Critical: Updated Container Images: HawtIO 4.4.1 for Red Hat build of Apache Camel 4 Release and security update.</title>
+    <updated>2026-09-09T21:28:39+00:00</updated>
+    <content>Updated container images are now available</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66120" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-09T21:28:39+00:00</published>
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
@@ -161,54 +207,6 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/GC-opensource_2x%20%281%29.png?itok=t6qsnXn3" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/7726d8cb1d8bdedc</id>
-    <title>RHSA-2026:65959: Moderate: gstreamer1-plugins-good security update</title>
-    <updated>2026-09-09T13:06:36+00:00</updated>
-    <content>An update for gstreamer1-plugins-good is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65959" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T13:06:36+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/e6293d764ae3a3db</id>
-    <title>RHSA-2026:65918: Important: delve security update</title>
-    <updated>2026-09-09T12:06:06+00:00</updated>
-    <content>An update for delve is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65918" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T12:06:06+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/36a3def84a7ba852</id>
-    <title>RHSA-2026:65886: Important: image-builder security update</title>
-    <updated>2026-09-09T11:17:56+00:00</updated>
-    <content>An update for image-builder is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65886" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T11:17:56+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/f91e8e43a019fbfd</id>
-    <title>RHSA-2026:65897: Important: qt5-qtbase security update</title>
-    <updated>2026-09-09T11:17:56+00:00</updated>
-    <content>An update for qt5-qtbase is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:65897" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T11:17:56+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/430928d4a1befe91</id>
@@ -409,7 +407,7 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <id>tag:trvny.github.io,2024:feedseek/redhat/4bba335fee785245</id>
     <title>Beyond container boundaries: Kernel-level agent security in Red Hat OpenShift AI 3.5</title>
     <updated>2026-09-08T00:00:00+00:00</updated>
-    <content>77% of organizations now have AI agents running in production.1 The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. Many are operating in what IDC calls a "governance grey zone." Shadow AI incidents cost, on average, $670,000 more than standard security incidents.The problem is architectural, not attitudinal. Teams want governance, but they lack the tools. AI agents that browse the web, execute code, query databases</content>
+    <content>77% of organizations now have AI agents running in production. The adoption curve is steep. The governance curve is not. Agents operate over-permissioned and often without full security sign-off. "Organizations must broaden the extent of AI governance in the operational realm."1 Shadow AI incidents cost, on average, $670,000 more than standard security incidents.The problem is architectural, not attitudinal. Teams want governance, but they lack the tools. AI agents that browse the web, execute c</content>
     <link href="https://www.redhat.com/en/blog/beyond-container-boundaries-kernel-level-agent-security-red-hat-openshift-ai-35" rel="alternate"/>
     <category term="Red Hat Blog" label="Red Hat Blog"/>
     <published>2026-09-08T00:00:00+00:00</published>

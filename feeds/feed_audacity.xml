@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.audacityteam.org/blog/</id>
   <title>Audacity®</title>
-  <updated>2026-09-10T00:31:14.527675+00:00</updated>
+  <updated>2026-09-10T05:08:54.761081+00:00</updated>
   <author>
     <name>Audacity / MuseHub</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.audacityteam.org/favicon.ico</icon>
   <logo>https://www.audacityteam.org/favicon.ico</logo>
   <subtitle>Audacity blog and forum updates, plus MuseHub news and newly listed audio tools.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/3959ad39ba199d1d</id>
+    <title>Audacity 4 Export to mp3</title>
+    <updated>2026-09-10T02:27:36+00:00</updated>
+    <content>I noticed when exporting to computer, it does not put .mp3 at the end of the file when choosing the mp3 option. I did not have an issue with this in Audacity 3. I tested exporting and putting .mp3 with my file name and that worked, but that is a bit annoying. Hoping this gets fixed along with all of the other bugs. 1 post - 1 participant Read full topic</content>
+    <link href="https://forum.audacityteam.org/t/audacity-4-export-to-mp3/154024" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-10T02:27:36+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/audacity/212c3fd47703054a</id>
     <title>Bevel EQ</title>
@@ -61,7 +76,7 @@
     <id>tag:trvny.github.io,2024:feedseek/audacity/9811c84fc0ab074f</id>
     <title>Meta data doesnt save when exporting an MP3</title>
     <updated>2026-09-09T23:07:07+00:00</updated>
-    <content>When I export to an MP3 the metadata does not show up even though I spelled it out in the metadata editor 1 post - 1 participant Read full topic</content>
+    <content>When I export to an MP3 the metadata does not show up even though I spelled it out in the metadata editor 2 posts - 2 participants Read full topic</content>
     <link href="https://forum.audacityteam.org/t/meta-data-doesnt-save-when-exporting-an-mp3/154020" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-09T23:07:07+00:00</published>
@@ -211,7 +226,7 @@
     <id>tag:trvny.github.io,2024:feedseek/audacity/028e9ee580248d0b</id>
     <title>Autoduck missing</title>
     <updated>2026-09-09T10:17:53+00:00</updated>
-    <content>I cannot find AutoDuck in v4. I have used it extensively in 3.X. The help sends me to a page that can’t be found. Is this a bug or a delayed implementation? 2 posts - 2 participants Read full topic</content>
+    <content>I cannot find AutoDuck in v4. I have used it extensively in 3.X. The help sends me to a page that can’t be found. Is this a bug or a delayed implementation? 3 posts - 3 participants Read full topic</content>
     <link href="https://forum.audacityteam.org/t/autoduck-missing/154014" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-09T10:17:53+00:00</published>

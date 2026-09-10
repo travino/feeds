@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T00:33:09.886223+00:00",
+  "last_updated": "2026-09-10T05:11:09.779550+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -8146,15 +8146,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/103f1dba0563dbba"
     },
     {
-      "title": "Graham Dumpleton: Tracing Flask with wrapture",
-      "link": "https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/",
-      "date": "2026-09-09T01:39:21+00:00",
-      "description": "For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret",
-      "source": "Planet Python",
-      "image": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43"
-    },
-    {
       "title": "Python GUIs: Clean up on exit — Stopping threads when closing a PyQt6 application — How to properly shut down background threads and workers when your application window is closed",
       "link": "https://www.pythonguis.com/faq/clean-up-on-exit-application/",
       "date": "2026-09-09T06:00:00+00:00",
@@ -8180,6 +8171,15 @@
       "source": "Planet Python",
       "image": "https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/f2affdba0b1cdc2d"
+    },
+    {
+      "title": "Graham Dumpleton: Tracing Flask with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43"
     },
     {
       "title": "PyTorch Conference China 2026: Advancing the Open Source AI Stack",
@@ -8239,6 +8239,65 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/e46594f36a08c523"
+    },
+    {
+      "title": "Graham Dumpleton: Finding slow code with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+      "date": "2026-09-10T01:39:23+00:00",
+      "description": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around ",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611"
+    },
+    {
+      "title": "aidxops 0.0.0",
+      "link": "https://pypi.org/project/aidxops/0.0.0/",
+      "date": "2026-09-10T05:10:31+00:00",
+      "description": "Agent observability and quality SDK (placeholder release)",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/3b7f76aa19b18e86"
+    },
+    {
+      "title": "aidx 0.0.0",
+      "link": "https://pypi.org/project/aidx/0.0.0/",
+      "date": "2026-09-10T05:10:33+00:00",
+      "description": "Agent observability and quality SDK (placeholder release)",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/7ddad8e0357932f4"
+    },
+    {
+      "title": "readie 0.2.6",
+      "link": "https://pypi.org/project/readie/0.2.6/",
+      "date": "2026-09-10T05:10:39+00:00",
+      "description": "Client SDK for running Python functions on Readie",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/37a4b614f40f0240"
+    },
+    {
+      "title": "before-push 0.1.1",
+      "link": "https://pypi.org/project/before-push/0.1.1/",
+      "date": "2026-09-10T05:10:44+00:00",
+      "description": "A small CLI that checks your current Git branch before you push or open a pull request.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2858a7ea880b0260"
+    },
+    {
+      "title": "agent-harness-aibom 0.10.0",
+      "link": "https://pypi.org/project/agent-harness-aibom/0.10.0/",
+      "date": "2026-09-10T05:10:47+00:00",
+      "description": "AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/41bc35f2f9f8cd6c"
     }
   ]
 }

@@ -8,6 +8,109 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/41bc35f2f9f8cd6c",
+      "url": "https://pypi.org/project/agent-harness-aibom/0.10.0/",
+      "title": "agent-harness-aibom 0.10.0",
+      "content_text": "AIBOM generator for AI agent harnesses (Hermes, OpenClaw) and their model/skill/MCP/hook surface",
+      "date_published": "2026-09-10T05:10:47Z",
+      "date_modified": "2026-09-10T05:10:47Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/2858a7ea880b0260",
+      "url": "https://pypi.org/project/before-push/0.1.1/",
+      "title": "before-push 0.1.1",
+      "content_text": "A small CLI that checks your current Git branch before you push or open a pull request.",
+      "date_published": "2026-09-10T05:10:44Z",
+      "date_modified": "2026-09-10T05:10:44Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/37a4b614f40f0240",
+      "url": "https://pypi.org/project/readie/0.2.6/",
+      "title": "readie 0.2.6",
+      "content_text": "Client SDK for running Python functions on Readie",
+      "date_published": "2026-09-10T05:10:39Z",
+      "date_modified": "2026-09-10T05:10:39Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/7ddad8e0357932f4",
+      "url": "https://pypi.org/project/aidx/0.0.0/",
+      "title": "aidx 0.0.0",
+      "content_text": "Agent observability and quality SDK (placeholder release)",
+      "date_published": "2026-09-10T05:10:33Z",
+      "date_modified": "2026-09-10T05:10:33Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/3b7f76aa19b18e86",
+      "url": "https://pypi.org/project/aidxops/0.0.0/",
+      "title": "aidxops 0.0.0",
+      "content_text": "Agent observability and quality SDK (placeholder release)",
+      "date_published": "2026-09-10T05:10:31Z",
+      "date_modified": "2026-09-10T05:10:31Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611",
+      "url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+      "title": "Graham Dumpleton: Finding slow code with wrapture",
+      "content_text": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around",
+      "date_published": "2026-09-10T01:39:23Z",
+      "date_modified": "2026-09-10T01:39:23Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/e46594f36a08c523",
       "url": "https://pypi.org/project/synth-containers/0.4.3/",
       "title": "synth-containers 0.4.3",
@@ -111,6 +214,29 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43",
+      "url": "https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/",
+      "title": "Graham Dumpleton: Tracing Flask with wrapture",
+      "content_text": "For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/8cb1903c8c7f27b1",
       "url": "https://www.pythonguis.com/faq/clean-up-on-exit-application/",
       "title": "Python GUIs: Clean up on exit — Stopping threads when closing a PyQt6 application — How to properly shut down background threads and workers when your application window is closed",
@@ -176,29 +302,6 @@
         {
           "url": "https://www.pythonguis.com/static/faq/check-qlinedit-is-empty/lineedit-empty.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/7957ac536b8c2f43",
-      "url": "https://grahamdumpleton.me/posts/2026/09/tracing-flask-with-wrapture/",
-      "title": "Graham Dumpleton: Tracing Flask with wrapture",
-      "content_text": "For a web application the natural unit of tracing is the request: one HTTP request, its method, path and status, and every observed call made while handling it, as one tree. The config file from last time cannot give you that on its own, and it is worth being clear about why before showing what does. A WSGI application looks like any other callable, but it routes the interesting facts around the return value. The status and headers travel through the start_response callback rather than being ret",
-      "date_published": "2026-09-09T01:39:21Z",
-      "date_modified": "2026-09-09T01:39:21Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -1131,86 +1234,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/d3c86bf87169ed8e",
-      "url": "https://pypi.org/project/aisbom-cli/1.4.0/",
-      "title": "aisbom-cli 1.4.0",
-      "content_text": "An AI Supply Chain security tool that that detects Pickle bombs and generates CycloneDX SBOMs for Machine Learning models.",
-      "date_published": "2026-09-07T00:18:45Z",
-      "date_modified": "2026-09-07T00:18:45Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/425304c777dd8a02",
-      "url": "https://pypi.org/project/agentsouk/0.2.0/",
-      "title": "agentsouk 0.2.0",
-      "content_text": "Identity, marketplace and messaging for AI agents in one API. Register with one call, no human needed. Hire other agents or sell your skills; pay and get paid wallet-to-wallet in USDC on Base (no custody, sealed deliveries).",
-      "date_published": "2026-09-07T00:18:39Z",
-      "date_modified": "2026-09-07T00:18:39Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/e5acf7de90547b08",
-      "url": "https://pypi.org/project/galaxy-beep-frame/0.2.0/",
-      "title": "galaxy_beep_frame 0.2.0",
-      "content_text": "Interface for BEEP Frame manipulation",
-      "date_published": "2026-09-07T00:18:37Z",
-      "date_modified": "2026-09-07T00:18:37Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/1f7fb7ca56c7b91a",
-      "url": "https://pypi.org/project/tesserae-mcp/0.16.0/",
-      "title": "tesserae-mcp 0.16.0",
-      "content_text": "MCP bridge for Tesserae: build e-ink canvas dashboards with an AI agent.",
-      "date_published": "2026-09-07T00:18:15Z",
-      "date_modified": "2026-09-07T00:18:15Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/fe566c6a7de45527",
-      "url": "https://pypi.org/project/kicad-cruncher/2026.9.7/",
-      "title": "kicad-cruncher 2026.9.7",
-      "content_text": "Cross-platform KiCad CLI workflows built on public kicad-monkey",
-      "date_published": "2026-09-07T00:18:10Z",
-      "date_modified": "2026-09-07T00:18:10Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/23d502bbf7f57aee",
       "url": "https://belderbos.dev/blog/python-patterns-django-habit-tracker/",
       "title": "Bob Belderbos: 5 design patterns used in my new habit tracker app",
@@ -1446,29 +1469,6 @@
         {
           "url": "https://cdn-podcast.talkpython.fm/episodes/youtube_image/lmG0ocDTsZo/tonio-a-multi-threaded-async-runtime-for-python.jpg?v=1",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/fa371ac3d377aed0",
-      "url": "https://treyhunner.com/2026/09/python-morsels-now-has-spaced-repetition/",
-      "title": "Trey Hunner: Python Morsels now has spaced repetition",
-      "content_text": "Nearly every book I’ve read on teaching and education over the past decade has talked about the value of spaced repetition .\nFor much of that time, spaced repetition has been something I would recommend learners do, but it wasn’t something I helped anyone do… until now. Python Morsels now has Daily Recall : a spaced repetition system for Python programmers . We learn by recalling, not by reading The most effective learning techniques all rely on active recall : trying to remember something witho",
-      "date_published": "2026-09-04T00:30:00Z",
-      "date_modified": "2026-09-04T00:30:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://treyhunner.com/images/daily-recall-card.png",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://treyhunner.com/images/daily-recall-card.png",
-          "mime_type": "image/png"
         }
       ]
     },

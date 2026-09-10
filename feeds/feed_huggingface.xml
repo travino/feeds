@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-10T00:32:00.254575+00:00</updated>
+  <updated>2026-09-10T05:10:00.807156+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/ba28783c8002351d</id>
+    <title>Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve.</title>
+    <updated>2026-09-10T05:09:56.926858+00:00</updated>
+    <content>Loss went from 2.35 to 0.27 in 50 steps. Clean, textbook convergence curve. Held-out score: 0/10 before fine-tuning. 0/10 after. Ran a before/after LoRA fine-tune on IFM/K2-Horizon-0.9B (Apache 2.0, released this week) on a binary fabrication-detection gate — entirely on a free CPU tier, no GPU. The training loss says it learned something real. The eval says it learned nothing that generalizes. Looked at the actual raw outputs instead of trusting the score. Both before and after, the model never once emits TRUE or FALSE — it just continues the system prompt as text: "The user is asking me..." before, "The user is asking for..." after. Fine-tuning moved the failure string by two words. It did</content>
+    <link href="https://huggingface.co/posts/SoulInPsyAbstract/711982512565448" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-10T05:09:56.926858+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/SoulInPsyAbstract/711982512565448.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/7d6bcf2553c986b6</id>
     <title>I made a 1.1M ModernBERT encoder play Doom in real time on a CPU</title>
