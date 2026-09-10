@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-10T11:45:04.773013+00:00</updated>
+  <updated>2026-09-10T16:38:57.874393+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -12,6 +12,71 @@
   <icon>https://blog.cloudflare.com/favicon.ico</icon>
   <logo>https://blog.cloudflare.com/favicon.ico</logo>
   <subtitle>Combined Cloudflare feed: the Cloudflare Blog, the developer Changelog, Community top topics, Status incidents, and Cloudflare Research publications.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/f2a2f89e77317b97</id>
+    <title>Issues Editing Bulk Redirects</title>
+    <updated>2026-09-10T15:59:10+00:00</updated>
+    <content>Sep 10 , 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains unaffected, and this issue is limited to the configuration of these rules. Further details will be provided as we investigate.</content>
+    <link href="https://www.cloudflarestatus.com/incidents/92j1xmlkscw3" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-10T15:59:10+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/5c43528a1cc446cf</id>
+    <title>DNS Update Delays</title>
+    <updated>2026-09-10T14:17:13+00:00</updated>
+    <content>Sep 10 , 14:17 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 13:58 UTC Investigating - Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.</content>
+    <link href="https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-10T14:17:13+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/ed3eedaf835d3d01</id>
+    <title>1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it</title>
+    <updated>2026-09-10T13:00:00+00:00</updated>
+    <content>1.1.1.1 now validates DNSSEC signatures using NIST’s post-quantum ML-DSA-44 algorithm. Here is how we manage 2,420-byte signatures and downgrade risks at scale.</content>
+    <link href="https://blog.cloudflare.com/post-quantum-dnssec-1111/" rel="alternate"/>
+    <category term="Cloudflare Blog" label="Cloudflare Blog"/>
+    <published>2026-09-10T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://blog.cloudflare.com/_emdash/api/media/file/01M25DK32HZ1WQH3H12JRZ8W35.01M25DK70WYHHWWR2VQYE94TNP.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://blog.cloudflare.com/_emdash/api/media/file/01M25DK32HZ1WQH3H12JRZ8W35.01M25DK70WYHHWWR2VQYE94TNP.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Blog</dc:creator>
+    <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01M25DK32HZ1WQH3H12JRZ8W35.01M25DK70WYHHWWR2VQYE94TNP.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/59bff5c1f52694de</id>
+    <title>Workflows - Default instance retention for new Workflows on Workers Paid is seven days</title>
+    <updated>2026-09-10T12:00:00+00:00</updated>
+    <content>Workflows created on or after September 10, 2026, on the Workers Paid plan retain completed and errored instance state for seven days by default (previously 30 days). The seven day default helps to reduce storage costs by default. The maximum retention limit remains 30 days. The retention period for existing Workflows is unchanged. The Workers Free plan retains its three-day default and limit. To set the retention period for a Workflow instance, specify successRetention , errorRetention , or bot</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-10-paid-retention-default/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-10T12:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/b4970af06372f216</id>
+    <title>WAF - WAF Release - 2026-09-10 - Emergency</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>This update provides immediate defense against a high-severity, actively exploited zero-day vulnerability targeting Adobe Commerce and Magento Open Source storefronts. Key Findings Adobe Commerce and Magento RCE (CVE-2026-75650 / "StyleSmuggler"): Unauthenticated Remote Code Execution (RCE) vulnerability caused by improper neutralization of special elements in the platform's template engine. Unauthenticated attackers can inject arbitrary PHP payloads through style properties to execute system co</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-10-emergency-waf-release/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/5f550bcc13a085f5</id>
     <title>Cloudflare Workers AI increased errors</title>
@@ -31,6 +96,36 @@
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-09-09T19:18:25+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/164506eb69dc99b1</id>
+    <title>Cloudflare One Client - Cloudflare One Client for macOS (version 2026.8.1290.1)</title>
+    <updated>2026-09-09T18:10:27+00:00</updated>
+    <content>A new Beta release for the macOS Cloudflare One Client is now available on the beta releases downloads page . This beta release includes the following changes and improvements: Added support for routing non-RFC 1918 local IPv4 networks through the WARP tunnel when unrestricted LAN inclusion is enabled by policy or MDM. Improved DNS reliability on networks with lower MTUs by clamping the TCP maximum segment size (MSS) for DNS-over-HTTPS connections sent through the tunnel. Improved API reliabilit</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-09-warp-macos-beta/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-09T18:10:27+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/98cf4e532bba5fcc</id>
+    <title>Cloudflare One Client - Cloudflare One Client for Windows (version 2026.8.1290.1)</title>
+    <updated>2026-09-09T18:10:26+00:00</updated>
+    <content>A new Beta release for the Windows Cloudflare One Client is now available on the beta releases downloads page . This beta release includes the following changes and improvements: Added support for routing non-RFC 1918 local IPv4 networks through the WARP tunnel when unrestricted LAN inclusion is enabled by policy or MDM. Improved DNS reliability on networks with lower MTUs by clamping the TCP maximum segment size (MSS) for DNS-over-HTTPS connections sent through the tunnel. Improved API reliabil</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-09-warp-windows-beta/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-09T18:10:26+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/36a3deca386073c3</id>
@@ -86,6 +181,21 @@
     </media:group>
     <dc:creator>Cloudflare Changelog</dc:creator>
     <link rel="enclosure" href="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/cae958ed3339681a</id>
+    <title>CASB - New CASB integration for Zoom</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Cloudflare CASB now integrates with Zoom . The integration connects through Cloudflare's pre-built OAuth application — no manual app setup in Zoom is required. After an initial scan, CASB continuously scans your Zoom account to surface new findings as your environment changes. Zoom is widely used for meetings, webinars, and collaboration. Misconfigurations in account settings, meeting security controls, and recording access can expose organizations to data leakage, unauthorized access, and compl</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-09-casb-zoom-integration/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/a403d9b2c52ac497</id>
@@ -1267,21 +1377,6 @@ This issue is now resolved.</content>
     <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/bc6fdfef4c3e205a</id>
-    <title>Agents, Workers - Choose OAuth scopes for Wrangler and the Cloudflare API MCP server</title>
-    <updated>2026-08-22T00:00:00+00:00</updated>
-    <content>Wrangler and the Cloudflare API MCP server now use optional OAuth scopes. During authorization, you can choose which optional scopes to grant instead of approving every scope requested by each client. The consent dialog now includes the option to edit the permissions you grant to Wrangler or the Cloudflare API MCP server: You can then choose which specific permissions to grant: Required scopes remain selected. Choosing fewer optional scopes limits each tool's access to the permissions needed for</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-22-wrangler-mcp-optional-oauth-scopes/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-22T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1368,height=1008,format=webp/_astro/oauth-optional-scopes-review.BMp1De1d.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1368,height=1008,format=webp/_astro/oauth-optional-scopes-review.BMp1De1d.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1368,height=1008,format=webp/_astro/oauth-optional-scopes-review.BMp1De1d.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/e7c671b86ed96fd8</id>
     <title>Say it once: Introducing Bot Preference Sync</title>
     <updated>2026-08-21T23:19:57+00:00</updated>
@@ -1317,88 +1412,6 @@ We are working to analyze and mitigate this problem. More updates to follow shor
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-08-21T19:39:57+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/c9994e37a9bd7ffa</id>
-    <title>Cloudflare Access Browser-based RDP Issue</title>
-    <updated>2026-08-21T08:22:29+00:00</updated>
-    <content>Aug 21 , 08:22 UTC Resolved - This incident has been resolved. Aug 21 , 07:55 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 21 , 06:40 UTC Investigating - Cloudflare is investigating issues with Cloudflare Access Browser-based RDP. Some customers may be unable to connect to RDP servers.
-
-We are working to understand the full impact and mitigate this problem.  More updates to follow shortly.</content>
-    <link href="https://www.cloudflarestatus.com/incidents/k6v45x988py7" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-08-21T08:22:29+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/2636baee1792cd48</id>
-    <title>Network performance issue in Mumbai</title>
-    <updated>2026-08-21T07:45:56+00:00</updated>
-    <content>Aug 21 , 07:45 UTC Resolved - This incident has been resolved. Aug 21 , 07:38 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 21 , 07:31 UTC Identified - Cloudflare is investigating issues with network performance in Mumbai. We are working to analyse and mitigate this problem. More updates to follow shortly.</content>
-    <link href="https://www.cloudflarestatus.com/incidents/fwvfd2zzbvg8" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-08-21T07:45:56+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/81c622a638cfaf4a</id>
-    <title>CASB - Automatically remediate Microsoft 365 and Google Workspace findings with API-based CASB remediation policies</title>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <content>Cloudflare CASB is an API-based (agentless) tool that continuously scans your SaaS and cloud applications for security misconfigurations and data exposure. You can now use CASB remediation policies to automatically fix a finding or send a webhook the moment CASB detects it, without manual triage. Remediate Microsoft 365 and Google Workspace findings A policy can perform a first-party remediation action directly against the SaaS integration API. When a policy triggers, Cloudflare revokes the exte</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-21-casb-policies/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-21T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/b3cfb1e8275ad4da</id>
-    <title>Cloudflare Fundamentals - Saved login profiles for returning users</title>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <content>Cloudflare Dashboard users can now save login profiles on a device for faster sign-in on future visits. What's New Save login profiles on a device : After a successful sign-in, users can choose to save a login profile on that device. Saved profiles store the email address, login method, and last-used profile locally in the browser. Faster sign-in for returning users : Saved profiles appear directly on the login page. Selecting one can prefill the email field for password logins or resume the ass</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-21-one-click-login/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-21T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2212,height=1544,format=webp/_astro/2026-08-21-one-click-login.CbMATqrT.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2212,height=1544,format=webp/_astro/2026-08-21-one-click-login.CbMATqrT.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2212,height=1544,format=webp/_astro/2026-08-21-one-click-login.CbMATqrT.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/c433213a08be5bd0</id>
-    <title>Data Loss Prevention - Test Data Loss Prevention profiles without sending traffic through Gateway</title>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <content>Test scan lets you check how Data Loss Prevention (DLP) evaluates sample content before you apply a profile to production traffic. Paste text, upload a file, or upload a HAR file, then select the profiles you want to test. Test scan sends content directly to the DLP scanner. Gateway policies are not evaluated, no traffic passes through Gateway, and no Gateway activity logs are created. Results include matched profiles, detection entries, confidence levels, match context, proximity keywords, file</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-21-dlp-test-scan/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-21T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1200,height=587,format=webp/_astro/dlp-test-scan.Dm6EgN6x.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1200,height=587,format=webp/_astro/dlp-test-scan.Dm6EgN6x.gif"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1200,height=587,format=webp/_astro/dlp-test-scan.Dm6EgN6x.gif" type="image/gif" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/83beeb545e02ae78</id>
-    <title>Cloudflare Fundamentals - Improved SCIM 2.0 group synchronization</title>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <content>Dashboard SCIM now supports replacing groups using HTTP PUT , as defined by RFC 7644 section 3.5.1 ↗ . This allows identity providers to synchronize a group's full state, including its display name, external ID, and members, in a single request. What's New Group replacement via PUT : Full-state group synchronization improves compatibility with identity providers that use replacement semantics and helps keep Cloudflare groups aligned with their source identity provider. Note SCIM provisioning for</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-21-scim-put-group-synchronization/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-21T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/c63cf33b379ef330</id>
@@ -1999,21 +2012,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     </media:group>
     <dc:creator>Cloudflare Blog</dc:creator>
     <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01KYVQED96MX6SJKQ6GBNXZ7BS.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/8d228183dd55f01d</id>
-    <title>Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform</title>
-    <updated>2026-07-30T13:00:00+00:00</updated>
-    <content>We moved cdnjs, serving 9 billion requests a day, entirely onto Cloudflare's Developer Platform. That means we’re running one of the Internet's busiest open-source CDNs on our own building blocks, and we pushed Workflows and Workers limits higher for everyone.</content>
-    <link href="https://blog.cloudflare.com/cdnjs-dev-platform-migration/" rel="alternate"/>
-    <category term="Cloudflare Blog" label="Cloudflare Blog"/>
-    <published>2026-07-30T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://blog.cloudflare.com/_emdash/api/media/file/01KYSB8K2P26A5EW9F1D1XDH8J.png" type="image/png" medium="image" height="628" width="1200"/>
-      <media:thumbnail url="https://blog.cloudflare.com/_emdash/api/media/file/01KYSB8K2P26A5EW9F1D1XDH8J.png" height="628" width="1200"/>
-    </media:group>
-    <dc:creator>Cloudflare Blog</dc:creator>
-    <link rel="enclosure" href="https://blog.cloudflare.com/_emdash/api/media/file/01KYSB8K2P26A5EW9F1D1XDH8J.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/9c8ac316e1020baf</id>

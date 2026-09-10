@@ -8,6 +8,42 @@
   "icon": "https://claude.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/claude/58df8513adc2a6c3",
+      "url": "https://claude.com/docs/cowork/changelog#known-issue-cowork-on-windows",
+      "title": "Known issue: Cowork on Windows",
+      "content_text": "Known issue: Cowork on Windows",
+      "date_published": "2026-09-10T16:00:46Z",
+      "date_modified": "2026-09-10T16:00:46Z",
+      "image": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&w=1200&q=100",
+      "tags": [
+        "Claude Cowork"
+      ],
+      "attachments": [
+        {
+          "url": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&w=1200&q=100",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/claude/0f49a9846d99d862",
+      "url": "https://status.claude.com/incidents/r1pqn1kb4hvk",
+      "title": "Degraded functionality for Claude Cowork on Windows",
+      "content_text": "Sep 10 , 15:54 UTC Identified - A Windows update released September 8 has caused Claude Cowork on Windows is unable to run local commands on your PC, because its workspace can no longer reach your computer’s drive. For most users, chat and reading or editing files still work. We have identified the cause as a change in Windows; Microsoft has developed a fix and is working on releasing it. There’s no in-app workaround yet, and restarting or reinstalling won’t help. We’ll post an update when we ha",
+      "date_published": "2026-09-10T15:54:10Z",
+      "date_modified": "2026-09-10T15:54:10Z",
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "tags": [
+        "Claude Status"
+      ],
+      "attachments": [
+        {
+          "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/claude/6ff57e9041003317",
       "url": "https://code.claude.com/docs/en/changelog#2-1-267",
       "title": "2.1.267",
@@ -2618,42 +2654,6 @@
       "content_text": "2.1.220",
       "date_published": "2026-07-25T01:40:30Z",
       "date_modified": "2026-07-25T01:40:30Z",
-      "image": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26appearance%3Dsystem%26title%3DClaude%2BCode%2Bchangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-      "tags": [
-        "Claude Code"
-      ],
-      "attachments": [
-        {
-          "url": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26appearance%3Dsystem%26title%3DClaude%2BCode%2Bchangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/claude/753977f2f677a0a9",
-      "url": "https://claude.com/docs/cowork/changelog#v1-24012-9",
-      "title": "v1.24012.9",
-      "content_text": "v1.24012.9",
-      "date_published": "2026-07-24T20:18:02Z",
-      "date_modified": "2026-07-24T20:18:02Z",
-      "image": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-ai%252F1fyDNLAICe3KG6rB%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253D1fyDNLAICe3KG6rB%2526q%253D85%2526s%253De870c19cb781d8a7c7b7d19de53b0a10%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-ai%252F1fyDNLAICe3KG6rB%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253D1fyDNLAICe3KG6rB%2526q%253D85%2526s%253D80cc0b06d8fd9aeefec8acb226de6866%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-      "tags": [
-        "Claude Cowork"
-      ],
-      "attachments": [
-        {
-          "url": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-ai%252F1fyDNLAICe3KG6rB%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253D1fyDNLAICe3KG6rB%2526q%253D85%2526s%253De870c19cb781d8a7c7b7d19de53b0a10%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-ai%252F1fyDNLAICe3KG6rB%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253D1fyDNLAICe3KG6rB%2526q%253D85%2526s%253D80cc0b06d8fd9aeefec8acb226de6866%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/claude/d49f4016b0ebab7d",
-      "url": "https://code.claude.com/docs/en/changelog#2-1-219",
-      "title": "2.1.219",
-      "content_text": "2.1.219",
-      "date_published": "2026-07-24T17:21:32Z",
-      "date_modified": "2026-07-24T17:21:32Z",
       "image": "https://claude-code.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DGetting%2Bstarted%26appearance%3Dsystem%26title%3DClaude%2BCode%2Bchangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BCode%252C%2Bincluding%2Bnew%2Bfeatures%252C%2Bimprovements%252C%2Band%2Bbug%2Bfixes%2Bby%2Bversion.%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D78fd01ff4f4340295a4f66e2ea54903c%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Fclaude-code%252Fc5r9_6tjPMzFdDDT%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253Dc5r9_6tjPMzFdDDT%2526q%253D85%2526s%253D1298a0c3b3a1da603b190d0de0e31712%26primaryColor%3D%25230E0E0E%26lightColor%3D%2523D4A27F%26backgroundLight%3D%2523FDFDF7%26backgroundDark%3D%252309090B&w=1200&q=100",
       "tags": [
         "Claude Code"

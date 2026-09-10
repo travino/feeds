@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-10T11:46:43.561955+00:00</updated>
+  <updated>2026-09-10T16:40:45.744016+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -13,54 +13,84 @@
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/e11a9fc8748b2663</id>
-    <title>luma-infra 0.1.325</title>
-    <updated>2026-09-10T11:45:59+00:00</updated>
-    <content>Declarative deployment CLI for region-aware Nomad infrastructure.</content>
-    <link href="https://pypi.org/project/luma-infra/0.1.325/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/49ba5cd3de7391b0</id>
+    <title>nemo-sandboxed-gym 0.0.0a0</title>
+    <updated>2026-09-10T16:40:34+00:00</updated>
+    <content>Zero version placeholder for nemo_sandboxed_gym</content>
+    <link href="https://pypi.org/project/nemo-sandboxed-gym/0.0.0a0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T11:45:59+00:00</published>
+    <published>2026-09-10T16:40:34+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/c5c57248b361c835</id>
-    <title>limatus 0.7.0</title>
-    <updated>2026-09-10T11:45:58+00:00</updated>
-    <content>A diagnose-and-steer quality loop for AI-generated content.</content>
-    <link href="https://pypi.org/project/limatus/0.7.0/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/6f93c3772416f3f5</id>
+    <title>chowda 0.7.0</title>
+    <updated>2026-09-10T16:40:20+00:00</updated>
+    <content>A CLAMS processing application</content>
+    <link href="https://pypi.org/project/chowda/0.7.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T11:45:58+00:00</published>
+    <published>2026-09-10T16:40:20+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/2e4cbb6dff98fbb6</id>
-    <title>neuracore 17.0.1a85</title>
-    <updated>2026-09-10T11:45:44+00:00</updated>
-    <content>Neuracore Client Library</content>
-    <link href="https://pypi.org/project/neuracore/17.0.1a85/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/a0a4dc4c82381151</id>
+    <title>scubiee 0.3.32</title>
+    <updated>2026-09-10T16:40:14+00:00</updated>
+    <content>Scubiee — local AI code context engine: setup once, connect tools, CUDA/DirectML/MLX/CPU.</content>
+    <link href="https://pypi.org/project/scubiee/0.3.32/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T11:45:44+00:00</published>
+    <published>2026-09-10T16:40:14+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/edae5c617c03880f</id>
-    <title>netbox-drawio 0.2.1</title>
-    <updated>2026-09-10T11:45:43+00:00</updated>
-    <content>NetBox plugin for creating draw.io diagrams and assigning them to multiple NetBox objects</content>
-    <link href="https://pypi.org/project/netbox-drawio/0.2.1/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/4cb5e9a28e128284</id>
+    <title>pytgcli 0.11.0</title>
+    <updated>2026-09-10T16:39:31+00:00</updated>
+    <content>CLI tool to read Telegram messages from the terminal</content>
+    <link href="https://pypi.org/project/pytgcli/0.11.0/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T11:45:43+00:00</published>
+    <published>2026-09-10T16:39:31+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/a550db1bc5e6a424</id>
-    <title>z-babeldoc 0.6.2.post2026091001</title>
-    <updated>2026-09-10T11:45:41+00:00</updated>
-    <content>BabelDOC 的定制发行版本</content>
-    <link href="https://pypi.org/project/z-babeldoc/0.6.2.post2026091001/" rel="alternate"/>
+    <id>tag:trvny.github.io,2024:feedseek/python/50b01a92e13dcb91</id>
+    <title>omnicrawl-agent 0.1.50</title>
+    <updated>2026-09-10T16:39:30+00:00</updated>
+    <content>Local OmniCrawl agent with TUI, tools, MCP and NPM Hook plugins</content>
+    <link href="https://pypi.org/project/omnicrawl-agent/0.1.50/" rel="alternate"/>
     <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-10T11:45:41+00:00</published>
+    <published>2026-09-10T16:39:30+00:00</published>
     <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/e7e11ee568f1d8b5</id>
+    <title>CPython: The Python Reference Implementation</title>
+    <updated>2026-09-10T13:50:12+00:00</updated>
+    <content>When uv python install downloads an interpreter The program that reads and executes Python code. When you run "python3 hello.py", python3 is the interpreter. , it downloads CPython: the reference implementation of the Python language, written in C. CPython compiles .py files to bytecode and executes them, and it ships the standard library that every Python program depends on. Alternative implementations like PyPy and GraalPy exist, but CPython is what “Python” means in practice.</content>
+    <link href="https://pydevtools.com/handbook/reference/cpython/" rel="alternate"/>
+    <category term="PyDevTools" label="PyDevTools"/>
+    <published>2026-09-10T13:50:12+00:00</published>
+    <media:group>
+      <media:content url="https://pydevtools.com/images/social-share-default.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://pydevtools.com/images/social-share-default.png"/>
+    </media:group>
+    <dc:creator>PyDevTools</dc:creator>
+    <link rel="enclosure" href="https://pydevtools.com/images/social-share-default.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/522132d890e9b24c</id>
+    <title>Django Weblog: PyCharm &amp;amp;amp; Django Fundraiser Extended to September 14</title>
+    <updated>2026-09-10T11:00:00+00:00</updated>
+    <content>The second half of our annual JetBrains fundraiser has been extended through September 14, 2026 . Thank you to JetBrains for the extra time. You still have time to renew your PyCharm license or give it a try. You get PyCharm at 30% off, and JetBrains donates 100% of your purchase or renewal to the DSF. This is one of the DSF's bigger fundraisers of the year, and we appreciate everyone who takes a look. The Executive Director search also closes on September 14, and we are curious to see who reach</content>
+    <link href="https://www.djangoproject.com/weblog/2026/sep/10/pycharm-django-fundraiser-extended/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-10T11:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.djangoproject.com/blog/images/2026/04/pycharm-supports-dsf-social-banner.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://media.djangoproject.com/blog/images/2026/04/pycharm-supports-dsf-social-banner.png"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://media.djangoproject.com/blog/images/2026/04/pycharm-supports-dsf-social-banner.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/cd60fa20f22e1d10</id>
@@ -524,21 +554,6 @@ if text == '': # if the line edit i</content>
     <link rel="enclosure" href="https://opengraph.githubassets.com/5da341db/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/32fe80ac89984c66</id>
-    <title>IPython: Enhanced Python Interactive Shell</title>
-    <updated>2026-09-07T15:04:11+00:00</updated>
-    <content>IPython is an enhanced interactive Python interpreter that provides a powerful command-line interface with advanced features like syntax highlighting, tab completion, magic commands, and rich display capabilities. It serves as the computational kernel for Jupyter notebooks. Key Features Enhanced Interactive Shell Syntax Highlighting: Real-time code coloring for better readability Tab Completion: Intelligent autocompletion for objects, methods, and file paths History Management: Persistent comman</content>
-    <link href="https://pydevtools.com/handbook/reference/ipython/" rel="alternate"/>
-    <category term="PyDevTools" label="PyDevTools"/>
-    <published>2026-09-07T15:04:11+00:00</published>
-    <media:group>
-      <media:content url="https://pydevtools.com/images/social-share-default.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://pydevtools.com/images/social-share-default.png"/>
-    </media:group>
-    <dc:creator>PyDevTools</dc:creator>
-    <link rel="enclosure" href="https://pydevtools.com/images/social-share-default.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/ecffcf2928101b16</id>
     <title>Cookiecutter: Python Project Template Tool</title>
     <updated>2026-09-07T15:04:11+00:00</updated>
@@ -969,21 +984,6 @@ UI for pairing and have a web interf</content>
     <category term="PyTorch" label="PyTorch"/>
     <published>2026-09-04T17:45:31+00:00</published>
     <dc:creator>PyTorch</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/99144686f06e02b0</id>
-    <title>Python Morsels: Creating temporary files in Python</title>
-    <updated>2026-09-04T14:30:00+00:00</updated>
-    <content>How to create temporary files and directories in Python using the tempfile module's NamedTemporaryFile and TemporaryDirectory . Table of contents Making a temporary file Leaving temporary files open Making a temporary directory You probably want a named file Create temporary files with tempfile Making a temporary file To make a temporary file in Python, you can use the NamedTemporaryFile context manager from the tempfile module in Python's standard library: from tempfile import NamedTemporaryFil</content>
-    <link href="https://www.pythonmorsels.com/temporary-files/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-04T14:30:00+00:00</published>
-    <media:group>
-      <media:content url="https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2196808272-1faa9c1ea9afcbdca269693a805ce48bc95f4cbecfd1a1a5856668254582c2d2-d_1920x1080%3F%26region%3Dus&amp;src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2196808272-1faa9c1ea9afcbdca269693a805ce48bc95f4cbecfd1a1a5856668254582c2d2-d_1920x1080%3F%26region%3Dus&amp;src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://i.vimeocdn.com/filter/overlay?src0=https%3A%2F%2Fi.vimeocdn.com%2Fvideo%2F2196808272-1faa9c1ea9afcbdca269693a805ce48bc95f4cbecfd1a1a5856668254582c2d2-d_1920x1080%3F%26region%3Dus&amp;src1=http%3A%2F%2Ff.vimeocdn.com%2Fp%2Fimages%2Fcrawler_play.png" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/3f8bd57b69e10ba6</id>

@@ -8,6 +8,305 @@
   "icon": "https://www.v2ex.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6106c58655f49e66",
+      "url": "https://www.v2ex.com/t/1241183#reply0",
+      "title": "[开源自荐] 做了个 EgressKit，把 Clash 订阅里的节点变成 HTTP 代理池",
+      "content_text": "写脚本、跑浏览器自动化时，有时需要轮换出口 IP ，有时又希望同一个任务一直用同一个 IP 。 我做了个 EgressKit 。导入 Clash/Mihomo 订阅后，它会识别其中的 VLESS 节点，检查出口 IP ，对外提供一个统一的 HTTP 代理地址。程序接入后，通过代理用户名选择出口策略。 项目地址： heyjunpenn/EgressKit 用 Docker 一条命令启动，把下面的 your-admin-token 换成自己的密码： docker run -d \\\n  --name egresskit \\\n  --restart unless-stopped \\\n  -p 127.0.0.1:8787:8787 \\\n  -v egresskit-state:/var/lib/egresskit \\\n  -e EGRESSKIT_ADMIN_TOKEN='your-admin-token' \\\n  heyjunpenn/egresskit:latest 镜像支持 amd64 和 arm64 ，Mihomo 和 Web 控制台都打包在里面。启动后打开 http://127.0.",
+      "date_published": "2026-09-10T16:20:11Z",
+      "date_modified": "2026-09-10T16:20:11Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://raw.githubusercontent.com/heyjunpenn/EgressKit/main/docs/images/v2ex/04-curl-https.png",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://raw.githubusercontent.com/heyjunpenn/EgressKit/main/docs/images/v2ex/04-curl-https.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/e9166c0338a91779",
+      "url": "https://www.v2ex.com/t/1241180#reply0",
+      "title": "PicLocation - 上传照片， AI 告诉你它在哪拍的",
+      "content_text": "大家好，最近做了个小工具 PicLocation： https://piclocation.com [解决什么问题]\n看到一张照片想知道在哪拍的，但照片没有 GPS 信息（截图、微信转发压缩过、元数据被抹掉）——传统 EXIF 查询工具就无能为力了。PicLocation 不读元数据，直接用视觉模型分析画面里的地标、建筑风格、植被、路牌、地形这些线索，推测拍摄地点，返回 GPS 坐标、城市、国家和置信度，标在地图上。 [使用门槛] 免费无需注册，游客每天 2 次分析 支持 JPG / PNG / WebP ，最大 8MB 上传的图片最多保留 7 天后自动删除（见隐私政策） [实现]\n前端 TanStack Start + React 19 ，部署在 Cloudflare Workers 全家桶（ D1 / R2 / 队列），分析用的是视觉大模型，标准模式出结果很快。核心逻辑是让模型读图并输出候选坐标 + 置信度，再按置信度展示。 [坦白说]\n有明显地标的照片（街景、建筑、自然景观）效果好，纯室内或大特写会比较懵，会给出较大范围的区域。准确率还在持续调优。 欢迎各位试用拍砖，特别是各种\"",
+      "date_published": "2026-09-10T16:07:39Z",
+      "date_modified": "2026-09-10T16:07:39Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/gravatar/c6f789781f47f22f184f70f7a485932f?s=73&d=retro",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/gravatar/c6f789781f47f22f184f70f7a485932f?s=73&d=retro",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/370907e60db95026",
+      "url": "https://www.v2ex.com/t/1241179#reply0",
+      "title": "［全球工单］支付宝 play 12.12.16.7000 版本打开“我的”提示“埋点捕获启动成功”",
+      "content_text": "［全球工单］支付宝 play 12.12.16.7000 版本打开“我的”提示“埋点捕获启动成功”",
+      "date_published": "2026-09-10T15:54:11Z",
+      "date_modified": "2026-09-10T15:54:11Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/4f4e/cc16/78895_large.png?m=1516423813",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/4f4e/cc16/78895_large.png?m=1516423813",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6e631ed1dd2edb3f",
+      "url": "https://www.v2ex.com/t/1241178",
+      "title": "Claude 注册活不过 2 小时，大家是怎么养号的？",
+      "content_text": "<p>上周 pro 套餐突然封号，我使用的频率不高，一个月还没使用到 10 小时，经常是很久不登陆的，就在上周突然封号了。后面每天注册两三个号，每个号都活不过 2 小时。大家遇到过这么严格的封号问题吗？都是怎么养号的？</p>",
+      "date_published": "2026-09-10T15:41:15Z",
+      "date_modified": "2026-09-10T15:41:15Z",
+      "authors": [
+        {
+          "name": "V2EX Claude (feigle)"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/07c7/2df2/244653_large.png?m=1576479682",
+      "tags": [
+        "V2EX Claude (feigle)"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/07c7/2df2/244653_large.png?m=1576479682",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/57c90cfe35830678",
+      "url": "https://www.v2ex.com/t/1241175#reply0",
+      "title": "大力推荐：日本电影《爆蛋》",
+      "content_text": "演员演技太强了，大段快速的台词加上独特的表情，再也找不出类似的表演。剧情设计也很厉害，直到电影结束，也没有真正确定事情的真相，但是，毫无疑问这是一部烧脑悬疑电影的必看佳作。",
+      "date_published": "2026-09-10T15:14:20Z",
+      "date_modified": "2026-09-10T15:14:20Z",
+      "authors": [
+        {
+          "name": "V2EX Play"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/1430/7ec9/178263_xlarge.png?m=1749261711",
+      "tags": [
+        "V2EX Play"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/1430/7ec9/178263_xlarge.png?m=1749261711",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/95dfe45fa59034c7",
+      "url": "https://www.v2ex.com/t/1241169#reply1",
+      "title": "开源一个轻量级全网磁力搜索工具（cli+网页端）",
+      "content_text": "最近在搜一些冷门的美国综艺，搜了很多网站都没找到，或者需要会员。于是自己写了个整合几个资源站的磁力搜索工具，自测能搜到满意的结果。\n项目很轻量，本地运行就行，喜欢的佬给个 star https://github.com/blueslmj/magnet-finder",
+      "date_published": "2026-09-10T14:50:58Z",
+      "date_modified": "2026-09-10T14:50:58Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://picui.ogmua.cn/s1/2026/09/10/6aa2c46ed26ff.webp",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://picui.ogmua.cn/s1/2026/09/10/6aa2c46ed26ff.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/0e2e37531bc37a3d",
+      "url": "https://www.v2ex.com/t/1241161#reply4",
+      "title": "介绍一个我开发的免费 AirPods 小工具",
+      "content_text": "开发契机 AirPods 自带语音检测，但是主要是检测佩戴者 主动 说话的情况。 经常会有家人/同事过来找我说话，开着降噪听不清，需要抬手按/捏耳机，效率可能还不如直接摘下耳机。 功能实现 CyclePods 就是针对这种场景开发的，它的功能非常简单： 可以录制键盘快捷键，一键切换 AirPods 聆听模式。 在支持的设备上，可以定制参与循环的模式，「降噪-自适应-通透」，或者「降噪-通透」都可以。 就是这么简单，产品介绍可以看 https://cyclepods.akring.com ，欢迎使用。",
+      "date_published": "2026-09-10T14:02:22Z",
+      "date_modified": "2026-09-10T14:02:22Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://img.akring.com/2026/09/10/OneShot-2026-09-10-at-21.52.17-04f84091.png",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://img.akring.com/2026/09/10/OneShot-2026-09-10-at-21.52.17-04f84091.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6df789283032d20a",
+      "url": "https://www.v2ex.com/t/1241156#reply0",
+      "title": "用 WorkBuddy Vibe 了一个无限模式的 Word Ladder 网页游戏： Poople Unlimited",
+      "content_text": "最近做了一个网页小游戏，叫 Poople Unlimited ，已经上线了，来给大家玩玩看。 玩法和 Word Ladder 一样——系统给你一个随机的 4 字母单词，每次改一个字母，每一步都必须是真实存在的英文单词，最终变成 POOP 。步数越少分数越高。 大部分 Word Ladder 游戏都是每天一题，玩完就没了。我做这个的时候主要想的是能不能没有限制，所以做了 无限模式 ——玩完一局立刻刷新，想玩多少局都行，没有连胜压力，拿来消磨时间刚好。 当然 每日挑战 也做了，每天早上 8 点 UTC 更新，全球共用同一个 Board ，和朋友比步数挺有意思的。 还顺手做了两个配套页面。一个是 Answer 页面 ——每日答案的完整步进拆解，从第一期到现在的全部历史答案都整理在上面，卡住了可以来查。另一个是 Solver ，输入任意 4 字母单词直接算最短路径到 POOP ，练手的时候可以对比自己的路线和最优解差几步。 纯前端，没有登录没有注册，不用下载，打开浏览器就能玩。移动端也是适配好的，手机上打字没问题。 欢迎大家来试试，有什么想法或者遇到 bug 直接说 🙏",
+      "date_published": "2026-09-10T13:39:40Z",
+      "date_modified": "2026-09-10T13:39:40Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/a928/2592/663970_xlarge.png?m=1783084151",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/a928/2592/663970_xlarge.png?m=1783084151",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/e6fe4f0c2459cceb",
+      "url": "https://www.v2ex.com/t/1241152#reply0",
+      "title": "一键保存快照到 archive.org , 完全保留内容",
+      "content_text": "所有网页都有可能 404 ，使用这个脚本，可以一键归档当前浏览的页面到 archive.org ，产物会嵌入\n所有外部的图片到单个 html ，最终效果几乎和你在浏览器看到的一样。 支持离线下载，发布到 archive.org ，点选打码隐私内容。 https://greasyfork.org/zh-CN/scripts/595193-archive-org-snapshot-helper",
+      "date_published": "2026-09-10T13:22:23Z",
+      "date_modified": "2026-09-10T13:22:23Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/19ce/f31a/305835_xlarge.png?m=1789046015",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/19ce/f31a/305835_xlarge.png?m=1789046015",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/2e0d70de93e4ae46",
+      "url": "https://www.v2ex.com/t/1241150#reply3",
+      "title": "我把微信读书 Skill 做成了小程序，每天推送回顾你的笔记",
+      "content_text": "基于微信读书 Skill 的笔记管理和回顾小程序。 将你的微信读书笔记全量同步到本地设备，每天精选 5 条你的笔记内容。 可以开启推送，美好的一天早晨从阅读金句开始。 欢迎体验 👏",
+      "date_published": "2026-09-10T13:17:14Z",
+      "date_modified": "2026-09-10T13:17:14Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdnv2.ruguoapp.com/FikmYN3Mp8tXUyYGmORebC0QNn6pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdnv2.ruguoapp.com/FikmYN3Mp8tXUyYGmORebC0QNn6pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/efd664ebfe4b9167",
+      "url": "https://www.v2ex.com/t/1241149",
+      "title": "claude 是降低了额度吗？",
+      "content_text": "<p>问了一个问题直接把 pro 的五小时额度干没了</p>",
+      "date_published": "2026-09-10T13:09:48Z",
+      "date_modified": "2026-09-10T13:09:48Z",
+      "authors": [
+        {
+          "name": "V2EX Claude (ffalex)"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/aa5a/be42/46426_xlarge.png?m=1786111803",
+      "tags": [
+        "V2EX Claude (ffalex)"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/aa5a/be42/46426_xlarge.png?m=1786111803",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/3bf74626fd9fb0bd",
+      "url": "https://www.v2ex.com/t/1241147#reply1",
+      "title": "GPT-6 Astra 做个游戏化的场景",
+      "content_text": "GPT-6 Astra 做个游戏化的场景",
+      "date_published": "2026-09-10T12:49:17Z",
+      "date_modified": "2026-09-10T12:49:17Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://pbs.twimg.com/media/HR2yLR6aEAAxeAS?format=jpg&name=medium",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://pbs.twimg.com/media/HR2yLR6aEAAxeAS?format=jpg&name=medium",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/30821689b86829ef",
+      "url": "https://www.v2ex.com/t/1241145#reply1",
+      "title": "输入一句话， DeepSeek 扩写 + Qwen-Image 生图并秒换 Windows 壁纸",
+      "content_text": "平时想换张桌面壁纸经常要在壁纸站翻很久，自己用生图平台又懒得写那一大长串英文 Prompt ，生成完还得手动下载、右键设置。 周末顺手写了个 Python 命令行小工具： AI Wallpaper Changer 。 只要在终端敲几个中文字（比如“雨夜赛博朋克”、“森林深处的小木屋”），全流程自动搞定： 自动扩写 Prompt ：调用 DeepSeek-V3.2 ，把简短的想法丰富成构图、光影到位的专业英文提示词。 多画风预设 ：内置了 12 种常见画风（日系动漫、吉卜力、东方水墨、写实摄影、赛博朋克、复古像素、暗黑奇幻等），也可以自由发挥。 高清生成与防平铺 ：基于 20B 参数的 Qwen-Image 生成，配合 Lanczos 算法处理为标准 1920x1080 壁纸；同时自动配置 Windows 注册表为居中拉伸填充模式，杜绝多屏或小图出现的九宫格平铺问题。 自动应用与归档 ：调用系统 API 秒换壁纸，并在当前目录自动按“主题_时间戳”建档，保存壁纸原图和 Prompt 文本。 交互式循环 ：终端常驻不闪退，随时输入随时换。 效果演示 整个项目只依赖 requests 和 p",
+      "date_published": "2026-09-10T12:40:35Z",
+      "date_modified": "2026-09-10T12:40:35Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://img-bay.nodecore.workers.dev/ai-wallpaper-changer001_1789043796102_mwzh05.png",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://img-bay.nodecore.workers.dev/ai-wallpaper-changer001_1789043796102_mwzh05.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/ad76bfa7acfb4884",
       "url": "https://www.v2ex.com/t/1241124#reply0",
       "title": "给 Codex 安装一个红绿灯🚥",
@@ -169,52 +468,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/65178e8f5e349788",
-      "url": "https://www.v2ex.com/t/1241108#reply0",
-      "title": "夯爆了，安利一个我最新整理的一个 Skill。 可每天自动领取 Workbuddy 积分的 Skill，每月可白嫖 4000 万 Token",
-      "content_text": "这个 Skill 完成的是 2 件事情，并且已经实现「自动化任务」，不需要每天都操作。 1 、每天定点领加油站 100 积分 2 、自动派猫 skill：每天派出去、回来自动领 先安装好这个 Skill——workbuddy-auto-credits 。 https://pan.quark.cn/s/5593cc00b2ad 点击「专家·技能·连接器」>「技能」>「上传技能」，然后把 Skill 压缩包拖进来。 如图所示，已经安装成功了： 一句话，直接执行：“执行，然后配置自动化” 这个 Skill 是我最近整理了的，目前一直都在用 Skill ，所以需要一点积分。 实测效果不错。 Workbuddy 最近有开学福利活动，受邀注册用户可获取 2000 积分，直接注册用户可获得 50 积分。 直接注册仅有 500 积分，如图所示： WorkBuddy 积分领取详细教程可参考，我整理的文档： https://www.kdocs.cn/l/coRBP1PbRO3F 相关问答 1 、需要开着电脑吗？ 服务端运行，电脑关机也可自动领取! 2 、每天能领多少积分？ 签到 100 积分，每次派猫猫",
-      "date_published": "2026-09-10T09:43:31Z",
-      "date_modified": "2026-09-10T09:43:31Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://files.mdnice.com/user/4562/50514f7d-b9d3-4f0d-93ba-5721b8493a0f.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://files.mdnice.com/user/4562/50514f7d-b9d3-4f0d-93ba-5721b8493a0f.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/14aaf28b8ae0a2d2",
-      "url": "https://www.v2ex.com/t/1241107#reply4",
-      "title": "免费音乐播放器",
-      "content_text": "简介：\n基于 p2p 文件分享网络 soulseek 技术，免费搜索，下载，播放音乐，再也不用付费会员啦，哈哈哈，欢迎下载使用反馈意见 软件地址： https://github.com/ns2250225/sk-music （软件在 release 里面下载）",
-      "date_published": "2026-09-10T09:41:48Z",
-      "date_modified": "2026-09-10T09:41:48Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/1f5f/a780/673712_xlarge.png?m=1787934204",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/8b38d52a800eb5db",
       "url": "https://www.v2ex.com/t/1241098#reply1",
       "title": "智谱·杭州全城 Coding 计划，至高补贴 51%",
@@ -330,29 +583,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/965f87d64c88ab11",
-      "url": "https://www.v2ex.com/t/1241061#reply2",
-      "title": "最近做了一个在线拨测工具，开放公测了",
-      "content_text": "地址： https://t.bt.cn/ 目前支持几个比较常用的网络和网站检测功能： 网站测速 PING TCP DNS SSL 主要考虑的是在网站访问异常、服务器网络排查这类场景下，不用临时到处找不同的检测工具，一个页面里就能完成一些常见的拨测。 目前还是公测版本，后面会继续补充节点和功能。 V2EX 上做开发、运维和站长的朋友比较多，所以也想发出来收一轮反馈。 如果大家实际使用过程中遇到检测结果异常、节点问题，或者有希望加入的检测能力，欢迎反馈。",
-      "date_published": "2026-09-10T07:48:30Z",
-      "date_modified": "2026-09-10T07:48:30Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/9fa9/d386/755219_xlarge.png?m=1751374161",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/9fa9/d386/755219_xlarge.png?m=1751374161",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/b053a85fbff99dac",
       "url": "https://www.v2ex.com/t/1241059#reply0",
       "title": "分享一个浏览器里的 AI 视频与 AI 图片创作工具： Tikdek",
@@ -399,98 +629,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/4ac20a87a9847e38",
-      "url": "https://www.v2ex.com/t/1241053#reply0",
-      "title": "[开源] 嫌弃 Codex Remote 太慢，顺手做了个 codex bot",
-      "content_text": "https://github.com/bjzhou/codex-bot.git Telegram bot ，支持功能如图：",
-      "date_published": "2026-09-10T07:38:22Z",
-      "date_modified": "2026-09-10T07:38:22Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/aQR9aSI.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/aQR9aSI.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/77934814fa597104",
-      "url": "https://www.v2ex.com/t/1241051#reply1",
-      "title": "60 块的小米遥控器竟然是 VibeCoding 神器",
-      "content_text": "小米蓝牙遥控器 2 Pro 原价 99 ，但在某鱼上 60 块就能拿下 语音输入软件：豆包输入法 配合无线麦软件： https://github.com/HD838A/remote-mic-app 使用实操： https://www.bilibili.com/video/BV1FFYp6jEFf",
-      "date_published": "2026-09-10T07:38:13Z",
-      "date_modified": "2026-09-10T07:38:13Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/9881/5d50/211564_xlarge.png?m=1774241037",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/9881/5d50/211564_xlarge.png?m=1774241037",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/eb12ae7c9c18f5ba",
-      "url": "https://www.v2ex.com/t/1241044#reply0",
-      "title": "Awesome GPT Image 2.5 · 玩法画廊\n从社区爆款玩法，到可抄工作流。Flare / Sunburst / Sketch 精选索引",
-      "content_text": "Awesome GPT Image 2.5 · 玩法画廊\n从社区爆款玩法，到可抄工作流。Flare / Sunburst / Sketch 精选索引 https://xianyu110.github.io/awesome-gpt-image2.5/",
-      "date_published": "2026-09-10T07:15:50Z",
-      "date_modified": "2026-09-10T07:15:50Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://upload.maynor1024.live/file/1789024627219_image-20260910151647272.png",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://upload.maynor1024.live/file/1789024627219_image-20260910151647272.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/2d9230d804c77d14",
-      "url": "https://www.v2ex.com/t/1241037#reply11",
-      "title": "许愿 GPT-6 来的星际争霸单机游戏",
-      "content_text": "并不是全程 GPT-6 ，TOKENS 实在是不够用，大部分都是 5.6 修修补补完成的。 https://sc.bibishuai232.workers.dev/",
-      "date_published": "2026-09-10T06:58:25Z",
-      "date_modified": "2026-09-10T06:58:25Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/HdxY2fA.jpeg",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/HdxY2fA.jpeg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/6b3d94b705ca0a7b",
       "url": "https://sspai.com/post/114384",
       "title": "App+1｜下一节：教学工作紧张忙碌，下一节课从从容容",
@@ -509,121 +647,6 @@
       "attachments": [
         {
           "url": "https://rssfile.sspai.com/2026/09/09/9849c1286bb6cf406bded66759298381.png?imageMogr2/auto-orient/ignore-error/1",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/82d98b1baac3161f",
-      "url": "https://www.v2ex.com/t/1241031#reply4",
-      "title": "聊聊我对 AI 和这波裁员的的理解",
-      "content_text": "先说结论，AI 是老板裁员的借口。 AI 只是工具，按理说工具进化，是不会和人产生直接竞争关系的。如果原本的业务就能赚钱，配合 AI 工具提升效率，那应该会出现员工与公司双赢的局面。 为什么还会出现这么多裁员现象呢？ 底层原因是老板想赚更多钱。怎么赚？围绕 AI 来做新业务。那老业务怎么办： 1.老业务能赚钱，但老业务没达到老板预期，老板想节省时间精力、金钱成本，掉转船头，将原成本用来探索新业务 2.老业务本来就不赚钱，之前是存着一丝念想慢慢发展，靠投资人或自己的钱养着员工。这时候就直接砍掉，重新开始 所以这波裁员不是技术的问题，不是程序员的问题，而是业务的问题，是 AI 时代旧业务和新业务浪潮在交替，裁员是这波浪潮下必不可缺的浪花。 这波动荡过后，新一波的业务形态稳定以后，该要技术还是要技术、该要销售还是要销售。 我们能做什么？ 1.正视这个动荡期。不要焦虑（有些自媒体正在以此牟利）、放平心态、保持学习。\n2.不要在这个时期透支身体健康。等待浪潮过后，再看中流击水，浪遏飞舟 最近看到很多 v 友的裁员贴，有感而发，希望能有所帮助～",
-      "date_published": "2026-09-10T06:43:43Z",
-      "date_modified": "2026-09-10T06:43:43Z",
-      "authors": [
-        {
-          "name": "V2EX Play"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/59df/0017/235416_large.png?m=1785751504",
-      "tags": [
-        "V2EX Play"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/59df/0017/235416_large.png?m=1785751504",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/980c65a97b724778",
-      "url": "https://www.v2ex.com/t/1241030#reply1",
-      "title": "做了个 Balatro 命令行版（balatro_cli），大家来添砖加瓦呀",
-      "content_text": "用 ds 参考小丑牌的源码，做了个 python 命令行版本，方便上班摸鱼。有兴趣的老哥一起来完善下呀。（实际上是没 token 了...） 命令行的界面还挺难设计，高度很容易超过当初设想的范围。 首页 小 丑 牌  (Balatro) 命令行版\n  JOKER · 命令行文字界面\n\n  1 开始新游戏\n  2 退出 选择牌组 ━ 选择牌组   不同牌组提供不同初始优势 ━\n  1 红牌组  弃牌+1\n  2 蓝牌组  手牌+1\n  3 黄牌组  +$10\n  4 绿牌组  无利息\n  5 黑牌组  手牌+-1  小丑槽+1\n  6 魔术牌组  自带优惠券\n  7 星云牌组  自带优惠券\n  8 鬼牌组  幻灵生成率×2\n  9 弃牌牌组  去掉面牌\n  10 棋盘牌组  只有黑桃与红心\n  11 黄道牌组  \n  12 涂鸦牌组  手牌上限+2  小丑槽-1\n  13 浮雕牌组  \n  14 等离子牌组  等离子记分\n  15 随机牌组  随机花色点数\n  0 返回 备战盲注 ━ 第 1 底注 · 选择盲注   跳过可获得标签 ━\n  1 迎战 小盲注  （目标 300 · 奖励 $",
-      "date_published": "2026-09-10T06:42:44Z",
-      "date_modified": "2026-09-10T06:42:44Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/gravatar/6ca242ed916873b7f933a1194687f8a7?s=73&d=retro",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/gravatar/6ca242ed916873b7f933a1194687f8a7?s=73&d=retro",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/6d4e198fd1174eea",
-      "url": "https://www.v2ex.com/t/1241025#reply0",
-      "title": "How I Built an AI Room Design Tool That Turns One Photo Into a Before-and-After Video",
-      "content_text": "AI room design tools are everywhere now, but most of them stop at one thing: Upload a room photo → generate another room photo. I wanted to build something slightly different. Instead of only showing a redesigned image, I wanted users to see the transformation as a short before-and-after video . That idea became RoomFacelift . 👉 https://roomfacelift.com What RoomFacelift does The workflow is simple: Upload a photo of your room Choose the room type Pick an interior design style Decide how much of",
-      "date_published": "2026-09-10T06:27:41Z",
-      "date_modified": "2026-09-10T06:27:41Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://cdn.v2ex.com/avatar/0f1a/cde5/832407_xlarge.png?m=1786672441",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://cdn.v2ex.com/avatar/0f1a/cde5/832407_xlarge.png?m=1786672441",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/2307c0df7e42f49f",
-      "url": "https://www.v2ex.com/t/1241016#reply0",
-      "title": "[v1.4.2] 收纳管理小程序『存个物』新功能上线",
-      "content_text": "上次上线以后，有哥们提醒说日常使用有些繁琐，后面回去思考了一下，上了一个周期性消耗功能，觉得可以覆盖一些经常使用的场景了，后续会继续再思考一下有没有更好的一个解决方式。 「周期性消耗」功能正式上线：牛奶、鸡蛋、猫粮、保健品……只要设好每次用量和消耗周期，系统就会按天、按周或按月自动记录。每周还能指定星期几，每月也支持一次选多个日期。\n计划有变？随时调整、暂停或删除，消耗记录也能直接查看。 📱 扫码体验",
-      "date_published": "2026-09-10T06:05:44Z",
-      "date_modified": "2026-09-10T06:05:44Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/x7b1lvb.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/x7b1lvb.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/e6f06e2eeaadb344",
-      "url": "https://www.v2ex.com/t/1241012#reply4",
-      "title": "[分享] Apple 直营店现货监控小工具「果到雷达」更新，现已支持 iPhone18 系列",
-      "content_text": "🍎 Apple 直营店现货监控小工具「果到雷达」更新啦！现已支持官网最新的 iPhone 18 系列，欢迎下载体验！ 还在苦于反复刷官网、挨家门店查库存，蹲不到想要的颜色和容量？ 试试「果到雷达」：选好型号和门店，自动检查 Apple 直营店到店取货库存， 检测到有货就提醒你，不用一直守着官网刷页面。 功能特性： 🔍 多门店、多型号监控 ：同时关注多家门店、多个颜色和容量，不用来回切换查询。 🔔 多种有货提醒 ：支持提示音和 Bark 推送，有货时可自动打开 Apple 购物袋页面。电脑监控，iPhone 收消息。 📱 多品类支持 ：支持最新 iPhone 18 系列，以及 iPad 、Mac 、Apple Watch 。 🌏 多地区覆盖 ：支持中国大陆、香港、台湾、日本、新加坡、澳大利亚、马来西亚。 💻 跨平台运行 ：支持 macOS 、Windows 、Linux ，可在系统托盘后台运行。 普通用户 ：直接下载安装包，电脑备好 Chrome 或 Edge ，选好型号和门店即可开始监控。 开发者 ：项目已开源，可以拉取源码、本地编译使用，也欢迎按自己的需求修改，提交 Issue 或",
-      "date_published": "2026-09-10T05:52:51Z",
-      "date_modified": "2026-09-10T05:52:51Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://img.suversal.com/file/public/Nkv4BYB0.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://img.suversal.com/file/public/Nkv4BYB0.png",
           "mime_type": "image/png"
         }
       ]
@@ -969,29 +992,6 @@
       "attachments": [
         {
           "url": "https://cdn.v2ex.com/avatar/d70f/093b/30982_large.png?m=1355999757",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/21afc96a6c43eecf",
-      "url": "https://sspai.com/post/114307",
-      "title": "派早报：华为举办 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会等",
-      "content_text": "少数派的近期动态全新iPhone发布在即，来与少数派一起看Apple发布会口袋先知新版本1.3.3上线，你可以自定义任何你想展示的屏幕效果。了解更多能让AI助手通过自然语言指令直接与您的Quote/0 ... 查看全文",
-      "date_published": "2026-09-08T00:07:33Z",
-      "date_modified": "2026-09-08T00:07:33Z",
-      "authors": [
-        {
-          "name": "sspai.com"
-        }
-      ],
-      "image": "https://rssfile.sspai.com/2026/9/8/article/16c77455-0591-55d0-581c-f37e3305ae51.png?imageMogr2/auto-orient/ignore-error/1",
-      "tags": [
-        "sspai.com"
-      ],
-      "attachments": [
-        {
-          "url": "https://rssfile.sspai.com/2026/9/8/article/16c77455-0591-55d0-581c-f37e3305ae51.png?imageMogr2/auto-orient/ignore-error/1",
           "mime_type": "image/png"
         }
       ]

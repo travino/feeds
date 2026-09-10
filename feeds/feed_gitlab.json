@@ -8,6 +8,29 @@
   "icon": "https://about.gitlab.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/gitlab/4a744db5faa5180c",
+      "url": "https://about.gitlab.com/blog/co-create-h1-2026/",
+      "title": "Co-Create: Building GitLab with our users",
+      "content_text": "GitLab users bring firsthand experience of the workflows they want to improve. Through our Co-Create program, they collaborate directly with us to design, build, and deliver product improvements that benefit more teams. In the first half of 2026, our users helped us extend APIs, add CI/CD capabilities , expand language support for AI-powered code understanding, strengthen security controls, increase the flexibility of integrations, and make GitLab easier to use and understand. Co-Create gives cu",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "GitLab Blog"
+        }
+      ],
+      "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1750099203/Blog/Hero%20Images/Blog/Hero%20Images/blog-image-template-1800x945%20%2820%29_2bJGC5ZP3WheoqzlLT05C5_1750099203484.png",
+      "tags": [
+        "GitLab Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1750099203/Blog/Hero%20Images/Blog/Hero%20Images/blog-image-template-1800x945%20%2820%29_2bJGC5ZP3WheoqzlLT05C5_1750099203484.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/gitlab/ba7d054e8183bdff",
       "url": "https://about.gitlab.com/blog/gitlab-duo-self-hosted-models-on-microsoft-foundry/",
       "title": "Bring your own model to GitLab Duo Self-Hosted with Microsoft Foundry",
@@ -993,29 +1016,6 @@
       ],
       "tags": [
         "GitLab Releases"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/gitlab/e80376f9dbb8a5a2",
-      "url": "https://about.gitlab.com/blog/green-devops-carbon-measurement-cicd-pipeline/",
-      "title": "Green DevOps: Why carbon measurement belongs in your CI/CD pipeline",
-      "content_text": "A typical software team runs hundreds of CI/CD jobs a day. Each one runs on compute and burns energy that doesn't show up in your pipeline logs, including its carbon impact.\nThat invisibility is exactly the problem. You can't reduce what you don't measure. Eco CI and Carmen are third-party integrations that add a carbon lens to the pipelines you're already running in GitLab. Both are open source tools you can wire into any pipeline today. Here's why that's worth doing, and how to get started wit",
-      "date_published": "2026-07-09T00:00:00Z",
-      "date_modified": "2026-07-09T00:00:00Z",
-      "authors": [
-        {
-          "name": "GitLab Blog"
-        }
-      ],
-      "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1765809212/noh0mdfn9o94ry9ykura.png",
-      "tags": [
-        "GitLab Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1765809212/noh0mdfn9o94ry9ykura.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {

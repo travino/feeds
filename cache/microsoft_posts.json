@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T11:46:32.221186+00:00",
+  "last_updated": "2026-09-10T16:40:16.934688+00:00",
   "entries": [
     {
       "title": "Azure AI Search",
@@ -414,17 +414,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/70d0a2dbdaf8e411"
     },
     {
-      "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-      "date": "2026-05-05T10:00:00+00:00",
-      "description": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .",
-      "source": "Microsoft 365 Blog",
-      "image": "https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg",
-      "image_width": 2560,
-      "image_height": 1447,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a"
-    },
-    {
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
       "date": "2026-05-05T10:00:00+00:00",
@@ -434,6 +423,17 @@
       "image_width": 1920,
       "image_height": 1080,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/bcb99be1c6535739"
+    },
+    {
+      "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
+      "date": "2026-05-05T10:00:00+00:00",
+      "description": "As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .",
+      "source": "Microsoft 365 Blog",
+      "image": "https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg",
+      "image_width": 2560,
+      "image_height": 1447,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a"
     },
     {
       "title": "How Frontier Firms are rebuilding the operating model for the age of AI",
@@ -906,12 +906,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9cd49d3e5d2b042c"
     },
     {
-      "title": "[In preview] Public Preview: Azure SQL as a knowledge source in Foundry IQ",
-      "link": "https://azure.microsoft.com/updates?id=563446",
+      "title": "[In preview] Public Preview: Tool search in Microsoft Foundry toolboxes",
+      "link": "https://azure.microsoft.com/updates?id=563506",
       "date": "2026-06-04T19:30:58+00:00",
-      "description": "Microsoft Foundry adds Azure SQL Database as a first-class Knowledge Source in Azure AI Search, available in public preview. Enterprise developers and solution architects building Copilot, RAG, and agentic experiences can now expose authoritative tables a...",
+      "description": "Microsoft Foundry adds tool search to Foundry toolboxes in public preview, giving developers and admins a fast way to find the right tool inside large, multi-team catalogs. As your toolbox grows, sending every tool definition on every turn gets expensive...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b4c53b0d30f957e5"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/4e45d4a6f8d47b93"
     },
     {
       "title": "[In preview] Public Preview: APIM Support for Foundry Models in Azure AI Search",
@@ -922,12 +922,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7116acba0354bd70"
     },
     {
-      "title": "[In preview] Public Preview: Tool search in Microsoft Foundry toolboxes",
-      "link": "https://azure.microsoft.com/updates?id=563506",
+      "title": "[In preview] Public Preview: Azure SQL as a knowledge source in Foundry IQ",
+      "link": "https://azure.microsoft.com/updates?id=563446",
       "date": "2026-06-04T19:30:58+00:00",
-      "description": "Microsoft Foundry adds tool search to Foundry toolboxes in public preview, giving developers and admins a fast way to find the right tool inside large, multi-team catalogs. As your toolbox grows, sending every tool definition on every turn gets expensive...",
+      "description": "Microsoft Foundry adds Azure SQL Database as a first-class Knowledge Source in Azure AI Search, available in public preview. Enterprise developers and solution architects building Copilot, RAG, and agentic experiences can now expose authoritative tables a...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/4e45d4a6f8d47b93"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b4c53b0d30f957e5"
     },
     {
       "title": "As AI meets biology, both promise and potential peril grow",
@@ -938,20 +938,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1a2fde9dd44f9c14"
     },
     {
-      "title": "[Launched] Generally Available: Ingest OTLP signals into Azure Monitor with the OpenTelemetry Collector",
-      "link": "https://azure.microsoft.com/updates?id=565090",
-      "date": "2026-06-04T19:45:40+00:00",
-      "description": "Azure Monitor's support for native ingestion of OpenTelemetry Protocol (OTLP) signals is now generally available. This enables you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure Monitor. You can configu...",
-      "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6d491b0f2fab2396"
-    },
-    {
       "title": "[In preview] Public Preview: AI pipelines in Azure HorizonDB",
       "link": "https://azure.microsoft.com/updates?id=565182",
       "date": "2026-06-04T19:45:40+00:00",
       "description": "AI pipelines for Azure HorizonDB is now\navailable in public preview. AI pipelines let you describe an AI data ingestion\nworkflow, chunking, embedding, extraction, generation, and ranking,\ndeclaratively in SQL, and run it as a fault-tolerant pipeline insid...",
       "source": "Microsoft 365 Developer Changelog",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1a7d936596930ee5"
+    },
+    {
+      "title": "[Launched] Generally Available: Ingest OTLP signals into Azure Monitor with the OpenTelemetry Collector",
+      "link": "https://azure.microsoft.com/updates?id=565090",
+      "date": "2026-06-04T19:45:40+00:00",
+      "description": "Azure Monitor's support for native ingestion of OpenTelemetry Protocol (OTLP) signals is now generally available. This enables you to send telemetry data directly from OpenTelemetry-instrumented applications and platforms to Azure Monitor. You can configu...",
+      "source": "Microsoft 365 Developer Changelog",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6d491b0f2fab2396"
     },
     {
       "title": "Budget and usage management APIs now generally available",
@@ -1082,36 +1082,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/de94abf5b0047467"
     },
     {
-      "title": "Driving Stop-and-Go Business Processes to Closure with Foundry Hosted Agents",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/driving-stop-and-go-business-processes-to-closure-with-foundry/ba-p/4524135",
-      "date": "2026-06-08T16:30:00+00:00",
-      "description": "Why This Matters Your AI agent just forgot everything. Again. If you've built agents that need to track work across days or weeks—not just single conversations—you've hit this wall: the agent loop is stateless. Each turn reasons over what it's handed, then forgets. But real business workflows don't fit in one conversation. This post shows how to build agents that remember, using Foundry's per-project sandbox VMs to maintain state across weeks of discontinuous work. No external database required.",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/612507f4c4f5a2ea"
-    },
-    {
-      "title": "Building Low‑Code Apps for Nonprofits with Power Apps: A Practical Technical Guide",
-      "link": "https://techcommunity.microsoft.com/t5/nonprofit-techies/building-low-code-apps-for-nonprofits-with-power-apps-a/ba-p/4526479",
-      "date": "2026-06-08T16:54:08+00:00",
-      "description": "Nonprofits often rely on spreadsheets, paper forms, or disconnected systems to manage programs. These approaches can limit visibility, create inefficiencies, and increase administrative overhead. Microsoft Power Apps provides a low‑code platform that enables organizations to build custom applications—such as intake systems, volunteer check‑ins, case management tools, and inventory tracking—without requiring traditional software development. This guide explores the core architecture of Power Apps",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5beab231d099ea20"
-    },
-    {
-      "title": "MDOP is out of support: What to do next with Microsoft Intune",
-      "link": "https://techcommunity.microsoft.com/t5/intune-customer-success/mdop-is-out-of-support-what-to-do-next-with-microsoft-intune/ba-p/4526024",
-      "date": "2026-06-08T16:58:58+00:00",
-      "description": "By: Joe Lurie – Sr. Product Manager | Microsoft Intune On April 14, 2026, the Microsoft Desktop Optimization Pack (MDOP) reached the end of extended support. Microsoft no longer provides security updates, bug fixes, or technical support for MDOP components. For more information, refer to: Microsoft Desktop Optimization Pack (MDOP) support extended . If your organization still relies on parts of MDOP, it’s time to move to supported options. In most cases, including Windows desktop management, app",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/076ab6ad49cfe4c8"
-    },
-    {
-      "title": "[In preview] Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license",
-      "link": "https://azure.microsoft.com/updates?id=565171",
+      "title": "[In preview] Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
+      "link": "https://azure.microsoft.com/updates?id=565103",
       "date": "2026-06-08T17:15:43+00:00",
-      "description": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in Defender will be powered by Agent 365 observability logs a...",
+      "description": "Azure Site Recovery\nnow supports replication and disaster recovery for Linux Azure Virtual Machines\nrunning on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa\nv6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is\nlimited t...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7c083c2b5d67001e"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e2bce1e23610a41e"
     },
     {
       "title": "[Launched] Generally Available: Maintenance control for Azure Database for PostgreSQL - reschedule, apply on demand, view and download",
@@ -1122,20 +1098,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/4f5dbc2625d3bbbd"
     },
     {
-      "title": "[In preview] Public Preview: Azure Site Recovery support for Linux Azure VMs with NVMe disk controllers.",
-      "link": "https://azure.microsoft.com/updates?id=565103",
+      "title": "[In preview] Public Preview: Microsoft Foundry agent security capabilities in Microsoft Defender for Cloud are transitioning to a Microsoft Agent 365 license",
+      "link": "https://azure.microsoft.com/updates?id=565171",
       "date": "2026-06-08T17:15:43+00:00",
-      "description": "Azure Site Recovery\nnow supports replication and disaster recovery for Linux Azure Virtual Machines\nrunning on NVMe-enabled Generation 2 VM families, such as the Da/Ea/Fa\nv6-series and Ebsv5/Ebdsv5 in the Azure-to-Azure scenario. This support is\nlimited t...",
+      "description": "Starting July 1, 2026, Microsoft Foundry agent security capabilities previously available through Microsoft Defender for Cloud will transition to a Microsoft Agent 365 license. Agent protection in Defender will be powered by Agent 365 observability logs a...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e2bce1e23610a41e"
-    },
-    {
-      "title": "Connect Metrics to Traces with Exemplars in Azure Monitor",
-      "link": "https://techcommunity.microsoft.com/t5/azure-observability-blog/connect-metrics-to-traces-with-exemplars-in-azure-monitor/ba-p/4525714",
-      "date": "2026-06-08T17:21:43+00:00",
-      "description": "Following Microsoft’s recent GA announcement for OpenTelemetry (OTel) support , we are excited to announce support for Exemplars for customers instrumenting metrics with Prometheus or OpenTelemetry and traces using OpenTelemetry, enhancing Azure Monitor’s integrated observability experience for cloud-native applications. Modern cloud-native applications generate enormous volumes of telemetry. Metrics help teams detect that something is wrong, but traces explain why . Exemplars bridge these two w",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5ebedc0cd3fcdda3"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7c083c2b5d67001e"
     },
     {
       "title": "[Launched] Generally Available: Premium SSD v2 disks now support non-zonal Azure Virtual Machines",
@@ -1146,52 +1114,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/2daf20d509a32881"
     },
     {
-      "title": "Designing for High Availability: The Operational Reference for Running a Geo-Replicated ACR",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/designing-for-high-availability-the-operational-reference-for/ba-p/4526465",
-      "date": "2026-06-08T18:07:21+00:00",
-      "description": "By Johnson Shi , Zoey (Zhuyu) Li , Huangli Wu Introduction Three of the most common questions we hear from enterprise teams running geo-replicated Azure Container Registries (ACR) are: \"How do I control which region serves my traffic?\" — When my AKS clusters are spread across regions, can I pin each one to its co-located replica, or am I stuck with however the global endpoint routes? \"What happens during a regional incident — is failover automatic or do I have to act?\" — If the registry in one r",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0bddd24193b50470"
-    },
-    {
       "title": "[Launched] Generally Available: Azure NC RTX PRO 6000 Blackwell Server Edition v6 Series Virtual Machines",
       "link": "https://azure.microsoft.com/updates?id=565271",
       "date": "2026-06-08T18:15:14+00:00",
       "description": "Azure NCv6-series virtual machines (VMs) are now generally available in the Azure Southeast Asia and West US 2 regions. NCv6 VMs are powered by NVIDIA RTX PRO 6000 Blackwell Server Edition graphics processing units (GPUs) with each GPU featuring 96 GB of...",
       "source": "Microsoft 365 Developer Changelog",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/4a8b2aa8dcabb7df"
-    },
-    {
-      "title": "Microsoft Defender now monitors RPC activity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/microsoft-defender-now-monitors-rpc-activity/ba-p/4523368",
-      "date": "2026-06-08T18:16:45+00:00",
-      "description": "Remote procedure call (RPC) is a protocol commonly abused by attackers that allows functions implemented in a separate process, and potentially on a remote machine, to be called as if they were local. Many core Windows and Active Directory capabilities are built on or make use of RPC, which makes it an attractive target. To help protect against remote RPC-based attacks, Microsoft Defender now monitors remote RPC calls, disrupts malicious activity that leverages them, and surfaces relevant teleme",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/df7552e5828f941f"
-    },
-    {
-      "title": "The Future of Internal Communications Is Human + AI",
-      "link": "https://techcommunity.microsoft.com/t5/corporate-communications-blog/the-future-of-internal-communications-is-human-ai/ba-p/4526518",
-      "date": "2026-06-08T18:24:25+00:00",
-      "description": "AI is moving fast. But the biggest shift in communications isn’t the tools—it’s how we think. ▶️ Watch the video to hear it firsthand from John Cirone and Amy Morris, from the Global Employee and Executive Comms team at Microsoft. Three shifts every comms pro should be thinking about Start with the problem, not the tool The best teams aren’t asking “Where should this go?”, they’re asking what they’re trying to solve, then choosing the right channel and voice. One of the biggest mindset shifts fo",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0c8f8a65c1b8ea62"
-    },
-    {
-      "title": "Microsoft Entra ID security updates: What organizations need to do now",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/microsoft-entra-id-security-updates-what-organizations-need-to/ba-p/4522024",
-      "date": "2026-06-08T18:47:46+00:00",
-      "description": "Microsoft Entra ID continues to strengthen identity security by modernizing how authentication and access policies are enforced. As part of this effort, Microsoft is retiring legacy capabilities and closing gaps that attackers could exploit. These updates focus on three key areas: replacing Custom controls with External MFA, enforcing Conditional Access consistently during credential registration, and requiring explicitly registered authentication methods for self-service password reset (SSPR). ",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/afec2f2dffd9b62d"
-    },
-    {
-      "title": "What’s new and next in Engage: June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/viva-engage-blog/what-s-new-and-next-in-engage-june-2026/ba-p/4525286",
-      "date": "2026-06-08T18:57:51+00:00",
-      "description": "The Microsoft 365 Community Conference Viva Engage track demonstrated how communications are changing: for many organizations, leaders are more visible, connection is stronger, and everyday communication is becoming a useful source of organizational knowledge for AI. Examples from Capgemini, Nuveen, Foot Locker, AdventHealth, and Takeda showed how organizations are using Engage to create two-way dialog with leaders, support Copilot adoption, run employee events, and improve communication in the ",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/93475eff8e2cf14b"
     },
     {
       "title": "XBOX Games Showcase 2026 recap",
@@ -1218,52 +1146,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/56930f045c163733"
     },
     {
-      "title": "Logic Apps Aviators Newsletter - June 2026",
-      "link": "https://techcommunity.microsoft.com/t5/azure-integration-services-blog/logic-apps-aviators-newsletter-june-2026/ba-p/4526525",
-      "date": "2026-06-08T19:10:51+00:00",
-      "description": "In this issue: Ace Aviator of the Month News from our product group News from our community Ace Aviator of the Month June 2026's Ace Aviator: Florian De Langhe LinkedIn: https://www.linkedin.com/in/floriandelanghe/ Florian De Langhe Lead Expert/Team Lead - Microsoft Integration @ delaware What's your role and title? What are your responsibilities? Lead Expert/Team Lead for the Microsoft Integration team at delaware. I have a wide range of responsibilities: - People management - Resource planning",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/43bc0c58b8dfdb9e"
-    },
-    {
       "title": "Scammers are using popular AI tools as bait, Microsoft warns",
       "link": "https://news.microsoft.com/signal/articles/scammers-using-ai-tools-as-bait/",
       "date": "2026-06-08T19:32:59+00:00",
       "description": "The post Scammers are using popular AI tools as bait, Microsoft warns appeared first on Microsoft Signal Blog .",
       "source": "Microsoft Signal",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/65f47fdfe129a855"
-    },
-    {
-      "title": "Microsoft Options to Migrate SQL Server Databases",
-      "link": "https://techcommunity.microsoft.com/t5/modernization-best-practices-and/microsoft-options-to-migrate-sql-server-databases/ba-p/4521637",
-      "date": "2026-06-08T19:45:00+00:00",
-      "description": "Overview This blog supplements the Migrate to Azure SQL documentation and tries to summarize the Microsoft first party ways to copy or migrate SQL Server databases from on‑premises environments to one of the flavours of SQL Server running in Azure . It is organized first by target platform (Azure SQL Database/Hyperscale, Azure SQL Managed Instance and Azure SQL Virtual Machine) and then by tool (for example Azure DMS, Managed Instance Link, Distributed Availability Groups, SqlPackage, and data c",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/80def5092693b678"
-    },
-    {
-      "title": "Azure Availability Zone Mapping and VM Resilience Analysis Guidance using SRE.AZURE.COM Agent",
-      "link": "https://techcommunity.microsoft.com/t5/fasttrack-for-azure/azure-availability-zone-mapping-and-vm-resilience-analysis/ba-p/4526548",
-      "date": "2026-06-08T19:50:35+00:00",
-      "description": "Overview This guidance, supported and tested using SRE.Azure.com , helps Azure platform engineers understand how Availability Zones are mapped within their subscription and how virtual machines (VMs) are distributed across those zones. SRE.Azure.com enables discovery and analysis of zone mappings, VM placement, and infrastructure resilience. Why This Matters Azure uses logical zones (1, 2, 3), but these map differently to physical datacenter zones (az1, az2, az3) in each subscription. This means",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/bf458c8e35805f22"
-    },
-    {
-      "title": "Smaller updates, faster downloads with delta updates in Azure Device Update for IoT Hub",
-      "link": "https://techcommunity.microsoft.com/t5/internet-of-things-blog/smaller-updates-faster-downloads-with-delta-updates-in-azure/ba-p/4526513",
-      "date": "2026-06-08T20:27:59+00:00",
-      "description": "Keeping IoT fleets secure and up to date shouldn't mean shipping the full software image to every device, every time. With delta updates in Azure Device Update for IoT Hub, fleet operators can send only what has changed between versions, reducing download size, bandwidth use, and download time on most networks. In our demo below, an incremental change produced a delta ~97% smaller than the full image — a glimpse of what's possible for small, incremental changes. The timing matters. Security patc",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d78c16976e7cc987"
-    },
-    {
-      "title": "Tools for Azure AD B2C migration now available",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-entra-blog/tools-for-azure-ad-b2c-migration-now-available/ba-p/4525678",
-      "date": "2026-06-08T20:38:36+00:00",
-      "description": "If you rely on Azure AD B2C for customer identity, you’re likely starting to evaluate what comes next. With Azure AD B2C no longer receiving new features and several features recently added to Microsoft Entra External ID, planning your migration is easier and can help you with this important next step in your identity strategy. Below you’ll find tooling, guidance, and a partner ecosystem resource to help you migrate with confidence. This post walks through what’s available and how to get started",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e021c35f7b9b717f"
     },
     {
       "title": "Microsoft Build 2026 recap: vision, launches, and top sessions",
@@ -1376,20 +1264,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/24bc17d290cd66d5"
     },
     {
-      "title": "Modernizing radiology reporting—without disrupting care: A practical path to PowerScribe One",
-      "link": "https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/modernizing-radiology-reporting-without-disrupting-care-a/ba-p/4526795",
-      "date": "2026-06-09T16:00:00+00:00",
-      "description": "With growing imaging volumes, increasing complexity, and the rapid emergence of AI, healthcare organizations are reevaluating how their reporting environments support clinicians and strengthen operational performance. They are faced with how to modernize without interrupting the work that matters most . We developed our PowerScribe One solution and implementation approach with that reality in mind. In active production across a wide range of healthcare environments (including large integrated de",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0da07453d86e7271"
-    },
-    {
       "title": "Elevate your telemetry using custom data collection in Microsoft Defender",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/elevate-your-telemetry-using-custom-data-collection-in-microsoft/ba-p/4512530",
       "date": "2026-06-09T16:00:00+00:00",
       "description": "At Ignite in November, we announced that Microsoft Defender is now the only endpoint protection solution that allows data-hungry security teams to meet specific telemetry needs by optimizing their data collection right within the Defender portal, without the need to rely on fragmented and siloed solutions. Since then, we've heard from customers that this tool has been a game changer, enabling them to hunt through new data types as well as richer data on events already reported. The release of cu",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ce6ce4e167b140ff"
+    },
+    {
+      "title": "Modernizing radiology reporting—without disrupting care: A practical path to PowerScribe One",
+      "link": "https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/modernizing-radiology-reporting-without-disrupting-care-a/ba-p/4526795",
+      "date": "2026-06-09T16:00:00+00:00",
+      "description": "With growing imaging volumes, increasing complexity, and the rapid emergence of AI, healthcare organizations are reevaluating how their reporting environments support clinicians and strengthen operational performance. They are faced with how to modernize without interrupting the work that matters most . We developed our PowerScribe One solution and implementation approach with that reality in mind. In active production across a wide range of healthcare environments (including large integrated de",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0da07453d86e7271"
     },
     {
       "title": "Agent 365 | Security Operations in Defender",
@@ -1704,20 +1592,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/30f1df3c32582637"
     },
     {
-      "title": "New Exchange Online Mailbox Auditing Signal: Visibility into IPM to Non-IPM Copy Activity",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-security-community/new-exchange-online-mailbox-auditing-signal-visibility-into-ipm/ba-p/4526914",
-      "date": "2026-06-10T15:00:00+00:00",
-      "description": "Background: IPM vs. Non-IPM Subtree Every Exchange Online mailbox is organized into two parts: IPM subtree (Interpersonal Message subtree) — the visible, user-facing part of a mailbox, designed for messages exchanged between human recipients. This includes Inbox, Sent Items, Deleted Items, Calendar, Contacts, Tasks, Notes, and any custom folders a user creates. Exchange mailbox auditing has always focused on activity within this area. Non-IPM subtree — a hidden folder structure used by Exchange ",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5e783ad74ae71432"
-    },
-    {
       "title": "Making Microsoft Teams more responsive, reliable, and ready for work",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/making-microsoft-teams-more-responsive-reliable-and-ready-for/ba-p/4526527",
       "date": "2026-06-10T15:00:00+00:00",
       "description": "By: Ihor Lukyanenko, Sachin Jain, Kappa Ramlal, Abdul Rahim Charif, and Shangwei Fang Every day, hundreds of millions of people depend on Microsoft Teams to connect with colleagues, share ideas, make decisions, and move work forward. Whether they are jumping into a quick chat between meetings, joining a customer call that cannot be missed, or using Copilot to accomplish more, people rely on Teams to be ready the moment they need it. That trust is what drives our continued investment in performan",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/610fcbda2c663223"
+    },
+    {
+      "title": "New Exchange Online Mailbox Auditing Signal: Visibility into IPM to Non-IPM Copy Activity",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-security-community/new-exchange-online-mailbox-auditing-signal-visibility-into-ipm/ba-p/4526914",
+      "date": "2026-06-10T15:00:00+00:00",
+      "description": "Background: IPM vs. Non-IPM Subtree Every Exchange Online mailbox is organized into two parts: IPM subtree (Interpersonal Message subtree) — the visible, user-facing part of a mailbox, designed for messages exchanged between human recipients. This includes Inbox, Sent Items, Deleted Items, Calendar, Contacts, Tasks, Notes, and any custom folders a user creates. Exchange mailbox auditing has always focused on activity within this area. Non-IPM subtree — a hidden folder structure used by Exchange ",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5e783ad74ae71432"
     },
     {
       "title": "Making Mac OneDrive Faster and More Reliable",
@@ -2212,12 +2100,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5419f3653f66fbf4"
     },
     {
-      "title": "Retirement: GPv1 and Legacy Blob storage account creation",
-      "link": "https://azure.microsoft.com/updates?id=564441",
+      "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
+      "link": "https://azure.microsoft.com/updates?id=564774",
       "date": "2026-06-11T19:00:41+00:00",
-      "description": "As part of our ongoing efforts to streamline the Azure\nStorage portfolio and deliver enhanced performance, scalability, and cost\nefficiency, we are announcing the retirement of all General purpose v1 (GPv1)\nstorage accounts. This includes legacy blob stor...",
+      "description": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series, Gs-seriesLsv2-seriesAfter this date:New Batch pools using these VM serie...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8406d28595382bc7"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e069bd1730ca2835"
     },
     {
       "title": "Retirement: D-series, Ds-series, Dv2-series, Dsv2-series, and Ls-series Virtual Machines for Azure Batch pools",
@@ -2228,12 +2116,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8557b931fcb30c0f"
     },
     {
-      "title": "Retirement: Av2-series, F-series, Fs-series, Fsv2-series, G-series, Gs-series, and Lsv2-series Virtual Machines for Azure Batch pools",
-      "link": "https://azure.microsoft.com/updates?id=564774",
+      "title": "Retirement: GPv1 and Legacy Blob storage account creation",
+      "link": "https://azure.microsoft.com/updates?id=564441",
       "date": "2026-06-11T19:00:41+00:00",
-      "description": "Azure Compute will retire the following Virtual Machine series on November 15, 2028, impacting Azure Batch pools that rely on them:Av2-seriesF-series, Fs-series, Fsv2-seriesG-series, Gs-seriesLsv2-seriesAfter this date:New Batch pools using these VM serie...",
+      "description": "As part of our ongoing efforts to streamline the Azure\nStorage portfolio and deliver enhanced performance, scalability, and cost\nefficiency, we are announcing the retirement of all General purpose v1 (GPv1)\nstorage accounts. This includes legacy blob stor...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e069bd1730ca2835"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8406d28595382bc7"
     },
     {
       "title": "Bot-created pull requests can run workflows if approved",
@@ -2455,20 +2343,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/24adaf48b1e2bece"
     },
     {
-      "title": "Open Data Infrastructure: How Fivetran in Microsoft Marketplace powers agentic AI on Azure",
-      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/open-data-infrastructure-how-fivetran-in-microsoft-marketplace/ba-p/4526532",
-      "date": "2026-06-15T13:00:00+00:00",
-      "description": "In this guest blog post, Natalie Waller, Lead Product Marketing Manager at Fivetran, examines why agentic AI is stalling in most enterprises — not because of the AI itself, but because today’s data infrastructure wasn’t built for autonomous agents. Shifting to an Open Data Infrastructure (ODI) on Microsoft Azure gives organizations a practical path to scale AI workflows without accumulating the technical debt that’s sinking most pilots. The promise of agentic AI feels like magic. Imagine a Micro",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f632adaf4eb43c18"
-    },
-    {
       "title": "Benchmarks in Microsoft Foundry (preview): Standardized model and agent quality checks",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/benchmarks-in-microsoft-foundry-preview-standardized-model-and/ba-p/4523711",
       "date": "2026-06-15T13:00:00+00:00",
       "description": "Introduction Benchmarks in Microsoft Foundry (preview) make that kind of measurement a first-class part of the development workflow. You can run well-known open-source benchmarks against any model deployment or agent in your project, compare runs side by side in the evaluation group view, and drive the whole flow from the portal or the REST API. Figure 1. Benchmarks appear in the Microsoft Foundry Evaluations list alongside your evaluations. How is this different from the model leaderboard? Micr",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/07a404391bee8fbe"
+    },
+    {
+      "title": "Open Data Infrastructure: How Fivetran in Microsoft Marketplace powers agentic AI on Azure",
+      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/open-data-infrastructure-how-fivetran-in-microsoft-marketplace/ba-p/4526532",
+      "date": "2026-06-15T13:00:00+00:00",
+      "description": "In this guest blog post, Natalie Waller, Lead Product Marketing Manager at Fivetran, examines why agentic AI is stalling in most enterprises — not because of the AI itself, but because today’s data infrastructure wasn’t built for autonomous agents. Shifting to an Open Data Infrastructure (ODI) on Microsoft Azure gives organizations a practical path to scale AI workflows without accumulating the technical debt that’s sinking most pilots. The promise of agentic AI feels like magic. Imagine a Micro",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f632adaf4eb43c18"
     },
     {
       "title": "Make Visual Studio look the way you want",
@@ -2495,20 +2383,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c9ac4c5a4e79d61a"
     },
     {
-      "title": "Don’t miss these key opportunities to strengthen your security practice",
-      "link": "https://techcommunity.microsoft.com/t5/partner-news/don-t-miss-these-key-opportunities-to-strengthen-your-security/ba-p/4526801",
-      "date": "2026-06-15T16:00:00+00:00",
-      "description": "Security is the baseline expectation in migration and modernization—and the partners who lead in security can drive faster adoption, smoother deployments, and stronger customer outcomes from day one. Here’s how you can start today: Complete the Cloud Security Envisioning Workshop before June 30: Sharpen your security ‑ first approach and engage customers earlier in their cloud journey. After June 30, access requirements may change, so complete the workshop while current guidance is still in effe",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/53f966924d67a1d4"
-    },
-    {
       "title": "Intelligent sampling in Microsoft Foundry: the science behind selecting better production traces",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/intelligent-sampling-in-microsoft-foundry-the-science-behind/ba-p/4523722",
       "date": "2026-06-15T16:00:00+00:00",
       "description": "TL;DR Microsoft Foundry's intelligent sampling feature (used when creating an evaluation or fine-tuning dataset from production agent traces) uses a MinHash farthest-first diversity sampler. On WildChat (the primary validation dataset, sampling 100 items from a 5,000-trace pool), diversity sampling produces +29.1% higher lexical diversity and +44.8% larger vocabularies than a uniform-random baseline; across five additional datasets (Dolly, No Robots, OASST2, ShareGPT-GPT4, UltraChat), vocabulary",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/817623bf8fa5e9b5"
+    },
+    {
+      "title": "Don’t miss these key opportunities to strengthen your security practice",
+      "link": "https://techcommunity.microsoft.com/t5/partner-news/don-t-miss-these-key-opportunities-to-strengthen-your-security/ba-p/4526801",
+      "date": "2026-06-15T16:00:00+00:00",
+      "description": "Security is the baseline expectation in migration and modernization—and the partners who lead in security can drive faster adoption, smoother deployments, and stronger customer outcomes from day one. Here’s how you can start today: Complete the Cloud Security Envisioning Workshop before June 30: Sharpen your security ‑ first approach and engage customers earlier in their cloud journey. After June 30, access requirements may change, so complete the workshop while current guidance is still in effe",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/53f966924d67a1d4"
     },
     {
       "title": "How Enterprise App Management secures your App Catalog from ingestion to device",
@@ -2583,20 +2471,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0a80744da5f796b0"
     },
     {
-      "title": "Detecting Python Vulnerabilities with GraphCodeBERT",
-      "link": "https://techcommunity.microsoft.com/t5/educator-developer-blog/detecting-python-vulnerabilities-with-graphcodebert/ba-p/4517909",
-      "date": "2026-06-16T07:00:00+00:00",
-      "description": "We are nine software engineering students at the Egyptian Chinese University in Cairo. When we got our project brief, we noticed a gap that bothered us: Python is the most widely used language in AI development, yet almost every security tool out there was built for C and C++. The tools that do exist for Python rely on regex pattern matching — a technique that has not changed meaningfully in years. So we built one ourselves. We called it Code Security Identifier — CSI. Instead of matching patter",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f6863c33242d18d3"
-    },
-    {
       "title": "Azure Function App — Queue-Based Architecture for Long-Running Sync Jobs",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/azure-function-app-queue-based-architecture-for-long-running/ba-p/4524474",
       "date": "2026-06-16T07:00:00+00:00",
       "description": "The Problem: HTTP Triggers and Long-Running Jobs Don't Mix Here's a situation you've probably run into: you have a job that needs to loop over dozens of Azure resources, call APIs, and do real work. You wrap it in an HTTP-triggered Azure Function so it can be called on demand. It works great and after a few minutes, the caller gets a 504 Gateway Timeout. ⭐ This isn't a bug. Azure (like most cloud platforms) enforces a hard 230-second HTTP response timeout at the load balancer level — no matter w",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0df347d5acb6bbd0"
+    },
+    {
+      "title": "Detecting Python Vulnerabilities with GraphCodeBERT",
+      "link": "https://techcommunity.microsoft.com/t5/educator-developer-blog/detecting-python-vulnerabilities-with-graphcodebert/ba-p/4517909",
+      "date": "2026-06-16T07:00:00+00:00",
+      "description": "We are nine software engineering students at the Egyptian Chinese University in Cairo. When we got our project brief, we noticed a gap that bothered us: Python is the most widely used language in AI development, yet almost every security tool out there was built for C and C++. The tools that do exist for Python rely on regex pattern matching — a technique that has not changed meaningfully in years. So we built one ourselves. We called it Code Security Identifier — CSI. Instead of matching patter",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f6863c33242d18d3"
     },
     {
       "title": "The Case for an Ontology Layer in Telecoms",
@@ -2607,12 +2495,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1854013b905999c5"
     },
     {
-      "title": "Microsoft AI Skills Fest wraps—and the momentum continues",
-      "link": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-ai-skills-fest-wraps-and-the-momentum-continues/ba-p/4508889",
+      "title": "New in Microsoft Marketplace: June 16, 2026",
+      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-16-2026/ba-p/4508154",
       "date": "2026-06-16T13:00:00+00:00",
-      "description": "AI Skills Fest, June 8–12, 2026, brought together a dynamic global community to build practical AI skills. Here’s what to do next and how to keep building on what you’ve learned. Wow, what a week! One of my favorite things about Microsoft AI Skills Fest was seeing so many people jump in, try something new, and build practical AI skills together. The festival may be wrapping up, but the energy from this week is still going strong. Across roles, industries, and experience levels, you explored new ",
+      "description": "Learn about 213 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace AI-Driven Project Insights Platform : KI Group's AI-driven platform helps consulting firms, engineering leaders, and development teams monitor project health across code quality, security, testing, documentation, and development practices. The platform analyzes Git projects, captures and orga",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6103d7aaf91d0129"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/13d719345b17ca66"
     },
     {
       "title": "Azure Databricks at Databricks Data + AI Summit 2026: updates and new announcements",
@@ -2623,12 +2511,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7a48ba02e643e549"
     },
     {
-      "title": "New in Microsoft Marketplace: June 16, 2026",
-      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-16-2026/ba-p/4508154",
+      "title": "Microsoft AI Skills Fest wraps—and the momentum continues",
+      "link": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/microsoft-ai-skills-fest-wraps-and-the-momentum-continues/ba-p/4508889",
       "date": "2026-06-16T13:00:00+00:00",
-      "description": "Learn about 213 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace AI-Driven Project Insights Platform : KI Group's AI-driven platform helps consulting firms, engineering leaders, and development teams monitor project health across code quality, security, testing, documentation, and development practices. The platform analyzes Git projects, captures and orga",
+      "description": "AI Skills Fest, June 8–12, 2026, brought together a dynamic global community to build practical AI skills. Here’s what to do next and how to keep building on what you’ve learned. Wow, what a week! One of my favorite things about Microsoft AI Skills Fest was seeing so many people jump in, try something new, and build practical AI skills together. The festival may be wrapping up, but the energy from this week is still going strong. Across roles, industries, and experience levels, you explored new ",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/13d719345b17ca66"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6103d7aaf91d0129"
     },
     {
       "title": "Farming is risky business. This app helps Turkish growers succeed",
@@ -3155,12 +3043,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c25726441fa1cae0"
     },
     {
-      "title": "[In preview] Public Preview: Azure Databricks natively storing data in Microsoft OneLake",
-      "link": "https://azure.microsoft.com/updates?id=565706",
+      "title": "[In preview] Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
+      "link": "https://azure.microsoft.com/updates?id=566145",
       "date": "2026-06-17T18:00:18+00:00",
-      "description": "Azure Databricks can now natively write managed Delta tables to Microsoft OneLake. This capability enables customers to use OneLake as a unified storage layer for Azure Databricks workloads without managing separate storage accounts. By storing data direc...",
+      "description": "Azure Migrate now integrates with GitHub Copilot\nModernization (public preview) to deliver at scale code insights. This capability brings\ntogether Azure Migrate’s portfolio-level discovery and assessment with GitHub\nCopilot’s context-aware code analysis...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/10ca45b4391f0d10"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ee0abca2e0f0a225"
     },
     {
       "title": "[Launched] Generally Available: Azure Databricks native read access to Microsoft OneLake",
@@ -3171,12 +3059,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7d5414f6e1625477"
     },
     {
-      "title": "[In preview] Public Preview: Azure Migrate – GitHub Copilot Modernization integration for at scale code assessments",
-      "link": "https://azure.microsoft.com/updates?id=566145",
+      "title": "[In preview] Public Preview: Azure Databricks natively storing data in Microsoft OneLake",
+      "link": "https://azure.microsoft.com/updates?id=565706",
       "date": "2026-06-17T18:00:18+00:00",
-      "description": "Azure Migrate now integrates with GitHub Copilot\nModernization (public preview) to deliver at scale code insights. This capability brings\ntogether Azure Migrate’s portfolio-level discovery and assessment with GitHub\nCopilot’s context-aware code analysis...",
+      "description": "Azure Databricks can now natively write managed Delta tables to Microsoft OneLake. This capability enables customers to use OneLake as a unified storage layer for Azure Databricks workloads without managing separate storage accounts. By storing data direc...",
       "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ee0abca2e0f0a225"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/10ca45b4391f0d10"
     },
     {
       "title": "The Platform Era Expands: MDEP at InfoComm 2026",
@@ -3348,20 +3236,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/24cdd213f0ff7595"
     },
     {
-      "title": "Esri, ClickHouse, and Red Sift deliver transactable offers in Microsoft Marketplace",
-      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/esri-clickhouse-and-red-sift-deliver-transactable-offers-in/ba-p/4522374",
-      "date": "2026-06-18T13:00:00+00:00",
-      "description": "Microsoft partners like Esri, ClickHouse, and Red Sift deliver transact-capable offers, which allow you to purchase directly from Microsoft Marketplace. Learn about these offers below: ArcGIS for Microsoft Fabric : Esri is transforming analytics workflows through ArcGIS for Microsoft Fabric, which integrates interactive mapping and spatial analytics directly into Microsoft Fabric. This allows your organization to incorporate asset locations and contextual geographic data into analytics workflows",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1c9d746259fda2d6"
-    },
-    {
       "title": "New in Microsoft Marketplace: June 18, 2026",
       "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-18-2026/ba-p/4522362",
       "date": "2026-06-18T13:00:00+00:00",
       "description": "Learn about 263 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace AI Producer in Teams : AI Producer enhances Microsoft Teams meetings with AI-assisted live event production, preset formats, branding, overlays, and custom layouts. It supports multi-destination broadcasting, full HD recording, and GDPR-compliant education modes. Integrated into Teams, it ena",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/834add97bb66c4fe"
+    },
+    {
+      "title": "Esri, ClickHouse, and Red Sift deliver transactable offers in Microsoft Marketplace",
+      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/esri-clickhouse-and-red-sift-deliver-transactable-offers-in/ba-p/4522374",
+      "date": "2026-06-18T13:00:00+00:00",
+      "description": "Microsoft partners like Esri, ClickHouse, and Red Sift deliver transact-capable offers, which allow you to purchase directly from Microsoft Marketplace. Learn about these offers below: ArcGIS for Microsoft Fabric : Esri is transforming analytics workflows through ArcGIS for Microsoft Fabric, which integrates interactive mapping and spatial analytics directly into Microsoft Fabric. This allows your organization to incorporate asset locations and contextual geographic data into analytics workflows",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1c9d746259fda2d6"
     },
     {
       "title": "Control who and what triggers GitHub Actions workflows",
@@ -3415,20 +3303,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/131995b647db2d12"
     },
     {
-      "title": "Detection and automation, reimagined",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
-      "date": "2026-06-18T16:00:00+00:00",
-      "description": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a living, the move to Defender is one of the most meaningful shifts to your workflow in years—and for most teams, it’s a welcome one. Your existing analytics rules don’t disappear. Your playbooks don’t need t",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1744e3f480e60d2c"
-    },
-    {
       "title": "IT experts weigh in: Advanced Intune capabilities coming to Microsoft 365 E3 and E5",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/it-experts-weigh-in-advanced-intune-capabilities-coming-to/ba-p/4516898",
       "date": "2026-06-18T16:00:00+00:00",
       "description": "Back on December 4th, we shared that advanced capabilities from the Microsoft Intune Suite were coming to Microsoft 365 E3 and Microsoft 365 E5 . These packaging changes become effective on July 1st, with existing eligible customers expected to receive the capabilities in their tenants by August 1 . So you can understand how these capabilities will help your organization, we’ve pulled together a select set of guides and reviews from IT experts who have earned Microsoft “Most Valuable Professiona",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/fc0d1065627e3a34"
+    },
+    {
+      "title": "Detection and automation, reimagined",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/detection-and-automation-reimagined/ba-p/4527933",
+      "date": "2026-06-18T16:00:00+00:00",
+      "description": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl How analytics rules, playbooks, workbooks, and hunting evolve in Defender—and why the new toolbelt makes detection engineering faster, automation richer, and hunting genuinely cross-platform. If you build detections for a living, the move to Defender is one of the most meaningful shifts to your workflow in years—and for most teams, it’s a welcome one. Your existing analytics rules don’t disappear. Your playbooks don’t need t",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1744e3f480e60d2c"
     },
     {
       "title": "June update: What’s new for partners in AI Business Solutions",
@@ -3811,20 +3699,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/84f1b98f59c1c977"
     },
     {
-      "title": "A new SharePoint Look and Feel: What’s Changing and Why It Matters",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/a-new-sharepoint-look-and-feel-what-s-changing-and-why-it/ba-p/4529776",
-      "date": "2026-06-22T15:00:00+00:00",
-      "description": "SharePoint is getting a refreshed look and feel designed to make the product feel simpler, clearer, and more focused on your content. We’ve recently introduced a new SharePoint experience, organized around helping you discover knowledge, publish content, and build solutions. Along with that new experience, we’re introducing visual updates across key product surfaces that reduce visual noise, improve readability, and bring more consistency to the interface while preserving the branding investment",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/956b0588365106c3"
-    },
-    {
       "title": "Assignments in Microsoft Teams: Grading, feedback, and AI built into your flow",
       "link": "https://techcommunity.microsoft.com/t5/education-blog/assignments-in-microsoft-teams-grading-feedback-and-ai-built/ba-p/4528387",
       "date": "2026-06-22T15:00:00+00:00",
       "description": "Assignments is where the daily work of teaching comes together — creating assignments, collecting student work, giving feedback, and tracking grades. Whether your school uses Microsoft Teams for Education or a learning management system like Canvas or Schoology, Assignments works where you already are. In Teams, it's built into every class team. In your LMS, it's available through the Microsoft 365 LTI® app . Over the past year, we've added AI tools directly into the assignment workflow. They sh",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/bab8201da95c023f"
+    },
+    {
+      "title": "A new SharePoint Look and Feel: What’s Changing and Why It Matters",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/a-new-sharepoint-look-and-feel-what-s-changing-and-why-it/ba-p/4529776",
+      "date": "2026-06-22T15:00:00+00:00",
+      "description": "SharePoint is getting a refreshed look and feel designed to make the product feel simpler, clearer, and more focused on your content. We’ve recently introduced a new SharePoint experience, organized around helping you discover knowledge, publish content, and build solutions. Along with that new experience, we’re introducing visual updates across key product surfaces that reduce visual noise, improve readability, and bring more consistency to the interface while preserving the branding investment",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/956b0588365106c3"
     },
     {
       "title": "How Many Copies of Each Layer Does Your Container Registry Actually Need?",
@@ -3931,20 +3819,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/74e15945fea5f493"
     },
     {
-      "title": "From Prompt to Provisioned: A Closer Look at the Azure Deployment Agent",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-prompt-to-provisioned-a-closer-look-at-the-azure-deployment/ba-p/4529935",
-      "date": "2026-06-23T07:00:00+00:00",
-      "description": "Hello Folks! If you sat through this session during the Microsoft Azure Infra Summit 2026, you already know that Anand Guruswami and Arun Rabindar from the Cloud Native Experiences team showed us something I have been waiting to see for a while. An AI agent that does not just spit out a Terraform file from a vague prompt, but actually thinks about your workload, talks to you about it, and then hands you something you can put in front of a pull request reviewer without holding your nose. This is ",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5e6cd4631ba6f362"
-    },
-    {
       "title": "KVStream: Smarter Memory Management for On-Device Language Model Inference",
       "link": "https://techcommunity.microsoft.com/t5/educator-developer-blog/kvstream-smarter-memory-management-for-on-device-language-model/ba-p/4529843",
       "date": "2026-06-23T07:00:00+00:00",
       "description": "On-Device LLMs Are Starved for Memory Intelligence The shift toward on-device language model inference is accelerating. Platforms like Microsoft's Foundry Local , Ollama, and llama.cpp now make it possible to run capable models such as Phi-3-mini and Llama 3 entirely on local hardware, no cloud dependency, no data leaving the device. This is a meaningful leap for privacy-sensitive applications, offline scenarios, and latency-critical workloads. But on-device/edge inference surfaces a class of pe",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/112607168cd1da06"
+    },
+    {
+      "title": "From Prompt to Provisioned: A Closer Look at the Azure Deployment Agent",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-prompt-to-provisioned-a-closer-look-at-the-azure-deployment/ba-p/4529935",
+      "date": "2026-06-23T07:00:00+00:00",
+      "description": "Hello Folks! If you sat through this session during the Microsoft Azure Infra Summit 2026, you already know that Anand Guruswami and Arun Rabindar from the Cloud Native Experiences team showed us something I have been waiting to see for a while. An AI agent that does not just spit out a Terraform file from a vague prompt, but actually thinks about your workload, talks to you about it, and then hands you something you can put in front of a pull request reviewer without holding your nose. This is ",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5e6cd4631ba6f362"
     },
     {
       "title": "GitHub Copilot app support for BYOK",
@@ -3979,20 +3867,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1ba4ef0f387dda25"
     },
     {
-      "title": "New in Microsoft Marketplace: June 23, 2026",
-      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-23-2026/ba-p/4522373",
-      "date": "2026-06-23T13:00:00+00:00",
-      "description": "Learn about 134 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Bounded Agentic AI Workflow Engine for AKS : This controlled AI workflow validation layer from Golem Technologies Europe is designed for regulated enterprises that need AI-assisted outputs to stay inside an approved business-process perimeter. Delivered as an Azure Container offer for Azure K",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d2da941f7ab98e6b"
-    },
-    {
       "title": "Defending your Memory in Microsoft Foundry Agent Service against memory poisoning",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/defending-your-memory-in-microsoft-foundry-agent-service-against/ba-p/4529638",
       "date": "2026-06-23T13:00:00+00:00",
       "description": "One of the things that makes agents genuinely useful is that they can remember. Instead of treating every interaction as completely new, an agent can carry context across sessions, recall preferences, and preserve continuity over time. In Microsoft Foundry Agent Service, memory enables exactly that. An agent can remember details about a user, summarize previous conversations, and retrieve relevant context later to make interactions feel more natural and personalized. But the moment an agent can ",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8bfa18c4a480fc7d"
+    },
+    {
+      "title": "New in Microsoft Marketplace: June 23, 2026",
+      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-23-2026/ba-p/4522373",
+      "date": "2026-06-23T13:00:00+00:00",
+      "description": "Learn about 134 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Bounded Agentic AI Workflow Engine for AKS : This controlled AI workflow validation layer from Golem Technologies Europe is designed for regulated enterprises that need AI-assisted outputs to stay inside an approved business-process perimeter. Delivered as an Azure Container offer for Azure K",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d2da941f7ab98e6b"
     },
     {
       "title": "Microsoft completes construction on first datacenter facility in Mount Pleasant, Wisconsin",
@@ -4028,12 +3916,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/fc7ab554d043ba34"
     },
     {
-      "title": "June update: What’s new for partners in Azure",
-      "link": "https://techcommunity.microsoft.com/t5/partner-news/june-update-what-s-new-for-partners-in-azure/ba-p/4529897",
+      "title": "Deep-reasoning agents for academic research: The right tool for the task",
+      "link": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/deep-reasoning-agents-for-academic-research-the-right-tool-for/ba-p/4501741",
       "date": "2026-06-23T16:00:00+00:00",
-      "description": "This June Cloud and AI newsletter brings together the latest Azure news, partner announcements, incentives, and skilling opportunities designed to help Microsoft partners grow their business. Inside, you’ll find updates from Microsoft Build 2026, including new capabilities across Microsoft Fabric, Azure databases, and Azure Linux, along with timely announcements such as Azure Virtual Machine Reserved Instance changes and Partner of the Year Award submissions. The roundup also highlights migratio",
+      "description": "Explore how deep‑reasoning agents can sharpen your research by helping you compare sources, test assumptions, and understand data in ways that align with academic standards and research workflows. General-purpose generative AI tools, such as Microsoft 365 Copilot Chat, are already helping academic researchers move faster—from brainstorming to literature discovery to early drafting. In our first post in this series, Strengthen your research workflow with generative AI , we show practical ways to ",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8e3997e12891865a"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57b7701cd5c5d5d7"
     },
     {
       "title": "Point-in-time restore for Windows 11 is now generally available",
@@ -4044,12 +3932,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ff924b36359b7826"
     },
     {
-      "title": "Deep-reasoning agents for academic research: The right tool for the task",
-      "link": "https://techcommunity.microsoft.com/t5/the-skills-hub-blog/deep-reasoning-agents-for-academic-research-the-right-tool-for/ba-p/4501741",
+      "title": "June update: What’s new for partners in Azure",
+      "link": "https://techcommunity.microsoft.com/t5/partner-news/june-update-what-s-new-for-partners-in-azure/ba-p/4529897",
       "date": "2026-06-23T16:00:00+00:00",
-      "description": "Explore how deep‑reasoning agents can sharpen your research by helping you compare sources, test assumptions, and understand data in ways that align with academic standards and research workflows. General-purpose generative AI tools, such as Microsoft 365 Copilot Chat, are already helping academic researchers move faster—from brainstorming to literature discovery to early drafting. In our first post in this series, Strengthen your research workflow with generative AI , we show practical ways to ",
+      "description": "This June Cloud and AI newsletter brings together the latest Azure news, partner announcements, incentives, and skilling opportunities designed to help Microsoft partners grow their business. Inside, you’ll find updates from Microsoft Build 2026, including new capabilities across Microsoft Fabric, Azure databases, and Azure Linux, along with timely announcements such as Azure Virtual Machine Reserved Instance changes and Partner of the Year Award submissions. The roundup also highlights migratio",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57b7701cd5c5d5d7"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8e3997e12891865a"
     },
     {
       "title": "Rayfin | Go from prompt to production backend",
@@ -4562,12 +4450,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f20f17afe13a707b"
     },
     {
-      "title": "What’s new in Microsoft Intune – June",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-june/ba-p/4491983",
+      "title": "Explore the Datacenter Optimization (DCO) initiative site",
+      "link": "https://techcommunity.microsoft.com/t5/partner-news/explore-the-datacenter-optimization-dco-initiative-site/ba-p/4526561",
       "date": "2026-06-25T16:00:00+00:00",
-      "description": "AI agents are beginning to act on behalf of users, interact with company data, and even make decisions independently. Trusting AI depends on three endpoint fundamentals: they must be compliant, up to date, and secure from the moment they enroll. This month’s new capabilities for Intune emphasizes these important checkpoints. Keep applications current and reduce vulnerability exposure Keeping applications up to date sounds straightforward until you're managing hundreds of endpoints and dozens of ",
+      "description": "As DCO enters its tenth year as a global partner motion, we’re evolving how we support partners—bringing the streamlined Datacenter Optimization (DCO) experience directly into the Microsoft partner website. This transition marks the next phase of DCO : moving from a standalone experience to a fully integrated, global partner motion, expanding access across languages and regions while making it easier to engage, scale, and transform your business. The unified DCO experience is designed so you can",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/33c6fd43f52f54af"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/34281599dd180836"
     },
     {
       "title": "Microsoft Credentials roundup: June 2026",
@@ -4578,12 +4466,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f94228951c1743e1"
     },
     {
-      "title": "Explore the Datacenter Optimization (DCO) initiative site",
-      "link": "https://techcommunity.microsoft.com/t5/partner-news/explore-the-datacenter-optimization-dco-initiative-site/ba-p/4526561",
+      "title": "What’s new in Microsoft Intune – June",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/what-s-new-in-microsoft-intune-june/ba-p/4491983",
       "date": "2026-06-25T16:00:00+00:00",
-      "description": "As DCO enters its tenth year as a global partner motion, we’re evolving how we support partners—bringing the streamlined Datacenter Optimization (DCO) experience directly into the Microsoft partner website. This transition marks the next phase of DCO : moving from a standalone experience to a fully integrated, global partner motion, expanding access across languages and regions while making it easier to engage, scale, and transform your business. The unified DCO experience is designed so you can",
+      "description": "AI agents are beginning to act on behalf of users, interact with company data, and even make decisions independently. Trusting AI depends on three endpoint fundamentals: they must be compliant, up to date, and secure from the moment they enroll. This month’s new capabilities for Intune emphasizes these important checkpoints. Keep applications current and reduce vulnerability exposure Keeping applications up to date sounds straightforward until you're managing hundreds of endpoints and dozens of ",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/34281599dd180836"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/33c6fd43f52f54af"
     },
     {
       "title": "Retirement: Migrate from Azure Blueprints by January 31, 2027",
@@ -5180,20 +5068,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3c6f8cc5ecac965f"
     },
     {
-      "title": "What's New in Excel (June 2026)",
-      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-june-2026/ba-p/4523402",
-      "date": "2026-06-30T13:00:00+00:00",
-      "description": "Welcome to the June 2026 update and happy Pride Month! This year’s theme, P r i d e i s A l i v e , is a powerful reminder that Pride is not just about showing up—it’s about living openly, authentically, and fully. Show a touch of Pride in Excel on iOS and Mac by personalizing your app with Pride themes . In addition to the LSEG and Moody's connectors we released late last month, we're expanding your options with more financial data connectors for bringing public and private market data into Cop",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8ba8e365d41b37a6"
-    },
-    {
       "title": "New in Microsoft Marketplace: June 30, 2026",
       "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-june-30-2026/ba-p/4508156",
       "date": "2026-06-30T13:00:00+00:00",
       "description": "Learn about 265 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Aceno Food - Service Management for Bars and Restaurants : Aceno Food, an IoT and cloud-based software solution for bars, restaurants, and cafes, streamlines service, optimizes staff workflow, and increases sales. The solution improves the customer experience by reducing wait times for assist",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/acd54d9e31bed228"
+    },
+    {
+      "title": "What's New in Excel (June 2026)",
+      "link": "https://techcommunity.microsoft.com/t5/excel-blog/what-s-new-in-excel-june-2026/ba-p/4523402",
+      "date": "2026-06-30T13:00:00+00:00",
+      "description": "Welcome to the June 2026 update and happy Pride Month! This year’s theme, P r i d e i s A l i v e , is a powerful reminder that Pride is not just about showing up—it’s about living openly, authentically, and fully. Show a touch of Pride in Excel on iOS and Mac by personalizing your app with Pride themes . In addition to the LSEG and Moody's connectors we released late last month, we're expanding your options with more financial data connectors for bringing public and private market data into Cop",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8ba8e365d41b37a6"
     },
     {
       "title": "Upcoming access restrictions to public API endpoints and UI views",
@@ -5239,12 +5127,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/dcd601368fe0e07f"
     },
     {
-      "title": "What’s New in Microsoft Teams | June 2026 – InfoComm Edition",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-june-2026-infocomm-edition/ba-p/4531968",
+      "title": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
       "date": "2026-06-30T15:30:00+00:00",
-      "description": "Where did the first half of the year go? This edition of What's New in Teams comes to you on the heels of InfoComm 2026 in Las Vegas, the largest professional AV show in North America, and the week where the people who design, build, and run the world's collaboration spaces all gather in one place. It's a fitting backdrop, because so much of what's new in Teams this month comes back to a single idea: bringing people and AI together to get work done. That was the high-level takeaway of our InfoCo",
+      "description": "Most of the work that matters doesn't happen in one place. A quarterly review, a win-loss analysis, an onboarding plan—each one draws on several systems, moves through several tools, and depends on someone holding the thread across all of them. That sort of connective work is exactly what our customers would like to see from AI. Copilot Cowork, now generally available worldwide, is built for this sort of work—navigating long-running, multi-step processes. We designed it to be enterprise-ready fr",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ea2d9a19b905ea82"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d3743698a62d24ee"
     },
     {
       "title": "What’s New in Microsoft 365 Copilot | June 2026",
@@ -5255,12 +5143,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/2e9d1173bfec1fc5"
     },
     {
-      "title": "The workflow is the product: Copilot Cowork plugins change what AI can do for businesses",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/the-workflow-is-the-product-copilot-cowork-plugins-change-what/ba-p/4531933",
+      "title": "What’s New in Microsoft Teams | June 2026 – InfoComm Edition",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-teams-blog/what-s-new-in-microsoft-teams-june-2026-infocomm-edition/ba-p/4531968",
       "date": "2026-06-30T15:30:00+00:00",
-      "description": "Most of the work that matters doesn't happen in one place. A quarterly review, a win-loss analysis, an onboarding plan—each one draws on several systems, moves through several tools, and depends on someone holding the thread across all of them. That sort of connective work is exactly what our customers would like to see from AI. Copilot Cowork, now generally available worldwide, is built for this sort of work—navigating long-running, multi-step processes. We designed it to be enterprise-ready fr",
+      "description": "Where did the first half of the year go? This edition of What's New in Teams comes to you on the heels of InfoComm 2026 in Las Vegas, the largest professional AV show in North America, and the week where the people who design, build, and run the world's collaboration spaces all gather in one place. It's a fitting backdrop, because so much of what's new in Teams this month comes back to a single idea: bringing people and AI together to get work done. That was the high-level takeaway of our InfoCo",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d3743698a62d24ee"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ea2d9a19b905ea82"
     },
     {
       "title": "Modern Endpoint Management Summit 2026: A Global Celebration of the MVP Community",
@@ -5271,20 +5159,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/680de299eeb4ce40"
     },
     {
-      "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-ai-first-soc-copilot-ueba-threat-intelligence-and-soc/ba-p/4528609",
-      "date": "2026-06-30T16:00:00+00:00",
-      "description": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The portal change was the easy part. The real upside is the operating model it unlocks—generative AI in every workflow, behavioral analytics across hybrid and multi-cloud, native threat intelligence, and SOC optimization recommendations that tell you exactly where to invest next. If the first five parts of this series were about what changes and how to plan for it, this part is about what you get on the other side. Microsoft",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1912927cd2086844"
-    },
-    {
       "title": "Behind the Build with Gigamon: Enriching Microsoft Sentinel with Network-Derived Telemetry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/behind-the-build-with-gigamon-enriching-microsoft-sentinel-with/ba-p/4530360",
       "date": "2026-06-30T16:00:00+00:00",
       "description": "Behind the Build is an ongoing series spotlighting standout Microsoft partner collaborations. Each edition dives into the technical and strategic decisions that shape real-world integrations—highlighting engineering excellence, innovation, and the shared customer value created through partnership. Security teams today operate across an expanding set of signals, spanning identity, endpoint, cloud and application environments. Yet many organizations still lack sufficient visibility into how system",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c81bb8aa183733e2"
+    },
+    {
+      "title": "The AI-first SOC: Copilot, UEBA, threat intelligence, and SOC optimization",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/the-ai-first-soc-copilot-ueba-threat-intelligence-and-soc/ba-p/4528609",
+      "date": "2026-06-30T16:00:00+00:00",
+      "description": "Co-authored with Lizet Pena, Caroline Mutua, Alvin Kua and Marco Sudahl The portal change was the easy part. The real upside is the operating model it unlocks—generative AI in every workflow, behavioral analytics across hybrid and multi-cloud, native threat intelligence, and SOC optimization recommendations that tell you exactly where to invest next. If the first five parts of this series were about what changes and how to plan for it, this part is about what you get on the other side. Microsoft",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1912927cd2086844"
     },
     {
       "title": "Open source license compliance is in public preview",
@@ -5540,20 +5428,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/118645e95531c285"
     },
     {
-      "title": "Extend data security to the network with Microsoft Purview and Microsoft Entra",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-security-community/extend-data-security-to-the-network-with-microsoft-purview-and/ba-p/4531929",
-      "date": "2026-07-01T16:00:00+00:00",
-      "description": "Protection that keep s up with how data moves in the AI era Enterprise data used to be easier to contain. It lived in files, in apps you managed, within boundaries you controlled. Security teams could focus on endpoints and known systems, and that was often enough. That’s no longer the case. Today, data travels constantly between trusted endpoints and unmanaged web apps, SaaS apps, and most critically, generative AI tools over the network. Employees type and paste sensitive information into prom",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/41d023d151d84de0"
-    },
-    {
       "title": "Advanced Microsoft Intune capabilities now available in Microsoft 365 E3 and E5",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-intune-blog/advanced-microsoft-intune-capabilities-now-available-in/ba-p/4529335",
       "date": "2026-07-01T16:00:00+00:00",
       "description": "Across industries, customers are already using advanced Microsoft Intune Suite capabilities to solve real endpoint challenges, such as reducing standing privilege, improving IT response times, modernizing certificate management, and preparing for AI-assisted operations. Now, more Microsoft 365 customers can put these same capabilities to work. The packaging changes announced in December 2025 are now in effect. As of July 1, advanced Intune Suite capabilities are included in Microsoft 365 E5, wit",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/81f72bcc25d5ef0f"
+    },
+    {
+      "title": "Extend data security to the network with Microsoft Purview and Microsoft Entra",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-security-community/extend-data-security-to-the-network-with-microsoft-purview-and/ba-p/4531929",
+      "date": "2026-07-01T16:00:00+00:00",
+      "description": "Protection that keep s up with how data moves in the AI era Enterprise data used to be easier to contain. It lived in files, in apps you managed, within boundaries you controlled. Security teams could focus on endpoints and known systems, and that was often enough. That’s no longer the case. Today, data travels constantly between trusted endpoints and unmanaged web apps, SaaS apps, and most critically, generative AI tools over the network. Employees type and paste sensitive information into prom",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/41d023d151d84de0"
     },
     {
       "title": "Now generally available: Serverless posture coverage in Microsoft Defender CSPM",
@@ -5620,20 +5508,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/83f90eb01c568d8a"
     },
     {
-      "title": "Visual Studio Code 1.128 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_128",
-      "date": "2026-07-01T17:00:00+00:00",
-      "description": "Learn what's new in Visual Studio Code 1.128 (Insiders)...",
-      "source": "Microsoft 365 Developer Changelog",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/828eaf42c6b38b95"
-    },
-    {
       "title": "Visual Studio Code 1.127",
       "link": "https://code.visualstudio.com/updates/v1_127",
       "date": "2026-07-01T17:00:00+00:00",
       "description": "Learn what's new in Visual Studio Code 1.127 (Insiders)...",
       "source": "Microsoft 365 Developer Changelog",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b487f1081f9003a7"
+    },
+    {
+      "title": "Visual Studio Code 1.128 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_128",
+      "date": "2026-07-01T17:00:00+00:00",
+      "description": "Learn what's new in Visual Studio Code 1.128 (Insiders)...",
+      "source": "Microsoft 365 Developer Changelog",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/828eaf42c6b38b95"
     },
     {
       "title": "Microsoft Partner Code of Conduct Update",
@@ -5895,20 +5783,20 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/90f7c2e705dbe744"
     },
     {
-      "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
-      "date": "2026-07-02T15:00:00+00:00",
-      "description": "Give every seller the customer and deal context they need, wherever work happens—helping them prepare faster, follow up sooner, and keep CRM data current. Built for the pace of modern selling, Sales Agent helps sellers quickly access the customer and deal information they need, so they can enter every conversation better prepared, capture what matters afterward, and maintain momentum across every opportunity. By bringing together CRM insights and Microsoft 365 work data in the flow of work, Sale",
-      "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/be30a7fbb4d97f6d"
-    },
-    {
       "title": "Unlock more value from your data with Microsoft 365 Archive and partner integrations",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-blog/unlock-more-value-from-your-data-with-microsoft-365-archive-and/ba-p/4531401",
       "date": "2026-07-02T15:00:00+00:00",
       "description": "As organizations continue to generate and store growing volumes of data across Microsoft 365, managing that data efficiently is becoming increasingly important. From controlling storage costs to improving AI relevance and maintaining compliance, organizations need a smarter approach to handling inactive content. That’s where Microsoft 365 Archive comes in—combined with a growing ecosystem of partner solutions like Proventeq365 that can extend its capabilities. Optimize your data estate with Micr",
       "source": "Tech Community",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/906789939dae929e"
+    },
+    {
+      "title": "Sales Agent is now generally available: Bringing customer and deal intelligence into the flow of work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/sales-agent-is-now-generally-available-bringing-customer-and/ba-p/4532629",
+      "date": "2026-07-02T15:00:00+00:00",
+      "description": "Give every seller the customer and deal context they need, wherever work happens—helping them prepare faster, follow up sooner, and keep CRM data current. Built for the pace of modern selling, Sales Agent helps sellers quickly access the customer and deal information they need, so they can enter every conversation better prepared, capture what matters afterward, and maintain momentum across every opportunity. By bringing together CRM insights and Microsoft 365 work data in the flow of work, Sale",
+      "source": "Tech Community",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/be30a7fbb4d97f6d"
     },
     {
       "title": "Admins: Migrating user data during mergers and restructurings just got easier",
@@ -6866,12 +6754,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/76bc3afbe01abe1a"
     },
     {
-      "title": "Understanding Windows monthly updates: Servicing explained",
-      "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/understanding-windows-monthly-updates-servicing-explained/ba-p/4532290",
+      "title": "Frontier Tuning - A shift from classic fine-tuning",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/frontier-tuning-a-shift-from-classic-fine-tuning/ba-p/4526001",
       "date": "2026-07-09T16:00:00+00:00",
-      "description": "Windows updates help keep devices secure, reliable, and productive. Whether you're an IT admin or a general user, understanding the different types of Windows updates can help you keep devices protected, productive, and continuously improving. Most individuals and organizations regularly deploy monthly security updates, released on the second Tuesday of each month. Windows also provides optional non-security preview updates, which give IT teams and early adopters an opportunity to validate upcom",
+      "description": "Your AI agents are burning through tokens and budget because they're relearning your business context on every single task. Frontier Tuning changes that equation. Instead of injecting thousands of context tokens at runtime, you teach the model your workflows once, and it learns from your organization's data. Here's how this new approach to post-training, announced at Build 2026, can make your agentic systems both smarter and cheaper to run. Why the guidance is shifting: The economics have change",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a2518bc04eebda04"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/12768b0e463e6332"
     },
     {
       "title": "Enhanced host pool management for Azure Virtual Desktop is now generally available",
@@ -6882,12 +6770,12 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/773b186901ad6474"
     },
     {
-      "title": "Frontier Tuning - A shift from classic fine-tuning",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/frontier-tuning-a-shift-from-classic-fine-tuning/ba-p/4526001",
+      "title": "Understanding Windows monthly updates: Servicing explained",
+      "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/understanding-windows-monthly-updates-servicing-explained/ba-p/4532290",
       "date": "2026-07-09T16:00:00+00:00",
-      "description": "Your AI agents are burning through tokens and budget because they're relearning your business context on every single task. Frontier Tuning changes that equation. Instead of injecting thousands of context tokens at runtime, you teach the model your workflows once, and it learns from your organization's data. Here's how this new approach to post-training, announced at Build 2026, can make your agentic systems both smarter and cheaper to run. Why the guidance is shifting: The economics have change",
+      "description": "Windows updates help keep devices secure, reliable, and productive. Whether you're an IT admin or a general user, understanding the different types of Windows updates can help you keep devices protected, productive, and continuously improving. Most individuals and organizations regularly deploy monthly security updates, released on the second Tuesday of each month. Windows also provides optional non-security preview updates, which give IT teams and early adopters an opportunity to validate upcom",
       "source": "Tech Community",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/12768b0e463e6332"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a2518bc04eebda04"
     },
     {
       "title": "Responsibly building the AI future",
@@ -7518,15 +7406,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b3d6ee56be75f251"
     },
     {
-      "title": "Building AI Agents from Zero to Production",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
-      "date": "2026-07-14T07:00:00+00:00",
-      "description": "Building AI Agents from Zero to Production Most agent demos stop at \"it answered my question.\" Production doesn't. The gap between a notebook that calls an LLM and a governed, observable, multi-agent system your organisation can actually depend on is where real engineering happens, evaluation, deployment, data sovereignty, tool governance, and cross-team interoperability. Microsoft's open-source course Building AI Agents from Zero to Production walks that entire arc in seven lessons, using one r",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/83140277a8dafc21"
-    },
-    {
       "title": "Moving Petabytes Without the Panic: At-Scale Storage Assessments and Migrations to Azure",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/moving-petabytes-without-the-panic-at-scale-storage-assessments/ba-p/4534543",
       "date": "2026-07-14T07:00:00+00:00",
@@ -7534,6 +7413,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/48155c26b21a8053"
+    },
+    {
+      "title": "Building AI Agents from Zero to Production",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-ai-agents-from-zero-to-production/ba-p/4536529",
+      "date": "2026-07-14T07:00:00+00:00",
+      "description": "Building AI Agents from Zero to Production Most agent demos stop at \"it answered my question.\" Production doesn't. The gap between a notebook that calls an LLM and a governed, observable, multi-agent system your organisation can actually depend on is where real engineering happens, evaluation, deployment, data sovereignty, tool governance, and cross-team interoperability. Microsoft's open-source course Building AI Agents from Zero to Production walks that entire arc in seven lessons, using one r",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/83140277a8dafc21"
     },
     {
       "title": "CollabDays: Where Community, Learning, and Collaboration Come Together",
@@ -7554,15 +7442,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ed3a2198d15e778b"
     },
     {
-      "title": "Surface for Business devices now available with Snapdragon® X2 Series platforms",
-      "link": "https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-for-business-devices-now-available-with-snapdragon-x2/ba-p/4536590",
-      "date": "2026-07-14T13:00:00+00:00",
-      "description": "In June, we introduced the next generation of Surface Pro and Surface Laptop, built to deliver performance and flexibility for a new class of AI-powered workflows. You can read the full announcement here . Today, we’re extending that momentum with commercial availability of Surface Pro for Business 13-inch and Surface Laptop for Business 13.8 and 15-inch powered by Snapdragon X2 Series processors, bringing these capabilities to organizations modernizing endpoints for AI, mobility, and security. ",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9b7fd7f66496d446"
-    },
-    {
       "title": "New in Microsoft Marketplace: July 14, 2026",
       "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-july-14-2026/ba-p/4522359",
       "date": "2026-07-14T13:00:00+00:00",
@@ -7570,6 +7449,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/14068407a5597da2"
+    },
+    {
+      "title": "Surface for Business devices now available with Snapdragon® X2 Series platforms",
+      "link": "https://techcommunity.microsoft.com/t5/surface-it-pro-blog/surface-for-business-devices-now-available-with-snapdragon-x2/ba-p/4536590",
+      "date": "2026-07-14T13:00:00+00:00",
+      "description": "In June, we introduced the next generation of Surface Pro and Surface Laptop, built to deliver performance and flexibility for a new class of AI-powered workflows. You can read the full announcement here . Today, we’re extending that momentum with commercial availability of Surface Pro for Business 13-inch and Surface Laptop for Business 13.8 and 15-inch powered by Snapdragon X2 Series processors, bringing these capabilities to organizations modernizing endpoints for AI, mobility, and security. ",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9b7fd7f66496d446"
     },
     {
       "title": "Hunting Local AI Tools on macOS with Microsoft Defender for Endpoint",
@@ -7824,15 +7712,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e7f1a1b03d28a608"
     },
     {
-      "title": "Modernize VDI with Azure Files and Entra Cloud-Native Identities",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modernize-vdi-with-azure-files-and-entra-cloud-native-identities/ba-p/4534545",
-      "date": "2026-07-15T07:00:00+00:00",
-      "description": "Hello Folks! If you have ever run a Virtual Desktop Infrastructure (VDI) estate, you know the recurring riddle. The session hosts are designed to be stateless and pooled, yet every user expects a persistent Outlook profile, their OneDrive cache, their pinned apps, and a sub-ten-second logon. In this session at the Microsoft Azure Infrastructure Summit 2026, Adam Groves and Priyanka Gangal from the Azure Files team showed how Azure Files plus Microsoft Entra ID finally let you deliver that experi",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57346daf23abb8c0"
-    },
-    {
       "title": "Building a Fully Managed Multi-Agent Pipeline with Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/educator-developer-blog/building-a-fully-managed-multi-agent-pipeline-with-microsoft/ba-p/4533757",
       "date": "2026-07-15T07:00:00+00:00",
@@ -7840,6 +7719,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9822a81b8a56e37d"
+    },
+    {
+      "title": "Modernize VDI with Azure Files and Entra Cloud-Native Identities",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/modernize-vdi-with-azure-files-and-entra-cloud-native-identities/ba-p/4534545",
+      "date": "2026-07-15T07:00:00+00:00",
+      "description": "Hello Folks! If you have ever run a Virtual Desktop Infrastructure (VDI) estate, you know the recurring riddle. The session hosts are designed to be stateless and pooled, yet every user expects a persistent Outlook profile, their OneDrive cache, their pinned apps, and a sub-ten-second logon. In this session at the Microsoft Azure Infrastructure Summit 2026, Adam Groves and Priyanka Gangal from the Azure Files team showed how Azure Files plus Microsoft Entra ID finally let you deliver that experi",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57346daf23abb8c0"
     },
     {
       "title": "Beyond text: Returning images and interactive apps from MCP servers",
@@ -7943,15 +7831,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/05d6d634e805907b"
     },
     {
-      "title": "New Privileged Token Context Telemetry Boosts Advanced Hunting in Microsoft Defender",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/new-privileged-token-context-telemetry-boosts-advanced-hunting/ba-p/4528613",
-      "date": "2026-07-15T16:00:00+00:00",
-      "description": "In brief: Defenders can now easily identify logons involving high-privilege identities or special logon flags to better hunt threats and fine-tune detections. When a user logs on, Windows’ Local Security Authority (LSA) constructs an access token that represents the user’s security context for that session. This token includes the user’s SID, group memberships, user rights, and logon flags , the information that determines what the session is allowed to access. The challenge was that, although M",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/aa247e3066ceeac5"
-    },
-    {
       "title": "Announcing the ASIM Parser Creation Agentic Experience",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/announcing-the-asim-parser-creation-agentic-experience/ba-p/4532266",
       "date": "2026-07-15T16:00:00+00:00",
@@ -7959,6 +7838,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8fe7c6fbade591ef"
+    },
+    {
+      "title": "New Privileged Token Context Telemetry Boosts Advanced Hunting in Microsoft Defender",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/new-privileged-token-context-telemetry-boosts-advanced-hunting/ba-p/4528613",
+      "date": "2026-07-15T16:00:00+00:00",
+      "description": "In brief: Defenders can now easily identify logons involving high-privilege identities or special logon flags to better hunt threats and fine-tune detections. When a user logs on, Windows’ Local Security Authority (LSA) constructs an access token that represents the user’s security context for that session. This token includes the user’s SID, group memberships, user rights, and logon flags , the information that determines what the session is allowed to access. The challenge was that, although M",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/aa247e3066ceeac5"
     },
     {
       "title": "Give your AI agent two memories with Azure App Service",
@@ -8684,15 +8572,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7c66dcc46b3c2ecd"
     },
     {
-      "title": "Premium SSD v2 and Instant Access Snapshots: A Better, Faster, Cheaper Disk for Your Azure VMs",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/premium-ssd-v2-and-instant-access-snapshots-a-better-faster/ba-p/4534571",
-      "date": "2026-07-20T07:00:00+00:00",
-      "description": "Hello Folks! If you have been running Premium SSD v1 because that is just what you have always done, this session from the Microsoft Azure Infra Summit 2026 is going to be a wake up call. Raymond Lui and Adam Li from the Azure Disk Storage team walked us through Premium SSD v2 (PV2 for short) and the new Instant Access Snapshots, and the punchline is simple. PV2 is faster, it is cheaper, and the operational story around it just keeps getting better. 📺 Watch the session: Why IT Pros Should Care I",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/daec3bb5387a87ca"
-    },
-    {
       "title": "Join us for our MCP Live! — A free livestream covering all things MCP",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/join-us-for-our-mcp-live-a-free-livestream-covering-all-things/ba-p/4537980",
       "date": "2026-07-20T07:00:00+00:00",
@@ -8700,6 +8579,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/631764685866bb8d"
+    },
+    {
+      "title": "Premium SSD v2 and Instant Access Snapshots: A Better, Faster, Cheaper Disk for Your Azure VMs",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/premium-ssd-v2-and-instant-access-snapshots-a-better-faster/ba-p/4534571",
+      "date": "2026-07-20T07:00:00+00:00",
+      "description": "Hello Folks! If you have been running Premium SSD v1 because that is just what you have always done, this session from the Microsoft Azure Infra Summit 2026 is going to be a wake up call. Raymond Lui and Adam Li from the Azure Disk Storage team walked us through Premium SSD v2 (PV2 for short) and the new Instant Access Snapshots, and the punchline is simple. PV2 is faster, it is cheaper, and the operational story around it just keeps getting better. 📺 Watch the session: Why IT Pros Should Care I",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/daec3bb5387a87ca"
     },
     {
       "title": "Azure Lighthouse: Bring Your Partner In, Without Letting Their Identities In (part 2 of 3)",
@@ -9212,15 +9100,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d91fc07f75de11ae"
     },
     {
-      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
-      "date": "2026-07-22T16:00:00+00:00",
-      "description": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind private endpoints, a central firewall, and controlled DNS. That configuration — a Foundry Standard Agent injected into a Bring-Your-Own (BYO) VNet — is the topology most large organizations actually shi",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d0def329abcb6d6d"
-    },
-    {
       "title": "Strengthening Key Management Service - (KMS) with Hardware-Based Trust",
       "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/strengthening-key-management-service-kms-with-hardware-based/ba-p/4539465",
       "date": "2026-07-22T16:00:00+00:00",
@@ -9228,6 +9107,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3402adcb239f64c7"
+    },
+    {
+      "title": "Design the Network Before You Deploy: Best Practices for Microsoft Foundry Standard Agents BYOVNet",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/design-the-network-before-you-deploy-best-practices-for/ba-p/4537860",
+      "date": "2026-07-22T16:00:00+00:00",
+      "description": "Ask any enterprise team standing up Microsoft Foundry in production and you'll hear the same non-negotiable: the agent can't run on the open internet. The moment it touches proprietary data, internal APIs, or regulated workloads, security wants it inside the company's own virtual network — behind private endpoints, a central firewall, and controlled DNS. That configuration — a Foundry Standard Agent injected into a Bring-Your-Own (BYO) VNet — is the topology most large organizations actually shi",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d0def329abcb6d6d"
     },
     {
       "title": "New Copilot usage metrics impact dashboard",
@@ -9266,15 +9154,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a4ebf7061e66e2c8"
     },
     {
-      "title": "Visual Studio Code 1.131 (Insiders)",
-      "link": "https://code.visualstudio.com/updates/v1_131",
-      "date": "2026-07-22T17:00:00+00:00",
-      "description": "Learn what's new in Visual Studio Code 1.131 (Insiders)...",
-      "source": "Microsoft 365 Developer Changelog",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/404c6e0408d99766"
-    },
-    {
       "title": "Visual Studio Code 1.130 (Insiders)",
       "link": "https://code.visualstudio.com/updates/v1_130",
       "date": "2026-07-22T17:00:00+00:00",
@@ -9282,6 +9161,15 @@
       "source": "Microsoft 365 Developer Changelog",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5df4f557c2c05480"
+    },
+    {
+      "title": "Visual Studio Code 1.131 (Insiders)",
+      "link": "https://code.visualstudio.com/updates/v1_131",
+      "date": "2026-07-22T17:00:00+00:00",
+      "description": "Learn what's new in Visual Studio Code 1.131 (Insiders)...",
+      "source": "Microsoft 365 Developer Changelog",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/404c6e0408d99766"
     },
     {
       "title": "Empowering the Mission at the Edge with Azure Local",
@@ -9815,15 +9703,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/67c184ed18ef6d22"
     },
     {
-      "title": "mssql-django 1.7.4 Released",
-      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-django-1-7-4-released/ba-p/4540480",
-      "date": "2026-07-24T17:00:00+00:00",
-      "description": "mssql-django 1.7.4 is now available on PyPI. This release focused on two fixes in raw and annotated GROUP BY query handling. What is fixed 1) Escaped %% handling in GROUP BY params GROUP BY queries that mixed escaped %% literals with real params could raise IndexError. In 1.7.4, placeholder rewriting now only touches %% and %s in the intended paths. These queries now execute correctly instead of failing. Example: from django.db import connection\n\nsql = \"\"\"\n    SELECT LEFT(name, %s) AS prefix, CO",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c6c0b236c5d2da72"
-    },
-    {
       "title": "July update: What’s new in Security for partners",
       "link": "https://techcommunity.microsoft.com/t5/partner-news/july-update-what-s-new-in-security-for-partners/ba-p/4539456",
       "date": "2026-07-24T17:00:00+00:00",
@@ -9831,6 +9710,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6f0388e40b2da8de"
+    },
+    {
+      "title": "mssql-django 1.7.4 Released",
+      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-django-1-7-4-released/ba-p/4540480",
+      "date": "2026-07-24T17:00:00+00:00",
+      "description": "mssql-django 1.7.4 is now available on PyPI. This release focused on two fixes in raw and annotated GROUP BY query handling. What is fixed 1) Escaped %% handling in GROUP BY params GROUP BY queries that mixed escaped %% literals with real params could raise IndexError. In 1.7.4, placeholder rewriting now only touches %% and %s in the intended paths. These queries now execute correctly instead of failing. Example: from django.db import connection\n\nsql = \"\"\"\n    SELECT LEFT(name, %s) AS prefix, CO",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c6c0b236c5d2da72"
     },
     {
       "title": "Claude Opus 5 is available today in Microsoft Foundry",
@@ -10891,15 +10779,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/aeb8b3afd7bf4e56"
     },
     {
-      "title": "Give Your E-Commerce App a Memory: Adding Agents That Actually Remember Your Customers",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/give-your-e-commerce-app-a-memory-adding-agents-that-actually/ba-p/4524021",
-      "date": "2026-07-30T07:00:00+00:00",
-      "description": "Ever shopped online and felt like the app had no idea who you are? You browse jackets every week, you told the chatbot you hate polyester, and yet it keeps showing you the same generic recommendations. That’s the problem. Most e-commerce apps treat every interaction as a blank slate. What if your app could remember ? What if a customer could say “I told you last week I like leather jackets” and the app actually knew that? That’s what we’re building here — an AI shopping assistant with persistent",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9b3fc15398fc8312"
-    },
-    {
       "title": "ARGUS: Compliance Infrastructure That Believes Financial Access Is a Human Right",
       "link": "https://techcommunity.microsoft.com/t5/educator-developer-blog/argus-compliance-infrastructure-that-believes-financial-access/ba-p/4539074",
       "date": "2026-07-30T07:00:00+00:00",
@@ -10907,6 +10786,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d2373641e9b988ae"
+    },
+    {
+      "title": "Give Your E-Commerce App a Memory: Adding Agents That Actually Remember Your Customers",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/give-your-e-commerce-app-a-memory-adding-agents-that-actually/ba-p/4524021",
+      "date": "2026-07-30T07:00:00+00:00",
+      "description": "Ever shopped online and felt like the app had no idea who you are? You browse jackets every week, you told the chatbot you hate polyester, and yet it keeps showing you the same generic recommendations. That’s the problem. Most e-commerce apps treat every interaction as a blank slate. What if your app could remember ? What if a customer could say “I told you last week I like leather jackets” and the app actually knew that? That’s what we’re building here — an AI shopping assistant with persistent",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9b3fc15398fc8312"
     },
     {
       "title": "GitHub Copilot in Visual Studio Code, July 2026 releases",
@@ -11541,15 +11429,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/fa5373df9ddbc22d"
     },
     {
-      "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
-      "date": "2026-08-03T07:00:00+00:00",
-      "description": "We just concluded Microsoft IQ Deep Dive with Python , a three-part livestream series all about Microsoft IQ . We showed how to use the four IQs to ground your AI applications and agents: Work IQ: user-specific retrieval of M365 data, like Teams chats, emails, and calendar events. Fabric IQ: retrieval of data stored in OneLake, via Fabric ontologies, graphs, and data agents. Web IQ: real-time web results with super low latency Foundry IQ: multi-source agentic retrieval on search indexes plus rem",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/13996ce8aecd781f"
-    },
-    {
       "title": "Designing Azure Networks That Scale: From Small Deployments to Enterprise-Grade",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/designing-azure-networks-that-scale-from-small-deployments-to/ba-p/4542489",
       "date": "2026-08-03T07:00:00+00:00",
@@ -11557,6 +11436,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/d153af80e7376a3a"
+    },
+    {
+      "title": "Learn how to use the four IQs: Web IQ, Work IQ, Fabric IQ, Foundry IQ",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/learn-how-to-use-the-four-iqs-web-iq-work-iq-fabric-iq-foundry/ba-p/4542916",
+      "date": "2026-08-03T07:00:00+00:00",
+      "description": "We just concluded Microsoft IQ Deep Dive with Python , a three-part livestream series all about Microsoft IQ . We showed how to use the four IQs to ground your AI applications and agents: Work IQ: user-specific retrieval of M365 data, like Teams chats, emails, and calendar events. Fabric IQ: retrieval of data stored in OneLake, via Fabric ontologies, graphs, and data agents. Web IQ: real-time web results with super low latency Foundry IQ: multi-source agentic retrieval on search indexes plus rem",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/13996ce8aecd781f"
     },
     {
       "title": "Writeback for Cloud-Managed Remote Mailboxes: Now Generally Available",
@@ -11799,15 +11687,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/64d4854cdb5f76c6"
     },
     {
-      "title": "From Alert to Resolved: Building a Self-Healing Azure Platform with SRE Agent",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-alert-to-resolved-building-a-self-healing-azure-platform/ba-p/4542491",
-      "date": "2026-08-04T07:00:00+00:00",
-      "description": "Hello Folks! It’s 3 a.m. Your phone lights up. A critical workload that spans multiple clouds is on fire, ownership is fuzzy, the alert routed to the wrong team first, and now it’s your problem. You sit up in bed, cold and groggy, and start the ritual. Open the runbook. Pull logs from one place. Pull metrics from another. Stare at three dashboards. None of them tell the whole story. So you build a theory. The theory is wrong. The clock keeps ticking. The customer impact keeps climbing. Every wro",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3e5acd53a30e76e8"
-    },
-    {
       "title": "Cloud-Native Multi-Agent: Running Agents Safely on Kubernetes with Kars",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/cloud-native-multi-agent-running-agents-safely-on-kubernetes/ba-p/4543047",
       "date": "2026-08-04T07:00:00+00:00",
@@ -11815,6 +11694,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3aac5156e41a45e4"
+    },
+    {
+      "title": "From Alert to Resolved: Building a Self-Healing Azure Platform with SRE Agent",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/from-alert-to-resolved-building-a-self-healing-azure-platform/ba-p/4542491",
+      "date": "2026-08-04T07:00:00+00:00",
+      "description": "Hello Folks! It’s 3 a.m. Your phone lights up. A critical workload that spans multiple clouds is on fire, ownership is fuzzy, the alert routed to the wrong team first, and now it’s your problem. You sit up in bed, cold and groggy, and start the ritual. Open the runbook. Pull logs from one place. Pull metrics from another. Stare at three dashboards. None of them tell the whole story. So you build a theory. The theory is wrong. The clock keeps ticking. The customer impact keeps climbing. Every wro",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3e5acd53a30e76e8"
     },
     {
       "title": "CodeQL 2.26.2 adds Swift 6.3.3 and Kotlin 2.4.10 support",
@@ -11908,15 +11796,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6ac81b78de9ddda6"
     },
     {
-      "title": "What's new in Agent 365 – July 2026",
-      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-july-2026/ba-p/4543654",
-      "date": "2026-08-04T16:00:00+00:00",
-      "description": "By Alex Pozin and Samer Baroudi Maintaining visibility and control becomes increasingly complex as organizations deploy more agents across multiple Microsoft 365 tenants, through a heterogenous mix of agent platforms, and across different teams or areas in the organization. Microsoft Agent 365 has introduced new capabilities that help IT, security, and business leaders govern this growing agent ecosystem with greater confidence. The July 2026 updates bring partner risk signals into a unified sec",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/208a58e68e9a1976"
-    },
-    {
       "title": "Update: Domain Exclusion for Microsoft 365 Copilot",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-365-copilot-blog/update-domain-exclusion-for-microsoft-365-copilot/ba-p/4543648",
       "date": "2026-08-04T16:00:00+00:00",
@@ -11924,6 +11803,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/81ede42d41bf58d8"
+    },
+    {
+      "title": "What's new in Agent 365 – July 2026",
+      "link": "https://techcommunity.microsoft.com/t5/agent-365-blog/what-s-new-in-agent-365-july-2026/ba-p/4543654",
+      "date": "2026-08-04T16:00:00+00:00",
+      "description": "By Alex Pozin and Samer Baroudi Maintaining visibility and control becomes increasingly complex as organizations deploy more agents across multiple Microsoft 365 tenants, through a heterogenous mix of agent platforms, and across different teams or areas in the organization. Microsoft Agent 365 has introduced new capabilities that help IT, security, and business leaders govern this growing agent ecosystem with greater confidence. The July 2026 updates bring partner risk signals into a unified sec",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/208a58e68e9a1976"
     },
     {
       "title": "Burnout, AI, and the Gap Between Expectation and Reality",
@@ -12090,15 +11978,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/dbc1d03a9eae6bb6"
     },
     {
-      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
-      "date": "2026-08-05T07:00:00+00:00",
-      "description": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to build agents in GitHub, run them in Foundry, and distribute them across Microsoft Teams and Microsoft 365 Copilot. This blog series uses FibreOps an autonomous fibre outage response system — as a refer",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/002abea6f2623d6f"
-    },
-    {
       "title": "Agentic Migrations and Modernization: How the Azure Migrate Agent Keeps Your Intent Alive End to End",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/agentic-migrations-and-modernization-how-the-azure-migrate-agent/ba-p/4542513",
       "date": "2026-08-05T07:00:00+00:00",
@@ -12106,6 +11985,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/375af56db195578c"
+    },
+    {
+      "title": "From Build to Run to Distribute: Autonomous Agents with Microsoft Foundry Agent Service Part 1/5",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/from-build-to-run-to-distribute-autonomous-agents-with-microsoft/ba-p/4541930",
+      "date": "2026-08-05T07:00:00+00:00",
+      "description": "At Build 2026, we previewed the future of autonomous agents on the Microsoft platform. Now, those promises are delivered. Microsoft Foundry Agent Service, the Microsoft Agent Framework, and the GitHub Copilot SDK have reached General Availability, giving developers a single, end-to-end platform to build agents in GitHub, run them in Foundry, and distribute them across Microsoft Teams and Microsoft 365 Copilot. This blog series uses FibreOps an autonomous fibre outage response system — as a refer",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/002abea6f2623d6f"
     },
     {
       "title": "HostNameInCertificate changes in Azure SQL Managed Instance affecting client connectivity",
@@ -12163,15 +12051,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/2711be0e32c295c3"
     },
     {
-      "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-a-ccf-nested-api-pull-connector-a-technical-lab/ba-p/4537027",
-      "date": "2026-08-05T16:00:00+00:00",
-      "description": "This post walks through building a Microsoft Sentinel Codeless Connector Framework (CCF) RestApiPoller connector that uses the nested API polling pattern. The nested pattern exists for a specific reason: many enterprise APIs do not return enriched records from a single call. Instead, they use a two-step model: a list endpoint that returns identifiers, followed by a detail endpoint that accepts one identifier and returns the full record. Without native support for this pattern, building a Sentine",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6daee4ff696e8d3f"
-    },
-    {
       "title": "Public Preview: Nested API Support Comes to Microsoft Sentinel CCF",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/public-preview-nested-api-support-comes-to-microsoft-sentinel/ba-p/4537026",
       "date": "2026-08-05T16:00:00+00:00",
@@ -12181,13 +12060,13 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/9f1da29da54f8ed7"
     },
     {
-      "title": "Partner Blog | From AI curiosity to Copilot adoption in 30 days",
-      "link": "https://techcommunity.microsoft.com/t5/partner-news/partner-blog-from-ai-curiosity-to-copilot-adoption-in-30-days/ba-p/4544025",
-      "date": "2026-08-05T17:00:00+00:00",
-      "description": "A focused, partner-led 30-day Copilot trial is now available, backed by record FY27 investments to accelerate SMB growth. Thirty days. Twenty-five users. One clear path to AI. For small and medium-sized businesses, AI is no longer a someday conversation, it's a right-now decision. SMB customers aren't asking whether AI matters anymore; they're asking how to put it to work in ways that are practical, fast, and secure. The hard part isn't interest. It's the starting line. Customers are looking to ",
+      "title": "Building a CCF Nested API Pull Connector: A Technical Lab Walkthrough",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/building-a-ccf-nested-api-pull-connector-a-technical-lab/ba-p/4537027",
+      "date": "2026-08-05T16:00:00+00:00",
+      "description": "This post walks through building a Microsoft Sentinel Codeless Connector Framework (CCF) RestApiPoller connector that uses the nested API polling pattern. The nested pattern exists for a specific reason: many enterprise APIs do not return enriched records from a single call. Instead, they use a two-step model: a list endpoint that returns identifiers, followed by a detail endpoint that accepts one identifier and returns the full record. Without native support for this pattern, building a Sentine",
       "source": "Tech Community",
       "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b1807138c27d8b27"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6daee4ff696e8d3f"
     },
     {
       "title": "ICYMI: Partner Blog | From AI curiosity to Copilot adoption in 30 days",
@@ -12197,6 +12076,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a79974e560d19c66"
+    },
+    {
+      "title": "Partner Blog | From AI curiosity to Copilot adoption in 30 days",
+      "link": "https://techcommunity.microsoft.com/t5/partner-news/partner-blog-from-ai-curiosity-to-copilot-adoption-in-30-days/ba-p/4544025",
+      "date": "2026-08-05T17:00:00+00:00",
+      "description": "A focused, partner-led 30-day Copilot trial is now available, backed by record FY27 investments to accelerate SMB growth. Thirty days. Twenty-five users. One clear path to AI. For small and medium-sized businesses, AI is no longer a someday conversation, it's a right-now decision. SMB customers aren't asking whether AI matters anymore; they're asking how to put it to work in ways that are practical, fast, and secure. The hard part isn't interest. It's the starting line. Customers are looking to ",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b1807138c27d8b27"
     },
     {
       "title": "Announcing Public Preview - Azure Private Link over IPv6",
@@ -12329,15 +12217,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0ad0b08ca1f333e0"
     },
     {
-      "title": "Beyond Model Evaluation: Choosing Between Microsoft Foundry and PyRIT for AI Red Teaming",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-model-evaluation-choosing-between-microsoft-foundry-and/ba-p/4538110",
-      "date": "2026-08-06T07:00:00+00:00",
-      "description": "As enterprise AI systems evolve from standalone models into RAG applications, copilots, and autonomous agents, one question comes up often: Should we use Microsoft Foundry or PyRIT for Red Teaming? After working through evaluation and red teaming scenarios, my recommendation is: 👉 Use both, but for different situations. Why this distinction matters: A modern enterprise AI application is more than just a model. User ↓ Agent / Chat API ↓ System Prompts ↓ Tools / Business Logic ↓ RAG Retrieval Laye",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1088999436136373"
-    },
-    {
       "title": "Zonal Resiliency in Azure: Application-Centric Goals, Recovery Plans, and Drills",
       "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/zonal-resiliency-in-azure-application-centric-goals-recovery/ba-p/4542514",
       "date": "2026-08-06T07:00:00+00:00",
@@ -12345,6 +12224,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c612fc19d0a4b4bc"
+    },
+    {
+      "title": "Beyond Model Evaluation: Choosing Between Microsoft Foundry and PyRIT for AI Red Teaming",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/beyond-model-evaluation-choosing-between-microsoft-foundry-and/ba-p/4538110",
+      "date": "2026-08-06T07:00:00+00:00",
+      "description": "As enterprise AI systems evolve from standalone models into RAG applications, copilots, and autonomous agents, one question comes up often: Should we use Microsoft Foundry or PyRIT for Red Teaming? After working through evaluation and red teaming scenarios, my recommendation is: 👉 Use both, but for different situations. Why this distinction matters: A modern enterprise AI application is more than just a model. User ↓ Agent / Chat API ↓ System Prompts ↓ Tools / Business Logic ↓ RAG Retrieval Laye",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/1088999436136373"
     },
     {
       "title": "Microsoft Global Hackathon 2026: Where MVP and RD Community Expertise Meets Innovation",
@@ -12356,15 +12244,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/785e6a16e38b046a"
     },
     {
-      "title": "New in Microsoft Marketplace: Offers published July 6-7, 2026",
-      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-offers-published-july-6-7-2026/ba-p/4540416",
-      "date": "2026-08-06T13:00:00+00:00",
-      "description": "Learn about 216 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Business Analyst Toolkit: User Story Generator : User Story Generator, part of the Business Analyst Toolkit from DatasetApps, captures business requirements and turns them into user stories. These stories deliver insights that strengthen requirements before development begins. User Story Gene",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3313b396e7430f94"
-    },
-    {
       "title": "What's New in Copilot in SharePoint: August 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/what-s-new-in-copilot-in-sharepoint-august-2026/ba-p/4535421",
       "date": "2026-08-06T13:00:00+00:00",
@@ -12372,6 +12251,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/382e207e575d72c0"
+    },
+    {
+      "title": "New in Microsoft Marketplace: Offers published July 6-7, 2026",
+      "link": "https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-offers-published-july-6-7-2026/ba-p/4540416",
+      "date": "2026-08-06T13:00:00+00:00",
+      "description": "Learn about 216 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Business Analyst Toolkit: User Story Generator : User Story Generator, part of the Business Analyst Toolkit from DatasetApps, captures business requirements and turns them into user stories. These stories deliver insights that strengthen requirements before development begins. User Story Gene",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3313b396e7430f94"
     },
     {
       "title": "From Distillation to Reinforcement Fine-Tuning: Hill-Climbing in Microsoft Foundry",
@@ -12591,15 +12479,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/068c47abe1a88a5a"
     },
     {
-      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
-      "date": "2026-08-07T14:00:00+00:00",
-      "description": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is locked down the same way: Azure AI Search — private endpoint, public access off. Azure Storage — private endpoint, public access off. Azure Cosmos DB — private endpoint, public access off. An MCP server ",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c1015c9d6ffbd536"
-    },
-    {
       "title": "From Good to Great: We Put Agent Optimizer to the Test in Microsoft Foundry",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/from-good-to-great-we-put-agent-optimizer-to-the-test-in/ba-p/4543982",
       "date": "2026-08-07T14:00:00+00:00",
@@ -12607,6 +12486,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f2f2f2f382d53fb1"
+    },
+    {
+      "title": "The Hidden Reason Your Foundry Agent Can't Reach Any of Your Private (Bring-Your-Own) Resources",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/the-hidden-reason-your-foundry-agent-can-t-reach-any-of-your/ba-p/4543619",
+      "date": "2026-08-07T14:00:00+00:00",
+      "description": "The setup You've built the deployment the enterprise architecture review asked for. Nothing touches the public internet. Your Microsoft Foundry resource is private — public network access disabled, a private endpoint fronting it inside your virtual network. Every resource the agent depends on is locked down the same way: Azure AI Search — private endpoint, public access off. Azure Storage — private endpoint, public access off. Azure Cosmos DB — private endpoint, public access off. An MCP server ",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c1015c9d6ffbd536"
     },
     {
       "title": "GitHub Code Quality no longer adds Copilot as a reviewer",
@@ -12659,15 +12547,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/523078d0c9f756da"
     },
     {
-      "title": "mssql-python 1.13.0: Arrow Bulk Copy, Smarter Tokens, Slimmer Wheels",
-      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-python-1-13-0-arrow-bulk-copy-smarter-tokens-slimmer/ba-p/4544858",
-      "date": "2026-08-07T17:00:00+00:00",
-      "description": "mssql-python 1.13.0 is now available on PyPI. This release adds an Apache Arrow fast path for bulk copy, first-class support for azure-identity credential objects, identity-aware connection pooling, and it completes the move of the ODBC driver binaries into the standalone mssql-python-odbc package. pip install --upgrade mssql-python Highlights Apache Arrow bulk copy Loading data that already lives in Arrow no longer has to round-trip through Python tuples. The new Cursor.bulkcopy_arrow() reads e",
-      "source": "Tech Community",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0591585ded652169"
-    },
-    {
       "title": "Accelerate your sales with Deal Ready Demo Accelerators​",
       "link": "https://techcommunity.microsoft.com/t5/partner-news/accelerate-your-sales-with-deal-ready-demo-accelerators/ba-p/4544816",
       "date": "2026-08-07T17:00:00+00:00",
@@ -12675,6 +12554,15 @@
       "source": "Tech Community",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/06fbee7722c0870f"
+    },
+    {
+      "title": "mssql-python 1.13.0: Arrow Bulk Copy, Smarter Tokens, Slimmer Wheels",
+      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/mssql-python-1-13-0-arrow-bulk-copy-smarter-tokens-slimmer/ba-p/4544858",
+      "date": "2026-08-07T17:00:00+00:00",
+      "description": "mssql-python 1.13.0 is now available on PyPI. This release adds an Apache Arrow fast path for bulk copy, first-class support for azure-identity credential objects, identity-aware connection pooling, and it completes the move of the ODBC driver binaries into the standalone mssql-python-odbc package. pip install --upgrade mssql-python Highlights Apache Arrow bulk copy Loading data that already lives in Arrow no longer has to round-trip through Python tuples. The new Cursor.bulkcopy_arrow() reads e",
+      "source": "Tech Community",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0591585ded652169"
     },
     {
       "title": "The Microsoft Excel World Championship is back on ESPN8 The Ocho for the 5th year in a row",
@@ -13117,17 +13005,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a57023fd74d121b4"
     },
     {
-      "title": "Accelerate Inference on AKS with Azure Blob Storage and NVIDIA Dynamo",
-      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerate-inference-on-aks-with-azure-blob-storage-and-nvidia/ba-p/4543408",
-      "date": "2026-08-11T15:00:00+00:00",
-      "description": "As agents generate more tokens and use longer context windows, AI platforms must reduce cost per token and optimize inference performance across every layer of the stack. With new native integrations between Azure Blob Storage and the NVIDIA Dynamo stack, users can now combine the scalability, durability, and operational simplicity of Azure Blob Storage with Dynamo’s high-performance inference capabilities. NVIDIA Dynamo is a suite of tools enabling accelerated AI inference systems on Kubernetes",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNDA4LWtITXZhVw?revision=2",
-      "image_width": 914,
-      "image_height": 457,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/40ba3d77264aa2c5"
-    },
-    {
       "title": "How MVPs Use AI - Loop engineering: Building safer AI agent workflows for high-stakes infrastructure",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-mvp-program-blog/how-mvps-use-ai-loop-engineering-building-safer-ai-agent/ba-p/4545646",
       "date": "2026-08-11T15:00:00+00:00",
@@ -13137,6 +13014,17 @@
       "image_width": 576,
       "image_height": 314,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/bc85ea0fbcd6054a"
+    },
+    {
+      "title": "Accelerate Inference on AKS with Azure Blob Storage and NVIDIA Dynamo",
+      "link": "https://techcommunity.microsoft.com/t5/azure-storage-blog/accelerate-inference-on-aks-with-azure-blob-storage-and-nvidia/ba-p/4543408",
+      "date": "2026-08-11T15:00:00+00:00",
+      "description": "As agents generate more tokens and use longer context windows, AI platforms must reduce cost per token and optimize inference performance across every layer of the stack. With new native integrations between Azure Blob Storage and the NVIDIA Dynamo stack, users can now combine the scalability, durability, and operational simplicity of Azure Blob Storage with Dynamo’s high-performance inference capabilities. NVIDIA Dynamo is a suite of tools enabling accelerated AI inference systems on Kubernetes",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNDA4LWtITXZhVw?revision=2",
+      "image_width": 914,
+      "image_height": 457,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/40ba3d77264aa2c5"
     },
     {
       "title": "Turn meetings into momentum with Microsoft 365 Copilot",
@@ -13374,17 +13262,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/aac0f51e1cc0021d"
     },
     {
-      "title": "Container Network Insights Agent (CNIA): Your AI Teammate for AKS Networking Incidents",
-      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/container-network-insights-agent-cnia-your-ai-teammate-for-aks/ba-p/4545971",
-      "date": "2026-08-12T07:00:00+00:00",
-      "description": "Hello Folks! If you run AKS in production, you already know the script. A pod cannot reach an external service, every dashboard says the cluster is healthy, and somebody is SSHing into a node with five browser tabs open trying to piece the story together.  This session from the Microsoft Azure Infra Summit 2026 tackles that exact pain. Shaifali Garg (PM for Azure Container Networking on AKS) sits down with Jonathan Wang, an AKS operator running 30 clusters across two regions on Cilium, and they ",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ1OTcxLTBVSlA2SA?revision=1",
-      "image_width": 2712,
-      "image_height": 849,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/16f47a5f121380dc"
-    },
-    {
       "title": "Building Autonomous Agents with Microsoft Agent Framework and GitHub Copilot SDK Part 2/5",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/building-autonomous-agents-with-microsoft-agent-framework-and/ba-p/4541924",
       "date": "2026-08-12T07:00:00+00:00",
@@ -13394,6 +13271,17 @@
       "image_width": 1300,
       "image_height": 500,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b50e476333a6b5eb"
+    },
+    {
+      "title": "Container Network Insights Agent (CNIA): Your AI Teammate for AKS Networking Incidents",
+      "link": "https://techcommunity.microsoft.com/t5/itops-talk-blog/container-network-insights-agent-cnia-your-ai-teammate-for-aks/ba-p/4545971",
+      "date": "2026-08-12T07:00:00+00:00",
+      "description": "Hello Folks! If you run AKS in production, you already know the script. A pod cannot reach an external service, every dashboard says the cluster is healthy, and somebody is SSHing into a node with five browser tabs open trying to piece the story together.  This session from the Microsoft Azure Infra Summit 2026 tackles that exact pain. Shaifali Garg (PM for Azure Container Networking on AKS) sits down with Jonathan Wang, an AKS operator running 30 clusters across two regions on Cilium, and they ",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ1OTcxLTBVSlA2SA?revision=1",
+      "image_width": 2712,
+      "image_height": 849,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/16f47a5f121380dc"
     },
     {
       "title": "Azure Monitor Auxiliary Logs expands with Azure tables support, plan switching, and sovereign clouds",
@@ -13947,6 +13835,16 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/61fc6209c742fde8"
     },
     {
+      "title": "Microsoft Drivers for PHP for SQL Server 5.13.3: PIE support on every platform",
+      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/microsoft-drivers-for-php-for-sql-server-5-13-3-pie-support-on/ba-p/4546843",
+      "date": "2026-08-14T17:00:00+00:00",
+      "description": "Version 5.13.3 of the Microsoft Drivers for PHP for SQL Server is now available on PIE, the PHP Installer for Extensions , the official replacement for the deprecated PECL installer. You can now install SQLSRV and PDO_SQLSRV on Linux, macOS, and Windows through the same Composer-style tooling you already use for your PHP dependencies. This release completes the PIE rollout that started in 5.13.2. That release also carried two PDO_SQLSRV security fixes, so we recommend upgrading regardless of how",
+      "source": "Tech Community",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f6135d535abc34b9"
+    },
+    {
       "title": "Microsoft Agent 365: Governing the Enterprise AI Workforce",
       "link": "https://techcommunity.microsoft.com/t5/partner-news/microsoft-agent-365-governing-the-enterprise-ai-workforce/ba-p/4541391",
       "date": "2026-08-14T17:00:00+00:00",
@@ -13956,16 +13854,6 @@
       "image_width": 2600,
       "image_height": 1000,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/74b6220ebfcac6de"
-    },
-    {
-      "title": "Microsoft Drivers for PHP for SQL Server 5.13.3: PIE support on every platform",
-      "link": "https://techcommunity.microsoft.com/t5/sql-server-blog/microsoft-drivers-for-php-for-sql-server-5-13-3-pie-support-on/ba-p/4546843",
-      "date": "2026-08-14T17:00:00+00:00",
-      "description": "Version 5.13.3 of the Microsoft Drivers for PHP for SQL Server is now available on PIE, the PHP Installer for Extensions , the official replacement for the deprecated PECL installer. You can now install SQLSRV and PDO_SQLSRV on Linux, macOS, and Windows through the same Composer-style tooling you already use for your PHP dependencies. This release completes the PIE rollout that started in 5.13.2. That release also carried two PDO_SQLSRV security fixes, so we recommend upgrading regardless of how",
-      "source": "Tech Community",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/f6135d535abc34b9"
     },
     {
       "title": "Title Plan Update - August 14, 2026",
@@ -14810,17 +14698,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6dd0bcee23877860"
     },
     {
-      "title": "A cleaner, simpler Engage: what's changing now and next",
-      "link": "https://techcommunity.microsoft.com/t5/viva-engage-blog/a-cleaner-simpler-engage-what-s-changing-now-and-next/ba-p/4547594",
-      "date": "2026-08-20T16:00:00+00:00",
-      "description": "Over time, Viva Engage has rapidly grown to support more ways to connect, communicate, and manage communities. But as capabilities expanded, so did the number of places users had to look. Customers told us they were encountering duplicate paths, crowded community pages, and navigation that felt confusing. We heard one message consistently across channels: simplify the experience. This change is now reaching customers. The initial phase includes Engage navigation and layout refresh, bringing a cl",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ3NTk0LU9ua1BxTw?revision=5",
-      "image_width": 1247,
-      "image_height": 480,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/52b7fd4967c06a9f"
-    },
-    {
       "title": "Simplify AKS observability with Azure Native New Relic Service",
       "link": "https://techcommunity.microsoft.com/t5/partner-news/simplify-aks-observability-with-azure-native-new-relic-service/ba-p/4547966",
       "date": "2026-08-20T16:00:00+00:00",
@@ -14830,6 +14707,17 @@
       "image_width": 1536,
       "image_height": 1024,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5959f3c1ff2a7699"
+    },
+    {
+      "title": "A cleaner, simpler Engage: what's changing now and next",
+      "link": "https://techcommunity.microsoft.com/t5/viva-engage-blog/a-cleaner-simpler-engage-what-s-changing-now-and-next/ba-p/4547594",
+      "date": "2026-08-20T16:00:00+00:00",
+      "description": "Over time, Viva Engage has rapidly grown to support more ways to connect, communicate, and manage communities. But as capabilities expanded, so did the number of places users had to look. Customers told us they were encountering duplicate paths, crowded community pages, and navigation that felt confusing. We heard one message consistently across channels: simplify the experience. This change is now reaching customers. The initial phase includes Engage navigation and layout refresh, bringing a cl",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ3NTk0LU9ua1BxTw?revision=5",
+      "image_width": 1247,
+      "image_height": 480,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/52b7fd4967c06a9f"
     },
     {
       "title": "Announcing: Azure Copilot introduces direct access to agents",
@@ -15341,17 +15229,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/4ee9ff1c86c37307"
     },
     {
-      "title": "Azure SRE Agent VNet integration is now generally available",
-      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-vnet-integration-is-now-generally-available/ba-p/4549774",
-      "date": "2026-08-25T15:00:00+00:00",
-      "description": "VNet integration for Azure SRE Agent is now generally available. You can route outbound agent traffic through your virtual network to access resources behind private endpoints, including databases, Azure Container Apps, Azure Kubernetes Service (AKS) API servers, and more. Traffic routed through your VNet follows your existing routes, network security group rules, firewall policies, private DNS configuration, and network logging. How VNet integration fits into Azure SRE Agent security Azure SRE ",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5Nzc0LWFxU1JObA?revision=4",
-      "image_width": 1582,
-      "image_height": 889,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57ef7717dd240f4e"
-    },
-    {
       "title": "Azure SRE Agent: Introducing Live Reports",
       "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-introducing-live-reports/ba-p/4549732",
       "date": "2026-08-25T15:00:00+00:00",
@@ -15361,6 +15238,17 @@
       "image_width": 1535,
       "image_height": 706,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/ea0ee0ea1d90edf7"
+    },
+    {
+      "title": "Azure SRE Agent VNet integration is now generally available",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-sre-agent-vnet-integration-is-now-generally-available/ba-p/4549774",
+      "date": "2026-08-25T15:00:00+00:00",
+      "description": "VNet integration for Azure SRE Agent is now generally available. You can route outbound agent traffic through your virtual network to access resources behind private endpoints, including databases, Azure Container Apps, Azure Kubernetes Service (AKS) API servers, and more. Traffic routed through your VNet follows your existing routes, network security group rules, firewall policies, private DNS configuration, and network logging. How VNet integration fits into Azure SRE Agent security Azure SRE ",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5Nzc0LWFxU1JObA?revision=4",
+      "image_width": 1582,
+      "image_height": 889,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57ef7717dd240f4e"
     },
     {
       "title": "Across the U.S. to Beer City Code: MVPs Build Community in Grand Rapids, Michigan",
@@ -16405,17 +16293,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8b83437bdb89b0fc"
     },
     {
-      "title": "One SOC, Many Tenants: Centralizing Microsoft Sentinel with Azure Lighthouse",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-security-community/one-soc-many-tenants-centralizing-microsoft-sentinel-with-azure/ba-p/4543629",
-      "date": "2026-08-31T16:00:00+00:00",
-      "description": "Most large organizations don’t live in a single Microsoft Entra ID tenant. Acquisitions, regulatory separation, sovereignty mandates, and mission boundaries all multiply tenants over time. For a security operations team, that sprawl creates one hard question: how do you run a single security operations center (SOC) with one pane of glass, without copying every tenant’s logs into a central bucket and inheriting the compliance risk that comes with it? Azure Lighthouse provides delegated resource m",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNjI5LXprMFRlWg?revision=6",
-      "image_width": 1200,
-      "image_height": 500,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/04b3ea2ff9259693"
-    },
-    {
       "title": "What’s new in Microsoft Sentinel: August 2026",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/what-s-new-in-microsoft-sentinel-august-2026/ba-p/4551405",
       "date": "2026-08-31T16:00:00+00:00",
@@ -16425,6 +16302,17 @@
       "image_width": 2000,
       "image_height": 1335,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/b9645f067dc27777"
+    },
+    {
+      "title": "One SOC, Many Tenants: Centralizing Microsoft Sentinel with Azure Lighthouse",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-security-community/one-soc-many-tenants-centralizing-microsoft-sentinel-with-azure/ba-p/4543629",
+      "date": "2026-08-31T16:00:00+00:00",
+      "description": "Most large organizations don’t live in a single Microsoft Entra ID tenant. Acquisitions, regulatory separation, sovereignty mandates, and mission boundaries all multiply tenants over time. For a security operations team, that sprawl creates one hard question: how do you run a single security operations center (SOC) with one pane of glass, without copying every tenant’s logs into a central bucket and inheriting the compliance risk that comes with it? Azure Lighthouse provides delegated resource m",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNjI5LXprMFRlWg?revision=6",
+      "image_width": 1200,
+      "image_height": 500,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/04b3ea2ff9259693"
     },
     {
       "title": "Microsoft and AWS simplify cloud connections for the AI era",
@@ -16715,26 +16603,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a426d9dd39e4d20e"
     },
     {
-      "title": "Expanding memory integrity protection across Windows devices",
-      "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/expanding-memory-integrity-protection-across-windows-devices/ba-p/4551984",
+      "title": "Stop identity attacks before they start with Microsoft ISPM recommendations",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/stop-identity-attacks-before-they-start-with-microsoft-ispm/ba-p/4549692",
       "date": "2026-09-01T16:00:00+00:00",
-      "description": "Security works best when protection is built in, not bolted on. Beginning in October 2026, Microsoft will expand memory integrity protection across eligible devices, helping you and your organization benefit from stronger kernel-level protection from sophisticated attacks by default with little or no additional configuration. This change reduces security complexity while helping you establish a stronger security baseline across your environment. Built on Virtualization-based Security (VBS), memo",
+      "description": "Many major breaches involve compromised identities, excessive privileges, or misconfigured access. Long before ransomware detonates or data leaves the building, adversaries are quietly abusing valid accounts, excessive privileges or other misconfigurations to move deeper into the environment. Identity has become one of the most important attack surfaces you defend. That is why Microsoft has a dedicated team of researchers who study how identity attacks actually happen. Just as important, we turn",
       "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUxOTg0LUpaRmE3Rg?revision=3",
-      "image_width": 1224,
-      "image_height": 792,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/78f31a3928254abc"
-    },
-    {
-      "title": "Generally Available: Certificate Management for Azure Arc-enabled Kubernetes",
-      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-certificate-management-for-azure-arc-enabled/ba-p/4542769",
-      "date": "2026-09-01T16:00:00+00:00",
-      "description": "We are excited to announce the general availability of a new capability for edge Kubernetes workloads connected with Azure Arc, Certificate Management. Certificate Management enables Arc-enabled Kubernetes customers to install a single Microsoft-supported extension to automate TLS certificate and trust bundle management across their edge fleets. The extension is supported for production workloads under standard Microsoft support agreements. What it is The Certificate Management extension package",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQyNzY5LVh4OW84Uw?revision=4",
-      "image_width": 1536,
-      "image_height": 1024,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/12279ce4ab45605a"
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5NjkyLXVmU3BjZQ?revision=2",
+      "image_width": 2748,
+      "image_height": 1162,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/2e44b3bea3cf225f"
     },
     {
       "title": "Microsoft Azure Virtual Desktop Hybrid is now generally available",
@@ -16748,15 +16625,26 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/57ba1dc5c162ec79"
     },
     {
-      "title": "Stop identity attacks before they start with Microsoft ISPM recommendations",
-      "link": "https://techcommunity.microsoft.com/t5/microsoft-defender-xdr-blog/stop-identity-attacks-before-they-start-with-microsoft-ispm/ba-p/4549692",
+      "title": "Generally Available: Certificate Management for Azure Arc-enabled Kubernetes",
+      "link": "https://techcommunity.microsoft.com/t5/azure-arc-blog/generally-available-certificate-management-for-azure-arc-enabled/ba-p/4542769",
       "date": "2026-09-01T16:00:00+00:00",
-      "description": "Many major breaches involve compromised identities, excessive privileges, or misconfigured access. Long before ransomware detonates or data leaves the building, adversaries are quietly abusing valid accounts, excessive privileges or other misconfigurations to move deeper into the environment. Identity has become one of the most important attack surfaces you defend. That is why Microsoft has a dedicated team of researchers who study how identity attacks actually happen. Just as important, we turn",
+      "description": "We are excited to announce the general availability of a new capability for edge Kubernetes workloads connected with Azure Arc, Certificate Management. Certificate Management enables Arc-enabled Kubernetes customers to install a single Microsoft-supported extension to automate TLS certificate and trust bundle management across their edge fleets. The extension is supported for production workloads under standard Microsoft support agreements. What it is The Certificate Management extension package",
       "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5NjkyLXVmU3BjZQ?revision=2",
-      "image_width": 2748,
-      "image_height": 1162,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/2e44b3bea3cf225f"
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQyNzY5LVh4OW84Uw?revision=4",
+      "image_width": 1536,
+      "image_height": 1024,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/12279ce4ab45605a"
+    },
+    {
+      "title": "Expanding memory integrity protection across Windows devices",
+      "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/expanding-memory-integrity-protection-across-windows-devices/ba-p/4551984",
+      "date": "2026-09-01T16:00:00+00:00",
+      "description": "Security works best when protection is built in, not bolted on. Beginning in October 2026, Microsoft will expand memory integrity protection across eligible devices, helping you and your organization benefit from stronger kernel-level protection from sophisticated attacks by default with little or no additional configuration. This change reduces security complexity while helping you establish a stronger security baseline across your environment. Built on Virtualization-based Security (VBS), memo",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUxOTg0LUpaRmE3Rg?revision=3",
+      "image_width": 1224,
+      "image_height": 792,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/78f31a3928254abc"
     },
     {
       "title": "Windows 365: Five Years In, See What's New",
@@ -16839,17 +16727,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a89ee49fe8f346cc"
     },
     {
-      "title": "Build a more effective co-sell motion with new skilling videos",
-      "link": "https://techcommunity.microsoft.com/t5/partner-news/build-a-more-effective-co-sell-motion-with-new-skilling-videos/ba-p/4551938",
-      "date": "2026-09-01T17:00:00+00:00",
-      "description": "Turn co-sell into a more consistent growth engine for your business. The new five-part Co-sell Execution Engine video series, now available on the Microsoft Partner Skilling Hub, gives you practical guidance from Microsoft co-sell leaders and experienced partners. Across five on-demand sessions, Microsoft co-sell leaders and experienced partners share proven frameworks, data-driven strategies, and real-world insights that empower you to: Strengthen collaboration with Microsoft sellers. Improve d",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUxOTM4LWZDRTBFWA?revision=1",
-      "image_width": 1114,
-      "image_height": 454,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6784a5fb8dd0c585"
-    },
-    {
       "title": "Stop Letting Agents Run the Workflow",
       "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/stop-letting-agents-run-the-workflow/ba-p/4550068",
       "date": "2026-09-01T17:00:00+00:00",
@@ -16859,6 +16736,17 @@
       "image_width": 3840,
       "image_height": 3162,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/762d233e0a6087f5"
+    },
+    {
+      "title": "Build a more effective co-sell motion with new skilling videos",
+      "link": "https://techcommunity.microsoft.com/t5/partner-news/build-a-more-effective-co-sell-motion-with-new-skilling-videos/ba-p/4551938",
+      "date": "2026-09-01T17:00:00+00:00",
+      "description": "Turn co-sell into a more consistent growth engine for your business. The new five-part Co-sell Execution Engine video series, now available on the Microsoft Partner Skilling Hub, gives you practical guidance from Microsoft co-sell leaders and experienced partners. Across five on-demand sessions, Microsoft co-sell leaders and experienced partners share proven frameworks, data-driven strategies, and real-world insights that empower you to: Strengthen collaboration with Microsoft sellers. Improve d",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUxOTM4LWZDRTBFWA?revision=1",
+      "image_width": 1114,
+      "image_height": 454,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/6784a5fb8dd0c585"
     },
     {
       "title": "[Launched] Generally Available: Azure Firewall auto-learn SNAT routes",
@@ -18166,17 +18054,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/c84a57a97fd6c729"
     },
     {
-      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
-      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
-      "date": "2026-09-08T17:00:00+00:00",
-      "description": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can carry context, policy, and learning across them. In practice, orchestrated media intelligence connects four foundations: trusted data and metadata, specialized AI models and agents, scalable cloud infra",
-      "source": "Tech Community",
-      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNzgyLTFtbkY5Mg?revision=2",
-      "image_width": 936,
-      "image_height": 591,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/77ec609bca3b2736"
-    },
-    {
       "title": "September update: What’s new for partners in AI Business Solutions",
       "link": "https://techcommunity.microsoft.com/t5/partner-news/september-update-what-s-new-for-partners-in-ai-business/ba-p/4553602",
       "date": "2026-09-08T17:00:00+00:00",
@@ -18186,6 +18063,17 @@
       "image_width": 1200,
       "image_height": 500,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/3975629930220d12"
+    },
+    {
+      "title": "Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows",
+      "link": "https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782",
+      "date": "2026-09-08T17:00:00+00:00",
+      "description": "What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can carry context, policy, and learning across them. In practice, orchestrated media intelligence connects four foundations: trusted data and metadata, specialized AI models and agents, scalable cloud infra",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNzgyLTFtbkY5Mg?revision=2",
+      "image_width": 936,
+      "image_height": 591,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/77ec609bca3b2736"
     },
     {
       "title": "What the Creator Economy Can Teach Us About Leadership Communication",
@@ -18423,6 +18311,17 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/377bfe454379ffb2"
     },
     {
+      "title": "Azure Copilot announces general availability of the Troubleshooting Agent",
+      "link": "https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-copilot-announces-general-availability-of-the/ba-p/4554549",
+      "date": "2026-09-09T15:00:00+00:00",
+      "description": "Cloud operations are most effective when teams can turn insights into understanding and understanding into action. Whether you’re deploying new services, troubleshooting an issue, assessing resource health, or managing change, you need operational intelligence that helps you make faster, more informed decisions and continuously improve your environment. This is the promise of agentic cloud operations, a new operating model that uses AI powered agents equipped with deep contextual understanding a",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTQ5LTFlNzVEVA?revision=1",
+      "image_width": 5484,
+      "image_height": 3085,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0984c7c172c44804"
+    },
+    {
       "title": "Protecting students in the age of AI: A new school standard",
       "link": "https://news.microsoft.com/source/2026/09/09/aft-uft-and-microsoft-announce-national-ai-safety-privacy-standard-for-schools-to-protect-students-families-and-educators/",
       "date": "2026-09-09T15:02:52+00:00",
@@ -18430,6 +18329,92 @@
       "source": "Microsoft Source",
       "image": "https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/e434a81638c0e0cc"
+    },
+    {
+      "title": "Build an AI-assisted support email workflow with Power Automate and Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-support-email-workflow-with-power-automate/ba-p/4554297",
+      "date": "2026-09-09T15:28:16+00:00",
+      "description": "Difficulty: Intermediate A support email arrives with a product name, an error code, and a country. Before anyone can help, someone has to interpret the request, find the right team, record the case, and decide what to tell the customer. In this tutorial, you build that support email workflow with Microsoft 365, Power Automate, Azure Functions, and Microsoft Foundry. AI extracts the request details and recommends a support team. The flow checks the recommendation against a SharePoint catalog, as",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0Mjk3LTRGY2F2MA?revision=68",
+      "image_width": 2400,
+      "image_height": 1350,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/5707e5149d23ffea"
+    },
+    {
+      "title": "This first-of-a-kind agreement will set a new standard for safe and responsible AI use in schools. We are making these protections available to every school district in the US.",
+      "link": "https://www.linkedin.com/feed/update/urn:li:activity:7503499375227092993/",
+      "date": "2026-09-09T15:30:00+00:00",
+      "description": "The post This first-of-a-kind agreement will set a new standard for safe and responsible AI use in schools. We are making these protections available to every school district in the US. appeared first on Source .",
+      "source": "Microsoft Source",
+      "image": "https://media.licdn.com/dms/image/v2/D4E22AQFGLOQsfqXPEg/feedshare-shrink_800/B4EaCG0ho7JMAc-/0/1788968311915?e=2147483647&v=beta&t=xyS87IQ2OIiLL7hpZsGG1eoZSPjSkFr5zcbVLftSpBE",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/83c039ec33ceb632"
+    },
+    {
+      "title": "Measuring the value of Cowork: From AI interactions to completed work",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-copilot-blog/measuring-the-value-of-cowork-from-ai-interactions-to-completed/ba-p/4554464",
+      "date": "2026-09-09T15:48:12+00:00",
+      "description": "You have invested in Copilot. Adoption is climbing, prompt volume is up, and your dashboards are full of engagement charts. Yet the question leadership keeps asking is: How do we quantify the value of AI when it helps us across so many kinds of work? Value has always been incredibly hard to define for software, and as a result organizations looked to signals like usage trends as a proxy. These metrics were good approximations of value and made sense in a world where products and product costs we",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDY0LXVBNjJMZg?revision=4",
+      "image_width": 961,
+      "image_height": 628,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a4c2c5f85ae071da"
+    },
+    {
+      "title": "Can a Harmless Prompt Break an AI Guardrail?",
+      "link": "https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/can-a-harmless-prompt-break-an-ai-guardrail/ba-p/4553727",
+      "date": "2026-09-09T16:00:00+00:00",
+      "description": "Tamara Gaidar, Senior Data Scientist, Microsoft Security Research Team Maor Nissan, Principal Data Scientist, Microsoft Security Research Team About this two-part series At BlueHat IL 2026 we put a guardrailed AI agent in front of roughly 2,200 security professionals and let them attack it for two days. They tried 35,877 times. This is what we found in the data. In this post (Part 1) - what they tried How the game worked, and why the wording of a guardrail mattered more than its strictness What ",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNzI3LU1CSDAwSg?revision=4",
+      "image_width": 1418,
+      "image_height": 791,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/4b468e25fd799744"
+    },
+    {
+      "title": "Retiring NTLM: Frequently asked questions",
+      "link": "https://techcommunity.microsoft.com/t5/windows-it-pro-blog/retiring-ntlm-frequently-asked-questions/ba-p/4550522",
+      "date": "2026-09-09T16:10:54+00:00",
+      "description": "NTLM has been a loyal companion to Windows since 1993. It helped us log in and share files, but it also quietly fueled a generation of red-team demos and incident reports. We're grateful for the service. We're also, respectfully, showing it the door. This FAQ collects the questions we hear most often from customers, partners, and the community as we move Windows to a Kerberos-first, NTLM-optional (and eventually NTLM-free) future. If you've emailed us, cornered us at a conference, or filed a sup",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUwNTIyLWFHZjhDYw?revision=3",
+      "image_width": 1000,
+      "image_height": 563,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/287dc0f781437275"
+    },
+    {
+      "title": "AI where and when you need it with Dragon Copilot's ability to focus",
+      "link": "https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/ai-where-and-when-you-need-it-with-dragon-copilot-s-ability-to/ba-p/4554293",
+      "date": "2026-09-09T16:12:22+00:00",
+      "description": "At HIMSS 2026, we showed that the most useful place to apply clinical intelligence is often not in a separate app or side window, but at the cursor, in the field where the clinician is already working. Our last post on this topic described the problem Dragon Copilot's focus capability is designed to solve: clinicians becoming data couriers, moving between windows, copying information from one system into another, and stitching together a day's work across multiple applications. That post looked ",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MjkzLVlTMHdtdw?revision=7",
+      "image_width": 1536,
+      "image_height": 864,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/a5213b5adfa063ed"
+    },
+    {
+      "title": "Announcing general availability of Ephemeral OS Disk with full caching for VM/VMSS",
+      "link": "https://techcommunity.microsoft.com/t5/azure-compute-blog/announcing-general-availability-of-ephemeral-os-disk-with-full/ba-p/4554797",
+      "date": "2026-09-09T16:57:04+00:00",
+      "description": "Today, we're excited to announce the GA of Ephemeral OS disk with full caching , designed to significantly enhance performance and reliability by utilizing local storage. This feature is ideal for AI workloads and IO-sensitive workloads, as it eliminates dependency on remote storage by caching the entire OS image on local storage. Why full caching matters? With the default Ephemeral OS disk caching mode, writes are stored locally, while reads for files in the base OS image can still depend on re",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0Nzk3LXBtb0pQQg?revision=8",
+      "image_width": 1942,
+      "image_height": 809,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/bde7339775a8c50a"
+    },
+    {
+      "title": "September update: What’s new in Security for partners",
+      "link": "https://techcommunity.microsoft.com/t5/partner-news/september-update-what-s-new-in-security-for-partners/ba-p/4554532",
+      "date": "2026-09-09T17:00:00+00:00",
+      "description": "This month’s Security partner update highlights the launch of the Microsoft Security Partner Community, the integration of Microsoft Defender Threat Intelligence capabilities into Microsoft Defender and Microsoft Sentinel, and the latest Microsoft Security product news. It also features updated CSP offers and promotions across Microsoft 365 E5, Microsoft Defender, and Microsoft Purview, plus new skilling resources including the Microsoft Partner Skilling Hub AI Agent and Co-Sell Execution Engine",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTMyLVF3Z2NkMA?revision=1",
+      "image_width": 1200,
+      "image_height": 500,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/78baecd8f7ab52b3"
     },
     {
       "title": "Visual Studio Code 1.137",
@@ -18452,6 +18437,17 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/81d8902a087ddcd7"
     },
     {
+      "title": "Fixes in Microsoft Access – Version 2608 (Build 16.0.20326.20100)",
+      "link": "https://techcommunity.microsoft.com/t5/access-blog/fixes-in-microsoft-access-version-2608-build-16-0-20326-20100/ba-p/4554943",
+      "date": "2026-09-09T17:29:44+00:00",
+      "description": "Important update: A regression introduced by an earlier security update could cause labels, text boxes, combo boxes, and other controls to lose their fonts, colors, or styles after printing or previewing reports that contain embedded images or OLE objects. It could also contribute to crashes during printing or PDF export. This issue is fixed in Version 2608 Build 16.0.20326.20132, released September 1. We recommend updating to this build or later. Zoom Issue Fix VBA Zoom did not work reliably wi",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3",
+      "image_width": 1500,
+      "image_height": 1000,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/0a63dc5b21711907"
+    },
+    {
       "title": "GitHub Advanced Security expands trial availability",
       "link": "https://github.blog/changelog/2026-09-09-github-advanced-security-expands-trial-availability",
       "date": "2026-09-09T17:33:34+00:00",
@@ -18461,6 +18457,17 @@
       "image_width": 2064,
       "image_height": 900,
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/958d806c73062144"
+    },
+    {
+      "title": "Adding network intelligence into a network-ready Azure migration plan",
+      "link": "https://techcommunity.microsoft.com/t5/azure-networking-blog/adding-network-intelligence-into-a-network-ready-azure-migration/ba-p/4554519",
+      "date": "2026-09-09T18:01:43+00:00",
+      "description": "Sudha Mahajan, Partner PM Azure Networking, Vijay Mamtani, CVP Azure Networking | September 2026 Lift-and-shift succeeds when the network moves with the application For many VMware customers, the immediate migration goal is practical: move workloads to Azure quickly, preserve application behavior and connectivity, reduce execution risk, keep it secure, and build a costed plan that leaders can approve. Compute and storage sizing are necessary, but it is not the whole migration plan. Applications ",
+      "source": "Tech Community",
+      "image": "https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTE5LU9GOFlSbQ?revision=4",
+      "image_width": 1000,
+      "image_height": 641,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/05f310c114431e3b"
     },
     {
       "title": "Enterprise managed permissions for GitHub Copilot agent operations",
@@ -18539,6 +18546,37 @@
       "image_attempts": 3,
       "image_attempt_url": "https://azure.microsoft.com/updates?id=569241",
       "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/59307d85a586cccd"
+    },
+    {
+      "title": "What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty",
+      "link": "https://news.microsoft.com/source/canada/features/ai/kinaxis-supply-chain/",
+      "date": "2026-09-10T13:08:37+00:00",
+      "description": "The post What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty appeared first on Source .",
+      "source": "Microsoft Source",
+      "image": "https://sourcecanada.thesourcemediaassets.com/2026/09/apertura-100.jpg",
+      "image_width": 1920,
+      "image_height": 1080,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/610d62e12c2463a9"
+    },
+    {
+      "title": "How one startup uses AI to expand financial access in Europe",
+      "link": "https://www.microsoft.com/en-us/startups/blog/building-fintech-for-greater-financial-success-how-welcount-uses-ai-to-serve-more-customers/",
+      "date": "2026-09-10T15:54:08+00:00",
+      "description": "The post How one startup uses AI to expand financial access in Europe appeared first on Source .",
+      "source": "Microsoft Source",
+      "image": "https://www.microsoft.com/en-us/startups/blog/wp-content/uploads/2026/09/Welcount-Blog.jpg",
+      "image_width": 1440,
+      "image_height": 828,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/8be9653afffebbe5"
+    },
+    {
+      "title": "Safe Participation Framework: Opportunity and Safety for the Next Generation in the Age of AI",
+      "link": "https://blogs.microsoft.com/on-the-issues/2026/09/10/safe-participation-framework-opportunity-and-safety-for-the-next-generation-in-the-age-of-ai/",
+      "date": "2026-09-10T16:00:17+00:00",
+      "description": "Today, Microsoft is sharing our Safe Participation Framework, which centers on designing and enabling safe, privacy-preserving, and age-appropriate experiences for young people online. Members of our AI Youth Futures Council have delivered a clear message: they want to learn, create, and prepare for a future with AI. Protecting their privacy, ensuring their safety, and preserving their opportunity... The post Safe Participation Framework: Opportunity and Safety for the Next Generation in the Age",
+      "source": "Microsoft On the Issues",
+      "image": "https://blogs.microsoft.com/wp-content/uploads/sites/5/2026/09/Safe-Participation-Framework-three-pillars-2-scaled.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/microsoft/7393efb776e4c3b2"
     },
     {
       "title": "Visual Studio Code 1.138 (Insiders)",

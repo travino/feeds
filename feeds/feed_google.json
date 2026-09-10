@@ -8,6 +8,114 @@
   "icon": "https://blog.google/favicon.ico",
   "items": [
     {
+      "id": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents",
+      "title": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
+      "content_html": "<div class=\"block-paragraph_advanced\"><p><span style=\"vertical-align: baseline;\">Agent skills fit well alongside documentation and remote MCP servers as ways of enabling the success of your AI workflows. They reduce context window usage for certain use cases, and they're straightforward to install. However, you might have noticed that managing individual skills can be unwieldy, or that some skills are most useful when they act alongside other skills or MCP servers toward the same goal. That's where plugins come in to help.</span></p>\n<p><span style=\"vertical-align: baseline;\">Today, we're thrilled to announce a new Google Cloud plugin for AI coding agents! Designed as installable bundles, agent plugins equip the AI agent of your choice with skills and tools to be more effective on Google Cloud.</span></p>\n<h2><span style=\"vertical-align: baseline;\">Solving the tool coupling problem</span></h2>\n<p><span style=\"vertical-align: baseline;\">As you expand your usage of coding agents, you might find that they become significantly more capable when they use related skills in tandem or with complementary context and tooling. For example, an agent analyzing infrastructure is more effective when combining domain knowledge, workflow recommendations, and the ability to interact with a live environment together.</span></p>\n<p><span style=\"vertical-align: baseline;\">Plugins solve this coupling challenge by packaging related capabilities into cohesive, installable bundles. This allows you to take advantage of both broad foundational capabilities and deep, product-specific tools without managing complex dependencies. </span></p>\n<p><span style=\"vertical-align: baseline;\">For this release, we've started with a foundational plugin that supports agent functionality for all Google Cloud users, focusing on making it easier for agents to retrieve Google Cloud-related skills, make use of official documentation, and handle programmatic interactions with Google Cloud.</span></p>\n<h2><span style=\"vertical-align: baseline;\">Built on an open standard</span></h2>\n<p><span style=\"vertical-align: baseline;\">We've also built our plugin in compliance with the </span><a href=\"https://g.dev/cloud/agent-plugins-specification\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Agent Plugins specification</span></a><span style=\"vertical-align: baseline;\">, an open, vendor-neutral standard for packaging Agent Skills and Model Context Protocol (MCP) servers into portable, interoperable units. Rather than requiring developers to maintain different configurations and wrappers for every AI assistant, the Agent Plugins standard provides a unified manifest and directory structure.</span></p>\n<p><span style=\"vertical-align: baseline;\">Our Google Cloud plugin adopts this standard to ensure that developers across a variety of AI coding environments get consistent, high-quality access to tools that help them succeed with Google Cloud. That includes not only the plugins we talk about today, but all other plugins published to the Google Agent Skills repository as well.</span></p>\n<p><span style=\"vertical-align: baseline;\">Let's take a look at the flagship plugin that we've just published in the Google Agent Skills repository: </span><code style=\"vertical-align: baseline;\">google-cloud-developer</code><span style=\"vertical-align: baseline;\">. This plugin exists to help agents successfully navigate the fundamentals of interacting with Google Cloud: things like authentication, authorization, managing projects, and guardrails for gcloud CLI operations. This plugin also bundles configuration for the </span><a href=\"https://g.dev/cloud/dk-mcp-connect\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Developer Knowledge MCP server</span></a><span style=\"vertical-align: baseline;\">, which gives agents up-to-date grounding in Google's official developer documentation.</span></p>\n<h3><span style=\"vertical-align: baseline;\">Plugin in action: Project onboarding and identity authentication</span></h3>\n<p><span style=\"vertical-align: baseline;\">To see how this plugin works, consider a situation where you're bootstrapping a new project as part of working on a script. With the </span><code style=\"vertical-align: baseline;\">google-cloud-developer</code><span style=\"vertical-align: baseline;\"> plugin installed, you can prompt your agent:</span></p>\n<p><span style=\"font-style: italic; vertical-align: baseline;\">I'm brand new to this platform, and I need to get an account and a first project with billing set up. Then, I need my local machine authenticated so a script that I'm writing can call the APIs as a service identity instead of as me.</span></p>\n<ol>\n<li style=\"vertical-align: baseline;\">\n<p><strong style=\"vertical-align: baseline;\">Environment awareness:</strong><span style=\"vertical-align: baseline;\"> The agent silently runs background checks against your live environment for prerequisites like CLI availability and potential existing projects or organizations.</span></p>\n</li>\n<li style=\"vertical-align: baseline;\">\n<p><strong style=\"vertical-align: baseline;\">Review:</strong><span style=\"vertical-align: baseline;\"> The agent considers IAM best practices to avoid risks that might be assumed as part of the prompt, like accidental key leaks or git commits.</span></p>\n</li>\n<li style=\"vertical-align: baseline;\">\n<p><strong style=\"vertical-align: baseline;\">Interaction with guardrails:</strong><span style=\"vertical-align: baseline;\"> The agent outlines a workflow roadmap and offers to act on those steps before modifying any resources.</span></p>\n</li>\n</ol></div>\n<div class=\"block-image_full_width\">\n\n\n\n\n\n\n  \n    <div class=\"article-module h-c-page\">\n      <div class=\"h-c-grid\">\n  \n\n    <figure class=\"article-image--large\n      \n      \n        h-c-grid__col\n        h-c-grid__col--6 h-c-grid__col--offset-3\n        \n        \n      \">\n\n      \n      \n        \n        <img alt=\"screenshot_plugin_blog_post\" src=\"https://storage.googleapis.com/gweb-cloudblog-publish/images/screenshot_plugin_blog_post.max-1000x1000.png\" />\n        \n        </a>\n      \n    </figure>\n\n  \n      </div>\n    </div>\n  \n\n\n\n\n</div>\n<div class=\"block-paragraph_advanced\"><h2><span style=\"vertical-align: baseline;\">Installing Google Cloud plugins</span></h2>\n<p><span style=\"vertical-align: baseline;\">Because Google Cloud plugins are available from the open </span><a href=\"https://g.dev/cloud/agent-plugins\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Google Agent Skills</span></a><span style=\"vertical-align: baseline;\"> repository and adhere to the standard Agent Plugins layout, adding them to your environment is straightforward. For example, here's how you'd install the </span><code style=\"vertical-align: baseline;\">google-cloud-developer</code><span style=\"vertical-align: baseline;\"> plugin:</span></p>\n<h3><span style=\"vertical-align: baseline;\">Antigravity CLI</span></h3>\n<p><span style=\"vertical-align: baseline;\">Install the plugin directly via the CLI using its path in the Google Agent Skills repository:</span></p></div>\n<div class=\"block-code\"><dl>\n    <dt>code_block</dt>\n    <dd>&lt;ListValue: [StructValue([(&#x27;code&#x27;, &#x27;agy plugin install https://github.com/google/skills/plugins/cloud/google-cloud-developer&#x27;), (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText object at 0x7fd9183c0580&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><h3><span style=\"vertical-align: baseline;\">Claude Code</span></h3>\n<p><span style=\"vertical-align: baseline;\">Add the Google plugins marketplace, then install the plugin:</span></p></div>\n<div class=\"block-code\"><dl>\n    <dt>code_block</dt>\n    <dd>&lt;ListValue: [StructValue([(&#x27;code&#x27;, &#x27;claude plugin marketplace add google/skills\\r\\nclaude plugin install google-cloud-developer@google-plugins&#x27;), (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText object at 0x7fd9183c0940&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><h3><span style=\"vertical-align: baseline;\">Codex CLI</span></h3>\n<p><span style=\"vertical-align: baseline;\">Add the Google plugins marketplace, then install the plugin:</span></p></div>\n<div class=\"block-code\"><dl>\n    <dt>code_block</dt>\n    <dd>&lt;ListValue: [StructValue([(&#x27;code&#x27;, &#x27;codex plugin marketplace add google/skills\\r\\ncodex plugin add google-cloud-developer@google-plugins&#x27;), (&#x27;language&#x27;, &#x27;&#x27;), (&#x27;caption&#x27;, &lt;wagtail.rich_text.RichText object at 0x7fd9183c08b0&gt;)])]&gt;</dd>\n</dl></div>\n<div class=\"block-paragraph_advanced\"><h2><span style=\"vertical-align: baseline;\">Next Steps</span></h2>\n<p><span style=\"vertical-align: baseline;\">If you're already a Google Cloud user, try the above installation steps to set up your agent for success. We think you'll like what you see! For those who want a more guided approach, our new </span><a href=\"https://g.dev/cloud/agent-plugins-codelab-agy\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">codelab</span></a><span style=\"vertical-align: baseline;\"> will walk you through the installation and initial exploration of the plugin in Antigravity.</span></p>\n<p><span style=\"vertical-align: baseline;\">If you're new to Google Cloud, you can also get started with instructions </span><a href=\"https://g.dev/cloud/dev-setup\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">in our documentation</span></a><span style=\"vertical-align: baseline;\"> to set yourself up for local development.</span></p>\n<p><span style=\"vertical-align: baseline;\">The most curious readers can also take a deeper look at the plugins and agent skills available to use today in the </span><a href=\"https://g.dev/cloud/agent-plugins\" rel=\"noopener\" target=\"_blank\"><span style=\"text-decoration: underline; vertical-align: baseline;\">Google Agent Skills</span></a><span style=\"vertical-align: baseline;\"> repository.</span></p></div>",
+      "date_published": "2026-09-10T19:53:00Z",
+      "date_modified": "2026-09-10T19:53:00Z",
+      "image": "https://storage.googleapis.com/gweb-cloudblog-publish/images/agent-plugins-blog-cover.max-600x600.png",
+      "tags": [
+        "Google Cloud"
+      ],
+      "attachments": [
+        {
+          "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/agent-plugins-blog-cover.max-600x600.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "https://blog.google/products-and-platforms/platforms/android/switch-password-managers",
+      "url": "https://blog.google/products-and-platforms/platforms/android/switch-password-managers",
+      "title": "Switching password managers is easy and safe on Android",
+      "content_html": "Android bot showing how to switch password managers",
+      "date_published": "2026-09-10T16:00:00Z",
+      "date_modified": "2026-09-10T16:00:00Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Image_4.max-600x600.format-webp.webp",
+      "tags": [
+        "The Keyword"
+      ],
+      "attachments": [
+        {
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hero_Image_4.max-600x600.format-webp.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows",
+      "title": "The Gemini app is now available for Windows",
+      "content_html": "Gemini is now on windows",
+      "date_published": "2026-09-10T16:00:00Z",
+      "date_modified": "2026-09-10T16:00:00Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_for_Desktop_Thumbnail_20.max-600x600.format-webp.webp",
+      "tags": [
+        "The Keyword"
+      ],
+      "attachments": [
+        {
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_for_Desktop_Thumbnail_20.max-600x600.format-webp.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "https://blog.google/products-and-platforms/products/search/running-race-training-tips",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips",
+      "title": "3 ways to prep for your next big race with Search",
+      "content_html": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark overlaid",
+      "date_published": "2026-09-10T16:00:00Z",
+      "date_modified": "2026-09-10T16:00:00Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp",
+      "tags": [
+        "The Keyword"
+      ],
+      "attachments": [
+        {
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
+      "id": "https://googlecloudpresscorner.com/2026-09-10-Morgan-State-University-and-Google-Public-Sector-Collaborate-to-Build-Next-Generation-AI-Campus",
+      "url": "https://googlecloudpresscorner.com/2026-09-10-Morgan-State-University-and-Google-Public-Sector-Collaborate-to-Build-Next-Generation-AI-Campus",
+      "title": "Morgan State University and Google Public Sector Collaborate to Build Next-Generation AI Campus",
+      "content_text": "",
+      "date_published": "2026-09-10T14:00:00Z",
+      "date_modified": "2026-09-10T14:00:00Z",
+      "image": "https://mmx.prnewswire.com/media/MS1985025/Morgan-State-University.jpg?id=OA2939187&p=thumbnail",
+      "tags": [
+        "Google Cloud Press"
+      ],
+      "attachments": [
+        {
+          "url": "https://mmx.prnewswire.com/media/MS1985025/Morgan-State-University.jpg?id=OA2939187&p=thumbnail",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://blog.google/products/ads-commerce/data-strength-updates",
+      "url": "https://blog.google/products/ads-commerce/data-strength-updates",
+      "title": "Drive profitable growth with new data and measurement tools",
+      "content_html": "\"Data + Causality + Better decisions = Profitable growth\"",
+      "date_published": "2026-09-10T13:00:00Z",
+      "date_modified": "2026-09-10T13:00:00Z",
+      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Header_EnnLoZX.max-600x600.format-webp.webp",
+      "tags": [
+        "The Keyword"
+      ],
+      "attachments": [
+        {
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Header_EnnLoZX.max-600x600.format-webp.webp",
+          "mime_type": "image/webp"
+        }
+      ]
+    },
+    {
       "id": "https://blog.google/intl/pl-pl/nowosci-firmie/rozwijamy-wspolprace-z-mimuw-nowe-mozliwosci-dla-studentow",
       "url": "https://blog.google/intl/pl-pl/nowosci-firmie/rozwijamy-wspolprace-z-mimuw-nowe-mozliwosci-dla-studentow",
       "title": "Rozwijamy współpracę z MIMUW. Nowe możliwości dla studentów",
@@ -8757,107 +8865,6 @@
           "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHiv_LIAZ9QEJ4RWJSvZphTWmkDaVoseyWsbSPkfJDKd0DXjq53xtLOMiVtTEzlW6dAwXUlcucsBDKxjp9MjET4MB1b4ymZkd-b7jhm-PczdvyFqQCpZ39MXVjaVrWg4Y6WD4KLYOL3PbmYBDumMULpZQDX0052163RVUWZnfUAUPFtfwZMVflqjT9AnQ/s72-c/0707%20Faster%20Kotlin%20coroutines%20on%20Android%20with%20R8_Meta.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "https://blog.google/intl/pl-pl/nowosci-firmie/nowe-technologie-oczami-nastolatkow-od-smialych-pomyslow-po-nauke-krytycznego-myslenia",
-      "url": "https://blog.google/intl/pl-pl/nowosci-firmie/nowe-technologie-oczami-nastolatkow-od-smialych-pomyslow-po-nauke-krytycznego-myslenia",
-      "title": "Nowe technologie oczami nastolatków: Od śmiałych pomysłów po naukę krytycznego myślenia",
-      "content_html": "Ilustracja przedstawiająca nastolatka analizującego informacje generowane przez sztuczną inteligencję. Wokół ekranu widoczne są symbole nauki, zdrowia, środowiska, kreatywności i wsparcia, podkreślające różnorodne zastosowania AI.",
-      "date_published": "2026-07-27T12:00:00Z",
-      "date_modified": "2026-07-27T12:00:00Z",
-      "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/grafika_blog_Experience_AI.max-600x600.format-webp.webp",
-      "tags": [
-        "Google Poland"
-      ],
-      "attachments": [
-        {
-          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/grafika_blog_Experience_AI.max-600x600.format-webp.webp",
-          "mime_type": "image/webp"
-        }
-      ]
-    },
-    {
-      "id": "https://docs.cloud.google.com/release-notes#July_27_2026",
-      "url": "https://docs.cloud.google.com/release-notes#July_27_2026",
-      "title": "Cloud Release Notes — July 27, 2026",
-      "content_html": "<h2 class=\"release-note-product-title\">AlloyDB for PostgreSQL</h2>\n<h3>Feature</h3>\n<p>External search with AlloyDB now supports <a href=\"https://docs.cloud.google.com/alloydb/docs/opensearch\">OpenSearch</a> in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.\nYou can use the <a href=\"https://docs.cloud.google.com/alloydb/docs/reference/extensions#external_search_fdw\"><code>external_search_fdw</code></a> extension to connect to an OpenSearch cluster and query its data directly from your database.</p>",
-      "date_published": "2026-07-27T07:00:00Z",
-      "date_modified": "2026-07-27T07:00:00Z",
-      "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
-      "tags": [
-        "Cloud Release Notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "https://antigravity.google/changelog#0.1.9-2026-07-27-version-0-1-9",
-      "url": "https://antigravity.google/changelog#0.1.9-2026-07-27-version-0-1-9",
-      "title": "Antigravity 0.1.9 — Version 0.1.9",
-      "content_text": "Version 0.1.9",
-      "date_published": "2026-07-27T00:00:00Z",
-      "date_modified": "2026-07-27T00:00:00Z",
-      "image": "https://antigravity.google/assets/image/sitecards/sitecard-default.png",
-      "tags": [
-        "Antigravity Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://antigravity.google/assets/image/sitecards/sitecard-default.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "https://docs.cloud.google.com/release-notes#July_26_2026",
-      "url": "https://docs.cloud.google.com/release-notes#July_26_2026",
-      "title": "Cloud Release Notes — July 26, 2026",
-      "content_html": "<h2 class=\"release-note-product-title\">Google SecOps</h2>\n<h3>Feature</h3>\n<p><strong>[Spotlight Feature] Investigation and case management experience</strong></p>\n<p>This feature is in public preview. Google SecOps now includes a revamped\nInvestigation Management experience that supports tracking raw UDM events and\ndetections alongside alerts to accommodate new investigation types (such as\nretrohunt and threat hunt) and higher investigation volumes in cases. You can\nnavigate your case queue using customizable table views, side-drawer previews,\nand integrated UDM Search workflows. For more information, see\n<a href=\"https://docs.cloud.google.com/chronicle/docs/secops/investigate/investigation-management/investigation-management-overview\">Investigation and case management overview</a>.</p>\n<p>This preview is currently supported only for single-SIEM deployments (instances\nwhere a single Google SecOps SIEM instance ingests data into SOAR) and does not\nsupport federated or MSSP environments.</p>\n<p>Additional enhancements include:</p>\n<ul>\n<li><strong>Attach SIEM search results to cases:</strong> Manually attach individual UDM events\nor detections directly from SIEM search results to new or existing cases as core\nevidence (supporting up to 500 detections and 5,000 UDM events per case). For\ndetails, see <a href=\"https://docs.cloud.google.com/chronicle/docs/secops/investigate/investigation-management/create-case-from-search\">Attach SIEM search results to cases</a>.</li>\n<li><strong>Interactive Events Viewer:</strong> Dive directly into technical evidence from an\ninteractive side panel. Inspect parsed UDM records, review original raw logs,\npin key evidence to your case, and build detection exclusions in real time. For\ndetails, see <a href=\"https://docs.cloud.google.com/chronicle/docs/secops/investigate/investigation-management/use-events-viewer\">Use the Events Viewer</a>.</li>\n<li><strong>Configure new default views:</strong> Two new views (<strong>New Default Alert View</strong> and\n<strong>New Default Case View</strong>) are available under <strong>SOAR Settings &gt; Case Data &gt; Views</strong>\nfor the enhanced Cases experience. Before enabling the feature, make sure to \nmanually copy over advanced widget configurations (such as <strong>Safe HTML Rendering</strong> \nor custom <strong>Conditions</strong>) from the <strong>Default Alert View</strong> and <strong>Default Case View</strong>\nto these new default views to preserve your preferred setups.</li>\n</ul>",
-      "date_published": "2026-07-26T07:00:00Z",
-      "date_modified": "2026-07-26T07:00:00Z",
-      "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
-      "tags": [
-        "Cloud Release Notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "https://docs.cloud.google.com/release-notes#July_25_2026",
-      "url": "https://docs.cloud.google.com/release-notes#July_25_2026",
-      "title": "Cloud Release Notes — July 25, 2026",
-      "content_html": "<h2 class=\"release-note-product-title\">Google SecOps SOAR</h2>\n<h3>Announcement</h3>\n<p><a href=\"https://docs.cloud.google.com/chronicle/docs/soar/release-notes#July_19_2026\">Release 6.3.94</a> is now\navailable for all regions.</p>",
-      "date_published": "2026-07-25T07:00:00Z",
-      "date_modified": "2026-07-25T07:00:00Z",
-      "image": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
-      "tags": [
-        "Cloud Release Notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://docs.cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "https://workspaceupdates.googleblog.com/2026/07/weekly-recap-07-24-2026.html",
-      "url": "https://workspaceupdates.googleblog.com/2026/07/weekly-recap-07-24-2026.html",
-      "title": "Google Workspace Weekly Recap - July 24, 2026",
-      "content_html": "<h3 style=\"text-align: left;\">Import and create combo charts in Google Sheets</h3><p>Google Sheets now offers enhanced support for combo charts, providing a more seamless experience when creating multi-series visualizations.&nbsp;| <a href=\"https://workspaceupdates.googleblog.com/2026/07/import-and-create-combo-charts-in-Google-Sheets.html\" target=\"_blank\">Learn more</a>.</p><h3 style=\"text-align: left;\">A centralized hub for meeting resources on the new Google Meet homepage</h3><p>Finding the right notes or attachments for a meeting shouldn't feel like a scavenger hunt. We’re introducing a revamped Google Meet homepage on the web to help you stay organized and prepared throughout your entire meeting workflow. | <a href=\"https://workspaceupdates.googleblog.com/2026/07/a-centralized-hub-for-meeting-resources-on-the-new-Google-Meet-homepage.html\" target=\"_blank\">Learn more</a>.</p><h3 style=\"text-align: left;\">Redesigned Google Classroom homepage with tailored views based on user’s role</h3><p>Soon, Google Classroom will introduce a redesigned homepage globally across all editions to help teachers, students, and administrators easily find relevant content, resources, and tools tailored to their specific roles. | <a href=\"https://workspaceupdates.googleblog.com/2026/07/redesigned-google-classroom-homepage-with-tailored-views-based-on-users-role.html\" target=\"_blank\">Learn more</a>.</p><h3 style=\"text-align: left;\">Gemini Alpha is now Gemini Beta</h3><p>We’re updating the name of the Gemini Alpha program to \"Gemini Beta.\" This new name more accurately reflects both the scale and the quality of the features that enter this launch stage. Please note that this is solely a branding change. This update does not alter any customer configurations, data privacy constraints, or pricing tiers. | <a href=\"https://workspaceupdates.googleblog.com/2026/07/gemini-alpha-is-now-gemini-beta.html\" target=\"_blank\">Learn more</a>.</p><h3 style=\"text-align: left;\">Google Meet now organizes your meeting notes, transcripts, and recordings in your Google Drive</h3><p>We’re making it easier for users to find meeting notes, transcripts and recordings in Google Drive. | <a href=\"https://workspaceupdates.googleblog.com/2026/07/google-meet-now-organizes-your-meeting-notes-transcripts-and-recordings-in-your-Google-Drive.html\" target=\"_blank\">Learn more</a>.</p><h3 style=\"text-align: left;\">View supporting calendar delegates in meeting guest list</h3><p>When viewing a guest list in Google Calendar on the web, you will now see a new icon next to leaders who have a calendar delegate assisting them with scheduling support. Hovering over the icon will display the person’s information, allowing you to easily initiate a chat with them directly. | <a href=\"https://workspaceupdates.googleblog.com/2026/07/view-supporting-calendar-delegates-in-meeting-guest-list.html\" target=\"_blank\">Learn more</a>.</p><p><span style=\"font-size: x-small;\">The announcements above were published on the Workspace Updates blog over the last week. Please refer to the original blog posts for complete details.</span></p>",
-      "date_published": "2026-07-24T19:18:52Z",
-      "date_modified": "2026-07-24T19:18:52Z",
-      "tags": [
-        "Workspace Updates"
       ]
     }
   ]

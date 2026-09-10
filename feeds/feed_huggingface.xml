@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-10T11:45:41.876943+00:00</updated>
+  <updated>2026-09-10T16:39:49.761787+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/7cf1c2ec554bda2a</id>
+    <title>📣 HF Viewer now has a HF space! 🤗</title>
+    <updated>2026-09-10T16:39:48.708243+00:00</updated>
+    <content>📣 HF Viewer now has a HF space! 🤗 embedl/hfviewer Visualize any model directly on Hugging Face - now 4,727 graphs! If you like it, feel free to give the space a heart to help it grow! ❤️ And you can reply with any feedback or feature requests here!</content>
+    <link href="https://huggingface.co/posts/HannesVonEssen/867556411204257" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-10T16:39:48.708243+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-uploads.huggingface.co/production/uploads/630e33fdc6b1d1bccb7f8df7/Lq9KXTVuXg49dTtOfGjIX.gif" type="image/gif" medium="image"/>
+      <media:thumbnail url="https://cdn-uploads.huggingface.co/production/uploads/630e33fdc6b1d1bccb7f8df7/Lq9KXTVuXg49dTtOfGjIX.gif"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/630e33fdc6b1d1bccb7f8df7/Lq9KXTVuXg49dTtOfGjIX.gif" type="image/gif" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/5099785c13f47f68</id>
+    <title>wait why can i post</title>
+    <updated>2026-09-10T16:39:48.708243+00:00</updated>
+    <content>wait why can i post</content>
+    <link href="https://huggingface.co/posts/GGUFGuy/176366105637050" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-10T16:39:48.708243+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/GGUFGuy/176366105637050.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/GGUFGuy/176366105637050.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/GGUFGuy/176366105637050.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/d21f272752d5ef31</id>
     <title>AGI has arrived.</title>
@@ -146,6 +176,36 @@
     </media:group>
     <dc:creator>Hugging Face Posts</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/nwaughachukwuma/199024335043983.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/b091d7a65693ae38</id>
+    <title>Programmable World Model</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>A programmable world model separates explicit state evolution from video generation using executable rules and 3D bounding boxes to maintain persistent, controllable environments.</content>
+    <link href="https://huggingface.co/papers/2609.10540" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10540/gradient.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10540/gradient.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10540/gradient.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/818667f5d0cabedd</id>
+    <title>Show-Harness: Just a VLM Agent Can Play Robots</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Show-Harness links vision-language models to robot control via discrete semantic actions interpreted by embodiment-specific modules, enabling zero-shot and efficient fine-tuned deployment across robots and GUIs.</content>
+    <link href="https://huggingface.co/papers/2609.10522" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10522/gradient.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10522/gradient.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10522/gradient.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/10ac7bb5839a927d</id>
@@ -671,6 +731,21 @@
     </media:group>
     <dc:creator>Hugging Face Trending Papers</dc:creator>
     <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.06055.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/c456c8ce9bd7125d</id>
+    <title>What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets</title>
+    <updated>2026-09-04T00:00:00+00:00</updated>
+    <content>Autonomous language-model trading agents across production systems show behavior driven by interface design rather than strategy, exhibit volatility-blind sizing, fail to capture favorable price excursions, and display no directional edge, with frontier model decision quality statistically indistinguishable across families.</content>
+    <link href="https://huggingface.co/papers/2609.05663" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-09-04T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05663.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05663.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05663.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/6f7f60b3b9a18f19</id>

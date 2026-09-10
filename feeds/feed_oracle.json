@@ -8,6 +8,75 @@
   "icon": "https://blogs.oracle.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/3c4c67e9b801f428",
+      "url": "https://forums.oracle.com/ords/apexds/post/apex-26-1-application-import-is-rolled-back-with-ora-02091-4420",
+      "title": "APEX 26.1: application import is rolled back with ORA-02091 when a column removed from Interactive Grid with user saved repor",
+      "content_text": "Possible bug? We appear to have hit a change in behaviour in APEX 26.1 that blocks our deployment process. I would like to check whether this is a known issue or whether we should report it. What we see When we deploy a new version of an application from our development environment to our production environment, and that new version no longer contains a column that was present before, the import of the application fails. The error is: In case of fxxxx.sql export file ``` Execution of the stateme",
+      "date_published": "2026-09-10T13:46:50Z",
+      "date_modified": "2026-09-10T13:46:50Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/415bdc5572d89b04",
+      "url": "https://forums.oracle.com/ords/apexds/post/oic3-global-variables-containing-scalar-values-assign-or-st-2878",
+      "title": "OIC3 Global Variables containing scalar values:   Assign or Stitch?",
+      "content_text": "Hello there, I am new to OIC (OIC3 more precisely)  and after looking at some existing integrations I wonder why certain things are done the way they are done, because, frankly speaking, they don't make very much sense to me. For instance a very simple doubt I have is: should simply I use “Assign” to populate a global variable with a scalar value or must I use “Stitch” ? In the existing integrations they use Stitch even for scalar values, but that means adding one more step to the workflow after",
+      "date_published": "2026-09-10T13:40:58Z",
+      "date_modified": "2026-09-10T13:40:58Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/95dbfb83d723f962",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/innovation-tax-in-connected-medical-devices",
+      "title": "The innovation tax: rethinking the economics of connected medical device data",
+      "content_text": "Anyone involved with connected medical devices knows that success has an interesting side effect: data. Lots of it. A single device might generate a manageable amount of patient data, telemetry, logs, images, or video. Deploy thousands, or hundreds of thousands, of those devices and the economics change quickly. And collecting the data is only the […]",
+      "date_published": "2026-09-10T13:11:00Z",
+      "date_modified": "2026-09-10T13:11:00Z",
+      "authors": [
+        {
+          "name": "Oracle Cloud Infrastructure"
+        }
+      ],
+      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/exec-27dfaaa8-aae9-47c1-8b2c-a9cde7bfd20c.png",
+      "tags": [
+        "Oracle Cloud Infrastructure"
+      ],
+      "attachments": [
+        {
+          "url": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/exec-27dfaaa8-aae9-47c1-8b2c-a9cde7bfd20c.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/9a621c0e18d0cfe0",
       "url": "https://forums.oracle.com/ords/apexds/post/oracle-analytics-access-automation-0623",
       "title": "Oracle Analytics Access automation",
@@ -353,29 +422,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/318b2e053e786ed9",
-      "url": "https://forums.oracle.com/ords/apexds/post/solaris-issue-with-hba-sas-3816-4196",
-      "title": "Solaris: issue with HBA SAS 3816",
-      "content_text": "Hello everybody. I have some issues with disk HBA disk controller SAS 3816: new HBA sees only 30 disks instead of 60. I have 2 servers: new and old. Here is a new server with newer version of HBA controller: # sasinfo hba -vHBA Name: SUNW-lsc-0    Manufacturer: LSI Logic    Model:  SAS 3816    Firmware Version: 33.0.0.0    FCode/BIOS Version: not available    Firmware Package Version: 0.0.24.1    Serial Number: not available    Driver Name: lsc    Driver Version: lsc driver    Number of HBA Port",
-      "date_published": "2026-09-09T12:19:52Z",
-      "date_modified": "2026-09-09T12:19:52Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/910aae50c6211595",
       "url": "https://www.oracle.com/news/announcement/oracle-announces-grant-to-support-sun-city-football-club-2026-09-09/",
       "title": "Oracle Announces $10,000 Grant to Support Sun City Football Club",
@@ -395,29 +441,6 @@
         {
           "url": "https://www.oracle.com/a/pr/img/og-social-sun-city.webp",
           "mime_type": "image/webp"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/2923e557bfe63a42",
-      "url": "https://forums.oracle.com/ords/apexds/post/getting-provide-a-valid-value-for-dn-na-account-servicebran-7100",
-      "title": "Getting &quot;Provide a valid value for DN_NA_Account_ServiceBranch_c&quot; error while trying to Delete&#x2F;Approve a user in DCS portal.",
-      "content_text": "Getting an error while working on the Digital Customer Service Portal/Fusion Service B2B, The issue I'm getting is that when I try to approve a user in my DCS portal or delete a user that is already there. Then I get this error (find attached). Error: “Provide a valid value for DN_NA_Account_ServiceBranch_c” Tried debugging it by going to Fusion Service B2B, this field is required and has a Groovy script attached to it which reads: //Account_MD01 - Script added to make Service Branch Mandatory i",
-      "date_published": "2026-09-09T10:54:26Z",
-      "date_modified": "2026-09-09T10:54:26Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/seyoHQxx-2233-xKbJpUuT",
-          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -1521,29 +1544,6 @@
       "attachments": [
         {
           "url": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/Image-8-19-26-at-4.59-PM.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/ffba642ede50b868",
-      "url": "https://blogs.oracle.com/cloud-infrastructure/strengthen-key-sovereignty",
-      "title": "Strengthen key sovereignty on OCI with Fortanix DSM and External Key Management",
-      "content_text": "Organizations moving critical workloads to the cloud often need more than encryption at rest. They need direct control over where encryption keys are created, stored, governed, rotated, and audited. This is especially important for regulated industries, multicloud environments, and customers with data sovereignty or separation-of-duties requirements. Oracle Cloud Infrastructure External Key Management Service, or OCI […]",
-      "date_published": "2026-08-21T20:00:00Z",
-      "date_modified": "2026-08-21T20:00:00Z",
-      "authors": [
-        {
-          "name": "Oracle Cloud Infrastructure"
-        }
-      ],
-      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/07/CustomerKey.png",
-      "tags": [
-        "Oracle Cloud Infrastructure"
-      ],
-      "attachments": [
-        {
-          "url": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/07/CustomerKey.png",
           "mime_type": "image/png"
         }
       ]

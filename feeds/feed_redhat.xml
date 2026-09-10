@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-10T11:46:46.437045+00:00</updated>
+  <updated>2026-09-10T16:40:43.188830+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -13,6 +13,120 @@
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/5a94f362e4104dca</id>
+    <title>RHSA-2026:66403: Moderate: coreutils security update</title>
+    <updated>2026-09-10T14:36:35+00:00</updated>
+    <content>An update for coreutils is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66403" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T14:36:35+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/c4f6da5cdb712ce9</id>
+    <title>RHSA-2026:66407: Important: gstreamer1-plugins-bad-free security update</title>
+    <updated>2026-09-10T14:10:25+00:00</updated>
+    <content>An update for gstreamer1-plugins-bad-free is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66407" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T14:10:25+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/eb4156cb2a3b1f44</id>
+    <title>RHSA-2026:66405: Important: rsyslog security update</title>
+    <updated>2026-09-10T14:09:45+00:00</updated>
+    <content>An update for rsyslog is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66405" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T14:09:45+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/085ea8e2a2e22433</id>
+    <title>RHSA-2026:66406: Important: gstreamer1-plugins-bad-free security update</title>
+    <updated>2026-09-10T14:03:55+00:00</updated>
+    <content>An update for gstreamer1-plugins-bad-free is now available for Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66406" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T14:03:55+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/19b0856a1d39ba4f</id>
+    <title>RHSA-2026:66366: Important: vim security update</title>
+    <updated>2026-09-10T13:18:14+00:00</updated>
+    <content>An update for vim is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66366" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T13:18:14+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/f27790dfe2a90015</id>
+    <title>RHSA-2026:66392: Moderate: apr-util security update</title>
+    <updated>2026-09-10T13:16:29+00:00</updated>
+    <content>An update for apr-util is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66392" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T13:16:29+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/0de64dbe59894d37</id>
+    <title>RHSA-2026:66401: Important: Red Hat OpenStack Platform 17.1 security and bug fix advisory</title>
+    <updated>2026-09-10T13:04:25+00:00</updated>
+    <content>Updated packages that resolve various issues are now available for Red Hat OpenStack Platform 17.1 (Wallaby) for Red Hat Enterprise Linux (RHEL) 9.2.
+
+Red Hat Product Security has rated this update as having a security impact
+of Important. A Common Vulnerability Scoring System (CVSS) base score,
+which gives a detailed severity rating, is available for each vulnerability
+from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66401" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T13:04:25+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/295684f3e8da85dd</id>
+    <title>From token consumer to token provider: Building your org's AI API</title>
+    <updated>2026-09-10T13:01:50+00:00</updated>
+    <content>One of the biggest problems with AI right now is that it's expensive. If you've been anywhere near an enterprise IT budget in the last 2 years, then you already know that. Most companies that wanted to get AI into their workflows did the same thing: They signed up for a business account with an AI provider, handed out API keys, and started building. It made sense at the time because the models were good, the APIs were simple, and the alternative was standing up your own inference infrastructure,</content>
+    <link href="https://developers.redhat.com/articles/2026/09/10/from-token-consumer-to-token-provider-building-your-orgs-ai-api" rel="alternate"/>
+    <category term="Red Hat Developer" label="Red Hat Developer"/>
+    <published>2026-09-10T13:01:50+00:00</published>
+    <media:group>
+      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" type="image/png" medium="image" height="627" width="1200"/>
+      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" height="627" width="1200"/>
+    </media:group>
+    <dc:creator>Red Hat Developer</dc:creator>
+    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/6105285880ce241f</id>
+    <title>RHSA-2026:66364: Important: git-lfs security update</title>
+    <updated>2026-09-10T12:24:19+00:00</updated>
+    <content>An update for git-lfs is now available for Red Hat Enterprise Linux 9.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66364" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T12:24:19+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/ce6f54dece3f7a7b</id>
     <title>RHSA-2026:66347: Important: freerdp security update</title>
     <updated>2026-09-10T11:24:09+00:00</updated>
@@ -22,6 +136,41 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <link href="https://access.redhat.com/errata/RHSA-2026:66347" rel="alternate"/>
     <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
     <published>2026-09-10T11:24:09+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/b0ac05171b914484</id>
+    <title>RHSA-2026:66355: Important: kernel security update</title>
+    <updated>2026-09-10T11:08:29+00:00</updated>
+    <content>An update for kernel is now available for Red Hat Enterprise Linux 10.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66355" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T11:08:29+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/692fd3609de31ad0</id>
+    <title>RHSA-2026:66381: Important: RHEL AI 3.6 RPM runtime CVE fix - ffmpeg</title>
+    <updated>2026-09-10T10:04:14+00:00</updated>
+    <content>AIPCC Security Alerts identified CVEs in the 3.6 release of base-images. The
+CVE(s) are listed with a severity level of "Important" or higher.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66381" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T10:04:14+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/68305e88b323cd3f</id>
+    <title>RHSA-2026:66348: Important: vim security update</title>
+    <updated>2026-09-10T09:27:09+00:00</updated>
+    <content>An update for vim is now available for Red Hat Enterprise Linux 8.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66348" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T09:27:09+00:00</published>
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
@@ -37,152 +186,61 @@ Red Hat Product Security has rated this update as having a security impact of Mo
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/0ab90c3add0004bc</id>
-    <title>RHSA-2026:62548: Important: OpenShift Container Platform 4.16.70 packages and security update</title>
-    <updated>2026-09-10T09:07:39+00:00</updated>
-    <content>Red Hat OpenShift Container Platform release 4.16.70 is now available with updates to packages and images that fix several bugs and add enhancements.
-
-This release includes a security update for Red Hat OpenShift Container Platform 4.16.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References </content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:62548" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T09:07:39+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/e53e33978f7a683f</id>
-    <title>RHSA-2026:62549: Important: OpenShift Container Platform 4.16.70 bug fix and security update</title>
-    <updated>2026-09-10T09:01:14+00:00</updated>
-    <content>Red Hat OpenShift Container Platform release 4.16.70 is now available with updates to packages and images that fix several bugs and add enhancements.
-
-This release includes a security update for Red Hat OpenShift Container Platform 4.16.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References </content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:62549" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T09:01:14+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/0ec982795ad853f0</id>
-    <title>RHSA-2026:66336: Important: vim security update</title>
-    <updated>2026-09-10T07:38:59+00:00</updated>
-    <content>An update for vim is now available for Red Hat Enterprise Linux 10.
+    <id>tag:trvny.github.io,2024:feedseek/redhat/2c74a182458fad56</id>
+    <title>RHSA-2026:66349: Important: freerdp security update</title>
+    <updated>2026-09-10T09:20:24+00:00</updated>
+    <content>An update for freerdp is now available for Red Hat Enterprise Linux 10.
 
 Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66336" rel="alternate"/>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66349" rel="alternate"/>
     <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T07:38:59+00:00</published>
+    <published>2026-09-10T09:20:24+00:00</published>
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/78ccf20e458798d5</id>
-    <title>RHSA-2026:66325: Important: kernel security, bug fix, and enhancement update</title>
-    <updated>2026-09-10T06:21:53+00:00</updated>
-    <content>An update for kernel is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66325" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T06:21:53+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/ef2df796bcc87c21</id>
+    <title>Insights-client updates standardize RHEL package management</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>If you manage Red Hat Enterprise Linux (RHEL) systems connected to Red Hat Lightspeed, you're likely familiar with insights-client, the tool responsible for reading system information and reporting it to Red Hat Lightspeed's hosted services.Starting with RHEL 9.8 and RHEL 10.2, Red Hat is changing how insights-core, one of the components of insights-client, delivers its updates. The change gives system administrators more control and predictability, with a delivery mechanism they already know an</content>
+    <link href="https://www.redhat.com/en/blog/insights-client-updates-rhel-package-management" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/35b242cf0cf6e253</id>
-    <title>RHSA-2026:66323: Important: httpd security update</title>
-    <updated>2026-09-10T06:09:49+00:00</updated>
-    <content>An update for httpd is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66323" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T06:09:49+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/19150e99972b408f</id>
+    <title>Closing the loop: From network policy intent to verified reality</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>Part 3 of a series on implementing zero trust security in Red Hat OpenShift with the layered zero trust validated pattern.Kubernetes NetworkPolicies are one of the most powerful—and most misunderstood—security primitives available to platform engineers. They declare intent: "This pod should only accept connections on port 8443 from the ingress namespace." But declaring intent is not the same as verifying that it works as intended.In the 1st article in this series, we argued that network policies</content>
+    <link href="https://www.redhat.com/en/blog/closing-loop-network-policy-intent-verified-reality" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/e4fd808ec473979d</id>
-    <title>RHSA-2026:66324: Important: kernel-rt security, bug fix, and enhancement update</title>
-    <updated>2026-09-10T06:09:38+00:00</updated>
-    <content>An update for kernel-rt is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66324" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T06:09:38+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/99ef2e911dbd69b2</id>
-    <title>RHSA-2026:66327: Important: osbuild-composer security, bug fix, and enhancement update</title>
-    <updated>2026-09-10T06:06:23+00:00</updated>
-    <content>An update for osbuild-composer is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66327" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T06:06:23+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/f90e7fdac44d46d9</id>
-    <title>RHSA-2026:66282: Important: freerdp security update</title>
-    <updated>2026-09-10T02:05:39+00:00</updated>
-    <content>An update for freerdp is now available for Red Hat Enterprise Linux 8.8 Update Services for SAP Solutions and Red Hat Enterprise Linux 8.8 Telecommunications Update Service.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66282" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T02:05:39+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/b4d6d36e137a26de</id>
-    <title>RHSA-2026:66281: Important: freerdp security update</title>
-    <updated>2026-09-10T02:04:20+00:00</updated>
-    <content>An update for freerdp is now available for Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66281" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T02:04:20+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/3ff367f3178dceee</id>
-    <title>RHSA-2026:66180: Important: kernel security, bug fix, and enhancement update</title>
-    <updated>2026-09-10T00:39:23+00:00</updated>
-    <content>An update for kernel is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66180" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T00:39:23+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/b7a83493258d9dcb</id>
-    <title>RHSA-2026:66248: Important: ansible-core security update</title>
-    <updated>2026-09-09T23:08:53+00:00</updated>
-    <content>An update for ansible-core is now available for Red Hat Enterprise Linux 8.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66248" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T23:08:53+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/65c8ddb02b8f05c1</id>
-    <title>RHSA-2026:66204: Important: python-lxml security update</title>
-    <updated>2026-09-09T22:16:58+00:00</updated>
-    <content>An update for python-lxml is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66204" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-09T22:16:58+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/d624c61328d2bc34</id>
+    <title>Build a compliance assistant with AutoRAG and Red Hat OpenShift AI</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>If you run AI platforms for a bank, an insurer, or anyone else living under a stack of regulations, you already know the use case everyone asks for first: let our compliance and risk teams ask questions against our own policy documents and get an answer they can trust, with a citation they can check.Retrieval-augmented generation (RAG) is the right tool for that job. When a question is asked, instead of answering from memory, the model looks the answer up in your documents and includes a citatio</content>
+    <link href="https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/6ede01f8b6efa8b5</id>
@@ -785,51 +843,6 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift.png?itok=DcAVCLbG" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/2cb1c9489237c2ef</id>
-    <title>Why the virtualization decision keeps getting deferred</title>
-    <updated>2026-09-01T00:00:00+00:00</updated>
-    <content>If double-paying during a platform transition is stalling your virtualization migration, removing that first-year cost overlap can get your project moving again.Most infrastructure teams I speak with have spent the best part of 2 years working out what to do about their virtualization platform. The licensing and pricing changes are no longer a surprise; the financial modeling has likely been run multiple times, and in many organizations, the move has been deferred rather than avoided. The questi</content>
-    <link href="https://www.redhat.com/en/blog/why-virtualization-decision-keeps-getting-deferred" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-09-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/38b42a3da5f314d7</id>
-    <title>How Ask Red Hat earns trust in enterprise AI troubleshooting</title>
-    <updated>2026-09-01T00:00:00+00:00</updated>
-    <content>A recent review of 562 empirical studies on human trust in AI found that capability, explainability, transparency, and individual user factors consistently predict whether people will rely on an AI-generated answer. In production, the question is narrower and harder: Will I stake my environment on this?This is the design problem Ask Red Hat was built to solve. Ask Red Hat is Red Hat's conversational AI available on many Red Hat web sites—an intelligent front door to the knowledge, documentation,</content>
-    <link href="https://www.redhat.com/en/blog/how-ask-red-hat-earns-trust-enterprise-ai-troubleshooting" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-09-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/96b91b6dc3fb817c</id>
-    <title>Automate AI red teaming: Large language model risk identification and mitigation</title>
-    <updated>2026-09-01T00:00:00+00:00</updated>
-    <content>Large language models (LLMs) remain vulnerable to adversarial attacks that bypass safety controls and produce unwanted content. To help engineering and security teams identify these vulnerabilities systematically, Red Hat OpenShift AI includes an automated red teaming (ART) pipeline. This tool converts enterprise policy documents into targeted adversarial attacks, generating clear metrics and reports that highlight risks before models reach production.The starting pointTo guard against adversari</content>
-    <link href="https://www.redhat.com/en/blog/automate-ai-red-teaming-large-language-model-risk-identification-and-mitigation" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-09-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/6c8034bf15b95fa9</id>
     <title>AI-powered multicluster management: Querying fleet health with OpenShift Lightspeed and Red Hat Advanced Cluster Management</title>
     <updated>2026-08-31T07:16:08+00:00</updated>
@@ -888,21 +901,6 @@ Red Hat Product Security has rated this update as having a security impact of Im
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20Openshift%20AI_0.png?itok=EGHltugp" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/69496ee65f8e1af8</id>
-    <title>llm-d flow control: Priority queuing for shared GPU inference</title>
-    <updated>2026-08-27T03:01:23+00:00</updated>
-    <content>llm-d flow control adds priority-aware admission and tenant fairness scheduling mechanisms for GPUs, giving platform teams a way to prioritize mixed workloads on a shared model pool. This feature is generally available in Red Hat AI Inference 3.5 . The post llm-d flow control: Priority queuing for shared GPU inference appeared first on Red Hat Developer .</content>
-    <link href="https://developers.redhat.com/articles/2026/08/27/llm-d-flow-control-priority-queuing-for-shared-gpu-inference" rel="alternate"/>
-    <category term="Red Hat Developer" label="Red Hat Developer"/>
-    <published>2026-08-27T03:01:23+00:00</published>
-    <media:group>
-      <media:content url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM" type="image/png" medium="image" height="627" width="1200"/>
-      <media:thumbnail url="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM" height="627" width="1200"/>
-    </media:group>
-    <dc:creator>Red Hat Developer</dc:creator>
-    <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red%20Hat%20AI%20Inference%20Server.png?itok=Ke7xK0mM" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/344402f9d22fac9a</id>

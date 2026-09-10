@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T21:07:46.354525+00:00",
+  "last_updated": "2026-09-10T16:38:54.655931+00:00",
   "entries": [
     {
       "title": "Claude Platform release notes — May 10th, 2024",
@@ -5062,6 +5062,26 @@
       "image_width": 1200,
       "image_height": 630,
       "entry_id": "tag:trvny.github.io,2024:feedseek/claude/6ff57e9041003317"
+    },
+    {
+      "title": "Degraded functionality for Claude Cowork on Windows",
+      "link": "https://status.claude.com/incidents/r1pqn1kb4hvk",
+      "date": "2026-09-10T15:54:10+00:00",
+      "description": "Sep 10 , 15:54 UTC Identified - A Windows update released September 8 has caused Claude Cowork on Windows is unable to run local commands on your PC, because its workspace can no longer reach your computer’s drive. For most users, chat and reading or editing files still work. We have identified the cause as a change in Windows; Microsoft has developed a fix and is working on releasing it. There’s no in-app workaround yet, and restarting or reinstalling won’t help. We’ll post an update when we ha",
+      "source": "Claude Status",
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/claude/0f49a9846d99d862"
+    },
+    {
+      "title": "Known issue: Cowork on Windows",
+      "link": "https://claude.com/docs/cowork/changelog#known-issue-cowork-on-windows",
+      "date": "2026-09-10T16:00:46+00:00",
+      "description": "Known issue: Cowork on Windows",
+      "source": "Claude Cowork",
+      "image": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&w=1200&q=100",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/claude/58df8513adc2a6c3"
     }
   ]
 }

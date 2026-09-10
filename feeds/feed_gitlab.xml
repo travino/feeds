@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.gitlab.com/</id>
   <title>GitLab</title>
-  <updated>2026-09-10T11:45:28.600796+00:00</updated>
+  <updated>2026-09-10T16:39:30.457216+00:00</updated>
   <author>
     <name>Various</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://about.gitlab.com/favicon.ico</icon>
   <logo>https://about.gitlab.com/favicon.ico</logo>
   <subtitle>Combined GitLab and federated forge feed: GitLab blog, release notes, patch releases, press releases and what's new, plus Codeberg and Forgejo.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/gitlab/4a744db5faa5180c</id>
+    <title>Co-Create: Building GitLab with our users</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>GitLab users bring firsthand experience of the workflows they want to improve. Through our Co-Create program, they collaborate directly with us to design, build, and deliver product improvements that benefit more teams. In the first half of 2026, our users helped us extend APIs, add CI/CD capabilities , expand language support for AI-powered code understanding, strengthen security controls, increase the flexibility of integrations, and make GitLab easier to use and understand. Co-Create gives cu</content>
+    <link href="https://about.gitlab.com/blog/co-create-h1-2026/" rel="alternate"/>
+    <category term="GitLab Blog" label="GitLab Blog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1750099203/Blog/Hero%20Images/Blog/Hero%20Images/blog-image-template-1800x945%20%2820%29_2bJGC5ZP3WheoqzlLT05C5_1750099203484.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1750099203/Blog/Hero%20Images/Blog/Hero%20Images/blog-image-template-1800x945%20%2820%29_2bJGC5ZP3WheoqzlLT05C5_1750099203484.png"/>
+    </media:group>
+    <dc:creator>GitLab Blog</dc:creator>
+    <link rel="enclosure" href="https://res.cloudinary.com/about-gitlab-com/image/upload/v1750099203/Blog/Hero%20Images/Blog/Hero%20Images/blog-image-template-1800x945%20%2820%29_2bJGC5ZP3WheoqzlLT05C5_1750099203484.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/gitlab/ba7d054e8183bdff</id>
     <title>Bring your own model to GitLab Duo Self-Hosted with Microsoft Foundry</title>
@@ -660,22 +675,6 @@ one of these versions immediately. GitLab.com is already running the patched ver
     <category term="GitLab Releases" label="GitLab Releases"/>
     <published>2026-07-16T00:00:00+00:00</published>
     <dc:creator>GitLab Releases</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/gitlab/e80376f9dbb8a5a2</id>
-    <title>Green DevOps: Why carbon measurement belongs in your CI/CD pipeline</title>
-    <updated>2026-07-09T00:00:00+00:00</updated>
-    <content>A typical software team runs hundreds of CI/CD jobs a day. Each one runs on compute and burns energy that doesn't show up in your pipeline logs, including its carbon impact.
-That invisibility is exactly the problem. You can't reduce what you don't measure. Eco CI and Carmen are third-party integrations that add a carbon lens to the pipelines you're already running in GitLab. Both are open source tools you can wire into any pipeline today. Here's why that's worth doing, and how to get started wit</content>
-    <link href="https://about.gitlab.com/blog/green-devops-carbon-measurement-cicd-pipeline/" rel="alternate"/>
-    <category term="GitLab Blog" label="GitLab Blog"/>
-    <published>2026-07-09T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1765809212/noh0mdfn9o94ry9ykura.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://res.cloudinary.com/about-gitlab-com/image/upload/v1765809212/noh0mdfn9o94ry9ykura.png"/>
-    </media:group>
-    <dc:creator>GitLab Blog</dc:creator>
-    <link rel="enclosure" href="https://res.cloudinary.com/about-gitlab-com/image/upload/v1765809212/noh0mdfn9o94ry9ykura.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/gitlab/355bf0a6c39ce838</id>

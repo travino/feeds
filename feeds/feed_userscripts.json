@@ -8,6 +8,22 @@
   "icon": "https://www.greasespot.net/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/userscripts/2f8f96bc768fb10e",
+      "url": "https://scriptcat.org/script-show-page/7918",
+      "title": "B站壳层 · Naive UI 重设计 — ecx",
+      "content_text": "隐藏官方首页 UI，挂载基于 Naive UI 的重设计壳层；尝试拉取真实推荐/热榜，并过滤广告条目。可与「B站去广告」共存。",
+      "date_published": "2026-09-10T12:31:00Z",
+      "date_modified": "2026-09-10T12:31:00Z",
+      "authors": [
+        {
+          "name": "ScriptCat"
+        }
+      ],
+      "tags": [
+        "ScriptCat"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/userscripts/2a2296d32ab75ffd",
       "url": "https://scriptcat.org/script-show-page/7915",
       "title": "内蒙古网络学院 课程进度助手 — b1tmicr0",
@@ -2366,22 +2382,6 @@
       "content_text": "适配正方V9.0：修复周次正则(1-12周,14-16周错位)；多时段课同格继承课程名；删除\"第N周\"干扰事件；标题只放课名；自动对齐周一",
       "date_published": "2026-08-27T15:13:24Z",
       "date_modified": "2026-08-27T15:13:24Z",
-      "authors": [
-        {
-          "name": "ScriptCat"
-        }
-      ],
-      "tags": [
-        "ScriptCat"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/userscripts/d79a25966f53cb0f",
-      "url": "https://scriptcat.org/script-show-page/7699",
-      "title": "Get Microsoft Rewards (修复/增强版) — 昔日年华",
-      "content_text": "微软 Rewards 自动助手：集成本地自动搜索、每日活动与自动签到。基于原脚本二次开发，在 Gemini AI 辅助下优化多区域兼容与卡片过滤逻辑。",
-      "date_published": "2026-08-27T13:36:34Z",
-      "date_modified": "2026-08-27T13:36:34Z",
       "authors": [
         {
           "name": "ScriptCat"

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T16:51:11.876398+00:00",
+  "last_updated": "2026-09-10T16:40:33.254010+00:00",
   "entries": [
     {
       "title": "Save AIP Analyst chats as analysis resources",
@@ -342,6 +342,60 @@
       "source": "Foundry Announcements",
       "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/3df83de30054fb6b"
+    },
+    {
+      "title": "Additional open-weight models now available in AIP through Fireworks",
+      "link": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-additional-open-weight-models-now-available-in-aip-through-fireworks",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Select models from Z.ai and Moonshot AI are now available in AIP through Fireworks on non-georestricted enrollments. Model overviews GLM-5.3 ↗ is an advanced open-weight frontier reasoning model released by Z.ai that delivers state-of-the-art performance for complex software engineering, long-horizon autonomous agents, and cybersecurity tasks. GLM-5.3 Flash ↗ is an open-weight, natively multimodal AI model released by Z.ai with strong performance in coding and agent tasks at a reduced cost and h",
+      "source": "Foundry Announcements",
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/5fa985ce607d0d8d"
+    },
+    {
+      "title": "Gemini 3.8 Flash from Vertex AI is now available in AIP",
+      "link": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-gemini-3-8-flash-from-vertex-ai-is-now-available-in-aip",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Gemini 3.8 Flash is now available in AIP for non-georestricted, US georestricted, EU georestricted, IL2, IL4, and IL5 enrollments with Google Vertex AI enabled. Model overview Gemini 3.8 Flash is the next iteration in the Gemini 3 model family, with improvements in reasoning and coding. For more information, review Google's Gemini 3.8 Flash model card ↗ and Google's model announcement ↗ . Availability Gemini 3.8 Flash is available on: Non-georestricted commercial enrollments with Google Vertex A",
+      "source": "Foundry Announcements",
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/fae0400803afdefd"
+    },
+    {
+      "title": "GPT-5.6 series now available in AIP on IL2, IL4, and IL5 enrollments",
+      "link": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-gpt-5-6-series-now-available-in-aip-on-il2-il4-and-il5-enrollments",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna are now available in AIP on IL2, IL4, and IL5 enrollments with Azure OpenAI enabled. Model overviews The GPT-5.6 series is OpenAI’s newest family of models. It includes a frontier model (Sol) for advanced workloads, a balanced model (Terra) for intelligence and cost, and a cost-effective model (Luna) for high-volume use cases. For more information, review OpenAI’s model documentation ↗ and OpenAI’s GPT-5.6 announcement ↗ . Getting started To use these",
+      "source": "Foundry Announcements",
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/98760e198dfa12c3"
+    },
+    {
+      "title": "Validate production LLM workflows with Pipeline Builder evaluation suites",
+      "link": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-validate-production-llm-workflows-with-pipeline-builder-evaluation-suites",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Large language model (LLM) evaluation suites are now generally available in Pipeline Builder. Use evaluation suites to test the outputs of Use LLM nodes before deploying changes to your pipeline Each run writes detailed results to a Foundry dataset, helping you identify opportunities to improve your LLM workflows. Test LLM workflows in an isolated environment Evaluate changes without affecting your production pipeline. Import an existing Foundry dataset as testing data or enter test data manuall",
+      "source": "Foundry Announcements",
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/000fdcc9217ddf8f"
+    },
+    {
+      "title": "Browse, compare, and share committed code with the code viewer in Code Workspaces",
+      "link": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-browse-compare-and-share-committed-code-with-the-code-viewer-in-code-workspaces",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "The new code viewer is now available in Code Workspaces, providing a read-only interface for browsing, comparing, and sharing committed code from repositories stored in Foundry, whether the code was developed in Foundry or locally. You can start browsing code immediately while a VS Code workspace loads in the background. Browse committed code Open a repository in Code Workspaces, then select the Code viewer tab in the page header. From the code viewer, you can: Browse files on a branch, tag, or ",
+      "source": "Foundry Announcements",
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/ead7759474b4b663"
+    },
+    {
+      "title": "Detect sensitive data using language model match conditions in Sensitive Data Scanner",
+      "link": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-detect-sensitive-data-using-language-model-match-conditions-in-sensitive-data-sc",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "To detect sensitive data that is difficult to model as a regular expression or fixed list of values, you can now use a natural language prompt and set examples for large language models to evaluate datasets , virtual tables , and media sets using match conditions in Sensitive Data Scanner . Generally available across Foundry enrollments the week of September 7, language model match conditions use a large language model and a natural language prompt to classify whether scanned content, column nam",
+      "source": "Foundry Announcements",
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/palantir/d21ab9198941c0c6"
     }
   ]
 }

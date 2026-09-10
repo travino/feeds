@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T11:45:41.997954+00:00",
+  "last_updated": "2026-09-10T16:39:49.877662+00:00",
   "entries": [
     {
       "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
@@ -1514,6 +1514,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/6f7f60b3b9a18f19"
     },
     {
+      "title": "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets",
+      "link": "https://huggingface.co/papers/2609.05663",
+      "date": "2026-09-04T00:00:00+00:00",
+      "description": "Autonomous language-model trading agents across production systems show behavior driven by interface design rather than strategy, exhibit volatility-blind sizing, fail to capture favorable price excursions, and display no directional edge, with frontier model decision quality statistically indistinguishable across families.",
+      "source": "Hugging Face Trending Papers",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.05663.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/c456c8ce9bd7125d"
+    },
+    {
       "title": "DriveZero: End-to-End Driving Beyond Human Demonstrations",
       "link": "https://huggingface.co/papers/2609.06055",
       "date": "2026-09-05T00:00:00+00:00",
@@ -1829,6 +1838,24 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/10ac7bb5839a927d"
     },
     {
+      "title": "Show-Harness: Just a VLM Agent Can Play Robots",
+      "link": "https://huggingface.co/papers/2609.10522",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "Show-Harness links vision-language models to robot control via discrete semantic actions interpreted by embodiment-specific modules, enabling zero-shot and efficient fine-tuned deployment across robots and GUIs.",
+      "source": "Hugging Face Trending Papers",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10522/gradient.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/818667f5d0cabedd"
+    },
+    {
+      "title": "Programmable World Model",
+      "link": "https://huggingface.co/papers/2609.10540",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "A programmable world model separates explicit state evolution from video generation using executable rules and 3D bounding boxes to maintain persistent, controllable environments.",
+      "source": "Hugging Face Trending Papers",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.10540/gradient.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/b091d7a65693ae38"
+    },
+    {
       "title": "It’s easy to get distracted by benchmarks, throughput (tok/s), and all the hype around frontier model releases.",
       "link": "https://huggingface.co/posts/nwaughachukwuma/199024335043983",
       "date": "2026-09-09T00:30:51.187435+00:00",
@@ -1908,6 +1935,24 @@
       "source": "Hugging Face Posts",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/Banaxi-Tech/229308326459018.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/d21f272752d5ef31"
+    },
+    {
+      "title": "wait why can i post",
+      "link": "https://huggingface.co/posts/GGUFGuy/176366105637050",
+      "date": "2026-09-10T16:39:48.708243+00:00",
+      "description": "wait why can i post",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/GGUFGuy/176366105637050.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/5099785c13f47f68"
+    },
+    {
+      "title": "📣 HF Viewer now has a HF space! 🤗",
+      "link": "https://huggingface.co/posts/HannesVonEssen/867556411204257",
+      "date": "2026-09-10T16:39:48.708243+00:00",
+      "description": "📣 HF Viewer now has a HF space! 🤗 embedl/hfviewer Visualize any model directly on Hugging Face - now 4,727 graphs! If you like it, feel free to give the space a heart to help it grow! ❤️ And you can reply with any feedback or feature requests here!",
+      "source": "Hugging Face Posts",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/630e33fdc6b1d1bccb7f8df7/Lq9KXTVuXg49dTtOfGjIX.gif",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/huggingface/7cf1c2ec554bda2a"
     }
   ]
 }

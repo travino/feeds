@@ -8,6 +8,144 @@
   "icon": "https://www.google.com/s2/favicons?domain=palantir.com&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/palantir/d21ab9198941c0c6",
+      "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-detect-sensitive-data-using-language-model-match-conditions-in-sensitive-data-sc",
+      "title": "Detect sensitive data using language model match conditions in Sensitive Data Scanner",
+      "content_text": "To detect sensitive data that is difficult to model as a regular expression or fixed list of values, you can now use a natural language prompt and set examples for large language models to evaluate datasets , virtual tables , and media sets using match conditions in Sensitive Data Scanner . Generally available across Foundry enrollments the week of September 7, language model match conditions use a large language model and a natural language prompt to classify whether scanned content, column nam",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Foundry Announcements"
+        }
+      ],
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "tags": [
+        "Foundry Announcements"
+      ],
+      "attachments": [
+        {
+          "url": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/palantir/ead7759474b4b663",
+      "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-browse-compare-and-share-committed-code-with-the-code-viewer-in-code-workspaces",
+      "title": "Browse, compare, and share committed code with the code viewer in Code Workspaces",
+      "content_text": "The new code viewer is now available in Code Workspaces, providing a read-only interface for browsing, comparing, and sharing committed code from repositories stored in Foundry, whether the code was developed in Foundry or locally. You can start browsing code immediately while a VS Code workspace loads in the background. Browse committed code Open a repository in Code Workspaces, then select the Code viewer tab in the page header. From the code viewer, you can: Browse files on a branch, tag, or",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Foundry Announcements"
+        }
+      ],
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "tags": [
+        "Foundry Announcements"
+      ],
+      "attachments": [
+        {
+          "url": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/palantir/000fdcc9217ddf8f",
+      "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-validate-production-llm-workflows-with-pipeline-builder-evaluation-suites",
+      "title": "Validate production LLM workflows with Pipeline Builder evaluation suites",
+      "content_text": "Large language model (LLM) evaluation suites are now generally available in Pipeline Builder. Use evaluation suites to test the outputs of Use LLM nodes before deploying changes to your pipeline Each run writes detailed results to a Foundry dataset, helping you identify opportunities to improve your LLM workflows. Test LLM workflows in an isolated environment Evaluate changes without affecting your production pipeline. Import an existing Foundry dataset as testing data or enter test data manuall",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Foundry Announcements"
+        }
+      ],
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "tags": [
+        "Foundry Announcements"
+      ],
+      "attachments": [
+        {
+          "url": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/palantir/98760e198dfa12c3",
+      "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-gpt-5-6-series-now-available-in-aip-on-il2-il4-and-il5-enrollments",
+      "title": "GPT-5.6 series now available in AIP on IL2, IL4, and IL5 enrollments",
+      "content_text": "GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna are now available in AIP on IL2, IL4, and IL5 enrollments with Azure OpenAI enabled. Model overviews The GPT-5.6 series is OpenAI’s newest family of models. It includes a frontier model (Sol) for advanced workloads, a balanced model (Terra) for intelligence and cost, and a cost-effective model (Luna) for high-volume use cases. For more information, review OpenAI’s model documentation ↗ and OpenAI’s GPT-5.6 announcement ↗ . Getting started To use these",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Foundry Announcements"
+        }
+      ],
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "tags": [
+        "Foundry Announcements"
+      ],
+      "attachments": [
+        {
+          "url": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/palantir/fae0400803afdefd",
+      "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-gemini-3-8-flash-from-vertex-ai-is-now-available-in-aip",
+      "title": "Gemini 3.8 Flash from Vertex AI is now available in AIP",
+      "content_text": "Gemini 3.8 Flash is now available in AIP for non-georestricted, US georestricted, EU georestricted, IL2, IL4, and IL5 enrollments with Google Vertex AI enabled. Model overview Gemini 3.8 Flash is the next iteration in the Gemini 3 model family, with improvements in reasoning and coding. For more information, review Google's Gemini 3.8 Flash model card ↗ and Google's model announcement ↗ . Availability Gemini 3.8 Flash is available on: Non-georestricted commercial enrollments with Google Vertex A",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Foundry Announcements"
+        }
+      ],
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "tags": [
+        "Foundry Announcements"
+      ],
+      "attachments": [
+        {
+          "url": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/palantir/5fa985ce607d0d8d",
+      "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-10-additional-open-weight-models-now-available-in-aip-through-fireworks",
+      "title": "Additional open-weight models now available in AIP through Fireworks",
+      "content_text": "Select models from Z.ai and Moonshot AI are now available in AIP through Fireworks on non-georestricted enrollments. Model overviews GLM-5.3 ↗ is an advanced open-weight frontier reasoning model released by Z.ai that delivers state-of-the-art performance for complex software engineering, long-horizon autonomous agents, and cybersecurity tasks. GLM-5.3 Flash ↗ is an open-weight, natively multimodal AI model released by Z.ai with strong performance in coding and agent tasks at a reduced cost and h",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Foundry Announcements"
+        }
+      ],
+      "image": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+      "tags": [
+        "Foundry Announcements"
+      ],
+      "attachments": [
+        {
+          "url": "https://palantir.com/docs/resources/homepage/iso-grid.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/palantir/3df83de30054fb6b",
       "url": "https://www.palantir.com/docs/foundry/announcements#2026-09-08-introducing-vulcan-a-cad-review-application-for-the-ontology",
       "title": "Introducing Vulcan, a CAD review application for the Ontology",

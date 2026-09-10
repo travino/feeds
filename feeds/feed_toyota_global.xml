@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://pressroom.toyota.com/#toyota_global</id>
   <title>Toyota Global</title>
-  <updated>2026-09-10T11:47:10.702606+00:00</updated>
+  <updated>2026-09-10T16:41:09.611920+00:00</updated>
   <author>
     <name>Toyota</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.google.com/s2/favicons?domain=pressroom.toyota.com&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=pressroom.toyota.com&amp;sz=256</logo>
   <subtitle>Toyota news from the USA, Europe, the global newsroom, Toyota Connected, and Toyota Research Institute, in one feed.</subtitle>
+  <entry>
+    <id>https://newsroom.toyota.eu/toyota-and-iveco-join-forces-to-advance-next-generation-hydrogen-fuel-cell-heavy-duty-trucks-through-the-eu-funded-empower-project/</id>
+    <title>Toyota and IVECO join forces to advance next-generation hydrogen fuel cell heavy-duty trucks through the EU-funded EMPOWER project</title>
+    <updated>2026-09-10T12:00:00+00:00</updated>
+    <content>A strategic collaboration combining complementary capabilities to advance fuel cell technology for heavy-duty transport applications through the deployment and validation in customer operations Higher power, improved energy efficiency and increased durability will advance hydrogen-powered transport toward commercial-scale deployment BRUSSELS, Belgium / TURIN, Italy, 10 September 2026 – Toyota and IVECO announce a new collaboration under EMPOWER – the EU-funded Horizon Europe project dedicated...</content>
+    <link href="https://newsroom.toyota.eu/toyota-and-iveco-join-forces-to-advance-next-generation-hydrogen-fuel-cell-heavy-duty-trucks-through-the-eu-funded-empower-project/" rel="alternate"/>
+    <category term="Newsroom Toyota Europe" label="Newsroom Toyota Europe"/>
+    <published>2026-09-10T12:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://content.presspage.com/uploads/1523/77d9369e-366f-4a97-a824-6b31f007e826/500_iveco_s-eway_artic_fuelcell25.jpg?10000" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://content.presspage.com/uploads/1523/77d9369e-366f-4a97-a824-6b31f007e826/500_iveco_s-eway_artic_fuelcell25.jpg?10000"/>
+    </media:group>
+    <link rel="enclosure" href="https://content.presspage.com/uploads/1523/77d9369e-366f-4a97-a824-6b31f007e826/500_iveco_s-eway_artic_fuelcell25.jpg?10000" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://global.toyota/en/newsroom/corporate/44819980.html</id>
     <title>GR Launches "GR KART" Entry-level Racing Kart</title>
@@ -1387,20 +1401,5 @@ TGR-WRT takes title pursuit to South American gravel</title>
       <media:thumbnail url="https://content.presspage.com/uploads/1523/782d1774-b760-42f7-9c4f-35579afbd3d6/500_wrc_2026_rd10-day4_007.jpg?16405"/>
     </media:group>
     <link rel="enclosure" href="https://content.presspage.com/uploads/1523/782d1774-b760-42f7-9c4f-35579afbd3d6/500_wrc_2026_rd10-day4_007.jpg?16405" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://toyotagazooracing.com/wrc/release/2026/rd10-day4/</id>
-    <title>Rally Finland: Day 4
-Flying Finn Pajari doubles up with home glory for TGR-WRT</title>
-    <updated>2026-08-03T03:00:00+00:00</updated>
-    <content>TOYOTA GAZOO Racing World Rally Team driver Sami Pajari has scored his second successive victory in the FIA World Rally Championship, triumphing on home roads for himself and his team at Rally Finland.</content>
-    <link href="https://toyotagazooracing.com/wrc/release/2026/rd10-day4/" rel="alternate"/>
-    <category term="Toyota Global Newsroom" label="Toyota Global Newsroom"/>
-    <published>2026-08-03T03:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://global.toyota/pages/news/images/2026/08/03/WRC/20260803_02_t_w610.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://global.toyota/pages/news/images/2026/08/03/WRC/20260803_02_t_w610.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://global.toyota/pages/news/images/2026/08/03/WRC/20260803_02_t_w610.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

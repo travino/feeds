@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.visualcrossing.com/resources/</id>
   <title>Visual Crossing Resources</title>
-  <updated>2026-09-10T11:47:30.305283+00:00</updated>
+  <updated>2026-09-10T16:41:27.677915+00:00</updated>
   <author>
     <name>Visual Crossing</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.visualcrossing.com/favicon.ico</icon>
   <logo>https://www.visualcrossing.com/favicon.ico</logo>
   <subtitle>Visual Crossing news, blog posts and documentation updates.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/b8fdfb46c9a1cc4e</id>
+    <title>How do we create our weather forecast?</title>
+    <updated>2026-09-10T15:45:55+00:00</updated>
+    <content>Our 15-day weather forecast is a blended forecast of many of the world’s leading weather models — including ECMWF, GFS, ICON, the UK Met Office global model, and a new generation of AI/ML-based models such as ECMWF’s AIFS and AI-enhanced GFS models. We combine these with real-time station observations, radar data, satellite data and post-processing to create […] The post How do we create our weather forecast? appeared first on Visual Crossing .</content>
+    <link href="https://www.visualcrossing.com/resources/documentation/how-do-we-create-our-weather-forecast/" rel="alternate"/>
+    <category term="Visual Crossing Documentation" label="Visual Crossing Documentation"/>
+    <published>2026-09-10T15:45:55+00:00</published>
+    <media:group>
+      <media:content url="https://www.visualcrossing.com/wp-content/uploads/2025/02/CreateForecastVC.png" type="image/png" medium="image" height="400" width="600"/>
+      <media:thumbnail url="https://www.visualcrossing.com/wp-content/uploads/2025/02/CreateForecastVC.png" height="400" width="600"/>
+    </media:group>
+    <dc:creator>Visual Crossing Documentation</dc:creator>
+    <link rel="enclosure" href="https://www.visualcrossing.com/wp-content/uploads/2025/02/CreateForecastVC.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/visualcrossing_blog/aa061dccde3edf90</id>
     <title>Weather Data Documentation</title>

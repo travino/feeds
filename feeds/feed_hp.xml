@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.hp.com/us-en/newsroom.html</id>
   <title>HP Newsroom</title>
-  <updated>2026-09-10T11:45:40.448330+00:00</updated>
+  <updated>2026-09-10T16:39:54.520481+00:00</updated>
   <author>
     <name>HP</name>
   </author>
@@ -791,6 +791,30 @@
     </media:group>
     <dc:creator>HPE Newsroom</dc:creator>
     <link rel="enclosure" href="https://www.hpe.com/content/dam/hpe/newsroom/2026/05/hpe-unifies-global-distribution-with-ingram-micro-and-td-synnex-HPE20160824074.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/hp/a7356ce96df2f354</id>
+    <title>Severity: High |  Title: AMD Embedded Processors Security Update</title>
+    <updated>2026-02-23T00:00:00+00:00</updated>
+    <content>Description: AMD has informed HP of potential vulnerabilities in some AMD Embedded Processors and AMD Chipset Driver for the embedded processors, which might allow arbitrary code execution, denial of service, loss of integrity, loss of availability, or loss of confidentiality. AMD has released firmware and software updates to mitigate these vulnerabilities.
+  CVEs: CVE-2024-36342 CVE-2024-36354 CVE-2024-21947 CVE-2021-26383 CVE-2024-21970 CVE-2023-20572 CVE-2021-26377 CVE-2023-31326 CVE-2021-467</content>
+    <link href="https://support.hp.com/us-en/document/ish_13045735-13045757-16" rel="alternate"/>
+    <category term="HP Support" label="HP Support"/>
+    <published>2026-02-23T00:00:00+00:00</published>
+    <dc:creator>HP Support</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/hp/bc5e0c37151a4530</id>
+    <title>Severity: High |  Title: Intel Xeon Processor Firmware August 2025 Security Update</title>
+    <updated>2026-02-23T00:00:00+00:00</updated>
+    <content>Description: Intel has informed HP of potential security vulnerabilities in the Intel Xeon Processors, which might allow escalation of privilege or denial of service. Intel is releasing firmware updates to mitigate these potential vulnerabilities.
+  CVEs: CVE-2025-20053 CVE-2025-24305 CVE-2025-21090
+  HP ID: HPSBHF04071 Rev. 2
+  Published: Mon, 23 Feb 2026 00:00:00 GMT</content>
+    <link href="https://support.hp.com/us-en/document/ish_13176059-13176083-16" rel="alternate"/>
+    <category term="HP Support" label="HP Support"/>
+    <published>2026-02-23T00:00:00+00:00</published>
+    <dc:creator>HP Support</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/hp/ee8a446d63386ef9</id>

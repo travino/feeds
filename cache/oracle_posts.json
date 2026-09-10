@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T11:46:39.103170+00:00",
+  "last_updated": "2026-09-10T16:40:34.659257+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3835,6 +3835,33 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/9a621c0e18d0cfe0"
+    },
+    {
+      "title": "The innovation tax: rethinking the economics of connected medical device data",
+      "link": "https://blogs.oracle.com/cloud-infrastructure/innovation-tax-in-connected-medical-devices",
+      "date": "2026-09-10T13:11:00+00:00",
+      "description": "Anyone involved with connected medical devices knows that success has an interesting side effect: data. Lots of it. A single device might generate a manageable amount of patient data, telemetry, logs, images, or video. Deploy thousands, or hundreds of thousands, of those devices and the economics change quickly. And collecting the data is only the […]",
+      "source": "Oracle Cloud Infrastructure",
+      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/exec-27dfaaa8-aae9-47c1-8b2c-a9cde7bfd20c.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/95dbfb83d723f962"
+    },
+    {
+      "title": "OIC3 Global Variables containing scalar values:   Assign or Stitch?",
+      "link": "https://forums.oracle.com/ords/apexds/post/oic3-global-variables-containing-scalar-values-assign-or-st-2878",
+      "date": "2026-09-10T13:40:58.659631+00:00",
+      "description": "Hello there, I am new to OIC (OIC3 more precisely)  and after looking at some existing integrations I wonder why certain things are done the way they are done, because, frankly speaking, they don't make very much sense to me. For instance a very simple doubt I have is: should simply I use “Assign” to populate a global variable with a scalar value or must I use “Stitch” ? In the existing integrations they use Stitch even for scalar values, but that means adding one more step to the workflow after",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/415bdc5572d89b04"
+    },
+    {
+      "title": "APEX 26.1: application import is rolled back with ORA-02091 when a column removed from Interactive Grid with user saved repor",
+      "link": "https://forums.oracle.com/ords/apexds/post/apex-26-1-application-import-is-rolled-back-with-ora-02091-4420",
+      "date": "2026-09-10T13:46:50.382091+00:00",
+      "description": "Possible bug? We appear to have hit a change in behaviour in APEX 26.1 that blocks our deployment process. I would like to check whether this is a known issue or whether we should report it. What we see When we deploy a new version of an application from our development environment to our production environment, and that new version no longer contains a column that was present before, the import of the application fails. The error is: In case of fxxxx.sql export file ``` Execution of the stateme",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/3c4c67e9b801f428"
     }
   ]
 }

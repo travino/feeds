@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-10T11:47:24.360910+00:00</updated>
+  <updated>2026-09-10T16:41:21.941344+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,16 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/2f8f96bc768fb10e</id>
+    <title>B站壳层 · Naive UI 重设计 — ecx</title>
+    <updated>2026-09-10T12:31:00+00:00</updated>
+    <content>隐藏官方首页 UI，挂载基于 Naive UI 的重设计壳层；尝试拉取真实推荐/热榜，并过滤广告条目。可与「B站去广告」共存。</content>
+    <link href="https://scriptcat.org/script-show-page/7918" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-10T12:31:00+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/2a2296d32ab75ffd</id>
     <title>内蒙古网络学院 课程进度助手 — b1tmicr0</title>
@@ -1490,16 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7701" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-27T15:13:24+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/d79a25966f53cb0f</id>
-    <title>Get Microsoft Rewards (修复/增强版) — 昔日年华</title>
-    <updated>2026-08-27T13:36:34+00:00</updated>
-    <content>微软 Rewards 自动助手：集成本地自动搜索、每日活动与自动签到。基于原脚本二次开发，在 Gemini AI 辅助下优化多区域兼容与卡片过滤逻辑。</content>
-    <link href="https://scriptcat.org/script-show-page/7699" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T13:36:34+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

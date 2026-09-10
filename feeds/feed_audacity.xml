@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.audacityteam.org/blog/</id>
   <title>Audacity®</title>
-  <updated>2026-09-10T11:44:51.806640+00:00</updated>
+  <updated>2026-09-10T16:38:41.119757+00:00</updated>
   <author>
     <name>Audacity / MuseHub</name>
   </author>
@@ -13,10 +13,85 @@
   <logo>https://www.audacityteam.org/favicon.ico</logo>
   <subtitle>Audacity blog and forum updates, plus MuseHub news and newly listed audio tools.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/b5cdb49aa3cd8862</id>
+    <title>Audacity 4 auto noise reduction</title>
+    <updated>2026-09-10T16:38:27+00:00</updated>
+    <content>There’s an improvement in general quality when recording with 4.0, it seems like a general noise reduction is applied or noise is automatically filtered out while recording. Are there any options/plugins people would recommend to achieve this same automatic effect? It’s the only reason I currently have to use 4.0 over 3 currently and I really just want to stick with 3 until all the teething issues with 4 are sorted. Might be a silly question but would appreciate if someone would enlighten me 1 p</content>
+    <link href="https://forum.audacityteam.org/t/audacity-4-auto-noise-reduction/154040" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-10T16:38:27+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/01dcdaaef477d396</id>
+    <title>Deleting and merging tracks</title>
+    <updated>2026-09-10T14:50:59+00:00</updated>
+    <content>I use Audacity for creating soundfiles for audio journalism. (Remember radio?) Here’s my simple conundrum: I have a voice track. I want to delete a portion of the interview and merge the remaining two tracks into one. I want to remove the vertical black line! I used to be able to go to Tracks, mix and render. But in Audacity 4, there is no mix and render command–all you can do is add whole new tracks. Anybody have an answer? There’s gotta be a solution! many thanks from John in Texas 1 post - 1 </content>
+    <link href="https://forum.audacityteam.org/t/deleting-and-merging-tracks/154038" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-10T14:50:59+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/2ed6e743ec83e735</id>
+    <title>Audacity crashes everytime I try to select "Effects" tab - MBPro Apple silicon</title>
+    <updated>2026-09-10T13:55:10+00:00</updated>
+    <content>Freshly installed Audacity 4. Very excited about the whole project, tried my first recording, wanted to slap some effects on, crashed by just selecting the tab. Retried 2x with different clips, always same result. Have got a full error report from my system here: pastebin.com https://pastebin.com/rz3fk8CV 1 post - 1 participant Read full topic</content>
+    <link href="https://forum.audacityteam.org/t/audacity-crashes-everytime-i-try-to-select-effects-tab-mbpro-apple-silicon/154037" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-10T13:55:10+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/cdef22d235345fe8</id>
+    <title>Anyone else lagging?</title>
+    <updated>2026-09-10T13:16:20+00:00</updated>
+    <content>I’m experiencing some serious lag… even freezing from time to time. I run on a HP pavillion with an i7 and 32G RAM if you were curious… 2 posts - 2 participants Read full topic</content>
+    <link href="https://forum.audacityteam.org/t/anyone-else-lagging/154035" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-10T13:16:20+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/audacity/68e7e3c4a329a992</id>
+    <title>Playing selected sections of audio?</title>
+    <updated>2026-09-10T12:52:54+00:00</updated>
+    <content>Hi! Overall, getting used to 4, but there are some odd quirks that have me wondering if I’m just doing it wrong? Previously, when highlighting a selected section and hitting play, it would play that section. Now it goes back to whatever you previous start point was. Is there a different way to play a selection? Somewhat similarly, when making a cut, instead of that being the new play point, it still goes back to where ever you started before. Kind of annoying. Not a dealbreaker, but certainly a </content>
+    <link href="https://forum.audacityteam.org/t/playing-selected-sections-of-audio/154034" rel="alternate"/>
+    <category term="Audacity Forum" label="Audacity Forum"/>
+    <published>2026-09-10T12:52:54+00:00</published>
+    <media:group>
+      <media:content url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png"/>
+    </media:group>
+    <dc:creator>Audacity Forum</dc:creator>
+    <link rel="enclosure" href="https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/audacity/99cfb2ceabf7dbb3</id>
     <title>When will there be a feature complete Audacity 4 release?</title>
     <updated>2026-09-10T11:30:12+00:00</updated>
-    <content>I know that muse group advertise Audacity 4.0 as a “release version”, but by standard terminology it is clearly a beta release. When will there be a feature complete and QA tested Audacity 4 release? 1 post - 1 participant Read full topic</content>
+    <content>I know that muse group advertise Audacity 4.0 as a “release version”, but by standard terminology it is clearly a beta release. When will there be a feature complete, QA tested Audacity 4 release? 1 post - 1 participant Read full topic</content>
     <link href="https://forum.audacityteam.org/t/when-will-there-be-a-feature-complete-audacity-4-release/154031" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-10T11:30:12+00:00</published>
@@ -61,7 +136,7 @@
     <id>tag:trvny.github.io,2024:feedseek/audacity/062048690af9655d</id>
     <title>Issues With Audacity 4</title>
     <updated>2026-09-10T07:32:23+00:00</updated>
-    <content>Hitting ‘End’ or ‘Home’ does not take the slider to beginning or end of clip. Haven’t tried any more of 4 as that’s one of my most used needs, can’t use 4 until that’s fixed 1 post - 1 participant Read full topic</content>
+    <content>Hitting ‘End’ or ‘Home’ does not take the slider to beginning or end of clip. Haven’t tried any more of 4 as that’s one of my most used needs, can’t use 4 until that’s fixed 3 posts - 3 participants Read full topic</content>
     <link href="https://forum.audacityteam.org/t/issues-with-audacity-4/154026" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-10T07:32:23+00:00</published>
@@ -496,7 +571,7 @@
     <id>tag:trvny.github.io,2024:feedseek/audacity/99392a46cc135d14</id>
     <title>Can't Load m4a files as I did in 3.X</title>
     <updated>2026-09-08T01:22:34+00:00</updated>
-    <content>I use m4a files all the time, and A4 is not accepting them. Can’t use A4 until I figure this out. Thank you. 3 posts - 2 participants Read full topic</content>
+    <content>I use m4a files all the time, and A4 is not accepting them. Can’t use A4 until I figure this out. Thank you. 4 posts - 3 participants Read full topic</content>
     <link href="https://forum.audacityteam.org/t/cant-load-m4a-files-as-i-did-in-3-x/153980" rel="alternate"/>
     <category term="Audacity Forum" label="Audacity Forum"/>
     <published>2026-09-08T01:22:34+00:00</published>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T11:46:46.519833+00:00",
+  "last_updated": "2026-09-10T16:40:43.276342+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -6997,6 +6997,33 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/b7a83493258d9dcb"
     },
     {
+      "title": "Insights-client updates standardize RHEL package management",
+      "link": "https://www.redhat.com/en/blog/insights-client-updates-rhel-package-management",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "If you manage Red Hat Enterprise Linux (RHEL) systems connected to Red Hat Lightspeed, you're likely familiar with insights-client, the tool responsible for reading system information and reporting it to Red Hat Lightspeed's hosted services.Starting with RHEL 9.8 and RHEL 10.2, Red Hat is changing how insights-core, one of the components of insights-client, delivers its updates. The change gives system administrators more control and predictability, with a delivery mechanism they already know an",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/ef2df796bcc87c21"
+    },
+    {
+      "title": "Closing the loop: From network policy intent to verified reality",
+      "link": "https://www.redhat.com/en/blog/closing-loop-network-policy-intent-verified-reality",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Part 3 of a series on implementing zero trust security in Red Hat OpenShift with the layered zero trust validated pattern.Kubernetes NetworkPolicies are one of the most powerful—and most misunderstood—security primitives available to platform engineers. They declare intent: \"This pod should only accept connections on port 8443 from the ingress namespace.\" But declaring intent is not the same as verifying that it works as intended.In the 1st article in this series, we argued that network policies",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/19150e99972b408f"
+    },
+    {
+      "title": "Build a compliance assistant with AutoRAG and Red Hat OpenShift AI",
+      "link": "https://www.redhat.com/en/blog/build-compliance-assistant-autorag-and-red-hat-openshift-ai",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "If you run AI platforms for a bank, an insurer, or anyone else living under a stack of regulations, you already know the use case everyone asks for first: let our compliance and risk teams ask questions against our own policy documents and get an answer they can trust, with a citation they can check.Retrieval-augmented generation (RAG) is the right tool for that job. When a question is asked, instead of answering from memory, the model looks the answer up in your documents and includes a citatio",
+      "source": "Red Hat Blog",
+      "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/d624c61328d2bc34"
+    },
+    {
       "title": "RHSA-2026:66180: Important: kernel security, bug fix, and enhancement update",
       "link": "https://access.redhat.com/errata/RHSA-2026:66180",
       "date": "2026-09-10T00:39:23+00:00",
@@ -7097,6 +7124,16 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0ab90c3add0004bc"
     },
     {
+      "title": "RHSA-2026:66349: Important: freerdp security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66349",
+      "date": "2026-09-10T09:20:24+00:00",
+      "description": "An update for freerdp is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/2c74a182458fad56"
+    },
+    {
       "title": "RHSA-2026:66341: Moderate: apr-util security update",
       "link": "https://access.redhat.com/errata/RHSA-2026:66341",
       "date": "2026-09-10T09:20:59+00:00",
@@ -7107,6 +7144,36 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/229f58d7d9eb4d31"
     },
     {
+      "title": "RHSA-2026:66348: Important: vim security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66348",
+      "date": "2026-09-10T09:27:09+00:00",
+      "description": "An update for vim is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/68305e88b323cd3f"
+    },
+    {
+      "title": "RHSA-2026:66381: Important: RHEL AI 3.6 RPM runtime CVE fix - ffmpeg",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66381",
+      "date": "2026-09-10T10:04:14+00:00",
+      "description": "AIPCC Security Alerts identified CVEs in the 3.6 release of base-images. The\nCVE(s) are listed with a severity level of \"Important\" or higher.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/692fd3609de31ad0"
+    },
+    {
+      "title": "RHSA-2026:66355: Important: kernel security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66355",
+      "date": "2026-09-10T11:08:29+00:00",
+      "description": "An update for kernel is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/b0ac05171b914484"
+    },
+    {
       "title": "RHSA-2026:66347: Important: freerdp security update",
       "link": "https://access.redhat.com/errata/RHSA-2026:66347",
       "date": "2026-09-10T11:24:09+00:00",
@@ -7115,6 +7182,97 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/ce6f54dece3f7a7b"
+    },
+    {
+      "title": "RHSA-2026:66364: Important: git-lfs security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66364",
+      "date": "2026-09-10T12:24:19+00:00",
+      "description": "An update for git-lfs is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/6105285880ce241f"
+    },
+    {
+      "title": "From token consumer to token provider: Building your org's AI API",
+      "link": "https://developers.redhat.com/articles/2026/09/10/from-token-consumer-to-token-provider-building-your-orgs-ai-api",
+      "date": "2026-09-10T13:01:50+00:00",
+      "description": "One of the biggest problems with AI right now is that it's expensive. If you've been anywhere near an enterprise IT budget in the last 2 years, then you already know that. Most companies that wanted to get AI into their workflows did the same thing: They signed up for a business account with an AI provider, handed out API keys, and started building. It made sense at the time because the models were good, the APIs were simple, and the alternative was standing up your own inference infrastructure,",
+      "source": "Red Hat Developer",
+      "image": "https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo",
+      "image_width": 1200,
+      "image_height": 627,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/295684f3e8da85dd"
+    },
+    {
+      "title": "RHSA-2026:66401: Important: Red Hat OpenStack Platform 17.1 security and bug fix advisory",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66401",
+      "date": "2026-09-10T13:04:25+00:00",
+      "description": "Updated packages that resolve various issues are now available for Red Hat OpenStack Platform 17.1 (Wallaby) for Red Hat Enterprise Linux (RHEL) 9.2.\n\nRed Hat Product Security has rated this update as having a security impact\nof Important. A Common Vulnerability Scoring System (CVSS) base score,\nwhich gives a detailed severity rating, is available for each vulnerability\nfrom the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0de64dbe59894d37"
+    },
+    {
+      "title": "RHSA-2026:66392: Moderate: apr-util security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66392",
+      "date": "2026-09-10T13:16:29+00:00",
+      "description": "An update for apr-util is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/f27790dfe2a90015"
+    },
+    {
+      "title": "RHSA-2026:66366: Important: vim security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66366",
+      "date": "2026-09-10T13:18:14+00:00",
+      "description": "An update for vim is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/19b0856a1d39ba4f"
+    },
+    {
+      "title": "RHSA-2026:66406: Important: gstreamer1-plugins-bad-free security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66406",
+      "date": "2026-09-10T14:03:55+00:00",
+      "description": "An update for gstreamer1-plugins-bad-free is now available for Red Hat Enterprise Linux 8.6 Advanced Mission Critical Update Support and Red Hat Enterprise Linux 8.6 Extended Update Support Long-Life Add-On.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/085ea8e2a2e22433"
+    },
+    {
+      "title": "RHSA-2026:66405: Important: rsyslog security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66405",
+      "date": "2026-09-10T14:09:45+00:00",
+      "description": "An update for rsyslog is now available for Red Hat Enterprise Linux 10.0 Extended Update Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/eb4156cb2a3b1f44"
+    },
+    {
+      "title": "RHSA-2026:66407: Important: gstreamer1-plugins-bad-free security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66407",
+      "date": "2026-09-10T14:10:25+00:00",
+      "description": "An update for gstreamer1-plugins-bad-free is now available for Red Hat Enterprise Linux 9.4 Update Services for SAP Solutions.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/c4f6da5cdb712ce9"
+    },
+    {
+      "title": "RHSA-2026:66403: Moderate: coreutils security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66403",
+      "date": "2026-09-10T14:36:35+00:00",
+      "description": "An update for coreutils is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/5a94f362e4104dca"
     }
   ]
 }
