@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://support.microsoft.com/en-us/windows</id>
   <title>Microsoft Updates</title>
-  <updated>2026-09-10T16:40:24.867475+00:00</updated>
+  <updated>2026-09-10T21:10:00.043128+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://support.microsoft.com/favicon.ico</icon>
   <logo>https://support.microsoft.com/favicon.ico</logo>
   <subtitle>Windows 11/10 update histories, the Windows message center, Office Current Channel, Outlook (new/Mobile), Office Deployment Tool, and Microsoft 365 Copilot release notes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/35bceaf17cddf25a</id>
+    <title>Windows Office Hours: September 17, 2026</title>
+    <updated>2026-09-10T10:00:00+00:00</updated>
+    <content>If you are an IT admin with questions about managing and updating Windows, we want to help. Every third Thursday of the month, we host a live chat-based event on the Tech Community called Windows Office Hours. Members of the Windows, Microsoft Intune, Windows Autopilot, Windows Autopatch, and Windows 365 engineering teams will be standing by to answer your questions.</content>
+    <link href="https://techcommunity.microsoft.com/event/windowsevents/windows-office-hours-september-17-2026/4529255" rel="alternate"/>
+    <category term="Windows message center" label="Windows message center"/>
+    <published>2026-09-10T10:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTI5MjU1LWhXYngwdA?revision=1" type="image/jpeg" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTI5MjU1LWhXYngwdA?revision=1" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Windows message center</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTI5MjU1LWhXYngwdA?revision=1" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/ae2e9edba6f67b23</id>
     <title>IT resources to plan, prepare, and deploy Windows</title>
@@ -1341,21 +1356,6 @@
     </media:group>
     <dc:creator>Microsoft 365 Copilot release notes</dc:creator>
     <link rel="enclosure" href="https://learn.microsoft.com/en-us/media/open-graph-image.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/cbbd58041d31df9d</id>
-    <title>Windows news you can use: May 2026 recap</title>
-    <updated>2026-06-01T16:00:00+00:00</updated>
-    <content>In this month’s edition of Windows news you can use, we’re highlighting updates designed to streamline patching, improve Secure Boot visibility, and simplify cloud management across your Windows environment. Catch up on hotpatch updates now enabled by default for organizations using Windows Autopatch through Microsoft Intune or the Windows updates API, along with expanded hotpatch availability for Windows Server 2025 via Azure Arc at no additional cost. You’ll also find improved Secure Boot visi</content>
-    <link href="https://aka.ms/WindowsNewsYouCanUse/May2026" rel="alternate"/>
-    <category term="Windows message center" label="Windows message center"/>
-    <published>2026-06-01T16:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE2MzUzLUZnNDVXNA?revision=2" type="image/jpeg" medium="image" height="1080" width="1920"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE2MzUzLUZnNDVXNA?revision=2" height="1080" width="1920"/>
-    </media:group>
-    <dc:creator>Windows message center</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTE2MzUzLUZnNDVXNA?revision=2" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft_updates/7a134e1b5e7076b0</id>

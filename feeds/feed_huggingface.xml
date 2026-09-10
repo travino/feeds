@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-10T16:39:49.761787+00:00</updated>
+  <updated>2026-09-10T21:09:26.934596+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/b0ded10a31b341a5</id>
+    <title>I've been gradually recaptioning aged text-to-image datasets with better vision models! These datasets are also repackaged into the more modern webshart format (</title>
+    <updated>2026-09-10T21:09:25.975623+00:00</updated>
+    <content>I've been gradually recaptioning aged text-to-image datasets with better vision models! These datasets are also repackaged into the more modern webshart format ( https://github.com/bghira/webshart ) which includes built-in aspect bucketing and caption delivery. The first two datasets are ready for use! - webshart/terminusresearch-photo-anatomy - webshart/terminusresearch-photo-aesthetics "anatomy" is a bunch of human-centric images containing people holding or otherwise interacting with objects or positioned in complex ways. "aesthetics" is a collection of visually striking images - high contrast, diverse colouration, and cinematic framing (among other factors). These two datasets from 2023 </content>
+    <link href="https://huggingface.co/posts/bghira/510789724527926" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-10T21:09:25.975623+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/bghira/510789724527926.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/bghira/510789724527926.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/bghira/510789724527926.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/7cf1c2ec554bda2a</id>
     <title>📣 HF Viewer now has a HF space! 🤗</title>

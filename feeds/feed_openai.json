@@ -44,6 +44,24 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/016c3ec9b775a98e",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "title": "Introducing ChatGPT for Financial Services",
+      "content_text": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "date_published": "2026-09-10T07:00:00Z",
+      "date_modified": "2026-09-10T07:00:00Z",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&h=900&fit=fill",
+      "tags": [
+        "OpenAI News"
+      ],
+      "attachments": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&h=900&fit=fill",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/openai/1ef5285e671d0ace",
       "url": "https://openai.com/index/expanding-ai-access-us-government",
       "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
@@ -57,6 +75,168 @@
       "attachments": [
         {
           "url": "https://images.ctfassets.net/kftzwdyauwt9/1DEaAuLURNi6NKQiYOfhud/fcd14224030f0310a9a5d54ffa165f14/government-blog-seo-option-051-final-1920x1080.png?w=1600&h=900&fit=fill",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/e1a658eb98e8c9c5",
+      "url": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-gpt-live-1-is-now-generally-available",
+      "title": "Feature: GPT-Live 1 is now generally available in the API.",
+      "content_text": "GPT-Live 1 is now generally available in the API. Build full-duplex voice conversations that can continue while a backend model or agent handles reasoning and tools. Use Responses delegation with an OpenAI model, or client delegation to connect your own backend. Voice sessions cost $0.05 per minute, billed per second; backend model and tool usage is charged separately. Start with GPT-Live , prompting , and migration guidance . See pricing for details.",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "tags": [
+        "API changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.openai.com/og/api/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/80e647757c711140",
+      "url": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-released-the-agents-api-in-public",
+      "title": "Feature: Released the Agents API in public beta.",
+      "content_text": "Released the Agents API in public beta. Build agents with a managed Codex harness while OpenAI handles session orchestration, context compaction, and recovery. Use durable sessions to continue work across turns, stream progress, and connect your own tools and MCP servers. Run agents in OpenAI-hosted sandboxes or connect a sandbox from your own infrastructure or a supported provider. Start with the Agents API quickstart .",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "tags": [
+        "API changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.openai.com/og/api/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/d26c2c9287163b29",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes#chatgpt-2026-09-10-box-dropbox-and-sharepoint-are-now-in-library-9edbdcdf",
+      "title": "Box, Dropbox, and SharePoint are now in Library",
+      "content_text": "Box, Dropbox, and SharePoint now join Google Drive in ChatGPT Library. Once connected, you can browse and search available files and folders, then add the files you need to a conversation through Add from Library or @mentions—without uploading them again. You can review supported file previews beside the conversation and follow citations back to the source as you work. When you’re working with a file, you can now keep Box, Dropbox, and Sharepoint files open beside the conversation while asking C",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://help.openai.com/og-image.png",
+      "tags": [
+        "ChatGPT release notes"
+      ],
+      "attachments": [
+        {
+          "url": "https://help.openai.com/og-image.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/1d807702f5c41abd",
+      "url": "https://learn.chatgpt.com/docs/changelog#github-release-386594900",
+      "title": "Codex CLI Cygwin build inputs and matching source for Windows voice",
+      "content_text": "$ npm install -g @openai/codex@voice-cygwin-108b38cf67cbb731 View details CI-only build tools for native Windows voice releases. These archives are not included in Codex user packages. cygwin-build-inputs.tar.gz : 103 pinned Cygwin binary packages and the signed package index used by the offline build installer. cygwin-build-sources.tar : all 83 corresponding source package archives at the exact versions named by that index. It includes the upstream source, patches, and build recipes provided in",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "tags": [
+        "ChatGPT changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/b1f64d9bff0f8367",
+      "url": "https://learn.chatgpt.com/docs/changelog#github-release-386577294",
+      "title": "Codex CLI Python SDK 0.154.0",
+      "content_text": "$ npm install -g @openai/codex@0.154.0 View details Install with pip install --upgrade openai-codex==0.154.0 (Python 3.10 or later). This release includes the matching openai-codex-cli-bin==0.154.0 runtime. Add max and ultra reasoning-effort values. #39662 Add ExternalMessage to synchronous and asynchronous run() and turn() calls. External content can start a turn or join an active regular turn with tool-level authority; it does not grant user authorization. Consumers receive independent event s",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "tags": [
+        "ChatGPT changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/db7e00678d9e35ca",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-386594900",
+      "title": "Codex CLI Release: Cygwin build inputs and matching source for Windows voice",
+      "content_text": "Cygwin build inputs and matching source for Windows voice",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "tags": [
+        "OpenAI Codex"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/4ba6831cd4c71e1b",
+      "url": "https://developers.openai.com/codex/changelog/#github-release-386577294",
+      "title": "Codex CLI Release: Python SDK 0.154.0",
+      "content_text": "Python SDK 0.154.0",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "tags": [
+        "OpenAI Codex"
+      ],
+      "attachments": [
+        {
+          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/2b26a8066576cc98",
+      "url": "https://openai.com/index/introducing-the-agents-api",
+      "title": "Introducing the Agents API",
+      "content_text": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/430gA5qBJZHD8Dd4uGmm6J/f91d9df145eab0f0f981f60958026813/og-image.png?w=1600&h=900&fit=fill",
+      "tags": [
+        "OpenAI News"
+      ],
+      "attachments": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/430gA5qBJZHD8Dd4uGmm6J/f91d9df145eab0f0f981f60958026813/og-image.png?w=1600&h=900&fit=fill",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/4e410dad70fb9298",
+      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "content_text": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png?w=1600&h=900&fit=fill",
+      "tags": [
+        "OpenAI News"
+      ],
+      "attachments": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png?w=1600&h=900&fit=fill",
           "mime_type": "image/png"
         }
       ]
@@ -3360,186 +3540,6 @@
       "content_text": "$ npm install -g @openai/codex@0.147.0 View details New Features Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. ( #36544 , #36409 , #36919 , #36796 ) Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. ( #35722 , #36007 , #36380 , #36948 , #36950 ) Enable automatically reviewed approvals with the new --approve-for-me CLI flag. ( #36373 ) Import Cursor-managed skills and synchronize",
       "date_published": "2026-08-07T00:00:00Z",
       "date_modified": "2026-08-07T00:00:00Z",
-      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
-      "tags": [
-        "ChatGPT changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/6aca8f35a118a537",
-      "url": "https://developers.openai.com/codex/changelog/#github-release-366471016",
-      "title": "Codex CLI Release: 0.147.0",
-      "content_text": "0.147.0",
-      "date_published": "2026-08-07T00:00:00Z",
-      "date_modified": "2026-08-07T00:00:00Z",
-      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
-      "tags": [
-        "OpenAI Codex"
-      ],
-      "attachments": [
-        {
-          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/0f0c1961f93e8e0c",
-      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "content_text": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "date_published": "2026-08-06T10:00:00Z",
-      "date_modified": "2026-08-06T10:00:00Z",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/5ufNl1zzui8XrAogWs5j89/13fdcb619e5f1e31a3efd34f425477ac/Art_Card_16x9__1_.png?w=1600&h=900&fit=fill",
-      "tags": [
-        "OpenAI News"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.ctfassets.net/kftzwdyauwt9/5ufNl1zzui8XrAogWs5j89/13fdcb619e5f1e31a3efd34f425477ac/Art_Card_16x9__1_.png?w=1600&h=900&fit=fill",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/6da5f2d271da214d",
-      "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "title": "Working with the American Psychological Association on youth mental health and AI",
-      "content_text": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-      "date_published": "2026-08-06T06:00:00Z",
-      "date_modified": "2026-08-06T06:00:00Z",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
-      "tags": [
-        "OpenAI News"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.ctfassets.net/kftzwdyauwt9/6CQ3mqxKiApPHF2wTXSybs/5e0f83d5d5817dbac9b7e7f440e692ed/openai-and-apa-advance-responsible-ai-for-youth-16_9.png?w=1600&h=900&fit=fill",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/39f4c864888e99e6",
-      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes#chatgpt-2026-08-06-updates-to-gpt-5-6-in-chatgpt-2499e961",
-      "title": "Updates to GPT‑5.6 in ChatGPT",
-      "content_text": "Plus and Pro users can now use an updated GPT‑5.6 Sol in ChatGPT with more reliable facts, more focused answers, and a new slider to choose how much thought ChatGPT puts into a response. GPT‑5.6 Luna will become the default model for Free and Go users this week. Starting next week, they’ll also have unlimited text chats and access to a new Think button for harder questions (subject to abuse guardrails). Limits will still apply for file uploads, images and other tools. This release applies to the",
-      "date_published": "2026-08-06T00:00:00Z",
-      "date_modified": "2026-08-06T00:00:00Z",
-      "image": "https://help.openai.com/og-image.png",
-      "tags": [
-        "ChatGPT release notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://help.openai.com/og-image.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/645462494aa561fc",
-      "url": "https://openai.com/products/release-notes#CL-20260806-APIP-396",
-      "title": "Updated chat-latest snapshot for GPT-5.6",
-      "content_text": "Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus and Pro users. We recommend leveraging GPT-5.6 Sol for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated.",
-      "date_published": "2026-08-06T00:00:00Z",
-      "date_modified": "2026-08-06T00:00:00Z",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
-      "tags": [
-        "OpenAI Release notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/75cb6f13b7ef7636",
-      "url": "https://developers.openai.com/api/docs/changelog#api-2026-08-06-updated-the-chat-latest-snapshot-which-points",
-      "title": "Update: Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus and Pro us...",
-      "content_text": "Updated the chat-latest snapshot, which points to the latest model available in ChatGPT for Plus and Pro users. We recommend leveraging GPT-5.6 Sol for production API usage, but feel free to use this model to test the latest improvements for chat use cases. The underlying model snapshot will be regularly updated. Read more here .",
-      "date_published": "2026-08-06T00:00:00Z",
-      "date_modified": "2026-08-06T00:00:00Z",
-      "image": "https://developers.openai.com/og/api/docs/changelog.png",
-      "tags": [
-        "API changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.openai.com/og/api/docs/changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/fea9ae47ebf2b0f0",
-      "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "content_text": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "date_published": "2026-08-06T00:00:00Z",
-      "date_modified": "2026-08-06T00:00:00Z",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/5qbXuYJxwp7q4YnQENtCCP/0d1dd2519af8128544b23560c7fd7dca/SEO_Card__10_.png?w=1600&h=900&fit=fill",
-      "tags": [
-        "OpenAI News"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.ctfassets.net/kftzwdyauwt9/5qbXuYJxwp7q4YnQENtCCP/0d1dd2519af8128544b23560c7fd7dca/SEO_Card__10_.png?w=1600&h=900&fit=fill",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/c687b132221d44ba",
-      "url": "https://openai.com/products/release-notes#CL-20260805-APIP-392",
-      "title": "Fast mode supports long-context requests for GPT-5.6",
-      "content_text": "Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in Fast mode, delivering speeds up to 2.5× faster than the Standard tier.",
-      "date_published": "2026-08-05T00:00:00Z",
-      "date_modified": "2026-08-05T00:00:00Z",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
-      "tags": [
-        "OpenAI Release notes"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/c263a8343bd19a89",
-      "url": "https://developers.openai.com/api/docs/changelog#api-2026-08-05-fast-mode-now-supports-long-context-requests",
-      "title": "Update: Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna.",
-      "content_text": "Fast mode now supports long-context requests for GPT-5.6 Sol, GPT-5.6 Terra, and GPT-5.6 Luna. As of today, long-context prompts exceeding 272K tokens can run in Fast mode , delivering speeds up to 2.5× faster than the Standard tier. See pricing details .",
-      "date_published": "2026-08-05T00:00:00Z",
-      "date_modified": "2026-08-05T00:00:00Z",
-      "image": "https://developers.openai.com/og/api/docs/changelog.png",
-      "tags": [
-        "API changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.openai.com/og/api/docs/changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/4f7f94327ef50957",
-      "url": "https://learn.chatgpt.com/docs/changelog#github-release-365644216",
-      "title": "Codex CLI 0.146.1",
-      "content_text": "$ npm install -g @openai/codex@0.146.1 View details Bug Fixes Apply safer automatic-review defaults for cyber-capable models and explain permission changes in the terminal interface. ( #37057 ) Changelog Full Changelog: rust-v0.146.0...rust-v0.146.1 #37057 [0.146] Backport safer cyber-model auto-review defaults @anp-oai Full release on Github",
-      "date_published": "2026-08-05T00:00:00Z",
-      "date_modified": "2026-08-05T00:00:00Z",
       "image": "https://learn.chatgpt.com/og/docs/changelog.png",
       "tags": [
         "ChatGPT changelog"

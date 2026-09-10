@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T16:38:41.198511+00:00",
+  "last_updated": "2026-09-10T21:08:31.400445+00:00",
   "entries": [
     {
       "title": "Audacity 3.3",
@@ -1206,7 +1206,7 @@
       "title": "Deleting and merging tracks",
       "link": "https://forum.audacityteam.org/t/deleting-and-merging-tracks/154038",
       "date": "2026-09-10T14:50:59+00:00",
-      "description": "I use Audacity for creating soundfiles for audio journalism. (Remember radio?) Here’s my simple conundrum: I have a voice track. I want to delete a portion of the interview and merge the remaining two tracks into one. I want to remove the vertical black line! I used to be able to go to Tracks, mix and render. But in Audacity 4, there is no mix and render command–all you can do is add whole new tracks. Anybody have an answer? There’s gotta be a solution! many thanks from John in Texas 1 post - 1 ",
+      "description": "I use Audacity for creating soundfiles for audio journalism. (Remember radio?) Here’s my simple conundrum: I have a voice track. I want to delete a portion of the interview and merge the remaining two tracks into one. I want to remove the vertical black line! I used to be able to go to Tracks, mix and render. But in Audacity 4, there is no mix and render command–all you can do is add whole new tracks. Anybody have an answer? There’s gotta be a solution! many thanks from John in Texas 2 posts - 2",
       "source": "Audacity Forum",
       "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/01dcdaaef477d396"
@@ -1215,10 +1215,46 @@
       "title": "Audacity 4 auto noise reduction",
       "link": "https://forum.audacityteam.org/t/audacity-4-auto-noise-reduction/154040",
       "date": "2026-09-10T16:38:27+00:00",
-      "description": "There’s an improvement in general quality when recording with 4.0, it seems like a general noise reduction is applied or noise is automatically filtered out while recording. Are there any options/plugins people would recommend to achieve this same automatic effect? It’s the only reason I currently have to use 4.0 over 3 currently and I really just want to stick with 3 until all the teething issues with 4 are sorted. Might be a silly question but would appreciate if someone would enlighten me 1 p",
+      "description": "There’s an improvement in general quality when recording with 4.0, it seems like a general noise reduction is applied or noise is automatically filtered out while recording. Are there any options/plugins people would recommend to achieve this same automatic effect? It’s the only reason I currently have to use 4.0 over 3 currently and I really just want to stick with 3 until all the teething issues with 4 are sorted. Might be a silly question but would appreciate if someone would enlighten me 4 p",
       "source": "Audacity Forum",
       "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/b5cdb49aa3cd8862"
+    },
+    {
+      "title": "Audacity 4.0 crashes when Bluetooth headphones are connected",
+      "link": "https://forum.audacityteam.org/t/audacity-4-0-crashes-when-bluetooth-headphones-are-connected/154041",
+      "date": "2026-09-10T16:45:25+00:00",
+      "description": "I have found a reproducible crash when using Bluetooth headphones with Audacity 4.0 on Windows 11. System: Windows 11 (fully updated) Audacity 4.0 Bluetooth and device drivers fully updated Problem: When Audacity 4.0 is running and I pair/connect my Bluetooth headphones, Audacity immediately crashes without any error message. Switching from the internal speakers to wired headphones works normally and Audacity correctly changes the playback device. The important comparison is: Audacity 4.0 + inte",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/8e01cc245bc41f10"
+    },
+    {
+      "title": "Playing Exported CDs",
+      "link": "https://forum.audacityteam.org/t/playing-exported-cds/154045",
+      "date": "2026-09-10T19:29:01+00:00",
+      "description": "I exported the mp3 track recorded from an LP and burned it to a cd. My CD player plays the track but I am not able to use the CD player’s functions to skip songs. Is there an editing tool to insert a trigger for individual songs into the track before burning? 2 posts - 2 participants Read full topic",
+      "source": "Audacity Forum",
+      "image": "https://forum.audacityteam.org/uploads/default/original/1X/81a69b20bcd548215067cfaceccc8a10bfa2d176.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/88918c9d948df390"
+    },
+    {
+      "title": "PIXIE Toy Piano",
+      "link": "https://www.musehub.com/pl-pl/plugin/pixie-toy-piano-700",
+      "date": "2026-09-10T21:08:11.818304+00:00",
+      "description": "PIXIE Toy Piano",
+      "source": "MuseHub New Products",
+      "image": "https://production-v2.muse-cdn.com/cdn-cgi/image/w=384,q=50,f=webp,onerror=redirect/effect-icon-images/60d5ca3c-a230-4df7-adeb-8bbca534bd4c.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/008f2bc3f8162df0"
+    },
+    {
+      "title": "VT-Mini",
+      "link": "https://www.musehub.com/pl-pl/plugin/vt-mini",
+      "date": "2026-09-10T21:08:12.818254+00:00",
+      "description": "VT-Mini",
+      "source": "MuseHub New Products",
+      "image": "https://production-v2.muse-cdn.com/cdn-cgi/image/w=384,q=50,f=webp,onerror=redirect/effect-icon-images/f12623e1-9925-4149-81d9-0c133da7cbfe.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/audacity/327c2d3f4256fa7a"
     }
   ]
 }

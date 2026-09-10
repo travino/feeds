@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T16:39:35.328258+00:00",
+  "last_updated": "2026-09-10T21:09:12.703857+00:00",
   "entries": [
     {
       "title": "sharebox: a FUSE filesystem for git-annex",
@@ -8470,6 +8470,17 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/github/083ea3496f539ca5"
     },
     {
+      "title": "npm extends recovery-code security holds to all accounts",
+      "link": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+      "date": "2026-09-09T21:55:55+00:00",
+      "description": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The GitHub Blog .",
+      "source": "GitHub Changelog",
+      "image": "https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg",
+      "image_width": 2400,
+      "image_height": 1260,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/github/a9d91b734c154097"
+    },
+    {
       "title": "Agent of the Day – September 10, 2026",
       "link": "https://github.github.com/gh-aw/blog/2026-09-10-agent-of-the-day/",
       "date": "2026-09-10T00:00:00+00:00",
@@ -8555,6 +8566,39 @@
       "image_width": 1200,
       "image_height": 630,
       "entry_id": "tag:trvny.github.io,2024:feedseek/github/61aac319f1d5a6e9"
+    },
+    {
+      "title": "MAI-Code-1-Flash deprecated",
+      "link": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "date": "2026-09-10T16:54:01+00:00",
+      "description": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative… The post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog .",
+      "source": "GitHub Changelog",
+      "image": "https://github.blog/wp-content/uploads/2026/09/632066774-057daa33-368c-4869-9834-65c8df8616ef.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/github/1eb78558aa2ab96b"
+    },
+    {
+      "title": "Control GitHub Actions cache access with cache-mode",
+      "link": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+      "date": "2026-09-10T17:26:59+00:00",
+      "description": "You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access… The post Control GitHub Actions cache access with cache-mode appeared first on The GitHub Blog .",
+      "source": "GitHub Changelog",
+      "image": "https://github.blog/wp-content/uploads/2026/09/648241531-f630780a-89c2-4200-9450-e9318826a685.jpg",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/github/4997b35dbc97f37f"
+    },
+    {
+      "title": "AI Scan for pull request APIs in public preview",
+      "link": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "date": "2026-09-10T20:20:58+00:00",
+      "description": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic… The post AI Scan for pull request APIs in public preview appeared first on The GitHub Blog .",
+      "source": "GitHub Changelog",
+      "image": "https://github.blog/wp-content/uploads/2026/09/648518234-67f13b9f-d37b-45e3-816a-0700e4762f1b.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/github/4aaaad58edea75e7"
     }
   ]
 }

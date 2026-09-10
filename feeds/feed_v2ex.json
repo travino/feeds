@@ -8,6 +8,75 @@
   "icon": "https://www.v2ex.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/63c9ec305615a586",
+      "url": "https://www.v2ex.com/t/1241190#reply1",
+      "title": "把你写的故事变成有声音的动画短片： C2Anime",
+      "content_text": "你有没有写过一个故事，想看看里面的人物真正动起来？ C2Anime 可以把故事、小说片段和脑海里的创意变成有画面、有对白、有声音的动画短片。可以做自己的原创故事，也可以把喜欢的经典短篇改编成动画，分享给朋友或发布到社交平台。没有动画制作经验，也能尝试把文字变成作品。 首页可以直接看完整成片：《最后一片叶子》《猴爪》《敞开的窗户》，还有一些 30 多秒的原创小故事。先看看效果，再想想你最想拍哪个故事。 看看成片： https://c2anime.com/?utm_source=v2ex&utm_medium=community&utm_campaign=launch_sep2026 样片可免费观看，制作视频按积分收费。欢迎来玩，也想看看大家会用它讲出什么故事。",
+      "date_published": "2026-09-10T18:32:22Z",
+      "date_modified": "2026-09-10T18:32:22Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/gravatar/1a7cf780d214c7ba0da968811ad50161?s=73&d=retro",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/gravatar/1a7cf780d214c7ba0da968811ad50161?s=73&d=retro",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/bfc6c69789728416",
+      "url": "https://www.v2ex.com/t/1241189#reply0",
+      "title": "AI 私人宠物医生",
+      "content_text": "先发链接： https://agent.pet-pedia.org/zh 作为一个猫奴，家里有三只猫，每次猫生病或者遇到问题时我想大部分人跟我一样，没办法第一时间前往宠物医院，所以会选择咨询 AI 。但是在这个过程中，我总会遇到以下问题: 1.我每次都需要把猫咪的状态重新描述一次，特别是当我的猫有慢性疾病，反复症状，术后恢复等情况时，都需要反复的描述前因后果，因为通用的 AI 模型无法记忆那么长的前因后果和上下文。 2.AI 每次给我的回答都不一样，我无法准确的判断应该如何关照我的宠物 3.回答不完善，没办法给出准确的建议，而是大部分情况都建议我赶紧去动物医院 我针对这些问题，搞了这个 AI 私人宠物医生，跟通用的 AI 工具相比，私人宠物医生有以下能力： 1.24/7 AI 兽医助理：随时可用，适合半夜、周末、诊所关门时先做初步判断 2.会记住宠物，可以通过建立宠物健康档案来结合宠物资料给出精准的连续化建议，物种，品种，年龄，体重，病史，服药情况，过敏情况，检查记录等信息作为档案上下文，无需每次都描述宠物遇到的问题，不是简单的一次性聊天 3.不会瞎诊断，而是基于医院真实逻辑的分诊导览",
+      "date_published": "2026-09-10T18:19:33Z",
+      "date_modified": "2026-09-10T18:19:33Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/83b7/1955/111458_xlarge.png?m=1767332478",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/83b7/1955/111458_xlarge.png?m=1767332478",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/v2ex/fdc7008c8eca78cf",
+      "url": "https://www.v2ex.com/t/1241188#reply0",
+      "title": "开源了一个 GPT Image 2.5 提示词合集：中英双语、原帖和输入要求都整理好了",
+      "content_text": "最近在 X 上找 GPT Image 2.5 的图片案例，经常碰到两个问题：图很好看，但提示词藏在回复里；或者复制了提示词，才发现还要参考图、另一种模型，甚至额外拆帧。 所以整理了这个开源合集： https://github.com/wangrunlin/awesome-gpt-image-2-5-prompts 目前 24 个案例、6 类用途，提供完整的中英文内容，逐条附作者原帖、需要的输入和观察时间。原始英文提示词与编辑改编会分别标注，未知互动数据留空。 几个例子：六色时装广告、咖啡机维修手册风格的剖面图、保持几何结构的产品渲染，以及局部移动台灯。也有精灵图等多步骤工作流，但会明确写出额外工具要求。 这些案例已经核对来源，尚未由我独立生图复测。作者原图和模型声明也与我的编辑说明分开保存。 数据用 JSON 维护，自动生成 README 和双语案例页，方便其他人按分类取用。欢迎提交原帖或指出提示词、署名和输入要求中的问题。 我也在做 Image 2.5 （ https://image-2-5.com ），这个仓库由该项目维护。后续计划共用数据做一个可筛选、复制和使用提示词的站内页面，",
+      "date_published": "2026-09-10T18:15:10Z",
+      "date_modified": "2026-09-10T18:15:10Z",
+      "authors": [
+        {
+          "name": "V2EX Creative"
+        }
+      ],
+      "image": "https://cdn.v2ex.com/avatar/a779/5c34/538020_large.png?m=1785835696",
+      "tags": [
+        "V2EX Creative"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn.v2ex.com/avatar/a779/5c34/538020_large.png?m=1785835696",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/6106c58655f49e66",
       "url": "https://www.v2ex.com/t/1241183#reply0",
       "title": "[开源自荐] 做了个 EgressKit，把 Clash 订阅里的节点变成 HTTP 代理池",
@@ -330,29 +399,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/b207dada963bf05f",
-      "url": "https://www.v2ex.com/t/1241123#reply0",
-      "title": "[#*开源*#] 我的 WordPress 博客多年积累的数据全部丢失了，所以我搭建了 GitPress",
-      "content_text": "以前我用 WordPress 写了大概五六年的个人博客。WordPress 本身其实挺好用的，我真正烦的是它后面的那一整套东西：服务器、数据库、备份、迁移、DNS、续费。以前买服务器经常首年比较便宜，续费就贵不少，所以中间也折腾过几次迁移。每换一次机器，就得重新搬数据库、文件、配置，然后再改 DNS。 后来有一次我忘记续费，也没有提前迁移，几年的博客数据就这么没了。 这件事之后，我一直想找一种更省心、更长期的方案。 我试过 Hugo 这类静态博客。数据确实简单了，也不太依赖服务器，但另一方面，写博客又变成了 Markdown、Git、命令行、构建、部署。作为开发者当然能搞，但我写博客的时候其实并不想“开发博客”。我还是更喜欢 WordPress 那种感觉：打开后台，写东西，点发布。 后来也用过 Gridea，方向已经比较接近我想要的东西，但本地软件又意味着基本得坐在电脑前写。于是最后干脆自己做了一个：GitPress。 https://gitpress.net GitPress 的想法其实很简单：像 WordPress 一样写，但文章放在你自己的 GitHub 里。 你在 GitPre",
-      "date_published": "2026-09-10T10:33:16Z",
-      "date_modified": "2026-09-10T10:33:16Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://i.imgur.com/NltDwzm.png",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://i.imgur.com/NltDwzm.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/1472c6cac8f2d0aa",
       "url": "https://www.v2ex.com/t/1241121#reply1",
       "title": "还能用的两根羊毛， b.ai 很稳很慢，商汤反复 429",
@@ -399,29 +445,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/319b4c5e3011de76",
-      "url": "https://www.v2ex.com/t/1241116#reply0",
-      "title": "330+ 开源的多款免费在线计算器与单位转换器， MIT 协议",
-      "content_text": "一套使用 Next.js 14 开发，包含 300 多个免费在线计算器与转换器的综合工具集。包括金融、健康、家居与手工、单位转换器、效率工具。 开源地址： https://github.com/PDFCraftTool/OmniTools",
-      "date_published": "2026-09-10T10:10:02Z",
-      "date_modified": "2026-09-10T10:10:02Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://github.com/user-attachments/assets/b6e0fe47-100b-4c0c-b9be-d5e5e40cf45a",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.com/user-attachments/assets/b6e0fe47-100b-4c0c-b9be-d5e5e40cf45a",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/v2ex/20ba5aff05f64d2b",
       "url": "https://www.v2ex.com/t/1241113#reply3",
       "title": "你亏了几个 iPhone duo 了",
@@ -441,29 +464,6 @@
         {
           "url": "https://cdn.v2ex.com/avatar/af79/f518/785860_xlarge.png?m=1775014393",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/v2ex/7c5a7bbc8c92af87",
-      "url": "https://www.v2ex.com/t/1241112#reply0",
-      "title": "做了一个无 WebView 的桌面 GUI 框架 Wabou（SolidJS + Rust + Vello）",
-      "content_text": "项目地址： https://github.com/SunDoge/wabou 背景 当前 Rust GUI 开发现状：Tauri 带着浏览器内核，环境碎片化严重、内存重；纯 Rust GUI （ Iced/egui ）省资源，但写复杂状态和联动极其痛苦，还没有 HMR 。 因此我在尝试一个折中路线：界面用 SolidJS 写，底层的布局和渲染完全交给 Rust 原生，不嵌浏览器。 架构与原理 没有 DOM ，也没有 HTML/CSS 引擎。分工很简单： [SolidJS 2 (TSX) + 业务逻辑]\n         ↓\n    (QuickJS)\n         ↓  二进制 Mutation 协议（微任务末尾批量推送）\n================================\n  Rust 原生运行时\n  - 布局：Taffy (Flexbox/Grid)\n  - 排版：Parley\n  - 绘制：Vello Hybrid / wgpu\n  - 窗口：Winit 逻辑层：跑在内嵌的 QuickJS 里。Solid 的细粒度 Signal 变动只更新具体节点，不需要做任何",
-      "date_published": "2026-09-10T10:06:12Z",
-      "date_modified": "2026-09-10T10:06:12Z",
-      "authors": [
-        {
-          "name": "V2EX Creative"
-        }
-      ],
-      "image": "https://github.com/user-attachments/assets/b0863daf-7255-443e-b8df-d54eb4074c43",
-      "tags": [
-        "V2EX Creative"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.com/user-attachments/assets/b0863daf-7255-443e-b8df-d54eb4074c43",
-          "mime_type": "image/jpeg"
         }
       ]
     },

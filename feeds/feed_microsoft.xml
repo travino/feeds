@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-09-10T16:40:16.741198+00:00</updated>
+  <updated>2026-09-10T21:10:11.367090+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -26,6 +26,65 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_138/release-highlights.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/4997b35dbc97f37f</id>
+    <title>Control GitHub Actions cache access with cache-mode</title>
+    <updated>2026-09-10T17:26:59+00:00</updated>
+    <content>You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access… The post Control GitHub Actions cache access with cache-mode appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T17:26:59+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/648241531-f630780a-89c2-4200-9450-e9318826a685.jpg" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/648241531-f630780a-89c2-4200-9450-e9318826a685.jpg" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/648241531-f630780a-89c2-4200-9450-e9318826a685.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/b9199964d7edfadb</id>
+    <title>XBOX commemorates over 20 years in Japan at Tokyo Game Show 2026</title>
+    <updated>2026-09-10T17:05:03+00:00</updated>
+    <content>The post XBOX commemorates over 20 years in Japan at Tokyo Game Show 2026 appeared first on Source .</content>
+    <link href="https://news.xbox.com/en-us/2026/09/09/xbox-tokyo-game-show-broadcast-announce-2026/" rel="alternate"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-09-10T17:05:03+00:00</published>
+    <media:group>
+      <media:content url="https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/TGS_AnnounceStatic_2026-814e275774b1b96bd7e9.jpg" type="image/jpeg" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/TGS_AnnounceStatic_2026-814e275774b1b96bd7e9.jpg" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Microsoft Source</dc:creator>
+    <link rel="enclosure" href="https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/TGS_AnnounceStatic_2026-814e275774b1b96bd7e9.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/1eb78558aa2ab96b</id>
+    <title>MAI-Code-1-Flash deprecated</title>
+    <updated>2026-09-10T16:54:01+00:00</updated>
+    <content>We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative… The post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T16:54:01+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/632066774-057daa33-368c-4869-9834-65c8df8616ef.jpg" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/632066774-057daa33-368c-4869-9834-65c8df8616ef.jpg" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/632066774-057daa33-368c-4869-9834-65c8df8616ef.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/5d94eeeb0543eb64</id>
+    <title>[Launched] Generally Available: TLS/SSL certificate and end-to-end TLS encryption support for Azure Functions Flex Consumption</title>
+    <updated>2026-09-10T16:12:49+00:00</updated>
+    <content>Azure
+Functions Flex Consumption support for TLS/SSL certificates is now generally
+available through a new site-scoped certificate model. Each function app can
+hold up to 3 private (.pfx) and 3 public (.cer) certificates uploaded directly,
+imported from A...</content>
+    <link href="https://azure.microsoft.com/updates?id=570940" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T16:12:49+00:00</published>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/7393efb776e4c3b2</id>
@@ -58,6 +117,31 @@
     <link rel="enclosure" href="https://www.microsoft.com/en-us/startups/blog/wp-content/uploads/2026/09/Welcount-Blog.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/444771c851c3832c</id>
+    <title>[Launched] Generally Available: Azure Copilot Troubleshooting Agent</title>
+    <updated>2026-09-10T15:25:52+00:00</updated>
+    <content>Azure Copilot Troubleshooting Agent is now generally available. Troubleshooting Agent is a unified, built-in Azure Copilot capability that helps customers investigate and resolve operational issues faster. Available through both Azure Copilot and Support...</content>
+    <link href="https://azure.microsoft.com/updates?id=570980" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T15:25:52+00:00</published>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/61aac319f1d5a6e9</id>
+    <title>Xcode 27 runner image now runs on macOS 27</title>
+    <updated>2026-09-10T15:15:36+00:00</updated>
+    <content>You can now validate your Apple apps against macOS 27 using the Xcode 27 runner image for GitHub-hosted macOS runners, available in public preview. The image previously ran on macOS… The post Xcode 27 runner image now runs on macOS 27 appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T15:15:36+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/610d62e12c2463a9</id>
     <title>What if everything changes tomorrow? A Canadian company is using AI to help businesses navigate supply chain uncertainty</title>
     <updated>2026-09-10T13:08:37+00:00</updated>
@@ -71,6 +155,81 @@
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://sourcecanada.thesourcemediaassets.com/2026/09/apertura-100.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/d458b9429e12c885</id>
+    <title>New in Microsoft Marketplace: Offers published July 30-August 3, 2026</title>
+    <updated>2026-09-10T13:00:00+00:00</updated>
+    <content>Learn about 314 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace AB Sales : AB Sales is an AI-powered sales and CRM solution designed for Microsoft 365 and Teams. It integrates natively with your mailbox and Teams environment and supports AI via model context protocol (MCP) to streamline sales and customer relationship management. ABC Inventory Classificat</content>
+    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-offers-published-july-30-august-3/ba-p/4540405" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/a55502057cfc5edf</id>
+    <title>Ant Media, WeTransact, and IDECSI deliver transactable partner offers in Microsoft Marketplace</title>
+    <updated>2026-09-10T13:00:00+00:00</updated>
+    <content>Microsoft partners like Ant Media, WeTransact, and IDECSI deliver transact-capable offers, which allow you to purchase directly from Microsoft Marketplace. Learn about these offers below: Ant Media Server Enterprise — Live Streaming : Built to run on Microsoft Azure as a self-hosted media server, this solution from Ant Media offers developers, broadcasters, and businesses flexible, scalable live streaming without requiring them to build and manage streaming infrastructure. Ant Media Server Enter</content>
+    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/ant-media-wetransact-and-idecsi-deliver-transactable-partner/ba-p/4540403" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" medium="image" height="519" width="921"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" height="519" width="921"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/4ea819380f5b99ac</id>
+    <title>SharePoint AI page authoring: Select, describe, and refine</title>
+    <updated>2026-09-10T11:32:05+00:00</updated>
+    <content>Creating and refining SharePoint pages is becoming more intuitive. Instead of describing where content lives on the page, authors can now simply select a section or web part and tell Copilot what they want to change. Watch the demo Featured speakers Sara Cummings , Product Manager for AI authoring, Microsoft Vesa Juvonen , Principal Product Manager, Microsoft From describing a location to selecting it Previously, authors described both the content they wanted to change and where it was located o</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-sharepoint-blog/sharepoint-ai-page-authoring-select-describe-and-refine/ba-p/4553193" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T11:32:05+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzMTkzLXFGM3ZBYw?revision=4" type="image/jpeg" medium="image" height="973" width="1729"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzMTkzLXFGM3ZBYw?revision=4" height="973" width="1729"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzMTkzLXFGM3ZBYw?revision=4" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/9e7c82f9d3780f55</id>
+    <title>With the National Football League (NFL) back tonight, love seeing Seattle Seahawks analyst Brian Eayrs and coaches across the league using new Copilot and Excel tools to help with decision making in the booths and on the sidelines.</title>
+    <updated>2026-09-10T02:08:00+00:00</updated>
+    <content>The post With the National Football League (NFL) back tonight, love seeing Seattle Seahawks analyst Brian Eayrs and coaches across the league using new Copilot and Excel tools to help with decision making in the booths and on the sidelines. appeared first on Source .</content>
+    <link href="https://www.linkedin.com/feed/update/urn:li:activity:7503580801335332865/" rel="alternate"/>
+    <category term="Microsoft Source" label="Microsoft Source"/>
+    <published>2026-09-10T02:08:00+00:00</published>
+    <media:group>
+      <media:content url="https://dms.licdn.com/playlist/vid/v2/D5605AQEX9zAMoT8e-g/thumbnail-with-play-button-overlay-high/B56aCIS2tTJUC4-/0/1788993055203?e=2147483647&amp;v=beta&amp;t=r4frh4kWxEa3eowzYPkSbUMb3DIsjbaK3k6En5STi0E" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://dms.licdn.com/playlist/vid/v2/D5605AQEX9zAMoT8e-g/thumbnail-with-play-button-overlay-high/B56aCIS2tTJUC4-/0/1788993055203?e=2147483647&amp;v=beta&amp;t=r4frh4kWxEa3eowzYPkSbUMb3DIsjbaK3k6En5STi0E"/>
+    </media:group>
+    <dc:creator>Microsoft Source</dc:creator>
+    <link rel="enclosure" href="https://dms.licdn.com/playlist/vid/v2/D5605AQEX9zAMoT8e-g/thumbnail-with-play-button-overlay-high/B56aCIS2tTJUC4-/0/1788993055203?e=2147483647&amp;v=beta&amp;t=r4frh4kWxEa3eowzYPkSbUMb3DIsjbaK3k6En5STi0E" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/207e43d49d09f9b3</id>
+    <title>Public Preview: Automatic Zone Placement for Virtual Machine Scale Sets</title>
+    <updated>2026-09-09T22:57:26+00:00</updated>
+    <content>We’re excited to announce the public preview of Automatic Zone Placement for Azure Virtual Machine Scale Sets. This new capability lets Azure select availability zones for your scale set based on SKU availability, capacity, and your placement requirements. Automatic Zone Placement simplifies zonal deployments by removing the need to track SKU availability and maintain fixed zone lists for each Azure region. It is supported for scale sets using either Uniform or Flexible orchestration modes. Simp</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-compute-blog/public-preview-automatic-zone-placement-for-virtual-machine/ba-p/4554986" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-09T22:57:26+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTg2LU5FSGczWA?revision=3" type="image/jpeg" medium="image" height="1030" width="1838"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTg2LU5FSGczWA?revision=3" height="1030" width="1838"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTg2LU5FSGczWA?revision=3" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/59307d85a586cccd</id>
@@ -123,6 +282,21 @@
     <dc:creator>Microsoft Source</dc:creator>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/a9d91b734c154097</id>
+    <title>npm extends recovery-code security holds to all accounts</title>
+    <updated>2026-09-09T21:55:55+00:00</updated>
+    <content>npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The...</content>
+    <link href="https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-09T21:55:55+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg" type="image/jpeg" medium="image" height="1260" width="2400"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg" height="1260" width="2400"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/083ea3496f539ca5</id>
     <title>CodeQL 2.27.0 adds support for Linux ARM64</title>
     <updated>2026-09-09T21:45:06+00:00</updated>
@@ -148,6 +322,46 @@
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/4d223a46b0089144</id>
+    <title>Introducing MSClickID reporting in the Microsoft Advertising API</title>
+    <updated>2026-09-09T21:00:17+00:00</updated>
+    <content>Advertisers increasingly rely on their own analytics, data warehouses, and attribution systems to understand what happens after an ad click. To support these advanced reporting and attribution scenarios, Microsoft Advertising is introducing MSClickID reporting in the Microsoft Advertising API . MSClickID reporting provides access to click-level reporting data, helping advertisers connect individual ad clicks to conversions, validate attribution, and perform deeper performance analysis using thei</content>
+    <link href="https://techcommunity.microsoft.com/t5/bing-ads-api-blog/introducing-msclickid-reporting-in-the-microsoft-advertising-api/ba-p/4554989" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-09T21:00:17+00:00</published>
+    <dc:creator>Tech Community</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/0a63dc5b21711907</id>
+    <title>Fixes in Microsoft Access – Version 2608 (Build 16.0.20326.20100)</title>
+    <updated>2026-09-09T20:46:32+00:00</updated>
+    <content>Important update: A regression introduced by an earlier security update could cause labels, text boxes, combo boxes, and other controls to lose their fonts, colors, or styles after printing or previewing reports that contain embedded images or OLE objects. It could also contribute to crashes during printing or PDF export. This issue is fixed in Version 2608 Build 16.0.20326.20132, released September 1. We recommend updating to this build or later. Zoom Issue Fix VBA Zoom did not work reliably wi</content>
+    <link href="https://techcommunity.microsoft.com/t5/access-blog/fixes-in-microsoft-access-version-2608-build-16-0-20326-20100/ba-p/4554943" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-09T20:46:32+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3" type="image/jpeg" medium="image" height="1000" width="1500"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3" height="1000" width="1500"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/94449387d1c9c602</id>
+    <title>Execution, Optimization, and Exploration: Evaluating Scientific AI Through RF Engineering</title>
+    <updated>2026-09-09T20:41:33+00:00</updated>
+    <content>When we evaluate AI systems, we often focus on whether they can produce the correct answer. Done wrong, evals turn into “trivia,” instead of an ability to accomplish a complex task. But in science and engineering, the fact recall is rarely the most important question. In my years at Purdue as a professor teaching electromagnetics and radio frequency (RF) engineering, I discovered that the most revealing problems were not those with clear solutions. Instead, they were the problems that forced stu</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-discovery-blog/execution-optimization-and-exploration-evaluating-scientific-ai/ba-p/4554513" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-09T20:41:33+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTEzLVRNbTlzSw?revision=19" type="image/jpeg" medium="image" height="500" width="1300"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTEzLVRNbTlzSw?revision=19" height="500" width="1300"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTEzLVRNbTlzSw?revision=19" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/da4cc8a18ef997e8</id>
     <title>Enterprise managed permissions for GitHub Copilot agent operations</title>
     <updated>2026-09-09T20:08:14+00:00</updated>
@@ -161,6 +375,16 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_AgentOperationsPermissions.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/d8e1c589f5fed04b</id>
+    <title>Generally Available: Restrict usage of user delegation SAS to an Entra ID identity</title>
+    <updated>2026-09-09T19:44:54+00:00</updated>
+    <content>Shared access signatures (SAS) grant time-bound, scoped access to Azure Storage resources without sharing account keys. Over time, Azure Storage has continued to strengthen SAS security, moving from account keys to user delegation (UD) SAS secured by Microsoft Entra ID. Today, we’re taking the next step forward by announcing general availability for user-bound user delegation SAS , an extension of UD SAS that ensures a SAS token can only be used by a specific Entra ID identity. This new capabili</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-storage-blog/generally-available-restrict-usage-of-user-delegation-sas-to-an/ba-p/4554967" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-09T19:44:54+00:00</published>
+    <dc:creator>Tech Community</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/05f310c114431e3b</id>
@@ -191,21 +415,6 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/525295327-000d216e-26f0-4138-b583-e90b8678f3c7.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/0a63dc5b21711907</id>
-    <title>Fixes in Microsoft Access – Version 2608 (Build 16.0.20326.20100)</title>
-    <updated>2026-09-09T17:29:44+00:00</updated>
-    <content>Important update: A regression introduced by an earlier security update could cause labels, text boxes, combo boxes, and other controls to lose their fonts, colors, or styles after printing or previewing reports that contain embedded images or OLE objects. It could also contribute to crashes during printing or PDF export. This issue is fixed in Version 2608 Build 16.0.20326.20132, released September 1. We recommend updating to this build or later. Zoom Issue Fix VBA Zoom did not work reliably wi</content>
-    <link href="https://techcommunity.microsoft.com/t5/access-blog/fixes-in-microsoft-access-version-2608-build-16-0-20326-20100/ba-p/4554943" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-09T17:29:44+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3" type="image/jpeg" medium="image" height="1000" width="1500"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3" height="1000" width="1500"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTQzLU5FYXBLZg?revision=3" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/81d8902a087ddcd7</id>
@@ -678,51 +887,6 @@
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/2d60119c75049719</id>
-    <title>What the Creator Economy Can Teach Us About Leadership Communication</title>
-    <updated>2026-09-08T17:18:37+00:00</updated>
-    <content>Every communications team faces the same challenge: helping leaders connect with employees in authentic, meaningful ways while competing for attention in an increasingly crowded environment. Traditional communication moments such as town halls, quarterly updates, and major announcements remain important, but they no longer define how trust and engagement are built. The creator economy offers a different model. The most successful creators didn't build influence through a handful of large moments</content>
-    <link href="https://techcommunity.microsoft.com/t5/corporate-communications-blog/what-the-creator-economy-can-teach-us-about-leadership/ba-p/4554458" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T17:18:37+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDU4LWk5MTg4Zg?revision=1" type="image/jpeg" medium="image" height="1414" width="2119"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDU4LWk5MTg4Zg?revision=1" height="1414" width="2119"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDU4LWk5MTg4Zg?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/77ec609bca3b2736</id>
-    <title>Inside Orchestrated Media Intelligence: The Technology Behind Connected Media Workflows</title>
-    <updated>2026-09-08T17:00:00+00:00</updated>
-    <content>What orchestration changes Media workflows are already distributed across specialized creative, content, rights, archive, delivery, audience, and business systems. The technical challenge is not to replace those systems with one monolithic platform. It is to create an orchestration layer that can carry context, policy, and learning across them. In practice, orchestrated media intelligence connects four foundations: trusted data and metadata, specialized AI models and agents, scalable cloud infra</content>
-    <link href="https://techcommunity.microsoft.com/t5/telecommunications-media/inside-orchestrated-media-intelligence-the-technology-behind/ba-p/4553782" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T17:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNzgyLTFtbkY5Mg?revision=2" type="image/jpeg" medium="image" height="591" width="936"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNzgyLTFtbkY5Mg?revision=2" height="591" width="936"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNzgyLTFtbkY5Mg?revision=2" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/3975629930220d12</id>
-    <title>September update: What’s new for partners in AI Business Solutions</title>
-    <updated>2026-09-08T17:00:00+00:00</updated>
-    <content>This month’s AI Business Solutions update highlights new Microsoft 365 agent management capabilities, the updated Microsoft Copilot app experience, and the GitHub Copilot harness for Microsoft Copilot Studio. It also features FY27 Cloud Solution Provider (CSP) offers for Microsoft 365 Copilot and Microsoft 365 E7, plus skilling opportunities focused on Copilot, agents, AI productivity, and co-sell readiness. Discover new ways to drive AI adoption, build agent-powered solutions, and grow your AI </content>
-    <link href="https://techcommunity.microsoft.com/t5/partner-news/september-update-what-s-new-for-partners-in-ai-business/ba-p/4553602" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T17:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNjAyLWs3ZzFTRA?revision=1" type="image/jpeg" medium="image" height="500" width="1200"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNjAyLWs3ZzFTRA?revision=1" height="500" width="1200"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUzNjAyLWs3ZzFTRA?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/c84a57a97fd6c729</id>
     <title>Called to serve: Tech, research, and positive impact with Chris White</title>
     <updated>2026-09-08T16:45:12+00:00</updated>
@@ -738,36 +902,6 @@
     <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/WeishungChris-MSRPod_TW_LI_FB_1920x1080-1.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/185ce8b9aa9335c3</id>
-    <title>The Microsoft Student Ambassador Who Became an MVP: Bojan Ivanoski's Journey</title>
-    <updated>2026-09-08T15:15:00+00:00</updated>
-    <content>By Guest Blogger Bojan Ivanoski Where it started I joined the Microsoft Student Ambassador program in my first year of university, mostly out of curiosity. I wanted to meet people who were interested in Microsoft technologies, learn outside the classroom, and see what other students around the world were building.  Four years later, around the same time of year, I opened an email telling me I had been awarded Microsoft MVP in the Foundry category. That email opened a new path forward, but it's o</content>
-    <link href="https://techcommunity.microsoft.com/t5/microsoft-mvp-program-blog/the-microsoft-student-ambassador-who-became-an-mvp-bojan/ba-p/4552390" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T15:15:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyMzkwLXJDYXdCYQ?revision=9" type="image/jpeg" medium="image" height="196" width="415"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyMzkwLXJDYXdCYQ?revision=9" height="196" width="415"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyMzkwLXJDYXdCYQ?revision=9" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/74fe366c6c69fb49</id>
-    <title>A Hands-On Community Workshop for Learning to Work with AI Coding Agents</title>
-    <updated>2026-09-08T14:50:27+00:00</updated>
-    <content>Three seconds after I clicked Assign , GitHub Copilot added an 👀 reaction to my issue. Twenty minutes later, a working pull request was ready for review. That experience reveals an important shift in how developers work with AI. The valuable skill is no longer limited to prompting Copilot to generate code. It is learning how to define work clearly, delegate it responsibly, inspect the evidence, and decide whether the result is ready to merge. 🎥 Watch the demo: youtu.be/J3kBvO9yncY Across meetups</content>
-    <link href="https://techcommunity.microsoft.com/t5/educator-developer-blog/a-hands-on-community-workshop-for-learning-to-work-with-ai/ba-p/4553030" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T14:50:27+00:00</published>
-    <media:group>
-      <media:content url="https://raw.githubusercontent.com/JonEricEubanks/public-assets/main/images/night-shift-header.svg" type="image/svg+xml" medium="image"/>
-      <media:thumbnail url="https://raw.githubusercontent.com/JonEricEubanks/public-assets/main/images/night-shift-header.svg"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://raw.githubusercontent.com/JonEricEubanks/public-assets/main/images/night-shift-header.svg" type="image/svg+xml" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/c6e6a57a2df43445</id>
     <title>Building Africa’s AI future on trust</title>
     <updated>2026-09-08T14:27:42+00:00</updated>
@@ -781,36 +915,6 @@
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://news.microsoft.com/source/emea/wp-content/uploads/2026/09/Governance-Feature_Post.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/a253cfc00022f1b3</id>
-    <title>Exchange Server AD FS Modern Authentication: Expanded Outlook client support</title>
-    <updated>2026-09-08T14:14:41+00:00</updated>
-    <content>We are pleased to announce expanded Outlook client support for Exchange Server AD FS Modern Authentication. In our previous update , we announced broad Outlook for Windows/Mac support and support for the native Mail app on iOS and macOS. We are now extending this support to Outlook for iOS and Outlook for Android. Outlook for iOS and Outlook for Android can now use AD FS Modern Authentication to access mailboxes in supported pure on-premises Exchange Server deployments. Deployment context: AD FS</content>
-    <link href="https://techcommunity.microsoft.com/t5/exchange-team-blog/exchange-server-ad-fs-modern-authentication-expanded-outlook/ba-p/4554410" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T14:14:41+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDEwLXV5dUZ2Vw?revision=1" type="image/jpeg" medium="image" height="214" width="370"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDEwLXV5dUZ2Vw?revision=1" height="214" width="370"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDEwLXV5dUZ2Vw?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/bbf74b4ce31a8f18</id>
-    <title>New in Microsoft Marketplace: Offers published July 27-29, 2026</title>
-    <updated>2026-09-08T13:00:00+00:00</updated>
-    <content>Learn about 614 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace Accenture Billing &amp; Payments Engine SaaS UK : Accenture Billing &amp; Payments Engine from Accenture UK simplifies complex billing structures, automates invoicing, and ensures seamless payment handling. It supports diverse billing models, including subscription-based, consumption-based, and one-t</content>
-    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-offers-published-july-27-29-2026/ba-p/4544814" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://catalogartifact.azureedge.net/publicartifacts/accenture-unitedkingdom1776209055471.acn-billing-payments-engine-uk-c2c8e4a1-b345-41ad-9777-57d82c19abc1/image1_AccLogoBlackPurple.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://catalogartifact.azureedge.net/publicartifacts/accenture-unitedkingdom1776209055471.acn-billing-payments-engine-uk-c2c8e4a1-b345-41ad-9777-57d82c19abc1/image1_AccLogoBlackPurple.png"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://catalogartifact.azureedge.net/publicartifacts/accenture-unitedkingdom1776209055471.acn-billing-payments-engine-uk-c2c8e4a1-b345-41ad-9777-57d82c19abc1/image1_AccLogoBlackPurple.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/912c849c9f5c4021</id>
@@ -1266,74 +1370,6 @@ targeted po...</content>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/dee6f3cdf3d7ae45</id>
-    <title>Enterprise Live Migrations from GHES to ghe.com generally available</title>
-    <updated>2026-09-01T22:24:27+00:00</updated>
-    <content>Enterprise Live Migrations (ELM) is now generally available, enabling near-zero-downtime repository migrations from GitHub Enterprise Server (GHES) to GitHub Enterprise Cloud with Data Residency (GHEC DR), so you can move… The post Enterprise Live Migrations from GHES to ghe.com generally available...</content>
-    <link href="https://github.blog/changelog/2026-09-01-enterprise-live-migrations-from-ghes-to-ghe-com-generally-available" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T22:24:27+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/09/639619858-9ce5adf6-0136-4402-9f9a-36ac136d9c70.png" type="image/png" medium="image" height="1278" width="2064"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/639619858-9ce5adf6-0136-4402-9f9a-36ac136d9c70.png" height="1278" width="2064"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/639619858-9ce5adf6-0136-4402-9f9a-36ac136d9c70.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/af1385ac5d1027b1</id>
-    <title>Set an expiration date for individual user budgets</title>
-    <updated>2026-09-01T20:23:13+00:00</updated>
-    <content>You can now set an optional expiration date on an individual user budget, and GitHub removes the budget on that date. This capability is generally available. The user then falls… The post Set an expiration date for individual user budgets appeared first on The GitHub Blog...</content>
-    <link href="https://github.blog/changelog/2026-09-01-set-an-expiration-date-for-individual-user-budgets" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T20:23:13+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/0c25a1726c5a4a8c</id>
-    <title>Copilot code review can now approve pull requests</title>
-    <updated>2026-09-01T19:25:57+00:00</updated>
-    <content>Copilot now tells you when a pull request is ready to approve, and admins can authorize it to sign off on approval. The ability for Copilot to approve is off… The post Copilot code review can now approve pull requests appeared first on The GitHub Blog...</content>
-    <link href="https://github.blog/changelog/2026-09-01-copilot-code-review-can-now-approve-pull-requests" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T19:25:57+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/09/640486943-995df08a-2d27-4fa0-a465-3e4e2ec3f6cb.png" type="image/png" medium="image" height="992" width="2064"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/640486943-995df08a-2d27-4fa0-a465-3e4e2ec3f6cb.png" height="992" width="2064"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/640486943-995df08a-2d27-4fa0-a465-3e4e2ec3f6cb.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/1ef030d64a95caee</id>
-    <title>[Launched] Generally Available: Purchase order mapping available in Microsoft Marketplace</title>
-    <updated>2026-09-01T18:40:59+00:00</updated>
-    <content>Align Microsoft Marketplace purchases to your business's accounting needs. Purchase order mapping helps allocate your Microsoft invoice, including Marketplace purchases, making it easier to reconcile your organization's cloud and AI spend. Get supplementa...</content>
-    <link href="https://azure.microsoft.com/updates?id=569700" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T18:40:59+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/42b37e0ba9b02f68</id>
-    <title>[Launched] Generally Available: Azure Firewall auto-learn SNAT routes</title>
-    <updated>2026-09-01T17:10:38+00:00</updated>
-    <content>Azure Firewall’s auto-learn SNAT routes is now
-generally available, automatically learning registered and private destination
-prefixes periodically and applying them as No-SNAT ranges to preserve original
-source IPs and simplify SNAT management.Learn more...</content>
-    <link href="https://azure.microsoft.com/updates?id=570474" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T17:10:38+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/a89ee49fe8f346cc</id>
     <title>From AI readiness to impact: Why a strong data foundation determines success in healthcare</title>
     <updated>2026-09-01T17:00:00+00:00</updated>
@@ -1347,19 +1383,6 @@ source IPs and simplify SNAT management.Learn more...</content>
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-cloud/blog/wp-content/uploads/2026/09/AI_Healthcare-data-foundation-1.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/b856b6c6f34bc4ef</id>
-    <title>[Launched] Generally Available: Azure Copilot Observability Agent supports Basic and Auxiliary table plans</title>
-    <updated>2026-09-01T16:31:14+00:00</updated>
-    <content>Azure Copilot Observability Agent, an
-AI-powered operational companion in Azure Monitor, is now covering Log Analytics data
-in Basic and Auxiliary table plans during interactive analysis
-and deep investigations. Teams can move high-volume telemetry - incl...</content>
-    <link href="https://azure.microsoft.com/updates?id=570250" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T16:31:14+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/5862bb1cdae6ef51</id>
@@ -1807,21 +1830,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     <link rel="enclosure" href="https://news.microsoft.com/signal/wp-content/uploads/2026/08/08-Shoot-360.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/fd381b3058469b86</id>
-    <title>Too many notifications? Let agents sort them out</title>
-    <updated>2026-08-13T16:54:38+00:00</updated>
-    <content>The post Too many notifications? Let agents sort them out appeared first on Source .</content>
-    <link href="https://devblogs.microsoft.com/microsoft365dev/building-agents-for-teams-managing-the-noise-of-collaboration/" rel="alternate"/>
-    <category term="Microsoft Source" label="Microsoft Source"/>
-    <published>2026-08-13T16:54:38+00:00</published>
-    <media:group>
-      <media:content url="https://devblogs.microsoft.com/microsoft365dev/wp-content/uploads/sites/73/2026/08/preview.webp" type="image/webp" medium="image" height="916" width="1564"/>
-      <media:thumbnail url="https://devblogs.microsoft.com/microsoft365dev/wp-content/uploads/sites/73/2026/08/preview.webp" height="916" width="1564"/>
-    </media:group>
-    <dc:creator>Microsoft Source</dc:creator>
-    <link rel="enclosure" href="https://devblogs.microsoft.com/microsoft365dev/wp-content/uploads/sites/73/2026/08/preview.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/e1692a280427d588</id>
     <title>CARE-X makes radiology AI more effective in clinics</title>
     <updated>2026-08-12T21:15:15+00:00</updated>
@@ -1850,21 +1858,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     </media:group>
     <dc:creator>Microsoft Research</dc:creator>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/08/MindTopo-BlogHeroFeature-1400x788-1-scaled.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/88a288926c83a8ca</id>
-    <title>MAI-Code-1.1 Flash: Better, faster, at a quarter of the cost</title>
-    <updated>2026-08-11T21:15:30+00:00</updated>
-    <content>The post MAI-Code-1.1 Flash: Better, faster, at a quarter of the cost appeared first on Source .</content>
-    <link href="https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/" rel="alternate"/>
-    <category term="Microsoft Source" label="Microsoft Source"/>
-    <published>2026-08-11T21:15:30+00:00</published>
-    <media:group>
-      <media:content url="https://microsoft.ai/wp-content/uploads/2026/08/Code_1_1_Flash_Socials.webp" type="image/webp" medium="image" height="726" width="1080"/>
-      <media:thumbnail url="https://microsoft.ai/wp-content/uploads/2026/08/Code_1_1_Flash_Socials.webp" height="726" width="1080"/>
-    </media:group>
-    <dc:creator>Microsoft Source</dc:creator>
-    <link rel="enclosure" href="https://microsoft.ai/wp-content/uploads/2026/08/Code_1_1_Flash_Socials.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/f7ae1ab15a72c6d4</id>
@@ -3952,21 +3945,6 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     <link rel="enclosure" href="https://blogs.microsoft.com/wp-content/uploads/2026/05/OMB-WTI-Hero-4_28_26-1024x576.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a</id>
-    <title>Microsoft 365 Copilot, human agency, and the opportunity for every organization</title>
-    <updated>2026-05-05T10:00:00+00:00</updated>
-    <content>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .</content>
-    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/" rel="alternate"/>
-    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
-    <published>2026-05-05T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" medium="image" height="1447" width="2560"/>
-      <media:thumbnail url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" height="1447" width="2560"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Blog</dc:creator>
-    <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/bcb99be1c6535739</id>
     <title>Copilot Cowork: From conversation to action across skills, integrations, and devices</title>
     <updated>2026-05-05T10:00:00+00:00</updated>
@@ -3980,6 +3958,21 @@ and deep investigations. Teams can move high-volume telemetry - incl...</content
     </media:group>
     <dc:creator>Microsoft 365 Blog</dc:creator>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a</id>
+    <title>Microsoft 365 Copilot, human agency, and the opportunity for every organization</title>
+    <updated>2026-05-05T10:00:00+00:00</updated>
+    <content>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/" rel="alternate"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-05T10:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" medium="image" height="1447" width="2560"/>
+      <media:thumbnail url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" height="1447" width="2560"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Blog</dc:creator>
+    <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/70d0a2dbdaf8e411</id>

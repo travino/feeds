@@ -11,9 +11,9 @@
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/f2a2f89e77317b97",
       "url": "https://www.cloudflarestatus.com/incidents/92j1xmlkscw3",
       "title": "Issues Editing Bulk Redirects",
-      "content_text": "Sep 10 , 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains unaffected, and this issue is limited to the configuration of these rules. Further details will be provided as we investigate.",
-      "date_published": "2026-09-10T15:59:10Z",
-      "date_modified": "2026-09-10T15:59:10Z",
+      "content_text": "Sep 10 , 16:57 UTC Resolved - This incident has been resolved. Sep 10 , 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains unaffected, and this issue is limited to the configuration of these rules. Further details will be provided as we investigate.",
+      "date_published": "2026-09-10T16:57:13Z",
+      "date_modified": "2026-09-10T16:57:13Z",
       "authors": [
         {
           "name": "Cloudflare Status"
@@ -90,6 +90,29 @@
       "url": "https://developers.cloudflare.com/changelog/post/2026-09-10-emergency-waf-release/",
       "title": "WAF - WAF Release - 2026-09-10 - Emergency",
       "content_text": "This update provides immediate defense against a high-severity, actively exploited zero-day vulnerability targeting Adobe Commerce and Magento Open Source storefronts. Key Findings Adobe Commerce and Magento RCE (CVE-2026-75650 / \"StyleSmuggler\"): Unauthenticated Remote Code Execution (RCE) vulnerability caused by improper neutralization of special elements in the platform's template engine. Unauthenticated attackers can inject arbitrary PHP payloads through style properties to execute system co",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/og-changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/f90998174712f338",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-10-using-openai-agents-api-with-cloudflare-containers/",
+      "title": "Containers - Use Cloudflare Containers with Codex via the OpenAI Agents API",
+      "content_text": "The OpenAI Agents API gives your application access to Codex through an OpenAI-managed API. OpenAI manages sessions, orchestration, context compaction, and recovery while your application provides tools and uses Cloudflare Containers as the execution environment. Cloudflare Containers can now provide self-hosted execution environments for the OpenAI Agents API. The open-source OpenAI Agents API Workers template ↗ provides a reference implementation. The Worker maintains a Cloudflare Container fo",
       "date_published": "2026-09-10T00:00:00Z",
       "date_modified": "2026-09-10T00:00:00Z",
       "authors": [
@@ -700,6 +723,29 @@
       "url": "https://developers.cloudflare.com/changelog/post/2026-09-04-r2-data-access-logs/",
       "title": "R2 - R2 Data Access Logs",
       "content_text": "R2 Data Access Logs are now generally available. Turn on logging for a bucket to record object read, write, list, multipart upload, and delete operations with response status codes below 400 . Data Access Logs cover requests made through the S3-compatible API, Cloudflare API and dashboard, Workers bindings, and public buckets through r2.dev or custom domains. Events are available in Workers Observability, where you can filter by bucket, operation, interface, actor, and other request fields. Log",
+      "date_published": "2026-09-04T00:00:00Z",
+      "date_modified": "2026-09-04T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/og-changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/3ee2e0d457641f20",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-04-enterprise-self-serve-upload-limits/",
+      "title": "Cloudflare Fundamentals, Workers - Enterprise customers can self-serve CDN upload limits up to 5 GB",
+      "content_text": "Enterprise customers can now configure a zone's CDN Maximum Upload Size up to 5 GB directly from the Network page in the Cloudflare dashboard. This removes the need to contact your account team or Cloudflare Support when applications need to accept request bodies larger than 500 MB and no greater than 5 GB. The default maximum upload size remains 500 MB. Upload limits above 5 GB still require additional configuration through your account team or Cloudflare Support . Very large uploads may reach",
       "date_published": "2026-09-04T00:00:00Z",
       "date_modified": "2026-09-04T00:00:00Z",
       "authors": [
@@ -2013,52 +2059,6 @@
       ],
       "tags": [
         "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/465414b25c09db7a",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-24-virtual-appliance-self-serve-download/",
-      "title": "Cloudflare One Appliance, Cloudflare One, Cloudflare WAN - Download the Cloudflare One Virtual Appliance for your hypervisor from the dashboard",
-      "content_text": "When you register a Cloudflare One Virtual Appliance , you can now select your hypervisor and download the appliance directly from the dashboard — no need to look up asset URLs. On the Connectors page, select Add an appliance , choose Virtual appliance , then select your hypervisor: VMware ESXi , Proxmox , or libvirt/KVM . Download the OVA image (VMware ESXi) or the install script (Proxmox and libvirt/KVM) for the selected hypervisor. Use View setup guide to open deployment instructions for your",
-      "date_published": "2026-08-24T00:00:00Z",
-      "date_modified": "2026-08-24T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2813,height=1241,format=webp/_astro/2026-08-24-virtual-appliance-self-serve-download.Ca2YGpCA.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=2813,height=1241,format=webp/_astro/2026-08-24-virtual-appliance-self-serve-download.Ca2YGpCA.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/e7b3f3567e6cff8c",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-24-radar-aspa-validation/",
-      "title": "Radar - RPKI ASPA path validation on Cloudflare Radar",
-      "content_text": "Radar adds an ASPA validation tool ↗ to its Routing section ↗ . Enter a BGP AS_PATH and the tool checks it against the Autonomous System Provider Authorization (ASPA) ↗ records currently published in the RPKI, returning a verdict of Valid , Invalid , or Unknown . An Invalid verdict means no chain of provider authorizations covers the whole path, which is the signature of a route leak. Validation follows draft-ietf-sidrops-aspa-verification ↗ , so verdicts match those produced by validators imple",
-      "date_published": "2026-08-24T00:00:00Z",
-      "date_modified": "2026-08-24T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1600,height=1222,format=webp/_astro/aspa-validation-graph.DQUq8KCm.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1600,height=1222,format=webp/_astro/aspa-validation-graph.DQUq8KCm.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {

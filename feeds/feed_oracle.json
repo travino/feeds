@@ -8,6 +8,98 @@
   "icon": "https://blogs.oracle.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/b1d5c7abd9bd8699",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/oci-cache-cross-region-replication",
+      "title": "Announcing Cross-Region Replication in OCI Cache",
+      "content_text": "Today, we’re excited to announce cross-region replication in OCI Cache, a new capability that helps customers improve disaster recovery readiness, serve globally distributed applications, and support planned workload migration between Oracle Cloud Infrastructure regions. With cross-region replication, OCI Cache can asynchronously replicate data from a primary cache cluster in one OCI region to a secondary […]",
+      "date_published": "2026-09-10T19:30:00Z",
+      "date_modified": "2026-09-10T19:30:00Z",
+      "authors": [
+        {
+          "name": "Oracle Cloud Infrastructure"
+        }
+      ],
+      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/ocicache-crr-featureimage.png",
+      "tags": [
+        "Oracle Cloud Infrastructure"
+      ],
+      "attachments": [
+        {
+          "url": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/ocicache-crr-featureimage.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/da27912bf2f3024c",
+      "url": "https://forums.oracle.com/ords/apexds/post/running-jdeveloper-for-oaf-12-2-12-in-year-2026-is-it-possi-0050",
+      "title": "Running Jdeveloper for OAF 12.2.12 in year 2026. Is it possible?",
+      "content_text": "Hi experts, I've downloaded Jdeveloper for OAF 12.2.12 and when opening I get this error: Is this possible to run this in a modern 2026 windows hardware? Or is it impossible nowadays? Thanks, Jose.",
+      "date_published": "2026-09-10T17:34:01Z",
+      "date_modified": "2026-09-10T17:34:01Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/uskrKAKV-7371-EidDbbvX",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/uskrKAKV-7371-EidDbbvX",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/c6d3cca85bd7ce84",
+      "url": "https://blogs.oracle.com/linux/oled-lastboot",
+      "title": "Oracle Linux Enhanced Diagnostics: lastboot – Analyze the previous reboot",
+      "content_text": "Unexpected reboots are among the harder problems to investigate after a system comes back online. In many cases the reboot or crash may go unnoticed until much later. Even when it is noticed, important details are often collected long after the issue occurred, by which time logs might be lost and the original failure context […]",
+      "date_published": "2026-09-10T16:00:00Z",
+      "date_modified": "2026-09-10T16:00:00Z",
+      "authors": [
+        {
+          "name": "Oracle Linux"
+        }
+      ],
+      "image": "https://blogs.oracle.com/linux/wp-content/uploads/sites/49/2025/10/How-to-access-Compute-Instances-in-a-Private-Subnet-with-the-Oracle-Cloud-Shell-Penguins.jpg",
+      "tags": [
+        "Oracle Linux"
+      ],
+      "attachments": [
+        {
+          "url": "https://blogs.oracle.com/linux/wp-content/uploads/sites/49/2025/10/How-to-access-Compute-Instances-in-a-Private-Subnet-with-the-Oracle-Cloud-Shell-Penguins.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/d4e743a4a34cacfc",
+      "url": "https://blogs.oracle.com/java/transitioning-java-to-more-frequent-security-updates",
+      "title": "Transitioning Java to more frequent security updates",
+      "content_text": "This blog was originally posted on July 20, 2026 and has been updated on September 10, 2026 with additional update plans. Executive Summary Details Oracle’s Integrated Cyber Center (ICC) team recently published a blog describing plans to offer targeted monthly Critical Security Patch Updates (CSPUs). CSPUs are intended to provide an opportunity every month for […]",
+      "date_published": "2026-09-10T15:41:41Z",
+      "date_modified": "2026-09-10T15:41:41Z",
+      "authors": [
+        {
+          "name": "Oracle Java"
+        }
+      ],
+      "image": "https://blogs.oracle.com/java/wp-content/uploads/sites/114/2026/07/Duke-Monthly.png",
+      "tags": [
+        "Oracle Java"
+      ],
+      "attachments": [
+        {
+          "url": "https://blogs.oracle.com/java/wp-content/uploads/sites/114/2026/07/Duke-Monthly.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/3c4c67e9b801f428",
       "url": "https://forums.oracle.com/ords/apexds/post/apex-26-1-application-import-is-rolled-back-with-ora-02091-4420",
       "title": "APEX 26.1: application import is rolled back with ORA-02091 when a column removed from Interactive Grid with user saved repor",
@@ -394,29 +486,6 @@
       "attachments": [
         {
           "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/151d550094133498",
-      "url": "https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-set-feedback-on-sql-7222",
-      "title": "Editor Doesn&#x27;t Recognize the Syntax of SET FEEDBACK ON SQL_ID ON",
-      "content_text": "v: 26.2.1 The statement works fine but the syntax is underline in red and the editor color changes to red.",
-      "date_published": "2026-09-09T12:29:15Z",
-      "date_modified": "2026-09-09T12:29:15Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/saZLOrxs-5056-omEgZUvG",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/saZLOrxs-5056-omEgZUvG",
           "mime_type": "image/jpeg"
         }
       ]
@@ -1526,29 +1595,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/44808bd2f4f694b7",
-      "url": "https://blogs.oracle.com/cloud-infrastructure/oci-achieves-nvidia-exemplar-cloud",
-      "title": "OCI Achieves NVIDIA Exemplar Cloud Validation for NVIDIA GB300 NVL72 and HGX B300",
-      "content_text": "Oracle Cloud Infrastructure (OCI) has achieved NVIDIA Exemplar Cloud validation for NVIDIA GB300 NVL72 and NVIDIA HGX B300 platforms, further demonstrating its ability to deliver consistent, reproducible AI performance on NVIDIA Blackwell infrastructure at scale. This milestone builds on OCI’s earlier validation for NVIDIA GB200 NVL72, extending proven performance across the latest generation of Blackwell […]",
-      "date_published": "2026-08-22T23:48:00Z",
-      "date_modified": "2026-08-22T23:48:00Z",
-      "authors": [
-        {
-          "name": "Oracle Cloud Infrastructure"
-        }
-      ],
-      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/Image-8-19-26-at-4.59-PM.png",
-      "tags": [
-        "Oracle Cloud Infrastructure"
-      ],
-      "attachments": [
-        {
-          "url": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/08/Image-8-19-26-at-4.59-PM.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/36f49a6e76988313",
       "url": "https://blogs.oracle.com/developers/what-we-learned-about-letting-agents-into-a-production-database",
       "title": "What we learned about letting agents into a production database",
@@ -2487,29 +2533,6 @@
       "attachments": [
         {
           "url": "https://blogs.oracle.com/developers/wp-content/uploads/sites/129/2026/07/build-an-intelligent-scaled.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/d4e743a4a34cacfc",
-      "url": "https://blogs.oracle.com/java/transitioning-java-to-more-frequent-security-updates",
-      "title": "Transitioning Java to more frequent security updates",
-      "content_text": "Executive Summary Details Oracle’s Integrated Cyber Center (ICC) team recently published a blog describing plans to offer targeted monthly Critical Security Patch Updates (CSPUs). CSPUs are intended to provide an opportunity every month for targeted fixes that address high-priority vulnerabilities, instead of having to wait until the next quarterly CPU. The rationale is clear: the […]",
-      "date_published": "2026-07-20T16:58:29Z",
-      "date_modified": "2026-07-20T16:58:29Z",
-      "authors": [
-        {
-          "name": "Oracle Java"
-        }
-      ],
-      "image": "https://blogs.oracle.com/java/wp-content/uploads/sites/114/2026/07/Duke-Monthly.png",
-      "tags": [
-        "Oracle Java"
-      ],
-      "attachments": [
-        {
-          "url": "https://blogs.oracle.com/java/wp-content/uploads/sites/114/2026/07/Duke-Monthly.png",
           "mime_type": "image/png"
         }
       ]

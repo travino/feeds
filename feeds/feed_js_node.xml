@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://nodejs.org/</id>
   <title>JS | Node</title>
-  <updated>2026-09-10T16:40:19.794176+00:00</updated>
+  <updated>2026-09-10T21:09:54.883485+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://nodejs.org/favicon.ico</icon>
   <logo>https://nodejs.org/favicon.ico</logo>
   <subtitle>Combined JS/Node.js runtime &amp; tooling feed: Node.js, pnpm, jsDelivr (blog + status), Bun, Deno, NodeSource, Total.js, Vite, Next.js, Vue, Svelte, React, JavaScript Weekly, ReactLibs, Bootstrap, jQuery, V8, PWABuilder, npm status, npmx, and the OpenJS Foundation blog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/js_node/26c72e3d51bf1b6e</id>
+    <title>pnpm 12.4</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>pnpm 12.4 installs crates and Python packages next to npm packages in the same</content>
+    <link href="https://pnpm.io/blog/releases/12.4" rel="alternate"/>
+    <category term="pnpm Blog" label="pnpm Blog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://pnpm.io/blog/releases/12.4##logo##" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://pnpm.io/blog/releases/12.4##logo##"/>
+    </media:group>
+    <dc:creator>pnpm Blog</dc:creator>
+    <link rel="enclosure" href="https://pnpm.io/blog/releases/12.4##logo##" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/dcb9ac31082b730c</id>
     <title>Node.js 26.8.2 (Current)</title>
@@ -71,6 +86,21 @@
     </media:group>
     <dc:creator>JavaScript Weekly</dc:creator>
     <link rel="enclosure" href="https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/js_node/ad0c77475dd63e64</id>
+    <title>pnpm 11.26</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the</content>
+    <link href="https://pnpm.io/blog/releases/11.26" rel="alternate"/>
+    <category term="pnpm Blog" label="pnpm Blog"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://pnpm.io/blog/releases/11.26##logo##" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://pnpm.io/blog/releases/11.26##logo##"/>
+    </media:group>
+    <dc:creator>pnpm Blog</dc:creator>
+    <link rel="enclosure" href="https://pnpm.io/blog/releases/11.26##logo##" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/027663c095241715</id>
@@ -162,6 +192,21 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     </media:group>
     <dc:creator>Next.js Blog</dc:creator>
     <link rel="enclosure" href="https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/turbopack-chunking/twitter-card.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/js_node/6c2bc89905b38c42</id>
+    <title>pnpm 12.2-12.3</title>
+    <updated>2026-09-02T00:00:00+00:00</updated>
+    <content>pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11</content>
+    <link href="https://pnpm.io/blog/releases/12.2-12.3" rel="alternate"/>
+    <category term="pnpm Blog" label="pnpm Blog"/>
+    <published>2026-09-02T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://pnpm.io/blog/releases/12.2-12.3##logo##" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://pnpm.io/blog/releases/12.2-12.3##logo##"/>
+    </media:group>
+    <dc:creator>pnpm Blog</dc:creator>
+    <link rel="enclosure" href="https://pnpm.io/blog/releases/12.2-12.3##logo##" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/6c03a89f1fe42a8c</id>
@@ -1899,21 +1944,6 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     <link rel="enclosure" href="https://pnpm.io/blog/releases/11.8##logo##" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/js_node/c4fb0555f6d7bb97</id>
-    <title>pnpm 11.7</title>
-    <updated>2026-06-15T00:00:00+00:00</updated>
-    <content>pnpm 11.7 adds a frozenStore setting for installing against a read-only package store, a --batch flag for publishing a whole workspace in one request, scope-specific auth tokens, and full resolving installs delegated to pacquet. It also hardens lockfile alias handling, makes several install paths deterministic, and ships a number of publish and Windows fixes.</content>
-    <link href="https://pnpm.io/blog/releases/11.7" rel="alternate"/>
-    <category term="pnpm Blog" label="pnpm Blog"/>
-    <published>2026-06-15T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://pnpm.io/blog/releases/11.7##logo##" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://pnpm.io/blog/releases/11.7##logo##"/>
-    </media:group>
-    <dc:creator>pnpm Blog</dc:creator>
-    <link rel="enclosure" href="https://pnpm.io/blog/releases/11.7##logo##" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/5d22099cec0b937f</id>
     <title>intermittent Publish Failures</title>
     <updated>2026-06-12T12:57:11+00:00</updated>
@@ -1927,36 +1957,6 @@ We shipped new experimental features to improve chunking in Next.js 16.3.</conte
     </media:group>
     <dc:creator>npm Status</dc:creator>
     <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/js_node/47b2e2c1736cd56b</id>
-    <title>Why pnpm no longer expands environment variables in a repository's .npmrc</title>
-    <updated>2026-06-11T00:00:00+00:00</updated>
-    <content>pnpm used to expand $ placeholders everywhere it found them — including in the .npmrc and pnpm-workspace.yaml files that live inside the repository you just cloned. That turned out to be a way for a malicious repository to steal the secrets in your environment. As of v10.34.2 and v11.5.3, pnpm stops expanding environment variables in repository-controlled registry and credential settings.</content>
-    <link href="https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc" rel="alternate"/>
-    <category term="pnpm Blog" label="pnpm Blog"/>
-    <published>2026-06-11T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc##logo##" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc##logo##"/>
-    </media:group>
-    <dc:creator>pnpm Blog</dc:creator>
-    <link rel="enclosure" href="https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc##logo##" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/js_node/b842b495a90f1460</id>
-    <title>pnpm 11.6</title>
-    <updated>2026-06-11T00:00:00+00:00</updated>
-    <content>pnpm 11.6 adds a file-free way to supply registry authentication through npmconfig//… and pnpmconfig//… environment variables, raises the default network concurrency, and skips full re-resolution when only pnpm-lock.yaml is missing. It also infers platform fields for optional dependencies so foreign-platform binaries are never downloaded.</content>
-    <link href="https://pnpm.io/blog/releases/11.6" rel="alternate"/>
-    <category term="pnpm Blog" label="pnpm Blog"/>
-    <published>2026-06-11T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://pnpm.io/blog/releases/11.6##logo##" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://pnpm.io/blog/releases/11.6##logo##"/>
-    </media:group>
-    <dc:creator>pnpm Blog</dc:creator>
-    <link rel="enclosure" href="https://pnpm.io/blog/releases/11.6##logo##" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/js_node/4ef38bbe2cc1fd5a</id>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T16:40:34.659257+00:00",
+  "last_updated": "2026-09-10T21:10:18.333137+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -702,15 +702,6 @@
       "source": "Oracle Developers",
       "image": "https://blogs.oracle.com/developers/wp-content/uploads/sites/129/2026/07/Build-a-Self-Improving-Second-Brain-on-Oracle-AI-Database-26ai-scaled.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/fa5b42dd405f8810"
-    },
-    {
-      "title": "Transitioning Java to more frequent security updates",
-      "link": "https://blogs.oracle.com/java/transitioning-java-to-more-frequent-security-updates",
-      "date": "2026-07-20T16:58:29+00:00",
-      "description": "Executive Summary Details Oracle’s Integrated Cyber Center (ICC) team recently published a blog describing plans to offer targeted monthly Critical Security Patch Updates (CSPUs). CSPUs are intended to provide an opportunity every month for targeted fixes that address high-priority vulnerabilities, instead of having to wait until the next quarterly CPU. The rationale is clear: the […]",
-      "source": "Oracle Java",
-      "image": "https://blogs.oracle.com/java/wp-content/uploads/sites/114/2026/07/Duke-Monthly.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/d4e743a4a34cacfc"
     },
     {
       "title": "Build an Intelligent Document Processor in One Data Store",
@@ -3862,6 +3853,42 @@
       "source": "Oracle Developer Community",
       "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/3c4c67e9b801f428"
+    },
+    {
+      "title": "Transitioning Java to more frequent security updates",
+      "link": "https://blogs.oracle.com/java/transitioning-java-to-more-frequent-security-updates",
+      "date": "2026-09-10T15:41:41+00:00",
+      "description": "This blog was originally posted on July 20, 2026 and has been updated on September 10, 2026 with additional update plans. Executive Summary Details Oracle’s Integrated Cyber Center (ICC) team recently published a blog describing plans to offer targeted monthly Critical Security Patch Updates (CSPUs). CSPUs are intended to provide an opportunity every month for […]",
+      "source": "Oracle Java",
+      "image": "https://blogs.oracle.com/java/wp-content/uploads/sites/114/2026/07/Duke-Monthly.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/d4e743a4a34cacfc"
+    },
+    {
+      "title": "Oracle Linux Enhanced Diagnostics: lastboot – Analyze the previous reboot",
+      "link": "https://blogs.oracle.com/linux/oled-lastboot",
+      "date": "2026-09-10T16:00:00+00:00",
+      "description": "Unexpected reboots are among the harder problems to investigate after a system comes back online. In many cases the reboot or crash may go unnoticed until much later. Even when it is noticed, important details are often collected long after the issue occurred, by which time logs might be lost and the original failure context […]",
+      "source": "Oracle Linux",
+      "image": "https://blogs.oracle.com/linux/wp-content/uploads/sites/49/2025/10/How-to-access-Compute-Instances-in-a-Private-Subnet-with-the-Oracle-Cloud-Shell-Penguins.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/c6d3cca85bd7ce84"
+    },
+    {
+      "title": "Running Jdeveloper for OAF 12.2.12 in year 2026. Is it possible?",
+      "link": "https://forums.oracle.com/ords/apexds/post/running-jdeveloper-for-oaf-12-2-12-in-year-2026-is-it-possi-0050",
+      "date": "2026-09-10T17:34:01.040903+00:00",
+      "description": "Hi experts, I've downloaded Jdeveloper for OAF 12.2.12 and when opening I get this error: Is this possible to run this in a modern 2026 windows hardware? Or is it impossible nowadays? Thanks, Jose.",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/uskrKAKV-7371-EidDbbvX",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/da27912bf2f3024c"
+    },
+    {
+      "title": "Announcing Cross-Region Replication in OCI Cache",
+      "link": "https://blogs.oracle.com/cloud-infrastructure/oci-cache-cross-region-replication",
+      "date": "2026-09-10T19:30:00+00:00",
+      "description": "Today, we’re excited to announce cross-region replication in OCI Cache, a new capability that helps customers improve disaster recovery readiness, serve globally distributed applications, and support planned workload migration between Oracle Cloud Infrastructure regions. With cross-region replication, OCI Cache can asynchronously replicate data from a primary cache cluster in one OCI region to a secondary […]",
+      "source": "Oracle Cloud Infrastructure",
+      "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/ocicache-crr-featureimage.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/b1d5c7abd9bd8699"
     }
   ]
 }

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-10T16:40:37.830956+00:00</updated>
+  <updated>2026-09-10T21:10:20.895508+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,34 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/reviews/36361</id>
+    <title>Various Artists - veneration for the sacred action</title>
+    <updated>2026-09-10T21:09:09.891643+00:00</updated>
+    <content>Blurring rap, poetry and jazz, the London collective's debut compilation captures a bracing scene built on proximity and improvisation.</content>
+    <link href="https://ra.co/reviews/36361" rel="alternate"/>
+    <category term="Review"/>
+    <published>2026-09-10T21:09:09.891643+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/reviews/2026/a318632680_1400x1400-cover.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/reviews/2026/a318632680_1400x1400-cover.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/reviews/2026/a318632680_1400x1400-cover.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://ra.co/news/86002</id>
+    <title>LCD Soundsystem, Tears for Fears, Kylie Minogue announced will open for Harry Styles</title>
+    <updated>2026-09-10T17:00:53+00:00</updated>
+    <content>The former One Direction member will tour the US and Europe next year.</content>
+    <link href="https://ra.co/news/86002" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-10T17:00:53+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-10-sep-2026-12-43-pm-2173.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-10-sep-2026-12-43-pm-2173.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-10-sep-2026-12-43-pm-2173.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/news/85605</id>
     <title>Mix Of The Day: DJ Travella</title>
@@ -2783,33 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/news/2026/dragondreaminghp01.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/news/2026/dragondreaminghp01.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85876</id>
-    <title>Mix Of The Day: Lyo XS</title>
-    <updated>2026-08-27T05:00:05+00:00</updated>
-    <content>Moving bass weight.</content>
-    <link href="https://ra.co/news/85876" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-27T05:00:05+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/mixcollage-26-aug-2026-01-15-pm-2224.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-26-aug-2026-01-15-pm-2224.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-26-aug-2026-01-15-pm-2224.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85695</id>
-    <title>Mix Of The Day: Pette</title>
-    <updated>2026-08-26T18:28:09.151917+00:00</updated>
-    <content>A Filipino rapper taps into her queer rave roots.</content>
-    <link href="https://ra.co/news/85695" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-26T18:28:09.151917+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/mixcollage-30-jul-2026-11-59-am-1814.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-30-jul-2026-11-59-am-1814.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-30-jul-2026-11-59-am-1814.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

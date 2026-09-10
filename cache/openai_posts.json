@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T16:40:29.861119+00:00",
+  "last_updated": "2026-09-10T21:10:09.118901+00:00",
   "entries": [
     {
       "title": "Update: Added function calling support to the Fine-tuning API",
@@ -8924,6 +8924,103 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/openai/fbf72280d09e2c9c"
     },
     {
+      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "source": "OpenAI News",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/7Mz7MwoSyFLdOMk26N1hCA/b66e84b656c1d666fc2adc1c56ff67f1/introducing-gpt-live-1-green-seo.png?w=1600&h=900&fit=fill",
+      "image_width": 1600,
+      "image_height": 900,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/4e410dad70fb9298"
+    },
+    {
+      "title": "Introducing the Agents API",
+      "link": "https://openai.com/index/introducing-the-agents-api",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "source": "OpenAI News",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/430gA5qBJZHD8Dd4uGmm6J/f91d9df145eab0f0f981f60958026813/og-image.png?w=1600&h=900&fit=fill",
+      "image_width": 1600,
+      "image_height": 900,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/2b26a8066576cc98"
+    },
+    {
+      "title": "Codex CLI Release: Python SDK 0.154.0",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-386577294",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Python SDK 0.154.0",
+      "source": "OpenAI Codex",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/4ba6831cd4c71e1b"
+    },
+    {
+      "title": "Codex CLI Release: Cygwin build inputs and matching source for Windows voice",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-386594900",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Cygwin build inputs and matching source for Windows voice",
+      "source": "OpenAI Codex",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/db7e00678d9e35ca"
+    },
+    {
+      "title": "Codex CLI Python SDK 0.154.0",
+      "link": "https://learn.chatgpt.com/docs/changelog#github-release-386577294",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "$ npm install -g @openai/codex@0.154.0 View details Install with pip install --upgrade openai-codex==0.154.0 (Python 3.10 or later). This release includes the matching openai-codex-cli-bin==0.154.0 runtime. Add max and ultra reasoning-effort values. #39662 Add ExternalMessage to synchronous and asynchronous run() and turn() calls. External content can start a turn or join an active regular turn with tool-level authority; it does not grant user authorization. Consumers receive independent event s",
+      "source": "ChatGPT changelog",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/b1f64d9bff0f8367"
+    },
+    {
+      "title": "Codex CLI Cygwin build inputs and matching source for Windows voice",
+      "link": "https://learn.chatgpt.com/docs/changelog#github-release-386594900",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "$ npm install -g @openai/codex@voice-cygwin-108b38cf67cbb731 View details CI-only build tools for native Windows voice releases. These archives are not included in Codex user packages. cygwin-build-inputs.tar.gz : 103 pinned Cygwin binary packages and the signed package index used by the offline build installer. cygwin-build-sources.tar : all 83 corresponding source package archives at the exact versions named by that index. It includes the upstream source, patches, and build recipes provided in",
+      "source": "ChatGPT changelog",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/1d807702f5c41abd"
+    },
+    {
+      "title": "Box, Dropbox, and SharePoint are now in Library",
+      "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes#chatgpt-2026-09-10-box-dropbox-and-sharepoint-are-now-in-library-9edbdcdf",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Box, Dropbox, and SharePoint now join Google Drive in ChatGPT Library. Once connected, you can browse and search available files and folders, then add the files you need to a conversation through Add from Library or @mentions—without uploading them again. You can review supported file previews beside the conversation and follow citations back to the source as you work. When you’re working with a file, you can now keep Box, Dropbox, and Sharepoint files open beside the conversation while asking C",
+      "source": "ChatGPT release notes",
+      "image": "https://help.openai.com/og-image.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/d26c2c9287163b29"
+    },
+    {
+      "title": "Feature: Released the Agents API in public beta.",
+      "link": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-released-the-agents-api-in-public",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Released the Agents API in public beta. Build agents with a managed Codex harness while OpenAI handles session orchestration, context compaction, and recovery. Use durable sessions to continue work across turns, stream progress, and connect your own tools and MCP servers. Run agents in OpenAI-hosted sandboxes or connect a sandbox from your own infrastructure or a supported provider. Start with the Agents API quickstart .",
+      "source": "API changelog",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/80e647757c711140"
+    },
+    {
+      "title": "Feature: GPT-Live 1 is now generally available in the API.",
+      "link": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-gpt-live-1-is-now-generally-available",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "GPT-Live 1 is now generally available in the API. Build full-duplex voice conversations that can continue while a backend model or agent handles reasoning and tools. Use Responses delegation with an OpenAI model, or client delegation to connect your own backend. Voice sessions cost $0.05 per minute, billed per second; backend model and tool usage is charged separately. Start with GPT-Live , prompting , and migration guidance . See pricing for details.",
+      "source": "API changelog",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/e1a658eb98e8c9c5"
+    },
+    {
       "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
       "link": "https://openai.com/index/expanding-ai-access-us-government",
       "date": "2026-09-10T07:00:00+00:00",
@@ -8933,6 +9030,17 @@
       "image_width": 1600,
       "image_height": 900,
       "entry_id": "tag:trvny.github.io,2024:feedseek/openai/1ef5285e671d0ace"
+    },
+    {
+      "title": "Introducing ChatGPT for Financial Services",
+      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "date": "2026-09-10T07:00:00+00:00",
+      "description": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "source": "OpenAI News",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/2Tj0j0dTcedAZ2PMSbTg4j/f1155b4361dcd8f4c85c12833233ebba/OAI_Finances_4_16x9-_SEO.png?w=1600&h=900&fit=fill",
+      "image_width": 1600,
+      "image_height": 900,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/016c3ec9b775a98e"
     },
     {
       "title": "Now everyone can put data to work",

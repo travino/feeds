@@ -8,6 +8,75 @@
   "icon": "https://github.blog/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/github/4aaaad58edea75e7",
+      "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
+      "title": "AI Scan for pull request APIs in public preview",
+      "content_text": "You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic… The post AI Scan for pull request APIs in public preview appeared first on The GitHub Blog .",
+      "date_published": "2026-09-10T20:20:58Z",
+      "date_modified": "2026-09-10T20:20:58Z",
+      "authors": [
+        {
+          "name": "GitHub Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/648518234-67f13b9f-d37b-45e3-816a-0700e4762f1b.png",
+      "tags": [
+        "GitHub Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/648518234-67f13b9f-d37b-45e3-816a-0700e4762f1b.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/github/4997b35dbc97f37f",
+      "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
+      "title": "Control GitHub Actions cache access with cache-mode",
+      "content_text": "You can now use cache-mode to apply least-privilege access to the GitHub Actions cache at the workflow or job level. By granting each workflow or job only the cache access… The post Control GitHub Actions cache access with cache-mode appeared first on The GitHub Blog .",
+      "date_published": "2026-09-10T17:26:59Z",
+      "date_modified": "2026-09-10T17:26:59Z",
+      "authors": [
+        {
+          "name": "GitHub Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/648241531-f630780a-89c2-4200-9450-e9318826a685.jpg",
+      "tags": [
+        "GitHub Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/648241531-f630780a-89c2-4200-9450-e9318826a685.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/github/1eb78558aa2ab96b",
+      "url": "https://github.blog/changelog/2026-09-10-mai-code-1-flash-deprecated",
+      "title": "MAI-Code-1-Flash deprecated",
+      "content_text": "We have deprecated MAI-Code-1-Flash across all GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions) today, September 10, 2026. Model Deprecation date Suggested alternative… The post MAI-Code-1-Flash deprecated appeared first on The GitHub Blog .",
+      "date_published": "2026-09-10T16:54:01Z",
+      "date_modified": "2026-09-10T16:54:01Z",
+      "authors": [
+        {
+          "name": "GitHub Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/632066774-057daa33-368c-4869-9834-65c8df8616ef.jpg",
+      "tags": [
+        "GitHub Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/632066774-057daa33-368c-4869-9834-65c8df8616ef.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/github/61aac319f1d5a6e9",
       "url": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27",
       "title": "Xcode 27 runner image now runs on macOS 27",
@@ -211,6 +280,29 @@
         {
           "url": "https://github.github.com/gh-aw/og-hero-1200x630.png",
           "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/github/a9d91b734c154097",
+      "url": "https://github.blog/changelog/2026-09-09-npm-extends-recovery-code-security-holds-to-all-accounts",
+      "title": "npm extends recovery-code security holds to all accounts",
+      "content_text": "npm now places a temporary 72-hour security hold on any account after a successful recovery-code sign-in, extending a protection that previously applied only to high-impact accounts. This change applies to… The post npm extends recovery-code security holds to all accounts appeared first on The GitHub Blog .",
+      "date_published": "2026-09-09T21:55:55Z",
+      "date_modified": "2026-09-09T21:55:55Z",
+      "authors": [
+        {
+          "name": "GitHub Changelog"
+        }
+      ],
+      "image": "https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg",
+      "tags": [
+        "GitHub Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://github.blog/wp-content/uploads/2026/09/649015229-57caf077-e03c-46e7-a150-942c81c774f6.jpg",
+          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -1944,52 +2036,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/github/7c7d6b4d32592881",
-      "url": "https://github.blog/changelog/2026-09-01-claude-fable-5-1-generally-available-in-github-copilot",
-      "title": "Claude Fable 5.1 is generally available in GitHub Copilot",
-      "content_text": "Claude Fable 5.1 from Anthropic is now available in GitHub Copilot. The latest model in Anthropic’s Mythos class, Claude Fable 5.1 is designed for long-horizon, autonomous coding and knowledge-work tasks.… The post Claude Fable 5.1 is generally available in GitHub Copilot appeared first on The GitHub Blog .",
-      "date_published": "2026-09-01T14:29:23Z",
-      "date_modified": "2026-09-01T14:29:23Z",
-      "authors": [
-        {
-          "name": "GitHub Changelog"
-        }
-      ],
-      "image": "https://github.blog/wp-content/uploads/2026/09/642707136-15ee79bc-ec50-46da-9b09-6cc4dc218cdc.png",
-      "tags": [
-        "GitHub Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.blog/wp-content/uploads/2026/09/642707136-15ee79bc-ec50-46da-9b09-6cc4dc218cdc.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/github/dd0e071538a1dceb",
-      "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments",
-      "title": "GitHub CLI: Media in issues, pull requests, and comments",
-      "content_text": "GitHub CLI now has a repeatable --attach flag that uploads a local image or video and references it inline in an issue, pull request, or comment body. This is now… The post GitHub CLI: Media in issues, pull requests, and comments appeared first on The GitHub Blog .",
-      "date_published": "2026-09-01T12:35:59Z",
-      "date_modified": "2026-09-01T12:35:59Z",
-      "authors": [
-        {
-          "name": "GitHub Changelog"
-        }
-      ],
-      "image": "https://github.com/user-attachments/assets/3a488bc4-be46-4f25-b6ba-814b283ff17c",
-      "tags": [
-        "GitHub Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.com/user-attachments/assets/3a488bc4-be46-4f25-b6ba-814b283ff17c",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/github/050d99d1a4c30b47",
       "url": "https://www.trackawesomelist.com/2026/09/01/",
       "title": "Awesome List Updated on Sep 01, 2026",
@@ -2095,52 +2141,6 @@
       ],
       "tags": [
         "BeeWare News"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/github/23f6eecf9075f23e",
-      "url": "https://github.blog/changelog/2026-08-31-copilot-model-access-update-for-github-team-plans",
-      "title": "Copilot model access update for GitHub Team plans",
-      "content_text": "We have updated how model access is determined for Copilot users who hold seats in more than one organization. To keep billing and governance in sync, your model access is… The post Copilot model access update for GitHub Team plans appeared first on The GitHub Blog .",
-      "date_published": "2026-08-31T21:58:46Z",
-      "date_modified": "2026-08-31T21:58:46Z",
-      "authors": [
-        {
-          "name": "GitHub Changelog"
-        }
-      ],
-      "image": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg",
-      "tags": [
-        "GitHub Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-improvements.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/github/61dcb71cb81076b9",
-      "url": "https://github.blog/changelog/2026-08-31-selected-github-copilot-models-deprecated",
-      "title": "Selected GitHub Copilot models deprecated",
-      "content_text": "As of today, September 1, 2026, we have deprecated the following models across most GitHub Copilot experiences (including Copilot Chat, inline edits, ask and agent modes, and code completions). Note… The post Selected GitHub Copilot models deprecated appeared first on The GitHub Blog .",
-      "date_published": "2026-08-31T21:21:40Z",
-      "date_modified": "2026-08-31T21:21:40Z",
-      "authors": [
-        {
-          "name": "GitHub Changelog"
-        }
-      ],
-      "image": "https://github.blog/wp-content/uploads/2026/08/643788614-0f2bb4fa-0dbe-4e11-b56f-03606e66ea3c.jpeg",
-      "tags": [
-        "GitHub Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://github.blog/wp-content/uploads/2026/08/643788614-0f2bb4fa-0dbe-4e11-b56f-03606e66ea3c.jpeg",
-          "mime_type": "image/jpeg"
-        }
       ]
     },
     {

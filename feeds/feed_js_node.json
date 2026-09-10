@@ -8,6 +8,29 @@
   "icon": "https://nodejs.org/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/js_node/26c72e3d51bf1b6e",
+      "url": "https://pnpm.io/blog/releases/12.4",
+      "title": "pnpm 12.4",
+      "content_text": "pnpm 12.4 installs crates and Python packages next to npm packages in the same",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "authors": [
+        {
+          "name": "pnpm Blog"
+        }
+      ],
+      "image": "https://pnpm.io/blog/releases/12.4##logo##",
+      "tags": [
+        "pnpm Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://pnpm.io/blog/releases/12.4##logo##",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/js_node/dcb9ac31082b730c",
       "url": "https://nodejs.org/en/blog/release/v26.8.2",
       "title": "Node.js 26.8.2 (Current)",
@@ -95,6 +118,29 @@
       "attachments": [
         {
           "url": "https://res.cloudinary.com/cpress/image/upload/w_1280,e_sharpen:60,q_auto/wq9zwktpt9rxrly3oo74.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/js_node/ad0c77475dd63e64",
+      "url": "https://pnpm.io/blog/releases/11.26",
+      "title": "pnpm 11.26",
+      "content_text": "pnpm 11.26 brings the JavaScript CLI level with what pnpm 12 gained over the",
+      "date_published": "2026-09-07T00:00:00Z",
+      "date_modified": "2026-09-07T00:00:00Z",
+      "authors": [
+        {
+          "name": "pnpm Blog"
+        }
+      ],
+      "image": "https://pnpm.io/blog/releases/11.26##logo##",
+      "tags": [
+        "pnpm Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://pnpm.io/blog/releases/11.26##logo##",
           "mime_type": "image/jpeg"
         }
       ]
@@ -234,6 +280,29 @@
         {
           "url": "https://h8dxkfmaphn8o0p3.public.blob.vercel-storage.com/static/blog/turbopack-chunking/twitter-card.png",
           "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/js_node/6c2bc89905b38c42",
+      "url": "https://pnpm.io/blog/releases/12.2-12.3",
+      "title": "pnpm 12.2-12.3",
+      "content_text": "pnpm 12.2 and 12.3 are largely a catch-up pair: a long list of things pnpm 11",
+      "date_published": "2026-09-02T00:00:00Z",
+      "date_modified": "2026-09-02T00:00:00Z",
+      "authors": [
+        {
+          "name": "pnpm Blog"
+        }
+      ],
+      "image": "https://pnpm.io/blog/releases/12.2-12.3##logo##",
+      "tags": [
+        "pnpm Blog"
+      ],
+      "attachments": [
+        {
+          "url": "https://pnpm.io/blog/releases/12.2-12.3##logo##",
+          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -2901,29 +2970,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/js_node/c4fb0555f6d7bb97",
-      "url": "https://pnpm.io/blog/releases/11.7",
-      "title": "pnpm 11.7",
-      "content_text": "pnpm 11.7 adds a frozenStore setting for installing against a read-only package store, a --batch flag for publishing a whole workspace in one request, scope-specific auth tokens, and full resolving installs delegated to pacquet. It also hardens lockfile alias handling, makes several install paths deterministic, and ships a number of publish and Windows fixes.",
-      "date_published": "2026-06-15T00:00:00Z",
-      "date_modified": "2026-06-15T00:00:00Z",
-      "authors": [
-        {
-          "name": "pnpm Blog"
-        }
-      ],
-      "image": "https://pnpm.io/blog/releases/11.7##logo##",
-      "tags": [
-        "pnpm Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://pnpm.io/blog/releases/11.7##logo##",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/js_node/5d22099cec0b937f",
       "url": "https://status.npmjs.org/incidents/7574lvmfqxg4",
       "title": "intermittent Publish Failures",
@@ -2943,52 +2989,6 @@
         {
           "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
           "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/js_node/47b2e2c1736cd56b",
-      "url": "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc",
-      "title": "Why pnpm no longer expands environment variables in a repository's .npmrc",
-      "content_text": "pnpm used to expand $ placeholders everywhere it found them — including in the .npmrc and pnpm-workspace.yaml files that live inside the repository you just cloned. That turned out to be a way for a malicious repository to steal the secrets in your environment. As of v10.34.2 and v11.5.3, pnpm stops expanding environment variables in repository-controlled registry and credential settings.",
-      "date_published": "2026-06-11T00:00:00Z",
-      "date_modified": "2026-06-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "pnpm Blog"
-        }
-      ],
-      "image": "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc##logo##",
-      "tags": [
-        "pnpm Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://pnpm.io/blog/2026/06/11/env-variables-in-repository-npmrc##logo##",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/js_node/b842b495a90f1460",
-      "url": "https://pnpm.io/blog/releases/11.6",
-      "title": "pnpm 11.6",
-      "content_text": "pnpm 11.6 adds a file-free way to supply registry authentication through npmconfig//… and pnpmconfig//… environment variables, raises the default network concurrency, and skips full re-resolution when only pnpm-lock.yaml is missing. It also infers platform fields for optional dependencies so foreign-platform binaries are never downloaded.",
-      "date_published": "2026-06-11T00:00:00Z",
-      "date_modified": "2026-06-11T00:00:00Z",
-      "authors": [
-        {
-          "name": "pnpm Blog"
-        }
-      ],
-      "image": "https://pnpm.io/blog/releases/11.6##logo##",
-      "tags": [
-        "pnpm Blog"
-      ],
-      "attachments": [
-        {
-          "url": "https://pnpm.io/blog/releases/11.6##logo##",
-          "mime_type": "image/jpeg"
         }
       ]
     },

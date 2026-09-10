@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.anthropic.com/anthropic</id>
   <title>Anthropic</title>
-  <updated>2026-09-10T16:38:38.573743+00:00</updated>
+  <updated>2026-09-10T21:08:24.465994+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://www.anthropic.com/favicon.ico</icon>
   <logo>https://www.anthropic.com/favicon.ico</logo>
   <subtitle>Anthropic Newsroom, Research, Engineering, Red, Alignment Science, and Interpretability posts in one feed.</subtitle>
+  <entry>
+    <id>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</id>
+    <title>Measuring AI capabilities in intelligence targeting and conventional weapons</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</content>
+    <link href="https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities" rel="alternate"/>
+    <category term="Anthropic Research" label="Anthropic Research"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://cdn.sanity.io/images/4zrzovbb/website/6d4a0d28992ade92d6fa63646fd9c9d318245c6c-2400x1260.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</id>
     <title>An alignment assessment of recent cybersecurity incidents</title>
@@ -1302,14 +1316,5 @@
     <link href="https://alignment.anthropic.com/2026/introspection-adapters/" rel="alternate"/>
     <category term="Anthropic Alignment Science" label="Anthropic Alignment Science"/>
     <published>2026-04-28T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id>https://alignment.anthropic.com/2026/backdooring-classifiers/</id>
-    <title>Poisoning Fine-tuning Datasets of Constitutional Classifiers</title>
-    <updated>2026-04-24T00:00:00+00:00</updated>
-    <content>Poisoning Fine-tuning Datasets of Constitutional Classifiers</content>
-    <link href="https://alignment.anthropic.com/2026/backdooring-classifiers/" rel="alternate"/>
-    <category term="Anthropic Alignment Science" label="Anthropic Alignment Science"/>
-    <published>2026-04-24T00:00:00+00:00</published>
   </entry>
 </feed>

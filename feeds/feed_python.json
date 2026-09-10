@@ -8,12 +8,12 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/49ba5cd3de7391b0",
-      "url": "https://pypi.org/project/nemo-sandboxed-gym/0.0.0a0/",
-      "title": "nemo-sandboxed-gym 0.0.0a0",
-      "content_text": "Zero version placeholder for nemo_sandboxed_gym",
-      "date_published": "2026-09-10T16:40:34Z",
-      "date_modified": "2026-09-10T16:40:34Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/fb904359834dd85d",
+      "url": "https://pypi.org/project/geocif/0.4.1015/",
+      "title": "geocif 0.4.1015",
+      "content_text": "Models to visualize and forecast crop conditions and yields",
+      "date_published": "2026-09-10T20:56:54Z",
+      "date_modified": "2026-09-10T20:56:54Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -24,12 +24,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/6f93c3772416f3f5",
-      "url": "https://pypi.org/project/chowda/0.7.0/",
-      "title": "chowda 0.7.0",
-      "content_text": "A CLAMS processing application",
-      "date_published": "2026-09-10T16:40:20Z",
-      "date_modified": "2026-09-10T16:40:20Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/40c763d05d655ff4",
+      "url": "https://pypi.org/project/aggfly/0.4.0/",
+      "title": "aggfly 0.4.0",
+      "content_text": "Efficient spatial and temporal aggregation of gridded climate data",
+      "date_published": "2026-09-10T20:56:51Z",
+      "date_modified": "2026-09-10T20:56:51Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -40,12 +40,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/a0a4dc4c82381151",
-      "url": "https://pypi.org/project/scubiee/0.3.32/",
-      "title": "scubiee 0.3.32",
-      "content_text": "Scubiee — local AI code context engine: setup once, connect tools, CUDA/DirectML/MLX/CPU.",
-      "date_published": "2026-09-10T16:40:14Z",
-      "date_modified": "2026-09-10T16:40:14Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/bd66654ea5d84985",
+      "url": "https://pypi.org/project/pyplines/2026.9.2a7/",
+      "title": "pyplines 2026.9.2a7",
+      "content_text": "core pyplines library and sdk",
+      "date_published": "2026-09-10T20:56:40Z",
+      "date_modified": "2026-09-10T20:56:40Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -56,12 +56,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/4cb5e9a28e128284",
-      "url": "https://pypi.org/project/pytgcli/0.11.0/",
-      "title": "pytgcli 0.11.0",
-      "content_text": "CLI tool to read Telegram messages from the terminal",
-      "date_published": "2026-09-10T16:39:31Z",
-      "date_modified": "2026-09-10T16:39:31Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/e3d91e8df5580b76",
+      "url": "https://pypi.org/project/pyplines-cli/2026.9.2a7/",
+      "title": "pyplines-cli 2026.9.2a7",
+      "content_text": "The official command-line interface for Pyplines",
+      "date_published": "2026-09-10T20:56:36Z",
+      "date_modified": "2026-09-10T20:56:36Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -72,12 +72,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/50b01a92e13dcb91",
-      "url": "https://pypi.org/project/omnicrawl-agent/0.1.50/",
-      "title": "omnicrawl-agent 0.1.50",
-      "content_text": "Local OmniCrawl agent with TUI, tools, MCP and NPM Hook plugins",
-      "date_published": "2026-09-10T16:39:30Z",
-      "date_modified": "2026-09-10T16:39:30Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/f4fbf305db299922",
+      "url": "https://pypi.org/project/pyplines-builder/2026.9.2a7/",
+      "title": "pyplines-builder 2026.9.2a7",
+      "content_text": "Build and sign Pyplines Actions and Distributions",
+      "date_published": "2026-09-10T20:56:36Z",
+      "date_modified": "2026-09-10T20:56:36Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -85,6 +85,29 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/5f3073669b962c21",
+      "url": "https://talkpython.fm/episodes/show/562/ducklake-the-lakehouse-thats-just-sql-and-parquet",
+      "title": "Talk Python to Me: #562: DuckLake: The Lakehouse That's Just SQL and Parquet",
+      "content_text": "How many files does your query read before it reads any data? On some data lakes, you go through JSON and metadata files first, just to learn which Parquet files matter. DuckLake asks one SQL question instead. The metadata lives in a real database. The data stays in plain Parquet. That's the entire format.\n<br/>\n\n<br/>\nPedro Holanda joined DuckDB in 2018, when it was still a research prototype at CWI. He's the lead DuckLake developer. Guillermo Sanchez Dionis works on DuckLake and the new Quack",
+      "date_published": "2026-09-10T14:59:40Z",
+      "date_modified": "2026-09-10T14:59:40Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://cdn-podcast.talkpython.fm/episodes/youtube_image/wEKbbY5tPtI/ducklake-the-lakehouse-thats-just-sql-and-parquet.jpg?v=1",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-podcast.talkpython.fm/episodes/youtube_image/wEKbbY5tPtI/ducklake-the-lakehouse-thats-just-sql-and-parquet.jpg?v=1",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
@@ -183,7 +206,7 @@
       "id": "tag:trvny.github.io,2024:feedseek/python/16bb66adc8711458",
       "url": "https://blog.europython.eu/europython-2026-videos-published/",
       "title": "EuroPython: EuroPython 2026: Videos Published",
-      "content_text": "Hi all Pythonistas! 👋 EuroPython 2026 took over the ICE Congress Centre in Kraków from 13 - 19 July and it wouldn’t have been possible without all of our attendees, speakers, volunteers, and sponsors. You allowed us to showcase the Python community at its best once again, and the conference truly belongs to all of you 💚 We are now one month on, and we’ve just finished tying up the loose ends over here at EuroPython HQ. In this newsletter, let us look back at some of the highlights of the confere",
+      "content_text": "Hi all Pythonistas! 👋 EuroPython 2026 took over the ICE Congress Centre in Kraków from 13 - 19 July and it wouldn’t have been possible without all of our attendees, speakers, volunteers, and sponsors. You allowed us to showcase the Python community at its best once again, and the conference truly belongs to all of you 💚 We are now two months on, and we’ve just finished tying up the loose ends over here at EuroPython HQ. In this newsletter, let us look back at some of the highlights of the confer",
       "date_published": "2026-09-10T06:43:11Z",
       "date_modified": "2026-09-10T06:43:11Z",
       "authors": [
@@ -348,6 +371,29 @@
         {
           "url": "https://opengraph.githubassets.com/e264eb36/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/40c1060be49d7c49",
+      "url": "https://pydantic.dev/articles/harness-aws-lambda",
+      "title": "Durable Pydantic AI agents on AWS Lambda",
+      "content_text": "Make Pydantic AI agents resumable on AWS Lambda durable functions. AWSLambdaDurability checkpoints model requests and tool calls, so a retry resumes.",
+      "date_published": "2026-09-09T09:00:00Z",
+      "date_modified": "2026-09-09T09:00:00Z",
+      "authors": [
+        {
+          "name": "Pydantic"
+        }
+      ],
+      "image": "https://pydantic.dev/articles/harness-aws-lambda/og.png",
+      "tags": [
+        "Pydantic"
+      ],
+      "attachments": [
+        {
+          "url": "https://pydantic.dev/articles/harness-aws-lambda/og.png",
+          "mime_type": "image/png"
         }
       ]
     },
@@ -1413,29 +1459,6 @@
       "attachments": [
         {
           "url": "https://avatars.githubusercontent.com/u/1244307?s=60&v=4",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/5f15cabb8d7948b4",
-      "url": "https://grahamdumpleton.me/posts/2026/09/beyond-callables-in-wrapture/",
-      "title": "Graham Dumpleton: Beyond callables in wrapture",
-      "content_text": "Every example in this series so far has wrapped a call. A binding named a method, and what flowed through the call was recorded or changed. Plenty of what a test needs to control is not a call, though. An outcome stored in an attribute, an environment variable that must be set or missing, a settings dict that other modules imported by reference at import time, a formatter looked up in a registry, and a generator whose interesting behaviour is spread over its consumption. unittest.mock and pytest",
-      "date_published": "2026-09-05T00:00:00Z",
-      "date_modified": "2026-09-05T00:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/cecfc53e/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
         }
       ]
@@ -2722,29 +2745,6 @@
         {
           "url": "https://avatars.githubusercontent.com/u/63936253?s=60&v=4",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/9b8c7d913b70451d",
-      "url": "https://pydantic.dev/articles/best-ai-agent-optimization-platforms-2026",
-      "title": "Best AI agent optimization platforms in 2026 | Pydantic Logfire",
-      "content_text": "Compare the best AI agent optimization platforms in 2026. See which ones close the loop from a failing production run to a shipped fix, and which only watch.",
-      "date_published": "2026-07-29T09:00:00Z",
-      "date_modified": "2026-07-29T09:00:00Z",
-      "authors": [
-        {
-          "name": "Pydantic"
-        }
-      ],
-      "image": "https://pydantic.dev/articles/best-ai-agent-optimization-platforms-2026/og.png",
-      "tags": [
-        "Pydantic"
-      ],
-      "attachments": [
-        {
-          "url": "https://pydantic.dev/articles/best-ai-agent-optimization-platforms-2026/og.png",
-          "mime_type": "image/png"
         }
       ]
     },

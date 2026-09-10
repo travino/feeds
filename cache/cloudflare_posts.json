@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T16:38:57.976661+00:00",
+  "last_updated": "2026-09-10T21:08:41.701615+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5404,6 +5404,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/f5f68803c2a95150"
     },
     {
+      "title": "Cloudflare Fundamentals, Workers - Enterprise customers can self-serve CDN upload limits up to 5 GB",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-09-04-enterprise-self-serve-upload-limits/",
+      "date": "2026-09-04T00:00:00+00:00",
+      "description": "Enterprise customers can now configure a zone's CDN Maximum Upload Size up to 5 GB directly from the Network page in the Cloudflare dashboard. This removes the need to contact your account team or Cloudflare Support when applications need to accept request bodies larger than 500 MB and no greater than 5 GB. The default maximum upload size remains 500 MB. Upload limits above 5 GB still require additional configuration through your account team or Cloudflare Support . Very large uploads may reach ",
+      "source": "Cloudflare Changelog",
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/3ee2e0d457641f20"
+    },
+    {
       "title": "Elevated connectivity degradation in NRT",
       "link": "https://www.cloudflarestatus.com/incidents/bgbz898hh98g",
       "date": "2026-09-04T02:48:37+00:00",
@@ -5701,6 +5710,15 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/b4970af06372f216"
     },
     {
+      "title": "Containers - Use Cloudflare Containers with Codex via the OpenAI Agents API",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-09-10-using-openai-agents-api-with-cloudflare-containers/",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "The OpenAI Agents API gives your application access to Codex through an OpenAI-managed API. OpenAI manages sessions, orchestration, context compaction, and recovery while your application provides tools and uses Cloudflare Containers as the execution environment. Cloudflare Containers can now provide self-hosted execution environments for the OpenAI Agents API. The open-source OpenAI Agents API Workers template ↗ provides a reference implementation. The Worker maintains a Cloudflare Container fo",
+      "source": "Cloudflare Changelog",
+      "image": "https://developers.cloudflare.com/og-changelog.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/f90998174712f338"
+    },
+    {
       "title": "Workflows - Default instance retention for new Workflows on Workers Paid is seven days",
       "link": "https://developers.cloudflare.com/changelog/post/2026-09-10-paid-retention-default/",
       "date": "2026-09-10T12:00:00+00:00",
@@ -5731,8 +5749,8 @@
     {
       "title": "Issues Editing Bulk Redirects",
       "link": "https://www.cloudflarestatus.com/incidents/92j1xmlkscw3",
-      "date": "2026-09-10T15:59:10+00:00",
-      "description": "Sep 10 , 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains unaffected, and this issue is limited to the configuration of these rules. Further details will be provided as we investigate.",
+      "date": "2026-09-10T16:57:13+00:00",
+      "description": "Sep 10 , 16:57 UTC Resolved - This incident has been resolved. Sep 10 , 15:59 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 15:41 UTC Investigating - Cloudflare is aware of and investigating an issue preventing users from adding new redirects to existing Bulk Redirects. Traffic processed by existing Bulk Redirects remains unaffected, and this issue is limited to the configuration of these rules. Further details will be provided as we investigate.",
       "source": "Cloudflare Status",
       "image": null,
       "image_checked": true,

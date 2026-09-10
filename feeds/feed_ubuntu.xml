@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-10T16:41:13.041617+00:00</updated>
+  <updated>2026-09-10T21:10:53.215024+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/a275444ff498b631</id>
+    <title>Liquid Glass GNOME Shell extension uses real refraction shaders</title>
+    <updated>2026-09-10T20:19:14+00:00</updated>
+    <content>You can now give the Ubuntu desktop a ‘Liquid Glass’ makeover using a new GNOME Shell Extension that written with ‘significant’ help from AI. Its developer, Ryosuke Watanabe, said they loved the look of Liquid Glass – Apple’s new design material that gives UI elements light-bending surfaces with depth and motion – but, not owning an Apple device, wanted a way to enjoy it on their Linux desktop. So they created an extension to do it. “The design, the shader math, the architecture decisions, and a</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/liquid-glass-gnome-shell" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-10T20:19:14+00:00</published>
+    <media:group>
+      <media:content url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/liquid-glass-gnome-406x232.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/liquid-glass-gnome-406x232.webp"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/liquid-glass-gnome-406x232.webp" type="image/webp" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/c200961ec2ebb46c</id>
     <title>NVIDIA 615.71.09 Released with Better Windows Gaming on Linux</title>
@@ -981,21 +996,6 @@
     </media:group>
     <dc:creator>OMG! Ubuntu</dc:creator>
     <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-phone-scaled.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/928ce7e8d2ac9c78</id>
-    <title>Postcard is a new email client for GNOME, built with AI</title>
-    <updated>2026-08-22T02:05:38+00:00</updated>
-    <content>Postcard is a new email client for GNOME sporting a modern design reminiscent of Geary. The app is the work of a solo developer, gxanshu on GitHub, who is upfront about using AI coding tools to bring this “modern mail client” to life. Postcard is written in Python with GTK4/libadwaita. It uses imaplib and smtplib for networking, a local SQLite index for searching, WebKitGTK for rendering HTML and libsecret for keeping passwords safe. It’s also open source, so the code is inspectable. Visually, P</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/postcard-gnome-email-client" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-22T02:05:38+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/postcard-gnome-email-client.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/postcard-gnome-email-client.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/postcard-gnome-email-client.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/79093b171c98c55c</id>

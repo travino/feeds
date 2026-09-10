@@ -1,150 +1,6 @@
 {
-  "last_updated": "2026-09-10T16:38:44.712928+00:00",
+  "last_updated": "2026-09-10T21:08:32.601925+00:00",
   "entries": [
-    {
-      "title": "Secure way to set up IPsec VPN between IBM Cloud and an AWS-managed VPN endpoint with static routing",
-      "link": "https://repost.aws/articles/AR7zue9itsTl2IiWyIj4Pzfw/secure-way-to-set-up-ipsec-vpn-between-ibm-cloud-and-an-aws-managed-vpn-endpoint-with-static-routing",
-      "date": "2023-11-07T16:25:19.811000+00:00",
-      "description": "Abstract: This article presents a comprehensive guide on establishing a secure IPsec VPN connection between IBM Cloud and an AWS-managed VPN endpoint using static routing. It outlines step-by-step instructions, best practices, and key considerations to ensure a robust and reliable connection, enhancing the security and interoperability of multi-cloud environments.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b414c64b40abc027"
-    },
-    {
-      "title": "AWS Service Management Connector introduces AWS Health and AWS Systems Manager OpsCenter integrations in Jira Cloud",
-      "link": "https://repost.aws/articles/ARCRcAgYIkR4OrpC2AnYYA-Q/aws-service-management-connector-introduces-aws-health-and-aws-systems-manager-opscenter-integrations-in-jira-cloud",
-      "date": "2023-11-07T16:33:59.045000+00:00",
-      "description": "New integrations for AWS Service Management Connector",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/5da3de33ec49d331"
-    },
-    {
-      "title": "AWS Health enhances integration via AWS Service Management Connector for ServiceNow",
-      "link": "https://repost.aws/articles/AR6yujrnTGQsyRmg_wY6DUMA/aws-health-enhances-integration-via-aws-service-management-connector-for-servicenow",
-      "date": "2023-11-07T16:40:13.242000+00:00",
-      "description": "AWS Service Management Connector enhancement with AWS Health",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/102a16c667eaa92e"
-    },
-    {
-      "title": "Efficiently way to use a dynamic BGP to create a VPN tunnel between AWS and Oracle Cloud Infrastructure",
-      "link": "https://repost.aws/articles/ARnKpCcXwcRt2Fad8h_UubHA/efficiently-way-to-use-a-dynamic-bgp-to-create-a-vpn-tunnel-between-aws-and-oracle-cloud-infrastructure",
-      "date": "2023-11-07T16:43:00.289000+00:00",
-      "description": "Abstract: This article offers insights into efficiently leveraging dynamic BGP (Border Gateway Protocol) to establish a VPN tunnel between AWS and Oracle Cloud Infrastructure. It explores practical strategies, configuration tips, and considerations for optimizing network connectivity in multi-cloud environments, enhancing agility and performance.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/04eb179dc049a387"
-    },
-    {
-      "title": "AWS Client VPN connection and traffic flow handling simplified",
-      "link": "https://repost.aws/articles/ARYB4LBePgRO6vf7XMRfzWFQ/aws-client-vpn-connection-and-traffic-flow-handling-simplified",
-      "date": "2023-11-07T18:42:54.333000+00:00",
-      "description": "AWS Client VPN is a managed client-based VPN service that enables you to securely access AWS resources and resources in your on-premises network. This guide provides a simplified view on the client connection phases and subsequent traffic flow handling of AWS Client VPN service.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/7f71816ca42b11e8"
-    },
-    {
-      "title": "Migrate from MySQL running on VMware Cloud on AWS to Amazon Aurora using AWS Database Migration Service (DMS)",
-      "link": "https://repost.aws/articles/ARrTwlNdISQPu3tGIkSxqQuQ/migrate-from-mysql-running-on-vmware-cloud-on-aws-to-amazon-aurora-using-aws-database-migration-service-dms",
-      "date": "2023-11-08T13:38:00.846000+00:00",
-      "description": "Demonstrate one of the modernization methods starting with VMware Cloud on AWS and AWS Database Migration Service (DMS)",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/657b477a3ddebf59"
-    },
-    {
-      "title": "Generative AI with Amazon Bedrock and Amazon Athena",
-      "link": "https://repost.aws/articles/ARDEyn8B0aQLud6ZGK7yyX3Q/generative-ai-with-amazon-bedrock-and-amazon-athena",
-      "date": "2023-11-09T01:23:02.365000+00:00",
-      "description": "This article demonstrates how to leverage Amazon Bedrock to build a simple chatbot that effectively combines both user input and Amazon Athena-processed data to provide insightful and data-based responses in real-time.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1b52a99ee6c71b93"
-    },
-    {
-      "title": "Know Before You Go – AWS re:Invent 2023 | AWS Management Console",
-      "link": "https://repost.aws/articles/ARTO5nRelDTqmOcI_dW-yKag/know-before-you-go-aws-re-invent-2023-aws-management-console",
-      "date": "2023-11-09T18:31:05.954000+00:00",
-      "description": "New this year, the AWS Customer Experience team has tips to help you enhance your re:Invent experience and learn about various improvements that make AWS even easier to use.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/99bdf08326a1be94"
-    },
-    {
-      "title": "Extend your Amazon Managed Grafana experience with Grafana community plugins",
-      "link": "https://repost.aws/articles/ARWgsAWxx6SDuPIFnhsw3vKQ/extend-your-amazon-managed-grafana-experience-with-grafana-community-plugins",
-      "date": "2023-11-16T02:28:08.179000+00:00",
-      "description": "Amazon Managed Grafana now supports discovery and installation of Grafana community plugins",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/e575cd667d5d7b03"
-    },
-    {
-      "title": "Amazon EKS and Kubernetes sessions at AWS re:Invent 2023",
-      "link": "https://repost.aws/articles/ARIYiZLA3hQ0m7m773eChp4g/amazon-eks-and-kubernetes-sessions-at-aws-re-invent-2023",
-      "date": "2023-11-16T15:54:02.996000+00:00",
-      "description": "Hey Kubernetes enthusiasts! Headed to re:Invent?",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/8a2a96d39f1b1151"
-    },
-    {
-      "title": "Amazon GameLift releases a major update to the GameLift plugin for Unity on GitHub",
-      "link": "https://repost.aws/articles/ARNfrK21KlRmiMqxmpSrbqHQ/amazon-gamelift-releases-a-major-update-to-the-gamelift-plugin-for-unity-on-github",
-      "date": "2023-11-16T21:13:54.376000+00:00",
-      "description": "Amazon GameLift releases a major update to the standalone plugin for Unity game engine on GitHub that now supports the latest versions of Unity Long Term Support (LTS) and Amazon GameLift Server SDK",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/19537ca48f669158"
-    },
-    {
-      "title": "Cost optimization tips for AWS IoT Workloads",
-      "link": "https://repost.aws/articles/AR7uHw_LKuT-GqP7v_4tIcOg/cost-optimization-tips-for-aws-iot-workloads",
-      "date": "2023-11-17T16:07:05.276000+00:00",
-      "description": "Cost optimization best practices, suggestions, and tips gathered from the AWS IoT Well-architected Lens as well as various other videos and posts.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/7dbc09df461742d1"
-    },
-    {
-      "title": "VMware on AWS Updates - November 2023",
-      "link": "https://repost.aws/articles/ARz287H1ShQuSWdwkXk9oR-w/vmware-on-aws-updates-november-2023",
-      "date": "2023-11-20T01:12:32.360000+00:00",
-      "description": "Recent updates from the last month related to VMware and AWS Services",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b4e75ef566d6ed3e"
-    },
-    {
-      "title": "Busting Cloud Myths: True Nature of Cloud Design",
-      "link": "https://repost.aws/articles/ARiDSCRm2mQXixVQ0kutNbxA/busting-cloud-myths-true-nature-of-cloud-design",
-      "date": "2023-11-20T12:54:26.644000+00:00",
-      "description": "Busting Cloud Myths: True Nature of Cloud Design",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/aa242e9029e01860"
-    },
-    {
-      "title": "AWS Transfer Family expands logical directories limit",
-      "link": "https://repost.aws/articles/ARhyJX2tX6Tyu_GNVlv5Wxzw/aws-transfer-family-expands-logical-directories-limit",
-      "date": "2023-11-20T15:12:03.054000+00:00",
-      "description": "AWS Transfer Family New Feature Launch Announcement",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/7065eebd7c88e1a5"
-    },
-    {
-      "title": "AWS Transfer Family announces an alternate port for SFTP servers",
-      "link": "https://repost.aws/articles/ARYa28Ge48T4uuIu6OEL2UXA/aws-transfer-family-announces-an-alternate-port-for-sftp-servers",
-      "date": "2023-11-20T15:13:39.705000+00:00",
-      "description": "AWS Transfer Family New Feature Launch Announcement",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/6975bade00610f4a"
-    },
-    {
-      "title": "Retrieving usage reports after migrating accounts between AWS Organizations",
-      "link": "https://repost.aws/articles/ARW-GP6JaZR0C-vts_RfDhrg/retrieving-usage-reports-after-migrating-accounts-between-aws-organizations",
-      "date": "2023-11-20T20:58:20.378000+00:00",
-      "description": "When accounts are migrated between AWS Organizations, their past spend and usage history is not moved with them. Users may not be aware of this, raising concerns only after a migration is complete.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c88123ba3cdb2890"
-    },
-    {
-      "title": "Amazon GameLift launches support for third-party Infrastructure as Code tools like Terraform and Pulumi",
-      "link": "https://repost.aws/articles/AR5xdT47ECTqiKZl-MU3jf8w/amazon-gamelift-launches-support-for-third-party-infrastructure-as-code-tools-like-terraform-and-pulumi",
-      "date": "2023-11-21T19:10:23.861000+00:00",
-      "description": "Amazon GameLift announces support for the Infrastructure as Code (IaC) platform, which includes Terraform and Pulumi, powered by AWS Cloud Control API. This update makes it easy for developers to manage their cloud infrastructure in a consistent manner and leverage the latest AWS capabilities faster.",
-      "source": "AWS re:Post Articles",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1b25e26386e2175a"
-    },
     {
       "title": "IAM Access Analyzer now simplifies inspecting unused access to guide you toward least privilege",
       "link": "https://repost.aws/articles/AR4E95wWwoRLiG_lAaI9iV3Q/iam-access-analyzer-now-simplifies-inspecting-unused-access-to-guide-you-toward-least-privilege",
@@ -13939,15 +13795,6 @@
       "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
     },
     {
-      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
-      "date": "2026-08-19T15:00:00+00:00",
-      "description": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring third-party monitoring tools or Amazon CloudWatch expertise. Previously, enterprise customers managing large WorkSpaces Applications deployments relied on external solutions or built complex custom CloudWatch dashboards. Now, comprehensive mo",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/09fef912acb668fc"
-    },
-    {
       "title": "AWS IAM now supports 20 managed policies per role by default",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-quota-increase/",
       "date": "2026-08-19T15:00:00+00:00",
@@ -13955,6 +13802,15 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/02e3ff4b3ee6f3db"
+    },
+    {
+      "title": "Amazon WorkSpaces Applications now offers in-console monitoring capabilities",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-console-monitoring",
+      "date": "2026-08-19T15:00:00+00:00",
+      "description": "Amazon WorkSpaces Applications now offers a native monitoring experience embedded directly in the service console. Administrators can now access real-time session-level metrics, instance-level resource data, and network performance metrics without requiring third-party monitoring tools or Amazon CloudWatch expertise. Previously, enterprise customers managing large WorkSpaces Applications deployments relied on external solutions or built complex custom CloudWatch dashboards. Now, comprehensive mo",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/09fef912acb668fc"
     },
     {
       "title": "Amazon Quick adds deny by default for custom permissions",
@@ -14177,16 +14033,6 @@
       "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
     },
     {
-      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
-      "date": "2026-08-20T15:00:00+00:00",
-      "description": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to 1,000 prefixes each for IPv4 and IPv6 on your VIFs on dedicated and hosted connections. Previously, Direct Connect VIFs accepted a maximum of 100 route prefixes advertised from your on-premises network to AWS on a private or transit VIF. If ",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/08845a71d763c0bb",
-      "image_checked": true
-    },
-    {
       "title": "Amazon Redshift introduces long-term system table retention with Amazon S3 Tables integration",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-long-term-system-table-retention/",
       "date": "2026-08-20T15:00:00+00:00",
@@ -14194,6 +14040,16 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/84236c78d053fd39",
+      "image_checked": true
+    },
+    {
+      "title": "AWS Direct Connect introduces inbound prefix controls and higher prefix scale",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-direct-connect-new-prefix-controls",
+      "date": "2026-08-20T15:00:00+00:00",
+      "description": "Today, AWS Direct Connect announced inbound prefix controls, a new capability that lets you allocate and manage inbound route-prefix allocations for your private and transit virtual interfaces (VIFs) based on your workload's needs. You can now allocate up to 1,000 prefixes each for IPv4 and IPv6 on your VIFs on dedicated and hosted connections. Previously, Direct Connect VIFs accepted a maximum of 100 route prefixes advertised from your on-premises network to AWS on a private or transit VIF. If ",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/08845a71d763c0bb",
       "image_checked": true
     },
     {
@@ -14248,16 +14104,6 @@
       "image_height": 600
     },
     {
-      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
-      "date": "2026-08-20T18:30:00+00:00",
-      "description": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows encrypted connections to the cluster's Kubernetes API, and now you can rotate the CA before it expires to ensure your cluster remains operational and secure. Amazon EKS clusters created since launch in 2018 have CAs with a 10-year validity perio",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1425590b7e6317fb",
-      "image_checked": true
-    },
-    {
       "title": "Amazon CloudFront now supports Origin Access Control (OAC) for Amazon S3 Multi-Region Access Points",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudfront-oac-s3-mrap",
       "date": "2026-08-20T18:30:00+00:00",
@@ -14265,6 +14111,16 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/3fbfe3bdc5fdc4fb",
+      "image_checked": true
+    },
+    {
+      "title": "Amazon EKS now supports certificate authority (CA) rotation with automated lifecycle management",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-eks-certificate-authority-ca-rotation-automated-lifecycle-management",
+      "date": "2026-08-20T18:30:00+00:00",
+      "description": "Today, Amazon Elastic Kubernetes Service (Amazon EKS) announced certificate authority (CA) rotation, enabling customers to rotate their cluster's CA through a managed lifecycle with automated safeguards. Each Amazon EKS cluster has its own CA that allows encrypted connections to the cluster's Kubernetes API, and now you can rotate the CA before it expires to ensure your cluster remains operational and secure. Amazon EKS clusters created since launch in 2018 have CAs with a 10-year validity perio",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1425590b7e6317fb",
       "image_checked": true
     },
     {
@@ -14287,23 +14143,13 @@
       "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png"
     },
     {
-      "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
       "date": "2026-08-20T20:00:00+00:00",
-      "description": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key when creating a database resource. Timestream for InfluxDB uses the selected key to encrypt the underlying database storage for InfluxDB 2 and InfluxDB 3 resources. The key must be in the same AWS account and AWS Region as the database resourc",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are available in Mexico (Central) and Asia Pacific (Melbourne), and R8gd instances are available in Europe (Zurich). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. ",
       "source": "AWS What's New",
       "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c45845bee21a4c30",
-      "image_checked": true
-    },
-    {
-      "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
-      "date": "2026-08-20T20:00:00+00:00",
-      "description": "Amazon Redshift , starting with patch P203 , supports concurrency scaling for refreshes of Amazon Kinesis Data Streams (KDS)-connected streaming materialized views (MVs). Amazon Web Services (AWS) Redshift Streaming Ingestion enables low-latency, high-speed data ingestion from Amazon KDS to Amazon Redshift data warehouses. The data lands in a Redshift streaming materialized view, providing fast access to external data, lowering data-access time, and reducing storage costs. Users can configure st",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1f375c3afc249c2f",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/79714b5f36dd1b3b",
       "image_checked": true
     },
     {
@@ -14317,13 +14163,23 @@
       "image_checked": true
     },
     {
-      "title": "Amazon EC2 C8gd, M8gd and R8gd instances are now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8gd-m8gd/",
+      "title": "Amazon Redshift now supports concurrency scaling of streaming ingestion workloads from Amazon Kinesis data streams",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/redshift-concurrencyscaling-for-kds-streams/",
       "date": "2026-08-20T20:00:00+00:00",
-      "description": "Amazon Elastic Compute Cloud (Amazon EC2) C8gd, M8gd, and R8gd instances with up to 11.4 TB of local NVMe-based SSD block-level storage are now available in additional regions. C8gd instances are now available in Asia Pacific (Singapore), M8gd instances are available in Mexico (Central) and Asia Pacific (Melbourne), and R8gd instances are available in Europe (Zurich). These instances are powered by AWS Graviton4 processors, delivering up to 30% better performance over Graviton3-based instances. ",
+      "description": "Amazon Redshift , starting with patch P203 , supports concurrency scaling for refreshes of Amazon Kinesis Data Streams (KDS)-connected streaming materialized views (MVs). Amazon Web Services (AWS) Redshift Streaming Ingestion enables low-latency, high-speed data ingestion from Amazon KDS to Amazon Redshift data warehouses. The data lands in a Redshift streaming materialized view, providing fast access to external data, lowering data-access time, and reducing storage costs. Users can configure st",
       "source": "AWS What's New",
       "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/79714b5f36dd1b3b",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1f375c3afc249c2f",
+      "image_checked": true
+    },
+    {
+      "title": "Amazon Timestream for InfluxDB now supports customer managed keys",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-timestream-influxdb-cmk/",
+      "date": "2026-08-20T20:00:00+00:00",
+      "description": "Amazon Timestream for InfluxDB now supports AWS Key Management Service (AWS KMS) customer managed keys for encrypting data at rest in InfluxDB 2 database instances, InfluxDB 2 Read Replicas, and InfluxDB 3 clusters. Customers select a symmetric AWS KMS key when creating a database resource. Timestream for InfluxDB uses the selected key to encrypt the underlying database storage for InfluxDB 2 and InfluxDB 3 resources. The key must be in the same AWS account and AWS Region as the database resourc",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c45845bee21a4c30",
       "image_checked": true
     },
     {
@@ -14521,16 +14377,6 @@
       "image_checked": true
     },
     {
-      "title": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support",
-      "date": "2026-08-24T15:00:00+00:00",
-      "description": "Amazon MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers - to Amazon MSK Provisioned clusters . With this capability, external Apache Kafka clusters configured with OAuth/OIDC authentication can now use MSK Replicator to migrate workloads to Amazon MSK, support disaster recovery by using MSK-based clusters as a failover or backup target and enable ",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/58824d5c618438a0",
-      "image_checked": true
-    },
-    {
       "title": "Amazon SageMaker HyperPod enhances support for Ray",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-sagemaker-hyperpod-ray",
       "date": "2026-08-24T15:00:00+00:00",
@@ -14538,6 +14384,16 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/4445561be7100727",
+      "image_checked": true
+    },
+    {
+      "title": "MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for replication from external Apache Kafka clusters to Amazon MSK",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-msk-replicator-OAuth-support",
+      "date": "2026-08-24T15:00:00+00:00",
+      "description": "Amazon MSK Replicator now supports OAuth 2.0 (SASL/OAUTHBEARER) authentication for data replication from external Apache Kafka clusters - including on-premises, self-managed on AWS, or other cloud providers - to Amazon MSK Provisioned clusters . With this capability, external Apache Kafka clusters configured with OAuth/OIDC authentication can now use MSK Replicator to migrate workloads to Amazon MSK, support disaster recovery by using MSK-based clusters as a failover or backup target and enable ",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/58824d5c618438a0",
       "image_checked": true
     },
     {
@@ -14670,16 +14526,6 @@
       "image_checked": true
     },
     {
-      "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
-      "date": "2026-08-25T13:00:00+00:00",
-      "description": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcoming managed runtimes before their general availability (GA) release and to share their feedback with the Lambda team. Previously, Lambda managed runtimes were launched directly as GA releases. Since the runtimes could immediately be used by production workloads, the Lambda team couldn’t make changes",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/6f3effcbb057e751",
-      "image_checked": true
-    },
-    {
       "title": "Amazon EC2 M8i and M8i-flex instances are now available in Canada West (Calgary) region",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/ec2-m8i-m8i-flex-canada-west/",
       "date": "2026-08-25T13:00:00+00:00",
@@ -14687,6 +14533,16 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/6cf7815594bad5de",
+      "image_checked": true
+    },
+    {
+      "title": "AWS Lambda introduces managed runtimes in public preview for Node.js 26 and Python 3.15",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-lambda-node-js-python-public-preview/",
+      "date": "2026-08-25T13:00:00+00:00",
+      "description": "Today, AWS Lambda introduces managed runtimes in public preview, starting with Node.js 26 and Python 3.15. This gives customers, partners and upstream language communities the opportunity to try upcoming managed runtimes before their general availability (GA) release and to share their feedback with the Lambda team. Previously, Lambda managed runtimes were launched directly as GA releases. Since the runtimes could immediately be used by production workloads, the Lambda team couldn’t make changes",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/6f3effcbb057e751",
       "image_checked": true
     },
     {
@@ -14700,16 +14556,6 @@
       "image_checked": true
     },
     {
-      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
-      "date": "2026-08-25T16:00:00+00:00",
-      "description": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later when the customer is not identified at case creation, such as for calls from a shared phone number or issues that require identity verification. Amazon Connect Cases is available in the following AWS regions: US East (N. Virginia), US West (Or",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/975fc18204680f4c",
-      "image_checked": true
-    },
-    {
       "title": "Amazon RDS for PostgreSQL supports minor versions 18.6, 17.11, 16.15, 15.19, and 14.24",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-rds-postgresql-18-6-17-11-16-15-15-19-14-24/",
       "date": "2026-08-25T16:00:00+00:00",
@@ -14717,6 +14563,16 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2c9a0c3f6d04c9c8",
+      "image_checked": true
+    },
+    {
+      "title": "Amazon Connect Customer now lets you update the customer profile on a case or add a profile after a case is opened",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-connect-cases-flexible-profiles/",
+      "date": "2026-08-25T16:00:00+00:00",
+      "description": "Amazon Connect Customer now lets agents change the profile on a case or choose a profile after the case is opened. If a case is linked to the wrong customer, agents can update the profile to keep case histories accurate. Agents can also add a profile later when the customer is not identified at case creation, such as for calls from a shared phone number or issues that require identity verification. Amazon Connect Cases is available in the following AWS regions: US East (N. Virginia), US West (Or",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/975fc18204680f4c",
       "image_checked": true
     },
     {
@@ -14780,16 +14636,6 @@
       "image_checked": true
     },
     {
-      "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
-      "date": "2026-08-25T20:00:00+00:00",
-      "description": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Europe (Ireland, Stockholm). R8id instances feature up to 22.8TB of NVMe SSD local instance storage, 3x more than R6id, and provide up to 3.3x higher memory bandwidth, delivering up to 43% higher performance compared to R6id instances. They are ideal for memory-intensive workloads that benefit from hig",
-      "source": "AWS What's New",
-      "image": null,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/6788715af0c9ab50",
-      "image_checked": true
-    },
-    {
       "title": "Amazon EC2 C8id and M8id instances are now available in additional AWS Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-c8id-m8id-aws-regions/",
       "date": "2026-08-25T20:00:00+00:00",
@@ -14797,6 +14643,16 @@
       "source": "AWS What's New",
       "image": null,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/3df36be50ae8c13f",
+      "image_checked": true
+    },
+    {
+      "title": "Amazon EC2 R8id instances are now available in additional AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-ec2-r8id/",
+      "date": "2026-08-25T20:00:00+00:00",
+      "description": "Amazon Elastic Compute Cloud (Amazon EC2) R8id instances are now available in additional regions. R8id instances are now available in Asia Pacific (Mumbai, Malaysia, Sydney), Canada (Central), and Europe (Ireland, Stockholm). R8id instances feature up to 22.8TB of NVMe SSD local instance storage, 3x more than R6id, and provide up to 3.3x higher memory bandwidth, delivering up to 43% higher performance compared to R6id instances. They are ideal for memory-intensive workloads that benefit from hig",
+      "source": "AWS What's New",
+      "image": null,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/6788715af0c9ab50",
       "image_checked": true
     },
     {
@@ -14986,14 +14842,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/3ff27828d534b2cd"
     },
     {
-      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
+      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
       "date": "2026-08-27T18:00:00+00:00",
-      "description": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a sp",
+      "description": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency. With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of c",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fc841c5d91703b7a"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/67aa9c0c6ce5274e"
     },
     {
       "title": "Amazon Bedrock AgentCore expands to two new regions",
@@ -15006,14 +14862,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/691c013d18816999"
     },
     {
-      "title": "Amazon Connect Customer expands conversational analytics capabilities in the Africa (Cape Town) Region",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/connect-customer-analytics-cape-town/",
+      "title": "AWS Elastic Disaster Recovery introduces Recovery Plans for orchestrated application recovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/elastic-disaster-recovery-plans/",
       "date": "2026-08-27T18:00:00+00:00",
-      "description": "Amazon Connect Customer now supports generative AI-powered summaries, real-time call analytics, and real-time rules in the Africa (Cape Town) Region. These capabilities extend the post-contact conversational analytics already available in the Region, giving companies access to AI-powered insights that help them improve customer experience, agent performance, and operational efficiency. With generative AI-powered summaries, supervisors and human-agents receive concise, AI-generated summaries of c",
+      "description": "AWS Elastic Disaster Recovery (AWS DRS) now offers Recovery Plans, a capability that automates the sequential launch of multi-server applications during recovery and drills. Instead of launching servers one at a time and tracking dependencies manually, you define the recovery sequence once and run it with a single action when you need it. This addresses a common challenge for customers running applications made up of databases, application tiers, and supporting services that must come up in a sp",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/67aa9c0c6ce5274e"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fc841c5d91703b7a"
     },
     {
       "title": "Amazon EC2 X8i instances are now available in additional regions",
@@ -15096,16 +14952,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/baba932633ae1c5b"
     },
     {
-      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
-      "date": "2026-08-28T16:00:00+00:00",
-      "description": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.45 release notes. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Upgrade Roll",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/a087d31e4f54cfd0"
-    },
-    {
       "title": "Amazon CloudWatch agent adds support for journald logs",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-cloudwatch-agent-journald/",
       "date": "2026-08-28T16:00:00+00:00",
@@ -15114,6 +14960,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/ef9b971d9d2ace8e"
+    },
+    {
+      "title": "Amazon Aurora MySQL 3.13 (compatible with MySQL 8.0.45) is generally available",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-aurora-mysql-313-available/",
+      "date": "2026-08-28T16:00:00+00:00",
+      "description": "Starting today, Amazon Aurora MySQL-Compatible Edition 3 (compatible with MySQL 8.0) supports MySQL 8.0.45, which includes community MySQL fixes and Aurora-specific improvements. For detailed information on this release, refer to Aurora MySQL 3 and MySQL 8.0.45 release notes. You can upgrade your databases during scheduled maintenance windows using automatic minor version upgrades. To simplify operations at scale, enable automatic minor version upgrades and use the AWS Organizations Upgrade Roll",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/a087d31e4f54cfd0"
     },
     {
       "title": "Amazon EMR on EKS now supports job run concurrency controls",
@@ -15166,16 +15022,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/dd011211b19975db"
     },
     {
-      "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
-      "date": "2026-08-28T20:00:00+00:00",
-      "description": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restric",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/7c02579279c302db"
-    },
-    {
       "title": "Amazon Bedrock AgentCore Memory now supports flexible namespace variables",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-flexible-namespaces",
       "date": "2026-08-28T20:00:00+00:00",
@@ -15184,6 +15030,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/949d3bd410987973"
+    },
+    {
+      "title": "Amazon Bedrock AgentCore Memory now supports fine-grained access control",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/agentcorememory-fine-grained-access-control",
+      "date": "2026-08-28T20:00:00+00:00",
+      "description": "Amazon Bedrock AgentCore Memory now supports fine-grained access control (FGAC), enabling you to enforce per-user and per-tenant memory isolation through AgentCore Gateway without building custom authorization logic. With FGAC, you can front your Memory resource with an AgentCore Gateway configured for OAuth (JWT) authentication and attach Cedar policies that restrict access based on the authenticated caller's identity. You can enforce that each user only accesses their own actor's data, restric",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/7c02579279c302db"
     },
     {
       "title": "How do I troubleshoot CPU and memory spikes that cause unexpected scaling in Amazon ECS?",
@@ -15291,14 +15147,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/af09bc3287abe775"
     },
     {
-      "title": "AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/",
+      "title": "Amazon WorkSpaces Applications is now available in three new AWS Regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion",
       "date": "2026-08-31T15:00:00+00:00",
-      "description": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multiple cloud service providers (C",
+      "description": "Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich), Asia Pacific (Osaka), and Canada West (Calgary) Regions and stream them using WorkSpaces Applications. Deploying your applications on WorkSpaces Applications in a region closer to your end users helps provide a more responsive experience. Additionally, customers in Europe, Asia Pacific, and Canada now",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c6c28b29bbed7047"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/99ea9b412b221130"
     },
     {
       "title": "Amazon MSK Connect now supports restarting connectors",
@@ -15311,14 +15167,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1bbba4307b7d231e"
     },
     {
-      "title": "Amazon WorkSpaces Applications is now available in three new AWS Regions",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/amazon-workspaces-applications-region-expansion",
+      "title": "AWS announces AWS Interconnect - multicloud connectivity with Microsoft Azure in preview",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-announces-AWS-interconnect-multicloud-microsoft-azure-preview/",
       "date": "2026-08-31T15:00:00+00:00",
-      "description": "Amazon Web Services (AWS) has expanded the regional availability for Amazon WorkSpaces Applications. Starting today, AWS customers can deploy their applications and desktops in the Europe (Zurich), Asia Pacific (Osaka), and Canada West (Calgary) Regions and stream them using WorkSpaces Applications. Deploying your applications on WorkSpaces Applications in a region closer to your end users helps provide a more responsive experience. Additionally, customers in Europe, Asia Pacific, and Canada now",
+      "description": "AWS announces the public preview of AWS Interconnect — multicloud with Microsoft Azure. Customers have been adopting multicloud strategies while migrating more applications to the cloud. They do so for many reasons including interoperability requirements, the freedom to choose technology that best suits their needs, and the ability to build and deploy applications on any environment with greater ease and speed. Previously, when interconnecting workloads across multiple cloud service providers (C",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/99ea9b412b221130"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c6c28b29bbed7047"
     },
     {
       "title": "Introducing a standalone SigV4 signer for the AWS SDK for .NET",
@@ -15585,16 +15441,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/807d08906d6f9c80"
     },
     {
-      "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
-      "date": "2026-09-01T15:00:00+00:00",
-      "description": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud. Apache Airflow 3.3 introduces stateful tasks and multi-language support. With the new Task and Asset State Store, tasks can now persist durable state across retries and reruns, ",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/f095f9df2af10029"
-    },
-    {
       "title": "AWS Marketplace now supports auto-renewals for private offers",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-auto-renewals-for-private-offers",
       "date": "2026-09-01T15:00:00+00:00",
@@ -15603,6 +15449,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/0ba18c7f0493f371"
+    },
+    {
+      "title": "Amazon MWAA supports Apache Airflow version 3.3.1",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-apache-airflow-3-3-1/",
+      "date": "2026-09-01T15:00:00+00:00",
+      "description": "Amazon Managed Workflows for Apache Airflow (MWAA) now supports Apache Airflow version 3.3.1, the latest release of the popular open-source workflow orchestration framework. Amazon MWAA is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud. Apache Airflow 3.3 introduces stateful tasks and multi-language support. With the new Task and Asset State Store, tasks can now persist durable state across retries and reruns, ",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/f095f9df2af10029"
     },
     {
       "title": "Amazon Connect Customer dashboards now support compact mode",
@@ -15615,16 +15471,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2c96284937530fee"
     },
     {
-      "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
-      "date": "2026-09-01T18:00:00+00:00",
-      "description": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required per",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c8e7e3c37923ca5b"
-    },
-    {
       "title": "AWS Marketplace reduces listing fee for professional services in multi-product solutions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-marketplace-fee-professional-services/",
       "date": "2026-09-01T18:00:00+00:00",
@@ -15633,6 +15479,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/faecc5cd8ae2c36c"
+    },
+    {
+      "title": "AWS Backup now supports protecting more than 1,000 Amazon S3 buckets per account",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-backup-more-than-1000-s3-buckets/",
+      "date": "2026-09-01T18:00:00+00:00",
+      "description": "AWS Backup now supports backup and restore of more than 1,000 Amazon S3 buckets per account, matching the Amazon S3 bucket quota configured for your account. Previously, AWS Backup for Amazon S3 supported up to 1,000 buckets per account. With this launch, AWS Backup supports backing up all general purpose buckets in your account. Existing backup plans and configurations continue to work with no changes required if you are using default AWS Backup managed policies. For details on the required per",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c8e7e3c37923ca5b"
     },
     {
       "title": "AWS CLI 2.36.37",
@@ -15646,16 +15502,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/4f84126d4ace0210"
     },
     {
-      "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
-      "date": "2026-09-01T19:00:00+00:00",
-      "description": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon Aurora, to give you a complete view of your database fleet in a single console. Amazon CloudWatch Database Insights is a database observability solution that provides a curated experience to help you monitor database fleet health, diagnose iss",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fc4fe7280ad4281f"
-    },
-    {
       "title": "Amazon Kinesis Data Streams now supports a dry run feature to validate API requests",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-kinesis-data-streams-api/",
       "date": "2026-09-01T19:00:00+00:00",
@@ -15664,6 +15510,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/8288e6708cd1d935"
+    },
+    {
+      "title": "Amazon CloudWatch Database Insights now supports self-managed PostgreSQL",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/08/database-insights-self-managed-postgresql/",
+      "date": "2026-09-01T19:00:00+00:00",
+      "description": "Today, AWS announces support for self-managed PostgreSQL databases in Amazon CloudWatch Database Insights. Using CloudWatch Database Insights, you can now monitor your self-managed PostgreSQL instances running on Amazon EC2, alongside Amazon RDS and Amazon Aurora, to give you a complete view of your database fleet in a single console. Amazon CloudWatch Database Insights is a database observability solution that provides a curated experience to help you monitor database fleet health, diagnose iss",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fc4fe7280ad4281f"
     },
     {
       "title": "AWS Deadline Cloud now supports sharing job bundles",
@@ -15793,16 +15649,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/902cb5450013ff70"
     },
     {
-      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
-      "date": "2026-09-02T16:00:00+00:00",
-      "description": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to lau",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/8c7e8a245591793c"
-    },
-    {
       "title": "Second-generation AWS Outposts racks now in the AWS GovCloud (US) Regions",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-outposts-govcloud-us-regions/",
       "date": "2026-09-02T16:00:00+00:00",
@@ -15811,6 +15657,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/da776e3ea9018903"
+    },
+    {
+      "title": "Amazon Connect Customer announces general availability of agentic CX designer",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/agentic-cx-designer/",
+      "date": "2026-09-02T16:00:00+00:00",
+      "description": "Amazon Connect Customer announces the general availability of agentic CX designer, a no-code canvas for designing and deploying AI-powered self-service experiences. You can now build and launch voice and digital experiences that bring agentic and deterministic AI together to transform how you serve customers with the control and reliability enterprises demand. Your business teams users can go from designing conversations and integrating with the systems that run your business, to testing, to lau",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/8c7e8a245591793c"
     },
     {
       "title": "Amazon Quick adds new tool settings and Model Context Protocol (MCP) sync support for connectors",
@@ -15914,16 +15770,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1fb9783229a6920e"
     },
     {
-      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
-      "date": "2026-09-03T15:00:00+00:00",
-      "description": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution. To get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b575561ca2b7396a"
-    },
-    {
       "title": "Amazon MWAA adds built-in monitoring with Amazon CloudWatch",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mwaa-cloudwatch-monitoring/",
       "date": "2026-09-03T15:00:00+00:00",
@@ -15932,6 +15778,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/ac76782c8142b8ba"
+    },
+    {
+      "title": "Amazon SageMaker Unified Studio Workflows support Python and Bash operators",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-workflows-python-bash/",
+      "date": "2026-09-03T15:00:00+00:00",
+      "description": "Amazon SageMaker Unified Studio Workflows now supports PythonOperator and BashOperator, enabling you to run custom Python functions and shell commands directly in your serverless workflows without provisioning separate compute resources. This eliminates the need to offload custom logic to Lambda or ECS for tasks like data transformations or shell script execution. To get started, open a serverless visual workflow in your SageMaker Unified Studio project, search for PythonOperator or BashOperator",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b575561ca2b7396a"
     },
     {
       "title": "Amazon Aurora MySQL now supports multi-source replication and delayed replication",
@@ -15964,16 +15820,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/5c4adf77eccb8a71"
     },
     {
-      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
-      "date": "2026-09-03T17:00:00+00:00",
-      "description": "A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP endpoints to quickly detect failed connections and establish new TCP flows through healthy targets. Previously, when a GWLB target failed, existing TCP connections would continue to be forwarded to the unhealthy target (aka fail-open behavior).",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/ac04c624e4a6dd2e"
-    },
-    {
       "title": "Amazon WorkSpaces Applications adds support for NVIDIA Blackwell GPU instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-workspaces-applications-nvidia-blackwell-gpu-instances/",
       "date": "2026-09-03T17:00:00+00:00",
@@ -15982,6 +15828,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/a4f83077f2d74b8c"
+    },
+    {
+      "title": "AWS Gateway Load Balancer now supports TCP Reset for faster failure recovery",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-gateway-load-balancer-tcp-reset/",
+      "date": "2026-09-03T17:00:00+00:00",
+      "description": "A WS Gateway Load Balancer (GWLB) now supports sending TCP Reset (RST) packets when a target becomes unhealthy, is deregistered, or when a flow's idle timeout expires. This feature helps reduce traffic interruptions from minutes to seconds by enabling TCP endpoints to quickly detect failed connections and establish new TCP flows through healthy targets. Previously, when a GWLB target failed, existing TCP connections would continue to be forwarded to the unhealthy target (aka fail-open behavior).",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/ac04c624e4a6dd2e"
     },
     {
       "title": "Introducing Amazon Quick Max: 5x the usage for power users who want the most out of Quick",
@@ -16074,16 +15930,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fdf8ae71ec2ce114"
     },
     {
-      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
-      "date": "2026-09-04T08:00:00+00:00",
-      "description": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint. Amazon EC2 G6e instances are powered by up to eight NVIDIA L40S Tensor Core GPUs with 48 GB of memory per GPU and third-generation AMD EPYC processors. G6e instances deliver improved performance for GPU-intensive workloads. With this launch, you can use G6",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/cc91629bbab944f7"
-    },
-    {
       "title": "AWS Transfer Family SFTP Connectors now support continuing file transfers during credential rotation",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/transfer-family-sftp-credential-rotation/",
       "date": "2026-09-04T08:00:00+00:00",
@@ -16092,6 +15938,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/3b07a93265a40203"
+    },
+    {
+      "title": "Amazon SageMaker AI Batch Transform now supports G6e instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/sagemaker-batch-transform-g6e-instances/",
+      "date": "2026-09-04T08:00:00+00:00",
+      "description": "Amazon SageMaker AI now supports Amazon EC2 G6e instances for batch transform. Batch Transform enables you to run predictions on datasets stored in Amazon S3 and is suited for large datasets that do not require a persistent inference endpoint. Amazon EC2 G6e instances are powered by up to eight NVIDIA L40S Tensor Core GPUs with 48 GB of memory per GPU and third-generation AMD EPYC processors. G6e instances deliver improved performance for GPU-intensive workloads. With this launch, you can use G6",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/cc91629bbab944f7"
     },
     {
       "title": "Amazon EC2 C8g instances now available in additional regions",
@@ -16204,15 +16060,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/eda445f3a1874f18"
     },
     {
-      "title": "How do I troubleshoot 504 Gateway Timeout errors on an Amazon CloudWatch data source when my Amazon Managed Grafana workspace has private VPC connectivity to CloudWatch?",
-      "link": "https://repost.aws/articles/AR6tNV31bcSAOjB35QMkfyOg/how-do-i-troubleshoot-504-gateway-timeout-errors-on-an-amazon-cloudwatch-data-source-when-my-amazon-managed-grafana-workspace-has-private-vpc-connectivity-to-cloudwatch",
-      "date": "2026-09-07T17:16:36.819000+00:00",
-      "description": "When I click Save & Test on an Amazon CloudWatch data source in an Amazon Managed Grafana (AMG) workspace attached to a VPC, the request returns `504 Gateway Timeout`",
-      "source": "AWS re:Post Articles",
-      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/5bbb0c452e302a3d"
-    },
-    {
       "title": "How do I resolve 504 Gateway Timeout errors on an Amazon CloudWatch data source when my Amazon Managed Grafana workspace has private VPC connectivity to CloudWatch?",
       "link": "https://repost.aws/articles/AR6tNV31bcSAOjB35QMkfyOg/how-do-i-resolve-504-gateway-timeout-errors-on-an-amazon-cloudwatch-data-source-when-my-amazon-managed-grafana-workspace-has-private-vpc-connectivity-to-cloudwatch",
       "date": "2026-09-07T17:16:36.819000+00:00",
@@ -16220,6 +16067,15 @@
       "source": "AWS re:Post Articles",
       "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/a2baf1598d97541e"
+    },
+    {
+      "title": "How do I troubleshoot 504 Gateway Timeout errors on an Amazon CloudWatch data source when my Amazon Managed Grafana workspace has private VPC connectivity to CloudWatch?",
+      "link": "https://repost.aws/articles/AR6tNV31bcSAOjB35QMkfyOg/how-do-i-troubleshoot-504-gateway-timeout-errors-on-an-amazon-cloudwatch-data-source-when-my-amazon-managed-grafana-workspace-has-private-vpc-connectivity-to-cloudwatch",
+      "date": "2026-09-07T17:16:36.819000+00:00",
+      "description": "When I click Save & Test on an Amazon CloudWatch data source in an Amazon Managed Grafana (AMG) workspace attached to a VPC, the request returns `504 Gateway Timeout`",
+      "source": "AWS re:Post Articles",
+      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/5bbb0c452e302a3d"
     },
     {
       "title": "How to delete Amazon Connect queues in bulk using the AWS CLI",
@@ -16260,14 +16116,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fbca03e04370168f"
     },
     {
-      "title": "Amazon EMR extends support at no additional cost for customers migrating off older releases",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/",
+      "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
       "date": "2026-09-08T08:00:00+00:00",
-      "description": "Amazon EMR now gives you more time, at no additional cost, to migrate off older releases before they reach end of support. If you are actively migrating, your workloads on eligible releases keep receiving support while you move to a current release, with no opt-in and at no charge. To give you more time to plan and migrate, Amazon EMR provides critical security fixes for releases 5.36 and 6.6 through 6.15 on a best-effort basis through June 30, 2027, and extended Standard Support for 7.0 through",
+      "description": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely get security, observability, and type-safety right in one pass. The plugin extends Nx, an open source, language-agnostic build system for monorepos, with generators that each build one part of an application on request, alongside the infrastructure to run it. Generators cover AI agents and Model Cont",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/162fe6066f1e8ade"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b1279d14fa15224b"
     },
     {
       "title": "AWS Builder ID adds recovery options and multi-factor authentication for third-party logins",
@@ -16280,14 +16136,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/f44aa3efd2a6ad91"
     },
     {
-      "title": "AWS announces Nx Plugin for AWS for scaffolding full-stack applications",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/nx-plugin-for-aws/",
+      "title": "Amazon EMR extends support at no additional cost for customers migrating off older releases",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/emr-extended-support-migration/",
       "date": "2026-09-08T08:00:00+00:00",
-      "description": "Version 1.0 of the Nx Plugin for AWS, an open source toolkit for scaffolding full-stack applications on AWS, is now available. AI assistants can stand up an application on AWS in minutes, but rarely get security, observability, and type-safety right in one pass. The plugin extends Nx, an open source, language-agnostic build system for monorepos, with generators that each build one part of an application on request, alongside the infrastructure to run it. Generators cover AI agents and Model Cont",
+      "description": "Amazon EMR now gives you more time, at no additional cost, to migrate off older releases before they reach end of support. If you are actively migrating, your workloads on eligible releases keep receiving support while you move to a current release, with no opt-in and at no charge. To give you more time to plan and migrate, Amazon EMR provides critical security fixes for releases 5.36 and 6.6 through 6.15 on a best-effort basis through June 30, 2027, and extended Standard Support for 7.0 through",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b1279d14fa15224b"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/162fe6066f1e8ade"
     },
     {
       "title": "Automating service quota increases for newly vended AWS accounts",
@@ -16318,14 +16174,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/93c750708b8269b9"
     },
     {
-      "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
+      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
       "date": "2026-09-08T16:00:00+00:00",
-      "description": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare ",
+      "description": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/916172f623371546"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/aad7051c95682e45"
     },
     {
       "title": "Amazon Bedrock AgentCore Memory now supports direct ingestion to long-term memory",
@@ -16338,14 +16194,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/87d9085850c279f5"
     },
     {
-      "title": "Amazon RDS for MariaDB now supports community MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-rds-mariadb-community-versions/",
+      "title": "AWS HealthOmics introduces resource fallback order for WDL workflows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-healthomics-resourcefallback-wdl/",
       "date": "2026-09-08T16:00:00+00:00",
-      "description": "Starting today, Amazon Relational Database Service (Amazon RDS) for MariaDB now supports MariaDB minor versions 10.6.28, 10.11.19, 11.4.13, 11.8.9, and 12.3.3, the latest minors released by community MariaDB. In addition to operational improvements, these minor versions introduce support for post-quantum TLS (PQ-TLS) key exchange, providing you with post-quantum cryptography options for encrypting your data in-transit. We recommend upgrading to the newer minor versions to accept fixes for Common",
+      "description": "Today, AWS HealthOmics introduces the resource fallback directive, enabling you to define an ordered list of preferred accelerator types, including an option to fallback to CPU instances, for tasks in your Workflow Description Language (WDL) workflows. Researchers and bioinformaticians can use this directive to reduce time spent diagnosing and resubmitting runs due to accelerator constraints and keep production workflows running. AWS HealthOmics is a HIPAA-eligible service that helps healthcare ",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/aad7051c95682e45"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/916172f623371546"
     },
     {
       "title": "Generate standalone types with Smithy",
@@ -16447,24 +16303,14 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2fa451cc1bc4289d"
     },
     {
-      "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+      "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
       "date": "2026-09-09T08:00:00+00:00",
-      "description": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual identity match. Previously, all records within a match group carried the same group-level confidence score regardless of actual match quality — making it impossible to distinguish a near-certain match from a borderline one. This forced customers to apply a single confidence threshold across all record",
+      "description": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as high-value customers or low-satisfaction customers. Previously, detecting when customer profiles joined or left a segment required exporting entire segments at regular intervals and running custom scripts to identify differences. This manual process consumed resources, introduced errors, and created mu",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2e58babd7b90622a"
-    },
-    {
-      "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
-      "date": "2026-09-09T08:00:00+00:00",
-      "description": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Systems Manager. An instance must be managed by Systems Manager before you can patch it, run commands, connect with Session Manager, or collect inventory, and when an instance is unmanaged the cause can be difficult to isolate. The diagnosis previously covered network connectivity, and it now also ide",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/f9ccb2c5f893f813"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/92c1a60addff5b55"
     },
     {
       "title": "AWS Private CA EKS add-on and Connector for AD now available in AWS GovCloud (US)",
@@ -16477,14 +16323,24 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/648aa965f5d2c6d8"
     },
     {
-      "title": "Amazon Connect Customer Profiles now sends events when customers enter or exit segments",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/connect-customer-profiles-segment-events/",
+      "title": "AWS Systems Manager now diagnoses more issues that cause EC2 instances to be unmanaged",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/systems-manager-diagnoses-ec2-unmanaged/",
       "date": "2026-09-09T08:00:00+00:00",
-      "description": "Amazon Connect Customer Profiles now sends segment membership events, providing the ability to receive real-time and scheduled notifications when customer profiles enter or exit a segment, such as high-value customers or low-satisfaction customers. Previously, detecting when customer profiles joined or left a segment required exporting entire segments at regular intervals and running custom scripts to identify differences. This manual process consumed resources, introduced errors, and created mu",
+      "description": "Today, AWS Systems Manager extends its diagnosis capability to identify six additional categories of issues that can prevent Amazon EC2 instances and hybrid-activated nodes from becoming managed by Systems Manager. An instance must be managed by Systems Manager before you can patch it, run commands, connect with Session Manager, or collect inventory, and when an instance is unmanaged the cause can be difficult to isolate. The diagnosis previously covered network connectivity, and it now also ide",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/92c1a60addff5b55"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/f9ccb2c5f893f813"
+    },
+    {
+      "title": "AWS Entity Resolution adds record-level confidence scores for ML matching",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/entity-resolution-record-confidence/",
+      "date": "2026-09-09T08:00:00+00:00",
+      "description": "AWS Entity Resolution now provides record-level confidence scores for Machine Learning (ML) based matching workflows, giving you a per-record signal of how confident the model is in each individual identity match. Previously, all records within a match group carried the same group-level confidence score regardless of actual match quality — making it impossible to distinguish a near-certain match from a borderline one. This forced customers to apply a single confidence threshold across all record",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2e58babd7b90622a"
     },
     {
       "title": "Cost optimization and governance for centralized traffic inspection with Transit Gateway and Network Firewall",
@@ -16516,6 +16372,36 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/52efedd88024b952"
     },
     {
+      "title": "Amazon Quick desktop app is now generally available on macOS and Windows",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-desktop-app-generally-available-macos-windows/",
+      "date": "2026-09-09T15:23:00+00:00",
+      "description": "The Amazon Quick desktop app is now generally available on macOS and Windows. The desktop app brings the full power of Amazon Quick to your computer, working directly with your local files and staying connected to your calendar, email, and business apps in the background. Quick keeps your conversations, context, and agents synchronized across the desktop and mobile applications, so work you start on one surface carries over to the other, enabling you to work wherever you want. Additionally, with",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/730b252db84c7af6"
+    },
+    {
+      "title": "Amazon Quick activity feed now available on iOS and Android mobile devices",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-activity-feed-available-ios-android-mobile-devices/",
+      "date": "2026-09-09T15:39:00+00:00",
+      "description": "The Amazon Quick activity feed is now available on the Amazon Quick mobile app for iOS and Android, keeping you connected to your most important work from anywhere. The activity feed is your single, prioritized view of everything that needs your attention across your enterprise communications and tools, so you don't have to check each one separately. Items requiring your attention populate the top of your feed, and instead of switching between apps, you can take action directly from within Quick",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/9aa137f10643cb58"
+    },
+    {
+      "title": "Amazon Quick adds always-on agents, a sharper feed, and enterprise controls",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-quick-always-on-agents-sharper-feed-enterprise-controls/",
+      "date": "2026-09-09T15:51:00+00:00",
+      "description": "Today, Amazon Quick offers new capabilities that make it easier to organize your work, govern it across an organization, and trust the answers it produces. These capabilities build on Amazon Quick across desktop and mobile, bringing enterprise-grade management, richer collaboration, and always-on intelligence to teams wherever they work. Your agents no longer stop when you step away. Scheduled tasks and monitoring agents run in the cloud and deliver results to your feed even when your laptop is ",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/ca695d358c343d22"
+    },
+    {
       "title": "Deep Dive on ECS - CapacityProviderReservation metric",
       "link": "https://repost.aws/articles/ARBTcM3jl0TLmglSE7eQUerw/deep-dive-on-ecs-capacityproviderreservation-metric",
       "date": "2026-09-09T16:02:32.705000+00:00",
@@ -16535,16 +16421,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/42a8ea09905307a0"
     },
     {
-      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
-      "date": "2026-09-09T18:00:00+00:00",
-      "description": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial calculations, AI inference, and batch workloads on Lambda for jobs that require longer continuous execution, without re-architecting your applications. Customers use Lambda to build serverless applications like event-driven processors, API ",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/755200108c0557d6"
-    },
-    {
       "title": "AWS Lambda now supports Graviton5-powered EC2 instances on Lambda Managed Instances",
       "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-graviton5-ec2/",
       "date": "2026-09-09T18:00:00+00:00",
@@ -16553,6 +16429,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/18056c5a1553b2ff"
+    },
+    {
+      "title": "AWS Lambda now supports 90-minute function timeout on Lambda Managed Instances",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-90-minute-function/",
+      "date": "2026-09-09T18:00:00+00:00",
+      "description": "AWS Lambda now supports a 90-minute function timeout for asynchronous and event source mapping (ESM) invocations on Lambda Managed Instances (LMI) , a 6x increase from the previous 15-minute limit. You can now run data processing, media transcoding, financial calculations, AI inference, and batch workloads on Lambda for jobs that require longer continuous execution, without re-architecting your applications. Customers use Lambda to build serverless applications like event-driven processors, API ",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/755200108c0557d6"
     },
     {
       "title": "AWS CLI 2.36.42",
@@ -16622,44 +16508,24 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/98ce683d3b618127"
     },
     {
-      "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
-      "date": "2026-09-10T08:00:00+00:00",
-      "description": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and video-on-demand content. With this launch, video providers can insert ads into low-latency live streams while holding the reduced latency their viewers expect. LL-HLS reduces live latency by delivering partial segments and letting players h",
+      "title": "Amazon EVS is now available in more regions",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-evs-available-in-additional-regions/",
+      "date": "2026-09-10T07:00:00+00:00",
+      "description": "Today, we're announcing that Amazon Elastic VMware Service (Amazon EVS) is now available in the Asia Pacific (Osaka), Asia Pacific (Taipei), Europe (Spain), and Israel (Tel Aviv) Regions. This expansion provides more options to leverage the scale and flexibility of AWS for running your VMware workloads in the cloud. Amazon EVS lets you run VMware Cloud Foundation (VCF) directly within your Amazon Virtual Private Cloud (VPC) on EC2 bare-metal instances, powered by AWS Nitro. You can set up a comp",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c6d205886a78dd2a"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/592b4d22ba48bc0c"
     },
     {
-      "title": "AWS Elemental introduces Dynamic Multiview for live video",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "title": "AWS Storage Gateway now supports FIPS-compliant private connectivity for Amazon S3 File Gateway",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/storage-gateway-fips-privatelink-s3/",
       "date": "2026-09-10T08:00:00+00:00",
-      "description": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development. Dynamic Multiview operates entirely ",
+      "description": "AWS Storage Gateway now supports FIPS 140-3 validated endpoints over AWS PrivateLink for Amazon S3 File Gateway. Previously, FIPS endpoints for File Gateway were available only over the public internet. Now you can keep FIPS-compliant traffic on the private AWS network, making it easier to use Storage Gateway for regulated workloads. With this launch, your File Gateway can reach the Storage Gateway service endpoints privately through a FIPS interface VPC endpoint in your VPC. You can also create",
       "source": "AWS What's New",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/a46b4880de459db2"
-    },
-    {
-      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
-      "date": "2026-09-10T08:00:00+00:00",
-      "description": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to extract Interactive Advertising Bureau (IAB) content taxonomy categories, Global Alliance for Responsible Media (GARM) brand suitability signals, detected objects and actions, and shot and scene-level descriptions. Broadcasters and content pla",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fda4c01be8845bf3"
-    },
-    {
-      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
-      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
-      "date": "2026-09-10T08:00:00+00:00",
-      "description": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon Publisher Services (APS) Streaming TV program, yield optimization turns unfilled ad breaks into monetized impressions at zero cost to enable and with no additional infrastructure required. Because ads are stitched directly into the stream before re",
-      "source": "AWS What's New",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/11aac42b230db3ff"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/178f7bec269c4543"
     },
     {
       "title": "AWS Elemental MediaLive adds support for A/B forensic watermarking",
@@ -16672,6 +16538,46 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/b90523b2cbb9c292"
     },
     {
+      "title": "AWS Elemental MediaTailor now offers Yield Optimization to automatically fill ad breaks with Amazon Ads demand",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/mediatailor-yield-optimization/",
+      "date": "2026-09-10T08:00:00+00:00",
+      "description": "AWS Elemental MediaTailor now offers Yield Optimization, a new capability that automatically monetizes unused ad inventory with Amazon Ads demand during server-side ad insertion (SSAI) for livestreams. Available exclusively to publishers in the Amazon Publisher Services (APS) Streaming TV program, yield optimization turns unfilled ad breaks into monetized impressions at zero cost to enable and with no additional infrastructure required. Because ads are stitched directly into the stream before re",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/11aac42b230db3ff"
+    },
+    {
+      "title": "AWS Elemental Inference now generates contextual metadata from live video in real time",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/elemental-inference-contextual-metadata/",
+      "date": "2026-09-10T08:00:00+00:00",
+      "description": "AWS Elemental Inference now generates contextual metadata from live video streams in real time, using AI to produce scene-level intelligence without custom machine learning infrastructure. The new capability analyzes live video in parallel with encoding to extract Interactive Advertising Bureau (IAB) content taxonomy categories, Global Alliance for Responsible Media (GARM) brand suitability signals, detected objects and actions, and shot and scene-level descriptions. Broadcasters and content pla",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fda4c01be8845bf3"
+    },
+    {
+      "title": "AWS Elemental introduces Dynamic Multiview for live video",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-dynamic-multiview-video/",
+      "date": "2026-09-10T08:00:00+00:00",
+      "description": "AWS Elemental MediaPackage now offers Dynamic Multiview, a server-side capability that composes multiple live video sources into viewer-selected tiled layouts on demand. Content providers can deliver multi-angle, multi-game, and personalized viewing experiences as standard HLS (HTTP Live Streaming) and DASH (Dynamic Adaptive Streaming over HTTP) streams playable on most modern consumer devices, televisions, and set top boxes without custom player development. Dynamic Multiview operates entirely ",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/a46b4880de459db2"
+    },
+    {
+      "title": "AWS Elemental MediaTailor now supports Low-Latency HLS ad insertion",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-elemental-mediatailor-low-latency-hls-ad-insertion",
+      "date": "2026-09-10T08:00:00+00:00",
+      "description": "AWS Elemental MediaTailor now supports Low-Latency HTTP Live Streaming (LL-HLS) ad insertion using HLS Interstitials. MediaTailor is a channel assembly and personalized ad insertion service for video providers that monetizes live streams, linear channels, and video-on-demand content. With this launch, video providers can insert ads into low-latency live streams while holding the reduced latency their viewers expect. LL-HLS reduces live latency by delivering partial segments and letting players h",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c6d205886a78dd2a"
+    },
+    {
       "title": "CloudWatch Network Monitor now provides NHI for Transit Gateway peering",
       "link": "https://aws.amazon.com/amazon-cloudwatch-network-monitor-nhi-transit-gateway-peering",
       "date": "2026-09-10T10:28:00+00:00",
@@ -16680,6 +16586,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/57c8a3adf8a2ea7b"
+    },
+    {
+      "title": "Amazon CloudWatch now supports network health indicator for TGW inter-Region peering using synthetic monitors",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/cloudwatch-network-monitoring-tgw-support/",
+      "date": "2026-09-10T11:00:00+00:00",
+      "description": "With synthetic monitors in Amazon CloudWatch Network Monitoring, you can now determine whether a network performance issue on a path that crosses an AWS Transit Gateway inter-Region peering connection is caused by the AWS network. This helps network operators and application developers cut the time spent isolating the source of degradation on these paths. Previously, for synthetic monitors, the network health indicator (NHI) covered only paths that connect through AWS Direct Connect. With this r",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/f3f3e4eb2db5a0d2"
     },
     {
       "title": "Why am I seeing high IOPS or increased I/O cost on my Amazon DocumentDB cluster?",
@@ -16691,6 +16607,16 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2b81470d749bb704"
     },
     {
+      "title": "Amazon Redshift RG instances now available in Europe (Zurich) Region",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-redshift-rg-available-zurich",
+      "date": "2026-09-10T16:00:00+00:00",
+      "description": "Amazon Redshift RG instances, powered by AWS Graviton processors, are now available in the AWS Europe (Zurich) Region. RG instances deliver better performance, running data warehouse and data lake workloads up to 2.4x as fast as previous generation RA3 instances, at 30% lower price per vCPU. RG instances include Redshift's custom-built vectorized data lake query engine that processes Apache Iceberg and Parquet data on your cluster nodes, enabling you to run SQL analytics across your data warehou",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/67084dcf213552a7"
+    },
+    {
       "title": "Introducing Pizza Bot, an open source inbox for AI agents that work in the background",
       "link": "https://aws.amazon.com/blogs/opensource/introducing-pizza-bot-an-open-source-inbox-for-ai-agents-that-work-in-the-background/",
       "date": "2026-09-10T16:01:44+00:00",
@@ -16698,6 +16624,114 @@
       "source": "AWS Open Source Blog",
       "image": "https://d2908q01vomqb2.cloudfront.net/ca3512f4dfa95a03169c5a670a4c91a19b3077b4/2026/09/09/pizza-bot-figure-1.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/aws/453fa7d179f0245c"
+    },
+    {
+      "title": "Amazon ECS expands IAM condition key support for RunTask and StartTask APIs",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-ecs-expands-condition-key-support/",
+      "date": "2026-09-10T16:52:00+00:00",
+      "description": "Amazon Elastic Container Service (Amazon ECS) now supports the IAM condition keys for CPU and memory resources on the RunTask and StartTask APIs. Administrators can use these keys to enforce consistent CPU and memory limits across all methods of launching ECS tasks. This helps organizations prevent unexpected cost overruns and keep workloads aligned with their resource policies. Previously, the ecs:task-cpu and ecs:task-memory condition keys were available only on the RegisterTaskDefinition, Cre",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/1047d9b230842f5b"
+    },
+    {
+      "title": "Amazon OpenSearch Serverless is now available on v0 by Vercel",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-opensearch-serverless-available-V0-vercel/",
+      "date": "2026-09-10T17:00:00+00:00",
+      "description": "You can now build full-stack search and AI applications in minutes using Amazon OpenSearch Serverless on v0 by Vercel, an AI-powered platform that transforms your ideas into production-ready web applications. OpenSearch Serverless eliminates infrastructure management and automatically scales capacity up and down based on demand, so you can focus on building and not managing clusters. With this launch, you can use natural language prompts to build applications powered by OpenSearch Serverless for",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c6a3101b3e03e990"
+    },
+    {
+      "title": "Why doesn't my Amazon DocumentDB storage shrink after I delete documents?",
+      "link": "https://repost.aws/articles/ARrg2PaV5DQLG4HbBbowRNmg/why-doesn-t-my-amazon-documentdb-storage-shrink-after-i-delete-documents",
+      "date": "2026-09-10T17:41:18.153000+00:00",
+      "description": "I deleted documents from my Amazon DocumentDB (with MongoDB compatibility) cluster, but the storage size (VolumeBytesUsed) did not decrease. I want to understand why the storage is not being reclaimed and how to reduce my cluster's storage consumption.",
+      "source": "AWS re:Post Articles",
+      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/04a90b692b18a3f5"
+    },
+    {
+      "title": "Resolving EKS Pod IP exhaustion caused by VPC CNI warm pool defaults",
+      "link": "https://repost.aws/articles/ARvQo9X9EqROqf-thQJzD2pQ/resolving-eks-pod-ip-exhaustion-caused-by-vpc-cni-warm-pool-defaults",
+      "date": "2026-09-10T17:52:58.141000+00:00",
+      "description": "Learn why default Amazon Virtual Private Cloud (Amazon VPC) CNI warm pool settings silently exhaust Amazon EKS Pod subnet IP addresses and how to resolve the issue with warm pool optimization and enhanced subnet discovery.",
+      "source": "AWS re:Post Articles",
+      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/bbe0fac3e5a8955d"
+    },
+    {
+      "title": "Announcing second-generation single-rack AWS Outposts",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/single-rack-aws-outposts/",
+      "date": "2026-09-10T17:58:00+00:00",
+      "description": "Today, AWS announces the general availability of second-generation single-rack AWS Outposts, a self-contained 42U rack that integrates compute, storage and networking into a single compact unit purpose-built for workloads requiring low latency, local data processing, and data residency in space and power constrained locations. A single-rack Outposts delivers up to 2,688 vCPU and 100 TB of Amazon Elastic Block Store (Amazon EBS) storage. Moreover, like multi-rack Outposts, single-rack Outposts su",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/cbc4ce43f8f6aaf3"
+    },
+    {
+      "title": "AWS CLI 2.36.43",
+      "link": "https://github.com/aws/aws-cli/releases/tag/2.36.43",
+      "date": "2026-09-10T18:07:04+00:00",
+      "description": "bugfix:crt: Pass configured response_checksum_validation and request_checksum_calculation options to CRT transfers. api-change:ec2: The CreateImage API now supports a BootModeOverride parameter to explicitly set UEFI boot mode on a new AMI, overriding the source instance's inherited boot mode. api-change:sagemaker: This release adds the ability for customers to attach customer owned Elastic Network Interfaces (ENIs) to HyperPod cluster nodes. api-change:outposts: Added fields to identify Outpost generation and rack scaling configuration on Outpost and CatalogItem resources. api-change:bedrock-agent: TwelveLabs Marengo 3.0 is now an embedding model option in Amazon Bedrock Managed Knowledge Base. Create multimodal embeddings for video, audio, and image content that capture visual scenes, speech, and video cues, not just transcribed text. api-change:resiliencehubv2: This release adds the ListTestRunSourceEvents and ListTestRunDependencies APIs, which return the alarm state changes during a test run and the dependencies the run blocked. api-change:rtbfabric: AWS RTB Fabric now lets you control how traffic is routed to your responder gateway across Availability Zones. Set the new clientRoutingPolicy parameter  to keep traffic within the same Availability Zone or distribute traffic across all Availability Zones.",
+      "source": "AWS CLI v2 Changelog",
+      "image": "https://opengraph.githubassets.com/5ce20387d419bfb587fbed378b31b0984204887be8e09ebec4ce1b0c490d4927/aws/aws-cli",
+      "image_width": 1200,
+      "image_height": 600,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/d8f460e8d2900ca5"
+    },
+    {
+      "title": "Amazon MQ now supports RabbitMQ 4.3",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-mq-rabbitmq-43/",
+      "date": "2026-09-10T18:08:00+00:00",
+      "description": "Amazon MQ now supports RabbitMQ version 4.3 which adds quorum queue feature enhancements such as compaction, increased priority levels, native delayed retries, and graceful consumer timeouts. RabbitMQ 4.3 also includes various bug fixes and performance improvements for memory management. Quorum queues on RabbitMQ 4.3 performs compaction to reduce disk usage for queues and native support for 32 strict priority levels, compared to the relative 2 levels supported in previous RabbitMQ versions. Quor",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/bc9b6357a8cb67fd"
+    },
+    {
+      "title": "AWS Lambda durable functions integrates with Pydantic AI",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/aws-lambda-durable-pydantic-ai/",
+      "date": "2026-09-10T18:45:00+00:00",
+      "description": "Today, AWS Lambda durable functions announces an integration with Pydantic AI , an open source framework for building AI agents in Python. AWS Lambda durable functions saves your Pydantic AI agent's progress as it runs, so after an interruption like a timeout, your agent resumes from the last completed step instead of starting over. Your agent gains fault tolerance without you having to write the checkpoint and retry logic yourself. With this integration, each model and tool call your agent make",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/c3656446c454d292"
+    },
+    {
+      "title": "Cross-Region and cross-account disaster recovery for Amazon FSx for OpenZFS with on-demand replication",
+      "link": "https://repost.aws/articles/AR5ttP_9sWRvyKhBPIyhCWNQ/cross-region-and-cross-account-disaster-recovery-for-amazon-fsx-for-openzfs-with-on-demand-replication",
+      "date": "2026-09-10T19:32:22.666000+00:00",
+      "description": "EDA and high-tech R&D depend on large shared design-data and simulation-scratch filesystems, frequently replicated across global design centers. On-demand OpenZFS replication provides a warm DR standby and geographic distribution for that IP-heavy data, with incremental block-level transfers. Typical uses:\n- EDA design-data and simulation-scratch DR standby in second Region/account\n- Distributing design data to global R&D and design centers\n- Read replicas for verification and analysis pipelines",
+      "source": "AWS re:Post Articles",
+      "image": "https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/fa358492b0ce8997"
+    },
+    {
+      "title": "Amazon API Gateway now supports 1 MB execution logs with configurable delivery destinations",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-api-gateway-1-mb-execution-logs/",
+      "date": "2026-09-10T20:00:00+00:00",
+      "description": "Amazon API Gateway now supports configurable delivery destinations and larger log events for REST API execution logs. Previously, execution logs were delivered to a single API Gateway-managed CloudWatch Logs log group with log events truncated at 1 KB, limiting visibility into request and response data. You can now route execution logs up to 1 MB to your own Amazon CloudWatch Logs log groups, Amazon S3 buckets, or Amazon Data Firehose streams, and deliver to multiple destinations simultaneously.",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/2be660e3efd568e8"
+    },
+    {
+      "title": "AWS Lambda recursive loop detection is now available in Europe Sovereign Cloud",
+      "link": "https://aws.amazon.com/about-aws/whats-new/2026/09/lambda-recursion-europe-sovereign-cloud",
+      "date": "2026-09-10T20:00:00+00:00",
+      "description": "AWS Lambda recursive loop detection is now supported for functions running in Europe Sovereign Cloud. Recursive loop detection automatically detects and stops recursive invocations between Lambda functions and other supported services, preventing unexpected billing caused by unintended recursive loops. Customers use event sources such as Amazon S3, Amazon SQS, and Amazon SNS to build event driven applications that trigger Lambda functions. Misconfiguration or code defect can cause events to be s",
+      "source": "AWS What's New",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/aws/7b7716d0851b3765"
     }
   ]
 }
