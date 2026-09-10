@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.blog/</id>
   <title>GitHub</title>
-  <updated>2026-09-09T21:08:15.168933+00:00</updated>
+  <updated>2026-09-10T00:31:54.561698+00:00</updated>
   <author>
     <name>GitHub</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://github.blog/favicon.ico</icon>
   <logo>https://github.blog/favicon.ico</logo>
   <subtitle>Combined GitHub feed: GitHub blogs and changelogs, GitHub Status, Mergify, BeeWare News, Komi Store, the Git tooling ecosystem, Track Awesome List and deduplicated GitHub trending streams.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/083ea3496f539ca5</id>
+    <title>CodeQL 2.27.0 adds support for Linux ARM64</title>
+    <updated>2026-09-09T21:45:06+00:00</updated>
+    <content>CodeQL 2.27.0 is now available on Linux ARM64, adds a new Rust security query, expanded framework coverage for Java/Kotlin and C#, and analysis accuracy improvements across multiple languages. CodeQL is… The post CodeQL 2.27.0 adds support for Linux ARM64 appeared first on The GitHub Blog .</content>
+    <link href="https://github.blog/changelog/2026-09-09-codeql-2-27-0-adds-support-for-linux-arm64" rel="alternate"/>
+    <category term="GitHub Changelog" label="GitHub Changelog"/>
+    <published>2026-09-09T21:45:06+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/648812421-1ba064d6-b2dd-4b95-8613-df2192e0dbf2.jpeg" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/648812421-1ba064d6-b2dd-4b95-8613-df2192e0dbf2.jpeg" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>GitHub Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/648812421-1ba064d6-b2dd-4b95-8613-df2192e0dbf2.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/da4cc8a18ef997e8</id>
+    <title>Enterprise managed permissions for GitHub Copilot agent operations</title>
+    <updated>2026-09-09T20:08:14+00:00</updated>
+    <content>If you administer GitHub Copilot Business or GitHub Copilot Enterprise, you can now centrally control which agent operations are blocked, require human approval, or can proceed without a prompt. Managed… The post Enterprise managed permissions for GitHub Copilot agent operations appeared first on The GitHub Blog .</content>
+    <link href="https://github.blog/changelog/2026-09-09-enterprise-managed-permissions-for-github-copilot-agent-operations" rel="alternate"/>
+    <category term="GitHub Changelog" label="GitHub Changelog"/>
+    <published>2026-09-09T20:08:14+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_AgentOperationsPermissions.jpg" type="image/jpeg" medium="image" height="1392" width="2064"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_AgentOperationsPermissions.jpg" height="1392" width="2064"/>
+    </media:group>
+    <dc:creator>GitHub Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/08/Changelog_Improvement_Unfurl_LeftAlign_AgentOperationsPermissions.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/958d806c73062144</id>
     <title>GitHub Advanced Security expands trial availability</title>
@@ -1465,36 +1495,6 @@ parameter. The preferred co</content>
     </media:group>
     <dc:creator>GitKraken</dc:creator>
     <link rel="enclosure" href="https://gitkraken.com/wp-content/uploads/2026/06/Product_UI-frames-1024x641.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/362e2edecbfb3eea</id>
-    <title>GitHub Copilot in Visual Studio — August update</title>
-    <updated>2026-08-28T20:24:20+00:00</updated>
-    <content>August 2026 brought more control over how GitHub Copilot reasons, which models you use, how teams share specialized agents, and when you ask for a code review. Highlights Here’s what’s… The post GitHub Copilot in Visual Studio — August update appeared first on The GitHub Blog .</content>
-    <link href="https://github.blog/changelog/2026-08-28-github-copilot-in-visual-studio-august-update-2" rel="alternate"/>
-    <category term="GitHub Changelog" label="GitHub Changelog"/>
-    <published>2026-08-28T20:24:20+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>GitHub Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/fe43888c26b149f6</id>
-    <title>GitHub Copilot weekly releases — August 24</title>
-    <updated>2026-08-28T20:13:22+00:00</updated>
-    <content>This week’s updates give you more control over how Copilot runs, from team sessions in Slack and Teams to customization across the app, CLI, and your IDE. GitHub Copilot in… The post GitHub Copilot weekly releases — August 24 appeared first on The GitHub Blog .</content>
-    <link href="https://github.blog/changelog/2026-08-28-github-copilot-weekly-releases-august-24" rel="alternate"/>
-    <category term="GitHub Changelog" label="GitHub Changelog"/>
-    <published>2026-08-28T20:13:22+00:00</published>
-    <media:group>
-      <media:content url="https://github.com/user-attachments/assets/a051e30f-c310-433d-8f4e-97b383f7c8d9" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://github.com/user-attachments/assets/a051e30f-c310-433d-8f4e-97b383f7c8d9"/>
-    </media:group>
-    <dc:creator>GitHub Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.com/user-attachments/assets/a051e30f-c310-433d-8f4e-97b383f7c8d9" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/053a914b559f92b3</id>

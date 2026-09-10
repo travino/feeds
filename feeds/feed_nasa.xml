@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.nasa.gov/</id>
   <title>NASA</title>
-  <updated>2026-09-09T21:08:55.490469+00:00</updated>
+  <updated>2026-09-10T00:32:50.316057+00:00</updated>
   <author>
     <name>NASA</name>
   </author>
@@ -12,6 +12,51 @@
   <icon>https://icons.duckduckgo.com/ip3/nasa.gov.ico</icon>
   <logo>https://icons.duckduckgo.com/ip3/nasa.gov.ico</logo>
   <subtitle>Combined NASA feed: the main newsroom, the blogs firehose, NASA Science, the launch schedule, the Image of the Day, and Astronomy Picture of the Day.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/nasa/bdeca6f408c7f318</id>
+    <title>Crew Activity Tracking System (CATS)</title>
+    <updated>2026-09-09T23:33:59+00:00</updated>
+    <content>Crew Activity Tracking System (CATS) The Crew Activity Tracking System (CATS) was developed to track human operator activities in order to detect deviations from correct operations that may impact the safety of complex systems. It supports visualization and analysis of operator-caused deviations and the context surrounding them. CATS has a computational hierarchical model of the […] The post Crew Activity Tracking System (CATS) appeared first on NASA Science .</content>
+    <link href="https://www.nasa.gov/human-systems-integration-division/integration-and-evaluation/airspace-operations-laboratory/crew-activity-tracking-system-cats/" rel="alternate"/>
+    <category term="NASA Science" label="NASA Science"/>
+    <published>2026-09-09T23:33:59+00:00</published>
+    <media:group>
+      <media:content url="https://www.nasa.gov/wp-content/uploads/2026/03/iss-blog-nasa-meatball.jpg" type="image/jpeg" medium="image" height="1024" width="1024"/>
+      <media:thumbnail url="https://www.nasa.gov/wp-content/uploads/2026/03/iss-blog-nasa-meatball.jpg" height="1024" width="1024"/>
+    </media:group>
+    <dc:creator>NASA Science</dc:creator>
+    <link rel="enclosure" href="https://www.nasa.gov/wp-content/uploads/2026/03/iss-blog-nasa-meatball.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/nasa/45ecea8d8dab8678</id>
+    <title>CTAS-FMS Integration (CFI ’02)</title>
+    <updated>2026-09-09T23:33:50+00:00</updated>
+    <content>CTAS-FMS Integration (CFI ’02) CFI’02 compared a sector-oriented approach to arrival flow management to a candidate trajectory-oriented approach. The sector-oriented approach was based on the existing 2002 operations for handling arrival traffic in a time-based metering situation. The trajectory-oriented approach provided advanced tools for the controller and introduced a more active interaction with the traffic […] The post CTAS-FMS Integration (CFI ’02) appeared first on NASA Science .</content>
+    <link href="https://www.nasa.gov/human-systems-integration-division/integration-and-evaluation/airspace-operations-laboratory/ctas-fms-integration-cfi-02/" rel="alternate"/>
+    <category term="NASA Science" label="NASA Science"/>
+    <published>2026-09-09T23:33:50+00:00</published>
+    <media:group>
+      <media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/ctasfms-photo-retouched.jpg?w=1432" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.nasa.gov/wp-content/uploads/2026/09/ctasfms-photo-retouched.jpg?w=1432"/>
+    </media:group>
+    <dc:creator>NASA Science</dc:creator>
+    <link rel="enclosure" href="https://www.nasa.gov/wp-content/uploads/2026/09/ctasfms-photo-retouched.jpg?w=1432" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/nasa/45152c6bdeecfc07</id>
+    <title>Distributed Air Ground Traffic Management (DAG-TM)</title>
+    <updated>2026-09-09T23:33:37+00:00</updated>
+    <content>Distributed Air Ground Traffic Management (DAG-TM) The Distributed Air/Ground Traffic Management (DAG-TM) concept is a coherent set of conceptual elements that describes possible modes of operation within the outlines of the Free Flight concept defined by the RTCA Task Force. It was originally conceived as one possible approach to the potential implementation of Free Flight, […] The post Distributed Air Ground Traffic Management (DAG-TM) appeared first on NASA Science .</content>
+    <link href="https://www.nasa.gov/human-systems-integration-division/integration-and-evaluation/airspace-operations-laboratory/distributed-air-ground-traffic-management-dag-tm/" rel="alternate"/>
+    <category term="NASA Science" label="NASA Science"/>
+    <published>2026-09-09T23:33:37+00:00</published>
+    <media:group>
+      <media:content url="https://www.nasa.gov/wp-content/uploads/2026/09/screenshot-2026-09-09-at-3-53-46-pm.png?w=2048" type="image/png" medium="image"/>
+      <media:thumbnail url="https://www.nasa.gov/wp-content/uploads/2026/09/screenshot-2026-09-09-at-3-53-46-pm.png?w=2048"/>
+    </media:group>
+    <dc:creator>NASA Science</dc:creator>
+    <link rel="enclosure" href="https://www.nasa.gov/wp-content/uploads/2026/09/screenshot-2026-09-09-at-3-53-46-pm.png?w=2048" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/nasa/a3b2161a6cef313d</id>
     <title>NASA Adds Relativity Space’s Terran R to Launch Services Contract</title>
@@ -1062,51 +1107,6 @@ a mutual gravitational embrace</content>
     </media:group>
     <dc:creator>APOD</dc:creator>
     <link rel="enclosure" href="https://apod.nasa.gov/apod/image/2609/noirlab2621a_1024.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/nasa/64803ce40c9870b1</id>
-    <title>ROSES-25 D.4 Theoretical and Computational Astrophysics Networks</title>
-    <updated>2026-09-04T10:29:24+00:00</updated>
-    <content>ROSES-2025 Amendment 70 releases D.4 TCAN as a new opportunity in ROSES-25. Mandatory Notices of Intent are due by 15 October 2026, and proposals are due by 3 December 2026. The post ROSES-25 D.4 Theoretical and Computational Astrophysics Networks appeared first on NASA Science .</content>
-    <link href="https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/roses-25-d-4-theoretical-and-computational-astrophysics-networks/" rel="alternate"/>
-    <category term="NASA Science" label="NASA Science"/>
-    <published>2026-09-04T10:29:24+00:00</published>
-    <media:group>
-      <media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/08/main-image-deep-field-smacs0723-5mb.jpg?w=2799&amp;h=2856&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/08/main-image-deep-field-smacs0723-5mb.jpg?w=2799&amp;h=2856&amp;fit=clip&amp;crop=faces%2Cfocalpoint"/>
-    </media:group>
-    <dc:creator>NASA Science</dc:creator>
-    <link rel="enclosure" href="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/08/main-image-deep-field-smacs0723-5mb.jpg?w=2799&amp;h=2856&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/nasa/2435993bf08b0b96</id>
-    <title>SSERVI CAN-5: Final Text Released</title>
-    <updated>2026-09-04T10:29:16+00:00</updated>
-    <content>The NASA Science Mission Directorate (SMD) and Human Spaceflight Mission Directorate (HSMD) have released the final text of the fifth Solar System Exploration Research Virtual Institute (SSERVI) Cooperative Agreement Notice (CAN-5). The post SSERVI CAN-5: Final Text Released appeared first on NASA Science .</content>
-    <link href="https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/sservi-can-5-final-text-released/" rel="alternate"/>
-    <category term="NASA Science" label="NASA Science"/>
-    <published>2026-09-04T10:29:16+00:00</published>
-    <media:group>
-      <media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/08/main-image-deep-field-smacs0723-5mb.jpg?w=2799&amp;h=2856&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/08/main-image-deep-field-smacs0723-5mb.jpg?w=2799&amp;h=2856&amp;fit=clip&amp;crop=faces%2Cfocalpoint"/>
-    </media:group>
-    <dc:creator>NASA Science</dc:creator>
-    <link rel="enclosure" href="https://assets.science.nasa.gov/dynamicimage/assets/science/cds/general/images/2023/08/main-image-deep-field-smacs0723-5mb.jpg?w=2799&amp;h=2856&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/nasa/5453060ff3af563d</id>
-    <title>Reminder: LISA Science Gaps 2026</title>
-    <updated>2026-09-04T10:29:08+00:00</updated>
-    <content>LISA Science Gaps 2026: Open for Community Input Until 16 September 2026 The post Reminder: LISA Science Gaps 2026 appeared first on NASA Science .</content>
-    <link href="https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/reminder-lisa-science-gaps-2026/" rel="alternate"/>
-    <category term="NASA Science" label="NASA Science"/>
-    <published>2026-09-04T10:29:08+00:00</published>
-    <media:group>
-      <media:content url="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/outreach/migrated/non-stellem-assets/banner_wt-home-adbox-eagle.jpg?w=2400&amp;h=1200&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/outreach/migrated/non-stellem-assets/banner_wt-home-adbox-eagle.jpg?w=2400&amp;h=1200&amp;fit=clip&amp;crop=faces%2Cfocalpoint"/>
-    </media:group>
-    <dc:creator>NASA Science</dc:creator>
-    <link rel="enclosure" href="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/webb/outreach/migrated/non-stellem-assets/banner_wt-home-adbox-eagle.jpg?w=2400&amp;h=1200&amp;fit=clip&amp;crop=faces%2Cfocalpoint" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/nasa/be548ad5da3b7ec8</id>

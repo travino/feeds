@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-09T21:09:09.085933+00:00</updated>
+  <updated>2026-09-10T00:33:10.990266+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,34 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85717</id>
+    <title>Mix Of The Day: Das Firmament</title>
+    <updated>2026-09-10T00:31:24.985662+00:00</updated>
+    <content>A mind-expanding set from a Zürich trio on the rise.</content>
+    <link href="https://ra.co/news/85717" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-10T00:31:24.985662+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-03-aug-2026-03-47-pm-3673.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-03-aug-2026-03-47-pm-3673.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-03-aug-2026-03-47-pm-3673.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://ra.co/news/85592</id>
+    <title>Mix Of The Day: Huey Mnemonic</title>
+    <updated>2026-09-10T00:31:08.985662+00:00</updated>
+    <content>Jumping Detroit funk.</content>
+    <link href="https://ra.co/news/85592" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-10T00:31:08.985662+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-15-jul-2026-02-23-pm-5025.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-15-jul-2026-02-23-pm-5025.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-15-jul-2026-02-23-pm-5025.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/news/85225</id>
     <title>Playlist: Horst 2026</title>
@@ -2783,33 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-05-24-pm-2093.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-05-24-pm-2093.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85862</id>
-    <title>SML's Jeremiah Chiu announces new album, Edge Conditions</title>
-    <updated>2026-08-25T17:00:49+00:00</updated>
-    <content>The Los Angeles-based composer will release the LP on October 9th via International Anthem.</content>
-    <link href="https://ra.co/news/85862" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-25T17:00:49+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-12-24-pm-4736.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-12-24-pm-4736.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-25-aug-2026-12-24-pm-4736.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85807</id>
-    <title>Moné, house vocalist and Strictly Rhythm signee, dies</title>
-    <updated>2026-08-25T16:45:19+00:00</updated>
-    <content>The powerhouse singer penned club hits like "We Can Make It" and "Movin."</content>
-    <link href="https://ra.co/news/85807" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-25T16:45:19+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/mone.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/mone.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mone.png" type="image/png" length="0"/>
   </entry>
 </feed>

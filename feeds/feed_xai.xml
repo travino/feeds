@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://x.ai/xai</id>
   <title>xAI</title>
-  <updated>2026-09-09T21:10:04.985843+00:00</updated>
+  <updated>2026-09-10T00:34:19.463373+00:00</updated>
   <author>
     <name>xAI</name>
   </author>
@@ -12,6 +12,104 @@
   <icon>https://x.ai/favicon.ico</icon>
   <logo>https://x.ai/favicon.ico</logo>
   <subtitle>xAI product updates: News, the Grok Build changelog, and the xAI API release notes, plus the X developer API changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/06f277059068ea8e</id>
+    <title>Grok Build 1.0.25</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Successful hook runs are silent; only blocking or failing hooks show status Vim-mode Shift+J/K jump to the next or previous turn at the top of the viewport Double-click selects a radio button in settings choosers Dashboard actions row (+ New Agent, Open Previous, Worktree) is navigable with arrow keys and Enter /workflow can pause and stop background runs the agent launched /theme picker matches aliases such as transparent, dark, or system and still inserts the canonical name Bash command output</content>
+    <link href="https://x.ai/build/changelog#v1.0.25-2026-09-09" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/f97bf41080c4a4e7</id>
+    <title>Grok Build 1.0.22</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>Built-in agent tools take precedence over user MCP servers when tool names collide edit_file diffs show real file line numbers instead of starting at line 1 Permission prompts for file edits auto-expand the diff so you can review the change Sending a message to a finished subagent continues that same subagent instead of failing Background subagent completion messages show the actual output instead of a pointer to run a tool Dashboard has a unified header with a location picker and an actions row</content>
+    <link href="https://x.ai/build/changelog#v1.0.22-2026-09-07" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/df12012d534c60c1</id>
+    <title>Grok Build 1.0.23</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>Bare URLs and emails inside table cells stay fully clickable on every wrapped line</content>
+    <link href="https://x.ai/build/changelog#v1.0.23-2026-09-07" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/d6d5b64f34c592af</id>
+    <title>Grok Build 1.0.24</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>Esc no longer cancels a running turn and instead reminds you to use Ctrl+C</content>
+    <link href="https://x.ai/build/changelog#v1.0.24-2026-09-07" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/5bcbdfd2d8c903e3</id>
+    <title>Grok Build 1.0.19</title>
+    <updated>2026-09-04T00:00:00+00:00</updated>
+    <content>Scheduled /loop tasks always run in the background and no longer inject turns into the conversation Transparent terminal theme lets the terminal background show through MCP servers blocked by organization policy show a clear message and are refused before any config change Session resume tells the model which loops, subagents, and workflows were still running Dashboard shows newly dispatched sessions immediately Headless sessions ( grok -p ) support --worktree Dashboard session picker button say</content>
+    <link href="https://x.ai/build/changelog#v1.0.19-2026-09-04" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-04T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/aae5c42bcf48ee32</id>
+    <title>Grok Build 1.0.20</title>
+    <updated>2026-09-04T00:00:00+00:00</updated>
+    <content>Scroll history after sending a prompt no longer jumps the viewport unexpectedly</content>
+    <link href="https://x.ai/build/changelog#v1.0.20-2026-09-04" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-04T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/388d08a4bd8eb9e4</id>
+    <title>Grok Build 1.0.21</title>
+    <updated>2026-09-04T00:00:00+00:00</updated>
+    <content>Permission mode stays visible in plan mode and is restored on exit Typing, pasting, or Shift+Tab on the welcome screen opens the session instead of creating a duplicate Dock sections, queue body, and reveal rows stay within height limits on crowded terminals</content>
+    <link href="https://x.ai/build/changelog#v1.0.21-2026-09-04" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-04T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/xai/7b08ecf43270df6f</id>
     <title>Setting Grok Bot loose on procurement</title>
@@ -55,6 +153,48 @@
     <link rel="enclosure" href="https://x.ai/images/news/grok-bot-for-enterprise-og.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/6f09adfcf8d1417e</id>
+    <title>Grok Build 1.0.18</title>
+    <updated>2026-09-02T00:00:00+00:00</updated>
+    <content>Quoting a previous message works directly from the block viewer Welcome screen stays until you send a prompt; a session is prepared in the background Feedback is collected in a centered modal instead of a bottom card Feedback submissions include type, task, and failure details Feedback modal has a Drafts tab to manage and send saved drafts Models can render interactive charts Image generation supports richer parameters Retry behavior for rate-limited requests is configurable per model /feedback </content>
+    <link href="https://x.ai/build/changelog#v1.0.18-2026-09-02" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-02T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/e8ee160d20c6da84</id>
+    <title>Grok Build 1.0.16</title>
+    <updated>2026-09-01T00:00:00+00:00</updated>
+    <content>Long-running sessions interrupted by expired tokens during network issues no longer lose work Slash command suggestions with very long names no longer show blank labels Sending a message immediately after spawning a subagent no longer fails while the child is still starting Loading spinners inside the extensions modal ( /mcps and other tabs) animate MCP server OAuth from /mcps no longer deadlocks the session Long-running subagent and task output waits default to a one-hour ceiling instead of ten</content>
+    <link href="https://x.ai/build/changelog#v1.0.16-2026-09-01" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-01T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/e9ab4e5d70490508</id>
+    <title>Grok Build 1.0.17</title>
+    <updated>2026-09-01T00:00:00+00:00</updated>
+    <content>MCP tools can request additional input mid-call and resume when you answer Next-prompt ghost suggestions appear less often and stay silent when the next line is not obvious Table cell selection inside /btw panels highlights cells and copies as TSV</content>
+    <link href="https://x.ai/build/changelog#v1.0.17-2026-09-01" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-09-01T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/xai/901fd347cdc80f0e</id>
     <title>grok-imagine-image-quality retirement on November 2</title>
     <updated>2026-09-01T00:00:00+00:00</updated>
@@ -95,6 +235,34 @@
       <media:thumbnail url="https://media.x.ai/v1/website/biosec_frontier-1584260e.png"/>
     </media:group>
     <link rel="enclosure" href="https://media.x.ai/v1/website/biosec_frontier-1584260e.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/da278420acfb2be3</id>
+    <title>Grok Build 1.0.14</title>
+    <updated>2026-08-31T00:00:00+00:00</updated>
+    <content>OIDC token refresh is proactive by default grok usage &lt;session-id&gt; shows persisted per-turn token and cost data Retry status in the composer and title shows a short reason for the retry Prompt suggestions default to the current session model Windows downloads are ~70% smaller using the same compressed sidecars as macOS and Linux Subagent sessions no longer leak threads or file descriptors when the parent is busy Compaction failures due to context size degrade input instead of retrying identicall</content>
+    <link href="https://x.ai/build/changelog#v1.0.14-2026-08-31" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-08-31T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/xai/ae2c8520926722cf</id>
+    <title>Grok Build 1.0.15</title>
+    <updated>2026-08-31T00:00:00+00:00</updated>
+    <content>A tip after repeated scrollback drag-copies suggests /copy and /export Session close is faster because memory consolidation runs at the next launch instead of blocking exit Typed input including Enter during pager startup is preserved as submit or newline Dock panel input and rollout handle keyboard focus when hidden or empty First reply is faster by opening the model connection in the background when a session starts Signed-in startup is faster because an expired token refresh begins in the bac</content>
+    <link href="https://x.ai/build/changelog#v1.0.15-2026-08-31" rel="alternate"/>
+    <category term="Grok Build changelog" label="Grok Build changelog"/>
+    <published>2026-08-31T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/xai/ea6418c0c8d6f85e</id>
@@ -2643,173 +2811,5 @@
       <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
     </media:group>
     <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/0bc8c8213ee121bf</id>
-    <title>Use Grok in OpenClaw</title>
-    <updated>2026-05-19T00:00:00+00:00</updated>
-    <content>Use Grok in OpenClaw</content>
-    <link href="https://x.ai/news/grok-openclaw" rel="alternate"/>
-    <category term="xAI News" label="xAI News"/>
-    <published>2026-05-19T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/grok-openclaw-7dc35468.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/grok-openclaw-7dc35468.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/grok-openclaw-7dc35468.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/a11bf85904557fef</id>
-    <title>Grok Build 0.1.210</title>
-    <updated>2026-05-18T00:00:00+00:00</updated>
-    <content>Fix Windows contrast/color/theme rendering Fix German QWERTZ AltGr on Windows Convert session timestamps to local timezone Add backslash continuation to plan mode Fix auth for plugin-provided MCP servers Default to PowerShell on Windows Improve search tool on BM25 queries Decrease large bash-tool output to 20k chars front-and-back Auto-install shell completions for bash , zsh , and fish Force-refetch managed MCP configs Don’t auto-wake the model on cancelled/killed tasks or subagents Return imag</content>
-    <link href="https://x.ai/build/changelog#v0.1.210-2026-05-18" rel="alternate"/>
-    <category term="Grok Build changelog" label="Grok Build changelog"/>
-    <published>2026-05-18T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/c86cb1ef6e1a633b</id>
-    <title>Skills in web, iOS, and Android</title>
-    <updated>2026-05-18T00:00:00+00:00</updated>
-    <content>Skills in web, iOS, and Android</content>
-    <link href="https://x.ai/news/grok-skills" rel="alternate"/>
-    <category term="xAI News" label="xAI News"/>
-    <published>2026-05-18T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/grok-skills-og-33213f09.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/grok-skills-og-33213f09.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/grok-skills-og-33213f09.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/d3a2e1d67d828adf</id>
-    <title>Grok Build 0.1.209</title>
-    <updated>2026-05-17T00:00:00+00:00</updated>
-    <content>Plan-mode controls are more intuitive with improved shortcuts Fix terminal setup for cases where copy-on-highlight or paste did not work Improvements to how skills prompting works in Grok Build Absolute line numbers instead of relative line numbers in the edit panel Stop background tasks from blowing up the context window Nudge the model to use /tmp instead of writing inline Python scripts</content>
-    <link href="https://x.ai/build/changelog#v0.1.209-2026-05-17" rel="alternate"/>
-    <category term="Grok Build changelog" label="Grok Build changelog"/>
-    <published>2026-05-17T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/changelog-6ccbbcad.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/21c4d9567dc3c0f3</id>
-    <title>Connect Grok to Hermes Agent</title>
-    <updated>2026-05-15T00:00:00+00:00</updated>
-    <content>Connect Grok to Hermes Agent</content>
-    <link href="https://x.ai/news/grok-hermes" rel="alternate"/>
-    <category term="xAI News" label="xAI News"/>
-    <published>2026-05-15T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/grok-hermes-92849365.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/grok-hermes-92849365.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/grok-hermes-92849365.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/b55bb23dbf0c5970</id>
-    <title>Grok Imagine Quality Mode API</title>
-    <updated>2026-05-06T00:00:00+00:00</updated>
-    <content>Grok Imagine Quality Mode API</content>
-    <link href="https://x.ai/news/grok-imagine-quality-mode" rel="alternate"/>
-    <category term="xAI News" label="xAI News"/>
-    <published>2026-05-06T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/grok-imagine-quality-mode-og-d933a2dd.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/grok-imagine-quality-mode-og-d933a2dd.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/grok-imagine-quality-mode-og-d933a2dd.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/f3631456aedd6a99</id>
-    <title>Connectors in web, iOS, and Android</title>
-    <updated>2026-05-06T00:00:00+00:00</updated>
-    <content>Connectors in web, iOS, and Android</content>
-    <link href="https://x.ai/news/grok-connectors" rel="alternate"/>
-    <category term="xAI News" label="xAI News"/>
-    <published>2026-05-06T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/grok-connectors-67ee122a.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/grok-connectors-67ee122a.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/grok-connectors-67ee122a.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/04411cc504845dda</id>
-    <title>New Compute Partnership with Anthropic</title>
-    <updated>2026-05-06T00:00:00+00:00</updated>
-    <content>New Compute Partnership with Anthropic</content>
-    <link href="https://x.ai/news/anthropic-compute-partnership" rel="alternate"/>
-    <category term="xAI News" label="xAI News"/>
-    <published>2026-05-06T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://media.x.ai/v1/website/anthropic-compute-partnership-og-beffe2c5.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://media.x.ai/v1/website/anthropic-compute-partnership-og-beffe2c5.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://media.x.ai/v1/website/anthropic-compute-partnership-og-beffe2c5.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/3ba66585dc74a446</id>
-    <title>Search endpoints migrating to new search index</title>
-    <updated>2026-05-04T00:00:00+00:00</updated>
-    <content>Today, we migrated the X API v2 search endpoints ( /2/tweets/search/recent , /2/tweets/search/all , /2/tweets/counts/recent , /2/tweets/counts/all ) to the new X core platform search index. This brings major performance improvements, dramatically fewer 503 errors, and three new precision operators: min\_likes: , min\_replies: , and min\_reposts: . Note: retweets are no longer returned in keyword-based search results (the Filtered Stream is unchanged). Learn more here .</content>
-    <link href="https://docs.x.com/changelog#search-endpoints-migrating-to-new-search-index" rel="alternate"/>
-    <category term="X API changelog" label="X API changelog"/>
-    <published>2026-05-04T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://docs.x.com/images/og-default.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://docs.x.com/images/og-default.png" height="630" width="1200"/>
-    </media:group>
-    <link rel="enclosure" href="https://docs.x.com/images/og-default.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/c9cc738b11acdd7c</id>
-    <title>Custom Voices</title>
-    <updated>2026-05-01T00:00:00+00:00</updated>
-    <content>You can now clone a voice from a short audio clip and use it across the Text-to-Speech and Voice Agent APIs. Create and manage your voice catalog from the xAI console. For more details, check out the Custom Voices docs and our blog post.</content>
-    <link href="https://docs.x.ai/developers/release-notes#custom-voices" rel="alternate"/>
-    <category term="xAI API release notes" label="xAI API release notes"/>
-    <published>2026-05-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8"/>
-    </media:group>
-    <link rel="enclosure" href="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/9f2c6a3faf3f4246</id>
-    <title>Grok Build</title>
-    <updated>2026-05-01T00:00:00+00:00</updated>
-    <content>Grok Build is now available in beta. Use the interactive TUI, run headlessly in scripts, or build apps and orchestrators with the Agent Client Protocol. Install with a single command: bash customLanguage="bash" curl -fsSL https://x.ai/cli/install.sh | bash For more details, see the Grok Build docs.</content>
-    <link href="https://docs.x.ai/developers/release-notes#grok-build" rel="alternate"/>
-    <category term="xAI API release notes" label="xAI API release notes"/>
-    <published>2026-05-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8"/>
-    </media:group>
-    <link rel="enclosure" href="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/xai/0101e6aef4928f9c</id>
-    <title>Grok Build 0.1</title>
-    <updated>2026-05-01T00:00:00+00:00</updated>
-    <content>xAI's fast coding model trained specifically for agentic coding, currently in early access. The model slug is grok-build-0.1 .</content>
-    <link href="https://docs.x.ai/developers/release-notes#grok-build-0-1" rel="alternate"/>
-    <category term="xAI API release notes" label="xAI API release notes"/>
-    <published>2026-05-01T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8"/>
-    </media:group>
-    <link rel="enclosure" href="https://docs.x.ai/api/og?t=eyJ0aXRsZSI6IlJlbGVhc2UgTm90ZXMiLCJ2IjoiNiIsInNjb3BlIjoiZGV2ZWxvcGVycyIsInNlY3Rpb24iOiJEZXZlbG9wZXJzIn0.a3LsxY7sMTmFaDWxYIXC3vfwhuOHNfMSK_MPeHXBbR8" type="image/jpeg" length="0"/>
   </entry>
 </feed>

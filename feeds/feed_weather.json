@@ -5,6 +5,26 @@
   "home_page_url": "https://weather.trfny.com/",
   "items": [
     {
+      "id": "tag:travny,2026:weather:koscielec:current:2026-09-10T00:00:13.374Z",
+      "title": "Kościelec (Chrzanów): zachmurzenie, 17.3°C",
+      "content_text": "temperatura -5.2°C → 17.3°C. Mediana 3 źródeł: 17.3°C (rozrzut 13.7–18.1°C), wiatr 4.2 m/s, wilgotność 70.7%, UV 0.",
+      "date_published": "2026-09-10T00:00:13Z",
+      "date_modified": "2026-09-10T00:00:13Z",
+      "tags": [
+        "current_change"
+      ]
+    },
+    {
+      "id": "tag:travny,2026:weather:koscielec:air:2026-09-09T22:00:12.327Z",
+      "title": "Kościelec (Chrzanów): jakość powietrza — dobra (AQI 34)",
+      "content_text": "Europejski indeks AQI 34 (dobra). PM2.5 11.8 µg/m³, PM10 14.7 µg/m³. Dominujący pyłek: bylica (2 ziaren/m³).",
+      "date_published": "2026-09-09T22:00:12Z",
+      "date_modified": "2026-09-09T22:00:12Z",
+      "tags": [
+        "air_quality_change"
+      ]
+    },
+    {
       "id": "tag:travny,2026:weather:koscielec:current:2026-09-09T20:00:09.371Z",
       "title": "Kościelec (Chrzanów): zachmurzenie, 22.5°C",
       "content_text": "bezchmurnie → zachmurzenie. Mediana 3 źródeł: 22.5°C (rozrzut 19.9–23.1°C), wiatr 3.4 m/s, wilgotność 61%, UV 0.",
@@ -582,26 +602,6 @@
       "date_modified": "2026-09-02T16:00:11Z",
       "tags": [
         "air_quality_change"
-      ]
-    },
-    {
-      "id": "tag:travny,2026:weather:koscielec:air:2026-09-02T14:00:21.724Z",
-      "title": "Kościelec (Chrzanów): jakość powietrza — umiarkowana (AQI 41)",
-      "content_text": "Europejski indeks AQI 41 (umiarkowana). PM2.5 7.4 µg/m³, PM10 9.6 µg/m³. Dominujący pyłek: ambrozja (3 ziaren/m³).",
-      "date_published": "2026-09-02T14:00:21Z",
-      "date_modified": "2026-09-02T14:00:21Z",
-      "tags": [
-        "air_quality_change"
-      ]
-    },
-    {
-      "id": "tag:travny,2026:weather:koscielec:current:2026-09-02T10:00:14.082Z",
-      "title": "Kościelec (Chrzanów): zachmurzenie, 21.9°C",
-      "content_text": "temperatura +3.3°C → 21.9°C. Mediana 3 źródeł: 21.9°C (rozrzut 21.8–22.5°C), wiatr 1.8 m/s, wilgotność 54%, UV 3.7.",
-      "date_published": "2026-09-02T10:00:14Z",
-      "date_modified": "2026-09-02T10:00:14Z",
-      "tags": [
-        "current_change"
       ]
     }
   ]

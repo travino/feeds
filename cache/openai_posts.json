@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T21:09:00.695659+00:00",
+  "last_updated": "2026-09-10T00:32:56.595562+00:00",
   "entries": [
     {
       "title": "Update: Added function calling support to the Fine-tuning API",
@@ -8840,6 +8840,59 @@
       "source": "ChatGPT release notes",
       "image": "https://help.openai.com/og-image.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/openai/77eef1c6afce0263"
+    },
+    {
+      "title": "Codex CLI Release: 0.154.0",
+      "link": "https://developers.openai.com/codex/changelog/#github-release-385887902",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "0.154.0",
+      "source": "OpenAI Codex",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/eda72e692272a310"
+    },
+    {
+      "title": "Codex CLI 0.154.0",
+      "link": "https://learn.chatgpt.com/docs/changelog#github-release-385887902",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "$ npm install -g @openai/codex@0.154.0 View details New Features GPT-6-Astra is now available in the model picker and Amazon Bedrock catalogs. ( #42879 , #42619 ) Experimental worktree support lets you create isolated checkouts for new or forked sessions using --worktree or /worktree , then browse and resume them. ( #42652 , #43069 , #43120 , #43286 ) Answer questions inline while Codex continues working, using suggested choices or custom text without losing your main draft. ( #42891 , #42894 , ",
+      "source": "ChatGPT changelog",
+      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/7f727541f1b59583"
+    },
+    {
+      "title": "Share files and folders from your Library",
+      "link": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes#chatgpt-2026-09-09-share-files-and-folders-from-your-library-d9a43b13",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "Library sharing lets you share files and folders in ChatGPT, choose who can access them, and work with shared content directly in your conversations. Share with specific people. Invite recipients and assign Viewer or Editor access. Share across your workspace. Make content available to everyone in your workspace. Manage access. Review who has access, change permissions, or remove access from the sharing dialog. Find and use shared content. Access items in Shared with me and use shared files in c",
+      "source": "ChatGPT release notes",
+      "image": "https://help.openai.com/og-image.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/fe4dd5f209fe046e"
+    },
+    {
+      "title": "GPT-6 Astra: The next generation in intelligence for work",
+      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
+      "date": "2026-09-09T11:00:00+00:00",
+      "description": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
+      "source": "OpenAI News",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/1UclxTs0019dGYT78njfV7/564c2815192122bcdcedce7b4ab36e3a/Business_blog_16x9.png?w=1600&h=900&fit=fill",
+      "image_width": 1600,
+      "image_height": 900,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/587a70348a735f61"
+    },
+    {
+      "title": "The AI policy window is open. We need to act.",
+      "link": "https://openai.com/index/ai-policy-window",
+      "date": "2026-09-09T13:00:00+00:00",
+      "description": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
+      "source": "OpenAI News",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/3j3cxGtSNDD0McSlczkBsg/2627bd7c7ea80e644696bd92587dc88c/6j6yjkcvdffsmjbvq2uw8u-seo__1_.png?w=1600&h=900&fit=fill",
+      "image_width": 1600,
+      "image_height": 900,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/9786c92a289dc0ec"
     },
     {
       "title": "Paul Christiano joins OpenAI Foundation Board",

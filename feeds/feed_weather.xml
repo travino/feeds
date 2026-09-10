@@ -2,13 +2,29 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Pogoda — Kościelec (Chrzanów)</title>
   <id>tag:travny,2026:weather:koscielec</id>
-  <updated>2026-09-09T20:00:09.371Z</updated>
+  <updated>2026-09-10T00:00:13.374Z</updated>
   <link rel="self" href="https://raw.githubusercontent.com/trvny/feedseek/main/feeds/feed_weather.xml"/>
   <link rel="alternate" href="https://weather.trfny.com/"/>
   <author>
     <name>travny weather aggregator</name>
   </author>
   <generator>cloudflare-worker</generator>
+  <entry>
+    <title>Kościelec (Chrzanów): zachmurzenie, 17.3°C</title>
+    <id>tag:travny,2026:weather:koscielec:current:2026-09-10T00:00:13.374Z</id>
+    <updated>2026-09-10T00:00:13.374Z</updated>
+    <published>2026-09-10T00:00:13.374Z</published>
+    <category term="current_change"/>
+    <content type="text">temperatura -5.2°C → 17.3°C. Mediana 3 źródeł: 17.3°C (rozrzut 13.7–18.1°C), wiatr 4.2 m/s, wilgotność 70.7%, UV 0.</content>
+  </entry>
+  <entry>
+    <title>Kościelec (Chrzanów): jakość powietrza — dobra (AQI 34)</title>
+    <id>tag:travny,2026:weather:koscielec:air:2026-09-09T22:00:12.327Z</id>
+    <updated>2026-09-09T22:00:12.327Z</updated>
+    <published>2026-09-09T22:00:12.327Z</published>
+    <category term="air_quality_change"/>
+    <content type="text">Europejski indeks AQI 34 (dobra). PM2.5 11.8 µg/m³, PM10 14.7 µg/m³. Dominujący pyłek: bylica (2 ziaren/m³).</content>
+  </entry>
   <entry>
     <title>Kościelec (Chrzanów): zachmurzenie, 22.5°C</title>
     <id>tag:travny,2026:weather:koscielec:current:2026-09-09T20:00:09.371Z</id>
@@ -472,21 +488,5 @@
     <published>2026-09-02T16:00:11.594Z</published>
     <category term="air_quality_change"/>
     <content type="text">Europejski indeks AQI 40 (dobra). PM2.5 8.2 µg/m³, PM10 13.3 µg/m³. Dominujący pyłek: trawy (2 ziaren/m³).</content>
-  </entry>
-  <entry>
-    <title>Kościelec (Chrzanów): jakość powietrza — umiarkowana (AQI 41)</title>
-    <id>tag:travny,2026:weather:koscielec:air:2026-09-02T14:00:21.724Z</id>
-    <updated>2026-09-02T14:00:21.724Z</updated>
-    <published>2026-09-02T14:00:21.724Z</published>
-    <category term="air_quality_change"/>
-    <content type="text">Europejski indeks AQI 41 (umiarkowana). PM2.5 7.4 µg/m³, PM10 9.6 µg/m³. Dominujący pyłek: ambrozja (3 ziaren/m³).</content>
-  </entry>
-  <entry>
-    <title>Kościelec (Chrzanów): zachmurzenie, 21.9°C</title>
-    <id>tag:travny,2026:weather:koscielec:current:2026-09-02T10:00:14.082Z</id>
-    <updated>2026-09-02T10:00:14.082Z</updated>
-    <published>2026-09-02T10:00:14.082Z</published>
-    <category term="current_change"/>
-    <content type="text">temperatura +3.3°C → 21.9°C. Mediana 3 źródeł: 21.9°C (rozrzut 21.8–22.5°C), wiatr 1.8 m/s, wilgotność 54%, UV 3.7.</content>
   </entry>
 </feed>

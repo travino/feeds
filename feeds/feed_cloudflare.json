@@ -102,6 +102,29 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/b788bd92f6967f4a",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-09-09-ios-tap-to-type/",
+      "title": "Browser Isolation, Cloudflare One - Improved iOS tap-to-type experience for Browser Isolation",
+      "content_text": "Browser Isolation has improved the tap-to-type experience for users on iOS devices. Previously, Browser Isolation displayed a full-screen overlay with the message tap to type when users focused a text field. The prompt now appears inline over the focused text field, reducing disruption when users enter text in isolated sessions. If the focused text field is too small to display the full prompt, Browser Isolation displays a keyboard icon in the center of the text field instead. iOS users should t",
+      "date_published": "2026-09-09T00:00:00Z",
+      "date_modified": "2026-09-09T00:00:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Changelog"
+        }
+      ],
+      "image": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg",
+      "tags": [
+        "Cloudflare Changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/a403d9b2c52ac497",
       "url": "https://www.cloudflarestatus.com/incidents/hy0gsndpkypz",
       "title": "Intermittent issues accessing the Dashboard on Firefox and Safari",
@@ -1985,29 +2008,6 @@
       ],
       "tags": [
         "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/537968036699a8d5",
-      "url": "https://developers.cloudflare.com/changelog/post/2026-08-20-contextual-403s/",
-      "title": "Cloudflare Fundamentals - Enriched 403 responses for the Cloudflare API",
-      "content_text": "Cloudflare API 403 Forbidden responses now include a documentation_url field that links directly to the API documentation for the endpoint that was denied. This gives developers, administrators, and agents an immediate path to the relevant docs with role information instead of guessing at which role or permission they are missing for that endpoint. What's New Enriched 403 error responses : When a Cloudflare API request is denied, the error response now includes a documentation_url field that poi",
-      "date_published": "2026-08-21T00:00:00Z",
-      "date_modified": "2026-08-21T00:00:00Z",
-      "authors": [
-        {
-          "name": "Cloudflare Changelog"
-        }
-      ],
-      "image": "https://developers.cloudflare.com/og-changelog.png",
-      "tags": [
-        "Cloudflare Changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://developers.cloudflare.com/og-changelog.png",
-          "mime_type": "image/png"
-        }
       ]
     },
     {

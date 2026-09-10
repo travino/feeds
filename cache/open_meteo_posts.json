@@ -1,36 +1,6 @@
 {
-  "last_updated": "2026-09-09T21:08:58.084461+00:00",
+  "last_updated": "2026-09-10T00:32:52.341677+00:00",
   "entries": [
-    {
-      "guid": "urn:open-meteo:50.13133,19.41654:solar:2026-08-02",
-      "kind": "solar",
-      "title": "Kościelec (Chrzanów) — nasłonecznienie 02.08: 12.30 MJ/m², słońce 0 h 07 min",
-      "link": "https://open-meteo.com/",
-      "description": "<p>Pomiar satelitarny promieniowania słonecznego (Open-Meteo)</p><ul><li>Suma promieniowania krótkofalowego: 12.30 MJ/m²</li><li>Czas nasłonecznienia: 0 h 07 min (dzień trwał 15 h 11 min)</li><li>Wschód 05:12 · zachód 20:24</li></ul>",
-      "date": "2026-08-02T00:00:00+02:00",
-      "updated": "2026-08-03T04:21:11.724379+00:00",
-      "summary_hash": "37d6ef9d3969d63d1a09d88bd263d90e73b52c8a"
-    },
-    {
-      "guid": "urn:open-meteo:50.13133,19.41654:day:2026-08-03",
-      "kind": "forecast",
-      "title": "Kościelec (Chrzanów): pon. 03.08 — pochmurno, 19°C do 32°C",
-      "link": "https://open-meteo.com/",
-      "description": "<p><strong>Pochmurno</strong> · maks. 32°C · min. 19°C (odczuwalna 19°C do 35°C)</p><ul><li>Opady: 0.0 mm (prawdopodobieństwo 75%, 0.0 godz.)</li><li>Wiatr: do 16.6 km/h, porywy do 34.9 km/h, kierunek E</li><li>Indeks UV: 6.6</li><li>Nasłonecznienie: 9 h 00 min (dzień trwa 15 h 08 min)</li><li>Wschód 05:14 · zachód 20:22</li><li>CAPE (śr.): 759 J/kg</li></ul>",
-      "date": "2026-08-03T00:00:00+02:00",
-      "updated": "2026-08-03T21:49:54.731004+00:00",
-      "summary_hash": "3ae15c89ca062f8fe4342b865ca51355d1440e1b"
-    },
-    {
-      "guid": "urn:open-meteo:50.13133,19.41654:current:2026-08-03",
-      "kind": "current",
-      "title": "Kościelec (Chrzanów) teraz (23:45): bezchmurnie, 24°C · AQI 26 (dobra)",
-      "link": "https://open-meteo.com/",
-      "description": "<p><strong>Bezchmurnie</strong> · 24°C (odczuwalna 26°C) · stan z 23:45</p><ul><li>Wiatr: 7.2 km/h (ESE), porywy 12.6 km/h</li><li>Wilgotność: 72% · zachmurzenie 0%</li><li>Ciśnienie: 1014.2 hPa (na poziomie morza)</li></ul><p><strong>Jakość powietrza:</strong> europejski AQI 26 — dobra</p><ul><li>PM2.5: 13.1 µg/m³ · PM10: 17.0 µg/m³</li><li>NO₂: 12.9 · O₃: 65.0 · SO₂: 2.2 · CO: 190.0 µg/m³</li><li>Pyłki (ziarna/m³): trawy 8.6, bylica 18.5, ambrozja 0.2</li></ul>",
-      "date": "2026-08-03T00:00:00+02:00",
-      "updated": "2026-08-03T21:49:54.731314+00:00",
-      "summary_hash": "a9e637021ff6be52e6174cbdcdb1271a5fc68571"
-    },
     {
       "guid": "urn:open-meteo:50.13133,19.41654:solar:2026-08-03",
       "kind": "solar",
@@ -1142,64 +1112,94 @@
       "summary_hash": "9c60b2ccf54be59020d9aa633dd33fcdfca0ed9b"
     },
     {
+      "guid": "urn:open-meteo:50.13133,19.41654:solar:2026-09-09",
+      "kind": "solar",
+      "title": "Kościelec (Chrzanów) — nasłonecznienie 09.09: 19.13 MJ/m², słońce 11 h 48 min",
+      "link": "https://open-meteo.com/",
+      "description": "<p>Pomiar satelitarny promieniowania słonecznego (Open-Meteo)</p><ul><li>Suma promieniowania krótkofalowego: 19.13 MJ/m²</li><li>Czas nasłonecznienia: 11 h 48 min (dzień trwał 13 h 01 min)</li><li>Wschód 06:08 · zachód 19:09</li></ul>",
+      "date": "2026-09-09T00:00:00+02:00",
+      "updated": "2026-09-10T00:32:52.338209+00:00",
+      "summary_hash": "a7ce661ae28e77745bc44aa53812d2911d16c894"
+    },
+    {
       "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-10",
       "kind": "forecast",
-      "title": "Kościelec (Chrzanów): czw. 10.09 — umiarkowany deszcz, 14°C do 20°C",
+      "title": "Kościelec (Chrzanów): czw. 10.09 — gęsta mżawka, 14°C do 19°C",
       "link": "https://open-meteo.com/",
-      "description": "<p><strong>Umiarkowany deszcz</strong> · maks. 20°C · min. 14°C (odczuwalna 13°C do 19°C)</p><ul><li>Opady: 6.2 mm (prawdopodobieństwo 100%, 5.0 godz.)</li><li>Wiatr: do 14.0 km/h, porywy do 37.4 km/h, kierunek WNW</li><li>Indeks UV: 4.0</li><li>Nasłonecznienie: 0 h 00 min (dzień trwa 12 h 57 min)</li><li>Wschód 06:10 · zachód 19:07</li><li>CAPE (śr.): 34 J/kg</li></ul>",
+      "description": "<p><strong>Gęsta mżawka</strong> · maks. 19°C · min. 14°C (odczuwalna 14°C do 18°C)</p><ul><li>Opady: 3.0 mm (prawdopodobieństwo 100%, 5.0 godz.)</li><li>Wiatr: do 14.8 km/h, porywy do 34.9 km/h, kierunek NW</li><li>Indeks UV: 3.95</li><li>Nasłonecznienie: 0 h 00 min (dzień trwa 12 h 57 min)</li><li>Wschód 06:10 · zachód 19:07</li><li>CAPE (śr.): 35 J/kg</li></ul>",
       "date": "2026-09-10T00:00:00+02:00",
-      "updated": "2026-09-09T21:08:57.464670+00:00",
-      "summary_hash": "c9a01a0d1d98c7ce4d05e3169c93a3ca356d679e"
+      "updated": "2026-09-10T00:32:51.766490+00:00",
+      "summary_hash": "6ad0294f381d2608f2b180a1bc1d364850d9a802"
+    },
+    {
+      "guid": "urn:open-meteo:50.13133,19.41654:current:2026-09-10",
+      "kind": "current",
+      "title": "Kościelec (Chrzanów) teraz (02:30): gęsta mżawka, 16°C · AQI 24 (dobra)",
+      "link": "https://open-meteo.com/",
+      "description": "<p><strong>Gęsta mżawka</strong> · 16°C (odczuwalna 14°C) · stan z 02:30</p><ul><li>Wiatr: 14.4 km/h (NNW), porywy 33.8 km/h</li><li>Wilgotność: 77% · zachmurzenie 100%</li><li>Ciśnienie: 1013.6 hPa (na poziomie morza)</li><li>Opad: 0.3 mm</li></ul><p><strong>Jakość powietrza:</strong> europejski AQI 24 — dobra</p><ul><li>PM2.5: 6.8 µg/m³ · PM10: 8.5 µg/m³</li><li>NO₂: 9.7 · O₃: 59.0 · SO₂: 3.8 · CO: 177.0 µg/m³</li><li>Pyłki (ziarna/m³): trawy 0.1, bylica 0.7, ambrozja 0.4</li></ul>",
+      "date": "2026-09-10T00:00:00+02:00",
+      "updated": "2026-09-10T00:32:51.766856+00:00",
+      "summary_hash": "6f6d9fc9cf5b77b1715a143999edf9342a1b8595"
     },
     {
       "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-11",
       "kind": "forecast",
-      "title": "Kościelec (Chrzanów): pt. 11.09 — gęsta mżawka, 11°C do 14°C",
+      "title": "Kościelec (Chrzanów): pt. 11.09 — gęsta mżawka, 12°C do 14°C",
       "link": "https://open-meteo.com/",
-      "description": "<p><strong>Gęsta mżawka</strong> · maks. 14°C · min. 11°C (odczuwalna 10°C do 13°C)</p><ul><li>Opady: 5.3 mm (prawdopodobieństwo 78%, 14.0 godz.)</li><li>Wiatr: do 10.4 km/h, porywy do 22.0 km/h, kierunek ENE</li><li>Indeks UV: 0.5</li><li>Nasłonecznienie: 0 h 00 min (dzień trwa 12 h 53 min)</li><li>Wschód 06:11 · zachód 19:04</li><li>CAPE (śr.): 10 J/kg</li></ul>",
+      "description": "<p><strong>Gęsta mżawka</strong> · maks. 14°C · min. 12°C (odczuwalna 11°C do 13°C)</p><ul><li>Opady: 6.3 mm (prawdopodobieństwo 96%, 15.0 godz.)</li><li>Wiatr: do 9.4 km/h, porywy do 20.2 km/h, kierunek ENE</li><li>Indeks UV: 0.45</li><li>Nasłonecznienie: 0 h 00 min (dzień trwa 12 h 53 min)</li><li>Wschód 06:11 · zachód 19:04</li><li>CAPE (śr.): 10 J/kg</li></ul>",
       "date": "2026-09-11T00:00:00+02:00",
-      "updated": "2026-09-09T21:08:57.464723+00:00",
-      "summary_hash": "4bc0356ecf3051eae90da568ec513ff9b9f677ab"
+      "updated": "2026-09-10T00:32:51.766576+00:00",
+      "summary_hash": "e764865d70b0359775c7b795d6e9e1442ecbb672"
     },
     {
       "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-12",
       "kind": "forecast",
-      "title": "Kościelec (Chrzanów): sob. 12.09 — słaba mżawka, 10°C do 18°C",
+      "title": "Kościelec (Chrzanów): sob. 12.09 — słaba mżawka, 10°C do 17°C",
       "link": "https://open-meteo.com/",
-      "description": "<p><strong>Słaba mżawka</strong> · maks. 18°C · min. 10°C (odczuwalna 8°C do 16°C)</p><ul><li>Opady: 0.2 mm (prawdopodobieństwo 20%, 1.0 godz.)</li><li>Wiatr: do 10.8 km/h, porywy do 22.0 km/h, kierunek NNW</li><li>Indeks UV: 4.9</li><li>Nasłonecznienie: 8 h 37 min (dzień trwa 12 h 50 min)</li><li>Wschód 06:13 · zachód 19:02</li><li>CAPE (śr.): 10 J/kg</li></ul>",
+      "description": "<p><strong>Słaba mżawka</strong> · maks. 17°C · min. 10°C (odczuwalna 8°C do 15°C)</p><ul><li>Opady: 0.2 mm (prawdopodobieństwo 41%, 1.0 godz.)</li><li>Wiatr: do 10.8 km/h, porywy do 22.0 km/h, kierunek N</li><li>Indeks UV: 4.9</li><li>Nasłonecznienie: 8 h 20 min (dzień trwa 12 h 50 min)</li><li>Wschód 06:13 · zachód 19:02</li><li>CAPE (śr.): 12 J/kg</li></ul>",
       "date": "2026-09-12T00:00:00+02:00",
-      "updated": "2026-09-09T21:08:57.464764+00:00",
-      "summary_hash": "758c31e7466189e537a0c0cf6f0ad8f59ef5cd20"
+      "updated": "2026-09-10T00:32:51.766632+00:00",
+      "summary_hash": "4ab86719dbd12eaabe408f3f7440617844b3a8a5"
     },
     {
       "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-13",
       "kind": "forecast",
-      "title": "Kościelec (Chrzanów): niedz. 13.09 — częściowe zachmurzenie, 8°C do 21°C",
+      "title": "Kościelec (Chrzanów): niedz. 13.09 — pochmurno, 8°C do 20°C",
       "link": "https://open-meteo.com/",
-      "description": "<p><strong>Częściowe zachmurzenie</strong> · maks. 21°C · min. 8°C (odczuwalna 7°C do 20°C)</p><ul><li>Opady: 0.0 mm (prawdopodobieństwo 4%, 0.0 godz.)</li><li>Wiatr: do 8.3 km/h, porywy do 19.4 km/h, kierunek SSE</li><li>Indeks UV: 4.4</li><li>Nasłonecznienie: 12 h 12 min (dzień trwa 12 h 46 min)</li><li>Wschód 06:14 · zachód 19:00</li><li>CAPE (śr.): 0 J/kg</li></ul>",
+      "description": "<p><strong>Pochmurno</strong> · maks. 20°C · min. 8°C (odczuwalna 6°C do 19°C)</p><ul><li>Opady: 0.0 mm (prawdopodobieństwo 8%, 0.0 godz.)</li><li>Wiatr: do 8.3 km/h, porywy do 19.4 km/h, kierunek SSE</li><li>Indeks UV: 4.75</li><li>Nasłonecznienie: 12 h 12 min (dzień trwa 12 h 46 min)</li><li>Wschód 06:14 · zachód 19:00</li><li>CAPE (śr.): 0 J/kg</li></ul>",
       "date": "2026-09-13T00:00:00+02:00",
-      "updated": "2026-09-09T21:08:57.464804+00:00",
-      "summary_hash": "ce634d165c0c631acf523f67a32defada18baff3"
+      "updated": "2026-09-10T00:32:51.766677+00:00",
+      "summary_hash": "2708d6c69862c3fccb19fc4b19d94db51ea1022f"
     },
     {
       "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-14",
       "kind": "forecast",
-      "title": "Kościelec (Chrzanów): pon. 14.09 — słaba mżawka, 12°C do 20°C",
+      "title": "Kościelec (Chrzanów): pon. 14.09 — słaba mżawka, 10°C do 20°C",
       "link": "https://open-meteo.com/",
-      "description": "<p><strong>Słaba mżawka</strong> · maks. 20°C · min. 12°C (odczuwalna 11°C do 20°C)</p><ul><li>Opady: 2.1 mm (prawdopodobieństwo 26%, 6.0 godz.)</li><li>Wiatr: do 8.4 km/h, porywy do 26.6 km/h, kierunek W</li><li>Indeks UV: 0.8</li><li>Nasłonecznienie: 5 h 00 min (dzień trwa 12 h 42 min)</li><li>Wschód 06:16 · zachód 18:58</li><li>CAPE (śr.): 9 J/kg</li></ul>",
+      "description": "<p><strong>Słaba mżawka</strong> · maks. 20°C · min. 10°C (odczuwalna 8°C do 19°C)</p><ul><li>Opady: 0.3 mm (prawdopodobieństwo 41%, 3.0 godz.)</li><li>Wiatr: do 8.4 km/h, porywy do 26.6 km/h, kierunek W</li><li>Indeks UV: 2.6</li><li>Nasłonecznienie: 5 h 29 min (dzień trwa 12 h 42 min)</li><li>Wschód 06:16 · zachód 18:58</li><li>CAPE (śr.): 10 J/kg</li></ul>",
       "date": "2026-09-14T00:00:00+02:00",
-      "updated": "2026-09-09T21:08:57.464842+00:00",
-      "summary_hash": "df520dde039990468ac92365fab0aadf37cabf43"
+      "updated": "2026-09-10T00:32:51.766721+00:00",
+      "summary_hash": "1f6c75f8c0a8d1ad6b0dfc65ad15798207525058"
     },
     {
       "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-15",
       "kind": "forecast",
-      "title": "Kościelec (Chrzanów): wt. 15.09 — pochmurno, 13°C do 22°C",
+      "title": "Kościelec (Chrzanów): wt. 15.09 — pochmurno, 12°C do 22°C",
       "link": "https://open-meteo.com/",
-      "description": "<p><strong>Pochmurno</strong> · maks. 22°C · min. 13°C (odczuwalna 13°C do 21°C)</p><ul><li>Opady: 0.0 mm (prawdopodobieństwo 10%, 0.0 godz.)</li><li>Wiatr: do 6.4 km/h, porywy do 22.0 km/h, kierunek WNW</li><li>Indeks UV: 4.45</li><li>Nasłonecznienie: 11 h 57 min (dzień trwa 12 h 39 min)</li><li>Wschód 06:17 · zachód 18:56</li><li>CAPE (śr.): 13 J/kg</li></ul>",
+      "description": "<p><strong>Pochmurno</strong> · maks. 22°C · min. 12°C (odczuwalna 12°C do 22°C)</p><ul><li>Opady: 0.0 mm (prawdopodobieństwo 10%, 0.0 godz.)</li><li>Wiatr: do 6.4 km/h, porywy do 22.0 km/h, kierunek WNW</li><li>Indeks UV: 4.65</li><li>Nasłonecznienie: 10 h 49 min (dzień trwa 12 h 39 min)</li><li>Wschód 06:17 · zachód 18:56</li><li>CAPE (śr.): 12 J/kg</li></ul>",
       "date": "2026-09-15T00:00:00+02:00",
-      "updated": "2026-09-09T21:08:57.464877+00:00",
-      "summary_hash": "d6fa68c6f1d1179c0614bd4b5c642b15e309be09"
+      "updated": "2026-09-10T00:32:51.766763+00:00",
+      "summary_hash": "dcc848c48e9f51e23c77d04cf346d4a8a952cf75"
+    },
+    {
+      "guid": "urn:open-meteo:50.13133,19.41654:day:2026-09-16",
+      "kind": "forecast",
+      "title": "Kościelec (Chrzanów): śr. 16.09 — słaba mżawka, 13°C do 23°C",
+      "link": "https://open-meteo.com/",
+      "description": "<p><strong>Słaba mżawka</strong> · maks. 23°C · min. 13°C (odczuwalna 12°C do 22°C)</p><ul><li>Opady: 3.0 mm (prawdopodobieństwo 49%, 12.0 godz.)</li><li>Wiatr: do 14.1 km/h, porywy do 44.6 km/h, kierunek WSW</li><li>Indeks UV: 4.7</li><li>Nasłonecznienie: 12 h 13 min (dzień trwa 12 h 35 min)</li><li>Wschód 06:19 · zachód 18:53</li><li>CAPE (śr.): 198 J/kg</li></ul>",
+      "date": "2026-09-16T00:00:00+02:00",
+      "updated": "2026-09-10T00:32:51.766801+00:00",
+      "summary_hash": "17430925690381a1067c438ac611beaa3d748a82"
     }
   ]
 }

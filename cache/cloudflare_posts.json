@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T21:07:47.351839+00:00",
+  "last_updated": "2026-09-10T00:31:24.963639+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5606,6 +5606,15 @@
       "source": "Cloudflare Changelog",
       "image": "https://developers.cloudflare.com/og-changelog.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/1e8bfa47e117881f"
+    },
+    {
+      "title": "Browser Isolation, Cloudflare One - Improved iOS tap-to-type experience for Browser Isolation",
+      "link": "https://developers.cloudflare.com/changelog/post/2026-09-09-ios-tap-to-type/",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "Browser Isolation has improved the tap-to-type experience for users on iOS devices. Previously, Browser Isolation displayed a full-screen overlay with the message tap to type when users focused a text field. The prompt now appears inline over the focused text field, reducing disruption when users enter text in isolated sessions. If the focused text field is too small to display the full prompt, Browser Isolation displays a keyboard icon in the center of the text field instead. iOS users should t",
+      "source": "Cloudflare Changelog",
+      "image": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/b788bd92f6967f4a"
     },
     {
       "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",

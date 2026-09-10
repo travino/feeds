@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T19:19:38.777634+00:00",
+  "last_updated": "2026-09-10T00:34:19.553147+00:00",
   "entries": [
     {
       "title": "Announcing Grok",
@@ -2812,6 +2812,24 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/xai/ea6418c0c8d6f85e"
     },
     {
+      "title": "Grok Build 1.0.15",
+      "link": "https://x.ai/build/changelog#v1.0.15-2026-08-31",
+      "date": "2026-08-31T00:00:00+00:00",
+      "description": "A tip after repeated scrollback drag-copies suggests /copy and /export Session close is faster because memory consolidation runs at the next launch instead of blocking exit Typed input including Enter during pager startup is preserved as submit or newline Dock panel input and rollout handle keyboard focus when hidden or empty First reply is faster by opening the model connection in the background when a session starts Signed-in startup is faster because an expired token refresh begins in the bac",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/ae2c8520926722cf"
+    },
+    {
+      "title": "Grok Build 1.0.14",
+      "link": "https://x.ai/build/changelog#v1.0.14-2026-08-31",
+      "date": "2026-08-31T00:00:00+00:00",
+      "description": "OIDC token refresh is proactive by default grok usage <session-id> shows persisted per-turn token and cost data Retry status in the composer and title shows a short reason for the retry Prompt suggestions default to the current session model Windows downloads are ~70% smaller using the same compressed sidecars as macOS and Linux Subagent sessions no longer leak threads or file descriptors when the parent is busy Compaction failures due to context size degrade input instead of retrying identicall",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/da278420acfb2be3"
+    },
+    {
       "title": "Biosecurity at the frontier",
       "link": "https://x.ai/news/biosafety-at-the-frontier",
       "date": "2026-09-01T00:00:00+00:00",
@@ -2841,6 +2859,33 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/xai/901fd347cdc80f0e"
     },
     {
+      "title": "Grok Build 1.0.17",
+      "link": "https://x.ai/build/changelog#v1.0.17-2026-09-01",
+      "date": "2026-09-01T00:00:00+00:00",
+      "description": "MCP tools can request additional input mid-call and resume when you answer Next-prompt ghost suggestions appear less often and stay silent when the next line is not obvious Table cell selection inside /btw panels highlights cells and copies as TSV",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/e9ab4e5d70490508"
+    },
+    {
+      "title": "Grok Build 1.0.16",
+      "link": "https://x.ai/build/changelog#v1.0.16-2026-09-01",
+      "date": "2026-09-01T00:00:00+00:00",
+      "description": "Long-running sessions interrupted by expired tokens during network issues no longer lose work Slash command suggestions with very long names no longer show blank labels Sending a message immediately after spawning a subagent no longer fails while the child is still starting Loading spinners inside the extensions modal ( /mcps and other tabs) animate MCP server OAuth from /mcps no longer deadlocks the session Long-running subagent and task output waits default to a one-hour ceiling instead of ten",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/e8ee160d20c6da84"
+    },
+    {
+      "title": "Grok Build 1.0.18",
+      "link": "https://x.ai/build/changelog#v1.0.18-2026-09-02",
+      "date": "2026-09-02T00:00:00+00:00",
+      "description": "Quoting a previous message works directly from the block viewer Welcome screen stays until you send a prompt; a session is prepared in the background Feedback is collected in a centered modal instead of a bottom card Feedback submissions include type, task, and failure details Feedback modal has a Drafts tab to manage and send saved drafts Models can render interactive charts Image generation supports richer parameters Retry behavior for rate-limited requests is configurable per model /feedback ",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/6f09adfcf8d1417e"
+    },
+    {
       "title": "Grok Bot for Enterprise",
       "link": "https://x.ai/news/grok-bot-for-enterprise",
       "date": "2026-09-03T00:00:00+00:00",
@@ -2866,6 +2911,69 @@
       "source": "xAI News",
       "image": "https://media.x.ai/v1/website/opengraph-6-48955c02.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/xai/7b08ecf43270df6f"
+    },
+    {
+      "title": "Grok Build 1.0.21",
+      "link": "https://x.ai/build/changelog#v1.0.21-2026-09-04",
+      "date": "2026-09-04T00:00:00+00:00",
+      "description": "Permission mode stays visible in plan mode and is restored on exit Typing, pasting, or Shift+Tab on the welcome screen opens the session instead of creating a duplicate Dock sections, queue body, and reveal rows stay within height limits on crowded terminals",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/388d08a4bd8eb9e4"
+    },
+    {
+      "title": "Grok Build 1.0.20",
+      "link": "https://x.ai/build/changelog#v1.0.20-2026-09-04",
+      "date": "2026-09-04T00:00:00+00:00",
+      "description": "Scroll history after sending a prompt no longer jumps the viewport unexpectedly",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/aae5c42bcf48ee32"
+    },
+    {
+      "title": "Grok Build 1.0.19",
+      "link": "https://x.ai/build/changelog#v1.0.19-2026-09-04",
+      "date": "2026-09-04T00:00:00+00:00",
+      "description": "Scheduled /loop tasks always run in the background and no longer inject turns into the conversation Transparent terminal theme lets the terminal background show through MCP servers blocked by organization policy show a clear message and are refused before any config change Session resume tells the model which loops, subagents, and workflows were still running Dashboard shows newly dispatched sessions immediately Headless sessions ( grok -p ) support --worktree Dashboard session picker button say",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/5bcbdfd2d8c903e3"
+    },
+    {
+      "title": "Grok Build 1.0.24",
+      "link": "https://x.ai/build/changelog#v1.0.24-2026-09-07",
+      "date": "2026-09-07T00:00:00+00:00",
+      "description": "Esc no longer cancels a running turn and instead reminds you to use Ctrl+C",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/d6d5b64f34c592af"
+    },
+    {
+      "title": "Grok Build 1.0.23",
+      "link": "https://x.ai/build/changelog#v1.0.23-2026-09-07",
+      "date": "2026-09-07T00:00:00+00:00",
+      "description": "Bare URLs and emails inside table cells stay fully clickable on every wrapped line",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/df12012d534c60c1"
+    },
+    {
+      "title": "Grok Build 1.0.22",
+      "link": "https://x.ai/build/changelog#v1.0.22-2026-09-07",
+      "date": "2026-09-07T00:00:00+00:00",
+      "description": "Built-in agent tools take precedence over user MCP servers when tool names collide edit_file diffs show real file line numbers instead of starting at line 1 Permission prompts for file edits auto-expand the diff so you can review the change Sending a message to a finished subagent continues that same subagent instead of failing Background subagent completion messages show the actual output instead of a pointer to run a tool Dashboard has a unified header with a location picker and an actions row",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/f97bf41080c4a4e7"
+    },
+    {
+      "title": "Grok Build 1.0.25",
+      "link": "https://x.ai/build/changelog#v1.0.25-2026-09-09",
+      "date": "2026-09-09T00:00:00+00:00",
+      "description": "Successful hook runs are silent; only blocking or failing hooks show status Vim-mode Shift+J/K jump to the next or previous turn at the top of the viewport Double-click selects a radio button in settings choosers Dashboard actions row (+ New Agent, Open Previous, Worktree) is navigable with arrow keys and Enter /workflow can pause and stop background runs the agent launched /theme picker matches aliases such as transparent, dark, or system and still inserts the canonical name Bash command output",
+      "source": "Grok Build changelog",
+      "image": "https://media.x.ai/v1/website/changelog-6ccbbcad.jpg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/xai/06f277059068ea8e"
     }
   ]
 }

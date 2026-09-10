@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-09T21:08:18.072126+00:00</updated>
+  <updated>2026-09-10T00:32:00.254575+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -326,6 +326,21 @@
     </media:group>
     <dc:creator>Hugging Face Posts</dc:creator>
     <link rel="enclosure" href="https://cdn-uploads.huggingface.co/production/uploads/630f3058236215d0b7078806/hADajbY0zD-L9acVnhLE6.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/1978c4cdf5ea4e0f</id>
+    <title>OpenWAM: An Open, Modular Exploration Towards Systematic World-Action Model Pretraining</title>
+    <updated>2026-09-07T00:00:00+00:00</updated>
+    <content>OpenWAM factorizes world-action pretraining into modular components to identify key design principles, yielding a scalable open model with strong simulation and real-robot performance.</content>
+    <link href="https://huggingface.co/papers/2609.07398" rel="alternate"/>
+    <category term="Hugging Face Trending Papers" label="Hugging Face Trending Papers"/>
+    <published>2026-09-07T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07398.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07398.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Trending Papers</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2609.07398.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/eec0b7a941332133</id>

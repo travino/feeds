@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-09T21:07:47.251549+00:00</updated>
+  <updated>2026-09-10T00:31:24.871661+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -71,6 +71,21 @@
     </media:group>
     <dc:creator>Cloudflare Changelog</dc:creator>
     <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/b788bd92f6967f4a</id>
+    <title>Browser Isolation, Cloudflare One - Improved iOS tap-to-type experience for Browser Isolation</title>
+    <updated>2026-09-09T00:00:00+00:00</updated>
+    <content>Browser Isolation has improved the tap-to-type experience for users on iOS devices. Previously, Browser Isolation displayed a full-screen overlay with the message tap to type when users focused a text field. The prompt now appears inline over the focused text field, reducing disruption when users enter text in isolated sessions. If the focused text field is too small to display the full prompt, Browser Isolation displays a keyboard icon in the center of the text field instead. iOS users should t</content>
+    <link href="https://developers.cloudflare.com/changelog/post/2026-09-09-ios-tap-to-type/" rel="alternate"/>
+    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
+    <published>2026-09-09T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg"/>
+    </media:group>
+    <dc:creator>Cloudflare Changelog</dc:creator>
+    <link rel="enclosure" href="https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=1320,height=605,format=webp/_astro/tap-to-type.UmUg_KNp.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/a403d9b2c52ac497</id>
@@ -1309,21 +1324,6 @@ We are working to understand the full impact and mitigate this problem.  More up
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-08-21T07:45:56+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/537968036699a8d5</id>
-    <title>Cloudflare Fundamentals - Enriched 403 responses for the Cloudflare API</title>
-    <updated>2026-08-21T00:00:00+00:00</updated>
-    <content>Cloudflare API 403 Forbidden responses now include a documentation_url field that links directly to the API documentation for the endpoint that was denied. This gives developers, administrators, and agents an immediate path to the relevant docs with role information instead of guessing at which role or permission they are missing for that endpoint. What's New Enriched 403 error responses : When a Cloudflare API request is denied, the error response now includes a documentation_url field that poi</content>
-    <link href="https://developers.cloudflare.com/changelog/post/2026-08-20-contextual-403s/" rel="alternate"/>
-    <category term="Cloudflare Changelog" label="Cloudflare Changelog"/>
-    <published>2026-08-21T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://developers.cloudflare.com/og-changelog.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://developers.cloudflare.com/og-changelog.png"/>
-    </media:group>
-    <dc:creator>Cloudflare Changelog</dc:creator>
-    <link rel="enclosure" href="https://developers.cloudflare.com/og-changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/08744382fa74ac2c</id>

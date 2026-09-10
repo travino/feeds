@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T16:53:48.853848+00:00",
+  "last_updated": "2026-09-10T00:33:16.952525+00:00",
   "entries": [
     {
       "title": "Examining Huge Pages or Transparent Huge Pages Performance",
@@ -6886,6 +6886,16 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/c060829332487fdc"
     },
     {
+      "title": "RHSA-2026:65998: Moderate: gzip security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:65998",
+      "date": "2026-09-09T14:16:27+00:00",
+      "description": "An update for gzip is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/455e961ad3f97741"
+    },
+    {
       "title": "Deploy NeMo Guardrails on Red Hat OpenShift AI",
       "link": "https://developers.redhat.com/articles/2026/09/09/deploy-nemo-guardrails-on-red-hat-openshift-ai",
       "date": "2026-09-09T15:05:01+00:00",
@@ -6895,6 +6905,16 @@
       "image_width": 1200,
       "image_height": 627,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/6ede01f8b6efa8b5"
+    },
+    {
+      "title": "RHSA-2026:66000: Important: kernel security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66000",
+      "date": "2026-09-09T15:22:22+00:00",
+      "description": "An update for kernel is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/4a42fe2918281633"
     },
     {
       "title": "RHSA-2026:65993: Important: qt5-qtbase security update",
@@ -6907,6 +6927,16 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/efa818a772855e7a"
     },
     {
+      "title": "RHSA-2026:66026: Important: virtuoso-opensource security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66026",
+      "date": "2026-09-09T16:06:22+00:00",
+      "description": "An update for virtuoso-opensource is now available for Red Hat Enterprise Linux 7 Extended Lifecycle Support.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/5099d2970e44f026"
+    },
+    {
       "title": "RHSA-2026:66016: Important: osbuild-composer security update",
       "link": "https://access.redhat.com/errata/RHSA-2026:66016",
       "date": "2026-09-09T16:12:37+00:00",
@@ -6915,6 +6945,46 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/c9d593c3a3371596"
+    },
+    {
+      "title": "RHSA-2026:66179: Important: perl-DBI security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66179",
+      "date": "2026-09-09T21:20:47+00:00",
+      "description": "An update for perl-DBI is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/0c84786daecf54c4"
+    },
+    {
+      "title": "RHSA-2026:66203: Important: python3.12-lxml security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66203",
+      "date": "2026-09-09T22:16:57+00:00",
+      "description": "An update for python3.12-lxml is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/69ee24d1e96460c5"
+    },
+    {
+      "title": "RHSA-2026:66204: Important: python-lxml security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66204",
+      "date": "2026-09-09T22:16:58+00:00",
+      "description": "An update for python-lxml is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/65c8ddb02b8f05c1"
+    },
+    {
+      "title": "RHSA-2026:66248: Important: ansible-core security update",
+      "link": "https://access.redhat.com/errata/RHSA-2026:66248",
+      "date": "2026-09-09T23:08:53+00:00",
+      "description": "An update for ansible-core is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "source": "Red Hat Security Errata",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/redhat/b7a83493258d9dcb"
     }
   ]
 }

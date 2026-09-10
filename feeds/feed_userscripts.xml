@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-09T21:09:53.473305+00:00</updated>
+  <updated>2026-09-10T00:34:08.529592+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,26 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/6dd122e0db111bb5</id>
+    <title>四川精英人才教育培训中心_四川专继-课程助手 — hero0317</title>
+    <updated>2026-09-10T00:31:54+00:00</updated>
+    <content>四川精英人才教育培训中心_四川专继-课程助手，脚本免费功能有限，可自动静音播放视频，防暂停。更全自动方法，请查看文档介绍！</content>
+    <link href="https://scriptcat.org/script-show-page/7913" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-10T00:31:54+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/bbb7f863f17ccf43</id>
+    <title>火星影视视频聚合站增强 — admin789</title>
+    <updated>2026-09-09T22:17:09+00:00</updated>
+    <content>火星影视视频聚合站增强：自动选最优线路、跳过提示、批量解析、观看历史与收藏；线路失败自动切换（基于真实播放事件探测，而非文案启发式）（Tampermonkey）</content>
+    <link href="https://scriptcat.org/script-show-page/7910" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-09T22:17:09+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/4b0f430b69f7b08b</id>
     <title>轻榴浏览器元素拦截日志 — 玩玩乐</title>
@@ -1480,26 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7697" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-27T12:59:46+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/50b6dfe5911ec2e1</id>
-    <title>B站直播切片增强 — pcl5x2008</title>
-    <updated>2026-08-27T12:33:19+00:00</updated>
-    <content>等比缩放工具栏，智能16:9自适应(零黑边)，时间轴精准/相对跳转，现实时间基准偏移，达芬奇手势，极致动态事件调度与零冗余架构</content>
-    <link href="https://scriptcat.org/script-show-page/7696" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T12:33:19+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/65317069bb6beeb6</id>
-    <title>西井 3D 标注点数校验（窗口内提示 + 点击定位） — ACE</title>
-    <updated>2026-08-27T11:16:43+00:00</updated>
-    <content>按平台内部数据校验 3D 标注点数(point_num)，小于阈值判异常；虚拟/预测(visual_type=2)标注归入跳过。点击异常项在点云中高亮标注框与标签。切帧自动校验，窗口可拖动可最小化。</content>
-    <link href="https://scriptcat.org/script-show-page/7695" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T11:16:43+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>
