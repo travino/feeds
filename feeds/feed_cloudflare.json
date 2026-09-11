@@ -8,6 +8,22 @@
   "icon": "https://blog.cloudflare.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/2f4466aa65ccc02f",
+      "url": "https://www.cloudflarestatus.com/incidents/3r3qcgbb0714",
+      "title": "SSL Certificate Provisioning Delays for Let's Encrypt",
+      "content_text": "Sep 11 , 04:05 UTC Resolved - This incident has been resolved. Sep 11 , 03:54 UTC Monitoring - Let's Encrypt has resolved the incident and we are monitoring the results. Sep 11 , 02:58 UTC Identified - Let's Encrypt incident is now resolved. Cloudflare managed certificate backlog is still clearing. Sep 11 , 02:20 UTC Identified - Let's Encrypt are seeing SSL certificates provisioning delays. You can read their public status page here:\nhttps://letsencrypt.status.io/pages/incident/55957a99e800baa4",
+      "date_published": "2026-09-11T04:05:00Z",
+      "date_modified": "2026-09-11T04:05:00Z",
+      "authors": [
+        {
+          "name": "Cloudflare Status"
+        }
+      ],
+      "tags": [
+        "Cloudflare Status"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/cloudflare/5c43528a1cc446cf",
       "url": "https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p",
       "title": "DNS Update Delays",
@@ -2123,22 +2139,6 @@
       "content_text": "Aug 21 , 21:33 UTC Resolved - This incident has been resolved. Aug 21 , 20:49 UTC Identified - We have identified a customer configured provider that is timing out when sent posture check requests. Aug 21 , 20:43 UTC Investigating - We are investigating an issue where posture checks are failing for some customer service provider configurations. This is resulting in delays when accessing resources protected by WARP posture rules.",
       "date_published": "2026-08-21T21:33:58Z",
       "date_modified": "2026-08-21T21:33:58Z",
-      "authors": [
-        {
-          "name": "Cloudflare Status"
-        }
-      ],
-      "tags": [
-        "Cloudflare Status"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/cloudflare/9baa3af8bfc54367",
-      "url": "https://www.cloudflarestatus.com/incidents/xl112dfsfz6q",
-      "title": "Network Performance Issues in Asia Pacific Region",
-      "content_text": "Aug 21 , 19:39 UTC Resolved - This incident has been resolved. Aug 21 , 17:47 UTC Monitoring - A fix has been implemented and we are monitoring the results. Aug 21 , 17:39 UTC Investigating - Cloudflare is investigating issues with Network Performance in Asia Pacific region.\n\nWe are working to analyze and mitigate this problem. More updates to follow shortly.",
-      "date_published": "2026-08-21T19:39:57Z",
-      "date_modified": "2026-08-21T19:39:57Z",
       "authors": [
         {
           "name": "Cloudflare Status"

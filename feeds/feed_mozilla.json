@@ -8,6 +8,22 @@
   "icon": "https://www.google.com/s2/favicons?domain=blog.mozilla.org&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/36a13ff193ccff65",
+      "url": "https://jonalmeida.com/til/do-not-relocate-objdir/",
+      "title": "Perf wins from relocating MOZ_OBJDIR have a dev experience cost",
+      "content_text": "This is the opposite of what I wanted to write about: relocating your MOZ_OBJDIR outside of your source directory will make your IDE faster.\nIn mozilla-central (the firefox monorepo), a default object files directory is created within the same source directory. This is equivalent to the build/ directory you would typically see in other projects.\nWhile this is typically fine, I've found that Android Studio indexes many of these files and that can be slow when you're not working across all the lay",
+      "date_published": "2026-09-11T00:00:00Z",
+      "date_modified": "2026-09-11T00:00:00Z",
+      "authors": [
+        {
+          "name": "Planet Mozilla"
+        }
+      ],
+      "tags": [
+        "Planet Mozilla"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/mozilla/159ad88049a6a3ef",
       "url": "https://connect.mozilla.org/t5/discussions/no-sound-in-firefox-after-latest-update-audio-works-fine-on-all/m-p/137926#M55954",
       "title": "No sound in Firefox after latest update (audio works fine on all other system apps)",
@@ -1345,22 +1361,6 @@
           "url": "https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/c281b38112534902",
-      "url": "http://serge-sans-paille.github.io/pythran-stories/pros-and-cons-of-unified-build.html",
-      "title": "Pros and Cons of Unified Build",
-      "content_text": "Some thoughts on unified build, based on the experience gathered on Firefox codebase.",
-      "date_published": "2026-08-26T22:00:00Z",
-      "date_modified": "2026-08-26T22:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Mozilla"
-        }
-      ],
-      "tags": [
-        "Planet Mozilla"
       ]
     },
     {

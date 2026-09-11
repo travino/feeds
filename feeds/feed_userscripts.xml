@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.greasespot.net/</id>
   <title>UserScripts</title>
-  <updated>2026-09-11T00:31:20.910266+00:00</updated>
+  <updated>2026-09-11T05:09:12.075257+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,56 @@
   <icon>https://www.greasespot.net/favicon.ico</icon>
   <logo>https://www.greasespot.net/favicon.ico</logo>
   <subtitle>Combined userscript-ecosystem feed: Greasespot (Greasemonkey blog), Sleazyfork (latest updated scripts), ScriptCat (newest scripts + app changelog), the Violentmonkey blog, and the Tampermonkey changelog.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/8517c437c86e4579</id>
+    <title>无需标注批量勾选 — ACE</title>
+    <updated>2026-09-11T05:00:28+00:00</updated>
+    <content>批量把指定帧范围标记为“无需标注”（mark_status=1）并保存（并发加速），保存后可选回读校验，完成后自动跳到范围内最后一帧的下一帧</content>
+    <link href="https://scriptcat.org/script-show-page/7928" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-11T05:00:28+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/e3164636b6bbc8c2</id>
+    <title>手势归组校验工具 - 分组检查 — ACE</title>
+    <updated>2026-09-11T04:59:30+00:00</updated>
+    <content>自动校验：切帧即校验（含缓存帧）；打开题包后自动统计整个题包半身框总数并在超过上限(默认33)时报错；检查归组、手势框&lt;半身框&lt;行人框包含关系、无需标注却有标注的帧</content>
+    <link href="https://scriptcat.org/script-show-page/7927" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-11T04:59:30+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/707dbd94448737fe</id>
+    <title>WB 助手 — juju486</title>
+    <updated>2026-09-11T04:24:53+00:00</updated>
+    <content>监控 Wildberries 搜索请求(u-search/exactmatch/ru/common/v18/search)，提取产品数据，支持导出JSON和Excel，支持复制JSON</content>
+    <link href="https://scriptcat.org/script-show-page/7925" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-11T04:24:53+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/925d867ca0b3664c</id>
+    <title>ChatGPT 多账号一键切换(本地 ST) — lanshi17</title>
+    <updated>2026-09-11T02:46:29+00:00</updated>
+    <content>在 chatgpt.com 保存多个账号的 sessionToken(ST),悬浮球/菜单一键切换,支持备份导入导出。原理:网页登录态 = HttpOnly cookie `__Secure-next-auth.session-token`,用 GM_cookie 删旧写新后刷新。需要 Tampermonkey(GM_cookie 仅 TM 支持)。</content>
+    <link href="https://scriptcat.org/script-show-page/7924" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-11T02:46:29+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/userscripts/ead020c514b8c65b</id>
+    <title>WPS 灵犀每日自动签到 — tfsn20</title>
+    <updated>2026-09-11T01:29:19+00:00</updated>
+    <content>利用 ScriptCat 后台定时任务自动完成 WPS 灵犀每日签到，支持用户自定义重复签到通知配置</content>
+    <link href="https://scriptcat.org/script-show-page/7922" rel="alternate"/>
+    <category term="ScriptCat" label="ScriptCat"/>
+    <published>2026-09-11T01:29:19+00:00</published>
+    <dc:creator>ScriptCat</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/userscripts/2f8f96bc768fb10e</id>
     <title>B站壳层 · Naive UI 重设计 — ecx</title>
@@ -1450,56 +1500,6 @@
     <link href="https://scriptcat.org/script-show-page/7707" rel="alternate"/>
     <category term="ScriptCat" label="ScriptCat"/>
     <published>2026-08-28T06:01:55+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/b628eead8db0b918</id>
-    <title>Microsoft Rewards Auth Code Capture — Rylan</title>
-    <updated>2026-08-28T04:14:17+00:00</updated>
-    <content>捕获微软授权码</content>
-    <link href="https://scriptcat.org/script-show-page/7706" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-28T04:14:17+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/c548814518f9d673</id>
-    <title>漫映AI官网增强脚本 (Manying AI Enhancer) — admin789</title>
-    <updated>2026-08-28T03:26:29+00:00</updated>
-    <content>为漫映AI官网提供快速导航、IP数据导出、创作进度追踪及界面优化功能</content>
-    <link href="https://scriptcat.org/script-show-page/7705" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-28T03:26:29+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/aff92cd5bbda39de</id>
-    <title>哔哩哔哩广告全面屏蔽 &amp; 导航精简 — MRBANK</title>
-    <updated>2026-08-28T02:21:32+00:00</updated>
-    <content>屏蔽视频底部广告/活动横幅、侧边栏广告及底部推广、推荐流广告视频、小型广告卡片、视频底部标签、首页轮播、花生平台广告、直播页广告等，完全避开评论区，带UI开关控制，并支持导航栏精简</content>
-    <link href="https://scriptcat.org/script-show-page/7704" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-28T02:21:32+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/f77ca6f9e88b270d</id>
-    <title>M3U8 视频检测与弹窗播放 — yofug</title>
-    <updated>2026-08-27T19:29:29+00:00</updated>
-    <content>自动检测页面中的 M3U8 视频流，弹窗一键播放与下载（基于 hls.js）</content>
-    <link href="https://scriptcat.org/script-show-page/7702" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T19:29:29+00:00</published>
-    <dc:creator>ScriptCat</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/userscripts/7df48ca699efa3ec</id>
-    <title>新版正方教务系统导出课程表（V9.0修复版） — 笑面佛</title>
-    <updated>2026-08-27T15:13:24+00:00</updated>
-    <content>适配正方V9.0：修复周次正则(1-12周,14-16周错位)；多时段课同格继承课程名；删除"第N周"干扰事件；标题只放课名；自动对齐周一</content>
-    <link href="https://scriptcat.org/script-show-page/7701" rel="alternate"/>
-    <category term="ScriptCat" label="ScriptCat"/>
-    <published>2026-08-27T15:13:24+00:00</published>
     <dc:creator>ScriptCat</dc:creator>
   </entry>
   <entry>

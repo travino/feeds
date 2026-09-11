@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T00:30:05.073250+00:00",
+  "last_updated": "2026-09-11T05:08:16.553955+00:00",
   "entries": [
     {
       "title": "Watch videos with friends anywhere—how to social stream with browser extensions",
@@ -9139,6 +9139,16 @@
       "source": "Mozilla Connect",
       "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/159ad88049a6a3ef"
+    },
+    {
+      "title": "Perf wins from relocating MOZ_OBJDIR have a dev experience cost",
+      "link": "https://jonalmeida.com/til/do-not-relocate-objdir/",
+      "date": "2026-09-11T00:00:00+00:00",
+      "description": "This is the opposite of what I wanted to write about: relocating your MOZ_OBJDIR outside of your source directory will make your IDE faster.\nIn mozilla-central (the firefox monorepo), a default object files directory is created within the same source directory. This is equivalent to the build/ directory you would typically see in other projects.\nWhile this is typically fine, I've found that Android Studio indexes many of these files and that can be slow when you're not working across all the lay",
+      "source": "Planet Mozilla",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/36a13ff193ccff65"
     }
   ]
 }

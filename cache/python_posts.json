@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T00:30:24.306605+00:00",
+  "last_updated": "2026-09-11T05:08:29.601530+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -8317,20 +8317,11 @@
     {
       "title": "Graham Dumpleton: Finding slow code with wrapture",
       "link": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
-      "date": "2026-09-10T21:39:23+00:00",
+      "date": "2026-09-11T00:00:00+00:00",
       "description": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around ",
       "source": "Planet Python",
       "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611"
-    },
-    {
-      "title": "Graham Dumpleton: OpenTelemetry export in wrapture",
-      "link": "https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/",
-      "date": "2026-09-10T21:39:23+00:00",
-      "description": "Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install \"wrapture[otel]\" A plain install pays no",
-      "source": "Planet Python",
-      "image": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a"
     },
     {
       "title": "github-to-sqlite 2.9.1",
@@ -8381,6 +8372,65 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/ce9eb6dbf0ca7c6d"
+    },
+    {
+      "title": "Graham Dumpleton: OpenTelemetry export in wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/",
+      "date": "2026-09-11T01:39:20+00:00",
+      "description": "Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install \"wrapture[otel]\" A plain install pays no",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a"
+    },
+    {
+      "title": "check-pfda 1.0.4",
+      "link": "https://pypi.org/project/check-pfda/1.0.4/",
+      "date": "2026-09-11T05:00:58+00:00",
+      "description": "PFDA test running package.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/afe9340b2dc7f9a1"
+    },
+    {
+      "title": "ai-personas 1.16.0",
+      "link": "https://pypi.org/project/ai-personas/1.16.0/",
+      "date": "2026-09-11T05:01:21+00:00",
+      "description": "1,500+ AI personas for LLMs and agents.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/51ff94bf94a74dc1"
+    },
+    {
+      "title": "glyph-discovery 0.1.0",
+      "link": "https://pypi.org/project/glyph-discovery/0.1.0/",
+      "date": "2026-09-11T05:01:40+00:00",
+      "description": "Domain-agnostic hypothesis generation using sparse autoencoders",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/2c64829da8a2e50f"
+    },
+    {
+      "title": "scc-firewall-manager-sdk 1.22.1300",
+      "link": "https://pypi.org/project/scc-firewall-manager-sdk/1.22.1300/",
+      "date": "2026-09-11T05:01:45+00:00",
+      "description": "Cisco Security Cloud Control Firewall Manager API",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/b1346dec7fa5a33f"
+    },
+    {
+      "title": "omnicrawl-agent 0.1.52",
+      "link": "https://pypi.org/project/omnicrawl-agent/0.1.52/",
+      "date": "2026-09-11T05:01:51+00:00",
+      "description": "Local OmniCrawl agent with TUI, tools, MCP and NPM Hook plugins",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/c612e439a85e5051"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T00:31:15.770154+00:00",
+  "last_updated": "2026-09-11T05:09:05.877406+00:00",
   "entries": [
     {
       "title": "Ubuntu Studio 24.04.3 LTS Released",
@@ -1548,16 +1548,16 @@
       "title": "Liquid Glass GNOME Shell extension uses real refraction shaders",
       "link": "https://www.omgubuntu.co.uk/2026/09/liquid-glass-gnome-shell",
       "date": "2026-09-10T20:19:14+00:00",
-      "description": "You can now give the Ubuntu desktop a ‘Liquid Glass’ makeover using a new GNOME Shell Extension that written with ‘significant’ help from AI. Its developer, Ryosuke Watanabe, said they loved the look of Liquid Glass – Apple’s new design material that gives UI elements light-bending surfaces with depth and motion – but, not owning an Apple device, wanted a way to enjoy it on their Linux desktop. So they created an extension to do it. “The design, the shader math, the architecture decisions, and a",
+      "description": "You can now give the Ubuntu desktop a ‘Liquid Glass’ makeover using a new GNOME Shell extension that was written with ‘significant’ help from AI. Its developer, Ryosuke Watanabe, said they loved the look of Liquid Glass – Apple’s new design material that gives UI elements light-bending surfaces with depth and motion – but, not owning an Apple device, wanted a way to enjoy it on their Linux desktop. So they created an extension to do it. “The design, the shader math, the architecture decisions, a",
       "source": "OMG! Ubuntu",
       "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/09/liquid-glass-gnome-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/a275444ff498b631"
     },
     {
-      "title": "Ubuntu 24.04.5 released with Linux 7.0 & Mesa 26.0",
+      "title": "Ubuntu 24.04.5 LTS released with Linux 7.0",
       "link": "https://www.omgubuntu.co.uk/2026/09/ubuntu-24-04-5-lts-released-with-linux-kernel-7-0",
       "date": "2026-09-10T21:51:04+00:00",
-      "description": "The fifth (and final planned) point release of Ubuntu 24.04 LTS is now available to download. Ubuntu 24.04.5 LTS brings refreshed installation media (ISOs) that includes of the software updates, bug fixes and security patches released since the last ISO was produced. This cuts down on the number of updates that need to downloaded post-install. This release also makes a change in how kernel firmware updates are delivered. Firmware has been split out into vendor-specific packages that can be indep",
+      "description": "The fifth (and final) point release of Ubuntu 24.04 LTS is available to download. Ubuntu 24.04.5 LTS delivers refreshed installation media (ISOs) that includes the software updates, bug fixes and security patches released since the last ISO was produced. This cuts down on the number of updates that need to be downloaded post-install. More important than that, this release runs on a new hardware enablement (HWE) stack, back-ported from Ubuntu 26.04 LTS. The 24.04.5 LTS HWE stack brings the Linux ",
       "source": "OMG! Ubuntu",
       "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/04/noble-better-406x232.jpg",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/8cede0fc3b2daf8c"
@@ -1570,6 +1570,15 @@
       "source": "OMG! Ubuntu",
       "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/04/stonking-stingray-ubuntu-406x232.webp",
       "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/f4e4bc09e460197c"
+    },
+    {
+      "title": "GIMP 3.2.6 released with faster font loading, Wacom barrel rotation",
+      "link": "https://www.omgubuntu.co.uk/2026/09/gimp-3-2-6-wacom-rotation-input",
+      "date": "2026-09-11T01:05:58+00:00",
+      "description": "GIMP 3.2.6 has arrived, a new maintenance update in the 3.2.x series that made a splash earlier this year. You won’t find any major new features, but plenty of improvements – not least in font handling. GIMP say font loading is faster, with start-up times, Text tool typing and closing large font lists all nippier when lots of fonts are installed. The team note “some lag remains”, and solving that would require a GTK4 port – for which some initial prep has begun. On the editing side, Cut now work",
+      "source": "OMG! Ubuntu",
+      "image": "https://www.omgubuntu.co.uk/wp-content/uploads/2025/07/gimp-3.2-hero-406x232.webp",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/ubuntu/b635ab23f30fc158"
     }
   ]
 }

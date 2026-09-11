@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.python.org/</id>
   <title>Python</title>
-  <updated>2026-09-11T00:30:24.170324+00:00</updated>
+  <updated>2026-09-11T05:08:29.433517+00:00</updated>
   <author>
     <name>the Python community</name>
   </author>
@@ -12,6 +12,71 @@
   <icon>https://www.python.org/favicon.ico</icon>
   <logo>https://www.python.org/favicon.ico</logo>
   <subtitle>Combined Python ecosystem feed: PyPI (blog + updates), Python Status, Planet Python, python.org downloads, Python Central, PEPs, PyTorch, PyDevTools, Anaconda, pip/build/cibuildwheel releases, and Pydantic.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/c612e439a85e5051</id>
+    <title>omnicrawl-agent 0.1.52</title>
+    <updated>2026-09-11T05:01:51+00:00</updated>
+    <content>Local OmniCrawl agent with TUI, tools, MCP and NPM Hook plugins</content>
+    <link href="https://pypi.org/project/omnicrawl-agent/0.1.52/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-11T05:01:51+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/b1346dec7fa5a33f</id>
+    <title>scc-firewall-manager-sdk 1.22.1300</title>
+    <updated>2026-09-11T05:01:45+00:00</updated>
+    <content>Cisco Security Cloud Control Firewall Manager API</content>
+    <link href="https://pypi.org/project/scc-firewall-manager-sdk/1.22.1300/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-11T05:01:45+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/2c64829da8a2e50f</id>
+    <title>glyph-discovery 0.1.0</title>
+    <updated>2026-09-11T05:01:40+00:00</updated>
+    <content>Domain-agnostic hypothesis generation using sparse autoencoders</content>
+    <link href="https://pypi.org/project/glyph-discovery/0.1.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-11T05:01:40+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/51ff94bf94a74dc1</id>
+    <title>ai-personas 1.16.0</title>
+    <updated>2026-09-11T05:01:21+00:00</updated>
+    <content>1,500+ AI personas for LLMs and agents.</content>
+    <link href="https://pypi.org/project/ai-personas/1.16.0/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-11T05:01:21+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/afe9340b2dc7f9a1</id>
+    <title>check-pfda 1.0.4</title>
+    <updated>2026-09-11T05:00:58+00:00</updated>
+    <content>PFDA test running package.</content>
+    <link href="https://pypi.org/project/check-pfda/1.0.4/" rel="alternate"/>
+    <category term="PyPI Updates" label="PyPI Updates"/>
+    <published>2026-09-11T05:00:58+00:00</published>
+    <dc:creator>PyPI Updates</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a</id>
+    <title>Graham Dumpleton: OpenTelemetry export in wrapture</title>
+    <updated>2026-09-11T01:39:20+00:00</updated>
+    <content>Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install "wrapture[otel]" A plain install pays no</content>
+    <link href="https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/" rel="alternate"/>
+    <category term="Planet Python" label="Planet Python"/>
+    <published>2026-09-11T01:39:20+00:00</published>
+    <media:group>
+      <media:content url="https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture"/>
+    </media:group>
+    <dc:creator>Planet Python</dc:creator>
+    <link rel="enclosure" href="https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/ce9eb6dbf0ca7c6d</id>
     <title>jordan-devguard 0.2.1</title>
@@ -65,32 +130,17 @@
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611</id>
     <title>Graham Dumpleton: Finding slow code with wrapture</title>
-    <updated>2026-09-10T21:39:23+00:00</updated>
+    <updated>2026-09-11T00:00:00+00:00</updated>
     <content>The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around </content>
     <link href="https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/" rel="alternate"/>
     <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-10T21:39:23+00:00</published>
+    <published>2026-09-11T00:00:00+00:00</published>
     <media:group>
       <media:content url="https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
       <media:thumbnail url="https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture"/>
     </media:group>
     <dc:creator>Planet Python</dc:creator>
     <link rel="enclosure" href="https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a</id>
-    <title>Graham Dumpleton: OpenTelemetry export in wrapture</title>
-    <updated>2026-09-10T21:39:23+00:00</updated>
-    <content>Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install "wrapture[otel]" A plain install pays no</content>
-    <link href="https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/" rel="alternate"/>
-    <category term="Planet Python" label="Planet Python"/>
-    <published>2026-09-10T21:39:23+00:00</published>
-    <media:group>
-      <media:content url="https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture"/>
-    </media:group>
-    <dc:creator>Planet Python</dc:creator>
-    <link rel="enclosure" href="https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/5f3073669b962c21</id>
@@ -516,56 +566,6 @@ if text == '': # if the line edit i</content>
     </media:group>
     <dc:creator>PyPI Blog</dc:creator>
     <link rel="enclosure" href="https://blog.pypi.org/assets/images/social/posts/2026-09-08-file-hosting-errors.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2</id>
-    <title>memory-arbiter-mcp 0.15.8</title>
-    <updated>2026-09-08T05:08:24+00:00</updated>
-    <content>Local MCP memory with evidence-based recall and explicit conflict governance.</content>
-    <link href="https://pypi.org/project/memory-arbiter-mcp/0.15.8/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T05:08:24+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/43b1b3a2f3fd9af1</id>
-    <title>neatxlsx 0.2.1</title>
-    <updated>2026-09-08T05:08:16+00:00</updated>
-    <content>Opinionated XLSX report-table writer for Polars.</content>
-    <link href="https://pypi.org/project/neatxlsx/0.2.1/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T05:08:16+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/75fb48587a4e6100</id>
-    <title>rocket-welder-sdk 2.19.1.dev89</title>
-    <updated>2026-09-08T05:08:14+00:00</updated>
-    <content>High-performance video streaming SDK for RocketWelder services using ZeroBuffer IPC</content>
-    <link href="https://pypi.org/project/rocket-welder-sdk/2.19.1.dev89/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T05:08:14+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/84481cc10df913e9</id>
-    <title>sbmlsim 0.5.0</title>
-    <updated>2026-09-08T05:07:47+00:00</updated>
-    <content>sbmlsim are python utilities for the simulation of SBML models.</content>
-    <link href="https://pypi.org/project/sbmlsim/0.5.0/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T05:07:47+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/python/963a444f5d18279b</id>
-    <title>ModelMetre 0.2.1</title>
-    <updated>2026-09-08T05:07:33+00:00</updated>
-    <content>Multi-provider LLM cost observability SDK</content>
-    <link href="https://pypi.org/project/modelmetre/0.2.1/" rel="alternate"/>
-    <category term="PyPI Updates" label="PyPI Updates"/>
-    <published>2026-09-08T05:07:33+00:00</published>
-    <dc:creator>PyPI Updates</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/python/8c7994ba519e7580</id>

@@ -8,6 +8,109 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/python/c612e439a85e5051",
+      "url": "https://pypi.org/project/omnicrawl-agent/0.1.52/",
+      "title": "omnicrawl-agent 0.1.52",
+      "content_text": "Local OmniCrawl agent with TUI, tools, MCP and NPM Hook plugins",
+      "date_published": "2026-09-11T05:01:51Z",
+      "date_modified": "2026-09-11T05:01:51Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/b1346dec7fa5a33f",
+      "url": "https://pypi.org/project/scc-firewall-manager-sdk/1.22.1300/",
+      "title": "scc-firewall-manager-sdk 1.22.1300",
+      "content_text": "Cisco Security Cloud Control Firewall Manager API",
+      "date_published": "2026-09-11T05:01:45Z",
+      "date_modified": "2026-09-11T05:01:45Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/2c64829da8a2e50f",
+      "url": "https://pypi.org/project/glyph-discovery/0.1.0/",
+      "title": "glyph-discovery 0.1.0",
+      "content_text": "Domain-agnostic hypothesis generation using sparse autoencoders",
+      "date_published": "2026-09-11T05:01:40Z",
+      "date_modified": "2026-09-11T05:01:40Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/51ff94bf94a74dc1",
+      "url": "https://pypi.org/project/ai-personas/1.16.0/",
+      "title": "ai-personas 1.16.0",
+      "content_text": "1,500+ AI personas for LLMs and agents.",
+      "date_published": "2026-09-11T05:01:21Z",
+      "date_modified": "2026-09-11T05:01:21Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/afe9340b2dc7f9a1",
+      "url": "https://pypi.org/project/check-pfda/1.0.4/",
+      "title": "check-pfda 1.0.4",
+      "content_text": "PFDA test running package.",
+      "date_published": "2026-09-11T05:00:58Z",
+      "date_modified": "2026-09-11T05:00:58Z",
+      "authors": [
+        {
+          "name": "PyPI Updates"
+        }
+      ],
+      "tags": [
+        "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a",
+      "url": "https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/",
+      "title": "Graham Dumpleton: OpenTelemetry export in wrapture",
+      "content_text": "Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install \"wrapture[otel]\" A plain install pays no",
+      "date_published": "2026-09-11T01:39:20Z",
+      "date_modified": "2026-09-11T01:39:20Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/python/ce9eb6dbf0ca7c6d",
       "url": "https://pypi.org/project/jordan-devguard/0.2.1/",
       "title": "jordan-devguard 0.2.1",
@@ -92,8 +195,8 @@
       "url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
       "title": "Graham Dumpleton: Finding slow code with wrapture",
       "content_text": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around",
-      "date_published": "2026-09-10T21:39:23Z",
-      "date_modified": "2026-09-10T21:39:23Z",
+      "date_published": "2026-09-11T00:00:00Z",
+      "date_modified": "2026-09-11T00:00:00Z",
       "authors": [
         {
           "name": "Planet Python"
@@ -106,29 +209,6 @@
       "attachments": [
         {
           "url": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a",
-      "url": "https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/",
-      "title": "Graham Dumpleton: OpenTelemetry export in wrapture",
-      "content_text": "Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install \"wrapture[otel]\" A plain install pays no",
-      "date_published": "2026-09-10T21:39:23Z",
-      "date_modified": "2026-09-10T21:39:23Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
         }
       ]
@@ -774,86 +854,6 @@
           "url": "https://blog.pypi.org/assets/images/social/posts/2026-09-08-file-hosting-errors.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/360bf4f7354437d2",
-      "url": "https://pypi.org/project/memory-arbiter-mcp/0.15.8/",
-      "title": "memory-arbiter-mcp 0.15.8",
-      "content_text": "Local MCP memory with evidence-based recall and explicit conflict governance.",
-      "date_published": "2026-09-08T05:08:24Z",
-      "date_modified": "2026-09-08T05:08:24Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/43b1b3a2f3fd9af1",
-      "url": "https://pypi.org/project/neatxlsx/0.2.1/",
-      "title": "neatxlsx 0.2.1",
-      "content_text": "Opinionated XLSX report-table writer for Polars.",
-      "date_published": "2026-09-08T05:08:16Z",
-      "date_modified": "2026-09-08T05:08:16Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/75fb48587a4e6100",
-      "url": "https://pypi.org/project/rocket-welder-sdk/2.19.1.dev89/",
-      "title": "rocket-welder-sdk 2.19.1.dev89",
-      "content_text": "High-performance video streaming SDK for RocketWelder services using ZeroBuffer IPC",
-      "date_published": "2026-09-08T05:08:14Z",
-      "date_modified": "2026-09-08T05:08:14Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/84481cc10df913e9",
-      "url": "https://pypi.org/project/sbmlsim/0.5.0/",
-      "title": "sbmlsim 0.5.0",
-      "content_text": "sbmlsim are python utilities for the simulation of SBML models.",
-      "date_published": "2026-09-08T05:07:47Z",
-      "date_modified": "2026-09-08T05:07:47Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/963a444f5d18279b",
-      "url": "https://pypi.org/project/modelmetre/0.2.1/",
-      "title": "ModelMetre 0.2.1",
-      "content_text": "Multi-provider LLM cost observability SDK",
-      "date_published": "2026-09-08T05:07:33Z",
-      "date_modified": "2026-09-08T05:07:33Z",
-      "authors": [
-        {
-          "name": "PyPI Updates"
-        }
-      ],
-      "tags": [
-        "PyPI Updates"
       ]
     },
     {

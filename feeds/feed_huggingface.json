@@ -8,6 +8,52 @@
   "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/d1ba1087c46cd640",
+      "url": "https://huggingface.co/posts/OppaAI/849282953492344",
+      "title": "Got side-tracked this week building an app for Learning and Practicing Japanese. It's not too fancy and there will some flaws here and there. But since I'm just using it to learn and practice Japanese myself, I think I will just finalize it now and move on back to review Phase 1 of the AI Agent itself.",
+      "content_text": "Got side-tracked this week building an app for Learning and Practicing Japanese. It's not too fancy and there will some flaws here and there. But since I'm just using it to learn and practice Japanese myself, I think I will just finalize it now and move on back to review Phase 1 of the AI Agent itself. Did not use much of the LLM to gen the vocab. Hallucination happens sometimes causing gibberish and mistakes in the phrases. Thanks evanclan/OpenJLPT ( https://github.com/evanclan/OpenJLPT ) for providing the datasets for N5->N1 vocabs and grammar datasets. My LLM server is mainly doing conversation practice, spawning extra vocabs, and for ASR/TTS voice input/output. 🔗Front-End app: https://gi",
+      "date_published": "2026-09-11T05:07:40Z",
+      "date_modified": "2026-09-11T05:07:40Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/OppaAI/849282953492344.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/OppaAI/849282953492344.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/huggingface/6bb2311a147847e4",
+      "url": "https://huggingface.co/posts/DavidAU/258606293594674",
+      "title": "Qwen 3.8 27B - TWIN TURBO, Fable Fusion (10 modes of operation)",
+      "content_text": "Qwen 3.8 27B - TWIN TURBO, Fable Fusion (10 modes of operation) Tuned, and tweaked to match the legendary Qwen 3.6 27B FF711 (2300+ likes, 4 million+ downloads) this fine tune matches the stability and power at \"arc-c\" 709: (118 pts higher than Qwen 3.8 27B) (The OpenAI, Claude and Gemini \"zone of intelligence\") in 8 bit and 701 arc-c in 4 bit AND THIS is instruct mode - thinking/reasoning is higher. This version is called TWIN-TURBO because it drastically reduces thinking tokens (by 1/2 to as LOW as 1/20), yet maintains output detail and quality. In other words while \"reg\" Qwen3.8 27B is thinking about \"formatting\" for a few 1000 tokens, this model is already done and waiting for more. This",
+      "date_published": "2026-09-11T05:07:40Z",
+      "date_modified": "2026-09-11T05:07:40Z",
+      "authors": [
+        {
+          "name": "Hugging Face Posts"
+        }
+      ],
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DavidAU/258606293594674.png",
+      "tags": [
+        "Hugging Face Posts"
+      ],
+      "attachments": [
+        {
+          "url": "https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DavidAU/258606293594674.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/huggingface/b0ded10a31b341a5",
       "url": "https://huggingface.co/posts/bghira/510789724527926",
       "title": "I've been gradually recaptioning aged text-to-image datasets with better vision models! These datasets are also repackaged into the more modern webshart format (",

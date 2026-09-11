@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-11T00:31:25.271638+00:00</updated>
+  <updated>2026-09-11T05:09:16.910516+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,321 @@
   <icon>https://www.v2ex.com/favicon.ico</icon>
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/922fe5898f16c13c</id>
+    <title>做了个 Mac 多显示器小工具 DisplaySpan，解决鼠标跨屏时卡在边缘的问题</title>
+    <updated>2026-09-11T04:56:33+00:00</updated>
+    <content>消耗了不少 token ，做了一个用于 Mac 多显示器场景的菜单栏小工具 主要解决的问题是，MacBook 接外接显示器时，如果两块屏幕尺寸不同，鼠标走到某些边缘会被挡住，需要绕到两块屏幕重叠的位置才能过去。 官网： https://displayspan.app 使用这个工具需要 macOS 14 或更高版本，3 天试用，想继续使用的朋友，可以留下邮箱等我看到信息会发送 License （暂定送 30 个吧，感觉回复的人应该也不会很多），希望可以收获一些反馈（好的不好的都 OK ）</content>
+    <link href="https://www.v2ex.com/t/1241302#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T04:56:33+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/d2e3/054f/569084_xlarge.png?m=1789102500" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/d2e3/054f/569084_xlarge.png?m=1789102500"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/d2e3/054f/569084_xlarge.png?m=1789102500" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/47e2d9b48a272581</id>
+    <title>中转站卖数据，这是真的吗</title>
+    <updated>2026-09-11T04:41:15+00:00</updated>
+    <content>详情见推特链接 https://x.com/shoucccc/status/2098169782541631871?s=20 https://x.com/shoucccc/status/2042423713019412941?s=20</content>
+    <link href="https://www.v2ex.com/t/1241299#reply3" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-11T04:41:15+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/zccFy6Z.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/zccFy6Z.png"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/zccFy6Z.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/b0af5110c27f7e4d</id>
+    <title>新 iPhone 配件精选：多种组合一次配齐</title>
+    <updated>2026-09-11T04:00:00+00:00</updated>
+    <content>iPhone18Pro/ProMax即将开售，这次我们围绕新iPhone准备了几种常用配件，并整理成了五种配件组合，覆盖机身防护、充电、数据连接和磁吸支撑。其中，日常防护组合优惠29元，防护充电组合优 ... 查看全文</content>
+    <link href="https://sspai.com/post/114414" rel="alternate"/>
+    <category term="sspai.com" label="sspai.com"/>
+    <published>2026-09-11T04:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://rssfile.sspai.com/2026/9/11/article/e016261d-8e02-ec4d-1244-84aaafeb3d86.jpeg?imageMogr2/auto-orient/ignore-error/1" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://rssfile.sspai.com/2026/9/11/article/e016261d-8e02-ec4d-1244-84aaafeb3d86.jpeg?imageMogr2/auto-orient/ignore-error/1"/>
+    </media:group>
+    <dc:creator>sspai.com</dc:creator>
+    <link rel="enclosure" href="https://rssfile.sspai.com/2026/9/11/article/e016261d-8e02-ec4d-1244-84aaafeb3d86.jpeg?imageMogr2/auto-orient/ignore-error/1" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/1cf0b27241f3b30a</id>
+    <title>非国行 iPhone 开启 iOS27 new siri 规则分享</title>
+    <updated>2026-09-11T03:34:36+00:00</updated>
+    <content>非国行设备 iCloud 和 app store 登录外区 🪜配置规则： - DOMAIN,gateway.icloud.com,PROXY
+  - DOMAIN,seed.siri.apple.com,PROXY
+  - DOMAIN,probe.icloud.com,PROXY
+  - DOMAIN,metrics.icloud.com,PROXY
+
+  - DOMAIN,guzzoni.apple.com,PROXY
+  - DOMAIN-SUFFIX,smoot.apple.com,PROXY
+
+
+  # ----------------------------------------------------------
+  # Apple Intelligence / Private Cloud Compute
+  # ----------------------------------------------------------
+
+  - DOMAIN,apple-relay.apple.com,PROXY
+  - DOMAIN,apple-relay.cloudfla</content>
+    <link href="https://www.v2ex.com/t/1241284#reply1" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-11T03:34:36+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/947d/64ec/41700_large.png?m=1783050011" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/947d/64ec/41700_large.png?m=1783050011"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/947d/64ec/41700_large.png?m=1783050011" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/216ee1c82a681cfa</id>
+    <title>Verisign 发通知，域名年年涨价 7%，太残暴了</title>
+    <updated>2026-09-11T03:30:11+00:00</updated>
+    <content>从 11 月 1 日开始，Verisign 域名今年又涨价 7% 收到域名注册商的通知，Verisign 今年.com 域名又要涨价 7%，从 11 月 1 日开始 ICANN/NTIA 新规执行后，Verisign 已经连续 4 年，年年涨价 7%，什么收益率赶得上年年 7%。 据估算全球仅.com 域名一个后缀，涨价 7%就可以增加近 10 亿/年的收入，太残暴了 有米的老铁，只能在 10 月底之前多续几年了😔😔</content>
+    <link href="https://www.v2ex.com/t/1241282#reply1" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-11T03:30:11+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/gravatar/a941f83ac4192740c2e1f95676ce23c5?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/gravatar/a941f83ac4192740c2e1f95676ce23c5?s=73&amp;d=retro"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/a941f83ac4192740c2e1f95676ce23c5?s=73&amp;d=retro" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/0c8bc493ae98358e</id>
+    <title>[AI Daily] 每天 10 分钟，纵览一天内 AI 领域最新动态</title>
+    <updated>2026-09-11T03:23:58+00:00</updated>
+    <content>我个人长期在自己的 Agent 上设置了一个定时任务抓取 AI 相关的最新资讯，但是无论如何调试，效果总不尽人意，主要是脏数据太多。 我相信这个需求应该是这个时代每个人都有的，大家都需要一个地方能够尽可能跟上 AI 领域日新月异的变化。所以把这个需求沉淀成了一个 「 AI 日报 - https://aidaily.fyi 」 ，它有两类版面： 实时版面：首页会展示最新 24 小时内的新动态 日刊版面：每天北京时间早 8 点会把过去一天的动态合并成当天的版面，并通知到邮件，你不需要追踪实时信息，每天起床看昨天发生了什么即可 目前的动态内容有： 行业新闻 twitter 名人动态 新产品发布 新开源项目 新模型和排名 新的融资新闻 还有一个最关键的设计是，所有这些内容都让 AI 总结精简了，并翻译成了中文，目的就是为了节约时间，而不是在一堆英文资讯里倒腾找到有价值的内容。 欢迎使用该网站并订阅： https://aidaily.fyi</content>
+    <link href="https://www.v2ex.com/t/1241279#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T03:23:58+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/e1d2/5dd7/103002_large.png?m=1571817237" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/e1d2/5dd7/103002_large.png?m=1571817237"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/e1d2/5dd7/103002_large.png?m=1571817237" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/96d46af82f5cf5ea</id>
+    <title>用 ai 帮我做了一个开源的 ai 图片提示词仓库</title>
+    <updated>2026-09-11T03:18:05+00:00</updated>
+    <content>gpt 6 astra 模型出来后，我也想试试看看能不能做个啥，测试一下它的能力 然后看到市面上有很多开源的提示词仓库，就拿它练练手 这次借助 gpt 6 astra 模型，直接干了一个基于 next.js 的 ai 图片提示词仓库 不得不说 gpt 6 模型确实很能打，设计出来的 ui 界面也是非常不错的，而且我就说了一个域名，人家直接给我部署上线了。。。 代码完全开源： https://github.com/cf12436/gptimage_prompts.git 提示词网站在这里： https://image.aisaasgo.org/ 有需要的朋友可以看看，可以免费部署在 vercel 或者 cloudfare 平台 如果有帮助，希望帮忙点个星星，谢谢大家了</content>
+    <link href="https://www.v2ex.com/t/1241275#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T03:18:05+00:00</published>
+    <media:group>
+      <media:content url="https://img.cdn1.vip/i/6aa36bd9c23fa_1789094873.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://img.cdn1.vip/i/6aa36bd9c23fa_1789094873.webp"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://img.cdn1.vip/i/6aa36bd9c23fa_1789094873.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/fa5180ff5d5b0806</id>
+    <title>薅羊毛： deepseek v4.1 flash free now</title>
+    <updated>2026-09-11T03:12:51+00:00</updated>
+    <content>（这里有我的邀请码）国际版： https://workbuddy.ai/invite?code=8K974VT8 （没有邀请码）国际版： https://workbuddy.ai/</content>
+    <link href="https://www.v2ex.com/t/1241272#reply1" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-11T03:12:51+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/50c7/6dc2/647464_xlarge.png?m=1789042429" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/50c7/6dc2/647464_xlarge.png?m=1789042429"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/50c7/6dc2/647464_xlarge.png?m=1789042429" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/d4e84f70b1b202a4</id>
+    <title>开源我做的一个基于浏览器的 AI 知识库工具</title>
+    <updated>2026-09-11T02:53:15+00:00</updated>
+    <content>我开发了一个完全基于浏览器的 AI 知识库, 打开 https://localmd.app 选择你本地一个文件夹即可使用，完全免费并开源。如果需要 ai 功能则配置你的模型 key ，流量全部走模型供应商，不走我的 server ，实际上 localmd 没有 backend server 。如果不需要 ai 功能, 也可当成一个安静的阅读器(支持 pdf/epub 等)和笔记工具来使用。 我为什么做这个呢? 我用过不少笔记软件，从 evernote ，到 notion ，到飞书，到 obsidian ，各有各的亮点，也总有一些我不爽的点。首先，我不想我的笔记保存在别人的数据库里，总觉得不安全，并且跟软件绑定太死，哪天我想换个软件迁移成本太高了。于是我开始使用 ob ，但是我总忍不住去折腾各种插件，变成管理软件而非笔记和知识了。所以辗转后回到使用 vscode + git 的很原始的方式，简陋但够用。后来了解到 AK 大神的 llm wiki 的概念，觉得挺好，就在我的笔记 folder 套了 claude code 来使用。挺 ok 的，麻烦的地方在于我做笔记时经常要阅读 pdf 和</content>
+    <link href="https://www.v2ex.com/t/1241264#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T02:53:15+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/gravatar/58ee12202b0a37778f22b88185623683?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/gravatar/58ee12202b0a37778f22b88185623683?s=73&amp;d=retro"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/58ee12202b0a37778f22b88185623683?s=73&amp;d=retro" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/addd0be50c52ce11</id>
+    <title>自用的 V2EX 主题做了一点更新</title>
+    <updated>2026-09-11T02:49:09+00:00</updated>
+    <content>https://github.com/thinktip/v2ex-plus 用 Codex 优化了一下，精简了一些东西，油猴做成了单文件版，做了一个 Chrome 插件版，添加了一些设置选项。 插件版注入更稳定，不会有明显抖动。 Safari 可以直接使用油猴脚本，特别适合在 iOS Safari 下使用，其它兼容工具自测。</content>
+    <link href="https://www.v2ex.com/t/1241260#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T02:49:09+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/vadv0C3.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/vadv0C3.jpeg"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/vadv0C3.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/ffa66c78b20dc270</id>
+    <title>老罗又开始对 Apple 密集输出了，他新产品还在做吗？</title>
+    <updated>2026-09-11T02:47:12+00:00</updated>
+    <content>昨天 Apple 发布会后 老罗又开始吐槽锤子子公司的产品了 吐槽完还不够 还要回复转发对线 上了好几个微博热搜 俨然是自己锤子手机的盛况 记得他卖掉锤子准备新公司细红线创业时 说自己会尽量低调 不影响新公司产品 但好几年过去了 没看到新产品 最近又开始活跃在自媒体上 他新公司的产品还在做吗？</content>
+    <link href="https://www.v2ex.com/t/1241259#reply0" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-11T02:47:12+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/f81a/37ca/72548_large.png?m=1789094552" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/f81a/37ca/72548_large.png?m=1789094552"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/f81a/37ca/72548_large.png?m=1789094552" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/d597c5b7695a26e5</id>
+    <title>做了一个纯前端的网页转矢量 pdf 的油猴脚本， V 友们帮看看效果如何</title>
+    <updated>2026-09-11T02:10:14+00:00</updated>
+    <content>脚本是基于我的前端开源库 dompdf.js ，这个开源项目之前的介绍 rust 真的强到没朋友，在前端轻松生成 10000 页以上的矢量 PDF 主要功能 纯前端实现 pdf 生成，不经过服务器 生成的是矢量 pdf ，放大不失真，文字可搜索复制编辑，文件体积更小。 支持选中网页中的部分节点导出为 pdf 支持排除指定节点后生成 pdf ，比如排除广告等 支持自定义精准的分页控制 支持文件加密，压缩，自定义页眉页脚功能 项目地址（欢迎使用，提意见，star ） https://github.com/lmn1919/web-to-pdf-userscript 生成效果 V 站，整个页面导出 掘金文章，选择部分节点导出</content>
+    <link href="https://www.v2ex.com/t/1241235#reply5" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T02:10:14+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/1b1b/0b8d/370367_xlarge.png?m=1768892968" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/1b1b/0b8d/370367_xlarge.png?m=1768892968"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/1b1b/0b8d/370367_xlarge.png?m=1768892968" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/dc8f73d264b07e8b</id>
+    <title>数字产品出海，价格是不是国内的 5 到 10 倍？</title>
+    <updated>2026-09-11T01:59:59+00:00</updated>
+    <content>这段时间在试着做数字产品出海，发现国内外的价格差得确实挺大。
+国内小红书上的数字素材，很多也就卖 10 块钱左右。闲鱼更夸张，1 块多可以买一大包，不过大部分都是盗版或者到处拼起来的合集，这种价格也没法参考。
+不知道 V 站有没有做数字产品出海的朋友，你们一般是按国内的几倍定价？ 3 倍、5 倍，还是直接 10 倍？
+我最近也在拿一个小站试水： plannerdigital.co</content>
+    <link href="https://www.v2ex.com/t/1241231#reply0" rel="alternate"/>
+    <category term="V2EX Play" label="V2EX Play"/>
+    <published>2026-09-11T01:59:59+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/gravatar/e7128d52e8c96406796722f528cf926b?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/gravatar/e7128d52e8c96406796722f528cf926b?s=73&amp;d=retro"/>
+    </media:group>
+    <dc:creator>V2EX Play</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/e7128d52e8c96406796722f528cf926b?s=73&amp;d=retro" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/ff7c269ea4e23c45</id>
+    <title>[霓虹出行线路大挑战] 日语学习 趣味工具 看看你到底是不是 N1</title>
+    <updated>2026-09-11T01:59:00+00:00</updated>
+    <content>霓虹出行线路大挑战 日本各个线路地图的路线名字，看看你认识多少，分享给你那些学习日语的朋友看看他们你坐过东西线吗啊，s 完成之后可以上传排名，看自己的排名。 另外的一个推荐一下，大家如果想做统计的话，日程协调的，会议，吃饭，旅游日程协调，建议用一下我的另一个开发的小程序（ https://v2ex.com/t/1234466 点击链接参与可以免广告） 霓虹出行线路大挑战 &amp; 日程协调助手</content>
+    <link href="https://www.v2ex.com/t/1241229#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T01:59:00+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/pqE7gtZ.jpeg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/pqE7gtZ.jpeg"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/pqE7gtZ.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/7ebbd7dff53f786a</id>
+    <title>把老站重做了一遍： Windows 10/11 精简版、全量版、LTSC，装完基本不用再配</title>
+    <updated>2026-09-11T01:51:04+00:00</updated>
+    <content>断断续续折腾 Windows 部署和优化挺久了，最近把之前的站点重新迁移整理了一遍，
+放到 wlite.cn 上。 站上主要放这几类东西： Windows 10 / 11 的各种版本：精简版、全量版、原版、LTSC ，另外还有 WinPE 每个镜像都是自己装过、跑过一轮才发出来的，不是从别处转的 装完系统通常要装的软件都集成好了：压缩、备份还原、磁盘分析、截图、
+运行库、输入法这些，装完基本不用再自己配一遍 系统本身干净，没有夹带推广，主页和默认搜索也不会被动 做了一些比较省心的调整，日常用起来不用再折腾 起因挺简单的：帮朋友装机，装完原版还得再花一两个小时装软件、调设置，
+后来干脆一次都弄好。 技术上是 NodeBB 改的，前端自己调，顺手把 SEO 那些也做了一遍。 想听听实际的反馈： 这种"装完就能用"的思路，真用起来会不会觉得哪里多余，或者还缺什么 站点的分类结构和下载体验上，有什么可以改的 站里有个会员功能（主要是下载加速和资源），我准备了 10 个兑换码，
+回帖的朋友里随机抽 10 位发，有需要的回帖说一声就行。 地址： https://wlite.cn 欢迎来试，也欢迎直</content>
+    <link href="https://www.v2ex.com/t/1241226#reply49" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T01:51:04+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/sS4vcMo.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/sS4vcMo.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/sS4vcMo.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/57447e14d1c9d1af</id>
+    <title>尝试逐渐把本机工作环境迁移到 grok-bot 提供的云机器里</title>
+    <updated>2026-09-11T01:50:36+00:00</updated>
+    <content>最近换了一台新电脑, 不想用 MacOS 的一键迁移来配置新电脑, 因为老电脑里残留了很多不需要的东西. 于是借助 AI 按平时的工作需要在新电脑里安装了必要的工具, 但这仍消耗不少精力和时间(这些工具仍需要登录授权啥的). 刚好订阅的 Grok 能免费使用 grok-bot 提供的云机器, 就试了下还不错. 产生了一个新的想法, 就是逐渐把本机开发转到在 grok-bot 的云机器里开发. 目前配置中涉及的工具有: 云机器上 tailscale, 方便通过 ssh 访问这台机器 gh cli herdr 本地电脑 tailscale, 和云机器打通 herdr, 通过 herdr machine 来添加 grok-bot 机器 另外还需要在 grok-bot 里创建一个 routine 对云机器进行 tailscale 保活. 这样一来, 以后换电脑就变得简单了.</content>
+    <link href="https://www.v2ex.com/t/1241225#reply19" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T01:50:36+00:00</published>
+    <media:group>
+      <media:content url="https://i.imgur.com/8fJ8P8E.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.imgur.com/8fJ8P8E.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.imgur.com/8fJ8P8E.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/2b01a3de5ae7f32e</id>
+    <title>开源简历工具 YAMLResume 更新： AI 翻译、智能编辑器和多语言简历样例</title>
+    <updated>2026-09-11T01:49:39+00:00</updated>
+    <content>hey 各位好， YAMLResume 最近连续发布了 v0.15 和 v0.16 ，想来分享一下这两次更新。 YAMLResume 是一个用 YAML 管理简历的开源工具。简历内容可以放进 Git 做版本管理，并生成 PDF 、HTML 、Markdown 等格式。这两版主要补齐了多语言、编辑体验和 Node.js 集成方面的能力。 v0.16：AI 翻译、智能编辑器和 Node.js API 1. 用 AI 翻译整份简历 新增了 yamlresume ai translate 命令，可以把已有简历翻译成 YAMLResume 支持的其他语言： export OPENAI_API_KEY=sk-...
+
+yamlresume ai translate \
+  --to zh-hans \
+  resume.en.yml \
+  resume.zh-hans.yml 目前支持 12 种语言和地区格式，包括简体中文、繁体中文、英语、日语、德语、法语、西班牙语等。 这里不是简单地让模型重新生成一份文本。翻译过程中会尽量保留： YAML 的字段、顺序、注释和布局配置 URL 、邮箱、电话号码</content>
+    <link href="https://www.v2ex.com/t/1241224#reply0" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T01:49:39+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/297b/51d3/33155_large.png?m=1731901672" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/297b/51d3/33155_large.png?m=1731901672"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/297b/51d3/33155_large.png?m=1731901672" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/8a59a42c14022490</id>
+    <title>Obsidian 的 / 、斜杠指令感觉用着没有飞书的舒服，所以我自己就 vibe 了一个，欢迎大家使用</title>
+    <updated>2026-09-11T01:18:32+00:00</updated>
+    <content>因为使用飞书文档还用太久了，最近使用 obsidian 的时候这个“斜杠指令”让我感觉有点用不惯，并且第三方的插件也用不太习惯 所以干脆就自己搞了一个出来，类似于飞书的一样 欢迎大家体验和使用，名字直接在第三个方插进里面浏览搜索🔍 inkslash 就能看到 github 地址 https://github.com/JeffShanCha/inkslash</content>
+    <link href="https://www.v2ex.com/t/1241210#reply3" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T01:18:32+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/cef1/bd05/762259_xlarge.png?m=1759027559" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/cef1/bd05/762259_xlarge.png?m=1759027559"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/cef1/bd05/762259_xlarge.png?m=1759027559" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/10dd2625233ecc9a</id>
+    <title>每日推广，自己每天都在用的公网 NAT 多 Agent 管理工具，求关注，求试用，求反馈</title>
+    <updated>2026-09-11T01:12:19+00:00</updated>
+    <content>OPC ，从自身需求出发，围绕 OPC 打造的开发套件。 https://kite.lumenlan.com/ linux ，mac ，windows 都支持
+claude ，codex ，opencode 也支持
+codebuddy ，trae ，qoder 都可以
+ios 的 app 也已经上架
+求关注，求试用，求反馈</content>
+    <link href="https://www.v2ex.com/t/1241208#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-11T01:12:19+00:00</published>
+    <media:group>
+      <media:content url="https://cdn.v2ex.com/avatar/f3cd/7904/763174_xlarge.png?m=1789012463" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn.v2ex.com/avatar/f3cd/7904/763174_xlarge.png?m=1789012463"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/f3cd/7904/763174_xlarge.png?m=1789012463" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/8dc337a10716e8c4</id>
     <title>做了一个 web 版的动物森友会， 3D 版，试玩已经上线</title>
@@ -41,90 +356,6 @@
     </media:group>
     <dc:creator>sspai.com</dc:creator>
     <link rel="enclosure" href="https://rssfile.sspai.com/9/11/2026/article/de4bcb4c-3b24-6419-114e-5825e70d9878.png?imageMogr2/auto-orient/format/webp/ignore-error/1" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/63c9ec305615a586</id>
-    <title>把你写的故事变成有声音的动画短片： C2Anime</title>
-    <updated>2026-09-10T18:32:22+00:00</updated>
-    <content>你有没有写过一个故事，想看看里面的人物真正动起来？ C2Anime 可以把故事、小说片段和脑海里的创意变成有画面、有对白、有声音的动画短片。可以做自己的原创故事，也可以把喜欢的经典短篇改编成动画，分享给朋友或发布到社交平台。没有动画制作经验，也能尝试把文字变成作品。 首页可以直接看完整成片：《最后一片叶子》《猴爪》《敞开的窗户》，还有一些 30 多秒的原创小故事。先看看效果，再想想你最想拍哪个故事。 看看成片： https://c2anime.com/?utm_source=v2ex&amp;utm_medium=community&amp;utm_campaign=launch_sep2026 样片可免费观看，制作视频按积分收费。欢迎来玩，也想看看大家会用它讲出什么故事。</content>
-    <link href="https://www.v2ex.com/t/1241190#reply1" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T18:32:22+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/1a7cf780d214c7ba0da968811ad50161?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/1a7cf780d214c7ba0da968811ad50161?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/1a7cf780d214c7ba0da968811ad50161?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/bfc6c69789728416</id>
-    <title>AI 私人宠物医生</title>
-    <updated>2026-09-10T18:19:33+00:00</updated>
-    <content>先发链接： https://agent.pet-pedia.org/zh 作为一个猫奴，家里有三只猫，每次猫生病或者遇到问题时我想大部分人跟我一样，没办法第一时间前往宠物医院，所以会选择咨询 AI 。但是在这个过程中，我总会遇到以下问题: 1.我每次都需要把猫咪的状态重新描述一次，特别是当我的猫有慢性疾病，反复症状，术后恢复等情况时，都需要反复的描述前因后果，因为通用的 AI 模型无法记忆那么长的前因后果和上下文。 2.AI 每次给我的回答都不一样，我无法准确的判断应该如何关照我的宠物 3.回答不完善，没办法给出准确的建议，而是大部分情况都建议我赶紧去动物医院 我针对这些问题，搞了这个 AI 私人宠物医生，跟通用的 AI 工具相比，私人宠物医生有以下能力： 1.24/7 AI 兽医助理：随时可用，适合半夜、周末、诊所关门时先做初步判断 2.会记住宠物，可以通过建立宠物健康档案来结合宠物资料给出精准的连续化建议，物种，品种，年龄，体重，病史，服药情况，过敏情况，检查记录等信息作为档案上下文，无需每次都描述宠物遇到的问题，不是简单的一次性聊天 3.不会瞎诊断，而是基于医院真实逻辑的分诊导览</content>
-    <link href="https://www.v2ex.com/t/1241189#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T18:19:33+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/83b7/1955/111458_xlarge.png?m=1767332478" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/83b7/1955/111458_xlarge.png?m=1767332478"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/83b7/1955/111458_xlarge.png?m=1767332478" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/fdc7008c8eca78cf</id>
-    <title>开源了一个 GPT Image 2.5 提示词合集：中英双语、原帖和输入要求都整理好了</title>
-    <updated>2026-09-10T18:15:10+00:00</updated>
-    <content>最近在 X 上找 GPT Image 2.5 的图片案例，经常碰到两个问题：图很好看，但提示词藏在回复里；或者复制了提示词，才发现还要参考图、另一种模型，甚至额外拆帧。 所以整理了这个开源合集： https://github.com/wangrunlin/awesome-gpt-image-2-5-prompts 目前 24 个案例、6 类用途，提供完整的中英文内容，逐条附作者原帖、需要的输入和观察时间。原始英文提示词与编辑改编会分别标注，未知互动数据留空。 几个例子：六色时装广告、咖啡机维修手册风格的剖面图、保持几何结构的产品渲染，以及局部移动台灯。也有精灵图等多步骤工作流，但会明确写出额外工具要求。 这些案例已经核对来源，尚未由我独立生图复测。作者原图和模型声明也与我的编辑说明分开保存。 数据用 JSON 维护，自动生成 README 和双语案例页，方便其他人按分类取用。欢迎提交原帖或指出提示词、署名和输入要求中的问题。 我也在做 Image 2.5 （ https://image-2-5.com ），这个仓库由该项目维护。后续计划共用数据做一个可筛选、复制和使用提示词的站内页面，</content>
-    <link href="https://www.v2ex.com/t/1241188#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T18:15:10+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/a779/5c34/538020_large.png?m=1785835696" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/a779/5c34/538020_large.png?m=1785835696"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/a779/5c34/538020_large.png?m=1785835696" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/6106c58655f49e66</id>
-    <title>[开源自荐] 做了个 EgressKit，把 Clash 订阅里的节点变成 HTTP 代理池</title>
-    <updated>2026-09-10T16:20:11+00:00</updated>
-    <content>写脚本、跑浏览器自动化时，有时需要轮换出口 IP ，有时又希望同一个任务一直用同一个 IP 。 我做了个 EgressKit 。导入 Clash/Mihomo 订阅后，它会识别其中的 VLESS 节点，检查出口 IP ，对外提供一个统一的 HTTP 代理地址。程序接入后，通过代理用户名选择出口策略。 项目地址： heyjunpenn/EgressKit 用 Docker 一条命令启动，把下面的 your-admin-token 换成自己的密码： docker run -d \
-  --name egresskit \
-  --restart unless-stopped \
-  -p 127.0.0.1:8787:8787 \
-  -v egresskit-state:/var/lib/egresskit \
-  -e EGRESSKIT_ADMIN_TOKEN='your-admin-token' \
-  heyjunpenn/egresskit:latest 镜像支持 amd64 和 arm64 ，Mihomo 和 Web 控制台都打包在里面。启动后打开 http://127.0.</content>
-    <link href="https://www.v2ex.com/t/1241183#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T16:20:11+00:00</published>
-    <media:group>
-      <media:content url="https://raw.githubusercontent.com/heyjunpenn/EgressKit/main/docs/images/v2ex/04-curl-https.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://raw.githubusercontent.com/heyjunpenn/EgressKit/main/docs/images/v2ex/04-curl-https.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://raw.githubusercontent.com/heyjunpenn/EgressKit/main/docs/images/v2ex/04-curl-https.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/e9166c0338a91779</id>
-    <title>PicLocation - 上传照片， AI 告诉你它在哪拍的</title>
-    <updated>2026-09-10T16:07:39+00:00</updated>
-    <content>大家好，最近做了个小工具 PicLocation： https://piclocation.com [解决什么问题]
-看到一张照片想知道在哪拍的，但照片没有 GPS 信息（截图、微信转发压缩过、元数据被抹掉）——传统 EXIF 查询工具就无能为力了。PicLocation 不读元数据，直接用视觉模型分析画面里的地标、建筑风格、植被、路牌、地形这些线索，推测拍摄地点，返回 GPS 坐标、城市、国家和置信度，标在地图上。 [使用门槛] 免费无需注册，游客每天 2 次分析 支持 JPG / PNG / WebP ，最大 8MB 上传的图片最多保留 7 天后自动删除（见隐私政策） [实现]
-前端 TanStack Start + React 19 ，部署在 Cloudflare Workers 全家桶（ D1 / R2 / 队列），分析用的是视觉大模型，标准模式出结果很快。核心逻辑是让模型读图并输出候选坐标 + 置信度，再按置信度展示。 [坦白说]
-有明显地标的照片（街景、建筑、自然景观）效果好，纯室内或大特写会比较懵，会给出较大范围的区域。准确率还在持续调优。 欢迎各位试用拍砖，特别是各种"</content>
-    <link href="https://www.v2ex.com/t/1241180#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T16:07:39+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/c6f789781f47f22f184f70f7a485932f?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/c6f789781f47f22f184f70f7a485932f?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/c6f789781f47f22f184f70f7a485932f?s=73&amp;d=retro" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/370907e60db95026</id>
@@ -173,83 +404,6 @@
     <link rel="enclosure" href="https://cdn.v2ex.com/avatar/1430/7ec9/178263_xlarge.png?m=1749261711" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/95dfe45fa59034c7</id>
-    <title>开源一个轻量级全网磁力搜索工具（cli+网页端）</title>
-    <updated>2026-09-10T14:50:58+00:00</updated>
-    <content>最近在搜一些冷门的美国综艺，搜了很多网站都没找到，或者需要会员。于是自己写了个整合几个资源站的磁力搜索工具，自测能搜到满意的结果。
-项目很轻量，本地运行就行，喜欢的佬给个 star https://github.com/blueslmj/magnet-finder</content>
-    <link href="https://www.v2ex.com/t/1241169#reply1" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T14:50:58+00:00</published>
-    <media:group>
-      <media:content url="https://picui.ogmua.cn/s1/2026/09/10/6aa2c46ed26ff.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://picui.ogmua.cn/s1/2026/09/10/6aa2c46ed26ff.webp"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://picui.ogmua.cn/s1/2026/09/10/6aa2c46ed26ff.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/0e2e37531bc37a3d</id>
-    <title>介绍一个我开发的免费 AirPods 小工具</title>
-    <updated>2026-09-10T14:02:22+00:00</updated>
-    <content>开发契机 AirPods 自带语音检测，但是主要是检测佩戴者 主动 说话的情况。 经常会有家人/同事过来找我说话，开着降噪听不清，需要抬手按/捏耳机，效率可能还不如直接摘下耳机。 功能实现 CyclePods 就是针对这种场景开发的，它的功能非常简单： 可以录制键盘快捷键，一键切换 AirPods 聆听模式。 在支持的设备上，可以定制参与循环的模式，「降噪-自适应-通透」，或者「降噪-通透」都可以。 就是这么简单，产品介绍可以看 https://cyclepods.akring.com ，欢迎使用。</content>
-    <link href="https://www.v2ex.com/t/1241161#reply4" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T14:02:22+00:00</published>
-    <media:group>
-      <media:content url="https://img.akring.com/2026/09/10/OneShot-2026-09-10-at-21.52.17-04f84091.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://img.akring.com/2026/09/10/OneShot-2026-09-10-at-21.52.17-04f84091.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://img.akring.com/2026/09/10/OneShot-2026-09-10-at-21.52.17-04f84091.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/6df789283032d20a</id>
-    <title>用 WorkBuddy Vibe 了一个无限模式的 Word Ladder 网页游戏： Poople Unlimited</title>
-    <updated>2026-09-10T13:39:40+00:00</updated>
-    <content>最近做了一个网页小游戏，叫 Poople Unlimited ，已经上线了，来给大家玩玩看。 玩法和 Word Ladder 一样——系统给你一个随机的 4 字母单词，每次改一个字母，每一步都必须是真实存在的英文单词，最终变成 POOP 。步数越少分数越高。 大部分 Word Ladder 游戏都是每天一题，玩完就没了。我做这个的时候主要想的是能不能没有限制，所以做了 无限模式 ——玩完一局立刻刷新，想玩多少局都行，没有连胜压力，拿来消磨时间刚好。 当然 每日挑战 也做了，每天早上 8 点 UTC 更新，全球共用同一个 Board ，和朋友比步数挺有意思的。 还顺手做了两个配套页面。一个是 Answer 页面 ——每日答案的完整步进拆解，从第一期到现在的全部历史答案都整理在上面，卡住了可以来查。另一个是 Solver ，输入任意 4 字母单词直接算最短路径到 POOP ，练手的时候可以对比自己的路线和最优解差几步。 纯前端，没有登录没有注册，不用下载，打开浏览器就能玩。移动端也是适配好的，手机上打字没问题。 欢迎大家来试试，有什么想法或者遇到 bug 直接说 🙏</content>
-    <link href="https://www.v2ex.com/t/1241156#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T13:39:40+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/a928/2592/663970_xlarge.png?m=1783084151" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/a928/2592/663970_xlarge.png?m=1783084151"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/a928/2592/663970_xlarge.png?m=1783084151" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/e6fe4f0c2459cceb</id>
-    <title>一键保存快照到 archive.org , 完全保留内容</title>
-    <updated>2026-09-10T13:22:23+00:00</updated>
-    <content>所有网页都有可能 404 ，使用这个脚本，可以一键归档当前浏览的页面到 archive.org ，产物会嵌入
-所有外部的图片到单个 html ，最终效果几乎和你在浏览器看到的一样。 支持离线下载，发布到 archive.org ，点选打码隐私内容。 https://greasyfork.org/zh-CN/scripts/595193-archive-org-snapshot-helper</content>
-    <link href="https://www.v2ex.com/t/1241152#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T13:22:23+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/19ce/f31a/305835_xlarge.png?m=1789046015" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/19ce/f31a/305835_xlarge.png?m=1789046015"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/19ce/f31a/305835_xlarge.png?m=1789046015" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/2e0d70de93e4ae46</id>
-    <title>我把微信读书 Skill 做成了小程序，每天推送回顾你的笔记</title>
-    <updated>2026-09-10T13:17:14+00:00</updated>
-    <content>基于微信读书 Skill 的笔记管理和回顾小程序。 将你的微信读书笔记全量同步到本地设备，每天精选 5 条你的笔记内容。 可以开启推送，美好的一天早晨从阅读金句开始。 欢迎体验 👏</content>
-    <link href="https://www.v2ex.com/t/1241150#reply3" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T13:17:14+00:00</published>
-    <media:group>
-      <media:content url="https://cdnv2.ruguoapp.com/FikmYN3Mp8tXUyYGmORebC0QNn6pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdnv2.ruguoapp.com/FikmYN3Mp8tXUyYGmORebC0QNn6pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://cdnv2.ruguoapp.com/FikmYN3Mp8tXUyYGmORebC0QNn6pv3.png?imageMogr2/meta-keep-list/ZXhpZixVc2VyQ29tbWVudA==/auto-orient" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/efd664ebfe4b9167</id>
     <title>claude 是降低了额度吗？</title>
     <updated>2026-09-10T13:09:48+00:00</updated>
@@ -264,36 +418,6 @@
     </media:group>
     <dc:creator>V2EX Claude (ffalex)</dc:creator>
     <link rel="enclosure" href="https://cdn.v2ex.com/avatar/aa5a/be42/46426_xlarge.png?m=1786111803" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/3bf74626fd9fb0bd</id>
-    <title>GPT-6 Astra 做个游戏化的场景</title>
-    <updated>2026-09-10T12:49:17+00:00</updated>
-    <content>GPT-6 Astra 做个游戏化的场景</content>
-    <link href="https://www.v2ex.com/t/1241147#reply1" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T12:49:17+00:00</published>
-    <media:group>
-      <media:content url="https://pbs.twimg.com/media/HR2yLR6aEAAxeAS?format=jpg&amp;name=medium" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://pbs.twimg.com/media/HR2yLR6aEAAxeAS?format=jpg&amp;name=medium"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://pbs.twimg.com/media/HR2yLR6aEAAxeAS?format=jpg&amp;name=medium" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/30821689b86829ef</id>
-    <title>输入一句话， DeepSeek 扩写 + Qwen-Image 生图并秒换 Windows 壁纸</title>
-    <updated>2026-09-10T12:40:35+00:00</updated>
-    <content>平时想换张桌面壁纸经常要在壁纸站翻很久，自己用生图平台又懒得写那一大长串英文 Prompt ，生成完还得手动下载、右键设置。 周末顺手写了个 Python 命令行小工具： AI Wallpaper Changer 。 只要在终端敲几个中文字（比如“雨夜赛博朋克”、“森林深处的小木屋”），全流程自动搞定： 自动扩写 Prompt ：调用 DeepSeek-V3.2 ，把简短的想法丰富成构图、光影到位的专业英文提示词。 多画风预设 ：内置了 12 种常见画风（日系动漫、吉卜力、东方水墨、写实摄影、赛博朋克、复古像素、暗黑奇幻等），也可以自由发挥。 高清生成与防平铺 ：基于 20B 参数的 Qwen-Image 生成，配合 Lanczos 算法处理为标准 1920x1080 壁纸；同时自动配置 Windows 注册表为居中拉伸填充模式，杜绝多屏或小图出现的九宫格平铺问题。 自动应用与归档 ：调用系统 API 秒换壁纸，并在当前目录自动按“主题_时间戳”建档，保存壁纸原图和 Prompt 文本。 交互式循环 ：终端常驻不闪退，随时输入随时换。 效果演示 整个项目只依赖 requests 和 p</content>
-    <link href="https://www.v2ex.com/t/1241145#reply1" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T12:40:35+00:00</published>
-    <media:group>
-      <media:content url="https://img-bay.nodecore.workers.dev/ai-wallpaper-changer001_1789043796102_mwzh05.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://img-bay.nodecore.workers.dev/ai-wallpaper-changer001_1789043796102_mwzh05.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://img-bay.nodecore.workers.dev/ai-wallpaper-changer001_1789043796102_mwzh05.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/1472c6cac8f2d0aa</id>
@@ -354,97 +478,6 @@
     </media:group>
     <dc:creator>V2EX Play</dc:creator>
     <link rel="enclosure" href="https://i.imgur.com/ujlc1I4.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/441e978f7a3ce72d</id>
-    <title>抖音最近新出了个兴趣卡，感觉还挺有趣的，会是新的机会吗</title>
-    <updated>2026-09-10T08:49:57+00:00</updated>
-    <content>抖音最近新出了个兴趣卡，感觉还挺有趣的，会是新的机会吗</content>
-    <link href="https://www.v2ex.com/t/1241090#reply0" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-10T08:49:57+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/982c1bf147faada98983b0030797b663?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/982c1bf147faada98983b0030797b663?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/982c1bf147faada98983b0030797b663?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/e6027e94a00bb89d</id>
-    <title>中国电信的宽带移机退费问题，很无语</title>
-    <updated>2026-09-10T08:23:30+00:00</updated>
-    <content>8 月 30 号申请了一个宽带移机，在 app 商操作的，申请的时候就收了我 100 块。实际上门操作的时候，因为当前已有一条宽带，光衰不足以一分二支撑两条宽带使用，故作罢，但是移机是取消了，收了我的钱是到现在为止还一直没退我，也没什么人联系我。好像是 5 号的时候开始打电话投诉，每次都是说会给我处理，黑猫投诉和微信支付投诉也搞了，总之到现在还没处理！ 2026 年 感觉有点离谱啊</content>
-    <link href="https://www.v2ex.com/t/1241084#reply3" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-10T08:23:30+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/2689dc7f22e52784aab2795f6772ce72?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/2689dc7f22e52784aab2795f6772ce72?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/2689dc7f22e52784aab2795f6772ce72?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/ef53994ef035022b</id>
-    <title>古韵书阁 古书原文、译文</title>
-    <updated>2026-09-10T07:57:58+00:00</updated>
-    <content>https://www.oldbook.space?ref=v2</content>
-    <link href="https://www.v2ex.com/t/1241070#reply0" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-10T07:57:58+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/gravatar/02bac72a6dd20f70ca9d1000a0121170?s=73&amp;d=retro" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/gravatar/02bac72a6dd20f70ca9d1000a0121170?s=73&amp;d=retro"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/gravatar/02bac72a6dd20f70ca9d1000a0121170?s=73&amp;d=retro" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/e990517b6c58d860</id>
-    <title>智谱 CodingPlan 杭州补贴</title>
-    <updated>2026-09-10T07:52:43+00:00</updated>
-    <content>如图，在官网原有包季 7 折/包年 8 折的定价比优惠了 30%，仅限杭州地区社保、杭州地区学生认证领取优惠。
-看描述是杭州政府补贴了一部分，不过话说回来杭州的活动，阿里竟然没有第一个参与这个。</content>
-    <link href="https://www.v2ex.com/t/1241066#reply1" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-10T07:52:43+00:00</published>
-    <media:group>
-      <media:content url="https://i.imgur.com/PP1G6uL.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://i.imgur.com/PP1G6uL.png"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://i.imgur.com/PP1G6uL.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/b053a85fbff99dac</id>
-    <title>分享一个浏览器里的 AI 视频与 AI 图片创作工具： Tikdek</title>
-    <updated>2026-09-10T07:46:55+00:00</updated>
-    <content>Tikdek 是一个在浏览器中使用的 AI 视频与 AI 图片创作平台，支持从文字、图片和参考素材生成或编辑视觉内容，也提供视频 API 和图片 API ，方便把创作流程接入产品或批量任务。 如果你正在寻找一个可以先在线体验、再通过 API 扩展的视觉内容工具，可以看看： https://tikdek.com 它适合制作社交媒体短视频、广告素材、产品视觉和分镜草稿。</content>
-    <link href="https://www.v2ex.com/t/1241059#reply0" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-10T07:46:55+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/6c3a/37a7/755972_xlarge.png?m=1789026380" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/6c3a/37a7/755972_xlarge.png?m=1789026380"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/6c3a/37a7/755972_xlarge.png?m=1789026380" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/bb40bb6ef4311514</id>
-    <title>最近自驾游，让 ChatGPT Work 给规划行程，还挺好用的</title>
-    <updated>2026-09-10T07:39:54+00:00</updated>
-    <content>给他接了高德地图和美团酒旅的 MCP ，所有操作都在它云端完成，你别说还挺好用的，本来就有选择困难症，现在让 AI 给我挑，省心多了。 高德地图 MCP ，官方直接提供 mcp server ，接上就行： https://lbs.amap.com/api/mcp-server/summary 美团酒旅只提供 skill ，让 ChatGPT 给转成 mcp 部署到一台服务上，然后再给 ChatGPT 接上： https://developer.meituan.com/ai-hub/skill-list/detail/12 看看大家还有什么有用差旅的 MCP ，Skills ，分享一下</content>
-    <link href="https://www.v2ex.com/t/1241054#reply2" rel="alternate"/>
-    <category term="V2EX Play" label="V2EX Play"/>
-    <published>2026-09-10T07:39:54+00:00</published>
-    <media:group>
-      <media:content url="https://cdn.v2ex.com/avatar/9d67/8e20/84263_large.png?m=1735309349" type="image/png" medium="image"/>
-      <media:thumbnail url="https://cdn.v2ex.com/avatar/9d67/8e20/84263_large.png?m=1735309349"/>
-    </media:group>
-    <dc:creator>V2EX Play</dc:creator>
-    <link rel="enclosure" href="https://cdn.v2ex.com/avatar/9d67/8e20/84263_large.png?m=1735309349" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/6b3d94b705ca0a7b</id>
@@ -625,21 +658,6 @@
     </media:group>
     <dc:creator>sspai.com</dc:creator>
     <link rel="enclosure" href="https://rssfile.sspai.com/2026/6/30/article/831096df-1239-9d40-8cb1-c42319e8f9f3.png?imageMogr2/auto-orient/ignore-error/1" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/6eb8ca80650114b2</id>
-    <title>一日一技｜我的 Windows 11 头像会动，你也可以</title>
-    <updated>2026-09-08T07:00:00+00:00</updated>
-    <content>Where's everyone going? Bingo? 查看全文</content>
-    <link href="https://sspai.com/post/114312" rel="alternate"/>
-    <category term="sspai.com" label="sspai.com"/>
-    <published>2026-09-08T07:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://rssfile.sspai.com/2026/9/8/article/9c3fdd43-df21-0e62-3942-b215ac5dd500.gif" type="image/gif" medium="image"/>
-      <media:thumbnail url="https://rssfile.sspai.com/2026/9/8/article/9c3fdd43-df21-0e62-3942-b215ac5dd500.gif"/>
-    </media:group>
-    <dc:creator>sspai.com</dc:creator>
-    <link rel="enclosure" href="https://rssfile.sspai.com/2026/9/8/article/9c3fdd43-df21-0e62-3942-b215ac5dd500.gif" type="image/gif" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/22027f07e349120e</id>

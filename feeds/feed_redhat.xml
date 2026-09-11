@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-11T00:30:25.735057+00:00</updated>
+  <updated>2026-09-11T05:08:34.228752+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/1c365d1a0207aead</id>
+    <title>Friday Five — September 11, 2026</title>
+    <updated>2026-09-11T00:00:00+00:00</updated>
+    <content>Red Hat Positioned as a Leader in the 2026 Gartner® Magic Quadrant™ for Container ManagementRed Hat is recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Container Management. In Red Hat's opinion, this recognition reinforces OpenShift’s ability to manage containers, VMs and AI workloads with the same operational and security rigor across any infrastructure footprint. Learn more  Red Hat Puts Safety and Observability at the Core of Enterprise AI with Red Hat AI 3.5Major advancements</content>
+    <link href="https://www.redhat.com/en/blog/friday-five-september-11-2026-red-hat" rel="alternate"/>
+    <category term="Red Hat Blog" label="Red Hat Blog"/>
+    <published>2026-09-11T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
+    </media:group>
+    <dc:creator>Red Hat Blog</dc:creator>
+    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/c29603dffefc1f12</id>
     <title>RHSA-2026:66545: Important: Red Hat AMQ Broker 7.13.6 release and security update</title>
@@ -751,21 +766,6 @@ Red Hat Product Security has rated this update as having a security impact of Im
     </media:group>
     <dc:creator>Red Hat Developer</dc:creator>
     <link rel="enclosure" href="https://developers.redhat.com/sites/default/files/styles/share/public/Red-Hat-AI.png?itok=QCWQOeIo" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/9ff60066e89dc355</id>
-    <title>What risk-aware model deployment looks like in regulated industries</title>
-    <updated>2026-09-02T00:00:00+00:00</updated>
-    <content>Regulators don't ask banks whether their portfolios look healthy. They require documented proof of how they hold up under adversarial conditions—rate shocks, liquidity crunches, market crashes. The same logic applies to AI models headed for production. Before they carry your name, you need to know how they behave under pressure.What a model card tells you—and what it doesn'tA standard model card surfaces what a model's developers decided to share: training data sources, benchmark scores, accurac</content>
-    <link href="https://www.redhat.com/en/blog/what-risk-aware-model-deployment-looks-regulated-industries" rel="alternate"/>
-    <category term="Red Hat Blog" label="Red Hat Blog"/>
-    <published>2026-09-02T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg"/>
-    </media:group>
-    <dc:creator>Red Hat Blog</dc:creator>
-    <link rel="enclosure" href="https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/aa0c434d6625b0da</id>

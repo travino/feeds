@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://huggingface.co</id>
   <title>Hugging Face</title>
-  <updated>2026-09-11T00:29:28.623563+00:00</updated>
+  <updated>2026-09-11T05:07:41.772792+00:00</updated>
   <author>
     <name>Hugging Face</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=huggingface.co&amp;sz=256</logo>
   <subtitle>Hugging Face Blog, community Posts, and Trending Papers in one feed.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/d1ba1087c46cd640</id>
+    <title>Got side-tracked this week building an app for Learning and Practicing Japanese. It's not too fancy and there will some flaws here and there. But since I'm just using it to learn and practice Japanese myself, I think I will just finalize it now and move on back to review Phase 1 of the AI Agent itself.</title>
+    <updated>2026-09-11T05:07:40.632461+00:00</updated>
+    <content>Got side-tracked this week building an app for Learning and Practicing Japanese. It's not too fancy and there will some flaws here and there. But since I'm just using it to learn and practice Japanese myself, I think I will just finalize it now and move on back to review Phase 1 of the AI Agent itself. Did not use much of the LLM to gen the vocab. Hallucination happens sometimes causing gibberish and mistakes in the phrases. Thanks evanclan/OpenJLPT ( https://github.com/evanclan/OpenJLPT ) for providing the datasets for N5-&gt;N1 vocabs and grammar datasets. My LLM server is mainly doing conversation practice, spawning extra vocabs, and for ASR/TTS voice input/output. 🔗Front-End app: https://gi</content>
+    <link href="https://huggingface.co/posts/OppaAI/849282953492344" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-11T05:07:40.632461+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/OppaAI/849282953492344.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/OppaAI/849282953492344.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/OppaAI/849282953492344.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/huggingface/6bb2311a147847e4</id>
+    <title>Qwen 3.8 27B - TWIN TURBO, Fable Fusion (10 modes of operation)</title>
+    <updated>2026-09-11T05:07:40.632461+00:00</updated>
+    <content>Qwen 3.8 27B - TWIN TURBO, Fable Fusion (10 modes of operation) Tuned, and tweaked to match the legendary Qwen 3.6 27B FF711 (2300+ likes, 4 million+ downloads) this fine tune matches the stability and power at "arc-c" 709: (118 pts higher than Qwen 3.8 27B) (The OpenAI, Claude and Gemini "zone of intelligence") in 8 bit and 701 arc-c in 4 bit AND THIS is instruct mode - thinking/reasoning is higher. This version is called TWIN-TURBO because it drastically reduces thinking tokens (by 1/2 to as LOW as 1/20), yet maintains output detail and quality. In other words while "reg" Qwen3.8 27B is thinking about "formatting" for a few 1000 tokens, this model is already done and waiting for more. This</content>
+    <link href="https://huggingface.co/posts/DavidAU/258606293594674" rel="alternate"/>
+    <category term="Hugging Face Posts" label="Hugging Face Posts"/>
+    <published>2026-09-11T05:07:40.632461+00:00</published>
+    <media:group>
+      <media:content url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DavidAU/258606293594674.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DavidAU/258606293594674.png"/>
+    </media:group>
+    <dc:creator>Hugging Face Posts</dc:creator>
+    <link rel="enclosure" href="https://cdn-thumbnails.huggingface.co/social-thumbnails/posts/DavidAU/258606293594674.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/huggingface/b0ded10a31b341a5</id>
     <title>I've been gradually recaptioning aged text-to-image datasets with better vision models! These datasets are also repackaged into the more modern webshart format (</title>

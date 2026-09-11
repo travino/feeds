@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T16:41:22.035628+00:00",
+  "last_updated": "2026-09-11T05:09:12.170497+00:00",
   "entries": [
     {
       "title": "Greasemonkey 3.6 Release",
@@ -5910,6 +5910,51 @@
       "source": "ScriptCat",
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/2f8f96bc768fb10e"
+    },
+    {
+      "title": "WPS 灵犀每日自动签到 — tfsn20",
+      "link": "https://scriptcat.org/script-show-page/7922",
+      "date": "2026-09-11T01:29:19+00:00",
+      "description": "利用 ScriptCat 后台定时任务自动完成 WPS 灵犀每日签到，支持用户自定义重复签到通知配置",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/ead020c514b8c65b"
+    },
+    {
+      "title": "ChatGPT 多账号一键切换(本地 ST) — lanshi17",
+      "link": "https://scriptcat.org/script-show-page/7924",
+      "date": "2026-09-11T02:46:29+00:00",
+      "description": "在 chatgpt.com 保存多个账号的 sessionToken(ST),悬浮球/菜单一键切换,支持备份导入导出。原理:网页登录态 = HttpOnly cookie `__Secure-next-auth.session-token`,用 GM_cookie 删旧写新后刷新。需要 Tampermonkey(GM_cookie 仅 TM 支持)。",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/925d867ca0b3664c"
+    },
+    {
+      "title": "WB 助手 — juju486",
+      "link": "https://scriptcat.org/script-show-page/7925",
+      "date": "2026-09-11T04:24:53+00:00",
+      "description": "监控 Wildberries 搜索请求(u-search/exactmatch/ru/common/v18/search)，提取产品数据，支持导出JSON和Excel，支持复制JSON",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/707dbd94448737fe"
+    },
+    {
+      "title": "手势归组校验工具 - 分组检查 — ACE",
+      "link": "https://scriptcat.org/script-show-page/7927",
+      "date": "2026-09-11T04:59:30+00:00",
+      "description": "自动校验：切帧即校验（含缓存帧）；打开题包后自动统计整个题包半身框总数并在超过上限(默认33)时报错；检查归组、手势框<半身框<行人框包含关系、无需标注却有标注的帧",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/e3164636b6bbc8c2"
+    },
+    {
+      "title": "无需标注批量勾选 — ACE",
+      "link": "https://scriptcat.org/script-show-page/7928",
+      "date": "2026-09-11T05:00:28+00:00",
+      "description": "批量把指定帧范围标记为“无需标注”（mark_status=1）并保存（并发加速），保存后可选回读校验，完成后自动跳到范围内最后一帧的下一帧",
+      "source": "ScriptCat",
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/userscripts/8517c437c86e4579"
     }
   ]
 }

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-09-11T00:30:12.299180+00:00</updated>
+  <updated>2026-09-11T05:08:09.377442+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -287,21 +287,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://blogs.microsoft.com/wp-content/uploads/sites/5/2026/09/Safe-Participation-Framework-three-pillars-2-scaled.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/5a23e76ddfc30a44</id>
-    <title>Keep Windows activation automation working with PowerShell</title>
-    <updated>2026-09-10T16:00:00+00:00</updated>
-    <content>If your organization uses slmgr.vbs to automate Windows activation, now is the time to identify dependencies and prepare for a move to PowerShell. VBScript has been deprecated and will eventually be removed from future Windows releases, which means any automation that depends on slmgr.vbs will need to change. While you can continue with existing activation processes during the transition phase, automation that depends on slmgr.vbs should be identified, tested, and migrated before VBScript is rem</content>
-    <link href="https://techcommunity.microsoft.com/t5/windows-it-pro-blog/keep-windows-activation-automation-working-with-powershell/ba-p/4540459" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-10T16:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" type="image/jpeg" medium="image" height="1080" width="1920"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" height="1080" width="1920"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/3d52fd75d8285a87</id>
     <title>Announcing the public preview of Azure Local workload management in Azure Arc Site Manager</title>
     <updated>2026-09-10T16:00:00+00:00</updated>
@@ -315,6 +300,21 @@ imported from A...</content>
     </media:group>
     <dc:creator>Tech Community</dc:creator>
     <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5NzAzLWU2dFNEeA?revision=4" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/5a23e76ddfc30a44</id>
+    <title>Keep Windows activation automation working with PowerShell</title>
+    <updated>2026-09-10T16:00:00+00:00</updated>
+    <content>If your organization uses slmgr.vbs to automate Windows activation, now is the time to identify dependencies and prepare for a move to PowerShell. VBScript has been deprecated and will eventually be removed from future Windows releases, which means any automation that depends on slmgr.vbs will need to change. While you can continue with existing activation processes during the transition phase, automation that depends on slmgr.vbs should be identified, tested, and migrated before VBScript is rem</content>
+    <link href="https://techcommunity.microsoft.com/t5/windows-it-pro-blog/keep-windows-activation-automation-working-with-powershell/ba-p/4540459" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" type="image/jpeg" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/8be9653afffebbe5</id>
@@ -402,21 +402,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://sourcecanada.thesourcemediaassets.com/2026/09/apertura-100.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/a55502057cfc5edf</id>
-    <title>Ant Media, WeTransact, and IDECSI deliver transactable partner offers in Microsoft Marketplace</title>
-    <updated>2026-09-10T13:00:00+00:00</updated>
-    <content>Microsoft partners like Ant Media, WeTransact, and IDECSI deliver transact-capable offers, which allow you to purchase directly from Microsoft Marketplace. Learn about these offers below: Ant Media Server Enterprise — Live Streaming : Built to run on Microsoft Azure as a self-hosted media server, this solution from Ant Media offers developers, broadcasters, and businesses flexible, scalable live streaming without requiring them to build and manage streaming infrastructure. Ant Media Server Enter</content>
-    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/ant-media-wetransact-and-idecsi-deliver-transactable-partner/ba-p/4540403" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-10T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" medium="image" height="519" width="921"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" height="519" width="921"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/d458b9429e12c885</id>
     <title>New in Microsoft Marketplace: Offers published July 30-August 3, 2026</title>
     <updated>2026-09-10T13:00:00+00:00</updated>
@@ -430,6 +415,21 @@ imported from A...</content>
     </media:group>
     <dc:creator>Tech Community</dc:creator>
     <link rel="enclosure" href="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/a55502057cfc5edf</id>
+    <title>Ant Media, WeTransact, and IDECSI deliver transactable partner offers in Microsoft Marketplace</title>
+    <updated>2026-09-10T13:00:00+00:00</updated>
+    <content>Microsoft partners like Ant Media, WeTransact, and IDECSI deliver transact-capable offers, which allow you to purchase directly from Microsoft Marketplace. Learn about these offers below: Ant Media Server Enterprise — Live Streaming : Built to run on Microsoft Azure as a self-hosted media server, this solution from Ant Media offers developers, broadcasters, and businesses flexible, scalable live streaming without requiring them to build and manage streaming infrastructure. Ant Media Server Enter</content>
+    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/ant-media-wetransact-and-idecsi-deliver-transactable-partner/ba-p/4540403" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" medium="image" height="519" width="921"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" height="519" width="921"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/4ea819380f5b99ac</id>
@@ -3960,21 +3960,6 @@ targeted po...</content>
     <link rel="enclosure" href="https://blogs.microsoft.com/wp-content/uploads/2026/05/OMB-WTI-Hero-4_28_26-1024x576.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a</id>
-    <title>Microsoft 365 Copilot, human agency, and the opportunity for every organization</title>
-    <updated>2026-05-05T10:00:00+00:00</updated>
-    <content>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .</content>
-    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/" rel="alternate"/>
-    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
-    <published>2026-05-05T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" medium="image" height="1447" width="2560"/>
-      <media:thumbnail url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" height="1447" width="2560"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Blog</dc:creator>
-    <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/bcb99be1c6535739</id>
     <title>Copilot Cowork: From conversation to action across skills, integrations, and devices</title>
     <updated>2026-05-05T10:00:00+00:00</updated>
@@ -3988,6 +3973,21 @@ targeted po...</content>
     </media:group>
     <dc:creator>Microsoft 365 Blog</dc:creator>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a</id>
+    <title>Microsoft 365 Copilot, human agency, and the opportunity for every organization</title>
+    <updated>2026-05-05T10:00:00+00:00</updated>
+    <content>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes. The post Microsoft 365 Copilot, human agency, and the opportunity for every organization appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/" rel="alternate"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-05T10:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" medium="image" height="1447" width="2560"/>
+      <media:thumbnail url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" height="1447" width="2560"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Blog</dc:creator>
+    <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/70d0a2dbdaf8e411</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-11T00:30:22.110300+00:00</updated>
+  <updated>2026-09-11T05:08:26.857185+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,21 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/4344291b674e5042</id>
+    <title>Backup DB with Veeam</title>
+    <updated>2026-09-11T01:42:43.016566+00:00</updated>
+    <content>Hi, I'm not sure if i'm posting in correct thread. My client having issue backup Oracle DB using veeam backup. The have oracle db at backend. The front end is scada system where it connect to oracle db using oracle client. When we try to backup server with veeam backup, it trigger the connection loss when oracle client try to communicate with oracle db. Is there any workaround for this? We not having issue while backup MSSQL in other server under same environment. Please advice. Thanks,</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/backup-db-with-veeam-9504" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-11T01:42:43.016566+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/13c5505f39ec1a89</id>
     <title>purchase order closing process</title>
@@ -296,21 +311,6 @@
     </media:group>
     <dc:creator>Oracle Developer Community</dc:creator>
     <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/dec54713ac70e0e8</id>
-    <title>Understanding Morse Code Translators and How They Make Communication Easier</title>
-    <updated>2026-09-09T15:05:36.416916+00:00</updated>
-    <content>Morse code is one of the most interesting communication systems ever developed. Long before smartphones, instant messaging, and modern digital communication became part of everyday life, people needed reliable ways to send messages across long distances. Morse code provided a simple but effective solution by representing letters, numbers, and certain symbols through combinations of short and long signals. These signals are commonly known as dots and dashes. Even though Morse code was created dur</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/understanding-morse-code-translators-and-how-they-make-comm-8960" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T15:05:36.416916+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/app/app-logo.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/158a31e8c82f971e</id>
