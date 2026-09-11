@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:10:22.475071+00:00",
+  "last_updated": "2026-09-11T00:30:24.306605+00:00",
   "entries": [
     {
       "title": "Database Storage Latencies",
@@ -4558,6 +4558,17 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/4705ebabdb8ccd0e"
     },
     {
+      "title": "PEP 847: Problem Details for the Simple Repository API",
+      "link": "https://peps.python.org/pep-0847/",
+      "date": "2026-08-06T00:00:00+00:00",
+      "description": "This PEP proposes standardizing the format of error responses returned by the simple repository API.",
+      "source": "PEPs",
+      "image": "https://peps.python.org/_static/og-image.png",
+      "image_width": 200,
+      "image_height": 200,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/65b6a9c11cc267c0"
+    },
+    {
       "title": "asyrq 0.1.4",
       "link": "https://pypi.org/project/asyrq/0.1.4/",
       "date": "2026-08-06T03:58:11+00:00",
@@ -8250,15 +8261,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/e46594f36a08c523"
     },
     {
-      "title": "Graham Dumpleton: Finding slow code with wrapture",
-      "link": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
-      "date": "2026-09-10T01:39:23+00:00",
-      "description": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around ",
-      "source": "Planet Python",
-      "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611"
-    },
-    {
       "title": "EuroPython: EuroPython 2026: Videos Published",
       "link": "https://blog.europython.eu/europython-2026-videos-published/",
       "date": "2026-09-10T06:43:11+00:00",
@@ -8313,54 +8315,72 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/python/5f3073669b962c21"
     },
     {
-      "title": "pyplines-cli 2026.9.2a7",
-      "link": "https://pypi.org/project/pyplines-cli/2026.9.2a7/",
-      "date": "2026-09-10T20:56:36+00:00",
-      "description": "The official command-line interface for Pyplines",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/e3d91e8df5580b76"
+      "title": "Graham Dumpleton: Finding slow code with wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+      "date": "2026-09-10T21:39:23+00:00",
+      "description": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around ",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611"
     },
     {
-      "title": "pyplines-builder 2026.9.2a7",
-      "link": "https://pypi.org/project/pyplines-builder/2026.9.2a7/",
-      "date": "2026-09-10T20:56:36+00:00",
-      "description": "Build and sign Pyplines Actions and Distributions",
-      "source": "PyPI Updates",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/f4fbf305db299922"
+      "title": "Graham Dumpleton: OpenTelemetry export in wrapture",
+      "link": "https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/",
+      "date": "2026-09-10T21:39:23+00:00",
+      "description": "Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install \"wrapture[otel]\" A plain install pays no",
+      "source": "Planet Python",
+      "image": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a"
     },
     {
-      "title": "pyplines 2026.9.2a7",
-      "link": "https://pypi.org/project/pyplines/2026.9.2a7/",
-      "date": "2026-09-10T20:56:40+00:00",
-      "description": "core pyplines library and sdk",
+      "title": "github-to-sqlite 2.9.1",
+      "link": "https://pypi.org/project/github-to-sqlite/2.9.1/",
+      "date": "2026-09-11T00:29:21+00:00",
+      "description": "Save data from GitHub to a SQLite database",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/bd66654ea5d84985"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a99d44eadc0cda89"
     },
     {
-      "title": "aggfly 0.4.0",
-      "link": "https://pypi.org/project/aggfly/0.4.0/",
-      "date": "2026-09-10T20:56:51+00:00",
-      "description": "Efficient spatial and temporal aggregation of gridded climate data",
+      "title": "johnnybt-dsl 0.1.2",
+      "link": "https://pypi.org/project/johnnybt-dsl/0.1.2/",
+      "date": "2026-09-11T00:29:56+00:00",
+      "description": "A strategy DSL with a whole language behind it: mruby in Rust, JSON IR out.",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/40c763d05d655ff4"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/1d1b5a9be7ba773b"
     },
     {
-      "title": "geocif 0.4.1015",
-      "link": "https://pypi.org/project/geocif/0.4.1015/",
-      "date": "2026-09-10T20:56:54+00:00",
-      "description": "Models to visualize and forecast crop conditions and yields",
+      "title": "bulla 0.49.3",
+      "link": "https://pypi.org/project/bulla/0.49.3/",
+      "date": "2026-09-11T00:29:57+00:00",
+      "description": "Portable ActionReceipts and receiver-side verification for consequential agent transactions",
       "source": "PyPI Updates",
       "image": null,
       "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/python/fb904359834dd85d"
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/aec6908504619cd6"
+    },
+    {
+      "title": "agent-augury 0.6.3",
+      "link": "https://pypi.org/project/agent-augury/0.6.3/",
+      "date": "2026-09-11T00:29:58+00:00",
+      "description": "Model-agnostic passive awareness multi-agent runtime — concept inherited from AgentRadio (Coral-Protocol), re-implemented standalone.",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/a8eeaa334a246657"
+    },
+    {
+      "title": "jordan-devguard 0.2.1",
+      "link": "https://pypi.org/project/jordan-devguard/0.2.1/",
+      "date": "2026-09-11T00:30:12+00:00",
+      "description": "Local-first security assistant for developers",
+      "source": "PyPI Updates",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/python/ce9eb6dbf0ca7c6d"
     }
   ]
 }

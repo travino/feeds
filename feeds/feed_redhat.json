@@ -8,6 +8,38 @@
   "icon": "https://www.redhat.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/c29603dffefc1f12",
+      "url": "https://access.redhat.com/errata/RHSA-2026:66545",
+      "title": "RHSA-2026:66545: Important: Red Hat AMQ Broker 7.13.6 release and security update",
+      "content_text": "Red Hat AMQ Broker 7.13.6 is now available from the Red Hat Customer Portal.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "date_published": "2026-09-10T23:22:22Z",
+      "date_modified": "2026-09-10T23:22:22Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/redhat/bcd2be9a3e139c39",
+      "url": "https://access.redhat.com/errata/RHSA-2026:66488",
+      "title": "RHSA-2026:66488: Important: Red Hat AMQ Broker 7.14.1 release and security update",
+      "content_text": "Red Hat AMQ Broker 7.14.1 is now available from the Red Hat Customer Portal.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
+      "date_published": "2026-09-10T16:34:06Z",
+      "date_modified": "2026-09-10T16:34:06Z",
+      "authors": [
+        {
+          "name": "Red Hat Security Errata"
+        }
+      ],
+      "tags": [
+        "Red Hat Security Errata"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/redhat/5a94f362e4104dca",
       "url": "https://access.redhat.com/errata/RHSA-2026:66403",
       "title": "RHSA-2026:66403: Moderate: coreutils security update",
@@ -213,38 +245,6 @@
       "content_text": "An update for vim is now available for Red Hat Enterprise Linux 8.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
       "date_published": "2026-09-10T09:27:09Z",
       "date_modified": "2026-09-10T09:27:09Z",
-      "authors": [
-        {
-          "name": "Red Hat Security Errata"
-        }
-      ],
-      "tags": [
-        "Red Hat Security Errata"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/229f58d7d9eb4d31",
-      "url": "https://access.redhat.com/errata/RHSA-2026:66341",
-      "title": "RHSA-2026:66341: Moderate: apr-util security update",
-      "content_text": "An update for apr-util is now available for Red Hat Enterprise Linux 9.\n\nRed Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-10T09:20:59Z",
-      "date_modified": "2026-09-10T09:20:59Z",
-      "authors": [
-        {
-          "name": "Red Hat Security Errata"
-        }
-      ],
-      "tags": [
-        "Red Hat Security Errata"
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/redhat/2c74a182458fad56",
-      "url": "https://access.redhat.com/errata/RHSA-2026:66349",
-      "title": "RHSA-2026:66349: Important: freerdp security update",
-      "content_text": "An update for freerdp is now available for Red Hat Enterprise Linux 10.\n\nRed Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.",
-      "date_published": "2026-09-10T09:20:24Z",
-      "date_modified": "2026-09-10T09:20:24Z",
       "authors": [
         {
           "name": "Red Hat Security Errata"

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="zh">
   <id>https://www.v2ex.com/</id>
   <title>V2EX</title>
-  <updated>2026-09-10T21:11:24.726161+00:00</updated>
+  <updated>2026-09-11T00:31:25.271638+00:00</updated>
   <author>
     <name>various</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://www.v2ex.com/favicon.ico</icon>
   <logo>https://www.v2ex.com/favicon.ico</logo>
   <subtitle>Combined V2EX feed: sspai.com, the Creative and Play tabs, and the Claude / Android / Reddit node JSON feeds. (Hot tab excluded — the upstream feed is broken.)</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/8dc337a10716e8c4</id>
+    <title>做了一个 web 版的动物森友会， 3D 版，试玩已经上线</title>
+    <updated>2026-09-10T23:52:07+00:00</updated>
+    <content>先看截图 实现了： 1.钓鱼（ 20 种鱼） 2.抓昆虫（ 20 种昆虫） 3.各种图鉴 4.收集苹果、石头、椰子 5.成就系统 6.和小动物岛民交互（还比较简单） 7.核心建造玩法，已经制作了几十种家具和地板 8.昼夜系统和四季系统（跟随真实时间） 9.其他不再一一赘述，欢迎的大家试玩 试玩地址： https://jamfer.com/it/ 不需要注册，输入名字就能玩了（但是要保存进度需要绑定一下邮箱）</content>
+    <link href="https://www.v2ex.com/t/1241196#reply1" rel="alternate"/>
+    <category term="V2EX Creative" label="V2EX Creative"/>
+    <published>2026-09-10T23:52:07+00:00</published>
+    <media:group>
+      <media:content url="https://i.v2ex.co/TN9p62XF.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://i.v2ex.co/TN9p62XF.png"/>
+    </media:group>
+    <dc:creator>V2EX Creative</dc:creator>
+    <link rel="enclosure" href="https://i.v2ex.co/TN9p62XF.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/v2ex/bcda126f7fd75d09</id>
+    <title>派早报：商务部回应美国 AI 蒸馏指控</title>
+    <updated>2026-09-10T22:58:54+00:00</updated>
+    <content>商务部回应美国 AI 蒸馏指控 谷歌声称为了合规将「降级」欧盟搜索服务 Apple 智能将有用量限制 OpenAI 将与三星合作开发芯片 小岛秀夫新游戏被索尼取消，转由微软发行 DeepSeek V4.1 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文</content>
+    <link href="https://sspai.com/post/114439" rel="alternate"/>
+    <category term="sspai.com" label="sspai.com"/>
+    <published>2026-09-10T22:58:54+00:00</published>
+    <media:group>
+      <media:content url="https://rssfile.sspai.com/9/11/2026/article/de4bcb4c-3b24-6419-114e-5825e70d9878.png?imageMogr2/auto-orient/format/webp/ignore-error/1" type="image/png" medium="image"/>
+      <media:thumbnail url="https://rssfile.sspai.com/9/11/2026/article/de4bcb4c-3b24-6419-114e-5825e70d9878.png?imageMogr2/auto-orient/format/webp/ignore-error/1"/>
+    </media:group>
+    <dc:creator>sspai.com</dc:creator>
+    <link rel="enclosure" href="https://rssfile.sspai.com/9/11/2026/article/de4bcb4c-3b24-6419-114e-5825e70d9878.png?imageMogr2/auto-orient/format/webp/ignore-error/1" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/63c9ec305615a586</id>
     <title>把你写的故事变成有声音的动画短片： C2Anime</title>
@@ -264,26 +294,6 @@
     </media:group>
     <dc:creator>V2EX Creative</dc:creator>
     <link rel="enclosure" href="https://img-bay.nodecore.workers.dev/ai-wallpaper-changer001_1789043796102_mwzh05.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/ad76bfa7acfb4884</id>
-    <title>给 Codex 安装一个红绿灯🚥</title>
-    <updated>2026-09-10T10:40:35+00:00</updated>
-    <content>codex 会话一多，就有个问题，找起来很麻烦+看起来很乱，缺少状态。
-所以做了一个 skill ，在 codex 的会话标题上，加上🔢数字前缀 + 图标 icon ✅，这样就能很快的找到会话了。 分为四种状态，如：
-🟡 codex 思考中
-🔴 等待用户确认
-♻️ 执行任务中
-✅ 已完成 支持一句话安装： 安装 skill 到用户本地 https://tools.markfor.me/skills/codex-traffic-light/SKILL.md</content>
-    <link href="https://www.v2ex.com/t/1241124#reply0" rel="alternate"/>
-    <category term="V2EX Creative" label="V2EX Creative"/>
-    <published>2026-09-10T10:40:35+00:00</published>
-    <media:group>
-      <media:content url="https://tools.markfor.me/assets/og-codex-traffic-light.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://tools.markfor.me/assets/og-codex-traffic-light.png"/>
-    </media:group>
-    <dc:creator>V2EX Creative</dc:creator>
-    <link rel="enclosure" href="https://tools.markfor.me/assets/og-codex-traffic-light.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/1472c6cac8f2d0aa</id>
@@ -630,21 +640,6 @@
     </media:group>
     <dc:creator>sspai.com</dc:creator>
     <link rel="enclosure" href="https://rssfile.sspai.com/2026/9/8/article/9c3fdd43-df21-0e62-3942-b215ac5dd500.gif" type="image/gif" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/v2ex/691612c2282b8fa3</id>
-    <title>日本浮生录 11｜越过九州，走进奄美大岛的山海夏日</title>
-    <updated>2026-09-08T03:06:21+00:00</updated>
-    <content>浪还在继续往岸边来，天色也一点一点暗下去。就让奄美大岛和我的这个夏天，停留在这里吧。 查看全文</content>
-    <link href="https://sspai.com/post/113299" rel="alternate"/>
-    <category term="sspai.com" label="sspai.com"/>
-    <published>2026-09-08T03:06:21+00:00</published>
-    <media:group>
-      <media:content url="https://rssfile.sspai.com/2026/08/31/d2e7fecfc131510783e15f5a36c6072e.jpg?imageMogr2/auto-orient/ignore-error/1" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://rssfile.sspai.com/2026/08/31/d2e7fecfc131510783e15f5a36c6072e.jpg?imageMogr2/auto-orient/ignore-error/1"/>
-    </media:group>
-    <dc:creator>sspai.com</dc:creator>
-    <link rel="enclosure" href="https://rssfile.sspai.com/2026/08/31/d2e7fecfc131510783e15f5a36c6072e.jpg?imageMogr2/auto-orient/ignore-error/1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/v2ex/22027f07e349120e</id>

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ubuntu.com/blog</id>
   <title>Ubuntu</title>
-  <updated>2026-09-10T21:10:53.215024+00:00</updated>
+  <updated>2026-09-11T00:31:15.715504+00:00</updated>
   <author>
     <name>Ubuntu community</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://ubuntu.com/favicon.ico</icon>
   <logo>https://ubuntu.com/favicon.ico</logo>
   <subtitle>Ubuntu and Canonical news, Planet Ubuntu, Ubuntu Studio, OMG! Ubuntu and UbuntuHandbook.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/f4e4bc09e460197c</id>
+    <title>Ubuntu 26.10 will ship with Linux kernel 7.3</title>
+    <updated>2026-09-11T00:03:30+00:00</updated>
+    <content>Ubuntu 26.10 'Stonking Stingray' is getting a newer kernel than planned. Canonical has switched its target from Linux 7.2 to Linux 7.3. You're reading Ubuntu 26.10 will ship with Linux kernel 7.3 , a blog post from OMG! Ubuntu . Do not reproduce elsewhere without permission.</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/ubuntu-2610-kernel-version" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-11T00:03:30+00:00</published>
+    <media:group>
+      <media:content url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/04/stonking-stingray-ubuntu-406x232.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://www.omgubuntu.co.uk/wp-content/uploads/2026/04/stonking-stingray-ubuntu-406x232.webp"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2026/04/stonking-stingray-ubuntu-406x232.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/ubuntu/8cede0fc3b2daf8c</id>
+    <title>Ubuntu 24.04.5 released with Linux 7.0 &amp; Mesa 26.0</title>
+    <updated>2026-09-10T21:51:04+00:00</updated>
+    <content>The fifth (and final planned) point release of Ubuntu 24.04 LTS is now available to download. Ubuntu 24.04.5 LTS brings refreshed installation media (ISOs) that includes of the software updates, bug fixes and security patches released since the last ISO was produced. This cuts down on the number of updates that need to downloaded post-install. This release also makes a change in how kernel firmware updates are delivered. Firmware has been split out into vendor-specific packages that can be indep</content>
+    <link href="https://www.omgubuntu.co.uk/2026/09/ubuntu-24-04-5-lts-released-with-linux-kernel-7-0" rel="alternate"/>
+    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
+    <published>2026-09-10T21:51:04+00:00</published>
+    <media:group>
+      <media:content url="https://www.omgubuntu.co.uk/wp-content/uploads/2024/04/noble-better-406x232.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://www.omgubuntu.co.uk/wp-content/uploads/2024/04/noble-better-406x232.jpg"/>
+    </media:group>
+    <dc:creator>OMG! Ubuntu</dc:creator>
+    <link rel="enclosure" href="https://www.omgubuntu.co.uk/wp-content/uploads/2024/04/noble-better-406x232.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/a275444ff498b631</id>
     <title>Liquid Glass GNOME Shell extension uses real refraction shaders</title>
@@ -966,36 +996,6 @@
     <category term="Planet Ubuntu" label="Planet Ubuntu"/>
     <published>2026-08-24T21:00:40+00:00</published>
     <dc:creator>Planet Ubuntu</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/de8424376fdb42f2</id>
-    <title>Ubuntu 24.04 gets a big open-vm-tools update</title>
-    <updated>2026-08-24T15:39:00+00:00</updated>
-    <content>A major update to open-vm-tools, a package that integrates Linux virtual machines with VMware hypervisors, is rolling out to users of Ubuntu 24.04 LTS. “Without SRUing the newer version users get issues running on more recent hypervisors”, Canonical’s Lena Voytek explained in a backport request. It’s a full backport from Ubuntu 26.04 LTS to support platform enablement to benefit those running 24.04 LTS. The open-vm-tool package goes from v12.3.5 to v13.0.10 (the same version in Ubuntu 26.04 LTS)</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/ubuntu-2404-open-vm-tools-update" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-24T15:39:00+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/05/ubuntu-server.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/05/ubuntu-server.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/05/ubuntu-server.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/ubuntu/dacfec71cc7872b6</id>
-    <title>10-year-old bug action triggered an Ubuntu Phone dev reunion</title>
-    <updated>2026-08-23T21:27:01+00:00</updated>
-    <content>A decades-old bug on Ubuntu’s Launchpad marked as invalid at the weekend led to an impromptu reunion for many of Canonical’s former engineers. Bug #1589796 was filed in 2016 by a user who’d spent £700 on Ubuntu phone and tablet hardware but, on visiting the official website, found no documentation to tell him how to use them. Canonical axed the Ubuntu Phone project in 2017, leaving this bug unresolved. Until now. Adolfo Jayme Barrientos, on the Ubuntu bug triage team, marked the bug invalid this</content>
-    <link href="https://www.omgubuntu.co.uk/2026/08/ubuntu-phone-bug-reunion" rel="alternate"/>
-    <category term="OMG! Ubuntu" label="OMG! Ubuntu"/>
-    <published>2026-08-23T21:27:01+00:00</published>
-    <media:group>
-      <media:content url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-phone-scaled.webp?resize=406%2C232&amp;ssl=1" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-phone-scaled.webp?resize=406%2C232&amp;ssl=1"/>
-    </media:group>
-    <dc:creator>OMG! Ubuntu</dc:creator>
-    <link rel="enclosure" href="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2026/08/ubuntu-phone-scaled.webp?resize=406%2C232&amp;ssl=1" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/ubuntu/79093b171c98c55c</id>

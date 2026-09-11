@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.oracle.com/</id>
   <title>Oracle</title>
-  <updated>2026-09-10T21:10:18.245082+00:00</updated>
+  <updated>2026-09-11T00:30:22.110300+00:00</updated>
   <author>
     <name>Oracle</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://blogs.oracle.com/favicon.ico</icon>
   <logo>https://blogs.oracle.com/favicon.ico</logo>
   <subtitle>Oracle company and developer news: Java, Linux, OCI, virtualization, community, press releases and Inside Java.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/13c5505f39ec1a89</id>
+    <title>purchase order closing process</title>
+    <updated>2026-09-10T23:33:49.694513+00:00</updated>
+    <content>I have a purchase order that was fully received and manually fully invoiced. However, the purchase order status changed to "Closed" only after the invoice was validated; is that correct? The client expects the purchase order to switch to "Closed" as soon as it is invoiced, without needing to validate the invoice.</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/purchase-order-closing-process-3614" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T23:33:49.694513+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/oracle/09e814d2348c3cd4</id>
+    <title>Sql Developer 26.2 connected to ADB 26ai Lakehouse cannot see data for case sensitive tables in table browser</title>
+    <updated>2026-09-10T21:34:49.273506+00:00</updated>
+    <content>In SQL Developer 26.2 connected to an ADB Lakehouse 26ai: no data grid for case sensitive tables. Behavior : In browser, can see case sensitive tables created by ADB Data transforms based on Fusion BICC extracts When opening table browser for case sensitive tables ("MixedCase.TableName.With.Periods.In.Name") can see case sensitive : columns, constraints, indexes, SQL (generate DDL), dependencies when clicking on Data tab : nothing is displayed "Messages - Log" shows: ORA-01742: comment not termi</content>
+    <link href="https://forums.oracle.com/ords/apexds/post/sql-developer-26-2-connected-to-adb-26ai-lakehouse-cannot-s-5563" rel="alternate"/>
+    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
+    <published>2026-09-10T21:34:49.273506+00:00</published>
+    <media:group>
+      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ehTadcwR-2108-qpjoFRIE" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ehTadcwR-2108-qpjoFRIE"/>
+    </media:group>
+    <dc:creator>Oracle Developer Community</dc:creator>
+    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ehTadcwR-2108-qpjoFRIE" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/b1d5c7abd9bd8699</id>
     <title>Announcing Cross-Region Replication in OCI Cache</title>
@@ -296,36 +326,6 @@
     </media:group>
     <dc:creator>Oracle Cloud Infrastructure</dc:creator>
     <link rel="enclosure" href="https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/pglogical-pglogical-16x9-4.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/9206d9935afcccf4</id>
-    <title>Editor Doesn&amp;#x27;t Recognize the Syntax of IMMUTABLE</title>
-    <updated>2026-09-09T12:33:10.216306+00:00</updated>
-    <content>v: 26.2.1 The statement with IMMUTABLE CLAUSE  works fine but the syntax is underline in red and the editor color changes to red.</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-immutable-3101" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T12:33:10.216306+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/oracle/e2153d3d4e880908</id>
-    <title>Editor Does Not Recognize the for staging Syntax</title>
-    <updated>2026-09-09T12:31:33.282671+00:00</updated>
-    <content>v: 26.2.1 The statement with FOR STAGING clause works fine but the syntax is underline in red and the editor color changes to red.</content>
-    <link href="https://forums.oracle.com/ords/apexds/post/editor-does-not-recognize-the-for-staging-syntax-1669" rel="alternate"/>
-    <category term="Oracle Developer Community" label="Oracle Developer Community"/>
-    <published>2026-09-09T12:31:33.282671+00:00</published>
-    <media:group>
-      <media:content url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE"/>
-    </media:group>
-    <dc:creator>Oracle Developer Community</dc:creator>
-    <link rel="enclosure" href="https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/oracle/910aae50c6211595</id>

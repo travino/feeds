@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:11:24.912313+00:00",
+  "last_updated": "2026-09-11T00:31:25.464899+00:00",
   "entries": [
     {
       "title": "reddit 被墙了吗，在手机上用 Apollo 客户端无法显示内容，浏览器无法打开？",
@@ -3342,15 +3342,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/47c488bd8c154c4b"
     },
     {
-      "title": "《积木拼图》，做了一个小游戏大家玩玩看",
-      "link": "https://www.v2ex.com/t/1233892#reply0",
-      "date": "2026-08-12T09:09:42+00:00",
-      "description": "https://lego.tunmusic.com/ 还有很多完善的地方，先分享出来大家看看，提提建议",
-      "source": "V2EX Creative",
-      "image": "https://cdn.v2ex.com/gravatar/fdf588b7453a3e13986533d5397a2b93?s=73&d=retro",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/7ccd40e20713d3d3"
-    },
-    {
       "title": "为什么 Claude 的 pro 套餐这么耐用两天烧了 12 亿 tokens，都没碰到一次 5 小时限额",
       "link": "https://www.v2ex.com/t/1233897",
       "date": "2026-08-12T09:16:43+00:00",
@@ -3385,15 +3376,6 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/gravatar/ef8e11d4d970641a254c926ebdcf1bc4?s=73&d=retro",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/e6ae687e02f92159"
-    },
-    {
-      "title": "[分享&&求赐教] 开源了一个对话 Agent 多维评测小框架，请教大家是怎样评估置信度以及提高评测正确率的？",
-      "link": "https://www.v2ex.com/t/1233918#reply0",
-      "date": "2026-08-12T10:52:35+00:00",
-      "description": "最近在做带工具调用的对话 Agent ，换 Prompt / 模型之后，经常不知道整体是变好了还是变差了。 网上那些大模型排行榜，多半在比「回答好不好看、聊起来顺不顺」； 我想评的是另一件事：对着一次完整交互，看意图理解对不对、工具用得靠不靠谱、最终结果能不能用。 于是搓了个轻量框架开源出来： GitHub： https://github.com/Bingo-choco/ai-evaluation 大概长什么样 输入一份结构化交互日志（用户问题 + 中间过程 + 最终回复），输出三维分： 意图理解 工具调用 结果输出 0/1/2 + 简短理由；不好的样本会打问题标签。前端可以上传批次、看进度和聚合结果，也能导出。 链路很短（ LangGraph ，共享状态，不是 Agent 互聊）： 解析 → 规则短路 → 相似样本召回(few-shot) → 拼 Prompt → 压缩(防超 token) → 多路打分合并 → 置信度/聚合 硬错误走规则，能短路就不用调 LLM ；拿不准的再交给多路 Judge 投票。 优点 / 缺点（实话） 还行的地方： 省一点评测成本；有 few-shot 对齐",
-      "source": "V2EX Creative",
-      "image": "https://cdn.v2ex.com/avatar/b393/bee8/837125_xlarge.png?m=1786527229",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/3f184d237b6b3327"
     },
     {
       "title": "LWC，一款 Agent 主动式记忆工具，欢迎试用",
@@ -4332,15 +4314,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9e999742f717f10a"
     },
     {
-      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
-      "link": "https://www.v2ex.com/t/1234483#reply1",
-      "date": "2026-08-14T13:08:14+00:00",
-      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
-      "source": "V2EX Creative",
-      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
-    },
-    {
       "title": "苦于 DeepSeek Harness 没有可视化文本搜索， Vibe 了一个插件",
       "link": "https://www.v2ex.com/t/1234484#reply0",
       "date": "2026-08-14T13:08:14+00:00",
@@ -4348,6 +4321,15 @@
       "source": "V2EX Creative",
       "image": "https://private-user-images.githubusercontent.com/14333766/636160355-0aceb14e-b4f5-4ab4-bf1e-72da35d147b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY3MTMwNTQsIm5iZiI6MTc4NjcxMjc1NCwicGF0aCI6Ii8xNDMzMzc2Ni82MzYxNjAzNTUtMGFjZWIxNGUtYjRmNS00YWI0LWJmMWUtNzJkYTM1ZDE0N2I5LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDEzMDU1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTM1MWNmMWIwZDg3MDEzZTA3YjBhY2I3OTA5NjVmNjQ5MDQ1YWZhZGFhNjlhYjk1ODM1MmI1ZTFlZmM0MjA3ZDcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.G7WNF9w1vljvTj16Ns9lCbGK6jYZORpJSY38mLG8ggI",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/491fdf8e33c97c54"
+    },
+    {
+      "title": "10 分钟打造自己的专属豆包和 deepseek，基于 Go+React 开发了一款 Agent 编排器 Ollmo",
+      "link": "https://www.v2ex.com/t/1234483#reply1",
+      "date": "2026-08-14T13:08:14+00:00",
+      "description": "ollmo Open LLM Orchestrator · 开源大模型编排器 数据不出门，用自己的知识库，打造专属 AI 生产力工具。 生产级 RAG 平台，提供混合检索、多租户隔离与流式对话能力。\n后端基于 Go + Fiber ，前端基于 Next.js App Router + shadcn/ui 。 为什么做 ollmo 市面上的 AI 应用编排平台：工作流、节点、插件，几十个概念、上百项配置。想让 AI 帮个忙，得先花好几天学会一套复杂的系统。AI 本该让事情变简单，结果却背道而驰。 ollmo 把一切收敛成三步： 上传文档、提出问题、拿到带出处的答案 。一条命令部署，十分钟上手。 简单 — 只做一件事并做到极致：把你的文档变成能问答的助手。 易用 — 十分钟上手，不需要先学会一套比业务还复杂的系统。 克制 — 不堆概念、不加多余配置，复杂留在系统内部，简单留给你。 核心特性 混合检索 — 基于 Milvus 2.5+ 的稠密 + 稀疏向量检索，支持知识库级 Rerank 配置。 多租户 — MySQL 、Milvus 、MinIO 全链路逻辑隔离，所有表携带 tenant_",
+      "source": "V2EX Creative",
+      "image": "https://gitee.com/ollmo-go/ollmo/raw/main/agent-canvas.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/108338a59790a626"
     },
     {
       "title": "分享个 dsh 插件 自动将为提交信息增加 co-author 对应模型",
@@ -5340,15 +5322,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/845f675437e6e7a1"
     },
     {
-      "title": "如何最大化 Claude Code Session 的价值",
-      "link": "https://www.v2ex.com/t/1234919#reply0",
-      "date": "2026-08-17T03:07:19+00:00",
-      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
-      "source": "V2EX Play",
-      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
-      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
-    },
-    {
       "title": "Motrix 时隔三年终于更新了？作者刚开了 openai 的会员？",
       "link": "https://www.v2ex.com/t/1234920#reply1",
       "date": "2026-08-17T03:07:19+00:00",
@@ -5356,6 +5329,15 @@
       "source": "V2EX Play",
       "image": "https://cdn.v2ex.com/avatar/a5c4/cedb/764031_xlarge.png?m=1773103759",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/a0fb6b3f396db430"
+    },
+    {
+      "title": "如何最大化 Claude Code Session 的价值",
+      "link": "https://www.v2ex.com/t/1234919#reply0",
+      "date": "2026-08-17T03:07:19+00:00",
+      "description": "这两天，看了不少知乎上关于用好 Codex 和 Claude Code 的回答，收获不少指令笔记，也产出几篇文章。紧赶慢赶，Anthropic 也在 8 月 14 日发了一篇官方最佳实践： 《 Maximizing the value of your Claude Code sessions 》 。 我整理了下文章的思路，原文核心分为 3 个层次，分别是 token 的价格组成、session 内的 token 活动、和如何最大化单一 session 的价值。 本文章不打算全篇复述，而是划一些我认为的重点：包括一些被忽视的细节以及客观规律。我自己拿到这篇文章，用这些重点去 review 了我近期的操作日志，也有一些发现和大家分享。 一、成本模型变化 编辑器时代是固定费用，修 1 个测试和修 50 个测试，工具成本一样。到了 Agent 时代，同一个任务的价格随用法浮动。 我自己的理解是，如果一条工作流已经被你验证过了（比如有现成的 SOP 或者 skills ），那把它编码成固定流程或代码让 Agent 调用。被验证过的事情不需要反复探索，也能省下不少时间和 token 。 二、tok",
+      "source": "V2EX Play",
+      "image": "https://cdn.v2ex.com/gravatar/c01a9990e9f1bcbea1b8b6e4b0ed12f6?s=73&d=retro",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/9a7c50f62432d0cf"
     },
     {
       "title": "深港两地用 codex(chatgpt)用什么网络方案？",
@@ -18002,6 +17984,24 @@
       "source": "V2EX Creative",
       "image": "https://cdn.v2ex.com/gravatar/1a7cf780d214c7ba0da968811ad50161?s=73&d=retro",
       "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/63c9ec305615a586"
+    },
+    {
+      "title": "派早报：商务部回应美国 AI 蒸馏指控",
+      "link": "https://sspai.com/post/114439",
+      "date": "2026-09-10T22:58:54+00:00",
+      "description": "商务部回应美国 AI 蒸馏指控 谷歌声称为了合规将「降级」欧盟搜索服务 Apple 智能将有用量限制 OpenAI 将与三星合作开发芯片 小岛秀夫新游戏被索尼取消，转由微软发行 DeepSeek V4.1 发布 看看就行的简讯 少数派的近期动态 你可能错过的好文章 查看全文",
+      "source": "sspai.com",
+      "image": "https://rssfile.sspai.com/9/11/2026/article/de4bcb4c-3b24-6419-114e-5825e70d9878.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/bcda126f7fd75d09"
+    },
+    {
+      "title": "做了一个 web 版的动物森友会， 3D 版，试玩已经上线",
+      "link": "https://www.v2ex.com/t/1241196#reply1",
+      "date": "2026-09-10T23:52:07+00:00",
+      "description": "先看截图 实现了： 1.钓鱼（ 20 种鱼） 2.抓昆虫（ 20 种昆虫） 3.各种图鉴 4.收集苹果、石头、椰子 5.成就系统 6.和小动物岛民交互（还比较简单） 7.核心建造玩法，已经制作了几十种家具和地板 8.昼夜系统和四季系统（跟随真实时间） 9.其他不再一一赘述，欢迎的大家试玩 试玩地址： https://jamfer.com/it/ 不需要注册，输入名字就能玩了（但是要保存进度需要绑定一下邮箱）",
+      "source": "V2EX Creative",
+      "image": "https://i.v2ex.co/TN9p62XF.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/v2ex/8dc337a10716e8c4"
     }
   ]
 }

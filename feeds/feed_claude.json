@@ -8,6 +8,42 @@
   "icon": "https://claude.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/claude/96dd4f6e47837947",
+      "url": "https://status.claude.com/incidents/2pt83vlkk7x7",
+      "title": "Elevated latency on the Claude API for some users",
+      "content_text": "Sep 10 , 23:24 UTC Resolved - The issue affecting Claude services has been mitigated. Sep 10 , 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.",
+      "date_published": "2026-09-10T23:24:22Z",
+      "date_modified": "2026-09-10T23:24:22Z",
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "tags": [
+        "Claude Status"
+      ],
+      "attachments": [
+        {
+          "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/claude/57960cf118608e83",
+      "url": "https://claude.com/docs/cowork/changelog#v1-52386-0",
+      "title": "v1.52386.0",
+      "content_text": "v1.52386.0",
+      "date_published": "2026-09-10T22:37:27Z",
+      "date_modified": "2026-09-10T22:37:27Z",
+      "image": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&w=1200&q=100",
+      "tags": [
+        "Claude Cowork"
+      ],
+      "attachments": [
+        {
+          "url": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&w=1200&q=100",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/claude/76393b5f0e367cad",
       "url": "https://code.claude.com/docs/en/changelog#2-1-268",
       "title": "2.1.268",
@@ -58,6 +94,24 @@
         {
           "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
           "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/claude/b1da90f74358af3d",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview#september-10-2026",
+      "title": "Claude Platform release notes — September 10, 2026",
+      "content_text": "Claude Managed Agents permission policies now include auto : the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission . See Let the server evaluate each call with auto . The ant CLI adds ant beta:sessions connect , which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send mes",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2",
+      "tags": [
+        "Claude Platform"
+      ],
+      "attachments": [
+        {
+          "url": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2",
+          "mime_type": "image/jpeg"
         }
       ]
     },
@@ -2608,60 +2662,6 @@
         {
           "url": "https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6905137f403a1564673d63ca_og_claude-code-remote-mcp.jpg",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/claude/2bf46f8e03639589",
-      "url": "https://status.claude.com/incidents/rkk5x44tndw9",
-      "title": "Elevated errors on Claude Opus 5 and Haiku 4.5",
-      "content_text": "Jul 27 , 14:36 UTC Resolved - As of 7:34 PST / 14:34 UTC the errors have returned to baseline. Jul 27 , 14:04 UTC Update - Haiku 4.5 is also returning errors. Jul 27 , 13:42 UTC Update - We are currently investigating this issue. Jul 27 , 13:41 UTC Update - We are continuing to investigate this issue. Jul 27 , 13:39 UTC Investigating - We are currently investigating this issue.",
-      "date_published": "2026-07-27T14:36:43Z",
-      "date_modified": "2026-07-27T14:36:43Z",
-      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-      "tags": [
-        "Claude Status"
-      ],
-      "attachments": [
-        {
-          "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/claude/82e17f04394ce8de",
-      "url": "https://status.claude.com/incidents/lhqp09kxq7pb",
-      "title": "Elevated errors on Claude Opus 5",
-      "content_text": "Jul 27 , 09:05 UTC Resolved - As of 2:03 PST / 9:03 UTC the errors have returned to baseline. Jul 27 , 08:16 UTC Investigating - We are currently investigating this issue.",
-      "date_published": "2026-07-27T09:05:24Z",
-      "date_modified": "2026-07-27T09:05:24Z",
-      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-      "tags": [
-        "Claude Status"
-      ],
-      "attachments": [
-        {
-          "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/claude/6f36a864b9508a87",
-      "url": "https://status.claude.com/incidents/zftg3gqkmv18",
-      "title": "Elevated errors for Opus 5",
-      "content_text": "Jul 26 , 09:45 UTC Identified - The issue has been identified and a fix is being implemented. Jul 26 , 09:17 UTC Investigating - We are currently investigating this issue.",
-      "date_published": "2026-07-26T09:45:34Z",
-      "date_modified": "2026-07-26T09:45:34Z",
-      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-      "tags": [
-        "Claude Status"
-      ],
-      "attachments": [
-        {
-          "url": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
-          "mime_type": "image/png"
         }
       ]
     }

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.google/</id>
   <title>Google Blogs</title>
-  <updated>2026-09-10T21:09:34.188779+00:00</updated>
+  <updated>2026-09-11T00:29:31.216772+00:00</updated>
   <author>
     <name>Google</name>
   </author>
@@ -12,6 +12,20 @@
   <icon>https://blog.google/favicon.ico</icon>
   <logo>https://blog.google/favicon.ico</logo>
   <subtitle>Combined feed of Google's official blogs (The Keyword, Developers, Android, Chrome, Research, DeepMind, Cloud, and more)</subtitle>
+  <entry>
+    <id>https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients</id>
+    <title>ToolGrad: Efficient tool-use dataset generation with textual "gradients"</title>
+    <updated>2026-09-10T22:50:22+00:00</updated>
+    <content type="html">Machine Intelligence</content>
+    <link href="https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients" rel="alternate"/>
+    <category term="Google Research"/>
+    <published>2026-09-10T22:50:22+00:00</published>
+    <media:group>
+      <media:content url="https://storage.googleapis.com/gweb-research2023-media/original_images/ToolGrad1_teaser.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://storage.googleapis.com/gweb-research2023-media/original_images/ToolGrad1_teaser.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://storage.googleapis.com/gweb-research2023-media/original_images/ToolGrad1_teaser.png" type="image/png" length="0"/>
+  </entry>
   <entry>
     <id>https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents</id>
     <title>Introducing the Google Cloud Developer Plugin for AI Coding Agents</title>
@@ -28990,19 +29004,5 @@ fun createAndroidHeadPath(bounds: Rect): Path = TODO()&lt;/code&gt;&lt;/pre&gt;
       <media:thumbnail url="https://firebasestorage.googleapis.com/v0/b/first-class-blog.appspot.com/o/headlines%2Fstore-finder-hero_3072x1688.png?alt=media&amp;token=9bffea78-39b7-4b92-8a2c-415372c7d5d1"/>
     </media:group>
     <link rel="enclosure" href="https://firebasestorage.googleapis.com/v0/b/first-class-blog.appspot.com/o/headlines%2Fstore-finder-hero_3072x1688.png?alt=media&amp;token=9bffea78-39b7-4b92-8a2c-415372c7d5d1" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/noaa-google-cloud-weather-forecasting</id>
-    <title>NOAA and Google Cloud collaborate to advance weather forecasting.</title>
-    <updated>2026-07-27T17:00:00+00:00</updated>
-    <content type="html">&lt;img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hurricane-Melissa_header.max-600x600.format-webp.webp" /&gt;Google Cloud is now providing high-performance computing infrastructure for NOAA’s supercomputing system.</content>
-    <link href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/noaa-google-cloud-weather-forecasting" rel="alternate"/>
-    <category term="The Keyword"/>
-    <published>2026-07-27T17:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hurricane-Melissa_header.max-600x600.format-webp.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hurricane-Melissa_header.max-600x600.format-webp.webp"/>
-    </media:group>
-    <link rel="enclosure" href="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Hurricane-Melissa_header.max-600x600.format-webp.webp" type="image/webp" length="0"/>
   </entry>
 </feed>

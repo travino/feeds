@@ -8,6 +8,52 @@
   "icon": "https://blogs.oracle.com/favicon.ico",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/13c5505f39ec1a89",
+      "url": "https://forums.oracle.com/ords/apexds/post/purchase-order-closing-process-3614",
+      "title": "purchase order closing process",
+      "content_text": "I have a purchase order that was fully received and manually fully invoiced. However, the purchase order status changed to \"Closed\" only after the invoice was validated; is that correct? The client expects the purchase order to switch to \"Closed\" as soon as it is invoiced, without needing to validate the invoice.",
+      "date_published": "2026-09-10T23:33:49Z",
+      "date_modified": "2026-09-10T23:33:49Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/oracle/09e814d2348c3cd4",
+      "url": "https://forums.oracle.com/ords/apexds/post/sql-developer-26-2-connected-to-adb-26ai-lakehouse-cannot-s-5563",
+      "title": "Sql Developer 26.2 connected to ADB 26ai Lakehouse cannot see data for case sensitive tables in table browser",
+      "content_text": "In SQL Developer 26.2 connected to an ADB Lakehouse 26ai: no data grid for case sensitive tables. Behavior : In browser, can see case sensitive tables created by ADB Data transforms based on Fusion BICC extracts When opening table browser for case sensitive tables (\"MixedCase.TableName.With.Periods.In.Name\") can see case sensitive : columns, constraints, indexes, SQL (generate DDL), dependencies when clicking on Data tab : nothing is displayed \"Messages - Log\" shows: ORA-01742: comment not termi",
+      "date_published": "2026-09-10T21:34:49Z",
+      "date_modified": "2026-09-10T21:34:49Z",
+      "authors": [
+        {
+          "name": "Oracle Developer Community"
+        }
+      ],
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ehTadcwR-2108-qpjoFRIE",
+      "tags": [
+        "Oracle Developer Community"
+      ],
+      "attachments": [
+        {
+          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ehTadcwR-2108-qpjoFRIE",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/oracle/b1d5c7abd9bd8699",
       "url": "https://blogs.oracle.com/cloud-infrastructure/oci-cache-cross-region-replication",
       "title": "Announcing Cross-Region Replication in OCI Cache",
@@ -440,52 +486,6 @@
       "attachments": [
         {
           "url": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/pglogical-pglogical-16x9-4.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/9206d9935afcccf4",
-      "url": "https://forums.oracle.com/ords/apexds/post/editor-doesn-t-recognize-the-syntax-of-immutable-3101",
-      "title": "Editor Doesn&#x27;t Recognize the Syntax of IMMUTABLE",
-      "content_text": "v: 26.2.1 The statement with IMMUTABLE CLAUSE  works fine but the syntax is underline in red and the editor color changes to red.",
-      "date_published": "2026-09-09T12:33:10Z",
-      "date_modified": "2026-09-09T12:33:10Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ZWbABFoD-9372-rdcMBSDr",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/oracle/e2153d3d4e880908",
-      "url": "https://forums.oracle.com/ords/apexds/post/editor-does-not-recognize-the-for-staging-syntax-1669",
-      "title": "Editor Does Not Recognize the for staging Syntax",
-      "content_text": "v: 26.2.1 The statement with FOR STAGING clause works fine but the syntax is underline in red and the editor color changes to red.",
-      "date_published": "2026-09-09T12:31:33Z",
-      "date_modified": "2026-09-09T12:31:33Z",
-      "authors": [
-        {
-          "name": "Oracle Developer Community"
-        }
-      ],
-      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE",
-      "tags": [
-        "Oracle Developer Community"
-      ],
-      "attachments": [
-        {
-          "url": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/sfwYydaV-1579-ysbuRgcE",
           "mime_type": "image/jpeg"
         }
       ]

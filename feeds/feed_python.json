@@ -8,12 +8,12 @@
   "icon": "https://www.python.org/favicon.ico",
   "items": [
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/fb904359834dd85d",
-      "url": "https://pypi.org/project/geocif/0.4.1015/",
-      "title": "geocif 0.4.1015",
-      "content_text": "Models to visualize and forecast crop conditions and yields",
-      "date_published": "2026-09-10T20:56:54Z",
-      "date_modified": "2026-09-10T20:56:54Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/ce9eb6dbf0ca7c6d",
+      "url": "https://pypi.org/project/jordan-devguard/0.2.1/",
+      "title": "jordan-devguard 0.2.1",
+      "content_text": "Local-first security assistant for developers",
+      "date_published": "2026-09-11T00:30:12Z",
+      "date_modified": "2026-09-11T00:30:12Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -24,12 +24,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/40c763d05d655ff4",
-      "url": "https://pypi.org/project/aggfly/0.4.0/",
-      "title": "aggfly 0.4.0",
-      "content_text": "Efficient spatial and temporal aggregation of gridded climate data",
-      "date_published": "2026-09-10T20:56:51Z",
-      "date_modified": "2026-09-10T20:56:51Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/a8eeaa334a246657",
+      "url": "https://pypi.org/project/agent-augury/0.6.3/",
+      "title": "agent-augury 0.6.3",
+      "content_text": "Model-agnostic passive awareness multi-agent runtime — concept inherited from AgentRadio (Coral-Protocol), re-implemented standalone.",
+      "date_published": "2026-09-11T00:29:58Z",
+      "date_modified": "2026-09-11T00:29:58Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -40,12 +40,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/bd66654ea5d84985",
-      "url": "https://pypi.org/project/pyplines/2026.9.2a7/",
-      "title": "pyplines 2026.9.2a7",
-      "content_text": "core pyplines library and sdk",
-      "date_published": "2026-09-10T20:56:40Z",
-      "date_modified": "2026-09-10T20:56:40Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/aec6908504619cd6",
+      "url": "https://pypi.org/project/bulla/0.49.3/",
+      "title": "bulla 0.49.3",
+      "content_text": "Portable ActionReceipts and receiver-side verification for consequential agent transactions",
+      "date_published": "2026-09-11T00:29:57Z",
+      "date_modified": "2026-09-11T00:29:57Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -56,12 +56,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/e3d91e8df5580b76",
-      "url": "https://pypi.org/project/pyplines-cli/2026.9.2a7/",
-      "title": "pyplines-cli 2026.9.2a7",
-      "content_text": "The official command-line interface for Pyplines",
-      "date_published": "2026-09-10T20:56:36Z",
-      "date_modified": "2026-09-10T20:56:36Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/1d1b5a9be7ba773b",
+      "url": "https://pypi.org/project/johnnybt-dsl/0.1.2/",
+      "title": "johnnybt-dsl 0.1.2",
+      "content_text": "A strategy DSL with a whole language behind it: mruby in Rust, JSON IR out.",
+      "date_published": "2026-09-11T00:29:56Z",
+      "date_modified": "2026-09-11T00:29:56Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -72,12 +72,12 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/f4fbf305db299922",
-      "url": "https://pypi.org/project/pyplines-builder/2026.9.2a7/",
-      "title": "pyplines-builder 2026.9.2a7",
-      "content_text": "Build and sign Pyplines Actions and Distributions",
-      "date_published": "2026-09-10T20:56:36Z",
-      "date_modified": "2026-09-10T20:56:36Z",
+      "id": "tag:trvny.github.io,2024:feedseek/python/a99d44eadc0cda89",
+      "url": "https://pypi.org/project/github-to-sqlite/2.9.1/",
+      "title": "github-to-sqlite 2.9.1",
+      "content_text": "Save data from GitHub to a SQLite database",
+      "date_published": "2026-09-11T00:29:21Z",
+      "date_modified": "2026-09-11T00:29:21Z",
       "authors": [
         {
           "name": "PyPI Updates"
@@ -85,6 +85,52 @@
       ],
       "tags": [
         "PyPI Updates"
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611",
+      "url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
+      "title": "Graham Dumpleton: Finding slow code with wrapture",
+      "content_text": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around",
+      "date_published": "2026-09-10T21:39:23Z",
+      "date_modified": "2026-09-10T21:39:23Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/ad9c85a2c9b3069a",
+      "url": "https://grahamdumpleton.me/posts/2026/09/opentelemetry-export-in-wrapture/",
+      "title": "Graham Dumpleton: OpenTelemetry export in wrapture",
+      "content_text": "Everything in the last four posts rendered a trace for a person to read or wrote it to a file for later. The other destination is a tracing backend, fed while the application runs, and OpenTelemetry is the one that the ecosystem has converged on. wrapture treats it as a first-class destination rather than something you bolt on: the wrapture.otel subpackage ships in every wheel, and the otel extra brings the SDK and the OTLP exporter with it. $ pip install \"wrapture[otel]\" A plain install pays no",
+      "date_published": "2026-09-10T21:39:23Z",
+      "date_modified": "2026-09-10T21:39:23Z",
+      "authors": [
+        {
+          "name": "Planet Python"
+        }
+      ],
+      "image": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
+      "tags": [
+        "Planet Python"
+      ],
+      "attachments": [
+        {
+          "url": "https://opengraph.githubassets.com/9a7d88e5/GrahamDumpleton/wrapture",
+          "mime_type": "image/jpeg"
+        }
       ]
     },
     {
@@ -221,29 +267,6 @@
       "attachments": [
         {
           "url": "https://blog.europython.eu/content/images/2026/09/ep-2.jpg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/6f8c16b836de9611",
-      "url": "https://grahamdumpleton.me/posts/2026/09/finding-slow-code-with-wrapture/",
-      "title": "Graham Dumpleton: Finding slow code with wrapture",
-      "content_text": "The /order endpoint of the Flask shop is slow. The view calls the order service, the service calls the gateway and then the ledger, and the question is which of those the time is going to. To give the question a real answer for this post I put a time.sleep(0.03) in Ledger.record , and the rest of the post pretends I did not know that. The usual move is a stopwatch. A perf_counter() before and after the service call, a log line with the difference, another pair around the gateway, another around",
-      "date_published": "2026-09-10T01:39:23Z",
-      "date_modified": "2026-09-10T01:39:23Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://opengraph.githubassets.com/add5636f/GrahamDumpleton/wrapture",
           "mime_type": "image/jpeg"
         }
       ]
@@ -1418,29 +1441,6 @@
       ]
     },
     {
-      "id": "tag:trvny.github.io,2024:feedseek/python/c52dc92d322c1c7a",
-      "url": "https://www.thepythoncodingstack.com/p/how-i-code-late-2026-version",
-      "title": "The Python Coding Stack: How I Code (Late 2026 Version)",
-      "content_text": "You open a blank .py file in your favourite IDE. You have a blank page in front of you. You start writing code. This is how it used to be. And perhaps it’s how it still is for you. This is how I wrote computer programs just over half a year ago, too. But things started changing gradually for me earlier in 2026. Last week, I ran a live course. In the first few minutes of the first live session, I opened a blank .py file in my IDE. There was nothing on my screen. Then I wrote code. Word by word. L",
-      "date_published": "2026-09-06T20:25:44Z",
-      "date_modified": "2026-09-06T20:25:44Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://substackcdn.com/image/fetch/$s_!wVbn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61bacbdb-ec15-431f-abf9-91a5f9515c74_1280x720.png",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://substackcdn.com/image/fetch/$s_!wVbn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61bacbdb-ec15-431f-abf9-91a5f9515c74_1280x720.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
       "id": "tag:trvny.github.io,2024:feedseek/python/c2a98ae98656f512",
       "url": "https://github.com/pypa/cibuildwheel/releases/tag/v4.2.1",
       "title": "v4.2.1",
@@ -1460,29 +1460,6 @@
         {
           "url": "https://avatars.githubusercontent.com/u/1244307?s=60&v=4",
           "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/python/0950e50bfcce8da3",
-      "url": "https://lucumr.pocoo.org/2026/9/5/latent-powers/",
-      "title": "Armin Ronacher: Latent Powers",
-      "content_text": "A few weeks ago I felt like it would be fun to see if I can make one of those\ncheap Chinese CarPlay dongles run something other than the stock firmware.  The\nidea was that rather than just forwarding CarPlay, why not do something more\ninteresting with them?  They all work quite similarly: they act as bridges\nbetween your car and the phone.  From there they deal with video and audio\nstreams and pass some other data through.  Most of them also bring up a custom\nUI for pairing and have a web interf",
-      "date_published": "2026-09-05T00:00:00Z",
-      "date_modified": "2026-09-05T00:00:00Z",
-      "authors": [
-        {
-          "name": "Planet Python"
-        }
-      ],
-      "image": "https://lucumr.pocoo.org/social/2026-09-05-latent-powers-social.png",
-      "tags": [
-        "Planet Python"
-      ],
-      "attachments": [
-        {
-          "url": "https://lucumr.pocoo.org/social/2026-09-05-latent-powers-social.png",
-          "mime_type": "image/png"
         }
       ]
     },
@@ -2353,6 +2330,29 @@
       "attachments": [
         {
           "url": "https://pydantic.dev/articles/three-layer-evals-logfire/og.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/python/65b6a9c11cc267c0",
+      "url": "https://peps.python.org/pep-0847/",
+      "title": "PEP 847: Problem Details for the Simple Repository API",
+      "content_text": "This PEP proposes standardizing the format of error responses returned by the simple repository API.",
+      "date_published": "2026-08-06T00:00:00Z",
+      "date_modified": "2026-08-06T00:00:00Z",
+      "authors": [
+        {
+          "name": "PEPs"
+        }
+      ],
+      "image": "https://peps.python.org/_static/og-image.png",
+      "tags": [
+        "PEPs"
+      ],
+      "attachments": [
+        {
+          "url": "https://peps.python.org/_static/og-image.png",
           "mime_type": "image/png"
         }
       ]

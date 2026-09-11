@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:10:09.118901+00:00",
+  "last_updated": "2026-09-11T00:30:11.774300+00:00",
   "entries": [
     {
       "title": "Update: Added function calling support to the Fine-tuning API",
@@ -9019,6 +9019,17 @@
       "image_width": 1200,
       "image_height": 630,
       "entry_id": "tag:trvny.github.io,2024:feedseek/openai/e1a658eb98e8c9c5"
+    },
+    {
+      "title": "Feature: You can now set expiration dates when creating project API keys.",
+      "link": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-you-can-now-set-expiration-dates",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "You can now set expiration dates when creating project API keys. Administrators can also enforce a maximum key lifetime at the organization or project level in Platform settings, requiring newly created keys to expire within the configured limit. See production best practices for guidance on key expiration and rotation.",
+      "source": "API changelog",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/openai/ba288f839b82e0dc"
     },
     {
       "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",

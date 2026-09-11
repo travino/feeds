@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://about.gitlab.com/</id>
   <title>GitLab</title>
-  <updated>2026-09-10T21:09:10.871134+00:00</updated>
+  <updated>2026-09-11T00:29:18.222174+00:00</updated>
   <author>
     <name>Various</name>
   </author>
@@ -26,6 +26,17 @@
     </media:group>
     <dc:creator>GitLab Blog</dc:creator>
     <link rel="enclosure" href="https://res.cloudinary.com/about-gitlab-com/image/upload/v1750099203/Blog/Hero%20Images/Blog/Hero%20Images/blog-image-template-1800x945%20%2820%29_2bJGC5ZP3WheoqzlLT05C5_1750099203484.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/gitlab/d90b22bbe29c1057</id>
+    <title>GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>On September 10, 2026, we released versions 19.3.2, 19.2.6, 19.1.8 for GitLab Community Edition (CE) and Enterprise Edition (EE). These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to
+one of these versions immediately. GitLab.com is already running the patched version. GitLab Dedicated customers do not need to take action. GitLab releases fixes for vulnerabilities in patch releases. There are two types of patc</content>
+    <link href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/" rel="alternate"/>
+    <category term="GitLab Patch Releases" label="GitLab Patch Releases"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <dc:creator>GitLab Patch Releases</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/gitlab/d7dd7543cd5cf77d</id>
@@ -1337,17 +1348,6 @@ one of these versions immediately. GitLab.com is already running the patched ver
     <category term="GitLab Releases" label="GitLab Releases"/>
     <published>2025-07-17T00:00:00+00:00</published>
     <dc:creator>GitLab Releases</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/gitlab/523087001796e4fd</id>
-    <title>GitLab Patch Release: 18.1.2, 18.0.4, 17.11.6</title>
-    <updated>2025-07-09T00:00:00+00:00</updated>
-    <content>On July 9, 2025, we released versions 18.1.2, 18.0.4, 17.11.6 for GitLab Community Edition (CE) and Enterprise Edition (EE). These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to
-one of these versions immediately. GitLab.com is already running the patched version. GitLab Dedicated customers do not need to take action. GitLab releases fixes for vulnerabilities in patch releases. There are two types of patch rel</content>
-    <link href="https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-1-2-released/" rel="alternate"/>
-    <category term="GitLab Patch Releases" label="GitLab Patch Releases"/>
-    <published>2025-07-09T00:00:00+00:00</published>
-    <dc:creator>GitLab Patch Releases</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/gitlab/83febbe372de51b0</id>

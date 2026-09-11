@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://www.redhat.com/en/</id>
   <title>Red Hat Enterprise</title>
-  <updated>2026-09-10T21:10:22.613784+00:00</updated>
+  <updated>2026-09-11T00:30:25.735057+00:00</updated>
   <author>
     <name>Red Hat</name>
   </author>
@@ -12,6 +12,30 @@
   <icon>https://www.redhat.com/favicon.ico</icon>
   <logo>https://www.redhat.com/favicon.ico</logo>
   <subtitle>Red Hat enterprise news, RHEL, Developer, CentOS, Research, Security, Satellite, Insights, RHSA advisories and security-data changes.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/c29603dffefc1f12</id>
+    <title>RHSA-2026:66545: Important: Red Hat AMQ Broker 7.13.6 release and security update</title>
+    <updated>2026-09-10T23:22:22+00:00</updated>
+    <content>Red Hat AMQ Broker 7.13.6 is now available from the Red Hat Customer Portal.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66545" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T23:22:22+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/redhat/bcd2be9a3e139c39</id>
+    <title>RHSA-2026:66488: Important: Red Hat AMQ Broker 7.14.1 release and security update</title>
+    <updated>2026-09-10T16:34:06+00:00</updated>
+    <content>Red Hat AMQ Broker 7.14.1 is now available from the Red Hat Customer Portal.
+
+Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
+    <link href="https://access.redhat.com/errata/RHSA-2026:66488" rel="alternate"/>
+    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
+    <published>2026-09-10T16:34:06+00:00</published>
+    <dc:creator>Red Hat Security Errata</dc:creator>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/redhat/5a94f362e4104dca</id>
     <title>RHSA-2026:66403: Moderate: coreutils security update</title>
@@ -171,30 +195,6 @@ Red Hat Product Security has rated this update as having a security impact of Im
     <link href="https://access.redhat.com/errata/RHSA-2026:66348" rel="alternate"/>
     <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
     <published>2026-09-10T09:27:09+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/229f58d7d9eb4d31</id>
-    <title>RHSA-2026:66341: Moderate: apr-util security update</title>
-    <updated>2026-09-10T09:20:59+00:00</updated>
-    <content>An update for apr-util is now available for Red Hat Enterprise Linux 9.
-
-Red Hat Product Security has rated this update as having a security impact of Moderate. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66341" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T09:20:59+00:00</published>
-    <dc:creator>Red Hat Security Errata</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/redhat/2c74a182458fad56</id>
-    <title>RHSA-2026:66349: Important: freerdp security update</title>
-    <updated>2026-09-10T09:20:24+00:00</updated>
-    <content>An update for freerdp is now available for Red Hat Enterprise Linux 10.
-
-Red Hat Product Security has rated this update as having a security impact of Important. A Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE link(s) in the References section.</content>
-    <link href="https://access.redhat.com/errata/RHSA-2026:66349" rel="alternate"/>
-    <category term="Red Hat Security Errata" label="Red Hat Security Errata"/>
-    <published>2026-09-10T09:20:24+00:00</published>
     <dc:creator>Red Hat Security Errata</dc:creator>
   </entry>
   <entry>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:10:04.449124+00:00",
+  "last_updated": "2026-09-11T00:30:05.073250+00:00",
   "entries": [
     {
       "title": "Watch videos with friends anywhere—how to social stream with browser extensions",
@@ -9115,11 +9115,30 @@
     {
       "title": "\"Sign In To Sync\" banner at top of application menu UNACCEPTABLE HOSTILE BEHAVIOUR FROM MOZILLA",
       "link": "https://connect.mozilla.org/t5/discussions/quot-sign-in-to-sync-quot-banner-at-top-of-application-menu/m-p/137919#M55949",
-      "date": "2026-09-10T20:40:19+00:00",
+      "date": "2026-09-10T22:11:22+00:00",
       "description": "Get that nonsense spam out of here. That is so in-the-way and distracting, it's literally a dark pattern. I am not giving you my data I am NOT letting my data leave MY DEVICE. If I lose everything, I lose everything, that's not the end of the world for me. But this banner is EXTREMELY ANNOYING AND A SLAP IN THE FACE. Like I said in the title, this behavior is HOSTILE AGAINST THE USER. This goes or I do. Who has replacement browser suggestions?",
       "source": "Mozilla Connect",
       "image": "https://connect.mozilla.org/t5/image/serverpage/image-id/15682i24DAC8E0BD30CFAF/image-size/large?v=v2&px=999",
       "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/736bc22b4589eae1"
+    },
+    {
+      "title": "Move MOZ_OBJDIR outside of mozilla-central to speed up your IDE",
+      "link": "https://jonalmeida.com/til/relocate-objdir-mozbuild/",
+      "date": "2026-09-10T22:57:55+00:00",
+      "description": "In mozilla-central (the firefox monorepo), a default object store directory is created within the source directory. This is equivalent to the build/ directory you would typically see in other projects.\nWhile this is typically fine, I've found that Android Studio indexes these files and we don't (yet?) have the ability to inform it to not do so because an objdir needs to be evaluated from MOZ_OBJDIR first.\nOver time, I ended up with these build directories that grew over time:\nDirectoryLast touch",
+      "source": "Planet Mozilla",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/ddfa073c60750775"
+    },
+    {
+      "title": "No sound in Firefox after latest update (audio works fine on all other system apps)",
+      "link": "https://connect.mozilla.org/t5/discussions/no-sound-in-firefox-after-latest-update-audio-works-fine-on-all/m-p/137926#M55954",
+      "date": "2026-09-10T23:06:22+00:00",
+      "description": "I am experiencing an issue where Firefox has completely lost all audio output immediately after the latest update, while all other applications and media players on my computer output sound without any problems.",
+      "source": "Mozilla Connect",
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/mozilla/159ad88049a6a3ef"
     }
   ]
 }

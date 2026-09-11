@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:09:10.950162+00:00",
+  "last_updated": "2026-09-11T00:29:18.302607+00:00",
   "entries": [
     {
       "title": "Monthly Report January 2022 - Hardware maintenance is hard!",
@@ -2167,6 +2167,16 @@
       "source": "GitLab Blog",
       "image": "https://res.cloudinary.com/about-gitlab-com/image/upload/v1759320418/xjmqcozxzt4frx0hori3.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/gitlab/d7dd7543cd5cf77d"
+    },
+    {
+      "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
+      "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "On September 10, 2026, we released versions 19.3.2, 19.2.6, 19.1.8 for GitLab Community Edition (CE) and Enterprise Edition (EE). These versions contain important bug and security fixes, and we strongly recommend that all self-managed GitLab installations be upgraded to\none of these versions immediately. GitLab.com is already running the patched version. GitLab Dedicated customers do not need to take action. GitLab releases fixes for vulnerabilities in patch releases. There are two types of patc",
+      "source": "GitLab Patch Releases",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/gitlab/d90b22bbe29c1057"
     }
   ]
 }

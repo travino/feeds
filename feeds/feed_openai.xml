@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://openai.com/openai</id>
   <title>OpenAI</title>
-  <updated>2026-09-10T21:10:09.032248+00:00</updated>
+  <updated>2026-09-11T00:30:11.684545+00:00</updated>
   <author>
     <name>OpenAI</name>
   </author>
@@ -67,6 +67,20 @@
       <media:thumbnail url="https://images.ctfassets.net/kftzwdyauwt9/1DEaAuLURNi6NKQiYOfhud/fcd14224030f0310a9a5d54ffa165f14/government-blog-seo-option-051-final-1920x1080.png?w=1600&amp;h=900&amp;fit=fill" height="900" width="1600"/>
     </media:group>
     <link rel="enclosure" href="https://images.ctfassets.net/kftzwdyauwt9/1DEaAuLURNi6NKQiYOfhud/fcd14224030f0310a9a5d54ffa165f14/government-blog-seo-option-051-final-1920x1080.png?w=1600&amp;h=900&amp;fit=fill" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/openai/ba288f839b82e0dc</id>
+    <title>Feature: You can now set expiration dates when creating project API keys.</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>You can now set expiration dates when creating project API keys. Administrators can also enforce a maximum key lifetime at the organization or project level in Platform settings, requiring newly created keys to expire within the configured limit. See production best practices for guidance on key expiration and rotation.</content>
+    <link href="https://developers.openai.com/api/docs/changelog#api-2026-09-10-you-can-now-set-expiration-dates" rel="alternate"/>
+    <category term="API changelog" label="API changelog"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://developers.openai.com/og/api/docs/changelog.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://developers.openai.com/og/api/docs/changelog.png" height="630" width="1200"/>
+    </media:group>
+    <link rel="enclosure" href="https://developers.openai.com/og/api/docs/changelog.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/openai/e1a658eb98e8c9c5</id>
@@ -2757,19 +2771,5 @@
       <media:thumbnail url="https://developers.openai.com/og/api/docs/changelog.png" height="630" width="1200"/>
     </media:group>
     <link rel="enclosure" href="https://developers.openai.com/og/api/docs/changelog.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/openai/829f4aa515a469ad</id>
-    <title>Codex CLI 0.147.0</title>
-    <updated>2026-08-07T00:00:00+00:00</updated>
-    <content>$ npm install -g @openai/codex@0.147.0 View details New Features Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. ( #36544 , #36409 , #36919 , #36796 ) Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. ( #35722 , #36007 , #36380 , #36948 , #36950 ) Enable automatically reviewed approvals with the new --approve-for-me CLI flag. ( #36373 ) Import Cursor-managed skills and synchronize </content>
-    <link href="https://learn.chatgpt.com/docs/changelog#github-release-366471016" rel="alternate"/>
-    <category term="ChatGPT changelog" label="ChatGPT changelog"/>
-    <published>2026-08-07T00:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://learn.chatgpt.com/og/docs/changelog.png" height="630" width="1200"/>
-    </media:group>
-    <link rel="enclosure" href="https://learn.chatgpt.com/og/docs/changelog.png" type="image/png" length="0"/>
   </entry>
 </feed>

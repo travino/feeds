@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blogs.microsoft.com/</id>
   <title>Microsoft</title>
-  <updated>2026-09-10T21:10:11.367090+00:00</updated>
+  <updated>2026-09-11T00:30:12.299180+00:00</updated>
   <author>
     <name>Microsoft</name>
   </author>
@@ -26,6 +26,146 @@
     </media:group>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
     <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_138/release-highlights.webp" type="image/webp" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/8b3f0f396a4506f3</id>
+    <title>AI Agent ROI Framework</title>
+    <updated>2026-09-10T22:36:02+00:00</updated>
+    <content>Introduction AI agents are rapidly becoming a core component of enterprise transformation strategies. Organizations are deploying agents to assist employees, automate business processes, improve customer experiences, accelerate decision-making, and scale operations. Yet many organizations still face a fundamental challenge. How do we prove the business value of AI agents? While innovation and experimentation are important, long-term success requires a disciplined approach to measuring outcomes, </content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-architecture-blog/ai-agent-roi-framework/ba-p/4555445" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T22:36:02+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDQ1LXZXaW9sbQ?revision=7" type="image/jpeg" medium="image" height="1024" width="1536"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDQ1LXZXaW9sbQ?revision=7" height="1024" width="1536"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDQ1LXZXaW9sbQ?revision=7" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/e7d968d88ce5dda3</id>
+    <title>Microsoft ODBC Driver 18.7.1: smaller vectors, easier configuration, and better cloud routing</title>
+    <updated>2026-09-10T22:04:20+00:00</updated>
+    <content>Microsoft ODBC Driver 18.7.1 for SQL Server is now generally available. This release continues the work we started in 18.6 to support modern application patterns while making the driver easier to deploy and operate. It adds float16 vector support, brings familiar connection-string names to ODBC, improves routing for Azure SQL Database Hyperscale, expands platform coverage, and removes a Windows installation dependency. It also includes a substantial set of reliability, security, and diagnostic f</content>
+    <link href="https://techcommunity.microsoft.com/t5/sql-server-blog/microsoft-odbc-driver-18-7-1-smaller-vectors-easier/ba-p/4555474" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T22:04:20+00:00</published>
+    <dc:creator>Tech Community</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/437450430f85f789</id>
+    <title>Refreshed repository pull requests page in public preview</title>
+    <updated>2026-09-10T21:27:17+00:00</updated>
+    <content>A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes… The post Refreshed repository pull requests page in public preview appeared first on The GitHub...</content>
+    <link href="https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T21:27:17+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/6ab86fe74fb53fd0d9cabb19d345de572029d91c180f463996c883a00abb5986-2400x1260-1.jpeg" type="image/jpeg" medium="image" height="1260" width="2400"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/6ab86fe74fb53fd0d9cabb19d345de572029d91c180f463996c883a00abb5986-2400x1260-1.jpeg" height="1260" width="2400"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/6ab86fe74fb53fd0d9cabb19d345de572029d91c180f463996c883a00abb5986-2400x1260-1.jpeg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/4aaaad58edea75e7</id>
+    <title>AI Scan for pull request APIs in public preview</title>
+    <updated>2026-09-10T20:20:58+00:00</updated>
+    <content>You can now manage GitHub code scanning’s AI Scan for pull request enablement with REST API endpoints at the organization and repository levels. This public preview gives teams a programmatic… The post AI Scan for pull request APIs in public preview appeared first on The GitHub Blog...</content>
+    <link href="https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-10T20:20:58+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/648518234-67f13b9f-d37b-45e3-816a-0700e4762f1b.png" type="image/png" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/648518234-67f13b9f-d37b-45e3-816a-0700e4762f1b.png" height="630" width="1200"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/648518234-67f13b9f-d37b-45e3-816a-0700e4762f1b.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/936a702e13fd41ee</id>
+    <title>Create multimodal applications with OpenAI models in Microsoft Foundry</title>
+    <updated>2026-09-10T20:14:28+00:00</updated>
+    <content>Imagine you are building a home design application. A customer says, “Show me a modern kitchen with dark cabinets and a large center island.” Images appear in seconds. Before the application finishes describing the design, the customer interrupts: “Make it brighter and add natural wood accents.” The application listens, adapts, updates the visuals, and continues the conversation without losing context. OpenAI’s GPT-Live-1 and GPT-image-2.5 models make this type of conversational and creative exp</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/create-multimodal-applications-with-openai-models-in-microsoft/ba-p/4543593" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T20:14:28+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNTkzLTdDNGN5aQ?revision=3" type="image/jpeg" medium="image" height="500" width="1300"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNTkzLTdDNGN5aQ?revision=3" height="500" width="1300"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQzNTkzLTdDNGN5aQ?revision=3" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/927d49d374cf5ba6</id>
+    <title>My MVP Story: Rupenkumar Anjaria on Turning Expertise into Impact</title>
+    <updated>2026-09-10T20:10:42+00:00</updated>
+    <content>There are many paths to becoming a Microsoft MVP Rupenkumar Anjaria found his through technical writing and a commitment to sharing what he learned. A decade ago, one technical training session changed what he thought was possible. The session was led by a Microsoft MVP, and the depth of knowledge and community leadership made the award feel far beyond his reach. But the experience planted a seed: technical expertise has greater impact when it is shared. That idea would shape his journey as a bl</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-mvp-program-blog/my-mvp-story-rupenkumar-anjaria-on-turning-expertise-into-impact/ba-p/4555016" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T20:10:42+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1MDE2LTFweHpKUw?revision=5" type="image/jpeg" medium="image" height="942" width="1300"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1MDE2LTFweHpKUw?revision=5" height="942" width="1300"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1MDE2LTFweHpKUw?revision=5" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/28f6067b2063b39d</id>
+    <title>Linux: ProcDump, Procmon, Sysmon; PipeList, ProcExp, ProcMon, PsTools, Sigcheck, Sysmon, and ZoomIt</title>
+    <updated>2026-09-10T19:23:55+00:00</updated>
+    <content>Linux tools ProcDump for Linux, Procmon for Linux, Sysinternals EBPF, Sysmon for Linux, have been updated with support for Amazon Linux 2023. ProcDump 3.5.3 for Linux ProcDump for Linux, a tool for capturing process dumps, is now in Rust. Procmon 2.2.2 for Linux Sysinternals EBPF 2.2.2 Sysmon 1.5.3 for Linux This update to Sysmon for Linux, a tool that monitors and logs system activity including process lifetime, network connections, file system writes, and more, adds aarch64 support. PipeList v</content>
+    <link href="https://techcommunity.microsoft.com/t5/sysinternals-blog/linux-procdump-procmon-sysmon-pipelist-procexp-procmon-pstools/ba-p/4555438" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T19:23:55+00:00</published>
+    <dc:creator>Tech Community</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/82bfb2c82b847af0</id>
+    <title>From Ad Astra to Semper Disco: Learning Chip Design with Microsoft Discovery</title>
+    <updated>2026-09-10T18:02:23+00:00</updated>
+    <content>I started my career working on satellites, specifically the checkout, launch, and operations phases. This was a wonderful start to an engineering career because it combines so many interesting fields – structures, electronics, sensors and computing, control systems, propulsion, navigation, communications, and so much more. I could not have asked for a more interesting way to start as a builder. And yet, the desire to learn more about each area has stayed with me through the years.  In particular</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-discovery-blog/from-ad-astra-to-semper-disco-learning-chip-design-with/ba-p/4554904" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T18:02:23+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTA0LXl3TkJScQ?revision=12" type="image/jpeg" medium="image" height="400" width="800"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTA0LXl3TkJScQ?revision=12" height="400" width="800"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0OTA0LXl3TkJScQ?revision=12" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/d19895f855d99388</id>
+    <title>Voice to Chat Best Practice for Call Centre Use Cases</title>
+    <updated>2026-09-10T18:00:00+00:00</updated>
+    <content>The model is the easy part Whisper stays popular for a reason its accuracy score does not show. It was pretrained on large scale multilingual data and reaches up to 99 languages, which matters more in a Jakarta contact centre than a few tenths of a percentage point. The cost is speed. Comparing only models that pair an encoder with a transformer or language model decoder, Conformer based systems run on average 3.77 times faster than Whisper based ones, at an average inverse real time factor of 7</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-foundry-blog/voice-to-chat-best-practice-for-call-centre-use-cases/ba-p/4554634" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T18:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NjM0LWdXTUNxTw?revision=4" type="image/jpeg" medium="image" height="470" width="1009"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NjM0LWdXTUNxTw?revision=4" height="470" width="1009"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NjM0LWdXTUNxTw?revision=4" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/a435a496396ce6a9</id>
+    <title>Upcoming Webinar: Starting Point - First 30 days with Viva Engage</title>
+    <updated>2026-09-10T17:56:58+00:00</updated>
+    <content>If your organization already works in Microsoft Teams, Viva Engage can feel like one more place to post. Engage gives leaders, communicators, community managers, and employees a place for conversations that need broader visibility, participation, and reuse across the organization. That is the focus of Starting Point: First 30 Days with Viva Engage , a practical webinar for customers who are new to Engage or bringing Engage communities into the flow of work in Teams. Join us for Starting Point: F</content>
+    <link href="https://techcommunity.microsoft.com/t5/viva-engage-blog/upcoming-webinar-starting-point-first-30-days-with-viva-engage/ba-p/4555422" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T17:56:58+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDIyLXdlWGFGQQ?revision=2" type="image/jpeg" medium="image" height="4480" width="6720"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDIyLXdlWGFGQQ?revision=2" height="4480" width="6720"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDIyLXdlWGFGQQ?revision=2" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/4997b35dbc97f37f</id>
@@ -58,6 +198,36 @@
     <link rel="enclosure" href="https://xboxwire.thesourcemediaassets.com/sites/2/2026/09/TGS_AnnounceStatic_2026-814e275774b1b96bd7e9.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/b23c4d005dfe637f</id>
+    <title>Partner Blog | Back at your desk? Start FY27 with the resources that matter most</title>
+    <updated>2026-09-10T17:00:00+00:00</updated>
+    <content>A new fiscal year often begins before everyone is ready. If MCAPS Start for Partners arrived while you were wrapping up July, managing customer priorities, or taking some time away, now is a good moment to reconnect. What matters most is not whether you attended live, but what you do with the FY27 guidance from MCAPS Start now that you are back at your desk. As the new Microsoft fiscal year (FY27) gets underway, partners are turning their focus to planning, customer engagement, and execution. If</content>
+    <link href="https://techcommunity.microsoft.com/t5/partner-news/partner-blog-back-at-your-desk-start-fy27-with-the-resources/ba-p/4554536" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T17:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTM2LWVSWkJGcA?revision=3" type="image/jpeg" medium="image" height="465" width="620"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTM2LWVSWkJGcA?revision=3" height="465" width="620"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTM2LWVSWkJGcA?revision=3" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/3007968a50075afd</id>
+    <title>Copilot or Copilot Cowork - Which tool to use - and When</title>
+    <updated>2026-09-10T16:57:13+00:00</updated>
+    <content>Microsoft 365 Copilot vs Copilot Cowork: Choosing the Right AI for Work As organizations expand their use of AI to improve productivity and automate business processes, understanding which tool to use—and when—is critical. Microsoft offers two complementary capabilities: Microsoft 365 Copilot and Copilot Cowork. While they both leverage AI to support work, they are designed for fundamentally different types of tasks. Two Different Models of AI Assistance Microsoft 365 Copilot is designed as a da</content>
+    <link href="https://techcommunity.microsoft.com/t5/healthcare-and-life-sciences/copilot-or-copilot-cowork-which-tool-to-use-and-when/ba-p/4555402" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T16:57:13+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDAyLVlNWG9VSQ?revision=7" type="image/jpeg" medium="image" height="454" width="1041"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDAyLVlNWG9VSQ?revision=7" height="454" width="1041"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1NDAyLVlNWG9VSQ?revision=7" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/1eb78558aa2ab96b</id>
     <title>MAI-Code-1-Flash deprecated</title>
     <updated>2026-09-10T16:54:01+00:00</updated>
@@ -87,6 +257,21 @@ imported from A...</content>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/04637d1b583e9f40</id>
+    <title>Workload Orchestration in the Azure portal is now available: Deploy in minutes, scale with ease</title>
+    <updated>2026-09-10T16:06:38+00:00</updated>
+    <content>Edge deployments rarely stay simple for long. What begins as an application running on a single Kubernetes cluster can quickly expand across stores, factories, branches, or other distributed locations, each having different configuration needs. That is exactly where workload orchestration for Azure Arc comes in. Workload orchestration helps teams manage that complexity by providing a centralized approach to consistently define, configure, and deploy applications across distributed cloud, on-prem</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-arc-blog/workload-orchestration-in-the-azure-portal-is-now-available/ba-p/4554101" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T16:06:38+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MTAxLWtxQWRtZg?revision=7" type="image/jpeg" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MTAxLWtxQWRtZg?revision=7" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MTAxLWtxQWRtZg?revision=7" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/7393efb776e4c3b2</id>
     <title>Safe Participation Framework: Opportunity and Safety for the Next Generation in the Age of AI</title>
     <updated>2026-09-10T16:00:17+00:00</updated>
@@ -100,6 +285,36 @@ imported from A...</content>
     </media:group>
     <dc:creator>Microsoft On the Issues</dc:creator>
     <link rel="enclosure" href="https://blogs.microsoft.com/wp-content/uploads/sites/5/2026/09/Safe-Participation-Framework-three-pillars-2-scaled.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/5a23e76ddfc30a44</id>
+    <title>Keep Windows activation automation working with PowerShell</title>
+    <updated>2026-09-10T16:00:00+00:00</updated>
+    <content>If your organization uses slmgr.vbs to automate Windows activation, now is the time to identify dependencies and prepare for a move to PowerShell. VBScript has been deprecated and will eventually be removed from future Windows releases, which means any automation that depends on slmgr.vbs will need to change. While you can continue with existing activation processes during the transition phase, automation that depends on slmgr.vbs should be identified, tested, and migrated before VBScript is rem</content>
+    <link href="https://techcommunity.microsoft.com/t5/windows-it-pro-blog/keep-windows-activation-automation-working-with-powershell/ba-p/4540459" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" type="image/jpeg" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDU5LTRuSWpjaw?revision=2" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/3d52fd75d8285a87</id>
+    <title>Announcing the public preview of Azure Local workload management in Azure Arc Site Manager</title>
+    <updated>2026-09-10T16:00:00+00:00</updated>
+    <content>Today, we are excited to announce the public preview of Azure Local workload management in Azure Arc Site Manager. As Azure Local deployments grow across multiple sites, operators need a simpler way to monitor and manage workloads from a centralized location. Operators with multiple Azure Local instances deployed across different locations can now view and manage virtual machines and Kubernetes clusters from a single, centralized experience. Azure Arc Site Manager addresses fleet management at s</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-arc-blog/announcing-the-public-preview-of-azure-local-workload-management/ba-p/4549703" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T16:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5NzAzLWU2dFNEeA?revision=4" type="image/jpeg" medium="image" height="789" width="1460"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5NzAzLWU2dFNEeA?revision=4" height="789" width="1460"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ5NzAzLWU2dFNEeA?revision=4" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/8be9653afffebbe5</id>
@@ -117,6 +332,21 @@ imported from A...</content>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/startups/blog/wp-content/uploads/2026/09/Welcount-Blog.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/f46dc0bb5b875523</id>
+    <title>6 Python in Excel techniques worth stealing from an Excel champion</title>
+    <updated>2026-09-10T15:45:00+00:00</updated>
+    <content>Excel has more in it than most people ever go looking for, and Python in Excel is a good example. If you associate code in Excel with VBA, this is a very different thing: Python goes straight into your worksheets with =PY or Formulas &gt; Insert Python , runs in the Microsoft cloud, and returns its result to the grid. There’s no local environment to set up, and NumPy, pandas, Matplotlib, seaborn, and statsmodels are already imported. I work on the Python in Excel team, and I wanted to see it in the</content>
+    <link href="https://techcommunity.microsoft.com/t5/microsoft-365-insider-blog/6-python-in-excel-techniques-worth-stealing-from-an-excel/ba-p/4552793" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T15:45:00+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyNzkzLWR5SmdxNw?revision=7" type="image/jpeg" medium="image" height="500" width="1300"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyNzkzLWR5SmdxNw?revision=7" height="500" width="1300"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyNzkzLWR5SmdxNw?revision=7" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/444771c851c3832c</id>
     <title>[Launched] Generally Available: Azure Copilot Troubleshooting Agent</title>
     <updated>2026-09-10T15:25:52+00:00</updated>
@@ -125,6 +355,21 @@ imported from A...</content>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-09-10T15:25:52+00:00</published>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/4a82a38903d39e47</id>
+    <title>Dell Managed PowerScale for Microsoft Azure is now generally available</title>
+    <updated>2026-09-10T15:23:53+00:00</updated>
+    <content>Organizations continue to look for practical ways to manage growing volumes of unstructured data while maintaining the performance, resiliency, and familiar filesystem capabilities their applications require. Customers with existing PowerScale environments also want options for extending those investments to Azure without taking on the work of deploying and operating the underlying infrastructure. Today, we are pleased to announce the general availability of Dell Managed PowerScale for Microsoft</content>
+    <link href="https://techcommunity.microsoft.com/t5/azure-storage-blog/dell-managed-powerscale-for-microsoft-azure-is-now-generally/ba-p/4555367" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T15:23:53+00:00</published>
+    <media:group>
+      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1MzY3LVBlMmxwRA?revision=2" type="image/jpeg" medium="image" height="769" width="1440"/>
+      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1MzY3LVBlMmxwRA?revision=2" height="769" width="1440"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU1MzY3LVBlMmxwRA?revision=2" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/61aac319f1d5a6e9</id>
@@ -157,21 +402,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://sourcecanada.thesourcemediaassets.com/2026/09/apertura-100.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/d458b9429e12c885</id>
-    <title>New in Microsoft Marketplace: Offers published July 30-August 3, 2026</title>
-    <updated>2026-09-10T13:00:00+00:00</updated>
-    <content>Learn about 314 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace AB Sales : AB Sales is an AI-powered sales and CRM solution designed for Microsoft 365 and Teams. It integrates natively with your mailbox and Teams environment and supports AI via model context protocol (MCP) to streamline sales and customer relationship management. ABC Inventory Classificat</content>
-    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-offers-published-july-30-august-3/ba-p/4540405" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-10T13:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/a55502057cfc5edf</id>
     <title>Ant Media, WeTransact, and IDECSI deliver transactable partner offers in Microsoft Marketplace</title>
     <updated>2026-09-10T13:00:00+00:00</updated>
@@ -185,6 +415,21 @@ imported from A...</content>
     </media:group>
     <dc:creator>Tech Community</dc:creator>
     <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQwNDAzLVFHVUhURg?revision=6" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/d458b9429e12c885</id>
+    <title>New in Microsoft Marketplace: Offers published July 30-August 3, 2026</title>
+    <updated>2026-09-10T13:00:00+00:00</updated>
+    <content>Learn about 314 new offers that went live in Microsoft Marketplace, a single destination to find, try, and buy cloud solutions, AI apps, and agents to meet your business needs. Get it now in our marketplace AB Sales : AB Sales is an AI-powered sales and CRM solution designed for Microsoft 365 and Teams. It integrates natively with your mailbox and Teams environment and supports AI via model context protocol (MCP) to streamline sales and customer relationship management. ABC Inventory Classificat</content>
+    <link href="https://techcommunity.microsoft.com/t5/marketplace-blog/new-in-microsoft-marketplace-offers-published-july-30-august-3/ba-p/4540405" rel="alternate"/>
+    <category term="Tech Community" label="Tech Community"/>
+    <published>2026-09-10T13:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png"/>
+    </media:group>
+    <dc:creator>Tech Community</dc:creator>
+    <link rel="enclosure" href="https://catalogartifact.azureedge.net/publicartifacts/receiptroller.ab_sales-8eefeb3f-4e71-4fe3-adb9-30e71c511e93/image1_300300.png" type="image/png" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/4ea819380f5b99ac</id>
@@ -432,21 +677,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/648090600-a0692d21-b918-4dda-9939-c337fdf3f41f.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/21be95ff0214ed04</id>
-    <title>Visual Studio Code 1.137</title>
-    <updated>2026-09-09T17:00:00+00:00</updated>
-    <content>Learn what's new in Visual Studio Code 1.137...</content>
-    <link href="https://code.visualstudio.com/updates/v1_137" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-09T17:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" medium="image"/>
-      <media:thumbnail url="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-    <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/78baecd8f7ab52b3</id>
     <title>September update: What’s new in Security for partners</title>
     <updated>2026-09-09T17:00:00+00:00</updated>
@@ -460,6 +690,21 @@ imported from A...</content>
     </media:group>
     <dc:creator>Tech Community</dc:creator>
     <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTMyLVF3Z2NkMA?revision=1" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/21be95ff0214ed04</id>
+    <title>Visual Studio Code 1.137</title>
+    <updated>2026-09-09T17:00:00+00:00</updated>
+    <content>Learn what's new in Visual Studio Code 1.137...</content>
+    <link href="https://code.visualstudio.com/updates/v1_137" rel="alternate"/>
+    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
+    <published>2026-09-09T17:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" medium="image"/>
+      <media:thumbnail url="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
+    <link rel="enclosure" href="https://code.visualstudio.com/assets/updates/1_137/release-highlights.webp" type="image/webp" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/bde7339775a8c50a</id>
@@ -552,21 +797,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://media.licdn.com/dms/image/v2/D4E22AQFGLOQsfqXPEg/feedshare-shrink_800/B4EaCG0ho7JMAc-/0/1788968311915?e=2147483647&amp;v=beta&amp;t=xyS87IQ2OIiLL7hpZsGG1eoZSPjSkFr5zcbVLftSpBE" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/5707e5149d23ffea</id>
-    <title>Build an AI-assisted support email workflow with Power Automate and Microsoft Foundry</title>
-    <updated>2026-09-09T15:28:16+00:00</updated>
-    <content>Difficulty: Intermediate A support email arrives with a product name, an error code, and a country. Before anyone can help, someone has to interpret the request, find the right team, record the case, and decide what to tell the customer. In this tutorial, you build that support email workflow with Microsoft 365, Power Automate, Azure Functions, and Microsoft Foundry. AI extracts the request details and recommends a support team. The flow checks the recommendation against a SharePoint catalog, as</content>
-    <link href="https://techcommunity.microsoft.com/t5/microsoft-developer-community/build-an-ai-assisted-support-email-workflow-with-power-automate/ba-p/4554297" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-09T15:28:16+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0Mjk3LTRGY2F2MA?revision=68" type="image/jpeg" medium="image" height="1350" width="2400"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0Mjk3LTRGY2F2MA?revision=68" height="1350" width="2400"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0Mjk3LTRGY2F2MA?revision=68" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/e434a81638c0e0cc</id>
     <title>Protecting students in the age of AI: A new school standard</title>
     <updated>2026-09-09T15:02:52+00:00</updated>
@@ -580,21 +810,6 @@ imported from A...</content>
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://news.microsoft.com/source/wp-content/uploads/2022/10/cropped-Microsoft_logo.svg_-300x300-1-128x120.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/0984c7c172c44804</id>
-    <title>Azure Copilot announces general availability of the Troubleshooting Agent</title>
-    <updated>2026-09-09T15:00:00+00:00</updated>
-    <content>Cloud operations are most effective when teams can turn insights into understanding and understanding into action. Whether you’re deploying new services, troubleshooting an issue, assessing resource health, or managing change, you need operational intelligence that helps you make faster, more informed decisions and continuously improve your environment. This is the promise of agentic cloud operations, a new operating model that uses AI powered agents equipped with deep contextual understanding a</content>
-    <link href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-copilot-announces-general-availability-of-the/ba-p/4554549" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-09T15:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTQ5LTFlNzVEVA?revision=1" type="image/jpeg" medium="image" height="3085" width="5484"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTQ5LTFlNzVEVA?revision=1" height="3085" width="5484"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTQ5LTFlNzVEVA?revision=1" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/377bfe454379ffb2</id>
@@ -612,16 +827,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/644885218-524436f1-3158-472b-aeb2-ea79252754e3.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/67f86c39e6c8ddfb</id>
-    <title>SQL Data Sync – the final phase of retirement</title>
-    <updated>2026-09-09T10:38:14+00:00</updated>
-    <content>SQL Data Sync has served customers well for many years, and we recognize that many teams rely on it. As operational, security, and compliance requirements have continued to evolve, we are progressing through the previously announced retirement in a way that gives customers time and guidance to transition. In 2024, we announced that SQL Data Sync will retire on September 30, 2027 . As we enter the final year before retirement, we are moving to the next phase to help customers avoid new dependenci</content>
-    <link href="https://techcommunity.microsoft.com/t5/azure-sql-blog/sql-data-sync-the-final-phase-of-retirement/ba-p/4554796" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-09T10:38:14+00:00</published>
-    <dc:creator>Tech Community</dc:creator>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/5d268713dd7d54c7</id>
     <title>Your work might not need the smartest model</title>
     <updated>2026-09-09T09:14:04+00:00</updated>
@@ -635,26 +840,6 @@ imported from A...</content>
     </media:group>
     <dc:creator>Microsoft DevBlogs</dc:creator>
     <link rel="enclosure" href="https://devblogs.microsoft.com/wp-content/uploads/2026/09/your-work-might-not-need-the-smartest-model.webp" type="image/webp" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/37edea1f64a6ea58</id>
-    <title>Security Update for SQL Server 2025 RTM CU8</title>
-    <updated>2026-09-09T04:28:40+00:00</updated>
-    <content>The Security Update for SQL Server 2025 RTM CU8 is now available for download at the Microsoft Download Center and Microsoft Update Catalog sites. This package cumulatively includes all previous security fixes for SQL Server 2025 RTM CUs, plus it includes the new security fixes detailed in the KB Article. Security Bulletins: CVE-2026-67378 - Security Update Guide - Microsoft - Microsoft SQL Server Denial of Service Vulnerability Security Update of SQL Server 2025 RTM CU8 KB Article: KB5122769 Mi</content>
-    <link href="https://techcommunity.microsoft.com/t5/sql-server-blog/security-update-for-sql-server-2025-rtm-cu8/ba-p/4554571" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-09T04:28:40+00:00</published>
-    <dc:creator>Tech Community</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/f4307ce2fd67876d</id>
-    <title>Security Update for SQL Server 2022 RTM CU26</title>
-    <updated>2026-09-09T04:27:47+00:00</updated>
-    <content>The Security Update for SQL Server 2022 RTM CU26 is now available for download at the Microsoft Download Center and Microsoft Update Catalog sites. This package cumulatively includes all previous security fixes for SQL Server 2022 RTM CUs, plus it includes the new security fixes detailed in the KB Article. Security Bulletins: CVE-2026-67378 - Security Update Guide - Microsoft - Microsoft SQL Server Denial of Service Vulnerability Security Update of SQL Server 2022 RTM CU26 KB Article: KB5122768 </content>
-    <link href="https://techcommunity.microsoft.com/t5/sql-server-blog/security-update-for-sql-server-2022-rtm-cu26/ba-p/4554572" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-09T04:27:47+00:00</published>
-    <dc:creator>Tech Community</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/57f248685be7d56c</id>
@@ -672,36 +857,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/968578cd56362571</id>
-    <title>Upcoming September 2026 Microsoft 365 Champion community call</title>
-    <updated>2026-09-08T23:32:53+00:00</updated>
-    <content>Join our monthly calls to learn more about driving user enablement of Microsoft 365 services. All are welcome. Our next call is September 22, 2026, where we'll explore the OneDrive in mobile experience. Please note that our community calls are in the Teams webinar format, so you must register to receive the link to join. The join link will be sent to you in email with your webinar registration confirmation. The calls start at 5 minutes past the hour for both sessions (at 8:05 AM and 5:05 PM PT) </content>
-    <link href="https://techcommunity.microsoft.com/t5/driving-adoption-blog/upcoming-september-2026-microsoft-365-champion-community-call/ba-p/4554558" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T23:32:53+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTU4LVFPc3F3WA?revision=1" type="image/jpeg" medium="image" height="775" width="1254"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTU4LVFPc3F3WA?revision=1" height="775" width="1254"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTU4LVFPc3F3WA?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/6b8530e79c99010c</id>
-    <title>Choosing two-zone and three-zone patterns for zone-resilient Azure workloads</title>
-    <updated>2026-09-08T23:02:54+00:00</updated>
-    <content>Purpose This article helps customers evaluate Azure workload components and choose zone-resilient patterns that meet their requirements during a single-zone failure. The goal is to identify where two zones can meet workload requirements, where three zones are required, and where service-managed zone redundancy is the right approach. If you'd like to understand why zone resilience matters and how these patterns fit into Azure's broader reliability story, start with the companion overview on the A</content>
-    <link href="https://techcommunity.microsoft.com/t5/reliability-and-resiliency-in/choosing-two-zone-and-three-zone-patterns-for-zone-resilient/ba-p/4554527" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T23:02:54+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTI3LTNjRm1GNQ?revision=10" type="image/jpeg" medium="image" height="2160" width="3840"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTI3LTNjRm1GNQ?revision=10" height="2160" width="3840"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NTI3LTNjRm1GNQ?revision=10" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/12ebab8cc50337cb</id>
     <title>Helping families and educators support safer experiences on Windows</title>
     <updated>2026-09-08T22:54:29+00:00</updated>
@@ -715,21 +870,6 @@ imported from A...</content>
     </media:group>
     <dc:creator>Microsoft Source</dc:creator>
     <link rel="enclosure" href="https://blogs.windows.com/wp-content/uploads/sites/2/2026/09/Windows-FY25-Gamer-LifestylePhotography-3246-RGB.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/3798887731cbb812</id>
-    <title>How Azure uses AI to turn feedback into improved customer experiences</title>
-    <updated>2026-09-08T22:51:21+00:00</updated>
-    <content>The Challenge: Synthesizing fragmented feedback signals, to improve Azure's experience quality at scale Customers experience products and services end to end, but product experiences are often structured around individual service. One team may only know its top issues, while another may see only its own slice of experience.  That structure makes it difficult to identify cross-cutting friction across the broader product experience. The feedback signals themselves are also fragmented. Customers sh</content>
-    <link href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/how-azure-uses-ai-to-turn-feedback-into-improved-customer/ba-p/4552810" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T22:51:21+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyODEwLUtDMkFpbA?revision=5" type="image/jpeg" medium="image" height="1153" width="2956"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyODEwLUtDMkFpbA?revision=5" height="1153" width="2956"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTUyODEwLUtDMkFpbA?revision=5" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/c5201349f1b377e1</id>
@@ -762,81 +902,6 @@ imported from A...</content>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-cloud/blog/wp-content/uploads/2026/09/MDASH-concept-4.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/7dfdbd035c5e8ce5</id>
-    <title>Released: September 2026 Exchange Server Security Updates</title>
-    <updated>2026-09-08T20:40:02+00:00</updated>
-    <content>Microsoft has released Security Updates (SUs) for vulnerabilities found in: Exchange Server Subscription Edition (SE) Exchange Server 2019 Exchange Server 2016 SUs are available for the following specific versions of Exchange Server: Exchange SE RTM Exchange Server 2019 CU14 and CU15 (to access, organization must be enrolled into the Period 2 ESU program ) Exchange Server 2016 CU23 (to access, organization must be enrolled into the Period 2 ESU program ) The September 2026 SUs address vulnerabil</content>
-    <link href="https://techcommunity.microsoft.com/t5/exchange-team-blog/released-september-2026-exchange-server-security-updates/ba-p/4554411" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T20:40:02+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDExLWZ6VnVsVw?revision=5" type="image/jpeg" medium="image" height="214" width="370"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDExLWZ6VnVsVw?revision=5" height="214" width="370"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDExLWZ6VnVsVw?revision=5" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/f0725f5ae0064f92</id>
-    <title>Azure SQL DB HS Data Load Using Microsoft JDBC Driver Instead of Apache Spark Connector for SQL</title>
-    <updated>2026-09-08T19:59:27+00:00</updated>
-    <content>Introduction Migration from heterogeneous database platforms such as Db2, Oracle, and Sybase to Microsoft SQL platforms has been a common modernization pattern for many years. For large-volume data migrations, customers commonly extract data from the source database in Parquet format, securely transfer it to Azure Storage using SFTP, and subsequently ingest it into Azure SQL Database Hyperscale. Data load from Azure Data Lake Storage (ADLS) Parquet files to Azure SQL Database Hyperscale can be d</content>
-    <link href="https://techcommunity.microsoft.com/t5/modernization-best-practices-and/azure-sql-db-hs-data-load-using-microsoft-jdbc-driver-instead-of/ba-p/4544086" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T19:59:27+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ0MDg2LTJUUmNvbg?revision=23" type="image/jpeg" medium="image" height="751" width="1536"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ0MDg2LTJUUmNvbg?revision=23" height="751" width="1536"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTQ0MDg2LTJUUmNvbg?revision=23" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/61f8d5a232397864</id>
-    <title>What's new on the AMC – August 2026</title>
-    <updated>2026-09-08T19:23:20+00:00</updated>
-    <content>August was a busy month across adoption.microsoft.com (AMC), bringing new resources, expanded skilling opportunities, fresh customer stories, and several new page launches designed to help organizations accelerate adoption, upskill employees, and maximize their Microsoft investments. From the launch of the new Digital Accelerator experience to expanded AI agent resources, Microsoft Teams content, and community-focused updates, here's a look at what's new this month. August highlights at-a-glance</content>
-    <link href="https://techcommunity.microsoft.com/t5/driving-adoption-blog/what-s-new-on-the-amc-august-2026/ba-p/4554485" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T19:23:20+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDg1LWZSSlhRVw?revision=1" type="image/jpeg" medium="image" height="1161" width="2692"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDg1LWZSSlhRVw?revision=1" height="1161" width="2692"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDg1LWZSSlhRVw?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/3949875f9c10a9fd</id>
-    <title>Scaling Industrial AI at the Edge with Helin and Azure IoT</title>
-    <updated>2026-09-08T19:04:17+00:00</updated>
-    <content>Remote industrial sites generate operational data continuously, but the ability to act on that data in near real time can be challenging. Bandwidth is often limited; connectivity is inconsistent, and the analysis needed to turn raw signals into insight typically depends on cloud connection. When worker safety is on the line, that gap matters even more, since a person entering a hazardous zone has to be detected and flagged on site independent of a cloud connection. Meeting those conditions calls</content>
-    <link href="https://techcommunity.microsoft.com/t5/internet-of-things-blog/scaling-industrial-ai-at-the-edge-with-helin-and-azure-iot/ba-p/4554474" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T19:04:17+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDc0LUpBTlp1Qg?revision=2" type="image/jpeg" medium="image" height="886" width="1774"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDc0LUpBTlp1Qg?revision=2" height="886" width="1774"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDc0LUpBTlp1Qg?revision=2" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/4190a03f2df1c86d</id>
-    <title>Title Plan Update - September 8, 2026</title>
-    <updated>2026-09-08T18:43:17+00:00</updated>
-    <content>📁 September 8, 2026 - Title Plan Now Available Access the latest Instructor-Led Training (ILT) updates anytime at http://aka.ms/Courseware_Title_Plan to ensure you're always working from the most current version. 📌 Reminder: To help you stay informed more quickly and consistently, we’ve moved to a weekly publishing cadence for the title plan. This means each update may include fewer changes but ensures you’re always up to date.</content>
-    <link href="https://techcommunity.microsoft.com/t5/ilt-communications-blog/title-plan-update-september-8-2026/ba-p/4554476" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T18:43:17+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDc2LWpWaUtnUg?revision=1" type="image/jpeg" medium="image" height="418" width="750"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDc2LWpWaUtnUg?revision=1" height="418" width="750"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDc2LWpWaUtnUg?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/729bb6de741d4036</id>
     <title>[Launched] Generally Available: Playwright Workspaces in Australia East, Japan East, and Switzerland North</title>
     <updated>2026-09-08T17:35:32+00:00</updated>
@@ -845,36 +910,6 @@ imported from A...</content>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-09-08T17:35:32+00:00</published>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/aa1435f9f044d3fe</id>
-    <title>Released: September 2026 Skype for Business Server Security Updates</title>
-    <updated>2026-09-08T17:30:02+00:00</updated>
-    <content>Microsoft has released Security Updates (SUs) for vulnerabilities found in: Skype for Business Server Subscription Edition (SE) Skype for Business Server 2019 Skype for Business Server 2015 SUs are available for the following specific versions of Skype for Business Server: Skype for Business SE CU1 Security Update 1 Skype for Business Server 2019 CU8 Security Update 3 (to access, organization must purchase Extended Security Update (ESU)) Skype for Business Server 2015 CU13 Security Update 3 (to </content>
-    <link href="https://techcommunity.microsoft.com/t5/skype-for-business-blog/released-september-2026-skype-for-business-server-security/ba-p/4554459" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T17:30:02+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDU5LWY4WjZKQw?revision=1" type="image/jpeg" medium="image" height="214" width="370"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDU5LWY4WjZKQw?revision=1" height="214" width="370"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0NDU5LWY4WjZKQw?revision=1" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/d1686e6e25f5e057</id>
-    <title>Wiring Azure DevOps Pipeline Templates Without the Parameter Sprawl: The Manifest Facade Pattern</title>
-    <updated>2026-09-08T17:28:12+00:00</updated>
-    <content>Where reusable pipelines start to hurt Who this is for: Platform and DevOps engineers who build shared Azure DevOps Pipeline Templates and want other teams to adopt them consistently. If you have ever built a set of shared Azure DevOps Pipeline Templates, you probably know how this goes. You write a whole library of clean, well-factored templates: provisioning infrastructure, deploying apps, scanning, promotion, and more. Each one is tidy on its own. Then the first team tries to actually use the</content>
-    <link href="https://techcommunity.microsoft.com/t5/apps-on-azure-blog/wiring-azure-devops-pipeline-templates-without-the-parameter/ba-p/4554182" rel="alternate"/>
-    <category term="Tech Community" label="Tech Community"/>
-    <published>2026-09-08T17:28:12+00:00</published>
-    <media:group>
-      <media:content url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MTgyLU8wNkpvcw?revision=6" type="image/jpeg" medium="image" height="1260" width="2400"/>
-      <media:thumbnail url="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MTgyLU8wNkpvcw?revision=6" height="1260" width="2400"/>
-    </media:group>
-    <dc:creator>Tech Community</dc:creator>
-    <link rel="enclosure" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS00NTU0MTgyLU8wNkpvcw?revision=6" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/2e6b88059b35bbe3</id>
@@ -1347,26 +1382,6 @@ targeted po...</content>
     <link href="https://azure.microsoft.com/updates?id=570090" rel="alternate"/>
     <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
     <published>2026-09-01T22:31:50+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/be8b2637de8a73d8</id>
-    <title>[Launched] Generally Available: Artifact Streaming on AKS</title>
-    <updated>2026-09-01T22:30:59+00:00</updated>
-    <content>You can now accelerate your containerized workloads on Azure Kubernetes Service (AKS) using Azure Container Registry (ACR) with Artifact streaming. Artifact streaming will allow you to scale your workloads without having to fully wait for images to be pul...</content>
-    <link href="https://azure.microsoft.com/updates?id=570095" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T22:30:59+00:00</published>
-    <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/1d19be885d1f190d</id>
-    <title>[Launched] Generally Available: Confidential VMs for Azure Linux</title>
-    <updated>2026-09-01T22:30:18+00:00</updated>
-    <content>Confidential Virtual Machines (CVM) offer strong security and confidentiality for tenants. CVM for Azure Linux in AKS is now generally available and enables node pools with CVM to target the migration of highly sensitive container workloads to AKS without...</content>
-    <link href="https://azure.microsoft.com/updates?id=570100" rel="alternate"/>
-    <category term="Microsoft 365 Developer Changelog" label="Microsoft 365 Developer Changelog"/>
-    <published>2026-09-01T22:30:18+00:00</published>
     <dc:creator>Microsoft 365 Developer Changelog</dc:creator>
   </entry>
   <entry>
@@ -3945,21 +3960,6 @@ targeted po...</content>
     <link rel="enclosure" href="https://blogs.microsoft.com/wp-content/uploads/2026/05/OMB-WTI-Hero-4_28_26-1024x576.png" type="image/png" length="0"/>
   </entry>
   <entry>
-    <id>tag:trvny.github.io,2024:feedseek/microsoft/bcb99be1c6535739</id>
-    <title>Copilot Cowork: From conversation to action across skills, integrations, and devices</title>
-    <updated>2026-05-05T10:00:00+00:00</updated>
-    <content>Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .</content>
-    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/" rel="alternate"/>
-    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
-    <published>2026-05-05T10:00:00+00:00</published>
-    <media:group>
-      <media:content url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" type="image/jpeg" medium="image" height="1080" width="1920"/>
-      <media:thumbnail url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" height="1080" width="1920"/>
-    </media:group>
-    <dc:creator>Microsoft 365 Blog</dc:creator>
-    <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/5d29acafd0296a2a</id>
     <title>Microsoft 365 Copilot, human agency, and the opportunity for every organization</title>
     <updated>2026-05-05T10:00:00+00:00</updated>
@@ -3973,6 +3973,21 @@ targeted po...</content>
     </media:group>
     <dc:creator>Microsoft 365 Blog</dc:creator>
     <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Copilot_M365_Illustration_3840-x-2160-scaled.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/microsoft/bcb99be1c6535739</id>
+    <title>Copilot Cowork: From conversation to action across skills, integrations, and devices</title>
+    <updated>2026-05-05T10:00:00+00:00</updated>
+    <content>Today, we’re announcing additional capabilities in Cowork to expand on what it can make possible for you. The post Copilot Cowork: From conversation to action across skills, integrations, and devices appeared first on Microsoft 365 Blog .</content>
+    <link href="https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/" rel="alternate"/>
+    <category term="Microsoft 365 Blog" label="Microsoft 365 Blog"/>
+    <published>2026-05-05T10:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" type="image/jpeg" medium="image" height="1080" width="1920"/>
+      <media:thumbnail url="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" height="1080" width="1920"/>
+    </media:group>
+    <dc:creator>Microsoft 365 Blog</dc:creator>
+    <link rel="enclosure" href="https://www.microsoft.com/en-us/microsoft-365/blog/wp-content/uploads/sites/2/2026/05/Dynamics-365_Copilot-Cowork.jpg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/microsoft/70d0a2dbdaf8e411</id>

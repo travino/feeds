@@ -80,6 +80,24 @@
       ]
     },
     {
+      "id": "tag:trvny.github.io,2024:feedseek/openai/ba288f839b82e0dc",
+      "url": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-you-can-now-set-expiration-dates",
+      "title": "Feature: You can now set expiration dates when creating project API keys.",
+      "content_text": "You can now set expiration dates when creating project API keys. Administrators can also enforce a maximum key lifetime at the organization or project level in Platform settings, requiring newly created keys to expire within the configured limit. See production best practices for guidance on key expiration and rotation.",
+      "date_published": "2026-09-10T00:00:00Z",
+      "date_modified": "2026-09-10T00:00:00Z",
+      "image": "https://developers.openai.com/og/api/docs/changelog.png",
+      "tags": [
+        "API changelog"
+      ],
+      "attachments": [
+        {
+          "url": "https://developers.openai.com/og/api/docs/changelog.png",
+          "mime_type": "image/png"
+        }
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/openai/e1a658eb98e8c9c5",
       "url": "https://developers.openai.com/api/docs/changelog#api-2026-09-10-gpt-live-1-is-now-generally-available",
       "title": "Feature: GPT-Live 1 is now generally available in the API.",
@@ -3529,24 +3547,6 @@
       "attachments": [
         {
           "url": "https://developers.openai.com/og/api/docs/changelog.png",
-          "mime_type": "image/png"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/openai/829f4aa515a469ad",
-      "url": "https://learn.chatgpt.com/docs/changelog#github-release-366471016",
-      "title": "Codex CLI 0.147.0",
-      "content_text": "$ npm install -g @openai/codex@0.147.0 View details New Features Install portable Agent Plugins and search across local, personal, workspace, and remote plugin catalogs. ( #36544 , #36409 , #36919 , #36796 ) Organize conversations into persistent, manually ordered sections and browse long transcripts incrementally. ( #35722 , #36007 , #36380 , #36948 , #36950 ) Enable automatically reviewed approvals with the new --approve-for-me CLI flag. ( #36373 ) Import Cursor-managed skills and synchronize",
-      "date_published": "2026-08-07T00:00:00Z",
-      "date_modified": "2026-08-07T00:00:00Z",
-      "image": "https://learn.chatgpt.com/og/docs/changelog.png",
-      "tags": [
-        "ChatGPT changelog"
-      ],
-      "attachments": [
-        {
-          "url": "https://learn.chatgpt.com/og/docs/changelog.png",
           "mime_type": "image/png"
         }
       ]

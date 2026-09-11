@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://github.blog/</id>
   <title>GitHub</title>
-  <updated>2026-09-10T21:09:12.533275+00:00</updated>
+  <updated>2026-09-11T00:29:20.644112+00:00</updated>
   <author>
     <name>GitHub</name>
   </author>
@@ -12,6 +12,36 @@
   <icon>https://github.blog/favicon.ico</icon>
   <logo>https://github.blog/favicon.ico</logo>
   <subtitle>Combined GitHub feed: GitHub blogs and changelogs, GitHub Status, Mergify, BeeWare News, Komi Store, the Git tooling ecosystem, Track Awesome List and deduplicated GitHub trending streams.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/aa97fe2ce391c75b</id>
+    <title>GitHub Copilot app for Beginners: Using the diff, terminal, and browser</title>
+    <updated>2026-09-10T21:31:19+00:00</updated>
+    <content>Checking agent-generated code usually means hopping between tabs. Learn how to view diffs, run terminal commands, and preview web apps side by side in the GitHub Copilot app. The post GitHub Copilot app for Beginners: Using the diff, terminal, and browser appeared first on The GitHub Blog .</content>
+    <link href="https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser/" rel="alternate"/>
+    <category term="GitHub AI &amp; ML" label="GitHub AI &amp; ML"/>
+    <published>2026-09-10T21:31:19+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-3.23.34-PM.png" type="image/png" medium="image" height="684" width="1222"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-3.23.34-PM.png" height="684" width="1222"/>
+    </media:group>
+    <dc:creator>GitHub AI &amp; ML</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/Screenshot-2026-09-09-at-3.23.34-PM.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/github/437450430f85f789</id>
+    <title>Refreshed repository pull requests page in public preview</title>
+    <updated>2026-09-10T21:27:17+00:00</updated>
+    <content>A refreshed repository-level pull request listing page is now in public preview for all GitHub users. It brings powerful filtering, compact presentation mode, and more. Highlights The new page makes… The post Refreshed repository pull requests page in public preview appeared first on The GitHub Blog .</content>
+    <link href="https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview" rel="alternate"/>
+    <category term="GitHub Changelog" label="GitHub Changelog"/>
+    <published>2026-09-10T21:27:17+00:00</published>
+    <media:group>
+      <media:content url="https://github.blog/wp-content/uploads/2026/09/6ab86fe74fb53fd0d9cabb19d345de572029d91c180f463996c883a00abb5986-2400x1260-1.jpeg" type="image/jpeg" medium="image" height="1260" width="2400"/>
+      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/6ab86fe74fb53fd0d9cabb19d345de572029d91c180f463996c883a00abb5986-2400x1260-1.jpeg" height="1260" width="2400"/>
+    </media:group>
+    <dc:creator>GitHub Changelog</dc:creator>
+    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/6ab86fe74fb53fd0d9cabb19d345de572029d91c180f463996c883a00abb5986-2400x1260-1.jpeg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/4aaaad58edea75e7</id>
     <title>AI Scan for pull request APIs in public preview</title>
@@ -1281,21 +1311,6 @@
     </media:group>
     <dc:creator>GitKraken</dc:creator>
     <link rel="enclosure" href="https://gitkraken.com/wp-content/uploads/2026/09/Screenshot-2026-09-01-at-10.49.33 AM-1024x577.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/6e538dcb790480be</id>
-    <title>Block users from discussion comments in personal repositories</title>
-    <updated>2026-09-01T16:30:01+00:00</updated>
-    <content>You can now block or unblock users directly from discussion comments in repositories owned by personal GitHub accounts, extending the in-context blocking controls already available for issue and pull request… The post Block users from discussion comments in personal repositories appeared first on The GitHub Blog .</content>
-    <link href="https://github.blog/changelog/2026-09-01-block-users-from-discussion-comments-in-personal-repositories" rel="alternate"/>
-    <category term="GitHub Changelog" label="GitHub Changelog"/>
-    <published>2026-09-01T16:30:01+00:00</published>
-    <media:group>
-      <media:content url="https://github.blog/wp-content/uploads/2026/09/JPEG-image-2.jpeg" type="image/jpeg" medium="image" height="630" width="1200"/>
-      <media:thumbnail url="https://github.blog/wp-content/uploads/2026/09/JPEG-image-2.jpeg" height="630" width="1200"/>
-    </media:group>
-    <dc:creator>GitHub Changelog</dc:creator>
-    <link rel="enclosure" href="https://github.blog/wp-content/uploads/2026/09/JPEG-image-2.jpeg" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/4513d1a8ffe5d071</id>
@@ -3975,16 +3990,6 @@ https://git-annex.branchable.com/tips/how_to_make_a_s</content>
     </media:group>
     <dc:creator>HelloGitHub</dc:creator>
     <link rel="enclosure" href="https://img.hellogithub.com/logo/meta.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/github/63931217a1dae4aa</id>
-    <title>Merge queues use an automatic checks timeout by default</title>
-    <updated>2026-06-29T00:00:00+00:00</updated>
-    <content>Merge queues now default to an automatically computed checks timeout based on each queue's recent CI runtime.</content>
-    <link href="https://docs.mergify.com/changelog/2026-06-29-merge-queues-use-an-automatic-checks-timeout-by-default/" rel="alternate"/>
-    <category term="Mergify Changelog" label="Mergify Changelog"/>
-    <published>2026-06-29T00:00:00+00:00</published>
-    <dc:creator>Mergify Changelog</dc:creator>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/github/94265633e7c0b579</id>

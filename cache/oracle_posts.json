@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:10:18.333137+00:00",
+  "last_updated": "2026-09-11T00:30:22.283459+00:00",
   "entries": [
     {
       "title": "Meet me in the Metaverse: How CSPs can become the backbone of the next global information infrastructure",
@@ -3889,6 +3889,24 @@
       "source": "Oracle Cloud Infrastructure",
       "image": "https://blogs.oracle.com/cloud-infrastructure/wp-content/uploads/sites/83/2026/09/ocicache-crr-featureimage.png",
       "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/b1d5c7abd9bd8699"
+    },
+    {
+      "title": "Sql Developer 26.2 connected to ADB 26ai Lakehouse cannot see data for case sensitive tables in table browser",
+      "link": "https://forums.oracle.com/ords/apexds/post/sql-developer-26-2-connected-to-adb-26ai-lakehouse-cannot-s-5563",
+      "date": "2026-09-10T21:34:49.273506+00:00",
+      "description": "In SQL Developer 26.2 connected to an ADB Lakehouse 26ai: no data grid for case sensitive tables. Behavior : In browser, can see case sensitive tables created by ADB Data transforms based on Fusion BICC extracts When opening table browser for case sensitive tables (\"MixedCase.TableName.With.Periods.In.Name\") can see case sensitive : columns, constraints, indexes, SQL (generate DDL), dependencies when clicking on Data tab : nothing is displayed \"Messages - Log\" shows: ORA-01742: comment not termi",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/8XchFSZkjz8qO4p8uxTZOqA0LbZbAcrp1MON3Ph8P79VRQLjAIsR8S0ieDkLokBl/n/axciphqpnohg/b/forums-prod-www/o/attachments/ehTadcwR-2108-qpjoFRIE",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/09e814d2348c3cd4"
+    },
+    {
+      "title": "purchase order closing process",
+      "link": "https://forums.oracle.com/ords/apexds/post/purchase-order-closing-process-3614",
+      "date": "2026-09-10T23:33:49.694513+00:00",
+      "description": "I have a purchase order that was fully received and manually fully invoiced. However, the purchase order status changed to \"Closed\" only after the invoice was validated; is that correct? The client expects the purchase order to switch to \"Closed\" as soon as it is invoiced, without needing to validate the invoice.",
+      "source": "Oracle Developer Community",
+      "image": "https://objectstorage.us-phoenix-1.oraclecloud.com/p/usZakwxzsyewMRwrzramy7IpDhL0NnhNKqIsS4oCJQZlZGXvq0UNqBQXLk6rcQI4/n/axciphqpnohg/b/forums-prod-app/o/300000/static/domain/devforum.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/oracle/13c5505f39ec1a89"
     }
   ]
 }

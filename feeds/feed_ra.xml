@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://ra.co/ra</id>
   <title>RA: Resident Advisor Magazine</title>
-  <updated>2026-09-10T21:10:20.895508+00:00</updated>
+  <updated>2026-09-11T00:30:24.505605+00:00</updated>
   <author>
     <name>Resident Advisor</name>
   </author>
@@ -12,6 +12,34 @@
   <icon>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=64</icon>
   <logo>https://www.google.com/s2/favicons?domain=ra.co&amp;sz=256</logo>
   <subtitle>News, features, reviews and podcasts from RA</subtitle>
+  <entry>
+    <id>https://ra.co/news/85876</id>
+    <title>Mix Of The Day: Lyo XS</title>
+    <updated>2026-09-11T00:29:09.500812+00:00</updated>
+    <content>Moving bass weight.</content>
+    <link href="https://ra.co/news/85876" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-11T00:29:09.500812+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-26-aug-2026-01-15-pm-2224.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-26-aug-2026-01-15-pm-2224.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-26-aug-2026-01-15-pm-2224.jpg" type="image/jpeg" length="0"/>
+  </entry>
+  <entry>
+    <id>https://ra.co/news/85695</id>
+    <title>Mix Of The Day: Pette</title>
+    <updated>2026-09-11T00:28:52.500812+00:00</updated>
+    <content>A Filipino rapper taps into her queer rave roots.</content>
+    <link href="https://ra.co/news/85695" rel="alternate"/>
+    <category term="News"/>
+    <published>2026-09-11T00:28:52.500812+00:00</published>
+    <media:group>
+      <media:content url="https://static.ra.co/images/news/2026/mixcollage-30-jul-2026-11-59-am-1814.jpg" type="image/jpeg" medium="image"/>
+      <media:thumbnail url="https://static.ra.co/images/news/2026/mixcollage-30-jul-2026-11-59-am-1814.jpg"/>
+    </media:group>
+    <link rel="enclosure" href="https://static.ra.co/images/news/2026/mixcollage-30-jul-2026-11-59-am-1814.jpg" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>https://ra.co/reviews/36361</id>
     <title>Various Artists - veneration for the sacred action</title>
@@ -2783,33 +2811,5 @@
       <media:thumbnail url="https://static.ra.co/images/news/2026/murmurams.png"/>
     </media:group>
     <link rel="enclosure" href="https://static.ra.co/images/news/2026/murmurams.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85881</id>
-    <title>New electroacoustic music compilation raising funds for detained Palestine activists</title>
-    <updated>2026-08-27T08:15:19+00:00</updated>
-    <content>Alchemic Fiction 1 is out now.</content>
-    <link href="https://ra.co/news/85881" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-27T08:15:19+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/alch.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/alch.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/alch.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>https://ra.co/news/85820</id>
-    <title>New South Wales festival Dragon Dreaming announces 2026 lineup</title>
-    <updated>2026-08-27T08:00:36+00:00</updated>
-    <content>The four-day, family-friendly event returns to Lake Burrinjuck from September 25th to 28th.</content>
-    <link href="https://ra.co/news/85820" rel="alternate"/>
-    <category term="News"/>
-    <published>2026-08-27T08:00:36+00:00</published>
-    <media:group>
-      <media:content url="https://static.ra.co/images/news/2026/dragondreaminghp01.jpg" type="image/jpeg" medium="image"/>
-      <media:thumbnail url="https://static.ra.co/images/news/2026/dragondreaminghp01.jpg"/>
-    </media:group>
-    <link rel="enclosure" href="https://static.ra.co/images/news/2026/dragondreaminghp01.jpg" type="image/jpeg" length="0"/>
   </entry>
 </feed>

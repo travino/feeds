@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://blog.cloudflare.com/</id>
   <title>Cloudflare</title>
-  <updated>2026-09-10T21:08:41.617329+00:00</updated>
+  <updated>2026-09-11T00:28:59.224531+00:00</updated>
   <author>
     <name>Cloudflare</name>
   </author>
@@ -13,6 +13,16 @@
   <logo>https://blog.cloudflare.com/favicon.ico</logo>
   <subtitle>Combined Cloudflare feed: the Cloudflare Blog, the developer Changelog, Community top topics, Status incidents, and Cloudflare Research publications.</subtitle>
   <entry>
+    <id>tag:trvny.github.io,2024:feedseek/cloudflare/5c43528a1cc446cf</id>
+    <title>DNS Update Delays</title>
+    <updated>2026-09-10T22:22:48+00:00</updated>
+    <content>Sep 10 , 22:22 UTC Resolved - This incident has been resolved. Sep 10 , 22:16 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 10 , 14:17 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 13:58 UTC Investigating - Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.</content>
+    <link href="https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p" rel="alternate"/>
+    <category term="Cloudflare Status" label="Cloudflare Status"/>
+    <published>2026-09-10T22:22:48+00:00</published>
+    <dc:creator>Cloudflare Status</dc:creator>
+  </entry>
+  <entry>
     <id>tag:trvny.github.io,2024:feedseek/cloudflare/f2a2f89e77317b97</id>
     <title>Issues Editing Bulk Redirects</title>
     <updated>2026-09-10T16:57:13+00:00</updated>
@@ -20,16 +30,6 @@
     <link href="https://www.cloudflarestatus.com/incidents/92j1xmlkscw3" rel="alternate"/>
     <category term="Cloudflare Status" label="Cloudflare Status"/>
     <published>2026-09-10T16:57:13+00:00</published>
-    <dc:creator>Cloudflare Status</dc:creator>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/cloudflare/5c43528a1cc446cf</id>
-    <title>DNS Update Delays</title>
-    <updated>2026-09-10T14:17:13+00:00</updated>
-    <content>Sep 10 , 14:17 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 13:58 UTC Investigating - Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.</content>
-    <link href="https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p" rel="alternate"/>
-    <category term="Cloudflare Status" label="Cloudflare Status"/>
-    <published>2026-09-10T14:17:13+00:00</published>
     <dc:creator>Cloudflare Status</dc:creator>
   </entry>
   <entry>

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:08:41.701615+00:00",
+  "last_updated": "2026-09-11T00:28:59.218133+00:00",
   "entries": [
     {
       "title": "Kneeliverse: A universal knee-detection library for performance curves",
@@ -5737,16 +5737,6 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/ed3eedaf835d3d01"
     },
     {
-      "title": "DNS Update Delays",
-      "link": "https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p",
-      "date": "2026-09-10T14:17:13+00:00",
-      "description": "Sep 10 , 14:17 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 13:58 UTC Investigating - Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.",
-      "source": "Cloudflare Status",
-      "image": null,
-      "image_checked": true,
-      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/5c43528a1cc446cf"
-    },
-    {
       "title": "Issues Editing Bulk Redirects",
       "link": "https://www.cloudflarestatus.com/incidents/92j1xmlkscw3",
       "date": "2026-09-10T16:57:13+00:00",
@@ -5755,6 +5745,16 @@
       "image": null,
       "image_checked": true,
       "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/f2a2f89e77317b97"
+    },
+    {
+      "title": "DNS Update Delays",
+      "link": "https://www.cloudflarestatus.com/incidents/nhfcmzd1pv4p",
+      "date": "2026-09-10T22:22:48+00:00",
+      "description": "Sep 10 , 22:22 UTC Resolved - This incident has been resolved. Sep 10 , 22:16 UTC Monitoring - A fix has been implemented and we are monitoring the results. Sep 10 , 14:17 UTC Identified - The issue has been identified and a fix is being implemented. Sep 10 , 13:58 UTC Investigating - Cloudflare is investigating delays in propagation of updates to DNS records. More updates to follow shortly.",
+      "source": "Cloudflare Status",
+      "image": null,
+      "image_checked": true,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/cloudflare/5c43528a1cc446cf"
     }
   ]
 }

@@ -2,7 +2,7 @@
 <feed xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://claude.com/claude</id>
   <title>Claude</title>
-  <updated>2026-09-10T21:08:41.060623+00:00</updated>
+  <updated>2026-09-11T00:28:58.206866+00:00</updated>
   <author>
     <name>Anthropic</name>
   </author>
@@ -12,6 +12,34 @@
   <icon>https://claude.com/favicon.ico</icon>
   <logo>https://claude.com/favicon.ico</logo>
   <subtitle>Claude product updates: the Claude blog, Claude Code (what's-new and changelog), Claude Apps release notes, Claude Platform release notes and system prompts, and the Claude status incident history.</subtitle>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/claude/96dd4f6e47837947</id>
+    <title>Elevated latency on the Claude API for some users</title>
+    <updated>2026-09-10T23:24:22+00:00</updated>
+    <content>Sep 10 , 23:24 UTC Resolved - The issue affecting Claude services has been mitigated. Sep 10 , 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.</content>
+    <link href="https://status.claude.com/incidents/2pt83vlkk7x7" rel="alternate"/>
+    <category term="Claude Status" label="Claude Status"/>
+    <published>2026-09-10T23:24:22+00:00</published>
+    <media:group>
+      <media:content url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" medium="image"/>
+      <media:thumbnail url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"/>
+    </media:group>
+    <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/claude/57960cf118608e83</id>
+    <title>v1.52386.0</title>
+    <updated>2026-09-10T22:37:27+00:00</updated>
+    <content>v1.52386.0</content>
+    <link href="https://claude.com/docs/cowork/changelog#v1-52386-0" rel="alternate"/>
+    <category term="Claude Cowork" label="Claude Cowork"/>
+    <published>2026-09-10T22:37:27+00:00</published>
+    <media:group>
+      <media:content url="https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&amp;w=1200&amp;q=100" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&amp;w=1200&amp;q=100" height="630" width="1200"/>
+    </media:group>
+    <link rel="enclosure" href="https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&amp;w=1200&amp;q=100" type="image/jpeg" length="0"/>
+  </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/claude/76393b5f0e367cad</id>
     <title>2.1.268</title>
@@ -53,6 +81,20 @@
       <media:thumbnail url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"/>
     </media:group>
     <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
+  </entry>
+  <entry>
+    <id>tag:trvny.github.io,2024:feedseek/claude/b1da90f74358af3d</id>
+    <title>Claude Platform release notes — September 10, 2026</title>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+    <content>Claude Managed Agents permission policies now include auto : the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission . See Let the server evaluate each call with auto . The ant CLI adds ant beta:sessions connect , which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send mes</content>
+    <link href="https://platform.claude.com/docs/en/release-notes/overview#september-10-2026" rel="alternate"/>
+    <category term="Claude Platform" label="Claude Platform"/>
+    <published>2026-09-10T00:00:00+00:00</published>
+    <media:group>
+      <media:content url="https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2" type="image/jpeg" medium="image" height="630" width="1200"/>
+      <media:thumbnail url="https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2" height="630" width="1200"/>
+    </media:group>
+    <link rel="enclosure" href="https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2" type="image/jpeg" length="0"/>
   </entry>
   <entry>
     <id>tag:trvny.github.io,2024:feedseek/claude/ceabd5be1bfcd842</id>
@@ -2039,47 +2081,5 @@
       <media:thumbnail url="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6905137f403a1564673d63ca_og_claude-code-remote-mcp.jpg" height="630" width="1200"/>
     </media:group>
     <link rel="enclosure" href="https://cdn.prod.website-files.com/68a44d4040f98a4adf2207b6/6905137f403a1564673d63ca_og_claude-code-remote-mcp.jpg" type="image/jpeg" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/claude/2bf46f8e03639589</id>
-    <title>Elevated errors on Claude Opus 5 and Haiku 4.5</title>
-    <updated>2026-07-27T14:36:43+00:00</updated>
-    <content>Jul 27 , 14:36 UTC Resolved - As of 7:34 PST / 14:34 UTC the errors have returned to baseline. Jul 27 , 14:04 UTC Update - Haiku 4.5 is also returning errors. Jul 27 , 13:42 UTC Update - We are currently investigating this issue. Jul 27 , 13:41 UTC Update - We are continuing to investigate this issue. Jul 27 , 13:39 UTC Investigating - We are currently investigating this issue.</content>
-    <link href="https://status.claude.com/incidents/rkk5x44tndw9" rel="alternate"/>
-    <category term="Claude Status" label="Claude Status"/>
-    <published>2026-07-27T14:36:43+00:00</published>
-    <media:group>
-      <media:content url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/claude/82e17f04394ce8de</id>
-    <title>Elevated errors on Claude Opus 5</title>
-    <updated>2026-07-27T09:05:24+00:00</updated>
-    <content>Jul 27 , 09:05 UTC Resolved - As of 2:03 PST / 9:03 UTC the errors have returned to baseline. Jul 27 , 08:16 UTC Investigating - We are currently investigating this issue.</content>
-    <link href="https://status.claude.com/incidents/lhqp09kxq7pb" rel="alternate"/>
-    <category term="Claude Status" label="Claude Status"/>
-    <published>2026-07-27T09:05:24+00:00</published>
-    <media:group>
-      <media:content url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
-  </entry>
-  <entry>
-    <id>tag:trvny.github.io,2024:feedseek/claude/6f36a864b9508a87</id>
-    <title>Elevated errors for Opus 5</title>
-    <updated>2026-07-26T09:45:34+00:00</updated>
-    <content>Jul 26 , 09:45 UTC Identified - The issue has been identified and a fix is being implemented. Jul 26 , 09:17 UTC Investigating - We are currently investigating this issue.</content>
-    <link href="https://status.claude.com/incidents/zftg3gqkmv18" rel="alternate"/>
-    <category term="Claude Status" label="Claude Status"/>
-    <published>2026-07-26T09:45:34+00:00</published>
-    <media:group>
-      <media:content url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" medium="image"/>
-      <media:thumbnail url="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png"/>
-    </media:group>
-    <link rel="enclosure" href="https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png" type="image/png" length="0"/>
   </entry>
 </feed>

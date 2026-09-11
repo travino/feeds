@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T21:08:41.134298+00:00",
+  "last_updated": "2026-09-11T00:28:58.281319+00:00",
   "entries": [
     {
       "title": "Claude Platform release notes — May 10th, 2024",
@@ -5095,6 +5095,17 @@
       "entry_id": "tag:trvny.github.io,2024:feedseek/claude/ceabd5be1bfcd842"
     },
     {
+      "title": "Claude Platform release notes — September 10, 2026",
+      "link": "https://platform.claude.com/docs/en/release-notes/overview#september-10-2026",
+      "date": "2026-09-10T00:00:00+00:00",
+      "description": "Claude Managed Agents permission policies now include auto : the server evaluates each agent or MCP tool call and runs it, denies it, or pauses for your approval. agent.tool_use and agent.mcp_tool_use events report how each call was evaluated in an evaluation field alongside evaluated_permission . See Let the server evaluate each call with auto . The ant CLI adds ant beta:sessions connect , which attaches your terminal to a Claude Managed Agents session. You can follow the session live, send mes",
+      "source": "Claude Platform",
+      "image": "https://platform.claude.com/web-api/og/docs/en/release-notes/overview?design-rev=2",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/claude/b1da90f74358af3d"
+    },
+    {
       "title": "Degraded functionality for Claude Cowork on Windows",
       "link": "https://status.claude.com/incidents/r1pqn1kb4hvk",
       "date": "2026-09-10T15:54:10+00:00",
@@ -5124,6 +5135,26 @@
       "image_width": 1200,
       "image_height": 630,
       "entry_id": "tag:trvny.github.io,2024:feedseek/claude/76393b5f0e367cad"
+    },
+    {
+      "title": "v1.52386.0",
+      "link": "https://claude.com/docs/cowork/changelog#v1-52386-0",
+      "date": "2026-09-10T22:37:27+00:00",
+      "description": "v1.52386.0",
+      "source": "Claude Cowork",
+      "image": "https://claude-ai.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3D%2B%26title%3DChangelog%26description%3DRelease%2Bnotes%2Bfor%2BClaude%2BDesktop%26theme%3D6f9b6bab2d50cee40d7f721c&w=1200&q=100",
+      "image_width": 1200,
+      "image_height": 630,
+      "entry_id": "tag:trvny.github.io,2024:feedseek/claude/57960cf118608e83"
+    },
+    {
+      "title": "Elevated latency on the Claude API for some users",
+      "link": "https://status.claude.com/incidents/2pt83vlkk7x7",
+      "date": "2026-09-10T23:24:22+00:00",
+      "description": "Sep 10 , 23:24 UTC Resolved - The issue affecting Claude services has been mitigated. Sep 10 , 21:43 UTC Identified - We are experiencing slower than normal response times on the Claude API for some customers whose traffic enters through the US Midwest. Users may experience elevated latency and some request timeouts.",
+      "source": "Claude Status",
+      "image": "https://dka575ofm4ao0.cloudfront.net/assets/logos/favicon-2b86ed00cfa6258307d4a3d0c482fd733c7973f82de213143b24fc062c540367.png",
+      "entry_id": "tag:trvny.github.io,2024:feedseek/claude/96dd4f6e47837947"
     }
   ]
 }

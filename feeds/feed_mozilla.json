@@ -8,12 +8,51 @@
   "icon": "https://www.google.com/s2/favicons?domain=blog.mozilla.org&sz=256",
   "items": [
     {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/159ad88049a6a3ef",
+      "url": "https://connect.mozilla.org/t5/discussions/no-sound-in-firefox-after-latest-update-audio-works-fine-on-all/m-p/137926#M55954",
+      "title": "No sound in Firefox after latest update (audio works fine on all other system apps)",
+      "content_text": "I am experiencing an issue where Firefox has completely lost all audio output immediately after the latest update, while all other applications and media players on my computer output sound without any problems.",
+      "date_published": "2026-09-10T23:06:22Z",
+      "date_modified": "2026-09-10T23:06:22Z",
+      "authors": [
+        {
+          "name": "Mozilla Connect"
+        }
+      ],
+      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+      "tags": [
+        "Mozilla Connect"
+      ],
+      "attachments": [
+        {
+          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
+          "mime_type": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "tag:trvny.github.io,2024:feedseek/mozilla/ddfa073c60750775",
+      "url": "https://jonalmeida.com/til/relocate-objdir-mozbuild/",
+      "title": "Move MOZ_OBJDIR outside of mozilla-central to speed up your IDE",
+      "content_text": "In mozilla-central (the firefox monorepo), a default object store directory is created within the source directory. This is equivalent to the build/ directory you would typically see in other projects.\nWhile this is typically fine, I've found that Android Studio indexes these files and we don't (yet?) have the ability to inform it to not do so because an objdir needs to be evaluated from MOZ_OBJDIR first.\nOver time, I ended up with these build directories that grew over time:\nDirectoryLast touch",
+      "date_published": "2026-09-10T22:57:55Z",
+      "date_modified": "2026-09-10T22:57:55Z",
+      "authors": [
+        {
+          "name": "Planet Mozilla"
+        }
+      ],
+      "tags": [
+        "Planet Mozilla"
+      ]
+    },
+    {
       "id": "tag:trvny.github.io,2024:feedseek/mozilla/736bc22b4589eae1",
       "url": "https://connect.mozilla.org/t5/discussions/quot-sign-in-to-sync-quot-banner-at-top-of-application-menu/m-p/137919#M55949",
       "title": "\"Sign In To Sync\" banner at top of application menu UNACCEPTABLE HOSTILE BEHAVIOUR FROM MOZILLA",
       "content_text": "Get that nonsense spam out of here. That is so in-the-way and distracting, it's literally a dark pattern. I am not giving you my data I am NOT letting my data leave MY DEVICE. If I lose everything, I lose everything, that's not the end of the world for me. But this banner is EXTREMELY ANNOYING AND A SLAP IN THE FACE. Like I said in the title, this behavior is HOSTILE AGAINST THE USER. This goes or I do. Who has replacement browser suggestions?",
-      "date_published": "2026-09-10T20:40:19Z",
-      "date_modified": "2026-09-10T20:40:19Z",
+      "date_published": "2026-09-10T22:11:22Z",
+      "date_modified": "2026-09-10T22:11:22Z",
       "authors": [
         {
           "name": "Mozilla Connect"
@@ -575,29 +614,6 @@
       "content_text": "Here what should be improved: - remembers last accessed bookmark folder - bookmarks pages to recent bookmark folder that had been bookmarked to - exports bookmarks (the import function exists so then the user expects to export) that would add a lot to firefox for android thus stop improving tab groups that are not really a priority than bookmark manager.",
       "date_published": "2026-09-08T21:44:58Z",
       "date_modified": "2026-09-08T21:44:58Z",
-      "authors": [
-        {
-          "name": "Mozilla Connect"
-        }
-      ],
-      "image": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-      "tags": [
-        "Mozilla Connect"
-      ],
-      "attachments": [
-        {
-          "url": "https://images.pickapic.live/get/ce5138fc-5ad6-c080-23fc-2a38543244fb-1684430071.jpeg",
-          "mime_type": "image/jpeg"
-        }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/21ad9feaff463189",
-      "url": "https://connect.mozilla.org/t5/discussions/thunderbird-marks-messages-as-unread-automatically/m-p/137539#M55680",
-      "title": "Thunderbird marks messages as unread automatically",
-      "content_text": "It's impossible to continue using Thunderbird with IMAP accounts. I have a lot o messages on my Inbox and several times it loses the sync with the server and all messages I've already read since its sync broken, are all together marked as unread. It is very (without words to describe). Then I need to ask to repair folder and read all again and some  days after it happens again. If I read the messages from my mobile app it never occurs.",
-      "date_published": "2026-09-08T20:08:33Z",
-      "date_modified": "2026-09-08T20:08:33Z",
       "authors": [
         {
           "name": "Mozilla Connect"
@@ -1368,22 +1384,6 @@
           "url": "https://www.firefox.com/media/protocol/img/logos/firefox/browser/nightly/og.3190903353c3.png",
           "mime_type": "image/png"
         }
-      ]
-    },
-    {
-      "id": "tag:trvny.github.io,2024:feedseek/mozilla/3d78382bdbf34a98",
-      "url": "https://blog.mozilla.org/performance/2026/08/26/the-road-to-better-performance-profiles-part-2/",
-      "title": "The Road to Better Performance Profiles – Part 2",
-      "content_text": "Following the symbolication work from Part 1, I undertook two more efforts to improve performance profiles for the Performance team. Native Profiling (Bugs 2030161, 2030166, 2047451, and 2030423) The first … Read more",
-      "date_published": "2026-08-26T19:28:35Z",
-      "date_modified": "2026-08-26T19:28:35Z",
-      "authors": [
-        {
-          "name": "Planet Mozilla"
-        }
-      ],
-      "tags": [
-        "Planet Mozilla"
       ]
     },
     {
